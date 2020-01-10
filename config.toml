@@ -43,10 +43,10 @@ keywords = "Hugo, theme, even"
 description = "Hugo theme even example site."
 toc = true
 navItems = [
-  ["HOME", "/"],
-  ["ARCHIVE", "/posts.html"],
-  ["ABOUT", "/about.html"],
-  ["RSS", "/atom.xml"]
+  ["首页", "/"],
+  ["文章归档", "/posts.html"],
+  ["关于我", "/about.html"],
+  ["rss", "/atom.xml"]
 ]
 # rss 全文输出
 rssFullContent = true
@@ -74,6 +74,6 @@ alipay = "https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424153431.p
 [social]
 github = "forecho"
 instagram = "forecho"
-youtube = "forecho"
 twitter = "caizhenghai"
 douban = "ipzone"
+rss = "/atom.xml"
