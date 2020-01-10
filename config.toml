@@ -46,7 +46,7 @@ navItems = [
   ["首页", "/"],
   ["文章归档", "/posts.html"],
   ["关于我", "/about.html"],
-  ["rss", "/atom.xml"]
+  ["联盟链接", "/friendship-links/"],
 ]
 # rss 全文输出
 rssFullContent = true
