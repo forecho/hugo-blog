@@ -1,0 +1,79 @@
+baseURL = "http://39.108.170.72"
+languageCode = "en-us"
+title = "Forecho's Blog"
+theme = "echo"
+DefaultContentLanguage = "cn"
+# 自动检测是否包含中文/日文/韩文，该参数会影响摘要和字数统计功能，建议设置为true
+hasCJKLanguage = true
+# 设置页面生成形式，将默认的网站路径/修改成.html
+uglyURLs = true
+googleAnalytics = ""      # UA-XXXXXXXX-X
+
+[markup.highlight]
+codeFences = true # 高亮markdown的代码块
+guessSyntax = true # 高亮markdown中没有标注语言的代码块
+hl_Lines = ""
+lineNoStart = 1
+lineNos = true
+lineNumbersInTable = true
+noClasses = true
+style = "manni"
+tabWidth = 2
+
+# https://gohugo.io/content-management/urls/#aliases
+[permalinks]
+posts = "/:filename"
+
+[outputFormats.RSS]
+mediatype = "application/rss"
+baseName = "atom"
+
+[services.rss]
+limit = 20
+
+[author]
+name = "forecho"
+avatar = "https://avatars0.githubusercontent.com/u/1725326?s=460&v=4"
+bio = "7年开发经验，寻求技术 Leader 工作机会。Wechat: ipzone"
+homepage = "https://forecho.io/"
+
+[params]
+favicon = "https://avatars0.githubusercontent.com/u/1725326?s=460&v=4"
+keywords = "Hugo, theme, even"
+description = "Hugo theme even example site."
+toc = true
+navItems = [
+  ["HOME", "/"],
+  ["ARCHIVE", "/posts.html"],
+  ["ABOUT", "/about.html"],
+  ["RSS", "/atom.xml"]
+]
+# rss 全文输出
+rssFullContent = true
+uglyURLs = true
+busuanzi = true # 是否使用不蒜子统计站点访问量
+staticCDNPrefix = "https://cdn.bootcss.com/font-awesome/5.11.2"
+extraHead = ''
+postAds = ""
+profileAds = '<div class="bg-white shadow"><img class=" object-cover w-auto mx-auto mt-6" src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424153337.png" alt="微信打赏"></div>'
+
+# 开启版权声明，协议名字和链接都可以换
+[params.cc]
+name = "署名-非商业性使用 4.0 国际 (CC BY-NC 4.0)"
+link = "https://creativecommons.org/licenses/by-nc/4.0/deed.zh"
+
+# 文章打赏
+[params.reward]
+enable = true
+title = "打赏"
+wechat = "https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424153510.png" # 微信二维码
+alipay = "https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424153431.png" # 支付宝二维码
+
+############ 评论系统  end ##############
+## 社交链接
+[social]
+github = "forecho"
+instagram = "forecho"
+youtube = "forecho"
+twitter = "caizhenghai"
+douban = "ipzone"
