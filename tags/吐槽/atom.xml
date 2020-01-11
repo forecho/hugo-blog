@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>吐槽 on Forecho&#39;s Blog</title>
-    <link>http://39.108.170.72/tags/%E5%90%90%E6%A7%BD.html</link>
-    <description>Recent content in 吐槽 on Forecho&#39;s Blog</description>
+    <title>吐槽 on forecho&#39;s Blog</title>
+    <link>https://blog.forecho.com/tags/%E5%90%90%E6%A7%BD.html</link>
+    <description>Recent content in 吐槽 on forecho&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 22 Sep 2016 23:48:00 +0800</lastBuildDate>
     
-	<atom:link href="http://39.108.170.72/tags/%E5%90%90%E6%A7%BD/atom.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.forecho.com/tags/%E5%90%90%E6%A7%BD/atom.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>26岁生日</title>
-      <link>http://39.108.170.72/26-years-old-birthday.html</link>
+      <link>https://blog.forecho.com/26-years-old-birthday.html</link>
       <pubDate>Thu, 22 Sep 2016 23:48:00 +0800</pubDate>
       
-      <guid>http://39.108.170.72/26-years-old-birthday.html</guid>
+      <guid>https://blog.forecho.com/26-years-old-birthday.html</guid>
       <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
 &lt;p&gt;其实这篇文章应该要写在&lt;a href=&#34;https://blog.forecho.com/blog-5-year-old-happy-birthday.html&#34;&gt;《博客5岁生日快乐》&lt;/a&gt;前半个多月的，但是9月真是一个让人非常忙碌的月份，所以一直拖到今天。&lt;/p&gt;
 &lt;p&gt;最近这一个月里我主要干了两件事和一件小事。&lt;/p&gt;</description>
@@ -24,10 +24,10 @@
     
     <item>
       <title>谈谈考驾照的事情</title>
-      <link>http://39.108.170.72/talk-about-things-driving-test.html</link>
+      <link>https://blog.forecho.com/talk-about-things-driving-test.html</link>
       <pubDate>Tue, 28 Jun 2016 23:19:00 +0800</pubDate>
       
-      <guid>http://39.108.170.72/talk-about-things-driving-test.html</guid>
+      <guid>https://blog.forecho.com/talk-about-things-driving-test.html</guid>
       <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
 &lt;p&gt;2016年过完年之后就有打算考驾照的事情，想考驾照主要有两个原因：&lt;/p&gt;
 &lt;ol&gt;
@@ -38,12 +38,12 @@
     
     <item>
       <title>解决「vagrant up」timeout 问题</title>
-      <link>http://39.108.170.72/solve-vagrant-up-timeout.html</link>
+      <link>https://blog.forecho.com/solve-vagrant-up-timeout.html</link>
       <pubDate>Thu, 30 Jul 2015 22:38:00 +0800</pubDate>
       
-      <guid>http://39.108.170.72/solve-vagrant-up-timeout.html</guid>
+      <guid>https://blog.forecho.com/solve-vagrant-up-timeout.html</guid>
       <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
-&lt;p&gt;之前我有写&lt;a href=&#34;http://39.108.170.72/blog/windows-coding-tool.html#section-1&#34;&gt;《Windows 开发利器》&lt;/a&gt;文章提到使用「VirtualBox + Vagrant（打造 Linux 开发环境）」，
+&lt;p&gt;之前我有写&lt;a href=&#34;https://blog.forecho.com/blog/windows-coding-tool.html#section-1&#34;&gt;《Windows 开发利器》&lt;/a&gt;文章提到使用「VirtualBox + Vagrant（打造 Linux 开发环境）」，
 到现在为止在公司使用也有几个月了，到现在为只出现过两次问题。&lt;/p&gt;
 &lt;h2 id=&#34;第一次启动不了&#34;&gt;第一次启动不了&lt;/h2&gt;
 &lt;p&gt;第一次主要是我电脑下班之后没关机，睡眠模式，结果半夜停电了，导致强制关机了，最后导致 &lt;code&gt;vagrant up&lt;/code&gt; 命令启动不了了，最后我又重新安装了我的 vagrant。
@@ -73,10 +73,10 @@
     
     <item>
       <title>老罗和他的锤子</title>
-      <link>http://39.108.170.72/lao-luo-he-ta-de-chui-zi.html</link>
+      <link>https://blog.forecho.com/lao-luo-he-ta-de-chui-zi.html</link>
       <pubDate>Sun, 05 May 2013 23:30:00 +0800</pubDate>
       
-      <guid>http://39.108.170.72/lao-luo-he-ta-de-chui-zi.html</guid>
+      <guid>https://blog.forecho.com/lao-luo-he-ta-de-chui-zi.html</guid>
       <description>下面这段视频是『锤子智能手机操作系统发布会官方版』 知道罗永浩（下面简称「老罗」）这个人是在我大学大的时候，那时候刚配上电脑，那会儿网上他在各</description>
     </item>
     

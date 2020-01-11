@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>vim on Forecho&#39;s Blog</title>
-    <link>http://39.108.170.72/tags/vim.html</link>
-    <description>Recent content in vim on Forecho&#39;s Blog</description>
+    <title>vim on forecho&#39;s Blog</title>
+    <link>https://blog.forecho.com/tags/vim.html</link>
+    <description>Recent content in vim on forecho&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 08 Oct 2019 22:48:00 +0800</lastBuildDate>
     
-	<atom:link href="http://39.108.170.72/tags/vim/atom.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.forecho.com/tags/vim/atom.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>重学 Vim</title>
-      <link>http://39.108.170.72/re-study-vim.html</link>
+      <link>https://blog.forecho.com/re-study-vim.html</link>
       <pubDate>Tue, 08 Oct 2019 22:48:00 +0800</pubDate>
       
-      <guid>http://39.108.170.72/re-study-vim.html</guid>
+      <guid>https://blog.forecho.com/re-study-vim.html</guid>
       <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
 &lt;p&gt;2013 年的时候我才开始接触 Vim，简单学了一下，也没用起来，后来只记得普通模式以及怎么进入插入模式，然后就是保存退出这几个命令了。&lt;/p&gt;
 &lt;p&gt;直到最近买了一个 HHKB 键盘以及发现使用 Vim 编码效率要高很多，所以我决定重拾 Vim，为了加强自己的记忆，于是我就整理了这篇文章。&lt;/p&gt;</description>
@@ -24,10 +24,10 @@
     
     <item>
       <title>使用 HHKB</title>
-      <link>http://39.108.170.72/use-hhkb.html</link>
+      <link>https://blog.forecho.com/use-hhkb.html</link>
       <pubDate>Wed, 11 Sep 2019 21:48:00 +0800</pubDate>
       
-      <guid>http://39.108.170.72/use-hhkb.html</guid>
+      <guid>https://blog.forecho.com/use-hhkb.html</guid>
       <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
 &lt;p&gt;最近干了两件事情，让我的工作效率立马变得很慢了:&lt;/p&gt;
 &lt;ul&gt;
@@ -39,10 +39,10 @@
     
     <item>
       <title>Vim编辑器使用（一）</title>
-      <link>http://39.108.170.72/vim-bian-ji-qi-shi-yong-yi.html</link>
+      <link>https://blog.forecho.com/vim-bian-ji-qi-shi-yong-yi.html</link>
       <pubDate>Tue, 09 Jul 2013 10:39:00 +0800</pubDate>
       
-      <guid>http://39.108.170.72/vim-bian-ji-qi-shi-yong-yi.html</guid>
+      <guid>https://blog.forecho.com/vim-bian-ji-qi-shi-yong-yi.html</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20191009111312.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;默认是一般模式&lt;/p&gt;
 &lt;p&gt;按 &lt;code&gt;i&lt;/code&gt;、&lt;code&gt;I&lt;/code&gt;、&lt;code&gt;o&lt;/code&gt;、&lt;code&gt;O&lt;/code&gt;、&lt;code&gt;a&lt;/code&gt;、&lt;code&gt;A&lt;/code&gt;、&lt;code&gt;r&lt;/code&gt;、&lt;code&gt;R&lt;/code&gt; 进入编辑模式&lt;/p&gt;
@@ -51,10 +51,10 @@
     
     <item>
       <title>Vim编辑器使用（二）——一般模式</title>
-      <link>http://39.108.170.72/vim-bian-ji-qi-shi-yong-er-yi-ban-mo-shi.html</link>
+      <link>https://blog.forecho.com/vim-bian-ji-qi-shi-yong-er-yi-ban-mo-shi.html</link>
       <pubDate>Tue, 09 Jul 2013 10:39:00 +0800</pubDate>
       
-      <guid>http://39.108.170.72/vim-bian-ji-qi-shi-yong-er-yi-ban-mo-shi.html</guid>
+      <guid>https://blog.forecho.com/vim-bian-ji-qi-shi-yong-er-yi-ban-mo-shi.html</guid>
       <description>&lt;p&gt;&lt;strong&gt;一般模式：移动光标的方法（#表示常用）&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;h&lt;/code&gt; -&amp;gt; 光标向左移动一个字符#&lt;/li&gt;

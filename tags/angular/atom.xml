@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Angular on Forecho&#39;s Blog</title>
-    <link>http://39.108.170.72/tags/angular.html</link>
-    <description>Recent content in Angular on Forecho&#39;s Blog</description>
+    <title>Angular on forecho&#39;s Blog</title>
+    <link>https://blog.forecho.com/tags/angular.html</link>
+    <description>Recent content in Angular on forecho&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 03 Aug 2017 15:59:00 +0800</lastBuildDate>
     
-	<atom:link href="http://39.108.170.72/tags/angular/atom.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.forecho.com/tags/angular/atom.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>我是如何学习 Angular</title>
-      <link>http://39.108.170.72/how-do-i-learn-angular.html</link>
+      <link>https://blog.forecho.com/how-do-i-learn-angular.html</link>
       <pubDate>Thu, 03 Aug 2017 15:59:00 +0800</pubDate>
       
-      <guid>http://39.108.170.72/how-do-i-learn-angular.html</guid>
+      <guid>https://blog.forecho.com/how-do-i-learn-angular.html</guid>
       <description>&lt;h2 id=&#34;交代我的前端背景&#34;&gt;交代我的前端背景&lt;/h2&gt;
 &lt;p&gt;工作5年多了，基本上都在写 PHP，对于前端在校的时候学过一些 JavaScript、HTML 和 CSS，那个时候我 HTML 和 CSS 还是比较擅长的。&lt;/p&gt;
 &lt;p&gt;后来第一家公司是外包公司，页面都是我们写的。那个时候 jQuery 还是非常火的，但我傻傻分不清楚 JavaScript 和 jQuery 以及 Ajax 他们之间的区别。而我们的前端代码全靠复制百度搜索出来的结果，后来公司终于招来了一位前端工程师，可算是把我们从不明所以的前端坑里面解救出来了。&lt;/p&gt;

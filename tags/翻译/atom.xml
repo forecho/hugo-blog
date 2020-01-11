@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>翻译 on Forecho&#39;s Blog</title>
-    <link>http://39.108.170.72/tags/%E7%BF%BB%E8%AF%91.html</link>
-    <description>Recent content in 翻译 on Forecho&#39;s Blog</description>
+    <title>翻译 on forecho&#39;s Blog</title>
+    <link>https://blog.forecho.com/tags/%E7%BF%BB%E8%AF%91.html</link>
+    <description>Recent content in 翻译 on forecho&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 29 Jan 2016 15:36:00 +0800</lastBuildDate>
     
-	<atom:link href="http://39.108.170.72/tags/%E7%BF%BB%E8%AF%91/atom.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.forecho.com/tags/%E7%BF%BB%E8%AF%91/atom.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>如何阅读一本书</title>
-      <link>http://39.108.170.72/how-to-read-a-book.html</link>
+      <link>https://blog.forecho.com/how-to-read-a-book.html</link>
       <pubDate>Fri, 29 Jan 2016 15:36:00 +0800</pubDate>
       
-      <guid>http://39.108.170.72/how-to-read-a-book.html</guid>
+      <guid>https://blog.forecho.com/how-to-read-a-book.html</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;大致翻译了一下，有些没看懂。😓&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -29,10 +29,10 @@
     
     <item>
       <title>塑造成功框架的哲学</title>
-      <link>http://39.108.170.72/successful-framework-philosophies.html</link>
+      <link>https://blog.forecho.com/successful-framework-philosophies.html</link>
       <pubDate>Sun, 27 Dec 2015 22:37:00 +0800</pubDate>
       
-      <guid>http://39.108.170.72/successful-framework-philosophies.html</guid>
+      <guid>https://blog.forecho.com/successful-framework-philosophies.html</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;来源：&lt;a href=&#34;http://www.capitalone.io/blog/successful-framework-philosophies/&#34;&gt;Philosophies that Shaped Successful Frameworks&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -50,10 +50,10 @@
     
     <item>
       <title>如何让团队里的工程师对工作不厌烦</title>
-      <link>http://39.108.170.72/coding-is-boring-unless.html</link>
+      <link>https://blog.forecho.com/coding-is-boring-unless.html</link>
       <pubDate>Mon, 30 Nov 2015 17:40:00 +0800</pubDate>
       
-      <guid>http://39.108.170.72/coding-is-boring-unless.html</guid>
+      <guid>https://blog.forecho.com/coding-is-boring-unless.html</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;原文：&lt;a href=&#34;https://blog.enki.com/coding-is-boring-unless-4e496720d664#.pgkeq1x6r&#34;&gt;《Coding is boring, unless…》&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -66,10 +66,10 @@
     
     <item>
       <title>PHP 中的动态属性和 StdClass</title>
-      <link>http://39.108.170.72/dynamic-properties-in-php-and-stdclass.html</link>
+      <link>https://blog.forecho.com/dynamic-properties-in-php-and-stdclass.html</link>
       <pubDate>Sun, 08 Nov 2015 21:52:00 +0800</pubDate>
       
-      <guid>http://39.108.170.72/dynamic-properties-in-php-and-stdclass.html</guid>
+      <guid>https://blog.forecho.com/dynamic-properties-in-php-and-stdclass.html</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;翻译 &lt;a href=&#34;http://krisjordan.com/dynamic-properties-in-php-with-stdclass&#34;&gt;Dynamic Properties in PHP and StdClass&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;

@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Python on Forecho&#39;s Blog</title>
-    <link>http://39.108.170.72/tags/python.html</link>
-    <description>Recent content in Python on Forecho&#39;s Blog</description>
+    <title>Python on forecho&#39;s Blog</title>
+    <link>https://blog.forecho.com/tags/python.html</link>
+    <description>Recent content in Python on forecho&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 18 Nov 2014 20:05:00 +0800</lastBuildDate>
     
-	<atom:link href="http://39.108.170.72/tags/python/atom.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.forecho.com/tags/python/atom.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>安装 Python pip</title>
-      <link>http://39.108.170.72/install-pip.html</link>
+      <link>https://blog.forecho.com/install-pip.html</link>
       <pubDate>Tue, 18 Nov 2014 20:05:00 +0800</pubDate>
       
-      <guid>http://39.108.170.72/install-pip.html</guid>
+      <guid>https://blog.forecho.com/install-pip.html</guid>
       <description>&lt;h2 id=&#34;windows-安装&#34;&gt;Windows 安装&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;先下载 &lt;a href=&#34;https://raw.github.com/pypa/pip/master/contrib/get-pip.py&#34;&gt;get-pip.py&lt;/a&gt;&lt;/li&gt;

@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>mac on Forecho&#39;s Blog</title>
-    <link>http://39.108.170.72/tags/mac.html</link>
-    <description>Recent content in mac on Forecho&#39;s Blog</description>
+    <title>Mac on forecho&#39;s Blog</title>
+    <link>https://blog.forecho.com/tags/mac.html</link>
+    <description>Recent content in Mac on forecho&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 26 Dec 2019 21:48:00 +0800</lastBuildDate>
     
-	<atom:link href="http://39.108.170.72/tags/mac/atom.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.forecho.com/tags/mac/atom.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Mac 利器 Hammerspoon 使用指南</title>
-      <link>http://39.108.170.72/use-hammerspoon.html</link>
+      <link>https://blog.forecho.com/use-hammerspoon.html</link>
       <pubDate>Thu, 26 Dec 2019 21:48:00 +0800</pubDate>
       
-      <guid>http://39.108.170.72/use-hammerspoon.html</guid>
+      <guid>https://blog.forecho.com/use-hammerspoon.html</guid>
       <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
 &lt;p&gt;今天要给大家分享的是一款 Mac 利器 Hammerspoon，通过编写 Lua 脚本可以让这款软件实现以下功能&lt;/p&gt;
 &lt;ul&gt;
@@ -35,10 +35,10 @@
     
     <item>
       <title>Mac 安装 Docker</title>
-      <link>http://39.108.170.72/mac-install-docker.html</link>
+      <link>https://blog.forecho.com/mac-install-docker.html</link>
       <pubDate>Sun, 26 Jul 2015 22:55:00 +0800</pubDate>
       
-      <guid>http://39.108.170.72/mac-install-docker.html</guid>
+      <guid>https://blog.forecho.com/mac-install-docker.html</guid>
       <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;前几天 MacBook 拿去修了，回来时候貌似覆盖的方式重装了一回系统了。反正就是 Apache 环境都没了，索性借这次机会使用一下 Docker 吧。&lt;/p&gt;
 &lt;h2 id=&#34;安装&#34;&gt;安装&lt;/h2&gt;
@@ -63,10 +63,10 @@
     
     <item>
       <title>Mac 安装 PHP5.4 的 Mcrypt 扩展</title>
-      <link>http://39.108.170.72/mac-an-zhuang-php5-4-de-mcrypt-kuo-zhan.html</link>
+      <link>https://blog.forecho.com/mac-an-zhuang-php5-4-de-mcrypt-kuo-zhan.html</link>
       <pubDate>Sat, 01 Mar 2014 14:34:00 +0800</pubDate>
       
-      <guid>http://39.108.170.72/mac-an-zhuang-php5-4-de-mcrypt-kuo-zhan.html</guid>
+      <guid>https://blog.forecho.com/mac-an-zhuang-php5-4-de-mcrypt-kuo-zhan.html</guid>
       <description>忘记什么时候把 MacBook 的 PHP 版本升级到 PHP5.4了，然后准备学一下 Laravel 这个框架的时候，提醒 Mcrypt 扩展未安装。 安装这个扩展真是头疼，尽管有 Homebrew ，尽管能 Google 到很</description>
     </item>
     

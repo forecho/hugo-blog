@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>yii1 on Forecho&#39;s Blog</title>
-    <link>http://39.108.170.72/tags/yii1.html</link>
-    <description>Recent content in yii1 on Forecho&#39;s Blog</description>
+    <title>yii1 on forecho&#39;s Blog</title>
+    <link>https://blog.forecho.com/tags/yii1.html</link>
+    <description>Recent content in yii1 on forecho&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 17 Nov 2014 12:51:00 +0800</lastBuildDate>
     
-	<atom:link href="http://39.108.170.72/tags/yii1/atom.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.forecho.com/tags/yii1/atom.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>使用Yii的 CMenu</title>
-      <link>http://39.108.170.72/shi-yong-yiide-cmenu.html</link>
+      <link>https://blog.forecho.com/shi-yong-yiide-cmenu.html</link>
       <pubDate>Mon, 17 Nov 2014 12:51:00 +0800</pubDate>
       
-      <guid>http://39.108.170.72/shi-yong-yiide-cmenu.html</guid>
+      <guid>https://blog.forecho.com/shi-yong-yiide-cmenu.html</guid>
       <description>&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
 &lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
 &lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 1
@@ -140,10 +140,10 @@
     
     <item>
       <title>Yii全选删除</title>
-      <link>http://39.108.170.72/yii-quan-xuan-shan-chu.html</link>
+      <link>https://blog.forecho.com/yii-quan-xuan-shan-chu.html</link>
       <pubDate>Thu, 30 May 2013 20:10:00 +0800</pubDate>
       
-      <guid>http://39.108.170.72/yii-quan-xuan-shan-chu.html</guid>
+      <guid>https://blog.forecho.com/yii-quan-xuan-shan-chu.html</guid>
       <description>目前功能还是能用，但是删除不是Ajax操作的。等待下次完善。 Views： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 &amp;lt;form action=&amp;#34;/member/msglog/deleteordmsg&amp;#34; method=&amp;#34;post&amp;#34; id=&amp;#34;deleteForm&amp;#34;&amp;gt; &amp;lt;?php $this-&amp;gt;widget(&amp;#39;zii.widgets.CListView&amp;#39;, array( &amp;#39;dataProvider&amp;#39;=&amp;gt;$dataProvider, &amp;#39;itemView&amp;#39;=&amp;gt;&amp;#39;_view&amp;#39;, &amp;#39;e</description>
     </item>
     

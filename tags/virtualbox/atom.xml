@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>VirtualBox on Forecho&#39;s Blog</title>
-    <link>http://39.108.170.72/tags/virtualbox.html</link>
-    <description>Recent content in VirtualBox on Forecho&#39;s Blog</description>
+    <title>VirtualBox on forecho&#39;s Blog</title>
+    <link>https://blog.forecho.com/tags/virtualbox.html</link>
+    <description>Recent content in VirtualBox on forecho&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 30 Jul 2015 22:38:00 +0800</lastBuildDate>
     
-	<atom:link href="http://39.108.170.72/tags/virtualbox/atom.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.forecho.com/tags/virtualbox/atom.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>解决「vagrant up」timeout 问题</title>
-      <link>http://39.108.170.72/solve-vagrant-up-timeout.html</link>
+      <link>https://blog.forecho.com/solve-vagrant-up-timeout.html</link>
       <pubDate>Thu, 30 Jul 2015 22:38:00 +0800</pubDate>
       
-      <guid>http://39.108.170.72/solve-vagrant-up-timeout.html</guid>
+      <guid>https://blog.forecho.com/solve-vagrant-up-timeout.html</guid>
       <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
-&lt;p&gt;之前我有写&lt;a href=&#34;http://39.108.170.72/blog/windows-coding-tool.html#section-1&#34;&gt;《Windows 开发利器》&lt;/a&gt;文章提到使用「VirtualBox + Vagrant（打造 Linux 开发环境）」，
+&lt;p&gt;之前我有写&lt;a href=&#34;https://blog.forecho.com/blog/windows-coding-tool.html#section-1&#34;&gt;《Windows 开发利器》&lt;/a&gt;文章提到使用「VirtualBox + Vagrant（打造 Linux 开发环境）」，
 到现在为止在公司使用也有几个月了，到现在为只出现过两次问题。&lt;/p&gt;
 &lt;h2 id=&#34;第一次启动不了&#34;&gt;第一次启动不了&lt;/h2&gt;
 &lt;p&gt;第一次主要是我电脑下班之后没关机，睡眠模式，结果半夜停电了，导致强制关机了，最后导致 &lt;code&gt;vagrant up&lt;/code&gt; 命令启动不了了，最后我又重新安装了我的 vagrant。

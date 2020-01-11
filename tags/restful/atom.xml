@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>restful on Forecho&#39;s Blog</title>
-    <link>http://39.108.170.72/tags/restful.html</link>
-    <description>Recent content in restful on Forecho&#39;s Blog</description>
+    <title>restful on forecho&#39;s Blog</title>
+    <link>https://blog.forecho.com/tags/restful.html</link>
+    <description>Recent content in restful on forecho&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 01 Mar 2019 21:58:00 +0800</lastBuildDate>
     
-	<atom:link href="http://39.108.170.72/tags/restful/atom.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.forecho.com/tags/restful/atom.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>使用 Postman</title>
-      <link>http://39.108.170.72/use-postman.html</link>
+      <link>https://blog.forecho.com/use-postman.html</link>
       <pubDate>Fri, 01 Mar 2019 21:58:00 +0800</pubDate>
       
-      <guid>http://39.108.170.72/use-postman.html</guid>
+      <guid>https://blog.forecho.com/use-postman.html</guid>
       <description>&lt;p&gt;{% raw %}&lt;/p&gt;
 &lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;http://blog.forecho.com/use-jwt.html&#34;&gt;上篇文章&lt;/a&gt;我们讲到 API 可能会使用到的 JWT 认证。既然讲到 API 开发就不得不讲到 API 调试以及测试神器 - &lt;a href=&#34;https://www.getpostman.com/&#34;&gt;Postman&lt;/a&gt;。&lt;/p&gt;
@@ -28,10 +28,10 @@
     
     <item>
       <title>使用 JWT</title>
-      <link>http://39.108.170.72/use-jwt.html</link>
+      <link>https://blog.forecho.com/use-jwt.html</link>
       <pubDate>Mon, 25 Feb 2019 21:58:00 +0800</pubDate>
       
-      <guid>http://39.108.170.72/use-jwt.html</guid>
+      <guid>https://blog.forecho.com/use-jwt.html</guid>
       <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
 &lt;p&gt;API 开发一定会涉及到认证问题，本篇文章就是结合我自己工作经验来分享一下我用过的 JWT 认证以及它和普通认证的区别，希望本篇文章对你在开发 API 认证时有用。&lt;/p&gt;
 &lt;h2 id=&#34;什么是-jwt&#34;&gt;什么是 JWT&lt;/h2&gt;
@@ -40,19 +40,19 @@
     
     <item>
       <title>Yii2 搭建最基础的 RESTful</title>
-      <link>http://39.108.170.72/yii2-base-restful.html</link>
+      <link>https://blog.forecho.com/yii2-base-restful.html</link>
       <pubDate>Mon, 27 Jul 2015 20:25:00 +0800</pubDate>
       
-      <guid>http://39.108.170.72/yii2-base-restful.html</guid>
+      <guid>https://blog.forecho.com/yii2-base-restful.html</guid>
       <description>为了让项目更加清晰，我们可以单独新建一个 Api，用来专门开发 Api。至于怎么新建，参考这篇文章：Yii2 高级版新建一个 Api 应用 &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash;draft: false toc: true 系列文章</description>
     </item>
     
     <item>
       <title>Yii2 如何实现 RESTful？</title>
-      <link>http://39.108.170.72/yii2-use-restful.html</link>
+      <link>https://blog.forecho.com/yii2-use-restful.html</link>
       <pubDate>Sun, 22 Mar 2015 20:25:00 +0800</pubDate>
       
-      <guid>http://39.108.170.72/yii2-use-restful.html</guid>
+      <guid>https://blog.forecho.com/yii2-use-restful.html</guid>
       <description>&lt;h2 id=&#34;什么是rest&#34;&gt;什么是REST&lt;/h2&gt;
 &lt;p&gt;简单的说，REST 指的是一组架构约束条件和原则。满足这些约束条件和原则的应用程序或设计就是 RESTful。&lt;/p&gt;
 &lt;h2 id=&#34;为什么要restful&#34;&gt;为什么要Restful？&lt;/h2&gt;

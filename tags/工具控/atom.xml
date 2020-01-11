@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>工具控 on Forecho&#39;s Blog</title>
-    <link>http://39.108.170.72/tags/%E5%B7%A5%E5%85%B7%E6%8E%A7.html</link>
-    <description>Recent content in 工具控 on Forecho&#39;s Blog</description>
+    <title>工具控 on forecho&#39;s Blog</title>
+    <link>https://blog.forecho.com/tags/%E5%B7%A5%E5%85%B7%E6%8E%A7.html</link>
+    <description>Recent content in 工具控 on forecho&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 01 Mar 2019 21:58:00 +0800</lastBuildDate>
     
-	<atom:link href="http://39.108.170.72/tags/%E5%B7%A5%E5%85%B7%E6%8E%A7/atom.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.forecho.com/tags/%E5%B7%A5%E5%85%B7%E6%8E%A7/atom.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>使用 Postman</title>
-      <link>http://39.108.170.72/use-postman.html</link>
+      <link>https://blog.forecho.com/use-postman.html</link>
       <pubDate>Fri, 01 Mar 2019 21:58:00 +0800</pubDate>
       
-      <guid>http://39.108.170.72/use-postman.html</guid>
+      <guid>https://blog.forecho.com/use-postman.html</guid>
       <description>&lt;p&gt;{% raw %}&lt;/p&gt;
 &lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;http://blog.forecho.com/use-jwt.html&#34;&gt;上篇文章&lt;/a&gt;我们讲到 API 可能会使用到的 JWT 认证。既然讲到 API 开发就不得不讲到 API 调试以及测试神器 - &lt;a href=&#34;https://www.getpostman.com/&#34;&gt;Postman&lt;/a&gt;。&lt;/p&gt;

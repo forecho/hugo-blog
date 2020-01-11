@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>编程思想 on Forecho&#39;s Blog</title>
-    <link>http://39.108.170.72/tags/%E7%BC%96%E7%A8%8B%E6%80%9D%E6%83%B3.html</link>
-    <description>Recent content in 编程思想 on Forecho&#39;s Blog</description>
+    <title>编程思想 on forecho&#39;s Blog</title>
+    <link>https://blog.forecho.com/tags/%E7%BC%96%E7%A8%8B%E6%80%9D%E6%83%B3.html</link>
+    <description>Recent content in 编程思想 on forecho&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 19 Dec 2016 12:09:00 +0800</lastBuildDate>
     
-	<atom:link href="http://39.108.170.72/tags/%E7%BC%96%E7%A8%8B%E6%80%9D%E6%83%B3/atom.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.forecho.com/tags/%E7%BC%96%E7%A8%8B%E6%80%9D%E6%83%B3/atom.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>用辅助函数来取代复杂的表达式</title>
-      <link>http://39.108.170.72/write-helper-functions-instead-of-complex-expressions.html</link>
+      <link>https://blog.forecho.com/write-helper-functions-instead-of-complex-expressions.html</link>
       <pubDate>Mon, 19 Dec 2016 12:09:00 +0800</pubDate>
       
-      <guid>http://39.108.170.72/write-helper-functions-instead-of-complex-expressions.html</guid>
+      <guid>https://blog.forecho.com/write-helper-functions-instead-of-complex-expressions.html</guid>
       <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
 &lt;p&gt;上上上个月在图书馆淘到一本书叫&lt;a href=&#34;https://book.douban.com/subject/26709315/&#34;&gt;《Effective Python - 编写高质量Python代码的59个有效方法》&lt;/a&gt;，虽然我不用 Python 写代码，但是好歹以前写过一点 Python 的皮毛。
 豆瓣看了一下评分，就果断借了这本书。当看到第四条方法《第4条：用辅助函数来取代复杂的表达式 》结合自己最近几年编程经验，深有感触，于是就有了这篇文章。&lt;/p&gt;

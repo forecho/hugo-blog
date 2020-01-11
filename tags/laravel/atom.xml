@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>laravel on Forecho&#39;s Blog</title>
-    <link>http://39.108.170.72/tags/laravel.html</link>
-    <description>Recent content in laravel on Forecho&#39;s Blog</description>
+    <title>laravel on forecho&#39;s Blog</title>
+    <link>https://blog.forecho.com/tags/laravel.html</link>
+    <description>Recent content in laravel on forecho&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 14 Jan 2019 15:03:00 +0800</lastBuildDate>
     
-	<atom:link href="http://39.108.170.72/tags/laravel/atom.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.forecho.com/tags/laravel/atom.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Laravel 写单元测试</title>
-      <link>http://39.108.170.72/laravel-tests.html</link>
+      <link>https://blog.forecho.com/laravel-tests.html</link>
       <pubDate>Mon, 14 Jan 2019 15:03:00 +0800</pubDate>
       
-      <guid>http://39.108.170.72/laravel-tests.html</guid>
+      <guid>https://blog.forecho.com/laravel-tests.html</guid>
       <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
 &lt;p&gt;新公司入职第一件事就是让我给一个用 Laravel 框架开发的项目写单元测试，我会说『当了这么多年的程序员没写过单元测试吗？』，于是我一边学习一边写，这篇文章是我写了一个月单元测试的经验分享。&lt;/p&gt;
 &lt;h2 id=&#34;单元测试&#34;&gt;单元测试&lt;/h2&gt;

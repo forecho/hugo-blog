@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>App on Forecho&#39;s Blog</title>
-    <link>http://39.108.170.72/tags/app.html</link>
-    <description>Recent content in App on Forecho&#39;s Blog</description>
+    <title>App on forecho&#39;s Blog</title>
+    <link>https://blog.forecho.com/tags/app.html</link>
+    <description>Recent content in App on forecho&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 22 May 2016 12:29:00 +0800</lastBuildDate>
     
-	<atom:link href="http://39.108.170.72/tags/app/atom.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.forecho.com/tags/app/atom.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>关于三立三</title>
-      <link>http://39.108.170.72/about-3li3.com.html</link>
+      <link>https://blog.forecho.com/about-3li3.com.html</link>
       <pubDate>Sun, 22 May 2016 12:29:00 +0800</pubDate>
       
-      <guid>http://39.108.170.72/about-3li3.com.html</guid>
+      <guid>https://blog.forecho.com/about-3li3.com.html</guid>
       <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
 &lt;p&gt;项目上线之后有了一点点自由的零碎时间，再利用周末时间。于是就写了一个「监控你想要 App 降价或者限免的项目」，名字叫做&lt;a href=&#34;http://3li3.com/&#34;&gt;三立三&lt;/a&gt;。&lt;/p&gt;
 &lt;h2 id=&#34;关于三立三&#34;&gt;关于三立三&lt;/h2&gt;
@@ -28,10 +28,10 @@ App Store 上准备下载的时候，那个 App 不一定还在限免。如果�
     
     <item>
       <title>推荐一些iPhone App（持续更新...）</title>
-      <link>http://39.108.170.72/tui-jian-yi-xie-iphone-app-chi-xu-geng-xin.html</link>
+      <link>https://blog.forecho.com/tui-jian-yi-xie-iphone-app-chi-xu-geng-xin.html</link>
       <pubDate>Thu, 27 Dec 2012 12:47:00 +0800</pubDate>
       
-      <guid>http://39.108.170.72/tui-jian-yi-xie-iphone-app-chi-xu-geng-xin.html</guid>
+      <guid>https://blog.forecho.com/tui-jian-yi-xie-iphone-app-chi-xu-geng-xin.html</guid>
       <description>一直都说iPhone手机的用户体验非常棒，于是再买了Macbook Pro几个月后，一直寻思着要买一部iPhone手机，于是现在就有了我的第一</description>
     </item>
     

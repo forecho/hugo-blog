@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>工具 on Forecho&#39;s Blog</title>
-    <link>http://39.108.170.72/tags/%E5%B7%A5%E5%85%B7.html</link>
-    <description>Recent content in 工具 on Forecho&#39;s Blog</description>
+    <title>工具 on forecho&#39;s Blog</title>
+    <link>https://blog.forecho.com/tags/%E5%B7%A5%E5%85%B7.html</link>
+    <description>Recent content in 工具 on forecho&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 22 May 2016 12:29:00 +0800</lastBuildDate>
     
-	<atom:link href="http://39.108.170.72/tags/%E5%B7%A5%E5%85%B7/atom.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.forecho.com/tags/%E5%B7%A5%E5%85%B7/atom.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>关于三立三</title>
-      <link>http://39.108.170.72/about-3li3.com.html</link>
+      <link>https://blog.forecho.com/about-3li3.com.html</link>
       <pubDate>Sun, 22 May 2016 12:29:00 +0800</pubDate>
       
-      <guid>http://39.108.170.72/about-3li3.com.html</guid>
+      <guid>https://blog.forecho.com/about-3li3.com.html</guid>
       <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
 &lt;p&gt;项目上线之后有了一点点自由的零碎时间，再利用周末时间。于是就写了一个「监控你想要 App 降价或者限免的项目」，名字叫做&lt;a href=&#34;http://3li3.com/&#34;&gt;三立三&lt;/a&gt;。&lt;/p&gt;
 &lt;h2 id=&#34;关于三立三&#34;&gt;关于三立三&lt;/h2&gt;
@@ -28,10 +28,10 @@ App Store 上准备下载的时候，那个 App 不一定还在限免。如果�
     
     <item>
       <title>关于 PhpStorm 的小技巧</title>
-      <link>http://39.108.170.72/tips-about-phpstorm.html</link>
+      <link>https://blog.forecho.com/tips-about-phpstorm.html</link>
       <pubDate>Fri, 29 Jan 2016 16:36:00 +0800</pubDate>
       
-      <guid>http://39.108.170.72/tips-about-phpstorm.html</guid>
+      <guid>https://blog.forecho.com/tips-about-phpstorm.html</guid>
       <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;如果一个工具是你每天工作都必须要用的，请认真阅读官方文档，花几个小时好好研究使用技巧，这将为你以后工作带来很高的效率。&lt;/p&gt;
 &lt;p&gt;这篇文章内容其实很早就在我印象笔记里面了，今天整理出来，分享给大家。&lt;/p&gt;
@@ -48,10 +48,10 @@ App Store 上准备下载的时候，那个 App 不一定还在限免。如果�
     
     <item>
       <title>forecho 的利器</title>
-      <link>http://39.108.170.72/my-setup.html</link>
+      <link>https://blog.forecho.com/my-setup.html</link>
       <pubDate>Tue, 15 Dec 2015 22:46:00 +0800</pubDate>
       
-      <guid>http://39.108.170.72/my-setup.html</guid>
+      <guid>https://blog.forecho.com/my-setup.html</guid>
       <description>&lt;h2 id=&#34;介绍一下你自己和所做的工作&#34;&gt;介绍一下你自己和所做的工作。&lt;/h2&gt;
 &lt;p&gt;Hi，大家好，我是 forecho，目前在做程序后端开发，主要是 PHP，业余时间也折腾下 iOS 和 Python AND Ruby。工作已经有4年多了，目前在深圳。&lt;/p&gt;
 &lt;h2 id=&#34;你都在使用哪些硬件&#34;&gt;你都在使用哪些硬件？&lt;/h2&gt;

@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>架构 on Forecho&#39;s Blog</title>
-    <link>http://39.108.170.72/tags/%E6%9E%B6%E6%9E%84.html</link>
-    <description>Recent content in 架构 on Forecho&#39;s Blog</description>
+    <title>架构 on forecho&#39;s Blog</title>
+    <link>https://blog.forecho.com/tags/%E6%9E%B6%E6%9E%84.html</link>
+    <description>Recent content in 架构 on forecho&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 14 Mar 2019 21:58:00 +0800</lastBuildDate>
     
-	<atom:link href="http://39.108.170.72/tags/%E6%9E%B6%E6%9E%84/atom.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.forecho.com/tags/%E6%9E%B6%E6%9E%84/atom.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>使用 Docker 搭建 EFK</title>
-      <link>http://39.108.170.72/use-efk.html</link>
+      <link>https://blog.forecho.com/use-efk.html</link>
       <pubDate>Thu, 14 Mar 2019 21:58:00 +0800</pubDate>
       
-      <guid>http://39.108.170.72/use-efk.html</guid>
+      <guid>https://blog.forecho.com/use-efk.html</guid>
       <description>&lt;h2 id=&#34;什么是-efk&#34;&gt;什么是 EFK？&lt;/h2&gt;
 &lt;p&gt;EFK 分别指 Elasticsearch + Fluentd + Kibana，一般用来做日志系统的。他们的作用分别是：&lt;/p&gt;
 &lt;ul&gt;
@@ -28,10 +28,10 @@
     
     <item>
       <title>大型网站架构的演化</title>
-      <link>http://39.108.170.72/da-xing-wang-zhan-jia-gou-de-yan-hua.html</link>
+      <link>https://blog.forecho.com/da-xing-wang-zhan-jia-gou-de-yan-hua.html</link>
       <pubDate>Mon, 14 Oct 2013 22:58:00 +0800</pubDate>
       
-      <guid>http://39.108.170.72/da-xing-wang-zhan-jia-gou-de-yan-hua.html</guid>
+      <guid>https://blog.forecho.com/da-xing-wang-zhan-jia-gou-de-yan-hua.html</guid>
       <description>网站一般分三个部分：应用程序、文件、数据库。 初级阶段的网站架构就是把所有的资源放在一台服务器上就够了。 应用服务和数据服务分离：整个网站使用三</description>
     </item>
     

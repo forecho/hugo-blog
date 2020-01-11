@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>经验分享 on Forecho&#39;s Blog</title>
-    <link>http://39.108.170.72/tags/%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB.html</link>
-    <description>Recent content in 经验分享 on Forecho&#39;s Blog</description>
+    <title>经验分享 on forecho&#39;s Blog</title>
+    <link>https://blog.forecho.com/tags/%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB.html</link>
+    <description>Recent content in 经验分享 on forecho&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 31 Oct 2019 22:48:00 +0800</lastBuildDate>
     
-	<atom:link href="http://39.108.170.72/tags/%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB/atom.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.forecho.com/tags/%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB/atom.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>在网上配眼镜是一种什么体验</title>
-      <link>http://39.108.170.72/talk-about-the-experience-of-online-glasses.html</link>
+      <link>https://blog.forecho.com/talk-about-the-experience-of-online-glasses.html</link>
       <pubDate>Thu, 31 Oct 2019 22:48:00 +0800</pubDate>
       
-      <guid>http://39.108.170.72/talk-about-the-experience-of-online-glasses.html</guid>
+      <guid>https://blog.forecho.com/talk-about-the-experience-of-online-glasses.html</guid>
       <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
 &lt;p&gt;先说说自己近视的情况。14 年的时候线下配的眼镜，直接在美团上搜索了一家店铺，有优惠就跑去了。一个比较小的眼镜店，自己的眼睛近视不深，那个时候一只眼 100 度，另一只眼睛 150 度。当时配眼镜花了半个多小时就搞定了，最后花了 200 块钱左右。而平常我只是在上班和看电视的时候才带。&lt;/p&gt;
 &lt;p&gt;没想到这眼镜一戴就是 4 年，去年的时候我发现这眼镜越来越不清晰了，感觉自己视力下降了，然后年初的时候考虑换一副眼镜。之前在网上看到有人说在网上配眼镜很划算，再加上自己在大众上看了一圈配眼镜店没找到合适的，于是想体验一把网上配眼镜。&lt;/p&gt;</description>
@@ -24,10 +24,10 @@
     
     <item>
       <title>GetYii 是如何防止垃圾内容</title>
-      <link>http://39.108.170.72/how-does-getyii-prevent-spam.html</link>
+      <link>https://blog.forecho.com/how-does-getyii-prevent-spam.html</link>
       <pubDate>Tue, 30 Jul 2019 22:58:00 +0800</pubDate>
       
-      <guid>http://39.108.170.72/how-does-getyii-prevent-spam.html</guid>
+      <guid>https://blog.forecho.com/how-does-getyii-prevent-spam.html</guid>
       <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
 &lt;p&gt;4 年多前 &lt;a href=&#34;https://www.yiiframework.com/&#34;&gt;Yii&lt;/a&gt; 推出了 2.0 测试版，正好赶上年底，工作不忙，于是我抱着学习的态度写了一个开源论坛，那就是 &lt;a href=&#34;https://github.com/iiyii/getyii&#34;&gt;GetYii&lt;/a&gt;。虽然后来没怎么维护了，但是还是会每天去逛逛。&lt;/p&gt;
 &lt;p&gt;最近发现有人在 GetYii 上发垃圾内容，灰产广告。这就不能忍了，这篇文章我就分享一下我是如何与他们『斗争』的。&lt;/p&gt;</description>
@@ -35,10 +35,10 @@
     
     <item>
       <title>Bose QC30 VS AirPods</title>
-      <link>http://39.108.170.72/bose-qc30-vs-airpods.html</link>
+      <link>https://blog.forecho.com/bose-qc30-vs-airpods.html</link>
       <pubDate>Wed, 26 Jun 2019 22:58:00 +0800</pubDate>
       
-      <guid>http://39.108.170.72/bose-qc30-vs-airpods.html</guid>
+      <guid>https://blog.forecho.com/bose-qc30-vs-airpods.html</guid>
       <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&#34;https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190703175829.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;618 在&lt;a href=&#34;https://www.smzdm.com/&#34;&gt;色魔张大妈&lt;/a&gt;上看到之前一直项目的 Bose QC30 降噪耳机最低价了，虽然是在拼多多上，但还是心动了，成功说服了兔子之后就下单了。&lt;/p&gt;
@@ -47,10 +47,10 @@
     
     <item>
       <title>性能优化第一篇</title>
-      <link>http://39.108.170.72/performance-optimization-01.html</link>
+      <link>https://blog.forecho.com/performance-optimization-01.html</link>
       <pubDate>Fri, 19 Apr 2019 10:58:00 +0800</pubDate>
       
-      <guid>http://39.108.170.72/performance-optimization-01.html</guid>
+      <guid>https://blog.forecho.com/performance-optimization-01.html</guid>
       <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
 &lt;p&gt;说来惭愧，搞了这么多年 PHP 开发，最近才正儿八经的搞性能优化。打算把这些经验记录并且分享出来，这会是一系列文章，这是第一篇。&lt;/p&gt;
 &lt;h2 id=&#34;性能测试&#34;&gt;性能测试&lt;/h2&gt;
@@ -59,10 +59,10 @@
     
     <item>
       <title>坐着高铁去香港</title>
-      <link>http://39.108.170.72/sitting-on-the-high-speed-rail-to-hong-kong.html</link>
+      <link>https://blog.forecho.com/sitting-on-the-high-speed-rail-to-hong-kong.html</link>
       <pubDate>Sun, 16 Dec 2018 21:03:00 +0800</pubDate>
       
-      <guid>http://39.108.170.72/sitting-on-the-high-speed-rail-to-hong-kong.html</guid>
+      <guid>https://blog.forecho.com/sitting-on-the-high-speed-rail-to-hong-kong.html</guid>
       <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
 &lt;p&gt;前一段时间内地去香港的高铁终于开通了，正好前一段时间去香港有事，于是体验了一把，现在把整个流程分享一下，希望我的经验对你有帮助。&lt;/p&gt;
 &lt;h2 id=&#34;关于港澳通行证&#34;&gt;关于港澳通行证&lt;/h2&gt;
@@ -71,10 +71,10 @@
     
     <item>
       <title>使用 NAS</title>
-      <link>http://39.108.170.72/use-nas.html</link>
+      <link>https://blog.forecho.com/use-nas.html</link>
       <pubDate>Fri, 30 Nov 2018 21:03:00 +0800</pubDate>
       
-      <guid>http://39.108.170.72/use-nas.html</guid>
+      <guid>https://blog.forecho.com/use-nas.html</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20191105105249.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
 &lt;p&gt;听说 NAS 有一段时间了，双十一之前整理照片的时候，NAS 再次出现在我的视线前，当天脑子一『发热』，使用 Google 恶补了很多知识。可以备份照片、下载电影，甚至可以跑 docker，想买了。&lt;/p&gt;
@@ -90,10 +90,10 @@
     
     <item>
       <title>使用 Laradock</title>
-      <link>http://39.108.170.72/use-laradock.html</link>
+      <link>https://blog.forecho.com/use-laradock.html</link>
       <pubDate>Tue, 27 Nov 2018 21:03:00 +0800</pubDate>
       
-      <guid>http://39.108.170.72/use-laradock.html</guid>
+      <guid>https://blog.forecho.com/use-laradock.html</guid>
       <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
 &lt;p&gt;PHP开发，想用 Docker 但又没太多时间去学，那你可以试试 &lt;a href=&#34;https://github.com/laradock/laradock&#34;&gt;Lavadock&lt;/a&gt; 项目，它是一套完整的基于 Docker 的 PHP 开发环境。包含了预先打包的 Docker 镜像，所有预先配置都是为了提供一个完美的 PHP 开发环境。&lt;/p&gt;
 &lt;p&gt;你可以很方便的搭建各种环境，比方说 redis、MongoDB、MySQL、Nginx 等等。&lt;/p&gt;</description>
@@ -101,10 +101,10 @@
     
     <item>
       <title>用时不到3个月拿到深圳户口</title>
-      <link>http://39.108.170.72/take-the-shenzhen-account-in-less-than-3-months.html</link>
+      <link>https://blog.forecho.com/take-the-shenzhen-account-in-less-than-3-months.html</link>
       <pubDate>Sun, 15 Jul 2018 16:44:00 +0800</pubDate>
       
-      <guid>http://39.108.170.72/take-the-shenzhen-account-in-less-than-3-months.html</guid>
+      <guid>https://blog.forecho.com/take-the-shenzhen-account-in-less-than-3-months.html</guid>
       <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
 &lt;p&gt;如果想长期在深圳发展的话，拿到深圳户口还是有一些好处的。目前拿深圳户口相对比较容易，而且本科以及以上学历入深户还可以申请新引进人才租房和生活补贴。&lt;/p&gt;
 &lt;p&gt;本篇文章只是介绍自己（帮女友）办理深户经验，如果你跟她的条件类似，不妨可以参考一下我们的入户经验，她的大致情况如下：&lt;/p&gt;
@@ -118,10 +118,10 @@
     
     <item>
       <title>如何培养读书习惯？</title>
-      <link>http://39.108.170.72/how-to-cultivate-reading-habits.html</link>
+      <link>https://blog.forecho.com/how-to-cultivate-reading-habits.html</link>
       <pubDate>Mon, 25 Sep 2017 15:12:00 +0800</pubDate>
       
-      <guid>http://39.108.170.72/how-to-cultivate-reading-habits.html</guid>
+      <guid>https://blog.forecho.com/how-to-cultivate-reading-habits.html</guid>
       <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
 &lt;p&gt;最近有朋友问我，怎么培养读书习惯？正好可以借这次机会整理一篇文章，分享一下我这几年的阅读经验。&lt;/p&gt;
 &lt;p&gt;在这之前我们要达成一个共识，那就是知道阅读的重要性，愿意做一个终生阅读者。&lt;/p&gt;</description>
@@ -129,10 +129,10 @@
     
     <item>
       <title>技术转管理</title>
-      <link>http://39.108.170.72/technology-transfer-management.html</link>
+      <link>https://blog.forecho.com/technology-transfer-management.html</link>
       <pubDate>Mon, 28 Aug 2017 11:59:00 +0800</pubDate>
       
-      <guid>http://39.108.170.72/technology-transfer-management.html</guid>
+      <guid>https://blog.forecho.com/technology-transfer-management.html</guid>
       <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
 &lt;p&gt;计划是做技术到30岁才准备转管理的，一直认为转管理一定要有一定的技术积累，才能服众。&lt;/p&gt;
 &lt;p&gt;然后我被裁员了，本打算再剩下的半年时间里，自己单干，做个产品试试看。计划之外的偶然机会是，一个通过技术认识的朋友，他在帮朋友的创业公司找一个技术管理。然后我接到了这个邀请，
@@ -144,10 +144,10 @@
     
     <item>
       <title>我是如何学习 Angular</title>
-      <link>http://39.108.170.72/how-do-i-learn-angular.html</link>
+      <link>https://blog.forecho.com/how-do-i-learn-angular.html</link>
       <pubDate>Thu, 03 Aug 2017 15:59:00 +0800</pubDate>
       
-      <guid>http://39.108.170.72/how-do-i-learn-angular.html</guid>
+      <guid>https://blog.forecho.com/how-do-i-learn-angular.html</guid>
       <description>&lt;h2 id=&#34;交代我的前端背景&#34;&gt;交代我的前端背景&lt;/h2&gt;
 &lt;p&gt;工作5年多了，基本上都在写 PHP，对于前端在校的时候学过一些 JavaScript、HTML 和 CSS，那个时候我 HTML 和 CSS 还是比较擅长的。&lt;/p&gt;
 &lt;p&gt;后来第一家公司是外包公司，页面都是我们写的。那个时候 jQuery 还是非常火的，但我傻傻分不清楚 JavaScript 和 jQuery 以及 Ajax 他们之间的区别。而我们的前端代码全靠复制百度搜索出来的结果，后来公司终于招来了一位前端工程师，可算是把我们从不明所以的前端坑里面解救出来了。&lt;/p&gt;
@@ -158,10 +158,10 @@
     
     <item>
       <title>使用 Let’s Encrypt 搭建免费的 HTTPS</title>
-      <link>http://39.108.170.72/use-letsencrypt.html</link>
+      <link>https://blog.forecho.com/use-letsencrypt.html</link>
       <pubDate>Fri, 14 Jul 2017 11:15:00 +0800</pubDate>
       
-      <guid>http://39.108.170.72/use-letsencrypt.html</guid>
+      <guid>https://blog.forecho.com/use-letsencrypt.html</guid>
       <description>&lt;h2 id=&#34;1-letsencryptsh-证书的生成&#34;&gt;1. letsencrypt.sh 证书的生成&lt;/h2&gt;
 &lt;h3 id=&#34;11-目录的生成&#34;&gt;1.1 目录的生成&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
@@ -191,10 +191,10 @@ $ cp ~/dehydrated/docs/examples/domains.txt /etc/dehydrated/domains.txt
     
     <item>
       <title>我是怎么投资美股的</title>
-      <link>http://39.108.170.72/how-do-i-invest-in-american-stocks.html</link>
+      <link>https://blog.forecho.com/how-do-i-invest-in-american-stocks.html</link>
       <pubDate>Wed, 24 May 2017 23:33:00 +0800</pubDate>
       
-      <guid>http://39.108.170.72/how-do-i-invest-in-american-stocks.html</guid>
+      <guid>https://blog.forecho.com/how-do-i-invest-in-american-stocks.html</guid>
       <description>&lt;h2 id=&#34;学会理财&#34;&gt;学会理财&lt;/h2&gt;
 &lt;p&gt;理财是一种生活方式，越早明白这个道理，越是受益。真正让我接触到理财的还是算是支付宝推出的余额宝了，说到这里，还得感谢马云爸爸。&lt;/p&gt;
 &lt;p&gt;理财的方式有很多种，你可以把钱放在余额宝里面每天拿几块钱，也可以把钱放在理财通、京东小金库里面，可以买基金，当然还可以买股票。这些投资理财的方式大家都可以去尝试一下。下面我先来分享几点我的经验：&lt;/p&gt;
@@ -208,10 +208,10 @@ $ cp ~/dehydrated/docs/examples/domains.txt /etc/dehydrated/domains.txt
     
     <item>
       <title>记人生第一次徒步30公里</title>
-      <link>http://39.108.170.72/life-is-30km-on-foot-for-the-first-time.html</link>
+      <link>https://blog.forecho.com/life-is-30km-on-foot-for-the-first-time.html</link>
       <pubDate>Sun, 05 Mar 2017 23:33:00 +0800</pubDate>
       
-      <guid>http://39.108.170.72/life-is-30km-on-foot-for-the-first-time.html</guid>
+      <guid>https://blog.forecho.com/life-is-30km-on-foot-for-the-first-time.html</guid>
       <description>&lt;h2 id=&#34;徒步前&#34;&gt;徒步前&lt;/h2&gt;
 &lt;p&gt;刚听到公司组织这个活动的消息时，我内心是第一反应是拒绝的，心想公司就会搞这种穷 B 的活动，但是随后又是兴奋的。&lt;/p&gt;
 &lt;p&gt;去年老板就在早会有跟我们分享他去徒步戈壁滩挑战（听说是徒步4天）的经历，说是有机会组织一次这样的活动，以前我对30公里真没什么概念，那天翻了翻手机才发现我平常上下班也就最多走7公里，真不知道徒步30公里是什么体验，所以还真想借此机会测试和挑战一下自己。&lt;/p&gt;
@@ -220,10 +220,10 @@ $ cp ~/dehydrated/docs/examples/domains.txt /etc/dehydrated/domains.txt
     
     <item>
       <title>你的牙齿很值钱</title>
-      <link>http://39.108.170.72/your-teeth-are-very-valuable.html</link>
+      <link>https://blog.forecho.com/your-teeth-are-very-valuable.html</link>
       <pubDate>Sun, 08 Jan 2017 23:32:00 +0800</pubDate>
       
-      <guid>http://39.108.170.72/your-teeth-are-very-valuable.html</guid>
+      <guid>https://blog.forecho.com/your-teeth-are-very-valuable.html</guid>
       <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
 &lt;p&gt;事情的开始是这样的，那天下班在家上网逛 V2EX，然后看到了这篇文章&lt;a href=&#34;https://www.v2ex.com/t/323517&#34;&gt;《我看牙医的经历》&lt;/a&gt;，然后联想到我的两颗烂牙，想想就觉得后怕，于是下定决心去补牙，不然最后只会越拖越严重。&lt;/p&gt;
 &lt;h2 id=&#34;选择哪里看牙&#34;&gt;选择哪里看牙&lt;/h2&gt;
@@ -232,10 +232,10 @@ $ cp ~/dehydrated/docs/examples/domains.txt /etc/dehydrated/domains.txt
     
     <item>
       <title>Ubuntu 使用 ShadowSocks &#43; Privoxy 代理</title>
-      <link>http://39.108.170.72/ubuntu-use-shadowsocks-and-privoxy.html</link>
+      <link>https://blog.forecho.com/ubuntu-use-shadowsocks-and-privoxy.html</link>
       <pubDate>Sat, 07 Jan 2017 12:35:00 +0800</pubDate>
       
-      <guid>http://39.108.170.72/ubuntu-use-shadowsocks-and-privoxy.html</guid>
+      <guid>https://blog.forecho.com/ubuntu-use-shadowsocks-and-privoxy.html</guid>
       <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
 &lt;p&gt;先说说这东西有什么用吧，我是 Windows7 使用 Vagrant 安装了个 Ubuntu 虚拟机，然后需要在虚拟机里面配置 SS 代理使用 PHP 的 Composer 下载，不然非常慢。
 那么本教程应该同样适用于 Ubuntu 服务器（做为 SS 客户端的方式）配置使用 SS，其他版本的 Linux 要想使用需要稍微改动下，但是思路是一样的。&lt;/p&gt;
@@ -301,10 +301,10 @@ sudo vim /etc/shadowsocks.conf
     
     <item>
       <title>圣诞节在香港</title>
-      <link>http://39.108.170.72/christmas-in-hong-kong.html</link>
+      <link>https://blog.forecho.com/christmas-in-hong-kong.html</link>
       <pubDate>Sat, 31 Dec 2016 20:05:00 +0800</pubDate>
       
-      <guid>http://39.108.170.72/christmas-in-hong-kong.html</guid>
+      <guid>https://blog.forecho.com/christmas-in-hong-kong.html</guid>
       <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
 &lt;p&gt;今年平安夜是周六，而恰好我们公司为了过年凑10的假期，所以那天我们需要上班的，补过年的假期。但是那天正好是兔子生日，晚上准时下班去带她吃大餐。然后第二天带她去香港买礼物。&lt;/p&gt;
 &lt;p&gt;其实去年也去过香港，但是今年再会议的花，很多地方都记不太清了，所以有了这篇文章，整理、记录、分享我的这次香港之旅，方便以后查阅。&lt;/p&gt;</description>
@@ -312,10 +312,10 @@ sudo vim /etc/shadowsocks.conf
     
     <item>
       <title>我的知识管理工作流</title>
-      <link>http://39.108.170.72/knowledge-management-workflow.html</link>
+      <link>https://blog.forecho.com/knowledge-management-workflow.html</link>
       <pubDate>Mon, 12 Dec 2016 12:09:00 +0800</pubDate>
       
-      <guid>http://39.108.170.72/knowledge-management-workflow.html</guid>
+      <guid>https://blog.forecho.com/knowledge-management-workflow.html</guid>
       <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
 &lt;p&gt;很多碎片知识如果不整理出来，在你的大脑里面永远都是碎片。上次无意中阅读到&lt;a href=&#34;https://zi.com/w/a/164a3It&#34;&gt;《应对信息过载的正确姿势》&lt;/a&gt;和&lt;a href=&#34;http://sspai.com/36795&#34;&gt;《在线阅读处理流程：从需求、到方法、再到工具》&lt;/a&gt;这两篇文章，让我很受益，于是打算整理一下自己获取知识和信息的方式，达到记录-&amp;gt;整理-&amp;gt;优化流程的目的。&lt;/p&gt;
 &lt;h2 id=&#34;阅读流&#34;&gt;阅读流&lt;/h2&gt;
@@ -339,10 +339,10 @@ Kindle 版的电子书，标记和索引很方便，而且出门携带也非常�
     
     <item>
       <title>手把手教你不依赖任何环境使用 Hexo</title>
-      <link>http://39.108.170.72/easy-use-hexo.html</link>
+      <link>https://blog.forecho.com/easy-use-hexo.html</link>
       <pubDate>Thu, 27 Oct 2016 20:58:00 +0800</pubDate>
       
-      <guid>http://39.108.170.72/easy-use-hexo.html</guid>
+      <guid>https://blog.forecho.com/easy-use-hexo.html</guid>
       <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
 &lt;p&gt;今天心血来潮，想搭建一个 &lt;a href=&#34;http://3li3.com/&#34;&gt;3li3&lt;/a&gt; 的博客，准备以博客的形式记录产品的成长。类似的博客有：&lt;a href=&#34;http://blog.selfstore.io/&#34;&gt;SelfStore 博客&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;感觉 Hexo 的博客插件比较多，于是这次想试试。因为很早以前就搭建过一次，这次以为分分钟搞定，但实际上还是花了我不少时间，为了以后不再重复踩坑，我决定记录下整个过程。&lt;/p&gt;
@@ -351,10 +351,10 @@ Kindle 版的电子书，标记和索引很方便，而且出门携带也非常�
     
     <item>
       <title>谈谈使用 Kindle 阅读</title>
-      <link>http://39.108.170.72/talk-about-ues-kindle-to-read.html</link>
+      <link>https://blog.forecho.com/talk-about-ues-kindle-to-read.html</link>
       <pubDate>Wed, 31 Aug 2016 21:24:00 +0800</pubDate>
       
-      <guid>http://39.108.170.72/talk-about-ues-kindle-to-read.html</guid>
+      <guid>https://blog.forecho.com/talk-about-ues-kindle-to-read.html</guid>
       <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
 &lt;p&gt;今年年初的时候我写了篇&lt;a href=&#34;https://blog.forecho.com/use-the-kindle-reading.html&#34;&gt;《使用 Kindle 阅读》&lt;/a&gt; 文章，从2012年底开始到现在差不多快4年的 Kindle 使用经历，
 那么我来分享一下我是如何使用 Kindle 的。&lt;/p&gt;

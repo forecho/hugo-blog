@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>播客 on Forecho&#39;s Blog</title>
-    <link>http://39.108.170.72/tags/%E6%92%AD%E5%AE%A2.html</link>
-    <description>Recent content in 播客 on Forecho&#39;s Blog</description>
+    <title>播客 on forecho&#39;s Blog</title>
+    <link>https://blog.forecho.com/tags/%E6%92%AD%E5%AE%A2.html</link>
+    <description>Recent content in 播客 on forecho&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 06 Jun 2018 07:43:00 +0800</lastBuildDate>
     
-	<atom:link href="http://39.108.170.72/tags/%E6%92%AD%E5%AE%A2/atom.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.forecho.com/tags/%E6%92%AD%E5%AE%A2/atom.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>我在听的播客节目之2018年篇</title>
-      <link>http://39.108.170.72/im-listening-to-podcasts-2018.html</link>
+      <link>https://blog.forecho.com/im-listening-to-podcasts-2018.html</link>
       <pubDate>Wed, 06 Jun 2018 07:43:00 +0800</pubDate>
       
-      <guid>http://39.108.170.72/im-listening-to-podcasts-2018.html</guid>
+      <guid>https://blog.forecho.com/im-listening-to-podcasts-2018.html</guid>
       <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
 &lt;p&gt;2017年的时候我写了一篇博客&lt;a href=&#34;https://blog.forecho.com/im-listening-to-podcasts.html&#34;&gt;《我在听的播客节目》&lt;/a&gt;，如今时隔1年多了，清单有了一些变化，所以打算重新写一篇。&lt;/p&gt;
 &lt;h2 id=&#34;偏范科技类的播客&#34;&gt;偏范科技类的播客&lt;/h2&gt;
@@ -28,10 +28,10 @@
     
     <item>
       <title>使用泛用型播客客户端订阅播客节目</title>
-      <link>http://39.108.170.72/subscribe-to-podcasts-using-the-ubiquitous-podcast-client.html</link>
+      <link>https://blog.forecho.com/subscribe-to-podcasts-using-the-ubiquitous-podcast-client.html</link>
       <pubDate>Tue, 17 Apr 2018 13:09:00 +0800</pubDate>
       
-      <guid>http://39.108.170.72/subscribe-to-podcasts-using-the-ubiquitous-podcast-client.html</guid>
+      <guid>https://blog.forecho.com/subscribe-to-podcasts-using-the-ubiquitous-podcast-client.html</guid>
       <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
 &lt;p&gt;由于换了一家创业公司（等过一阵子有时间会细说这个事情），最近一个月会比较忙，都没时间写博客了，但是又不想停更，所以就有了这篇文章。&lt;/p&gt;
 &lt;h2 id=&#34;诞生记&#34;&gt;诞生记&lt;/h2&gt;
@@ -40,10 +40,10 @@
     
     <item>
       <title>技术转管理</title>
-      <link>http://39.108.170.72/technology-transfer-management.html</link>
+      <link>https://blog.forecho.com/technology-transfer-management.html</link>
       <pubDate>Mon, 28 Aug 2017 11:59:00 +0800</pubDate>
       
-      <guid>http://39.108.170.72/technology-transfer-management.html</guid>
+      <guid>https://blog.forecho.com/technology-transfer-management.html</guid>
       <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
 &lt;p&gt;计划是做技术到30岁才准备转管理的，一直认为转管理一定要有一定的技术积累，才能服众。&lt;/p&gt;
 &lt;p&gt;然后我被裁员了，本打算再剩下的半年时间里，自己单干，做个产品试试看。计划之外的偶然机会是，一个通过技术认识的朋友，他在帮朋友的创业公司找一个技术管理。然后我接到了这个邀请，

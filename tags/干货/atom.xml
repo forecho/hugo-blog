@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>干货 on Forecho&#39;s Blog</title>
-    <link>http://39.108.170.72/tags/%E5%B9%B2%E8%B4%A7.html</link>
-    <description>Recent content in 干货 on Forecho&#39;s Blog</description>
+    <title>干货 on forecho&#39;s Blog</title>
+    <link>https://blog.forecho.com/tags/%E5%B9%B2%E8%B4%A7.html</link>
+    <description>Recent content in 干货 on forecho&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 16 Nov 2011 08:46:00 +0800</lastBuildDate>
     
-	<atom:link href="http://39.108.170.72/tags/%E5%B9%B2%E8%B4%A7/atom.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.forecho.com/tags/%E5%B9%B2%E8%B4%A7/atom.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>一些关于UED的团队和个人博客</title>
-      <link>http://39.108.170.72/yi-xie-guan-yu-ued-de-tuan-dui-he-ge-ren-bo-ke.html</link>
+      <link>https://blog.forecho.com/yi-xie-guan-yu-ued-de-tuan-dui-he-ge-ren-bo-ke.html</link>
       <pubDate>Wed, 16 Nov 2011 08:46:00 +0800</pubDate>
       
-      <guid>http://39.108.170.72/yi-xie-guan-yu-ued-de-tuan-dui-he-ge-ren-bo-ke.html</guid>
+      <guid>https://blog.forecho.com/yi-xie-guan-yu-ued-de-tuan-dui-he-ge-ren-bo-ke.html</guid>
       <description>前端团队 阿里巴巴 UED — 我们设计的界面，并没有几十亿的流量，但每天来自上百个国家的百万商人在使用着。 阿里巴巴中国站UED — 阿里巴巴中国站UED成</description>
     </item>
     
     <item>
       <title>苹果设计师的博客收集汇总</title>
-      <link>http://39.108.170.72/ping-guo-she-ji-shi-de-bo-ke-shou-ji-hui-zong.html</link>
+      <link>https://blog.forecho.com/ping-guo-she-ji-shi-de-bo-ke-shou-ji-hui-zong.html</link>
       <pubDate>Sun, 09 Oct 2011 22:19:00 +0800</pubDate>
       
-      <guid>http://39.108.170.72/ping-guo-she-ji-shi-de-bo-ke-shou-ji-hui-zong.html</guid>
+      <guid>https://blog.forecho.com/ping-guo-she-ji-shi-de-bo-ke-shou-ji-hui-zong.html</guid>
       <description>苹果apple产品最让人喜欢的就是它的用户体验和设计，我从网上看到一篇帖子收集了这些离职和在职的牛逼的苹果设计师们。 在职： Rich Dellinge</description>
     </item>
     
     <item>
       <title>国内比较优秀的UED团队汇总</title>
-      <link>http://39.108.170.72/guo-nei-bi-jiao-you-xiu-de-ued-tuan-dui-hui-zong.html</link>
+      <link>https://blog.forecho.com/guo-nei-bi-jiao-you-xiu-de-ued-tuan-dui-hui-zong.html</link>
       <pubDate>Sun, 09 Oct 2011 22:16:00 +0800</pubDate>
       
-      <guid>http://39.108.170.72/guo-nei-bi-jiao-you-xiu-de-ued-tuan-dui-hui-zong.html</guid>
+      <guid>https://blog.forecho.com/guo-nei-bi-jiao-you-xiu-de-ued-tuan-dui-hui-zong.html</guid>
       <description>国内有许多互联网产品UED团队。这里汇总了这些优秀团队网站。我们能了解这些优秀团队的设计方法和设计思想。 腾讯系 http://cdc.tencent.com/ http://isd.tencent.com/ http://wsd.tencent.com/ http://flashteam.tencent.com/ http://tgideas.qq.com/ 阿里系 http://ued.taobao.com/ http://ued.alipay.com/ http://www.aliued.com/ http://www.aliued.cn/ http://ued.alimama.com/ http://ued.koubei.com/ 百</description>
     </item>
     

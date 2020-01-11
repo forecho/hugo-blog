@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>想法 on Forecho&#39;s Blog</title>
-    <link>http://39.108.170.72/tags/%E6%83%B3%E6%B3%95.html</link>
-    <description>Recent content in 想法 on Forecho&#39;s Blog</description>
+    <title>想法 on forecho&#39;s Blog</title>
+    <link>https://blog.forecho.com/tags/%E6%83%B3%E6%B3%95.html</link>
+    <description>Recent content in 想法 on forecho&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 16 Mar 2019 21:58:00 +0800</lastBuildDate>
     
-	<atom:link href="http://39.108.170.72/tags/%E6%83%B3%E6%B3%95/atom.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.forecho.com/tags/%E6%83%B3%E6%B3%95/atom.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>征集友情链接</title>
-      <link>http://39.108.170.72/collect-friendship-links.html</link>
+      <link>https://blog.forecho.com/collect-friendship-links.html</link>
       <pubDate>Sat, 16 Mar 2019 21:58:00 +0800</pubDate>
       
-      <guid>http://39.108.170.72/collect-friendship-links.html</guid>
+      <guid>https://blog.forecho.com/collect-friendship-links.html</guid>
       <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
 &lt;p&gt;一直以来我的博客都是没加搞友情链接，前几天突然有一个想法。想搞一个『友情链接』。但是我想搞的这个『友情链接』更像是一个联盟，现在认真写博客的人越来越少了，我想把这些人集合到一起，决定暂时把联盟称之为『联盟链接』。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>一个里程碑</title>
-      <link>http://39.108.170.72/a-milestone.html</link>
+      <link>https://blog.forecho.com/a-milestone.html</link>
       <pubDate>Fri, 20 Jan 2017 22:41:00 +0800</pubDate>
       
-      <guid>http://39.108.170.72/a-milestone.html</guid>
+      <guid>https://blog.forecho.com/a-milestone.html</guid>
       <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
 &lt;p&gt;一直以来我写博客目的只是记录自己想法，从2011年7月实习开始，我接触了 WordPress，开始搭建了属于我自己的独立博客。后来因为某些原因，我抛弃了 WordPress，
 拥抱了静态博客的 Octopress，但是说实话，WordPress 确实是一个非常优秀的博客程序，自从用了 Octopress 我的博客流量长期以来都变成个人数，虽然我时常安慰自己，

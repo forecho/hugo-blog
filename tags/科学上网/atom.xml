@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>科学上网 on Forecho&#39;s Blog</title>
-    <link>http://39.108.170.72/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91.html</link>
-    <description>Recent content in 科学上网 on Forecho&#39;s Blog</description>
+    <title>科学上网 on forecho&#39;s Blog</title>
+    <link>https://blog.forecho.com/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91.html</link>
+    <description>Recent content in 科学上网 on forecho&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 07 Jan 2017 12:35:00 +0800</lastBuildDate>
     
-	<atom:link href="http://39.108.170.72/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/atom.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.forecho.com/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/atom.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Ubuntu 使用 ShadowSocks &#43; Privoxy 代理</title>
-      <link>http://39.108.170.72/ubuntu-use-shadowsocks-and-privoxy.html</link>
+      <link>https://blog.forecho.com/ubuntu-use-shadowsocks-and-privoxy.html</link>
       <pubDate>Sat, 07 Jan 2017 12:35:00 +0800</pubDate>
       
-      <guid>http://39.108.170.72/ubuntu-use-shadowsocks-and-privoxy.html</guid>
+      <guid>https://blog.forecho.com/ubuntu-use-shadowsocks-and-privoxy.html</guid>
       <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
 &lt;p&gt;先说说这东西有什么用吧，我是 Windows7 使用 Vagrant 安装了个 Ubuntu 虚拟机，然后需要在虚拟机里面配置 SS 代理使用 PHP 的 Composer 下载，不然非常慢。
 那么本教程应该同样适用于 Ubuntu 服务器（做为 SS 客户端的方式）配置使用 SS，其他版本的 Linux 要想使用需要稍微改动下，但是思路是一样的。&lt;/p&gt;

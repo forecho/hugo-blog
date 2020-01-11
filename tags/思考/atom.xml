@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>思考 on Forecho&#39;s Blog</title>
-    <link>http://39.108.170.72/tags/%E6%80%9D%E8%80%83.html</link>
-    <description>Recent content in 思考 on Forecho&#39;s Blog</description>
+    <title>思考 on forecho&#39;s Blog</title>
+    <link>https://blog.forecho.com/tags/%E6%80%9D%E8%80%83.html</link>
+    <description>Recent content in 思考 on forecho&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 15 Jan 2017 23:32:00 +0800</lastBuildDate>
     
-	<atom:link href="http://39.108.170.72/tags/%E6%80%9D%E8%80%83/atom.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.forecho.com/tags/%E6%80%9D%E8%80%83/atom.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>谈谈《时间的朋友》</title>
-      <link>http://39.108.170.72/time-friends.html</link>
+      <link>https://blog.forecho.com/time-friends.html</link>
       <pubDate>Sun, 15 Jan 2017 23:32:00 +0800</pubDate>
       
-      <guid>http://39.108.170.72/time-friends.html</guid>
+      <guid>https://blog.forecho.com/time-friends.html</guid>
       <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
 &lt;p&gt;《时间的朋友》是罗振宇从2015年开始的一年一场跨年演讲晚会，说是要坚持20年，就是每年的元旦跨年给我们总结当年发生的一些事情。前几天我听了这场演讲会的音频，趁着脑子里还有点记忆写下我的一点收获，顺便分享一些我的想法。&lt;/p&gt;
 &lt;h2 id=&#34;罗辑思维&#34;&gt;罗辑思维&lt;/h2&gt;
@@ -29,10 +29,10 @@
     
     <item>
       <title>我的知识管理工作流</title>
-      <link>http://39.108.170.72/knowledge-management-workflow.html</link>
+      <link>https://blog.forecho.com/knowledge-management-workflow.html</link>
       <pubDate>Mon, 12 Dec 2016 12:09:00 +0800</pubDate>
       
-      <guid>http://39.108.170.72/knowledge-management-workflow.html</guid>
+      <guid>https://blog.forecho.com/knowledge-management-workflow.html</guid>
       <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
 &lt;p&gt;很多碎片知识如果不整理出来，在你的大脑里面永远都是碎片。上次无意中阅读到&lt;a href=&#34;https://zi.com/w/a/164a3It&#34;&gt;《应对信息过载的正确姿势》&lt;/a&gt;和&lt;a href=&#34;http://sspai.com/36795&#34;&gt;《在线阅读处理流程：从需求、到方法、再到工具》&lt;/a&gt;这两篇文章，让我很受益，于是打算整理一下自己获取知识和信息的方式，达到记录-&amp;gt;整理-&amp;gt;优化流程的目的。&lt;/p&gt;
 &lt;h2 id=&#34;阅读流&#34;&gt;阅读流&lt;/h2&gt;
@@ -56,10 +56,10 @@ Kindle 版的电子书，标记和索引很方便，而且出门携带也非常�
     
     <item>
       <title>如何面试一个人</title>
-      <link>http://39.108.170.72/how-to-interview-a-person.html</link>
+      <link>https://blog.forecho.com/how-to-interview-a-person.html</link>
       <pubDate>Tue, 19 Jul 2016 23:47:00 +0800</pubDate>
       
-      <guid>http://39.108.170.72/how-to-interview-a-person.html</guid>
+      <guid>https://blog.forecho.com/how-to-interview-a-person.html</guid>
       <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
 &lt;p&gt;这事儿我得先从2013年我刚来深圳开始说起。由于厌倦了外包公司和只是简单维护公司网站的工作，我离开了待了4年（上学2年半，工作1年半）之久的武汉，抱着一颗想做产品的心来到了深圳。&lt;/p&gt;
 &lt;p&gt;现在回过头来，已经过去3年了，我当初的想来深圳做的事情算是实现了。&lt;/p&gt;
@@ -70,10 +70,10 @@ Kindle 版的电子书，标记和索引很方便，而且出门携带也非常�
     
     <item>
       <title>项目 Beta 版上线总结</title>
-      <link>http://39.108.170.72/beta-online-summary.html</link>
+      <link>https://blog.forecho.com/beta-online-summary.html</link>
       <pubDate>Sun, 22 May 2016 11:17:00 +0800</pubDate>
       
-      <guid>http://39.108.170.72/beta-online-summary.html</guid>
+      <guid>https://blog.forecho.com/beta-online-summary.html</guid>
       <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
 &lt;p&gt;如果要用一个词来总结我的4月，那么就是两个「加班」。自从去年10月底进入新公司的一个月之后，开始进入全新的项目组进行开发工作。&lt;/p&gt;
 &lt;p&gt;第一版的任务比较多，一直处于赶进度的状态，去年基本上每天都有在加班。内测版上线的前一个星期我们连续工作了12天（那次周末两天都过来加班），
@@ -83,10 +83,10 @@ Kindle 版的电子书，标记和索引很方便，而且出门携带也非常�
     
     <item>
       <title>如果是我来做项目经理</title>
-      <link>http://39.108.170.72/if-i-was-a-project-manager.html</link>
+      <link>https://blog.forecho.com/if-i-was-a-project-manager.html</link>
       <pubDate>Tue, 01 Mar 2016 20:56:00 +0800</pubDate>
       
-      <guid>http://39.108.170.72/if-i-was-a-project-manager.html</guid>
+      <guid>https://blog.forecho.com/if-i-was-a-project-manager.html</guid>
       <description>&lt;h2 id=&#34;我所理解的项目经理&#34;&gt;我所理解的项目经理&lt;/h2&gt;
 &lt;p&gt;以前的公司之前是没有项目经理的，只有产品经理，或者说，产品经理和项目经理是同一个人。&lt;/p&gt;
 &lt;p&gt;去年年底入职的这家公司，新项目的人员分配是这样的：包括项目经理和我在内的4个后端工程师（PHPer）都是新招来的。&lt;/p&gt;
@@ -99,10 +99,10 @@ Kindle 版的电子书，标记和索引很方便，而且出门携带也非常�
     
     <item>
       <title>如何阅读一本书</title>
-      <link>http://39.108.170.72/how-to-read-a-book.html</link>
+      <link>https://blog.forecho.com/how-to-read-a-book.html</link>
       <pubDate>Fri, 29 Jan 2016 15:36:00 +0800</pubDate>
       
-      <guid>http://39.108.170.72/how-to-read-a-book.html</guid>
+      <guid>https://blog.forecho.com/how-to-read-a-book.html</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;大致翻译了一下，有些没看懂。😓&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -115,10 +115,10 @@ Kindle 版的电子书，标记和索引很方便，而且出门携带也非常�
     
     <item>
       <title>使用 Kindle 阅读</title>
-      <link>http://39.108.170.72/use-the-kindle-reading.html</link>
+      <link>https://blog.forecho.com/use-the-kindle-reading.html</link>
       <pubDate>Sat, 09 Jan 2016 15:40:00 +0800</pubDate>
       
-      <guid>http://39.108.170.72/use-the-kindle-reading.html</guid>
+      <guid>https://blog.forecho.com/use-the-kindle-reading.html</guid>
       <description>&lt;h2 id=&#34;与书结缘的时间线&#34;&gt;与书结缘的时间线&lt;/h2&gt;
 &lt;p&gt;也许是小时候受四姨夫的印象，很喜欢看书。前几年回家过年看到他，发现你衣服里面还带着一本宋词鉴赏的书，没想到
 他还在看这样的书。&lt;/p&gt;
@@ -142,10 +142,10 @@ Kindle 版的电子书，标记和索引很方便，而且出门携带也非常�
     
     <item>
       <title>塑造成功框架的哲学</title>
-      <link>http://39.108.170.72/successful-framework-philosophies.html</link>
+      <link>https://blog.forecho.com/successful-framework-philosophies.html</link>
       <pubDate>Sun, 27 Dec 2015 22:37:00 +0800</pubDate>
       
-      <guid>http://39.108.170.72/successful-framework-philosophies.html</guid>
+      <guid>https://blog.forecho.com/successful-framework-philosophies.html</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;来源：&lt;a href=&#34;http://www.capitalone.io/blog/successful-framework-philosophies/&#34;&gt;Philosophies that Shaped Successful Frameworks&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -163,10 +163,10 @@ Kindle 版的电子书，标记和索引很方便，而且出门携带也非常�
     
     <item>
       <title>为什么要开源</title>
-      <link>http://39.108.170.72/why-open-source.html</link>
+      <link>https://blog.forecho.com/why-open-source.html</link>
       <pubDate>Thu, 17 Dec 2015 19:50:00 +0800</pubDate>
       
-      <guid>http://39.108.170.72/why-open-source.html</guid>
+      <guid>https://blog.forecho.com/why-open-source.html</guid>
       <description>&lt;h2 id=&#34;我写了一个开源项目&#34;&gt;我写了一个开源项目&lt;/h2&gt;
 &lt;p&gt;2015 年初的几个月，Yii2 框架发布了，出于对 Yii2 的热爱，再加上是年底，工作没那么忙，本着学习和致敬 &lt;a href=&#34;https://ruby-china.org/&#34;&gt;Ruby-China&lt;/a&gt; 的心态，
 我开始用 Yii2 开发一个社区。其实 &lt;a href=&#34;https://phphub.org/&#34;&gt;PHPhub&lt;/a&gt; 社区也不错，但是没有 Yii 节点，呵呵。&lt;/p&gt;
@@ -177,10 +177,10 @@ Kindle 版的电子书，标记和索引很方便，而且出门携带也非常�
     
     <item>
       <title>如何让团队里的工程师对工作不厌烦</title>
-      <link>http://39.108.170.72/coding-is-boring-unless.html</link>
+      <link>https://blog.forecho.com/coding-is-boring-unless.html</link>
       <pubDate>Mon, 30 Nov 2015 17:40:00 +0800</pubDate>
       
-      <guid>http://39.108.170.72/coding-is-boring-unless.html</guid>
+      <guid>https://blog.forecho.com/coding-is-boring-unless.html</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;原文：&lt;a href=&#34;https://blog.enki.com/coding-is-boring-unless-4e496720d664#.pgkeq1x6r&#34;&gt;《Coding is boring, unless…》&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -193,28 +193,28 @@ Kindle 版的电子书，标记和索引很方便，而且出门携带也非常�
     
     <item>
       <title>天赋还是努力</title>
-      <link>http://39.108.170.72/tian-fu-hai-shi-nu-li.html</link>
+      <link>https://blog.forecho.com/tian-fu-hai-shi-nu-li.html</link>
       <pubDate>Sun, 27 Oct 2013 23:18:00 +0800</pubDate>
       
-      <guid>http://39.108.170.72/tian-fu-hai-shi-nu-li.html</guid>
+      <guid>https://blog.forecho.com/tian-fu-hai-shi-nu-li.html</guid>
       <description>刚开始听说《怪兽大学》这个动漫电影的时候，看了一下预告片，然后海报，觉得，哇，真的是怪兽，第一次看的话还有点「吓人」，就跟我看《卑鄙的我》一</description>
     </item>
     
     <item>
       <title>代码不值钱</title>
-      <link>http://39.108.170.72/dai-ma-bu-zhi-qian.html</link>
+      <link>https://blog.forecho.com/dai-ma-bu-zhi-qian.html</link>
       <pubDate>Mon, 21 Oct 2013 22:40:00 +0800</pubDate>
       
-      <guid>http://39.108.170.72/dai-ma-bu-zhi-qian.html</guid>
+      <guid>https://blog.forecho.com/dai-ma-bu-zhi-qian.html</guid>
       <description>最近发现 Podcast 这个好玩的东西，分享给大家。比方说这个：http://teahour.fm/ 如果有 iPhone 的话直接去下载 Podcast ，可以直接去订阅，非常 cool</description>
     </item>
     
     <item>
       <title>一切都来得及，就怕你不做</title>
-      <link>http://39.108.170.72/yi-qie-dou-lai-de-ji-jiu-pa-ni-bu-zuo.html</link>
+      <link>https://blog.forecho.com/yi-qie-dou-lai-de-ji-jiu-pa-ni-bu-zuo.html</link>
       <pubDate>Wed, 04 Sep 2013 12:07:00 +0800</pubDate>
       
-      <guid>http://39.108.170.72/yi-qie-dou-lai-de-ji-jiu-pa-ni-bu-zuo.html</guid>
+      <guid>https://blog.forecho.com/yi-qie-dou-lai-de-ji-jiu-pa-ni-bu-zuo.html</guid>
       <description>最近一直在忙着技术方面的事，文章都是一些技术问题。看在今天是我步入23岁第一天的日子上，我决定写一篇最近的总结。 最近两个月游戏基本上都没玩了</description>
     </item>
     
