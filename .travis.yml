@@ -1,11 +1,22 @@
 language: go
 go:
-  - master
+  - 1.12
+
+sudo: false
+
+git:
+  depth: false
 
 # before_install
 # install - install any dependencies required
 install:
-  - go get github.com/gohugoio/hugo # consume time 70.85s
+  - uname -a
+  - wget $(curl -s https://api.github.com/repos/gohugoio/hugo/releases/latest | grep "browser_download_url.*hugo_[^extended].*_Linux-64bit.deb") | cut -d ":" -f 2,3
+  - sudo dpkg -i hugo*.deb
+  - hugo version
+  - ls
+  - pwd
+# - go get github.com/gohugoio/hugo # consume time 70.85s
 
 before_script:
   - rm -rf public
@@ -23,7 +34,7 @@ deploy:
   github-token: $GITHUB_TOKEN # 重要，$GITHUB_TOKEN是变量，需要在GitHub上申请、再到配置到Travis
   email: caizhenghai@gmail.com
   name: forecho
-#   fqdn: # 如果是自定义域名，此处要填
+  #   fqdn: # 如果是自定义域名，此处要填
   keep-history: true # 是否保持target-branch分支的提交记录
   on:
     branch: master # 博客源码的分支
