@@ -42,7 +42,7 @@ Yii 是一个很强大的框架，而且设计的很好，它的模式非常一�
 
 - [我的 GitHub 主页](https://github.com/forecho)
 - [ GitHub Yiier 组织](https://github.com/yiier)
-- [我的主页](http://www.forecho.com/)
+- [我的主页](https://www.forecho.com/)
 
 
 订阅请点击 **[Yiier 小专栏](https://xiaozhuanlan.com/yiier)**，目前正在限时特价（持续时间一周），打完折，只需要9.9块钱，你还在犹豫什么？

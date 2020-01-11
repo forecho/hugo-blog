@@ -10,7 +10,7 @@ toc: true
 
 ## 引言
 
-[上篇文章](http://blog.forecho.com/use-jwt.html)我们讲到 API 可能会使用到的 JWT 认证。既然讲到 API 开发就不得不讲到 API 调试以及测试神器 - [Postman](https://www.getpostman.com/)。
+[上篇文章](https://blog.forecho.com/use-jwt.html)我们讲到 API 可能会使用到的 JWT 认证。既然讲到 API 开发就不得不讲到 API 调试以及测试神器 - [Postman](https://www.getpostman.com/)。
 
 ## 基本使用
 

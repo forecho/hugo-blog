@@ -26,7 +26,7 @@ toc: true
 
 这两本的内容都来自于著名博客[乔尔谈软件](http://www.joelonsoftware.com/)的精选集。作者是大名鼎鼎的 Joel Spolsky ，曾经参与过微软的 Excel 产品，还联合创立了 Fog Creek 软件公司（[Trello](https://trello.com/) 被收购之前的公司）），联合创办[Stack Overflow](http://stackoverflow.com/) 并担任CEO一职（作为一名程序员你不要告诉我你不知道 Stack Overflow）。
 
-总之，就一句话总结，作者很牛逼。这两本书的内容都是作者十几年前写的，看之前我还担心内容是否过时，但是当我看了之后发现，内容非常有意思，而且有的文章现在看来也不过时，里面有一些关于项目管理的经验，非常受用。我之前就结合作者的一篇『乔尔测试』写过一篇文章 - [如果是我来做项目经理](https://blog.forecho.com/if-I-was-a-project-manager.html)。
+总之，就一句话总结，作者很牛逼。这两本书的内容都是作者十几年前写的，看之前我还担心内容是否过时，但是当我看了之后发现，内容非常有意思，而且有的文章现在看来也不过时，里面有一些关于项目管理的经验，非常受用。我之前就结合作者的一篇『乔尔测试』写过一篇文章 - [如果是我来做项目经理](https://blog.forecho.com/if-i-was-a-project-manager.html)。
 
 
 ### [《高效能程序员的修炼》](https://www.amazon.cn/dp/B00DXZFZPO/?ie=UTF8&tag=forecho0c-23)

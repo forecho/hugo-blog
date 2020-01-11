@@ -94,6 +94,6 @@ PS：最后吐槽一下，当天下午3点之后入金，需要等待下一个�
 
 相关文章推荐：
 
-- [再谈美股开户:富途 vs 雪盈](https://blog.forecho.com/talk-about-US-stocks-account-again.html)
+- [再谈美股开户:富途 vs 雪盈](https://blog.forecho.com/talk-about-us-stocks-account-again.html)
 - [【深度理财02】炒美股一年学到的经验教训](https://blog.forecho.com/financedeep-02.html)
 

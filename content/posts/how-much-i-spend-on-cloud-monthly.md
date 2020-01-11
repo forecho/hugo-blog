@@ -10,7 +10,7 @@ toc: true
 
 ## [阿里云](http://www.aliyun.com/)
 
-目前 [GetYii](http://www.getyii.com/) 是放在阿里云上的，[我的首页](http://www.forecho.com/) 也放在上面，买的是深圳最便宜的套餐，每个月**62块钱**，基本上够用。
+目前 [GetYii](http://www.getyii.com/) 是放在阿里云上的，[我的首页](https://www.forecho.com/) 也放在上面，买的是深圳最便宜的套餐，每个月**62块钱**，基本上够用。
 速度还上比较稳定的，访问国内的还是比那些国外的 VPS 要快的多，唯一麻烦的是，国内域名必须备案。
 
 ## 搬瓦工

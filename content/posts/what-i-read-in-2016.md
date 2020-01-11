@@ -22,7 +22,7 @@ toc: true
 
 那本通过这本杂文集，让我进一步了解了吴晓波的另一面（以前他的书多大都是写别人或者企业的历史），而且最重要的是本书并不厚，大多数内容都非常有趣 - 没想到他当年为了现在的妻子还放弃过出国留学的机会，曾经也有50W，创过几次失败的业，救助过汶川大地震，以及他对女儿的教育看法等等都有很深刻的印象和收获。
 
-最后还想说，非常喜欢这本书的名字，因为是用 kindle 看得电子版，所以做了些笔记。如果感兴趣可以点击[《读《把生命浪费在美好的事物上》》](https://blog.forecho.com/read-The-waste-oflife-in-the-good-things.html)。
+最后还想说，非常喜欢这本书的名字，因为是用 kindle 看得电子版，所以做了些笔记。如果感兴趣可以点击[《读《把生命浪费在美好的事物上》》](https://blog.forecho.com/read-the-waste-oflife-in-the-good-things.html)。
 
 
 ### [硅谷之谜](https://book.douban.com/subject/26665230/)

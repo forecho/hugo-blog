@@ -72,8 +72,8 @@ toc: true
 
 开通香港银行卡最大的好处是可以购买美股和港股，那么我是如何购买美股和港股的呢？可以查看下面我写的文章：
 
-- [我是怎么投资美股的](https://blog.forecho.com/how-do-I-invest-in-American-stocks.html)
-- [再谈美股开户:富途 vs 雪盈](https://blog.forecho.com/talk-about-US-stocks-account-again.html)
+- [我是怎么投资美股的](https://blog.forecho.com/how-do-i-invest-in-american-stocks.html)
+- [再谈美股开户:富途 vs 雪盈](https://blog.forecho.com/talk-about-us-stocks-account-again.html)
 - [【深度理财02】炒美股一年学到的经验教训](https://blog.forecho.com/financedeep-02.html)
 
 ## 参考链接

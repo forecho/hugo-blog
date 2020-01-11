@@ -81,7 +81,7 @@ toc: true
 
 除了2019年1月份没兑现『每月至少两篇博客』的承诺，其他几个月都完成了目标。
 
-[《深度阅读》](https://blog.forecho.com/categories/shen-du-yue-du/)专栏后来因为结婚的事情也暂时停更了。
+[《深度阅读》](https://blog.forecho.com/tags/深度阅读.html)专栏后来因为结婚的事情也暂时停更了。
 
 ### [三立三](https://3li3.com/)
 

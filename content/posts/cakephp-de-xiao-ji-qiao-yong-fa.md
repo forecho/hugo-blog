@@ -15,7 +15,7 @@ toc: true
 答：一个是在调用的文件名最后加变量后缀，如时间。示例代码如下：
 
 
-    <link rel="stylesheet" type="text/css" href="http://forecho.com/css/index.css?2014-01-03-1" media="all" />
+    <link rel="stylesheet" type="text/css" href="https://forecho.com/css/index.css?2014-01-03-1" media="all" />
 
 二如果是CakePHP的话还可以修改core.php配置文件，代码如下：
 
