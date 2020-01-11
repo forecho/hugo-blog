@@ -24,7 +24,7 @@ before_script:
 # script - run the build script
 script:
   - hugo
-  - echo "new-blog.forecho.com" > public/CNAME
+  - echo "blog.forecho.com" > public/CNAME
 
 deploy:
   provider: pages # 重要，指定这是一份github pages的部署配置
