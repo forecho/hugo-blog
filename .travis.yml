@@ -11,7 +11,7 @@ git:
 # install - install any dependencies required
 install:
   - uname -a
-  - wget $(curl -s https://api.github.com/repos/gohugoio/hugo/releases/latest | grep "browser_download_url.*hugo_[^extended].*_Linux-64bit.deb" | cut -d ":" -f 2,3)
+  - wget $(curl -s https://api.github.com/repos/gohugoio/hugo/releases/latest | grep "browser_download_url.*hugo_[^extended].*_Linux-64bit.deb" | cut -d ":" -f 2,3 | tr -d \")
   - sudo dpkg -i hugo*.deb
   - hugo version
   - ls
