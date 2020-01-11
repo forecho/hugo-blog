@@ -19,7 +19,7 @@
       <guid>https://blog.forecho.com/use-postman.html</guid>
       <description>&lt;p&gt;{% raw %}&lt;/p&gt;
 &lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;http://blog.forecho.com/use-jwt.html&#34;&gt;上篇文章&lt;/a&gt;我们讲到 API 可能会使用到的 JWT 认证。既然讲到 API 开发就不得不讲到 API 调试以及测试神器 - &lt;a href=&#34;https://www.getpostman.com/&#34;&gt;Postman&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://blog.forecho.com/use-jwt.html&#34;&gt;上篇文章&lt;/a&gt;我们讲到 API 可能会使用到的 JWT 认证。既然讲到 API 开发就不得不讲到 API 调试以及测试神器 - &lt;a href=&#34;https://www.getpostman.com/&#34;&gt;Postman&lt;/a&gt;。&lt;/p&gt;
 &lt;h2 id=&#34;基本使用&#34;&gt;基本使用&lt;/h2&gt;
 &lt;h3 id=&#34;创建环境变量&#34;&gt;创建环境变量&lt;/h3&gt;
 &lt;p&gt;&lt;img src=&#34;https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424160357.png&#34; alt=&#34;创建环境变量&#34;&gt;&lt;/p&gt;

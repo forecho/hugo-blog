@@ -118,7 +118,7 @@
 <p>答：使用：$this-&gt;autoRender = false</p>
 <p><strong>2、对于一直在开发的网站，在频繁更新的情况下，如何保证css文件、js文件和image文件不调用浏览器缓存文件问题？</strong></p>
 <p>答：一个是在调用的文件名最后加变量后缀，如时间。示例代码如下：</p>
-<pre><code>&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;http://forecho.com/css/index.css?2014-01-03-1&quot; media=&quot;all&quot; /&gt;
+<pre><code>&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://forecho.com/css/index.css?2014-01-03-1&quot; media=&quot;all&quot; /&gt;
 </code></pre>
 <p>二如果是CakePHP的话还可以修改core.php配置文件，代码如下：</p>
 <pre><code>/**
@@ -288,7 +288,7 @@ debug($log);
             <div class="flex-1 border-r border-gray-600">
                 <p class="text-center">
                     <span class="text-gray-700 font-bold">
-                        335
+                        327
                     </span>
                     文章
                 </p>
