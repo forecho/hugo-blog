@@ -1,13 +1,13 @@
-baseURL = "http://39.108.170.72"
+baseURL = "https://blog.forecho.com"
 languageCode = "en-us"
-title = "Forecho's Blog"
+title = "forecho's Blog"
 theme = "echo"
 DefaultContentLanguage = "cn"
 # 自动检测是否包含中文/日文/韩文，该参数会影响摘要和字数统计功能，建议设置为true
 hasCJKLanguage = true
 # 设置页面生成形式，将默认的网站路径/修改成.html
 uglyURLs = true
-googleAnalytics = ""      # UA-XXXXXXXX-X
+googleAnalytics = "UA-75634412-1"      # UA-XXXXXXXX-X
 
 [markup.highlight]
 codeFences = true # 高亮markdown的代码块
@@ -34,13 +34,13 @@ limit = 20
 [author]
 name = "forecho"
 avatar = "https://avatars0.githubusercontent.com/u/1725326?s=460&v=4"
-bio = "7年开发经验，寻求技术 Leader 工作机会。Wechat: ipzone"
-homepage = "https://forecho.io/"
+bio = "把生命浪费在美好的事物上"
+homepage = "https://forecho.com/"
 
 [params]
 favicon = "https://avatars0.githubusercontent.com/u/1725326?s=460&v=4"
-keywords = "Hugo, theme, even"
-description = "Hugo theme even example site."
+keywords = "yii2, yii, php develop, php, ios, ruby, python, swift, web development"
+description = "forecho, forecho blog, forecho 独立博客"
 toc = true
 navItems = [
   ["首页", "/"],
