@@ -11,217 +11,16 @@
     <meta name="generator" content="Saber v0.11.2">
     <meta name="author" content="forecho" />
     <meta name="keywords" content="yii2, yii, php develop, php, ios, ruby, python, swift, web development" />
-    <meta name="og:site_name" content="forecho&#39;s Blog" /><meta property="og:title" content="Mac 升级 Yosemite 之后 PHP 环境修复 - forecho&#39;s Blog" />
+    <meta name="og:site_name" content="forecho&#39;s Blog" /><meta property="og:title" content="MacBook 升级 Yosemite 之后 PHP 环境修复 - forecho&#39;s Blog" />
     <meta property="og:type" content="article" />
-    <meta property="title" content="Mac 升级 Yosemite 之后 PHP 环境修复 - forecho&#39;s Blog">
-    <meta property="og:title" content="Mac 升级 Yosemite 之后 PHP 环境修复 - forecho&#39;s Blog">
-    <meta property="twitter:title" content="Mac 升级 Yosemite 之后 PHP 环境修复 - forecho&#39;s Blog">
-    <meta property="description" content="Yosemite 终于发布了，我第一时间升级了。但是没想到 PHP 环境受到影响了，直到现在终于修复好了。
-##修复 Apache
-Apache 好像是换新版本了，升级完系统之后项目打不开了。之前设置好的虚拟主机都无效了。
-首先打开 sudo vim /etc/apache2/httpd.conf  这个文件，
-开启虚拟主机功能，去掉下面代码的「#」注释：
-
-
-1
-
-
-#Include /private/etc/apache2/extra/httpd-vhosts.conf
-
-
-改过的代码如下：
-
-
-1
-
-
-Include /private/etc/apache2/extra/httpd-vhosts.conf
-
-
-如果想开启伪静态，去掉下面代码的「#」注释：
-
-
-1
-
-
-#LoadModule rewrite_module libexec/apache2/mod_rewrite.so
-
-
-改过的代码如下：
-
-
-1
-
-
-LoadModule rewrite_module libexec/apache2/mod_rewrite.so
-
-
-如果想使用系统自带的 PHP 版本的话，去掉下面代码的「#」注释：
-
-
-1
-
-
-#LoadModule php5_module libexec/apache2/libphp5.so
-
-
-改过的代码如下：
-
-
-1
-
-
-LoadModule php5_module libexec/apache2/libphp5.so
-
-
-以上操作完了之后记得要重启Apache:
-
-
-1
-
-
-sudo apachectl restart
-
-
-##修复虚拟主机">
-    <meta property="og:description" content="Yosemite 终于发布了，我第一时间升级了。但是没想到 PHP 环境受到影响了，直到现在终于修复好了。
-##修复 Apache
-Apache 好像是换新版本了，升级完系统之后项目打不开了。之前设置好的虚拟主机都无效了。
-首先打开 sudo vim /etc/apache2/httpd.conf  这个文件，
-开启虚拟主机功能，去掉下面代码的「#」注释：
-
-
-1
-
-
-#Include /private/etc/apache2/extra/httpd-vhosts.conf
-
-
-改过的代码如下：
-
-
-1
-
-
-Include /private/etc/apache2/extra/httpd-vhosts.conf
-
-
-如果想开启伪静态，去掉下面代码的「#」注释：
-
-
-1
-
-
-#LoadModule rewrite_module libexec/apache2/mod_rewrite.so
-
-
-改过的代码如下：
-
-
-1
-
-
-LoadModule rewrite_module libexec/apache2/mod_rewrite.so
-
-
-如果想使用系统自带的 PHP 版本的话，去掉下面代码的「#」注释：
-
-
-1
-
-
-#LoadModule php5_module libexec/apache2/libphp5.so
-
-
-改过的代码如下：
-
-
-1
-
-
-LoadModule php5_module libexec/apache2/libphp5.so
-
-
-以上操作完了之后记得要重启Apache:
-
-
-1
-
-
-sudo apachectl restart
-
-
-##修复虚拟主机">
-    <meta property="twitter:description" content="Yosemite 终于发布了，我第一时间升级了。但是没想到 PHP 环境受到影响了，直到现在终于修复好了。
-##修复 Apache
-Apache 好像是换新版本了，升级完系统之后项目打不开了。之前设置好的虚拟主机都无效了。
-首先打开 sudo vim /etc/apache2/httpd.conf  这个文件，
-开启虚拟主机功能，去掉下面代码的「#」注释：
-
-
-1
-
-
-#Include /private/etc/apache2/extra/httpd-vhosts.conf
-
-
-改过的代码如下：
-
-
-1
-
-
-Include /private/etc/apache2/extra/httpd-vhosts.conf
-
-
-如果想开启伪静态，去掉下面代码的「#」注释：
-
-
-1
-
-
-#LoadModule rewrite_module libexec/apache2/mod_rewrite.so
-
-
-改过的代码如下：
-
-
-1
-
-
-LoadModule rewrite_module libexec/apache2/mod_rewrite.so
-
-
-如果想使用系统自带的 PHP 版本的话，去掉下面代码的「#」注释：
-
-
-1
-
-
-#LoadModule php5_module libexec/apache2/libphp5.so
-
-
-改过的代码如下：
-
-
-1
-
-
-LoadModule php5_module libexec/apache2/libphp5.so
-
-
-以上操作完了之后记得要重启Apache:
-
-
-1
-
-
-sudo apachectl restart
-
-
-##修复虚拟主机">
+    <meta property="title" content="MacBook 升级 Yosemite 之后 PHP 环境修复 - forecho&#39;s Blog">
+    <meta property="og:title" content="MacBook 升级 Yosemite 之后 PHP 环境修复 - forecho&#39;s Blog">
+    <meta property="twitter:title" content="MacBook 升级 Yosemite 之后 PHP 环境修复 - forecho&#39;s Blog">
+    <meta property="description" content="Yosemite 终于发布了，我第一时间升级了。但是没想到 PHP 环境受到影响了，直到现在终于修复好了。 一、修复 Apache Apache 好像是换新版本了，升级完系统之后项目打不开了。">
+    <meta property="og:description" content="Yosemite 终于发布了，我第一时间升级了。但是没想到 PHP 环境受到影响了，直到现在终于修复好了。 一、修复 Apache Apache 好像是换新版本了，升级完系统之后项目打不开了。">
+    <meta property="twitter:description" content="Yosemite 终于发布了，我第一时间升级了。但是没想到 PHP 环境受到影响了，直到现在终于修复好了。 一、修复 Apache Apache 好像是换新版本了，升级完系统之后项目打不开了。">
     <meta property="og:type" content="article">
-    <title>Mac 升级 Yosemite 之后 PHP 环境修复 - forecho&#39;s Blog</title>
+    <title>MacBook 升级 Yosemite 之后 PHP 环境修复 - forecho&#39;s Blog</title>
 
     <meta property="og:url" content="https://blog.forecho.com/macbook-sheng-ji-yosemite-zhi-hou-php-huan-jing-xiu-fu.html" />
 
@@ -233,7 +32,7 @@ sudo apachectl restart
     <link rel="stylesheet" href="//at.alicdn.com/t/font_1607597_jhmihcvh0tm.css" />
     <link href="/index.xml" rel="alternate" type="application/rss+xml" title="forecho&#39;s Blog">
     
-    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><meta name="baidu-site-verification" content="WuHyHeOJtJ" />
 </head>
 
 <body class="bg-gray-100 text-gray-900 tracking-wider leading-normal">
@@ -283,17 +82,17 @@ sudo apachectl restart
         
         <div>
     <h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-2xl lg:text-3xl">
-        <a href="https://blog.forecho.com/macbook-sheng-ji-yosemite-zhi-hou-php-huan-jing-xiu-fu.html" title="Mac 升级 Yosemite 之后 PHP 环境修复">Mac 升级 Yosemite 之后 PHP 环境修复</a>
+        <a href="https://blog.forecho.com/macbook-sheng-ji-yosemite-zhi-hou-php-huan-jing-xiu-fu.html" title="MacBook 升级 Yosemite 之后 PHP 环境修复">MacBook 升级 Yosemite 之后 PHP 环境修复</a>
     </h1>
     <p class="mb-1 text-sm text-gray-500">
-        <span title=" 2014-10-19 22:06:00 &#43;0800">
+        <span title=" 2014-10-19 16:10:00 &#43;0800">
             <i class="iconfont icon-calendar" aria-hidden="true"></i> 19 Oct 2014
         </span>
 
         <span class="hidden xl:inline-block">
             |
             <i class="iconfont icon-book"></i>
-            636 字
+            905 字
         </span>
 
         <span class="hidden xl:inline-block">
@@ -311,173 +110,69 @@ sudo apachectl restart
     <div class="sticky text-sm" style="top:6em;" id="menu-content">
         <nav id="TableOfContents">
   <ul>
-        <li><a href="#开启虚拟主机功能去掉下面代码的注释">开启虚拟主机功能，去掉下面代码的「#」注释：</a></li>
-        <li><a href="#如果想开启伪静态去掉下面代码的注释">如果想开启伪静态，去掉下面代码的「#」注释：</a></li>
-        <li><a href="#如果想使用系统自带的-php-版本的话去掉下面代码的注释">如果想使用系统自带的 PHP 版本的话，去掉下面代码的「#」注释：</a></li>
-      </ul>
+    <li><a href="#comments">Comments</a></li>
+  </ul>
 </nav>
     </div>
 
         </div> 
 
         <div class="post-content">
-            <p>Yosemite 终于发布了，我第一时间升级了。但是没想到 PHP 环境受到影响了，直到现在终于修复好了。</p>
-<p>##修复 Apache</p>
-<p>Apache 好像是换新版本了，升级完系统之后项目打不开了。之前设置好的虚拟主机都无效了。</p>
-<p>首先打开 <code>sudo vim /etc/apache2/httpd.conf</code>  这个文件，</p>
-<h3 id="开启虚拟主机功能去掉下面代码的注释">开启虚拟主机功能，去掉下面代码的「#」注释：</h3>
-<div class="highlight"><div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
-<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-fallback" data-lang="fallback">#Include /private/etc/apache2/extra/httpd-vhosts.conf
-</code></pre></td></tr></table>
-</div>
-</div><p>改过的代码如下：</p>
-<div class="highlight"><div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
-<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-fallback" data-lang="fallback">Include /private/etc/apache2/extra/httpd-vhosts.conf
-</code></pre></td></tr></table>
-</div>
-</div><h3 id="如果想开启伪静态去掉下面代码的注释">如果想开启伪静态，去掉下面代码的「#」注释：</h3>
-<div class="highlight"><div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
-<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-fallback" data-lang="fallback">#LoadModule rewrite_module libexec/apache2/mod_rewrite.so
-</code></pre></td></tr></table>
-</div>
-</div><p>改过的代码如下：</p>
-<div class="highlight"><div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
-<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-fallback" data-lang="fallback">LoadModule rewrite_module libexec/apache2/mod_rewrite.so
-</code></pre></td></tr></table>
-</div>
-</div><h3 id="如果想使用系统自带的-php-版本的话去掉下面代码的注释">如果想使用系统自带的 PHP 版本的话，去掉下面代码的「#」注释：</h3>
-<div class="highlight"><div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
-<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-fallback" data-lang="fallback">#LoadModule php5_module libexec/apache2/libphp5.so
-</code></pre></td></tr></table>
-</div>
-</div><p>改过的代码如下：</p>
-<div class="highlight"><div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
-<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-fallback" data-lang="fallback">LoadModule php5_module libexec/apache2/libphp5.so
-</code></pre></td></tr></table>
-</div>
-</div><p>以上操作完了之后记得要重启Apache:</p>
-<div class="highlight"><div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
-<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-sh" data-lang="sh">sudo apachectl restart
-</code></pre></td></tr></table>
-</div>
-</div><p>##修复虚拟主机</p>
-<p>现在我们虽然能用虚拟主机了，但是好像不能解析 PHP 了，打开 <code>/private/etc/apache2/extra/httpd-vhosts.conf</code> 文件在每一个配置里面添加一行下面的代码就可以了：</p>
-<p><code>Require all granted</code></p>
-<p>示例如下：</p>
-<div class="highlight"><div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
-<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-fallback" data-lang="fallback">&lt;Directory &#34;/Users/$USER/Sites/&#34;&gt;
+            <p>Yosemite 终于发布了，我第一时间升级了。但是没想到 PHP 环境受到影响了，直到现在终于修复好了。 <strong>一、修复 Apache</strong> Apache 好像是换新版本了，升级完系统之后项目打不开了。之前设置好的虚拟主机都无效了。 首先打开 sudo vim /etc/apache2/httpd.conf  这个文件， 1. 开启虚拟主机功能，去掉下面代码的「#」注释：</p>
+<pre><code>#Include /private/etc/apache2/extra/httpd-vhosts.conf
+</code></pre>
+<p>改过的代码如下：</p>
+<pre><code>Include /private/etc/apache2/extra/httpd-vhosts.conf
+</code></pre>
+<p>2. 如果想开启伪静态，去掉下面代码的「#」注释：</p>
+<pre><code>#LoadModule rewrite_module libexec/apache2/mod_rewrite.so
+</code></pre>
+<p>改过的代码如下：</p>
+<pre><code>LoadModule rewrite_module libexec/apache2/mod_rewrite.so
+</code></pre>
+<p>3. 如果想使用系统自带的 PHP 版本的话，去掉下面代码的「#」注释：</p>
+<pre><code>#LoadModule php5_module libexec/apache2/libphp5.so
+</code></pre>
+<p>改过的代码如下：</p>
+<pre><code>LoadModule php5_module libexec/apache2/libphp5.so
+</code></pre>
+<p>  以上操作完了之后记得要重启Apache:</p>
+<pre><code>sudo apachectl restart
+</code></pre>
+<p>  <strong>二、修复虚拟主机</strong> 现在我们虽然能用虚拟主机了，但是好像不能解析 PHP 了，打开 /private/etc/apache2/extra/httpd-vhosts.conf 文件在每一个配置里面添加一行下面的代码就可以了： <code>Require all granted</code> 示例如下：</p>
+<pre><code>&lt;Directory &quot;/Users/$USER/Sites/&quot;&gt;
 Options Indexes MultiViews FollowSymLinks
 AllowOverride All
 Require all granted
 &lt;/Directory&gt;
-</code></pre></td></tr></table>
-</div>
-</div><p>记得要重启 Apache：</p>
-<div class="highlight"><div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
-<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-sh" data-lang="sh">sudo apachectl restart
-</code></pre></td></tr></table>
-</div>
-</div><p>##安装 PHP Mcrypt 扩展</p>
-<p>这个花费我很长时间，主要是我本来还想用 brew 安装的，省事，但是还是没效果，最后没办法还是编译安装了。</p>
-<div class="highlight"><div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
-<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">7
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">8
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-sh" data-lang="sh"><span style="color:#366">cd</span> ~/Downloads
+</code></pre>
+<p>记得要重启 Apache：</p>
+<pre><code>sudo apachectl restart
+</code></pre>
+<p><strong>三、安装 PHP Mcrypt 扩展</strong> 这个花费我很长时间，主要是我本来还想用 brew 安装的，省事，但是还是没效果，最后没办法还是编译安装了。</p>
+<pre><code>cd ~/Downloads
 wget https://github.com/php/php-src/archive/PHP-5.5.14.zip
 unzip PHP-5.5.14.zip
-<span style="color:#366">cd</span> php-src-PHP-5.5.14/ext/mcrypt/
+cd php-src-PHP-5.5.14/ext/mcrypt/
 /usr/bin/phpize
 ./configure
 make
 sudo make install
-</code></pre></td></tr></table>
-</div>
-</div><p>然后拷贝一份 php.ini 配置文件，重装系统这个文件没了：</p>
-<div class="highlight"><div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
-<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-sh" data-lang="sh">sudo cp /etc/php.ini.default /etc/php.ini
-</code></pre></td></tr></table>
-</div>
-</div><p>然后记得在 php.ini 文件里面添加这个扩展，如下面代码：</p>
-<div class="highlight"><div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
-<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-fallback" data-lang="fallback">extension = mcrypt.so
-</code></pre></td></tr></table>
-</div>
-</div><p>以上操作完之后你的 PHP 环境应该又回来了。：）</p>
-<p>—————–update 2014年11月02日—————-</p>
-<p>Yosemite 自带编译安装之后的 PHP 环境 GD 库不支持 png 和 FreeType ，会导致各种验证码出不来，坑。</p>
-<p>一键解决办法如下（重新编译使用 PHP5.6）：</p>
-<div class="highlight"><div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
-<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-sh" data-lang="sh">curl -s http://php-osx.liip.ch/install.sh | bash -s 5.6
-</code></pre></td></tr></table>
-</div>
-</div><p>##参考文章：</p>
-<ol>
-<li><a href="http://tobschall.de/2014/08/04/yosemite-mamp/">Apache, MySQL &amp; PHP on OS X Yosemite</a></li>
-<li><a href="http://digitizor.com/2014/06/29/build-install-php-mcrypt-mac-os-x-manually/">How to Manually Build &amp; Install php-mcrypt on Mac OS X</a></li>
-<li><a href="http://www.pixelfolio.co.uk/blog/installing_and_configuring_apache_php_mysql_on_yosemite">Installing and Configuring Apache, PHP and MySQL on OSX 10.10 Yosemite</a></li>
-<li><a href="http://stackoverflow.com/questions/26443242/after-upgrade-php-no-longer-supports-png-operations">After upgrade, PHP no longer supports PNG operations</a></li>
-</ol>
+</code></pre>
+<p>然后拷贝一份 php.ini 配置文件，重装系统这个文件没了：</p>
+<pre><code>sudo cp /etc/php.ini.default /etc/php.ini
+</code></pre>
+<p>然后记得在 php.ini 文件里面添加这个扩展，如下面代码： <code>extension = mcrypt.so</code>   以上操作完之后你的 PHP 环境应该又回来了。：） -&mdash;&mdash;&mdash;&mdash;&mdash;-update 2014年11月02日&mdash;&mdash;&mdash;&mdash;&mdash;- Yosemite 自带编译安装之后的 PHP 环境 GD 库不支持 png 和 FreeType ，会导致各种验证码出不来，坑。 一键解决办法如下（重新编译使用 PHP5.6）：</p>
+<pre><code>curl -s http://php-osx.liip.ch/install.sh | bash -s 5.6
+</code></pre>
+<p>  参考文章： <a href="http://tobschall.de/2014/08/04/yosemite-mamp/">Apache, MySQL &amp; PHP on OS X Yosemite</a> <a href="http://digitizor.com/2014/06/29/build-install-php-mcrypt-mac-os-x-manually/">How to Manually Build &amp; Install php-mcrypt on Mac OS X</a> <a href="http://www.pixelfolio.co.uk/blog/installing_and_configuring_apache_php_mysql_on_yosemite">Installing and Configuring Apache, PHP and MySQL on OSX 10.10 Yosemite</a> <a href="http://stackoverflow.com/questions/26443242/after-upgrade-php-no-longer-supports-png-operations">After upgrade, PHP no longer supports PNG operations</a></p>
+<h2 id="comments">Comments</h2>
+<p><strong><a href="#209" title="2014-11-04 10:11:00">王晓</a>:</strong> hi 博主，我用你上述所说的一键安装GD库，代码已经执行，可是半小时了，为什么还停留在这个界面？</p>
+<p><strong><a href="#210" title="2014-11-04 10:12:00">王晓</a>:</strong> 上图</p>
+<p><strong><a href="#211" title="2014-11-13 22:02:00">ForEcho</a>:</strong> 刚开始我也很疑惑，等了半天没反应，后来我发现那个包要100多兆，比较大而且这个服务器是放在国外的，条件允许的话，最好翻墙。</p>
+<p><strong><a href="#212" title="2014-12-14 00:58:00">baocaixiong</a>:</strong> 用brewHome保平安。</p>
+<p><strong><a href="#214" title="2014-12-17 22:09:00">alinwei</a>:</strong> 大神，在本地搭建hexo 然后，hexo s 可以正常访问，然后推送到github后，也是正常的，但是二级域名一直是404，等了一天还是，不知道问题出现在哪里，希望大神有时间帮看哈。项目地址：https://github.com/missyun/alinwei.github.io 感谢！！</p>
+
 
             <hr class="bg-gray-300 mt-8">
 
@@ -530,13 +225,6 @@ sudo make install
         </div>
 
         
-        <div class="text-base md:text-sm text-gray-500 pt-6">
-                <a class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 hover:bg-gray-300"
-                    href="https://blog.forecho.com/tags/php.html">
-                    #PHP
-                </a>
-                                    
-            </div>
         
 
          
@@ -567,13 +255,13 @@ sudo make install
         
         <li><a href="/php-cai-jian-shu-zu.html" class="underline text-orange-600">PHP 裁剪数组</a></li>
         
+        <li><a href="/cakephp-shi-yong-cha-jian-dao-chu-csv-wen-jian.html" class="underline text-orange-600">CakePHP 使用插件导出 CSV 文件</a></li>
+        
         <li><a href="/php-bian-liang-de-pan-duan-issetyu-emptyde-qu-bie.html" class="underline text-orange-600">PHP - isset 与 empty 的区别</a></li>
         
-        <li><a href="/php-huo-qu-dang-qian-url-de-xiang-guan-can-shu.html" class="underline text-orange-600">PHP 获取当前URL的相关参数</a></li>
+        <li><a href="/hello-octopress.html" class="underline text-orange-600">hello octopress</a></li>
         
-        <li><a href="/php-yu-ju-zai-mysql-cha-ru-html-yu-ju.html" class="underline text-orange-600">PHP语句在MySQL插入HTML语句</a></li>
-        
-        <li><a href="/macbook-sheng-ji-yosemite-zhi-hou-php-huan-jing-xiu-fu.html" class="underline text-orange-600">MacBook 升级 Yosemite 之后 PHP 环境修复</a></li>
+        <li><a href="/jie-qu-yi-xx-jie-wei-de-ci.html" class="underline text-orange-600">截取以xx结尾的词</a></li>
         
 </div>
 
@@ -687,10 +375,8 @@ sudo make install
     <div class="sticky text-sm" style="top:6em;" id="menu-content">
         <nav id="TableOfContents">
   <ul>
-        <li><a href="#开启虚拟主机功能去掉下面代码的注释">开启虚拟主机功能，去掉下面代码的「#」注释：</a></li>
-        <li><a href="#如果想开启伪静态去掉下面代码的注释">如果想开启伪静态，去掉下面代码的「#」注释：</a></li>
-        <li><a href="#如果想使用系统自带的-php-版本的话去掉下面代码的注释">如果想使用系统自带的 PHP 版本的话，去掉下面代码的「#」注释：</a></li>
-      </ul>
+    <li><a href="#comments">Comments</a></li>
+  </ul>
 </nav>
     </div>
 
