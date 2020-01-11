@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>经验分享 on Forecho&#39;s Blog</title>
+    <link>http://39.108.170.72/tags/%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB.html</link>
+    <description>Recent content in 经验分享 on Forecho&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 31 Oct 2019 22:48:00 +0800</lastBuildDate>
+    
+	<atom:link href="http://39.108.170.72/tags/%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB/atom.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>在网上配眼镜是一种什么体验</title>
+      <link>http://39.108.170.72/talk-about-the-experience-of-online-glasses.html</link>
+      <pubDate>Thu, 31 Oct 2019 22:48:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/talk-about-the-experience-of-online-glasses.html</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;先说说自己近视的情况。14 年的时候线下配的眼镜，直接在美团上搜索了一家店铺，有优惠就跑去了。一个比较小的眼镜店，自己的眼睛近视不深，那个时候一只眼 100 度，另一只眼睛 150 度。当时配眼镜花了半个多小时就搞定了，最后花了 200 块钱左右。而平常我只是在上班和看电视的时候才带。&lt;/p&gt;
+&lt;p&gt;没想到这眼镜一戴就是 4 年，去年的时候我发现这眼镜越来越不清晰了，感觉自己视力下降了，然后年初的时候考虑换一副眼镜。之前在网上看到有人说在网上配眼镜很划算，再加上自己在大众上看了一圈配眼镜店没找到合适的，于是想体验一把网上配眼镜。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>GetYii 是如何防止垃圾内容</title>
+      <link>http://39.108.170.72/how-does-getyii-prevent-spam.html</link>
+      <pubDate>Tue, 30 Jul 2019 22:58:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/how-does-getyii-prevent-spam.html</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;4 年多前 &lt;a href=&#34;https://www.yiiframework.com/&#34;&gt;Yii&lt;/a&gt; 推出了 2.0 测试版，正好赶上年底，工作不忙，于是我抱着学习的态度写了一个开源论坛，那就是 &lt;a href=&#34;https://github.com/iiyii/getyii&#34;&gt;GetYii&lt;/a&gt;。虽然后来没怎么维护了，但是还是会每天去逛逛。&lt;/p&gt;
+&lt;p&gt;最近发现有人在 GetYii 上发垃圾内容，灰产广告。这就不能忍了，这篇文章我就分享一下我是如何与他们『斗争』的。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Bose QC30 VS AirPods</title>
+      <link>http://39.108.170.72/bose-qc30-vs-airpods.html</link>
+      <pubDate>Wed, 26 Jun 2019 22:58:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/bose-qc30-vs-airpods.html</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190703175829.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;618 在&lt;a href=&#34;https://www.smzdm.com/&#34;&gt;色魔张大妈&lt;/a&gt;上看到之前一直项目的 Bose QC30 降噪耳机最低价了，虽然是在拼多多上，但还是心动了，成功说服了兔子之后就下单了。&lt;/p&gt;
+&lt;p&gt;这篇文章我就来谈谈自己在使用 AirPods 和  Bose QC30 的感受，希望对你有帮助。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>性能优化第一篇</title>
+      <link>http://39.108.170.72/performance-optimization-01.html</link>
+      <pubDate>Fri, 19 Apr 2019 10:58:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/performance-optimization-01.html</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;说来惭愧，搞了这么多年 PHP 开发，最近才正儿八经的搞性能优化。打算把这些经验记录并且分享出来，这会是一系列文章，这是第一篇。&lt;/p&gt;
+&lt;h2 id=&#34;性能测试&#34;&gt;性能测试&lt;/h2&gt;
+&lt;p&gt;性能优化的第一步就是要发现系统的性能瓶颈。这部分一般都会有专门的 QA 去测试，输出报告。性能测试大多都是并发测试，推荐使用 &lt;a href=&#34;https://jmeter.apache.org/&#34;&gt;Apache JMeter™&lt;/a&gt; ，免费并且功能强大，支持多系统平台。至于使用教程，我就不贴了，网上一搜一大把。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>坐着高铁去香港</title>
+      <link>http://39.108.170.72/sitting-on-the-high-speed-rail-to-hong-kong.html</link>
+      <pubDate>Sun, 16 Dec 2018 21:03:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/sitting-on-the-high-speed-rail-to-hong-kong.html</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;前一段时间内地去香港的高铁终于开通了，正好前一段时间去香港有事，于是体验了一把，现在把整个流程分享一下，希望我的经验对你有帮助。&lt;/p&gt;
+&lt;h2 id=&#34;关于港澳通行证&#34;&gt;关于港澳通行证&lt;/h2&gt;
+&lt;p&gt;翻看自己的照片，上一次去香港已经是2年前的圣诞节了。所以这次确定要去香港之前，就在淘宝上找了一家帮忙续签港澳通行证的服务。不得不说现在的流程和体验比前两年好多了，前两年还得让我去一个网站填一推资料，这次直接下单，备注写上港澳通行证号和姓名，然后用任何一个快递寄给指定地址就好了。从寄出快递到收到证件花了不到10天，整个体验非常棒。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>使用 NAS</title>
+      <link>http://39.108.170.72/use-nas.html</link>
+      <pubDate>Fri, 30 Nov 2018 21:03:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/use-nas.html</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20191105105249.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;听说 NAS 有一段时间了，双十一之前整理照片的时候，NAS 再次出现在我的视线前，当天脑子一『发热』，使用 Google 恶补了很多知识。可以备份照片、下载电影，甚至可以跑 docker，想买了。&lt;/p&gt;
+&lt;h2 id=&#34;什么是-nas&#34;&gt;什么是 NAS&lt;/h2&gt;
+&lt;p&gt;NAS 是 Network Area Storage 的缩写，即网络存储解决方案，说白了就是可以自己控制的网盘，外观就是一个可以装多个硬盘的机箱，局域网内下载传输速度很快，而且比网盘功能更强大一些。&lt;/p&gt;
+&lt;h2 id=&#34;购买方案&#34;&gt;购买方案&lt;/h2&gt;
+&lt;p&gt;使用 NAS 无非就以下几种方案：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;购买现成的 NAS ，有群晖和威联通&lt;/li&gt;
+&lt;li&gt;自己买硬件自己安装系统，甚至可以安装群晖的系统，俗称黑群晖。&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>使用 Laradock</title>
+      <link>http://39.108.170.72/use-laradock.html</link>
+      <pubDate>Tue, 27 Nov 2018 21:03:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/use-laradock.html</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;PHP开发，想用 Docker 但又没太多时间去学，那你可以试试 &lt;a href=&#34;https://github.com/laradock/laradock&#34;&gt;Lavadock&lt;/a&gt; 项目，它是一套完整的基于 Docker 的 PHP 开发环境。包含了预先打包的 Docker 镜像，所有预先配置都是为了提供一个完美的 PHP 开发环境。&lt;/p&gt;
+&lt;p&gt;你可以很方便的搭建各种环境，比方说 redis、MongoDB、MySQL、Nginx 等等。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>用时不到3个月拿到深圳户口</title>
+      <link>http://39.108.170.72/take-the-shenzhen-account-in-less-than-3-months.html</link>
+      <pubDate>Sun, 15 Jul 2018 16:44:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/take-the-shenzhen-account-in-less-than-3-months.html</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;如果想长期在深圳发展的话，拿到深圳户口还是有一些好处的。目前拿深圳户口相对比较容易，而且本科以及以上学历入深户还可以申请新引进人才租房和生活补贴。&lt;/p&gt;
+&lt;p&gt;本篇文章只是介绍自己（帮女友）办理深户经验，如果你跟她的条件类似，不妨可以参考一下我们的入户经验，她的大致情况如下：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;本科毕业3年以上。&lt;/li&gt;
+&lt;li&gt;未满30岁。&lt;/li&gt;
+&lt;li&gt;最近一个公司连续有交7个月社保。（这个非常重要，不然会让你提供一推材料。而且不能使用代缴社保公司，因为代缴社保在深圳属于违法的行为，办理深户的时候他们有一个公司黑名单，如果为你代缴社保的公司在这个黑名单里面，你就没办法办理深户了，只能重新换一家公司，再等7个月了。）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;所以我们走的是『在职人才引进』入户流程。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>如何培养读书习惯？</title>
+      <link>http://39.108.170.72/how-to-cultivate-reading-habits.html</link>
+      <pubDate>Mon, 25 Sep 2017 15:12:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/how-to-cultivate-reading-habits.html</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;最近有朋友问我，怎么培养读书习惯？正好可以借这次机会整理一篇文章，分享一下我这几年的阅读经验。&lt;/p&gt;
+&lt;p&gt;在这之前我们要达成一个共识，那就是知道阅读的重要性，愿意做一个终生阅读者。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>技术转管理</title>
+      <link>http://39.108.170.72/technology-transfer-management.html</link>
+      <pubDate>Mon, 28 Aug 2017 11:59:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/technology-transfer-management.html</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;计划是做技术到30岁才准备转管理的，一直认为转管理一定要有一定的技术积累，才能服众。&lt;/p&gt;
+&lt;p&gt;然后我被裁员了，本打算再剩下的半年时间里，自己单干，做个产品试试看。计划之外的偶然机会是，一个通过技术认识的朋友，他在帮朋友的创业公司找一个技术管理。然后我接到了这个邀请，
+现在已经在这家小公司待了快满2个月了，结合自己的经验和见识我准备来说说技术转管理的事情。&lt;/p&gt;
+&lt;h2 id=&#34;技术转管理&#34;&gt;技术转管理&lt;/h2&gt;
+&lt;h3 id=&#34;为什么项目经理工资比程序员高&#34;&gt;为什么项目经理工资比程序员高？&lt;/h3&gt;
+&lt;p&gt;在中国，绝大多数的人转管理都是因为，管理职位工资比技术高，做了多年之后工资涨不上去了，就去转管理了。我觉得再这之前有必要想清楚为什么管理职位比技术的工资高？&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>我是如何学习 Angular</title>
+      <link>http://39.108.170.72/how-do-i-learn-angular.html</link>
+      <pubDate>Thu, 03 Aug 2017 15:59:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/how-do-i-learn-angular.html</guid>
+      <description>&lt;h2 id=&#34;交代我的前端背景&#34;&gt;交代我的前端背景&lt;/h2&gt;
+&lt;p&gt;工作5年多了，基本上都在写 PHP，对于前端在校的时候学过一些 JavaScript、HTML 和 CSS，那个时候我 HTML 和 CSS 还是比较擅长的。&lt;/p&gt;
+&lt;p&gt;后来第一家公司是外包公司，页面都是我们写的。那个时候 jQuery 还是非常火的，但我傻傻分不清楚 JavaScript 和 jQuery 以及 Ajax 他们之间的区别。而我们的前端代码全靠复制百度搜索出来的结果，后来公司终于招来了一位前端工程师，可算是把我们从不明所以的前端坑里面解救出来了。&lt;/p&gt;
+&lt;p&gt;后来我就很少接触前端了，但是不是完全不接触，花了10块钱买了本二手的《锋利的 jQuery》，才知道 jQuery 还是很好上手的。再后来业余有时间我会看一下 ES6、React 和 Angular 的文档，然后跟着写写。
+但是因为主要工作还是 PHP，再加上一个人的精力有限，所以大部分时间还是在写 PHP，前端一直出于关注状态。&lt;/p&gt;
+&lt;p&gt;CSS 基本被我忘记的差不多了，好几年不写了，就越怕写 CSS 了。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>使用 Let’s Encrypt 搭建免费的 HTTPS</title>
+      <link>http://39.108.170.72/use-letsencrypt.html</link>
+      <pubDate>Fri, 14 Jul 2017 11:15:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/use-letsencrypt.html</guid>
+      <description>&lt;h2 id=&#34;1-letsencryptsh-证书的生成&#34;&gt;1. letsencrypt.sh 证书的生成&lt;/h2&gt;
+&lt;h3 id=&#34;11-目录的生成&#34;&gt;1.1 目录的生成&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;3
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;4
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;5
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;6
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;7
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;8
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;$ cd ~
+$ git clone https://github.com/lukas2511/dehydrated
+$ sudo mkdir -p /etc/dehydrated
+$ sudo mkdir -p /var/www/dehydrated
+$ sudo chown `whoami` -R /var/www/dehydrated
+$ sudo chown `whoami` -R /etc/dehydrated
+$ cp ~/dehydrated/docs/examples/config /etc/dehydrated/config
+$ cp ~/dehydrated/docs/examples/domains.txt /etc/dehydrated/domains.txt
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>我是怎么投资美股的</title>
+      <link>http://39.108.170.72/how-do-i-invest-in-american-stocks.html</link>
+      <pubDate>Wed, 24 May 2017 23:33:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/how-do-i-invest-in-american-stocks.html</guid>
+      <description>&lt;h2 id=&#34;学会理财&#34;&gt;学会理财&lt;/h2&gt;
+&lt;p&gt;理财是一种生活方式，越早明白这个道理，越是受益。真正让我接触到理财的还是算是支付宝推出的余额宝了，说到这里，还得感谢马云爸爸。&lt;/p&gt;
+&lt;p&gt;理财的方式有很多种，你可以把钱放在余额宝里面每天拿几块钱，也可以把钱放在理财通、京东小金库里面，可以买基金，当然还可以买股票。这些投资理财的方式大家都可以去尝试一下。下面我先来分享几点我的经验：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;余额宝&lt;/strong&gt;投资收益的钱是越来越少了，后来基本上不把钱放到余额宝了。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;腾讯的理财通&lt;/strong&gt;的理财产品收益还可以，我设置了有一个定投，每月把工资的一半拿来买理财产品，收益不算多，但是稳定。&lt;/li&gt;
+&lt;li&gt;后来听说&lt;strong&gt;京东小金库&lt;/strong&gt;收益还可以，我就跑去尝试了一下，收益确实把余额宝好，但是有点风险，可能跟我买的理财产品有关系。&lt;/li&gt;
+&lt;li&gt;也试过&lt;strong&gt;蚂蚁聚宝&lt;/strong&gt;的基金，选了两个产品定投，刚开始能赚点小钱，但是最近几个猛跌，倒亏了几千块钱，不知道啥情况，不敢动。&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>记人生第一次徒步30公里</title>
+      <link>http://39.108.170.72/life-is-30km-on-foot-for-the-first-time.html</link>
+      <pubDate>Sun, 05 Mar 2017 23:33:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/life-is-30km-on-foot-for-the-first-time.html</guid>
+      <description>&lt;h2 id=&#34;徒步前&#34;&gt;徒步前&lt;/h2&gt;
+&lt;p&gt;刚听到公司组织这个活动的消息时，我内心是第一反应是拒绝的，心想公司就会搞这种穷 B 的活动，但是随后又是兴奋的。&lt;/p&gt;
+&lt;p&gt;去年老板就在早会有跟我们分享他去徒步戈壁滩挑战（听说是徒步4天）的经历，说是有机会组织一次这样的活动，以前我对30公里真没什么概念，那天翻了翻手机才发现我平常上下班也就最多走7公里，真不知道徒步30公里是什么体验，所以还真想借此机会测试和挑战一下自己。&lt;/p&gt;
+&lt;p&gt;徒步前有同事分享一些注意事项，我记住的大致有这些：&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>你的牙齿很值钱</title>
+      <link>http://39.108.170.72/your-teeth-are-very-valuable.html</link>
+      <pubDate>Sun, 08 Jan 2017 23:32:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/your-teeth-are-very-valuable.html</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;事情的开始是这样的，那天下班在家上网逛 V2EX，然后看到了这篇文章&lt;a href=&#34;https://www.v2ex.com/t/323517&#34;&gt;《我看牙医的经历》&lt;/a&gt;，然后联想到我的两颗烂牙，想想就觉得后怕，于是下定决心去补牙，不然最后只会越拖越严重。&lt;/p&gt;
+&lt;h2 id=&#34;选择哪里看牙&#34;&gt;选择哪里看牙&lt;/h2&gt;
+&lt;p&gt;说道看牙，我的第一反应并没有说是去正规医院看病，因为我对他们也不了解，我怕被坑，然后正好兔子公司的有福利，可以用 Q点 兑换&lt;strong&gt;瑞尔齿科&lt;/strong&gt;的金卡，洗牙免费，看牙打折，网上简单搜索了一下评价还可以，于是我们就打打电话预约时间，先洗牙，顺便检查牙齿。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu 使用 ShadowSocks &#43; Privoxy 代理</title>
+      <link>http://39.108.170.72/ubuntu-use-shadowsocks-and-privoxy.html</link>
+      <pubDate>Sat, 07 Jan 2017 12:35:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/ubuntu-use-shadowsocks-and-privoxy.html</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;先说说这东西有什么用吧，我是 Windows7 使用 Vagrant 安装了个 Ubuntu 虚拟机，然后需要在虚拟机里面配置 SS 代理使用 PHP 的 Composer 下载，不然非常慢。
+那么本教程应该同样适用于 Ubuntu 服务器（做为 SS 客户端的方式）配置使用 SS，其他版本的 Linux 要想使用需要稍微改动下，但是思路是一样的。&lt;/p&gt;
+&lt;p&gt;如果你的 Mac 电脑，终端需要配置 SS 代理，推荐你使用 proxychains-ng 方式，具体查看&lt;a href=&#34;https://gold.xitu.io/entry/5821840cd203090055134cc0&#34;&gt;macOS 终端走代理（科学上网）&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;shadowsocks-客户端&#34;&gt;ShadowSocks 客户端&lt;/h2&gt;
+&lt;p&gt;注意是 ShadowSocks 客户端，服务端我就不介绍了。先安装 Python pip 再安装 shadowsocks，然后再配置：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;3
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;4
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;sudo apt-get install python-pip
+sudo pip install shadowsocks
+sudo ln -s /usr/local/python/bin/sslocal /usr/bin/sslocal
+sudo vim /etc/shadowsocks.conf
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;配置文件代码如下：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 1
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 2
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 3
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 4
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 5
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 6
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 7
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 8
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 9
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;10
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;11
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;{
+    &amp;#34;server&amp;#34;:&amp;#34;your_server_ip&amp;#34;,
+    &amp;#34;server_port&amp;#34;:your_server_port,
+    &amp;#34;local_address&amp;#34;: &amp;#34;127.0.0.1&amp;#34;,
+    &amp;#34;local_port&amp;#34;:1080, 
+    &amp;#34;password&amp;#34;:&amp;#34;your_server_passwd&amp;#34;,
+    &amp;#34;timeout&amp;#34;:300,
+    &amp;#34;method&amp;#34;:&amp;#34;aes-256-cfb&amp;#34;,
+    &amp;#34;fast_open&amp;#34;: false,
+    &amp;#34;workers&amp;#34;: 1 
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;strong&gt;解释&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;server&lt;/code&gt;: ss服务器IP&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;server_port&lt;/code&gt;: ss服务器IP端口&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;local_address&lt;/code&gt;: 本地ip&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;local_port&lt;/code&gt;:  #本地端口&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;password&lt;/code&gt;: 连接ss密码&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;timeout&lt;/code&gt;: 等待超时&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;method&lt;/code&gt;: 加密方式&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;fast_open&lt;/code&gt;: true 或 false。如果你的服务器 Linux 内核在3.7+，可以开启 fast_open 以降低延迟。开启方法： echo 3 &amp;gt; /proc/sys/net/ipv4/tcp_fastopen 开启之后，将 fast_open 的配置设置为 true 即可&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;workers&lt;/code&gt;: 工作线程数&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>圣诞节在香港</title>
+      <link>http://39.108.170.72/christmas-in-hong-kong.html</link>
+      <pubDate>Sat, 31 Dec 2016 20:05:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/christmas-in-hong-kong.html</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;今年平安夜是周六，而恰好我们公司为了过年凑10的假期，所以那天我们需要上班的，补过年的假期。但是那天正好是兔子生日，晚上准时下班去带她吃大餐。然后第二天带她去香港买礼物。&lt;/p&gt;
+&lt;p&gt;其实去年也去过香港，但是今年再会议的花，很多地方都记不太清了，所以有了这篇文章，整理、记录、分享我的这次香港之旅，方便以后查阅。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>我的知识管理工作流</title>
+      <link>http://39.108.170.72/knowledge-management-workflow.html</link>
+      <pubDate>Mon, 12 Dec 2016 12:09:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/knowledge-management-workflow.html</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;很多碎片知识如果不整理出来，在你的大脑里面永远都是碎片。上次无意中阅读到&lt;a href=&#34;https://zi.com/w/a/164a3It&#34;&gt;《应对信息过载的正确姿势》&lt;/a&gt;和&lt;a href=&#34;http://sspai.com/36795&#34;&gt;《在线阅读处理流程：从需求、到方法、再到工具》&lt;/a&gt;这两篇文章，让我很受益，于是打算整理一下自己获取知识和信息的方式，达到记录-&amp;gt;整理-&amp;gt;优化流程的目的。&lt;/p&gt;
+&lt;h2 id=&#34;阅读流&#34;&gt;阅读流&lt;/h2&gt;
+&lt;p&gt;我的阅读流程是这样的：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;书&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424162239.png&#34; alt=&#34;萝卜书摘&#34;&gt;&lt;/p&gt;
+&lt;p&gt;最近大多数情况下都在用 kindle 看电子书，家里也有很多纸质书。&lt;/p&gt;
+&lt;p&gt;一般看书时间是在上下班通勤的地铁上，如果晚上10点之后还有时间，会看40分钟的书再睡觉。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;如果是 Kindle，看到好句子会标记，使用 &lt;a href=&#34;https://www.clippings.io&#34;&gt;clippings.io&lt;/a&gt; 服务导出笔记，整理到印象笔记，最后有需要的话再整理到博客中。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;如果是纸质书，看到好句子会使用一款叫做&lt;a href=&#34;https://3li3.com/app/view?id=60745&#34;&gt;萝卜书摘&lt;/a&gt;的 App 记录，然后也可以导出到印象笔记（收费服务），最后如果有需要的话再整理到博客中。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;我的体验是：技术书类的书可能更适合纸质版或者正版 PDF，大多数技术类的书不太合适用 kindle 看，有代码部分基本上是不忍直视，PDF 的话可以用 iPad 看，屏幕大一点效果会更好。
+Kindle 版的电子书，标记和索引很方便，而且出门携带也非常轻巧，所以绝大多数的非技术类书都非常适合使用 Kindle 来阅读。&lt;/p&gt;
+&lt;p&gt;总结流程：书-&amp;gt;标记-&amp;gt;印象笔记-&amp;gt;博客&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>手把手教你不依赖任何环境使用 Hexo</title>
+      <link>http://39.108.170.72/easy-use-hexo.html</link>
+      <pubDate>Thu, 27 Oct 2016 20:58:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/easy-use-hexo.html</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;今天心血来潮，想搭建一个 &lt;a href=&#34;http://3li3.com/&#34;&gt;3li3&lt;/a&gt; 的博客，准备以博客的形式记录产品的成长。类似的博客有：&lt;a href=&#34;http://blog.selfstore.io/&#34;&gt;SelfStore 博客&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;感觉 Hexo 的博客插件比较多，于是这次想试试。因为很早以前就搭建过一次，这次以为分分钟搞定，但实际上还是花了我不少时间，为了以后不再重复踩坑，我决定记录下整个过程。&lt;/p&gt;
+&lt;p&gt;我们先看一下成果&lt;a href=&#34;http://blog.3li3.com/&#34;&gt; 3li3博客&lt;/a&gt;，然后我再来分享我的经验。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>谈谈使用 Kindle 阅读</title>
+      <link>http://39.108.170.72/talk-about-ues-kindle-to-read.html</link>
+      <pubDate>Wed, 31 Aug 2016 21:24:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/talk-about-ues-kindle-to-read.html</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;今年年初的时候我写了篇&lt;a href=&#34;https://blog.forecho.com/use-the-kindle-reading.html&#34;&gt;《使用 Kindle 阅读》&lt;/a&gt; 文章，从2012年底开始到现在差不多快4年的 Kindle 使用经历，
+那么我来分享一下我是如何使用 Kindle 的。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424161300.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

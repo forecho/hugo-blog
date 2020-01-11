@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MySQL on Forecho&#39;s Blog</title>
+    <link>http://39.108.170.72/tags/mysql.html</link>
+    <description>Recent content in MySQL on Forecho&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 13 Nov 2014 20:34:00 +0800</lastBuildDate>
+    
+	<atom:link href="http://39.108.170.72/tags/mysql/atom.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>PHP MySQL 表非主键自增长</title>
+      <link>http://39.108.170.72/php-mysql-biao-fei-zhu-jian-zi-zeng-chang.html</link>
+      <pubDate>Thu, 13 Nov 2014 20:34:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/php-mysql-biao-fei-zhu-jian-zi-zeng-chang.html</guid>
+      <description>&lt;p&gt;##场景
+一个活动表，一个活动记录表，活动记录表要根据活动 ID，记录每个人的活动分数和时间等用户参与信息，其中活动记录表有一个字段是用户的编号，每个活动的记录都要从1开始自增。现在的问题是怎么实现这个自增的效果？&lt;/p&gt;
+&lt;h2 id=&#34;表结构如下&#34;&gt;表结构如下：&lt;/h2&gt;
+&lt;p&gt;主要说一下活动记录表 activity_records 的 主要字段结构：&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;字段&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;注释&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;id&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;主键自增&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;activity_id&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;活动ID&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;user_id&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;用户 ID&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;number&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;活动记录编号&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;##解决方案&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>MySQL 查询今日的数据数量</title>
+      <link>http://39.108.170.72/mysql-cha-xun-jin-ri-de-shu-ju-shu-liang.html</link>
+      <pubDate>Tue, 22 Apr 2014 10:39:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/mysql-cha-xun-jin-ri-de-shu-ju-shu-liang.html</guid>
+      <description>数据库我们存放的时间戳格式。 方法一： 先用PHP计算出时间戳。 1 2 // 获取今天开始的时间戳 $today = strtotime(date(&amp;#39;Y-m-d 00:00:00&amp;#39;, time())); 这个值就是今天凌晨的时间戳。 然后查询的时间大</description>
+    </item>
+    
+    <item>
+      <title>整理一下常用的MySQL语句</title>
+      <link>http://39.108.170.72/zheng-li-yi-xia-chang-yong-de-mysql-yu-ju.html</link>
+      <pubDate>Thu, 07 Mar 2013 11:10:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/zheng-li-yi-xia-chang-yong-de-mysql-yu-ju.html</guid>
+      <description>INNER JOIN &amp;hellip; ON用法 查询数据库多个表 1 select * from table1 inner join table2 on table1.id=table2.id 概括为： FROM (((表1 INNER JOIN 表2 ON 表1.字段号=表2.字段号) INNER JOIN 表3 ON 表1.字段号=表3.字</description>
+    </item>
+    
+  </channel>
+</rss>

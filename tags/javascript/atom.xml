@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>javascript on Forecho&#39;s Blog</title>
+    <link>http://39.108.170.72/tags/javascript.html</link>
+    <description>Recent content in javascript on Forecho&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 03 Mar 2012 19:43:00 +0800</lastBuildDate>
+    
+	<atom:link href="http://39.108.170.72/tags/javascript/atom.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>很简单的一个js实现下拉列表实现跳转</title>
+      <link>http://39.108.170.72/hen-jian-dan-de-yi-ge-js-shi-xian-xia-la-lie-biao-shi-xian-tiao-zhuan.html</link>
+      <pubDate>Sat, 03 Mar 2012 19:43:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/hen-jian-dan-de-yi-ge-js-shi-xian-xia-la-lie-biao-shi-xian-tiao-zhuan.html</guid>
+      <description>直接上效果页面，请猛击~ 代码很简单，完整版的HTML代码，如下： 1 2 3 4 5 6 7 8 9 10 11 12 13 &amp;lt;!DOCTYPE html PUBLIC &amp;#34;-//W3C//DTD XHTML 1.0 Strict//EN&amp;#34; &amp;#34;http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd&amp;#34;&amp;gt; &amp;lt;html xmlns=&amp;#34;http://www.w3.org/1999/xhtml&amp;#34; xml:lang=&amp;#34;en&amp;#34;&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta http-equiv=&amp;#34;Content-Type&amp;#34; content=&amp;#34;text/html;charset=UTF-8&amp;#34; /&amp;gt; &amp;lt;title</description>
+    </item>
+    
+    <item>
+      <title>02、jQuery样式表切换</title>
+      <link>http://39.108.170.72/02jquery-yang-shi-biao-qie-huan.html</link>
+      <pubDate>Fri, 09 Dec 2011 14:02:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/02jquery-yang-shi-biao-qie-huan.html</guid>
+      <description>JS代码如下： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 (function($) { $(document).ready(function() { $(&amp;#39;.styleswitch&amp;#39;).click(function() { switchStylestyle(this.getAttribute(&amp;#34;rel&amp;#34;)); return false; }); var c =</description>
+    </item>
+    
+    <item>
+      <title>01、jQuery双色表格</title>
+      <link>http://39.108.170.72/01jquery-shuang-se-biao-ge.html</link>
+      <pubDate>Thu, 08 Dec 2011 14:48:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/01jquery-shuang-se-biao-ge.html</guid>
+      <description>js代码： 1 2 3 4 5 6 7 8 9 10 $(document).ready(function(){ //如果鼠标移动到class为stripe的表格的tr上时，执行函数 $(&amp;#34;.stripe tr&amp;#34;).mouseover(function(){ //给这行添加class值为over</description>
+    </item>
+    
+    <item>
+      <title>提交表单实现，弹窗试的警告</title>
+      <link>http://39.108.170.72/ti-jiao-biao-dan-shi-xian-tan-chuang-shi-de-jing-gao.html</link>
+      <pubDate>Fri, 25 Nov 2011 14:41:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/ti-jiao-biao-dan-shi-xian-tan-chuang-shi-de-jing-gao.html</guid>
+      <description>适合使用编辑器的时候的验证。JS代码如下(第二个为UEditor的特殊判断用法)： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 &amp;lt;script language=&amp;#34;javascript&amp;#34;&amp;gt; function chkinput(form) { if (form.title.value==&amp;#34;&amp;#34;) { al</description>
+    </item>
+    
+  </channel>
+</rss>

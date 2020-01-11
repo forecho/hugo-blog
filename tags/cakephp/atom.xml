@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CakePHP on Forecho&#39;s Blog</title>
+    <link>http://39.108.170.72/tags/cakephp.html</link>
+    <description>Recent content in CakePHP on Forecho&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 19 Nov 2014 22:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="http://39.108.170.72/tags/cakephp/atom.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CakePHP 使用小技巧</title>
+      <link>http://39.108.170.72/about-cakephp-tips.html</link>
+      <pubDate>Wed, 19 Nov 2014 22:00:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/about-cakephp-tips.html</guid>
+      <description>&lt;h3 id=&#34;知道主键-id-更新一条数据代码示例&#34;&gt;知道主键 ID 更新一条数据，代码示例：&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;$this-&amp;gt;Order-&amp;gt;id = $id;
+$this-&amp;gt;Order-&amp;gt;saveField(&amp;#39;status&amp;#39;, $status);
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;点赞的时候需要1如何更新数据库&#34;&gt;点赞的时候需要+1，如何更新数据库？&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;3
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;4
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;$this-&amp;gt;Widget-&amp;gt;updateAll(
+    array(&amp;#39;Widget.numberfield&amp;#39; =&amp;gt; &amp;#39;Widget.numberfield + 1&amp;#39;),
+    array(&amp;#39;Widget.id&amp;#39; =&amp;gt; 1)
+);
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;如何通过主键最简单的方式获取到一条数据&#34;&gt;如何通过主键最简单的方式获取到一条数据？&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;3
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;4
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;// 只获取name字段信息
+$this-&amp;gt;User-&amp;gt;read(&amp;#39;name&amp;#39;, $id);
+// 获取所有信息
+$this-&amp;gt;User-&amp;gt;read(null, $id);
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>CakePHP 使用插件导出 CSV 文件</title>
+      <link>http://39.108.170.72/cakephp-shi-yong-cha-jian-dao-chu-csv-wen-jian.html</link>
+      <pubDate>Fri, 05 Sep 2014 21:42:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/cakephp-shi-yong-cha-jian-dao-chu-csv-wen-jian.html</guid>
+      <description>&lt;p&gt;插件地址：&lt;a href=&#34;https://github.com/josegonzalez/cakephp-csvview&#34;&gt;https://github.com/josegonzalez/cakephp-csvview&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;用法就不说了，上面写的很详细了，补充两点吧。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1. 是数字显示的问题&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;有时候数字很大，导出的文件打开，数字变成科学计数法显示了，这显然不是我们想要的，手动在每个值后面添加一个制表符「\t」就解决这个问题了。代码如下：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;3
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;4
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;foreach ($data as $key =&amp;gt; $value) {
+    $item[$key][&amp;#39;username&amp;#39;] = $value[&amp;#39;username&amp;#39;]. &amp;#34;\t&amp;#34;;
+    $item[$key][&amp;#39;mobile&amp;#39;]   = $value[&amp;#39;mobile&amp;#39;] . &amp;#34;\t&amp;#34;;
+    $item[$key][&amp;#39;created&amp;#39;]  = $value[&amp;#39;created&amp;#39;] . &amp;#34;\t&amp;#34;;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>CakePHP ajax分页</title>
+      <link>http://39.108.170.72/cakephp-ajax-fen-ye.html</link>
+      <pubDate>Thu, 23 Jan 2014 16:09:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/cakephp-ajax-fen-ye.html</guid>
+      <description>Controller文件头部调用CakePHP自带分页并且配置分页条数代码： public $components = array(&#39;RequestHandler&#39;, &#39;Paginator&#39;); public $paginate = array(&#39;limit&#39; =&amp;gt; 2 ); //2是为了方便测试 调用的action方</description>
+    </item>
+    
+    <item>
+      <title>CakePHP的小技巧用法</title>
+      <link>http://39.108.170.72/cakephp-de-xiao-ji-qiao-yong-fa.html</link>
+      <pubDate>Fri, 03 Jan 2014 11:25:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/cakephp-de-xiao-ji-qiao-yong-fa.html</guid>
+      <description>1、问：如果控制器有一个方法，不要视图怎么办？ 答：使用：$this-&amp;gt;autoRender = false 2、对于一直在开发的网站，在频繁更新的情</description>
+    </item>
+    
+    <item>
+      <title>CakePHP belongsTo不是主键关联</title>
+      <link>http://39.108.170.72/cakephp-belongsto-bu-shi-zhu-jian-guan-lian.html</link>
+      <pubDate>Thu, 02 Jan 2014 17:06:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/cakephp-belongsto-bu-shi-zhu-jian-guan-lian.html</guid>
+      <description>belongsTo是属于的关系。 var $belongsTo = array( &#39;Inventory&#39; =&amp;gt; array( &#39;className&#39; =&amp;gt; &#39;Inventory&#39;, &#39;foreignKey&#39; =&amp;gt; false, &#39;conditions&#39; =&amp;gt; array(&#39; `RentalLineitem`.`i_num` = `Inventory`.`i_num`&#39;), &#39;dependent&#39; =&amp;gt; false //是否级联删除 ) ); 参考文章：http://stackoverf</description>
+    </item>
+    
+  </channel>
+</rss>

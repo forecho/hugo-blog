@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.62.2" />
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="generator" content="Saber v0.11.2">
+    <meta name="author" content="forecho" />
+    <meta name="keywords" content="Hugo, theme, even" />
+    <meta name="og:site_name" content="Forecho&#39;s Blog" /><meta property="og:title" content="iOS开发实例（四）- 用户界面（上） - Forecho&#39;s Blog" />
+    <meta property="og:type" content="article" />
+    <meta property="title" content="iOS开发实例（四）- 用户界面（上） - Forecho&#39;s Blog">
+    <meta property="og:title" content="iOS开发实例（四）- 用户界面（上） - Forecho&#39;s Blog">
+    <meta property="twitter:title" content="iOS开发实例（四）- 用户界面（上） - Forecho&#39;s Blog">
+    <meta property="description" content="这次要完成的效果图如下： 一、创建一个名为Control Fun的项目，选择的依旧的Single View Application模板。 二、用Photos">
+    <meta property="og:description" content="这次要完成的效果图如下： 一、创建一个名为Control Fun的项目，选择的依旧的Single View Application模板。 二、用Photos">
+    <meta property="twitter:description" content="这次要完成的效果图如下： 一、创建一个名为Control Fun的项目，选择的依旧的Single View Application模板。 二、用Photos">
+    <meta property="og:type" content="article">
+    <title>iOS开发实例（四）- 用户界面（上） - Forecho&#39;s Blog</title>
+
+    <meta property="og:url" content="http://39.108.170.72/ios-kai-fa-shi-li-si-yong-hu-jie-mian-shang.html" />
+
+    
+    <meta property="og:image" content="https://avatars0.githubusercontent.com/u/1725326?s=460&amp;v=4">
+    <meta property="twitter:image" content="https://avatars0.githubusercontent.com/u/1725326?s=460&amp;v=4">
+    <link rel="shortcut icon" href="https://avatars0.githubusercontent.com/u/1725326?s=460&amp;v=4" type="image/x-png" /><link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_1607597_jhmihcvh0tm.css" />
+    <link href="/index.xml" rel="alternate" type="application/rss+xml" title="Forecho&#39;s Blog">
+    
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+</head>
+
+<body class="bg-gray-100 text-gray-900 tracking-wider leading-normal">
+
+    <nav id="header" class="bg-white fixed w-full z-10 top-0 shadow">
+
+  <div id="progress" class="h-1 z-20 top-0" style="background:linear-gradient(to right, #4dc0b5 var(--scroll), transparent 0);"></div>
+
+  <div class="w-full container mx-auto flex flex-wrap items-center justify-between my-1">
+      <div class="pl-4">
+          <a class="text-gray-900 text-base no-underline hover:no-underline font-bold text-xl"  href="/">
+              Forecho&#39;s Blog
+          </a>
+      </div>
+
+      <div class="block lg:hidden pr-4">
+          <button id="nav-toggle" class="flex items-center px-3 py-2 border rounded text-gray-500 border-gray-600 hover:text-gray-900 hover:border-teal-500 appearance-none focus:outline-none">
+              <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+          </button>
+      </div>
+
+      <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block mt-2 lg:mt-0 bg-gray-100 md:bg-transparent z-20" id="nav-content">
+          <ul class="list-reset lg:flex justify-end flex-1 items-center">
+              <li class="mr-3">
+                  <a href="/" class="inline-block py-2 px-2 text-gray-700 font-bold no-underline">首页</a>
+              </li>
+              <li class="mr-3">
+                  <a href="/posts.html" class="inline-block py-2 px-2 text-gray-700 font-bold no-underline">文章归档</a>
+              </li>
+              <li class="mr-3">
+                  <a href="/about.html" class="inline-block py-2 px-2 text-gray-700 font-bold no-underline">关于我</a>
+              </li>
+              <li class="mr-3">
+                  <a href="/friendship-links/" class="inline-block py-2 px-2 text-gray-700 font-bold no-underline">联盟链接</a>
+              </li>
+          </ul>
+      </div>
+  </div>
+</nav>
+
+    <div id="container" class="container w-full flex flex-wrap mx-auto px-2 lg:pt-12 mt-10">
+<section class="w-full lg:w-3/4 xl:w-3/4">
+
+    
+    <div class="px-8 py-6 mt-6 lg:mt-0 leading-normal rounded shadow bg-white">
+
+        
+        <div>
+    <h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-3xl">
+        <a href="http://39.108.170.72/ios-kai-fa-shi-li-si-yong-hu-jie-mian-shang.html" title="iOS开发实例（四）- 用户界面（上）">iOS开发实例（四）- 用户界面（上）</a>
+    </h1>
+    <p class="mb-1 text-sm text-gray-500">
+        <span title=" 2012-11-18 22:24:00 &#43;0800">
+            <i class="iconfont icon-calendar" aria-hidden="true"></i> 18 Nov 2012
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-book"></i>
+            1550 字
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-clock-o"></i>
+            4 分钟读完
+        </span>
+    </p>
+</div>
+
+
+        <div class="md:hidden">
+            
+<p class="text-base font-bold py-2 yg:pb-6 text-gray-700">文章目录</p>
+    <div class="sticky text-sm" style="top:6em;" id="menu-content">
+        <nav id="TableOfContents"></nav>
+    </div>
+
+        </div> 
+
+        <div class="post-content">
+            <p>这次要完成的效果图如下： <img src="http://m3.img.libdd.com/farm5/2012/1117/22/A54C73690D46FFAFDE62B89335284BDAAB8B30EC1B215_366_716.PNG" alt=""><img src="http://m2.img.libdd.com/farm5/2012/1117/22/14C06C68CF4FB1D4A96DFA310C6D45AACD078888FB659_361_709.PNG" alt=""><img src="http://m1.img.libdd.com/farm4/2012/1117/22/170D6C85A1976A9E739FB616BF3CDC2FF9B1C00C01240_361_709.PNG" alt=""><img src="http://m3.img.libdd.com/farm4/2012/1117/22/B067D08869DD06595F1C2A9FF2557B312E3224496905F_361_709.PNG" alt=""> <strong>一、创建一个名为<code>Control Fun</code>的项目</strong>，选择的依旧的<code>Single View Application</code>模板。  <strong>二、用Photoshop做一张宽度小于300px高度小于100px的图片</strong>，此处我们使用的是（172px*80px），下图文件： <img src="http://m3.img.libdd.com/farm4/2012/1117/23/8AAA7EA45E95ADE646F32F8C5DBEBF38D0E650BC3F1CA_172_80.PNG" alt=""> 然后把图片直接拖到我们的Xcode项目中。记得在提示框中选中<code>Copy items into destination group's folder(if needed)</code>复选框。PS:我习惯性的把图片文件拖到Supporting Files文件夹下面。   <strong>三、根据上一节学到的知识</strong>，我们在BIDViewController.xib中制作出下图的效果来： <img src="http://m2.img.libdd.com/farm4/2012/1118/00/1665242F22F864799674D3BCDC06F4FEFF57D2EC28608_310_189.PNG" alt=""> 1、在IB中找到<code>image View</code>库，然后拖到视图中，刚拖过来时会自动全屏显示，然后需要我们手动调试大小，大致调的差不多就好了，然后在右边属性框找到<code>Image View</code>中，下拉选择我们需要的图片文件。（此处系统会自动识别图片文件）。 2、调整图片大小：有个最简单的方法，依次选择Editor-&gt;Size to Fit Content，那么Xcode会自动调试成图片原尺寸大小。 3、调整图片的位置：最简单的方法依次选择Editor-&gt;Align-&gt;Horizontal Conter in Container，Xcode会自动帮我们把图片放在视图中间位置。 4、接下来就是该设置图片属性了，下面是我总结的一张表（其实是<code>Text</code>文本库的属性，但是后面的属性跟图片是一样的）： <img src="http://m3.img.libdd.com/farm4/2012/1117/23/6615B31A2F2ECC10456802FE2FF233B5969E1595FA756_600_950.PNG" alt=""> 此处基本上所以属性我们都不用该，只需要取消<code>Drawing </code>下面的<code>Clip Subviews</code>和<code>Autoresize Subviews</code>这两个选项即可，因为此处我们根本不需要这两项。 5、在IB里面直接拖过来各俩个Text和Lable库，然后按照上上图布局即可。（小窍门：同时选中Lable的两个标签然后依次选择Editor-&gt;Align-&gt;Right Edges可以使两个标签文字右对齐）。 6、选中Text标签，然后根据自己的需要来选择或修改属性。（可以查看上图注释）此处我们在<code>Placeholder</code>添加了Type in a name；<code>Capitalization</code> 选择Words；<code>Drawing</code>选中Opaque取消Clears Graphics Context和Clip Subviews；Number的Text基本上和Name的Text一样，除了<code>Placeholder</code>添加了Type in a number；<code>Capitalization</code>保持默认，<code>Keyboard</code>选择Number Pad。   <strong>四、创建链接和输出口:</strong> 根据上一节学习的，按住<code>control</code>按键拖动<code>Text</code>到.h文件中，Name的Text在Name字段中填写<code>nameField</code>，Number的Text在Name字段中填写<code>numberField</code>，如下图： <img src="http://m2.img.libdd.com/farm4/2012/1118/00/5444F5C95288E8863F0DF72BE724104CB06AB8D43ED25_285_151.PNG" alt=""> 此时我们可以Run一下我们的程序，得到如下结果即为成功： <img src="http://m3.img.libdd.com/farm5/2012/1118/00/7D5852BC22C9F050865DAF1A208232F66B035BA0A1FFC_365_708.PNG" alt="">   <strong>五、关闭键盘</strong> 1、完成输入之后关闭键盘：只需在.h文件@end前加入如下代码即可：</p>
+<pre><code>- (IBAction)textFieldDoneEditing:(id)sender;
+</code></pre>
+<p>在.m文件中@end前加入如下代码：</p>
+<pre><code>- (IBAction)textFieldDoneEditing:(id)sender {
+    [sender resignFirstResponder];
+}
+</code></pre>
+<p>选中Name的Text，找到右边属性的最后一个图标，找到<code>Did End ON Exit</code> 将旁边那个圈拖到<code>File's Owner</code>，如下图，然后选择<code>textFieldDoneEditing</code>操作。 <img src="http://m3.img.libdd.com/farm5/2012/1118/00/05C715A190F0D622362E024A4CCEE36B0176BA992ABF4_800_74.jpg" alt=""> 2、通过触摸背景关闭键盘:在.h文件@end前添加如下代码：</p>
+<pre><code>- (IBAction)backgroundTop:(id)sender;
+</code></pre>
+<p>在.m文件中@endq前加入如下代码：</p>
+<pre><code>-(IBAction)backgroundTop:(id)sender{
+    [nameField resignFirstResponder];
+    [numberField resignFirstResponder];
+}
+</code></pre>
+<p>现在我们需要把View在右边属性中找到class从<code>UIView</code>改成<code>UIControl</code>，只有这样背景才能有触发操作。然后找到右边属性的最后一个图标，找到<code>Tounch Down</code> 将旁边那个圈拖到<code>File's Owner</code>，选择<code>backgroundTop</code>操作。   接下来我们Run一下，如果程序没有出问题的话，就能实现点击背景关闭键盘功能。   -&mdash;&mdash;&mdash;-上部分完，下部分请点击这里。</p>
+
+
+            <hr class="bg-gray-300 mt-8">
+
+            
+<div class="pt-4">
+    <p class="text-center">
+        <button id="btn-donate" class="px-5 py-2 inline-block rounded hover:bg-red-600 bg-red-400 text-white" for="reward">打赏</button>
+    </p>
+    <div class="flex flex-auto mt-2 mx-2 hidden" id="donate-image">
+        
+        <div class="w-full px-2 my-2">
+            <div class="bg-white">
+                <img class="h-48 shadow object-cover w-auto mx-auto" src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424153510.png" alt="微信打赏">
+                <div class="text-center text-gray-500">微信打赏</div>
+            </div>
+        </div>
+
+        <div class="w-full px-2 my-2">
+            <div class=" bg-white">
+                <img class="h-48 shadow object-cover w-auto mx-auto" src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424153431.png" alt="支付宝打赏">
+                <div class="text-center text-gray-500">支付宝打赏</div>
+            </div>
+        </div> 
+
+    </div>
+</div>
+
+            
+<div class="border-l-4 border-red-400 mx-auto bg-gray-200 text-gray-700 mt-5">
+    <div class="pt-2 copyright">
+        <ul class="list-none">
+            <li>
+                <strong>原文作者：</strong>
+                <a rel="author" href="http://39.108.170.72">forecho</a>
+            </li>
+            <li style="word-break:break-all">
+                <strong>原文链接：</strong>
+                <a href="http://39.108.170.72/ios-kai-fa-shi-li-si-yong-hu-jie-mian-shang.html">http://39.108.170.72/ios-kai-fa-shi-li-si-yong-hu-jie-mian-shang.html</a>
+            </li>
+            <li>
+                <strong>版权声明：</strong>本作品采用
+                <a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/deed.zh">署名-非商业性使用 4.0 国际 (CC BY-NC 4.0)</a>进行许可，非商业转载请注明出处（作者，原文链接），商业转载请联系作者获得授权。
+            </li>
+        </ul>
+    </div>
+ 
+</div>
+
+
+        </div>
+
+        
+        
+
+         
+        
+            <p class="text-gray-500 text-sm text-right pt-1">
+                <span id="busuanzi_container_page_pv">
+                    本文有 <span id="busuanzi_value_page_pv"></span> 次阅读
+                </span>
+            </p>
+        
+
+    </div>
+    
+
+    
+    <hr class="bg-gray-300 my-10">
+
+    
+        
+        
+        
+
+        
+
+
+<div class="p-8 mt-6 lg:mt-0 rounded shadow bg-white">
+    <h2 class="font-sans font-bold break-normal text-gray-700 px-2 pb-3 text-xl">相关文章</h2>
+        
+        <li><a href="/xie-ge-gong-zuo-si-ge-duo-yue-de-zong-jie.html" class="underline text-orange-600">写个工作四个多月的总结</a></li>
+        
+        <li><a href="/yii-zi-ding-yi-xia-la-cai-dan.html" class="underline text-orange-600">yii自定义下拉菜单</a></li>
+        
+        <li><a href="/yii-xiu-gai-mo-ren-fen-ye-mei-ye-xian-shi-tiao-shu.html" class="underline text-orange-600">yii修改默认分页每页显示条数</a></li>
+        
+        <li><a href="/yii-yin-cang-index-php-er-bu-yin-cang-admin-php-de-fang-fa.html" class="underline text-orange-600">yii隐藏index.php而不隐藏admin.php的方法</a></li>
+        
+        <li><a href="/yii-zi-ding-yi-url.html" class="underline text-orange-600">yii自定义URL</a></li>
+        
+</div>
+
+
+    
+
+</section>
+
+
+<div class="hidden xl:text-sm xl:block xl:w-1/4 xl:px-6 ">
+
+    <div class="lg:w-full mx-auto items-center justify-between">
+    <div class="bg-white shadow rounded overflow-hidden">
+        <div class="bg-cover bg-auto mx-auto w-32 h-32 mt-5 rounded-full" style="background-image: url('https://avatars0.githubusercontent.com/u/1725326?s=460&amp;v=4')"> </div>
+        
+        <div class="p-4">
+            <p class="text-2xl text-center text-gray-900 pb-2">forecho</p>
+            <p class="text-sm text-gray-700">7年开发经验，寻求技术 Leader 工作机会。Wechat: ipzone</p>
+        </div>
+        <div class="flex p-4 border-t text-sm border-gray-300 text-gray-700">
+            <div class="flex-1 border-r border-gray-600">
+                <p class="text-center">
+                    <span class="text-gray-700 font-bold">
+                        335
+                    </span>
+                    文章
+                </p>
+            </div>
+            <div class="flex-1 text-center">
+                <p class="text-center">
+                    <span class="text-gray-700 font-bold">
+                        
+                            90
+                        
+                    </span>
+                    标签
+                </p>
+            </div>
+        </div>
+        <div class="px-4 pb-4 border-t border-gray-300">
+            <div class="mt-6 pb-16 lg:pb-0 w-4/5 lg:w-full mx-auto flex flex-wrap items-center justify-between text-gray-500">
+                
+                <a href="//github.com/forecho" class="hover:text-gray-900 p-1 text-2xl" target="_blank" title="GitHub"><i class="my-iconfont icon-social-github"></i></a>
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+                <a href="//instagram.com/forecho" class="hover:text-gray-900 p-1 text-2xl" target="_blank" title="Instagram"><i class="my-iconfont icon-instagram"></i></a>
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+                <a href="//twitter.com/caizhenghai" class="hover:text-gray-900 p-1 text-2xl" target="_blank" title="Twitter"><i class="my-iconfont icon-social-twitter"></i></a>
+                
+
+                
+                <a href="//douban.com/people/ipzone" class="hover:text-gray-900 p-1 text-2xl" target="_blank" title="Douban"><i class="my-iconfont icon-social-douban"></i></a>
+                
+
+                
+                <a href="/atom.xml" class="hover:text-gray-900 p-1 text-2xl" target="_blank" title="RSS"><i class="my-iconfont icon-feed"></i></a>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+    <div class="profile-ads"><div class="bg-white shadow"><img class=" object-cover w-auto mx-auto mt-6" src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424153337.png" alt="微信打赏"></div></div>
+
+
+    <div class="flex flex-col justify-between sticky top-0 pt-12 pb-4 -mt-10 text-gray-600">
+        <div class="bg-white shadow rounded p-4 mt-5">
+            
+<p class="text-base font-bold py-2 yg:pb-6 text-gray-700">文章目录</p>
+    <div class="sticky text-sm" style="top:6em;" id="menu-content">
+        <nav id="TableOfContents"></nav>
+    </div>
+
+        </div>
+    </div>
+   
+</div> 
+
+    </div>
+    
+    
+<footer class="bg-white border-t border-gray-400 shadow mt-10">	
+    <div class="container  mx-auto flex py-8">
+        <div class="w-full text-center text-gray-600 ">
+            <p>
+                &copy; 2020 <a  class="text-gray-700" href="http://39.108.170.72">Forecho&#39;s Blog By forecho </a>
+            </p>
+            
+            <p class="pt-1">
+                Powered by <a rel="nofollow noreferer noopener" href="https://gohugo.io/"  class="text-gray-700" target="_blank">Hugo</a> 
+                Theme based on <a href="https://github.com/forecho/hugo-theme-echo" class="text-gray-700" target="_blank">Echo</a>
+            </p>
+
+            <span id="busuanzi_container">
+              访客数：<span id="busuanzi_value_site_uv"></span> | 访问量 <span id="busuanzi_value_site_pv"></span>
+            </span>
+
+        </div>
+
+    </div>
+</footer>
+
+ <script>
+  window.onload = function() {
+    document.getElementById("nav-toggle").onclick = function() {
+      document.getElementById("nav-content").classList.toggle("hidden");
+    };
+
+    var donate = document.getElementById("btn-donate");
+    if (donate) {
+      donate.onclick = function() {
+        document.getElementById("donate-image").classList.remove("hidden");
+        donate.classList.add("hidden");
+      };
+    }
+
+    var hostname = window.location.hostname;
+    var divs = document.querySelectorAll('a[href^="http"]');
+    [].forEach.call(divs, function(div) {
+      url = div.getAttribute("href");
+      var domain = url
+        .replace("http://", "")
+        .replace("https://", "")
+        .split(/[/?#]/)[0];
+      if (domain !== url) {
+        div.setAttribute("target", "_blank");
+      }
+    });
+  };
+
+   
+  
+  var h = document.documentElement,
+    b = document.body,
+    st = "scrollTop",
+    sh = "scrollHeight",
+    progress = document.querySelector("#progress"),
+    scroll;
+  var scrollpos = window.scrollY;
+  var header = document.getElementById("header");
+  var navcontent = document.getElementById("nav-content");
+
+  document.addEventListener("scroll", function() {
+     
+    scroll = ((h[st] || b[st]) / ((h[sh] || b[sh]) - h.clientHeight)) * 100;
+    progress.style.setProperty("--scroll", scroll + "%");
+
+     
+    scrollpos = window.scrollY;
+
+    if (scrollpos > 10) {
+      navcontent.classList.remove("bg-gray-100");
+    } else {
+      navcontent.classList.add("bg-gray-100");
+    }
+  });
+</script>
+
+</body>
+
+</html>

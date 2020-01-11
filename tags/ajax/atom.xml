@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ajax on Forecho&#39;s Blog</title>
+    <link>http://39.108.170.72/tags/ajax.html</link>
+    <description>Recent content in ajax on Forecho&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 23 Jan 2014 16:20:00 +0800</lastBuildDate>
+    
+	<atom:link href="http://39.108.170.72/tags/ajax/atom.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>jQuery Ajax 点击修改</title>
+      <link>http://39.108.170.72/jquery-ajax-dian-ji-xiu-gai.html</link>
+      <pubDate>Thu, 23 Jan 2014 16:20:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/jquery-ajax-dian-ji-xiu-gai.html</guid>
+      <description>先来一张效果图： view HTML页面代码如下： &amp;lt;td align=&amp;quot;center&amp;quot; onclick=&amp;quot;changeLike(&amp;lt;?php echo $id ?&amp;gt;,&#39;&amp;lt;?php echo $like_count; ?&amp;gt;&#39;,this)&amp;quot;&amp;gt; &amp;lt;?php echo $value[&#39;like&#39;]; ?&amp;gt; &amp;lt;/td&amp;gt; JavaScript代码如下： function changeLike (id, like, obj) { $(obj).html(&#39;&amp;lt;input type=&amp;quot;num&amp;quot; name=&amp;quot;&amp;quot; size=&amp;quot;5&amp;quot; value=&amp;quot;&#39;+like+&#39;&amp;quot;&amp;gt;&#39;); $(obj).find(&#39;input&#39;).focus(); // 键盘Enter键</description>
+    </item>
+    
+  </channel>
+</rss>

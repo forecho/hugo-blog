@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>编程工具 on Forecho&#39;s Blog</title>
+    <link>http://39.108.170.72/tags/%E7%BC%96%E7%A8%8B%E5%B7%A5%E5%85%B7.html</link>
+    <description>Recent content in 编程工具 on Forecho&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 27 Sep 2018 22:02:00 +0800</lastBuildDate>
+    
+	<atom:link href="http://39.108.170.72/tags/%E7%BC%96%E7%A8%8B%E5%B7%A5%E5%85%B7/atom.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ubuntu 开发利器</title>
+      <link>http://39.108.170.72/ubuntu-coding-tool.html</link>
+      <pubDate>Thu, 27 Sep 2018 22:02:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/ubuntu-coding-tool.html</guid>
+      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+&lt;p&gt;三年前我写了一篇文章 - &lt;a href=&#34;https://blog.forecho.com/windows-coding-tool.html&#34;&gt;《Windows 开发利器》&lt;/a&gt;，开头吐槽了 Linux，之后推荐了一些 Windows 开发利器。由于上周我换了一份工作，公司开发人员除特殊情况外，其他大部分人都统一使用 Ubuntu 系统。经过一个多星期的吐槽和适应，虽然没有 Mac 系统的做开发爽，但也还算满意。&lt;/p&gt;
+&lt;p&gt;这篇文章我将介绍我使用 Ubuntu 开发时候用到的一些软件和经验。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Windows 开发利器</title>
+      <link>http://39.108.170.72/windows-coding-tool.html</link>
+      <pubDate>Sun, 01 Mar 2015 22:02:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/windows-coding-tool.html</guid>
+      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+&lt;p&gt;Linux 应该是最理想的开发系统，但是 Linux 桌面系统做的很稀烂，我记得我用 Linux 开发的时候 Sublime Text 都不支持中文输入啊，想写个注释都要去记事本写好了再粘贴过来，这得多蛋疼，效率得多低。&lt;/p&gt;
+&lt;p&gt;Windows 7 系统 其实的很棒了，绝大多数公司目前用的开发系统都是 Windows，但是作为开发机 Windows 有很大的缺陷，终端薄弱、安装扩展麻烦、其他语言的不友好支持等等麻烦，让你只能停留在初级开发者的阶段。&lt;/p&gt;
+&lt;p&gt;Mac OS 最理想的开发环境，因为有这同 Linux 一样好用的终端，有精美的界面。是开发者首选。但是价格昂贵，却是值得的。&lt;/p&gt;
+&lt;p&gt;但是大部分公司给你配置的都是台式机，Windows 系统。所有下面我们来说说怎么让你的 Windows 系统开发更有效率。真正用起来的话你会觉得其实 Windows 也不错。&lt;/p&gt;
+&lt;h2 id=&#34;强化系统工具&#34;&gt;强化系统工具&lt;/h2&gt;
+&lt;h3 id=&#34;virtualboxhttpswwwvirtualboxorg--vagranthttpswwwvagrantupcom打造-linux-开发环境&#34;&gt;&lt;a href=&#34;https://www.virtualbox.org/&#34;&gt;VirtualBox&lt;/a&gt; + &lt;a href=&#34;https://www.vagrantup.com/&#34;&gt;Vagrant&lt;/a&gt;（打造 Linux 开发环境）&lt;/h3&gt;
+&lt;p&gt;最初我是在 &lt;a href=&#34;http://www.imooc.com/learn/230&#34;&gt;慕课网-Web app&amp;mdash;Rails10日谈&lt;/a&gt; 上看这个方法的，看完我就惊呆了，相见恨晚的感觉。这不就是我一直所追求的开发环境吗？&lt;/p&gt;
+&lt;p&gt;Vagrant 和 VirtualBox 虚拟机配合可以让你的 Windows 使用 Linux 系统。再配合一个强大的终端，那就完美了。&lt;/p&gt;
+&lt;p&gt;具体使用我就不写了，看下面的参考资料已经足够了。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;参考资料：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.imooc.com/learn/230&#34;&gt;慕课网-Web app&amp;mdash;Rails10日谈&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://happypeter.github.io/rails10/01_vagrant.html&#34;&gt;使用 vagrant 安装 ubuntu 系统&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://chloerei.com/2013/11/01/vagrant/&#34;&gt;Vagrant，虚拟机管理工具&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/astaxie/Go-in-Action/blob/master/ebook/zh/01.2.md&#34;&gt;Vgrant安装配置&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;babunhttpbabungithubio--conemuhttpsgithubcommaximus5conemu打造最强终端&#34;&gt;&lt;a href=&#34;http://babun.github.io/&#34;&gt;babun&lt;/a&gt; + &lt;a href=&#34;https://github.com/Maximus5/ConEmu&#34;&gt;ConEmu&lt;/a&gt;（打造最强终端）&lt;/h3&gt;
+&lt;p&gt;Windows 下面的终端我试了好几个，最后试来试去发现 babun 最好了，省时省力，集成 oh-my-zsh、git 等，算是 Cygwin 的精简版。&lt;/p&gt;
+&lt;p&gt;ConEmu 可以加强终端使用，和 babun 配合，可以开多个标签。&lt;/p&gt;
+&lt;h3 id=&#34;cloverhttpcnejieme资源管理器扩展&#34;&gt;&lt;a href=&#34;http://cn.ejie.me/&#34;&gt;Clover&lt;/a&gt;（资源管理器扩展）&lt;/h3&gt;
+&lt;p&gt;如果你喜欢 Chrome 浏览器，那么你一定会爱死这个软件了，以 Chrome 的形式来使用我们的资源管理器，多标签、书签、新标签打开、重新打开关闭之后的标签，统统没问题，快捷键都和 Chrome 一样。&lt;/p&gt;
+&lt;h3 id=&#34;listaryhttpwwwlistarycom文件浏览与搜索增强工具&#34;&gt;&lt;a href=&#34;http://www.listary.com/&#34;&gt;Listary&lt;/a&gt;（文件浏览与搜索增强工具）&lt;/h3&gt;
+&lt;p&gt;增强文件夹资源管理工具。免费有中文。高级版收费，保存文件的时候可以直接根据文件名搜索文件路径，你值得拥有。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.voidtools.com/&#34;&gt;Everything&lt;/a&gt; 也是搜索文件神器，但是 Listary 已经有搜索功能了，所有我就没有安装 Everything 了。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;参考资料：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.appinn.com/listary/&#34;&gt;Listary – Windows 文件浏览增强工具&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.iplaysoft.com/listary.html&#34;&gt;Listary Pro - 能极大幅度提高你 Windows 文件浏览与搜索速度效率的「超级神器」&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>Mac Sublime Text 实现 Chrome 快速预览</title>
+      <link>http://39.108.170.72/mac-set-up-sublime-text-chrome-preview.html</link>
+      <pubDate>Thu, 08 Jan 2015 22:02:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/mac-set-up-sublime-text-chrome-preview.html</guid>
+      <description>安装 按照 Tools -&amp;gt; Build System -&amp;gt; New Build System&amp;hellip; 新建一个「Build System」文件。 写入以下代码： 1 2 3 { &amp;#34;cmd&amp;#34;: [&amp;#34;open&amp;#34;, &amp;#34;-a&amp;#34;, &amp;#34;/Applications/Google Chrome.app&amp;#34;, &amp;#34;$file&amp;#34;] } 保存在「~/Library/Applic</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.62.2" />
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="generator" content="Saber v0.11.2">
+    <meta name="author" content="forecho" />
+    <meta name="keywords" content="Hugo, theme, even" />
+    <meta name="og:site_name" content="Forecho&#39;s Blog" /><meta property="og:title" content="Forecho&#39;s Blog" />
+    <meta property="og:type" content="website" />
+    <meta property="title" content="Forecho&#39;s Blog">
+    <meta property="og:title" content="Forecho&#39;s Blog">
+    <meta property="twitter:title" content="Forecho&#39;s Blog">
+    <meta property="description" content="Hugo theme even example site.">
+    <meta property="og:description" content="Hugo theme even example site.">
+    <meta property="twitter:description" content="Hugo theme even example site.">
+    <meta property="og:type" content="website">
+    <title>Forecho&#39;s Blog</title>
+
+    <meta property="og:url" content="http://39.108.170.72/" />
+
+    
+    <meta property="og:image" content="https://avatars0.githubusercontent.com/u/1725326?s=460&amp;v=4">
+    <meta property="twitter:image" content="https://avatars0.githubusercontent.com/u/1725326?s=460&amp;v=4">
+    <link rel="shortcut icon" href="https://avatars0.githubusercontent.com/u/1725326?s=460&amp;v=4" type="image/x-png" /><link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_1607597_jhmihcvh0tm.css" />
+    <link href="/index.xml" rel="alternate" type="application/rss+xml" title="Forecho&#39;s Blog">
+    
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+</head>
+
+<body class="bg-gray-100 text-gray-900 tracking-wider leading-normal">
+
+    <nav id="header" class="bg-white fixed w-full z-10 top-0 shadow">
+
+  <div id="progress" class="h-1 z-20 top-0" style="background:linear-gradient(to right, #4dc0b5 var(--scroll), transparent 0);"></div>
+
+  <div class="w-full container mx-auto flex flex-wrap items-center justify-between my-1">
+      <div class="pl-4">
+          <a class="text-gray-900 text-base no-underline hover:no-underline font-bold text-xl"  href="/">
+              Forecho&#39;s Blog
+          </a>
+      </div>
+
+      <div class="block lg:hidden pr-4">
+          <button id="nav-toggle" class="flex items-center px-3 py-2 border rounded text-gray-500 border-gray-600 hover:text-gray-900 hover:border-teal-500 appearance-none focus:outline-none">
+              <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+          </button>
+      </div>
+
+      <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block mt-2 lg:mt-0 bg-gray-100 md:bg-transparent z-20" id="nav-content">
+          <ul class="list-reset lg:flex justify-end flex-1 items-center">
+              <li class="mr-3">
+                  <a href="/" class="inline-block py-2 px-2 text-gray-700 font-bold no-underline">首页</a>
+              </li>
+              <li class="mr-3">
+                  <a href="/posts.html" class="inline-block py-2 px-2 text-gray-700 font-bold no-underline">文章归档</a>
+              </li>
+              <li class="mr-3">
+                  <a href="/about.html" class="inline-block py-2 px-2 text-gray-700 font-bold no-underline">关于我</a>
+              </li>
+              <li class="mr-3">
+                  <a href="/friendship-links/" class="inline-block py-2 px-2 text-gray-700 font-bold no-underline">联盟链接</a>
+              </li>
+          </ul>
+      </div>
+  </div>
+</nav>
+
+    <div id="container" class="container w-full flex flex-wrap mx-auto px-2 lg:pt-12 mt-10">
+    <section class="w-full lg:w-3/4 xl:w-3/4">
+        <div class="px-8 py-6 mt-6 lg:mt-0 leading-normal rounded shadow bg-white">
+                
+                <article >
+                    
+                    <div>
+    <h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-3xl">
+        <a href="http://39.108.170.72/laravel-tests.html" title="Laravel 写单元测试">Laravel 写单元测试</a>
+    </h1>
+    <p class="mb-1 text-sm text-gray-500">
+        <span title=" 2019-01-14 15:03:00 &#43;0800">
+            <i class="iconfont icon-calendar" aria-hidden="true"></i> 14 Jan 2019
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-book"></i>
+            1725 字
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-clock-o"></i>
+            4 分钟读完
+        </span>
+    </p>
+</div>
+
+                    
+                    <div class="post-content">
+                        <h2 id="引言">引言</h2>
+<p>新公司入职第一件事就是让我给一个用 Laravel 框架开发的项目写单元测试，我会说『当了这么多年的程序员没写过单元测试吗？』，于是我一边学习一边写，这篇文章是我写了一个月单元测试的经验分享。</p>
+<h2 id="单元测试">单元测试</h2>
+<h3 id="基本的断言">基本的断言</h3>
+<ul>
+<li>断言两边数据相等使用 <code>assertEquals($a, $a1)</code></li>
+</ul>
+<div class="highlight"><div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-fallback" data-lang="fallback">public function testComputePermission()
+{
+    $totalPermission = TCH::computePermission([PointsAccountPermissions::TRANSFER]);
+    $this-&gt;assertEquals($totalPermission, PointsAccountPermissions::TRANSFER);
+}
+</code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>断言结果是 <code>true</code> 使用 <code>assertTrue($a)</code>，与之相反的是 <code>assertFalse($b)</code></li>
+<li>断言文件是否存在使用 <code>assertFileExists($path)</code></li>
+<li>断言数据库没有数据使用 <code>assertDatabaseMissing('user', [])</code></li>
+<li>断言两个类一样使用 <code>assertSame($a, $b)</code></li>
+<li>……</li>
+</ul>
+                    </div>
+                    <p class="text-sm font-semibold pt-5 text-gray-700 ">
+                        <a href="http://39.108.170.72/laravel-tests.html" class="px-5 py-2 inline-block bg-gray-200 rounded  hover:bg-gray-300">阅读全文</a>
+                    </p>
+                </article>
+
+                <hr class="bg-gray-300 mt-10 mb-6">
+            
+                <article >
+                    
+                    <div>
+    <h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-3xl">
+        <a href="http://39.108.170.72/sitting-on-the-high-speed-rail-to-hong-kong.html" title="坐着高铁去香港">坐着高铁去香港</a>
+    </h1>
+    <p class="mb-1 text-sm text-gray-500">
+        <span title=" 2018-12-16 21:03:00 &#43;0800">
+            <i class="iconfont icon-calendar" aria-hidden="true"></i> 16 Dec 2018
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-book"></i>
+            1682 字
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-clock-o"></i>
+            4 分钟读完
+        </span>
+    </p>
+</div>
+
+                    
+                    <div class="post-content">
+                        <h2 id="引言">引言</h2>
+<p>前一段时间内地去香港的高铁终于开通了，正好前一段时间去香港有事，于是体验了一把，现在把整个流程分享一下，希望我的经验对你有帮助。</p>
+<h2 id="关于港澳通行证">关于港澳通行证</h2>
+<p>翻看自己的照片，上一次去香港已经是2年前的圣诞节了。所以这次确定要去香港之前，就在淘宝上找了一家帮忙续签港澳通行证的服务。不得不说现在的流程和体验比前两年好多了，前两年还得让我去一个网站填一推资料，这次直接下单，备注写上港澳通行证号和姓名，然后用任何一个快递寄给指定地址就好了。从寄出快递到收到证件花了不到10天，整个体验非常棒。</p>
+                    </div>
+                    <p class="text-sm font-semibold pt-5 text-gray-700 ">
+                        <a href="http://39.108.170.72/sitting-on-the-high-speed-rail-to-hong-kong.html" class="px-5 py-2 inline-block bg-gray-200 rounded  hover:bg-gray-300">阅读全文</a>
+                    </p>
+                </article>
+
+                <hr class="bg-gray-300 mt-10 mb-6">
+            
+                <article >
+                    
+                    <div>
+    <h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-3xl">
+        <a href="http://39.108.170.72/dadi-positive-summary.html" title="转正总结">转正总结</a>
+    </h1>
+    <p class="mb-1 text-sm text-gray-500">
+        <span title=" 2018-12-11 21:03:00 &#43;0800">
+            <i class="iconfont icon-calendar" aria-hidden="true"></i> 11 Dec 2018
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-book"></i>
+            1331 字
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-clock-o"></i>
+            3 分钟读完
+        </span>
+    </p>
+</div>
+
+                    
+                    <div class="post-content">
+                        <h2 id="引言">引言</h2>
+<p>时间飞逝，转眼就入职快3个月了，是申请转正的时候了。这篇文章我就来说说目前在公司工作感受以及其他。</p>
+<h2 id="简单介绍">简单介绍</h2>
+<p>公司11月才去河源搞的一周年团建，也就是说公司很年轻，到目前为止也就成立一年多点。是上市公司的子公司，跟大地影院是兄弟公司。目前所做的业务就是给另一个兄弟公司做产品。公司一共有三大产品线：新零售、会员、无人酒店。我在会员组下负责积分核心系统。</p>
+<h2 id="说说感受">说说感受</h2>
+<p>下面我就用分类来描述我入职这么久的感受吧。</p>
+                    </div>
+                    <p class="text-sm font-semibold pt-5 text-gray-700 ">
+                        <a href="http://39.108.170.72/dadi-positive-summary.html" class="px-5 py-2 inline-block bg-gray-200 rounded  hover:bg-gray-300">阅读全文</a>
+                    </p>
+                </article>
+
+                <hr class="bg-gray-300 mt-10 mb-6">
+            
+                <article >
+                    
+                    <div>
+    <h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-3xl">
+        <a href="http://39.108.170.72/use-nas.html" title="使用 NAS">使用 NAS</a>
+    </h1>
+    <p class="mb-1 text-sm text-gray-500">
+        <span title=" 2018-11-30 21:03:00 &#43;0800">
+            <i class="iconfont icon-calendar" aria-hidden="true"></i> 30 Nov 2018
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-book"></i>
+            2597 字
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-clock-o"></i>
+            6 分钟读完
+        </span>
+    </p>
+</div>
+
+                    
+                    <div class="post-content">
+                        <p><img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20191105105249.jpg" alt=""></p>
+<h2 id="引言">引言</h2>
+<p>听说 NAS 有一段时间了，双十一之前整理照片的时候，NAS 再次出现在我的视线前，当天脑子一『发热』，使用 Google 恶补了很多知识。可以备份照片、下载电影，甚至可以跑 docker，想买了。</p>
+<h2 id="什么是-nas">什么是 NAS</h2>
+<p>NAS 是 Network Area Storage 的缩写，即网络存储解决方案，说白了就是可以自己控制的网盘，外观就是一个可以装多个硬盘的机箱，局域网内下载传输速度很快，而且比网盘功能更强大一些。</p>
+<h2 id="购买方案">购买方案</h2>
+<p>使用 NAS 无非就以下几种方案：</p>
+<ul>
+<li>购买现成的 NAS ，有群晖和威联通</li>
+<li>自己买硬件自己安装系统，甚至可以安装群晖的系统，俗称黑群晖。</li>
+</ul>
+                    </div>
+                    <p class="text-sm font-semibold pt-5 text-gray-700 ">
+                        <a href="http://39.108.170.72/use-nas.html" class="px-5 py-2 inline-block bg-gray-200 rounded  hover:bg-gray-300">阅读全文</a>
+                    </p>
+                </article>
+
+                <hr class="bg-gray-300 mt-10 mb-6">
+            
+                <article >
+                    
+                    <div>
+    <h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-3xl">
+        <a href="http://39.108.170.72/use-laradock.html" title="使用 Laradock">使用 Laradock</a>
+    </h1>
+    <p class="mb-1 text-sm text-gray-500">
+        <span title=" 2018-11-27 21:03:00 &#43;0800">
+            <i class="iconfont icon-calendar" aria-hidden="true"></i> 27 Nov 2018
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-book"></i>
+            1656 字
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-clock-o"></i>
+            4 分钟读完
+        </span>
+    </p>
+</div>
+
+                    
+                    <div class="post-content">
+                        <h2 id="引言">引言</h2>
+<p>PHP开发，想用 Docker 但又没太多时间去学，那你可以试试 <a href="https://github.com/laradock/laradock">Lavadock</a> 项目，它是一套完整的基于 Docker 的 PHP 开发环境。包含了预先打包的 Docker 镜像，所有预先配置都是为了提供一个完美的 PHP 开发环境。</p>
+<p>你可以很方便的搭建各种环境，比方说 redis、MongoDB、MySQL、Nginx 等等。</p>
+                    </div>
+                    <p class="text-sm font-semibold pt-5 text-gray-700 ">
+                        <a href="http://39.108.170.72/use-laradock.html" class="px-5 py-2 inline-block bg-gray-200 rounded  hover:bg-gray-300">阅读全文</a>
+                    </p>
+                </article>
+
+                <hr class="bg-gray-300 mt-10 mb-6">
+            
+                <article >
+                    
+                    <div>
+    <h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-3xl">
+        <a href="http://39.108.170.72/readeep-019.html" title="【深度阅读019】这本书能让你睡得好">【深度阅读019】这本书能让你睡得好</a>
+    </h1>
+    <p class="mb-1 text-sm text-gray-500">
+        <span title=" 2018-10-21 21:03:00 &#43;0800">
+            <i class="iconfont icon-calendar" aria-hidden="true"></i> 21 Oct 2018
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-book"></i>
+            3098 字
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-clock-o"></i>
+            7 分钟读完
+        </span>
+    </p>
+</div>
+
+                    
+                    <div class="post-content">
+                        <p><a href="https://www.amazon.cn/dp/B076ZT59LD/?ie=UTF8&amp;tag=forecho0c-23"><img src="https://images-cn.ssl-images-amazon.com/images/I/51m7yQnG0mL.jpg" alt="《这本书能让你睡得好》"></a></p>
+<h2 id="先简单介绍一下作者">先简单介绍一下作者</h2>
+<p>本篇文章要讲述的《这本书能让你睡得好》一书，作者肖恩·史蒂文森（Shawn Stevenson），《模范健康秀》（The Model Health Show）创始人，这个节目是美国苹果 iTunes 健康类 N0.1 的播客栏目，他是健康专家里的先驱，帮助全世界成千上万的人完成了生活上的转型。</p>
+                    </div>
+                    <p class="text-sm font-semibold pt-5 text-gray-700 ">
+                        <a href="http://39.108.170.72/readeep-019.html" class="px-5 py-2 inline-block bg-gray-200 rounded  hover:bg-gray-300">阅读全文</a>
+                    </p>
+                </article>
+
+                <hr class="bg-gray-300 mt-10 mb-6">
+            
+                <article >
+                    
+                    <div>
+    <h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-3xl">
+        <a href="http://39.108.170.72/php-code-formatter-tips.html" title="PHP 代码规范之工具篇">PHP 代码规范之工具篇</a>
+    </h1>
+    <p class="mb-1 text-sm text-gray-500">
+        <span title=" 2018-10-12 20:50:00 &#43;0800">
+            <i class="iconfont icon-calendar" aria-hidden="true"></i> 12 Oct 2018
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-book"></i>
+            666 字
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-clock-o"></i>
+            2 分钟读完
+        </span>
+    </p>
+</div>
+
+                    
+                    <div class="post-content">
+                        <h2 id="前言">前言</h2>
+<p>团队合作开发，保证代码的规范、统一是一个非常重要的事情。除了有文档明确的说明规范之外，我们还可以利用一些工具来辅助我们轻松实现代码的规范和统一。</p>
+                    </div>
+                    <p class="text-sm font-semibold pt-5 text-gray-700 ">
+                        <a href="http://39.108.170.72/php-code-formatter-tips.html" class="px-5 py-2 inline-block bg-gray-200 rounded  hover:bg-gray-300">阅读全文</a>
+                    </p>
+                </article>
+
+                <hr class="bg-gray-300 mt-10 mb-6">
+            
+                <article >
+                    
+                    <div>
+    <h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-3xl">
+        <a href="http://39.108.170.72/the-life-of-entrepreneurship-has-come-to-an-end-again.html" title="创业的生活再次告一段落">创业的生活再次告一段落</a>
+    </h1>
+    <p class="mb-1 text-sm text-gray-500">
+        <span title=" 2018-09-29 07:50:00 &#43;0800">
+            <i class="iconfont icon-calendar" aria-hidden="true"></i> 29 Sep 2018
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-book"></i>
+            1850 字
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-clock-o"></i>
+            4 分钟读完
+        </span>
+    </p>
+</div>
+
+                    
+                    <div class="post-content">
+                        <h2 id="前言">前言</h2>
+<p>5个月前我写了一篇文章 - <a href="https://blog.forecho.com/the-first-venture-came-to-an-end.html">《第一次创业告一段落》</a>，总结了第一次以一个创业状态在一家公司当技术 Leader 的经历。文章的片尾我交代了下一家公司将以技术合伙人又去创业的事情。</p>
+<p>那么5个月过去了，最后我却选择了退出，这篇文章我将总结这5个月来我的创业经历。</p>
+                    </div>
+                    <p class="text-sm font-semibold pt-5 text-gray-700 ">
+                        <a href="http://39.108.170.72/the-life-of-entrepreneurship-has-come-to-an-end-again.html" class="px-5 py-2 inline-block bg-gray-200 rounded  hover:bg-gray-300">阅读全文</a>
+                    </p>
+                </article>
+
+                <hr class="bg-gray-300 mt-10 mb-6">
+            
+                <article >
+                    
+                    <div>
+    <h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-3xl">
+        <a href="http://39.108.170.72/ubuntu-coding-tool.html" title="Ubuntu 开发利器">Ubuntu 开发利器</a>
+    </h1>
+    <p class="mb-1 text-sm text-gray-500">
+        <span title=" 2018-09-27 22:02:00 &#43;0800">
+            <i class="iconfont icon-calendar" aria-hidden="true"></i> 27 Sep 2018
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-book"></i>
+            1404 字
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-clock-o"></i>
+            3 分钟读完
+        </span>
+    </p>
+</div>
+
+                    
+                    <div class="post-content">
+                        <h2 id="前言">前言</h2>
+<p>三年前我写了一篇文章 - <a href="https://blog.forecho.com/windows-coding-tool.html">《Windows 开发利器》</a>，开头吐槽了 Linux，之后推荐了一些 Windows 开发利器。由于上周我换了一份工作，公司开发人员除特殊情况外，其他大部分人都统一使用 Ubuntu 系统。经过一个多星期的吐槽和适应，虽然没有 Mac 系统的做开发爽，但也还算满意。</p>
+<p>这篇文章我将介绍我使用 Ubuntu 开发时候用到的一些软件和经验。</p>
+                    </div>
+                    <p class="text-sm font-semibold pt-5 text-gray-700 ">
+                        <a href="http://39.108.170.72/ubuntu-coding-tool.html" class="px-5 py-2 inline-block bg-gray-200 rounded  hover:bg-gray-300">阅读全文</a>
+                    </p>
+                </article>
+
+                <hr class="bg-gray-300 mt-10 mb-6">
+            
+                <article >
+                    
+                    <div>
+    <h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-3xl">
+        <a href="http://39.108.170.72/financedeep-05.html" title="【深度理财05】新手炒股可能容易犯这些错误(二)">【深度理财05】新手炒股可能容易犯这些错误(二)</a>
+    </h1>
+    <p class="mb-1 text-sm text-gray-500">
+        <span title=" 2018-08-29 13:09:00 &#43;0800">
+            <i class="iconfont icon-calendar" aria-hidden="true"></i> 29 Aug 2018
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-book"></i>
+            1772 字
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-clock-o"></i>
+            4 分钟读完
+        </span>
+    </p>
+</div>
+
+                    
+                    <div class="post-content">
+                        <h2 id="引言">引言</h2>
+<p>两个月之前总结了一篇<a href="https://blog.forecho.com/financedeep-04.html">《【深度理财04】新手炒股可能容易犯这些错误》</a>文章，现在两个月过去了，又到了总结的时候了。</p>
+<h2 id="可能容易犯的错误">可能容易犯的错误</h2>
+<h3 id="赌徒谬误">赌徒谬误</h3>
+<p>什么是赌徒谬误呢？维基百科是这样说的：</p>
+                    </div>
+                    <p class="text-sm font-semibold pt-5 text-gray-700 ">
+                        <a href="http://39.108.170.72/financedeep-05.html" class="px-5 py-2 inline-block bg-gray-200 rounded  hover:bg-gray-300">阅读全文</a>
+                    </p>
+                </article>
+
+                <hr class="bg-gray-300 mt-10 mb-6">
+            
+            <p class="text-center">
+                <a  class="md:text-xl text-gray-700" href="/posts.html">↑ 文章归档 ↑</a>
+            </p>
+        </div>
+    </section>
+
+    <div class="hidden md:block w-full lg:w-1/4 xl:w-1/4 px-6 text-gray-800 leading-normal">
+
+        <div class="lg:w-full mx-auto items-center justify-between">
+    <div class="bg-white shadow rounded overflow-hidden">
+        <div class="bg-cover bg-auto mx-auto w-32 h-32 mt-5 rounded-full" style="background-image: url('https://avatars0.githubusercontent.com/u/1725326?s=460&amp;v=4')"> </div>
+        
+        <div class="p-4">
+            <p class="text-2xl text-center text-gray-900 pb-2">forecho</p>
+            <p class="text-sm text-gray-700">7年开发经验，寻求技术 Leader 工作机会。Wechat: ipzone</p>
+        </div>
+        <div class="flex p-4 border-t text-sm border-gray-300 text-gray-700">
+            <div class="flex-1 border-r border-gray-600">
+                <p class="text-center">
+                    <span class="text-gray-700 font-bold">
+                        335
+                    </span>
+                    文章
+                </p>
+            </div>
+            <div class="flex-1 text-center">
+                <p class="text-center">
+                    <span class="text-gray-700 font-bold">
+                        
+                            90
+                        
+                    </span>
+                    标签
+                </p>
+            </div>
+        </div>
+        <div class="px-4 pb-4 border-t border-gray-300">
+            <div class="mt-6 pb-16 lg:pb-0 w-4/5 lg:w-full mx-auto flex flex-wrap items-center justify-between text-gray-500">
+                
+                <a href="//github.com/forecho" class="hover:text-gray-900 p-1 text-2xl" target="_blank" title="GitHub"><i class="my-iconfont icon-social-github"></i></a>
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+                <a href="//instagram.com/forecho" class="hover:text-gray-900 p-1 text-2xl" target="_blank" title="Instagram"><i class="my-iconfont icon-instagram"></i></a>
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+                <a href="//twitter.com/caizhenghai" class="hover:text-gray-900 p-1 text-2xl" target="_blank" title="Twitter"><i class="my-iconfont icon-social-twitter"></i></a>
+                
+
+                
+                <a href="//douban.com/people/ipzone" class="hover:text-gray-900 p-1 text-2xl" target="_blank" title="Douban"><i class="my-iconfont icon-social-douban"></i></a>
+                
+
+                
+                <a href="/atom.xml" class="hover:text-gray-900 p-1 text-2xl" target="_blank" title="RSS"><i class="my-iconfont icon-feed"></i></a>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+    <div class="profile-ads"><div class="bg-white shadow"><img class=" object-cover w-auto mx-auto mt-6" src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424153337.png" alt="微信打赏"></div></div>
+
+
+    </div>
+
+
+    </div>
+    
+    
+<footer class="bg-white border-t border-gray-400 shadow mt-10">	
+    <div class="container  mx-auto flex py-8">
+        <div class="w-full text-center text-gray-600 ">
+            <p>
+                &copy; 2020 <a  class="text-gray-700" href="http://39.108.170.72">Forecho&#39;s Blog By forecho </a>
+            </p>
+            
+            <p class="pt-1">
+                Powered by <a rel="nofollow noreferer noopener" href="https://gohugo.io/"  class="text-gray-700" target="_blank">Hugo</a> 
+                Theme based on <a href="https://github.com/forecho/hugo-theme-echo" class="text-gray-700" target="_blank">Echo</a>
+            </p>
+
+            <span id="busuanzi_container">
+              访客数：<span id="busuanzi_value_site_uv"></span> | 访问量 <span id="busuanzi_value_site_pv"></span>
+            </span>
+
+        </div>
+
+    </div>
+</footer>
+
+ <script>
+  window.onload = function() {
+    document.getElementById("nav-toggle").onclick = function() {
+      document.getElementById("nav-content").classList.toggle("hidden");
+    };
+
+    var donate = document.getElementById("btn-donate");
+    if (donate) {
+      donate.onclick = function() {
+        document.getElementById("donate-image").classList.remove("hidden");
+        donate.classList.add("hidden");
+      };
+    }
+
+    var hostname = window.location.hostname;
+    var divs = document.querySelectorAll('a[href^="http"]');
+    [].forEach.call(divs, function(div) {
+      url = div.getAttribute("href");
+      var domain = url
+        .replace("http://", "")
+        .replace("https://", "")
+        .split(/[/?#]/)[0];
+      if (domain !== url) {
+        div.setAttribute("target", "_blank");
+      }
+    });
+  };
+
+   
+  
+  var h = document.documentElement,
+    b = document.body,
+    st = "scrollTop",
+    sh = "scrollHeight",
+    progress = document.querySelector("#progress"),
+    scroll;
+  var scrollpos = window.scrollY;
+  var header = document.getElementById("header");
+  var navcontent = document.getElementById("nav-content");
+
+  document.addEventListener("scroll", function() {
+     
+    scroll = ((h[st] || b[st]) / ((h[sh] || b[sh]) - h.clientHeight)) * 100;
+    progress.style.setProperty("--scroll", scroll + "%");
+
+     
+    scrollpos = window.scrollY;
+
+    if (scrollpos > 10) {
+      navcontent.classList.remove("bg-gray-100");
+    } else {
+      navcontent.classList.add("bg-gray-100");
+    }
+  });
+</script>
+
+</body>
+
+</html>

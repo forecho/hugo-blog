@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>php on Forecho&#39;s Blog</title>
+    <link>http://39.108.170.72/tags/php.html</link>
+    <description>Recent content in php on Forecho&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 19 Nov 2015 10:57:00 +0800</lastBuildDate>
+    
+	<atom:link href="http://39.108.170.72/tags/php/atom.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ubuntu 使用 PPA 安装 PHP 扩展</title>
+      <link>http://39.108.170.72/ubuntu-use-ppa-install-php-extension.html</link>
+      <pubDate>Thu, 19 Nov 2015 10:57:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/ubuntu-use-ppa-install-php-extension.html</guid>
+      <description>&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
+&lt;p&gt;PPA，即 Personal Package Archives 缩写，也就是个人软件包集。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;有很多软件因为种种原因，不能进入官方的 Ubuntu 软件仓库。 为了方便 Ubuntu 用户使用，launchpad.net 提供了 ppa，允许用户建立自己的软件仓库， 自由的上传软件。PPA 也被用来对一些打算进入 Ubuntu 官方仓库的软件，或者某些软件的新版本进行测试。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;使用&#34;&gt;使用&lt;/h2&gt;
+&lt;p&gt;我一直不太喜欢用源码编译的方式安装 PHP 扩展，主要是麻烦。然后偶然发现了这种方式安装 PHP 扩展，真是太方便了。&lt;/p&gt;
+&lt;p&gt;下面我们来讲讲怎么使用：&lt;/p&gt;
+&lt;p&gt;安装 PPA&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;sudo add-apt-repository ppa:ondrej/php5
+sudo apt-get update
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;安装 php mcrypt 扩展&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;sudo apt-get install php5-mcrypt
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>PHP 中的动态属性和 StdClass</title>
+      <link>http://39.108.170.72/dynamic-properties-in-php-and-stdclass.html</link>
+      <pubDate>Sun, 08 Nov 2015 21:52:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/dynamic-properties-in-php-and-stdclass.html</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;翻译 &lt;a href=&#34;http://krisjordan.com/dynamic-properties-in-php-with-stdclass&#34;&gt;Dynamic Properties in PHP and StdClass&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;JavaScript 和 Python 允许对象实例的动态属性。事实证明,PHP 也是如此。看官方 PHP 对象和类文档可能会导致你相信动态实例属性需要自定义 __get 和 __set 魔术方法。其实不用。&lt;/p&gt;
+&lt;h2 id=&#34;简单内置的动态属性&#34;&gt;简单,内置的动态属性&lt;/h2&gt;
+&lt;p&gt;看看以下代码:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 1
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 2
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 3
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 4
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 5
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 6
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 7
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 8
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 9
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;10
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;11
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;12
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;13
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;14
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;15
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;16
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;class DynamicProperties { }
+$object = new DynamicProperties;
+echo isset($object-&amp;gt;foo) ? &amp;#39;t&amp;#39; : &amp;#39;f&amp;#39;; // f
+echo PHP_EOL;
+// Set Dynamic Properties foo and fooz
+$object-&amp;gt;foo = &amp;#39;bar&amp;#39;;
+$object-&amp;gt;fooz = &amp;#39;baz&amp;#39;;
+// Isset and Unset work
+isset($object-&amp;gt;foo); // true
+unset($object-&amp;gt;foo);
+// Iterate through Properties and Values
+foreach($object as $property =&amp;gt; $value)  {
+    echo $property . &amp;#39; = &amp;#39; . $value . PHP_EOL;
+}
+// Prints:
+// fooz = baz
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Mac PHP 环境下新增虚拟主机</title>
+      <link>http://39.108.170.72/mac-php-huan-jing-xia-xin-zeng-xu-ni-zhu-ji.html</link>
+      <pubDate>Fri, 16 Jan 2015 22:30:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/mac-php-huan-jing-xia-xin-zeng-xu-ni-zhu-ji.html</guid>
+      <description>注：这里只是新增，如果是第一次开启虚拟主机，请参考这篇文章。 1、运行sudo vim /etc/apache2/extra/httpd-vhosts</description>
+    </item>
+    
+    <item>
+      <title>Mac 升级 Yosemite 之后 PHP 环境修复</title>
+      <link>http://39.108.170.72/macbook-sheng-ji-yosemite-zhi-hou-php-huan-jing-xiu-fu.html</link>
+      <pubDate>Sun, 19 Oct 2014 22:06:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/macbook-sheng-ji-yosemite-zhi-hou-php-huan-jing-xiu-fu.html</guid>
+      <description>&lt;p&gt;Yosemite 终于发布了，我第一时间升级了。但是没想到 PHP 环境受到影响了，直到现在终于修复好了。&lt;/p&gt;
+&lt;p&gt;##修复 Apache&lt;/p&gt;
+&lt;p&gt;Apache 好像是换新版本了，升级完系统之后项目打不开了。之前设置好的虚拟主机都无效了。&lt;/p&gt;
+&lt;p&gt;首先打开 &lt;code&gt;sudo vim /etc/apache2/httpd.conf&lt;/code&gt;  这个文件，&lt;/p&gt;
+&lt;h3 id=&#34;开启虚拟主机功能去掉下面代码的注释&#34;&gt;开启虚拟主机功能，去掉下面代码的「#」注释：&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;#Include /private/etc/apache2/extra/httpd-vhosts.conf
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;改过的代码如下：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;Include /private/etc/apache2/extra/httpd-vhosts.conf
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;如果想开启伪静态去掉下面代码的注释&#34;&gt;如果想开启伪静态，去掉下面代码的「#」注释：&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;#LoadModule rewrite_module libexec/apache2/mod_rewrite.so
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;改过的代码如下：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;LoadModule rewrite_module libexec/apache2/mod_rewrite.so
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;如果想使用系统自带的-php-版本的话去掉下面代码的注释&#34;&gt;如果想使用系统自带的 PHP 版本的话，去掉下面代码的「#」注释：&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;#LoadModule php5_module libexec/apache2/libphp5.so
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;改过的代码如下：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;LoadModule php5_module libexec/apache2/libphp5.so
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;以上操作完了之后记得要重启Apache:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;sudo apachectl restart
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;##修复虚拟主机&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>PHP 裁剪数组</title>
+      <link>http://39.108.170.72/php-cai-jian-shu-zu.html</link>
+      <pubDate>Fri, 05 Sep 2014 22:05:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/php-cai-jian-shu-zu.html</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;用 array_splice 可以裁剪，原来的数组会被改变，键值会重组&lt;/li&gt;
+&lt;li&gt;用 array_slice ，原来的数组不会改变，键值可以不用重组&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;示例：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 1
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 2
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 3
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 4
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 5
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 6
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 7
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 8
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 9
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;10
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;11
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;12
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;13
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;14
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;echo &amp;#39;&amp;lt;&lt;span style=&#34;color:#309;font-weight:bold&#34;&gt;pre&lt;/span&gt;&amp;gt;&amp;#39;;
+$arrayRaw = array(&amp;#39;2&amp;#39; =&amp;gt; &amp;#39;c&amp;#39;,&amp;#39;3&amp;#39; =&amp;gt; &amp;#39;d&amp;#39;, &amp;#39;4&amp;#39; =&amp;gt; &amp;#39;e&amp;#39;, &amp;#39;5&amp;#39; =&amp;gt; &amp;#39;f&amp;#39;);
+echo &amp;#34;0&amp;#34;, PHP_EOL;
+print_r(array_splice($arrayRaw, 2));
+echo &amp;#34;1&amp;#34;, PHP_EOL;
+print_r($arrayRaw);
+
+$arrayRaw = array(&amp;#39;2&amp;#39; =&amp;gt; &amp;#39;c&amp;#39;,&amp;#39;3&amp;#39; =&amp;gt; &amp;#39;d&amp;#39;, &amp;#39;4&amp;#39; =&amp;gt; &amp;#39;e&amp;#39;, &amp;#39;5&amp;#39; =&amp;gt; &amp;#39;f&amp;#39;);
+array_slice($arrayRaw, 0, 2, true);
+echo &amp;#34;2&amp;#34;, PHP_EOL;
+print_r(array_slice($arrayRaw, 0, 2, true));
+echo &amp;#34;3&amp;#34;, PHP_EOL;
+print_r($arrayRaw);
+echo &amp;#39;&amp;lt;/&lt;span style=&#34;color:#309;font-weight:bold&#34;&gt;pre&lt;/span&gt;&amp;gt;&amp;#39;;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>PHP - isset 与 empty 的区别</title>
+      <link>http://39.108.170.72/php-bian-liang-de-pan-duan-issetyu-emptyde-qu-bie.html</link>
+      <pubDate>Fri, 05 Sep 2014 21:18:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/php-bian-liang-de-pan-duan-issetyu-emptyde-qu-bie.html</guid>
+      <description>&lt;p&gt;&lt;strong&gt;当一个变量没有声明的时候，第一个 &lt;code&gt;if&lt;/code&gt; 会报错&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;3
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;4
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;5
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;6
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;7
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;8
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;9
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;if ($a) {
+   echo $a.&amp;#39;1&amp;#39;.PHP_EOL;
+}
+if (!empty($a)) {
+   echo $a.&amp;#39;2&amp;#39;.PHP_EOL;
+}
+if (isset($a)) {
+   echo $a.&amp;#39;3&amp;#39;.PHP_EOL;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>截取以xx结尾的词</title>
+      <link>http://39.108.170.72/jie-qu-yi-xx-jie-wei-de-ci.html</link>
+      <pubDate>Wed, 14 May 2014 11:06:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/jie-qu-yi-xx-jie-wei-de-ci.html</guid>
+      <description>1 2 3 4 5 6 7 8 9 function endsWith($haystack, $needle) { $length = strlen($needle); if ($length == 0) { return true; } return (substr($haystack, -$length) === $needle); }</description>
+    </item>
+    
+    <item>
+      <title>Mac 安装 PHP5.4 的 Mcrypt 扩展</title>
+      <link>http://39.108.170.72/mac-an-zhuang-php5-4-de-mcrypt-kuo-zhan.html</link>
+      <pubDate>Sat, 01 Mar 2014 14:34:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/mac-an-zhuang-php5-4-de-mcrypt-kuo-zhan.html</guid>
+      <description>忘记什么时候把 MacBook 的 PHP 版本升级到 PHP5.4了，然后准备学一下 Laravel 这个框架的时候，提醒 Mcrypt 扩展未安装。 安装这个扩展真是头疼，尽管有 Homebrew ，尽管能 Google 到很</description>
+    </item>
+    
+    <item>
+      <title>面向对象编程思想(二)</title>
+      <link>http://39.108.170.72/mian-xiang-dui-xiang-bian-cheng-si-xiang-er.html</link>
+      <pubDate>Sun, 17 Feb 2013 15:51:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/mian-xiang-dui-xiang-bian-cheng-si-xiang-er.html</guid>
+      <description>示例： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67</description>
+    </item>
+    
+    <item>
+      <title>面向对象编程思想(一)</title>
+      <link>http://39.108.170.72/mian-xiang-dui-xiang-bian-cheng-si-xiang-yi.html</link>
+      <pubDate>Sun, 17 Feb 2013 15:48:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/mian-xiang-dui-xiang-bian-cheng-si-xiang-yi.html</guid>
+      <description>1 2 3 4 5 6 7 8 &amp;lt;?php 类{ 成员属性（申明变量） 成员方法（函数） } 实例化类的过程，我们会产生一个对象 ?&amp;gt; 例如： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19</description>
+    </item>
+    
+    <item>
+      <title>substr(),mb_substr()及mb_strcut的区别和用法</title>
+      <link>http://39.108.170.72/substr-mb_substr-ji-mb_strcut-de-qu-bie-he-yong-fa.html</link>
+      <pubDate>Thu, 01 Nov 2012 13:59:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/substr-mb_substr-ji-mb_strcut-de-qu-bie-he-yong-fa.html</guid>
+      <description>substr()函数可以分割文字，但要分割的文字如果包括中文字符往往会遇到问题，这时可以用mb_substr()/mb_strcut这个函数</description>
+    </item>
+    
+    <item>
+      <title>CI框架学习之上传文件</title>
+      <link>http://39.108.170.72/ci-kuang-jia-xue-xi-zhi-shang-chuan-wen-jian.html</link>
+      <pubDate>Sat, 26 Nov 2011 15:57:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/ci-kuang-jia-xue-xi-zhi-shang-chuan-wen-jian.html</guid>
+      <description>视图代码： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 &amp;lt;?php echo form_open_multipart(&amp;#39;chome/do_upload&amp;#39;);?&amp;gt; &amp;lt;dl&amp;gt; &amp;lt;dt&amp;gt;文件名称：&amp;lt;/dt&amp;gt; &amp;lt;dd&amp;gt; &amp;lt;input type=&amp;#34;text&amp;#34; name=&amp;#34;filename&amp;#34;&amp;gt; &amp;lt;/dd&amp;gt; &amp;lt;dt&amp;gt;选择文件</description>
+    </item>
+    
+    <item>
+      <title>实现checkbox全选和PHP删除多个数据</title>
+      <link>http://39.108.170.72/shi-xian-checkbox-quan-xuan-he-php-shan-chu-duo-ge-shu-ju.html</link>
+      <pubDate>Thu, 24 Nov 2011 16:31:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/shi-xian-checkbox-quan-xuan-he-php-shan-chu-duo-ge-shu-ju.html</guid>
+      <description>首先定义表单中checkbox的name为一个数组range[] 1 &amp;lt;input type=&amp;#34;checkbox&amp;#34; name=&amp;#34;range[]&amp;#34; value=&amp;#34;你设定的值&amp;#34; /&amp;gt; 示例： 1 &amp;lt;input type=&amp;#34;checkbox&amp;#34; name=&amp;#34;range[]&amp;#34; value=&amp;#34;&amp;lt;?php echo $row[&amp;#39;id&amp;#39;];?&amp;gt;&amp;#34;/&amp;gt; 下面</description>
+    </item>
+    
+    <item>
+      <title>PHP获取编辑器里面的第一张图片做为缩略图</title>
+      <link>http://39.108.170.72/php-huo-qu-bian-ji-qi-li-mian-de-di-yi-zhang-tu-pian-zuo-wei-suo-lve-tu.html</link>
+      <pubDate>Wed, 23 Nov 2011 17:11:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/php-huo-qu-bian-ji-qi-li-mian-de-di-yi-zhang-tu-pian-zuo-wei-suo-lve-tu.html</guid>
+      <description>思路是这样的：使用正则表达式 查询到文章所在的字段，获取到图片的绝对路径。 代码如下：（这个我使用的是CI框架开发的，下面是控制器里面的代码） 1</description>
+    </item>
+    
+    <item>
+      <title>XAMPP 虚拟目录配置</title>
+      <link>http://39.108.170.72/xampp-xu-ni-mu-lu-pei-zhi.html</link>
+      <pubDate>Mon, 21 Nov 2011 09:36:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/xampp-xu-ni-mu-lu-pei-zhi.html</guid>
+      <description>我下载的是 xampp 1.77版本的。 安装的时候一直点下一步，不用有任何操作。 打开D:\xampp\apache\conf\extra\httpd-v</description>
+    </item>
+    
+    <item>
+      <title>PHP 获取当前URL的相关参数</title>
+      <link>http://39.108.170.72/php-huo-qu-dang-qian-url-de-xiang-guan-can-shu.html</link>
+      <pubDate>Thu, 17 Nov 2011 10:20:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/php-huo-qu-dang-qian-url-de-xiang-guan-can-shu.html</guid>
+      <description>$_SERVER[&amp;ldquo;QUERY_STRING&amp;rdquo;]获取查询语句，实例中可知，获取的是?后面的值 $_SERVER[&amp;ldquo;REQUEST_URI&amp;rdquo;] 获取http://ol</description>
+    </item>
+    
+    <item>
+      <title>PHP语句在MySQL插入HTML语句</title>
+      <link>http://39.108.170.72/php-yu-ju-zai-mysql-cha-ru-html-yu-ju.html</link>
+      <pubDate>Tue, 11 Oct 2011 10:59:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/php-yu-ju-zai-mysql-cha-ru-html-yu-ju.html</guid>
+      <description>我们需要做一个后台能手动插入 百度地图的界面。就是http://dev.baidu.com/wiki/static/map/API/tool/</description>
+    </item>
+    
+  </channel>
+</rss>

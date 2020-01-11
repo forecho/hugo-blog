@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sublime on Forecho&#39;s Blog</title>
+    <link>http://39.108.170.72/tags/sublime.html</link>
+    <description>Recent content in Sublime on Forecho&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 10 Feb 2014 11:37:00 +0800</lastBuildDate>
+    
+	<atom:link href="http://39.108.170.72/tags/sublime/atom.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sublime Text 3配置</title>
+      <link>http://39.108.170.72/sublime-text-3-pei-zhi.html</link>
+      <pubDate>Mon, 10 Feb 2014 11:37:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/sublime-text-3-pei-zhi.html</guid>
+      <description>安装 Packages 1、ctrl+` 2、输入命令： import urllib.request,os; pf = &#39;Package Control.sublime-package&#39;; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), &#39;wb&#39;).write(urllib.request.urlopen( &#39;http://sublime.wbond.net/&#39; + pf.replace(&#39; &#39;,&#39;%20&#39;)).read()) Preferences &amp;gt; Settings -User基本的配置： { &amp;quot;font_size&amp;quot;: 13, &amp;quot;ignored_packages&amp;quot;: [ &amp;quot;Vintage&amp;quot; ], &amp;quot;spell_check&amp;quot;: false, &amp;quot;font_face&amp;quot;: &amp;quot;YaHei Consolas Hybrid&amp;quot;, &amp;quot;trim_trailing_white_space_on_save&amp;quot;: true, //去</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.62.2" />
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="generator" content="Saber v0.11.2">
+    <meta name="author" content="forecho" />
+    <meta name="keywords" content="Hugo, theme, even" />
+    <meta name="og:site_name" content="Forecho&#39;s Blog" /><meta property="og:title" content="Forecho&#39;s Blog" />
+    <meta property="og:type" content="website" />
+    <meta property="title" content="Forecho&#39;s Blog">
+    <meta property="og:title" content="Forecho&#39;s Blog">
+    <meta property="twitter:title" content="Forecho&#39;s Blog">
+    <meta property="description" content="Hugo theme even example site.">
+    <meta property="og:description" content="Hugo theme even example site.">
+    <meta property="twitter:description" content="Hugo theme even example site.">
+    <meta property="og:type" content="website">
+    <title>Forecho&#39;s Blog</title>
+
+    <meta property="og:url" content="http://39.108.170.72/" />
+
+    
+    <meta property="og:image" content="https://avatars0.githubusercontent.com/u/1725326?s=460&amp;v=4">
+    <meta property="twitter:image" content="https://avatars0.githubusercontent.com/u/1725326?s=460&amp;v=4">
+    <link rel="shortcut icon" href="https://avatars0.githubusercontent.com/u/1725326?s=460&amp;v=4" type="image/x-png" /><link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_1607597_jhmihcvh0tm.css" />
+    <link href="/index.xml" rel="alternate" type="application/rss+xml" title="Forecho&#39;s Blog">
+    
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+</head>
+
+<body class="bg-gray-100 text-gray-900 tracking-wider leading-normal">
+
+    <nav id="header" class="bg-white fixed w-full z-10 top-0 shadow">
+
+  <div id="progress" class="h-1 z-20 top-0" style="background:linear-gradient(to right, #4dc0b5 var(--scroll), transparent 0);"></div>
+
+  <div class="w-full container mx-auto flex flex-wrap items-center justify-between my-1">
+      <div class="pl-4">
+          <a class="text-gray-900 text-base no-underline hover:no-underline font-bold text-xl"  href="/">
+              Forecho&#39;s Blog
+          </a>
+      </div>
+
+      <div class="block lg:hidden pr-4">
+          <button id="nav-toggle" class="flex items-center px-3 py-2 border rounded text-gray-500 border-gray-600 hover:text-gray-900 hover:border-teal-500 appearance-none focus:outline-none">
+              <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+          </button>
+      </div>
+
+      <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block mt-2 lg:mt-0 bg-gray-100 md:bg-transparent z-20" id="nav-content">
+          <ul class="list-reset lg:flex justify-end flex-1 items-center">
+              <li class="mr-3">
+                  <a href="/" class="inline-block py-2 px-2 text-gray-700 font-bold no-underline">首页</a>
+              </li>
+              <li class="mr-3">
+                  <a href="/posts.html" class="inline-block py-2 px-2 text-gray-700 font-bold no-underline">文章归档</a>
+              </li>
+              <li class="mr-3">
+                  <a href="/about.html" class="inline-block py-2 px-2 text-gray-700 font-bold no-underline">关于我</a>
+              </li>
+              <li class="mr-3">
+                  <a href="/friendship-links/" class="inline-block py-2 px-2 text-gray-700 font-bold no-underline">联盟链接</a>
+              </li>
+          </ul>
+      </div>
+  </div>
+</nav>
+
+    <div id="container" class="container w-full flex flex-wrap mx-auto px-2 lg:pt-12 mt-10">
+    <section class="w-full lg:w-3/4 xl:w-3/4">
+        <div class="px-8 py-6 mt-6 lg:mt-0 leading-normal rounded shadow bg-white">
+                
+                <article >
+                    
+                    <div>
+    <h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-3xl">
+        <a href="http://39.108.170.72/performance-optimization-01.html" title="性能优化第一篇">性能优化第一篇</a>
+    </h1>
+    <p class="mb-1 text-sm text-gray-500">
+        <span title=" 2019-04-19 10:58:00 &#43;0800">
+            <i class="iconfont icon-calendar" aria-hidden="true"></i> 19 Apr 2019
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-book"></i>
+            1265 字
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-clock-o"></i>
+            3 分钟读完
+        </span>
+    </p>
+</div>
+
+                    
+                    <div class="post-content">
+                        <h2 id="引言">引言</h2>
+<p>说来惭愧，搞了这么多年 PHP 开发，最近才正儿八经的搞性能优化。打算把这些经验记录并且分享出来，这会是一系列文章，这是第一篇。</p>
+<h2 id="性能测试">性能测试</h2>
+<p>性能优化的第一步就是要发现系统的性能瓶颈。这部分一般都会有专门的 QA 去测试，输出报告。性能测试大多都是并发测试，推荐使用 <a href="https://jmeter.apache.org/">Apache JMeter™</a> ，免费并且功能强大，支持多系统平台。至于使用教程，我就不贴了，网上一搜一大把。</p>
+                    </div>
+                    <p class="text-sm font-semibold pt-5 text-gray-700 ">
+                        <a href="http://39.108.170.72/performance-optimization-01.html" class="px-5 py-2 inline-block bg-gray-200 rounded  hover:bg-gray-300">阅读全文</a>
+                    </p>
+                </article>
+
+                <hr class="bg-gray-300 mt-10 mb-6">
+            
+                <article >
+                    
+                    <div>
+    <h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-3xl">
+        <a href="http://39.108.170.72/rent-a-switch-to-play.html" title="租 Switch 玩">租 Switch 玩</a>
+    </h1>
+    <p class="mb-1 text-sm text-gray-500">
+        <span title=" 2019-04-18 21:58:00 &#43;0800">
+            <i class="iconfont icon-calendar" aria-hidden="true"></i> 18 Apr 2019
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-book"></i>
+            1585 字
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-clock-o"></i>
+            4 分钟读完
+        </span>
+    </p>
+</div>
+
+                    
+                    <div class="post-content">
+                        <p><img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20191023170804.png" alt=""></p>
+<h2 id="引言">引言</h2>
+<p>这里的 Switch 是指任天堂的 <a href="https://www.nintendo.com/switch/">Nintendo Switch</a> 游戏主机，老早就在心里种草了，没买的原因有两个：</p>
+<ul>
+<li>怕买了没时间玩（这个是主要原因）</li>
+<li>没遇到好好价格</li>
+</ul>
+<p>今天正好看到<a href="https://www.ithome.com/0/419/861.htm">《腾讯科技确认代理国行版本 Switch》</a>的新闻，去年过年在淘宝租了一个 Switch 玩了几天，今天趁着这新闻可以拿出来分享一下。</p>
+                    </div>
+                    <p class="text-sm font-semibold pt-5 text-gray-700 ">
+                        <a href="http://39.108.170.72/rent-a-switch-to-play.html" class="px-5 py-2 inline-block bg-gray-200 rounded  hover:bg-gray-300">阅读全文</a>
+                    </p>
+                </article>
+
+                <hr class="bg-gray-300 mt-10 mb-6">
+            
+                <article >
+                    
+                    <div>
+    <h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-3xl">
+        <a href="http://39.108.170.72/for-yii.html" title="为了 Yii 的长远发展">为了 Yii 的长远发展</a>
+    </h1>
+    <p class="mb-1 text-sm text-gray-500">
+        <span title=" 2019-04-17 21:58:00 &#43;0800">
+            <i class="iconfont icon-calendar" aria-hidden="true"></i> 17 Apr 2019
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-book"></i>
+            1691 字
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-clock-o"></i>
+            4 分钟读完
+        </span>
+    </p>
+</div>
+
+                    
+                    <div class="post-content">
+                        <h2 id="引言">引言</h2>
+<p>3月29号，Yii 官网更新了一篇文章 <a href="https://www.yiiframework.com/news/204/preparing-yii-for-the-long-run">Preparing Yii for the long run</a> ，简单来讲就是核心团队成员想通过捐赠的资金方式，使他们能够在主要工作都放在全职开发 Yii 上，只需要很少或根本没有其他工作。</p>
+<p>这篇文章主要是想呼吁正在使用 Yii 开发的你，如果觉得 Yii 框架在你工作中对你很有帮助，而且又有条件的话，那么不妨通过行动来支持一下 Yii 吧，不用太多，每个月1$就够了。捐赠地址 <a href="https://opencollective.com/yiisoft">https://opencollective.com/yiisoft</a>。</p>
+<p>好了，到此为止，本篇文章的核心内容算是写完了，下面我主要想聊聊自己与 Yii 的几个小故事，想听的可以往下看。</p>
+                    </div>
+                    <p class="text-sm font-semibold pt-5 text-gray-700 ">
+                        <a href="http://39.108.170.72/for-yii.html" class="px-5 py-2 inline-block bg-gray-200 rounded  hover:bg-gray-300">阅读全文</a>
+                    </p>
+                </article>
+
+                <hr class="bg-gray-300 mt-10 mb-6">
+            
+                <article >
+                    
+                    <div>
+    <h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-3xl">
+        <a href="http://39.108.170.72/collect-friendship-links.html" title="征集友情链接">征集友情链接</a>
+    </h1>
+    <p class="mb-1 text-sm text-gray-500">
+        <span title=" 2019-03-16 21:58:00 &#43;0800">
+            <i class="iconfont icon-calendar" aria-hidden="true"></i> 16 Mar 2019
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-book"></i>
+            476 字
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-clock-o"></i>
+            1 分钟读完
+        </span>
+    </p>
+</div>
+
+                    
+                    <div class="post-content">
+                        <h2 id="引言">引言</h2>
+<p>一直以来我的博客都是没加搞友情链接，前几天突然有一个想法。想搞一个『友情链接』。但是我想搞的这个『友情链接』更像是一个联盟，现在认真写博客的人越来越少了，我想把这些人集合到一起，决定暂时把联盟称之为『联盟链接』。</p>
+                    </div>
+                    <p class="text-sm font-semibold pt-5 text-gray-700 ">
+                        <a href="http://39.108.170.72/collect-friendship-links.html" class="px-5 py-2 inline-block bg-gray-200 rounded  hover:bg-gray-300">阅读全文</a>
+                    </p>
+                </article>
+
+                <hr class="bg-gray-300 mt-10 mb-6">
+            
+                <article >
+                    
+                    <div>
+    <h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-3xl">
+        <a href="http://39.108.170.72/use-efk.html" title="使用 Docker 搭建 EFK">使用 Docker 搭建 EFK</a>
+    </h1>
+    <p class="mb-1 text-sm text-gray-500">
+        <span title=" 2019-03-14 21:58:00 &#43;0800">
+            <i class="iconfont icon-calendar" aria-hidden="true"></i> 14 Mar 2019
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-book"></i>
+            1267 字
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-clock-o"></i>
+            3 分钟读完
+        </span>
+    </p>
+</div>
+
+                    
+                    <div class="post-content">
+                        <h2 id="什么是-efk">什么是 EFK？</h2>
+<p>EFK 分别指 Elasticsearch + Fluentd + Kibana，一般用来做日志系统的。他们的作用分别是：</p>
+<ul>
+<li>Elasticsearch：分布式搜索引擎。具有高可伸缩、高可靠、易管理等特点。可以用于全文检索、结构化检索和分析，并能将这三者结合起来。Elasticsearch 基于 Lucene 开发，现在使用最广的开源搜索引擎之一，Wikipedia 、StackOverflow、Github 等都基于它来构建自己的搜索引擎。</li>
+<li>Fluentd：一个消息采集，转化，转发工具，目的是提供中心化的日志服务。</li>
+<li>Kibana：可视化化平台。它能够搜索、展示存储在 Elasticsearch 中索引数据。使用它可以很方便的用图表、表格、地图展示和分析数据。</li>
+</ul>
+                    </div>
+                    <p class="text-sm font-semibold pt-5 text-gray-700 ">
+                        <a href="http://39.108.170.72/use-efk.html" class="px-5 py-2 inline-block bg-gray-200 rounded  hover:bg-gray-300">阅读全文</a>
+                    </p>
+                </article>
+
+                <hr class="bg-gray-300 mt-10 mb-6">
+            
+                <article >
+                    
+                    <div>
+    <h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-3xl">
+        <a href="http://39.108.170.72/about-octopress-use.html" title="Octopress 显示 `{{}}` ">Octopress 显示 `{{}}` </a>
+    </h1>
+    <p class="mb-1 text-sm text-gray-500">
+        <span title=" 2019-03-06 21:58:00 &#43;0800">
+            <i class="iconfont icon-calendar" aria-hidden="true"></i> 06 Mar 2019
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-book"></i>
+            152 字
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-clock-o"></i>
+            1 分钟读完
+        </span>
+    </p>
+</div>
+
+                    
+                    <div class="post-content">
+                        <p><strong>注意：</strong> 本篇文章需要点击<a href="https://github.com/forecho/blog/blob/master/source/_posts/2019-03-06-about-octopress-use-%7B%7B%7D%7D.md">这里</a>才能正常阅读。</p>
+<p>Octopress 使用双花括号的时候就会自动把他认为是变量，会『翻译』，但是其实我们并不想要这种效果，怎么办呢？网上找了一圈发现可以用下面这种方式解决</p>
+<div class="highlight"><div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-fallback" data-lang="fallback">{%raw%}{{thing}}{%endraw%}
+</code></pre></td></tr></table>
+</div>
+</div>
+                    </div>
+                    <p class="text-sm font-semibold pt-5 text-gray-700 ">
+                        <a href="http://39.108.170.72/about-octopress-use.html" class="px-5 py-2 inline-block bg-gray-200 rounded  hover:bg-gray-300">阅读全文</a>
+                    </p>
+                </article>
+
+                <hr class="bg-gray-300 mt-10 mb-6">
+            
+                <article >
+                    
+                    <div>
+    <h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-3xl">
+        <a href="http://39.108.170.72/use-postman.html" title="使用 Postman">使用 Postman</a>
+    </h1>
+    <p class="mb-1 text-sm text-gray-500">
+        <span title=" 2019-03-01 21:58:00 &#43;0800">
+            <i class="iconfont icon-calendar" aria-hidden="true"></i> 01 Mar 2019
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-book"></i>
+            1137 字
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-clock-o"></i>
+            3 分钟读完
+        </span>
+    </p>
+</div>
+
+                    
+                    <div class="post-content">
+                        <p>{% raw %}</p>
+<h2 id="引言">引言</h2>
+<p><a href="http://blog.forecho.com/use-jwt.html">上篇文章</a>我们讲到 API 可能会使用到的 JWT 认证。既然讲到 API 开发就不得不讲到 API 调试以及测试神器 - <a href="https://www.getpostman.com/">Postman</a>。</p>
+<h2 id="基本使用">基本使用</h2>
+<h3 id="创建环境变量">创建环境变量</h3>
+<p><img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424160357.png" alt="创建环境变量"></p>
+<p>根据上面截图的地方，可以找到创建环境变量的设置。设置按钮旁边的『眼睛』按钮可以查看当前使用的环境变量的值。</p>
+                    </div>
+                    <p class="text-sm font-semibold pt-5 text-gray-700 ">
+                        <a href="http://39.108.170.72/use-postman.html" class="px-5 py-2 inline-block bg-gray-200 rounded  hover:bg-gray-300">阅读全文</a>
+                    </p>
+                </article>
+
+                <hr class="bg-gray-300 mt-10 mb-6">
+            
+                <article >
+                    
+                    <div>
+    <h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-3xl">
+        <a href="http://39.108.170.72/use-jwt.html" title="使用 JWT">使用 JWT</a>
+    </h1>
+    <p class="mb-1 text-sm text-gray-500">
+        <span title=" 2019-02-25 21:58:00 &#43;0800">
+            <i class="iconfont icon-calendar" aria-hidden="true"></i> 25 Feb 2019
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-book"></i>
+            1453 字
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-clock-o"></i>
+            3 分钟读完
+        </span>
+    </p>
+</div>
+
+                    
+                    <div class="post-content">
+                        <h2 id="引言">引言</h2>
+<p>API 开发一定会涉及到认证问题，本篇文章就是结合我自己工作经验来分享一下我用过的 JWT 认证以及它和普通认证的区别，希望本篇文章对你在开发 API 认证时有用。</p>
+<h2 id="什么是-jwt">什么是 JWT</h2>
+<p><a href="https://jwt.io/">JWT</a> 全名是 JSON Web Tokens，是一个基于 JSON 的开放标准用于创建声明一些声明的访问令牌。JWT 由以下三部分组成：</p>
+                    </div>
+                    <p class="text-sm font-semibold pt-5 text-gray-700 ">
+                        <a href="http://39.108.170.72/use-jwt.html" class="px-5 py-2 inline-block bg-gray-200 rounded  hover:bg-gray-300">阅读全文</a>
+                    </p>
+                </article>
+
+                <hr class="bg-gray-300 mt-10 mb-6">
+            
+                <article >
+                    
+                    <div>
+    <h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-3xl">
+        <a href="http://39.108.170.72/shennongjia-skiing.html" title="第七站：神农架滑雪">第七站：神农架滑雪</a>
+    </h1>
+    <p class="mb-1 text-sm text-gray-500">
+        <span title=" 2019-02-10 21:58:00 &#43;0800">
+            <i class="iconfont icon-calendar" aria-hidden="true"></i> 10 Feb 2019
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-book"></i>
+            2957 字
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-clock-o"></i>
+            6 分钟读完
+        </span>
+    </p>
+</div>
+
+                    
+                    <div class="post-content">
+                        <p><img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424162101.png" alt=""></p>
+<h2 id="引言">引言</h2>
+<p>因为年前要在老家办结婚酒席，我请了一个星期假期。办完酒席之后又离过年还有几天时间，不好好利用这几天出去玩一下就不对不起自己请的事假。</p>
+                    </div>
+                    <p class="text-sm font-semibold pt-5 text-gray-700 ">
+                        <a href="http://39.108.170.72/shennongjia-skiing.html" class="px-5 py-2 inline-block bg-gray-200 rounded  hover:bg-gray-300">阅读全文</a>
+                    </p>
+                </article>
+
+                <hr class="bg-gray-300 mt-10 mb-6">
+            
+                <article >
+                    
+                    <div>
+    <h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-3xl">
+        <a href="http://39.108.170.72/review-of-2018.html" title="2018年终总结">2018年终总结</a>
+    </h1>
+    <p class="mb-1 text-sm text-gray-500">
+        <span title=" 2019-02-05 22:03:00 &#43;0800">
+            <i class="iconfont icon-calendar" aria-hidden="true"></i> 05 Feb 2019
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-book"></i>
+            2364 字
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-clock-o"></i>
+            5 分钟读完
+        </span>
+    </p>
+</div>
+
+                    
+                    <div class="post-content">
+                        <h2 id="引言">引言</h2>
+<p>今天是大年初一，总算是有点时间来总结2018年的事情了。按照惯例是先回顾一下<a href="https://blog.forecho.com/review-of-2017.html">《2017年终总结》</a>，然后开始总结。</p>
+<h2 id="回顾2018年">回顾2018年</h2>
+<h3 id="健身">健身</h3>
+                    </div>
+                    <p class="text-sm font-semibold pt-5 text-gray-700 ">
+                        <a href="http://39.108.170.72/review-of-2018.html" class="px-5 py-2 inline-block bg-gray-200 rounded  hover:bg-gray-300">阅读全文</a>
+                    </p>
+                </article>
+
+                <hr class="bg-gray-300 mt-10 mb-6">
+            
+            <p class="text-center">
+                <a  class="md:text-xl text-gray-700" href="/posts.html">↑ 文章归档 ↑</a>
+            </p>
+        </div>
+    </section>
+
+    <div class="hidden md:block w-full lg:w-1/4 xl:w-1/4 px-6 text-gray-800 leading-normal">
+
+        <div class="lg:w-full mx-auto items-center justify-between">
+    <div class="bg-white shadow rounded overflow-hidden">
+        <div class="bg-cover bg-auto mx-auto w-32 h-32 mt-5 rounded-full" style="background-image: url('https://avatars0.githubusercontent.com/u/1725326?s=460&amp;v=4')"> </div>
+        
+        <div class="p-4">
+            <p class="text-2xl text-center text-gray-900 pb-2">forecho</p>
+            <p class="text-sm text-gray-700">7年开发经验，寻求技术 Leader 工作机会。Wechat: ipzone</p>
+        </div>
+        <div class="flex p-4 border-t text-sm border-gray-300 text-gray-700">
+            <div class="flex-1 border-r border-gray-600">
+                <p class="text-center">
+                    <span class="text-gray-700 font-bold">
+                        335
+                    </span>
+                    文章
+                </p>
+            </div>
+            <div class="flex-1 text-center">
+                <p class="text-center">
+                    <span class="text-gray-700 font-bold">
+                        
+                            90
+                        
+                    </span>
+                    标签
+                </p>
+            </div>
+        </div>
+        <div class="px-4 pb-4 border-t border-gray-300">
+            <div class="mt-6 pb-16 lg:pb-0 w-4/5 lg:w-full mx-auto flex flex-wrap items-center justify-between text-gray-500">
+                
+                <a href="//github.com/forecho" class="hover:text-gray-900 p-1 text-2xl" target="_blank" title="GitHub"><i class="my-iconfont icon-social-github"></i></a>
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+                <a href="//instagram.com/forecho" class="hover:text-gray-900 p-1 text-2xl" target="_blank" title="Instagram"><i class="my-iconfont icon-instagram"></i></a>
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+                <a href="//twitter.com/caizhenghai" class="hover:text-gray-900 p-1 text-2xl" target="_blank" title="Twitter"><i class="my-iconfont icon-social-twitter"></i></a>
+                
+
+                
+                <a href="//douban.com/people/ipzone" class="hover:text-gray-900 p-1 text-2xl" target="_blank" title="Douban"><i class="my-iconfont icon-social-douban"></i></a>
+                
+
+                
+                <a href="/atom.xml" class="hover:text-gray-900 p-1 text-2xl" target="_blank" title="RSS"><i class="my-iconfont icon-feed"></i></a>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+    <div class="profile-ads"><div class="bg-white shadow"><img class=" object-cover w-auto mx-auto mt-6" src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424153337.png" alt="微信打赏"></div></div>
+
+
+    </div>
+
+
+    </div>
+    
+    
+<footer class="bg-white border-t border-gray-400 shadow mt-10">	
+    <div class="container  mx-auto flex py-8">
+        <div class="w-full text-center text-gray-600 ">
+            <p>
+                &copy; 2020 <a  class="text-gray-700" href="http://39.108.170.72">Forecho&#39;s Blog By forecho </a>
+            </p>
+            
+            <p class="pt-1">
+                Powered by <a rel="nofollow noreferer noopener" href="https://gohugo.io/"  class="text-gray-700" target="_blank">Hugo</a> 
+                Theme based on <a href="https://github.com/forecho/hugo-theme-echo" class="text-gray-700" target="_blank">Echo</a>
+            </p>
+
+            <span id="busuanzi_container">
+              访客数：<span id="busuanzi_value_site_uv"></span> | 访问量 <span id="busuanzi_value_site_pv"></span>
+            </span>
+
+        </div>
+
+    </div>
+</footer>
+
+ <script>
+  window.onload = function() {
+    document.getElementById("nav-toggle").onclick = function() {
+      document.getElementById("nav-content").classList.toggle("hidden");
+    };
+
+    var donate = document.getElementById("btn-donate");
+    if (donate) {
+      donate.onclick = function() {
+        document.getElementById("donate-image").classList.remove("hidden");
+        donate.classList.add("hidden");
+      };
+    }
+
+    var hostname = window.location.hostname;
+    var divs = document.querySelectorAll('a[href^="http"]');
+    [].forEach.call(divs, function(div) {
+      url = div.getAttribute("href");
+      var domain = url
+        .replace("http://", "")
+        .replace("https://", "")
+        .split(/[/?#]/)[0];
+      if (domain !== url) {
+        div.setAttribute("target", "_blank");
+      }
+    });
+  };
+
+   
+  
+  var h = document.documentElement,
+    b = document.body,
+    st = "scrollTop",
+    sh = "scrollHeight",
+    progress = document.querySelector("#progress"),
+    scroll;
+  var scrollpos = window.scrollY;
+  var header = document.getElementById("header");
+  var navcontent = document.getElementById("nav-content");
+
+  document.addEventListener("scroll", function() {
+     
+    scroll = ((h[st] || b[st]) / ((h[sh] || b[sh]) - h.clientHeight)) * 100;
+    progress.style.setProperty("--scroll", scroll + "%");
+
+     
+    scrollpos = window.scrollY;
+
+    if (scrollpos > 10) {
+      navcontent.classList.remove("bg-gray-100");
+    } else {
+      navcontent.classList.add("bg-gray-100");
+    }
+  });
+</script>
+
+</body>
+
+</html>

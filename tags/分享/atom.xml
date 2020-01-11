@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>分享 on Forecho&#39;s Blog</title>
+    <link>http://39.108.170.72/tags/%E5%88%86%E4%BA%AB.html</link>
+    <description>Recent content in 分享 on Forecho&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 29 Aug 2019 21:48:00 +0800</lastBuildDate>
+    
+	<atom:link href="http://39.108.170.72/tags/%E5%88%86%E4%BA%AB/atom.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>函数式编程初探</title>
+      <link>http://39.108.170.72/a-preliminary-study-on-functional-programming.html</link>
+      <pubDate>Thu, 29 Aug 2019 21:48:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/a-preliminary-study-on-functional-programming.html</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;h2 id=&#34;什么是函数式编程&#34;&gt;什么是函数式编程&lt;/h2&gt;
+&lt;p&gt;函数式编程是是一种编程范式，它将计算机运算视为函数运算，并且避免使用程序状态以及易变对象。其中，λ演算（lambda calculus）为该语言最重要的基础。而且，λ演算的函数可以接受函数当作输入（引数）和输出（传出值）。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>参加 OpenResty 技术沙龙活动</title>
+      <link>http://39.108.170.72/participate-in-the-openresty-technical-salon.html</link>
+      <pubDate>Sat, 17 Aug 2019 21:48:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/participate-in-the-openresty-technical-salon.html</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://i.loli.net/2019/08/19/MnqFwm5hd4GQEAK.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;起因是公司另外一个项目组老大说，章亦春（下文简称春哥）最近回国，他可以请春哥来公司做个小分享会。之前就对春哥略有耳闻，这次可以见他本人，也是难得的机会。&lt;/p&gt;
+&lt;p&gt;前两天听完春哥在公司的分享，两个小时他讲了很多他的编程经验和经历，听完收益很大，但是两个小时根本不够他讲，我也没听过瘾，于是又报名了他的&lt;a href=&#34;https://www.huodongxing.com/event/7502793207200&#34;&gt;《OpenResty 2019 深圳技术沙龙》&lt;/a&gt;活动，又跑去听了他讲了 5 个小时。&lt;/p&gt;
+&lt;p&gt;这篇文章我主要是分享一下他分享的几个点（仅限于我能理解和认为的），以及我的收获。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;如果你还不知道春哥是谁的话，可以先读读这篇文章&lt;a href=&#34;http://www.ituring.com.cn/article/504549&#34;&gt;《从抄书到开源之巅：章亦春的程序人生》&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>使用泛用型播客客户端订阅播客节目</title>
+      <link>http://39.108.170.72/subscribe-to-podcasts-using-the-ubiquitous-podcast-client.html</link>
+      <pubDate>Tue, 17 Apr 2018 13:09:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/subscribe-to-podcasts-using-the-ubiquitous-podcast-client.html</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;由于换了一家创业公司（等过一阵子有时间会细说这个事情），最近一个月会比较忙，都没时间写博客了，但是又不想停更，所以就有了这篇文章。&lt;/p&gt;
+&lt;h2 id=&#34;诞生记&#34;&gt;诞生记&lt;/h2&gt;
+&lt;p&gt;我听播客已经有几年了，每次做饭、跑步、打扫家务或者上下班比较累的时候听播客真是一举两得的事情。近两年由于喜马拉雅FM、蜻蜓FM等一系列的国内播客平台的火爆，提高了国内播客节目的产出。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>分享我经常看的 YouTube 的频道</title>
+      <link>http://39.108.170.72/share-youtube-channels-that-i-often-watch.html</link>
+      <pubDate>Thu, 16 Nov 2017 16:01:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/share-youtube-channels-that-i-often-watch.html</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;使用 YouTube 差不多一年了，每天中午休息之前都会去看看上面的视频，借这次机会好好分享一个我订阅的一些频道。&lt;/p&gt;
+&lt;p&gt;需要说明的是，我会给推荐的频道打分，打分完全按照自己的喜好。参照豆瓣的打分制度，满分5颗星：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;力荐：⭐⭐⭐⭐⭐&lt;/li&gt;
+&lt;li&gt;推荐：⭐⭐⭐⭐&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;超級歪-super-yhttpswwwyoutubecomcsuperycinema&#34;&gt;&lt;a href=&#34;https://www.youtube.com/c/superycinema&#34;&gt;超級歪 Super Y&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/c/superycinema&#34;&gt;&lt;img src=&#34;https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424163513.png&#34; alt=&#34;超級歪 Super Y&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;推荐指数：⭐⭐⭐⭐⭐&lt;br&gt;
+分类：书、电影&lt;/p&gt;
+&lt;p&gt;此频道主要是的是影评和书评，数量虽然不多，但是每个视频却非常有深度。看完之后常常会让我陷入思考。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>我在听的播客节目</title>
+      <link>http://39.108.170.72/im-listening-to-podcasts.html</link>
+      <pubDate>Wed, 15 Mar 2017 23:33:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/im-listening-to-podcasts.html</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;大概是3、4年前无意中接触到了播客这种东西，因为上下班地铁上非常挤，通常连手机都掏不出来的那种挤，所以这个时候就非常适合带耳机听点东西，而我之前公司离地铁又有一小段路程，走路的时候也可以边走边听，1个小时左右刚好听完一个节目，久而久之就有了一个人的时候喜欢听播客的习惯。&lt;/p&gt;
+&lt;p&gt;这篇文章主要是分享一些我常听的播客节目，以下内容完全是根据带有个人偏见的，如果内容感兴趣，你也可以尝试听一下。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;力荐：⭐⭐⭐⭐⭐&lt;/li&gt;
+&lt;li&gt;推荐：⭐⭐⭐⭐&lt;/li&gt;
+&lt;li&gt;一般：⭐⭐⭐&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

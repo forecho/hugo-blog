@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>工具 on Forecho&#39;s Blog</title>
+    <link>http://39.108.170.72/tags/%E5%B7%A5%E5%85%B7.html</link>
+    <description>Recent content in 工具 on Forecho&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 22 May 2016 12:29:00 +0800</lastBuildDate>
+    
+	<atom:link href="http://39.108.170.72/tags/%E5%B7%A5%E5%85%B7/atom.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>关于三立三</title>
+      <link>http://39.108.170.72/about-3li3.com.html</link>
+      <pubDate>Sun, 22 May 2016 12:29:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/about-3li3.com.html</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;项目上线之后有了一点点自由的零碎时间，再利用周末时间。于是就写了一个「监控你想要 App 降价或者限免的项目」，名字叫做&lt;a href=&#34;http://3li3.com/&#34;&gt;三立三&lt;/a&gt;。&lt;/p&gt;
+&lt;h2 id=&#34;关于三立三&#34;&gt;关于三立三&lt;/h2&gt;
+&lt;p&gt;我是一个 App 狂热爱好者，经常会去少数派，AppSo 等网站上去看一下最新最好玩的 App，经常会看到他们有推荐一些
+精品的 App 限免，但是一般 App 限免是有时效性的，意思是说他们写的文章的时候是限免的，但是我去读文章的时候兴高采烈的去
+App Store 上准备下载的时候，那个 App 不一定还在限免。如果这个 App 对我来说不急着用的话，我肯定是希望在它最便宜或者最低价格的时候拿下。&lt;/p&gt;
+&lt;p&gt;所以我写了一个帮我监控 App 价格的项目，这个就是三立三诞生的主要原因。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>关于 PhpStorm 的小技巧</title>
+      <link>http://39.108.170.72/tips-about-phpstorm.html</link>
+      <pubDate>Fri, 29 Jan 2016 16:36:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/tips-about-phpstorm.html</guid>
+      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+&lt;p&gt;如果一个工具是你每天工作都必须要用的，请认真阅读官方文档，花几个小时好好研究使用技巧，这将为你以后工作带来很高的效率。&lt;/p&gt;
+&lt;p&gt;这篇文章内容其实很早就在我印象笔记里面了，今天整理出来，分享给大家。&lt;/p&gt;
+&lt;h2 id=&#34;快捷键&#34;&gt;快捷键&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;常用快捷键&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;全局搜索文件  按两下shift&lt;/li&gt;
+&lt;li&gt;显示项目类列表 alt + 1&lt;/li&gt;
+&lt;li&gt;显示方法列表  alt + 7&lt;/li&gt;
+&lt;li&gt;全局搜索类 ：ctrl+n&lt;/li&gt;
+&lt;li&gt;更新注释：alt+enter&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>forecho 的利器</title>
+      <link>http://39.108.170.72/my-setup.html</link>
+      <pubDate>Tue, 15 Dec 2015 22:46:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/my-setup.html</guid>
+      <description>&lt;h2 id=&#34;介绍一下你自己和所做的工作&#34;&gt;介绍一下你自己和所做的工作。&lt;/h2&gt;
+&lt;p&gt;Hi，大家好，我是 forecho，目前在做程序后端开发，主要是 PHP，业余时间也折腾下 iOS 和 Python AND Ruby。工作已经有4年多了，目前在深圳。&lt;/p&gt;
+&lt;h2 id=&#34;你都在使用哪些硬件&#34;&gt;你都在使用哪些硬件？&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;一台2012年款的 MacBook Pro 15寸的中配，8G 内存，2年前被我换成 256G SSD 之后，除了没有 Retina 屏和有点重之外，其他的都还好。&lt;/li&gt;
+&lt;li&gt;iPhone5 用了3、4年，自己换了 home 键和电池，打算再坚挺1年，直到 iPhone7.&lt;/li&gt;
+&lt;li&gt;戴尔（DELL）UltraSharp U2412M，配合 MacBook 做双显示器用。自从买了一个电视盒子，也用来看电视了。&lt;/li&gt;
+&lt;li&gt;Kindle5 对于爱看书的我，2012 年年底就买了，一直用到现在，看过不少书，真心觉得是最值的一个电子设备，每天上班比背着。前几天买了海淘了个 KPW 3 还没到货。&lt;/li&gt;
+&lt;li&gt;iPad mini 2，之前有一个 iPad Air 1 的后来嫌太重了，换了 mini 了。本来打算用来用 PDF 的，现在沦落到看各种视频，给女朋友打游戏的地步了。&lt;/li&gt;
+&lt;li&gt;极路由，当然其他智能路由器也是可以的，配合 Shadowsocks 可以实现路由器翻墙，设备只要连接这个 WiFi 就在墙外，在家可以自由的刷 Twitter，看 YouTube。&lt;/li&gt;
+&lt;li&gt;天猫魔盒，当初买这个就是图他便宜，感觉越用反应越慢。&lt;/li&gt;
+&lt;li&gt;酷冷至尊的一款 87 键茶轴机械键盘。本来打算买个 FILCO 圣手二代，但是感觉太贵，没下手，换了这个中等价位的，感觉还可以。&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

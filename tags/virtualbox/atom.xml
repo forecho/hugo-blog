@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VirtualBox on Forecho&#39;s Blog</title>
+    <link>http://39.108.170.72/tags/virtualbox.html</link>
+    <description>Recent content in VirtualBox on Forecho&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 30 Jul 2015 22:38:00 +0800</lastBuildDate>
+    
+	<atom:link href="http://39.108.170.72/tags/virtualbox/atom.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>解决「vagrant up」timeout 问题</title>
+      <link>http://39.108.170.72/solve-vagrant-up-timeout.html</link>
+      <pubDate>Thu, 30 Jul 2015 22:38:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/solve-vagrant-up-timeout.html</guid>
+      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+&lt;p&gt;之前我有写&lt;a href=&#34;http://39.108.170.72/blog/windows-coding-tool.html#section-1&#34;&gt;《Windows 开发利器》&lt;/a&gt;文章提到使用「VirtualBox + Vagrant（打造 Linux 开发环境）」，
+到现在为止在公司使用也有几个月了，到现在为只出现过两次问题。&lt;/p&gt;
+&lt;h2 id=&#34;第一次启动不了&#34;&gt;第一次启动不了&lt;/h2&gt;
+&lt;p&gt;第一次主要是我电脑下班之后没关机，睡眠模式，结果半夜停电了，导致强制关机了，最后导致 &lt;code&gt;vagrant up&lt;/code&gt; 命令启动不了了，最后我又重新安装了我的 vagrant。
+所以，切记，&lt;strong&gt;一定要学会打包自己的 vagrant&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;打包自己的 vagrant&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;3
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;4
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;5
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;6
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;$ vagrant package
+&lt;span style=&#34;color:#555&#34;&gt;[&lt;/span&gt;default&lt;span style=&#34;color:#555&#34;&gt;]&lt;/span&gt; Attempting graceful shutdown of VM...
+&lt;span style=&#34;color:#555&#34;&gt;[&lt;/span&gt;default&lt;span style=&#34;color:#555&#34;&gt;]&lt;/span&gt; Clearing any previously &lt;span style=&#34;color:#366&#34;&gt;set&lt;/span&gt; forwarded ports...
+&lt;span style=&#34;color:#555&#34;&gt;[&lt;/span&gt;default&lt;span style=&#34;color:#555&#34;&gt;]&lt;/span&gt; Creating temporary directory &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;for&lt;/span&gt; export...
+&lt;span style=&#34;color:#555&#34;&gt;[&lt;/span&gt;default&lt;span style=&#34;color:#555&#34;&gt;]&lt;/span&gt; Exporting VM...
+&lt;span style=&#34;color:#555&#34;&gt;[&lt;/span&gt;default&lt;span style=&#34;color:#555&#34;&gt;]&lt;/span&gt; Compressing package to: /Users/astaxie/vagrant/package.box
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;有了这个备份就是可以放心的使（zhe）用（teng）vagrant 了。&lt;/p&gt;
+&lt;p&gt;下面我们重点来讲讲今天遇到的这个坑。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

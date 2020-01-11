@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.62.2" />
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="generator" content="Saber v0.11.2">
+    <meta name="author" content="forecho" />
+    <meta name="keywords" content="Hugo, theme, even" />
+    <meta name="og:site_name" content="Forecho&#39;s Blog" /><meta property="og:title" content="重学 Vim - Forecho&#39;s Blog" />
+    <meta property="og:type" content="article" />
+    <meta property="title" content="重学 Vim - Forecho&#39;s Blog">
+    <meta property="og:title" content="重学 Vim - Forecho&#39;s Blog">
+    <meta property="twitter:title" content="重学 Vim - Forecho&#39;s Blog">
+    <meta property="description" content="引言
+2013 年的时候我才开始接触 Vim，简单学了一下，也没用起来，后来只记得普通模式以及怎么进入插入模式，然后就是保存退出这几个命令了。
+直到最近买了一个 HHKB 键盘以及发现使用 Vim 编码效率要高很多，所以我决定重拾 Vim，为了加强自己的记忆，于是我就整理了这篇文章。">
+    <meta property="og:description" content="引言
+2013 年的时候我才开始接触 Vim，简单学了一下，也没用起来，后来只记得普通模式以及怎么进入插入模式，然后就是保存退出这几个命令了。
+直到最近买了一个 HHKB 键盘以及发现使用 Vim 编码效率要高很多，所以我决定重拾 Vim，为了加强自己的记忆，于是我就整理了这篇文章。">
+    <meta property="twitter:description" content="引言
+2013 年的时候我才开始接触 Vim，简单学了一下，也没用起来，后来只记得普通模式以及怎么进入插入模式，然后就是保存退出这几个命令了。
+直到最近买了一个 HHKB 键盘以及发现使用 Vim 编码效率要高很多，所以我决定重拾 Vim，为了加强自己的记忆，于是我就整理了这篇文章。">
+    <meta property="og:type" content="article">
+    <title>重学 Vim - Forecho&#39;s Blog</title>
+
+    <meta property="og:url" content="http://39.108.170.72/re-study-vim.html" />
+
+    
+    <meta property="og:image" content="https://avatars0.githubusercontent.com/u/1725326?s=460&amp;v=4">
+    <meta property="twitter:image" content="https://avatars0.githubusercontent.com/u/1725326?s=460&amp;v=4">
+    <link rel="shortcut icon" href="https://avatars0.githubusercontent.com/u/1725326?s=460&amp;v=4" type="image/x-png" /><link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_1607597_jhmihcvh0tm.css" />
+    <link href="/index.xml" rel="alternate" type="application/rss+xml" title="Forecho&#39;s Blog">
+    
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+</head>
+
+<body class="bg-gray-100 text-gray-900 tracking-wider leading-normal">
+
+    <nav id="header" class="bg-white fixed w-full z-10 top-0 shadow">
+
+  <div id="progress" class="h-1 z-20 top-0" style="background:linear-gradient(to right, #4dc0b5 var(--scroll), transparent 0);"></div>
+
+  <div class="w-full container mx-auto flex flex-wrap items-center justify-between my-1">
+      <div class="pl-4">
+          <a class="text-gray-900 text-base no-underline hover:no-underline font-bold text-xl"  href="/">
+              Forecho&#39;s Blog
+          </a>
+      </div>
+
+      <div class="block lg:hidden pr-4">
+          <button id="nav-toggle" class="flex items-center px-3 py-2 border rounded text-gray-500 border-gray-600 hover:text-gray-900 hover:border-teal-500 appearance-none focus:outline-none">
+              <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+          </button>
+      </div>
+
+      <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block mt-2 lg:mt-0 bg-gray-100 md:bg-transparent z-20" id="nav-content">
+          <ul class="list-reset lg:flex justify-end flex-1 items-center">
+              <li class="mr-3">
+                  <a href="/" class="inline-block py-2 px-2 text-gray-700 font-bold no-underline">首页</a>
+              </li>
+              <li class="mr-3">
+                  <a href="/posts.html" class="inline-block py-2 px-2 text-gray-700 font-bold no-underline">文章归档</a>
+              </li>
+              <li class="mr-3">
+                  <a href="/about.html" class="inline-block py-2 px-2 text-gray-700 font-bold no-underline">关于我</a>
+              </li>
+              <li class="mr-3">
+                  <a href="/friendship-links/" class="inline-block py-2 px-2 text-gray-700 font-bold no-underline">联盟链接</a>
+              </li>
+          </ul>
+      </div>
+  </div>
+</nav>
+
+    <div id="container" class="container w-full flex flex-wrap mx-auto px-2 lg:pt-12 mt-10">
+<section class="w-full lg:w-3/4 xl:w-3/4">
+
+    
+    <div class="px-8 py-6 mt-6 lg:mt-0 leading-normal rounded shadow bg-white">
+
+        
+        <div>
+    <h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-3xl">
+        <a href="http://39.108.170.72/re-study-vim.html" title="重学 Vim">重学 Vim</a>
+    </h1>
+    <p class="mb-1 text-sm text-gray-500">
+        <span title=" 2019-10-08 22:48:00 &#43;0800">
+            <i class="iconfont icon-calendar" aria-hidden="true"></i> 08 Oct 2019
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-book"></i>
+            2793 字
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-clock-o"></i>
+            6 分钟读完
+        </span>
+    </p>
+</div>
+
+
+        <div class="md:hidden">
+            
+<p class="text-base font-bold py-2 yg:pb-6 text-gray-700">文章目录</p>
+    <div class="sticky text-sm" style="top:6em;" id="menu-content">
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#引言">引言</a></li>
+    <li><a href="#模式">模式</a>
+      <ul>
+        <li><a href="#普通模式">普通模式</a></li>
+        <li><a href="#插入模式">插入模式</a></li>
+        <li><a href="#可视模式">可视模式</a></li>
+        <li><a href="#命令行模式">命令行模式</a></li>
+      </ul>
+    </li>
+    <li><a href="#移动光标">移动光标</a></li>
+    <li><a href="#动作">动作</a></li>
+    <li><a href="#配置-vim">配置 Vim</a></li>
+    <li><a href="#插件">插件</a>
+      <ul>
+        <li><a href="#vim-abolishhttpsgithubcomtpopevim-abolish">vim-abolish</a></li>
+        <li><a href="#ybiansmartimhttpsgithubcomybiansmartim">ybian/smartim</a></li>
+      </ul>
+    </li>
+    <li><a href="#最后">最后</a></li>
+    <li><a href="#参考链接">参考链接</a></li>
+  </ul>
+</nav>
+    </div>
+
+        </div> 
+
+        <div class="post-content">
+            <h2 id="引言">引言</h2>
+<p>2013 年的时候我才开始接触 Vim，简单学了一下，也没用起来，后来只记得普通模式以及怎么进入插入模式，然后就是保存退出这几个命令了。</p>
+<p>直到最近买了一个 HHKB 键盘以及发现使用 Vim 编码效率要高很多，所以我决定重拾 Vim，为了加强自己的记忆，于是我就整理了这篇文章。</p>
+<h2 id="模式">模式</h2>
+<p>这个是 Vim 区别普通编辑器的最大差别。Vim 有好几种模式，在不同的模式下可以干不同的事情。</p>
+<h3 id="普通模式">普通模式</h3>
+<p>这个是 Vim 的默认模式，在这种模式下，你可以通过键盘移动光标，可以删除文字。</p>
+<p><strong>方向键</strong></p>
+<ul>
+<li><code>h</code>：左 ←</li>
+<li><code>j</code>：下 ↓</li>
+<li><code>k</code>：上 ↑</li>
+<li><code>l</code>：右 →</li>
+</ul>
+<p>这几个是最常用的方向键盘，怎么记呢？除了记住『<code>j</code> 长得有点像 ↓』之外就是勤加练习了。</p>
+<p><strong>其他</strong></p>
+<ul>
+<li><code>dd</code>：删除当前行</li>
+<li><code>d$</code> 或者 <code>D</code>：删除当前光标到行尾</li>
+<li><code>d0</code>：删除当前光标到行首</li>
+<li><code>yy</code>：剪切当前行</li>
+<li><code>p</code>：粘贴内容到下一行</li>
+<li><code>v$yjp</code>：选中光标到行尾内容，跳转下一行粘贴内容</li>
+</ul>
+<h3 id="插入模式">插入模式</h3>
+<p>专门用来插入文字的模式，你可以把其他编辑器的默认模式理解为 Vim 的插入模式。</p>
+<p><strong>如何从普通模式进入插入模式?</strong></p>
+<ul>
+<li><code>i</code>：在光标之前插入（insert 插入）</li>
+<li><code>a</code>：在光标之后插入（append 追加）</li>
+<li><code>I</code>：在光标行行首插入</li>
+<li><code>A</code>：在光标行行尾插入</li>
+<li><code>o</code>：在光标行下面插入新一行并且保持插入模式</li>
+<li><code>O</code>：在光标行上面插入新一行并且保持插入模式</li>
+</ul>
+<p>除了以上命令我们还可以使用 <code>c</code> 命令进入插入模式：</p>
+<ul>
+<li><code>cc</code>：删除当前行内容，并且进入插入模式</li>
+<li><code>c$</code> 或者 <code>C</code>：删除当前光标到行尾，并且进入插入模式</li>
+<li><code>cw</code>：从光标处删除到单词结尾并且进入插入模式</li>
+<li><code>caw</code>：删除整个单词并且进入插入模式（即使你的光标在单词中间）</li>
+</ul>
+<p><strong>如何回到普通模式？</strong></p>
+<p>按 <code>Esc</code> 键最方便。</p>
+<h3 id="可视模式">可视模式</h3>
+<p>可以理解为选中模式，通过一些命令选中字符、行、块，再针对选中区域做操作。</p>
+<p><strong>普通模式和可视模式可以这样互相切换</strong></p>
+<ul>
+<li><code>v</code>：切换面向字符的可视模式</li>
+<li><code>V</code>：切换面向行的可视模式</li>
+<li><code>Control</code> + <code>v</code>：切换面向块的可视模式（当你需要对几行字符做相同操作的时候，这种模式非常有用）</li>
+</ul>
+<p><strong>相关命令</strong></p>
+<ul>
+<li><code>gv</code>：进入上次可视模式状态</li>
+<li><code>o</code>：切换选中区域的活动端（试一下 <code>vwwoe</code> 自己感受一下）</li>
+</ul>
+<p><strong>实际场景示例</strong></p>
+<ul>
+<li><code>vi'c</code>：从当前光标位置删除 <code>'</code> 之前的内容，并且进入插入模式</li>
+<li><code>vi}</code>：选中 <code>{}</code> 之间的内容，同理 <code>}</code> 可以换成 <code>'</code>、<code>&quot;</code>、<code>]</code> 等（i 可以立即为 inside）</li>
+<li><code>va}</code>：选中 <code>{}</code> 以及其之间的内容，同理 <code>}</code> 可以换成 <code>'</code>、<code>&quot;</code>、<code>]</code> 等（a 可以理解为 around）</li>
+<li><code>vit</code>：选中两个标签之间的内容</li>
+<li><code>viw</code>：选中当前字符</li>
+<li><code>viW</code>：选中当前字串（字串含义见后面内容）</li>
+</ul>
+<p>更多可以参考下图，来源<a href="http://yyq123.blogspot.com/2016/12/vim-text-objects.html">《VIM学习笔记 文本对象（Text Objects）》</a></p>
+<p><img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20191011095932.png" alt=""></p>
+<h3 id="命令行模式">命令行模式</h3>
+<p>进入命令行模式之后我们可以执行一些命令对文本进行操作。</p>
+<p><strong>进入命令行模式</strong></p>
+<ul>
+<li><code>:</code>：进入命令行模式</li>
+<li><code>/</code>：向下进行搜索，按 <code>n</code> 跳转到下一个，按 <code>N</code> 跳转到上一个</li>
+<li><code>?</code>：向上进行搜索，按 <code>n</code> 跳转到下一个，按 <code>N</code> 跳转到上一个</li>
+</ul>
+<p><strong>一些常用的命令</strong></p>
+<ul>
+<li><code>:x</code>：保存并且退出</li>
+<li><code>:wq</code>：保存并且退出</li>
+<li><code>:w</code>：保存</li>
+<li><code>:q</code>：退出</li>
+<li><code>:0</code>：跳转到文件头，0 代表行号</li>
+<li><code>:t</code>：复制，把一行或者多行复制到指定位置</li>
+<li><code>:m</code>：移动，在用法上和复制类似</li>
+</ul>
+<p><strong>一些示例</strong></p>
+<ul>
+<li><code>:2,3t.</code>：把第2 和 3 行的内容复制到当前光标行下方</li>
+<li><code>:2,.t5</code>：把第2 行到当前光标行复制到第 5 行下方</li>
+<li><code>:2m.</code>：把第2 行移动到当前行下方</li>
+<li><code>:t5</code>：把当前行复制到第5 行下方</li>
+<li><code>:t$</code>：把当前行复制到最后一行</li>
+<li><code>:t.</code>：把当前行复制到下一行，同 <code>yyp</code></li>
+<li><code>:%s/echocai/forecho</code>：把当前文件每行第一个 <code>echocai</code> 替换为 <code>forecho</code></li>
+<li><code>:%s/echocai/forecho/g</code>：把当前文件的所有 <code>echocai</code> 替换为 <code>forecho</code></li>
+<li><code>:'&lt;,'&gt;s/field/echo</code>：把当前高亮区域中所有的 <code>field</code> 替换为 <code>echo</code> （高亮区域可以事先通过 <code>Vjjj</code> 选中，再输入 <code>:</code> 的时候，会自动输入 <code>'&lt;,'&gt;</code>）</li>
+<li><code>:![cmd]</code>：运行 shell 命令（示例：<code>:!pwd</code>、<code>:!ls</code>）</li>
+</ul>
+<h2 id="移动光标">移动光标</h2>
+<p>这个是非常常用的功能，在普通模式下我们除了使用 <code>h</code>、<code>j</code>、<code>k</code>、<code>l</code> 移动外，我们还可以：</p>
+<ul>
+<li><code>Control</code> + <code>d</code>：向下滚动半屏幕</li>
+<li><code>Control</code> + <code>u</code>：向上滚动半屏幕</li>
+<li><code>gg</code>：跳转到文件头部</li>
+<li><code>12gg</code>：跳转到第 12 行</li>
+<li><code>G</code>：跳转到文件末尾</li>
+<li><code>f{char}</code>：行内搜索，跳转到下一个{char}所在的位置上（示例：<code>fx</code> 跳转到下一个x 所在的位置）</li>
+<li><code>F{char}</code>：行内搜索，跳转到上一个{char}所在的位置上。（示例：<code>Fx</code> 跳转到上一个x 所在的位置）</li>
+<li><code>t{char}</code>：行内搜索，跳转到下一个{char}的前一个位置上。（示例：光标在行首的时候，在有 ActiveForm 的行内使用 <code>tc</code> 跳转到 A 所在的位置）</li>
+<li><code>T{char}</code>：行内搜索，跳转到上一个{char}的前一个位置上。</li>
+<li><code>w</code>：跳转到下一个单词的第一个单词上</li>
+<li><code>b</code>：跳转到上一个单词的第一个单词上</li>
+<li><code>e</code>：跳转到下一个单词的最后一个单词上</li>
+<li><code>ge</code>：跳转到上一个单词的最后一个单词上</li>
+<li><code>zz</code>：让光标处于屏幕正中间，不会移动光标。</li>
+</ul>
+<p>上面的 <code>w</code>、<code>b</code>、<code>e</code> 都有对应的大写 <code>W</code>、<code>B</code>、<code>E</code>，区别就是大写范围更大。小写范围是单词（word），大写范围是字串（WORD），区别：</p>
+<ul>
+<li>单词（word）：由数字、字母、下划线或者其他非空白字符串组成</li>
+<li>字串（WORD）：以空白字符串分割</li>
+</ul>
+<p>另外在使用 <code>f</code>、<code>F</code>、<code>t</code>、<code>T</code> 命令的时候，要注意：</p>
+<ul>
+<li>尽量找低频字母</li>
+<li><code>;</code>：重复上一次行内搜索，可以理解为跳转到下一个目标位置</li>
+<li><code>,</code>：撤回上一次行内搜索，可以理解为跳转到上一个目标位置</li>
+</ul>
+<h2 id="动作">动作</h2>
+<p>动作是指再普通模式下执行的一些行为，需要跟其他指令一起使用。最常用的有这些：</p>
+<ul>
+<li><code>d</code>：删除</li>
+<li><code>c</code>：删除并且进入插入模式</li>
+<li><code>r</code>：替换，在普通模式下替换一个字符，比方说把光标移动 t 上，按下 <code>rT</code> 会直接把 t 替换为 T 并且还处于普通模式下</li>
+<li><code>R</code>: 进入替换模式，会替换光标所在的文字，直到按 <code>Esc</code> 为止</li>
+<li><code>x</code>：普通模式下删除一个字符，保持普通模式</li>
+<li><code>u</code>：撤销操作</li>
+<li><code>Control</code> + <code>r</code>：重做</li>
+</ul>
+<p>以上这些动作都可以用数字或者其他指令组合，一些示例：</p>
+<ul>
+<li><code>daw</code>：即使你处于单词中间，你也可以通过这个命令把整个单词删除。</li>
+<li><code>4dd</code>：<code>dd</code> 是删除一行，<code>4dd</code> 是删除 4 行</li>
+</ul>
+<h2 id="配置-vim">配置 Vim</h2>
+<h2 id="插件">插件</h2>
+<p>安装插件有几种方式，我是使用的是 <a href="https://github.com/tpope/vim-pathogen">pathogen.vim</a> 的方式，方法：</p>
+<div class="highlight"><div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-fallback" data-lang="fallback">mkdir -p ~/.vim/autoload ~/.vim/bundle &amp;&amp; \
+curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+vim ~/.vimrc
+</code></pre></td></tr></table>
+</div>
+</div><p>然后插入：</p>
+<div class="highlight"><div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-fallback" data-lang="fallback">execute pathogen#infect()
+syntax on
+filetype plugin indent on
+</code></pre></td></tr></table>
+</div>
+</div><p>下面推荐几个插件</p>
+<h3 id="vim-abolishhttpsgithubcomtpopevim-abolish"><a href="https://github.com/tpope/vim-abolish">vim-abolish</a></h3>
+<p>转换单词，示例：</p>
+<ul>
+<li><code>crm</code>：把下划线风格转换成大驼峰风格（<code>foo_bar</code> 转换为 <code>FooBar</code>）</li>
+<li><code>crc</code>：把下划线风格转换成小驼峰风格（<code>foo_bar</code> 转换为 <code>fooBar</code>）</li>
+<li><code>crs</code>：把小驼峰风格转换成下划线风格（<code>fooBar</code> 转换为 <code>foo_bar</code>）</li>
+<li><code>cru</code>：转化为下划线分割全大写风格</li>
+<li><code>cr-</code>：转化为小写中划线分割风格</li>
+<li><code>cr.</code>：转化为小写点分割风格</li>
+<li><code>cr.</code>：转化为小写点分割风格</li>
+<li><code>cr.</code>：转化为小写点分割风格</li>
+<li>其他功能看文档吧</li>
+</ul>
+<p>安装</p>
+<div class="highlight"><div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-fallback" data-lang="fallback">cd ~/.vim/bundle
+git clone git://github.com/tpope/vim-abolish.git
+</code></pre></td></tr></table>
+</div>
+</div><h3 id="ybiansmartimhttpsgithubcomybiansmartim"><a href="https://github.com/ybian/smartim">ybian/smartim</a></h3>
+<p>自动切换输入法，保证回到普通模式的时候是英文输入法。</p>
+<p>安装</p>
+<div class="highlight"><div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-fallback" data-lang="fallback">cd ~/.vim/bundle
+git clone git@github.com:ybian/smartim.git
+im-select
+</code></pre></td></tr></table>
+</div>
+</div><p>如果不是 <code>com.apple.keylayout.US</code> 就要修改设置：</p>
+<div class="highlight"><div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-fallback" data-lang="fallback">vim ~/.vimrc
+</code></pre></td></tr></table>
+</div>
+</div><p>添加这行</p>
+<div class="highlight"><div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-fallback" data-lang="fallback">let g:smartim_default = &#39;com.apple.keylayout.ABC&#39;
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="最后">最后</h2>
+<p>Vim 要了解 Vim 的哲学，学 Vim 带来的收益我认为是<a href="https://zh.wikipedia.org/wiki/%E6%8C%87%E6%95%B8%E5%A2%9E%E9%95%B7">指数增长</a>的，但是绝对是值得的，虽然现在很少有人直接在终端用 Vim 写代码，但是几乎所有的编辑器都可以开启 Vim 模式了。</p>
+<p>《Vim 实用技巧 第二版》这本书我还没看完，所以本篇文章会持续更新。</p>
+<h2 id="参考链接">参考链接</h2>
+<ul>
+<li><a href="http://einverne.github.io/post/2015/05/vim-mode.html">Vim 多模式介绍</a></li>
+<li><a href="https://github.com/wsdjeg/vim-galore-zh_cn/blob/master/README.md">Vim 从入门到精通</a></li>
+<li><a href="http://yyq123.github.io/learn-vim/learn-vi-00-List.html">VIM学习笔记</a></li>
+</ul>
+
+            <hr class="bg-gray-300 mt-8">
+
+            
+<div class="pt-4">
+    <p class="text-center">
+        <button id="btn-donate" class="px-5 py-2 inline-block rounded hover:bg-red-600 bg-red-400 text-white" for="reward">打赏</button>
+    </p>
+    <div class="flex flex-auto mt-2 mx-2 hidden" id="donate-image">
+        
+        <div class="w-full px-2 my-2">
+            <div class="bg-white">
+                <img class="h-48 shadow object-cover w-auto mx-auto" src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424153510.png" alt="微信打赏">
+                <div class="text-center text-gray-500">微信打赏</div>
+            </div>
+        </div>
+
+        <div class="w-full px-2 my-2">
+            <div class=" bg-white">
+                <img class="h-48 shadow object-cover w-auto mx-auto" src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424153431.png" alt="支付宝打赏">
+                <div class="text-center text-gray-500">支付宝打赏</div>
+            </div>
+        </div> 
+
+    </div>
+</div>
+
+            
+<div class="border-l-4 border-red-400 mx-auto bg-gray-200 text-gray-700 mt-5">
+    <div class="pt-2 copyright">
+        <ul class="list-none">
+            <li>
+                <strong>原文作者：</strong>
+                <a rel="author" href="http://39.108.170.72">forecho</a>
+            </li>
+            <li style="word-break:break-all">
+                <strong>原文链接：</strong>
+                <a href="http://39.108.170.72/re-study-vim.html">http://39.108.170.72/re-study-vim.html</a>
+            </li>
+            <li>
+                <strong>版权声明：</strong>本作品采用
+                <a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/deed.zh">署名-非商业性使用 4.0 国际 (CC BY-NC 4.0)</a>进行许可，非商业转载请注明出处（作者，原文链接），商业转载请联系作者获得授权。
+            </li>
+        </ul>
+    </div>
+ 
+</div>
+
+
+        </div>
+
+        
+        <div class="text-base md:text-sm text-gray-500 pt-6">
+                <a class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 hover:bg-gray-300"
+                    href="http://39.108.170.72tags/vim.html">
+                    #vim
+                </a>
+                                    
+            </div>
+        
+
+         
+        
+            <p class="text-gray-500 text-sm text-right pt-1">
+                <span id="busuanzi_container_page_pv">
+                    本文有 <span id="busuanzi_value_page_pv"></span> 次阅读
+                </span>
+            </p>
+        
+
+    </div>
+    
+
+    
+    <hr class="bg-gray-300 my-10">
+
+    
+        
+        
+        
+
+        
+
+
+<div class="p-8 mt-6 lg:mt-0 rounded shadow bg-white">
+    <h2 class="font-sans font-bold break-normal text-gray-700 px-2 pb-3 text-xl">相关文章</h2>
+        
+        <li><a href="/use-hhkb.html" class="underline text-orange-600">使用 HHKB</a></li>
+        
+        <li><a href="/vim-bian-ji-qi-shi-yong-er-yi-ban-mo-shi.html" class="underline text-orange-600">Vim编辑器使用（二）——一般模式</a></li>
+        
+        <li><a href="/vim-bian-ji-qi-shi-yong-yi.html" class="underline text-orange-600">Vim编辑器使用（一）</a></li>
+        
+        <li><a href="/talk-about-some-things-in-september.html" class="underline text-orange-600">聊聊 9 月份的一些『节点』</a></li>
+        
+        <li><a href="/a-preliminary-study-on-functional-programming.html" class="underline text-orange-600">函数式编程初探</a></li>
+        
+</div>
+
+
+    
+
+</section>
+
+
+<div class="hidden xl:text-sm xl:block xl:w-1/4 xl:px-6 ">
+
+    <div class="lg:w-full mx-auto items-center justify-between">
+    <div class="bg-white shadow rounded overflow-hidden">
+        <div class="bg-cover bg-auto mx-auto w-32 h-32 mt-5 rounded-full" style="background-image: url('https://avatars0.githubusercontent.com/u/1725326?s=460&amp;v=4')"> </div>
+        
+        <div class="p-4">
+            <p class="text-2xl text-center text-gray-900 pb-2">forecho</p>
+            <p class="text-sm text-gray-700">7年开发经验，寻求技术 Leader 工作机会。Wechat: ipzone</p>
+        </div>
+        <div class="flex p-4 border-t text-sm border-gray-300 text-gray-700">
+            <div class="flex-1 border-r border-gray-600">
+                <p class="text-center">
+                    <span class="text-gray-700 font-bold">
+                        335
+                    </span>
+                    文章
+                </p>
+            </div>
+            <div class="flex-1 text-center">
+                <p class="text-center">
+                    <span class="text-gray-700 font-bold">
+                        
+                            90
+                        
+                    </span>
+                    标签
+                </p>
+            </div>
+        </div>
+        <div class="px-4 pb-4 border-t border-gray-300">
+            <div class="mt-6 pb-16 lg:pb-0 w-4/5 lg:w-full mx-auto flex flex-wrap items-center justify-between text-gray-500">
+                
+                <a href="//github.com/forecho" class="hover:text-gray-900 p-1 text-2xl" target="_blank" title="GitHub"><i class="my-iconfont icon-social-github"></i></a>
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+                <a href="//instagram.com/forecho" class="hover:text-gray-900 p-1 text-2xl" target="_blank" title="Instagram"><i class="my-iconfont icon-instagram"></i></a>
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+                <a href="//twitter.com/caizhenghai" class="hover:text-gray-900 p-1 text-2xl" target="_blank" title="Twitter"><i class="my-iconfont icon-social-twitter"></i></a>
+                
+
+                
+                <a href="//douban.com/people/ipzone" class="hover:text-gray-900 p-1 text-2xl" target="_blank" title="Douban"><i class="my-iconfont icon-social-douban"></i></a>
+                
+
+                
+                <a href="/atom.xml" class="hover:text-gray-900 p-1 text-2xl" target="_blank" title="RSS"><i class="my-iconfont icon-feed"></i></a>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+    <div class="profile-ads"><div class="bg-white shadow"><img class=" object-cover w-auto mx-auto mt-6" src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424153337.png" alt="微信打赏"></div></div>
+
+
+    <div class="flex flex-col justify-between sticky top-0 pt-12 pb-4 -mt-10 text-gray-600">
+        <div class="bg-white shadow rounded p-4 mt-5">
+            
+<p class="text-base font-bold py-2 yg:pb-6 text-gray-700">文章目录</p>
+    <div class="sticky text-sm" style="top:6em;" id="menu-content">
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#引言">引言</a></li>
+    <li><a href="#模式">模式</a>
+      <ul>
+        <li><a href="#普通模式">普通模式</a></li>
+        <li><a href="#插入模式">插入模式</a></li>
+        <li><a href="#可视模式">可视模式</a></li>
+        <li><a href="#命令行模式">命令行模式</a></li>
+      </ul>
+    </li>
+    <li><a href="#移动光标">移动光标</a></li>
+    <li><a href="#动作">动作</a></li>
+    <li><a href="#配置-vim">配置 Vim</a></li>
+    <li><a href="#插件">插件</a>
+      <ul>
+        <li><a href="#vim-abolishhttpsgithubcomtpopevim-abolish">vim-abolish</a></li>
+        <li><a href="#ybiansmartimhttpsgithubcomybiansmartim">ybian/smartim</a></li>
+      </ul>
+    </li>
+    <li><a href="#最后">最后</a></li>
+    <li><a href="#参考链接">参考链接</a></li>
+  </ul>
+</nav>
+    </div>
+
+        </div>
+    </div>
+   
+</div> 
+
+    </div>
+    
+    
+<footer class="bg-white border-t border-gray-400 shadow mt-10">	
+    <div class="container  mx-auto flex py-8">
+        <div class="w-full text-center text-gray-600 ">
+            <p>
+                &copy; 2020 <a  class="text-gray-700" href="http://39.108.170.72">Forecho&#39;s Blog By forecho </a>
+            </p>
+            
+            <p class="pt-1">
+                Powered by <a rel="nofollow noreferer noopener" href="https://gohugo.io/"  class="text-gray-700" target="_blank">Hugo</a> 
+                Theme based on <a href="https://github.com/forecho/hugo-theme-echo" class="text-gray-700" target="_blank">Echo</a>
+            </p>
+
+            <span id="busuanzi_container">
+              访客数：<span id="busuanzi_value_site_uv"></span> | 访问量 <span id="busuanzi_value_site_pv"></span>
+            </span>
+
+        </div>
+
+    </div>
+</footer>
+
+ <script>
+  window.onload = function() {
+    document.getElementById("nav-toggle").onclick = function() {
+      document.getElementById("nav-content").classList.toggle("hidden");
+    };
+
+    var donate = document.getElementById("btn-donate");
+    if (donate) {
+      donate.onclick = function() {
+        document.getElementById("donate-image").classList.remove("hidden");
+        donate.classList.add("hidden");
+      };
+    }
+
+    var hostname = window.location.hostname;
+    var divs = document.querySelectorAll('a[href^="http"]');
+    [].forEach.call(divs, function(div) {
+      url = div.getAttribute("href");
+      var domain = url
+        .replace("http://", "")
+        .replace("https://", "")
+        .split(/[/?#]/)[0];
+      if (domain !== url) {
+        div.setAttribute("target", "_blank");
+      }
+    });
+  };
+
+   
+  
+  var h = document.documentElement,
+    b = document.body,
+    st = "scrollTop",
+    sh = "scrollHeight",
+    progress = document.querySelector("#progress"),
+    scroll;
+  var scrollpos = window.scrollY;
+  var header = document.getElementById("header");
+  var navcontent = document.getElementById("nav-content");
+
+  document.addEventListener("scroll", function() {
+     
+    scroll = ((h[st] || b[st]) / ((h[sh] || b[sh]) - h.clientHeight)) * 100;
+    progress.style.setProperty("--scroll", scroll + "%");
+
+     
+    scrollpos = window.scrollY;
+
+    if (scrollpos > 10) {
+      navcontent.classList.remove("bg-gray-100");
+    } else {
+      navcontent.classList.add("bg-gray-100");
+    }
+  });
+</script>
+
+</body>
+
+</html>

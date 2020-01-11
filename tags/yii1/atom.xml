@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>yii1 on Forecho&#39;s Blog</title>
+    <link>http://39.108.170.72/tags/yii1.html</link>
+    <description>Recent content in yii1 on Forecho&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 17 Nov 2014 12:51:00 +0800</lastBuildDate>
+    
+	<atom:link href="http://39.108.170.72/tags/yii1/atom.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>使用Yii的 CMenu</title>
+      <link>http://39.108.170.72/shi-yong-yiide-cmenu.html</link>
+      <pubDate>Mon, 17 Nov 2014 12:51:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/shi-yong-yiide-cmenu.html</guid>
+      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 1
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 2
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 3
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 4
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 5
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 6
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 7
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 8
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 9
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;10
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;11
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;12
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;13
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;14
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;15
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;16
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;17
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;18
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;19
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;20
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;21
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;22
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;23
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;24
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;25
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;26
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;27
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;28
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;29
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;30
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;31
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;32
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;33
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;34
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;35
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;36
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;37
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;38
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;39
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;40
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;41
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;42
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;43
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;44
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;45
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;46
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;47
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;48
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;49
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;50
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;51
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;52
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;53
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;54
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;55
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;56
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;$this-&amp;gt;widget(&amp;#39;zii.widgets.CMenu&amp;#39;,array(
+    &amp;#39;activeCssClass&amp;#39;=&amp;gt;&amp;#39;当前热点元素的样式&amp;#39;,
+    &amp;#39;firstItemCssClass&amp;#39;=&amp;gt;&amp;#39;第一个元素的样式&amp;#39;,
+    &amp;#39;lastItemCssClass&amp;#39;=&amp;gt;&amp;#39;最后一个元素的样式&amp;#39;,
+    &amp;#39;htmlOptions&amp;#39;=&amp;gt;array(&amp;#39;class&amp;#39;=&amp;gt;&amp;#39;默认样式&amp;#39;),
+    &amp;#39;items&amp;#39;=&amp;gt;array(
+        array(
+            &amp;#39;label&amp;#39;=&amp;gt;&amp;#39;网站概况&amp;#39;,
+            &amp;#39;url&amp;#39;=&amp;gt;array(&amp;#39;/admin&amp;#39;),
+            &amp;#39;itemOptions&amp;#39;=&amp;gt;array(
+                &amp;#39;class&amp;#39;=&amp;gt;&amp;#39;li_status&amp;#39;
+            ),
+            &amp;#39;active&amp;#39;=&amp;gt;$this-&amp;gt;id==&amp;#39;admin&amp;#39;?true:false
+        ),
+        array(
+            &amp;#39;label&amp;#39;=&amp;gt;&amp;#39;图片管理&amp;#39;,
+            &amp;#39;url&amp;#39;=&amp;gt;array(&amp;#39;/picture&amp;#39;),
+            &amp;#39;template&amp;#39;=&amp;gt;&amp;#39;{menu}&amp;lt;&lt;span style=&#34;color:#309;font-weight:bold&#34;&gt;span&lt;/span&gt;&amp;gt;this is additional infomation&amp;lt;/&lt;span style=&#34;color:#309;font-weight:bold&#34;&gt;span&lt;/span&gt;&amp;gt;&amp;#39;,
+            &amp;#39;itemOptions&amp;#39;=&amp;gt;array(&amp;#39;class&amp;#39;=&amp;gt;&amp;#39;li_picture&amp;#39;),
+            &amp;#39;active&amp;#39;=&amp;gt;$this-&amp;gt;id==&amp;#39;picture&amp;#39;?true:false,
+            &amp;#39;visible&amp;#39;=&amp;gt;true
+        ),
+        array(&amp;#39;label&amp;#39;=&amp;gt;&amp;#39;管理员管理&amp;#39;,
+            &amp;#39;url&amp;#39;=&amp;gt;array(&amp;#39;/manager&amp;#39;),
+            &amp;#39;itemOptions&amp;#39;=&amp;gt;array(&amp;#39;class&amp;#39;=&amp;gt;&amp;#39;li_manager&amp;#39;),
+            &amp;#39;submenuOptions&amp;#39;=&amp;gt;array(&amp;#39;class&amp;#39;=&amp;gt;&amp;#39;subclass&amp;#39;),
+            &amp;#39;active&amp;#39;=&amp;gt;($this-&amp;gt;id==&amp;#39;manager&amp;#39; &lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;&amp;amp;&lt;/span&gt; $this-&amp;gt;action-&amp;gt;id!=&amp;#39;changepswd&amp;#39;)?true:false,
+            &amp;#39;visible&amp;#39;=&amp;gt;false
+        ),
+        array(
+            &amp;#39;label&amp;#39;=&amp;gt;&amp;#39;密码修改&amp;#39;,
+            &amp;#39;url&amp;#39;=&amp;gt;array(&amp;#39;/manager/changepswd&amp;#39;),
+            &amp;#39;linkOptions&amp;#39;=&amp;gt;array(&amp;#39;target&amp;#39;=&amp;gt;&amp;#39;_blank&amp;#39;),
+            &amp;#39;itemOptions&amp;#39;=&amp;gt;array(
+                &amp;#39;class&amp;#39;=&amp;gt;&amp;#39;li_changepswd&amp;#39;
+            ),
+            &amp;#39;items&amp;#39;=&amp;gt;array(
+                array(&amp;#39;label&amp;#39;=&amp;gt;&amp;#39;子栏目&amp;#39;)
+            ),
+            &amp;#39;active&amp;#39;=&amp;gt;($this-&amp;gt;id==&amp;#39;manager&amp;#39; &lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;&amp;amp;&lt;/span&gt; $this-&amp;gt;action-&amp;gt;id==&amp;#39;changepswd&amp;#39;)?true:false,
+            &amp;#39;visible&amp;#39;=&amp;gt;true
+        ),
+        array(
+            &amp;#39;label&amp;#39;=&amp;gt;&amp;#39;登陆&amp;#39;,
+            &amp;#39;url&amp;#39;=&amp;gt;array(&amp;#39;/site/login&amp;#39;),
+            &amp;#39;itemOptions&amp;#39;=&amp;gt;array(&amp;#39;class&amp;#39;=&amp;gt;&amp;#39;li_login&amp;#39;),
+            &amp;#39;visible&amp;#39;=&amp;gt;Yii::app()-&amp;gt;user-&amp;gt;isGuest
+        ),
+        array(
+            &amp;#39;label&amp;#39;=&amp;gt;&amp;#39;退出 (&amp;#39;.Yii::app()-&amp;gt;user-&amp;gt;name.&amp;#39;)&amp;#39;,
+            &amp;#39;url&amp;#39;=&amp;gt;array(&amp;#39;/site/logout&amp;#39;),
+            &amp;#39;itemOptions&amp;#39;=&amp;gt;array(&amp;#39;class&amp;#39;=&amp;gt;&amp;#39;li_login&amp;#39;),
+            &amp;#39;visible&amp;#39;=&amp;gt;!Yii::app()-&amp;gt;user-&amp;gt;isGuest
+        )
+    ),
+));
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;strong&gt;说明：&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Yii全选删除</title>
+      <link>http://39.108.170.72/yii-quan-xuan-shan-chu.html</link>
+      <pubDate>Thu, 30 May 2013 20:10:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/yii-quan-xuan-shan-chu.html</guid>
+      <description>目前功能还是能用，但是删除不是Ajax操作的。等待下次完善。 Views： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 &amp;lt;form action=&amp;#34;/member/msglog/deleteordmsg&amp;#34; method=&amp;#34;post&amp;#34; id=&amp;#34;deleteForm&amp;#34;&amp;gt; &amp;lt;?php $this-&amp;gt;widget(&amp;#39;zii.widgets.CListView&amp;#39;, array( &amp;#39;dataProvider&amp;#39;=&amp;gt;$dataProvider, &amp;#39;itemView&amp;#39;=&amp;gt;&amp;#39;_view&amp;#39;, &amp;#39;e</description>
+    </item>
+    
+  </channel>
+</rss>

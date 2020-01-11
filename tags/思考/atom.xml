@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>思考 on Forecho&#39;s Blog</title>
+    <link>http://39.108.170.72/tags/%E6%80%9D%E8%80%83.html</link>
+    <description>Recent content in 思考 on Forecho&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 15 Jan 2017 23:32:00 +0800</lastBuildDate>
+    
+	<atom:link href="http://39.108.170.72/tags/%E6%80%9D%E8%80%83/atom.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>谈谈《时间的朋友》</title>
+      <link>http://39.108.170.72/time-friends.html</link>
+      <pubDate>Sun, 15 Jan 2017 23:32:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/time-friends.html</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;《时间的朋友》是罗振宇从2015年开始的一年一场跨年演讲晚会，说是要坚持20年，就是每年的元旦跨年给我们总结当年发生的一些事情。前几天我听了这场演讲会的音频，趁着脑子里还有点记忆写下我的一点收获，顺便分享一些我的想法。&lt;/p&gt;
+&lt;h2 id=&#34;罗辑思维&#34;&gt;罗辑思维&lt;/h2&gt;
+&lt;p&gt;刚才查了一下&lt;a href=&#34;http://baike.baidu.com/item/%E7%BD%97%E8%BE%91%E6%80%9D%E7%BB%B4/2192931&#34;&gt;百科&lt;/a&gt;，发现罗辑思维是2012年底开始的，而我应该是14年才开始听他们的节目的，基本上都是在手机上听播客的方式收听他们的节目。&lt;/p&gt;
+&lt;p&gt;《罗辑思维》当初的口号是『死磕自己，愉悦大家！』，确实很吸引我，让我每次在通勤的路上不再那么无聊，同时也让我听到了很多有趣的故事，当初应该也算他们的粉丝了，不然当初也不会买他们出的两本书辑了吧。&lt;/p&gt;
+&lt;p&gt;2016年之后也能是因为时间太忙很少听过他们的节目了，后来在知乎上发现一些他们『恶心』的行为，然后又经历「papi酱」的事件，让我认清了他是一个非常『精明』的商人事实，从此粉转路人。但是我不会因为这样原因从此屏蔽他的一切，我还是会偶尔去听一下他的节目，
+只是报着和当初不一样的心情。&lt;/p&gt;
+&lt;p&gt;事情背景交代清楚了，下面我们进入正题。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>我的知识管理工作流</title>
+      <link>http://39.108.170.72/knowledge-management-workflow.html</link>
+      <pubDate>Mon, 12 Dec 2016 12:09:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/knowledge-management-workflow.html</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;很多碎片知识如果不整理出来，在你的大脑里面永远都是碎片。上次无意中阅读到&lt;a href=&#34;https://zi.com/w/a/164a3It&#34;&gt;《应对信息过载的正确姿势》&lt;/a&gt;和&lt;a href=&#34;http://sspai.com/36795&#34;&gt;《在线阅读处理流程：从需求、到方法、再到工具》&lt;/a&gt;这两篇文章，让我很受益，于是打算整理一下自己获取知识和信息的方式，达到记录-&amp;gt;整理-&amp;gt;优化流程的目的。&lt;/p&gt;
+&lt;h2 id=&#34;阅读流&#34;&gt;阅读流&lt;/h2&gt;
+&lt;p&gt;我的阅读流程是这样的：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;书&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424162239.png&#34; alt=&#34;萝卜书摘&#34;&gt;&lt;/p&gt;
+&lt;p&gt;最近大多数情况下都在用 kindle 看电子书，家里也有很多纸质书。&lt;/p&gt;
+&lt;p&gt;一般看书时间是在上下班通勤的地铁上，如果晚上10点之后还有时间，会看40分钟的书再睡觉。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;如果是 Kindle，看到好句子会标记，使用 &lt;a href=&#34;https://www.clippings.io&#34;&gt;clippings.io&lt;/a&gt; 服务导出笔记，整理到印象笔记，最后有需要的话再整理到博客中。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;如果是纸质书，看到好句子会使用一款叫做&lt;a href=&#34;https://3li3.com/app/view?id=60745&#34;&gt;萝卜书摘&lt;/a&gt;的 App 记录，然后也可以导出到印象笔记（收费服务），最后如果有需要的话再整理到博客中。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;我的体验是：技术书类的书可能更适合纸质版或者正版 PDF，大多数技术类的书不太合适用 kindle 看，有代码部分基本上是不忍直视，PDF 的话可以用 iPad 看，屏幕大一点效果会更好。
+Kindle 版的电子书，标记和索引很方便，而且出门携带也非常轻巧，所以绝大多数的非技术类书都非常适合使用 Kindle 来阅读。&lt;/p&gt;
+&lt;p&gt;总结流程：书-&amp;gt;标记-&amp;gt;印象笔记-&amp;gt;博客&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>如何面试一个人</title>
+      <link>http://39.108.170.72/how-to-interview-a-person.html</link>
+      <pubDate>Tue, 19 Jul 2016 23:47:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/how-to-interview-a-person.html</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;这事儿我得先从2013年我刚来深圳开始说起。由于厌倦了外包公司和只是简单维护公司网站的工作，我离开了待了4年（上学2年半，工作1年半）之久的武汉，抱着一颗想做产品的心来到了深圳。&lt;/p&gt;
+&lt;p&gt;现在回过头来，已经过去3年了，我当初的想来深圳做的事情算是实现了。&lt;/p&gt;
+&lt;p&gt;最近我们项目组也在招聘一起工作的小伙伴，HR 也天天发简历过来让我们挑，陆陆续续面试了十几个人，算是没面到几个满意的。&lt;/p&gt;
+&lt;p&gt;前几天面试了一个工作2年之久，然后连「命名空间」都不懂的人，让我陷入了思考之后，我在反思是我面试的要求太高？这让我想起刚来深圳那阵子的自己，找了半个月仍没找到工作，然后去&lt;a href=&#34;http://www.v2ex.com/t/63765#reply2&#34;&gt;V2EX&lt;/a&gt;上发帖的自己。&lt;/p&gt;
+&lt;p&gt;所以就有了这篇文章，我试着总结和分享一下「找工作」相关的话题，如果你最近在找工作，可以看看，希望能对你有帮助。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>项目 Beta 版上线总结</title>
+      <link>http://39.108.170.72/beta-online-summary.html</link>
+      <pubDate>Sun, 22 May 2016 11:17:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/beta-online-summary.html</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;如果要用一个词来总结我的4月，那么就是两个「加班」。自从去年10月底进入新公司的一个月之后，开始进入全新的项目组进行开发工作。&lt;/p&gt;
+&lt;p&gt;第一版的任务比较多，一直处于赶进度的状态，去年基本上每天都有在加班。内测版上线的前一个星期我们连续工作了12天（那次周末两天都过来加班），
+直到4月25号内测版上线那天晚上我们加班到第二天凌晨1点左右才下班。那天之后持续加班的日子总算熬过头了。&lt;/p&gt;
+&lt;p&gt;下面我要总结几条经验和教训：&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>如果是我来做项目经理</title>
+      <link>http://39.108.170.72/if-i-was-a-project-manager.html</link>
+      <pubDate>Tue, 01 Mar 2016 20:56:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/if-i-was-a-project-manager.html</guid>
+      <description>&lt;h2 id=&#34;我所理解的项目经理&#34;&gt;我所理解的项目经理&lt;/h2&gt;
+&lt;p&gt;以前的公司之前是没有项目经理的，只有产品经理，或者说，产品经理和项目经理是同一个人。&lt;/p&gt;
+&lt;p&gt;去年年底入职的这家公司，新项目的人员分配是这样的：包括项目经理和我在内的4个后端工程师（PHPer）都是新招来的。&lt;/p&gt;
+&lt;p&gt;从12月初到现在的3月初，不到3个月的时间（中间包括春节）项目现在进度终于接近尾声了，天天加班的日子应该算是熬到头了。&lt;/p&gt;
+&lt;p&gt;这期间我也算是对项目经理工作职位有了一定的了解，我认为一个项目的核心关键人物就是项目经理。&lt;/p&gt;
+&lt;p&gt;产品经理只负责整理需求，然后给出需求文档还有原型图。&lt;/p&gt;
+&lt;p&gt;开发工程师负责写功能模块，项目经理就是来分配任务和把控时间，可能会随身调整项目进度的人。&lt;/p&gt;
+&lt;p&gt;因为项目时间比较紧急，项目经理也参与了写代码。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>如何阅读一本书</title>
+      <link>http://39.108.170.72/how-to-read-a-book.html</link>
+      <pubDate>Fri, 29 Jan 2016 15:36:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/how-to-read-a-book.html</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;大致翻译了一下，有些没看懂。😓&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;买更多的书&#34;&gt;买更多的书&lt;/h2&gt;
+&lt;p&gt;每次买3-10本书，至少让自己有5本待读的书，让自己找不出「没有书可以读」的借口。&lt;/p&gt;
+&lt;h2 id=&#34;一次读三本书&#34;&gt;一次读三本书&lt;/h2&gt;
+&lt;p&gt;同一时间阅读三四本书，可以根据自己的心情和天气，小说和非小说类型随时切换着看。&lt;/p&gt;
+&lt;p&gt;第一本书卡住了，可以看第二本书。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>使用 Kindle 阅读</title>
+      <link>http://39.108.170.72/use-the-kindle-reading.html</link>
+      <pubDate>Sat, 09 Jan 2016 15:40:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/use-the-kindle-reading.html</guid>
+      <description>&lt;h2 id=&#34;与书结缘的时间线&#34;&gt;与书结缘的时间线&lt;/h2&gt;
+&lt;p&gt;也许是小时候受四姨夫的印象，很喜欢看书。前几年回家过年看到他，发现你衣服里面还带着一本宋词鉴赏的书，没想到
+他还在看这样的书。&lt;/p&gt;
+&lt;p&gt;初中那会儿出去跟家人出去逛街，看到书店都两眼放光不想走了。那个时候身上没多少钱，记得有一次和弟弟去逛
+图书馆只买了三本书确花了50多块钱，我到现在还记得是哪三本书 - 一本是古希腊神话，另外一本是英语语法的书，最后一本书是英语短语的书。&lt;/p&gt;
+&lt;p&gt;后来在武汉的时候很喜欢下午5点多的时候去街上摆书的地摊上看看，5块钱就能买3本《格言》和《特别关注》等比较旧一点的杂志，但是我觉得非常值。&lt;/p&gt;
+&lt;p&gt;再后来高中的时候碰到一个好的语文老师，对于我们这种不太喜欢听语文课的人，她不反对我们上她的课看其他书，当然前提是看好书，她非常反对修仙类的网络小说，
+当然包括当时非常火的《诛仙》、《盗墓笔记》等等都归类为不好的书。曾经当着我们的面把一个不听她话的同学的书给撕掉了。对于我这种看书比较慢的人，我当然不喜欢
+看那些儿书了，那个时候我看的最多的有蔡智恒、沧月、蔡骏、韩寒的书了，当然我也不否认我看过几本郭敬明和饶雪漫的书，看书的品味都是受当时玩的很好的哥们影响的，非常感谢他们。&lt;/p&gt;
+&lt;p&gt;上大学之后我看书的时候倒是少了，其实当时报专业的时候我都不知道我们专业具体学什么的，只知道是计算机方面。后来证明我选择的正式我喜欢的，
+专业课我基本上都会认证去学。学校有一个标志性建筑 - 图书馆，是我非常向往的地方。一楼和二楼是杂志区，算是比较新的，刚开始去的次数比较多，但是后来
+自从有了电脑之后，在高中养成的爱好 - 动漫和电影，慢慢的被放大了，晚上经常在寝室看电影了。但是偶尔回去三楼借一下管理类的书，
+每次放寒假都会去五楼接专业书带回家过年看，也会去看一下杂志。关于看书整个大学有几件事印象比较深的书：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;在杂志看了一本互联网周刊的杂志，里面有介绍作为一个慢公司的豆瓣，觉得这个公司很有意思，给我留下较深过的印象。&lt;/li&gt;
+&lt;li&gt;看了一本关于 Google 的书，好像叫《搜主义》，才开始了解 Google。&lt;/li&gt;
+&lt;li&gt;看了一本分享全球企业家演讲文章的书，那个时候开始喜欢看一些管理类的书。&lt;/li&gt;
+&lt;li&gt;第一年寒假的时候借了一本 C 语言的书，回去看，才真正知道 C 语言是怎么回事。之前上课课程安排的都不好，老师在上面讲的很投入，但是我在下面打瞌睡。&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>塑造成功框架的哲学</title>
+      <link>http://39.108.170.72/successful-framework-philosophies.html</link>
+      <pubDate>Sun, 27 Dec 2015 22:37:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/successful-framework-philosophies.html</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;来源：&lt;a href=&#34;http://www.capitalone.io/blog/successful-framework-philosophies/&#34;&gt;Philosophies that Shaped Successful Frameworks&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;在过去的十年里我们看到了许多软件框架的出现，像 &lt;a href=&#34;http://spring.io/&#34;&gt;Spring&lt;/a&gt; 和 &lt;a href=&#34;http://rubyonrails.org/&#34;&gt;Ruby on Rails&lt;/a&gt; 已经是非常成功的框架了，掌握它们就意味着打开多扇就业机会的大门了。然而，对于每一个框架的成功，背后的大多数开发人员都不被人关注。2008年1月1日&lt;a href=&#34;https://en.wikipedia.org/wiki/Software_framework&#34;&gt;维基百科&lt;/a&gt; 列出了67个 Web 框架。然而今天，超过三分之二的消失在列表中或在三年内没有更新。作为 Yii 框架的创造者，我花了很多时间调查各种框架和理解为什么有些成功，有些失败了。我将描述我发现塑造成功框架的一些哲学。&lt;/p&gt;
+&lt;h2 id=&#34;为什么框架&#34;&gt;为什么框架?&lt;/h2&gt;
+&lt;p&gt;建立一个成功的框架，重要的是要了解什么是框架，开发人员为什么需要它们。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://queue.acm.org/detail.cfm?id=1017005&#34;&gt;Douglas C. Schmidt 等人&lt;/a&gt; 认为框架作为一个集成的软件构件(如类、对象和组件)集合，为相关应用程序提供一个可重用的体系结构。根据这一定义，
+框架应该是一个已完工的应用骨架组成可重用和可定制的组件。开发人员将扩展并定制一个框架通过提供他们的应用程序和领域特定逻辑来形成一个完整的应用程序。&lt;/p&gt;
+&lt;p&gt;一个框架典型的特征就是所谓的控制反转（&lt;a href=&#34;http://martinfowler.com/bliki/InversionOfControl.html&#34;&gt;inversion of control&lt;/a&gt;）。框架通常扮演着组织主程序的角色和调用应用程序代码。这里是反过来的控制流——它调用我而不是我调用框架。下图说明了框架之间的关系，函数库，和应用程序。注意框架通常提供现成的功能的库，以帮助开发人员构建应用程序更快。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://segmentfault.com/img/bVtewA&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;开发人员使用框架最重要的原因是框架如何提高生产力和帮助提高代码质量。例如，现代的框架(例如，django)，经常提供代码生成工具或样板帮助立即启动新项目。此外，精心设计的框架内嵌安全保护措施，帮助预防开发人员犯典型的安全漏洞。&lt;/p&gt;
+&lt;p&gt;企业使用框架，还有一个额外的好处是，它可以应用在整个企业，帮助执行标准。框架提供了记录模式，详细的设计和实现的工具用于在所有应用程序之间提供一个一致的结构。例如，在 Capital One (译者注：薛强所在的公司) 我们开发一个 「Chassis」的框架作为一个集成的基础，统一了许多厂商和顾客公司内部开发应用程序的 API。&lt;/p&gt;
+&lt;p&gt;当然，并不是所有的开发人员喜欢使用框架。一些一致的抱怨包括陡峭的学习曲线，框架耦合性比较高，性能较低，等等。今天，在这篇文章中我将为你解释现代框架如何的解决这些问题，让大多数的这些抱怨不再适用。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>为什么要开源</title>
+      <link>http://39.108.170.72/why-open-source.html</link>
+      <pubDate>Thu, 17 Dec 2015 19:50:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/why-open-source.html</guid>
+      <description>&lt;h2 id=&#34;我写了一个开源项目&#34;&gt;我写了一个开源项目&lt;/h2&gt;
+&lt;p&gt;2015 年初的几个月，Yii2 框架发布了，出于对 Yii2 的热爱，再加上是年底，工作没那么忙，本着学习和致敬 &lt;a href=&#34;https://ruby-china.org/&#34;&gt;Ruby-China&lt;/a&gt; 的心态，
+我开始用 Yii2 开发一个社区。其实 &lt;a href=&#34;https://phphub.org/&#34;&gt;PHPhub&lt;/a&gt; 社区也不错，但是没有 Yii 节点，呵呵。&lt;/p&gt;
+&lt;p&gt;由于以前有一点的 Yii1 的基础，所以 Yii2 上手起来还算顺利。在网上找了一下资料，多看官方文档，开发起来也是很快的。&lt;/p&gt;
+&lt;p&gt;开发的过程中参照了几个项目，去读他们的源码，学了不少东西。&lt;/p&gt;
+&lt;p&gt;我一个人把基本功能开发完之后，然后发帖宣传了一下，还欢迎大家一起来参与进来，也建立一个 QQ 群，陆陆续续有人加进来，但是实际上参与开发贡献代码的的人只有几个。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>如何让团队里的工程师对工作不厌烦</title>
+      <link>http://39.108.170.72/coding-is-boring-unless.html</link>
+      <pubDate>Mon, 30 Nov 2015 17:40:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/coding-is-boring-unless.html</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;原文：&lt;a href=&#34;https://blog.enki.com/coding-is-boring-unless-4e496720d664#.pgkeq1x6r&#34;&gt;《Coding is boring, unless…》&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;作为一名工程师,我从来没有坚持同样的工作超过两年了。&lt;/p&gt;
+&lt;p&gt;每个新工作是一个不错的职业选择,高薪在我们行业中也是很常见的。但是我离职让我之前的老板不是很高兴。其中一些试着说服我,但是我觉得留下来很无聊,所以我不能留下来。&lt;/p&gt;
+&lt;p&gt;（免责声明：我很幸运的生活在一个编程工作比程序员更多的地方，所以我换工作有很多选择的余地。）&lt;/p&gt;
+&lt;p&gt;我现在作为 &lt;a href=&#34;http://enki.com/&#34;&gt;Enki&lt;/a&gt; 公司的联合创始人兼首席技术官。因此,我负责了公司的工程师文化。我工作的一部分是要确保我们的开发人员不会像我过去有时候一样的无聊。&lt;/p&gt;
+&lt;p&gt;为了帮助我们的团队，我们已经设计了一些策略对抗无聊并且已经应用到我们公司。因为这种策略目前运行良好,我想在这里分享下。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>天赋还是努力</title>
+      <link>http://39.108.170.72/tian-fu-hai-shi-nu-li.html</link>
+      <pubDate>Sun, 27 Oct 2013 23:18:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/tian-fu-hai-shi-nu-li.html</guid>
+      <description>刚开始听说《怪兽大学》这个动漫电影的时候，看了一下预告片，然后海报，觉得，哇，真的是怪兽，第一次看的话还有点「吓人」，就跟我看《卑鄙的我》一</description>
+    </item>
+    
+    <item>
+      <title>代码不值钱</title>
+      <link>http://39.108.170.72/dai-ma-bu-zhi-qian.html</link>
+      <pubDate>Mon, 21 Oct 2013 22:40:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/dai-ma-bu-zhi-qian.html</guid>
+      <description>最近发现 Podcast 这个好玩的东西，分享给大家。比方说这个：http://teahour.fm/ 如果有 iPhone 的话直接去下载 Podcast ，可以直接去订阅，非常 cool</description>
+    </item>
+    
+    <item>
+      <title>一切都来得及，就怕你不做</title>
+      <link>http://39.108.170.72/yi-qie-dou-lai-de-ji-jiu-pa-ni-bu-zuo.html</link>
+      <pubDate>Wed, 04 Sep 2013 12:07:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/yi-qie-dou-lai-de-ji-jiu-pa-ni-bu-zuo.html</guid>
+      <description>最近一直在忙着技术方面的事，文章都是一些技术问题。看在今天是我步入23岁第一天的日子上，我决定写一篇最近的总结。 最近两个月游戏基本上都没玩了</description>
+    </item>
+    
+  </channel>
+</rss>

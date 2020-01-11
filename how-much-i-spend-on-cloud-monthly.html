@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.62.2" />
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="generator" content="Saber v0.11.2">
+    <meta name="author" content="forecho" />
+    <meta name="keywords" content="Hugo, theme, even" />
+    <meta name="og:site_name" content="Forecho&#39;s Blog" /><meta property="og:title" content="你有几张「云」账单？ - Forecho&#39;s Blog" />
+    <meta property="og:type" content="article" />
+    <meta property="title" content="你有几张「云」账单？ - Forecho&#39;s Blog">
+    <meta property="og:title" content="你有几张「云」账单？ - Forecho&#39;s Blog">
+    <meta property="twitter:title" content="你有几张「云」账单？ - Forecho&#39;s Blog">
+    <meta property="description" content="看了罗磊的《你有几张「云」账单？》，感觉挺有意思，所以自己也来总结一下。
+阿里云
+目前 GetYii 是放在阿里云上的，我的首页 也放在上面，买的是深圳最便宜的套餐，每个月62块钱，基本上够用。
+速度还上比较稳定的，访问国内的还是比那些国外的 VPS 要快的多，唯一麻烦的是，国内域名必须备案。
+搬瓦工
+VPN 应该是每个程序员必备的工具了，无论是使用 Google，还是看 YouTube 视频教程，都的翻墙。以前有试过各种免费版的 VPN 但是都不稳定，后来有买过红杏，
+想着10快钱一个月也不贵，但是刚买一个月还没用到就挂了，有点坑啊。
+再后来经同事介绍买了 bandwagonhost （也就是我说的搬瓦工）VPS 自建 Shadowsocks，差不多是一键安装的，买的是最低套餐，差不多每个月18块钱。
+本来有更低套餐的，但是我买的有点晚了，被抢完了。至于稳定性，还算可以，在家偶尔看一下 YouTube 缓冲720P 的速度还能接受，主要是便宜，也懒得折腾了。
+Shadowsocks 配上一个智能路由器可以实现自动翻墙功能，配置之后只要你连上我家 Wi-Fi 就能自动实现翻墙，平常在家刷个 Twitter 还是非常方便的。">
+    <meta property="og:description" content="看了罗磊的《你有几张「云」账单？》，感觉挺有意思，所以自己也来总结一下。
+阿里云
+目前 GetYii 是放在阿里云上的，我的首页 也放在上面，买的是深圳最便宜的套餐，每个月62块钱，基本上够用。
+速度还上比较稳定的，访问国内的还是比那些国外的 VPS 要快的多，唯一麻烦的是，国内域名必须备案。
+搬瓦工
+VPN 应该是每个程序员必备的工具了，无论是使用 Google，还是看 YouTube 视频教程，都的翻墙。以前有试过各种免费版的 VPN 但是都不稳定，后来有买过红杏，
+想着10快钱一个月也不贵，但是刚买一个月还没用到就挂了，有点坑啊。
+再后来经同事介绍买了 bandwagonhost （也就是我说的搬瓦工）VPS 自建 Shadowsocks，差不多是一键安装的，买的是最低套餐，差不多每个月18块钱。
+本来有更低套餐的，但是我买的有点晚了，被抢完了。至于稳定性，还算可以，在家偶尔看一下 YouTube 缓冲720P 的速度还能接受，主要是便宜，也懒得折腾了。
+Shadowsocks 配上一个智能路由器可以实现自动翻墙功能，配置之后只要你连上我家 Wi-Fi 就能自动实现翻墙，平常在家刷个 Twitter 还是非常方便的。">
+    <meta property="twitter:description" content="看了罗磊的《你有几张「云」账单？》，感觉挺有意思，所以自己也来总结一下。
+阿里云
+目前 GetYii 是放在阿里云上的，我的首页 也放在上面，买的是深圳最便宜的套餐，每个月62块钱，基本上够用。
+速度还上比较稳定的，访问国内的还是比那些国外的 VPS 要快的多，唯一麻烦的是，国内域名必须备案。
+搬瓦工
+VPN 应该是每个程序员必备的工具了，无论是使用 Google，还是看 YouTube 视频教程，都的翻墙。以前有试过各种免费版的 VPN 但是都不稳定，后来有买过红杏，
+想着10快钱一个月也不贵，但是刚买一个月还没用到就挂了，有点坑啊。
+再后来经同事介绍买了 bandwagonhost （也就是我说的搬瓦工）VPS 自建 Shadowsocks，差不多是一键安装的，买的是最低套餐，差不多每个月18块钱。
+本来有更低套餐的，但是我买的有点晚了，被抢完了。至于稳定性，还算可以，在家偶尔看一下 YouTube 缓冲720P 的速度还能接受，主要是便宜，也懒得折腾了。
+Shadowsocks 配上一个智能路由器可以实现自动翻墙功能，配置之后只要你连上我家 Wi-Fi 就能自动实现翻墙，平常在家刷个 Twitter 还是非常方便的。">
+    <meta property="og:type" content="article">
+    <title>你有几张「云」账单？ - Forecho&#39;s Blog</title>
+
+    <meta property="og:url" content="http://39.108.170.72/how-much-i-spend-on-cloud-monthly.html" />
+
+    
+    <meta property="og:image" content="https://avatars0.githubusercontent.com/u/1725326?s=460&amp;v=4">
+    <meta property="twitter:image" content="https://avatars0.githubusercontent.com/u/1725326?s=460&amp;v=4">
+    <link rel="shortcut icon" href="https://avatars0.githubusercontent.com/u/1725326?s=460&amp;v=4" type="image/x-png" /><link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_1607597_jhmihcvh0tm.css" />
+    <link href="/index.xml" rel="alternate" type="application/rss+xml" title="Forecho&#39;s Blog">
+    
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+</head>
+
+<body class="bg-gray-100 text-gray-900 tracking-wider leading-normal">
+
+    <nav id="header" class="bg-white fixed w-full z-10 top-0 shadow">
+
+  <div id="progress" class="h-1 z-20 top-0" style="background:linear-gradient(to right, #4dc0b5 var(--scroll), transparent 0);"></div>
+
+  <div class="w-full container mx-auto flex flex-wrap items-center justify-between my-1">
+      <div class="pl-4">
+          <a class="text-gray-900 text-base no-underline hover:no-underline font-bold text-xl"  href="/">
+              Forecho&#39;s Blog
+          </a>
+      </div>
+
+      <div class="block lg:hidden pr-4">
+          <button id="nav-toggle" class="flex items-center px-3 py-2 border rounded text-gray-500 border-gray-600 hover:text-gray-900 hover:border-teal-500 appearance-none focus:outline-none">
+              <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+          </button>
+      </div>
+
+      <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block mt-2 lg:mt-0 bg-gray-100 md:bg-transparent z-20" id="nav-content">
+          <ul class="list-reset lg:flex justify-end flex-1 items-center">
+              <li class="mr-3">
+                  <a href="/" class="inline-block py-2 px-2 text-gray-700 font-bold no-underline">首页</a>
+              </li>
+              <li class="mr-3">
+                  <a href="/posts.html" class="inline-block py-2 px-2 text-gray-700 font-bold no-underline">文章归档</a>
+              </li>
+              <li class="mr-3">
+                  <a href="/about.html" class="inline-block py-2 px-2 text-gray-700 font-bold no-underline">关于我</a>
+              </li>
+              <li class="mr-3">
+                  <a href="/friendship-links/" class="inline-block py-2 px-2 text-gray-700 font-bold no-underline">联盟链接</a>
+              </li>
+          </ul>
+      </div>
+  </div>
+</nav>
+
+    <div id="container" class="container w-full flex flex-wrap mx-auto px-2 lg:pt-12 mt-10">
+<section class="w-full lg:w-3/4 xl:w-3/4">
+
+    
+    <div class="px-8 py-6 mt-6 lg:mt-0 leading-normal rounded shadow bg-white">
+
+        
+        <div>
+    <h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-3xl">
+        <a href="http://39.108.170.72/how-much-i-spend-on-cloud-monthly.html" title="你有几张「云」账单？">你有几张「云」账单？</a>
+    </h1>
+    <p class="mb-1 text-sm text-gray-500">
+        <span title=" 2016-01-18 13:14:00 &#43;0800">
+            <i class="iconfont icon-calendar" aria-hidden="true"></i> 18 Jan 2016
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-book"></i>
+            1116 字
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-clock-o"></i>
+            3 分钟读完
+        </span>
+    </p>
+</div>
+
+
+        <div class="md:hidden">
+            
+<p class="text-base font-bold py-2 yg:pb-6 text-gray-700">文章目录</p>
+    <div class="sticky text-sm" style="top:6em;" id="menu-content">
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#阿里云httpwwwaliyuncom">阿里云</a></li>
+    <li><a href="#搬瓦工">搬瓦工</a></li>
+    <li><a href="#apple-music">Apple Music</a></li>
+    <li><a href="#手机套餐">手机套餐</a></li>
+    <li><a href="#宽带">宽带</a></li>
+    <li><a href="#总结">总结</a></li>
+  </ul>
+</nav>
+    </div>
+
+        </div> 
+
+        <div class="post-content">
+            <p>看了罗磊的<a href="https://luolei.org/how-much-i-spend-on-cloud-monthly/">《你有几张「云」账单？》</a>，感觉挺有意思，所以自己也来总结一下。</p>
+<h2 id="阿里云httpwwwaliyuncom"><a href="http://www.aliyun.com/">阿里云</a></h2>
+<p>目前 <a href="http://www.getyii.com/">GetYii</a> 是放在阿里云上的，<a href="http://www.forecho.com/">我的首页</a> 也放在上面，买的是深圳最便宜的套餐，每个月<strong>62块钱</strong>，基本上够用。
+速度还上比较稳定的，访问国内的还是比那些国外的 VPS 要快的多，唯一麻烦的是，国内域名必须备案。</p>
+<h2 id="搬瓦工">搬瓦工</h2>
+<p>VPN 应该是每个程序员必备的工具了，无论是使用 Google，还是看 YouTube 视频教程，都的翻墙。以前有试过各种免费版的 VPN 但是都不稳定，后来有买过红杏，
+想着10快钱一个月也不贵，但是刚买一个月还没用到就挂了，有点坑啊。</p>
+<p>再后来经同事介绍买了 bandwagonhost （也就是我说的搬瓦工）VPS 自建 Shadowsocks，差不多是一键安装的，买的是最低套餐，差不多每个月<strong>18块钱</strong>。
+本来有更低套餐的，但是我买的有点晚了，被抢完了。至于稳定性，还算可以，在家偶尔看一下 YouTube 缓冲720P 的速度还能接受，主要是便宜，也懒得折腾了。</p>
+<p>Shadowsocks 配上一个智能路由器可以实现自动翻墙功能，配置之后只要你连上我家 Wi-Fi 就能自动实现翻墙，平常在家刷个 Twitter 还是非常方便的。</p>
+<h2 id="apple-music">Apple Music</h2>
+<p>这货刚推出来的时候手贱点了试用，可以免费试用3个月，然后你不手动取消的话，会自动扣钱。就在抢几天的时候，某天早上莫名的收到信用卡扣费的消息，
+之后查询邮箱才发现原来我用 Apple Music 已经三个月了啊，基本上都没怎么打开过。</p>
+<p>最近我最爱的乐队 Coldplay 出新专辑了，但是虾米一直听不了，就连网易云音乐也是收费才能听到，要8块钱，后来想想算了，还是用 Apple Music，至少有
+<strong>15块钱</strong>家庭套餐版，但是用了一阵子 Apple Music 之后我来说说感受吧：</p>
+<p>－ 打开Apple Music 跟打开 App Store 一样经常抽风，打开比较慢，不稳定。
+－ 我不知道 Mac 上面怎么用 Apple Music，在 iPhone 上听歌比较方便，但是有时候用 Mac 工作的时候也下想听一下歌，总不能还得用手机听歌吧，还有整理歌单的时候手机还是没用电脑效率高。</p>
+<p>综上所述，我还得考虑下是否值得买 Apple Music。</p>
+<h2 id="手机套餐">手机套餐</h2>
+<p>手机话费，由于我说外省的号，来来深圳也懒得换号了，因为换号意味着要换各种银行卡的账号，麻烦。虽然是 3G 手机不支持 4G，但是我还是用的 4G 自由组合套餐，
+平时电话打的少，就没用选通话时长套餐，直接选了一个 1G 流量套餐和6元的来电显示费用。1G 流量每月基本够用，一共<strong>54块钱</strong>每月。至于联通的话有些地方会没有信号，这点比较坑爹。</p>
+<h2 id="宽带">宽带</h2>
+<p>以前一直用长城宽带，特点是便宜，一个月只要60左右，看国内最近比较火的电视剧网速都比较快，按理说应该是一个比较可以的宽带，但是却不能满足
+身为程序员的我们，因为有时候用长城宽带看 GitHub 都不稳定，而且买了VPN 有时候也不能连接，最后还是忍不了换了电信，价格是之前的2倍左右 － <strong>129块钱</strong>，但是速度很稳定。
+10M，不像长城宽带宣传 20M 还不稳定。</p>
+<h2 id="总结">总结</h2>
+<p>算了算大概每个月接近300元的开销。</p>
+
+            <hr class="bg-gray-300 mt-8">
+
+            
+<div class="pt-4">
+    <p class="text-center">
+        <button id="btn-donate" class="px-5 py-2 inline-block rounded hover:bg-red-600 bg-red-400 text-white" for="reward">打赏</button>
+    </p>
+    <div class="flex flex-auto mt-2 mx-2 hidden" id="donate-image">
+        
+        <div class="w-full px-2 my-2">
+            <div class="bg-white">
+                <img class="h-48 shadow object-cover w-auto mx-auto" src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424153510.png" alt="微信打赏">
+                <div class="text-center text-gray-500">微信打赏</div>
+            </div>
+        </div>
+
+        <div class="w-full px-2 my-2">
+            <div class=" bg-white">
+                <img class="h-48 shadow object-cover w-auto mx-auto" src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424153431.png" alt="支付宝打赏">
+                <div class="text-center text-gray-500">支付宝打赏</div>
+            </div>
+        </div> 
+
+    </div>
+</div>
+
+            
+<div class="border-l-4 border-red-400 mx-auto bg-gray-200 text-gray-700 mt-5">
+    <div class="pt-2 copyright">
+        <ul class="list-none">
+            <li>
+                <strong>原文作者：</strong>
+                <a rel="author" href="http://39.108.170.72">forecho</a>
+            </li>
+            <li style="word-break:break-all">
+                <strong>原文链接：</strong>
+                <a href="http://39.108.170.72/how-much-i-spend-on-cloud-monthly.html">http://39.108.170.72/how-much-i-spend-on-cloud-monthly.html</a>
+            </li>
+            <li>
+                <strong>版权声明：</strong>本作品采用
+                <a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/deed.zh">署名-非商业性使用 4.0 国际 (CC BY-NC 4.0)</a>进行许可，非商业转载请注明出处（作者，原文链接），商业转载请联系作者获得授权。
+            </li>
+        </ul>
+    </div>
+ 
+</div>
+
+
+        </div>
+
+        
+        <div class="text-base md:text-sm text-gray-500 pt-6">
+                <a class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 hover:bg-gray-300"
+                    href="http://39.108.170.72tags/%E6%80%BB%E7%BB%93.html">
+                    #总结
+                </a>
+                                    
+            </div>
+        
+
+         
+        
+            <p class="text-gray-500 text-sm text-right pt-1">
+                <span id="busuanzi_container_page_pv">
+                    本文有 <span id="busuanzi_value_page_pv"></span> 次阅读
+                </span>
+            </p>
+        
+
+    </div>
+    
+
+    
+    <hr class="bg-gray-300 my-10">
+
+    
+        
+        
+        
+
+        
+
+
+<div class="p-8 mt-6 lg:mt-0 rounded shadow bg-white">
+    <h2 class="font-sans font-bold break-normal text-gray-700 px-2 pb-3 text-xl">相关文章</h2>
+        
+        <li><a href="/what-i-read-in-2015.html" class="underline text-orange-600">2015年我读了哪些书？</a></li>
+        
+        <li><a href="/before-25.html" class="underline text-orange-600">25岁之后</a></li>
+        
+        <li><a href="/2014-summary.html" class="underline text-orange-600">2014年终总结</a></li>
+        
+        <li><a href="/zui-jin-wo-you-hua-yao-shuo.html" class="underline text-orange-600">最近我有话要说</a></li>
+        
+        <li><a href="/lai-shen-zhen-ye-yi-nian-le.html" class="underline text-orange-600">来深圳也一年了</a></li>
+        
+</div>
+
+
+    
+
+</section>
+
+
+<div class="hidden xl:text-sm xl:block xl:w-1/4 xl:px-6 ">
+
+    <div class="lg:w-full mx-auto items-center justify-between">
+    <div class="bg-white shadow rounded overflow-hidden">
+        <div class="bg-cover bg-auto mx-auto w-32 h-32 mt-5 rounded-full" style="background-image: url('https://avatars0.githubusercontent.com/u/1725326?s=460&amp;v=4')"> </div>
+        
+        <div class="p-4">
+            <p class="text-2xl text-center text-gray-900 pb-2">forecho</p>
+            <p class="text-sm text-gray-700">7年开发经验，寻求技术 Leader 工作机会。Wechat: ipzone</p>
+        </div>
+        <div class="flex p-4 border-t text-sm border-gray-300 text-gray-700">
+            <div class="flex-1 border-r border-gray-600">
+                <p class="text-center">
+                    <span class="text-gray-700 font-bold">
+                        335
+                    </span>
+                    文章
+                </p>
+            </div>
+            <div class="flex-1 text-center">
+                <p class="text-center">
+                    <span class="text-gray-700 font-bold">
+                        
+                            90
+                        
+                    </span>
+                    标签
+                </p>
+            </div>
+        </div>
+        <div class="px-4 pb-4 border-t border-gray-300">
+            <div class="mt-6 pb-16 lg:pb-0 w-4/5 lg:w-full mx-auto flex flex-wrap items-center justify-between text-gray-500">
+                
+                <a href="//github.com/forecho" class="hover:text-gray-900 p-1 text-2xl" target="_blank" title="GitHub"><i class="my-iconfont icon-social-github"></i></a>
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+                <a href="//instagram.com/forecho" class="hover:text-gray-900 p-1 text-2xl" target="_blank" title="Instagram"><i class="my-iconfont icon-instagram"></i></a>
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+                <a href="//twitter.com/caizhenghai" class="hover:text-gray-900 p-1 text-2xl" target="_blank" title="Twitter"><i class="my-iconfont icon-social-twitter"></i></a>
+                
+
+                
+                <a href="//douban.com/people/ipzone" class="hover:text-gray-900 p-1 text-2xl" target="_blank" title="Douban"><i class="my-iconfont icon-social-douban"></i></a>
+                
+
+                
+                <a href="/atom.xml" class="hover:text-gray-900 p-1 text-2xl" target="_blank" title="RSS"><i class="my-iconfont icon-feed"></i></a>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+    <div class="profile-ads"><div class="bg-white shadow"><img class=" object-cover w-auto mx-auto mt-6" src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424153337.png" alt="微信打赏"></div></div>
+
+
+    <div class="flex flex-col justify-between sticky top-0 pt-12 pb-4 -mt-10 text-gray-600">
+        <div class="bg-white shadow rounded p-4 mt-5">
+            
+<p class="text-base font-bold py-2 yg:pb-6 text-gray-700">文章目录</p>
+    <div class="sticky text-sm" style="top:6em;" id="menu-content">
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#阿里云httpwwwaliyuncom">阿里云</a></li>
+    <li><a href="#搬瓦工">搬瓦工</a></li>
+    <li><a href="#apple-music">Apple Music</a></li>
+    <li><a href="#手机套餐">手机套餐</a></li>
+    <li><a href="#宽带">宽带</a></li>
+    <li><a href="#总结">总结</a></li>
+  </ul>
+</nav>
+    </div>
+
+        </div>
+    </div>
+   
+</div> 
+
+    </div>
+    
+    
+<footer class="bg-white border-t border-gray-400 shadow mt-10">	
+    <div class="container  mx-auto flex py-8">
+        <div class="w-full text-center text-gray-600 ">
+            <p>
+                &copy; 2020 <a  class="text-gray-700" href="http://39.108.170.72">Forecho&#39;s Blog By forecho </a>
+            </p>
+            
+            <p class="pt-1">
+                Powered by <a rel="nofollow noreferer noopener" href="https://gohugo.io/"  class="text-gray-700" target="_blank">Hugo</a> 
+                Theme based on <a href="https://github.com/forecho/hugo-theme-echo" class="text-gray-700" target="_blank">Echo</a>
+            </p>
+
+            <span id="busuanzi_container">
+              访客数：<span id="busuanzi_value_site_uv"></span> | 访问量 <span id="busuanzi_value_site_pv"></span>
+            </span>
+
+        </div>
+
+    </div>
+</footer>
+
+ <script>
+  window.onload = function() {
+    document.getElementById("nav-toggle").onclick = function() {
+      document.getElementById("nav-content").classList.toggle("hidden");
+    };
+
+    var donate = document.getElementById("btn-donate");
+    if (donate) {
+      donate.onclick = function() {
+        document.getElementById("donate-image").classList.remove("hidden");
+        donate.classList.add("hidden");
+      };
+    }
+
+    var hostname = window.location.hostname;
+    var divs = document.querySelectorAll('a[href^="http"]');
+    [].forEach.call(divs, function(div) {
+      url = div.getAttribute("href");
+      var domain = url
+        .replace("http://", "")
+        .replace("https://", "")
+        .split(/[/?#]/)[0];
+      if (domain !== url) {
+        div.setAttribute("target", "_blank");
+      }
+    });
+  };
+
+   
+  
+  var h = document.documentElement,
+    b = document.body,
+    st = "scrollTop",
+    sh = "scrollHeight",
+    progress = document.querySelector("#progress"),
+    scroll;
+  var scrollpos = window.scrollY;
+  var header = document.getElementById("header");
+  var navcontent = document.getElementById("nav-content");
+
+  document.addEventListener("scroll", function() {
+     
+    scroll = ((h[st] || b[st]) / ((h[sh] || b[sh]) - h.clientHeight)) * 100;
+    progress.style.setProperty("--scroll", scroll + "%");
+
+     
+    scrollpos = window.scrollY;
+
+    if (scrollpos > 10) {
+      navcontent.classList.remove("bg-gray-100");
+    } else {
+      navcontent.classList.add("bg-gray-100");
+    }
+  });
+</script>
+
+</body>
+
+</html>

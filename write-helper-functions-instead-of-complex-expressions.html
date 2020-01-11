@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.62.2" />
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="generator" content="Saber v0.11.2">
+    <meta name="author" content="forecho" />
+    <meta name="keywords" content="Hugo, theme, even" />
+    <meta name="og:site_name" content="Forecho&#39;s Blog" /><meta property="og:title" content="用辅助函数来取代复杂的表达式 - Forecho&#39;s Blog" />
+    <meta property="og:type" content="article" />
+    <meta property="title" content="用辅助函数来取代复杂的表达式 - Forecho&#39;s Blog">
+    <meta property="og:title" content="用辅助函数来取代复杂的表达式 - Forecho&#39;s Blog">
+    <meta property="twitter:title" content="用辅助函数来取代复杂的表达式 - Forecho&#39;s Blog">
+    <meta property="description" content="引言
+上上上个月在图书馆淘到一本书叫《Effective Python - 编写高质量Python代码的59个有效方法》，虽然我不用 Python 写代码，但是好歹以前写过一点 Python 的皮毛。
+豆瓣看了一下评分，就果断借了这本书。当看到第四条方法《第4条：用辅助函数来取代复杂的表达式 》结合自己最近几年编程经验，深有感触，于是就有了这篇文章。
+为什么要用辅助函数？
+在编程的时候，你肯定会遇到类似这样的事情：数据库中保存的商品单价单位是分，商品详情页需要你的商品价格，但是单位肯定是元。
+那么我们可以怎么样实现呢？一般的做法肯定这样的，直接在视图页面要展示价格的地方这样写：
+
+
+1
+
+
+&lt;?= round(($price / 100), 2) ?&gt;
+
+
+这样写虽然能实现效果，但是如果需求有变化，需要使用强制保留两位小数，那么你需要这样改：
+
+
+1
+
+
+&lt;?= number_format(round(($price / 100), 2), 2, &#39;.&#39;, &#39;&#39;); ?&gt;
+
+
+看上去虽然不多的代码，但是
+
+阅读起来很困难，而且很上去也很乱。
+如果涉及到很多东西的话，需要找到每个相应的地方然后做修改。同理，下次改需求的时候，修改也将会是一件很痛苦的事情。
+">
+    <meta property="og:description" content="引言
+上上上个月在图书馆淘到一本书叫《Effective Python - 编写高质量Python代码的59个有效方法》，虽然我不用 Python 写代码，但是好歹以前写过一点 Python 的皮毛。
+豆瓣看了一下评分，就果断借了这本书。当看到第四条方法《第4条：用辅助函数来取代复杂的表达式 》结合自己最近几年编程经验，深有感触，于是就有了这篇文章。
+为什么要用辅助函数？
+在编程的时候，你肯定会遇到类似这样的事情：数据库中保存的商品单价单位是分，商品详情页需要你的商品价格，但是单位肯定是元。
+那么我们可以怎么样实现呢？一般的做法肯定这样的，直接在视图页面要展示价格的地方这样写：
+
+
+1
+
+
+&lt;?= round(($price / 100), 2) ?&gt;
+
+
+这样写虽然能实现效果，但是如果需求有变化，需要使用强制保留两位小数，那么你需要这样改：
+
+
+1
+
+
+&lt;?= number_format(round(($price / 100), 2), 2, &#39;.&#39;, &#39;&#39;); ?&gt;
+
+
+看上去虽然不多的代码，但是
+
+阅读起来很困难，而且很上去也很乱。
+如果涉及到很多东西的话，需要找到每个相应的地方然后做修改。同理，下次改需求的时候，修改也将会是一件很痛苦的事情。
+">
+    <meta property="twitter:description" content="引言
+上上上个月在图书馆淘到一本书叫《Effective Python - 编写高质量Python代码的59个有效方法》，虽然我不用 Python 写代码，但是好歹以前写过一点 Python 的皮毛。
+豆瓣看了一下评分，就果断借了这本书。当看到第四条方法《第4条：用辅助函数来取代复杂的表达式 》结合自己最近几年编程经验，深有感触，于是就有了这篇文章。
+为什么要用辅助函数？
+在编程的时候，你肯定会遇到类似这样的事情：数据库中保存的商品单价单位是分，商品详情页需要你的商品价格，但是单位肯定是元。
+那么我们可以怎么样实现呢？一般的做法肯定这样的，直接在视图页面要展示价格的地方这样写：
+
+
+1
+
+
+&lt;?= round(($price / 100), 2) ?&gt;
+
+
+这样写虽然能实现效果，但是如果需求有变化，需要使用强制保留两位小数，那么你需要这样改：
+
+
+1
+
+
+&lt;?= number_format(round(($price / 100), 2), 2, &#39;.&#39;, &#39;&#39;); ?&gt;
+
+
+看上去虽然不多的代码，但是
+
+阅读起来很困难，而且很上去也很乱。
+如果涉及到很多东西的话，需要找到每个相应的地方然后做修改。同理，下次改需求的时候，修改也将会是一件很痛苦的事情。
+">
+    <meta property="og:type" content="article">
+    <title>用辅助函数来取代复杂的表达式 - Forecho&#39;s Blog</title>
+
+    <meta property="og:url" content="http://39.108.170.72/write-helper-functions-instead-of-complex-expressions.html" />
+
+    
+    <meta property="og:image" content="https://avatars0.githubusercontent.com/u/1725326?s=460&amp;v=4">
+    <meta property="twitter:image" content="https://avatars0.githubusercontent.com/u/1725326?s=460&amp;v=4">
+    <link rel="shortcut icon" href="https://avatars0.githubusercontent.com/u/1725326?s=460&amp;v=4" type="image/x-png" /><link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_1607597_jhmihcvh0tm.css" />
+    <link href="/index.xml" rel="alternate" type="application/rss+xml" title="Forecho&#39;s Blog">
+    
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+</head>
+
+<body class="bg-gray-100 text-gray-900 tracking-wider leading-normal">
+
+    <nav id="header" class="bg-white fixed w-full z-10 top-0 shadow">
+
+  <div id="progress" class="h-1 z-20 top-0" style="background:linear-gradient(to right, #4dc0b5 var(--scroll), transparent 0);"></div>
+
+  <div class="w-full container mx-auto flex flex-wrap items-center justify-between my-1">
+      <div class="pl-4">
+          <a class="text-gray-900 text-base no-underline hover:no-underline font-bold text-xl"  href="/">
+              Forecho&#39;s Blog
+          </a>
+      </div>
+
+      <div class="block lg:hidden pr-4">
+          <button id="nav-toggle" class="flex items-center px-3 py-2 border rounded text-gray-500 border-gray-600 hover:text-gray-900 hover:border-teal-500 appearance-none focus:outline-none">
+              <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+          </button>
+      </div>
+
+      <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block mt-2 lg:mt-0 bg-gray-100 md:bg-transparent z-20" id="nav-content">
+          <ul class="list-reset lg:flex justify-end flex-1 items-center">
+              <li class="mr-3">
+                  <a href="/" class="inline-block py-2 px-2 text-gray-700 font-bold no-underline">首页</a>
+              </li>
+              <li class="mr-3">
+                  <a href="/posts.html" class="inline-block py-2 px-2 text-gray-700 font-bold no-underline">文章归档</a>
+              </li>
+              <li class="mr-3">
+                  <a href="/about.html" class="inline-block py-2 px-2 text-gray-700 font-bold no-underline">关于我</a>
+              </li>
+              <li class="mr-3">
+                  <a href="/friendship-links/" class="inline-block py-2 px-2 text-gray-700 font-bold no-underline">联盟链接</a>
+              </li>
+          </ul>
+      </div>
+  </div>
+</nav>
+
+    <div id="container" class="container w-full flex flex-wrap mx-auto px-2 lg:pt-12 mt-10">
+<section class="w-full lg:w-3/4 xl:w-3/4">
+
+    
+    <div class="px-8 py-6 mt-6 lg:mt-0 leading-normal rounded shadow bg-white">
+
+        
+        <div>
+    <h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-3xl">
+        <a href="http://39.108.170.72/write-helper-functions-instead-of-complex-expressions.html" title="用辅助函数来取代复杂的表达式">用辅助函数来取代复杂的表达式</a>
+    </h1>
+    <p class="mb-1 text-sm text-gray-500">
+        <span title=" 2016-12-19 12:09:00 &#43;0800">
+            <i class="iconfont icon-calendar" aria-hidden="true"></i> 19 Dec 2016
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-book"></i>
+            1460 字
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-clock-o"></i>
+            3 分钟读完
+        </span>
+    </p>
+</div>
+
+
+        <div class="md:hidden">
+            
+<p class="text-base font-bold py-2 yg:pb-6 text-gray-700">文章目录</p>
+    <div class="sticky text-sm" style="top:6em;" id="menu-content">
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#引言">引言</a></li>
+    <li><a href="#为什么要用辅助函数">为什么要用辅助函数？</a></li>
+    <li><a href="#yii2-中是如何实践的">Yii2 中是如何实践的？</a></li>
+    <li><a href="#使用其他-helpers">使用其他 helpers</a></li>
+    <li><a href="#最后总结">最后总结</a></li>
+  </ul>
+</nav>
+    </div>
+
+        </div> 
+
+        <div class="post-content">
+            <h2 id="引言">引言</h2>
+<p>上上上个月在图书馆淘到一本书叫<a href="https://book.douban.com/subject/26709315/">《Effective Python - 编写高质量Python代码的59个有效方法》</a>，虽然我不用 Python 写代码，但是好歹以前写过一点 Python 的皮毛。
+豆瓣看了一下评分，就果断借了这本书。当看到第四条方法《第4条：用辅助函数来取代复杂的表达式 》结合自己最近几年编程经验，深有感触，于是就有了这篇文章。</p>
+<h2 id="为什么要用辅助函数">为什么要用辅助函数？</h2>
+<p>在编程的时候，你肯定会遇到类似这样的事情：数据库中保存的商品单价单位是分，商品详情页需要你的商品价格，但是单位肯定是元。</p>
+<p>那么我们可以怎么样实现呢？一般的做法肯定这样的，直接在视图页面要展示价格的地方这样写：</p>
+<div class="highlight"><div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-php" data-lang="php"><span style="color:#099">&lt;?</span><span style="color:#555">=</span> round((<span style="color:#033">$price</span> <span style="color:#555">/</span> <span style="color:#f60">100</span>), <span style="color:#f60">2</span>) <span style="color:#099">?&gt;</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>这样写虽然能实现效果，但是如果需求有变化，需要使用强制保留两位小数，那么你需要这样改：</p>
+<div class="highlight"><div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-php" data-lang="php"><span style="color:#099">&lt;?</span><span style="color:#555">=</span> number_format(round((<span style="color:#033">$price</span> <span style="color:#555">/</span> <span style="color:#f60">100</span>), <span style="color:#f60">2</span>), <span style="color:#f60">2</span>, <span style="color:#c30">&#39;.&#39;</span>, <span style="color:#c30">&#39;&#39;</span>); <span style="color:#099">?&gt;</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>看上去虽然不多的代码，但是</p>
+<ul>
+<li>阅读起来很困难，而且很上去也很乱。</li>
+<li>如果涉及到很多东西的话，需要找到每个相应的地方然后做修改。同理，下次改需求的时候，修改也将会是一件很痛苦的事情。</li>
+</ul>
+<p>如果使用辅助函数来实践的话，代码将会是这样的：</p>
+<div class="highlight"><div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-php" data-lang="php">/**		
+* 分转元		
+* @param int $price 分		
+* @return float 元		
+*/
+function fenToYuan($price)
+{
+    $price = round(($price / 100), 2);
+    return number_format($price, 2, &#39;.&#39;, &#39;&#39;);
+}
+// 视图层使用方式
+echo fenToYuan($price);
+</code></pre></td></tr></table>
+</div>
+</div><p>一旦这样使用之后，代码将变得非常清晰，而且以后重构起来也非常方便。以上是为了说明辅助函数的作用特意列举的一个小示例，实际项目中，可能会有大量需要你使用这种方式编程的地方，你需要养成这种思维模式才是最重要的。</p>
+<p>PS：以上代码可以在<a href="http://ideone.com/miLLM3">这里</a>查看并且运行。</p>
+<h2 id="yii2-中是如何实践的">Yii2 中是如何实践的？</h2>
+<p>Yii2 中有一个 <a href="https://github.com/yiisoft/yii2/tree/master/framework/helpers">helpers</a> 文件夹，里面的代码推荐各位 PHP 工程师都应该去看看，注释都给了示例，非常的友好。</p>
+<p>下面我来简单分享一些常用的 helpers：</p>
+<p><strong><a href="https://github.com/yiisoft/yii2/blob/master/framework/helpers/BaseArrayHelper.php">ArrayHelper</a></strong></p>
+<div class="highlight"><div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-php" data-lang="php">// 最基本的用法，获取数组中的某个键对应的值。好处是不必判断 username 是否存在
+$username = \yii\helpers\ArrayHelper::getValue($_POST, &#39;username&#39;);
+// 也可以获取对象中的某个值
+$username = \yii\helpers\ArrayHelper::getValue($user, &#39;username&#39;);
+// 也可以使用匿名函数
+$fullName = \yii\helpers\ArrayHelper::getValue($user, function ($user, $defaultValue) {
+    return $user-&gt;firstName . &#39; &#39; . $user-&gt;lastName;
+});
+// 使用「.」获取关联对象的属性
+$street = \yii\helpers\ArrayHelper::getValue($users, &#39;address.street&#39;);
+// 获取数组键值的数组键值
+$versions = [&#39;date&#39; =&gt; &#39;2016年12月19日&#39;, &#39;1.0&#39; =&gt; [&#39;date&#39; =&gt; &#39;2016年12月18日&#39;]];
+$value = \yii\helpers\ArrayHelper::getValue($versions, [&#39;1.0&#39;, &#39;date&#39;]); // $value 输出为 2016年12月18日
+</code></pre></td></tr></table>
+</div>
+</div><p>PS：以上代码可以在<a href="http://ideone.com/T9d3Qb">这里</a>查看并且运行。</p>
+<p>有点太花时间，以后再补充……</p>
+<h2 id="使用其他-helpers">使用其他 helpers</h2>
+<p>据我了解，Yii2 的 helpers 在其他 PHP 框架中也是可以使用的，但是本人没有亲测，不作保证。</p>
+<p>类似这种 helpers 是可以在网上找到的，比方说我就找到了<a href="https://github.com/phpfunct/funct">phpfunct/funct</a></p>
+<p>当然也可以自己根据需要，收集使用，比方说根据这篇文章收集到 UUID 的生成方法：</p>
+<div class="highlight"><div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">24
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">25
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">26
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">27
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">28
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">29
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">30
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">31
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">32
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">33
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">34
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">35
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">36
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">37
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">38
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">39
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">40
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">41
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">42
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">43
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">44
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">45
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">46
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">47
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">48
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">49
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">50
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">51
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">52
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">53
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">54
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">55
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">56
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">57
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">58
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">59
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">60
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">61
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">62
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">63
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">64
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">65
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">66
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">67
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">68
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">69
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">70
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">71
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">72
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">73
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">74
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">75
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">76
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">77
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">78
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">79
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">80
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">81
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">82
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">83
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">84
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">85
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">86
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">87
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-php" data-lang="php">class Sequence
+{
+    const EPOCH = 1000000000000;
+
+    const TIME_BITS  = 41;
+    const NODE_BITS  = 10;
+    const COUNT_BITS = 10;
+
+    private $node = 0;
+
+    private $ttl = 10;
+
+    public function __construct($node)
+    {
+        $max = $this-&gt;max(self::NODE_BITS);
+
+        if (is_int($node) === false || $node &gt; $max || $node &lt; <span style="color:#309;font-weight:bold">0</span><span style="color:#a00;background-color:#faa">)</span> <span style="color:#a00;background-color:#faa">{</span>
+            <span style="color:#309">throw</span> <span style="color:#309">new</span> <span style="color:#a00;background-color:#faa">\</span><span style="color:#309">InvalidArgumentException</span><span style="color:#a00;background-color:#faa">(</span><span style="color:#a00;background-color:#faa">&#39;</span><span style="color:#309">node</span><span style="color:#a00;background-color:#faa">&#39;</span><span style="color:#a00;background-color:#faa">)</span><span style="color:#a00;background-color:#faa">;</span>
+        <span style="color:#a00;background-color:#faa">}</span>
+
+        <span style="color:#a00;background-color:#faa">$</span><span style="color:#309">this-</span>&gt;node = $node;
+    }
+
+    public function generate($time = null)
+    {
+        if ($time === null) {
+            $time = (int)(microtime(true) * 1000);
+        }
+
+        return ($this-&gt;time($time) <span style="color:#a00;background-color:#faa">&lt;</span><span style="color:#a00;background-color:#faa">&lt;</span> (self::NODE_BITS + self::COUNT_BITS)) |
+               ($this-&gt;node <span style="color:#a00;background-color:#faa">&lt;</span>&lt; <span style="color:#309;font-weight:bold">self::COUNT_BITS</span><span style="color:#a00;background-color:#faa">)</span> <span style="color:#a00;background-color:#faa">|</span>
+               <span style="color:#a00;background-color:#faa">(</span><span style="color:#a00;background-color:#faa">$</span><span style="color:#309">this-</span>&gt;count($time));
+    }
+
+    public function restore($id)
+    {
+        $binary = decbin($id);
+
+        $position = -(self::NODE_BITS + self::COUNT_BITS);
+
+        return array(
+            &#39;time&#39;  =&gt; bindec(substr($binary, 0, $position)) + self::EPOCH,
+            &#39;node&#39;  =&gt; bindec(substr($binary, $position, - self::COUNT_BITS)),
+            &#39;count&#39; =&gt; bindec(substr($binary, - self::COUNT_BITS)),
+        );
+    }
+
+    public function setTTL($ttl)
+    {
+        $this-&gt;ttl = $ttl;
+    }
+
+    private function time($time)
+    {
+        $time -= self::EPOCH;
+
+        $max = $this-&gt;max(self::TIME_BITS);
+
+        if (is_int($time) === false || $time &gt; $max || $time &lt; <span style="color:#309;font-weight:bold">0</span><span style="color:#a00;background-color:#faa">)</span> <span style="color:#a00;background-color:#faa">{</span>
+            <span style="color:#309">throw</span> <span style="color:#309">new</span> <span style="color:#a00;background-color:#faa">\</span><span style="color:#309">InvalidArgumentException</span><span style="color:#a00;background-color:#faa">(</span><span style="color:#a00;background-color:#faa">&#39;</span><span style="color:#309">time</span><span style="color:#a00;background-color:#faa">&#39;</span><span style="color:#a00;background-color:#faa">)</span><span style="color:#a00;background-color:#faa">;</span>
+        <span style="color:#a00;background-color:#faa">}</span>
+
+        <span style="color:#309">return</span> <span style="color:#a00;background-color:#faa">$</span><span style="color:#309">time</span><span style="color:#a00;background-color:#faa">;</span>
+    <span style="color:#a00;background-color:#faa">}</span>
+
+    <span style="color:#309">private</span> <span style="color:#309">function</span> <span style="color:#309">count</span><span style="color:#a00;background-color:#faa">(</span><span style="color:#a00;background-color:#faa">$</span><span style="color:#309">time</span><span style="color:#a00;background-color:#faa">)</span>
+    <span style="color:#a00;background-color:#faa">{</span>
+        <span style="color:#a00;background-color:#faa">$</span><span style="color:#309">key </span><span style="color:#555">=</span> <span style="color:#c30">&#34;seq:count:{$time}&#34;</span><span style="color:#a00;background-color:#faa">;</span>
+
+        <span style="color:#309">while</span> <span style="color:#a00;background-color:#faa">(</span><span style="color:#a00;background-color:#faa">!</span><span style="color:#a00;background-color:#faa">$</span><span style="color:#309">count </span><span style="color:#555">=</span> <span style="color:#c30">apcu_inc($key))</span> <span style="color:#a00;background-color:#faa">{</span>
+            <span style="color:#309">apcu_add</span><span style="color:#a00;background-color:#faa">(</span><span style="color:#a00;background-color:#faa">$</span><span style="color:#309">key</span><span style="color:#a00;background-color:#faa">,</span> <span style="color:#309">mt_rand</span><span style="color:#a00;background-color:#faa">(</span><span style="color:#309">0</span><span style="color:#a00;background-color:#faa">,</span> <span style="color:#309">9</span><span style="color:#a00;background-color:#faa">)</span><span style="color:#a00;background-color:#faa">,</span> <span style="color:#a00;background-color:#faa">$</span><span style="color:#309">this-</span>&gt;ttl);
+        }
+
+        $max = $this-&gt;max(self::COUNT_BITS);
+
+        if ($count &gt; $max) {
+            throw new \UnexpectedValueException(&#39;count&#39;);
+        }
+
+        return $count;
+    }
+
+    private function max($bits)
+    {
+        return -1 ^ (-1 <span style="color:#a00;background-color:#faa">&lt;</span><span style="color:#a00;background-color:#faa">&lt;</span> $bits);
+    }
+}
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="最后总结">最后总结</h2>
+<p>编写可读性，可维护性，可扩展性的代码应该是每个开发工程师去追求的目标。程序员可以说是80%的时间都是在维护代码和阅读代码（包括别人的和自己的），所以一定要重视这些小细节。</p>
+<p>但实际上是很多人连最基本的<a href="http://baike.baidu.com/view/4779987.htm">单一职责原则</a>都做不到，虽然有可能他们知道这个原则，但是不实践又有什么用呢？！</p>
+
+            <hr class="bg-gray-300 mt-8">
+
+            
+<div class="pt-4">
+    <p class="text-center">
+        <button id="btn-donate" class="px-5 py-2 inline-block rounded hover:bg-red-600 bg-red-400 text-white" for="reward">打赏</button>
+    </p>
+    <div class="flex flex-auto mt-2 mx-2 hidden" id="donate-image">
+        
+        <div class="w-full px-2 my-2">
+            <div class="bg-white">
+                <img class="h-48 shadow object-cover w-auto mx-auto" src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424153510.png" alt="微信打赏">
+                <div class="text-center text-gray-500">微信打赏</div>
+            </div>
+        </div>
+
+        <div class="w-full px-2 my-2">
+            <div class=" bg-white">
+                <img class="h-48 shadow object-cover w-auto mx-auto" src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424153431.png" alt="支付宝打赏">
+                <div class="text-center text-gray-500">支付宝打赏</div>
+            </div>
+        </div> 
+
+    </div>
+</div>
+
+            
+<div class="border-l-4 border-red-400 mx-auto bg-gray-200 text-gray-700 mt-5">
+    <div class="pt-2 copyright">
+        <ul class="list-none">
+            <li>
+                <strong>原文作者：</strong>
+                <a rel="author" href="http://39.108.170.72">forecho</a>
+            </li>
+            <li style="word-break:break-all">
+                <strong>原文链接：</strong>
+                <a href="http://39.108.170.72/write-helper-functions-instead-of-complex-expressions.html">http://39.108.170.72/write-helper-functions-instead-of-complex-expressions.html</a>
+            </li>
+            <li>
+                <strong>版权声明：</strong>本作品采用
+                <a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/deed.zh">署名-非商业性使用 4.0 国际 (CC BY-NC 4.0)</a>进行许可，非商业转载请注明出处（作者，原文链接），商业转载请联系作者获得授权。
+            </li>
+        </ul>
+    </div>
+ 
+</div>
+
+
+        </div>
+
+        
+        <div class="text-base md:text-sm text-gray-500 pt-6">
+                <a class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 hover:bg-gray-300"
+                    href="http://39.108.170.72tags/yii2.html">
+                    #Yii2
+                </a>
+                <a class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 hover:bg-gray-300"
+                    href="http://39.108.170.72tags/%E7%BC%96%E7%A8%8B%E6%80%9D%E6%83%B3.html">
+                    #编程思想
+                </a>
+                                    
+            </div>
+        
+
+         
+        
+            <p class="text-gray-500 text-sm text-right pt-1">
+                <span id="busuanzi_container_page_pv">
+                    本文有 <span id="busuanzi_value_page_pv"></span> 次阅读
+                </span>
+            </p>
+        
+
+    </div>
+    
+
+    
+    <hr class="bg-gray-300 my-10">
+
+    
+        
+        
+        
+
+        
+
+
+<div class="p-8 mt-6 lg:mt-0 rounded shadow bg-white">
+    <h2 class="font-sans font-bold break-normal text-gray-700 px-2 pb-3 text-xl">相关文章</h2>
+        
+        <li><a href="/knowledge-management-workflow.html" class="underline text-orange-600">我的知识管理工作流</a></li>
+        
+        <li><a href="/double-eleven-i-bought-these.html" class="underline text-orange-600">这个双十一我都买了啥</a></li>
+        
+        <li><a href="/read-the-road-less-traveled.html" class="underline text-orange-600">读《少有人走的路1：心智成熟的旅程》</a></li>
+        
+        <li><a href="/read-the-waste-oflife-in-the-good-things.html" class="underline text-orange-600">读《把生命浪费在美好的事物上》</a></li>
+        
+        <li><a href="/easy-use-hexo.html" class="underline text-orange-600">手把手教你不依赖任何环境使用 Hexo</a></li>
+        
+</div>
+
+
+    
+
+</section>
+
+
+<div class="hidden xl:text-sm xl:block xl:w-1/4 xl:px-6 ">
+
+    <div class="lg:w-full mx-auto items-center justify-between">
+    <div class="bg-white shadow rounded overflow-hidden">
+        <div class="bg-cover bg-auto mx-auto w-32 h-32 mt-5 rounded-full" style="background-image: url('https://avatars0.githubusercontent.com/u/1725326?s=460&amp;v=4')"> </div>
+        
+        <div class="p-4">
+            <p class="text-2xl text-center text-gray-900 pb-2">forecho</p>
+            <p class="text-sm text-gray-700">7年开发经验，寻求技术 Leader 工作机会。Wechat: ipzone</p>
+        </div>
+        <div class="flex p-4 border-t text-sm border-gray-300 text-gray-700">
+            <div class="flex-1 border-r border-gray-600">
+                <p class="text-center">
+                    <span class="text-gray-700 font-bold">
+                        335
+                    </span>
+                    文章
+                </p>
+            </div>
+            <div class="flex-1 text-center">
+                <p class="text-center">
+                    <span class="text-gray-700 font-bold">
+                        
+                            90
+                        
+                    </span>
+                    标签
+                </p>
+            </div>
+        </div>
+        <div class="px-4 pb-4 border-t border-gray-300">
+            <div class="mt-6 pb-16 lg:pb-0 w-4/5 lg:w-full mx-auto flex flex-wrap items-center justify-between text-gray-500">
+                
+                <a href="//github.com/forecho" class="hover:text-gray-900 p-1 text-2xl" target="_blank" title="GitHub"><i class="my-iconfont icon-social-github"></i></a>
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+                <a href="//instagram.com/forecho" class="hover:text-gray-900 p-1 text-2xl" target="_blank" title="Instagram"><i class="my-iconfont icon-instagram"></i></a>
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+                <a href="//twitter.com/caizhenghai" class="hover:text-gray-900 p-1 text-2xl" target="_blank" title="Twitter"><i class="my-iconfont icon-social-twitter"></i></a>
+                
+
+                
+                <a href="//douban.com/people/ipzone" class="hover:text-gray-900 p-1 text-2xl" target="_blank" title="Douban"><i class="my-iconfont icon-social-douban"></i></a>
+                
+
+                
+                <a href="/atom.xml" class="hover:text-gray-900 p-1 text-2xl" target="_blank" title="RSS"><i class="my-iconfont icon-feed"></i></a>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+    <div class="profile-ads"><div class="bg-white shadow"><img class=" object-cover w-auto mx-auto mt-6" src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424153337.png" alt="微信打赏"></div></div>
+
+
+    <div class="flex flex-col justify-between sticky top-0 pt-12 pb-4 -mt-10 text-gray-600">
+        <div class="bg-white shadow rounded p-4 mt-5">
+            
+<p class="text-base font-bold py-2 yg:pb-6 text-gray-700">文章目录</p>
+    <div class="sticky text-sm" style="top:6em;" id="menu-content">
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#引言">引言</a></li>
+    <li><a href="#为什么要用辅助函数">为什么要用辅助函数？</a></li>
+    <li><a href="#yii2-中是如何实践的">Yii2 中是如何实践的？</a></li>
+    <li><a href="#使用其他-helpers">使用其他 helpers</a></li>
+    <li><a href="#最后总结">最后总结</a></li>
+  </ul>
+</nav>
+    </div>
+
+        </div>
+    </div>
+   
+</div> 
+
+    </div>
+    
+    
+<footer class="bg-white border-t border-gray-400 shadow mt-10">	
+    <div class="container  mx-auto flex py-8">
+        <div class="w-full text-center text-gray-600 ">
+            <p>
+                &copy; 2020 <a  class="text-gray-700" href="http://39.108.170.72">Forecho&#39;s Blog By forecho </a>
+            </p>
+            
+            <p class="pt-1">
+                Powered by <a rel="nofollow noreferer noopener" href="https://gohugo.io/"  class="text-gray-700" target="_blank">Hugo</a> 
+                Theme based on <a href="https://github.com/forecho/hugo-theme-echo" class="text-gray-700" target="_blank">Echo</a>
+            </p>
+
+            <span id="busuanzi_container">
+              访客数：<span id="busuanzi_value_site_uv"></span> | 访问量 <span id="busuanzi_value_site_pv"></span>
+            </span>
+
+        </div>
+
+    </div>
+</footer>
+
+ <script>
+  window.onload = function() {
+    document.getElementById("nav-toggle").onclick = function() {
+      document.getElementById("nav-content").classList.toggle("hidden");
+    };
+
+    var donate = document.getElementById("btn-donate");
+    if (donate) {
+      donate.onclick = function() {
+        document.getElementById("donate-image").classList.remove("hidden");
+        donate.classList.add("hidden");
+      };
+    }
+
+    var hostname = window.location.hostname;
+    var divs = document.querySelectorAll('a[href^="http"]');
+    [].forEach.call(divs, function(div) {
+      url = div.getAttribute("href");
+      var domain = url
+        .replace("http://", "")
+        .replace("https://", "")
+        .split(/[/?#]/)[0];
+      if (domain !== url) {
+        div.setAttribute("target", "_blank");
+      }
+    });
+  };
+
+   
+  
+  var h = document.documentElement,
+    b = document.body,
+    st = "scrollTop",
+    sh = "scrollHeight",
+    progress = document.querySelector("#progress"),
+    scroll;
+  var scrollpos = window.scrollY;
+  var header = document.getElementById("header");
+  var navcontent = document.getElementById("nav-content");
+
+  document.addEventListener("scroll", function() {
+     
+    scroll = ((h[st] || b[st]) / ((h[sh] || b[sh]) - h.clientHeight)) * 100;
+    progress.style.setProperty("--scroll", scroll + "%");
+
+     
+    scrollpos = window.scrollY;
+
+    if (scrollpos > 10) {
+      navcontent.classList.remove("bg-gray-100");
+    } else {
+      navcontent.classList.add("bg-gray-100");
+    }
+  });
+</script>
+
+</body>
+
+</html>

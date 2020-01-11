@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>nas on Forecho&#39;s Blog</title>
+    <link>http://39.108.170.72/tags/nas.html</link>
+    <description>Recent content in nas on Forecho&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 30 Nov 2018 21:03:00 +0800</lastBuildDate>
+    
+	<atom:link href="http://39.108.170.72/tags/nas/atom.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>使用 NAS</title>
+      <link>http://39.108.170.72/use-nas.html</link>
+      <pubDate>Fri, 30 Nov 2018 21:03:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/use-nas.html</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20191105105249.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;听说 NAS 有一段时间了，双十一之前整理照片的时候，NAS 再次出现在我的视线前，当天脑子一『发热』，使用 Google 恶补了很多知识。可以备份照片、下载电影，甚至可以跑 docker，想买了。&lt;/p&gt;
+&lt;h2 id=&#34;什么是-nas&#34;&gt;什么是 NAS&lt;/h2&gt;
+&lt;p&gt;NAS 是 Network Area Storage 的缩写，即网络存储解决方案，说白了就是可以自己控制的网盘，外观就是一个可以装多个硬盘的机箱，局域网内下载传输速度很快，而且比网盘功能更强大一些。&lt;/p&gt;
+&lt;h2 id=&#34;购买方案&#34;&gt;购买方案&lt;/h2&gt;
+&lt;p&gt;使用 NAS 无非就以下几种方案：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;购买现成的 NAS ，有群晖和威联通&lt;/li&gt;
+&lt;li&gt;自己买硬件自己安装系统，甚至可以安装群晖的系统，俗称黑群晖。&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

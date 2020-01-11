@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>laravel on Forecho&#39;s Blog</title>
+    <link>http://39.108.170.72/tags/laravel.html</link>
+    <description>Recent content in laravel on Forecho&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 14 Jan 2019 15:03:00 +0800</lastBuildDate>
+    
+	<atom:link href="http://39.108.170.72/tags/laravel/atom.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Laravel 写单元测试</title>
+      <link>http://39.108.170.72/laravel-tests.html</link>
+      <pubDate>Mon, 14 Jan 2019 15:03:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/laravel-tests.html</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;新公司入职第一件事就是让我给一个用 Laravel 框架开发的项目写单元测试，我会说『当了这么多年的程序员没写过单元测试吗？』，于是我一边学习一边写，这篇文章是我写了一个月单元测试的经验分享。&lt;/p&gt;
+&lt;h2 id=&#34;单元测试&#34;&gt;单元测试&lt;/h2&gt;
+&lt;h3 id=&#34;基本的断言&#34;&gt;基本的断言&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;断言两边数据相等使用 &lt;code&gt;assertEquals($a, $a1)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;3
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;4
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;public function testComputePermission()
+{
+    $totalPermission = TCH::computePermission([PointsAccountPermissions::TRANSFER]);
+    $this-&amp;gt;assertEquals($totalPermission, PointsAccountPermissions::TRANSFER);
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;断言结果是 &lt;code&gt;true&lt;/code&gt; 使用 &lt;code&gt;assertTrue($a)&lt;/code&gt;，与之相反的是 &lt;code&gt;assertFalse($b)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;断言文件是否存在使用 &lt;code&gt;assertFileExists($path)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;断言数据库没有数据使用 &lt;code&gt;assertDatabaseMissing(&#39;user&#39;, [])&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;断言两个类一样使用 &lt;code&gt;assertSame($a, $b)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;……&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

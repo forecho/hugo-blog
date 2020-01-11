@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>效率 on Forecho&#39;s Blog</title>
+    <link>http://39.108.170.72/tags/%E6%95%88%E7%8E%87.html</link>
+    <description>Recent content in 效率 on Forecho&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 29 Jan 2016 16:36:00 +0800</lastBuildDate>
+    
+	<atom:link href="http://39.108.170.72/tags/%E6%95%88%E7%8E%87/atom.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>关于 PhpStorm 的小技巧</title>
+      <link>http://39.108.170.72/tips-about-phpstorm.html</link>
+      <pubDate>Fri, 29 Jan 2016 16:36:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/tips-about-phpstorm.html</guid>
+      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+&lt;p&gt;如果一个工具是你每天工作都必须要用的，请认真阅读官方文档，花几个小时好好研究使用技巧，这将为你以后工作带来很高的效率。&lt;/p&gt;
+&lt;p&gt;这篇文章内容其实很早就在我印象笔记里面了，今天整理出来，分享给大家。&lt;/p&gt;
+&lt;h2 id=&#34;快捷键&#34;&gt;快捷键&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;常用快捷键&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;全局搜索文件  按两下shift&lt;/li&gt;
+&lt;li&gt;显示项目类列表 alt + 1&lt;/li&gt;
+&lt;li&gt;显示方法列表  alt + 7&lt;/li&gt;
+&lt;li&gt;全局搜索类 ：ctrl+n&lt;/li&gt;
+&lt;li&gt;更新注释：alt+enter&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

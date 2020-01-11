@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.62.2" />
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="generator" content="Saber v0.11.2">
+    <meta name="author" content="forecho" />
+    <meta name="keywords" content="Hugo, theme, even" />
+    <meta name="og:site_name" content="Forecho&#39;s Blog" /><meta property="og:title" content="Yii—accessRules用法 - Forecho&#39;s Blog" />
+    <meta property="og:type" content="article" />
+    <meta property="title" content="Yii—accessRules用法 - Forecho&#39;s Blog">
+    <meta property="og:title" content="Yii—accessRules用法 - Forecho&#39;s Blog">
+    <meta property="twitter:title" content="Yii—accessRules用法 - Forecho&#39;s Blog">
+    <meta property="description" content="一、访问控制过滤器（Access Control Filter） 访问控制过滤器是检查当前用户是否能执行访问的controller action的初步授权模式。">
+    <meta property="og:description" content="一、访问控制过滤器（Access Control Filter） 访问控制过滤器是检查当前用户是否能执行访问的controller action的初步授权模式。">
+    <meta property="twitter:description" content="一、访问控制过滤器（Access Control Filter） 访问控制过滤器是检查当前用户是否能执行访问的controller action的初步授权模式。">
+    <meta property="og:type" content="article">
+    <title>Yii—accessRules用法 - Forecho&#39;s Blog</title>
+
+    <meta property="og:url" content="http://39.108.170.72/yiiaccessrules-yong-fa.html" />
+
+    
+    <meta property="og:image" content="https://avatars0.githubusercontent.com/u/1725326?s=460&amp;v=4">
+    <meta property="twitter:image" content="https://avatars0.githubusercontent.com/u/1725326?s=460&amp;v=4">
+    <link rel="shortcut icon" href="https://avatars0.githubusercontent.com/u/1725326?s=460&amp;v=4" type="image/x-png" /><link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_1607597_jhmihcvh0tm.css" />
+    <link href="/index.xml" rel="alternate" type="application/rss+xml" title="Forecho&#39;s Blog">
+    
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+</head>
+
+<body class="bg-gray-100 text-gray-900 tracking-wider leading-normal">
+
+    <nav id="header" class="bg-white fixed w-full z-10 top-0 shadow">
+
+  <div id="progress" class="h-1 z-20 top-0" style="background:linear-gradient(to right, #4dc0b5 var(--scroll), transparent 0);"></div>
+
+  <div class="w-full container mx-auto flex flex-wrap items-center justify-between my-1">
+      <div class="pl-4">
+          <a class="text-gray-900 text-base no-underline hover:no-underline font-bold text-xl"  href="/">
+              Forecho&#39;s Blog
+          </a>
+      </div>
+
+      <div class="block lg:hidden pr-4">
+          <button id="nav-toggle" class="flex items-center px-3 py-2 border rounded text-gray-500 border-gray-600 hover:text-gray-900 hover:border-teal-500 appearance-none focus:outline-none">
+              <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+          </button>
+      </div>
+
+      <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block mt-2 lg:mt-0 bg-gray-100 md:bg-transparent z-20" id="nav-content">
+          <ul class="list-reset lg:flex justify-end flex-1 items-center">
+              <li class="mr-3">
+                  <a href="/" class="inline-block py-2 px-2 text-gray-700 font-bold no-underline">首页</a>
+              </li>
+              <li class="mr-3">
+                  <a href="/posts.html" class="inline-block py-2 px-2 text-gray-700 font-bold no-underline">文章归档</a>
+              </li>
+              <li class="mr-3">
+                  <a href="/about.html" class="inline-block py-2 px-2 text-gray-700 font-bold no-underline">关于我</a>
+              </li>
+              <li class="mr-3">
+                  <a href="/friendship-links/" class="inline-block py-2 px-2 text-gray-700 font-bold no-underline">联盟链接</a>
+              </li>
+          </ul>
+      </div>
+  </div>
+</nav>
+
+    <div id="container" class="container w-full flex flex-wrap mx-auto px-2 lg:pt-12 mt-10">
+<section class="w-full lg:w-3/4 xl:w-3/4">
+
+    
+    <div class="px-8 py-6 mt-6 lg:mt-0 leading-normal rounded shadow bg-white">
+
+        
+        <div>
+    <h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-3xl">
+        <a href="http://39.108.170.72/yiiaccessrules-yong-fa.html" title="Yii—accessRules用法">Yii—accessRules用法</a>
+    </h1>
+    <p class="mb-1 text-sm text-gray-500">
+        <span title=" 2012-12-12 11:58:00 &#43;0800">
+            <i class="iconfont icon-calendar" aria-hidden="true"></i> 12 Dec 2012
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-book"></i>
+            1426 字
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-clock-o"></i>
+            3 分钟读完
+        </span>
+    </p>
+</div>
+
+
+        <div class="md:hidden">
+            
+<p class="text-base font-bold py-2 yg:pb-6 text-gray-700">文章目录</p>
+    <div class="sticky text-sm" style="top:6em;" id="menu-content">
+        <nav id="TableOfContents"></nav>
+    </div>
+
+        </div> 
+
+        <div class="post-content">
+            <p><strong>一、访问控制过滤器（Access Control Filter）</strong> 访问控制过滤器是检查当前用户是否能执行访问的controller action的初步授权模式。这种授权模式基于用户名，客户IP地址和访问类型。访问控制过滤器适用于简单的验证。需要复杂的访问控制，需要使用将要讲解到的基于角色访问控制（role-based access (RBAC)）. 在控制器（controller）里重载<code>CController::filters</code>方法设置访问过滤器来控制访问动作(看 Filter 了解更多过滤器设置信息)。</p>
+<pre><code>class PostController extends CController
+{
+......
+public function filters()
+    {
+        return array(
+            'accessControl',
+        );
+    }
+}
+</code></pre>
+<p>在上面，设置的<a href="http://www.yiiframework.com/doc/api/1.1/CController#filterAccessControl">access control</a>过滤器将应用于<code>PostController</code>里每个动作。过滤器具体的授权规则通过重载控制器的<a href="http://www.yiiframework.com/doc/api/1.1/CController#accessRules">CController::accessRules</a>方法来指定。</p>
+<pre><code>class PostController extends CController
+{
+    ......
+    public function accessRules()
+    {
+        return array(
+            array('deny',
+                'actions'=&gt;array('create', 'edit'),
+                'users'=&gt;array('?'),
+            ),
+            array('allow',
+                'actions'=&gt;array('delete'),
+                'roles'=&gt;array('admin'),
+            ),
+            array('deny',
+                'actions'=&gt;array('delete'),
+                'users'=&gt;array('*'),
+            ),
+        );
+    }
+}
+</code></pre>
+<p>上面设定了三个规则，每个用个数组表示。数组的第一个元素不是<code>'allow'</code>就是<code>'deny'</code>，其他的是名-值成对形式设置规则参数的。上面的规则这样理解：<code>create</code>和<code>edit</code>动作不能被匿名执行；<code>delete</code>动作可以被<code>admin</code>角色的用户执行；<code>delete</code>动作不能被任何人执行。 访问规则是一个一个按照设定的顺序一个一个来执行判断的。和当前判断模式（例如：用户名、角色、客户端IP、地址）相匹配的第一条规则决定授权的结果。如果这个规则是<code>allow</code>，则动作可执行；如果是<code>deny</code>，不能执行；如果没有规则匹配，动作可以执行。 为了确保某类动作在没允许情况下不被执行，设置一个匹配所有人的<code>deny</code>规则在最后，类似如下：</p>
+<pre><code>return array(
+ // ... 别的规则...
+ // 以下匹配所有人规则拒绝'delete'动作
+ array('deny',
+ 'action'=&gt;'delete',
+ ),
+ );
+</code></pre>
+<p>因为如果没有设置规则匹配动作，动作缺省会被执行。 访问规则通过如下的上下文参数设置： <a href="http://www.yiiframework.com/doc/api/1.1/CAccessRule#actions">actions</a>: 设置哪个动作匹配此规则。 <a href="http://www.yiiframework.com/doc/api/1.1/CAccessRule#users">users</a>: 设置哪个用户匹配此规则。此当前用户的<a href="http://www.yiiframework.com/doc/api/1.1/CWebUser#name">name</a> 被用来匹配. 三种设定字符在这里可以用：</p>
+<ul>
+<li>
+<p><code>*</code>: 任何用户，包括匿名和验证通过的用户。</p>
+</li>
+<li>
+<p><code>?</code>: 匿名用户。</p>
+</li>
+<li>
+<p><code>@</code>: 验证通过的用户。
+<a href="http://www.yiiframework.com/doc/api/1.1/CAccessRule#roles">roles</a>: 设定哪个角色匹配此规则。这里用到了将在后面描述的<a href="http://www.yiiframework.com/doc/guide/1.1/zh_cn/topics.auth#role-based-access-control">role-based access control</a>技术。In particular, the rule is applied if <a href="http://www.yiiframework.com/doc/api/1.1/CWebUser#checkAccess">CWebUser::checkAccess</a> returns true for one of the roles.提示，用户角色应该被设置成<code>allow</code>规则，因为角色代表能做某些事情。 <a href="http://www.yiiframework.com/doc/api/1.1/CAccessRule#ips">ips</a>: 设定哪个客户端IP匹配此规则。 <a href="http://www.yiiframework.com/doc/api/1.1/CAccessRule#verbs">verbs</a>: 设定哪种请求类型(例如：<code>GET</code>, <code>POST</code>)匹配此规则。 <strong>二、访问规则中：</strong> expression: 设定一个PHP表达式。它的值用来表明这条规则是否适用。在表达式，你可以使用一个叫<code>$user</code>的变量，它代表的是<code>Yii::app()-&gt;user</code>。 expression的具体用法：</p>
+<p>class AdminController extends CController
+{</p>
+<p>……
+public function accessRules()
+{
+return array(
+array(&lsquo;allow&rsquo;,  //允许所有人执行'login&rsquo;,&lsquo;error&rsquo;,&lsquo;index&rsquo;
+&lsquo;actions'=&gt;array(&lsquo;login&rsquo;,&lsquo;error&rsquo;,&lsquo;index&rsquo;),
+&lsquo;users'=&gt;array('<em>'),
+),
+array(&lsquo;allow&rsquo;, //允许超级管理员执行所有动作
+&lsquo;actions'=&gt;array(&lsquo;create&rsquo;,&lsquo;update&rsquo;,&lsquo;delete&rsquo;),
+&lsquo;expression'=&gt;array($this,&lsquo;isSuperAdmin&rsquo;),
+),
+array(&lsquo;allow&rsquo;,//允许普通管理员执行
+&lsquo;actions'=&gt;array(&lsquo;update&rsquo;),
+&lsquo;expression'=&gt;array($this,&lsquo;isNormalAdmin&rsquo;),    //表示调用$this(即AdminController)中的isNormalAdmin方法。
+),   <br>
+array(&lsquo;deny&rsquo;,  // deny all users
+&lsquo;users'=&gt;array('</em>'),
+),
+);
+}
+protected function isSuperAdmin($user)//判断是否是超级管理员
+{
+return ($this-&gt;loadModel($user-&gt;id)-&gt;adminAdminFlag==1);
+}
+protected function isNormalAdmin($user)//判断是否是普通管理员
+{
+return ($this-&gt;loadModel($user-&gt;id)-&gt;adminAdminFlag==0);
+}</p>
+<pre><code>public function loadModel($id)
+{
+    $model=Admin::model()-&gt;findByPk((int)$id);
+    if($model===null){
+        throw new CHttpException(404,'页面不存在');     
+    }
+    return $model;
+}
+</code></pre>
+<p>}</p>
+</li>
+</ul>
+<p>注：其中$user代表<code>Yii::app()-&gt;user</code>即登录用户。</p>
+
+
+            <hr class="bg-gray-300 mt-8">
+
+            
+<div class="pt-4">
+    <p class="text-center">
+        <button id="btn-donate" class="px-5 py-2 inline-block rounded hover:bg-red-600 bg-red-400 text-white" for="reward">打赏</button>
+    </p>
+    <div class="flex flex-auto mt-2 mx-2 hidden" id="donate-image">
+        
+        <div class="w-full px-2 my-2">
+            <div class="bg-white">
+                <img class="h-48 shadow object-cover w-auto mx-auto" src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424153510.png" alt="微信打赏">
+                <div class="text-center text-gray-500">微信打赏</div>
+            </div>
+        </div>
+
+        <div class="w-full px-2 my-2">
+            <div class=" bg-white">
+                <img class="h-48 shadow object-cover w-auto mx-auto" src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424153431.png" alt="支付宝打赏">
+                <div class="text-center text-gray-500">支付宝打赏</div>
+            </div>
+        </div> 
+
+    </div>
+</div>
+
+            
+<div class="border-l-4 border-red-400 mx-auto bg-gray-200 text-gray-700 mt-5">
+    <div class="pt-2 copyright">
+        <ul class="list-none">
+            <li>
+                <strong>原文作者：</strong>
+                <a rel="author" href="http://39.108.170.72">forecho</a>
+            </li>
+            <li style="word-break:break-all">
+                <strong>原文链接：</strong>
+                <a href="http://39.108.170.72/yiiaccessrules-yong-fa.html">http://39.108.170.72/yiiaccessrules-yong-fa.html</a>
+            </li>
+            <li>
+                <strong>版权声明：</strong>本作品采用
+                <a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/deed.zh">署名-非商业性使用 4.0 国际 (CC BY-NC 4.0)</a>进行许可，非商业转载请注明出处（作者，原文链接），商业转载请联系作者获得授权。
+            </li>
+        </ul>
+    </div>
+ 
+</div>
+
+
+        </div>
+
+        
+        
+
+         
+        
+            <p class="text-gray-500 text-sm text-right pt-1">
+                <span id="busuanzi_container_page_pv">
+                    本文有 <span id="busuanzi_value_page_pv"></span> 次阅读
+                </span>
+            </p>
+        
+
+    </div>
+    
+
+    
+    <hr class="bg-gray-300 my-10">
+
+    
+        
+        
+        
+
+        
+
+
+<div class="p-8 mt-6 lg:mt-0 rounded shadow bg-white">
+    <h2 class="font-sans font-bold break-normal text-gray-700 px-2 pb-3 text-xl">相关文章</h2>
+        
+        <li><a href="/yi-ge-hen-jian-dan-de-jquery-tu-pian-zi-dong-qie-huan.html" class="underline text-orange-600">一个很简单的jquery图片自动切换</a></li>
+        
+        <li><a href="/yii-guan-yu-deng-lu-biao-dan-han-hua-cao-zuo.html" class="underline text-orange-600">Yii关于登录表单汉化操作</a></li>
+        
+        <li><a href="/yii-zen-yang-xiu-gai-zi-dong-tiao-zhuan-dao-deng-lu-ye-mian.html" class="underline text-orange-600">yii怎样修改自动跳转到登录页面？</a></li>
+        
+        <li><a href="/yii-guan-yu-messages-duo-yu-yan-qie-huan.html" class="underline text-orange-600">Yii关于messages，多语言切换</a></li>
+        
+        <li><a href="/yii-kuang-jia-zhong-shi-yong-bootstrap.html" class="underline text-orange-600">Yii框架中使用bootstrap</a></li>
+        
+</div>
+
+
+    
+
+</section>
+
+
+<div class="hidden xl:text-sm xl:block xl:w-1/4 xl:px-6 ">
+
+    <div class="lg:w-full mx-auto items-center justify-between">
+    <div class="bg-white shadow rounded overflow-hidden">
+        <div class="bg-cover bg-auto mx-auto w-32 h-32 mt-5 rounded-full" style="background-image: url('https://avatars0.githubusercontent.com/u/1725326?s=460&amp;v=4')"> </div>
+        
+        <div class="p-4">
+            <p class="text-2xl text-center text-gray-900 pb-2">forecho</p>
+            <p class="text-sm text-gray-700">7年开发经验，寻求技术 Leader 工作机会。Wechat: ipzone</p>
+        </div>
+        <div class="flex p-4 border-t text-sm border-gray-300 text-gray-700">
+            <div class="flex-1 border-r border-gray-600">
+                <p class="text-center">
+                    <span class="text-gray-700 font-bold">
+                        335
+                    </span>
+                    文章
+                </p>
+            </div>
+            <div class="flex-1 text-center">
+                <p class="text-center">
+                    <span class="text-gray-700 font-bold">
+                        
+                            90
+                        
+                    </span>
+                    标签
+                </p>
+            </div>
+        </div>
+        <div class="px-4 pb-4 border-t border-gray-300">
+            <div class="mt-6 pb-16 lg:pb-0 w-4/5 lg:w-full mx-auto flex flex-wrap items-center justify-between text-gray-500">
+                
+                <a href="//github.com/forecho" class="hover:text-gray-900 p-1 text-2xl" target="_blank" title="GitHub"><i class="my-iconfont icon-social-github"></i></a>
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+                <a href="//instagram.com/forecho" class="hover:text-gray-900 p-1 text-2xl" target="_blank" title="Instagram"><i class="my-iconfont icon-instagram"></i></a>
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+                <a href="//twitter.com/caizhenghai" class="hover:text-gray-900 p-1 text-2xl" target="_blank" title="Twitter"><i class="my-iconfont icon-social-twitter"></i></a>
+                
+
+                
+                <a href="//douban.com/people/ipzone" class="hover:text-gray-900 p-1 text-2xl" target="_blank" title="Douban"><i class="my-iconfont icon-social-douban"></i></a>
+                
+
+                
+                <a href="/atom.xml" class="hover:text-gray-900 p-1 text-2xl" target="_blank" title="RSS"><i class="my-iconfont icon-feed"></i></a>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+    <div class="profile-ads"><div class="bg-white shadow"><img class=" object-cover w-auto mx-auto mt-6" src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424153337.png" alt="微信打赏"></div></div>
+
+
+    <div class="flex flex-col justify-between sticky top-0 pt-12 pb-4 -mt-10 text-gray-600">
+        <div class="bg-white shadow rounded p-4 mt-5">
+            
+<p class="text-base font-bold py-2 yg:pb-6 text-gray-700">文章目录</p>
+    <div class="sticky text-sm" style="top:6em;" id="menu-content">
+        <nav id="TableOfContents"></nav>
+    </div>
+
+        </div>
+    </div>
+   
+</div> 
+
+    </div>
+    
+    
+<footer class="bg-white border-t border-gray-400 shadow mt-10">	
+    <div class="container  mx-auto flex py-8">
+        <div class="w-full text-center text-gray-600 ">
+            <p>
+                &copy; 2020 <a  class="text-gray-700" href="http://39.108.170.72">Forecho&#39;s Blog By forecho </a>
+            </p>
+            
+            <p class="pt-1">
+                Powered by <a rel="nofollow noreferer noopener" href="https://gohugo.io/"  class="text-gray-700" target="_blank">Hugo</a> 
+                Theme based on <a href="https://github.com/forecho/hugo-theme-echo" class="text-gray-700" target="_blank">Echo</a>
+            </p>
+
+            <span id="busuanzi_container">
+              访客数：<span id="busuanzi_value_site_uv"></span> | 访问量 <span id="busuanzi_value_site_pv"></span>
+            </span>
+
+        </div>
+
+    </div>
+</footer>
+
+ <script>
+  window.onload = function() {
+    document.getElementById("nav-toggle").onclick = function() {
+      document.getElementById("nav-content").classList.toggle("hidden");
+    };
+
+    var donate = document.getElementById("btn-donate");
+    if (donate) {
+      donate.onclick = function() {
+        document.getElementById("donate-image").classList.remove("hidden");
+        donate.classList.add("hidden");
+      };
+    }
+
+    var hostname = window.location.hostname;
+    var divs = document.querySelectorAll('a[href^="http"]');
+    [].forEach.call(divs, function(div) {
+      url = div.getAttribute("href");
+      var domain = url
+        .replace("http://", "")
+        .replace("https://", "")
+        .split(/[/?#]/)[0];
+      if (domain !== url) {
+        div.setAttribute("target", "_blank");
+      }
+    });
+  };
+
+   
+  
+  var h = document.documentElement,
+    b = document.body,
+    st = "scrollTop",
+    sh = "scrollHeight",
+    progress = document.querySelector("#progress"),
+    scroll;
+  var scrollpos = window.scrollY;
+  var header = document.getElementById("header");
+  var navcontent = document.getElementById("nav-content");
+
+  document.addEventListener("scroll", function() {
+     
+    scroll = ((h[st] || b[st]) / ((h[sh] || b[sh]) - h.clientHeight)) * 100;
+    progress.style.setProperty("--scroll", scroll + "%");
+
+     
+    scrollpos = window.scrollY;
+
+    if (scrollpos > 10) {
+      navcontent.classList.remove("bg-gray-100");
+    } else {
+      navcontent.classList.add("bg-gray-100");
+    }
+  });
+</script>
+
+</body>
+
+</html>

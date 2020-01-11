@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Forecho&#39;s Blog</title>
+    <link>http://39.108.170.72/posts.html</link>
+    <description>Recent content in Posts on Forecho&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 02 Jan 2020 18:48:00 +0800</lastBuildDate>
+    
+	<atom:link href="http://39.108.170.72/posts/atom.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Octopress 迁移到 Hugo</title>
+      <link>http://39.108.170.72/octopress-migrate-to-hugo.html</link>
+      <pubDate>Thu, 02 Jan 2020 18:48:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/octopress-migrate-to-hugo.html</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;终于还是受不了 Octopress 了，准备迁移到 &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;，受不了 Octopress 是因为：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;markdown code 语法支持不好，很多时候莫名其妙的 Build 失败，让人抓狂。（最主要原因）&lt;/li&gt;
+&lt;li&gt;生成速度太慢，目前生成一次要2分多钟了&lt;/li&gt;
+&lt;li&gt;Octopress 项目已经没人维护了&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>Mac 利器 Hammerspoon 使用指南</title>
+      <link>http://39.108.170.72/use-hammerspoon.html</link>
+      <pubDate>Thu, 26 Dec 2019 21:48:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/use-hammerspoon.html</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;今天要给大家分享的是一款 Mac 利器 Hammerspoon，通过编写 Lua 脚本可以让这款软件实现以下功能&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;管理窗口大小以及位置&lt;/li&gt;
+&lt;li&gt;软件启动器&lt;/li&gt;
+&lt;li&gt;给特定的软件设置中/英文输入法&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;你甚至可以通过编写代码实现&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;休眠状态关闭蓝牙功能&lt;/li&gt;
+&lt;li&gt;连上公司 Wi-Fi 自动静音&lt;/li&gt;
+&lt;li&gt;……&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;接下来详细讲解如何实现以上功能。不会 Lua？没关系，只要你有一点点编程经验，代码看起来都不是问题。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>在家健身有 Switch 就够了</title>
+      <link>http://39.108.170.72/fitness-at-home.html</link>
+      <pubDate>Mon, 16 Dec 2019 22:48:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/fitness-at-home.html</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/EWJChJ.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;上次写了篇&lt;a href=&#34;https://blog.forecho.com/buy-nintendo-switch.html&#34;&gt;文章&lt;/a&gt;分享了我购买 Switch 的经历以及简单测评了一下有氧拳击、马里奥赛车 8、奥德赛三个游戏。&lt;/p&gt;
+&lt;p&gt;这之后任天堂又发售了一款非常火爆的健身游戏 - 《健身环大冒险》，我已经玩了快半个月了，今天这篇文章我主要就分享这款游戏的使用体验。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>第九站：武功山两天反穿徒步</title>
+      <link>http://39.108.170.72/wugong-mountain-walking-tour.html</link>
+      <pubDate>Sun, 24 Nov 2019 22:48:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/wugong-mountain-walking-tour.html</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;这次调休一个星期，最主要的是想去武功山，但是武功山最多只能玩 3 天，所以才有了前面的佛山自驾游。那个是开胃菜（为了练车），这个才是这次的主菜。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;旅行主题是：徒步&lt;/li&gt;
+&lt;li&gt;时间是：3 天 2 晚&lt;/li&gt;
+&lt;li&gt;两人总共花费：2790，其中交通费花费了 2321&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>第八站：佛山自驾游</title>
+      <link>http://39.108.170.72/foshan-self-driving-tour.html</link>
+      <pubDate>Sun, 24 Nov 2019 19:48:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/foshan-self-driving-tour.html</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;之前加班有调休，半年内有效，在即将过期之前我们计划了这次旅行。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;旅行主题是：休闲、自驾&lt;/li&gt;
+&lt;li&gt;时间是：3 天 2 晚&lt;/li&gt;
+&lt;li&gt;两人总共花费：2285，其中交通费就占了 900 多。&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>双十一值得购买商品推荐</title>
+      <link>http://39.108.170.72/worth-buying-goods.html</link>
+      <pubDate>Thu, 07 Nov 2019 22:48:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/worth-buying-goods.html</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;一年一度的购物狂欢节双十一又到了，往年都是快 11 月份才开始，今天感觉过完国庆节之后就开始预热了。&lt;/p&gt;
+&lt;p&gt;废话不多说，今天这篇文章我主要是分享最近两年我在使用，并且觉得好用的产品推荐。如果觉得需要，可以考虑加入购物车。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>【深度阅读 第二季 01】金融其实很简单</title>
+      <link>http://39.108.170.72/readeep-s02e01.html</link>
+      <pubDate>Fri, 01 Nov 2019 21:03:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/readeep-s02e01.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://book.douban.com/subject/30218972/&#34;&gt;&lt;img src=&#34;https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/1zkQDk.png&#34; alt=&#34;《陈志武金融通识课》&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;一段话说明这本书主要讲什么&#34;&gt;一段话说明『这本书主要讲什么？』&lt;/h2&gt;
+&lt;p&gt;作者避免抽象的理论和数学模型，使用通俗易懂的方式讲解金融的逻辑。包括使用金融的视角去理解历史、分析文化的起源。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>在网上配眼镜是一种什么体验</title>
+      <link>http://39.108.170.72/talk-about-the-experience-of-online-glasses.html</link>
+      <pubDate>Thu, 31 Oct 2019 22:48:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/talk-about-the-experience-of-online-glasses.html</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;先说说自己近视的情况。14 年的时候线下配的眼镜，直接在美团上搜索了一家店铺，有优惠就跑去了。一个比较小的眼镜店，自己的眼睛近视不深，那个时候一只眼 100 度，另一只眼睛 150 度。当时配眼镜花了半个多小时就搞定了，最后花了 200 块钱左右。而平常我只是在上班和看电视的时候才带。&lt;/p&gt;
+&lt;p&gt;没想到这眼镜一戴就是 4 年，去年的时候我发现这眼镜越来越不清晰了，感觉自己视力下降了，然后年初的时候考虑换一副眼镜。之前在网上看到有人说在网上配眼镜很划算，再加上自己在大众上看了一圈配眼镜店没找到合适的，于是想体验一把网上配眼镜。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>最终我还是买了 Nintendo Switch</title>
+      <link>http://39.108.170.72/buy-nintendo-switch.html</link>
+      <pubDate>Wed, 23 Oct 2019 22:48:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/buy-nintendo-switch.html</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20191023170804.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;经常看我博客的朋友可能知道我在去年春节之前租了一个 Switch 回家玩了，为此我还特意写了一篇文章 &lt;a href=&#34;https://blog.forecho.com/rent-a-switch-to-play.html&#34;&gt;《租 Switch 玩》&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;半个月前在兔子的『要求』下我最终还是买了一台 Switch，这篇文章就讲讲购买经验，以及继续分享玩过的三个游戏体验。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>重学 Vim</title>
+      <link>http://39.108.170.72/re-study-vim.html</link>
+      <pubDate>Tue, 08 Oct 2019 22:48:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/re-study-vim.html</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;2013 年的时候我才开始接触 Vim，简单学了一下，也没用起来，后来只记得普通模式以及怎么进入插入模式，然后就是保存退出这几个命令了。&lt;/p&gt;
+&lt;p&gt;直到最近买了一个 HHKB 键盘以及发现使用 Vim 编码效率要高很多，所以我决定重拾 Vim，为了加强自己的记忆，于是我就整理了这篇文章。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>聊聊 9 月份的一些『节点』</title>
+      <link>http://39.108.170.72/talk-about-some-things-in-september.html</link>
+      <pubDate>Mon, 30 Sep 2019 22:48:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/talk-about-some-things-in-september.html</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;又到了国庆的时候了，时间过得真快，截止到现在我还没确定用什么方式给祖国庆生。去年的国庆是带着父母去兔子家提亲。&lt;/p&gt;
+&lt;p&gt;好了，废话不多说，下面进入主题，聊聊这个月的一些『节点』。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>使用 HHKB</title>
+      <link>http://39.108.170.72/use-hhkb.html</link>
+      <pubDate>Wed, 11 Sep 2019 21:48:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/use-hhkb.html</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;最近干了两件事情，让我的工作效率立马变得很慢了:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;一是换了一把键盘，买了 HHKB Pro2。之前一直在用酷冷至尊的烈焰枪87茶轴键盘，换成 HHKB 之后键位好不习惯，感觉要重新练习打字了。😢&lt;/li&gt;
+&lt;li&gt;二是把所有编辑器都安装了 vim 插件，开启了 vim 模式，甚至上 Chrome 浏览器都安装了 &lt;a href=&#34;https://github.com/1995eaton/chromium-vim&#34;&gt;cVim&lt;/a&gt; 扩展，强迫自己学习 Vim。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这篇文章主要是记录自己习惯 HHKB 的历程，希望对大家有用。之后再写篇文章记录重拾 Vim 的经验。 本片文章适用于 Mac 用户。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>函数式编程初探</title>
+      <link>http://39.108.170.72/a-preliminary-study-on-functional-programming.html</link>
+      <pubDate>Thu, 29 Aug 2019 21:48:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/a-preliminary-study-on-functional-programming.html</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;h2 id=&#34;什么是函数式编程&#34;&gt;什么是函数式编程&lt;/h2&gt;
+&lt;p&gt;函数式编程是是一种编程范式，它将计算机运算视为函数运算，并且避免使用程序状态以及易变对象。其中，λ演算（lambda calculus）为该语言最重要的基础。而且，λ演算的函数可以接受函数当作输入（引数）和输出（传出值）。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>参加 OpenResty 技术沙龙活动</title>
+      <link>http://39.108.170.72/participate-in-the-openresty-technical-salon.html</link>
+      <pubDate>Sat, 17 Aug 2019 21:48:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/participate-in-the-openresty-technical-salon.html</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://i.loli.net/2019/08/19/MnqFwm5hd4GQEAK.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;起因是公司另外一个项目组老大说，章亦春（下文简称春哥）最近回国，他可以请春哥来公司做个小分享会。之前就对春哥略有耳闻，这次可以见他本人，也是难得的机会。&lt;/p&gt;
+&lt;p&gt;前两天听完春哥在公司的分享，两个小时他讲了很多他的编程经验和经历，听完收益很大，但是两个小时根本不够他讲，我也没听过瘾，于是又报名了他的&lt;a href=&#34;https://www.huodongxing.com/event/7502793207200&#34;&gt;《OpenResty 2019 深圳技术沙龙》&lt;/a&gt;活动，又跑去听了他讲了 5 个小时。&lt;/p&gt;
+&lt;p&gt;这篇文章我主要是分享一下他分享的几个点（仅限于我能理解和认为的），以及我的收获。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;如果你还不知道春哥是谁的话，可以先读读这篇文章&lt;a href=&#34;http://www.ituring.com.cn/article/504549&#34;&gt;《从抄书到开源之巅：章亦春的程序人生》&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>MWS 开发 - 产品上传篇</title>
+      <link>http://39.108.170.72/mws-product.html</link>
+      <pubDate>Thu, 08 Aug 2019 22:58:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/mws-product.html</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;上次我们讲了 &lt;a href=&#34;https://blog.forecho.com/mws-order.html&#34;&gt;MWS 与订单相关的开发&lt;/a&gt;，这次我们就来讲如何通过 MWS 接口上传产品。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>GetYii 是如何防止垃圾内容</title>
+      <link>http://39.108.170.72/how-does-getyii-prevent-spam.html</link>
+      <pubDate>Tue, 30 Jul 2019 22:58:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/how-does-getyii-prevent-spam.html</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;4 年多前 &lt;a href=&#34;https://www.yiiframework.com/&#34;&gt;Yii&lt;/a&gt; 推出了 2.0 测试版，正好赶上年底，工作不忙，于是我抱着学习的态度写了一个开源论坛，那就是 &lt;a href=&#34;https://github.com/iiyii/getyii&#34;&gt;GetYii&lt;/a&gt;。虽然后来没怎么维护了，但是还是会每天去逛逛。&lt;/p&gt;
+&lt;p&gt;最近发现有人在 GetYii 上发垃圾内容，灰产广告。这就不能忍了，这篇文章我就分享一下我是如何与他们『斗争』的。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>MWS 开发 - 订单篇</title>
+      <link>http://39.108.170.72/mws-order.html</link>
+      <pubDate>Mon, 08 Jul 2019 22:58:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/mws-order.html</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;最近这几个月都在帮一个朋友在开发亚马逊 ERP 系统，使用了 &lt;a href=&#34;http://docs.developer.amazonservices.com/en_US/dev_guide/index.html&#34;&gt;MWS 接口&lt;/a&gt;，自己一路摸索，花了不少时间和精力，现在想把这些经验记录分享出来，让大家少走一些弯路。&lt;/p&gt;
+&lt;p&gt;这将是一系列文章，本篇主要讲与订单相关的接口。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Bose QC30 VS AirPods</title>
+      <link>http://39.108.170.72/bose-qc30-vs-airpods.html</link>
+      <pubDate>Wed, 26 Jun 2019 22:58:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/bose-qc30-vs-airpods.html</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190703175829.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;618 在&lt;a href=&#34;https://www.smzdm.com/&#34;&gt;色魔张大妈&lt;/a&gt;上看到之前一直项目的 Bose QC30 降噪耳机最低价了，虽然是在拼多多上，但还是心动了，成功说服了兔子之后就下单了。&lt;/p&gt;
+&lt;p&gt;这篇文章我就来谈谈自己在使用 AirPods 和  Bose QC30 的感受，希望对你有帮助。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>年中总结</title>
+      <link>http://39.108.170.72/2019-mid-year-summary.html</link>
+      <pubDate>Mon, 17 Jun 2019 22:58:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/2019-mid-year-summary.html</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;最近一阵子太忙了，今天终于有时间来更新博客了。今天要写的就是年中总结，回顾一下这半年来的目标，顺便说说近况。&lt;/p&gt;
+&lt;h2 id=&#34;总结&#34;&gt;总结&lt;/h2&gt;
+&lt;h3 id=&#34;健身&#34;&gt;健身&lt;/h3&gt;
+&lt;p&gt;除了端午节出了一趟门之外都有在坚持早上运动，基本上能保持每周运动至少 3 次，每次 30 分钟以上。运动频率有点高，一度导致早上没时间看书了。&lt;/p&gt;
+&lt;p&gt;自从 17 年年底买了个体脂称，都有计划一个星期称一次，一直到去年 10 月忙着结婚的事情就没称重了，之前的体重也一直保持在 61.5kg~63.5kg 之间，感觉没啥用处。后来再过 5 个月，也就是今年 3 月份再去称重的时候，发现自己不到 59kg 了，当时第一反应是体脂称不准了，还去找客服询问了解决办法。结果用了客服提供的办法之后还是那样，正当我对体脂称死心的时候，我去了家附近药店门口的体重秤称了一下，发现还真是 59kg 了，好吧，我错怪了体脂称，😭。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Docker 使用定时任务</title>
+      <link>http://39.108.170.72/docker-use-cron.html</link>
+      <pubDate>Mon, 27 May 2019 10:58:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/docker-use-cron.html</guid>
+      <description>&lt;h2 id=&#34;使用定时任务&#34;&gt;使用定时任务&lt;/h2&gt;
+&lt;p&gt;在宿主主机使用 &lt;code&gt;crontab -e&lt;/code&gt; 添加如下示例命令就可以了，非常简单：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;*/15 * * * * docker exec laradock_workspace_1 php /var/www/erp/yii sync/order &amp;gt;&amp;gt; /tmp/out-docker.log 2&amp;gt;&amp;amp;1
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;说明：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;*/15 * * * *&lt;/code&gt; 代表 15 分钟执行一次&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;gt;&amp;gt; /tmp/out-docker.log 2&amp;gt;&amp;amp;1&lt;/code&gt; 代表把命令的输出结果输入到 &lt;code&gt;/tmp/out-docker.log&lt;/code&gt; 文件中。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;需要特别说明的是：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;以往我们进入一个 Docker 终端都带 &lt;code&gt;-it&lt;/code&gt; 参数，如进入 &lt;code&gt;laradock_workspace_1&lt;/code&gt; 容器的命令是 &lt;code&gt;docker exec -it laradock_workspace_1&lt;/code&gt;，但是定时任务的时候不需要这个参数。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;原因是加了 &lt;code&gt;-it&lt;/code&gt; 就要开启了一个终端，而计划任务是无法进入任何终端的。&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

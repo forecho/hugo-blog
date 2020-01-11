@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>travis-ci on Forecho&#39;s Blog</title>
+    <link>http://39.108.170.72/tags/travis-ci.html</link>
+    <description>Recent content in travis-ci on Forecho&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 21 Jul 2015 17:25:00 +0800</lastBuildDate>
+    
+	<atom:link href="http://39.108.170.72/tags/travis-ci/atom.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Octopress 结合 github 和 travis-ci 实现自动更新博客</title>
+      <link>http://39.108.170.72/octopress-and-travis-ci.html</link>
+      <pubDate>Tue, 21 Jul 2015 17:25:00 +0800</pubDate>
+      
+      <guid>http://39.108.170.72/octopress-and-travis-ci.html</guid>
+      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+&lt;p&gt;这么久没更新博客了，一是因为 Octopress 虽然在自己的  MacBook 搭建起来了，但是工作电脑还没有，最主要的是工作电脑是 Windows 原来安装 Octopress 本身就是一件蛋疼的事情。对于一个懒人的我来说，一直想找一个自动生成静态博客并且会自动发布的解决方案，差点都准备放弃 Octopress 了，直到今天上午这种方案被我找到，本来以为最多一上午能搞定，没想到花费了我一天时间。&lt;/p&gt;
+&lt;h2 id=&#34;实现&#34;&gt;实现&lt;/h2&gt;
+&lt;p&gt;主要是利用 travis-ci 提供的持续集成服务实现的，主要分三步就搞定：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;用 github 登录&lt;a href=&#34;https://travis-ci.org/&#34;&gt;Travis-CI&lt;/a&gt;,然后开启你要使用集成服务的项目。&lt;/li&gt;
+&lt;li&gt;添加 &lt;code&gt;.travis.yml&lt;/code&gt; 文件（octopress 默认就有这个文件，我们修改就可以了）。&lt;/li&gt;
+&lt;li&gt;只要配置通过，当你 &lt;code&gt;git push&lt;/code&gt; 的时候就会自动触发 travis-ci，后面的工作就全自动了。&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
