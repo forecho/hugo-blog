@@ -53,7 +53,7 @@ rssFullContent = true
 uglyURLs = true
 busuanzi = true # 是否使用不蒜子统计站点访问量
 staticCDNPrefix = "https://cdn.bootcss.com/font-awesome/5.11.2"
-extraHead = ''
+extraHead = '<meta name="baidu-site-verification" content="WuHyHeOJtJ" />'
 postAds = ""
 profileAds = '<div class="bg-white shadow"><img class=" object-cover w-auto mx-auto mt-6" src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424153337.png" alt="微信打赏"></div>'
 
