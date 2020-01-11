@@ -1,7 +1,7 @@
 ---
 title: "关于我"
 date: 2020-01-02T18:04:32+08:00
-draft: true
+draft: false
 ---
 
 ## 个人信息
