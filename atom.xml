@@ -280,6 +280,69 @@ git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/anan
     </item>
     
     <item>
+      <title>关于我</title>
+      <link>https://blog.forecho.com/about.html</link>
+      <pubDate>Thu, 02 Jan 2020 18:04:32 +0800</pubDate>
+      
+      <guid>https://blog.forecho.com/about.html</guid>
+      
+        <description>&lt;h2 id=&#34;个人信息&#34;&gt;个人信息&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;forecho&lt;/li&gt;
+&lt;li&gt;大专/武汉交通职业学院电子信息工程系&lt;/li&gt;
+&lt;li&gt;工作年限：6年+&lt;/li&gt;
+&lt;li&gt;技术博客：&lt;a href=&#34;https://blog.forecho.com&#34;&gt;https://blog.forecho.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Github: &lt;a href=&#34;http://github.com/forecho&#34;&gt;http://github.com/forecho&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Email: caizhenghai[@]gmail.com&lt;/li&gt;
+&lt;li&gt;职位：开发工程师&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;开源项目和作品&#34;&gt;开源项目和作品&lt;/h2&gt;
+&lt;h3 id=&#34;开源项目&#34;&gt;开源项目&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/iiYii/getyii&#34;&gt;GetYii&lt;/a&gt;：自豪的采用 Yii2 开发的技术开源社区。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/forecho/readeep&#34;&gt;readeep&lt;/a&gt; : 主要是一个基于微信开发的后台管理系统。使用 Yii1开发。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://github.com/forecho/bizui&#34;&gt;bizui&lt;/a&gt; : 一个分享视频类似 Hacker News 网站，基于 Yii1开发。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/forecho/WeChatRSS&#34;&gt;WeChatRSS&lt;/a&gt; : 根据微信帐号爬取微信搜狗的文章，基于 Python 的爬虫项目。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;开源组织&#34;&gt;开源组织&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/yii2-chinesization&#34;&gt;Yii2-中文化&lt;/a&gt;：一个翻译组织&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/yiier&#34;&gt;Yiier&lt;/a&gt;：Yii2 China Group&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;技能清单&#34;&gt;技能清单&lt;/h2&gt;
+&lt;p&gt;以下均为我熟练使用的技能&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Web开发：PHP/Python/Linux&lt;/li&gt;
+&lt;li&gt;Web框架：CodeIgniter/Yii/CakePHP&lt;/li&gt;
+&lt;li&gt;前端框架：Bootstrap/jQuery&lt;/li&gt;
+&lt;li&gt;数据库相关：MySQL/PDO&lt;/li&gt;
+&lt;li&gt;版本管理、文档和自动化部署工具：Svn/Git/Composer&lt;/li&gt;
+&lt;li&gt;云和开放平台：微信公众号开放平台&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;喜欢看的书&#34;&gt;喜欢看的书&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;人月神话&lt;/li&gt;
+&lt;li&gt;软件随想录&lt;/li&gt;
+&lt;li&gt;黑客与画家&lt;/li&gt;
+&lt;li&gt;高效能程序员的修炼&lt;/li&gt;
+&lt;li&gt;重来&lt;/li&gt;
+&lt;li&gt;暗时间&lt;/li&gt;
+&lt;li&gt;智识分子&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;更多关于我&#34;&gt;更多关于我&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/caizhenghai&#34;&gt;twitter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.instagram.com/forecho/&#34;&gt;instagram&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;微信公众号&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424163739.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;关于关闭博客评论&#34;&gt;关于关闭博客评论&lt;/h2&gt;
+&lt;p&gt;2016-09-22 优化了一下博客的访问速度，同时为了访问速度暂时去掉了 disqus 文章评论功能。不过好像去掉这个功能也没什么负面影响，因为最近1年都没人评论我的博客了，说出来都是泪 ಥ_ಥ 。如果真的有人想发布评论的话，可以通过本页面的邮件联系我。&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
       <title>Mac 利器 Hammerspoon 使用指南</title>
       <link>https://blog.forecho.com/use-hammerspoon.html</link>
       <pubDate>Thu, 26 Dec 2019 21:48:00 +0800</pubDate>
@@ -2847,83 +2910,6 @@ $client-&amp;gt;setDeliveryState([
 &lt;p&gt;自己带饭，不仅干净又好吃而且还省钱，唯一有点难的就是在买菜的时候不知道买啥。&lt;/p&gt;
 &lt;h2 id=&#34;最后&#34;&gt;最后&lt;/h2&gt;
 &lt;p&gt;马上就是 618 了，再这个『节日』来临之际，反（tu）思（cao）一下自己前半年的生活状态，为了去年制定的目标在年终的时候不至于那么难堪。&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Docker 使用定时任务</title>
-      <link>https://blog.forecho.com/docker-use-cron.html</link>
-      <pubDate>Mon, 27 May 2019 10:58:00 +0800</pubDate>
-      
-      <guid>https://blog.forecho.com/docker-use-cron.html</guid>
-      
-        <description>&lt;h2 id=&#34;使用定时任务&#34;&gt;使用定时任务&lt;/h2&gt;
-&lt;p&gt;在宿主主机使用 &lt;code&gt;crontab -e&lt;/code&gt; 添加如下示例命令就可以了，非常简单：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
-&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
-&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
-&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;*/15 * * * * docker exec laradock_workspace_1 php /var/www/erp/yii sync/order &amp;gt;&amp;gt; /tmp/out-docker.log 2&amp;gt;&amp;amp;1
-&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;说明：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;*/15 * * * *&lt;/code&gt; 代表 15 分钟执行一次&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;&amp;gt;&amp;gt; /tmp/out-docker.log 2&amp;gt;&amp;amp;1&lt;/code&gt; 代表把命令的输出结果输入到 &lt;code&gt;/tmp/out-docker.log&lt;/code&gt; 文件中。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;需要特别说明的是：&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;以往我们进入一个 Docker 终端都带 &lt;code&gt;-it&lt;/code&gt; 参数，如进入 &lt;code&gt;laradock_workspace_1&lt;/code&gt; 容器的命令是 &lt;code&gt;docker exec -it laradock_workspace_1&lt;/code&gt;，但是定时任务的时候不需要这个参数。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;原因是加了 &lt;code&gt;-it&lt;/code&gt; 就要开启了一个终端，而计划任务是无法进入任何终端的。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&#34;解决定时任务无法工作&#34;&gt;解决定时任务无法工作&lt;/h2&gt;
-&lt;p&gt;定时任务如果没按照我们预期的工作，往往很难排查，但是我们可以通过以下几种方式来快速的定位问题：&lt;/p&gt;
-&lt;h3 id=&#34;开启系统-cron-日志&#34;&gt;开启系统 cron 日志&lt;/h3&gt;
-&lt;p&gt;修改系统日志配置信息：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
-&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
-&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
-&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;sudo vim /etc/rsyslog.d/50-default.conf
-&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;将 cron 前面的注释符去掉，完成之后的代码如下：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
-&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
-&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
-&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;cron.*  /var/log/cron.log
-&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;重启 rsyslog&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
-&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
-&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;3
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
-&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;color:#09f;font-style:italic&#34;&gt;#sudo /etc/init.d/rsyslog restart&lt;/span&gt;
-sudo service rsyslog restart
-sudo service cron restart
-&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;然后通过查看 cron 日志文件确认定时任务是否执行：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
-&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
-&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
-&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;sudo tail -n &lt;span style=&#34;color:#f60&#34;&gt;50&lt;/span&gt; /var/log/cron.log
-&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;h3 id=&#34;命令必须要有输出结果&#34;&gt;命令必须要有输出结果&lt;/h3&gt;
-&lt;p&gt;在我们写脚本的时候，无论成功或者失败都要养成写输出文字的习惯，这样我们就可以方便的使用 &lt;code&gt;&amp;gt;&amp;gt; /tmp/out-docker.log 2&amp;gt;&amp;amp;1&lt;/code&gt; 的方式把输出结果输入一个日志文件中，我们通过查看这个日志文件进一步确认定时任务的结果。&lt;/p&gt;
-&lt;h2 id=&#34;最后&#34;&gt;最后&lt;/h2&gt;
-&lt;p&gt;本篇文章主要分享了自己再使用 Docker ，在配置定时任务所踩过的坑，希望对你有用。&lt;/p&gt;</description>
       
     </item>
     
