@@ -23,7 +23,7 @@ deploy:
   github-token: $GITHUB_TOKEN # 重要，$GITHUB_TOKEN是变量，需要在GitHub上申请、再到配置到Travis
   email: caizhenghai@gmail.com
   name: forecho
-  fqdn: # 如果是自定义域名，此处要填
+#   fqdn: # 如果是自定义域名，此处要填
   keep-history: true # 是否保持target-branch分支的提交记录
   on:
     branch: master # 博客源码的分支
