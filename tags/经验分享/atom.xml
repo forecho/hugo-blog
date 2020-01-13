@@ -117,6 +117,15 @@
     </item>
     
     <item>
+      <title>用时不到3个月拿到深圳户口</title>
+      <link>https://blog.forecho.com/take-the-shenzhen-account-in-less-than-3-months.html</link>
+      <pubDate>Sun, 15 Jul 2018 16:44:00 +0800</pubDate>
+      
+      <guid>https://blog.forecho.com/take-the-shenzhen-account-in-less-than-3-months.html</guid>
+      <description>文章最新地址： https://blog.forecho.com/take-the-shenzhen-account-in-less-than-3-months.html</description>
+    </item>
+    
+    <item>
       <title>如何培养读书习惯？</title>
       <link>https://blog.forecho.com/how-to-cultivate-reading-habits.html</link>
       <pubDate>Mon, 25 Sep 2017 15:12:00 +0800</pubDate>
@@ -187,6 +196,15 @@ $ cp ~/dehydrated/docs/examples/domains.txt /etc/dehydrated/domains.txt
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>我是怎么投资美股的</title>
+      <link>https://blog.forecho.com/how-do-i-invest-in-american-stocks.html</link>
+      <pubDate>Wed, 24 May 2017 23:33:00 +0800</pubDate>
+      
+      <guid>https://blog.forecho.com/how-do-i-invest-in-american-stocks.html</guid>
+      <description>文章最新地址： https://blog.forecho.com/how-do-i-invest-in-american-stocks.html</description>
     </item>
     
     <item>
@@ -335,30 +353,6 @@ sudo vim /etc/shadowsocks.conf
 &lt;p&gt;我的体验是：技术书类的书可能更适合纸质版或者正版 PDF，大多数技术类的书不太合适用 kindle 看，有代码部分基本上是不忍直视，PDF 的话可以用 iPad 看，屏幕大一点效果会更好。
 Kindle 版的电子书，标记和索引很方便，而且出门携带也非常轻巧，所以绝大多数的非技术类书都非常适合使用 Kindle 来阅读。&lt;/p&gt;
 &lt;p&gt;总结流程：书-&amp;gt;标记-&amp;gt;印象笔记-&amp;gt;博客&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>手把手教你不依赖任何环境使用 Hexo</title>
-      <link>https://blog.forecho.com/easy-use-hexo.html</link>
-      <pubDate>Thu, 27 Oct 2016 20:58:00 +0800</pubDate>
-      
-      <guid>https://blog.forecho.com/easy-use-hexo.html</guid>
-      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
-&lt;p&gt;今天心血来潮，想搭建一个 &lt;a href=&#34;http://3li3.com/&#34;&gt;3li3&lt;/a&gt; 的博客，准备以博客的形式记录产品的成长。类似的博客有：&lt;a href=&#34;http://blog.selfstore.io/&#34;&gt;SelfStore 博客&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;感觉 Hexo 的博客插件比较多，于是这次想试试。因为很早以前就搭建过一次，这次以为分分钟搞定，但实际上还是花了我不少时间，为了以后不再重复踩坑，我决定记录下整个过程。&lt;/p&gt;
-&lt;p&gt;我们先看一下成果&lt;a href=&#34;http://blog.3li3.com/&#34;&gt; 3li3博客&lt;/a&gt;，然后我再来分享我的经验。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>谈谈使用 Kindle 阅读</title>
-      <link>https://blog.forecho.com/talk-about-ues-kindle-to-read.html</link>
-      <pubDate>Wed, 31 Aug 2016 21:24:00 +0800</pubDate>
-      
-      <guid>https://blog.forecho.com/talk-about-ues-kindle-to-read.html</guid>
-      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
-&lt;p&gt;今年年初的时候我写了篇&lt;a href=&#34;https://blog.forecho.com/use-the-kindle-reading.html&#34;&gt;《使用 Kindle 阅读》&lt;/a&gt; 文章，从2012年底开始到现在差不多快4年的 Kindle 使用经历，
-那么我来分享一下我是如何使用 Kindle 的。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424161300.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>
