@@ -56,6 +56,7 @@ staticCDNPrefix = "https://cdn.bootcss.com/font-awesome/5.11.2"
 extraHead = '<meta name="baidu-site-verification" content="WuHyHeOJtJ" />'
 postAds = ""
 profileAds = '<div class="bg-white shadow"><img class=" object-cover w-auto mx-auto mt-6" src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424153337.png" alt="微信打赏"></div>'
+notFoundAds = ''
 
 # 开启版权声明，协议名字和链接都可以换
 [params.cc]

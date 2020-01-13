@@ -1,7 +1,7 @@
 ---
 title: "我是怎么投资美股的"
 date: 2017-05-24T23:33:00+08:00
-tags: ["经验分享", "美股"] 
+tags: ["经验分享", "美股", "popular"] 
 draft: false
 toc: true
 ---
