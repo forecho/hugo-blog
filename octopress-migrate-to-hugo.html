@@ -110,13 +110,13 @@ Octopress 项目已经没人维护了
         <span class="hidden xl:inline-block">
             |
             <i class="iconfont icon-book"></i>
-            770 字
+            1180 字
         </span>
 
         <span class="hidden xl:inline-block">
             |
             <i class="iconfont icon-clock-o"></i>
-            2 分钟读完
+            3 分钟读完
         </span>
     </p>
 </div>
@@ -136,6 +136,14 @@ Octopress 项目已经没人维护了
       </ul>
     </li>
     <li><a href="#最后">最后</a></li>
+    <li><a href="#使用感受对比">使用感受对比</a>
+      <ul>
+        <li><a href="#博客源码结构">博客源码结构</a></li>
+        <li><a href="#ci-时间">CI 时间</a></li>
+        <li><a href="#功能">功能</a></li>
+      </ul>
+    </li>
+    <li><a href="#总结">总结</a></li>
     <li><a href="#参考链接">参考链接</a></li>
   </ul>
 </nav>
@@ -397,7 +405,28 @@ git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/anan
 </code></pre></td></tr></table>
 </div>
 </div><h2 id="最后">最后</h2>
-<p>这篇文章主要是分享 Octopress 迁移 Hugo 文章的经验，上面的迁移代码不负责，有一点点 Golang 经验应该是看得懂的，你可以根据自己的需求修改代码。</p>
+<p>这篇文章主要是分享 Octopress 迁移 Hugo 文章的经验，上面的迁移代码不复杂，有一点点 Golang 经验应该是看得懂的，你可以根据自己的需求修改代码。</p>
+<h2 id="使用感受对比">使用感受对比</h2>
+<h3 id="博客源码结构">博客源码结构</h3>
+<p>Hugo 的目录结构要比 Octopress 简单的多。主题有一个专门的文件夹存放，这样使得博客源码显得干净整洁。</p>
+<h3 id="ci-时间">CI 时间</h3>
+<p>同样都配置了 CI ，使用 Travis-CI 自动生成静态文件，自动更新博客。但是身为 Golang 开发的 Hugo，明显要比基于 Ruby 开发的 Octopress 要快的多，之前要2分多钟，现在只要1分钟左右就可以了。</p>
+<p><img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/KPA3Wt.png" alt="KPA3Wt"></p>
+<h3 id="功能">功能</h3>
+<p>Octopress 我已经很久没完了，但是最近我自己写了一个 Hugo 主题，明显感觉到 Hugo 要比 Octopress 功能多。官方也有一个基础的 <a href="https://gohugo.io/templates/internal/">templates</a></p>
+<h2 id="总结">总结</h2>
+<p>这次迁移总的来说 Hugo 各方面基本上都完胜 Octopress，就着这次迁移博客的时候顺便做了以下几件事情：</p>
+<ul>
+<li>把所有 URL 都转为小写了（虽然以前的部分 URL 可能会收到影响）</li>
+<li>放弃通过分类来管理文章，只使用标签来管理（虽然一篇文章分类也允许有多个）。</li>
+<li>自己写了一个 <a href="https://github.com/forecho/hugo-theme-echo">Hugo 主题</a>，通过写这个主题实现了几个自己一直想要的功能：
+<ul>
+<li>优化了 SEO，现在分享我的文章到 Twitter 上会显示卡片模式链接</li>
+<li>文章详情会自动列出相关文章（Hugo 自带这个功能，太棒了）</li>
+<li>通过给文章打特定的标签，实现热门文章列表</li>
+</ul>
+</li>
+</ul>
 <h2 id="参考链接">参考链接</h2>
 <ul>
 <li><a href="https://miguelmota.com/blog/migrating-from-jekyll-to-hugo/">Migrating from Jekyll to Hugo</a></li>
@@ -634,6 +663,14 @@ git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/anan
       </ul>
     </li>
     <li><a href="#最后">最后</a></li>
+    <li><a href="#使用感受对比">使用感受对比</a>
+      <ul>
+        <li><a href="#博客源码结构">博客源码结构</a></li>
+        <li><a href="#ci-时间">CI 时间</a></li>
+        <li><a href="#功能">功能</a></li>
+      </ul>
+    </li>
+    <li><a href="#总结">总结</a></li>
     <li><a href="#参考链接">参考链接</a></li>
   </ul>
 </nav>
