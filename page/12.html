@@ -81,6 +81,102 @@
                     
                     <div>
     <h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-2xl lg:text-3xl">
+        <a href="https://blog.forecho.com/ubuntu-use-shadowsocks-and-privoxy.html" title="Ubuntu 使用 ShadowSocks &#43; Privoxy 代理">Ubuntu 使用 ShadowSocks &#43; Privoxy 代理</a>
+    </h1>
+    <p class="mb-1 text-sm text-gray-500">
+        <span title=" 2017-01-07 12:35:00 &#43;0800">
+            <i class="iconfont icon-calendar" aria-hidden="true"></i> 07 Jan 2017
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-book"></i>
+            944 字
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-clock-o"></i>
+            2 分钟读完
+        </span>
+    </p>
+</div>
+
+                    
+                    <div class="post-content">
+                        <h2 id="引言">引言</h2>
+<p>先说说这东西有什么用吧，我是 Windows7 使用 Vagrant 安装了个 Ubuntu 虚拟机，然后需要在虚拟机里面配置 SS 代理使用 PHP 的 Composer 下载，不然非常慢。
+那么本教程应该同样适用于 Ubuntu 服务器（做为 SS 客户端的方式）配置使用 SS，其他版本的 Linux 要想使用需要稍微改动下，但是思路是一样的。</p>
+<p>如果你的 Mac 电脑，终端需要配置 SS 代理，推荐你使用 proxychains-ng 方式，具体查看<a href="https://gold.xitu.io/entry/5821840cd203090055134cc0">macOS 终端走代理（科学上网）</a></p>
+<h2 id="shadowsocks-客户端">ShadowSocks 客户端</h2>
+<p>注意是 ShadowSocks 客户端，服务端我就不介绍了。先安装 Python pip 再安装 shadowsocks，然后再配置：</p>
+<div class="highlight"><div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-fallback" data-lang="fallback">sudo apt-get install python-pip
+sudo pip install shadowsocks
+sudo ln -s /usr/local/python/bin/sslocal /usr/bin/sslocal
+sudo vim /etc/shadowsocks.conf
+</code></pre></td></tr></table>
+</div>
+</div><p>配置文件代码如下：</p>
+<div class="highlight"><div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-fallback" data-lang="fallback">{
+    &#34;server&#34;:&#34;your_server_ip&#34;,
+    &#34;server_port&#34;:your_server_port,
+    &#34;local_address&#34;: &#34;127.0.0.1&#34;,
+    &#34;local_port&#34;:1080, 
+    &#34;password&#34;:&#34;your_server_passwd&#34;,
+    &#34;timeout&#34;:300,
+    &#34;method&#34;:&#34;aes-256-cfb&#34;,
+    &#34;fast_open&#34;: false,
+    &#34;workers&#34;: 1 
+}
+</code></pre></td></tr></table>
+</div>
+</div><p><strong>解释</strong></p>
+<ul>
+<li><code>server</code>: ss服务器IP</li>
+<li><code>server_port</code>: ss服务器IP端口</li>
+<li><code>local_address</code>: 本地ip</li>
+<li><code>local_port</code>:  #本地端口</li>
+<li><code>password</code>: 连接ss密码</li>
+<li><code>timeout</code>: 等待超时</li>
+<li><code>method</code>: 加密方式</li>
+<li><code>fast_open</code>: true 或 false。如果你的服务器 Linux 内核在3.7+，可以开启 fast_open 以降低延迟。开启方法： echo 3 &gt; /proc/sys/net/ipv4/tcp_fastopen 开启之后，将 fast_open 的配置设置为 true 即可</li>
+<li><code>workers</code>: 工作线程数</li>
+</ul>
+                    </div>
+                    <p class="text-sm font-semibold pt-5 text-gray-700 ">
+                        <a href="https://blog.forecho.com/ubuntu-use-shadowsocks-and-privoxy.html" class="px-5 py-2 inline-block bg-gray-200 rounded  hover:bg-gray-300">阅读全文</a>
+                    </p>
+                </article>
+
+                <hr class="bg-gray-300 mt-10 mb-6">
+            
+                <article >
+                    
+                    <div>
+    <h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-2xl lg:text-3xl">
         <a href="https://blog.forecho.com/christmas-in-hong-kong.html" title="圣诞节在香港">圣诞节在香港</a>
     </h1>
     <p class="mb-1 text-sm text-gray-500">
@@ -471,46 +567,6 @@ Kindle 版的电子书，标记和索引很方便，而且出门携带也非常�
 
                 <hr class="bg-gray-300 mt-10 mb-6">
             
-                <article >
-                    
-                    <div>
-    <h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-2xl lg:text-3xl">
-        <a href="https://blog.forecho.com/blog-5-year-old-happy-birthday.html" title="博客5岁生日快乐">博客5岁生日快乐</a>
-    </h1>
-    <p class="mb-1 text-sm text-gray-500">
-        <span title=" 2016-09-22 22:38:00 &#43;0800">
-            <i class="iconfont icon-calendar" aria-hidden="true"></i> 22 Sep 2016
-        </span>
-
-        <span class="hidden xl:inline-block">
-            |
-            <i class="iconfont icon-book"></i>
-            1163 字
-        </span>
-
-        <span class="hidden xl:inline-block">
-            |
-            <i class="iconfont icon-clock-o"></i>
-            3 分钟读完
-        </span>
-    </p>
-</div>
-
-                    
-                    <div class="post-content">
-                        <h2 id="引言">引言</h2>
-<p>前几天发现自己真正意义上的第一篇博客是从2011年的9月22日写的<a href="https://blog.forecho.com/ji-wo-zai-gong-si-tan-xia-de-di-yi-bi-dan-zi.html">《记我在公司谈下的第一笔单子》</a>，自己无意中竟然坚持
-写了5年博客，能坚持这么久真是不容易，所以我决定把每年的今天定为我博客的生日。</p>
-<p><img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424161401.png" alt=""></p>
-<p>虽然更新频率没有最开始的那么高，但是自己还是一路坚持下来了。虽然无聊的时候看着自己以前写的文章都觉得好笑，但是还是不舍得删掉，因为这正是见证了我的成长。</p>
-                    </div>
-                    <p class="text-sm font-semibold pt-5 text-gray-700 ">
-                        <a href="https://blog.forecho.com/blog-5-year-old-happy-birthday.html" class="px-5 py-2 inline-block bg-gray-200 rounded  hover:bg-gray-300">阅读全文</a>
-                    </p>
-                </article>
-
-                <hr class="bg-gray-300 mt-10 mb-6">
-            
             <p class="text-center">
                 <a  class="md:text-xl text-gray-700" href="/posts.html">↑ 文章归档 ↑</a>
             </p>
@@ -531,7 +587,7 @@ Kindle 版的电子书，标记和索引很方便，而且出门携带也非常�
             <div class="flex-1 border-r border-gray-600">
                 <p class="text-center">
                     <span class="text-gray-700 font-bold">
-                        327
+                        328
                     </span>
                     文章
                 </p>
@@ -540,7 +596,7 @@ Kindle 版的电子书，标记和索引很方便，而且出门携带也非常�
                 <p class="text-center">
                     <span class="text-gray-700 font-bold">
                         
-                            91
+                            92
                         
                     </span>
                     标签

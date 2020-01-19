@@ -6,10 +6,22 @@
     <description>Recent content in Posts on forecho&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 02 Jan 2020 18:48:00 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 18 Jan 2020 21:58:00 +0800</lastBuildDate>
     
 	<atom:link href="https://blog.forecho.com/posts/atom.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>一家会营销的螺蛳粉店</title>
+      <link>https://blog.forecho.com/river-snails-rice-noodle.html</link>
+      <pubDate>Sat, 18 Jan 2020 21:58:00 +0800</pubDate>
+      
+      <guid>https://blog.forecho.com/river-snails-rice-noodle.html</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;兔子老家是广西了，从小吃粉长大，所以我们现在仍然会保持着一周至少去吃一次螺蛳粉的习惯。&lt;/p&gt;
+&lt;p&gt;这篇文章只要是分享我家楼下附近的那家螺蛳粉，这家店的老板不简单，粉做的不错，重点是非常会营销。生意是越做越火，开了2年多了，不仅没倒闭，而且今年已经开了第二家分店了。&lt;/p&gt;
+&lt;p&gt;我觉得挺有意思的，打算分享给大家。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Octopress 迁移到 Hugo</title>
@@ -255,34 +267,6 @@
 &lt;h3 id=&#34;健身&#34;&gt;健身&lt;/h3&gt;
 &lt;p&gt;除了端午节出了一趟门之外都有在坚持早上运动，基本上能保持每周运动至少 3 次，每次 30 分钟以上。运动频率有点高，一度导致早上没时间看书了。&lt;/p&gt;
 &lt;p&gt;自从 17 年年底买了个体脂称，都有计划一个星期称一次，一直到去年 10 月忙着结婚的事情就没称重了，之前的体重也一直保持在 61.5kg~63.5kg 之间，感觉没啥用处。后来再过 5 个月，也就是今年 3 月份再去称重的时候，发现自己不到 59kg 了，当时第一反应是体脂称不准了，还去找客服询问了解决办法。结果用了客服提供的办法之后还是那样，正当我对体脂称死心的时候，我去了家附近药店门口的体重秤称了一下，发现还真是 59kg 了，好吧，我错怪了体脂称，😭。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Docker 使用定时任务</title>
-      <link>https://blog.forecho.com/docker-use-cron.html</link>
-      <pubDate>Mon, 27 May 2019 10:58:00 +0800</pubDate>
-      
-      <guid>https://blog.forecho.com/docker-use-cron.html</guid>
-      <description>&lt;h2 id=&#34;使用定时任务&#34;&gt;使用定时任务&lt;/h2&gt;
-&lt;p&gt;在宿主主机使用 &lt;code&gt;crontab -e&lt;/code&gt; 添加如下示例命令就可以了，非常简单：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
-&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
-&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
-&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;*/15 * * * * docker exec laradock_workspace_1 php /var/www/erp/yii sync/order &amp;gt;&amp;gt; /tmp/out-docker.log 2&amp;gt;&amp;amp;1
-&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;说明：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;*/15 * * * *&lt;/code&gt; 代表 15 分钟执行一次&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;&amp;gt;&amp;gt; /tmp/out-docker.log 2&amp;gt;&amp;amp;1&lt;/code&gt; 代表把命令的输出结果输入到 &lt;code&gt;/tmp/out-docker.log&lt;/code&gt; 文件中。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;需要特别说明的是：&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;以往我们进入一个 Docker 终端都带 &lt;code&gt;-it&lt;/code&gt; 参数，如进入 &lt;code&gt;laradock_workspace_1&lt;/code&gt; 容器的命令是 &lt;code&gt;docker exec -it laradock_workspace_1&lt;/code&gt;，但是定时任务的时候不需要这个参数。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;原因是加了 &lt;code&gt;-it&lt;/code&gt; 就要开启了一个终端，而计划任务是无法进入任何终端的。&lt;/p&gt;
-&lt;/blockquote&gt;</description>
     </item>
     
   </channel>
