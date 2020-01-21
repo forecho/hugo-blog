@@ -1,7 +1,7 @@
 ---
 title: "2014年终总结"
 date: 2015-03-02T22:03:00+08:00
-tags: ["总结"] 
+tags: ["年终总结"] 
 draft: false
 toc: true
 ---
