@@ -81,6 +81,86 @@
                     
                     <div>
     <h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-2xl lg:text-3xl">
+        <a href="https://blog.forecho.com/dynamic-properties-in-php-and-stdclass.html" title="PHP 中的动态属性和 StdClass">PHP 中的动态属性和 StdClass</a>
+    </h1>
+    <p class="mb-1 text-sm text-gray-500">
+        <span title=" 2015-11-08 21:52:00 &#43;0800">
+            <i class="iconfont icon-calendar" aria-hidden="true"></i> 08 Nov 2015
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-book"></i>
+            506 字
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-clock-o"></i>
+            2 分钟读完
+        </span>
+    </p>
+</div>
+
+                    
+                    <div class="post-content">
+                        <blockquote>
+<p>翻译 <a href="http://krisjordan.com/dynamic-properties-in-php-with-stdclass">Dynamic Properties in PHP and StdClass</a></p>
+</blockquote>
+<p>JavaScript 和 Python 允许对象实例的动态属性。事实证明,PHP 也是如此。看官方 PHP 对象和类文档可能会导致你相信动态实例属性需要自定义 __get 和 __set 魔术方法。其实不用。</p>
+<h2 id="简单内置的动态属性">简单,内置的动态属性</h2>
+<p>看看以下代码:</p>
+<div class="highlight"><div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-php" data-lang="php">class DynamicProperties { }
+$object = new DynamicProperties;
+echo isset($object-&gt;foo) ? &#39;t&#39; : &#39;f&#39;; // f
+echo PHP_EOL;
+// Set Dynamic Properties foo and fooz
+$object-&gt;foo = &#39;bar&#39;;
+$object-&gt;fooz = &#39;baz&#39;;
+// Isset and Unset work
+isset($object-&gt;foo); // true
+unset($object-&gt;foo);
+// Iterate through Properties and Values
+foreach($object as $property =&gt; $value)  {
+    echo $property . &#39; = &#39; . $value . PHP_EOL;
+}
+// Prints:
+// fooz = baz
+</code></pre></td></tr></table>
+</div>
+</div>
+                    </div>
+                    <p class="text-sm font-semibold pt-5 text-gray-700 ">
+                        <a href="https://blog.forecho.com/dynamic-properties-in-php-and-stdclass.html" class="px-5 py-2 inline-block bg-gray-200 rounded  hover:bg-gray-300">阅读全文</a>
+                    </p>
+                </article>
+
+                <hr class="bg-gray-300 mt-10 mb-6">
+            
+                <article >
+                    
+                    <div>
+    <h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-2xl lg:text-3xl">
         <a href="https://blog.forecho.com/before-25.html" title="25岁之后">25岁之后</a>
     </h1>
     <p class="mb-1 text-sm text-gray-500">
@@ -610,71 +690,6 @@ cp -a environments/prod/frontend environments/prod/api
 
                 <hr class="bg-gray-300 mt-10 mb-6">
             
-                <article >
-                    
-                    <div>
-    <h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-2xl lg:text-3xl">
-        <a href="https://blog.forecho.com/windows-coding-tool.html" title="Windows 开发利器">Windows 开发利器</a>
-    </h1>
-    <p class="mb-1 text-sm text-gray-500">
-        <span title=" 2015-03-01 22:02:00 &#43;0800">
-            <i class="iconfont icon-calendar" aria-hidden="true"></i> 01 Mar 2015
-        </span>
-
-        <span class="hidden xl:inline-block">
-            |
-            <i class="iconfont icon-book"></i>
-            1094 字
-        </span>
-
-        <span class="hidden xl:inline-block">
-            |
-            <i class="iconfont icon-clock-o"></i>
-            3 分钟读完
-        </span>
-    </p>
-</div>
-
-                    
-                    <div class="post-content">
-                        <h2 id="前言">前言</h2>
-<p>Linux 应该是最理想的开发系统，但是 Linux 桌面系统做的很稀烂，我记得我用 Linux 开发的时候 Sublime Text 都不支持中文输入啊，想写个注释都要去记事本写好了再粘贴过来，这得多蛋疼，效率得多低。</p>
-<p>Windows 7 系统 其实的很棒了，绝大多数公司目前用的开发系统都是 Windows，但是作为开发机 Windows 有很大的缺陷，终端薄弱、安装扩展麻烦、其他语言的不友好支持等等麻烦，让你只能停留在初级开发者的阶段。</p>
-<p>Mac OS 最理想的开发环境，因为有这同 Linux 一样好用的终端，有精美的界面。是开发者首选。但是价格昂贵，却是值得的。</p>
-<p>但是大部分公司给你配置的都是台式机，Windows 系统。所有下面我们来说说怎么让你的 Windows 系统开发更有效率。真正用起来的话你会觉得其实 Windows 也不错。</p>
-<h2 id="强化系统工具">强化系统工具</h2>
-<h3 id="virtualboxhttpswwwvirtualboxorg--vagranthttpswwwvagrantupcom打造-linux-开发环境"><a href="https://www.virtualbox.org/">VirtualBox</a> + <a href="https://www.vagrantup.com/">Vagrant</a>（打造 Linux 开发环境）</h3>
-<p>最初我是在 <a href="http://www.imooc.com/learn/230">慕课网-Web app&mdash;Rails10日谈</a> 上看这个方法的，看完我就惊呆了，相见恨晚的感觉。这不就是我一直所追求的开发环境吗？</p>
-<p>Vagrant 和 VirtualBox 虚拟机配合可以让你的 Windows 使用 Linux 系统。再配合一个强大的终端，那就完美了。</p>
-<p>具体使用我就不写了，看下面的参考资料已经足够了。</p>
-<p><strong>参考资料：</strong></p>
-<ul>
-<li><a href="http://www.imooc.com/learn/230">慕课网-Web app&mdash;Rails10日谈</a></li>
-<li><a href="http://happypeter.github.io/rails10/01_vagrant.html">使用 vagrant 安装 ubuntu 系统</a></li>
-<li><a href="http://chloerei.com/2013/11/01/vagrant/">Vagrant，虚拟机管理工具</a></li>
-<li><a href="https://github.com/astaxie/Go-in-Action/blob/master/ebook/zh/01.2.md">Vgrant安装配置</a></li>
-</ul>
-<h3 id="babunhttpbabungithubio--conemuhttpsgithubcommaximus5conemu打造最强终端"><a href="http://babun.github.io/">babun</a> + <a href="https://github.com/Maximus5/ConEmu">ConEmu</a>（打造最强终端）</h3>
-<p>Windows 下面的终端我试了好几个，最后试来试去发现 babun 最好了，省时省力，集成 oh-my-zsh、git 等，算是 Cygwin 的精简版。</p>
-<p>ConEmu 可以加强终端使用，和 babun 配合，可以开多个标签。</p>
-<h3 id="cloverhttpcnejieme资源管理器扩展"><a href="http://cn.ejie.me/">Clover</a>（资源管理器扩展）</h3>
-<p>如果你喜欢 Chrome 浏览器，那么你一定会爱死这个软件了，以 Chrome 的形式来使用我们的资源管理器，多标签、书签、新标签打开、重新打开关闭之后的标签，统统没问题，快捷键都和 Chrome 一样。</p>
-<h3 id="listaryhttpwwwlistarycom文件浏览与搜索增强工具"><a href="http://www.listary.com/">Listary</a>（文件浏览与搜索增强工具）</h3>
-<p>增强文件夹资源管理工具。免费有中文。高级版收费，保存文件的时候可以直接根据文件名搜索文件路径，你值得拥有。</p>
-<p><a href="http://www.voidtools.com/">Everything</a> 也是搜索文件神器，但是 Listary 已经有搜索功能了，所有我就没有安装 Everything 了。</p>
-<p><strong>参考资料：</strong></p>
-<ul>
-<li><a href="http://www.appinn.com/listary/">Listary – Windows 文件浏览增强工具</a></li>
-<li><a href="http://www.iplaysoft.com/listary.html">Listary Pro - 能极大幅度提高你 Windows 文件浏览与搜索速度效率的「超级神器」</a></li>
-</ul>
-                    </div>
-                    <p class="text-sm font-semibold pt-5 text-gray-700 ">
-                        <a href="https://blog.forecho.com/windows-coding-tool.html" class="px-5 py-2 inline-block bg-gray-200 rounded  hover:bg-gray-300">阅读全文</a>
-                    </p>
-                </article>
-
-                <hr class="bg-gray-300 mt-10 mb-6">
-            
             <p class="text-center">
                 <a  class="md:text-xl text-gray-700" href="/posts.html">↑ 文章归档 ↑</a>
             </p>
@@ -695,7 +710,7 @@ cp -a environments/prod/frontend environments/prod/api
             <div class="flex-1 border-r border-gray-600">
                 <p class="text-center">
                     <span class="text-gray-700 font-bold">
-                        328
+                        329
                     </span>
                     文章
                 </p>
