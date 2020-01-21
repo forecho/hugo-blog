@@ -30,7 +30,7 @@
 &lt;p&gt;以前我都是按照农历来统计的，但是 &lt;a href=&#34;https://habitify.me/&#34;&gt;Habitify&lt;/a&gt; 上都上阳历来算年度统计了，我也懒得自己数了，从今以后我也按照阳历还算吧。&lt;/p&gt;
 &lt;p&gt;今年很长一段时间习惯打卡我都是 &lt;a href=&#34;https://habitify.me/&#34;&gt;Habitify&lt;/a&gt; 和 &lt;a href=&#34;https://itunes.apple.com/cn/app/ibetter-%E4%B9%A0%E6%83%AF%E5%85%BB%E6%88%90%E6%89%93%E5%8D%A1-%E4%BA%BA%E7%94%9F%E5%85%BB%E6%88%90%E8%AE%A1%E5%88%92/id1262378864?mt=8&#34;&gt;iBetter&lt;/a&gt; 都记录，后来觉得还是太麻烦了，索性就只保留了功能跟强大 UI 更漂亮的 &lt;a href=&#34;https://habitify.me/&#34;&gt;Habitify&lt;/a&gt; 了，它现在还支持 Siri 打卡，非常方便，而因为去年数据丢失的事情，我现在都会定时手动备份数据。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/BuhvKE.jpg&#34; alt=&#34;BuhvKE&#34;&gt;&lt;/p&gt;
-&lt;p&gt;9月底的时候，Keep 搞活动，买年度会员很优惠，一冲动就下买了。10 月底的时候买了任天堂的 Switch，11月底的时候买了健身环大冒险。买了健身环大冒险之后刚开始还和 Keep 切换着用，后来索性就放弃使用 Keep 了，白瞎了会员。&lt;/p&gt;
+&lt;p&gt;9月底的时候，Keep 搞活动，买年度会员很优惠，一冲动就买了。10 月底的时候买了任天堂的 Switch，11月底的时候买了健身环大冒险。买了健身环大冒险之后刚开始还和 Keep 切换着用，后来索性就放弃使用 Keep 了，白瞎了会员。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Keep + 健身环大冒险年度146次&lt;/li&gt;
 &lt;li&gt;有氧拳击年度9次（自从买了健身环大冒险后有氧拳击就搁置了）&lt;/li&gt;
@@ -81,6 +81,7 @@
 &lt;li&gt;今年除了5月份只写了一篇博客外，其他月份都完成了至少两篇文章的目标。&lt;/li&gt;
 &lt;li&gt;今年发起了一个叫&lt;a href=&#34;https://blog.forecho.com/friendship-links/&#34;&gt;联盟链接&lt;/a&gt;的组织，有兴趣欢迎大家加入。&lt;/li&gt;
 &lt;li&gt;博客从 Octopress 迁移到 Hugo，并且花了一个星期写了一个 Hugo 的主题。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.forecho.com/tags/%E6%B7%B1%E5%BA%A6%E7%90%86%E8%B4%A2.html&#34;&gt;深度理财&lt;/a&gt;和&lt;a href=&#34;https://blog.forecho.com/tags/%E6%B7%B1%E5%BA%A6%E9%98%85%E8%AF%BB.html&#34;&gt;深度阅读&lt;/a&gt;基本上因为太忙给搁置了。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;三立三https3li3com&#34;&gt;&lt;a href=&#34;https://3li3.com/&#34;&gt;三立三&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;三立三因为是个人备案，年中被抽查，个人备案不允许搭建这样的网站，无奈之下，现在首页默认关闭了。除了首页其他链接都正常，登录用户不受到影响。&lt;/p&gt;
@@ -88,6 +89,7 @@
 &lt;h3 id=&#34;其他&#34;&gt;其他&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;支持 Yii3 的开发，每月给开发者捐赠1美元，详情 &lt;a href=&#34;https://blog.forecho.com/for-yii.html&#34;&gt;《为了 Yii 的长远发展》&lt;/a&gt;。&lt;/li&gt;
+&lt;li&gt;年底准备换一个电信宽带套餐的，费了半天劲，最后发现1年前办的宽带有2年合约，1000块钱的定存，如果中途退出就算违约，然后会扣一半的钱，肯定。不然我就可以以139元/月，办理200M的套餐了。现在是169元/月，100M。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;展望-2019&#34;&gt;展望 2019&lt;/h2&gt;
 &lt;h3 id=&#34;健身-1&#34;&gt;健身&lt;/h3&gt;
@@ -110,7 +112,10 @@
 &lt;h3 id=&#34;读书-1&#34;&gt;读书&lt;/h3&gt;
 &lt;p&gt;去年只看了完了5本书，惭愧。今年就定12本为目标吧，也就是说1个月至少1本，另外至少要啃完3本技术书。&lt;/p&gt;
 &lt;h3 id=&#34;博客-1&#34;&gt;博客&lt;/h3&gt;
-&lt;p&gt;与以往每月2篇文章不通，给20年定的目标是每月写至少3篇文章。2020年我要多写一点技术文章。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;与以往每月2篇文章不同，给20年定的目标是每月写至少3篇文章。2020年我要多写一点技术文章。&lt;/li&gt;
+&lt;li&gt;恢复&lt;a href=&#34;https://blog.forecho.com/tags/%E6%B7%B1%E5%BA%A6%E7%90%86%E8%B4%A2.html&#34;&gt;深度理财&lt;/a&gt;和&lt;a href=&#34;https://blog.forecho.com/tags/%E6%B7%B1%E5%BA%A6%E9%98%85%E8%AF%BB.html&#34;&gt;深度阅读&lt;/a&gt;系列文章，月更也行。&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3 id=&#34;三立三https3li3com-1&#34;&gt;&lt;a href=&#34;https://3li3.com/&#34;&gt;三立三&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;想办法增加收入，不然就没钱续费服务器了。&lt;/p&gt;
 &lt;h2 id=&#34;最后&#34;&gt;最后&lt;/h2&gt;
