@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <meta name="generator" content="Hugo 0.62.2" />
+    <meta name="generator" content="Hugo 0.63.1" />
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -77,6 +77,70 @@
     <section class="w-full lg:w-3/4 xl:w-3/4">
         <div class="px-8 py-6 mt-6 lg:mt-0 leading-normal rounded shadow bg-white">
                 
+                <article >
+                    
+                    <div>
+    <h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-2xl lg:text-3xl">
+        <a href="https://blog.forecho.com/ubuntu-use-ppa-install-php-extension.html" title="Ubuntu 使用 PPA 安装 PHP 扩展">Ubuntu 使用 PPA 安装 PHP 扩展</a>
+    </h1>
+    <p class="mb-1 text-sm text-gray-500">
+        <span title=" 2015-11-19 10:57:00 &#43;0800">
+            <i class="iconfont icon-calendar" aria-hidden="true"></i> 19 Nov 2015
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-book"></i>
+            354 字
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-clock-o"></i>
+            1 分钟读完
+        </span>
+    </p>
+</div>
+
+                    
+                    <div class="post-content">
+                        <h2 id="简介">简介</h2>
+<p>PPA，即 Personal Package Archives 缩写，也就是个人软件包集。</p>
+<blockquote>
+<p>有很多软件因为种种原因，不能进入官方的 Ubuntu 软件仓库。 为了方便 Ubuntu 用户使用，launchpad.net 提供了 ppa，允许用户建立自己的软件仓库， 自由的上传软件。PPA 也被用来对一些打算进入 Ubuntu 官方仓库的软件，或者某些软件的新版本进行测试。</p>
+</blockquote>
+<h2 id="使用">使用</h2>
+<p>我一直不太喜欢用源码编译的方式安装 PHP 扩展，主要是麻烦。然后偶然发现了这种方式安装 PHP 扩展，真是太方便了。</p>
+<p>下面我们来讲讲怎么使用：</p>
+<p>安装 PPA</p>
+<div class="highlight"><div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-fallback" data-lang="fallback">sudo add-apt-repository ppa:ondrej/php5
+sudo apt-get update
+</code></pre></td></tr></table>
+</div>
+</div><p>安装 php mcrypt 扩展</p>
+<div class="highlight"><div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-fallback" data-lang="fallback">sudo apt-get install php5-mcrypt
+</code></pre></td></tr></table>
+</div>
+</div>
+                    </div>
+                    <p class="text-sm font-semibold pt-5 text-gray-700 ">
+                        <a href="https://blog.forecho.com/ubuntu-use-ppa-install-php-extension.html" class="px-5 py-2 inline-block bg-gray-200 rounded  hover:bg-gray-300">阅读全文</a>
+                    </p>
+                </article>
+
+                <hr class="bg-gray-300 mt-10 mb-6">
+            
                 <article >
                     
                     <div>
@@ -638,58 +702,6 @@ cp -a environments/prod/frontend environments/prod/api
 
                 <hr class="bg-gray-300 mt-10 mb-6">
             
-                <article >
-                    
-                    <div>
-    <h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-2xl lg:text-3xl">
-        <a href="https://blog.forecho.com/2014-summary.html" title="2014年终总结">2014年终总结</a>
-    </h1>
-    <p class="mb-1 text-sm text-gray-500">
-        <span title=" 2015-03-02 22:03:00 &#43;0800">
-            <i class="iconfont icon-calendar" aria-hidden="true"></i> 02 Mar 2015
-        </span>
-
-        <span class="hidden xl:inline-block">
-            |
-            <i class="iconfont icon-book"></i>
-            1875 字
-        </span>
-
-        <span class="hidden xl:inline-block">
-            |
-            <i class="iconfont icon-clock-o"></i>
-            4 分钟读完
-        </span>
-    </p>
-</div>
-
-                    
-                    <div class="post-content">
-                        <h2 id="前言">前言</h2>
-<p>2014年过的很快，快到我还没来得及接受2015年的到来；同时2014年过的又很慢，慢到我都忘记了那一年我都做了写什么。</p>
-<h2 id="生活">生活</h2>
-<p>2014年算是微信年吧，也注定是微商年。你朋友圈肯定会有那么几个同学或者同事在卖面膜的。反正我受不了，都屏蔽了。呵呵。</p>
-<p>2014年也刷新了我在一家公司待最长时间的记录了 - 到现在快一年半了。</p>
-<p>3月底的时候我们终于面试到了一个前端工程师，从此把我从前端的坑解救出来了，并且还是个妹子。</p>
-<p>4月份的时候公司组织了一次去厦门春游的活动，有机会让我们相互了解，是她现在成为我女朋友的条件。其实还是很感谢公司的。</p>
-<p>后来的大部分时间都是去约会了，业余时间都没怎么写代码了。但是经常出去走走有何尝不是见好事。我们一起去过深圳湾、华侨城创意园、深圳图书馆、长沙的芒果TV等等。</p>
-<p>2015年我们还去了一次东部华侨城。</p>
-<p>2014年搬了一次家，三个好基友也分开住了。</p>
-<p>2014年只参加过两次业内活动，但是还不够。</p>
-<h2 id="工作">工作</h2>
-<p>刚过完年项目的主程就要离职了，突然感觉到自己的压力比较大，后来调试微信支付的时候差点崩贵了。</p>
-<p>来来去去的人。这一年加班倒是没有2013年那么狠了，但是项目急着上线的时候还是天天加班。</p>
-<p>自我感觉这一年自己的增长是缓慢的，更加熟悉CakePHP，更加理解了OOP的思想，但是我认为这点成长是不够的。</p>
-<p>不想再继续写着一些CRUD的操作了，做长了无法就是更加熟悉使用而已，所以趁着2014年年底公司结构的变化，申请加入了平台基础组。我想接触一些大数据的处理，想接触一些架构方面事情。</p>
-<p>我们说服了老大使用 Yii2 框架开发，让我能看到了希望，以后可以愉快的写代码了。</p>
-                    </div>
-                    <p class="text-sm font-semibold pt-5 text-gray-700 ">
-                        <a href="https://blog.forecho.com/2014-summary.html" class="px-5 py-2 inline-block bg-gray-200 rounded  hover:bg-gray-300">阅读全文</a>
-                    </p>
-                </article>
-
-                <hr class="bg-gray-300 mt-10 mb-6">
-            
             <p class="text-center">
                 <a  class="md:text-xl text-gray-700" href="/posts.html">↑ 文章归档 ↑</a>
             </p>
@@ -710,7 +722,7 @@ cp -a environments/prod/frontend environments/prod/api
             <div class="flex-1 border-r border-gray-600">
                 <p class="text-center">
                     <span class="text-gray-700 font-bold">
-                        329
+                        330
                     </span>
                     文章
                 </p>
