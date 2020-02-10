@@ -6,7 +6,9 @@ draft: false
 toc: true
 ---
 
-**时隔2年多了，现在大陆已经不再承办工银亚洲的开户工作了，所以我又整理了这篇文章。**
+## 声明
+
+**时隔2年多了，现在大陆已经不再承办工银亚洲的开户工作了，所以我又整理了[《去香港办招行香港一卡通》](https://blog.forecho.com/go-to-hong-kong-for-china-merchants-bank-hong-kong-card.html)。**
 
 ## 申请
 
