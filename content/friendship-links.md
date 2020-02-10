@@ -61,7 +61,8 @@ url: /friendship-links/
 - [渚碧](https://jubeny.com/)
 - [深入浅出区块链](https://learnblockchain.cn/)
 - [晚晴幽草轩](https://www.jeffjade.com/)
-
+- [掘墓人的小铲子](https://juemuren4449.com)
+- [Henry Z's blog](https://changchen.me/)
 
 ## 待考察
 
