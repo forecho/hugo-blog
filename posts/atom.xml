@@ -6,10 +6,20 @@
     <description>Recent content in Posts on forecho&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 21 Jan 2020 13:09:00 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 10 Feb 2020 12:44:00 +0800</lastBuildDate>
     
 	<atom:link href="https://blog.forecho.com/posts/atom.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>去香港办招行香港一卡通</title>
+      <link>https://blog.forecho.com/go-to-hong-kong-for-china-merchants-bank-hong-kong-card.html</link>
+      <pubDate>Mon, 10 Feb 2020 12:44:00 +0800</pubDate>
+      
+      <guid>https://blog.forecho.com/go-to-hong-kong-for-china-merchants-bank-hong-kong-card.html</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;之前写过一篇文章介绍了在大陆办理工银亚洲的攻略，时隔2年多了，现在大陆已经不再承办工银亚洲的开户工作了，所以又整理了这篇文章。此文章来源于朋友 wjq310，我授权整理。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>【深度理财06】聊聊这些年我买过的股票（一）</title>
@@ -260,17 +270,6 @@
       <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
 &lt;p&gt;4 年多前 &lt;a href=&#34;https://www.yiiframework.com/&#34;&gt;Yii&lt;/a&gt; 推出了 2.0 测试版，正好赶上年底，工作不忙，于是我抱着学习的态度写了一个开源论坛，那就是 &lt;a href=&#34;https://github.com/iiyii/getyii&#34;&gt;GetYii&lt;/a&gt;。虽然后来没怎么维护了，但是还是会每天去逛逛。&lt;/p&gt;
 &lt;p&gt;最近发现有人在 GetYii 上发垃圾内容，灰产广告。这就不能忍了，这篇文章我就分享一下我是如何与他们『斗争』的。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>MWS 开发 - 订单篇</title>
-      <link>https://blog.forecho.com/mws-order.html</link>
-      <pubDate>Mon, 08 Jul 2019 22:58:00 +0800</pubDate>
-      
-      <guid>https://blog.forecho.com/mws-order.html</guid>
-      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
-&lt;p&gt;最近这几个月都在帮一个朋友在开发亚马逊 ERP 系统，使用了 &lt;a href=&#34;http://docs.developer.amazonservices.com/en_US/dev_guide/index.html&#34;&gt;MWS 接口&lt;/a&gt;，自己一路摸索，花了不少时间和精力，现在想把这些经验记录分享出来，让大家少走一些弯路。&lt;/p&gt;
-&lt;p&gt;这将是一系列文章，本篇主要讲与订单相关的接口。&lt;/p&gt;</description>
     </item>
     
   </channel>
