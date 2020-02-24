@@ -3,27 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://blog.forecho.com/</loc>
-    <lastmod>2020-02-10T12:44:00+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://blog.forecho.com/posts.html</loc>
-    <lastmod>2020-02-10T12:44:00+08:00</lastmod>
+    <lastmod>2020-02-24T18:25:46+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://blog.forecho.com/tags.html</loc>
-    <lastmod>2020-02-10T12:44:00+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.forecho.com/go-to-hong-kong-for-china-merchants-bank-hong-kong-card.html</loc>
-    <lastmod>2020-02-10T12:44:00+08:00</lastmod>
+    <lastmod>2020-02-24T18:25:46+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://blog.forecho.com/tags/%E7%BE%8E%E8%82%A1.html</loc>
+    <lastmod>2020-02-24T18:25:46+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.forecho.com/us-stock-deposit.html</loc>
+    <lastmod>2020-02-24T18:25:46+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.forecho.com/go-to-hong-kong-for-china-merchants-bank-hong-kong-card.html</loc>
     <lastmod>2020-02-10T12:44:00+08:00</lastmod>
   </url>
   
@@ -70,6 +70,11 @@
   <url>
     <loc>https://blog.forecho.com/octopress-migrate-to-hugo.html</loc>
     <lastmod>2020-01-02T18:48:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.forecho.com/</loc>
+    <lastmod>2020-01-02T18:04:32+08:00</lastmod>
   </url>
   
   <url>
@@ -303,6 +308,11 @@
   </url>
   
   <url>
+    <loc>https://blog.forecho.com/tags/%E5%B7%A5%E5%85%B7.html</loc>
+    <lastmod>2019-03-01T21:58:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://blog.forecho.com/tags/%E5%B7%A5%E5%85%B7%E6%8E%A7.html</loc>
     <lastmod>2019-03-01T21:58:00+08:00</lastmod>
   </url>
@@ -360,6 +370,11 @@
   <url>
     <loc>https://blog.forecho.com/readeep-019.html</loc>
     <lastmod>2018-10-21T21:03:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.forecho.com/tags/php.html</loc>
+    <lastmod>2018-10-12T20:50:00+08:00</lastmod>
   </url>
   
   <url>
@@ -620,6 +635,11 @@
   <url>
     <loc>https://blog.forecho.com/share-youtube-channels-that-i-often-watch.html</loc>
     <lastmod>2017-11-16T16:01:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.forecho.com/tags/git.html</loc>
+    <lastmod>2017-11-07T16:01:00+08:00</lastmod>
   </url>
   
   <url>
@@ -998,11 +1018,6 @@
   </url>
   
   <url>
-    <loc>https://blog.forecho.com/tags/%E5%B7%A5%E5%85%B7.html</loc>
-    <lastmod>2016-05-22T12:29:00+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://blog.forecho.com/beta-online-summary.html</loc>
     <lastmod>2016-05-22T11:17:00+08:00</lastmod>
   </url>
@@ -1015,11 +1030,6 @@
   <url>
     <loc>https://blog.forecho.com/about-spring-festical.html</loc>
     <lastmod>2016-02-15T16:12:00+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.forecho.com/tags/git.html</loc>
-    <lastmod>2016-02-15T15:08:00+08:00</lastmod>
   </url>
   
   <url>
@@ -1130,11 +1140,6 @@
   <url>
     <loc>https://blog.forecho.com/coding-is-boring-unless.html</loc>
     <lastmod>2015-11-30T17:40:00+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.forecho.com/tags/php.html</loc>
-    <lastmod>2015-11-19T10:57:00+08:00</lastmod>
   </url>
   
   <url>
@@ -1265,11 +1270,6 @@
   <url>
     <loc>https://blog.forecho.com/php-mysql-biao-fei-zhu-jian-zi-zeng-chang.html</loc>
     <lastmod>2014-11-13T20:34:00+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.forecho.com/macbook-sheng-ji-yosemite-zhi-hou-php-huan-jing-xiu-fu.html</loc>
-    <lastmod>2014-10-19T22:06:00+08:00</lastmod>
   </url>
   
   <url>

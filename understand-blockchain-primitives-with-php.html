@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <meta name="generator" content="Hugo 0.64.1" />
+    <meta name="generator" content="Hugo 0.65.3" />
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -386,7 +386,7 @@ public function addBlock(Block $newBlock)
 */
 public function isChainValid()
 {
-    for ($i = 1; $i &lt; <span style="color:#309;font-weight:bold">count</span><span style="color:#a00;background-color:#faa">(</span><span style="color:#a00;background-color:#faa">$</span><span style="color:#309">this-</span>&gt;chain); $i++) {
+    for ($i = 1; $i &lt; <span style="color:#309;font-weight:bold">count</span><span style="color:#a00;background-color:#faa">($</span><span style="color:#309">this-</span>&gt;chain); $i++) {
         $currentBlock = $this-&gt;chain[$i];
         $prevBlock = $this-&gt;chain[$i - 1];
         if ($currentBlock-&gt;hash !== $currentBlock-&gt;calculateHash()) {
@@ -567,7 +567,7 @@ echo &#34;区块链验证通过吗？&#34; . ($blockChain-&gt;isChainValid() ? &
                 <p class="text-center">
                     <span class="text-gray-700 font-bold">
                         
-                            92
+                            91
                         
                     </span>
                     标签

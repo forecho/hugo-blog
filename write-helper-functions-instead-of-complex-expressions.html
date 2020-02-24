@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <meta name="generator" content="Hugo 0.64.1" />
+    <meta name="generator" content="Hugo 0.65.3" />
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -414,7 +414,7 @@ $value = \yii\helpers\ArrayHelper::getValue($versions, [&#39;1.0&#39;, &#39;date
         $max = $this-&gt;max(self::NODE_BITS);
 
         if (is_int($node) === false || $node &gt; $max || $node &lt; <span style="color:#309;font-weight:bold">0</span><span style="color:#a00;background-color:#faa">)</span> <span style="color:#a00;background-color:#faa">{</span>
-            <span style="color:#309">throw</span> <span style="color:#309">new</span> <span style="color:#a00;background-color:#faa">\</span><span style="color:#309">InvalidArgumentException</span><span style="color:#a00;background-color:#faa">(</span><span style="color:#a00;background-color:#faa">&#39;</span><span style="color:#309">node</span><span style="color:#a00;background-color:#faa">&#39;</span><span style="color:#a00;background-color:#faa">)</span><span style="color:#a00;background-color:#faa">;</span>
+            <span style="color:#309">throw</span> <span style="color:#309">new</span> <span style="color:#a00;background-color:#faa">\</span><span style="color:#309">InvalidArgumentException</span><span style="color:#a00;background-color:#faa">(&#39;</span><span style="color:#309">node</span><span style="color:#a00;background-color:#faa">&#39;);</span>
         <span style="color:#a00;background-color:#faa">}</span>
 
         <span style="color:#a00;background-color:#faa">$</span><span style="color:#309">this-</span>&gt;node = $node;
@@ -426,9 +426,9 @@ $value = \yii\helpers\ArrayHelper::getValue($versions, [&#39;1.0&#39;, &#39;date
             $time = (int)(microtime(true) * 1000);
         }
 
-        return ($this-&gt;time($time) <span style="color:#a00;background-color:#faa">&lt;</span><span style="color:#a00;background-color:#faa">&lt;</span> (self::NODE_BITS + self::COUNT_BITS)) |
+        return ($this-&gt;time($time) <span style="color:#a00;background-color:#faa">&lt;&lt;</span> (self::NODE_BITS + self::COUNT_BITS)) |
                ($this-&gt;node <span style="color:#a00;background-color:#faa">&lt;</span>&lt; <span style="color:#309;font-weight:bold">self::COUNT_BITS</span><span style="color:#a00;background-color:#faa">)</span> <span style="color:#a00;background-color:#faa">|</span>
-               <span style="color:#a00;background-color:#faa">(</span><span style="color:#a00;background-color:#faa">$</span><span style="color:#309">this-</span>&gt;count($time));
+               <span style="color:#a00;background-color:#faa">($</span><span style="color:#309">this-</span>&gt;count($time));
     }
 
     public function restore($id)
@@ -456,18 +456,18 @@ $value = \yii\helpers\ArrayHelper::getValue($versions, [&#39;1.0&#39;, &#39;date
         $max = $this-&gt;max(self::TIME_BITS);
 
         if (is_int($time) === false || $time &gt; $max || $time &lt; <span style="color:#309;font-weight:bold">0</span><span style="color:#a00;background-color:#faa">)</span> <span style="color:#a00;background-color:#faa">{</span>
-            <span style="color:#309">throw</span> <span style="color:#309">new</span> <span style="color:#a00;background-color:#faa">\</span><span style="color:#309">InvalidArgumentException</span><span style="color:#a00;background-color:#faa">(</span><span style="color:#a00;background-color:#faa">&#39;</span><span style="color:#309">time</span><span style="color:#a00;background-color:#faa">&#39;</span><span style="color:#a00;background-color:#faa">)</span><span style="color:#a00;background-color:#faa">;</span>
+            <span style="color:#309">throw</span> <span style="color:#309">new</span> <span style="color:#a00;background-color:#faa">\</span><span style="color:#309">InvalidArgumentException</span><span style="color:#a00;background-color:#faa">(&#39;</span><span style="color:#309">time</span><span style="color:#a00;background-color:#faa">&#39;);</span>
         <span style="color:#a00;background-color:#faa">}</span>
 
         <span style="color:#309">return</span> <span style="color:#a00;background-color:#faa">$</span><span style="color:#309">time</span><span style="color:#a00;background-color:#faa">;</span>
     <span style="color:#a00;background-color:#faa">}</span>
 
-    <span style="color:#309">private</span> <span style="color:#309">function</span> <span style="color:#309">count</span><span style="color:#a00;background-color:#faa">(</span><span style="color:#a00;background-color:#faa">$</span><span style="color:#309">time</span><span style="color:#a00;background-color:#faa">)</span>
+    <span style="color:#309">private</span> <span style="color:#309">function</span> <span style="color:#309">count</span><span style="color:#a00;background-color:#faa">($</span><span style="color:#309">time</span><span style="color:#a00;background-color:#faa">)</span>
     <span style="color:#a00;background-color:#faa">{</span>
         <span style="color:#a00;background-color:#faa">$</span><span style="color:#309">key </span><span style="color:#555">=</span> <span style="color:#c30">&#34;seq:count:{$time}&#34;</span><span style="color:#a00;background-color:#faa">;</span>
 
-        <span style="color:#309">while</span> <span style="color:#a00;background-color:#faa">(</span><span style="color:#a00;background-color:#faa">!</span><span style="color:#a00;background-color:#faa">$</span><span style="color:#309">count </span><span style="color:#555">=</span> <span style="color:#c30">apcu_inc($key))</span> <span style="color:#a00;background-color:#faa">{</span>
-            <span style="color:#309">apcu_add</span><span style="color:#a00;background-color:#faa">(</span><span style="color:#a00;background-color:#faa">$</span><span style="color:#309">key</span><span style="color:#a00;background-color:#faa">,</span> <span style="color:#309">mt_rand</span><span style="color:#a00;background-color:#faa">(</span><span style="color:#309">0</span><span style="color:#a00;background-color:#faa">,</span> <span style="color:#309">9</span><span style="color:#a00;background-color:#faa">)</span><span style="color:#a00;background-color:#faa">,</span> <span style="color:#a00;background-color:#faa">$</span><span style="color:#309">this-</span>&gt;ttl);
+        <span style="color:#309">while</span> <span style="color:#a00;background-color:#faa">(!$</span><span style="color:#309">count </span><span style="color:#555">=</span> <span style="color:#c30">apcu_inc($key))</span> <span style="color:#a00;background-color:#faa">{</span>
+            <span style="color:#309">apcu_add</span><span style="color:#a00;background-color:#faa">($</span><span style="color:#309">key</span><span style="color:#a00;background-color:#faa">,</span> <span style="color:#309">mt_rand</span><span style="color:#a00;background-color:#faa">(</span><span style="color:#309">0</span><span style="color:#a00;background-color:#faa">,</span> <span style="color:#309">9</span><span style="color:#a00;background-color:#faa">),</span> <span style="color:#a00;background-color:#faa">$</span><span style="color:#309">this-</span>&gt;ttl);
         }
 
         $max = $this-&gt;max(self::COUNT_BITS);
@@ -481,7 +481,7 @@ $value = \yii\helpers\ArrayHelper::getValue($versions, [&#39;1.0&#39;, &#39;date
 
     private function max($bits)
     {
-        return -1 ^ (-1 <span style="color:#a00;background-color:#faa">&lt;</span><span style="color:#a00;background-color:#faa">&lt;</span> $bits);
+        return -1 ^ (-1 <span style="color:#a00;background-color:#faa">&lt;&lt;</span> $bits);
     }
 }
 </code></pre></td></tr></table>
@@ -621,7 +621,7 @@ $value = \yii\helpers\ArrayHelper::getValue($versions, [&#39;1.0&#39;, &#39;date
                 <p class="text-center">
                     <span class="text-gray-700 font-bold">
                         
-                            92
+                            91
                         
                     </span>
                     标签

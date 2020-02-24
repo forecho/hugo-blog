@@ -103,7 +103,7 @@
             &amp;#39;url&amp;#39;=&amp;gt;array(&amp;#39;/manager&amp;#39;),
             &amp;#39;itemOptions&amp;#39;=&amp;gt;array(&amp;#39;class&amp;#39;=&amp;gt;&amp;#39;li_manager&amp;#39;),
             &amp;#39;submenuOptions&amp;#39;=&amp;gt;array(&amp;#39;class&amp;#39;=&amp;gt;&amp;#39;subclass&amp;#39;),
-            &amp;#39;active&amp;#39;=&amp;gt;($this-&amp;gt;id==&amp;#39;manager&amp;#39; &lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;&amp;amp;&lt;/span&gt; $this-&amp;gt;action-&amp;gt;id!=&amp;#39;changepswd&amp;#39;)?true:false,
+            &amp;#39;active&amp;#39;=&amp;gt;($this-&amp;gt;id==&amp;#39;manager&amp;#39; &lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; $this-&amp;gt;action-&amp;gt;id!=&amp;#39;changepswd&amp;#39;)?true:false,
             &amp;#39;visible&amp;#39;=&amp;gt;false
         ),
         array(
@@ -116,7 +116,7 @@
             &amp;#39;items&amp;#39;=&amp;gt;array(
                 array(&amp;#39;label&amp;#39;=&amp;gt;&amp;#39;子栏目&amp;#39;)
             ),
-            &amp;#39;active&amp;#39;=&amp;gt;($this-&amp;gt;id==&amp;#39;manager&amp;#39; &lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;&amp;amp;&lt;/span&gt; $this-&amp;gt;action-&amp;gt;id==&amp;#39;changepswd&amp;#39;)?true:false,
+            &amp;#39;active&amp;#39;=&amp;gt;($this-&amp;gt;id==&amp;#39;manager&amp;#39; &lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; $this-&amp;gt;action-&amp;gt;id==&amp;#39;changepswd&amp;#39;)?true:false,
             &amp;#39;visible&amp;#39;=&amp;gt;true
         ),
         array(

@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <meta name="generator" content="Hugo 0.64.1" />
+    <meta name="generator" content="Hugo 0.65.3" />
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -135,7 +135,7 @@ $today = strtotime(date(&#39;Y-m-d 00:00:00&#39;, time()));
 <pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-sql" data-lang="sql"><span style="color:#069;font-weight:bold">SELECT</span> <span style="color:#555">*</span> <span style="color:#069;font-weight:bold">FROM</span> message <span style="color:#069;font-weight:bold">WHERE</span> DATE_FORMAT(FROM_UNIXTIME(chattime),<span style="color:#c30">&#39;</span><span style="color:#c30">%Y-%m-%d</span><span style="color:#c30">&#39;</span>) <span style="color:#555">=</span> DATE_FORMAT(NOW(),<span style="color:#c30">&#39;</span><span style="color:#c30">%Y-%m-%d</span><span style="color:#c30">&#39;</span>) <span style="color:#069;font-weight:bold">ORDER</span> <span style="color:#069;font-weight:bold">BY</span> id <span style="color:#069;font-weight:bold">DESC</span>
+<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-sql" data-lang="sql"><span style="color:#069;font-weight:bold">SELECT</span> <span style="color:#555">*</span> <span style="color:#069;font-weight:bold">FROM</span> message <span style="color:#069;font-weight:bold">WHERE</span> DATE_FORMAT(FROM_UNIXTIME(chattime),<span style="color:#c30">&#39;%Y-%m-%d&#39;</span>) <span style="color:#555">=</span> DATE_FORMAT(NOW(),<span style="color:#c30">&#39;%Y-%m-%d&#39;</span>) <span style="color:#069;font-weight:bold">ORDER</span> <span style="color:#069;font-weight:bold">BY</span> id <span style="color:#069;font-weight:bold">DESC</span>
 </code></pre></td></tr></table>
 </div>
 </div>
@@ -267,7 +267,7 @@ $today = strtotime(date(&#39;Y-m-d 00:00:00&#39;, time()));
                 <p class="text-center">
                     <span class="text-gray-700 font-bold">
                         
-                            92
+                            91
                         
                     </span>
                     标签

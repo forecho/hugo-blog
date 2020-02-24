@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <meta name="generator" content="Hugo 0.64.1" />
+    <meta name="generator" content="Hugo 0.65.3" />
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -404,8 +404,8 @@ $this-&gt;User-&gt;findByUsernameAndPassword(&#39;jhon&#39;,&#39;123&#39;);
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-php" data-lang="php">for ($i=0; $i &lt; <span style="color:#309;font-weight:bold">count</span><span style="color:#a00;background-color:#faa">(</span><span style="color:#a00;background-color:#faa">$</span><span style="color:#309">data</span><span style="color:#a00;background-color:#faa">[</span><span style="color:#a00;background-color:#faa">&#39;</span><span style="color:#309">product_id</span><span style="color:#a00;background-color:#faa">&#39;</span><span style="color:#a00;background-color:#faa">]</span><span style="color:#a00;background-color:#faa">)</span><span style="color:#a00;background-color:#faa">;</span> <span style="color:#a00;background-color:#faa">$</span><span style="color:#309">i</span><span style="color:#a00;background-color:#faa">+</span><span style="color:#a00;background-color:#faa">+</span><span style="color:#a00;background-color:#faa">)</span> <span style="color:#a00;background-color:#faa">{</span>
-	<span style="color:#a00;background-color:#faa">$</span><span style="color:#309">item</span><span style="color:#a00;background-color:#faa">[</span><span style="color:#a00;background-color:#faa">$</span><span style="color:#309">i</span><span style="color:#a00;background-color:#faa">]</span><span style="color:#a00;background-color:#faa">[</span><span style="color:#a00;background-color:#faa">&#39;</span><span style="color:#309">DiscountProduct</span><span style="color:#a00;background-color:#faa">&#39;</span><span style="color:#a00;background-color:#faa">]</span><span style="color:#a00;background-color:#faa">[</span><span style="color:#a00;background-color:#faa">&#39;</span><span style="color:#309">discount_id</span><span style="color:#a00;background-color:#faa">&#39;</span><span style="color:#a00;background-color:#faa">]</span> <span style="color:#a00;background-color:#faa">=</span> <span style="color:#a00;background-color:#faa">$</span><span style="color:#309">this-</span>&gt;Discount-&gt;id;
+<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-php" data-lang="php">for ($i=0; $i &lt; <span style="color:#309;font-weight:bold">count</span><span style="color:#a00;background-color:#faa">($</span><span style="color:#309">data</span><span style="color:#a00;background-color:#faa">[&#39;</span><span style="color:#309">product_id</span><span style="color:#a00;background-color:#faa">&#39;]);</span> <span style="color:#a00;background-color:#faa">$</span><span style="color:#309">i</span><span style="color:#a00;background-color:#faa">++)</span> <span style="color:#a00;background-color:#faa">{</span>
+	<span style="color:#a00;background-color:#faa">$</span><span style="color:#309">item</span><span style="color:#a00;background-color:#faa">[$</span><span style="color:#309">i</span><span style="color:#a00;background-color:#faa">][&#39;</span><span style="color:#309">DiscountProduct</span><span style="color:#a00;background-color:#faa">&#39;][&#39;</span><span style="color:#309">discount_id</span><span style="color:#a00;background-color:#faa">&#39;]</span> <span style="color:#a00;background-color:#faa">=</span> <span style="color:#a00;background-color:#faa">$</span><span style="color:#309">this-</span>&gt;Discount-&gt;id;
 	$item[$i][&#39;DiscountProduct&#39;][&#39;discount&#39;] = $data[&#39;discount&#39;][$i];
 }
 $this-&gt;DiscountProduct-&gt;saveAll($item);
@@ -725,7 +725,7 @@ class MyModel extends AppModel {
     
     <li><a href="/php-mysql-biao-fei-zhu-jian-zi-zeng-chang.html" class="underline text-orange-600">PHP MySQL 表非主键自增长</a></li>
     
-    <li><a href="/macbook-sheng-ji-yosemite-zhi-hou-php-huan-jing-xiu-fu.html" class="underline text-orange-600">Mac 升级 Yosemite 之后 PHP 环境修复</a></li>
+    <li><a href="/macbook-sheng-ji-yosemite-zhi-hou-php-huan-jing-xiu-fu.html" class="underline text-orange-600">MacBook 升级 Yosemite 之后 PHP 环境修复</a></li>
     
 </div>
 
@@ -758,7 +758,7 @@ class MyModel extends AppModel {
                 <p class="text-center">
                     <span class="text-gray-700 font-bold">
                         
-                            92
+                            91
                         
                     </span>
                     标签

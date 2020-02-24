@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <meta name="generator" content="Hugo 0.64.1" />
+    <meta name="generator" content="Hugo 0.65.3" />
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -332,7 +332,7 @@ git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/anan
 
 	<span style="color:#069;font-weight:bold">for</span> _, file <span style="color:#555">:=</span> <span style="color:#069;font-weight:bold">range</span> files {
 		filename <span style="color:#555">:=</span> file.<span style="color:#c0f">Name</span>()
-		re <span style="color:#555">:=</span> regexp.<span style="color:#c0f">MustCompile</span>(<span style="color:#c30">`</span><span style="color:#c30">^\d</span><span style="color:#c30">{</span><span style="color:#c30">4}-\d</span><span style="color:#c30">{</span><span style="color:#c30">2}-\d</span><span style="color:#c30">{</span><span style="color:#c30">2}-(.*).m(arkdown|d)</span><span style="color:#c30">`</span>)
+		re <span style="color:#555">:=</span> regexp.<span style="color:#c0f">MustCompile</span>(<span style="color:#c30">`^\d{4}-\d{2}-\d{2}-(.*).m(arkdown|d)`</span>)
 		<span style="color:#09f;font-style:italic">// Ignore non-matching filenames (i.e. do no dereference nil)
 </span><span style="color:#09f;font-style:italic"></span>		<span style="color:#069;font-weight:bold">if</span> matches <span style="color:#555">:=</span> re.<span style="color:#c0f">FindStringSubmatch</span>(filename); matches <span style="color:#555">==</span> <span style="color:#069;font-weight:bold">nil</span> {
 			<span style="color:#069;font-weight:bold">continue</span>
@@ -344,29 +344,29 @@ git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/anan
 			<span style="color:#366">panic</span>(err)
 		}
 
-		re = regexp.<span style="color:#c0f">MustCompile</span>(<span style="color:#c30">`</span><span style="color:#c30">(\d</span><span style="color:#c30">{</span><span style="color:#c30">4}-\d</span><span style="color:#c30">{</span><span style="color:#c30">2}-\d</span><span style="color:#c30">{</span><span style="color:#c30">2})-(.*)</span><span style="color:#c30">`</span>)
+		re = regexp.<span style="color:#c0f">MustCompile</span>(<span style="color:#c30">`(\d{4}-\d{2}-\d{2})-(.*)`</span>)
 		newFilename <span style="color:#555">:=</span> re.<span style="color:#c0f">ReplaceAllString</span>(filename, <span style="color:#c30">&#34;$2&#34;</span>)
 
-		re = regexp.<span style="color:#c0f">MustCompile</span>(<span style="color:#c30">`</span><span style="color:#c30">---\n([\s\S]*)---\n([\s\S]*)</span><span style="color:#c30">`</span>)
+		re = regexp.<span style="color:#c0f">MustCompile</span>(<span style="color:#c30">`---\n([\s\S]*)---\n([\s\S]*)`</span>)
 		matches <span style="color:#555">:=</span> re.<span style="color:#c0f">FindSubmatch</span>(data)
 		header <span style="color:#555">:=</span> <span style="color:#366">string</span>(matches[<span style="color:#f60">1</span>])
 		body <span style="color:#555">:=</span> <span style="color:#366">string</span>(matches[<span style="color:#f60">2</span>])
 		draftline <span style="color:#555">:=</span> <span style="color:#c30">&#34;draft: false\n&#34;</span>
 
 		<span style="color:#09f;font-style:italic">// date
-</span><span style="color:#09f;font-style:italic"></span>		re = regexp.<span style="color:#c0f">MustCompile</span>(<span style="color:#c30">`</span><span style="color:#c30">date: (\d</span><span style="color:#c30">{</span><span style="color:#c30">4}-\d</span><span style="color:#c30">{</span><span style="color:#c30">2}-\d</span><span style="color:#c30">{</span><span style="color:#c30">2}) (\d</span><span style="color:#c30">{</span><span style="color:#c30">2}:\d</span><span style="color:#c30">{</span><span style="color:#c30">2}).*\n</span><span style="color:#c30">`</span>)
-		header = re.<span style="color:#c0f">ReplaceAllString</span>(header, <span style="color:#c30">`</span><span style="color:#c30">date: $</span><span style="color:#c30">{</span><span style="color:#c30">1}T$2:00+08:00</span><span style="color:#c30">`</span><span style="color:#555">+</span><span style="color:#c30">&#34;\n&#34;</span>)
+</span><span style="color:#09f;font-style:italic"></span>		re = regexp.<span style="color:#c0f">MustCompile</span>(<span style="color:#c30">`date: (\d{4}-\d{2}-\d{2}) (\d{2}:\d{2}).*\n`</span>)
+		header = re.<span style="color:#c0f">ReplaceAllString</span>(header, <span style="color:#c30">`date: ${1}T$2:00+08:00`</span><span style="color:#555">+</span><span style="color:#c30">&#34;\n&#34;</span>)
 
 		<span style="color:#09f;font-style:italic">// layout
-</span><span style="color:#09f;font-style:italic"></span>		re = regexp.<span style="color:#c0f">MustCompile</span>(<span style="color:#c30">`</span><span style="color:#c30">layout: .*\n</span><span style="color:#c30">`</span>)
+</span><span style="color:#09f;font-style:italic"></span>		re = regexp.<span style="color:#c0f">MustCompile</span>(<span style="color:#c30">`layout: .*\n`</span>)
 		header = re.<span style="color:#c0f">ReplaceAllString</span>(header, <span style="color:#c30">&#34;&#34;</span>)
 
 		<span style="color:#09f;font-style:italic">// comments
-</span><span style="color:#09f;font-style:italic"></span>		re = regexp.<span style="color:#c0f">MustCompile</span>(<span style="color:#c30">`</span><span style="color:#c30">comments: .*\n</span><span style="color:#c30">`</span>)
+</span><span style="color:#09f;font-style:italic"></span>		re = regexp.<span style="color:#c0f">MustCompile</span>(<span style="color:#c30">`comments: .*\n`</span>)
 		header = re.<span style="color:#c0f">ReplaceAllString</span>(header, <span style="color:#c30">&#34;&#34;</span>)
 
 		<span style="color:#09f;font-style:italic">// categories
-</span><span style="color:#09f;font-style:italic"></span>		re = regexp.<span style="color:#c0f">MustCompile</span>(<span style="color:#c30">`</span><span style="color:#c30">categories: (.*)\n</span><span style="color:#c30">`</span>)
+</span><span style="color:#09f;font-style:italic"></span>		re = regexp.<span style="color:#c0f">MustCompile</span>(<span style="color:#c30">`categories: (.*)\n`</span>)
 		matches = re.<span style="color:#c0f">FindSubmatch</span>([]<span style="color:#366">byte</span>(header))
 		<span style="color:#069;font-weight:bold">if</span> categories <span style="color:#555">:=</span> <span style="color:#366">string</span>(matches[<span style="color:#f60">1</span>]); categories <span style="color:#555">!=</span> <span style="color:#c30">&#34;&#34;</span> {
 			tags <span style="color:#555">:=</span> strings.<span style="color:#c0f">ReplaceAll</span>(categories, <span style="color:#c30">&#34; &#34;</span>, <span style="color:#c30">&#34;\&#34;, \&#34;&#34;</span>)
@@ -559,7 +559,7 @@ git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/anan
                 <p class="text-center">
                     <span class="text-gray-700 font-bold">
                         
-                            92
+                            91
                         
                     </span>
                     标签

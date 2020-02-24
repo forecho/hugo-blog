@@ -6,10 +6,89 @@
     <description>Recent content on forecho&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 10 Feb 2020 12:44:00 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jan 2020 18:04:32 +0800</lastBuildDate>
     
         <atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>美股入金问题</title>
+      <link>https://blog.forecho.com/us-stock-deposit.html</link>
+      <pubDate>Mon, 24 Feb 2020 18:25:46 +0800</pubDate>
+      
+      <guid>https://blog.forecho.com/us-stock-deposit.html</guid>
+      
+        <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;最近很多小伙伴咨询我美股如何入金的问题，今天我这里就统一回复一下我了解的方案。&lt;/p&gt;
+&lt;h2 id=&#34;方案一&#34;&gt;方案一&lt;/h2&gt;
+&lt;h3 id=&#34;适合对象&#34;&gt;适合对象&lt;/h3&gt;
+&lt;p&gt;已经开通富途证券或者准备开通富途证券的朋友。&lt;/p&gt;
+&lt;p&gt;PS：关于如何开通富途证券，详情参考我这篇文章&lt;a href=&#34;https://blog.forecho.com/how-do-i-invest-in-american-stocks.html&#34;&gt;《我是怎么投资美股的》&lt;/a&gt;。&lt;/p&gt;
+&lt;h3 id=&#34;具体方案&#34;&gt;具体方案&lt;/h3&gt;
+&lt;p&gt;富途证券已经不再支持大陆银行卡入金了，但是他们也提供了一种解决方案。&lt;/p&gt;
+&lt;p&gt;开通富途证券之后，可以联系他们的客服，他们会协助客户在线办理华美银行账户，&lt;strong&gt;足不出户，线上办理，非常的方便&lt;/strong&gt;，详情如下：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 1
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 2
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 3
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 4
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 5
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 6
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 7
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 8
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 9
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;10
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;11
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;12
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;13
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;14
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;美国华美VELO银行卡开卡指引：
+1、办理所需资料：仅大陆身份证即可（可直接网申，资料无误实时开通账户）
+2、账户管理费：账户不足2,500美元，每月10美元管理费。(前两个月免)
+3、入账手续费：10美元/笔(前两个月先收后返)
+4、国际电汇：30美元/笔(先收后返)
+5、华美velo账户办理链接：https://velo.futu5.com
+（需要先开通富途证券账户，才能点击该链接申请办理velo银行卡）
+6、velo客服电话：4000805290
+velo客服工作时间：
+周一至周五晚上22:00至次日上午11:00
+周日凌晨1:00至上午9:00
+备注：
+在富途首次入金2600美金以上，可领取价值400港币的股票卡
+（该股票卡可兑换1股腾讯股票，基本可以抵消汇款入金的手续费。）
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;入金步骤&#34;&gt;入金步骤&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;在大陆银行 App 上进行购汇。&lt;/li&gt;
+&lt;li&gt;使用银行 App 外汇到华美银行账户。&lt;/li&gt;
+&lt;li&gt;使用华美银行在网上把钱汇款到富途证券入金提供的账户上。&lt;/li&gt;
+&lt;li&gt;手动在富途证券上 点击 &lt;code&gt;已汇款&lt;/code&gt; 按钮。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;方案二&#34;&gt;方案二&lt;/h2&gt;
+&lt;h3 id=&#34;适合对象-1&#34;&gt;适合对象&lt;/h3&gt;
+&lt;p&gt;所有想交易美股的朋友。&lt;/p&gt;
+&lt;h3 id=&#34;具体方案-1&#34;&gt;具体方案&lt;/h3&gt;
+&lt;p&gt;使用&lt;a href=&#34;http://link.3li3.com/tiger&#34;&gt;老虎证券&lt;/a&gt;交易。小米投资的一家专注美港股的互联网券商。&lt;/p&gt;
+&lt;p&gt;点击 &lt;a href=&#34;http://link.3li3.com/tiger&#34;&gt;http://link.3li3.com/tiger&lt;/a&gt; 线上开户通过之后就可以使用大陆银行卡入金了。推荐使用建行的银行卡。&lt;/p&gt;
+&lt;h3 id=&#34;入金步骤-1&#34;&gt;入金步骤&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;在大陆银行 App 上进行购汇。&lt;/li&gt;
+&lt;li&gt;使用银行 App 外汇到老虎证券提供的入金账户。&lt;/li&gt;
+&lt;li&gt;手动在老虎证券上 点击 &lt;code&gt;已汇款&lt;/code&gt; 按钮。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;总结&#34;&gt;总结&lt;/h2&gt;
+&lt;p&gt;两种方案个有优势，但是长期看来&lt;strong&gt;方案一&lt;/strong&gt;更有优势：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;富途证券交易港美股更有优势，交易费比老虎证券便宜。&lt;/li&gt;
+&lt;li&gt;对华美银行账户开通提供支持和补贴。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;最后如果还有疑问，可以关注我的公众号，私信我。&lt;/p&gt;</description>
+      
+    </item>
     
     <item>
       <title>去香港办招行香港一卡通</title>
@@ -643,7 +722,7 @@ git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/anan
 
 	&lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;for&lt;/span&gt; _, file &lt;span style=&#34;color:#555&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;range&lt;/span&gt; files {
 		filename &lt;span style=&#34;color:#555&#34;&gt;:=&lt;/span&gt; file.&lt;span style=&#34;color:#c0f&#34;&gt;Name&lt;/span&gt;()
-		re &lt;span style=&#34;color:#555&#34;&gt;:=&lt;/span&gt; regexp.&lt;span style=&#34;color:#c0f&#34;&gt;MustCompile&lt;/span&gt;(&lt;span style=&#34;color:#c30&#34;&gt;`&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;^\d&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;{&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;4}-\d&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;{&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;2}-\d&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;{&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;2}-(.*).m(arkdown|d)&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;`&lt;/span&gt;)
+		re &lt;span style=&#34;color:#555&#34;&gt;:=&lt;/span&gt; regexp.&lt;span style=&#34;color:#c0f&#34;&gt;MustCompile&lt;/span&gt;(&lt;span style=&#34;color:#c30&#34;&gt;`^\d{4}-\d{2}-\d{2}-(.*).m(arkdown|d)`&lt;/span&gt;)
 		&lt;span style=&#34;color:#09f;font-style:italic&#34;&gt;// Ignore non-matching filenames (i.e. do no dereference nil)
 &lt;/span&gt;&lt;span style=&#34;color:#09f;font-style:italic&#34;&gt;&lt;/span&gt;		&lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;if&lt;/span&gt; matches &lt;span style=&#34;color:#555&#34;&gt;:=&lt;/span&gt; re.&lt;span style=&#34;color:#c0f&#34;&gt;FindStringSubmatch&lt;/span&gt;(filename); matches &lt;span style=&#34;color:#555&#34;&gt;==&lt;/span&gt; &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;nil&lt;/span&gt; {
 			&lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;continue&lt;/span&gt;
@@ -655,29 +734,29 @@ git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/anan
 			&lt;span style=&#34;color:#366&#34;&gt;panic&lt;/span&gt;(err)
 		}
 
-		re = regexp.&lt;span style=&#34;color:#c0f&#34;&gt;MustCompile&lt;/span&gt;(&lt;span style=&#34;color:#c30&#34;&gt;`&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;(\d&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;{&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;4}-\d&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;{&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;2}-\d&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;{&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;2})-(.*)&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;`&lt;/span&gt;)
+		re = regexp.&lt;span style=&#34;color:#c0f&#34;&gt;MustCompile&lt;/span&gt;(&lt;span style=&#34;color:#c30&#34;&gt;`(\d{4}-\d{2}-\d{2})-(.*)`&lt;/span&gt;)
 		newFilename &lt;span style=&#34;color:#555&#34;&gt;:=&lt;/span&gt; re.&lt;span style=&#34;color:#c0f&#34;&gt;ReplaceAllString&lt;/span&gt;(filename, &lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;$2&amp;#34;&lt;/span&gt;)
 
-		re = regexp.&lt;span style=&#34;color:#c0f&#34;&gt;MustCompile&lt;/span&gt;(&lt;span style=&#34;color:#c30&#34;&gt;`&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;---\n([\s\S]*)---\n([\s\S]*)&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;`&lt;/span&gt;)
+		re = regexp.&lt;span style=&#34;color:#c0f&#34;&gt;MustCompile&lt;/span&gt;(&lt;span style=&#34;color:#c30&#34;&gt;`---\n([\s\S]*)---\n([\s\S]*)`&lt;/span&gt;)
 		matches &lt;span style=&#34;color:#555&#34;&gt;:=&lt;/span&gt; re.&lt;span style=&#34;color:#c0f&#34;&gt;FindSubmatch&lt;/span&gt;(data)
 		header &lt;span style=&#34;color:#555&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#366&#34;&gt;string&lt;/span&gt;(matches[&lt;span style=&#34;color:#f60&#34;&gt;1&lt;/span&gt;])
 		body &lt;span style=&#34;color:#555&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#366&#34;&gt;string&lt;/span&gt;(matches[&lt;span style=&#34;color:#f60&#34;&gt;2&lt;/span&gt;])
 		draftline &lt;span style=&#34;color:#555&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;draft: false\n&amp;#34;&lt;/span&gt;
 
 		&lt;span style=&#34;color:#09f;font-style:italic&#34;&gt;// date
-&lt;/span&gt;&lt;span style=&#34;color:#09f;font-style:italic&#34;&gt;&lt;/span&gt;		re = regexp.&lt;span style=&#34;color:#c0f&#34;&gt;MustCompile&lt;/span&gt;(&lt;span style=&#34;color:#c30&#34;&gt;`&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;date: (\d&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;{&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;4}-\d&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;{&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;2}-\d&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;{&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;2}) (\d&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;{&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;2}:\d&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;{&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;2}).*\n&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;`&lt;/span&gt;)
-		header = re.&lt;span style=&#34;color:#c0f&#34;&gt;ReplaceAllString&lt;/span&gt;(header, &lt;span style=&#34;color:#c30&#34;&gt;`&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;date: $&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;{&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;1}T$2:00+08:00&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;`&lt;/span&gt;&lt;span style=&#34;color:#555&#34;&gt;+&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;\n&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;span style=&#34;color:#09f;font-style:italic&#34;&gt;&lt;/span&gt;		re = regexp.&lt;span style=&#34;color:#c0f&#34;&gt;MustCompile&lt;/span&gt;(&lt;span style=&#34;color:#c30&#34;&gt;`date: (\d{4}-\d{2}-\d{2}) (\d{2}:\d{2}).*\n`&lt;/span&gt;)
+		header = re.&lt;span style=&#34;color:#c0f&#34;&gt;ReplaceAllString&lt;/span&gt;(header, &lt;span style=&#34;color:#c30&#34;&gt;`date: ${1}T$2:00+08:00`&lt;/span&gt;&lt;span style=&#34;color:#555&#34;&gt;+&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;\n&amp;#34;&lt;/span&gt;)
 
 		&lt;span style=&#34;color:#09f;font-style:italic&#34;&gt;// layout
-&lt;/span&gt;&lt;span style=&#34;color:#09f;font-style:italic&#34;&gt;&lt;/span&gt;		re = regexp.&lt;span style=&#34;color:#c0f&#34;&gt;MustCompile&lt;/span&gt;(&lt;span style=&#34;color:#c30&#34;&gt;`&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;layout: .*\n&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;`&lt;/span&gt;)
+&lt;/span&gt;&lt;span style=&#34;color:#09f;font-style:italic&#34;&gt;&lt;/span&gt;		re = regexp.&lt;span style=&#34;color:#c0f&#34;&gt;MustCompile&lt;/span&gt;(&lt;span style=&#34;color:#c30&#34;&gt;`layout: .*\n`&lt;/span&gt;)
 		header = re.&lt;span style=&#34;color:#c0f&#34;&gt;ReplaceAllString&lt;/span&gt;(header, &lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;)
 
 		&lt;span style=&#34;color:#09f;font-style:italic&#34;&gt;// comments
-&lt;/span&gt;&lt;span style=&#34;color:#09f;font-style:italic&#34;&gt;&lt;/span&gt;		re = regexp.&lt;span style=&#34;color:#c0f&#34;&gt;MustCompile&lt;/span&gt;(&lt;span style=&#34;color:#c30&#34;&gt;`&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;comments: .*\n&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;`&lt;/span&gt;)
+&lt;/span&gt;&lt;span style=&#34;color:#09f;font-style:italic&#34;&gt;&lt;/span&gt;		re = regexp.&lt;span style=&#34;color:#c0f&#34;&gt;MustCompile&lt;/span&gt;(&lt;span style=&#34;color:#c30&#34;&gt;`comments: .*\n`&lt;/span&gt;)
 		header = re.&lt;span style=&#34;color:#c0f&#34;&gt;ReplaceAllString&lt;/span&gt;(header, &lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;)
 
 		&lt;span style=&#34;color:#09f;font-style:italic&#34;&gt;// categories
-&lt;/span&gt;&lt;span style=&#34;color:#09f;font-style:italic&#34;&gt;&lt;/span&gt;		re = regexp.&lt;span style=&#34;color:#c0f&#34;&gt;MustCompile&lt;/span&gt;(&lt;span style=&#34;color:#c30&#34;&gt;`&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;categories: (.*)\n&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;`&lt;/span&gt;)
+&lt;/span&gt;&lt;span style=&#34;color:#09f;font-style:italic&#34;&gt;&lt;/span&gt;		re = regexp.&lt;span style=&#34;color:#c0f&#34;&gt;MustCompile&lt;/span&gt;(&lt;span style=&#34;color:#c30&#34;&gt;`categories: (.*)\n`&lt;/span&gt;)
 		matches = re.&lt;span style=&#34;color:#c0f&#34;&gt;FindSubmatch&lt;/span&gt;([]&lt;span style=&#34;color:#366&#34;&gt;byte&lt;/span&gt;(header))
 		&lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;if&lt;/span&gt; categories &lt;span style=&#34;color:#555&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#366&#34;&gt;string&lt;/span&gt;(matches[&lt;span style=&#34;color:#f60&#34;&gt;1&lt;/span&gt;]); categories &lt;span style=&#34;color:#555&#34;&gt;!=&lt;/span&gt; &lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt; {
 			tags &lt;span style=&#34;color:#555&#34;&gt;:=&lt;/span&gt; strings.&lt;span style=&#34;color:#c0f&#34;&gt;ReplaceAll&lt;/span&gt;(categories, &lt;span style=&#34;color:#c30&#34;&gt;&amp;#34; &amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;\&amp;#34;, \&amp;#34;&amp;#34;&lt;/span&gt;)
@@ -827,20 +906,20 @@ git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/anan
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
 &lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-lua&#34; data-lang=&#34;lua&#34;&gt;
-require &lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;modules.reload&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;&lt;/span&gt;
-require &lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;config&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;&lt;/span&gt;
-require &lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;modules.window&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;&lt;/span&gt;
-require &lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;modules.launcher&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;&lt;/span&gt;
-require &lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;modules.input&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;&lt;/span&gt;
-require &lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;modules.defaultInput&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;&lt;/span&gt;
-require &lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;modules.bluetoothSleep&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;&lt;/span&gt;
+require &lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;modules.reload&amp;#34;&lt;/span&gt;
+require &lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;config&amp;#34;&lt;/span&gt;
+require &lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;modules.window&amp;#34;&lt;/span&gt;
+require &lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;modules.launcher&amp;#34;&lt;/span&gt;
+require &lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;modules.input&amp;#34;&lt;/span&gt;
+require &lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;modules.defaultInput&amp;#34;&lt;/span&gt;
+require &lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;modules.bluetoothSleep&amp;#34;&lt;/span&gt;
 
 &lt;span style=&#34;color:#09f;font-style:italic&#34;&gt;-- 调试代码&lt;/span&gt;
-hs.hotkey.bind({&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;cmd&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;shift&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;}, &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;h&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;function&lt;/span&gt;() 
-	hs.alert(&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;Hello World&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;) 
+hs.hotkey.bind({&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;cmd&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;shift&amp;#39;&lt;/span&gt;}, &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;h&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;function&lt;/span&gt;() 
+	hs.alert(&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;Hello World&amp;#39;&lt;/span&gt;) 
 	speaker &lt;span style=&#34;color:#555&#34;&gt;=&lt;/span&gt; hs.speech.new()
-	speaker:speak(&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;Hammerspoon is online&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;&lt;/span&gt;)
-	hs.notify.new({title&lt;span style=&#34;color:#555&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;Hammerspoon launch&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;&lt;/span&gt;, informativeText&lt;span style=&#34;color:#555&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;Boss, at your service&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;&lt;/span&gt;}):send()
+	speaker:speak(&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;Hammerspoon is online&amp;#34;&lt;/span&gt;)
+	hs.notify.new({title&lt;span style=&#34;color:#555&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;Hammerspoon launch&amp;#34;&lt;/span&gt;, informativeText&lt;span style=&#34;color:#555&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;Boss, at your service&amp;#34;&lt;/span&gt;}):send()
 &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;end&lt;/span&gt;)
 
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
@@ -888,39 +967,39 @@ hs.hotkey.bind({&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;&lt
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
 &lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-lua&#34; data-lang=&#34;lua&#34;&gt;
-windowHotkey &lt;span style=&#34;color:#555&#34;&gt;=&lt;/span&gt; {&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;control&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;,&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;command&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;}
-launcherHotkey &lt;span style=&#34;color:#555&#34;&gt;=&lt;/span&gt; {&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;option&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;}
-inputHotkey &lt;span style=&#34;color:#555&#34;&gt;=&lt;/span&gt; {&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;option&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;}
+windowHotkey &lt;span style=&#34;color:#555&#34;&gt;=&lt;/span&gt; {&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;control&amp;#39;&lt;/span&gt;,&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;command&amp;#39;&lt;/span&gt;}
+launcherHotkey &lt;span style=&#34;color:#555&#34;&gt;=&lt;/span&gt; {&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;option&amp;#39;&lt;/span&gt;}
+inputHotkey &lt;span style=&#34;color:#555&#34;&gt;=&lt;/span&gt; {&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;option&amp;#39;&lt;/span&gt;}
 
 applist &lt;span style=&#34;color:#555&#34;&gt;=&lt;/span&gt; {
-    {shortcut &lt;span style=&#34;color:#555&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;Q&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;,appname &lt;span style=&#34;color:#555&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;QQ&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;},
-    {shortcut &lt;span style=&#34;color:#555&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;G&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;,appname &lt;span style=&#34;color:#555&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;Google Chrome&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;},
-    {shortcut &lt;span style=&#34;color:#555&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;C&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;,appname &lt;span style=&#34;color:#555&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;Visual Studio Code&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;},
-    {shortcut &lt;span style=&#34;color:#555&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;I&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;,appname &lt;span style=&#34;color:#555&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;iTerm&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;},
-    {shortcut &lt;span style=&#34;color:#555&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;P&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;,appname &lt;span style=&#34;color:#555&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;PHPStorm&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;},
-    {shortcut &lt;span style=&#34;color:#555&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;W&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;,appname &lt;span style=&#34;color:#555&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;WeChat&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;},
-    {shortcut &lt;span style=&#34;color:#555&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;O&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;,appname &lt;span style=&#34;color:#555&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;Postman&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;},
-    {shortcut &lt;span style=&#34;color:#555&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;Y&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;,appname &lt;span style=&#34;color:#555&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;企业微信&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;},
+    {shortcut &lt;span style=&#34;color:#555&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;Q&amp;#39;&lt;/span&gt;,appname &lt;span style=&#34;color:#555&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;QQ&amp;#39;&lt;/span&gt;},
+    {shortcut &lt;span style=&#34;color:#555&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;G&amp;#39;&lt;/span&gt;,appname &lt;span style=&#34;color:#555&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;Google Chrome&amp;#39;&lt;/span&gt;},
+    {shortcut &lt;span style=&#34;color:#555&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;C&amp;#39;&lt;/span&gt;,appname &lt;span style=&#34;color:#555&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;Visual Studio Code&amp;#39;&lt;/span&gt;},
+    {shortcut &lt;span style=&#34;color:#555&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;I&amp;#39;&lt;/span&gt;,appname &lt;span style=&#34;color:#555&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;iTerm&amp;#39;&lt;/span&gt;},
+    {shortcut &lt;span style=&#34;color:#555&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;P&amp;#39;&lt;/span&gt;,appname &lt;span style=&#34;color:#555&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;PHPStorm&amp;#39;&lt;/span&gt;},
+    {shortcut &lt;span style=&#34;color:#555&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;W&amp;#39;&lt;/span&gt;,appname &lt;span style=&#34;color:#555&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;WeChat&amp;#39;&lt;/span&gt;},
+    {shortcut &lt;span style=&#34;color:#555&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;O&amp;#39;&lt;/span&gt;,appname &lt;span style=&#34;color:#555&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;Postman&amp;#39;&lt;/span&gt;},
+    {shortcut &lt;span style=&#34;color:#555&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;Y&amp;#39;&lt;/span&gt;,appname &lt;span style=&#34;color:#555&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;企业微信&amp;#39;&lt;/span&gt;},
 }
 
 appInputMethod &lt;span style=&#34;color:#555&#34;&gt;=&lt;/span&gt; {
-    {&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;/Applications/iTerm.app&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;English&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;},
-    {&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;/Applications/Visual Studio Code.app&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;English&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;},
-    {&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;/Applications/PHPStorm.app&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;English&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;},
-    {&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;/Applications/Xcode.app&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;English&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;},
-    {&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;/Applications/Google Chrome.app&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;English&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;},
-    {&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;/System/Library/CoreServices/Finder.app&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;English&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;},
-    {&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;/Applications/DingTalk.app&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;Chinese&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;},
-    {&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;/Applications/Kindle.app&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;English&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;},
-    {&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;/Applications/NeteaseMusic.app&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;Chinese&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;},
-    {&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;/Applications/WeChat.app&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;Chinese&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;},
-    {&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;/Applications/System Preferences.app&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;English&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;},
-    {&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;/Applications/Dash.app&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;English&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;},
-    {&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;/Applications/MindNode.app&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;Chinese&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;},
-    {&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;/Applications/QQ.app&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;Chinese&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;},
-    {&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;/Applications/企业微信.app&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;Chinese&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;},
-    {&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;/Applications/wechatwebdevtools.app&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;English&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;},
-    {&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;/Applications/Sketch.app&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;English&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;},
+    {&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;/Applications/iTerm.app&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;English&amp;#39;&lt;/span&gt;},
+    {&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;/Applications/Visual Studio Code.app&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;English&amp;#39;&lt;/span&gt;},
+    {&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;/Applications/PHPStorm.app&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;English&amp;#39;&lt;/span&gt;},
+    {&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;/Applications/Xcode.app&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;English&amp;#39;&lt;/span&gt;},
+    {&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;/Applications/Google Chrome.app&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;English&amp;#39;&lt;/span&gt;},
+    {&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;/System/Library/CoreServices/Finder.app&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;English&amp;#39;&lt;/span&gt;},
+    {&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;/Applications/DingTalk.app&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;Chinese&amp;#39;&lt;/span&gt;},
+    {&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;/Applications/Kindle.app&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;English&amp;#39;&lt;/span&gt;},
+    {&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;/Applications/NeteaseMusic.app&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;Chinese&amp;#39;&lt;/span&gt;},
+    {&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;/Applications/WeChat.app&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;Chinese&amp;#39;&lt;/span&gt;},
+    {&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;/Applications/System Preferences.app&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;English&amp;#39;&lt;/span&gt;},
+    {&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;/Applications/Dash.app&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;English&amp;#39;&lt;/span&gt;},
+    {&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;/Applications/MindNode.app&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;Chinese&amp;#39;&lt;/span&gt;},
+    {&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;/Applications/QQ.app&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;Chinese&amp;#39;&lt;/span&gt;},
+    {&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;/Applications/企业微信.app&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;Chinese&amp;#39;&lt;/span&gt;},
+    {&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;/Applications/wechatwebdevtools.app&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;English&amp;#39;&lt;/span&gt;},
+    {&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;/Applications/Sketch.app&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;English&amp;#39;&lt;/span&gt;},
 }
 
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
@@ -981,11 +1060,11 @@ appInputMethod &lt;span style=&#34;color:#555&#34;&gt;=&lt;/span&gt; {
 &lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
 &lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-lua&#34; data-lang=&#34;lua&#34;&gt;
 &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;local&lt;/span&gt; &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;function&lt;/span&gt; &lt;span style=&#34;color:#c0f&#34;&gt;Chinese&lt;/span&gt;()
-    hs.keycodes.currentSourceID(&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;com.sogou.inputmethod.sogou.pinyin&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;&lt;/span&gt;)
+    hs.keycodes.currentSourceID(&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;com.sogou.inputmethod.sogou.pinyin&amp;#34;&lt;/span&gt;)
 &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;end&lt;/span&gt;
 
 &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;local&lt;/span&gt; &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;function&lt;/span&gt; &lt;span style=&#34;color:#c0f&#34;&gt;English&lt;/span&gt;()
-    hs.keycodes.currentSourceID(&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;com.apple.keylayout.ABC&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;&lt;/span&gt;)
+    hs.keycodes.currentSourceID(&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;com.apple.keylayout.ABC&amp;#34;&lt;/span&gt;)
 &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;end&lt;/span&gt;
 
 &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;function&lt;/span&gt; &lt;span style=&#34;color:#c0f&#34;&gt;updateFocusAppInputMethod&lt;/span&gt;()
@@ -995,7 +1074,7 @@ appInputMethod &lt;span style=&#34;color:#555&#34;&gt;=&lt;/span&gt; {
         &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;local&lt;/span&gt; expectedIme &lt;span style=&#34;color:#555&#34;&gt;=&lt;/span&gt; app[&lt;span style=&#34;color:#f60&#34;&gt;2&lt;/span&gt;]
 
         &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;if&lt;/span&gt; focusAppPath &lt;span style=&#34;color:#555&#34;&gt;==&lt;/span&gt; appPath &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;then&lt;/span&gt;
-            &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;if&lt;/span&gt; expectedIme &lt;span style=&#34;color:#555&#34;&gt;==&lt;/span&gt; &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;English&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;then&lt;/span&gt;
+            &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;if&lt;/span&gt; expectedIme &lt;span style=&#34;color:#555&#34;&gt;==&lt;/span&gt; &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;English&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;then&lt;/span&gt;
                 English()
             &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;else&lt;/span&gt;
                 Chinese()
@@ -1006,14 +1085,14 @@ appInputMethod &lt;span style=&#34;color:#555&#34;&gt;=&lt;/span&gt; {
 &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;end&lt;/span&gt;
 
 &lt;span style=&#34;color:#09f;font-style:italic&#34;&gt;-- helper hotkey to figure out the app path and name of current focused window&lt;/span&gt;
-hs.hotkey.bind({&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;ctrl&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;cmd&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;}, &lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;function&lt;/span&gt;()
-    hs.alert.show(&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;App path:        &lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;&lt;/span&gt;
+hs.hotkey.bind({&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;ctrl&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;cmd&amp;#39;&lt;/span&gt;}, &lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;.&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;function&lt;/span&gt;()
+    hs.alert.show(&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;App path:        &amp;#34;&lt;/span&gt;
     &lt;span style=&#34;color:#555&#34;&gt;..&lt;/span&gt;hs.window.focusedWindow():application():path()
     &lt;span style=&#34;color:#555&#34;&gt;..&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#c30;font-weight:bold&#34;&gt;\n&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;&lt;/span&gt;
-    &lt;span style=&#34;color:#555&#34;&gt;..&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;App name:      &lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;&lt;/span&gt;
+    &lt;span style=&#34;color:#555&#34;&gt;..&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;App name:      &amp;#34;&lt;/span&gt;
     &lt;span style=&#34;color:#555&#34;&gt;..&lt;/span&gt;hs.window.focusedWindow():application():name()
     &lt;span style=&#34;color:#555&#34;&gt;..&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#c30;font-weight:bold&#34;&gt;\n&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;&lt;/span&gt;
-    &lt;span style=&#34;color:#555&#34;&gt;..&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;IM source id:  &lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;&lt;/span&gt;
+    &lt;span style=&#34;color:#555&#34;&gt;..&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;IM source id:  &amp;#34;&lt;/span&gt;
     &lt;span style=&#34;color:#555&#34;&gt;..&lt;/span&gt;hs.keycodes.currentSourceID())
 &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;end&lt;/span&gt;)
 
@@ -1067,33 +1146,33 @@ appWatcher:start()
 &lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
 &lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-lua&#34; data-lang=&#34;lua&#34;&gt;
 &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;local&lt;/span&gt; &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;function&lt;/span&gt; &lt;span style=&#34;color:#c0f&#34;&gt;Chinese&lt;/span&gt;()
-    hs.keycodes.currentSourceID(&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;com.sogou.inputmethod.sogou.pinyin&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;&lt;/span&gt;)
+    hs.keycodes.currentSourceID(&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;com.sogou.inputmethod.sogou.pinyin&amp;#34;&lt;/span&gt;)
 &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;end&lt;/span&gt;
 
 &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;local&lt;/span&gt; &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;function&lt;/span&gt; &lt;span style=&#34;color:#c0f&#34;&gt;English&lt;/span&gt;()
-    hs.keycodes.currentSourceID(&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;com.apple.keylayout.ABC&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;&lt;/span&gt;)
+    hs.keycodes.currentSourceID(&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;com.apple.keylayout.ABC&amp;#34;&lt;/span&gt;)
 &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;end&lt;/span&gt;
 
 
-hs.hotkey.bind(inputHotkey, &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;S&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;function&lt;/span&gt;() 
+hs.hotkey.bind(inputHotkey, &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;S&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;function&lt;/span&gt;() 
     Chinese()
 &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;end&lt;/span&gt;)
 
-hs.hotkey.bind(inputHotkey, &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;E&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;function&lt;/span&gt;() 
+hs.hotkey.bind(inputHotkey, &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;E&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;function&lt;/span&gt;() 
     English()
 &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;end&lt;/span&gt;)
 
 &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;local&lt;/span&gt; &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;function&lt;/span&gt; &lt;span style=&#34;color:#c0f&#34;&gt;cycleInputMethod&lt;/span&gt;()
-    &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;if&lt;/span&gt; hs.keycodes.currentSourceID() &lt;span style=&#34;color:#555&#34;&gt;==&lt;/span&gt; &lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;com.apple.keylayout.ABC&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;then&lt;/span&gt;
-        hs.keycodes.currentSourceID(&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;com.sogou.inputmethod.sogou.pinyin&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;&lt;/span&gt; )
-    &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;elseif&lt;/span&gt; hs.keycodes.currentSourceID() &lt;span style=&#34;color:#555&#34;&gt;==&lt;/span&gt; &lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;com.sogou.inputmethod.sogou.pinyin&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;then&lt;/span&gt;
-        hs.keycodes.currentSourceID(&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;com.apple.inputmethod.SCIM.ITABC&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;&lt;/span&gt;)
-    &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;elseif&lt;/span&gt; hs.keycodes.currentSourceID() &lt;span style=&#34;color:#555&#34;&gt;==&lt;/span&gt; &lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;com.apple.inputmethod.SCIM.ITABC&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;then&lt;/span&gt;
-        hs.keycodes.currentSourceID(&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;com.apple.keylayout.ABC&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;&lt;/span&gt;)
+    &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;if&lt;/span&gt; hs.keycodes.currentSourceID() &lt;span style=&#34;color:#555&#34;&gt;==&lt;/span&gt; &lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;com.apple.keylayout.ABC&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;then&lt;/span&gt;
+        hs.keycodes.currentSourceID(&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;com.sogou.inputmethod.sogou.pinyin&amp;#34;&lt;/span&gt; )
+    &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;elseif&lt;/span&gt; hs.keycodes.currentSourceID() &lt;span style=&#34;color:#555&#34;&gt;==&lt;/span&gt; &lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;com.sogou.inputmethod.sogou.pinyin&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;then&lt;/span&gt;
+        hs.keycodes.currentSourceID(&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;com.apple.inputmethod.SCIM.ITABC&amp;#34;&lt;/span&gt;)
+    &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;elseif&lt;/span&gt; hs.keycodes.currentSourceID() &lt;span style=&#34;color:#555&#34;&gt;==&lt;/span&gt; &lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;com.apple.inputmethod.SCIM.ITABC&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;then&lt;/span&gt;
+        hs.keycodes.currentSourceID(&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;com.apple.keylayout.ABC&amp;#34;&lt;/span&gt;)
     &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;end&lt;/span&gt;
 &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;end&lt;/span&gt;
 
-hs.hotkey.bind(inputHotkey, &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;, cycleInputMethod)
+hs.hotkey.bind(inputHotkey, &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;.&amp;#39;&lt;/span&gt;, cycleInputMethod)
 
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
@@ -1150,20 +1229,20 @@ hs.fnutils.each(applist, &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt
 &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;local&lt;/span&gt; &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;function&lt;/span&gt; &lt;span style=&#34;color:#c0f&#34;&gt;reloadConfig&lt;/span&gt;(paths)
     doReload &lt;span style=&#34;color:#555&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;false&lt;/span&gt;
     &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;for&lt;/span&gt; _,file &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;in&lt;/span&gt; pairs(paths) &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;do&lt;/span&gt;
-        &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;if&lt;/span&gt; file:sub(&lt;span style=&#34;color:#555&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#f60&#34;&gt;4&lt;/span&gt;) &lt;span style=&#34;color:#555&#34;&gt;==&lt;/span&gt; &lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;.lua&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;then&lt;/span&gt;
-            print(&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;A lua config file changed, reload&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;&lt;/span&gt;)
+        &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;if&lt;/span&gt; file:sub(&lt;span style=&#34;color:#555&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#f60&#34;&gt;4&lt;/span&gt;) &lt;span style=&#34;color:#555&#34;&gt;==&lt;/span&gt; &lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;.lua&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;then&lt;/span&gt;
+            print(&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;A lua config file changed, reload&amp;#34;&lt;/span&gt;)
             doReload &lt;span style=&#34;color:#555&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;true&lt;/span&gt;
         &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;end&lt;/span&gt;
     &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;end&lt;/span&gt;
     &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;not&lt;/span&gt; doReload &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;then&lt;/span&gt;
-        print(&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;No lua file changed, skipping reload&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;&lt;/span&gt;)
+        print(&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;No lua file changed, skipping reload&amp;#34;&lt;/span&gt;)
         &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;return&lt;/span&gt;
     &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;end&lt;/span&gt;
 
     hs.reload()
 &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;end&lt;/span&gt;
 
-configFileWatcher &lt;span style=&#34;color:#555&#34;&gt;=&lt;/span&gt; hs.pathwatcher.new(os.getenv(&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;HOME&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;&lt;/span&gt;) &lt;span style=&#34;color:#555&#34;&gt;..&lt;/span&gt; &lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;/.hammerspoon/&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;&lt;/span&gt;, reloadConfig)
+configFileWatcher &lt;span style=&#34;color:#555&#34;&gt;=&lt;/span&gt; hs.pathwatcher.new(os.getenv(&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;HOME&amp;#34;&lt;/span&gt;) &lt;span style=&#34;color:#555&#34;&gt;..&lt;/span&gt; &lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;/.hammerspoon/&amp;#34;&lt;/span&gt;, reloadConfig)
 configFileWatcher:start()
 
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
@@ -1206,15 +1285,15 @@ configFileWatcher:start()
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
 &lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-lua&#34; data-lang=&#34;lua&#34;&gt;
-hs.hotkey.bind(windowHotkey, &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;return&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;function&lt;/span&gt;()
+hs.hotkey.bind(windowHotkey, &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;return&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;function&lt;/span&gt;()
     hs.grid.maximizeWindow()
 &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;end&lt;/span&gt;)
 
-hs.hotkey.bind(windowHotkey, &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;F&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;function&lt;/span&gt;() 
+hs.hotkey.bind(windowHotkey, &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;F&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;function&lt;/span&gt;() 
     hs.window.focusedWindow():toggleFullScreen()
 &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;end&lt;/span&gt;)
 
-hs.hotkey.bind(windowHotkey, &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;left&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;function&lt;/span&gt;()
+hs.hotkey.bind(windowHotkey, &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;left&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;function&lt;/span&gt;()
     &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;local&lt;/span&gt; w &lt;span style=&#34;color:#555&#34;&gt;=&lt;/span&gt; hs.window.focusedWindow()
     &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;not&lt;/span&gt; w &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;then&lt;/span&gt;
         &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;return&lt;/span&gt;
@@ -1225,7 +1304,7 @@ hs.hotkey.bind(windowHotkey, &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt
     &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;end&lt;/span&gt;
 &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;end&lt;/span&gt;)
 
-hs.hotkey.bind(windowHotkey, &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;right&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;function&lt;/span&gt;()
+hs.hotkey.bind(windowHotkey, &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;right&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;function&lt;/span&gt;()
     &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;local&lt;/span&gt; w &lt;span style=&#34;color:#555&#34;&gt;=&lt;/span&gt; hs.window.focusedWindow()
     &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;not&lt;/span&gt; w &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;then&lt;/span&gt;
         &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;return&lt;/span&gt;
@@ -1280,20 +1359,20 @@ hs.hotkey.bind(windowHotkey, &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt
 &lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-lua&#34; data-lang=&#34;lua&#34;&gt;
 &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;function&lt;/span&gt; &lt;span style=&#34;color:#c0f&#34;&gt;bluetoothSwitch&lt;/span&gt;(state)
     &lt;span style=&#34;color:#09f;font-style:italic&#34;&gt;-- state: 0(off), 1(on)&lt;/span&gt;
-    cmd &lt;span style=&#34;color:#555&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;/usr/local/bin/blueutil --power &lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#555&#34;&gt;..&lt;/span&gt;(state)
-    result &lt;span style=&#34;color:#555&#34;&gt;=&lt;/span&gt; hs.osascript.applescript(string.format(&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;do shell script &amp;#34;%s&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;, cmd))
+    cmd &lt;span style=&#34;color:#555&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;/usr/local/bin/blueutil --power &amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#555&#34;&gt;..&lt;/span&gt;(state)
+    result &lt;span style=&#34;color:#555&#34;&gt;=&lt;/span&gt; hs.osascript.applescript(string.format(&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;do shell script &amp;#34;%s&amp;#34;&amp;#39;&lt;/span&gt;, cmd))
 &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;end&lt;/span&gt;
 
 &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;function&lt;/span&gt; &lt;span style=&#34;color:#c0f&#34;&gt;caffeinateCallback&lt;/span&gt;(eventType)
     &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;if&lt;/span&gt; (eventType &lt;span style=&#34;color:#555&#34;&gt;==&lt;/span&gt; hs.caffeinate.watcher.screensDidSleep) &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;then&lt;/span&gt;
-      print(&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;screensDidSleep&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;&lt;/span&gt;)
+      print(&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;screensDidSleep&amp;#34;&lt;/span&gt;)
     &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;elseif&lt;/span&gt; (eventType &lt;span style=&#34;color:#555&#34;&gt;==&lt;/span&gt; hs.caffeinate.watcher.screensDidWake) &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;then&lt;/span&gt;
-      print(&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;screensDidWake&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;&lt;/span&gt;)
+      print(&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;screensDidWake&amp;#34;&lt;/span&gt;)
     &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;elseif&lt;/span&gt; (eventType &lt;span style=&#34;color:#555&#34;&gt;==&lt;/span&gt; hs.caffeinate.watcher.screensDidLock) &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;then&lt;/span&gt;
-      print(&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;screensDidLock&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;&lt;/span&gt;)
+      print(&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;screensDidLock&amp;#34;&lt;/span&gt;)
       bluetoothSwitch(&lt;span style=&#34;color:#f60&#34;&gt;0&lt;/span&gt;)
     &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;elseif&lt;/span&gt; (eventType &lt;span style=&#34;color:#555&#34;&gt;==&lt;/span&gt; hs.caffeinate.watcher.screensDidUnlock) &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;then&lt;/span&gt;
-      print(&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;screensDidUnlock&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;&lt;/span&gt;)
+      print(&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;screensDidUnlock&amp;#34;&lt;/span&gt;)
       bluetoothSwitch(&lt;span style=&#34;color:#f60&#34;&gt;1&lt;/span&gt;)
     &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;end&lt;/span&gt;
 &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;end&lt;/span&gt;
@@ -2216,10 +2295,10 @@ im-select
 &lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;4
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
-&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;for ($i=0; $i &amp;lt; &lt;span style=&#34;color:#309;font-weight:bold&#34;&gt;25&lt;/span&gt;&lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;;&lt;/span&gt; &lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;$&lt;/span&gt;&lt;span style=&#34;color:#309&#34;&gt;i&lt;/span&gt;&lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;+&lt;/span&gt;&lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;+&lt;/span&gt;&lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;)&lt;/span&gt; &lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;{&lt;/span&gt; 
-	&lt;span style=&#34;color:#309&#34;&gt;echo&lt;/span&gt; &lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;$&lt;/span&gt;&lt;span style=&#34;color:#309&#34;&gt;i&lt;/span&gt; &lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;*&lt;/span&gt; &lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;$&lt;/span&gt;&lt;span style=&#34;color:#309&#34;&gt;i&lt;/span&gt; &lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;.&lt;/span&gt; &lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;,&lt;/span&gt;&lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;;&lt;/span&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;for ($i=0; $i &amp;lt; &lt;span style=&#34;color:#309;font-weight:bold&#34;&gt;25&lt;/span&gt;&lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;;&lt;/span&gt; &lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;$&lt;/span&gt;&lt;span style=&#34;color:#309&#34;&gt;i&lt;/span&gt;&lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;++)&lt;/span&gt; &lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;{&lt;/span&gt; 
+	&lt;span style=&#34;color:#309&#34;&gt;echo&lt;/span&gt; &lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;$&lt;/span&gt;&lt;span style=&#34;color:#309&#34;&gt;i&lt;/span&gt; &lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;*&lt;/span&gt; &lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;$&lt;/span&gt;&lt;span style=&#34;color:#309&#34;&gt;i&lt;/span&gt; &lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;.&lt;/span&gt; &lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;&amp;#39;,&amp;#39;;&lt;/span&gt;
 &lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;}&lt;/span&gt;
-&lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;/&lt;/span&gt;&lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;/&lt;/span&gt; &lt;span style=&#34;color:#309&#34;&gt;0&lt;/span&gt;&lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;,&lt;/span&gt;&lt;span style=&#34;color:#309&#34;&gt;1&lt;/span&gt;&lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;,&lt;/span&gt;&lt;span style=&#34;color:#309&#34;&gt;4&lt;/span&gt;&lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;,&lt;/span&gt;&lt;span style=&#34;color:#309&#34;&gt;9&lt;/span&gt;&lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;,&lt;/span&gt;&lt;span style=&#34;color:#309&#34;&gt;16&lt;/span&gt;&lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;,&lt;/span&gt;&lt;span style=&#34;color:#309&#34;&gt;25&lt;/span&gt;&lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;,&lt;/span&gt;&lt;span style=&#34;color:#309&#34;&gt;36&lt;/span&gt;&lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;,&lt;/span&gt;&lt;span style=&#34;color:#309&#34;&gt;49&lt;/span&gt;&lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;,&lt;/span&gt;&lt;span style=&#34;color:#309&#34;&gt;64&lt;/span&gt;&lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;,&lt;/span&gt;&lt;span style=&#34;color:#309&#34;&gt;81&lt;/span&gt;&lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;,&lt;/span&gt;&lt;span style=&#34;color:#309&#34;&gt;100&lt;/span&gt;&lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;,&lt;/span&gt;&lt;span style=&#34;color:#309&#34;&gt;121&lt;/span&gt;&lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;,&lt;/span&gt;&lt;span style=&#34;color:#309&#34;&gt;144&lt;/span&gt;&lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;,&lt;/span&gt;&lt;span style=&#34;color:#309&#34;&gt;169&lt;/span&gt;&lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;,&lt;/span&gt;&lt;span style=&#34;color:#309&#34;&gt;196&lt;/span&gt;&lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;,&lt;/span&gt;&lt;span style=&#34;color:#309&#34;&gt;225&lt;/span&gt;&lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;,&lt;/span&gt;&lt;span style=&#34;color:#309&#34;&gt;256&lt;/span&gt;&lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;,&lt;/span&gt;&lt;span style=&#34;color:#309&#34;&gt;289&lt;/span&gt;&lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;,&lt;/span&gt;&lt;span style=&#34;color:#309&#34;&gt;324&lt;/span&gt;&lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;,&lt;/span&gt;&lt;span style=&#34;color:#309&#34;&gt;361&lt;/span&gt;&lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;,&lt;/span&gt;&lt;span style=&#34;color:#309&#34;&gt;400&lt;/span&gt;&lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;,&lt;/span&gt;&lt;span style=&#34;color:#309&#34;&gt;441&lt;/span&gt;&lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;,&lt;/span&gt;&lt;span style=&#34;color:#309&#34;&gt;484&lt;/span&gt;&lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;,&lt;/span&gt;&lt;span style=&#34;color:#309&#34;&gt;529&lt;/span&gt;&lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;,&lt;/span&gt;&lt;span style=&#34;color:#309&#34;&gt;576&lt;/span&gt;&lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;,&lt;/span&gt;
+&lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;//&lt;/span&gt; &lt;span style=&#34;color:#309&#34;&gt;0&lt;/span&gt;&lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;,&lt;/span&gt;&lt;span style=&#34;color:#309&#34;&gt;1&lt;/span&gt;&lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;,&lt;/span&gt;&lt;span style=&#34;color:#309&#34;&gt;4&lt;/span&gt;&lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;,&lt;/span&gt;&lt;span style=&#34;color:#309&#34;&gt;9&lt;/span&gt;&lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;,&lt;/span&gt;&lt;span style=&#34;color:#309&#34;&gt;16&lt;/span&gt;&lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;,&lt;/span&gt;&lt;span style=&#34;color:#309&#34;&gt;25&lt;/span&gt;&lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;,&lt;/span&gt;&lt;span style=&#34;color:#309&#34;&gt;36&lt;/span&gt;&lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;,&lt;/span&gt;&lt;span style=&#34;color:#309&#34;&gt;49&lt;/span&gt;&lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;,&lt;/span&gt;&lt;span style=&#34;color:#309&#34;&gt;64&lt;/span&gt;&lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;,&lt;/span&gt;&lt;span style=&#34;color:#309&#34;&gt;81&lt;/span&gt;&lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;,&lt;/span&gt;&lt;span style=&#34;color:#309&#34;&gt;100&lt;/span&gt;&lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;,&lt;/span&gt;&lt;span style=&#34;color:#309&#34;&gt;121&lt;/span&gt;&lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;,&lt;/span&gt;&lt;span style=&#34;color:#309&#34;&gt;144&lt;/span&gt;&lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;,&lt;/span&gt;&lt;span style=&#34;color:#309&#34;&gt;169&lt;/span&gt;&lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;,&lt;/span&gt;&lt;span style=&#34;color:#309&#34;&gt;196&lt;/span&gt;&lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;,&lt;/span&gt;&lt;span style=&#34;color:#309&#34;&gt;225&lt;/span&gt;&lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;,&lt;/span&gt;&lt;span style=&#34;color:#309&#34;&gt;256&lt;/span&gt;&lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;,&lt;/span&gt;&lt;span style=&#34;color:#309&#34;&gt;289&lt;/span&gt;&lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;,&lt;/span&gt;&lt;span style=&#34;color:#309&#34;&gt;324&lt;/span&gt;&lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;,&lt;/span&gt;&lt;span style=&#34;color:#309&#34;&gt;361&lt;/span&gt;&lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;,&lt;/span&gt;&lt;span style=&#34;color:#309&#34;&gt;400&lt;/span&gt;&lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;,&lt;/span&gt;&lt;span style=&#34;color:#309&#34;&gt;441&lt;/span&gt;&lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;,&lt;/span&gt;&lt;span style=&#34;color:#309&#34;&gt;484&lt;/span&gt;&lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;,&lt;/span&gt;&lt;span style=&#34;color:#309&#34;&gt;529&lt;/span&gt;&lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;,&lt;/span&gt;&lt;span style=&#34;color:#309&#34;&gt;576&lt;/span&gt;&lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;,&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;如果是函数式编程语言:&lt;/p&gt;
@@ -2367,7 +2446,7 @@ echo $bar(3); // 6
 &lt;/span&gt;&lt;span style=&#34;color:#09f;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;const&lt;/span&gt; a &lt;span style=&#34;color:#555&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#f60&#34;&gt;1&lt;/span&gt;
 &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;const&lt;/span&gt; foo &lt;span style=&#34;color:#555&#34;&gt;=&lt;/span&gt; (b) =&amp;gt; a &lt;span style=&#34;color:#555&#34;&gt;+&lt;/span&gt; b
 foo(&lt;span style=&#34;color:#f60&#34;&gt;2&lt;/span&gt;) &lt;span style=&#34;color:#09f;font-style:italic&#34;&gt;// =&amp;gt; 3
-&lt;/span&gt;&lt;span style=&#34;color:#09f;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#09f;font-style:italic&#34;&gt;// 纯函数
+&lt;/span&gt;&lt;span style=&#34;color:#09f;font-style:italic&#34;&gt;// 纯函数
 &lt;/span&gt;&lt;span style=&#34;color:#09f;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;const&lt;/span&gt; a &lt;span style=&#34;color:#555&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#f60&#34;&gt;1&lt;/span&gt;
 &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;const&lt;/span&gt; bar &lt;span style=&#34;color:#555&#34;&gt;=&lt;/span&gt; (x, b) =&amp;gt; x &lt;span style=&#34;color:#555&#34;&gt;+&lt;/span&gt; b
 bar(&lt;span style=&#34;color:#f60&#34;&gt;1&lt;/span&gt;, &lt;span style=&#34;color:#f60&#34;&gt;2&lt;/span&gt;) &lt;span style=&#34;color:#09f;font-style:italic&#34;&gt;// =&amp;gt; 3
@@ -2424,7 +2503,7 @@ reverseString(&amp;#39;forecho&amp;#39;); // ohcerof
 &lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
-&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-sql&#34; data-lang=&#34;sql&#34;&gt;&lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;SELECT&lt;/span&gt; &lt;span style=&#34;color:#555&#34;&gt;*&lt;/span&gt; &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;from&lt;/span&gt; &lt;span style=&#34;color:#555&#34;&gt;`&lt;/span&gt;&lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;user&lt;/span&gt;&lt;span style=&#34;color:#555&#34;&gt;`&lt;/span&gt; &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;WHERE&lt;/span&gt; &lt;span style=&#34;color:#555&#34;&gt;`&lt;/span&gt;username&lt;span style=&#34;color:#555&#34;&gt;`&lt;/span&gt; &lt;span style=&#34;color:#555&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;forecho&lt;/span&gt;&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&lt;/span&gt;;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-sql&#34; data-lang=&#34;sql&#34;&gt;&lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;SELECT&lt;/span&gt; &lt;span style=&#34;color:#555&#34;&gt;*&lt;/span&gt; &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;from&lt;/span&gt; &lt;span style=&#34;color:#555&#34;&gt;`&lt;/span&gt;&lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;user&lt;/span&gt;&lt;span style=&#34;color:#555&#34;&gt;`&lt;/span&gt; &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;WHERE&lt;/span&gt; &lt;span style=&#34;color:#555&#34;&gt;`&lt;/span&gt;username&lt;span style=&#34;color:#555&#34;&gt;`&lt;/span&gt; &lt;span style=&#34;color:#555&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;forecho&amp;#39;&lt;/span&gt;;
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;如果用命令式编程语言改写的话：&lt;/p&gt;
@@ -2914,42 +2993,6 @@ original-record-number	sku	error-code	error-type	error-message
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://blog.forecho.com/mws-order.html&#34;&gt;《MWS 开发 - 订单篇》&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://blog.forecho.com/mws-product.html&#34;&gt;《MWS 开发 - 产品上传篇》&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>GetYii 是如何防止垃圾内容</title>
-      <link>https://blog.forecho.com/how-does-getyii-prevent-spam.html</link>
-      <pubDate>Tue, 30 Jul 2019 22:58:00 +0800</pubDate>
-      
-      <guid>https://blog.forecho.com/how-does-getyii-prevent-spam.html</guid>
-      
-        <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
-&lt;p&gt;4 年多前 &lt;a href=&#34;https://www.yiiframework.com/&#34;&gt;Yii&lt;/a&gt; 推出了 2.0 测试版，正好赶上年底，工作不忙，于是我抱着学习的态度写了一个开源论坛，那就是 &lt;a href=&#34;https://github.com/iiyii/getyii&#34;&gt;GetYii&lt;/a&gt;。虽然后来没怎么维护了，但是还是会每天去逛逛。&lt;/p&gt;
-&lt;p&gt;最近发现有人在 GetYii 上发垃圾内容，灰产广告。这就不能忍了，这篇文章我就分享一下我是如何与他们『斗争』的。&lt;/p&gt;
-&lt;h2 id=&#34;方案&#34;&gt;方案&lt;/h2&gt;
-&lt;p&gt;为了防止垃圾评论我实施了以下方案，方案按照时间先后顺序排名。&lt;/p&gt;
-&lt;h3 id=&#34;删帖冻结用户账号&#34;&gt;删帖冻结用户账号&lt;/h3&gt;
-&lt;p&gt;因为 GetYii 注册没有做邮箱验证，注册门槛非常低，这也给 Spammer 提供了便利。我也懒得再加上注册验证邮箱的步骤了。于是我就采用了采用了删帖同时冻结用户账号的操作，这个是最简单的方案了，但也是最累的方案了。而且不能根治。Spammer 能做到大量发放垃圾广告估计也是写了脚本。很快我也放弃了这种方案。&lt;/p&gt;
-&lt;h3 id=&#34;发帖验证码--设置新注册用户一定时长才可以发帖&#34;&gt;发帖验证码 &amp;amp;&amp;amp; 设置新注册用户一定时长才可以发帖&lt;/h3&gt;
-&lt;p&gt;Yii2 自带验证码功能，而且开发一个『设置新注册用户一定时长才可以发帖』功能也很快，这比开发『注册验证邮箱』实现起来快的多。但是这种方案非常的简单粗暴，很不友好，虽然现在 GetYii 发帖人少了，但是我也不愿意牺牲这种体验，很快我也放弃了这种方案。&lt;/p&gt;
-&lt;h3 id=&#34;开发识别-spam-的扩展&#34;&gt;开发识别 Spam 的扩展&lt;/h3&gt;
-&lt;p&gt;反 span，用的最多的方案应该是&lt;a href=&#34;https://zh.wikipedia.org/wiki/%E8%B2%9D%E8%91%89%E6%96%AF%E5%9E%83%E5%9C%BE%E9%83%B5%E4%BB%B6%E9%81%8E%E6%BF%BE&#34;&gt;贝叶斯垃圾邮件过滤&lt;/a&gt;，网上也有一些基于反垃圾内容的 SAAS 系统，前者对于我这个小网站，有点杀鸡用牛刀，后者因为要收费，对于小网站也没必要。&lt;/p&gt;
-&lt;p&gt;于是我就自己写了一个简单的反垃圾程序 -  &lt;a href=&#34;https://github.com/yiier/yii2-anti-spam&#34;&gt;yiier/yii2-anti-spam&lt;/a&gt;，思路很简单，特点在于支持两种类型匹配：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;类型一：简单的模糊匹配。写一个敏感词库，模糊匹配内容是否包含在内。比如要匹配『军车』，敏感词写入『军{2}车』，那么类似『军XX车』的字符都能被匹配到。&lt;/li&gt;
-&lt;li&gt;类型一：相似度匹配。类似 PHP 的 &lt;a href=&#34;https://php.net/manual/zh/function.similar-text.php&#34;&gt;similar_text&lt;/a&gt;，是否好用待考察。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;目前 GetYii 就是用的这种方案，把『发帖验证码 &amp;amp;&amp;amp; 设置新注册用户一定时长才可以发帖』方案去掉了，前期遇到垃圾内容先加敏感词库，再删内容，虽然刚开始辛苦点，但是有明显效果。&lt;/p&gt;
-&lt;h3 id=&#34;限制发帖频率&#34;&gt;限制发帖频率&lt;/h3&gt;
-&lt;p&gt;虽然上个方案已经有一点效果了，但是我又想到了可以限制发帖频率来限制 Spammer 发垃圾内容刷屏现象，因为正常用户是不会频繁发帖的，比方说现在 GetYii 就限制了发帖间隔为 1 个小时。&lt;/p&gt;
-&lt;p&gt;后期还可以检测到频繁发帖的用户进行屏蔽 IP 的方案。&lt;/p&gt;
-&lt;h2 id=&#34;总结&#34;&gt;总结&lt;/h2&gt;
-&lt;p&gt;想不到对于 GetYii 这么小流量的网站也会被 Spammer 盯上，但是如果想做个社区，此功能是必不可少的一部分。此外还有用户可以屏蔽其他用户功能。&lt;/p&gt;
-&lt;h2 id=&#34;参考链接&#34;&gt;参考链接&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://ruby-china.org/topics/23718&#34;&gt;一个简单的评论过滤系统的实现&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
       
     </item>

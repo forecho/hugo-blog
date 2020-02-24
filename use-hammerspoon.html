@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <meta name="generator" content="Hugo 0.64.1" />
+    <meta name="generator" content="Hugo 0.65.3" />
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -247,20 +247,20 @@
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
 <pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-lua" data-lang="lua">
-require <span style="color:#c30">&#34;</span><span style="color:#c30">modules.reload</span><span style="color:#c30">&#34;</span>
-require <span style="color:#c30">&#34;</span><span style="color:#c30">config</span><span style="color:#c30">&#34;</span>
-require <span style="color:#c30">&#34;</span><span style="color:#c30">modules.window</span><span style="color:#c30">&#34;</span>
-require <span style="color:#c30">&#34;</span><span style="color:#c30">modules.launcher</span><span style="color:#c30">&#34;</span>
-require <span style="color:#c30">&#34;</span><span style="color:#c30">modules.input</span><span style="color:#c30">&#34;</span>
-require <span style="color:#c30">&#34;</span><span style="color:#c30">modules.defaultInput</span><span style="color:#c30">&#34;</span>
-require <span style="color:#c30">&#34;</span><span style="color:#c30">modules.bluetoothSleep</span><span style="color:#c30">&#34;</span>
+require <span style="color:#c30">&#34;modules.reload&#34;</span>
+require <span style="color:#c30">&#34;config&#34;</span>
+require <span style="color:#c30">&#34;modules.window&#34;</span>
+require <span style="color:#c30">&#34;modules.launcher&#34;</span>
+require <span style="color:#c30">&#34;modules.input&#34;</span>
+require <span style="color:#c30">&#34;modules.defaultInput&#34;</span>
+require <span style="color:#c30">&#34;modules.bluetoothSleep&#34;</span>
 
 <span style="color:#09f;font-style:italic">-- 调试代码</span>
-hs.hotkey.bind({<span style="color:#c30">&#39;</span><span style="color:#c30">cmd</span><span style="color:#c30">&#39;</span>, <span style="color:#c30">&#39;</span><span style="color:#c30">shift</span><span style="color:#c30">&#39;</span>}, <span style="color:#c30">&#39;</span><span style="color:#c30">h</span><span style="color:#c30">&#39;</span>, <span style="color:#069;font-weight:bold">function</span>() 
-	hs.alert(<span style="color:#c30">&#39;</span><span style="color:#c30">Hello World</span><span style="color:#c30">&#39;</span>) 
+hs.hotkey.bind({<span style="color:#c30">&#39;cmd&#39;</span>, <span style="color:#c30">&#39;shift&#39;</span>}, <span style="color:#c30">&#39;h&#39;</span>, <span style="color:#069;font-weight:bold">function</span>() 
+	hs.alert(<span style="color:#c30">&#39;Hello World&#39;</span>) 
 	speaker <span style="color:#555">=</span> hs.speech.new()
-	speaker:speak(<span style="color:#c30">&#34;</span><span style="color:#c30">Hammerspoon is online</span><span style="color:#c30">&#34;</span>)
-	hs.notify.new({title<span style="color:#555">=</span><span style="color:#c30">&#34;</span><span style="color:#c30">Hammerspoon launch</span><span style="color:#c30">&#34;</span>, informativeText<span style="color:#555">=</span><span style="color:#c30">&#34;</span><span style="color:#c30">Boss, at your service</span><span style="color:#c30">&#34;</span>}):send()
+	speaker:speak(<span style="color:#c30">&#34;Hammerspoon is online&#34;</span>)
+	hs.notify.new({title<span style="color:#555">=</span><span style="color:#c30">&#34;Hammerspoon launch&#34;</span>, informativeText<span style="color:#555">=</span><span style="color:#c30">&#34;Boss, at your service&#34;</span>}):send()
 <span style="color:#069;font-weight:bold">end</span>)
 
 </code></pre></td></tr></table>
@@ -308,39 +308,39 @@ hs.hotkey.bind({<span style="color:#c30">&#39;</span><span style="color:#c30">cm
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
 <pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-lua" data-lang="lua">
-windowHotkey <span style="color:#555">=</span> {<span style="color:#c30">&#39;</span><span style="color:#c30">control</span><span style="color:#c30">&#39;</span>,<span style="color:#c30">&#39;</span><span style="color:#c30">command</span><span style="color:#c30">&#39;</span>}
-launcherHotkey <span style="color:#555">=</span> {<span style="color:#c30">&#39;</span><span style="color:#c30">option</span><span style="color:#c30">&#39;</span>}
-inputHotkey <span style="color:#555">=</span> {<span style="color:#c30">&#39;</span><span style="color:#c30">option</span><span style="color:#c30">&#39;</span>}
+windowHotkey <span style="color:#555">=</span> {<span style="color:#c30">&#39;control&#39;</span>,<span style="color:#c30">&#39;command&#39;</span>}
+launcherHotkey <span style="color:#555">=</span> {<span style="color:#c30">&#39;option&#39;</span>}
+inputHotkey <span style="color:#555">=</span> {<span style="color:#c30">&#39;option&#39;</span>}
 
 applist <span style="color:#555">=</span> {
-    {shortcut <span style="color:#555">=</span> <span style="color:#c30">&#39;</span><span style="color:#c30">Q</span><span style="color:#c30">&#39;</span>,appname <span style="color:#555">=</span> <span style="color:#c30">&#39;</span><span style="color:#c30">QQ</span><span style="color:#c30">&#39;</span>},
-    {shortcut <span style="color:#555">=</span> <span style="color:#c30">&#39;</span><span style="color:#c30">G</span><span style="color:#c30">&#39;</span>,appname <span style="color:#555">=</span> <span style="color:#c30">&#39;</span><span style="color:#c30">Google Chrome</span><span style="color:#c30">&#39;</span>},
-    {shortcut <span style="color:#555">=</span> <span style="color:#c30">&#39;</span><span style="color:#c30">C</span><span style="color:#c30">&#39;</span>,appname <span style="color:#555">=</span> <span style="color:#c30">&#39;</span><span style="color:#c30">Visual Studio Code</span><span style="color:#c30">&#39;</span>},
-    {shortcut <span style="color:#555">=</span> <span style="color:#c30">&#39;</span><span style="color:#c30">I</span><span style="color:#c30">&#39;</span>,appname <span style="color:#555">=</span> <span style="color:#c30">&#39;</span><span style="color:#c30">iTerm</span><span style="color:#c30">&#39;</span>},
-    {shortcut <span style="color:#555">=</span> <span style="color:#c30">&#39;</span><span style="color:#c30">P</span><span style="color:#c30">&#39;</span>,appname <span style="color:#555">=</span> <span style="color:#c30">&#39;</span><span style="color:#c30">PHPStorm</span><span style="color:#c30">&#39;</span>},
-    {shortcut <span style="color:#555">=</span> <span style="color:#c30">&#39;</span><span style="color:#c30">W</span><span style="color:#c30">&#39;</span>,appname <span style="color:#555">=</span> <span style="color:#c30">&#39;</span><span style="color:#c30">WeChat</span><span style="color:#c30">&#39;</span>},
-    {shortcut <span style="color:#555">=</span> <span style="color:#c30">&#39;</span><span style="color:#c30">O</span><span style="color:#c30">&#39;</span>,appname <span style="color:#555">=</span> <span style="color:#c30">&#39;</span><span style="color:#c30">Postman</span><span style="color:#c30">&#39;</span>},
-    {shortcut <span style="color:#555">=</span> <span style="color:#c30">&#39;</span><span style="color:#c30">Y</span><span style="color:#c30">&#39;</span>,appname <span style="color:#555">=</span> <span style="color:#c30">&#39;</span><span style="color:#c30">企业微信</span><span style="color:#c30">&#39;</span>},
+    {shortcut <span style="color:#555">=</span> <span style="color:#c30">&#39;Q&#39;</span>,appname <span style="color:#555">=</span> <span style="color:#c30">&#39;QQ&#39;</span>},
+    {shortcut <span style="color:#555">=</span> <span style="color:#c30">&#39;G&#39;</span>,appname <span style="color:#555">=</span> <span style="color:#c30">&#39;Google Chrome&#39;</span>},
+    {shortcut <span style="color:#555">=</span> <span style="color:#c30">&#39;C&#39;</span>,appname <span style="color:#555">=</span> <span style="color:#c30">&#39;Visual Studio Code&#39;</span>},
+    {shortcut <span style="color:#555">=</span> <span style="color:#c30">&#39;I&#39;</span>,appname <span style="color:#555">=</span> <span style="color:#c30">&#39;iTerm&#39;</span>},
+    {shortcut <span style="color:#555">=</span> <span style="color:#c30">&#39;P&#39;</span>,appname <span style="color:#555">=</span> <span style="color:#c30">&#39;PHPStorm&#39;</span>},
+    {shortcut <span style="color:#555">=</span> <span style="color:#c30">&#39;W&#39;</span>,appname <span style="color:#555">=</span> <span style="color:#c30">&#39;WeChat&#39;</span>},
+    {shortcut <span style="color:#555">=</span> <span style="color:#c30">&#39;O&#39;</span>,appname <span style="color:#555">=</span> <span style="color:#c30">&#39;Postman&#39;</span>},
+    {shortcut <span style="color:#555">=</span> <span style="color:#c30">&#39;Y&#39;</span>,appname <span style="color:#555">=</span> <span style="color:#c30">&#39;企业微信&#39;</span>},
 }
 
 appInputMethod <span style="color:#555">=</span> {
-    {<span style="color:#c30">&#39;</span><span style="color:#c30">/Applications/iTerm.app</span><span style="color:#c30">&#39;</span>, <span style="color:#c30">&#39;</span><span style="color:#c30">English</span><span style="color:#c30">&#39;</span>},
-    {<span style="color:#c30">&#39;</span><span style="color:#c30">/Applications/Visual Studio Code.app</span><span style="color:#c30">&#39;</span>, <span style="color:#c30">&#39;</span><span style="color:#c30">English</span><span style="color:#c30">&#39;</span>},
-    {<span style="color:#c30">&#39;</span><span style="color:#c30">/Applications/PHPStorm.app</span><span style="color:#c30">&#39;</span>, <span style="color:#c30">&#39;</span><span style="color:#c30">English</span><span style="color:#c30">&#39;</span>},
-    {<span style="color:#c30">&#39;</span><span style="color:#c30">/Applications/Xcode.app</span><span style="color:#c30">&#39;</span>, <span style="color:#c30">&#39;</span><span style="color:#c30">English</span><span style="color:#c30">&#39;</span>},
-    {<span style="color:#c30">&#39;</span><span style="color:#c30">/Applications/Google Chrome.app</span><span style="color:#c30">&#39;</span>, <span style="color:#c30">&#39;</span><span style="color:#c30">English</span><span style="color:#c30">&#39;</span>},
-    {<span style="color:#c30">&#39;</span><span style="color:#c30">/System/Library/CoreServices/Finder.app</span><span style="color:#c30">&#39;</span>, <span style="color:#c30">&#39;</span><span style="color:#c30">English</span><span style="color:#c30">&#39;</span>},
-    {<span style="color:#c30">&#39;</span><span style="color:#c30">/Applications/DingTalk.app</span><span style="color:#c30">&#39;</span>, <span style="color:#c30">&#39;</span><span style="color:#c30">Chinese</span><span style="color:#c30">&#39;</span>},
-    {<span style="color:#c30">&#39;</span><span style="color:#c30">/Applications/Kindle.app</span><span style="color:#c30">&#39;</span>, <span style="color:#c30">&#39;</span><span style="color:#c30">English</span><span style="color:#c30">&#39;</span>},
-    {<span style="color:#c30">&#39;</span><span style="color:#c30">/Applications/NeteaseMusic.app</span><span style="color:#c30">&#39;</span>, <span style="color:#c30">&#39;</span><span style="color:#c30">Chinese</span><span style="color:#c30">&#39;</span>},
-    {<span style="color:#c30">&#39;</span><span style="color:#c30">/Applications/WeChat.app</span><span style="color:#c30">&#39;</span>, <span style="color:#c30">&#39;</span><span style="color:#c30">Chinese</span><span style="color:#c30">&#39;</span>},
-    {<span style="color:#c30">&#39;</span><span style="color:#c30">/Applications/System Preferences.app</span><span style="color:#c30">&#39;</span>, <span style="color:#c30">&#39;</span><span style="color:#c30">English</span><span style="color:#c30">&#39;</span>},
-    {<span style="color:#c30">&#39;</span><span style="color:#c30">/Applications/Dash.app</span><span style="color:#c30">&#39;</span>, <span style="color:#c30">&#39;</span><span style="color:#c30">English</span><span style="color:#c30">&#39;</span>},
-    {<span style="color:#c30">&#39;</span><span style="color:#c30">/Applications/MindNode.app</span><span style="color:#c30">&#39;</span>, <span style="color:#c30">&#39;</span><span style="color:#c30">Chinese</span><span style="color:#c30">&#39;</span>},
-    {<span style="color:#c30">&#39;</span><span style="color:#c30">/Applications/QQ.app</span><span style="color:#c30">&#39;</span>, <span style="color:#c30">&#39;</span><span style="color:#c30">Chinese</span><span style="color:#c30">&#39;</span>},
-    {<span style="color:#c30">&#39;</span><span style="color:#c30">/Applications/企业微信.app</span><span style="color:#c30">&#39;</span>, <span style="color:#c30">&#39;</span><span style="color:#c30">Chinese</span><span style="color:#c30">&#39;</span>},
-    {<span style="color:#c30">&#39;</span><span style="color:#c30">/Applications/wechatwebdevtools.app</span><span style="color:#c30">&#39;</span>, <span style="color:#c30">&#39;</span><span style="color:#c30">English</span><span style="color:#c30">&#39;</span>},
-    {<span style="color:#c30">&#39;</span><span style="color:#c30">/Applications/Sketch.app</span><span style="color:#c30">&#39;</span>, <span style="color:#c30">&#39;</span><span style="color:#c30">English</span><span style="color:#c30">&#39;</span>},
+    {<span style="color:#c30">&#39;/Applications/iTerm.app&#39;</span>, <span style="color:#c30">&#39;English&#39;</span>},
+    {<span style="color:#c30">&#39;/Applications/Visual Studio Code.app&#39;</span>, <span style="color:#c30">&#39;English&#39;</span>},
+    {<span style="color:#c30">&#39;/Applications/PHPStorm.app&#39;</span>, <span style="color:#c30">&#39;English&#39;</span>},
+    {<span style="color:#c30">&#39;/Applications/Xcode.app&#39;</span>, <span style="color:#c30">&#39;English&#39;</span>},
+    {<span style="color:#c30">&#39;/Applications/Google Chrome.app&#39;</span>, <span style="color:#c30">&#39;English&#39;</span>},
+    {<span style="color:#c30">&#39;/System/Library/CoreServices/Finder.app&#39;</span>, <span style="color:#c30">&#39;English&#39;</span>},
+    {<span style="color:#c30">&#39;/Applications/DingTalk.app&#39;</span>, <span style="color:#c30">&#39;Chinese&#39;</span>},
+    {<span style="color:#c30">&#39;/Applications/Kindle.app&#39;</span>, <span style="color:#c30">&#39;English&#39;</span>},
+    {<span style="color:#c30">&#39;/Applications/NeteaseMusic.app&#39;</span>, <span style="color:#c30">&#39;Chinese&#39;</span>},
+    {<span style="color:#c30">&#39;/Applications/WeChat.app&#39;</span>, <span style="color:#c30">&#39;Chinese&#39;</span>},
+    {<span style="color:#c30">&#39;/Applications/System Preferences.app&#39;</span>, <span style="color:#c30">&#39;English&#39;</span>},
+    {<span style="color:#c30">&#39;/Applications/Dash.app&#39;</span>, <span style="color:#c30">&#39;English&#39;</span>},
+    {<span style="color:#c30">&#39;/Applications/MindNode.app&#39;</span>, <span style="color:#c30">&#39;Chinese&#39;</span>},
+    {<span style="color:#c30">&#39;/Applications/QQ.app&#39;</span>, <span style="color:#c30">&#39;Chinese&#39;</span>},
+    {<span style="color:#c30">&#39;/Applications/企业微信.app&#39;</span>, <span style="color:#c30">&#39;Chinese&#39;</span>},
+    {<span style="color:#c30">&#39;/Applications/wechatwebdevtools.app&#39;</span>, <span style="color:#c30">&#39;English&#39;</span>},
+    {<span style="color:#c30">&#39;/Applications/Sketch.app&#39;</span>, <span style="color:#c30">&#39;English&#39;</span>},
 }
 
 </code></pre></td></tr></table>
@@ -401,11 +401,11 @@ appInputMethod <span style="color:#555">=</span> {
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
 <pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-lua" data-lang="lua">
 <span style="color:#069;font-weight:bold">local</span> <span style="color:#069;font-weight:bold">function</span> <span style="color:#c0f">Chinese</span>()
-    hs.keycodes.currentSourceID(<span style="color:#c30">&#34;</span><span style="color:#c30">com.sogou.inputmethod.sogou.pinyin</span><span style="color:#c30">&#34;</span>)
+    hs.keycodes.currentSourceID(<span style="color:#c30">&#34;com.sogou.inputmethod.sogou.pinyin&#34;</span>)
 <span style="color:#069;font-weight:bold">end</span>
 
 <span style="color:#069;font-weight:bold">local</span> <span style="color:#069;font-weight:bold">function</span> <span style="color:#c0f">English</span>()
-    hs.keycodes.currentSourceID(<span style="color:#c30">&#34;</span><span style="color:#c30">com.apple.keylayout.ABC</span><span style="color:#c30">&#34;</span>)
+    hs.keycodes.currentSourceID(<span style="color:#c30">&#34;com.apple.keylayout.ABC&#34;</span>)
 <span style="color:#069;font-weight:bold">end</span>
 
 <span style="color:#069;font-weight:bold">function</span> <span style="color:#c0f">updateFocusAppInputMethod</span>()
@@ -415,7 +415,7 @@ appInputMethod <span style="color:#555">=</span> {
         <span style="color:#069;font-weight:bold">local</span> expectedIme <span style="color:#555">=</span> app[<span style="color:#f60">2</span>]
 
         <span style="color:#069;font-weight:bold">if</span> focusAppPath <span style="color:#555">==</span> appPath <span style="color:#069;font-weight:bold">then</span>
-            <span style="color:#069;font-weight:bold">if</span> expectedIme <span style="color:#555">==</span> <span style="color:#c30">&#39;</span><span style="color:#c30">English</span><span style="color:#c30">&#39;</span> <span style="color:#069;font-weight:bold">then</span>
+            <span style="color:#069;font-weight:bold">if</span> expectedIme <span style="color:#555">==</span> <span style="color:#c30">&#39;English&#39;</span> <span style="color:#069;font-weight:bold">then</span>
                 English()
             <span style="color:#069;font-weight:bold">else</span>
                 Chinese()
@@ -426,14 +426,14 @@ appInputMethod <span style="color:#555">=</span> {
 <span style="color:#069;font-weight:bold">end</span>
 
 <span style="color:#09f;font-style:italic">-- helper hotkey to figure out the app path and name of current focused window</span>
-hs.hotkey.bind({<span style="color:#c30">&#39;</span><span style="color:#c30">ctrl</span><span style="color:#c30">&#39;</span>, <span style="color:#c30">&#39;</span><span style="color:#c30">cmd</span><span style="color:#c30">&#39;</span>}, <span style="color:#c30">&#34;</span><span style="color:#c30">.</span><span style="color:#c30">&#34;</span>, <span style="color:#069;font-weight:bold">function</span>()
-    hs.alert.show(<span style="color:#c30">&#34;</span><span style="color:#c30">App path:        </span><span style="color:#c30">&#34;</span>
+hs.hotkey.bind({<span style="color:#c30">&#39;ctrl&#39;</span>, <span style="color:#c30">&#39;cmd&#39;</span>}, <span style="color:#c30">&#34;.&#34;</span>, <span style="color:#069;font-weight:bold">function</span>()
+    hs.alert.show(<span style="color:#c30">&#34;App path:        &#34;</span>
     <span style="color:#555">..</span>hs.window.focusedWindow():application():path()
     <span style="color:#555">..</span><span style="color:#c30">&#34;</span><span style="color:#c30;font-weight:bold">\n</span><span style="color:#c30">&#34;</span>
-    <span style="color:#555">..</span><span style="color:#c30">&#34;</span><span style="color:#c30">App name:      </span><span style="color:#c30">&#34;</span>
+    <span style="color:#555">..</span><span style="color:#c30">&#34;App name:      &#34;</span>
     <span style="color:#555">..</span>hs.window.focusedWindow():application():name()
     <span style="color:#555">..</span><span style="color:#c30">&#34;</span><span style="color:#c30;font-weight:bold">\n</span><span style="color:#c30">&#34;</span>
-    <span style="color:#555">..</span><span style="color:#c30">&#34;</span><span style="color:#c30">IM source id:  </span><span style="color:#c30">&#34;</span>
+    <span style="color:#555">..</span><span style="color:#c30">&#34;IM source id:  &#34;</span>
     <span style="color:#555">..</span>hs.keycodes.currentSourceID())
 <span style="color:#069;font-weight:bold">end</span>)
 
@@ -487,33 +487,33 @@ appWatcher:start()
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
 <pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-lua" data-lang="lua">
 <span style="color:#069;font-weight:bold">local</span> <span style="color:#069;font-weight:bold">function</span> <span style="color:#c0f">Chinese</span>()
-    hs.keycodes.currentSourceID(<span style="color:#c30">&#34;</span><span style="color:#c30">com.sogou.inputmethod.sogou.pinyin</span><span style="color:#c30">&#34;</span>)
+    hs.keycodes.currentSourceID(<span style="color:#c30">&#34;com.sogou.inputmethod.sogou.pinyin&#34;</span>)
 <span style="color:#069;font-weight:bold">end</span>
 
 <span style="color:#069;font-weight:bold">local</span> <span style="color:#069;font-weight:bold">function</span> <span style="color:#c0f">English</span>()
-    hs.keycodes.currentSourceID(<span style="color:#c30">&#34;</span><span style="color:#c30">com.apple.keylayout.ABC</span><span style="color:#c30">&#34;</span>)
+    hs.keycodes.currentSourceID(<span style="color:#c30">&#34;com.apple.keylayout.ABC&#34;</span>)
 <span style="color:#069;font-weight:bold">end</span>
 
 
-hs.hotkey.bind(inputHotkey, <span style="color:#c30">&#39;</span><span style="color:#c30">S</span><span style="color:#c30">&#39;</span>, <span style="color:#069;font-weight:bold">function</span>() 
+hs.hotkey.bind(inputHotkey, <span style="color:#c30">&#39;S&#39;</span>, <span style="color:#069;font-weight:bold">function</span>() 
     Chinese()
 <span style="color:#069;font-weight:bold">end</span>)
 
-hs.hotkey.bind(inputHotkey, <span style="color:#c30">&#39;</span><span style="color:#c30">E</span><span style="color:#c30">&#39;</span>, <span style="color:#069;font-weight:bold">function</span>() 
+hs.hotkey.bind(inputHotkey, <span style="color:#c30">&#39;E&#39;</span>, <span style="color:#069;font-weight:bold">function</span>() 
     English()
 <span style="color:#069;font-weight:bold">end</span>)
 
 <span style="color:#069;font-weight:bold">local</span> <span style="color:#069;font-weight:bold">function</span> <span style="color:#c0f">cycleInputMethod</span>()
-    <span style="color:#069;font-weight:bold">if</span> hs.keycodes.currentSourceID() <span style="color:#555">==</span> <span style="color:#c30">&#34;</span><span style="color:#c30">com.apple.keylayout.ABC</span><span style="color:#c30">&#34;</span> <span style="color:#069;font-weight:bold">then</span>
-        hs.keycodes.currentSourceID(<span style="color:#c30">&#34;</span><span style="color:#c30">com.sogou.inputmethod.sogou.pinyin</span><span style="color:#c30">&#34;</span> )
-    <span style="color:#069;font-weight:bold">elseif</span> hs.keycodes.currentSourceID() <span style="color:#555">==</span> <span style="color:#c30">&#34;</span><span style="color:#c30">com.sogou.inputmethod.sogou.pinyin</span><span style="color:#c30">&#34;</span> <span style="color:#069;font-weight:bold">then</span>
-        hs.keycodes.currentSourceID(<span style="color:#c30">&#34;</span><span style="color:#c30">com.apple.inputmethod.SCIM.ITABC</span><span style="color:#c30">&#34;</span>)
-    <span style="color:#069;font-weight:bold">elseif</span> hs.keycodes.currentSourceID() <span style="color:#555">==</span> <span style="color:#c30">&#34;</span><span style="color:#c30">com.apple.inputmethod.SCIM.ITABC</span><span style="color:#c30">&#34;</span> <span style="color:#069;font-weight:bold">then</span>
-        hs.keycodes.currentSourceID(<span style="color:#c30">&#34;</span><span style="color:#c30">com.apple.keylayout.ABC</span><span style="color:#c30">&#34;</span>)
+    <span style="color:#069;font-weight:bold">if</span> hs.keycodes.currentSourceID() <span style="color:#555">==</span> <span style="color:#c30">&#34;com.apple.keylayout.ABC&#34;</span> <span style="color:#069;font-weight:bold">then</span>
+        hs.keycodes.currentSourceID(<span style="color:#c30">&#34;com.sogou.inputmethod.sogou.pinyin&#34;</span> )
+    <span style="color:#069;font-weight:bold">elseif</span> hs.keycodes.currentSourceID() <span style="color:#555">==</span> <span style="color:#c30">&#34;com.sogou.inputmethod.sogou.pinyin&#34;</span> <span style="color:#069;font-weight:bold">then</span>
+        hs.keycodes.currentSourceID(<span style="color:#c30">&#34;com.apple.inputmethod.SCIM.ITABC&#34;</span>)
+    <span style="color:#069;font-weight:bold">elseif</span> hs.keycodes.currentSourceID() <span style="color:#555">==</span> <span style="color:#c30">&#34;com.apple.inputmethod.SCIM.ITABC&#34;</span> <span style="color:#069;font-weight:bold">then</span>
+        hs.keycodes.currentSourceID(<span style="color:#c30">&#34;com.apple.keylayout.ABC&#34;</span>)
     <span style="color:#069;font-weight:bold">end</span>
 <span style="color:#069;font-weight:bold">end</span>
 
-hs.hotkey.bind(inputHotkey, <span style="color:#c30">&#39;</span><span style="color:#c30">.</span><span style="color:#c30">&#39;</span>, cycleInputMethod)
+hs.hotkey.bind(inputHotkey, <span style="color:#c30">&#39;.&#39;</span>, cycleInputMethod)
 
 </code></pre></td></tr></table>
 </div>
@@ -570,20 +570,20 @@ hs.fnutils.each(applist, <span style="color:#069;font-weight:bold">function</spa
 <span style="color:#069;font-weight:bold">local</span> <span style="color:#069;font-weight:bold">function</span> <span style="color:#c0f">reloadConfig</span>(paths)
     doReload <span style="color:#555">=</span> <span style="color:#069;font-weight:bold">false</span>
     <span style="color:#069;font-weight:bold">for</span> _,file <span style="color:#069;font-weight:bold">in</span> pairs(paths) <span style="color:#069;font-weight:bold">do</span>
-        <span style="color:#069;font-weight:bold">if</span> file:sub(<span style="color:#555">-</span><span style="color:#f60">4</span>) <span style="color:#555">==</span> <span style="color:#c30">&#34;</span><span style="color:#c30">.lua</span><span style="color:#c30">&#34;</span> <span style="color:#069;font-weight:bold">then</span>
-            print(<span style="color:#c30">&#34;</span><span style="color:#c30">A lua config file changed, reload</span><span style="color:#c30">&#34;</span>)
+        <span style="color:#069;font-weight:bold">if</span> file:sub(<span style="color:#555">-</span><span style="color:#f60">4</span>) <span style="color:#555">==</span> <span style="color:#c30">&#34;.lua&#34;</span> <span style="color:#069;font-weight:bold">then</span>
+            print(<span style="color:#c30">&#34;A lua config file changed, reload&#34;</span>)
             doReload <span style="color:#555">=</span> <span style="color:#069;font-weight:bold">true</span>
         <span style="color:#069;font-weight:bold">end</span>
     <span style="color:#069;font-weight:bold">end</span>
     <span style="color:#069;font-weight:bold">if</span> <span style="color:#000;font-weight:bold">not</span> doReload <span style="color:#069;font-weight:bold">then</span>
-        print(<span style="color:#c30">&#34;</span><span style="color:#c30">No lua file changed, skipping reload</span><span style="color:#c30">&#34;</span>)
+        print(<span style="color:#c30">&#34;No lua file changed, skipping reload&#34;</span>)
         <span style="color:#069;font-weight:bold">return</span>
     <span style="color:#069;font-weight:bold">end</span>
 
     hs.reload()
 <span style="color:#069;font-weight:bold">end</span>
 
-configFileWatcher <span style="color:#555">=</span> hs.pathwatcher.new(os.getenv(<span style="color:#c30">&#34;</span><span style="color:#c30">HOME</span><span style="color:#c30">&#34;</span>) <span style="color:#555">..</span> <span style="color:#c30">&#34;</span><span style="color:#c30">/.hammerspoon/</span><span style="color:#c30">&#34;</span>, reloadConfig)
+configFileWatcher <span style="color:#555">=</span> hs.pathwatcher.new(os.getenv(<span style="color:#c30">&#34;HOME&#34;</span>) <span style="color:#555">..</span> <span style="color:#c30">&#34;/.hammerspoon/&#34;</span>, reloadConfig)
 configFileWatcher:start()
 
 </code></pre></td></tr></table>
@@ -626,15 +626,15 @@ configFileWatcher:start()
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
 <pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-lua" data-lang="lua">
-hs.hotkey.bind(windowHotkey, <span style="color:#c30">&#39;</span><span style="color:#c30">return</span><span style="color:#c30">&#39;</span>, <span style="color:#069;font-weight:bold">function</span>()
+hs.hotkey.bind(windowHotkey, <span style="color:#c30">&#39;return&#39;</span>, <span style="color:#069;font-weight:bold">function</span>()
     hs.grid.maximizeWindow()
 <span style="color:#069;font-weight:bold">end</span>)
 
-hs.hotkey.bind(windowHotkey, <span style="color:#c30">&#39;</span><span style="color:#c30">F</span><span style="color:#c30">&#39;</span>, <span style="color:#069;font-weight:bold">function</span>() 
+hs.hotkey.bind(windowHotkey, <span style="color:#c30">&#39;F&#39;</span>, <span style="color:#069;font-weight:bold">function</span>() 
     hs.window.focusedWindow():toggleFullScreen()
 <span style="color:#069;font-weight:bold">end</span>)
 
-hs.hotkey.bind(windowHotkey, <span style="color:#c30">&#39;</span><span style="color:#c30">left</span><span style="color:#c30">&#39;</span>, <span style="color:#069;font-weight:bold">function</span>()
+hs.hotkey.bind(windowHotkey, <span style="color:#c30">&#39;left&#39;</span>, <span style="color:#069;font-weight:bold">function</span>()
     <span style="color:#069;font-weight:bold">local</span> w <span style="color:#555">=</span> hs.window.focusedWindow()
     <span style="color:#069;font-weight:bold">if</span> <span style="color:#000;font-weight:bold">not</span> w <span style="color:#069;font-weight:bold">then</span>
         <span style="color:#069;font-weight:bold">return</span>
@@ -645,7 +645,7 @@ hs.hotkey.bind(windowHotkey, <span style="color:#c30">&#39;</span><span style="c
     <span style="color:#069;font-weight:bold">end</span>
 <span style="color:#069;font-weight:bold">end</span>)
 
-hs.hotkey.bind(windowHotkey, <span style="color:#c30">&#39;</span><span style="color:#c30">right</span><span style="color:#c30">&#39;</span>, <span style="color:#069;font-weight:bold">function</span>()
+hs.hotkey.bind(windowHotkey, <span style="color:#c30">&#39;right&#39;</span>, <span style="color:#069;font-weight:bold">function</span>()
     <span style="color:#069;font-weight:bold">local</span> w <span style="color:#555">=</span> hs.window.focusedWindow()
     <span style="color:#069;font-weight:bold">if</span> <span style="color:#000;font-weight:bold">not</span> w <span style="color:#069;font-weight:bold">then</span>
         <span style="color:#069;font-weight:bold">return</span>
@@ -700,20 +700,20 @@ hs.hotkey.bind(windowHotkey, <span style="color:#c30">&#39;</span><span style="c
 <pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-lua" data-lang="lua">
 <span style="color:#069;font-weight:bold">function</span> <span style="color:#c0f">bluetoothSwitch</span>(state)
     <span style="color:#09f;font-style:italic">-- state: 0(off), 1(on)</span>
-    cmd <span style="color:#555">=</span> <span style="color:#c30">&#34;</span><span style="color:#c30">/usr/local/bin/blueutil --power </span><span style="color:#c30">&#34;</span><span style="color:#555">..</span>(state)
-    result <span style="color:#555">=</span> hs.osascript.applescript(string.format(<span style="color:#c30">&#39;</span><span style="color:#c30">do shell script &#34;%s&#34;</span><span style="color:#c30">&#39;</span>, cmd))
+    cmd <span style="color:#555">=</span> <span style="color:#c30">&#34;/usr/local/bin/blueutil --power &#34;</span><span style="color:#555">..</span>(state)
+    result <span style="color:#555">=</span> hs.osascript.applescript(string.format(<span style="color:#c30">&#39;do shell script &#34;%s&#34;&#39;</span>, cmd))
 <span style="color:#069;font-weight:bold">end</span>
 
 <span style="color:#069;font-weight:bold">function</span> <span style="color:#c0f">caffeinateCallback</span>(eventType)
     <span style="color:#069;font-weight:bold">if</span> (eventType <span style="color:#555">==</span> hs.caffeinate.watcher.screensDidSleep) <span style="color:#069;font-weight:bold">then</span>
-      print(<span style="color:#c30">&#34;</span><span style="color:#c30">screensDidSleep</span><span style="color:#c30">&#34;</span>)
+      print(<span style="color:#c30">&#34;screensDidSleep&#34;</span>)
     <span style="color:#069;font-weight:bold">elseif</span> (eventType <span style="color:#555">==</span> hs.caffeinate.watcher.screensDidWake) <span style="color:#069;font-weight:bold">then</span>
-      print(<span style="color:#c30">&#34;</span><span style="color:#c30">screensDidWake</span><span style="color:#c30">&#34;</span>)
+      print(<span style="color:#c30">&#34;screensDidWake&#34;</span>)
     <span style="color:#069;font-weight:bold">elseif</span> (eventType <span style="color:#555">==</span> hs.caffeinate.watcher.screensDidLock) <span style="color:#069;font-weight:bold">then</span>
-      print(<span style="color:#c30">&#34;</span><span style="color:#c30">screensDidLock</span><span style="color:#c30">&#34;</span>)
+      print(<span style="color:#c30">&#34;screensDidLock&#34;</span>)
       bluetoothSwitch(<span style="color:#f60">0</span>)
     <span style="color:#069;font-weight:bold">elseif</span> (eventType <span style="color:#555">==</span> hs.caffeinate.watcher.screensDidUnlock) <span style="color:#069;font-weight:bold">then</span>
-      print(<span style="color:#c30">&#34;</span><span style="color:#c30">screensDidUnlock</span><span style="color:#c30">&#34;</span>)
+      print(<span style="color:#c30">&#34;screensDidUnlock&#34;</span>)
       bluetoothSwitch(<span style="color:#f60">1</span>)
     <span style="color:#069;font-weight:bold">end</span>
 <span style="color:#069;font-weight:bold">end</span>
@@ -859,7 +859,7 @@ caffeinateWatcher:start()
                 <p class="text-center">
                     <span class="text-gray-700 font-bold">
                         
-                            92
+                            91
                         
                     </span>
                     标签
