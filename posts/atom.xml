@@ -6,10 +6,20 @@
     <description>Recent content in Posts on forecho&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 24 Feb 2020 18:25:46 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 29 Feb 2020 12:56:53 +0800</lastBuildDate>
     
 	<atom:link href="https://blog.forecho.com/posts/atom.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>记录这不平凡的一个月</title>
+      <link>https://blog.forecho.com/record-this-extraordinary-month.html</link>
+      <pubDate>Sat, 29 Feb 2020 12:56:53 +0800</pubDate>
+      
+      <guid>https://blog.forecho.com/record-this-extraordinary-month.html</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;今天是这个月是的最后一天了，因为『新冠病毒』的原因，让这个月注定不再平凡。我打算写下这篇文章，用文字记录我身边的事情。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>美股入金问题</title>
@@ -263,16 +273,6 @@
 &lt;blockquote&gt;
 &lt;p&gt;如果你还不知道春哥是谁的话，可以先读读这篇文章&lt;a href=&#34;http://www.ituring.com.cn/article/504549&#34;&gt;《从抄书到开源之巅：章亦春的程序人生》&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;</description>
-    </item>
-    
-    <item>
-      <title>MWS 开发 - 产品上传篇</title>
-      <link>https://blog.forecho.com/mws-product.html</link>
-      <pubDate>Thu, 08 Aug 2019 22:58:00 +0800</pubDate>
-      
-      <guid>https://blog.forecho.com/mws-product.html</guid>
-      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
-&lt;p&gt;上次我们讲了 &lt;a href=&#34;https://blog.forecho.com/mws-order.html&#34;&gt;MWS 与订单相关的开发&lt;/a&gt;，这次我们就来讲如何通过 MWS 接口上传产品。&lt;/p&gt;</description>
     </item>
     
   </channel>
