@@ -10,11 +10,11 @@ toc: true
 
 去年五月份的之后我写过一篇关于[《我是如何投资美股》](https://blog.forecho.com/how-do-i-invest-in-american-stocks.html)的文章，得到很多朋友的关注。
 
-今天这篇文章我主要是分享一下作为美股初学者的我，使用[富途证劵](https://www.futunn.com/new-invite/share?uid=5b21b5bf6fabd9fd)和雪盈证劵的感受和体验。希望对你在选择平台上有一点参考意义。
+今天这篇文章我主要是分享一下作为美股初学者的我，使用[富途证劵](http://link.3li3.com/futu)和雪盈证劵的感受和体验。希望对你在选择平台上有一点参考意义。
 
 ## 富途证券
 
-官网地址：<https://www.futunn.com/new-invite/share?uid=5b21b5bf6fabd9fd>
+官网地址：<http://link.3li3.com/futu>
 
 <!--more-->
 
