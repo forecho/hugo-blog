@@ -34,7 +34,7 @@ web_server['external_users'] = ['www-data']
 nginx['enable'] = false // 关闭自带nginx
 ```
 
-**修改时区**
+### 修改时区
 
 ```
 $ sudo vim /var/opt/gitlab/gitlab-rails/etc/gitlab.yml
@@ -216,7 +216,7 @@ $ sudo vim /etc/apt/sources.list.d/runner_gitlab-ci-multi-runner.list
 $ sudo apt-get update && sudo apt-get install gitlab-ci-multi-runner
 ```
 
-**注册**
+### 注册
 
 ```
 $ sudo gitlab-ci-multi-runner register
@@ -238,7 +238,7 @@ $ sudo gitlab-ci-multi-runner start
 $ sudo gitlab-ci-multi-runner stop
 ```
 
-**如何使用？**
+### 如何使用？
 
 
 这个是重点，在你项目的根目录下新建一个 `.gitlab-ci.yml` 文件。下面是我们使用 angular 实现自动编译的示例：
