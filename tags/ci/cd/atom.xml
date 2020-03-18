@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CI/CD on forecho&#39;s Blog</title>
+    <link>https://blog.forecho.com/tags/ci/cd.html</link>
+    <description>Recent content in CI/CD on forecho&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://blog.forecho.com/tags/ci/cd/atom.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>自动化部署</title>
+      <link>https://blog.forecho.com/automatic-deployment.html</link>
+      <pubDate>Wed, 18 Mar 2020 19:36:14 +0800</pubDate>
+      
+      <guid>https://blog.forecho.com/automatic-deployment.html</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;有一个基于 Yii 的小项目，放在 GitHub 私有仓库里。刚开始部署的时候，直接手动 SSH 到服务器上，然后执行 &lt;code&gt;git pull&lt;/code&gt;，简单粗暴。但是随着时间的推移，现在在3台服务器部署了5套代码。以前的部署方式肯定是不行了，那得累死。&lt;/p&gt;
+&lt;p&gt;折腾了两天，终于搞定了方案，特来分享经验。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

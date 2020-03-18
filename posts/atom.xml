@@ -6,10 +6,21 @@
     <description>Recent content in Posts on forecho&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 29 Feb 2020 12:56:53 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 18 Mar 2020 19:36:14 +0800</lastBuildDate>
     
 	<atom:link href="https://blog.forecho.com/posts/atom.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>自动化部署</title>
+      <link>https://blog.forecho.com/automatic-deployment.html</link>
+      <pubDate>Wed, 18 Mar 2020 19:36:14 +0800</pubDate>
+      
+      <guid>https://blog.forecho.com/automatic-deployment.html</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;有一个基于 Yii 的小项目，放在 GitHub 私有仓库里。刚开始部署的时候，直接手动 SSH 到服务器上，然后执行 &lt;code&gt;git pull&lt;/code&gt;，简单粗暴。但是随着时间的推移，现在在3台服务器部署了5套代码。以前的部署方式肯定是不行了，那得累死。&lt;/p&gt;
+&lt;p&gt;折腾了两天，终于搞定了方案，特来分享经验。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>记录这不平凡的一个月</title>
@@ -258,22 +269,6 @@
       <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
 &lt;h2 id=&#34;什么是函数式编程&#34;&gt;什么是函数式编程&lt;/h2&gt;
 &lt;p&gt;函数式编程是是一种编程范式，它将计算机运算视为函数运算，并且避免使用程序状态以及易变对象。其中，λ演算（lambda calculus）为该语言最重要的基础。而且，λ演算的函数可以接受函数当作输入（引数）和输出（传出值）。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>参加 OpenResty 技术沙龙活动</title>
-      <link>https://blog.forecho.com/participate-in-the-openresty-technical-salon.html</link>
-      <pubDate>Sat, 17 Aug 2019 21:48:00 +0800</pubDate>
-      
-      <guid>https://blog.forecho.com/participate-in-the-openresty-technical-salon.html</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://i.loli.net/2019/08/19/MnqFwm5hd4GQEAK.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
-&lt;p&gt;起因是公司另外一个项目组老大说，章亦春（下文简称春哥）最近回国，他可以请春哥来公司做个小分享会。之前就对春哥略有耳闻，这次可以见他本人，也是难得的机会。&lt;/p&gt;
-&lt;p&gt;前两天听完春哥在公司的分享，两个小时他讲了很多他的编程经验和经历，听完收益很大，但是两个小时根本不够他讲，我也没听过瘾，于是又报名了他的&lt;a href=&#34;https://www.huodongxing.com/event/7502793207200&#34;&gt;《OpenResty 2019 深圳技术沙龙》&lt;/a&gt;活动，又跑去听了他讲了 5 个小时。&lt;/p&gt;
-&lt;p&gt;这篇文章我主要是分享一下他分享的几个点（仅限于我能理解和认为的），以及我的收获。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;如果你还不知道春哥是谁的话，可以先读读这篇文章&lt;a href=&#34;http://www.ituring.com.cn/article/504549&#34;&gt;《从抄书到开源之巅：章亦春的程序人生》&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;</description>
     </item>
     
   </channel>
