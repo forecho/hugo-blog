@@ -182,13 +182,22 @@ $ sudo vim /etc/gitlab/gitlab.rb
     <div class="sticky text-sm" style="top:6em;" id="menu-content">
         <nav id="TableOfContents">
   <ul>
-    <li><a href="#安装-gitlab">安装 GitLab</a></li>
+    <li><a href="#安装-gitlab">安装 GitLab</a>
+      <ul>
+        <li><a href="#修改时区">修改时区</a></li>
+      </ul>
+    </li>
     <li><a href="#配置-nginx">配置 nginx</a></li>
     <li><a href="#配置-email">配置 Email</a></li>
     <li><a href="#备份">备份</a></li>
     <li><a href="#恢复备份">恢复备份</a></li>
     <li><a href="#汉化">汉化</a></li>
-    <li><a href="#gitlab-配置-ci">GitLab 配置 CI</a></li>
+    <li><a href="#gitlab-配置-ci">GitLab 配置 CI</a>
+      <ul>
+        <li><a href="#注册">注册</a></li>
+        <li><a href="#如何使用">如何使用？</a></li>
+      </ul>
+    </li>
     <li><a href="#总结">总结</a></li>
   </ul>
 </nav>
@@ -234,7 +243,7 @@ web_server[&#39;external_users&#39;] = [&#39;www-data&#39;]
 nginx[&#39;enable&#39;] = false // 关闭自带nginx
 </code></pre></td></tr></table>
 </div>
-</div><p><strong>修改时区</strong></p>
+</div><h3 id="修改时区">修改时区</h3>
 <div class="highlight"><div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
 <pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
@@ -504,7 +513,7 @@ $ sudo vim /etc/apt/sources.list.d/runner_gitlab-ci-multi-runner.list
 <pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-fallback" data-lang="fallback">$ sudo apt-get update &amp;&amp; sudo apt-get install gitlab-ci-multi-runner
 </code></pre></td></tr></table>
 </div>
-</div><p><strong>注册</strong></p>
+</div><h3 id="注册">注册</h3>
 <div class="highlight"><div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
 <pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
@@ -528,7 +537,7 @@ $ sudo vim /etc/apt/sources.list.d/runner_gitlab-ci-multi-runner.list
 $ sudo gitlab-ci-multi-runner stop
 </code></pre></td></tr></table>
 </div>
-</div><p><strong>如何使用？</strong></p>
+</div><h3 id="如何使用">如何使用？</h3>
 <p>这个是重点，在你项目的根目录下新建一个 <code>.gitlab-ci.yml</code> 文件。下面是我们使用 angular 实现自动编译的示例：</p>
 <div class="highlight"><div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
@@ -859,13 +868,22 @@ $ su gitlab-runner
     <div class="sticky text-sm" style="top:6em;" id="menu-content">
         <nav id="TableOfContents">
   <ul>
-    <li><a href="#安装-gitlab">安装 GitLab</a></li>
+    <li><a href="#安装-gitlab">安装 GitLab</a>
+      <ul>
+        <li><a href="#修改时区">修改时区</a></li>
+      </ul>
+    </li>
     <li><a href="#配置-nginx">配置 nginx</a></li>
     <li><a href="#配置-email">配置 Email</a></li>
     <li><a href="#备份">备份</a></li>
     <li><a href="#恢复备份">恢复备份</a></li>
     <li><a href="#汉化">汉化</a></li>
-    <li><a href="#gitlab-配置-ci">GitLab 配置 CI</a></li>
+    <li><a href="#gitlab-配置-ci">GitLab 配置 CI</a>
+      <ul>
+        <li><a href="#注册">注册</a></li>
+        <li><a href="#如何使用">如何使用？</a></li>
+      </ul>
+    </li>
     <li><a href="#总结">总结</a></li>
   </ul>
 </nav>
