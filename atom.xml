@@ -19,11 +19,11 @@
       <guid>https://blog.forecho.com/e-book-traditional-vertical-conversion-simplified-horizontal.html</guid>
       
         <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
-&lt;p&gt;我现在有一本繁体竖排的电子书书，竖排真的是没那么阅读习惯。繁体看着也累，于是想到了做个转换，于是网上搜索资料，但搜索到的都是与我反过来的，他们要把简体横排转换成繁体竖排。&lt;/p&gt;
+&lt;p&gt;我现在有一本繁体竖排的电子书，竖排真的是没那么阅读习惯。繁体看着也累，于是想到了做个转换，于是网上搜索资料，但搜索到的都是与我反过来的，他们要把简体横排转换成繁体竖排。&lt;/p&gt;
 &lt;p&gt;于是我只能自己摸索着如何把『电子书繁体竖排转换简体横排』，然后整理了成这篇文章。&lt;/p&gt;
 &lt;h2 id=&#34;工具&#34;&gt;工具&lt;/h2&gt;
 &lt;p&gt;如果你只需要把横版繁体转换成横版简体，你可以试试&lt;a href=&#34;http://ebook.cdict.info&#34;&gt;天火藏書&lt;/a&gt;，在线就能搞定，简单快捷。（竖排的电子书虽然给转成横排了，但是标点符号有问题）&lt;/p&gt;
-&lt;p&gt;如果你是竖版的电子书，那就接着往下看吧。准备工具：&lt;/p&gt;
+&lt;p&gt;如果你是竖排的电子书，那就接着往下看吧。准备工具：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;下载最新版 &lt;a href=&#34;https://calibre-ebook.com/download&#34;&gt;calibre&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;安装 calibre 的『Chinese Text Conversion』插件&lt;/li&gt;
