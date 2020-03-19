@@ -6,10 +6,21 @@
     <description>Recent content in 工具 on forecho&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 Mar 2019 21:58:00 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 19 Mar 2020 20:57:28 +0800</lastBuildDate>
     
 	<atom:link href="https://blog.forecho.com/tags/%E5%B7%A5%E5%85%B7/atom.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>电子书繁体竖排转换简体横排</title>
+      <link>https://blog.forecho.com/e-book-traditional-vertical-conversion-simplified-horizontal.html</link>
+      <pubDate>Thu, 19 Mar 2020 20:57:28 +0800</pubDate>
+      
+      <guid>https://blog.forecho.com/e-book-traditional-vertical-conversion-simplified-horizontal.html</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;我现在有一本繁体竖排的电子书书，竖排真的是没那么阅读习惯。繁体看着也累，于是想到了做个转换，于是网上搜索资料，但搜索到的都是与我反过来的，他们要把简体横排转换成繁体竖排。&lt;/p&gt;
+&lt;p&gt;于是我只能自己摸索着如何把『电子书繁体竖排转换简体横排』，然后整理了成这篇文章。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>关于三立三</title>

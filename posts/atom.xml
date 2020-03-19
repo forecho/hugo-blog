@@ -6,10 +6,21 @@
     <description>Recent content in Posts on forecho&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 18 Mar 2020 19:36:14 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 19 Mar 2020 20:57:28 +0800</lastBuildDate>
     
 	<atom:link href="https://blog.forecho.com/posts/atom.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>电子书繁体竖排转换简体横排</title>
+      <link>https://blog.forecho.com/e-book-traditional-vertical-conversion-simplified-horizontal.html</link>
+      <pubDate>Thu, 19 Mar 2020 20:57:28 +0800</pubDate>
+      
+      <guid>https://blog.forecho.com/e-book-traditional-vertical-conversion-simplified-horizontal.html</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;我现在有一本繁体竖排的电子书书，竖排真的是没那么阅读习惯。繁体看着也累，于是想到了做个转换，于是网上搜索资料，但搜索到的都是与我反过来的，他们要把简体横排转换成繁体竖排。&lt;/p&gt;
+&lt;p&gt;于是我只能自己摸索着如何把『电子书繁体竖排转换简体横排』，然后整理了成这篇文章。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>自动化部署</title>
@@ -258,17 +269,6 @@
 &lt;li&gt;二是把所有编辑器都安装了 vim 插件，开启了 vim 模式，甚至上 Chrome 浏览器都安装了 &lt;a href=&#34;https://github.com/1995eaton/chromium-vim&#34;&gt;cVim&lt;/a&gt; 扩展，强迫自己学习 Vim。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;这篇文章主要是记录自己习惯 HHKB 的历程，希望对大家有用。之后再写篇文章记录重拾 Vim 的经验。 本片文章适用于 Mac 用户。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>函数式编程初探</title>
-      <link>https://blog.forecho.com/a-preliminary-study-on-functional-programming.html</link>
-      <pubDate>Thu, 29 Aug 2019 21:48:00 +0800</pubDate>
-      
-      <guid>https://blog.forecho.com/a-preliminary-study-on-functional-programming.html</guid>
-      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
-&lt;h2 id=&#34;什么是函数式编程&#34;&gt;什么是函数式编程&lt;/h2&gt;
-&lt;p&gt;函数式编程是是一种编程范式，它将计算机运算视为函数运算，并且避免使用程序状态以及易变对象。其中，λ演算（lambda calculus）为该语言最重要的基础。而且，λ演算的函数可以接受函数当作输入（引数）和输出（传出值）。&lt;/p&gt;</description>
     </item>
     
   </channel>
