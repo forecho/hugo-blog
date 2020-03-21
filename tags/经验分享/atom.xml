@@ -6,10 +6,22 @@
     <description>Recent content in 经验分享 on forecho&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 31 Oct 2019 22:48:00 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 21 Mar 2020 20:20:26 +0800</lastBuildDate>
     
 	<atom:link href="https://blog.forecho.com/tags/%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB/atom.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>使用 Graylog 收集日志</title>
+      <link>https://blog.forecho.com/use-graylog.html</link>
+      <pubDate>Sat, 21 Mar 2020 20:20:26 +0800</pubDate>
+      
+      <guid>https://blog.forecho.com/use-graylog.html</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;随着项目越来越负责，Bug 越来越难定位，一个专门的日志收集工具必不可少。于是花了两天时间玩了一下 Graylog，这篇文章就分享一下踩过的坑。&lt;/p&gt;
+&lt;h2 id=&#34;准备环境&#34;&gt;准备环境&lt;/h2&gt;
+&lt;p&gt;自从用过 Docker 之后，我现在搭建环境第一步就去找 Docker 安装方式，其实他们官方文档写的非常清楚，但是我还是踩了一些坑，主要是网络问题，太慢，必须要换中国源。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>在网上配眼镜是一种什么体验</title>
@@ -347,18 +359,6 @@ Kindle 版的电子书，标记和索引很方便，而且出门携带也非常�
 &lt;p&gt;今天心血来潮，想搭建一个 &lt;a href=&#34;http://3li3.com/&#34;&gt;3li3&lt;/a&gt; 的博客，准备以博客的形式记录产品的成长。类似的博客有：&lt;a href=&#34;http://blog.selfstore.io/&#34;&gt;SelfStore 博客&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;感觉 Hexo 的博客插件比较多，于是这次想试试。因为很早以前就搭建过一次，这次以为分分钟搞定，但实际上还是花了我不少时间，为了以后不再重复踩坑，我决定记录下整个过程。&lt;/p&gt;
 &lt;p&gt;我们先看一下成果&lt;a href=&#34;http://blog.3li3.com/&#34;&gt; 3li3博客&lt;/a&gt;，然后我再来分享我的经验。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>谈谈使用 Kindle 阅读</title>
-      <link>https://blog.forecho.com/talk-about-ues-kindle-to-read.html</link>
-      <pubDate>Wed, 31 Aug 2016 21:24:00 +0800</pubDate>
-      
-      <guid>https://blog.forecho.com/talk-about-ues-kindle-to-read.html</guid>
-      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
-&lt;p&gt;今年年初的时候我写了篇&lt;a href=&#34;https://blog.forecho.com/use-the-kindle-reading.html&#34;&gt;《使用 Kindle 阅读》&lt;/a&gt; 文章，从2012年底开始到现在差不多快4年的 Kindle 使用经历，
-那么我来分享一下我是如何使用 Kindle 的。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424161300.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

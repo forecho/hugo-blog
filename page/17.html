@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <meta name="generator" content="Hugo 0.67.1" />
+    <meta name="generator" content="Hugo 0.68.0" />
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -77,6 +77,68 @@
     <section class="w-full lg:w-3/4 xl:w-3/4">
         <div class="px-8 py-6 mt-6 lg:mt-0 leading-normal rounded shadow bg-white">
                 
+                <article >
+                    
+                    <div>
+    <h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-2xl lg:text-3xl">
+        <a href="https://blog.forecho.com/solve-vagrant-up-timeout.html" title="解决「vagrant up」timeout 问题">解决「vagrant up」timeout 问题</a>
+    </h1>
+    <p class="mb-1 text-sm text-gray-500">
+        <span title=" 2015-07-30 22:38:00 &#43;0800">
+            <i class="iconfont icon-calendar" aria-hidden="true"></i> 30 Jul 2015
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-book"></i>
+            979 字
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-clock-o"></i>
+            2 分钟读完
+        </span>
+    </p>
+</div>
+
+                    
+                    <div class="post-content">
+                        <h2 id="前言">前言</h2>
+<p>之前我有写<a href="/blog/windows-coding-tool.html#section-1">《Windows 开发利器》</a>文章提到使用「VirtualBox + Vagrant（打造 Linux 开发环境）」，
+到现在为止在公司使用也有几个月了，到现在为只出现过两次问题。</p>
+<h2 id="第一次启动不了">第一次启动不了</h2>
+<p>第一次主要是我电脑下班之后没关机，睡眠模式，结果半夜停电了，导致强制关机了，最后导致 <code>vagrant up</code> 命令启动不了了，最后我又重新安装了我的 vagrant。
+所以，切记，<strong>一定要学会打包自己的 vagrant</strong>。</p>
+<p><strong>打包自己的 vagrant</strong></p>
+<div class="highlight"><div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-sh" data-lang="sh">$ vagrant package
+<span style="color:#555">[</span>default<span style="color:#555">]</span> Attempting graceful shutdown of VM...
+<span style="color:#555">[</span>default<span style="color:#555">]</span> Clearing any previously <span style="color:#366">set</span> forwarded ports...
+<span style="color:#555">[</span>default<span style="color:#555">]</span> Creating temporary directory <span style="color:#069;font-weight:bold">for</span> export...
+<span style="color:#555">[</span>default<span style="color:#555">]</span> Exporting VM...
+<span style="color:#555">[</span>default<span style="color:#555">]</span> Compressing package to: /Users/astaxie/vagrant/package.box
+</code></pre></td></tr></table>
+</div>
+</div><p>有了这个备份就是可以放心的使（zhe）用（teng）vagrant 了。</p>
+<p>下面我们重点来讲讲今天遇到的这个坑。</p>
+                    </div>
+                    <p class="text-sm font-semibold pt-5 text-gray-700 ">
+                        <a href="https://blog.forecho.com/solve-vagrant-up-timeout.html" class="px-5 py-2 inline-block bg-gray-200 rounded  hover:bg-gray-300">阅读全文</a>
+                    </p>
+                </article>
+
+                <hr class="bg-gray-300 mt-10 mb-6">
+            
                 <article >
                     
                     <div>
@@ -591,83 +653,6 @@ cp -a environments/prod/frontend environments/prod/api
 
                 <hr class="bg-gray-300 mt-10 mb-6">
             
-                <article >
-                    
-                    <div>
-    <h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-2xl lg:text-3xl">
-        <a href="https://blog.forecho.com/about-cakephp-tips.html" title="CakePHP 使用小技巧">CakePHP 使用小技巧</a>
-    </h1>
-    <p class="mb-1 text-sm text-gray-500">
-        <span title=" 2014-11-19 22:00:00 &#43;0800">
-            <i class="iconfont icon-calendar" aria-hidden="true"></i> 19 Nov 2014
-        </span>
-
-        <span class="hidden xl:inline-block">
-            |
-            <i class="iconfont icon-book"></i>
-            748 字
-        </span>
-
-        <span class="hidden xl:inline-block">
-            |
-            <i class="iconfont icon-clock-o"></i>
-            2 分钟读完
-        </span>
-    </p>
-</div>
-
-                    
-                    <div class="post-content">
-                        <h3 id="知道主键-id-更新一条数据代码示例">知道主键 ID 更新一条数据，代码示例：</h3>
-<div class="highlight"><div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
-<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-php" data-lang="php">$this-&gt;Order-&gt;id = $id;
-$this-&gt;Order-&gt;saveField(&#39;status&#39;, $status);
-</code></pre></td></tr></table>
-</div>
-</div><h3 id="点赞的时候需要1如何更新数据库">点赞的时候需要+1，如何更新数据库？</h3>
-<div class="highlight"><div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
-<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-php" data-lang="php">$this-&gt;Widget-&gt;updateAll(
-    array(&#39;Widget.numberfield&#39; =&gt; &#39;Widget.numberfield + 1&#39;),
-    array(&#39;Widget.id&#39; =&gt; 1)
-);
-</code></pre></td></tr></table>
-</div>
-</div><h3 id="如何通过主键最简单的方式获取到一条数据">如何通过主键最简单的方式获取到一条数据？</h3>
-<div class="highlight"><div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
-<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-php" data-lang="php">// 只获取name字段信息
-$this-&gt;User-&gt;read(&#39;name&#39;, $id);
-// 获取所有信息
-$this-&gt;User-&gt;read(null, $id);
-</code></pre></td></tr></table>
-</div>
-</div>
-                    </div>
-                    <p class="text-sm font-semibold pt-5 text-gray-700 ">
-                        <a href="https://blog.forecho.com/about-cakephp-tips.html" class="px-5 py-2 inline-block bg-gray-200 rounded  hover:bg-gray-300">阅读全文</a>
-                    </p>
-                </article>
-
-                <hr class="bg-gray-300 mt-10 mb-6">
-            
             <p class="text-center">
                 <a  class="md:text-xl text-gray-700" href="/posts.html">↑ 文章归档 ↑</a>
             </p>
@@ -688,7 +673,7 @@ $this-&gt;User-&gt;read(null, $id);
             <div class="flex-1 border-r border-gray-600">
                 <p class="text-center">
                     <span class="text-gray-700 font-bold">
-                        334
+                        335
                     </span>
                     文章
                 </p>
@@ -697,7 +682,7 @@ $this-&gt;User-&gt;read(null, $id);
                 <p class="text-center">
                     <span class="text-gray-700 font-bold">
                         
-                            94
+                            95
                         
                     </span>
                     标签

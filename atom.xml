@@ -12,6 +12,335 @@
     
     
     <item>
+      <title>使用 Graylog 收集日志</title>
+      <link>https://blog.forecho.com/use-graylog.html</link>
+      <pubDate>Sat, 21 Mar 2020 20:20:26 +0800</pubDate>
+      
+      <guid>https://blog.forecho.com/use-graylog.html</guid>
+      
+        <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;随着项目越来越负责，Bug 越来越难定位，一个专门的日志收集工具必不可少。于是花了两天时间玩了一下 Graylog，这篇文章就分享一下踩过的坑。&lt;/p&gt;
+&lt;h2 id=&#34;准备环境&#34;&gt;准备环境&lt;/h2&gt;
+&lt;p&gt;自从用过 Docker 之后，我现在搭建环境第一步就去找 Docker 安装方式，其实他们官方文档写的非常清楚，但是我还是踩了一些坑，主要是网络问题，太慢，必须要换中国源。&lt;/p&gt;
+&lt;h3 id=&#34;安装-docker-和-docker-compose&#34;&gt;安装 Docker 和 Docker compose&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;3
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;4
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;curl -sSL https://get.daocloud.io/docker | sh
+
+curl -L https://get.daocloud.io/docker/compose/releases/download/1.25.4/docker-compose-`uname -s`-`uname -m` &amp;gt; /usr/local/bin/docker-compose
+chmod +x /usr/local/bin/docker-compose
+docker-compose --version
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;换中国源&#34;&gt;换中国源&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;vim /etc/docker/daemon.json
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;添加代码：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;3
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;4
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;5
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;6
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;{
+    &lt;span style=&#34;color:#309;font-weight:bold&#34;&gt;&amp;#34;registry-mirrors&amp;#34;&lt;/span&gt;: [
+        &lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;https://dockerhub.azk8s.cn&amp;#34;&lt;/span&gt;,
+        &lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;https://docker.mirrors.ustc.edu.cn&amp;#34;&lt;/span&gt;
+    ]
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;重启服务（重启才生效）&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;sudo systemctl daemon-reload &amp;amp;&amp;amp; sudo systemctl restart docker
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;安装-graylog&#34;&gt;安装 Graylog&lt;/h2&gt;
+&lt;p&gt;下载代码：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;git clone https://github.com/forecho/graylog-docker.git
+cd graylog-docker
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;然后修改 &lt;code&gt;docker-compose.yml&lt;/code&gt; 里的环境变量：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;GRAYLOG_PASSWORD_SECRET&lt;/code&gt;&lt;/strong&gt;: 密码密钥，至少16位数&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;GRAYLOG_ROOT_PASSWORD_SHA2&lt;/code&gt;&lt;/strong&gt;: 加密过的密码，这里默认是 &lt;code&gt;admin&lt;/code&gt;，如果要修改则执行下面命令，把生成的结果复制到这里。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;color:#366&#34;&gt;echo&lt;/span&gt; -n &lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;Enter Password: &amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#555&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; head -1 &amp;lt;/dev/stdin | tr -d &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;\n&amp;#39;&lt;/span&gt; | sha256sum | cut -d&lt;span style=&#34;color:#c30&#34;&gt;&amp;#34; &amp;#34;&lt;/span&gt; -f1
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;GRAYLOG_HTTP_EXTERNAL_URI&lt;/code&gt;&lt;/strong&gt;: 本地部署就不需要修改，如果是服务器部署，要改成服务器 IP。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;然后执行下面命令开始安装：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;sudo docker-compose up -d
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;浏览器使用输入 &lt;code&gt;GRAYLOG_HTTP_EXTERNAL_URI&lt;/code&gt; 环境变量的值就可以访问了，本地搭建默认是 &lt;a href=&#34;http://127.0.0.1:9000/&#34;&gt;http://127.0.0.1:9000/&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;测试&#34;&gt;测试&lt;/h2&gt;
+&lt;p&gt;本地测试写入日志命令，根据需要修改最后的 IP 地址：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;color:#366&#34;&gt;echo&lt;/span&gt; &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;{&amp;#34;version&amp;#34;: &amp;#34;1.1&amp;#34;,&amp;#34;host&amp;#34;:&amp;#34;example.org&amp;#34;,&amp;#34;short_message&amp;#34;:&amp;#34;A short message that helps you identify what is going on&amp;#34;,&amp;#34;full_message&amp;#34;:&amp;#34;Backtrace here\n\nmore stuff&amp;#34;,&amp;#34;level&amp;#34;:1,&amp;#34;_user_id&amp;#34;:9001,&amp;#34;_some_info&amp;#34;:&amp;#34;foo&amp;#34;,&amp;#34;_some_env_var&amp;#34;:&amp;#34;bar&amp;#34;}&amp;#39;&lt;/span&gt; | gzip | nc -u -w &lt;span style=&#34;color:#f60&#34;&gt;1&lt;/span&gt; 127.0.0.1 &lt;span style=&#34;color:#f60&#34;&gt;12201&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;详情参考 &lt;a href=&#34;https://github.com/forecho/graylog-docker&#34;&gt;forecho/graylog-docker&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;在-yii2-中使用&#34;&gt;在 Yii2 中使用&lt;/h2&gt;
+&lt;h3 id=&#34;安装扩展包&#34;&gt;安装扩展包：&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;composer require --prefer-dist yiier/yii2-graylog-target &lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;*&amp;#34;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;配置&#34;&gt;配置&lt;/h3&gt;
+&lt;p&gt;然后修改配置文件：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 1
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 2
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 3
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 4
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 5
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 6
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 7
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 8
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 9
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;10
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;11
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;12
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;13
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;14
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;15
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;16
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;17
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;18
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;19
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;20
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;21
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;22
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;23
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;24
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;25
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;26
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;27
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;return [
+    &amp;#39;components&amp;#39; =&amp;gt; [
+        &amp;#39;log&amp;#39; =&amp;gt; [
+            &amp;#39;targets&amp;#39; =&amp;gt; [
+                &amp;#39;graylog&amp;#39; =&amp;gt; [
+                    &amp;#39;class&amp;#39; =&amp;gt; yiier\graylog\Target::class,
+                    &amp;#39;levels&amp;#39; =&amp;gt; [&amp;#39;error&amp;#39;, &amp;#39;warning&amp;#39;, &amp;#39;info&amp;#39;],
+                    // &amp;#39;categories&amp;#39; =&amp;gt; [&amp;#39;application&amp;#39;, &amp;#39;graylog&amp;#39;],
+                    // &amp;#39;logVars&amp;#39; =&amp;gt; [&amp;#39;_GET&amp;#39;, &amp;#39;_POST&amp;#39;, &amp;#39;_FILES&amp;#39;, &amp;#39;_COOKIE&amp;#39;, &amp;#39;_SESSION&amp;#39;],
+                    // &amp;#39;facility&amp;#39; =&amp;gt; &amp;#39;facility-name&amp;#39;,
+                    &amp;#39;transport&amp;#39; =&amp;gt; [
+                        &amp;#39;class&amp;#39; =&amp;gt; yiier\graylog\transport\UdpTransport::class,
+                        &amp;#39;host&amp;#39; =&amp;gt; &amp;#39;127.0.0.1&amp;#39;,
+                        &amp;#39;port&amp;#39; =&amp;gt; &amp;#39;1231&amp;#39;,
+                        &amp;#39;chunkSize&amp;#39; =&amp;gt; 4321,
+                    ],
+                    &amp;#39;additionalFields&amp;#39; =&amp;gt; [
+                        &amp;#39;user-ip&amp;#39; =&amp;gt; function ($yii) {
+                            return ($yii instanceof \yii\console\Application) ? &amp;#39;&amp;#39; : $yii-&amp;gt;request-&amp;gt;userIP;
+                        },
+                        &amp;#39;tag&amp;#39; =&amp;gt; &amp;#39;tag-name&amp;#39;
+                    ],
+                ],
+            ],
+        ],
+    ],
+];
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;使用&#34;&gt;使用&lt;/h3&gt;
+&lt;p&gt;有两种方式：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;方式一：使用 Yii 自带的日志方式：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 1
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 2
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 3
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 4
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 5
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 6
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 7
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 8
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 9
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;10
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;11
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;12
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;13
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;14
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;15
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;16
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;17
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;18
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;19
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;20
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;21
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;22
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;23
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;24
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;25
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;26
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;27
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;28
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;29
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;30
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;31
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;32
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;33
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;34
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;35
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span style=&#34;color:#099&#34;&gt;&amp;lt;?php&lt;/span&gt;
+&lt;span style=&#34;color:#09f;font-style:italic&#34;&gt;// short_message will contain string representation of [&amp;#39;test1&amp;#39; =&amp;gt; 123, &amp;#39;test2&amp;#39; =&amp;gt; 456],
+&lt;/span&gt;&lt;span style=&#34;color:#09f;font-style:italic&#34;&gt;// no full_message will be sent
+&lt;/span&gt;&lt;span style=&#34;color:#09f;font-style:italic&#34;&gt;&lt;/span&gt;Yii&lt;span style=&#34;color:#555&#34;&gt;::&lt;/span&gt;&lt;span style=&#34;color:#309&#34;&gt;info&lt;/span&gt;([
+    &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;test1&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#555&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#f60&#34;&gt;123&lt;/span&gt;,
+    &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;test2&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#555&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#f60&#34;&gt;456&lt;/span&gt;,
+]);
+
+&lt;span style=&#34;color:#09f;font-style:italic&#34;&gt;// short_message will contain &amp;#39;Test short message&amp;#39;,
+&lt;/span&gt;&lt;span style=&#34;color:#09f;font-style:italic&#34;&gt;// two additional fields will be sent,
+&lt;/span&gt;&lt;span style=&#34;color:#09f;font-style:italic&#34;&gt;// full_message will contain all other stuff without &amp;#39;short&amp;#39; and &amp;#39;additional&amp;#39;:
+&lt;/span&gt;&lt;span style=&#34;color:#09f;font-style:italic&#34;&gt;// string representation of [&amp;#39;test1&amp;#39; =&amp;gt; 123, &amp;#39;test2&amp;#39; =&amp;gt; 456]
+&lt;/span&gt;&lt;span style=&#34;color:#09f;font-style:italic&#34;&gt;&lt;/span&gt;Yii&lt;span style=&#34;color:#555&#34;&gt;::&lt;/span&gt;&lt;span style=&#34;color:#309&#34;&gt;info&lt;/span&gt;([
+    &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;test1&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#555&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#f60&#34;&gt;123&lt;/span&gt;,
+    &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;test2&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#555&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#f60&#34;&gt;456&lt;/span&gt;,
+    &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;short&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#555&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;Test short message&amp;#39;&lt;/span&gt;,
+    &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;additional&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#555&#34;&gt;=&amp;gt;&lt;/span&gt; [
+        &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;additional1&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#555&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;abc&amp;#39;&lt;/span&gt;,
+        &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;additional2&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#555&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;def&amp;#39;&lt;/span&gt;,
+    ],
+]);
+ 
+&lt;span style=&#34;color:#09f;font-style:italic&#34;&gt;// short_message will contain &amp;#39;Test short message&amp;#39;,
+&lt;/span&gt;&lt;span style=&#34;color:#09f;font-style:italic&#34;&gt;// two additional fields will be sent,
+&lt;/span&gt;&lt;span style=&#34;color:#09f;font-style:italic&#34;&gt;// full_message will contain &amp;#39;Test full message&amp;#39;, all other stuff will be lost
+&lt;/span&gt;&lt;span style=&#34;color:#09f;font-style:italic&#34;&gt;&lt;/span&gt;Yii&lt;span style=&#34;color:#555&#34;&gt;::&lt;/span&gt;&lt;span style=&#34;color:#309&#34;&gt;info&lt;/span&gt;([
+    &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;test1&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#555&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#f60&#34;&gt;123&lt;/span&gt;,
+    &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;test2&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#555&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#f60&#34;&gt;456&lt;/span&gt;,
+    &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;short&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#555&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;Test short message&amp;#39;&lt;/span&gt;,
+    &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;full&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#555&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;Test full message&amp;#39;&lt;/span&gt;,
+    &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;additional&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#555&#34;&gt;=&amp;gt;&lt;/span&gt; [
+        &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;additional1&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#555&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;abc&amp;#39;&lt;/span&gt;,
+        &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;additional2&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#555&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;def&amp;#39;&lt;/span&gt;,
+    ],
+]);
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;方式二：使用 &lt;code&gt;\yiier\graylog\Log&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 1
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 2
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 3
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 4
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 5
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 6
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 7
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 8
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 9
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;10
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;11
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;12
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;13
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;14
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;15
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;16
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span style=&#34;color:#099&#34;&gt;&amp;lt;?php&lt;/span&gt;
+\yiier\graylog\Log&lt;span style=&#34;color:#555&#34;&gt;::&lt;/span&gt;&lt;span style=&#34;color:#309&#34;&gt;info&lt;/span&gt;(
+    &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;Test short message&amp;#39;&lt;/span&gt;,
+    &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;Test full message&amp;#39;&lt;/span&gt;
+);
+
+
+\yiier\graylog\Log&lt;span style=&#34;color:#555&#34;&gt;::&lt;/span&gt;&lt;span style=&#34;color:#309&#34;&gt;info&lt;/span&gt;(
+    &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;Test short message&amp;#39;&lt;/span&gt;,
+    &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;Test full message&amp;#39;&lt;/span&gt;, 
+    [
+        &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;additional1&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#555&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;abc&amp;#39;&lt;/span&gt;,
+        &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;additional2&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#555&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;def&amp;#39;&lt;/span&gt;,
+    ],
+    &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;graylog&amp;#39;&lt;/span&gt;
+);
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;详情参考 &lt;a href=&#34;https://github.com/yiier/yii2-graylog-target&#34;&gt;yiier/yii2-graylog-target&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;与-efk-对比&#34;&gt;与 EFK 对比&lt;/h2&gt;
+&lt;p&gt;没有深度研究，不知道两种方法哪个好？我所知道的：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Graylog 作为专门的 log 收集工具，自带日志报警功能（具体使用方法，以后再补充），而据我所知 EFK 自带是没有这个功能的，为此我们项目组同事还特意写了一个小项目实现这个日志报警功能。&lt;/li&gt;
+&lt;li&gt;我们公司为了节省服务器开支把 EFK 换成 Graylog 了。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;最后&#34;&gt;最后&lt;/h2&gt;
+&lt;p&gt;最后说明一下为什么又重现造了一个 Yii 扩展的轮子？&lt;/p&gt;
+&lt;p&gt;因为刚开始用 &lt;a href=&#34;https://github.com/RomeroMsk/yii2-graylog2&#34;&gt;RomeroMsk/yii2-graylog2&lt;/a&gt;，照着文档使用，使用命令行调试，发现死活写不成功日志。而且这东西调试起来非常麻烦，因为这个库代码异常了，什么错误信息都看不到。&lt;/p&gt;
+&lt;p&gt;最后才发现问题出现在文档里面 &lt;code&gt;return $yii-&amp;gt;request-&amp;gt;getUserIP();&lt;/code&gt;，这段代码不支持命令行方式运行，更加严谨的方式是 &lt;code&gt;return ($yii instanceof \yii\console\Application) ? &#39;&#39; : $yii-&amp;gt;request-&amp;gt;userIP;&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;当然上面那个结论我是最后才发现的，在这之前我不得已去找了其他库，找了半天，找到了 &lt;a href=&#34;https://github.com/alexeevdv/yii2-graylog-target&#34;&gt;alexeevdv/yii2-graylog-target&lt;/a&gt;，然后发现这个库，文档安装方式写错了，这不是问题，我还热心的给他提了 &lt;a href=&#34;https://github.com/alexeevdv/yii2-graylog-target/pull/1&#34;&gt;PR&lt;/a&gt;，因为他代码写的好，单元测试满分。但是这个库有两个坑
+：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;代码写的太『优雅』了，以至于按照文档方式使用 PhpStorm 却是提示代码异常。&lt;/li&gt;
+&lt;li&gt;另外一个问题就是他不支持扩展标签，比分说 &lt;code&gt;tag&lt;/code&gt;, 多项目使用一个日志收集肯定要用 &lt;code&gt;tag&lt;/code&gt; 区分的。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;索性我就在他们两个的基础上重现造了轮子，并且增加了 &lt;code&gt;\yiier\graylog\Log&lt;/code&gt; 使用方式。&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
       <title>电子书繁体竖排转换简体横排</title>
       <link>https://blog.forecho.com/e-book-traditional-vertical-conversion-simplified-horizontal.html</link>
       <pubDate>Thu, 19 Mar 2020 20:57:28 +0800</pubDate>
@@ -2710,95 +3039,6 @@ im-select
 &lt;h2 id=&#34;最后&#34;&gt;最后&lt;/h2&gt;
 &lt;p&gt;家里也是推了一推书要看，也买了很多电子书，但是还是没时间看，最后我反思和总结，发现每次吃完饭的时候我都用看电视的习惯，后来去掉这个习惯之后，立马发现时间变多了，早点去洗澡，早点上床就有时间看书了。&lt;/p&gt;
 &lt;p&gt;另外想对自己说的是，不要做工作狂，工作太久，大脑也需要休息，学会适当的放松，比方说打打游戏什么的，也算是一种方式。&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>使用 HHKB</title>
-      <link>https://blog.forecho.com/use-hhkb.html</link>
-      <pubDate>Wed, 11 Sep 2019 21:48:00 +0800</pubDate>
-      
-      <guid>https://blog.forecho.com/use-hhkb.html</guid>
-      
-        <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
-&lt;p&gt;最近干了两件事情，让我的工作效率立马变得很慢了:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;一是换了一把键盘，买了 HHKB Pro2。之前一直在用酷冷至尊的烈焰枪87茶轴键盘，换成 HHKB 之后键位好不习惯，感觉要重新练习打字了。😢&lt;/li&gt;
-&lt;li&gt;二是把所有编辑器都安装了 vim 插件，开启了 vim 模式，甚至上 Chrome 浏览器都安装了 &lt;a href=&#34;https://github.com/1995eaton/chromium-vim&#34;&gt;cVim&lt;/a&gt; 扩展，强迫自己学习 Vim。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;这篇文章主要是记录自己习惯 HHKB 的历程，希望对大家有用。之后再写篇文章记录重拾 Vim 的经验。 本片文章适用于 Mac 用户。&lt;/p&gt;
-&lt;h3 id=&#34;hhkb-的键盘模式&#34;&gt;HHKB 的键盘模式&lt;/h3&gt;
-&lt;p&gt;HHKB 有 6 个 PID 开关可以切换模式，如果你是 Mac 用户只需要把 2，3 拨到 on 那边就可以了。&lt;/p&gt;
-&lt;p&gt;顺便说一下 HHKB 的 USB 插卡不能用来充电，可以用来插蓝牙鼠标的 USB 接收器。&lt;/p&gt;
-&lt;h3 id=&#34;使用感受&#34;&gt;使用感受&lt;/h3&gt;
-&lt;p&gt;键盘比机械键盘要轻，因为没有机械键盘的钢板了，声音也比我之前用的茶轴小，手感还可以。&lt;/p&gt;
-&lt;p&gt;再说说不习惯的地方：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;方向键是组合键，需要按 Fn 键 + 对应的按键。方向键可是我之前的重度按键，这点非常不习惯。&lt;/li&gt;
-&lt;li&gt;` 键从左边换到右边去了，非常容易按错。&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;caps lock&lt;/code&gt; 键位换成 &lt;code&gt;control&lt;/code&gt; 键了，这个要多练习才习惯。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;切换中英文输入法利器&#34;&gt;切换中英文输入法利器&lt;/h2&gt;
-&lt;p&gt;Mac 切换输入法是一个让人头疼的事情，想实现『只用搜狗输入法，通过 &lt;code&gt;Shift&lt;/code&gt; 切换中英文』的功能是一个非常麻烦的事情，默认的 ABC 输入法想删点也是非常麻烦的事情，有时候切换输入法都要反复按几次快捷键才能得到想要的。真羡慕纯字母语言国家的人，不用切换输入法。&lt;/p&gt;
-&lt;p&gt;以上让人头疼的问题，今天终于被我解决了，下载安装 &lt;a href=&#34;https://github.com/utatti/kawa&#34;&gt;utatti/kawa&lt;/a&gt;，可以给指定的输入法设置指定的快捷键，非常的便捷，我终于可以放心的安装多个输入法了。&lt;/p&gt;
-&lt;h2 id=&#34;cvim-常用命令&#34;&gt;cVim 常用命令&lt;/h2&gt;
-&lt;h3 id=&#34;移动相关&#34;&gt;移动相关&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;d&lt;/code&gt;: 向下滚动半页&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;e&lt;/code&gt;，&lt;code&gt;u&lt;/code&gt;: 向上滚动半页&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;G&lt;/code&gt;: 滚到最底&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;gg&lt;/code&gt;: 滚到最顶&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;j&lt;/code&gt;，&lt;code&gt;s&lt;/code&gt;: 向下滚动&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;k&lt;/code&gt;，&lt;code&gt;w&lt;/code&gt;: 向上滚动&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;gi&lt;/code&gt;: 转到第一个输入框&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;链接相关&#34;&gt;链接相关&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;f&lt;/code&gt;: 激活所有的超链接，然后输入相应的字母就会打开这个链接（相当于点击超链接）&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;F&lt;/code&gt;: 激活所有的超链接，然后输入相应的字母就会在新窗口打开这个链接（相当于使用鼠标滚轴点击超链接）&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;标签栏&#34;&gt;标签栏&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;gt&lt;/code&gt;，&lt;code&gt;K&lt;/code&gt;，&lt;code&gt;R&lt;/code&gt;：转到下一个选项卡&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;gT&lt;/code&gt;，&lt;code&gt;J&lt;/code&gt;，&lt;code&gt;E&lt;/code&gt;：转到上一个选项卡&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;g0&lt;/code&gt;: 跳到第一个选项卡&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;g$&lt;/code&gt;: 跳到最后一个选项卡&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;x&lt;/code&gt;: 关闭当前选项卡&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;X&lt;/code&gt;: 打开刚关闭的选项卡&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;H&lt;/code&gt;, &lt;code&gt;S&lt;/code&gt;: 退回&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;L&lt;/code&gt;, &lt;code&gt;D&lt;/code&gt;: 前进&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;&amp;gt;&lt;/code&gt;, &lt;code&gt;&amp;lt;&lt;/code&gt; : 前后移动标签位置&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;其他&#34;&gt;其他&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;r&lt;/code&gt;: 刷新&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;gR&lt;/code&gt;: 刷新 + 清空本地缓存&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;a&lt;/code&gt;: 新窗口打开 Google 搜索的结果&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;/&lt;/code&gt;: 搜索当前页面，相当于 &lt;code&gt;command&lt;/code&gt; + &lt;code&gt;f&lt;/code&gt;，然后按 &lt;code&gt;N&lt;/code&gt; 跳转到下一个结果，按 &lt;code&gt;n&lt;/code&gt; 跳转到上一个结果&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;I&lt;/code&gt;: 搜索历史记录&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;b&lt;/code&gt;: 搜索书签&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;P&lt;/code&gt;: 新窗口打开粘贴板搜索结果&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;跟-control-相关的一些快捷键&#34;&gt;跟 Control 相关的一些快捷键&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;Control + p&lt;/code&gt; shell中上一个命令,或者 文本中移动到上一行&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Control + n&lt;/code&gt; shell中下一个命令,或者 文本中移动到下一行&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Control + r&lt;/code&gt; 往后搜索历史命令&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Control + s&lt;/code&gt; 往前搜索历史命令&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Control + f&lt;/code&gt; 光标前移&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Control + b&lt;/code&gt; 光标后退&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Control + a&lt;/code&gt; 到行首&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Control + e&lt;/code&gt; 到行尾&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Control + d&lt;/code&gt; 删除一个字符,删除一个字符，相当于通常的 Delete 键&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Control + h&lt;/code&gt; 退格删除一个字符,相当于通常的 Backspace 键&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Control + u&lt;/code&gt; 删除到行首&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Control + k&lt;/code&gt; 删除到行尾&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Control + l&lt;/code&gt; 类似 clear 命令效果&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Control + y&lt;/code&gt; 粘贴&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;最后&#34;&gt;最后&lt;/h2&gt;
-&lt;p&gt;使用 HHKB 的第一个星期可以说是非常的痛苦😖，特别是方向键的使用上，一度让我有放弃的念头天。&lt;/p&gt;
-&lt;p&gt;一个星期之后有所改善，而且我发现我用方向键的频率也没以前那么高了。现在就开始苦练 Vim 和疯狂记快捷键中。&lt;/p&gt;</description>
       
     </item>
     
