@@ -30,6 +30,7 @@ url: /friendship-links/
 - [完美的胖达](https://wmdpd.com/)
 - [刘悦的技术博客](https://v3u.cn/)
 - [见字如面](https://hiwannz.com/)
+- [DHTalk's Blog](https://zhangdinghao.cn/)
 
 ## 链接
 
