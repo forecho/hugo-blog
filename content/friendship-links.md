@@ -64,16 +64,12 @@ url: /friendship-links/
 - [晚晴幽草轩](https://www.jeffjade.com/)
 - [掘墓人的小铲子](https://juemuren4449.com)
 - [Henry Z's blog](https://changchen.me/)
+- [IOIOX](https://www.ioiox.com/)
 
 ## 待考察
 
 通常都是刚开始写博客没多久……
 
-- [yukong's blog](http://www.yukonga.cn/)
-- [IOIOX](https://www.ioiox.com/)
-- [Dictator's BLOG](https://www.yangchong.top/)
-- [Jokerの狗窝](http://hello.xjqxz.top/)
-- [ifree 的独立博客](https://lvhj.github.io/)
-
+- 
 
 期待你的加入……
