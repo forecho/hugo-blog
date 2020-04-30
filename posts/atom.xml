@@ -6,10 +6,25 @@
     <description>Recent content in Posts on forecho&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 08 Apr 2020 20:00:06 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 27 Apr 2020 18:40:58 +0800</lastBuildDate>
     
 	<atom:link href="https://blog.forecho.com/posts/atom.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>【深度阅读 第三季 01】舌尖上的寻路中国</title>
+      <link>https://blog.forecho.com/readeep-s03e01.html</link>
+      <pubDate>Mon, 27 Apr 2020 18:40:58 +0800</pubDate>
+      
+      <guid>https://blog.forecho.com/readeep-s03e01.html</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://img3.doubanio.com/view/subject/l/public/s29767895.jpg&#34; alt=&#34;《鱼翅与花椒》&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;一段话说明这本书主要讲什么&#34;&gt;一段话说明『这本书主要讲什么？』&lt;/h2&gt;
+&lt;p&gt;作者是扶霞·邓洛普，一个英国的美食爱好者（吃货），来中国研究中国美食以及饮食文化，里面有提及川菜、湘菜、扬州菜等。&lt;/p&gt;
+&lt;h2 id=&#34;这本书主要讲什么&#34;&gt;这本书主要讲什么？&lt;/h2&gt;
+&lt;h3 id=&#34;一切从一个皮蛋开始&#34;&gt;一切从一个皮蛋开始&lt;/h3&gt;
+&lt;p&gt;1992年秋天的时候，因为扶霞做了一份亚太地区新闻报道助理编辑的工作，读了几份关于中国的新闻和资料，对中国产生的兴趣，然后打算去看看，正好香港有一些朋友，所以第一站就去了香港。&lt;/p&gt;
+&lt;p&gt;然后他表哥点了一份皮蛋，皮蛋这东西咱们中国人从小就接触，没觉得有什么不对的地方，但是扶霞面对一盘被切成两半黑黝黝的皮蛋，觉得有点恶臭甚至有点恶心。这就是她对中国菜的第一印象。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>来，一起搞点副业💰💰</title>
@@ -257,17 +272,6 @@
 &lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
 &lt;p&gt;经常看我博客的朋友可能知道我在去年春节之前租了一个 Switch 回家玩了，为此我还特意写了一篇文章 &lt;a href=&#34;https://blog.forecho.com/rent-a-switch-to-play.html&#34;&gt;《租 Switch 玩》&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;半个月前在兔子的『要求』下我最终还是买了一台 Switch，这篇文章就讲讲购买经验，以及继续分享玩过的三个游戏体验。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>重学 Vim</title>
-      <link>https://blog.forecho.com/re-study-vim.html</link>
-      <pubDate>Tue, 08 Oct 2019 22:48:00 +0800</pubDate>
-      
-      <guid>https://blog.forecho.com/re-study-vim.html</guid>
-      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
-&lt;p&gt;2013 年的时候我才开始接触 Vim，简单学了一下，也没用起来，后来只记得普通模式以及怎么进入插入模式，然后就是保存退出这几个命令了。&lt;/p&gt;
-&lt;p&gt;直到最近买了一个 HHKB 键盘以及发现使用 Vim 编码效率要高很多，所以我决定重拾 Vim，为了加强自己的记忆，于是我就整理了这篇文章。&lt;/p&gt;</description>
     </item>
     
   </channel>
