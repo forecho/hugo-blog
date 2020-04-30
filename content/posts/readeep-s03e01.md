@@ -6,7 +6,7 @@ draft: false
 toc: true
 ---
 
-![《鱼翅与花椒》](https://i.loli.net/2020/04/30/zmSGF2k5JqKjuZ7.jpg)
+![《鱼翅与花椒》](https://i.loli.net/2020/04/30/MdOhyE6eqjQ3sWu.png)
 
 ## 一段话说明『这本书主要讲什么？』
 
