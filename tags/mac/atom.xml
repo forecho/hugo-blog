@@ -6,10 +6,22 @@
     <description>Recent content in mac on forecho&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 26 Dec 2019 21:48:00 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 12 May 2020 22:16:26 +0800</lastBuildDate>
     
 	<atom:link href="https://blog.forecho.com/tags/mac/atom.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Mac 维修记</title>
+      <link>https://blog.forecho.com/mac-repair-notes.html</link>
+      <pubDate>Tue, 12 May 2020 22:16:26 +0800</pubDate>
+      
+      <guid>https://blog.forecho.com/mac-repair-notes.html</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;不知道是不是前一阵子在家干活（Coding）太猛了还是怎么着，有一天突然发现我的 Macbook Pro 盖子盖不严了，特别是刚使用完一阵子电脑还处于比较热的时候，如下图：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/IMG_4057.JPG&#34; alt=&#34;IMG_4057&#34;&gt;&lt;/p&gt;
+&lt;p&gt;对于使用多年 Mac 电脑的我来说，一看就知道是电池鼓包了。但是以往都是用了好几年（应该有大于3年）才这样，没想到这次我电脑还没到2年就这样了。简单了查了一些资料之后我决定去找 Apple 售后。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Mac 利器 Hammerspoon 使用指南</title>

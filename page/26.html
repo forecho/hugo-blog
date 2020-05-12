@@ -81,6 +81,42 @@
                     
                     <div>
     <h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-2xl lg:text-3xl">
+        <a href="https://blog.forecho.com/jquery-ajax-this-de-wen-ti.html" title="jQuery Ajax this的问题">jQuery Ajax this的问题</a>
+    </h1>
+    <p class="mb-1 text-sm text-gray-500">
+        <span title=" 2013-06-05 10:31:00 &#43;0800">
+            <i class="iconfont icon-calendar" aria-hidden="true"></i> 05 Jun 2013
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-book"></i>
+            244 字
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-clock-o"></i>
+            1 分钟读完
+        </span>
+    </p>
+</div>
+
+                    
+                    <div class="post-content">
+                        写了一个鼠标点击按钮Ajax效果，代码如下： &lt;script type=&quot;text/javascript&quot;&gt; //报名参加活动 $('.right a').bind('click',function(){ var id = $(this).next('.d_n').text(); $.ajax({ url:&quot;&lt;?php echo Yii::app()-&gt;createUrl('/ajax/AjaxJoinActivity/') ?&gt;&quot;, type:'POST', data:'id='+id, success:function(msg){ $(this).html(msg); } }); }) &lt;/script&gt; 但是这样写会有个问题，就是$(this
+                    </div>
+                    <p class="text-sm font-semibold pt-5 text-gray-700 ">
+                        <a href="https://blog.forecho.com/jquery-ajax-this-de-wen-ti.html" class="px-5 py-2 inline-block bg-gray-200 rounded  hover:bg-gray-300">阅读全文</a>
+                    </p>
+                </article>
+
+                <hr class="bg-gray-300 mt-10 mb-6">
+            
+                <article >
+                    
+                    <div>
+    <h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-2xl lg:text-3xl">
         <a href="https://blog.forecho.com/yii-kuang-jia-from-biao-dan-yan-zheng.html" title="Yii框架From表单验证">Yii框架From表单验证</a>
     </h1>
     <p class="mb-1 text-sm text-gray-500">
@@ -401,42 +437,6 @@
 
                 <hr class="bg-gray-300 mt-10 mb-6">
             
-                <article >
-                    
-                    <div>
-    <h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-2xl lg:text-3xl">
-        <a href="https://blog.forecho.com/mac-os-shang-an-zhuang-mysqldb-yi-xi-lie-wen-ti.html" title="Mac OS 上安装MySQLdb一系列问题">Mac OS 上安装MySQLdb一系列问题</a>
-    </h1>
-    <p class="mb-1 text-sm text-gray-500">
-        <span title=" 2013-04-24 23:12:00 &#43;0800">
-            <i class="iconfont icon-calendar" aria-hidden="true"></i> 24 Apr 2013
-        </span>
-
-        <span class="hidden xl:inline-block">
-            |
-            <i class="iconfont icon-book"></i>
-            546 字
-        </span>
-
-        <span class="hidden xl:inline-block">
-            |
-            <i class="iconfont icon-clock-o"></i>
-            2 分钟读完
-        </span>
-    </p>
-</div>
-
-                    
-                    <div class="post-content">
-                        话说装这个插件非常麻烦。 首先你得先装MySQL。先去下载64 位的MySQL，然后安装。步骤你可以参照这篇文章~ 其实他写的已经很详细了，但是我
-                    </div>
-                    <p class="text-sm font-semibold pt-5 text-gray-700 ">
-                        <a href="https://blog.forecho.com/mac-os-shang-an-zhuang-mysqldb-yi-xi-lie-wen-ti.html" class="px-5 py-2 inline-block bg-gray-200 rounded  hover:bg-gray-300">阅读全文</a>
-                    </p>
-                </article>
-
-                <hr class="bg-gray-300 mt-10 mb-6">
-            
             <p class="text-center">
                 <a  class="md:text-xl text-gray-700" href="/posts.html">↑ 文章归档 ↑</a>
             </p>
@@ -457,7 +457,7 @@
             <div class="flex-1 border-r border-gray-600">
                 <p class="text-center">
                     <span class="text-gray-700 font-bold">
-                        338
+                        339
                     </span>
                     文章
                 </p>

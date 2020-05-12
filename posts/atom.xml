@@ -6,10 +6,22 @@
     <description>Recent content in Posts on forecho&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 30 Apr 2020 18:59:44 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 12 May 2020 22:16:26 +0800</lastBuildDate>
     
 	<atom:link href="https://blog.forecho.com/posts/atom.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Mac 维修记</title>
+      <link>https://blog.forecho.com/mac-repair-notes.html</link>
+      <pubDate>Tue, 12 May 2020 22:16:26 +0800</pubDate>
+      
+      <guid>https://blog.forecho.com/mac-repair-notes.html</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;不知道是不是前一阵子在家干活（Coding）太猛了还是怎么着，有一天突然发现我的 Macbook Pro 盖子盖不严了，特别是刚使用完一阵子电脑还处于比较热的时候，如下图：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/IMG_4057.JPG&#34; alt=&#34;IMG_4057&#34;&gt;&lt;/p&gt;
+&lt;p&gt;对于使用多年 Mac 电脑的我来说，一看就知道是电池鼓包了。但是以往都是用了好几年（应该有大于3年）才这样，没想到这次我电脑还没到2年就这样了。简单了查了一些资料之后我决定去找 Apple 售后。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>在家办公的这两个月</title>
@@ -263,17 +275,6 @@
       <description>&lt;p&gt;&lt;a href=&#34;https://book.douban.com/subject/30218972/&#34;&gt;&lt;img src=&#34;https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/1zkQDk.png&#34; alt=&#34;《陈志武金融通识课》&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;一段话说明这本书主要讲什么&#34;&gt;一段话说明『这本书主要讲什么？』&lt;/h2&gt;
 &lt;p&gt;作者避免抽象的理论和数学模型，使用通俗易懂的方式讲解金融的逻辑。包括使用金融的视角去理解历史、分析文化的起源。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>在网上配眼镜是一种什么体验</title>
-      <link>https://blog.forecho.com/talk-about-the-experience-of-online-glasses.html</link>
-      <pubDate>Thu, 31 Oct 2019 22:48:00 +0800</pubDate>
-      
-      <guid>https://blog.forecho.com/talk-about-the-experience-of-online-glasses.html</guid>
-      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
-&lt;p&gt;先说说自己近视的情况。14 年的时候线下配的眼镜，直接在美团上搜索了一家店铺，有优惠就跑去了。一个比较小的眼镜店，自己的眼睛近视不深，那个时候一只眼 100 度，另一只眼睛 150 度。当时配眼镜花了半个多小时就搞定了，最后花了 200 块钱左右。而平常我只是在上班和看电视的时候才带。&lt;/p&gt;
-&lt;p&gt;没想到这眼镜一戴就是 4 年，去年的时候我发现这眼镜越来越不清晰了，感觉自己视力下降了，然后年初的时候考虑换一副眼镜。之前在网上看到有人说在网上配眼镜很划算，再加上自己在大众上看了一圈配眼镜店没找到合适的，于是想体验一把网上配眼镜。&lt;/p&gt;</description>
     </item>
     
   </channel>
