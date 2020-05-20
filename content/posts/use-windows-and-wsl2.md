@@ -153,3 +153,8 @@ Github Issues 链接 <https://github.com/microsoft/WSL/issues/4210>
 微软最近这几年确实改变了很多，Windows 现在也好用多了，但是 Mac 也越来越生态化，特别是当你有一台手机和一台 Mac 电脑的时候，Mac 的[接力](https://support.apple.com/zh-cn/guide/mac-help/mchl732d3c0a/mac)让你用了就离不开了。手机和电脑粘贴板同步功能体验非常棒。
 
 总的来说 Mac 对我来说是必备的，但是 Windows 是备胎，Windows 比较软件特别丰富（我每年抢票的软件只能在 Windows 里面运行），而且还可以玩游戏，最主要的主机便宜。
+
+## 参考链接
+
+- [将WSL2作为生产力工具](https://dmego.me/2019/12/21/make-wsl2-as-a-productivity-tool/)
+- [在 Windows 上用 WSL 优雅开发](https://github.com/spencerwooo/dowww)
