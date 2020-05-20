@@ -2,7 +2,7 @@
 title: "使用 Windows WSL2"
 date: 2020-05-15T20:20:26+08:00
 tags: ["经验分享", '编程'] 
-draft: true
+draft: false
 toc: true
 ---
 
@@ -14,6 +14,8 @@ toc: true
 
 - 如何安装 WSL2 
 - 把 WSL2 作为开发环境遇到的一些坑
+
+<!--more-->
 
 ## 准备工作
 
@@ -120,6 +122,34 @@ ip addr show eth0 | grep 'inet ' | cut -f 6 -d ' ' | cut -f 1 -d '/'
 
 Github Issues 链接 <https://github.com/microsoft/WSL/issues/4210>
 
-目前解决办法就是手动获取 IP，每次重启手动改 host
+目前解决办法就是手动获取 IP，每次重启手动改 host。因为我很少重启电脑，所以手动还不算麻烦，如果经常操作的话，建议使用脚本。去上面的 Issues 链接找找或者看我在 V2EX 发的贴子 - [《Windows10 本地只能通过 localhost 访问 WSL2 容器？》](https://www.v2ex.com/t/671206#reply37)。
+
+### 端口冲突问题
+
+之前我习惯用 host 泛解析工具，Windows 下面有 [Acrylic](https://mayakron.altervista.org/support/acrylic/Home.htm) ，但是当时安装完配置好环境，重启之后发现 WSL2 不能启动了，查了一下发现 [WSL2 和 Acrylic 53 端口冲突](https://github.com/valeryan/valet-wsl/issues/14)了，所以目前是放弃使用 Acrylic 了。
+
+
+### 快捷键问题
+
+用习惯了 Mac 的快捷键就不习惯 Windows 快捷键方式了，Windows 快捷键用了两天复制粘贴按着小拇指疼，然后我就找方案。找了好几个最后找到了 [AutoHotkey ](https://www.autohotkey.com/) 这个工具，通过写代码的方式改键，可玩性非常高，配合这个人写的代码 [Elethom/ahk-mackeys](https://github.com/Elethom/ahk-mackeys) 能满足大部分需求了。
+
+
+## 软件推荐
+
+### [Ditto](https://ditto-cp.sourceforge.io/)
+
+免费好用剪贴板软件
+
+### [Listary](https://www.listary.com/)
+
+可以理解为 Windows 下面的 Alfred
+
+### Windows Terminal
+
+微软出品的终端，前面已经提到过。
 
 ## 最后
+
+微软最近这几年确实改变了很多，Windows 现在也好用多了，但是 Mac 也越来越生态化，特别是当你有一台手机和一台 Mac 电脑的时候，Mac 的[接力](https://support.apple.com/zh-cn/guide/mac-help/mchl732d3c0a/mac)让你用了就离不开了。手机和电脑粘贴板同步功能体验非常棒。
+
+总的来说 Mac 对我来说是必备的，但是 Windows 是备胎，Windows 比较软件特别丰富（我每年抢票的软件只能在 Windows 里面运行），而且还可以玩游戏，最主要的主机便宜。
