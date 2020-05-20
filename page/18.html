@@ -81,6 +81,53 @@
                     
                     <div>
     <h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-2xl lg:text-3xl">
+        <a href="https://blog.forecho.com/yii2-use-restful.html" title="Yii2 如何实现 RESTful？">Yii2 如何实现 RESTful？</a>
+    </h1>
+    <p class="mb-1 text-sm text-gray-500">
+        <span title=" 2015-03-22 20:25:00 &#43;0800">
+            <i class="iconfont icon-calendar" aria-hidden="true"></i> 22 Mar 2015
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-book"></i>
+            619 字
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-clock-o"></i>
+            2 分钟读完
+        </span>
+    </p>
+</div>
+
+                    
+                    <div class="post-content">
+                        <h2 id="什么是rest">什么是REST</h2>
+<p>简单的说，REST 指的是一组架构约束条件和原则。满足这些约束条件和原则的应用程序或设计就是 RESTful。</p>
+<h2 id="为什么要restful">为什么要Restful？</h2>
+<p>主要遵循两个准则：</p>
+<ul>
+<li>不要为了RESTful而RESTful</li>
+<li>在能表达清楚的情况下，简单就是美</li>
+</ul>
+<h2 id="yii2-使用-restful">Yii2 使用 RESTful？</h2>
+<p>其实 Yii2 框架本身就对 RESTful 是友好支持的，具体可以看<a href="http://www.yiiframework.com/doc-2.0/guide-rest-quick-start.html">官方文档</a>，或者去看源码，都是可以的。</p>
+<p><strong>下面分享我写的<a href="https://github.com/iiYii/yii2-rest-demo">Yii2 RESTful DEMO</a>。</strong></p>
+<p>具体实现可以看我的代码，有不懂的可以留言。下面我重点说一下值得注意的地方：</p>
+                    </div>
+                    <p class="text-sm font-semibold pt-5 text-gray-700 ">
+                        <a href="https://blog.forecho.com/yii2-use-restful.html" class="px-5 py-2 inline-block bg-gray-200 rounded  hover:bg-gray-300">阅读全文</a>
+                    </p>
+                </article>
+
+                <hr class="bg-gray-300 mt-10 mb-6">
+            
+                <article >
+                    
+                    <div>
+    <h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-2xl lg:text-3xl">
         <a href="https://blog.forecho.com/2014-summary.html" title="2014年终总结">2014年终总结</a>
     </h1>
     <p class="mb-1 text-sm text-gray-500">
@@ -645,81 +692,6 @@ $this-&gt;User-&gt;read(null, $id);
 
                 <hr class="bg-gray-300 mt-10 mb-6">
             
-                <article >
-                    
-                    <div>
-    <h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-2xl lg:text-3xl">
-        <a href="https://blog.forecho.com/php-cai-jian-shu-zu.html" title="PHP 裁剪数组">PHP 裁剪数组</a>
-    </h1>
-    <p class="mb-1 text-sm text-gray-500">
-        <span title=" 2014-09-05 22:05:00 &#43;0800">
-            <i class="iconfont icon-calendar" aria-hidden="true"></i> 05 Sep 2014
-        </span>
-
-        <span class="hidden xl:inline-block">
-            |
-            <i class="iconfont icon-book"></i>
-            202 字
-        </span>
-
-        <span class="hidden xl:inline-block">
-            |
-            <i class="iconfont icon-clock-o"></i>
-            1 分钟读完
-        </span>
-    </p>
-</div>
-
-                    
-                    <div class="post-content">
-                        <ul>
-<li>用 array_splice 可以裁剪，原来的数组会被改变，键值会重组</li>
-<li>用 array_slice ，原来的数组不会改变，键值可以不用重组</li>
-</ul>
-<p>示例：</p>
-<div class="highlight"><div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
-<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-php" data-lang="php">echo &#39;&lt;<span style="color:#309;font-weight:bold">pre</span>&gt;&#39;;
-$arrayRaw = array(&#39;2&#39; =&gt; &#39;c&#39;,&#39;3&#39; =&gt; &#39;d&#39;, &#39;4&#39; =&gt; &#39;e&#39;, &#39;5&#39; =&gt; &#39;f&#39;);
-echo &#34;0&#34;, PHP_EOL;
-print_r(array_splice($arrayRaw, 2));
-echo &#34;1&#34;, PHP_EOL;
-print_r($arrayRaw);
-
-$arrayRaw = array(&#39;2&#39; =&gt; &#39;c&#39;,&#39;3&#39; =&gt; &#39;d&#39;, &#39;4&#39; =&gt; &#39;e&#39;, &#39;5&#39; =&gt; &#39;f&#39;);
-array_slice($arrayRaw, 0, 2, true);
-echo &#34;2&#34;, PHP_EOL;
-print_r(array_slice($arrayRaw, 0, 2, true));
-echo &#34;3&#34;, PHP_EOL;
-print_r($arrayRaw);
-echo &#39;&lt;/<span style="color:#309;font-weight:bold">pre</span>&gt;&#39;;
-</code></pre></td></tr></table>
-</div>
-</div>
-                    </div>
-                    <p class="text-sm font-semibold pt-5 text-gray-700 ">
-                        <a href="https://blog.forecho.com/php-cai-jian-shu-zu.html" class="px-5 py-2 inline-block bg-gray-200 rounded  hover:bg-gray-300">阅读全文</a>
-                    </p>
-                </article>
-
-                <hr class="bg-gray-300 mt-10 mb-6">
-            
             <p class="text-center">
                 <a  class="md:text-xl text-gray-700" href="/posts.html">↑ 文章归档 ↑</a>
             </p>
@@ -740,7 +712,7 @@ echo &#39;&lt;/<span style="color:#309;font-weight:bold">pre</span>&gt;&#39;;
             <div class="flex-1 border-r border-gray-600">
                 <p class="text-center">
                     <span class="text-gray-700 font-bold">
-                        339
+                        340
                     </span>
                     文章
                 </p>

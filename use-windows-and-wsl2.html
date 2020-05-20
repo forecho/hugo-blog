@@ -11,27 +11,36 @@
     <meta name="generator" content="Saber v0.11.2">
     <meta name="author" content="forecho" />
     <meta name="keywords" content="yii2, yii, php develop, php, ios, ruby, python, swift, web development" />
-    <meta name="og:site_name" content="forecho&#39;s Blog" /><meta property="og:title" content="手把手教你不依赖任何环境使用 Hexo - forecho&#39;s Blog" />
+    <meta name="og:site_name" content="forecho&#39;s Blog" /><meta property="og:title" content="使用 Windows WSL2 - forecho&#39;s Blog" />
     <meta property="og:type" content="article" />
-    <meta property="title" content="手把手教你不依赖任何环境使用 Hexo - forecho&#39;s Blog">
-    <meta property="og:title" content="手把手教你不依赖任何环境使用 Hexo - forecho&#39;s Blog">
-    <meta property="twitter:title" content="手把手教你不依赖任何环境使用 Hexo - forecho&#39;s Blog">
+    <meta property="title" content="使用 Windows WSL2 - forecho&#39;s Blog">
+    <meta property="og:title" content="使用 Windows WSL2 - forecho&#39;s Blog">
+    <meta property="twitter:title" content="使用 Windows WSL2 - forecho&#39;s Blog">
     <meta property="description" content="引言
-今天心血来潮，想搭建一个 3li3 的博客，准备以博客的形式记录产品的成长。类似的博客有：SelfStore 博客。
-感觉 Hexo 的博客插件比较多，于是这次想试试。因为很早以前就搭建过一次，这次以为分分钟搞定，但实际上还是花了我不少时间，为了以后不再重复踩坑，我决定记录下整个过程。
-我们先看一下成果 3li3博客，然后我再来分享我的经验。">
-    <meta property="og:description" content="引言
-今天心血来潮，想搭建一个 3li3 的博客，准备以博客的形式记录产品的成长。类似的博客有：SelfStore 博客。
-感觉 Hexo 的博客插件比较多，于是这次想试试。因为很早以前就搭建过一次，这次以为分分钟搞定，但实际上还是花了我不少时间，为了以后不再重复踩坑，我决定记录下整个过程。
-我们先看一下成果 3li3博客，然后我再来分享我的经验。">
-    <meta property="twitter:description" content="引言
-今天心血来潮，想搭建一个 3li3 的博客，准备以博客的形式记录产品的成长。类似的博客有：SelfStore 博客。
-感觉 Hexo 的博客插件比较多，于是这次想试试。因为很早以前就搭建过一次，这次以为分分钟搞定，但实际上还是花了我不少时间，为了以后不再重复踩坑，我决定记录下整个过程。
-我们先看一下成果 3li3博客，然后我再来分享我的经验。">
-    <meta property="og:type" content="article">
-    <title>手把手教你不依赖任何环境使用 Hexo - forecho&#39;s Blog</title>
+上次我的 Mac 拿去修了，换电池没那么快拿到设备，于是我又把抽屉里的公司电脑拿出来办公了，公司发的是电脑是 ThinkPad T480 笔记本，应该是定制版，没独立显卡，屏幕渣。之前安装的是 Ubuntu，感觉拿来做开发还行，除了偶尔卡住了（16G 都能卡，不知道什么问题）。另外一个最大的问题就是 Ubuntu 软件生态太少了，我比较依赖印象笔记，没有 Ubuntu 版，网页版不好用。
+早就听说 Windows 现在能把 Ubuntu 当成子系统了，去查了一下资料，发现现在是 WSL2 了，虽然还在测试阶段，但是我想试一下。说了这么多本篇文章就打算分享以下两个主题：
 
-    <meta property="og:url" content="https://blog.forecho.com/easy-use-hexo.html" />
+如何安装 WSL2
+把 WSL2 作为开发环境遇到的一些坑
+">
+    <meta property="og:description" content="引言
+上次我的 Mac 拿去修了，换电池没那么快拿到设备，于是我又把抽屉里的公司电脑拿出来办公了，公司发的是电脑是 ThinkPad T480 笔记本，应该是定制版，没独立显卡，屏幕渣。之前安装的是 Ubuntu，感觉拿来做开发还行，除了偶尔卡住了（16G 都能卡，不知道什么问题）。另外一个最大的问题就是 Ubuntu 软件生态太少了，我比较依赖印象笔记，没有 Ubuntu 版，网页版不好用。
+早就听说 Windows 现在能把 Ubuntu 当成子系统了，去查了一下资料，发现现在是 WSL2 了，虽然还在测试阶段，但是我想试一下。说了这么多本篇文章就打算分享以下两个主题：
+
+如何安装 WSL2
+把 WSL2 作为开发环境遇到的一些坑
+">
+    <meta property="twitter:description" content="引言
+上次我的 Mac 拿去修了，换电池没那么快拿到设备，于是我又把抽屉里的公司电脑拿出来办公了，公司发的是电脑是 ThinkPad T480 笔记本，应该是定制版，没独立显卡，屏幕渣。之前安装的是 Ubuntu，感觉拿来做开发还行，除了偶尔卡住了（16G 都能卡，不知道什么问题）。另外一个最大的问题就是 Ubuntu 软件生态太少了，我比较依赖印象笔记，没有 Ubuntu 版，网页版不好用。
+早就听说 Windows 现在能把 Ubuntu 当成子系统了，去查了一下资料，发现现在是 WSL2 了，虽然还在测试阶段，但是我想试一下。说了这么多本篇文章就打算分享以下两个主题：
+
+如何安装 WSL2
+把 WSL2 作为开发环境遇到的一些坑
+">
+    <meta property="og:type" content="article">
+    <title>使用 Windows WSL2 - forecho&#39;s Blog</title>
+
+    <meta property="og:url" content="https://blog.forecho.com/use-windows-and-wsl2.html" />
 
     
     <meta property="og:image" content="https://avatars0.githubusercontent.com/u/1725326?s=460&amp;v=4">
@@ -91,23 +100,23 @@
         
         <div>
     <h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-2xl lg:text-3xl">
-        <a href="https://blog.forecho.com/easy-use-hexo.html" title="手把手教你不依赖任何环境使用 Hexo">手把手教你不依赖任何环境使用 Hexo</a>
+        <a href="https://blog.forecho.com/use-windows-and-wsl2.html" title="使用 Windows WSL2">使用 Windows WSL2</a>
     </h1>
     <p class="mb-1 text-sm text-gray-500">
-        <span title=" 2016-10-27 20:58:00 &#43;0800">
-            <i class="iconfont icon-calendar" aria-hidden="true"></i> 27 Oct 2016
+        <span title=" 2020-05-15 20:20:26 &#43;0800">
+            <i class="iconfont icon-calendar" aria-hidden="true"></i> 15 May 2020
         </span>
 
         <span class="hidden xl:inline-block">
             |
             <i class="iconfont icon-book"></i>
-            1399 字
+            1564 字
         </span>
 
         <span class="hidden xl:inline-block">
             |
             <i class="iconfont icon-clock-o"></i>
-            3 分钟读完
+            4 分钟读完
         </span>
     </p>
 </div>
@@ -120,11 +129,28 @@
         <nav id="TableOfContents">
   <ul>
     <li><a href="#引言">引言</a></li>
-    <li><a href="#安装-hexo">安装 Hexo</a></li>
-    <li><a href="#使用-travis-ci-工具自动部署-hexo">使用 Travis CI 工具自动部署 Hexo</a></li>
-    <li><a href="#添加域名解析">添加域名解析</a></li>
-    <li><a href="#更换主题">更换主题</a></li>
-    <li><a href="#总结">总结</a></li>
+    <li><a href="#准备工作">准备工作</a></li>
+    <li><a href="#安装-wsl2">安装 WSL2</a></li>
+    <li><a href="#其他配置">其他配置</a>
+      <ul>
+        <li><a href="#ide-支持">IDE 支持</a></li>
+      </ul>
+    </li>
+    <li><a href="#遇到的坑">遇到的坑</a>
+      <ul>
+        <li><a href="#动态-ip">动态 IP</a></li>
+        <li><a href="#端口冲突问题">端口冲突问题</a></li>
+        <li><a href="#快捷键问题">快捷键问题</a></li>
+      </ul>
+    </li>
+    <li><a href="#软件推荐">软件推荐</a>
+      <ul>
+        <li><a href="#dittohttpsditto-cpsourceforgeio"><a href="https://ditto-cp.sourceforge.io/">Ditto</a></a></li>
+        <li><a href="#listaryhttpswwwlistarycom"><a href="https://www.listary.com/">Listary</a></a></li>
+        <li><a href="#windows-terminal">Windows Terminal</a></li>
+      </ul>
+    </li>
+    <li><a href="#最后">最后</a></li>
   </ul>
 </nav>
     </div>
@@ -133,49 +159,111 @@
 
         <div class="post-content">
             <h2 id="引言">引言</h2>
-<p>今天心血来潮，想搭建一个 <a href="http://3li3.com/">3li3</a> 的博客，准备以博客的形式记录产品的成长。类似的博客有：<a href="http://blog.selfstore.io/">SelfStore 博客</a>。</p>
-<p>感觉 Hexo 的博客插件比较多，于是这次想试试。因为很早以前就搭建过一次，这次以为分分钟搞定，但实际上还是花了我不少时间，为了以后不再重复踩坑，我决定记录下整个过程。</p>
-<p>我们先看一下成果<a href="http://blog.3li3.com/"> 3li3博客</a>，然后我再来分享我的经验。</p>
-<h2 id="安装-hexo">安装 Hexo</h2>
-<p><strong>方式一</strong></p>
-<p>根据 <a href="https://hexo.io/zh-cn/docs/">Hexo 官网</a>文档安装说明，你需要先安装 node 环境。
-由于我不是专业的前端，本地发环境没有 node，还好 hexo 文档有提供安装方法，而且<a href="https://hexo.io/zh-cn/docs/#%E5%AE%89%E8%A3%85-Node-js">安装方法</a>非常简单：</p>
+<p>上次我的 Mac 拿去修了，换电池没那么快拿到设备，于是我又把抽屉里的公司电脑拿出来办公了，公司发的是电脑是 ThinkPad T480 笔记本，应该是定制版，没独立显卡，屏幕渣。之前安装的是 Ubuntu，感觉拿来做开发还行，除了偶尔卡住了（16G 都能卡，不知道什么问题）。另外一个最大的问题就是 Ubuntu 软件生态太少了，我比较依赖印象笔记，没有 Ubuntu 版，网页版不好用。</p>
+<p>早就听说 Windows 现在能把 Ubuntu 当成子系统了，去查了一下资料，发现现在是 WSL2 了，虽然还在测试阶段，但是我想试一下。说了这么多本篇文章就打算分享以下两个主题：</p>
+<ul>
+<li>如何安装 WSL2</li>
+<li>把 WSL2 作为开发环境遇到的一些坑</li>
+</ul>
+<h2 id="准备工作">准备工作</h2>
+<ul>
+<li>至少是 Window10 专业版，家庭版不行。</li>
+<li>申请加入 <a href="https://insider.windows.com/zh-cn/">Windows Insider</a>，然后在「Windows 设置 &gt; 更新和安全 &gt; Windows 预览体验计划」处选择加入快或慢。</li>
+<li>在 「设置 &gt; Windows 更新」中升级系统，通过在 <code>cmd</code> 中输入 <code>ver</code> 来确认版本为 Windows 10 18917 或更高。</li>
+<li>以管理员身份运行 PowerShell 终端。</li>
+<li>执行以下命令：</li>
+</ul>
 <div class="highlight"><div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
 <pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-fallback" data-lang="fallback">wget -qO- https://raw.github.com/creationix/nvm/master/install.sh | sh
-nvm install stable
+<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-fallback" data-lang="fallback">dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 </code></pre></td></tr></table>
 </div>
-</div><p>然后<a href="https://hexo.io/zh-cn/docs/#%E5%AE%89%E8%A3%85-Hexo">安装 Hexo</a>:</p>
+</div><ul>
+<li>重启电脑完成安装。</li>
+<li>把 WSL2 设置默认 WSL 版本的命令：</li>
+</ul>
 <div class="highlight"><div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
 <pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-fallback" data-lang="fallback">$ npm install -g hexo-cli
+<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-fallback" data-lang="fallback">wsl --set-default-version 2
 </code></pre></td></tr></table>
 </div>
-</div><p>但是实际上我安装的时候，<code>nvm install stable</code> 命令卡半天也没反应，进度很慢。而且第一次我明明安装成功了，但是输入 npm 的时候任然提示：</p>
-<p><code>The program 'npm' is currently not installed. To run 'npm' please ask your administrator to install the package 'npm'</code></p>
-<p>输入 hexo 的时候也是遇到：<code>hexo: command not found</code></p>
-<p>我一脸懵逼，只能重新再安装一遍。每次看到一推输出 <code>npm WARN ...</code> 我也很慌，它是安装成功了吗？</p>
-<p>总结一下，就是搭建环境是巨耗费时间的，特别是你对它不是十分了解的时候，如果你敢时间的话，我们来换一种姿势安装看看。</p>
-<p><strong>方式二</strong></p>
-<p>直接下载我刚刚安装好的 <a href="https://github.com/WJTeam/hexo/archive/v0.1.zip">Hexo</a> 包，解压，然后我们就可以继续下一个步骤了。</p>
-<p>这个方式不需要你安装 node 环境，任何一台新电脑都能直接使用。当然也有一个缺点就是：本地不能预览，但是这功能我们需要吗？</p>
-<p>配合 <a href="https://travis-ci.org/">Travis CI</a> 实现自动发布，还要啥本地预览？？</p>
-<h2 id="使用-travis-ci-工具自动部署-hexo">使用 Travis CI 工具自动部署 Hexo</h2>
-<p>我安装完 Hexo 第二件事就是完成此功能，而且今天在这个功能上「浪费」了最多时间。</p>
-<p>其实 Google 搜索<a href="https://www.google.com.hk/search?q=%E9%85%8D%E7%BD%AEtravis%E6%9D%A5%E8%87%AA%E5%8A%A8%E5%8F%91%E5%B8%83hexo&amp;newwindow=1&amp;safe=strict&amp;biw=1920&amp;bih=974&amp;ei=yZYRWPazAoKR0gLkj6j4Bw&amp;start=0&amp;sa=N">「配置travis来自动发布hexo」</a> 结果一大把，但是我看了几篇都没找到想要的，我要的很简单 - 用最少的步骤完成此功能。</p>
-<p>下面我来简单分享一下我的步骤：</p>
-<p>1、去 Github 提供的 <a href="https://github.com/settings/tokens">Personal Access Token</a> 创建一个 Token，然后复制 Token 值，记录下来，后面会用到。</p>
-<p><img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424161626.png" alt=""></p>
-<p>2、在项目根目录下新建 <code>.travis.yml</code> 文件，代码如下：</p>
+</div><ul>
+<li>查看版本的命令：</li>
+</ul>
 <div class="highlight"><div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-fallback" data-lang="fallback">wsl -l -v
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="安装-wsl2">安装 WSL2</h2>
+<p>在 「Microsoft Store」中搜索 「wsl」，点击安装「Ubuntu 18.04 LTS」和「Windows Terminal」，安装完之后我们通过 「Windows Terminal」来登录 WSL2 中的 Ubuntu 系统。</p>
+<p>剩下的就是常规操作，换系统为国内源，安装 <code>ZSH</code> 和 <code>oh-my-zsh</code> 以及 Docker 等等。</p>
+<div class="highlight"><div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-fallback" data-lang="fallback">cp /etc/apt/sources.list /etc/apt/sourses.list.bak
+sudo vim /etc/apt/sources.list
+</code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-fallback" data-lang="fallback">deb http://mirrors.aliyun.com/ubuntu/ bionic main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ bionic-security main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ bionic-updates main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ bionic-proposed main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ bionic-backports main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ bionic main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ bionic-security main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ bionic-updates main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ bionic-proposed main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ bionic-backports main restricted universe multiverse
+</code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-fallback" data-lang="fallback">sudo apt-get update
+sudo apt-get upgade
+sudo apt-get install zsh
+# 修改默认的 Shell 为 zsh
+chsh -s /bin/zsh
+sh -c &#34;$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)&#34;
+</code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
 <pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
@@ -195,99 +283,68 @@ nvm install stable
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">24
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">25
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">26
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">27
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">28
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">29
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">30
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">31
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-fallback" data-lang="fallback">language: node_js
-node_js: stable
+<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-fallback" data-lang="fallback"># 安装软件包以允许 apt 通过 HTTPS 使用存储库
+sudo apt-get install \
+    apt-transport-https \
+    ca-certificates \
+    curl \
+    gnupg-agent \
+    software-properties-common
 
-# Travis-CI Caching
-cache:
-  directories:
-    - node_modules
+# 设置稳定的存储库
+sudo add-apt-repository \
+   &#34;deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+   $(lsb_release -cs) \
+   stable&#34;
 
-install:
-  - npm install  #安装hexo及插件
+sudo apt-get update
 
-script:
-  - hexo cl  #清除
-  - hexo g  #生成
-
-after_script:
-  - cd public
-  - git init
-  - git config user.name &#34;forecho&#34;
-  - git config user.email &#34;caizhenghai@gmail.com&#34;
-  - git add .
-  - git commit -m &#34;Auto deploy from Travis-CI.&#34;
-  - git push --force --quiet &#34;https://${GH_TOKEN}@github.com/${GH_REPO}.git&#34; master:gh-pages
-
-branches:
-  only:
-    - master
-
-env:
-  global:
-    - GH_REPO: 3li3/blog
+# 安装最新版本的 Docker 和 containerd
+sudo apt-get install docker-ce docker-ce-cli containerd.io
 </code></pre></td></tr></table>
 </div>
-</div><p>以上文件你需要修改4处：</p>
-<ul>
-<li><code>git config user.name</code></li>
-<li><code>git config user.email&quot; </code></li>
-<li><code>GH_REPO</code></li>
-</ul>
-<p>3、然后就去 GitHub 新建仓库、push 代码，操作 git 命令参考如下：</p>
-<div class="highlight"><div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
-<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-fallback" data-lang="fallback">git init
-git add .
-git commit -m &#34;first commit&#34;
-git remote add origin https://github.com/3li3/blog.git
-git push -u origin master
-</code></pre></td></tr></table>
-</div>
-</div><p>4、然后你要去 <a href="https://travis-ci.org/account/repositories">Travis CI</a>，手动开启此项目的监控（没有看到的话，点左边的  Sync account 按钮）。</p>
-<p>开启之后点击设置添加环境变量值，在 <code>Environment Variables</code> 处添加 <code>GH_TOKEN</code> 值为上面第一步生成的 token 值。</p>
-<p><img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424161645.png" alt=""></p>
-<p>至此配置完成，以后你写文章就是要去 <code>source/_posts/</code> 目录下，参照已有文件规则手动新建一个文件，就可以开始写博客了，写完再次 <code>git push</code> 就可以实现自动部署了。</p>
-<h2 id="添加域名解析">添加域名解析</h2>
-<p>这个很简单，首先你要在项目 <strong><code>source</code> 目录</strong>下创建一个 <code>CNAME</code> 文件，写入你要解析的域名就可以了，比方说：</p>
+</div><h2 id="其他配置">其他配置</h2>
+<h3 id="ide-支持">IDE 支持</h3>
+<p>VS Code 和 WSL2 配合的非常好，所以这个编辑器是必装软件。安装完之后你可以在 WSL2 Shell 里面执行 <code>code .</code> 打开此目录下的文件，首次会自动安装 <a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl">Remote - WSL</a> 扩展，非常方便。</p>
+<p>但是如果你使用的是 JetBrains 的 IDE，想使用 WSL2 的 Shell，可以在设置里面找到 「Tools &gt; Terminal &gt; Shell path」 修改为：</p>
 <div class="highlight"><div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
 <pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-fallback" data-lang="fallback">blog.3li3.com
+<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-fallback" data-lang="fallback">&#34;cmd.exe&#34; /k &#34;wsl.exe&#34;
 </code></pre></td></tr></table>
 </div>
-</div><p>然后你需要在域名管理中心，添加一个 cname 解析，记录值写 <code>3li3.github.io</code>，3li3 代表 GitHub 组织名或者用户名，如下</p>
-<p><img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424161658.png" alt=""></p>
-<h2 id="更换主题">更换主题</h2>
-<p>这个也遇到一个坑，首先我看到这篇文章 <a href="https://en.abnerchou.me/Blog/5c00ca67/">Hexo Top 10 Popular Themes</a>，然后找到了 <a href="http://theme-next.iissnan.com/">NexT</a> 主题，下载主题的时候一定要使用「下载稳定版本」的方式，不然你会遇到 git 子模块的坑。</p>
-<p>然后使用上面的配置会导致 Travis CI 不能自动部署 Hexo，除非你让配置支持子模块，哎，懒得折腾了，所以我用最简单的方式把主题重新安装整了一遍。</p>
-<p>关于主题的时候，文档已经很明确了，我就不多讲了。</p>
-<h2 id="总结">总结</h2>
-<p>为了以后方便，一定要<strong>使用 Travis CI 工具自动部署 Hexo</strong>。 最后大家可以去参考 <a href="https://github.com/3li3/blog">3li3/blog</a> 项目的源码。</p>
+</div><h2 id="遇到的坑">遇到的坑</h2>
+<h3 id="动态-ip">动态 IP</h3>
+<p>最新版的 WSL2 已经默认帮你绑定了 localhost 到 ubuntu 系统了，所以使用 localhost （可以加端口）访问 Ubuntu 里面的服务不会有任何问题。</p>
+<p>但是如果你想用使用自定义 nginx 的 server_name 就必须要在 Windows 里面配置 host，而对于的 <code>server_name</code> IP 并不是 <code>127.0.0.1</code> 而要在 WSL2 通过下面命令获取到对应的 IP 地址：</p>
+<div class="highlight"><div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-sh" data-lang="sh">ip addr show eth0 | grep <span style="color:#c30">&#39;inet &#39;</span> | cut -f <span style="color:#f60">6</span> -d <span style="color:#c30">&#39; &#39;</span> | cut -f <span style="color:#f60">1</span> -d <span style="color:#c30">&#39;/&#39;</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>Github Issues 链接 <a href="https://github.com/microsoft/WSL/issues/4210">https://github.com/microsoft/WSL/issues/4210</a></p>
+<p>目前解决办法就是手动获取 IP，每次重启手动改 host。因为我很少重启电脑，所以手动还不算麻烦，如果经常操作的话，建议使用脚本。去上面的 Issues 链接找找或者看我在 V2EX 发的贴子 - <a href="https://www.v2ex.com/t/671206#reply37">《Windows10 本地只能通过 localhost 访问 WSL2 容器？》</a>。</p>
+<h3 id="端口冲突问题">端口冲突问题</h3>
+<p>之前我习惯用 host 泛解析工具，Windows 下面有 <a href="https://mayakron.altervista.org/support/acrylic/Home.htm">Acrylic</a> ，但是当时安装完配置好环境，重启之后发现 WSL2 不能启动了，查了一下发现 <a href="https://github.com/valeryan/valet-wsl/issues/14">WSL2 和 Acrylic 53 端口冲突</a>了，所以目前是放弃使用 Acrylic 了。</p>
+<h3 id="快捷键问题">快捷键问题</h3>
+<p>用习惯了 Mac 的快捷键就不习惯 Windows 快捷键方式了，Windows 快捷键用了两天复制粘贴按着小拇指疼，然后我就找方案。找了好几个最后找到了 <a href="https://www.autohotkey.com/">AutoHotkey </a> 这个工具，通过写代码的方式改键，可玩性非常高，配合这个人写的代码 <a href="https://github.com/Elethom/ahk-mackeys">Elethom/ahk-mackeys</a> 能满足大部分需求了。</p>
+<h2 id="软件推荐">软件推荐</h2>
+<h3 id="dittohttpsditto-cpsourceforgeio"><a href="https://ditto-cp.sourceforge.io/">Ditto</a></h3>
+<p>免费好用剪贴板软件</p>
+<h3 id="listaryhttpswwwlistarycom"><a href="https://www.listary.com/">Listary</a></h3>
+<p>可以理解为 Windows 下面的 Alfred</p>
+<h3 id="windows-terminal">Windows Terminal</h3>
+<p>微软出品的终端，前面已经提到过。</p>
+<h2 id="最后">最后</h2>
+<p>微软最近这几年确实改变了很多，Windows 现在也好用多了，但是 Mac 也越来越生态化，特别是当你有一台手机和一台 Mac 电脑的时候，Mac 的<a href="https://support.apple.com/zh-cn/guide/mac-help/mchl732d3c0a/mac">接力</a>让你用了就离不开了。手机和电脑粘贴板同步功能体验非常棒。</p>
+<p>总的来说 Mac 对我来说是必备的，但是 Windows 是备胎，Windows 比较软件特别丰富（我每年抢票的软件只能在 Windows 里面运行），而且还可以玩游戏，最主要的主机便宜。</p>
 
             <hr class="bg-gray-300 mt-8">
 
@@ -325,7 +382,7 @@ git push -u origin master
             </li>
             <li style="word-break:break-all">
                 <strong>原文链接：</strong>
-                <a href="https://blog.forecho.com/easy-use-hexo.html">https://blog.forecho.com/easy-use-hexo.html</a>
+                <a href="https://blog.forecho.com/use-windows-and-wsl2.html">https://blog.forecho.com/use-windows-and-wsl2.html</a>
             </li>
             <li>
                 <strong>版权声明：</strong>本作品采用
@@ -344,6 +401,10 @@ git push -u origin master
                 <a class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 hover:bg-gray-300"
                     href="https://blog.forecho.com/tags/%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB.html">
                     #经验分享
+                </a>
+                <a class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 hover:bg-gray-300"
+                    href="https://blog.forecho.com/tags/%E7%BC%96%E7%A8%8B.html">
+                    #编程
                 </a>
                                     
             </div>
@@ -375,15 +436,15 @@ git push -u origin master
 <div class="p-8 mt-6 lg:mt-0 rounded shadow bg-white">
     <h2 class="font-sans font-bold break-normal text-gray-700 px-2 pb-3 text-xl">相关文章</h2>
     
-    <li><a href="/talk-about-ues-kindle-to-read.html" class="underline text-orange-600">谈谈使用 Kindle 阅读</a></li>
+    <li><a href="/use-graylog.html" class="underline text-orange-600">使用 Graylog 收集日志</a></li>
     
-    <li><a href="/talk-about-vps-backup.html" class="underline text-orange-600">谈谈 VPS 的备份方案</a></li>
+    <li><a href="/mac-repair-notes.html" class="underline text-orange-600">Mac 维修记</a></li>
     
-    <li><a href="/how-to-interview-a-person.html" class="underline text-orange-600">如何面试一个人</a></li>
+    <li><a href="/talk-about-the-experience-of-online-glasses.html" class="underline text-orange-600">在网上配眼镜是一种什么体验</a></li>
     
-    <li><a href="/talk-about-things-driving-test.html" class="underline text-orange-600">谈谈考驾照的事情</a></li>
+    <li><a href="/how-does-getyii-prevent-spam.html" class="underline text-orange-600">GetYii 是如何防止垃圾内容</a></li>
     
-    <li><a href="/weizhou-island-trip.html" class="underline text-orange-600">第六站：涠洲岛之旅</a></li>
+    <li><a href="/bose-qc30-vs-airpods.html" class="underline text-orange-600">Bose QC30 VS AirPods</a></li>
     
 </div>
 
@@ -513,11 +574,28 @@ git push -u origin master
         <nav id="TableOfContents">
   <ul>
     <li><a href="#引言">引言</a></li>
-    <li><a href="#安装-hexo">安装 Hexo</a></li>
-    <li><a href="#使用-travis-ci-工具自动部署-hexo">使用 Travis CI 工具自动部署 Hexo</a></li>
-    <li><a href="#添加域名解析">添加域名解析</a></li>
-    <li><a href="#更换主题">更换主题</a></li>
-    <li><a href="#总结">总结</a></li>
+    <li><a href="#准备工作">准备工作</a></li>
+    <li><a href="#安装-wsl2">安装 WSL2</a></li>
+    <li><a href="#其他配置">其他配置</a>
+      <ul>
+        <li><a href="#ide-支持">IDE 支持</a></li>
+      </ul>
+    </li>
+    <li><a href="#遇到的坑">遇到的坑</a>
+      <ul>
+        <li><a href="#动态-ip">动态 IP</a></li>
+        <li><a href="#端口冲突问题">端口冲突问题</a></li>
+        <li><a href="#快捷键问题">快捷键问题</a></li>
+      </ul>
+    </li>
+    <li><a href="#软件推荐">软件推荐</a>
+      <ul>
+        <li><a href="#dittohttpsditto-cpsourceforgeio"><a href="https://ditto-cp.sourceforge.io/">Ditto</a></a></li>
+        <li><a href="#listaryhttpswwwlistarycom"><a href="https://www.listary.com/">Listary</a></a></li>
+        <li><a href="#windows-terminal">Windows Terminal</a></li>
+      </ul>
+    </li>
+    <li><a href="#最后">最后</a></li>
   </ul>
 </nav>
     </div>

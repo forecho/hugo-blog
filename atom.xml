@@ -12,6 +12,203 @@
     
     
     <item>
+      <title>使用 Windows WSL2</title>
+      <link>https://blog.forecho.com/use-windows-and-wsl2.html</link>
+      <pubDate>Fri, 15 May 2020 20:20:26 +0800</pubDate>
+      
+      <guid>https://blog.forecho.com/use-windows-and-wsl2.html</guid>
+      
+        <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;上次我的 Mac 拿去修了，换电池没那么快拿到设备，于是我又把抽屉里的公司电脑拿出来办公了，公司发的是电脑是 ThinkPad T480 笔记本，应该是定制版，没独立显卡，屏幕渣。之前安装的是 Ubuntu，感觉拿来做开发还行，除了偶尔卡住了（16G 都能卡，不知道什么问题）。另外一个最大的问题就是 Ubuntu 软件生态太少了，我比较依赖印象笔记，没有 Ubuntu 版，网页版不好用。&lt;/p&gt;
+&lt;p&gt;早就听说 Windows 现在能把 Ubuntu 当成子系统了，去查了一下资料，发现现在是 WSL2 了，虽然还在测试阶段，但是我想试一下。说了这么多本篇文章就打算分享以下两个主题：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;如何安装 WSL2&lt;/li&gt;
+&lt;li&gt;把 WSL2 作为开发环境遇到的一些坑&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;准备工作&#34;&gt;准备工作&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;至少是 Window10 专业版，家庭版不行。&lt;/li&gt;
+&lt;li&gt;申请加入 &lt;a href=&#34;https://insider.windows.com/zh-cn/&#34;&gt;Windows Insider&lt;/a&gt;，然后在「Windows 设置 &amp;gt; 更新和安全 &amp;gt; Windows 预览体验计划」处选择加入快或慢。&lt;/li&gt;
+&lt;li&gt;在 「设置 &amp;gt; Windows 更新」中升级系统，通过在 &lt;code&gt;cmd&lt;/code&gt; 中输入 &lt;code&gt;ver&lt;/code&gt; 来确认版本为 Windows 10 18917 或更高。&lt;/li&gt;
+&lt;li&gt;以管理员身份运行 PowerShell 终端。&lt;/li&gt;
+&lt;li&gt;执行以下命令：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;重启电脑完成安装。&lt;/li&gt;
+&lt;li&gt;把 WSL2 设置默认 WSL 版本的命令：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;wsl --set-default-version 2
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;查看版本的命令：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;wsl -l -v
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;安装-wsl2&#34;&gt;安装 WSL2&lt;/h2&gt;
+&lt;p&gt;在 「Microsoft Store」中搜索 「wsl」，点击安装「Ubuntu 18.04 LTS」和「Windows Terminal」，安装完之后我们通过 「Windows Terminal」来登录 WSL2 中的 Ubuntu 系统。&lt;/p&gt;
+&lt;p&gt;剩下的就是常规操作，换系统为国内源，安装 &lt;code&gt;ZSH&lt;/code&gt; 和 &lt;code&gt;oh-my-zsh&lt;/code&gt; 以及 Docker 等等。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;cp /etc/apt/sources.list /etc/apt/sourses.list.bak
+sudo vim /etc/apt/sources.list
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 1
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 2
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 3
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 4
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 5
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 6
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 7
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 8
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 9
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;10
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;deb http://mirrors.aliyun.com/ubuntu/ bionic main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ bionic-security main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ bionic-updates main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ bionic-proposed main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ bionic-backports main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ bionic main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ bionic-security main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ bionic-updates main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ bionic-proposed main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ bionic-backports main restricted universe multiverse
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;3
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;4
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;5
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;6
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;sudo apt-get update
+sudo apt-get upgade
+sudo apt-get install zsh
+# 修改默认的 Shell 为 zsh
+chsh -s /bin/zsh
+sh -c &amp;#34;$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 1
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 2
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 3
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 4
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 5
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 6
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 7
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 8
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 9
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;10
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;11
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;12
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;13
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;14
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;15
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;16
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;17
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;18
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;# 安装软件包以允许 apt 通过 HTTPS 使用存储库
+sudo apt-get install \
+    apt-transport-https \
+    ca-certificates \
+    curl \
+    gnupg-agent \
+    software-properties-common
+
+# 设置稳定的存储库
+sudo add-apt-repository \
+   &amp;#34;deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+   $(lsb_release -cs) \
+   stable&amp;#34;
+
+sudo apt-get update
+
+# 安装最新版本的 Docker 和 containerd
+sudo apt-get install docker-ce docker-ce-cli containerd.io
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;其他配置&#34;&gt;其他配置&lt;/h2&gt;
+&lt;h3 id=&#34;ide-支持&#34;&gt;IDE 支持&lt;/h3&gt;
+&lt;p&gt;VS Code 和 WSL2 配合的非常好，所以这个编辑器是必装软件。安装完之后你可以在 WSL2 Shell 里面执行 &lt;code&gt;code .&lt;/code&gt; 打开此目录下的文件，首次会自动安装 &lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl&#34;&gt;Remote - WSL&lt;/a&gt; 扩展，非常方便。&lt;/p&gt;
+&lt;p&gt;但是如果你使用的是 JetBrains 的 IDE，想使用 WSL2 的 Shell，可以在设置里面找到 「Tools &amp;gt; Terminal &amp;gt; Shell path」 修改为：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&amp;#34;cmd.exe&amp;#34; /k &amp;#34;wsl.exe&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;遇到的坑&#34;&gt;遇到的坑&lt;/h2&gt;
+&lt;h3 id=&#34;动态-ip&#34;&gt;动态 IP&lt;/h3&gt;
+&lt;p&gt;最新版的 WSL2 已经默认帮你绑定了 localhost 到 ubuntu 系统了，所以使用 localhost （可以加端口）访问 Ubuntu 里面的服务不会有任何问题。&lt;/p&gt;
+&lt;p&gt;但是如果你想用使用自定义 nginx 的 server_name 就必须要在 Windows 里面配置 host，而对于的 &lt;code&gt;server_name&lt;/code&gt; IP 并不是 &lt;code&gt;127.0.0.1&lt;/code&gt; 而要在 WSL2 通过下面命令获取到对应的 IP 地址：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;ip addr show eth0 | grep &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;inet &amp;#39;&lt;/span&gt; | cut -f &lt;span style=&#34;color:#f60&#34;&gt;6&lt;/span&gt; -d &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39; &amp;#39;&lt;/span&gt; | cut -f &lt;span style=&#34;color:#f60&#34;&gt;1&lt;/span&gt; -d &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;/&amp;#39;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Github Issues 链接 &lt;a href=&#34;https://github.com/microsoft/WSL/issues/4210&#34;&gt;https://github.com/microsoft/WSL/issues/4210&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;目前解决办法就是手动获取 IP，每次重启手动改 host。因为我很少重启电脑，所以手动还不算麻烦，如果经常操作的话，建议使用脚本。去上面的 Issues 链接找找或者看我在 V2EX 发的贴子 - &lt;a href=&#34;https://www.v2ex.com/t/671206#reply37&#34;&gt;《Windows10 本地只能通过 localhost 访问 WSL2 容器？》&lt;/a&gt;。&lt;/p&gt;
+&lt;h3 id=&#34;端口冲突问题&#34;&gt;端口冲突问题&lt;/h3&gt;
+&lt;p&gt;之前我习惯用 host 泛解析工具，Windows 下面有 &lt;a href=&#34;https://mayakron.altervista.org/support/acrylic/Home.htm&#34;&gt;Acrylic&lt;/a&gt; ，但是当时安装完配置好环境，重启之后发现 WSL2 不能启动了，查了一下发现 &lt;a href=&#34;https://github.com/valeryan/valet-wsl/issues/14&#34;&gt;WSL2 和 Acrylic 53 端口冲突&lt;/a&gt;了，所以目前是放弃使用 Acrylic 了。&lt;/p&gt;
+&lt;h3 id=&#34;快捷键问题&#34;&gt;快捷键问题&lt;/h3&gt;
+&lt;p&gt;用习惯了 Mac 的快捷键就不习惯 Windows 快捷键方式了，Windows 快捷键用了两天复制粘贴按着小拇指疼，然后我就找方案。找了好几个最后找到了 &lt;a href=&#34;https://www.autohotkey.com/&#34;&gt;AutoHotkey &lt;/a&gt; 这个工具，通过写代码的方式改键，可玩性非常高，配合这个人写的代码 &lt;a href=&#34;https://github.com/Elethom/ahk-mackeys&#34;&gt;Elethom/ahk-mackeys&lt;/a&gt; 能满足大部分需求了。&lt;/p&gt;
+&lt;h2 id=&#34;软件推荐&#34;&gt;软件推荐&lt;/h2&gt;
+&lt;h3 id=&#34;dittohttpsditto-cpsourceforgeio&#34;&gt;&lt;a href=&#34;https://ditto-cp.sourceforge.io/&#34;&gt;Ditto&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;免费好用剪贴板软件&lt;/p&gt;
+&lt;h3 id=&#34;listaryhttpswwwlistarycom&#34;&gt;&lt;a href=&#34;https://www.listary.com/&#34;&gt;Listary&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;可以理解为 Windows 下面的 Alfred&lt;/p&gt;
+&lt;h3 id=&#34;windows-terminal&#34;&gt;Windows Terminal&lt;/h3&gt;
+&lt;p&gt;微软出品的终端，前面已经提到过。&lt;/p&gt;
+&lt;h2 id=&#34;最后&#34;&gt;最后&lt;/h2&gt;
+&lt;p&gt;微软最近这几年确实改变了很多，Windows 现在也好用多了，但是 Mac 也越来越生态化，特别是当你有一台手机和一台 Mac 电脑的时候，Mac 的&lt;a href=&#34;https://support.apple.com/zh-cn/guide/mac-help/mchl732d3c0a/mac&#34;&gt;接力&lt;/a&gt;让你用了就离不开了。手机和电脑粘贴板同步功能体验非常棒。&lt;/p&gt;
+&lt;p&gt;总的来说 Mac 对我来说是必备的，但是 Windows 是备胎，Windows 比较软件特别丰富（我每年抢票的软件只能在 Windows 里面运行），而且还可以玩游戏，最主要的主机便宜。&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
       <title>Mac 维修记</title>
       <link>https://blog.forecho.com/mac-repair-notes.html</link>
       <pubDate>Tue, 12 May 2020 22:16:26 +0800</pubDate>
@@ -2721,122 +2918,6 @@ toc: true
 &lt;/ul&gt;
 &lt;h2 id=&#34;最后&#34;&gt;最后&lt;/h2&gt;
 &lt;p&gt;以上就是目前能想到最近两年我用过超值的东西，良心推荐。如果你也有想推荐的商品，不妨可以微信留言分享给大家。&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>【深度阅读 第二季 01】金融其实很简单</title>
-      <link>https://blog.forecho.com/readeep-s02e01.html</link>
-      <pubDate>Fri, 01 Nov 2019 21:03:00 +0800</pubDate>
-      
-      <guid>https://blog.forecho.com/readeep-s02e01.html</guid>
-      
-        <description>&lt;p&gt;&lt;a href=&#34;https://book.douban.com/subject/30218972/&#34;&gt;&lt;img src=&#34;https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/1zkQDk.png&#34; alt=&#34;《陈志武金融通识课》&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;一段话说明这本书主要讲什么&#34;&gt;一段话说明『这本书主要讲什么？』&lt;/h2&gt;
-&lt;p&gt;作者避免抽象的理论和数学模型，使用通俗易懂的方式讲解金融的逻辑。包括使用金融的视角去理解历史、分析文化的起源。&lt;/p&gt;
-&lt;h2 id=&#34;这本书主要讲什么&#34;&gt;这本书主要讲什么？&lt;/h2&gt;
-&lt;h3 id=&#34;金融是什么&#34;&gt;金融是什么？&lt;/h3&gt;
-&lt;p&gt;金融的本质是价值的跨时空交换的工具，即双方之间进行的跨越时间的交易。&lt;/p&gt;
-&lt;h3 id=&#34;使用金融的视角去理解历史&#34;&gt;使用金融的视角去理解历史&lt;/h3&gt;
-&lt;p&gt;了解金融的本质之后，我们就可以去试着理解儒家的『养儿防老』、妇女贞节、只认亲子等观点了。&lt;/p&gt;
-&lt;p&gt;因为金融的本质是跨期交易的工具，那么起决定作用的就是信任，在古代没有金融市场，没有法律的情况下，如何产生跨期交易的呢？儒家的方法就是用血缘组建信任体系。发展文化体系，以降低跨期交易的违约概率，降低交易成本。&lt;/p&gt;
-&lt;p&gt;中国为什么一直在推广儒家文化，虽然它对个人约束很多，也压制社会活力，但是它对跨期交易提供了保障，对社会稳定有很大的功效。作者书中举了大量的示例来说明。&lt;/p&gt;
-&lt;h3 id=&#34;保险&#34;&gt;保险&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;为什么保险在中国发展不起来？&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;洋务运动的时候从国外引入，与儒家体系不兼容。&lt;/li&gt;
-&lt;li&gt;主要是受文化上的阻力，中国人不愿意讨论不幸事件，认为不吉利。但是如果不谈论这些东西，保险又很难卖出。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;这种情况一直到『万能险』的引入才有所好转，它是保底理财和人寿险的组合，所以能被当做理财产品，非常的接地气。&lt;/p&gt;
-&lt;p&gt;保险产品的价值是避险，带来的是『安心』，可以用来对冲『坏风险』。黄金也有半保险性产品。&lt;/p&gt;
-&lt;h3 id=&#34;消费也是投资&#34;&gt;消费也是投资&lt;/h3&gt;
-&lt;p&gt;研究表明，收入越高的人，分期付款借贷消费的倾向性越强。原因在于：在经济学里，我们把人的创业赚钱能力、做事业能力统称为『人力资本』。而如果把人力资本当做资产的话，消费也属于投资。&lt;/p&gt;
-&lt;p&gt;在职场上，实际上我们每天都在销售自己的能力和东西，为了更好的表现自己，你就需要在自己身上多投资。&lt;/p&gt;
-&lt;h3 id=&#34;高利贷&#34;&gt;高利贷&lt;/h3&gt;
-&lt;p&gt;通过管制借贷利率打击高利贷只能治标。要想治本必须从资金的供给方着手。如果商业文化发达、契约精神可靠、社会秩序优良的地方，放贷资金的供给就多，利率就低。&lt;/p&gt;
-&lt;p&gt;所以治理高利贷的办法就是开放并且鼓励民间金融，政府需要通过法治保护放贷人的权益，鼓励更多人参与放贷。打击高利贷者只会使借贷资金供给短缺，利率反而上涨。&lt;/p&gt;
-&lt;h3 id=&#34;为什么互联网发展这么快&#34;&gt;为什么互联网发展这么快&lt;/h3&gt;
-&lt;p&gt;因为它的产出跟成本投入之间几乎没太大关系，也就是说边际成本（每一块钱的收入所付出的额外成本）几乎为 0。&lt;/p&gt;
-&lt;h3 id=&#34;股份有限责任公司&#34;&gt;股份有限责任公司&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;股东的损失最多不超过已经注入公司的资本或者股本。公司的钱独立于股东私人的钱。&lt;/li&gt;
-&lt;li&gt;传统公司股权不能自由买卖，而有限责任公司可以在自然人和法人之间转让。&lt;/li&gt;
-&lt;li&gt;股权能轻松交易，可以鼓励到更多人提供资金，使公司融资规模扩大。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;为什么中国的百年老店少之又少&#34;&gt;为什么中国的百年老店少之又少&lt;/h3&gt;
-&lt;p&gt;日本的百年企业全球最多，超过 200 年的企业有 3000 多家。德国有 800 多家、荷兰 200 多家，法国有接近 200 家。而在中国超过 150 年的老店大概有 7 家，分别是：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;六必居&lt;/li&gt;
-&lt;li&gt;张小泉&lt;/li&gt;
-&lt;li&gt;同仁堂&lt;/li&gt;
-&lt;li&gt;陈李济&lt;/li&gt;
-&lt;li&gt;玉堂酱园&lt;/li&gt;
-&lt;li&gt;王老吉&lt;/li&gt;
-&lt;li&gt;全聚德&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;除了因为现代公司进入中国比较晚之外，还因为：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;中国是一个高度人治的环境，除非家里总有一个人在做高管，否则无法保证家族企业的产权和契约利益的安全，各种委托代理关系和契约关系不好应对。&lt;/li&gt;
-&lt;li&gt;儒家对商业的排斥。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;所以说真正的价值投资者也必须知道从公司文化和体制因素上去权衡、比较、寻找保证事业常青的基因。&lt;/strong&gt; 知道什么公司适合短期投机，什么公司长期投资。&lt;/p&gt;
-&lt;p&gt;要改变『富不过三代』的宿命，发展法治社会、职业经理人市场和活跃的股权市场是唯一的出路。&lt;/p&gt;
-&lt;h3 id=&#34;家族企业&#34;&gt;家族企业&lt;/h3&gt;
-&lt;p&gt;在缺乏法治的传统社会里，跨期信任的挑战只能依靠血缘、亲缘这种不变关系来缓和，过去的中国如此，如今的亚洲其他国家也是如此。&lt;/p&gt;
-&lt;h3 id=&#34;公司为什么要追求上市&#34;&gt;公司为什么要追求上市？&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;好处
-&lt;ul&gt;
-&lt;li&gt;扩大融资&lt;/li&gt;
-&lt;li&gt;利用股权发行便利，用自己的股票收购其他公司，改变公司的地位，改变竞争格局&lt;/li&gt;
-&lt;li&gt;扩大股东、分摊风险&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;上市不止是敲钟&#34;&gt;上市不止是敲钟&lt;/h3&gt;
-&lt;p&gt;很多中国公司把上市当做终究目标，只在意短期利益。上市之前制作业绩巅峰，虽然一开始能把股价炒得很高，但是如果业绩下滑，会让第一波投资者吃到苦头，之后再与市场沟通起来就很难了。上市是否成功取决于今后漫长的市场沟通和市场管理。&lt;/p&gt;
-&lt;p&gt;事实上，&lt;strong&gt;股票的估值和交易量通常是高度正比关系&lt;/strong&gt;，交易量大的公司，市盈率通常更高。所以在投资的时候我们应该留意一下该公司是否经常与市场沟通，是否对外常披露信息。&lt;/p&gt;
-&lt;h3 id=&#34;在哪儿上市好&#34;&gt;在哪儿上市好？&lt;/h3&gt;
-&lt;p&gt;哪里聚集了熟悉你公司产品和服务的人，就跑到哪里去上市，让能理解的人买你公司的股票。没有海外市场的公司就不要去国外上市了。&lt;/p&gt;
-&lt;p&gt;作者讲了一个典型的例子就是分众传媒在美国纳斯达克上市再退市再借壳上市的故事。&lt;/p&gt;
-&lt;h3 id=&#34;多元化发展的公司&#34;&gt;多元化发展的公司&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;多元化发展在野蛮增长时期可以带来好处，但也可能带来更多的风险点。&lt;/li&gt;
-&lt;li&gt;集中主业的公司在海外市场发展的更好。&lt;/li&gt;
-&lt;li&gt;跨行业多元化等于把有限的资源分散到多个战场，最后可能哪个战场都守不住（越是发展好的分公司经理越容易被竞争对手挖去）。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;中国现阶段资产结构对比&#34;&gt;中国现阶段资产结构对比&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;房产占 68.8%，金融资产不到 12%，风险过度集中，流动性低。&lt;/li&gt;
-&lt;li&gt;现金和银行存款占比太高，需要增加中等风险投资占比。不然只能保值不能充分分享经济增长红利。可提高蓝筹股、债券、蓝筹股基金的占比。&lt;/li&gt;
-&lt;li&gt;多学习金融知识，切记&lt;strong&gt;未来不是过去的重复&lt;/strong&gt;。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;股票投资&#34;&gt;股票投资&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;市盈率是投资者对上市公司未来表现的一种期望。期望越高，市盈率越高，反之亦然。预期越高的公司，未来一旦无法兑现，股价跌得也会很惨。&lt;/li&gt;
-&lt;li&gt;清算价值是计算公司真实价值的简便方法，只有在股价清算低于清算价值足够多的时候，才从经济上合算，并且股价回归价值比较漫长。&lt;/li&gt;
-&lt;li&gt;不要追风炒股。每周炒热门股票的业绩总体远远落后于大盘指数，而且几乎每年落后于大盘。&lt;/li&gt;
-&lt;li&gt;分析经济行为，离不开人类的心理规律。男人通常更加自信、频繁交易。女人通常非理性投资。但是市场最终还是属于理性投资者的。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;房价为什么越调控越涨&#34;&gt;房价为什么越调控越涨&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;一般商品的价格取决于当下供求关系，未来预期的影响有限。但是房价受未来预期的影响特别大。对未来房价预期乐观时，买房需求和房价就会立即上涨。&lt;/li&gt;
-&lt;li&gt;调控房价一方面降低了供给，另一方面稳定了房价，&lt;strong&gt;不让房价下跌&lt;/strong&gt;，使人们对未来房价的乐观预期不断得到强化，导致买房需求持续上升。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;金融业&#34;&gt;金融业&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;资产证券化本质是把未来收入流打成资产包，然后将资产包的收益分成份额，将这些份额标准化、证券化后，向资产者销售。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;央行调控货币的方法&#34;&gt;央行调控货币的方法：&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;一般有五个方法：公开市场业务、存款准备金、中央银行贷款、利率政策、常备借贷便利。其中公开市场最常用。&lt;/li&gt;
-&lt;li&gt;公开市场操作流程：央行增加货币，则在债券市场上投入现金，购买国债，如果要回收过多的流动性，则只要抛售国债券，吸纳现金就可以了。&lt;/li&gt;
-&lt;li&gt;存款准备金：央行上调存储准备金，各大银行上交给央行的现金变多，银行能借出去的钱变少。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;推荐理由&#34;&gt;推荐理由&lt;/h2&gt;
-&lt;p&gt;本书一共 500 多页，但是内容大多数都写的通俗易懂，内容包含大量的故事和案例，让读者阅读起来生动有趣。&lt;/p&gt;
-&lt;p&gt;唯一不足的是金融其实是一个非常广的领域，即使是本书 500 多页，有些内容也只能讲的比较浅显，但是我仍然觉得这是一本非常不错的书，它解决了几个内心一直疑惑的问题，比方说中国为什么百年企业很少，央行怎么调控货币的？难道是真的直接发钱吗？&lt;/p&gt;
-&lt;p&gt;由于篇幅有限，书中精彩内容本篇没有一一提到，有感兴趣的朋友自己去把书找来读读吧。&lt;/p&gt;</description>
       
     </item>
     
