@@ -6,10 +6,22 @@
     <description>Recent content in Posts on forecho&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 May 2020 20:20:26 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 31 May 2020 22:44:55 +0800</lastBuildDate>
     
 	<atom:link href="https://blog.forecho.com/posts/atom.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>我发烧了</title>
+      <link>https://blog.forecho.com/i-have-a-fever.html</link>
+      <pubDate>Sun, 31 May 2020 22:44:55 +0800</pubDate>
+      
+      <guid>https://blog.forecho.com/i-have-a-fever.html</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;这周一，周二我们休假。周一的那天我发烧 🤒️ 了，不是新冠肺炎，但也不是感冒 😷，到目前为止也没彻底好，今天我就来说这事儿，并且分享一下在这特殊的这段时间离，发烧了怎么办？&lt;/p&gt;
+&lt;h2 id=&#34;发烧--&#34;&gt;发烧 🤒 ️&lt;/h2&gt;
+&lt;p&gt;周一的感觉头晕，感觉身上有点热，然后用家里的温度计给自己量了一下体温，然后发现 37 度+，有点低烧了，以为是感冒了，想着这个时间段去医院真麻烦，肯定是先检查是否是新冠肺炎，怕麻烦我就想自己在家吃点药。就喝了一瓶藿香正气口服液（治疗肠胃感冒的），没效果。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>使用 Windows WSL2</title>
@@ -268,17 +280,6 @@
 &lt;li&gt;时间是：3 天 2 晚&lt;/li&gt;
 &lt;li&gt;两人总共花费：2285，其中交通费就占了 900 多。&lt;/li&gt;
 &lt;/ul&gt;</description>
-    </item>
-    
-    <item>
-      <title>双十一值得购买商品推荐</title>
-      <link>https://blog.forecho.com/worth-buying-goods.html</link>
-      <pubDate>Thu, 07 Nov 2019 22:48:00 +0800</pubDate>
-      
-      <guid>https://blog.forecho.com/worth-buying-goods.html</guid>
-      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
-&lt;p&gt;一年一度的购物狂欢节双十一又到了，往年都是快 11 月份才开始，今天感觉过完国庆节之后就开始预热了。&lt;/p&gt;
-&lt;p&gt;废话不多说，今天这篇文章我主要是分享最近两年我在使用，并且觉得好用的产品推荐。如果觉得需要，可以考虑加入购物车。&lt;/p&gt;</description>
     </item>
     
   </channel>

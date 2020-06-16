@@ -81,6 +81,50 @@
                     
                     <div>
     <h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-2xl lg:text-3xl">
+        <a href="https://blog.forecho.com/octopress-and-travis-ci.html" title="Octopress 结合 github 和 travis-ci 实现自动更新博客">Octopress 结合 github 和 travis-ci 实现自动更新博客</a>
+    </h1>
+    <p class="mb-1 text-sm text-gray-500">
+        <span title=" 2015-07-21 17:25:00 &#43;0800">
+            <i class="iconfont icon-calendar" aria-hidden="true"></i> 21 Jul 2015
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-book"></i>
+            691 字
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-clock-o"></i>
+            2 分钟读完
+        </span>
+    </p>
+</div>
+
+                    
+                    <div class="post-content">
+                        <h2 id="前言">前言</h2>
+<p>这么久没更新博客了，一是因为 Octopress 虽然在自己的  MacBook 搭建起来了，但是工作电脑还没有，最主要的是工作电脑是 Windows 原来安装 Octopress 本身就是一件蛋疼的事情。对于一个懒人的我来说，一直想找一个自动生成静态博客并且会自动发布的解决方案，差点都准备放弃 Octopress 了，直到今天上午这种方案被我找到，本来以为最多一上午能搞定，没想到花费了我一天时间。</p>
+<h2 id="实现">实现</h2>
+<p>主要是利用 travis-ci 提供的持续集成服务实现的，主要分三步就搞定：</p>
+<ol>
+<li>用 github 登录<a href="https://travis-ci.org/">Travis-CI</a>,然后开启你要使用集成服务的项目。</li>
+<li>添加 <code>.travis.yml</code> 文件（octopress 默认就有这个文件，我们修改就可以了）。</li>
+<li>只要配置通过，当你 <code>git push</code> 的时候就会自动触发 travis-ci，后面的工作就全自动了。</li>
+</ol>
+                    </div>
+                    <p class="text-sm font-semibold pt-5 text-gray-700 ">
+                        <a href="https://blog.forecho.com/octopress-and-travis-ci.html" class="px-5 py-2 inline-block bg-gray-200 rounded  hover:bg-gray-300">阅读全文</a>
+                    </p>
+                </article>
+
+                <hr class="bg-gray-300 mt-10 mb-6">
+            
+                <article >
+                    
+                    <div>
+    <h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-2xl lg:text-3xl">
         <a href="https://blog.forecho.com/yii2-use-restful.html" title="Yii2 如何实现 RESTful？">Yii2 如何实现 RESTful？</a>
     </h1>
     <p class="mb-1 text-sm text-gray-500">
@@ -656,42 +700,6 @@ $this-&gt;User-&gt;read(null, $id);
 
                 <hr class="bg-gray-300 mt-10 mb-6">
             
-                <article >
-                    
-                    <div>
-    <h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-2xl lg:text-3xl">
-        <a href="https://blog.forecho.com/macbook-sheng-ji-yosemite-zhi-hou-php-huan-jing-xiu-fu.html" title="MacBook 升级 Yosemite 之后 PHP 环境修复">MacBook 升级 Yosemite 之后 PHP 环境修复</a>
-    </h1>
-    <p class="mb-1 text-sm text-gray-500">
-        <span title=" 2014-10-19 16:10:00 &#43;0800">
-            <i class="iconfont icon-calendar" aria-hidden="true"></i> 19 Oct 2014
-        </span>
-
-        <span class="hidden xl:inline-block">
-            |
-            <i class="iconfont icon-book"></i>
-            905 字
-        </span>
-
-        <span class="hidden xl:inline-block">
-            |
-            <i class="iconfont icon-clock-o"></i>
-            2 分钟读完
-        </span>
-    </p>
-</div>
-
-                    
-                    <div class="post-content">
-                        Yosemite 终于发布了，我第一时间升级了。但是没想到 PHP 环境受到影响了，直到现在终于修复好了。 一、修复 Apache Apache 好像是换新版本了，升级完系统之后项目打不开了。
-                    </div>
-                    <p class="text-sm font-semibold pt-5 text-gray-700 ">
-                        <a href="https://blog.forecho.com/macbook-sheng-ji-yosemite-zhi-hou-php-huan-jing-xiu-fu.html" class="px-5 py-2 inline-block bg-gray-200 rounded  hover:bg-gray-300">阅读全文</a>
-                    </p>
-                </article>
-
-                <hr class="bg-gray-300 mt-10 mb-6">
-            
             <p class="text-center">
                 <a  class="md:text-xl text-gray-700" href="/posts.html">↑ 文章归档 ↑</a>
             </p>
@@ -712,7 +720,7 @@ $this-&gt;User-&gt;read(null, $id);
             <div class="flex-1 border-r border-gray-600">
                 <p class="text-center">
                     <span class="text-gray-700 font-bold">
-                        340
+                        341
                     </span>
                     文章
                 </p>
