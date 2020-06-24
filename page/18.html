@@ -81,6 +81,61 @@
                     
                     <div>
     <h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-2xl lg:text-3xl">
+        <a href="https://blog.forecho.com/mac-install-docker.html" title="Mac 安装 Docker">Mac 安装 Docker</a>
+    </h1>
+    <p class="mb-1 text-sm text-gray-500">
+        <span title=" 2015-07-26 22:55:00 &#43;0800">
+            <i class="iconfont icon-calendar" aria-hidden="true"></i> 26 Jul 2015
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-book"></i>
+            254 字
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-clock-o"></i>
+            1 分钟读完
+        </span>
+    </p>
+</div>
+
+                    
+                    <div class="post-content">
+                        <h2 id="前言">前言</h2>
+<p>前几天 MacBook 拿去修了，回来时候貌似覆盖的方式重装了一回系统了。反正就是 Apache 环境都没了，索性借这次机会使用一下 Docker 吧。</p>
+<h2 id="安装">安装</h2>
+<p>根据<a href="https://docs.docker.com/mac/step_one/">官网的文档</a>安装 Docker，如果一切正常的话就是下载一个软件，双击傻瓜式的安装就可以了。</p>
+<h2 id="下载太慢怎么办">下载太慢怎么办？</h2>
+<p>刚才找到一个国内的<a href="http://get.daocloud.io/#install-boot2docker">镜像</a>，速度还不错，推荐。</p>
+<h2 id="安装失败报错怎么办">安装失败报错怎么办？</h2>
+<div class="highlight"><div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-sh" data-lang="sh">&gt; docker run hello-world
+&gt; FATA<span style="color:#555">[</span>0000<span style="color:#555">]</span> Post http:///var/run/docker.sock/v1.18/containers/create: dial unix /var/run/docker.sock: no such file or directory. Are you trying to connect to a TLS-enabled daemon without TLS?
+  FAIL
+</code></pre></td></tr></table>
+</div>
+</div>
+                    </div>
+                    <p class="text-sm font-semibold pt-5 text-gray-700 ">
+                        <a href="https://blog.forecho.com/mac-install-docker.html" class="px-5 py-2 inline-block bg-gray-200 rounded  hover:bg-gray-300">阅读全文</a>
+                    </p>
+                </article>
+
+                <hr class="bg-gray-300 mt-10 mb-6">
+            
+                <article >
+                    
+                    <div>
+    <h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-2xl lg:text-3xl">
         <a href="https://blog.forecho.com/octopress-and-travis-ci.html" title="Octopress 结合 github 和 travis-ci 实现自动更新博客">Octopress 结合 github 和 travis-ci 实现自动更新博客</a>
     </h1>
     <p class="mb-1 text-sm text-gray-500">
@@ -634,72 +689,6 @@ $this-&gt;User-&gt;read(null, $id);
 
                 <hr class="bg-gray-300 mt-10 mb-6">
             
-                <article >
-                    
-                    <div>
-    <h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-2xl lg:text-3xl">
-        <a href="https://blog.forecho.com/php-mysql-biao-fei-zhu-jian-zi-zeng-chang.html" title="PHP MySQL 表非主键自增长">PHP MySQL 表非主键自增长</a>
-    </h1>
-    <p class="mb-1 text-sm text-gray-500">
-        <span title=" 2014-11-13 20:34:00 &#43;0800">
-            <i class="iconfont icon-calendar" aria-hidden="true"></i> 13 Nov 2014
-        </span>
-
-        <span class="hidden xl:inline-block">
-            |
-            <i class="iconfont icon-book"></i>
-            735 字
-        </span>
-
-        <span class="hidden xl:inline-block">
-            |
-            <i class="iconfont icon-clock-o"></i>
-            2 分钟读完
-        </span>
-    </p>
-</div>
-
-                    
-                    <div class="post-content">
-                        <p>##场景
-一个活动表，一个活动记录表，活动记录表要根据活动 ID，记录每个人的活动分数和时间等用户参与信息，其中活动记录表有一个字段是用户的编号，每个活动的记录都要从1开始自增。现在的问题是怎么实现这个自增的效果？</p>
-<h2 id="表结构如下">表结构如下：</h2>
-<p>主要说一下活动记录表 activity_records 的 主要字段结构：</p>
-<table>
-<thead>
-<tr>
-<th align="left">字段</th>
-<th align="right">注释</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">id</td>
-<td align="right">主键自增</td>
-</tr>
-<tr>
-<td align="left">activity_id</td>
-<td align="right">活动ID</td>
-</tr>
-<tr>
-<td align="left">user_id</td>
-<td align="right">用户 ID</td>
-</tr>
-<tr>
-<td align="left">number</td>
-<td align="right">活动记录编号</td>
-</tr>
-</tbody>
-</table>
-<p>##解决方案</p>
-                    </div>
-                    <p class="text-sm font-semibold pt-5 text-gray-700 ">
-                        <a href="https://blog.forecho.com/php-mysql-biao-fei-zhu-jian-zi-zeng-chang.html" class="px-5 py-2 inline-block bg-gray-200 rounded  hover:bg-gray-300">阅读全文</a>
-                    </p>
-                </article>
-
-                <hr class="bg-gray-300 mt-10 mb-6">
-            
             <p class="text-center">
                 <a  class="md:text-xl text-gray-700" href="/posts.html">↑ 文章归档 ↑</a>
             </p>
@@ -720,7 +709,7 @@ $this-&gt;User-&gt;read(null, $id);
             <div class="flex-1 border-r border-gray-600">
                 <p class="text-center">
                     <span class="text-gray-700 font-bold">
-                        341
+                        342
                     </span>
                     文章
                 </p>
@@ -729,7 +718,7 @@ $this-&gt;User-&gt;read(null, $id);
                 <p class="text-center">
                     <span class="text-gray-700 font-bold">
                         
-                            97
+                            98
                         
                     </span>
                     标签
