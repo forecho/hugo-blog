@@ -81,6 +81,42 @@
                     
                     <div>
     <h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-2xl lg:text-3xl">
+        <a href="https://blog.forecho.com/yii2-base-restful.html" title="Yii2 搭建最基础的 RESTful">Yii2 搭建最基础的 RESTful</a>
+    </h1>
+    <p class="mb-1 text-sm text-gray-500">
+        <span title=" 2015-07-27 20:25:00 &#43;0800">
+            <i class="iconfont icon-calendar" aria-hidden="true"></i> 27 Jul 2015
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-book"></i>
+            142 字
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-clock-o"></i>
+            1 分钟读完
+        </span>
+    </p>
+</div>
+
+                    
+                    <div class="post-content">
+                        为了让项目更加清晰，我们可以单独新建一个 Api，用来专门开发 Api。至于怎么新建，参考这篇文章：Yii2 高级版新建一个 Api 应用 &mdash;&mdash;&mdash;&mdash;&mdash;&ndash;draft: false toc: true 系列文章
+                    </div>
+                    <p class="text-sm font-semibold pt-5 text-gray-700 ">
+                        <a href="https://blog.forecho.com/yii2-base-restful.html" class="px-5 py-2 inline-block bg-gray-200 rounded  hover:bg-gray-300">阅读全文</a>
+                    </p>
+                </article>
+
+                <hr class="bg-gray-300 mt-10 mb-6">
+            
+                <article >
+                    
+                    <div>
+    <h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-2xl lg:text-3xl">
         <a href="https://blog.forecho.com/mac-install-docker.html" title="Mac 安装 Docker">Mac 安装 Docker</a>
     </h1>
     <p class="mb-1 text-sm text-gray-500">
@@ -535,160 +571,6 @@ $this-&gt;User-&gt;read(null, $id);
 
                 <hr class="bg-gray-300 mt-10 mb-6">
             
-                <article >
-                    
-                    <div>
-    <h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-2xl lg:text-3xl">
-        <a href="https://blog.forecho.com/shi-yong-yiide-cmenu.html" title="使用Yii的 CMenu">使用Yii的 CMenu</a>
-    </h1>
-    <p class="mb-1 text-sm text-gray-500">
-        <span title=" 2014-11-17 12:51:00 &#43;0800">
-            <i class="iconfont icon-calendar" aria-hidden="true"></i> 17 Nov 2014
-        </span>
-
-        <span class="hidden xl:inline-block">
-            |
-            <i class="iconfont icon-book"></i>
-            1340 字
-        </span>
-
-        <span class="hidden xl:inline-block">
-            |
-            <i class="iconfont icon-clock-o"></i>
-            3 分钟读完
-        </span>
-    </p>
-</div>
-
-                    
-                    <div class="post-content">
-                        <div class="highlight"><div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
-<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">24
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">25
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">26
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">27
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">28
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">29
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">30
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">31
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">32
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">33
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">34
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">35
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">36
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">37
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">38
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">39
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">40
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">41
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">42
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">43
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">44
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">45
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">46
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">47
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">48
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">49
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">50
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">51
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">52
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">53
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">54
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">55
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">56
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-php" data-lang="php">$this-&gt;widget(&#39;zii.widgets.CMenu&#39;,array(
-    &#39;activeCssClass&#39;=&gt;&#39;当前热点元素的样式&#39;,
-    &#39;firstItemCssClass&#39;=&gt;&#39;第一个元素的样式&#39;,
-    &#39;lastItemCssClass&#39;=&gt;&#39;最后一个元素的样式&#39;,
-    &#39;htmlOptions&#39;=&gt;array(&#39;class&#39;=&gt;&#39;默认样式&#39;),
-    &#39;items&#39;=&gt;array(
-        array(
-            &#39;label&#39;=&gt;&#39;网站概况&#39;,
-            &#39;url&#39;=&gt;array(&#39;/admin&#39;),
-            &#39;itemOptions&#39;=&gt;array(
-                &#39;class&#39;=&gt;&#39;li_status&#39;
-            ),
-            &#39;active&#39;=&gt;$this-&gt;id==&#39;admin&#39;?true:false
-        ),
-        array(
-            &#39;label&#39;=&gt;&#39;图片管理&#39;,
-            &#39;url&#39;=&gt;array(&#39;/picture&#39;),
-            &#39;template&#39;=&gt;&#39;{menu}&lt;<span style="color:#309;font-weight:bold">span</span>&gt;this is additional infomation&lt;/<span style="color:#309;font-weight:bold">span</span>&gt;&#39;,
-            &#39;itemOptions&#39;=&gt;array(&#39;class&#39;=&gt;&#39;li_picture&#39;),
-            &#39;active&#39;=&gt;$this-&gt;id==&#39;picture&#39;?true:false,
-            &#39;visible&#39;=&gt;true
-        ),
-        array(&#39;label&#39;=&gt;&#39;管理员管理&#39;,
-            &#39;url&#39;=&gt;array(&#39;/manager&#39;),
-            &#39;itemOptions&#39;=&gt;array(&#39;class&#39;=&gt;&#39;li_manager&#39;),
-            &#39;submenuOptions&#39;=&gt;array(&#39;class&#39;=&gt;&#39;subclass&#39;),
-            &#39;active&#39;=&gt;($this-&gt;id==&#39;manager&#39; <span style="color:#a00;background-color:#faa">&amp;&amp;</span> $this-&gt;action-&gt;id!=&#39;changepswd&#39;)?true:false,
-            &#39;visible&#39;=&gt;false
-        ),
-        array(
-            &#39;label&#39;=&gt;&#39;密码修改&#39;,
-            &#39;url&#39;=&gt;array(&#39;/manager/changepswd&#39;),
-            &#39;linkOptions&#39;=&gt;array(&#39;target&#39;=&gt;&#39;_blank&#39;),
-            &#39;itemOptions&#39;=&gt;array(
-                &#39;class&#39;=&gt;&#39;li_changepswd&#39;
-            ),
-            &#39;items&#39;=&gt;array(
-                array(&#39;label&#39;=&gt;&#39;子栏目&#39;)
-            ),
-            &#39;active&#39;=&gt;($this-&gt;id==&#39;manager&#39; <span style="color:#a00;background-color:#faa">&amp;&amp;</span> $this-&gt;action-&gt;id==&#39;changepswd&#39;)?true:false,
-            &#39;visible&#39;=&gt;true
-        ),
-        array(
-            &#39;label&#39;=&gt;&#39;登陆&#39;,
-            &#39;url&#39;=&gt;array(&#39;/site/login&#39;),
-            &#39;itemOptions&#39;=&gt;array(&#39;class&#39;=&gt;&#39;li_login&#39;),
-            &#39;visible&#39;=&gt;Yii::app()-&gt;user-&gt;isGuest
-        ),
-        array(
-            &#39;label&#39;=&gt;&#39;退出 (&#39;.Yii::app()-&gt;user-&gt;name.&#39;)&#39;,
-            &#39;url&#39;=&gt;array(&#39;/site/logout&#39;),
-            &#39;itemOptions&#39;=&gt;array(&#39;class&#39;=&gt;&#39;li_login&#39;),
-            &#39;visible&#39;=&gt;!Yii::app()-&gt;user-&gt;isGuest
-        )
-    ),
-));
-</code></pre></td></tr></table>
-</div>
-</div><p><strong>说明：</strong></p>
-                    </div>
-                    <p class="text-sm font-semibold pt-5 text-gray-700 ">
-                        <a href="https://blog.forecho.com/shi-yong-yiide-cmenu.html" class="px-5 py-2 inline-block bg-gray-200 rounded  hover:bg-gray-300">阅读全文</a>
-                    </p>
-                </article>
-
-                <hr class="bg-gray-300 mt-10 mb-6">
-            
             <p class="text-center">
                 <a  class="md:text-xl text-gray-700" href="/posts.html">↑ 文章归档 ↑</a>
             </p>
@@ -709,7 +591,7 @@ $this-&gt;User-&gt;read(null, $id);
             <div class="flex-1 border-r border-gray-600">
                 <p class="text-center">
                     <span class="text-gray-700 font-bold">
-                        342
+                        343
                     </span>
                     文章
                 </p>
@@ -718,7 +600,7 @@ $this-&gt;User-&gt;read(null, $id);
                 <p class="text-center">
                     <span class="text-gray-700 font-bold">
                         
-                            98
+                            99
                         
                     </span>
                     标签
