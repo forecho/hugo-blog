@@ -6,10 +6,26 @@
     <description>Recent content in 经验分享 on forecho&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 May 2020 20:20:26 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 30 Jun 2020 11:09:00 +0800</lastBuildDate>
     
 	<atom:link href="https://blog.forecho.com/tags/%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB/atom.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Apple Pay 深圳通使用体验</title>
+      <link>https://blog.forecho.com/apple-pay-shenzhen-pass-user-experience.html</link>
+      <pubDate>Tue, 30 Jun 2020 11:09:00 +0800</pubDate>
+      
+      <guid>https://blog.forecho.com/apple-pay-shenzhen-pass-user-experience.html</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;iOS 好像早就支持深圳通了，但是一直懒得开。直到最近 iOS 升级到 13.5.1 版本，系统通知栏提示我开通深圳通，然后抽空就开通了。&lt;/p&gt;
+&lt;p&gt;之前用了很久的云闪付，这篇文章就来说说怎么开通 Apple Pay 的深圳通以及它和云闪付的使用体验。&lt;/p&gt;
+&lt;h2 id=&#34;如何开通-apple-pay-的深圳通&#34;&gt;如何开通 Apple Pay 的深圳通&lt;/h2&gt;
+&lt;p&gt;哪些机型和系统版本支持深圳通，查了一下资料：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;目前，Apple Pay 「深圳通互联互通卡」 可适用于 iPhone SE、iPhone 6s、iPhone 6s Plus 或更新的机型（软件版本 iOS 13.4 以上），以及 Apple Watch Series 1 或更新的机型 （软件版本 watchOS 6.2以上）。&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
     
     <item>
       <title>使用 Windows WSL2</title>
@@ -336,17 +352,6 @@ sudo vim /etc/shadowsocks.conf
 &lt;li&gt;&lt;code&gt;fast_open&lt;/code&gt;: true 或 false。如果你的服务器 Linux 内核在3.7+，可以开启 fast_open 以降低延迟。开启方法： echo 3 &amp;gt; /proc/sys/net/ipv4/tcp_fastopen 开启之后，将 fast_open 的配置设置为 true 即可&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;workers&lt;/code&gt;: 工作线程数&lt;/li&gt;
 &lt;/ul&gt;</description>
-    </item>
-    
-    <item>
-      <title>圣诞节在香港</title>
-      <link>https://blog.forecho.com/christmas-in-hong-kong.html</link>
-      <pubDate>Sat, 31 Dec 2016 20:05:00 +0800</pubDate>
-      
-      <guid>https://blog.forecho.com/christmas-in-hong-kong.html</guid>
-      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
-&lt;p&gt;今年平安夜是周六，而恰好我们公司为了过年凑10的假期，所以那天我们需要上班的，补过年的假期。但是那天正好是兔子生日，晚上准时下班去带她吃大餐。然后第二天带她去香港买礼物。&lt;/p&gt;
-&lt;p&gt;其实去年也去过香港，但是今年再会议的花，很多地方都记不太清了，所以有了这篇文章，整理、记录、分享我的这次香港之旅，方便以后查阅。&lt;/p&gt;</description>
     </item>
     
   </channel>

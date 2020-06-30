@@ -12,6 +12,50 @@
     
     
     <item>
+      <title>Apple Pay 深圳通使用体验</title>
+      <link>https://blog.forecho.com/apple-pay-shenzhen-pass-user-experience.html</link>
+      <pubDate>Tue, 30 Jun 2020 11:09:00 +0800</pubDate>
+      
+      <guid>https://blog.forecho.com/apple-pay-shenzhen-pass-user-experience.html</guid>
+      
+        <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;iOS 好像早就支持深圳通了，但是一直懒得开。直到最近 iOS 升级到 13.5.1 版本，系统通知栏提示我开通深圳通，然后抽空就开通了。&lt;/p&gt;
+&lt;p&gt;之前用了很久的云闪付，这篇文章就来说说怎么开通 Apple Pay 的深圳通以及它和云闪付的使用体验。&lt;/p&gt;
+&lt;h2 id=&#34;如何开通-apple-pay-的深圳通&#34;&gt;如何开通 Apple Pay 的深圳通&lt;/h2&gt;
+&lt;p&gt;哪些机型和系统版本支持深圳通，查了一下资料：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;目前，Apple Pay 「深圳通互联互通卡」 可适用于 iPhone SE、iPhone 6s、iPhone 6s Plus 或更新的机型（软件版本 iOS 13.4 以上），以及 Apple Watch Series 1 或更新的机型 （软件版本 watchOS 6.2以上）。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;开通方式也非常简单，直接在 iPhone 上下拉搜索「钱包」，然后点击右上角「+」然后选择深圳通就可以了，重点是现在官方有活动&lt;strong&gt;开通限额免服务费&lt;/strong&gt;（以往需要 20 元服务费）:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;自2020年6月15日起，Apple Pay 添加深圳通互联互通卡，限量免收可退服务费了！共计 100,000 名额，先到先得！&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;PS：开通的时候至少要充10块钱，而且最后一步有点慢，差不多要等1分钟左右。&lt;/p&gt;
+&lt;h2 id=&#34;体验上与云闪付有什么区别&#34;&gt;体验上与云闪付有什么区别&lt;/h2&gt;
+&lt;h3 id=&#34;云闪付&#34;&gt;云闪付&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;方便：因为毕竟比深圳通实体卡方便，每天不用多带一个卡了。而且不用担心卡丢了的情况（我有一次刚充值了100卡就不见了，怀疑冲完没拿走卡😭）。&lt;/li&gt;
+&lt;li&gt;还是方便：使用云闪付，再也不用担心深圳通卡没钱的情况，银行卡总是有钱的吧？&lt;/li&gt;
+&lt;li&gt;优惠：云闪付经常搞活动，比深圳通更加优惠，有时候一天上下班能省2块钱。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;apple-pay-的深圳通&#34;&gt;Apple Pay 的深圳通：&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;优势：开通了这个实体卡就可以扔了，Apple Pay 的深圳通可以说是实体卡的升级版本，在继承了实体卡的所有优势之后还可以在线看消费记录，行程。没电、没网也照样可以用。&lt;/li&gt;
+&lt;li&gt;优惠：跟实体卡一样的优惠，地铁9.5折，公交6-8折。&lt;/li&gt;
+&lt;li&gt;方便：云闪付应该还是要网络支持的，要走支付流程，需要支付确认（指纹或者人脸识别），但是 Apple Pay 的深圳通就跟你使用实体卡流程是一样的，非常好。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;最后&#34;&gt;最后&lt;/h2&gt;
+&lt;p&gt;总的来说 Apple Pay 的深圳通是&lt;strong&gt;真香&lt;/strong&gt;，但是以后云闪付要是还搞优惠活动，我可以在 Apple Pay 深圳通的设置里面把「快捷交通」改为「无」就可以切回云闪付了。&lt;/p&gt;
+&lt;p&gt;什么？你还在用微信小程序坐地铁？地铁高峰期网络那么差，打开等半天，有什么理由用小程序？&lt;/p&gt;
+&lt;h2 id=&#34;参考链接&#34;&gt;参考链接&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?subscene=23&amp;amp;__biz=MzI5Nzg3MzMyMw==&amp;amp;mid=2247499968&amp;amp;idx=2&amp;amp;sn=b73f2a025d5f6d1bf8a550a478223cd9&amp;amp;chksm=ecacfa04dbdb731273e11771f5f769304d0227d3fb6595f9d972346c3e7ba4c5864f69744ee8&amp;amp;scene=7&amp;amp;key=4eda53c8191ac7b84747749b45ce523c51f182200fb4a5753ec2dadc59194179a5ad2493ccdf188e913432cc95a6afb5ee367846a098a93d44693e97cf917d50b5b720f7ab2f49b0aaec1f9397c9802c&amp;amp;ascene=0&amp;amp;uin=MTYwNjI4ODM1&amp;amp;devicetype=Windows+10+x64&amp;amp;version=6209007b&amp;amp;lang=zh_CN&amp;amp;exportkey=ARBPHadegG%2BZQYpZr%2BY%2BXZA%3D&amp;amp;pass_ticket=W9oIFftEyRPWY74lAMcDG%2B9iF4B4I%2BgiPVBKi%2BGFkZw%3D&#34;&gt;周知| “深圳通互联互通卡”支持ApplePay&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MzA4ODUyOTYxNw==&amp;amp;mid=2650173092&amp;amp;idx=2&amp;amp;sn=d2381c5e7032e136964360051d9a061b&amp;amp;key=30abdedf8378e1ee0350e73cd40ac510f5ef68947f35733a477a3baebe565848a145ecd2bc7dbcc4df48b9728e8b60abed38335b3ad8ae2e4ef30de5dbf1b6b268e2dd7aa9d4819b566b5b6652f319d1&amp;amp;ascene=1&amp;amp;uin=MTYwNjI4ODM1&amp;amp;devicetype=Windows+10+x64&amp;amp;version=6209007b&amp;amp;lang=zh_CN&amp;amp;exportkey=AW9xaKg%2FX7%2FH0cnoG%2BoGLx0%3D&amp;amp;pass_ticket=W9oIFftEyRPWY74lAMcDG%2B9iF4B4I%2BgiPVBKi%2BGFkZw%3D&#34;&gt;Apple Pay添加深圳通互联互通卡，限量免收服务费！&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      
+    </item>
+    
+    <item>
       <title>【深度理财08】美港股打新哪家强</title>
       <link>https://blog.forecho.com/financedeep-08.html</link>
       <pubDate>Mon, 29 Jun 2020 13:09:00 +0800</pubDate>
@@ -2795,53 +2839,6 @@ caffeinateWatcher:start()
 &lt;li&gt;&lt;a href=&#34;https://thinkhard.tech/2019/04/08/hammerspoon-introduce/&#34;&gt;推荐一个 MacOS 上用了就无法自拔的神器 [Hammerspoon] 和我的配置方案&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/59737941&#34;&gt;『Hammerspoon』Mac 锁屏自动开关蓝牙&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>在家健身有 Switch 就够了</title>
-      <link>https://blog.forecho.com/fitness-at-home.html</link>
-      <pubDate>Mon, 16 Dec 2019 22:48:00 +0800</pubDate>
-      
-      <guid>https://blog.forecho.com/fitness-at-home.html</guid>
-      
-        <description>&lt;p&gt;&lt;img src=&#34;https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/EWJChJ.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
-&lt;p&gt;上次写了篇&lt;a href=&#34;https://blog.forecho.com/buy-nintendo-switch.html&#34;&gt;文章&lt;/a&gt;分享了我购买 Switch 的经历以及简单测评了一下有氧拳击、马里奥赛车 8、奥德赛三个游戏。&lt;/p&gt;
-&lt;p&gt;这之后任天堂又发售了一款非常火爆的健身游戏 - 《健身环大冒险》，我已经玩了快半个月了，今天这篇文章我主要就分享这款游戏的使用体验。&lt;/p&gt;
-&lt;h2 id=&#34;玩法&#34;&gt;玩法&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/c10CUD.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;这款游戏不同于以往的 Switch 游戏，它有器材拆才能玩，一个“Ring-Con&amp;rdquo;（特制的普拉提圈）和“腿部固定带”。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/Dv17B7.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;简单说一下游戏的玩法，开始游戏之后按照提示，把手柄按照到器材上，然后把固定带绑定左边大腿上，然后双手拿着普拉提圈就可以开始玩了。当然最好配一个瑜伽垫更方便。这个游戏对场地要求不高，有地方对着电视做静态平板支撑就够了。&lt;/p&gt;
-&lt;p&gt;录入个人信息之后，跟着里面教练热身完毕之后就开始玩了。游戏一共分为4个主要模式，我只玩过冒险和轻松模式，所以我只能讲这两个模式了。&lt;/p&gt;
-&lt;h3 id=&#34;冒险模式&#34;&gt;冒险模式&lt;/h3&gt;
-&lt;p&gt;这个是主要模式，可以理解为剧情模式，大致剧情就是一个被关押的 Boss 因为某个原因跑出来了，而你作为主角，要肩负起打 Boss 的责任，跟着地图，通过做一些健身动作来打 Boss，来拯救人类。&lt;/p&gt;
-&lt;p&gt;你先在地图里面跑啊跑，然后遇到怪之后就开始回合制打斗。听说这个游戏有总共有23个世界，每个世界又有若干个关卡，我到现在玩了累计3个小时了，也才打到世界4，所以你不用担心玩腻的问题。&lt;/p&gt;
-&lt;p&gt;健身动作刚开始也只给你几个，你要通过打怪升级，然后才会有新的动作，每个动作的攻击力和颜色属性又不同，小怪也有颜色，颜色匹配才能伤害高。当然你还要捡金币买果汁回血，游戏角色死掉会重新打这个关卡的。游戏该有的基本东西它都有。&lt;/p&gt;
-&lt;p&gt;我一般一次玩两个关卡，需要耗时40～50分钟，实际锻炼时间20～30分钟，游戏只会记录你锻炼时间。每个关卡结束之后会询问你是否测量心率，会根据这个心率来告诉你你的运动强度。运动强度越高，一组动作做的次数就越多，目前我的等级强度最大可以设置为30。&lt;/p&gt;
-&lt;p&gt;在简单说一下动作，健过身的朋友应该都知道，像深蹲这种动作做的越快是越没有效果的，这里我又要来称赞这个游戏了，每个游戏除了有教练指导外，大部分动作每组前期的动作都要求做的很慢，有一个“稳住”的状态，比方在深蹲的时候要保持蹲下来动作一定时间，因为只有这样才能得到更好的锻炼，因为有设备，你想偷懒都不行。打一个怪，同一个健身动作做完是有冷却时间的，即不能连续使用某个动作。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/v6nDRd.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;每打完一个关卡都有提示你是否结束训练，结束训练之后就给你看今天运动数据了，然后就开始跟着教练做拉伸动作，拉伸的时候屏幕上方会有一些 Tipc 分享，最后结束之前还有一篇小知识。&lt;/p&gt;
-&lt;h3 id=&#34;轻松模式&#34;&gt;轻松模式&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/GGA5y2.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;通过玩一些小游戏的方式锻炼某个部位，或者你今天特别想单独训练某个部位的时候，可以选这个。&lt;/p&gt;
-&lt;p&gt;《健身环大冒险》可以创建多名用户的，你可以和家人玩小游戏，刷排行榜，也是非常有意思的。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/PBxK0p.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;虽然这个游戏冒险模式不能多人一起玩，但是多人可以互相攀比着玩，进一步提高了玩游戏的积极性。&lt;/p&gt;
-&lt;h2 id=&#34;购买经历&#34;&gt;购买经历&lt;/h2&gt;
-&lt;p&gt;因为这个游戏异常火爆，刚开始出来的时候我犹豫了一下要不要买，晚上没下单，没想到第二天涨价了，还好我后来发现中亚上可以买，价格虽然没有第一波便宜，但还是比淘宝上买便宜很多，没犹豫就下单了，还特地开通了亚马逊3个月的 Prime 试用。不到600块钱到手，后来这个游戏越来越火爆，淘宝都卖到700多了，幸亏自己下手早，心想当时下单的时候怎么没想到多买几个呢？&lt;/p&gt;
-&lt;h2 id=&#34;槽点&#34;&gt;槽点&lt;/h2&gt;
-&lt;p&gt;说了这个游戏这么多好，现在也来说说这个游戏的不好的：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;上面提到的测量心率的稍显鸡肋，因为只有在打怪的时候你心率才会很高，打完怪，你跑到终点，心率已经下下来了，所以我每次关卡结束的时候测量心率都提示我较低强度 😓&lt;/li&gt;
-&lt;li&gt;前期玩冒险模式的时候你可能不能锻炼特定位置的肌肉，因为你等级低，拥有的动作不多，不过这个问题不大&lt;/li&gt;
-&lt;li&gt;不能通过其他方式查看数据，目前好像只能通过主机看数据&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;最后&#34;&gt;最后&lt;/h2&gt;
-&lt;p&gt;《健身环大冒险》弥补了很多《有氧健身》的短板，能锻炼到全身，可以说是一款非常棒的游戏了。现在的人们也越来越注重自己的身体健康，而通过游戏的方式来激励我们锻炼是一种非常棒的方式。&lt;/p&gt;
-&lt;p&gt;如果你还在担心买 Switch 不玩游戏吃灰的话，不妨可以考虑买这款游戏了。游戏可以不玩，但是健身总得做吧！&lt;/p&gt;
-&lt;p&gt;最近天冷，已经很久没玩《有氧健身》了，后悔前一段时间买 Keep 会员了（但是还没有买《健身环大冒险》），我看优惠那么大，一冲动就买了1年会员，这下时间真的不够用了。&lt;/p&gt;</description>
       
     </item>
     

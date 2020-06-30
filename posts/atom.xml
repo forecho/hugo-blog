@@ -6,10 +6,26 @@
     <description>Recent content in Posts on forecho&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 29 Jun 2020 13:09:00 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 30 Jun 2020 11:09:00 +0800</lastBuildDate>
     
 	<atom:link href="https://blog.forecho.com/posts/atom.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Apple Pay 深圳通使用体验</title>
+      <link>https://blog.forecho.com/apple-pay-shenzhen-pass-user-experience.html</link>
+      <pubDate>Tue, 30 Jun 2020 11:09:00 +0800</pubDate>
+      
+      <guid>https://blog.forecho.com/apple-pay-shenzhen-pass-user-experience.html</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;iOS 好像早就支持深圳通了，但是一直懒得开。直到最近 iOS 升级到 13.5.1 版本，系统通知栏提示我开通深圳通，然后抽空就开通了。&lt;/p&gt;
+&lt;p&gt;之前用了很久的云闪付，这篇文章就来说说怎么开通 Apple Pay 的深圳通以及它和云闪付的使用体验。&lt;/p&gt;
+&lt;h2 id=&#34;如何开通-apple-pay-的深圳通&#34;&gt;如何开通 Apple Pay 的深圳通&lt;/h2&gt;
+&lt;p&gt;哪些机型和系统版本支持深圳通，查了一下资料：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;目前，Apple Pay 「深圳通互联互通卡」 可适用于 iPhone SE、iPhone 6s、iPhone 6s Plus 或更新的机型（软件版本 iOS 13.4 以上），以及 Apple Watch Series 1 或更新的机型 （软件版本 watchOS 6.2以上）。&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
     
     <item>
       <title>【深度理财08】美港股打新哪家强</title>
@@ -265,18 +281,6 @@
 &lt;li&gt;……&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;接下来详细讲解如何实现以上功能。不会 Lua？没关系，只要你有一点点编程经验，代码看起来都不是问题。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>在家健身有 Switch 就够了</title>
-      <link>https://blog.forecho.com/fitness-at-home.html</link>
-      <pubDate>Mon, 16 Dec 2019 22:48:00 +0800</pubDate>
-      
-      <guid>https://blog.forecho.com/fitness-at-home.html</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/EWJChJ.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
-&lt;p&gt;上次写了篇&lt;a href=&#34;https://blog.forecho.com/buy-nintendo-switch.html&#34;&gt;文章&lt;/a&gt;分享了我购买 Switch 的经历以及简单测评了一下有氧拳击、马里奥赛车 8、奥德赛三个游戏。&lt;/p&gt;
-&lt;p&gt;这之后任天堂又发售了一款非常火爆的健身游戏 - 《健身环大冒险》，我已经玩了快半个月了，今天这篇文章我主要就分享这款游戏的使用体验。&lt;/p&gt;</description>
     </item>
     
   </channel>
