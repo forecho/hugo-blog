@@ -1,6 +1,6 @@
 ---
 title: "Apple Pay 深圳通使用体验"
-date: 2020-06-30T13:09:00+08:00
+date: 2020-06-30T11:09:00+08:00
 tags: ["经验分享"] 
 draft: false
 toc: true
