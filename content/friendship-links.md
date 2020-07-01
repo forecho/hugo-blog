@@ -58,7 +58,6 @@ url: /friendship-links/
 - [意外](https://yukunweb.com/)
 - [逐鹿 IT](http://amonxu.com/)
 - [嘎里三分熟](http://www.jetchen.cn/)
-- [Yisaer](https://yisaer.github.io/)
 - [渚碧](https://jubeny.com/)
 - [深入浅出区块链](https://learnblockchain.cn/)
 - [晚晴幽草轩](https://www.jeffjade.com/)
