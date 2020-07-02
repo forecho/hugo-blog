@@ -49,27 +49,27 @@ url: /friendship-links/
 - [LengYues'Blog](https://www.apkdv.com/)
 - [城中村群租房](https://www.darmau.com/)
 - [朋也的博客](https://tomoya92.github.io/)
-- [kok的笔记本](https://wocai.de/)
+- [kok 的笔记本](https://wocai.de/)
 - [Flyaway'Blog](http://zhouyichu.com/)
 - [默](https://jasper-1024.github.io/)
 - [初始化](https://init.blog/)
 - [kn007](https://kn007.net/)
-- [maemoの風船が！](https://www.maemo.cc/)
+- [maemo の風船が！](https://www.maemo.cc/)
 - [意外](https://yukunweb.com/)
 - [逐鹿 IT](http://amonxu.com/)
 - [嘎里三分熟](http://www.jetchen.cn/)
-- [Yisaer](https://yisaer.github.io/)
 - [渚碧](https://jubeny.com/)
 - [深入浅出区块链](https://learnblockchain.cn/)
 - [晚晴幽草轩](https://www.jeffjade.com/)
 - [掘墓人的小铲子](https://juemuren4449.com)
 - [Henry Z's blog](https://changchen.me/)
 - [IOIOX](https://www.ioiox.com/)
+- [Lin.](https://www.mrlin93.com/)
 
 ## 待考察
 
 通常都是刚开始写博客没多久……
 
-- 
+-
 
 期待你的加入……
