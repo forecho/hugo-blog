@@ -33,7 +33,7 @@ toc: true
 - 优势：可以参与打新的港币比较多，而且开始打新时间比其它平台早。
 - 劣势：目前不支持大陆卡入金，只能境外卡入金。
 - 开户地址：<http://link.3li3.com/futu>
-- [![NOZ38J.th.png](https://s1.ax1x.com/2020/07/03/NOZ38J.th.png)](https://imgchr.com/i/NOZ38J)
+[![NOZ38J.th.png](https://s1.ax1x.com/2020/07/03/NOZ38J.th.png)](https://imgchr.com/i/NOZ38J)
 
 ### 雪盈证券
 
@@ -44,7 +44,7 @@ toc: true
 - 优势：融资年化低。
 - 劣势：打新能力不行，热门新股申购要排队，而且大概率会失败。
 - 开户地址：<http://link.3li3.com/xueying>
-- [![NOZ829.th.png](https://s1.ax1x.com/2020/07/03/NOZ829.th.png)](https://imgchr.com/i/NOZ829)
+[![NOZ829.th.png](https://s1.ax1x.com/2020/07/03/NOZ829.th.png)](https://imgchr.com/i/NOZ829)
 
 ### 老虎证券
 
@@ -56,7 +56,7 @@ toc: true
 - 优势：是为数不多支持美股打新的中国证券平台了，有些独家美股打新，这个很有优势。支持大陆卡（民生银行）入金。
 - 劣势：打新杠杆太低，别人都是10倍，老虎只有2倍，能打新的港股没有富途证券的多，而且额度难抢。
 - 开户地址：<http://link.3li3.com/tiger>
-- [![NOZtDx.th.png](https://s1.ax1x.com/2020/07/03/NOZtDx.th.png)](https://imgchr.com/i/NOZtDx)
+[![NOZtDx.th.png](https://s1.ax1x.com/2020/07/03/NOZtDx.th.png)](https://imgchr.com/i/NOZtDx)
 
 ### 长桥证券
 
@@ -67,7 +67,7 @@ toc: true
 - 优势：可以参与打新的港币比较多，相对其他平台比较新，所以经常搞活动。
 - 劣势：目前不支持大陆卡入金，只能境外卡入金。
 - 开户地址：<http://link.3li3.com/qiao>
-- [![NOZGvR.th.png](https://s1.ax1x.com/2020/07/03/NOZGvR.th.png)](https://imgchr.com/i/NOZGvR)
+[![NOZGvR.th.png](https://s1.ax1x.com/2020/07/03/NOZGvR.th.png)](https://imgchr.com/i/NOZGvR)
 
 
 ### 利弗莫尔证券
@@ -79,7 +79,7 @@ toc: true
 - 优势：出入金免费，支持大陆卡入金，有中国银行，工商银行，华夏银行。因为有雷军投资的，所以小米估计不收佣金。打新额度充足，中签率高。
 - 劣势：App 你可能用不习惯吧。
 - 开户地址：<http://link.3li3.com/limo>
-- [![NOZYK1.th.png](https://s1.ax1x.com/2020/07/03/NOZYK1.th.png)](https://imgchr.com/i/NOZYK1)
+[![NOZYK1.th.png](https://s1.ax1x.com/2020/07/03/NOZYK1.th.png)](https://imgchr.com/i/NOZYK1)
 
 
 总的来说，这几个平台都各有优势，那么如何选择呢？
