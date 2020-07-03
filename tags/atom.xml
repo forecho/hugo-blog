@@ -30,6 +30,15 @@
     </item>
     
     <item>
+      <title>popular</title>
+      <link>https://blog.forecho.com/tags/popular.html</link>
+      <pubDate>Mon, 29 Jun 2020 13:09:00 +0800</pubDate>
+      
+      <guid>https://blog.forecho.com/tags/popular.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>深度理财</title>
       <link>https://blog.forecho.com/tags/%E6%B7%B1%E5%BA%A6%E7%90%86%E8%B4%A2.html</link>
       <pubDate>Mon, 29 Jun 2020 13:09:00 +0800</pubDate>
@@ -179,15 +188,6 @@
       <pubDate>Sat, 18 Jan 2020 21:58:00 +0800</pubDate>
       
       <guid>https://blog.forecho.com/tags/%E8%BF%90%E8%90%A5.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Octopress</title>
-      <link>https://blog.forecho.com/tags/octopress.html</link>
-      <pubDate>Thu, 02 Jan 2020 18:48:00 +0800</pubDate>
-      
-      <guid>https://blog.forecho.com/tags/octopress.html</guid>
       <description></description>
     </item>
     
