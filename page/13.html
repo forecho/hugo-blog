@@ -81,6 +81,45 @@
                     
                     <div>
     <h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-2xl lg:text-3xl">
+        <a href="https://blog.forecho.com/initial-understanding-of-micro-service-architecture.html" title="初步了解微服务架构">初步了解微服务架构</a>
+    </h1>
+    <p class="mb-1 text-sm text-gray-500">
+        <span title=" 2017-03-05 21:23:00 &#43;0800">
+            <i class="iconfont icon-calendar" aria-hidden="true"></i> 05 Mar 2017
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-book"></i>
+            1271 字
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-clock-o"></i>
+            3 分钟读完
+        </span>
+    </p>
+</div>
+
+                    
+                    <div class="post-content">
+                        <h2 id="什么是微服务架构">什么是微服务架构</h2>
+<p>是一种架构模式，提倡将单一的应用程序划分成一组小的服务，服务之间相互协调、相互配合，为用户提供最终价值。</p>
+<p>微服务架构其实是将单一的应用程序划分成一组小的服务，每个服务都是具有业务属性的独立单元，同时能够被独立开发、独立运行、独立测试以及独立部署。</p>
+<h2 id="微服务的本质">微服务的本质</h2>
+                    </div>
+                    <p class="text-sm font-semibold pt-5 text-gray-700 ">
+                        <a href="https://blog.forecho.com/initial-understanding-of-micro-service-architecture.html" class="px-5 py-2 inline-block bg-gray-200 rounded  hover:bg-gray-300">阅读全文</a>
+                    </p>
+                </article>
+
+                <hr class="bg-gray-300 mt-10 mb-6">
+            
+                <article >
+                    
+                    <div>
+    <h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-2xl lg:text-3xl">
         <a href="https://blog.forecho.com/i-am-learning-english.html" title="我在学英语">我在学英语</a>
     </h1>
     <p class="mb-1 text-sm text-gray-500">
@@ -496,69 +535,6 @@ sudo vim /etc/shadowsocks.conf
 
                 <hr class="bg-gray-300 mt-10 mb-6">
             
-                <article >
-                    
-                    <div>
-    <h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-2xl lg:text-3xl">
-        <a href="https://blog.forecho.com/write-helper-functions-instead-of-complex-expressions.html" title="用辅助函数来取代复杂的表达式">用辅助函数来取代复杂的表达式</a>
-    </h1>
-    <p class="mb-1 text-sm text-gray-500">
-        <span title=" 2016-12-19 12:09:00 &#43;0800">
-            <i class="iconfont icon-calendar" aria-hidden="true"></i> 19 Dec 2016
-        </span>
-
-        <span class="hidden xl:inline-block">
-            |
-            <i class="iconfont icon-book"></i>
-            1460 字
-        </span>
-
-        <span class="hidden xl:inline-block">
-            |
-            <i class="iconfont icon-clock-o"></i>
-            3 分钟读完
-        </span>
-    </p>
-</div>
-
-                    
-                    <div class="post-content">
-                        <h2 id="引言">引言</h2>
-<p>上上上个月在图书馆淘到一本书叫<a href="https://book.douban.com/subject/26709315/">《Effective Python - 编写高质量Python代码的59个有效方法》</a>，虽然我不用 Python 写代码，但是好歹以前写过一点 Python 的皮毛。
-豆瓣看了一下评分，就果断借了这本书。当看到第四条方法《第4条：用辅助函数来取代复杂的表达式 》结合自己最近几年编程经验，深有感触，于是就有了这篇文章。</p>
-<h2 id="为什么要用辅助函数">为什么要用辅助函数？</h2>
-<p>在编程的时候，你肯定会遇到类似这样的事情：数据库中保存的商品单价单位是分，商品详情页需要你的商品价格，但是单位肯定是元。</p>
-<p>那么我们可以怎么样实现呢？一般的做法肯定这样的，直接在视图页面要展示价格的地方这样写：</p>
-<div class="highlight"><div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
-<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-php" data-lang="php"><span style="color:#099">&lt;?</span><span style="color:#555">=</span> round((<span style="color:#033">$price</span> <span style="color:#555">/</span> <span style="color:#f60">100</span>), <span style="color:#f60">2</span>) <span style="color:#099">?&gt;</span>
-</code></pre></td></tr></table>
-</div>
-</div><p>这样写虽然能实现效果，但是如果需求有变化，需要使用强制保留两位小数，那么你需要这样改：</p>
-<div class="highlight"><div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
-<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-php" data-lang="php"><span style="color:#099">&lt;?</span><span style="color:#555">=</span> number_format(round((<span style="color:#033">$price</span> <span style="color:#555">/</span> <span style="color:#f60">100</span>), <span style="color:#f60">2</span>), <span style="color:#f60">2</span>, <span style="color:#c30">&#39;.&#39;</span>, <span style="color:#c30">&#39;&#39;</span>); <span style="color:#099">?&gt;</span>
-</code></pre></td></tr></table>
-</div>
-</div><p>看上去虽然不多的代码，但是</p>
-<ul>
-<li>阅读起来很困难，而且很上去也很乱。</li>
-<li>如果涉及到很多东西的话，需要找到每个相应的地方然后做修改。同理，下次改需求的时候，修改也将会是一件很痛苦的事情。</li>
-</ul>
-                    </div>
-                    <p class="text-sm font-semibold pt-5 text-gray-700 ">
-                        <a href="https://blog.forecho.com/write-helper-functions-instead-of-complex-expressions.html" class="px-5 py-2 inline-block bg-gray-200 rounded  hover:bg-gray-300">阅读全文</a>
-                    </p>
-                </article>
-
-                <hr class="bg-gray-300 mt-10 mb-6">
-            
             <p class="text-center">
                 <a  class="md:text-xl text-gray-700" href="/posts.html">↑ 文章归档 ↑</a>
             </p>
@@ -579,7 +555,7 @@ sudo vim /etc/shadowsocks.conf
             <div class="flex-1 border-r border-gray-600">
                 <p class="text-center">
                     <span class="text-gray-700 font-bold">
-                        344
+                        345
                     </span>
                     文章
                 </p>
