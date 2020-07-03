@@ -20,6 +20,8 @@ PS：关于如何开通富途证券，详情参考我这篇文章[《我是怎�
 
 ⚠️ 懒人[开户链接](http://link.3li3.com/futu)
 
+![富途证券开户](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/futu5.png!s)
+
 <!--more-->
 
 ### 具体方案
@@ -56,7 +58,7 @@ velo客服工作时间：
 
 有任何入金问题可以微信咨询我的小助理：
 
-![V5hClH](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/V5hClH.jpg)
+![V5hClH](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/V5hClH.jpg!s)
 
 ## 方案二
 
@@ -68,8 +70,9 @@ velo客服工作时间：
 
 使用[老虎证券](http://link.3li3.com/tiger)交易。小米投资的一家专注美港股的互联网券商。
 
-点击 <http://link.3li3.com/tiger> 线上开户通过之后就可以使用大陆银行卡入金了。推荐使用建行的银行卡。
+点击 <http://link.3li3.com/tiger> 线上开户通过之后就可以使用大陆银行卡入金了。推荐使用民生银行卡。
 
+![老虎证券开户](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/itiger.png!s)
 
 ### 入金步骤
 
@@ -85,4 +88,4 @@ velo客服工作时间：
 - 对华美银行账户开通提供支持和补贴。
 
 
-最后如果还有疑问，可以关注我的公众号，私信我。
+最后如果还有疑问，可以加我微信：ipzone （注明来意）。
