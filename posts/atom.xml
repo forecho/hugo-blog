@@ -6,10 +6,20 @@
     <description>Recent content in Posts on forecho&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 03 Jul 2020 11:09:00 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jul 2020 11:09:00 +0800</lastBuildDate>
     
 	<atom:link href="https://blog.forecho.com/posts/atom.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>【深度理财10】富途港股打新全知道</title>
+      <link>https://blog.forecho.com/financedeep-10.html</link>
+      <pubDate>Thu, 09 Jul 2020 11:09:00 +0800</pubDate>
+      
+      <guid>https://blog.forecho.com/financedeep-10.html</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;之前有写过一篇文章 - &lt;a href=&#34;https://blog.forecho.com/financedeep-08.html&#34;&gt;《【深度理财08】美港股打新哪家强》&lt;/a&gt;，介绍了几个没港股打新平台，这篇文章就来详细介绍一下我的富途证券港股打新经验，以及你们最关心的扣费问题。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>【深度理财09】2020最新老虎证券大陆卡入金指南</title>
@@ -257,21 +267,6 @@
 &lt;p&gt;兔子老家是广西了，从小吃粉长大，所以我们现在仍然会保持着一周至少去吃一次螺蛳粉的习惯。&lt;/p&gt;
 &lt;p&gt;这篇文章只要是分享我家楼下附近的那家螺蛳粉，这家店的老板不简单，粉做的不错，重点是非常会营销。生意是越做越火，开了2年多了，不仅没倒闭，而且今年已经开了第二家分店了。&lt;/p&gt;
 &lt;p&gt;我觉得挺有意思的，打算分享给大家。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Octopress 迁移到 Hugo</title>
-      <link>https://blog.forecho.com/octopress-migrate-to-hugo.html</link>
-      <pubDate>Thu, 02 Jan 2020 18:48:00 +0800</pubDate>
-      
-      <guid>https://blog.forecho.com/octopress-migrate-to-hugo.html</guid>
-      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
-&lt;p&gt;终于还是受不了 Octopress 了，准备迁移到 &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;，受不了 Octopress 是因为：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;markdown code 语法支持不好，很多时候莫名其妙的 Build 失败，让人抓狂。（最主要原因）&lt;/li&gt;
-&lt;li&gt;生成速度太慢，目前生成一次要2分多钟了&lt;/li&gt;
-&lt;li&gt;Octopress 项目已经没人维护了&lt;/li&gt;
-&lt;/ul&gt;</description>
     </item>
     
   </channel>
