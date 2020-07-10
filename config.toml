@@ -39,7 +39,7 @@ homepage = "https://forecho.com/"
 
 [params]
 favicon = "https://avatars0.githubusercontent.com/u/1725326?s=460&v=4"
-keywords = "yii2, yii, php develop, php, ios, ruby, python, swift, web development"
+keywords = "yii2, yii, 炒美股, 如何炒美股, 美股入金 php, ios, ruby, python, swift, web development"
 description = "forecho, forecho blog, forecho 独立博客"
 toc = true
 navItems = [
@@ -55,7 +55,7 @@ busuanzi = true # 是否使用不蒜子统计站点访问量
 staticCDNPrefix = "https://cdn.bootcss.com/font-awesome/5.11.2"
 extraHead = '<meta name="baidu-site-verification" content="WuHyHeOJtJ" />'
 postAds = ""
-profileAds = '<div class="bg-white shadow"><img class=" object-cover w-auto mx-auto mt-6" src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424153337.png" alt="微信打赏"></div>'
+profileAds = '<div class="bg-white shadow"><img class=" object-cover w-auto mx-auto mt-6" loading="lazy" src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424153337.png" title="微信：ipzone" alt="微信：ipzone"></div>'
 notFoundAds = ''
 
 # 开启版权声明，协议名字和链接都可以换
