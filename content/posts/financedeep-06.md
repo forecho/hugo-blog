@@ -22,7 +22,7 @@ toc: true
 
 真不知道该感谢京东股票呢？还是感谢京东股票？它这样一搞，我要想交易就得用嘉维证券 App，那个 App 好难用，我都不知道怎么用，反正买的钱也不多，我就一直放着在，到现在为止你们猜收益是多少？答案是260%，2年多的时间。
 
-![U5UQTQ](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/U5UQTQ.jpg)
+![U5UQTQ](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/U5UQTQ.jpg!m)
 
 可以说是运气吧，曾经也跌过很惨，考虑是不是清仓了，但是他们那个 App 不太会用没，而且即使全清仓了，把钱赎回到银行卡也有点麻烦，反正也不等着钱用，就一直放着没交易过了。具体经历可以看我另外一篇文章[《我是怎么投资美股的》](https://blog.forecho.com/how-do-i-invest-in-american-stocks.html)。
 

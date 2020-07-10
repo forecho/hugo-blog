@@ -10,7 +10,7 @@ toc: true
 
 不知道是不是前一阵子在家干活（Coding）太猛了还是怎么着，有一天突然发现我的 Macbook Pro 盖子盖不严了，特别是刚使用完一阵子电脑还处于比较热的时候，如下图：
 
-![IMG_4057](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/IMG_4057.JPG)
+![IMG_4057](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/IMG_4057.JPG!m)
 
 对于使用多年 Mac 电脑的我来说，一看就知道是电池鼓包了。但是以往都是用了好几年（应该有大于3年）才这样，没想到这次我电脑还没到2年就这样了。简单了查了一些资料之后我决定去找 Apple 售后。
 

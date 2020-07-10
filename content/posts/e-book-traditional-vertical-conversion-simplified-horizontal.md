@@ -29,7 +29,7 @@ toc: true
 - 然后编辑对应的书籍
 - 然后在菜单栏找到『插件』然后点击我们刚安装的『Chinese Text Conversion』插件，设置参数，然后点确定就可以了。参考设置如下图（注意根据自己需求修改设置）：
 
-![k1QTP2](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/k1QTP2.jpg)
+![k1QTP2](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/k1QTP2.jpg!m)
 
 ## 最后
 

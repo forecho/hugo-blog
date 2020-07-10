@@ -24,7 +24,7 @@ toc: true
 
 ## 收益如何
 
-![GL9FFo](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/GL9FFo.jpg)
+![GL9FFo](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/GL9FFo.jpg!m)
 
 最近30天，有110的收入，不多，但是买点零食吃还是可以的。我只是在前期花了一点时间，后期完全没怎么打理。
 
@@ -36,7 +36,7 @@ toc: true
 
 - 第一步，先微信扫码，注册账号：
 
-![vXuOYF](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/vXuOYF.jpg)
+![vXuOYF](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/vXuOYF.jpg!m)
 
 - 然后就建立你的微信群，拉好友发朋友圈进群。
 - 刚开始你的群人很少，没有达到50人不能申请机器人助理帮你发优惠券，你只能手动去发优惠消息了。但是你可以通过作弊的方式获取机器人，因为开通机器人的审核比较简单。
@@ -50,4 +50,4 @@ toc: true
 
 除了芬香另外还有一个类似的平台，叫『京小店』，虽然不如芳香稳定，当是你也可以试试，一个群里面添加两个机器人发优惠券，这个事情我干过。
 
-![jkN43c](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/jkN43c.jpg)
+![jkN43c](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/jkN43c.jpg!m)
