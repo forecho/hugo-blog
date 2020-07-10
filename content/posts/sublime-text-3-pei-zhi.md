@@ -6,24 +6,30 @@ draft: false
 toc: true
 ---
 
-**安装 Packages** 1、ctrl+` 2、输入命令：
+**安装 Packages** 
 
-    import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())
+1、ctrl+` 2、输入命令：
 
-**Preferences > Settings -User**基本的配置：
+```
+import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())
+```
 
-    {
-        "font_size": 13,
-        "ignored_packages":
-        [
-            "Vintage"
-        ],
-        "spell_check": false,
-        "font_face": "YaHei Consolas Hybrid",
-        "trim_trailing_white_space_on_save": true, //去除空格
-        "update_check": false,
-        "word_wrap": false
-    }
+**Preferences > Settings -User** 基本的配置：
+
+```
+{
+    "font_size": 13,
+    "ignored_packages":
+    [
+        "Vintage"
+    ],
+    "spell_check": false,
+    "font_face": "YaHei Consolas Hybrid",
+    "trim_trailing_white_space_on_save": true, //去除空格
+    "update_check": false,
+    "word_wrap": false
+}
+```
 
 一些基本的插件：
 
@@ -45,10 +51,12 @@ toc: true
 
 - [CodeFormatter](https://github.com/akalongman/sublimetext-codeformatter)：代码格式化
 
-注：可能是QQ和这个冲突了，自行设置了一下快捷键就可以用了。 打开 Preferences=>Package Settings=>Alignment=>Key Bindding - User 然后写入：
+注：可能是QQ和这个冲突了，自行设置了一下快捷键就可以用了。 打开 `Preferences=>Package Settings=>Alignment=>Key Bindding - User` 然后写入：
 
-    [
-        { "keys": ["ctrl+alt+f"], "command": "alignment" }
-    ]
+```
+[
+    { "keys": ["ctrl+alt+f"], "command": "alignment" }
+]
+```
 
 或者改成其他不冲突的快捷键即可。
