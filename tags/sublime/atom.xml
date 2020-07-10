@@ -17,7 +17,7 @@
       <pubDate>Mon, 10 Feb 2014 11:37:00 +0800</pubDate>
       
       <guid>https://blog.forecho.com/sublime-text-3-pei-zhi.html</guid>
-      <description>安装 Packages 1、ctrl+` 2、输入命令： import urllib.request,os; pf = &#39;Package Control.sublime-package&#39;; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), &#39;wb&#39;).write(urllib.request.urlopen( &#39;http://sublime.wbond.net/&#39; + pf.replace(&#39; &#39;,&#39;%20&#39;)).read()) Preferences &amp;gt; Settings -User基本的配置： { &amp;quot;font_size&amp;quot;: 13, &amp;quot;ignored_packages&amp;quot;: [ &amp;quot;Vintage&amp;quot; ], &amp;quot;spell_check&amp;quot;: false, &amp;quot;font_face&amp;quot;: &amp;quot;YaHei Consolas Hybrid&amp;quot;, &amp;quot;trim_trailing_white_space_on_save&amp;quot;: true, //去</description>
+      <description>安装 Packages 1、ctrl+` 2、输入命令： 1 import urllib.request,os; pf = &amp;#39;Package Control.sublime-package&amp;#39;; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), &amp;#39;wb&amp;#39;).write(urllib.request.urlopen( &amp;#39;http://sublime.wbond.net/&amp;#39; + pf.replace(&amp;#39; &amp;#39;,&amp;#39;%20&amp;#39;)).read()) Preferences &amp;gt; Settings -User 基本的配置： 1 2 3 4 5 6 7 8 9 10 11 12 { &amp;#34;font_size&amp;#34;: 13, &amp;#34;ignored_packages&amp;#34;: [ &amp;#34;Vintage&amp;#34; ], &amp;#34;spell_check&amp;#34;: false,</description>
     </item>
     
   </channel>

@@ -16,9 +16,9 @@
     <meta property="title" content="Sublime Text 3配置 - forecho&#39;s Blog">
     <meta property="og:title" content="Sublime Text 3配置 - forecho&#39;s Blog">
     <meta property="twitter:title" content="Sublime Text 3配置 - forecho&#39;s Blog">
-    <meta property="description" content="安装 Packages 1、ctrl&#43;` 2、输入命令： import urllib.request,os; pf = &#39;Package Control.sublime-package&#39;; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), &#39;wb&#39;).write(urllib.request.urlopen( &#39;http://sublime.wbond.net/&#39; &#43; pf.replace(&#39; &#39;,&#39;%20&#39;)).read()) Preferences &gt; Settings -User基本的配置： { &quot;font_size&quot;: 13, &quot;ignored_packages&quot;: [ &quot;Vintage&quot; ], &quot;spell_check&quot;: false, &quot;font_face&quot;: &quot;YaHei Consolas Hybrid&quot;, &quot;trim_trailing_white_space_on_save&quot;: true, //去">
-    <meta property="og:description" content="安装 Packages 1、ctrl&#43;` 2、输入命令： import urllib.request,os; pf = &#39;Package Control.sublime-package&#39;; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), &#39;wb&#39;).write(urllib.request.urlopen( &#39;http://sublime.wbond.net/&#39; &#43; pf.replace(&#39; &#39;,&#39;%20&#39;)).read()) Preferences &gt; Settings -User基本的配置： { &quot;font_size&quot;: 13, &quot;ignored_packages&quot;: [ &quot;Vintage&quot; ], &quot;spell_check&quot;: false, &quot;font_face&quot;: &quot;YaHei Consolas Hybrid&quot;, &quot;trim_trailing_white_space_on_save&quot;: true, //去">
-    <meta property="twitter:description" content="安装 Packages 1、ctrl&#43;` 2、输入命令： import urllib.request,os; pf = &#39;Package Control.sublime-package&#39;; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), &#39;wb&#39;).write(urllib.request.urlopen( &#39;http://sublime.wbond.net/&#39; &#43; pf.replace(&#39; &#39;,&#39;%20&#39;)).read()) Preferences &gt; Settings -User基本的配置： { &quot;font_size&quot;: 13, &quot;ignored_packages&quot;: [ &quot;Vintage&quot; ], &quot;spell_check&quot;: false, &quot;font_face&quot;: &quot;YaHei Consolas Hybrid&quot;, &quot;trim_trailing_white_space_on_save&quot;: true, //去">
+    <meta property="description" content="安装 Packages 1、ctrl&#43;` 2、输入命令： 1 import urllib.request,os; pf = &#39;Package Control.sublime-package&#39;; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), &#39;wb&#39;).write(urllib.request.urlopen( &#39;http://sublime.wbond.net/&#39; &#43; pf.replace(&#39; &#39;,&#39;%20&#39;)).read()) Preferences &gt; Settings -User 基本的配置： 1 2 3 4 5 6 7 8 9 10 11 12 { &#34;font_size&#34;: 13, &#34;ignored_packages&#34;: [ &#34;Vintage&#34; ], &#34;spell_check&#34;: false,">
+    <meta property="og:description" content="安装 Packages 1、ctrl&#43;` 2、输入命令： 1 import urllib.request,os; pf = &#39;Package Control.sublime-package&#39;; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), &#39;wb&#39;).write(urllib.request.urlopen( &#39;http://sublime.wbond.net/&#39; &#43; pf.replace(&#39; &#39;,&#39;%20&#39;)).read()) Preferences &gt; Settings -User 基本的配置： 1 2 3 4 5 6 7 8 9 10 11 12 { &#34;font_size&#34;: 13, &#34;ignored_packages&#34;: [ &#34;Vintage&#34; ], &#34;spell_check&#34;: false,">
+    <meta property="twitter:description" content="安装 Packages 1、ctrl&#43;` 2、输入命令： 1 import urllib.request,os; pf = &#39;Package Control.sublime-package&#39;; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), &#39;wb&#39;).write(urllib.request.urlopen( &#39;http://sublime.wbond.net/&#39; &#43; pf.replace(&#39; &#39;,&#39;%20&#39;)).read()) Preferences &gt; Settings -User 基本的配置： 1 2 3 4 5 6 7 8 9 10 11 12 { &#34;font_size&#34;: 13, &#34;ignored_packages&#34;: [ &#34;Vintage&#34; ], &#34;spell_check&#34;: false,">
     <meta property="og:type" content="article">
     <title>Sublime Text 3配置 - forecho&#39;s Blog</title>
 
@@ -92,7 +92,7 @@
         <span class="hidden xl:inline-block">
             |
             <i class="iconfont icon-book"></i>
-            317 字
+            329 字
         </span>
 
         <span class="hidden xl:inline-block">
@@ -114,24 +114,48 @@
         </div> 
 
         <div class="post-content">
-            <p><strong>安装 Packages</strong> 1、ctrl+` 2、输入命令：</p>
-<pre><code>import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())
-</code></pre>
-<p><strong>Preferences &gt; Settings -User</strong>基本的配置：</p>
-<pre><code>{
-    &quot;font_size&quot;: 13,
-    &quot;ignored_packages&quot;:
+            <p><strong>安装 Packages</strong></p>
+<p>1、ctrl+` 2、输入命令：</p>
+<div class="highlight"><div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-fallback" data-lang="fallback">import urllib.request,os; pf = &#39;Package Control.sublime-package&#39;; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), &#39;wb&#39;).write(urllib.request.urlopen( &#39;http://sublime.wbond.net/&#39; + pf.replace(&#39; &#39;,&#39;%20&#39;)).read())
+</code></pre></td></tr></table>
+</div>
+</div><p><strong>Preferences &gt; Settings -User</strong> 基本的配置：</p>
+<div class="highlight"><div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-fallback" data-lang="fallback">{
+    &#34;font_size&#34;: 13,
+    &#34;ignored_packages&#34;:
     [
-        &quot;Vintage&quot;
+        &#34;Vintage&#34;
     ],
-    &quot;spell_check&quot;: false,
-    &quot;font_face&quot;: &quot;YaHei Consolas Hybrid&quot;,
-    &quot;trim_trailing_white_space_on_save&quot;: true, //去除空格
-    &quot;update_check&quot;: false,
-    &quot;word_wrap&quot;: false
+    &#34;spell_check&#34;: false,
+    &#34;font_face&#34;: &#34;YaHei Consolas Hybrid&#34;,
+    &#34;trim_trailing_white_space_on_save&#34;: true, //去除空格
+    &#34;update_check&#34;: false,
+    &#34;word_wrap&#34;: false
 }
-</code></pre>
-<p>一些基本的插件：</p>
+</code></pre></td></tr></table>
+</div>
+</div><p>一些基本的插件：</p>
 <ul>
 <li>
 <p>Emmet：必装插件。</p>
@@ -161,12 +185,20 @@
 <p><a href="https://github.com/akalongman/sublimetext-codeformatter">CodeFormatter</a>：代码格式化</p>
 </li>
 </ul>
-<p>注：可能是QQ和这个冲突了，自行设置了一下快捷键就可以用了。 打开 Preferences=&gt;Package Settings=&gt;Alignment=&gt;Key Bindding - User 然后写入：</p>
-<pre><code>[
-    { &quot;keys&quot;: [&quot;ctrl+alt+f&quot;], &quot;command&quot;: &quot;alignment&quot; }
+<p>注：可能是QQ和这个冲突了，自行设置了一下快捷键就可以用了。 打开 <code>Preferences=&gt;Package Settings=&gt;Alignment=&gt;Key Bindding - User</code> 然后写入：</p>
+<div class="highlight"><div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-fallback" data-lang="fallback">[
+    { &#34;keys&#34;: [&#34;ctrl+alt+f&#34;], &#34;command&#34;: &#34;alignment&#34; }
 ]
-</code></pre>
-<p>或者改成其他不冲突的快捷键即可。</p>
+</code></pre></td></tr></table>
+</div>
+</div><p>或者改成其他不冲突的快捷键即可。</p>
 
 
             <hr class="bg-gray-300 mt-8">
