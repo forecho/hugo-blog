@@ -7,7 +7,7 @@ DefaultContentLanguage = "cn"
 hasCJKLanguage = true
 # 设置页面生成形式，将默认的网站路径/修改成.html
 uglyURLs = true
-googleAnalytics = "UA-75634412-1"      # UA-XXXXXXXX-X
+googleAnalytics = "UA-75634412-1" # UA-XXXXXXXX-X
 
 [markup.highlight]
 codeFences = true # 高亮markdown的代码块
@@ -53,7 +53,7 @@ rssFullContent = true
 uglyURLs = true
 busuanzi = true # 是否使用不蒜子统计站点访问量
 staticCDNPrefix = "https://cdn.bootcss.com/font-awesome/5.11.2"
-extraHead = '<meta name="baidu-site-verification" content="WuHyHeOJtJ" />'
+extraHead = '<meta name="google-site-verification" content="OMI81_SJiESxwq-Fr0CLleoF7EzVdRx7QTQlbAfCVdI" /><meta name="baidu-site-verification" content="WuHyHeOJtJ" />'
 postAds = ""
 profileAds = '<div class="bg-white shadow"><img class=" object-cover w-auto mx-auto mt-6" loading="lazy" src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424153337.png" title="微信：ipzone" alt="微信：ipzone"></div>'
 notFoundAds = ''
