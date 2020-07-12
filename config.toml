@@ -8,6 +8,7 @@ hasCJKLanguage = true
 # 设置页面生成形式，将默认的网站路径/修改成.html
 uglyURLs = true
 googleAnalytics = "UA-75634412-1" # UA-XXXXXXXX-X
+enableRobotsTXT = true
 
 [markup.highlight]
 codeFences = true # 高亮markdown的代码块
