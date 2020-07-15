@@ -43,4 +43,4 @@ deploy:
     branch: master # 博客源码的分支
 
 notifications:
-  slack: forecho:SQsHQyf5h6ibbGJAr501gff0
+  slack: $SLACK_TOKEN
