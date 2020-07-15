@@ -27,7 +27,6 @@ script:
   - git submodule update --init
   - git submodule update --remote --merge
   - hugo
-  - echo "blog.forecho.com" > public/CNAME
 
 deploy:
   provider: pages # 重要，指定这是一份github pages的部署配置
