@@ -42,4 +42,6 @@ deploy:
     branch: master # 博客源码的分支
 
 notifications:
-  slack: $SLACK_TOKEN
+  slack:
+    on_success: always
+    rooms: $SLACK_TOKEN
