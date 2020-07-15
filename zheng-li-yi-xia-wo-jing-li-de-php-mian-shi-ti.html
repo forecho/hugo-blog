@@ -15,9 +15,9 @@
     <meta property="title" content="整理一下我经历的PHP面试题 - forecho&#39;s Blog">
     <meta property="og:title" content="整理一下我经历的PHP面试题 - forecho&#39;s Blog">
     <meta property="twitter:title" content="整理一下我经历的PHP面试题 - forecho&#39;s Blog">
-    <meta name="description" content="1、用css、html编写一个两列布局的网页，右侧固定宽度200px，左侧自适应。（答案如下，IE下没测试，Chrome下正常） &lt;!DOCTYPE html&gt; &lt;html&gt; &lt;head&gt; &lt;meta http-equiv=&quot;content-type&quot;">
-    <meta property="og:description" content="1、用css、html编写一个两列布局的网页，右侧固定宽度200px，左侧自适应。（答案如下，IE下没测试，Chrome下正常） &lt;!DOCTYPE html&gt; &lt;html&gt; &lt;head&gt; &lt;meta http-equiv=&quot;content-type&quot;">
-    <meta property="twitter:description" content="1、用css、html编写一个两列布局的网页，右侧固定宽度200px，左侧自适应。（答案如下，IE下没测试，Chrome下正常） &lt;!DOCTYPE html&gt; &lt;html&gt; &lt;head&gt; &lt;meta http-equiv=&quot;content-type&quot;">
+    <meta name="description" content="1、用 css、html 编写一个两列布局的网页，右侧固定宽度 200px，左侧自适应。（答案如下，IE 下没测试，Chrome 下正常） 1 2 3 4 5 6">
+    <meta property="og:description" content="1、用 css、html 编写一个两列布局的网页，右侧固定宽度 200px，左侧自适应。（答案如下，IE 下没测试，Chrome 下正常） 1 2 3 4 5 6">
+    <meta property="twitter:description" content="1、用 css、html 编写一个两列布局的网页，右侧固定宽度 200px，左侧自适应。（答案如下，IE 下没测试，Chrome 下正常） 1 2 3 4 5 6">
     <meta property="og:type" content="article">
     <title>整理一下我经历的PHP面试题 - forecho&#39;s Blog</title>
 
@@ -91,7 +91,7 @@
         <span class="hidden xl:inline-block">
             |
             <i class="iconfont icon-book"></i>
-            1682 字
+            1678 字
         </span>
 
         <span class="hidden xl:inline-block">
@@ -113,50 +113,90 @@
         </div> 
 
         <div class="post-content">
-            <p>1、用css、html编写一个两列布局的网页，右侧固定宽度200px，左侧自适应。（答案如下，IE下没测试，Chrome下正常）</p>
-<pre><code>&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-&lt;head&gt;
-    &lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=utf-8&quot; /&gt;
-    &lt;title&gt;&lt;/title&gt;
-&lt;/head&gt;
-&lt;style type=&quot;text/css&quot;&gt;
-div{
-    height: 200px;
-}
-#left{
-    float: left;
-    width: 100%;
-    margin-left: -210px;
-}
-#content{
-    margin-left: 210px;
-    border: 1px solid #ccc;
-}
-#right{
-    float: right;
-    width: 200px;
-    border: 1px solid #ccc;
-}
-
-&lt;/style&gt;
-&lt;body&gt;
-&lt;div id=&quot;left&quot;&gt;
-    &lt;div id=&quot;content&quot;&gt;
+            <p>1、用 css、html 编写一个两列布局的网页，右侧固定宽度 200px，左侧自适应。（答案如下，IE 下没测试，Chrome 下正常）</p>
+<div class="highlight"><div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">24
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">25
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">26
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">27
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">28
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">29
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">30
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">31
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">32
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">33
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">34
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">35
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">36
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">37
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-html" data-lang="html"><span style="color:#099">&lt;!DOCTYPE html&gt;</span>
+&lt;<span style="color:#309;font-weight:bold">html</span>&gt;
+  &lt;<span style="color:#309;font-weight:bold">head</span>&gt;
+    &lt;<span style="color:#309;font-weight:bold">meta</span> <span style="color:#309">http-equiv</span><span style="color:#555">=</span><span style="color:#c30">&#34;content-type&#34;</span> <span style="color:#309">content</span><span style="color:#555">=</span><span style="color:#c30">&#34;text/html; charset=utf-8&#34;</span> /&gt;
+    &lt;<span style="color:#309;font-weight:bold">title</span>&gt;&lt;/<span style="color:#309;font-weight:bold">title</span>&gt;
+  &lt;/<span style="color:#309;font-weight:bold">head</span>&gt;
+  &lt;<span style="color:#309;font-weight:bold">style</span> <span style="color:#309">type</span><span style="color:#555">=</span><span style="color:#c30">&#34;text/css&#34;</span>&gt;
+    <span style="color:#309;font-weight:bold">div</span> {
+      <span style="color:#069;font-weight:bold">height</span>: <span style="color:#f60">200</span><span style="color:#078;font-weight:bold">px</span>;
+    }
+    #<span style="color:#0cf;font-weight:bold">left</span> {
+      <span style="color:#069;font-weight:bold">float</span>: <span style="color:#069;font-weight:bold">left</span>;
+      <span style="color:#069;font-weight:bold">width</span>: <span style="color:#f60">100</span><span style="color:#078;font-weight:bold">%</span>;
+      <span style="color:#069;font-weight:bold">margin-left</span>: <span style="color:#f60">-210</span><span style="color:#078;font-weight:bold">px</span>;
+    }
+    #<span style="color:#0cf;font-weight:bold">content</span> {
+      <span style="color:#069;font-weight:bold">margin-left</span>: <span style="color:#f60">210</span><span style="color:#078;font-weight:bold">px</span>;
+      <span style="color:#069;font-weight:bold">border</span>: <span style="color:#f60">1</span><span style="color:#078;font-weight:bold">px</span> <span style="color:#069;font-weight:bold">solid</span> <span style="color:#f60">#ccc</span>;
+    }
+    #<span style="color:#0cf;font-weight:bold">right</span> {
+      <span style="color:#069;font-weight:bold">float</span>: <span style="color:#069;font-weight:bold">right</span>;
+      <span style="color:#069;font-weight:bold">width</span>: <span style="color:#f60">200</span><span style="color:#078;font-weight:bold">px</span>;
+      <span style="color:#069;font-weight:bold">border</span>: <span style="color:#f60">1</span><span style="color:#078;font-weight:bold">px</span> <span style="color:#069;font-weight:bold">solid</span> <span style="color:#f60">#ccc</span>;
+    }
+  &lt;/<span style="color:#309;font-weight:bold">style</span>&gt;
+  &lt;<span style="color:#309;font-weight:bold">body</span>&gt;
+    &lt;<span style="color:#309;font-weight:bold">div</span> <span style="color:#309">id</span><span style="color:#555">=</span><span style="color:#c30">&#34;left&#34;</span>&gt;
+      &lt;<span style="color:#309;font-weight:bold">div</span> <span style="color:#309">id</span><span style="color:#555">=</span><span style="color:#c30">&#34;content&#34;</span>&gt;
         我在左边 可以自动适应
-    &lt;/div&gt;
-&lt;/div&gt;
+      &lt;/<span style="color:#309;font-weight:bold">div</span>&gt;
+    &lt;/<span style="color:#309;font-weight:bold">div</span>&gt;
 
-&lt;div id=&quot;right&quot;&gt;
-    我在右边 固定宽度200px
-&lt;/div&gt;
-
-&lt;/body&gt;
-&lt;/html&gt;
-</code></pre>
-<p>2、简单描述mysql中，索引，主键，唯一索引，联合索引的区别，对数据库的性能有什么影响（从读写两方面）</p>
+    &lt;<span style="color:#309;font-weight:bold">div</span> <span style="color:#309">id</span><span style="color:#555">=</span><span style="color:#c30">&#34;right&#34;</span>&gt;
+      我在右边 固定宽度200px
+    &lt;/<span style="color:#309;font-weight:bold">div</span>&gt;
+  &lt;/<span style="color:#309;font-weight:bold">body</span>&gt;
+&lt;/<span style="color:#309;font-weight:bold">html</span>&gt;
+</code></pre></td></tr></table>
+</div>
+</div><p>2、简单描述 mysql 中，索引，主键，唯一索引，联合索引的区别，对数据库的性能有什么影响（从读写两方面）</p>
 <blockquote>
-<p>索引是一种特殊的文件(InnoDB数据表上的索引是表空间的一个组成部分)，它们包含着对数据表里所有记录的引用指针。 普通索引(由关键字KEY或INDEX定义的索引)的唯一任务是加快对数据的访问速度。普通索引允许被索引的数据列包含重复的值。如果能确定某个数据列将只包含彼此各不相同的值，在为这个数据列创建索引的时候就应该用关键字UNIQUE把它定义为一个唯一索引。也就是说，唯一索引可以保证数据记录的唯一性。 主键，是一种特殊的唯一索引，在一张表中只能定义一个主键索引，主键用于唯一标识一条记录，使用关键字PRIMARYKEY来创建。 索引可以覆盖多个数据列，如像INDEX(columnA,columnB)索引，这就是联合索引。索引可以极大的提高数据的查询速度，但是会降低插入、删除、更新表的速度，因为在执行这些写操作时，还要操作索引文件。</p>
+<p>索引是一种特殊的文件(InnoDB 数据表上的索引是表空间的一个组成部分)，它们包含着对数据表里所有记录的引用指针。 普通索引(由关键字 KEY 或 INDEX 定义的索引)的唯一任务是加快对数据的访问速度。普通索引允许被索引的数据列包含重复的值。如果能确定某个数据列将只包含彼此各不相同的值，在为这个数据列创建索引的时候就应该用关键字 UNIQUE 把它定义为一个唯一索引。也就是说，唯一索引可以保证数据记录的唯一性。 主键，是一种特殊的唯一索引，在一张表中只能定义一个主键索引，主键用于唯一标识一条记录，使用关键字 PRIMARYKEY 来创建。 索引可以覆盖多个数据列，如像 INDEX(columnA,columnB)索引，这就是联合索引。索引可以极大的提高数据的查询速度，但是会降低插入、删除、更新表的速度，因为在执行这些写操作时，还要操作索引文件。</p>
 </blockquote>
 <p>3、JS 表单弹出对话框函数是 ?获得输入焦点函数是 ?</p>
 <blockquote>
@@ -164,23 +204,29 @@ div{
 </blockquote>
 <p>4、JS 的转向函数是?怎么引入一个外部 JS 文件?</p>
 <blockquote>
-<p>转向使用 window.location.href=&rdquo;&rdquo; 引入外部 js 使用 <!-- raw HTML omitted --></p>
+<p>转向使用 window.location.href=&rdquo;&rdquo; 引入外部 js 使用 &hellip;</p>
 </blockquote>
 <p>5、include 和 require 都能把另外一个文件包含到当前文件中 ,他们有什么区别? Include 和 include_once 又有什么区别?</p>
 <blockquote>
-<p>二者区别只有一个,那就是对包含文件的需求程度, include就是包含,如果被包含的 文件不存在的话,那么则会提示一个错误,但是程序会继续执行下去。而 require 意思是需要,如果被包含文件不存在或者无法打开的时候,则会提示错误, 并且会终止程序的执行。这两种结构除了在如何处理失败之外完全一样 。once 的意思是一次,那么 include_once 和 require_once 表示只包含一次,避免重复包含。</p>
+<p>二者区别只有一个,那就是对包含文件的需求程度, include 就是包含,如果被包含的 文件不存在的话,那么则会提示一个错误,但是程序会继续执行下去。而 require 意思是需要,如果被包含文件不存在或者无法打开的时候,则会提示错误, 并且会终止程序的执行。这两种结构除了在如何处理失败之外完全一样 。once 的意思是一次,那么 include_once 和 require_once 表示只包含一次,避免重复包含。</p>
 </blockquote>
 <p>6、echo(),print(),print_r()的区别?</p>
 <blockquote>
 <p>echo 是一个语言结构,输出一个或多个字符串; print() 实际上不是一个函数(它是一个语言结构),因此你可以不必使用圆括号来括起 它的参数列表 ,它输出一个字符串 ; print_r () 是一个函数,打印变量的信息,基本类型,数组,对象。</p>
 </blockquote>
 <p>7、用 PHP 打印出前一天的时间格式是 2006-5-10 22:21:21。</p>
-<pre><code>&lt;?php echo date(&quot;Y-m-d H:i:s&quot;, time()-3600*24); ?&gt;
-&lt;?php echo date(&quot;Y-m-d H:i:s&quot;, strtotime(&quot;-1 days&quot;)); ?&gt;
-</code></pre>
-<p>8、求两个日期的差数,例如 2009-3-1 ~ 2009-4-4 的日期差数？</p>
-<pre><code>&lt;?php echo (strtotime(&quot;2009-4-4&quot;)-strtotime(&quot;2009-3-1&quot;))/3600*24;?&gt;
-</code></pre>
+<div class="highlight"><div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-php" data-lang="php"><span style="color:#099">&lt;?php</span> <span style="color:#069;font-weight:bold">echo</span> date(<span style="color:#c30">&#34;Y-m-d H:i:s&#34;</span>, time()<span style="color:#555">-</span><span style="color:#f60">3600</span><span style="color:#555">*</span><span style="color:#f60">24</span>); <span style="color:#099">?&gt;</span>
+<span style="color:#099">&lt;?php</span> <span style="color:#069;font-weight:bold">echo</span> date(<span style="color:#c30">&#34;Y-m-d H:i:s&#34;</span>, strtotime(<span style="color:#c30">&#34;-1 days&#34;</span>)); <span style="color:#099">?&gt;</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>8、求两个日期的差数,例如 2009-3-1 ~ 2009-4-4 的日期差数？</p>
+<!-- raw HTML omitted -->
 <p>9、用 PHP 写出显示客户端 IP 与服务器 IP 的代码。</p>
 <blockquote>
 <p>客户端 IP:$_SERVER[&ldquo;REMOTE_ADDR&rdquo;] 服务器端 IP:$_SERVER[&ldquo;SERVER_ADDR&rdquo;]</p>
@@ -196,7 +242,7 @@ div{
 <p>12、请简述项目中优化 sql 语句执行效率的方法,从哪些方面,sql 语句性能如何分析?</p>
 <blockquote>
 <ol>
-<li>尽量选择较小的列 2) 将where中用的比较频繁的字段建立索引 3) select子句中避免使用‘*’ 4) 避免在索引列上使用计算 、not in 和&lt;&gt;等操作 5) 当只需要一行数据的时候使用 limit 1 6) 保证单表数据不超过 200W,适时分割表。 针对查询较慢的语句,可以使用explain 来分析该语句具体的执行情况。</li>
+<li>尽量选择较小的列 2) 将 where 中用的比较频繁的字段建立索引 3) select 子句中避免使用‘*’ 4) 避免在索引列上使用计算 、not in 和&lt;&gt;等操作 5) 当只需要一行数据的时候使用 limit 1 6) 保证单表数据不超过 200W,适时分割表。 针对查询较慢的语句,可以使用 explain 来分析该语句具体的执行情况。</li>
 </ol>
 </blockquote>
 <p>13、简述在 MySQL 数据库中 MyISAM 和 InnoDB 的区别？</p>
