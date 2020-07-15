@@ -13,7 +13,7 @@ install:
   - uname -a
   # - wget $(curl -s https://api.github.com/repos/gohugoio/hugo/releases/latest | grep "browser_download_url.*hugo_[^extended].*_Linux-64bit.deb" | cut -d ":" -f 2,3 | tr -d \")
   - wget https://github.com/gohugoio/hugo/releases/download/v0.68.0/hugo_0.68.0_Linux-64bit.deb
-  - sudo dpkg -i hugo*.deb
+  - dpkg -i hugo*.deb
   - hugo version
   - ls
   - pwd
@@ -31,7 +31,7 @@ script:
 
 deploy:
   provider: pages # 重要，指定这是一份github pages的部署配置
-  skip-cleanup: true # 重要，不能省略
+  cleanup: true # 重要，不能省略
   local-dir: public # 静态站点文件所在目录
   target-branch: gh-pages # 要将静态站点文件发布到哪个分支
   github-token: $GITHUB_TOKEN # 重要，$GITHUB_TOKEN是变量，需要在GitHub上申请、再到配置到Travis
