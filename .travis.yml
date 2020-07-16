@@ -34,7 +34,7 @@ deploy:
   skip-cleanup: true # 重要，不能省略
   local-dir: public # 静态站点文件所在目录
   target-branch: gh-pages # 要将静态站点文件发布到哪个分支
-  github-token: $GITHUB_TOKEN # 重要，$GITHUB_TOKEN是变量，需要在GitHub上申请、再到配置到Travis
+  github-token: ${GITHUB_TOKEN} # 重要，$GITHUB_TOKEN是变量，需要在GitHub上申请、再到配置到Travis
   email: caizhenghai@gmail.com
   name: forecho
   fqdn: blog.forecho.com # 如果是自定义域名，此处要填
