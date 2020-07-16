@@ -1,12 +1,15 @@
-if: branch =~ ^master$
 language: go
 go:
   - 1.12
 
 sudo: false
 
+branches:
+  only:
+    - master
+
 git:
-  depth: false
+  depth: 1
 
 # before_install
 # install - install any dependencies required
