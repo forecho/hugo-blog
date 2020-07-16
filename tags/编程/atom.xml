@@ -1,42 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>编程 on forecho&#39;s Blog</title>
-    <link>https://blog.forecho.com/tags/%E7%BC%96%E7%A8%8B.html</link>
-    <description>Recent content in 编程 on forecho&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 15 May 2020 20:20:26 +0800</lastBuildDate>
-    
-	<atom:link href="https://blog.forecho.com/tags/%E7%BC%96%E7%A8%8B/atom.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>使用 Windows WSL2</title>
-      <link>https://blog.forecho.com/use-windows-and-wsl2.html</link>
-      <pubDate>Fri, 15 May 2020 20:20:26 +0800</pubDate>
-      
-      <guid>https://blog.forecho.com/use-windows-and-wsl2.html</guid>
-      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
-&lt;p&gt;上次我的 Mac 拿去修了，换电池没那么快拿到设备，于是我又把抽屉里的公司电脑拿出来办公了，公司发的是电脑是 ThinkPad T480 笔记本，应该是定制版，没独立显卡，屏幕渣。之前安装的是 Ubuntu，感觉拿来做开发还行，除了偶尔卡住了（16G 都能卡，不知道什么问题）。另外一个最大的问题就是 Ubuntu 软件生态太少了，我比较依赖印象笔记，没有 Ubuntu 版，网页版不好用。&lt;/p&gt;
-&lt;p&gt;早就听说 Windows 现在能把 Ubuntu 当成子系统了，去查了一下资料，发现现在是 WSL2 了，虽然还在测试阶段，但是我想试一下。说了这么多本篇文章就打算分享以下两个主题：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;如何安装 WSL2&lt;/li&gt;
-&lt;li&gt;把 WSL2 作为开发环境遇到的一些坑&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    
-    <item>
-      <title>使用 Graylog 收集日志</title>
-      <link>https://blog.forecho.com/use-graylog.html</link>
-      <pubDate>Sat, 21 Mar 2020 20:20:26 +0800</pubDate>
-      
-      <guid>https://blog.forecho.com/use-graylog.html</guid>
-      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
-&lt;p&gt;随着项目越来越复杂，Bug 越来越难定位，一个专门的日志收集工具必不可少。于是花了两天时间玩了一下 Graylog，这篇文章就分享一下踩过的坑。&lt;/p&gt;
-&lt;h2 id=&#34;准备环境&#34;&gt;准备环境&lt;/h2&gt;
-&lt;p&gt;自从用过 Docker 之后，我现在搭建环境第一步就去找 Docker 安装方式，其实他们官方文档写的非常清楚，但是我还是踩了一些坑，主要是网络问题，太慢，必须要换中国源。&lt;/p&gt;</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>编程 on forecho's Blog</title><link>https://blog.forecho.com/tags/%E7%BC%96%E7%A8%8B.html</link><description>Recent content in 编程 on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 15 May 2020 20:20:26 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/tags/%E7%BC%96%E7%A8%8B/atom.xml" rel="self" type="application/rss+xml"/><item><title>使用 Windows WSL2</title><link>https://blog.forecho.com/use-windows-and-wsl2.html</link><pubDate>Fri, 15 May 2020 20:20:26 +0800</pubDate><guid>https://blog.forecho.com/use-windows-and-wsl2.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>上次我的 Mac 拿去修了，换电池没那么快拿到设备，于是我又把抽屉里的公司电脑拿出来办公了，公司发的是电脑是 ThinkPad T480 笔记本，应该是定制版，没独立显卡，屏幕渣。之前安装的是 Ubuntu，感觉拿来做开发还行，除了偶尔卡住了（16G 都能卡，不知道什么问题）。另外一个最大的问题就是 Ubuntu 软件生态太少了，我比较依赖印象笔记，没有 Ubuntu 版，网页版不好用。&lt;/p>
+&lt;p>早就听说 Windows 现在能把 Ubuntu 当成子系统了，去查了一下资料，发现现在是 WSL2 了，虽然还在测试阶段，但是我想试一下。说了这么多本篇文章就打算分享以下两个主题：&lt;/p>
+&lt;ul>
+&lt;li>如何安装 WSL2&lt;/li>
+&lt;li>把 WSL2 作为开发环境遇到的一些坑&lt;/li>
+&lt;/ul></description></item><item><title>使用 Graylog 收集日志</title><link>https://blog.forecho.com/use-graylog.html</link><pubDate>Sat, 21 Mar 2020 20:20:26 +0800</pubDate><guid>https://blog.forecho.com/use-graylog.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>随着项目越来越复杂，Bug 越来越难定位，一个专门的日志收集工具必不可少。于是花了两天时间玩了一下 Graylog，这篇文章就分享一下踩过的坑。&lt;/p>
+&lt;h2 id="准备环境">准备环境&lt;/h2>
+&lt;p>自从用过 Docker 之后，我现在搭建环境第一步就去找 Docker 安装方式，其实他们官方文档写的非常清楚，但是我还是踩了一些坑，主要是网络问题，太慢，必须要换中国源。&lt;/p></description></item></channel></rss>

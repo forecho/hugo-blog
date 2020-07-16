@@ -1,27 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>性能优化 on forecho&#39;s Blog</title>
-    <link>https://blog.forecho.com/tags/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96.html</link>
-    <description>Recent content in 性能优化 on forecho&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 19 Apr 2019 10:58:00 +0800</lastBuildDate>
-    
-	<atom:link href="https://blog.forecho.com/tags/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/atom.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>性能优化第一篇</title>
-      <link>https://blog.forecho.com/performance-optimization-01.html</link>
-      <pubDate>Fri, 19 Apr 2019 10:58:00 +0800</pubDate>
-      
-      <guid>https://blog.forecho.com/performance-optimization-01.html</guid>
-      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
-&lt;p&gt;说来惭愧，搞了这么多年 PHP 开发，最近才正儿八经的搞性能优化。打算把这些经验记录并且分享出来，这会是一系列文章，这是第一篇。&lt;/p&gt;
-&lt;h2 id=&#34;性能测试&#34;&gt;性能测试&lt;/h2&gt;
-&lt;p&gt;性能优化的第一步就是要发现系统的性能瓶颈。这部分一般都会有专门的 QA 去测试，输出报告。性能测试大多都是并发测试，推荐使用 &lt;a href=&#34;https://jmeter.apache.org/&#34;&gt;Apache JMeter™&lt;/a&gt; ，免费并且功能强大，支持多系统平台。至于使用教程，我就不贴了，网上一搜一大把。&lt;/p&gt;</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>性能优化 on forecho's Blog</title><link>https://blog.forecho.com/tags/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96.html</link><description>Recent content in 性能优化 on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 19 Apr 2019 10:58:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/tags/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/atom.xml" rel="self" type="application/rss+xml"/><item><title>性能优化第一篇</title><link>https://blog.forecho.com/performance-optimization-01.html</link><pubDate>Fri, 19 Apr 2019 10:58:00 +0800</pubDate><guid>https://blog.forecho.com/performance-optimization-01.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>说来惭愧，搞了这么多年 PHP 开发，最近才正儿八经的搞性能优化。打算把这些经验记录并且分享出来，这会是一系列文章，这是第一篇。&lt;/p>
+&lt;h2 id="性能测试">性能测试&lt;/h2>
+&lt;p>性能优化的第一步就是要发现系统的性能瓶颈。这部分一般都会有专门的 QA 去测试，输出报告。性能测试大多都是并发测试，推荐使用 &lt;a href="https://jmeter.apache.org/">Apache JMeter™&lt;/a> ，免费并且功能强大，支持多系统平台。至于使用教程，我就不贴了，网上一搜一大把。&lt;/p></description></item></channel></rss>

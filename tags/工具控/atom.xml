@@ -1,30 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>工具控 on forecho&#39;s Blog</title>
-    <link>https://blog.forecho.com/tags/%E5%B7%A5%E5%85%B7%E6%8E%A7.html</link>
-    <description>Recent content in 工具控 on forecho&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 01 Mar 2019 21:58:00 +0800</lastBuildDate>
-    
-	<atom:link href="https://blog.forecho.com/tags/%E5%B7%A5%E5%85%B7%E6%8E%A7/atom.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>使用 Postman</title>
-      <link>https://blog.forecho.com/use-postman.html</link>
-      <pubDate>Fri, 01 Mar 2019 21:58:00 +0800</pubDate>
-      
-      <guid>https://blog.forecho.com/use-postman.html</guid>
-      <description>&lt;p&gt;{% raw %}&lt;/p&gt;
-&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://blog.forecho.com/use-jwt.html&#34;&gt;上篇文章&lt;/a&gt;我们讲到 API 可能会使用到的 JWT 认证。既然讲到 API 开发就不得不讲到 API 调试以及测试神器 - &lt;a href=&#34;https://www.getpostman.com/&#34;&gt;Postman&lt;/a&gt;。&lt;/p&gt;
-&lt;h2 id=&#34;基本使用&#34;&gt;基本使用&lt;/h2&gt;
-&lt;h3 id=&#34;创建环境变量&#34;&gt;创建环境变量&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424160357.png&#34; alt=&#34;创建环境变量&#34;&gt;&lt;/p&gt;
-&lt;p&gt;根据上面截图的地方，可以找到创建环境变量的设置。设置按钮旁边的『眼睛』按钮可以查看当前使用的环境变量的值。&lt;/p&gt;</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>工具控 on forecho's Blog</title><link>https://blog.forecho.com/tags/%E5%B7%A5%E5%85%B7%E6%8E%A7.html</link><description>Recent content in 工具控 on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 01 Mar 2019 21:58:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/tags/%E5%B7%A5%E5%85%B7%E6%8E%A7/atom.xml" rel="self" type="application/rss+xml"/><item><title>使用 Postman</title><link>https://blog.forecho.com/use-postman.html</link><pubDate>Fri, 01 Mar 2019 21:58:00 +0800</pubDate><guid>https://blog.forecho.com/use-postman.html</guid><description>&lt;p>{% raw %}&lt;/p>
+&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>&lt;a href="https://blog.forecho.com/use-jwt.html">上篇文章&lt;/a>我们讲到 API 可能会使用到的 JWT 认证。既然讲到 API 开发就不得不讲到 API 调试以及测试神器 - &lt;a href="https://www.getpostman.com/">Postman&lt;/a>。&lt;/p>
+&lt;h2 id="基本使用">基本使用&lt;/h2>
+&lt;h3 id="创建环境变量">创建环境变量&lt;/h3>
+&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424160357.png" alt="创建环境变量">&lt;/p>
+&lt;p>根据上面截图的地方，可以找到创建环境变量的设置。设置按钮旁边的『眼睛』按钮可以查看当前使用的环境变量的值。&lt;/p></description></item></channel></rss>

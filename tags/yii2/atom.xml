@@ -1,207 +1,148 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Yii2 on forecho&#39;s Blog</title>
-    <link>https://blog.forecho.com/tags/yii2.html</link>
-    <description>Recent content in Yii2 on forecho&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 13 Dec 2017 20:29:00 +0800</lastBuildDate>
-    
-	<atom:link href="https://blog.forecho.com/tags/yii2/atom.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>关于《Yii 2.x 最佳实践》</title>
-      <link>https://blog.forecho.com/about-yii2-practice-book.html</link>
-      <pubDate>Wed, 13 Dec 2017 20:29:00 +0800</pubDate>
-      
-      <guid>https://blog.forecho.com/about-yii2-practice-book.html</guid>
-      <description>&lt;h2 id=&#34;起源&#34;&gt;起源&lt;/h2&gt;
-&lt;p&gt;2012 年的时候我因为工作原因接触了 Yii 1.0，刚开始真是无从下手，而且大部分文档是英文的，只有少数的中文资料&lt;a href=&#34;http://blog.yiiblog.info/&#34;&gt;BoyLee 的 视频&lt;/a&gt; 让我入了门， Yii 的 QQ 群一些大牛对新手的解惑，让我慢慢感受到 Yii 的强大。从此以后「除却巫山不是云」了，直到 Yii 2.0 版本推出。&lt;/p&gt;
-&lt;p&gt;Yii 是一个很强大的框架，而且设计的很好，它的模式非常一致，一旦你入门了，那么就会有一通百通的效果，这个过程中官方文档会一直伴随着你。但是作为一个强大的框架，入门门框却非常高，有一推的概念需要你去慢慢了解，我看到很多人只是把 Yii 框架当作一个简单的 PHP MVC 框架来用，完全没用把 Yii 框架的特性用起来，为他们感到惋惜。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>用辅助函数来取代复杂的表达式</title>
-      <link>https://blog.forecho.com/write-helper-functions-instead-of-complex-expressions.html</link>
-      <pubDate>Mon, 19 Dec 2016 12:09:00 +0800</pubDate>
-      
-      <guid>https://blog.forecho.com/write-helper-functions-instead-of-complex-expressions.html</guid>
-      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
-&lt;p&gt;上上上个月在图书馆淘到一本书叫&lt;a href=&#34;https://book.douban.com/subject/26709315/&#34;&gt;《Effective Python - 编写高质量Python代码的59个有效方法》&lt;/a&gt;，虽然我不用 Python 写代码，但是好歹以前写过一点 Python 的皮毛。
-豆瓣看了一下评分，就果断借了这本书。当看到第四条方法《第4条：用辅助函数来取代复杂的表达式 》结合自己最近几年编程经验，深有感触，于是就有了这篇文章。&lt;/p&gt;
-&lt;h2 id=&#34;为什么要用辅助函数&#34;&gt;为什么要用辅助函数？&lt;/h2&gt;
-&lt;p&gt;在编程的时候，你肯定会遇到类似这样的事情：数据库中保存的商品单价单位是分，商品详情页需要你的商品价格，但是单位肯定是元。&lt;/p&gt;
-&lt;p&gt;那么我们可以怎么样实现呢？一般的做法肯定这样的，直接在视图页面要展示价格的地方这样写：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
-&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
-&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
-&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span style=&#34;color:#099&#34;&gt;&amp;lt;?&lt;/span&gt;&lt;span style=&#34;color:#555&#34;&gt;=&lt;/span&gt; round((&lt;span style=&#34;color:#033&#34;&gt;$price&lt;/span&gt; &lt;span style=&#34;color:#555&#34;&gt;/&lt;/span&gt; &lt;span style=&#34;color:#f60&#34;&gt;100&lt;/span&gt;), &lt;span style=&#34;color:#f60&#34;&gt;2&lt;/span&gt;) &lt;span style=&#34;color:#099&#34;&gt;?&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;这样写虽然能实现效果，但是如果需求有变化，需要使用强制保留两位小数，那么你需要这样改：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
-&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
-&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
-&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span style=&#34;color:#099&#34;&gt;&amp;lt;?&lt;/span&gt;&lt;span style=&#34;color:#555&#34;&gt;=&lt;/span&gt; number_format(round((&lt;span style=&#34;color:#033&#34;&gt;$price&lt;/span&gt; &lt;span style=&#34;color:#555&#34;&gt;/&lt;/span&gt; &lt;span style=&#34;color:#f60&#34;&gt;100&lt;/span&gt;), &lt;span style=&#34;color:#f60&#34;&gt;2&lt;/span&gt;), &lt;span style=&#34;color:#f60&#34;&gt;2&lt;/span&gt;, &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;.&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&amp;#39;&lt;/span&gt;); &lt;span style=&#34;color:#099&#34;&gt;?&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;看上去虽然不多的代码，但是&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;阅读起来很困难，而且很上去也很乱。&lt;/li&gt;
-&lt;li&gt;如果涉及到很多东西的话，需要找到每个相应的地方然后做修改。同理，下次改需求的时候，修改也将会是一件很痛苦的事情。&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    
-    <item>
-      <title>Yii2 高级版新建一个 Api 应用</title>
-      <link>https://blog.forecho.com/yii2-create-api.html</link>
-      <pubDate>Mon, 27 Jul 2015 22:25:00 +0800</pubDate>
-      
-      <guid>https://blog.forecho.com/yii2-create-api.html</guid>
-      <description>&lt;p&gt;先在项目的根目录下复制一份 backend 为 api：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
-&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
-&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
-&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;cp backend/ api -r
-&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;拷贝 api 环境&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
-&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
-&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
-&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;cp -a environments/dev/frontend environments/dev/api
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Yii2 on forecho's Blog</title><link>https://blog.forecho.com/tags/yii2.html</link><description>Recent content in Yii2 on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 13 Dec 2017 20:29:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/tags/yii2/atom.xml" rel="self" type="application/rss+xml"/><item><title>关于《Yii 2.x 最佳实践》</title><link>https://blog.forecho.com/about-yii2-practice-book.html</link><pubDate>Wed, 13 Dec 2017 20:29:00 +0800</pubDate><guid>https://blog.forecho.com/about-yii2-practice-book.html</guid><description>&lt;h2 id="起源">起源&lt;/h2>
+&lt;p>2012 年的时候我因为工作原因接触了 Yii 1.0，刚开始真是无从下手，而且大部分文档是英文的，只有少数的中文资料&lt;a href="http://blog.yiiblog.info/">BoyLee 的 视频&lt;/a> 让我入了门， Yii 的 QQ 群一些大牛对新手的解惑，让我慢慢感受到 Yii 的强大。从此以后「除却巫山不是云」了，直到 Yii 2.0 版本推出。&lt;/p>
+&lt;p>Yii 是一个很强大的框架，而且设计的很好，它的模式非常一致，一旦你入门了，那么就会有一通百通的效果，这个过程中官方文档会一直伴随着你。但是作为一个强大的框架，入门门框却非常高，有一推的概念需要你去慢慢了解，我看到很多人只是把 Yii 框架当作一个简单的 PHP MVC 框架来用，完全没用把 Yii 框架的特性用起来，为他们感到惋惜。&lt;/p></description></item><item><title>用辅助函数来取代复杂的表达式</title><link>https://blog.forecho.com/write-helper-functions-instead-of-complex-expressions.html</link><pubDate>Mon, 19 Dec 2016 12:09:00 +0800</pubDate><guid>https://blog.forecho.com/write-helper-functions-instead-of-complex-expressions.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>上上上个月在图书馆淘到一本书叫&lt;a href="https://book.douban.com/subject/26709315/">《Effective Python - 编写高质量Python代码的59个有效方法》&lt;/a>，虽然我不用 Python 写代码，但是好歹以前写过一点 Python 的皮毛。
+豆瓣看了一下评分，就果断借了这本书。当看到第四条方法《第4条：用辅助函数来取代复杂的表达式 》结合自己最近几年编程经验，深有感触，于是就有了这篇文章。&lt;/p>
+&lt;h2 id="为什么要用辅助函数">为什么要用辅助函数？&lt;/h2>
+&lt;p>在编程的时候，你肯定会遇到类似这样的事情：数据库中保存的商品单价单位是分，商品详情页需要你的商品价格，但是单位肯定是元。&lt;/p>
+&lt;p>那么我们可以怎么样实现呢？一般的做法肯定这样的，直接在视图页面要展示价格的地方这样写：&lt;/p>
+&lt;div class="highlight">&lt;div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-php" data-lang="php">&lt;span style="color:#099">&amp;lt;?&lt;/span>&lt;span style="color:#555">=&lt;/span> round((&lt;span style="color:#033">$price&lt;/span> &lt;span style="color:#555">/&lt;/span> &lt;span style="color:#f60">100&lt;/span>), &lt;span style="color:#f60">2&lt;/span>) &lt;span style="color:#099">?&amp;gt;&lt;/span>
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>这样写虽然能实现效果，但是如果需求有变化，需要使用强制保留两位小数，那么你需要这样改：&lt;/p>
+&lt;div class="highlight">&lt;div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-php" data-lang="php">&lt;span style="color:#099">&amp;lt;?&lt;/span>&lt;span style="color:#555">=&lt;/span> number_format(round((&lt;span style="color:#033">$price&lt;/span> &lt;span style="color:#555">/&lt;/span> &lt;span style="color:#f60">100&lt;/span>), &lt;span style="color:#f60">2&lt;/span>), &lt;span style="color:#f60">2&lt;/span>, &lt;span style="color:#c30">&amp;#39;.&amp;#39;&lt;/span>, &lt;span style="color:#c30">&amp;#39;&amp;#39;&lt;/span>); &lt;span style="color:#099">?&amp;gt;&lt;/span>
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>看上去虽然不多的代码，但是&lt;/p>
+&lt;ul>
+&lt;li>阅读起来很困难，而且很上去也很乱。&lt;/li>
+&lt;li>如果涉及到很多东西的话，需要找到每个相应的地方然后做修改。同理，下次改需求的时候，修改也将会是一件很痛苦的事情。&lt;/li>
+&lt;/ul></description></item><item><title>Yii2 高级版新建一个 Api 应用</title><link>https://blog.forecho.com/yii2-create-api.html</link><pubDate>Mon, 27 Jul 2015 22:25:00 +0800</pubDate><guid>https://blog.forecho.com/yii2-create-api.html</guid><description>&lt;p>先在项目的根目录下复制一份 backend 为 api：&lt;/p>
+&lt;div class="highlight">&lt;div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-sh" data-lang="sh">cp backend/ api -r
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>拷贝 api 环境&lt;/p>
+&lt;div class="highlight">&lt;div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-sh" data-lang="sh">cp -a environments/dev/frontend environments/dev/api
 cp -a environments/prod/frontend environments/prod/api
-&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;修改 environments/index.php 文件之后的代码（主要是添加了一些 api 相关的代码）：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
-&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
-&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 1
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 2
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 3
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 4
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 5
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 6
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 7
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 8
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 9
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;10
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;11
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;12
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;13
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;14
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;15
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;16
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;17
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;18
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;19
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;20
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;21
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;22
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;23
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;24
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;25
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;26
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;27
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;28
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;29
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;30
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;31
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;32
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;33
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;34
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;35
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;36
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;37
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;38
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;39
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;40
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
-&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;return [
-    &amp;#39;Development&amp;#39; =&amp;gt; [
-        &amp;#39;path&amp;#39; =&amp;gt; &amp;#39;dev&amp;#39;,
-        &amp;#39;setWritable&amp;#39; =&amp;gt; [
-            &amp;#39;backend/runtime&amp;#39;,
-            &amp;#39;backend/web/assets&amp;#39;,
-            &amp;#39;frontend/runtime&amp;#39;,
-            &amp;#39;frontend/web/assets&amp;#39;,
-            &amp;#39;api/runtime&amp;#39;,
-            &amp;#39;api/web/assets&amp;#39;,
-        ],
-        &amp;#39;setExecutable&amp;#39; =&amp;gt; [
-            &amp;#39;yii&amp;#39;,
-        ],
-        &amp;#39;setCookieValidationKey&amp;#39; =&amp;gt; [
-            &amp;#39;backend/config/main-local.php&amp;#39;,
-            &amp;#39;frontend/config/main-local.php&amp;#39;,
-            &amp;#39;api/config/main-local.php&amp;#39;,
-        ],
-    ],
-    &amp;#39;Production&amp;#39; =&amp;gt; [
-        &amp;#39;path&amp;#39; =&amp;gt; &amp;#39;prod&amp;#39;,
-        &amp;#39;setWritable&amp;#39; =&amp;gt; [
-            &amp;#39;backend/runtime&amp;#39;,
-            &amp;#39;backend/web/assets&amp;#39;,
-            &amp;#39;frontend/runtime&amp;#39;,
-            &amp;#39;frontend/web/assets&amp;#39;,
-            &amp;#39;api/runtime&amp;#39;,
-            &amp;#39;api/web/assets&amp;#39;,
-        ],
-        &amp;#39;setExecutable&amp;#39; =&amp;gt; [
-            &amp;#39;yii&amp;#39;,
-        ],
-        &amp;#39;setCookieValidationKey&amp;#39; =&amp;gt; [
-            &amp;#39;backend/config/main-local.php&amp;#39;,
-            &amp;#39;frontend/config/main-local.php&amp;#39;,
-            &amp;#39;api/config/main-local.php&amp;#39;,
-        ],
-    ],
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>修改 environments/index.php 文件之后的代码（主要是添加了一些 api 相关的代码）：&lt;/p>
+&lt;div class="highlight">&lt;div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">24
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">25
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">26
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">27
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">28
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">29
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">30
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">31
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">32
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">33
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">34
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">35
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">36
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">37
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">38
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">39
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">40
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-php" data-lang="php">return [
+&amp;#39;Development&amp;#39; =&amp;gt; [
+&amp;#39;path&amp;#39; =&amp;gt; &amp;#39;dev&amp;#39;,
+&amp;#39;setWritable&amp;#39; =&amp;gt; [
+&amp;#39;backend/runtime&amp;#39;,
+&amp;#39;backend/web/assets&amp;#39;,
+&amp;#39;frontend/runtime&amp;#39;,
+&amp;#39;frontend/web/assets&amp;#39;,
+&amp;#39;api/runtime&amp;#39;,
+&amp;#39;api/web/assets&amp;#39;,
+],
+&amp;#39;setExecutable&amp;#39; =&amp;gt; [
+&amp;#39;yii&amp;#39;,
+],
+&amp;#39;setCookieValidationKey&amp;#39; =&amp;gt; [
+&amp;#39;backend/config/main-local.php&amp;#39;,
+&amp;#39;frontend/config/main-local.php&amp;#39;,
+&amp;#39;api/config/main-local.php&amp;#39;,
+],
+],
+&amp;#39;Production&amp;#39; =&amp;gt; [
+&amp;#39;path&amp;#39; =&amp;gt; &amp;#39;prod&amp;#39;,
+&amp;#39;setWritable&amp;#39; =&amp;gt; [
+&amp;#39;backend/runtime&amp;#39;,
+&amp;#39;backend/web/assets&amp;#39;,
+&amp;#39;frontend/runtime&amp;#39;,
+&amp;#39;frontend/web/assets&amp;#39;,
+&amp;#39;api/runtime&amp;#39;,
+&amp;#39;api/web/assets&amp;#39;,
+],
+&amp;#39;setExecutable&amp;#39; =&amp;gt; [
+&amp;#39;yii&amp;#39;,
+],
+&amp;#39;setCookieValidationKey&amp;#39; =&amp;gt; [
+&amp;#39;backend/config/main-local.php&amp;#39;,
+&amp;#39;frontend/config/main-local.php&amp;#39;,
+&amp;#39;api/config/main-local.php&amp;#39;,
+],
+],
 ];
-&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;</description>
-    </item>
-    
-    <item>
-      <title>Yii2 搭建最基础的 RESTful</title>
-      <link>https://blog.forecho.com/yii2-base-restful.html</link>
-      <pubDate>Mon, 27 Jul 2015 20:25:00 +0800</pubDate>
-      
-      <guid>https://blog.forecho.com/yii2-base-restful.html</guid>
-      <description>为了让项目更加清晰，我们可以单独新建一个 Api，用来专门开发 Api。至于怎么新建，参考这篇文章：Yii2 高级版新建一个 Api 应用 &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash;draft: false toc: true 系列文章</description>
-    </item>
-    
-    <item>
-      <title>Yii2 如何实现 RESTful？</title>
-      <link>https://blog.forecho.com/yii2-use-restful.html</link>
-      <pubDate>Sun, 22 Mar 2015 20:25:00 +0800</pubDate>
-      
-      <guid>https://blog.forecho.com/yii2-use-restful.html</guid>
-      <description>&lt;h2 id=&#34;什么是rest&#34;&gt;什么是REST&lt;/h2&gt;
-&lt;p&gt;简单的说，REST 指的是一组架构约束条件和原则。满足这些约束条件和原则的应用程序或设计就是 RESTful。&lt;/p&gt;
-&lt;h2 id=&#34;为什么要restful&#34;&gt;为什么要Restful？&lt;/h2&gt;
-&lt;p&gt;主要遵循两个准则：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;不要为了RESTful而RESTful&lt;/li&gt;
-&lt;li&gt;在能表达清楚的情况下，简单就是美&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;yii2-使用-restful&#34;&gt;Yii2 使用 RESTful？&lt;/h2&gt;
-&lt;p&gt;其实 Yii2 框架本身就对 RESTful 是友好支持的，具体可以看&lt;a href=&#34;http://www.yiiframework.com/doc-2.0/guide-rest-quick-start.html&#34;&gt;官方文档&lt;/a&gt;，或者去看源码，都是可以的。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;下面分享我写的&lt;a href=&#34;https://github.com/iiYii/yii2-rest-demo&#34;&gt;Yii2 RESTful DEMO&lt;/a&gt;。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;具体实现可以看我的代码，有不懂的可以留言。下面我重点说一下值得注意的地方：&lt;/p&gt;</description>
-    </item>
-    
-  </channel>
-</rss>
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item><item><title>Yii2 搭建最基础的 RESTful</title><link>https://blog.forecho.com/yii2-base-restful.html</link><pubDate>Mon, 27 Jul 2015 20:25:00 +0800</pubDate><guid>https://blog.forecho.com/yii2-base-restful.html</guid><description>为了让项目更加清晰，我们可以单独新建一个 Api，用来专门开发 Api。至于怎么新建，参考这篇文章：Yii2 高级版新建一个 Api 应用 &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash;draft: false toc: true 系列文章</description></item><item><title>Yii2 如何实现 RESTful？</title><link>https://blog.forecho.com/yii2-use-restful.html</link><pubDate>Sun, 22 Mar 2015 20:25:00 +0800</pubDate><guid>https://blog.forecho.com/yii2-use-restful.html</guid><description>&lt;h2 id="什么是rest">什么是REST&lt;/h2>
+&lt;p>简单的说，REST 指的是一组架构约束条件和原则。满足这些约束条件和原则的应用程序或设计就是 RESTful。&lt;/p>
+&lt;h2 id="为什么要restful">为什么要Restful？&lt;/h2>
+&lt;p>主要遵循两个准则：&lt;/p>
+&lt;ul>
+&lt;li>不要为了RESTful而RESTful&lt;/li>
+&lt;li>在能表达清楚的情况下，简单就是美&lt;/li>
+&lt;/ul>
+&lt;h2 id="yii2-使用-restful">Yii2 使用 RESTful？&lt;/h2>
+&lt;p>其实 Yii2 框架本身就对 RESTful 是友好支持的，具体可以看&lt;a href="http://www.yiiframework.com/doc-2.0/guide-rest-quick-start.html">官方文档&lt;/a>，或者去看源码，都是可以的。&lt;/p>
+&lt;p>&lt;strong>下面分享我写的&lt;a href="https://github.com/iiYii/yii2-rest-demo">Yii2 RESTful DEMO&lt;/a>。&lt;/strong>&lt;/p>
+&lt;p>具体实现可以看我的代码，有不懂的可以留言。下面我重点说一下值得注意的地方：&lt;/p></description></item></channel></rss>

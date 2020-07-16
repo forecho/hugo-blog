@@ -1,84 +1,61 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>科学上网 on forecho&#39;s Blog</title>
-    <link>https://blog.forecho.com/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91.html</link>
-    <description>Recent content in 科学上网 on forecho&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 07 Jan 2017 12:35:00 +0800</lastBuildDate>
-    
-	<atom:link href="https://blog.forecho.com/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/atom.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Ubuntu 使用 ShadowSocks &#43; Privoxy 代理</title>
-      <link>https://blog.forecho.com/ubuntu-use-shadowsocks-and-privoxy.html</link>
-      <pubDate>Sat, 07 Jan 2017 12:35:00 +0800</pubDate>
-      
-      <guid>https://blog.forecho.com/ubuntu-use-shadowsocks-and-privoxy.html</guid>
-      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
-&lt;p&gt;先说说这东西有什么用吧，我是 Windows7 使用 Vagrant 安装了个 Ubuntu 虚拟机，然后需要在虚拟机里面配置 SS 代理使用 PHP 的 Composer 下载，不然非常慢。
-那么本教程应该同样适用于 Ubuntu 服务器（做为 SS 客户端的方式）配置使用 SS，其他版本的 Linux 要想使用需要稍微改动下，但是思路是一样的。&lt;/p&gt;
-&lt;p&gt;如果你的 Mac 电脑，终端需要配置 SS 代理，推荐你使用 proxychains-ng 方式，具体查看&lt;a href=&#34;https://gold.xitu.io/entry/5821840cd203090055134cc0&#34;&gt;macOS 终端走代理（科学上网）&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;shadowsocks-客户端&#34;&gt;ShadowSocks 客户端&lt;/h2&gt;
-&lt;p&gt;注意是 ShadowSocks 客户端，服务端我就不介绍了。先安装 Python pip 再安装 shadowsocks，然后再配置：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
-&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
-&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;3
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;4
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
-&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;sudo apt-get install python-pip
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>科学上网 on forecho's Blog</title><link>https://blog.forecho.com/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91.html</link><description>Recent content in 科学上网 on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 07 Jan 2017 12:35:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/atom.xml" rel="self" type="application/rss+xml"/><item><title>Ubuntu 使用 ShadowSocks + Privoxy 代理</title><link>https://blog.forecho.com/ubuntu-use-shadowsocks-and-privoxy.html</link><pubDate>Sat, 07 Jan 2017 12:35:00 +0800</pubDate><guid>https://blog.forecho.com/ubuntu-use-shadowsocks-and-privoxy.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>先说说这东西有什么用吧，我是 Windows7 使用 Vagrant 安装了个 Ubuntu 虚拟机，然后需要在虚拟机里面配置 SS 代理使用 PHP 的 Composer 下载，不然非常慢。
+那么本教程应该同样适用于 Ubuntu 服务器（做为 SS 客户端的方式）配置使用 SS，其他版本的 Linux 要想使用需要稍微改动下，但是思路是一样的。&lt;/p>
+&lt;p>如果你的 Mac 电脑，终端需要配置 SS 代理，推荐你使用 proxychains-ng 方式，具体查看&lt;a href="https://gold.xitu.io/entry/5821840cd203090055134cc0">macOS 终端走代理（科学上网）&lt;/a>&lt;/p>
+&lt;h2 id="shadowsocks-客户端">ShadowSocks 客户端&lt;/h2>
+&lt;p>注意是 ShadowSocks 客户端，服务端我就不介绍了。先安装 Python pip 再安装 shadowsocks，然后再配置：&lt;/p>
+&lt;div class="highlight">&lt;div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-fallback" data-lang="fallback">sudo apt-get install python-pip
 sudo pip install shadowsocks
 sudo ln -s /usr/local/python/bin/sslocal /usr/bin/sslocal
 sudo vim /etc/shadowsocks.conf
-&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;配置文件代码如下：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
-&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
-&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 1
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 2
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 3
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 4
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 5
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 6
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 7
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 8
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 9
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;10
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;11
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
-&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;{
-    &amp;#34;server&amp;#34;:&amp;#34;your_server_ip&amp;#34;,
-    &amp;#34;server_port&amp;#34;:your_server_port,
-    &amp;#34;local_address&amp;#34;: &amp;#34;127.0.0.1&amp;#34;,
-    &amp;#34;local_port&amp;#34;:1080, 
-    &amp;#34;password&amp;#34;:&amp;#34;your_server_passwd&amp;#34;,
-    &amp;#34;timeout&amp;#34;:300,
-    &amp;#34;method&amp;#34;:&amp;#34;aes-256-cfb&amp;#34;,
-    &amp;#34;fast_open&amp;#34;: false,
-    &amp;#34;workers&amp;#34;: 1 
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>配置文件代码如下：&lt;/p>
+&lt;div class="highlight">&lt;div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-fallback" data-lang="fallback">{
+&amp;#34;server&amp;#34;:&amp;#34;your_server_ip&amp;#34;,
+&amp;#34;server_port&amp;#34;:your_server_port,
+&amp;#34;local_address&amp;#34;: &amp;#34;127.0.0.1&amp;#34;,
+&amp;#34;local_port&amp;#34;:1080,
+&amp;#34;password&amp;#34;:&amp;#34;your_server_passwd&amp;#34;,
+&amp;#34;timeout&amp;#34;:300,
+&amp;#34;method&amp;#34;:&amp;#34;aes-256-cfb&amp;#34;,
+&amp;#34;fast_open&amp;#34;: false,
+&amp;#34;workers&amp;#34;: 1
 }
-&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;strong&gt;解释&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;server&lt;/code&gt;: ss服务器IP&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;server_port&lt;/code&gt;: ss服务器IP端口&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;local_address&lt;/code&gt;: 本地ip&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;local_port&lt;/code&gt;:  #本地端口&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;password&lt;/code&gt;: 连接ss密码&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;timeout&lt;/code&gt;: 等待超时&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;method&lt;/code&gt;: 加密方式&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;fast_open&lt;/code&gt;: true 或 false。如果你的服务器 Linux 内核在3.7+，可以开启 fast_open 以降低延迟。开启方法： echo 3 &amp;gt; /proc/sys/net/ipv4/tcp_fastopen 开启之后，将 fast_open 的配置设置为 true 即可&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;workers&lt;/code&gt;: 工作线程数&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    
-  </channel>
-</rss>
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;strong>解释&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>server&lt;/code>: ss服务器IP&lt;/li>
+&lt;li>&lt;code>server_port&lt;/code>: ss服务器IP端口&lt;/li>
+&lt;li>&lt;code>local_address&lt;/code>: 本地ip&lt;/li>
+&lt;li>&lt;code>local_port&lt;/code>: #本地端口&lt;/li>
+&lt;li>&lt;code>password&lt;/code>: 连接ss密码&lt;/li>
+&lt;li>&lt;code>timeout&lt;/code>: 等待超时&lt;/li>
+&lt;li>&lt;code>method&lt;/code>: 加密方式&lt;/li>
+&lt;li>&lt;code>fast_open&lt;/code>: true 或 false。如果你的服务器 Linux 内核在3.7+，可以开启 fast_open 以降低延迟。开启方法： echo 3 &amp;gt; /proc/sys/net/ipv4/tcp_fastopen 开启之后，将 fast_open 的配置设置为 true 即可&lt;/li>
+&lt;li>&lt;code>workers&lt;/code>: 工作线程数&lt;/li>
+&lt;/ul></description></item></channel></rss>

@@ -1,631 +1,93 @@
-<!DOCTYPE html>
-<html lang="en-us">
-
-<head>
-    <meta charset="utf-8" />
-    <meta name="generator" content="Hugo 0.68.0" />
-
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="generator" content="Saber v0.11.2">
-    <meta name="author" content="forecho" />
-    <meta name="keywords" content="yii2, yii, 炒美股, 如何炒美股, 美股入金 php, ios, ruby, python, swift, web development" />
-    <meta name="og:site_name" content="forecho&#39;s Blog" /><meta property="og:type" content="article" />
-    <meta property="title" content="使用 Postman - forecho&#39;s Blog">
-    <meta property="og:title" content="使用 Postman - forecho&#39;s Blog">
-    <meta property="twitter:title" content="使用 Postman - forecho&#39;s Blog">
-    <meta name="description" content="{% raw %}
+<!doctype html><html lang=en-us><head><meta charset=utf-8><meta name=generator content="Hugo 0.74.1"><meta charset=utf-8><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><meta name=generator content="Saber v0.11.2"><meta name=author content="forecho"><meta name=keywords content="yii2,yii,炒美股,如何炒美股,美股入金 php,ios,ruby,python,swift,web development"><meta name=og:site_name content="forecho's Blog"><meta property="og:type" content="article"><meta property="title" content="使用 Postman - forecho's Blog"><meta property="og:title" content="使用 Postman - forecho's Blog"><meta property="twitter:title" content="使用 Postman - forecho's Blog"><meta name=description content="{% raw %}
 引言
 上篇文章我们讲到 API 可能会使用到的 JWT 认证。既然讲到 API 开发就不得不讲到 API 调试以及测试神器 - Postman。
 基本使用
 创建环境变量
 
-根据上面截图的地方，可以找到创建环境变量的设置。设置按钮旁边的『眼睛』按钮可以查看当前使用的环境变量的值。">
-    <meta property="og:description" content="{% raw %}
+根据上面截图的地方，可以找到创建环境变量的设置。设置按钮旁边的『眼睛』按钮可以查看当前使用的环境变量的值。"><meta property="og:description" content="{% raw %}
 引言
 上篇文章我们讲到 API 可能会使用到的 JWT 认证。既然讲到 API 开发就不得不讲到 API 调试以及测试神器 - Postman。
 基本使用
 创建环境变量
 
-根据上面截图的地方，可以找到创建环境变量的设置。设置按钮旁边的『眼睛』按钮可以查看当前使用的环境变量的值。">
-    <meta property="twitter:description" content="{% raw %}
+根据上面截图的地方，可以找到创建环境变量的设置。设置按钮旁边的『眼睛』按钮可以查看当前使用的环境变量的值。"><meta property="twitter:description" content="{% raw %}
 引言
 上篇文章我们讲到 API 可能会使用到的 JWT 认证。既然讲到 API 开发就不得不讲到 API 调试以及测试神器 - Postman。
 基本使用
 创建环境变量
 
-根据上面截图的地方，可以找到创建环境变量的设置。设置按钮旁边的『眼睛』按钮可以查看当前使用的环境变量的值。">
-    <meta property="og:type" content="article">
-    <title>使用 Postman - forecho&#39;s Blog</title>
-
-    <meta property="og:url" content="https://blog.forecho.com/use-postman.html" />
-
-    
-    <meta property="og:image" content="https://avatars0.githubusercontent.com/u/1725326?s=460&amp;v=4">
-    <meta property="twitter:image" content="https://avatars0.githubusercontent.com/u/1725326?s=460&amp;v=4">
-    <link rel="shortcut icon" href="https://avatars0.githubusercontent.com/u/1725326?s=460&amp;v=4" type="image/x-png" /><link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="/css/main.css" />
-    <link rel="stylesheet" href="//at.alicdn.com/t/font_1607597_jhmihcvh0tm.css" />
-    <link href="/index.xml" rel="alternate" type="application/rss+xml" title="forecho&#39;s Blog">
-    
-    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><meta name="google-site-verification" content="OMI81_SJiESxwq-Fr0CLleoF7EzVdRx7QTQlbAfCVdI" /><meta name="baidu-site-verification" content="WuHyHeOJtJ" />
-</head>
-
-<body class="bg-gray-100 text-gray-900 tracking-wider leading-normal">
-
-    <nav id="header" class="bg-white fixed w-full z-10 top-0 shadow">
-
-  <div id="progress" class="h-1 z-20 top-0" style="background:linear-gradient(to right, #4dc0b5 var(--scroll), transparent 0);"></div>
-
-  <div class="w-full container mx-auto flex flex-wrap items-center justify-between my-1">
-      <div class="pl-4">
-          <a class="text-gray-900 text-base no-underline hover:no-underline font-bold text-xl"  href="/">
-              forecho&#39;s Blog
-          </a>
-      </div>
-
-      <div class="block lg:hidden pr-4">
-          <button id="nav-toggle" class="flex items-center px-3 py-2 border rounded text-gray-500 border-gray-600 hover:text-gray-900 hover:border-teal-500 appearance-none focus:outline-none">
-              <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
-          </button>
-      </div>
-
-      <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block mt-2 lg:mt-0 bg-gray-100 md:bg-transparent z-20" id="nav-content">
-          <ul class="list-reset lg:flex justify-end flex-1 items-center">
-              <li class="mr-3">
-                  <a href="/" class="inline-block py-2 px-2 text-gray-700 font-bold no-underline">首页</a>
-              </li>
-              <li class="mr-3">
-                  <a href="/posts.html" class="inline-block py-2 px-2 text-gray-700 font-bold no-underline">文章归档</a>
-              </li>
-              <li class="mr-3">
-                  <a href="/about.html" class="inline-block py-2 px-2 text-gray-700 font-bold no-underline">关于我</a>
-              </li>
-              <li class="mr-3">
-                  <a href="/friendship-links/" class="inline-block py-2 px-2 text-gray-700 font-bold no-underline">联盟链接</a>
-              </li>
-          </ul>
-      </div>
-  </div>
-</nav>
-
-    <div id="container" class="container w-full flex flex-wrap mx-auto px-2 lg:pt-12 mt-10">
-<section class="w-full lg:w-3/4 xl:w-3/4">
-
-    
-    <div class="px-8 py-6 mt-6 lg:mt-0 leading-normal rounded shadow bg-white">
-
-        
-        <div>
-    <h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-2xl lg:text-3xl">
-        <a href="https://blog.forecho.com/use-postman.html" title="使用 Postman">使用 Postman</a>
-    </h1>
-    <p class="mb-1 text-sm text-gray-500">
-        <span title=" 2019-03-01 21:58:00 &#43;0800">
-            <i class="iconfont icon-calendar" aria-hidden="true"></i> 01 Mar 2019
-        </span>
-
-        <span class="hidden xl:inline-block">
-            |
-            <i class="iconfont icon-book"></i>
-            1137 字
-        </span>
-
-        <span class="hidden xl:inline-block">
-            |
-            <i class="iconfont icon-clock-o"></i>
-            3 分钟读完
-        </span>
-    </p>
-</div>
-
-
-        <div class="md:hidden">
-            
-<p class="text-base font-bold py-2 yg:pb-6 text-gray-700">文章目录</p>
-    <div class="sticky text-sm" style="top:6em;" id="menu-content">
-        <nav id="TableOfContents">
-  <ul>
-    <li><a href="#引言">引言</a></li>
-    <li><a href="#基本使用">基本使用</a>
-      <ul>
-        <li><a href="#创建环境变量">创建环境变量</a></li>
-        <li><a href="#获取请求的代码">获取请求的代码</a></li>
-        <li><a href="#查看-url-请求的-request-和-response">查看 URL 请求的 <code>Request</code> 和 <code>Response</code></a></li>
-        <li><a href="#其他">其他</a></li>
-      </ul>
-    </li>
-    <li><a href="#高级玩法">高级玩法</a>
-      <ul>
-        <li><a href="#pre-request-scripts">Pre-request Scripts</a></li>
-        <li><a href="#内置函数">内置函数</a></li>
-        <li><a href="#tests">Tests</a></li>
-      </ul>
-    </li>
-    <li><a href="#最后">最后</a></li>
-  </ul>
-</nav>
-    </div>
-
-        </div> 
-
-        <div class="post-content">
-            <p>{% raw %}</p>
-<h2 id="引言">引言</h2>
-<p><a href="https://blog.forecho.com/use-jwt.html">上篇文章</a>我们讲到 API 可能会使用到的 JWT 认证。既然讲到 API 开发就不得不讲到 API 调试以及测试神器 - <a href="https://www.getpostman.com/">Postman</a>。</p>
-<h2 id="基本使用">基本使用</h2>
-<h3 id="创建环境变量">创建环境变量</h3>
-<p><img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424160357.png" alt="创建环境变量"></p>
-<p>根据上面截图的地方，可以找到创建环境变量的设置。设置按钮旁边的『眼睛』按钮可以查看当前使用的环境变量的值。</p>
-<p><img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424160522.png" alt=""></p>
-<p>先设置环境名称，再设置环境的 <code>Key</code> 和 <code>Value</code> ，如上图设置，如果你想调用 <code>http</code> 的值只要使用 <code>{{http}}</code> 就可以调用。</p>
-<p><img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424160542.png" alt=""></p>
-<p>一个典型的 RESTful 请求如上图所示。</p>
-<h3 id="获取请求的代码">获取请求的代码</h3>
-<p><img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424160601.png" alt=""></p>
-<p>POST 还可以非常方便的获取各种语言的请求代码，方便你在开发中使用。</p>
-<h3 id="查看-url-请求的-request-和-response">查看 URL 请求的 <code>Request</code> 和 <code>Response</code></h3>
-<p><img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424160614.png" alt=""></p>
-<p>在软件的左下角，找到终端的图标，就可以打开 Postman Console 。</p>
-<h3 id="其他">其他</h3>
-<ul>
-<li>登录账号之后可以同步收藏夹。</li>
-<li>免费用户的功能基本够用。</li>
-</ul>
-<h2 id="高级玩法">高级玩法</h2>
-<h3 id="pre-request-scripts">Pre-request Scripts</h3>
-<p><img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424160627.png" alt=""></p>
-<p>Postman 有一个 Pre-request Scripts 功能，可以在发生请求之前执行一段自定义脚本。这个功能在请求需要 Token 验证的 API，非常有用。比方说我们现在请求的接口需要 JWT 验证，传统的方式就是我们在其他地方算好 Token，粘贴过来就可以了。但是这种方式有很大的弊端，因为一般的 Token 都有实效时间的，所以 Token 实效了，下次你又得重复操作一遍。</p>
-<p>但是有了 Pre-request Scripts 功能，我们就可以自动计算 Token，不用考虑实效问题，示例：</p>
-<ul>
-<li>先去环境变量添加 <code>client_key</code> 和 <code>client_secret</code></li>
-<li>然后再 Pre-request Scripts 框输入下面代码：</li>
-</ul>
-<div class="highlight"><div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
-<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">24
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">25
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">26
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">27
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">28
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">29
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">30
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">31
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-javascript" data-lang="javascript">
-<span style="color:#069;font-weight:bold">var</span> removeIllegalCharacters <span style="color:#555">=</span> <span style="color:#069;font-weight:bold">function</span>(input) {
-    <span style="color:#069;font-weight:bold">return</span> input
-        .replace(<span style="color:#3aa">/=/g</span>, <span style="color:#c30">&#39;&#39;</span>)
-        .replace(<span style="color:#3aa">/\+/g</span>, <span style="color:#c30">&#39;-&#39;</span>)
-        .replace(<span style="color:#3aa">/\//g</span>, <span style="color:#c30">&#39;_&#39;</span>);
+根据上面截图的地方，可以找到创建环境变量的设置。设置按钮旁边的『眼睛』按钮可以查看当前使用的环境变量的值。"><meta property="og:type" content="article"><title>使用 Postman - forecho's Blog</title><meta property="og:url" content="https://blog.forecho.com/use-postman.html"><meta property="og:image" content="https://avatars0.githubusercontent.com/u/1725326?s=460&v=4"><meta property="twitter:image" content="https://avatars0.githubusercontent.com/u/1725326?s=460&v=4"><link rel="shortcut icon" href="https://avatars0.githubusercontent.com/u/1725326?s=460&v=4" type=image/x-png><link href=https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css rel=stylesheet><link rel=stylesheet href=/css/main.css><link rel=stylesheet href=//at.alicdn.com/t/font_1607597_jhmihcvh0tm.css><link href=/index.xml rel=alternate type=application/rss+xml title="forecho's Blog"><script async src=//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js></script><meta name=google-site-verification content="OMI81_SJiESxwq-Fr0CLleoF7EzVdRx7QTQlbAfCVdI"><meta name=baidu-site-verification content="WuHyHeOJtJ"></head><body class="bg-gray-100 text-gray-900 tracking-wider leading-normal"><nav id=header class="bg-white fixed w-full z-10 top-0 shadow"><div id=progress class="h-1 z-20 top-0" style="background:linear-gradient(to right,#4dc0b5 var(--scroll),transparent 0)"></div><div class="w-full container mx-auto flex flex-wrap items-center justify-between my-1"><div class=pl-4><a class="text-gray-900 text-base no-underline hover:no-underline font-bold text-xl" href=/>forecho's Blog</a></div><div class="block lg:hidden pr-4"><button id=nav-toggle class="flex items-center px-3 py-2 border rounded text-gray-500 border-gray-600 hover:text-gray-900 hover:border-teal-500 appearance-none focus:outline-none"><svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg></button></div><div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block mt-2 lg:mt-0 bg-gray-100 md:bg-transparent z-20" id=nav-content><ul class="list-reset lg:flex justify-end flex-1 items-center"><li class=mr-3><a href=/ class="inline-block py-2 px-2 text-gray-700 font-bold no-underline">首页</a></li><li class=mr-3><a href=/posts.html class="inline-block py-2 px-2 text-gray-700 font-bold no-underline">文章归档</a></li><li class=mr-3><a href=/about.html class="inline-block py-2 px-2 text-gray-700 font-bold no-underline">关于我</a></li><li class=mr-3><a href=/friendship-links/ class="inline-block py-2 px-2 text-gray-700 font-bold no-underline">联盟链接</a></li></ul></div></div></nav><div id=container class="container w-full flex flex-wrap mx-auto px-2 lg:pt-12 mt-10"><section class="w-full lg:w-3/4 xl:w-3/4"><div class="px-8 py-6 mt-6 lg:mt-0 leading-normal rounded shadow bg-white"><div><h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-2xl lg:text-3xl"><a href=https://blog.forecho.com/use-postman.html title="使用 Postman">使用 Postman</a></h1><p class="mb-1 text-sm text-gray-500"><span title="2019-03-01 21:58:00 +0800"><i class="iconfont icon-calendar" aria-hidden=true></i>01 Mar 2019</span>
+<span class="hidden xl:inline-block">|
+<i class="iconfont icon-book"></i>1137 字</span>
+<span class="hidden xl:inline-block">|
+<i class="iconfont icon-clock-o"></i>3 分钟读完</span></p></div><div class=md:hidden><p class="text-base font-bold py-2 yg:pb-6 text-gray-700">文章目录</p><div class="sticky text-sm" style=top:6em id=menu-content><nav id=TableOfContents><ul><li><a href=#引言>引言</a></li><li><a href=#基本使用>基本使用</a><ul><li><a href=#创建环境变量>创建环境变量</a></li><li><a href=#获取请求的代码>获取请求的代码</a></li><li><a href=#查看-url-请求的-request-和-response>查看 URL 请求的 <code>Request</code> 和 <code>Response</code></a></li><li><a href=#其他>其他</a></li></ul></li><li><a href=#高级玩法>高级玩法</a><ul><li><a href=#pre-request-scripts>Pre-request Scripts</a></li><li><a href=#内置函数>内置函数</a></li><li><a href=#tests>Tests</a></li></ul></li><li><a href=#最后>最后</a></li></ul></nav></div></div><div class=post-content><p>{% raw %}</p><h2 id=引言>引言</h2><p><a href=https://blog.forecho.com/use-jwt.html>上篇文章</a>我们讲到 API 可能会使用到的 JWT 认证。既然讲到 API 开发就不得不讲到 API 调试以及测试神器 - <a href=https://www.getpostman.com/>Postman</a>。</p><h2 id=基本使用>基本使用</h2><h3 id=创建环境变量>创建环境变量</h3><p><img src=https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424160357.png alt=创建环境变量></p><p>根据上面截图的地方，可以找到创建环境变量的设置。设置按钮旁边的『眼睛』按钮可以查看当前使用的环境变量的值。</p><p><img src=https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424160522.png alt></p><p>先设置环境名称，再设置环境的 <code>Key</code> 和 <code>Value</code> ，如上图设置，如果你想调用 <code>http</code> 的值只要使用 <code>{{http}}</code> 就可以调用。</p><p><img src=https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424160542.png alt></p><p>一个典型的 RESTful 请求如上图所示。</p><h3 id=获取请求的代码>获取请求的代码</h3><p><img src=https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424160601.png alt></p><p>POST 还可以非常方便的获取各种语言的请求代码，方便你在开发中使用。</p><h3 id=查看-url-请求的-request-和-response>查看 URL 请求的 <code>Request</code> 和 <code>Response</code></h3><p><img src=https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424160614.png alt></p><p>在软件的左下角，找到终端的图标，就可以打开 Postman Console 。</p><h3 id=其他>其他</h3><ul><li>登录账号之后可以同步收藏夹。</li><li>免费用户的功能基本够用。</li></ul><h2 id=高级玩法>高级玩法</h2><h3 id=pre-request-scripts>Pre-request Scripts</h3><p><img src=https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424160627.png alt></p><p>Postman 有一个 Pre-request Scripts 功能，可以在发生请求之前执行一段自定义脚本。这个功能在请求需要 Token 验证的 API，非常有用。比方说我们现在请求的接口需要 JWT 验证，传统的方式就是我们在其他地方算好 Token，粘贴过来就可以了。但是这种方式有很大的弊端，因为一般的 Token 都有实效时间的，所以 Token 实效了，下次你又得重复操作一遍。</p><p>但是有了 Pre-request Scripts 功能，我们就可以自动计算 Token，不用考虑实效问题，示例：</p><ul><li>先去环境变量添加 <code>client_key</code> 和 <code>client_secret</code></li><li>然后再 Pre-request Scripts 框输入下面代码：</li></ul><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 2
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 3
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 4
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 5
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 6
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 7
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 8
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 9
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">10
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">11
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">12
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">13
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">14
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">15
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">16
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">17
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">18
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">19
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">20
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">21
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">22
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">23
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">24
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">25
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">26
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">27
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">28
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">29
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">30
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">31
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-javascript data-lang=javascript>
+<span style=color:#069;font-weight:700>var</span> removeIllegalCharacters <span style=color:#555>=</span> <span style=color:#069;font-weight:700>function</span>(input) {
+    <span style=color:#069;font-weight:700>return</span> input
+        .replace(<span style=color:#3aa>/=/g</span>, <span style=color:#c30>&#39;&#39;</span>)
+        .replace(<span style=color:#3aa>/\+/g</span>, <span style=color:#c30>&#39;-&#39;</span>)
+        .replace(<span style=color:#3aa>/\//g</span>, <span style=color:#c30>&#39;_&#39;</span>);
 };
 
-<span style="color:#069;font-weight:bold">var</span> base64object <span style="color:#555">=</span> <span style="color:#069;font-weight:bold">function</span>(input) {
-    <span style="color:#069;font-weight:bold">var</span> inputWords <span style="color:#555">=</span> CryptoJS.enc.Utf8.parse(JSON.stringify(input));
-    <span style="color:#069;font-weight:bold">var</span> base64 <span style="color:#555">=</span> CryptoJS.enc.Base64.stringify(inputWords);
-    <span style="color:#069;font-weight:bold">var</span> output <span style="color:#555">=</span> removeIllegalCharacters(base64);
-    <span style="color:#069;font-weight:bold">return</span> output;
+<span style=color:#069;font-weight:700>var</span> base64object <span style=color:#555>=</span> <span style=color:#069;font-weight:700>function</span>(input) {
+    <span style=color:#069;font-weight:700>var</span> inputWords <span style=color:#555>=</span> CryptoJS.enc.Utf8.parse(JSON.stringify(input));
+    <span style=color:#069;font-weight:700>var</span> base64 <span style=color:#555>=</span> CryptoJS.enc.Base64.stringify(inputWords);
+    <span style=color:#069;font-weight:700>var</span> output <span style=color:#555>=</span> removeIllegalCharacters(base64);
+    <span style=color:#069;font-weight:700>return</span> output;
 };
 
-<span style="color:#069;font-weight:bold">var</span> clientKey <span style="color:#555">=</span> postman.getEnvironmentVariable(<span style="color:#c30">&#39;client_key&#39;</span>);
-<span style="color:#069;font-weight:bold">var</span> clientSecret <span style="color:#555">=</span> postman.getEnvironmentVariable(<span style="color:#c30">&#39;client_secret&#39;</span>);
-
-<span style="color:#069;font-weight:bold">var</span> exp <span style="color:#555">=</span> <span style="color:#366">Math</span>.floor(<span style="color:#366">Date</span>.now() <span style="color:#555">/</span> <span style="color:#f60">1000</span>) <span style="color:#555">+</span> <span style="color:#f60">15000</span>;
-<span style="color:#069;font-weight:bold">var</span> now <span style="color:#555">=</span> <span style="color:#366">Math</span>.floor(<span style="color:#366">Date</span>.now() <span style="color:#555">/</span> <span style="color:#f60">1000</span>);
-<span style="color:#069;font-weight:bold">var</span> header <span style="color:#555">=</span> { <span style="color:#c30">&#39;alg&#39;</span><span style="color:#555">:</span> <span style="color:#c30">&#39;HS256&#39;</span>, <span style="color:#c30">&#39;typ&#39;</span><span style="color:#555">:</span> <span style="color:#c30">&#39;JWT&#39;</span> };
-<span style="color:#069;font-weight:bold">var</span> payload <span style="color:#555">=</span> { <span style="color:#c30">&#39;exp&#39;</span><span style="color:#555">:</span> exp, <span style="color:#c30">&#39;iat&#39;</span><span style="color:#555">:</span> now, <span style="color:#c30">&#39;client_id&#39;</span><span style="color:#555">:</span> clientKey};
-
-<span style="color:#069;font-weight:bold">var</span> unsignedToken <span style="color:#555">=</span> base64object(header) <span style="color:#555">+</span> <span style="color:#c30">&#34;.&#34;</span> <span style="color:#555">+</span> base64object(payload);
-
-<span style="color:#069;font-weight:bold">var</span> signatureHash <span style="color:#555">=</span> CryptoJS.HmacSHA256(unsignedToken, clientSecret);
-<span style="color:#069;font-weight:bold">var</span> signature <span style="color:#555">=</span> CryptoJS.enc.Base64.stringify(signatureHash);
-<span style="color:#069;font-weight:bold">var</span> token <span style="color:#555">=</span> <span style="color:#c30">&#39;Bearer &#39;</span> <span style="color:#555">+</span> unsignedToken <span style="color:#555">+</span> <span style="color:#c30">&#39;.&#39;</span> <span style="color:#555">+</span> signature;
-
-postman.setGlobalVariable(<span style="color:#c30">&#39;jwt_token&#39;</span>, removeIllegalCharacters(token));
-
-</code></pre></td></tr></table>
-</div>
-</div><p><img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424160640.png" alt=""></p>
-<ul>
-<li>最后在 Header 里面配置 Authorization 就可以直接用 <code>{{jwt_token}}</code> 了</li>
-</ul>
-<p><img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424160651.png" alt=""></p>
-<p>上述方式是给单独的 API 的配置 Pre-request Scripts ，Postman 还可以给集合配置 Pre-request Scripts，这样的话整个集合就可以都使用这个 <code>{{jwt_token}}</code> 了。但是值得<strong>注意</strong>的有：</p>
-<ul>
-<li>集合里面配置是 Variables，单独配置的话只能设置环境变量。</li>
-<li>如果集合配置了 Pre-request Script ，单独又配置了环境变量，Pre-request Script 脚本会<strong>优先读取</strong>环境变量的值，这个要非常注意。</li>
-<li>集合的 Pre-request Scripts 获取变量方式有点不一样，比方说上面的生成 JWT Token 脚本，要使用 <code>pm.variables.get('client_key')</code> 代替 <code>postman.getEnvironmentVariable('client_key')</code>。</li>
-</ul>
-<p>更多使用方法，请查看<a href="https://learning.getpostman.com/docs/postman/scripts/pre_request_scripts/">官方文档 Pre-request scripts</a>。</p>
-<h3 id="内置函数">内置函数</h3>
-<p>我们除了可以自定义脚本之外，Postman 还内置了一些常用的变量:</p>
-<ul>
-<li><code>{{$guid}}</code>：v4 样式的 guid</li>
-<li><code>{{$timestamp}}</code>：当前时间戳</li>
-<li><code>{{$randomInt}}</code>：0到1000之间的随机整数</li>
-</ul>
-<p><img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424160716.png" alt=""></p>
-<p>更多使用方法，请查看<a href="https://learning.getpostman.com/docs/postman/environments_and_globals/variables/">官方文档 Variables</a>。</p>
-<h3 id="tests">Tests</h3>
-<p>目前还没用到，下次补上……</p>
-<h2 id="最后">最后</h2>
-<p>如果你做也做接口开发，需要经常测试接口的话，推荐你使用 Postman，如果你经常使用 Postman 的话，可以多花的时间研究一下这个工具的使用方式，一定会为你之后节约很多时间。</p>
-<p>正所谓『磨刀不误砍柴工』。</p>
-<p>{% endraw %}</p>
-
-            <hr class="bg-gray-300 mt-8">
-
-            
-<div class="pt-4">
-    <p class="text-center">
-        <button id="btn-donate" class="px-5 py-2 inline-block rounded hover:bg-red-600 bg-red-400 text-white" for="reward">打赏</button>
-    </p>
-    <div class="flex flex-auto mt-2 mx-2 hidden" id="donate-image">
-        
-        <div class="w-full px-2 my-2">
-            <div class="bg-white">
-                <img class="h-48 shadow object-cover w-auto mx-auto" loading="lazy" src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424153510.png" alt="微信打赏">
-                <div class="text-center text-gray-500">微信打赏</div>
-            </div>
-        </div>
-
-        <div class="w-full px-2 my-2">
-            <div class=" bg-white">
-                <img class="h-48 shadow object-cover w-auto mx-auto" loading="lazy" src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424153431.png" alt="支付宝打赏">
-                <div class="text-center text-gray-500">支付宝打赏</div>
-            </div>
-        </div> 
-
-    </div>
-</div>
-
-            
-<div class="border-l-4 border-red-400 mx-auto bg-gray-200 text-gray-700 mt-5">
-    <div class="pt-2 copyright">
-        <ul class="list-none">
-            <li>
-                <strong>原文作者：</strong>
-                <a rel="author" href="https://blog.forecho.com">forecho</a>
-            </li>
-            <li style="word-break:break-all">
-                <strong>原文链接：</strong>
-                <a href="https://blog.forecho.com/use-postman.html">https://blog.forecho.com/use-postman.html</a>
-            </li>
-            <li>
-                <strong>版权声明：</strong>本作品采用
-                <a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/deed.zh">署名-非商业性使用 4.0 国际 (CC BY-NC 4.0)</a>进行许可，非商业转载请注明出处（作者，原文链接），商业转载请联系作者获得授权。
-            </li>
-        </ul>
-    </div>
- 
-</div>
-
-
-        </div>
-
-        
-        <div class="text-base md:text-sm text-gray-500 pt-6">
-                <a class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 hover:bg-gray-300"
-                    href="https://blog.forecho.com/tags/restful.html">
-                    #restful
-                </a>
-                <a class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 hover:bg-gray-300"
-                    href="https://blog.forecho.com/tags/%E5%B7%A5%E5%85%B7%E6%8E%A7.html">
-                    #工具控
-                </a>
-                                    
-            </div>
-        
-
-         
-        
-            <p class="text-gray-500 text-sm text-right pt-1">
-                <span id="busuanzi_container_page_pv">
-                    本文有 <span id="busuanzi_value_page_pv"></span> 次阅读
-                </span>
-            </p>
-        
-
-    </div>
-    
-
-    
-    <hr class="bg-gray-300 my-10">
-
-    
-        
-        
-        
-
-        
-
-
-<div class="p-8 mt-6 lg:mt-0 rounded shadow bg-white">
-    <h2 class="font-sans font-bold break-normal text-gray-700 px-2 pb-3 text-xl">相关文章</h2>
-    
-    <li><a href="/use-jwt.html" class="underline text-orange-600">使用 JWT</a></li>
-    
-    <li><a href="/yii2-base-restful.html" class="underline text-orange-600">Yii2 搭建最基础的 RESTful</a></li>
-    
-    <li><a href="/yii2-use-restful.html" class="underline text-orange-600">Yii2 如何实现 RESTful？</a></li>
-    
-    <li><a href="/shennongjia-skiing.html" class="underline text-orange-600">第七站：神农架滑雪</a></li>
-    
-    <li><a href="/review-of-2018.html" class="underline text-orange-600">2018年终总结</a></li>
-    
-</div>
-
-
-    
-
-</section>
-
-
-<div class="hidden xl:text-sm xl:block xl:w-1/4 xl:px-6 ">
-
-    <div class="lg:w-full mx-auto items-center justify-between">
-    <div class="bg-white shadow rounded overflow-hidden">
-        <div class="bg-cover bg-auto mx-auto w-32 h-32 mt-5 rounded-full" style="background-image: url('https://avatars0.githubusercontent.com/u/1725326?s=460&amp;v=4')"> </div>
-        
-        <div class="p-4">
-            <p class="text-2xl text-center text-gray-900 pb-2">forecho</p>
-            <p class="text-sm text-center text-gray-700">把生命浪费在美好的事物上</p>
-        </div>
-        <div class="flex p-4 border-t text-sm border-gray-300 text-gray-700">
-            <div class="flex-1 border-r border-gray-600">
-                <p class="text-center">
-                    <span class="text-gray-700 font-bold">
-                        346
-                    </span>
-                    文章
-                </p>
-            </div>
-            <div class="flex-1 text-center">
-                <p class="text-center">
-                    <span class="text-gray-700 font-bold">
-                        
-                            100
-                        
-                    </span>
-                    标签
-                </p>
-            </div>
-        </div>
-        <div class="px-4 pb-4 border-t border-gray-300">
-            <div class="mt-6 pb-16 lg:pb-0 w-4/5 lg:w-full mx-auto flex flex-wrap items-center justify-between text-gray-500">
-                
-                <a href="//github.com/forecho" class="hover:text-gray-900 p-1 text-2xl" target="_blank" title="GitHub"><i class="my-iconfont icon-social-github"></i></a>
-                
-
-                
-
-                
-
-                
-
-                
-
-                
-
-                
-                <a href="//instagram.com/forecho" class="hover:text-gray-900 p-1 text-2xl" target="_blank" title="Instagram"><i class="my-iconfont icon-instagram"></i></a>
-                
-
-                
-
-                
-
-                
-
-                
-
-                
-
-                
-
-                
-
-                
-
-                
-
-                
-
-                
-
-                
-
-                
-
-                
-                <a href="//twitter.com/caizhenghai" class="hover:text-gray-900 p-1 text-2xl" target="_blank" title="Twitter"><i class="my-iconfont icon-social-twitter"></i></a>
-                
-
-                
-                <a href="//douban.com/people/ipzone" class="hover:text-gray-900 p-1 text-2xl" target="_blank" title="Douban"><i class="my-iconfont icon-social-douban"></i></a>
-                
-
-                
-                <a href="/atom.xml" class="hover:text-gray-900 p-1 text-2xl" target="_blank" title="RSS"><i class="my-iconfont icon-feed"></i></a>
-                
-            </div>
-        </div>
-    </div>
-</div>
-
-
-
-
-<div class="p-4 mt-2 lg:mt-4 rounded shadow bg-white">
-    <h2 class="font-sans font-bold break-normal text-gray-700 px-2 pb-3 text-lg">热门文章</h2>
-    
-    <li><a href="/financedeep-08.html" class="underline text-orange-600 text-sm">【深度理财08】美港股打新哪家强</a></li>
-    
-    <li><a href="/take-the-shenzhen-account-in-less-than-3-months.html" class="underline text-orange-600 text-sm">用时不到3个月拿到深圳户口</a></li>
-    
-    <li><a href="/how-do-i-invest-in-american-stocks.html" class="underline text-orange-600 text-sm">我是怎么投资美股的</a></li>
-    
-</div>
-
-
-
-    <div class="profile-ads"><div class="bg-white shadow"><img class=" object-cover w-auto mx-auto mt-6" loading="lazy" src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424153337.png" title="微信：ipzone" alt="微信：ipzone"></div></div>
-
-
-
-
-
-    <div class="flex flex-col justify-between sticky top-0 pt-12 pb-4 -mt-10 text-gray-600">
-        <div class="bg-white shadow rounded p-4 mt-5">
-            
-<p class="text-base font-bold py-2 yg:pb-6 text-gray-700">文章目录</p>
-    <div class="sticky text-sm" style="top:6em;" id="menu-content">
-        <nav id="TableOfContents">
-  <ul>
-    <li><a href="#引言">引言</a></li>
-    <li><a href="#基本使用">基本使用</a>
-      <ul>
-        <li><a href="#创建环境变量">创建环境变量</a></li>
-        <li><a href="#获取请求的代码">获取请求的代码</a></li>
-        <li><a href="#查看-url-请求的-request-和-response">查看 URL 请求的 <code>Request</code> 和 <code>Response</code></a></li>
-        <li><a href="#其他">其他</a></li>
-      </ul>
-    </li>
-    <li><a href="#高级玩法">高级玩法</a>
-      <ul>
-        <li><a href="#pre-request-scripts">Pre-request Scripts</a></li>
-        <li><a href="#内置函数">内置函数</a></li>
-        <li><a href="#tests">Tests</a></li>
-      </ul>
-    </li>
-    <li><a href="#最后">最后</a></li>
-  </ul>
-</nav>
-    </div>
-
-        </div>
-    </div>
-   
-</div> 
-
-    </div>
-    
-    
-<footer class="bg-white border-t border-gray-400 shadow mt-10">	
-    <div class="container  mx-auto flex py-8">
-        <div class="w-full text-center text-gray-600 ">
-            <p>
-                &copy; 2020 <a  class="text-gray-700" href="https://blog.forecho.com">forecho&#39;s Blog By forecho </a>
-            </p>
-            
-            <p class="pt-1">
-                Powered by <a rel="nofollow noreferer noopener" href="https://gohugo.io/"  class="text-gray-700" target="_blank">Hugo</a> 
-                Theme based on <a href="https://github.com/forecho/hugo-theme-echo" class="text-gray-700" target="_blank">Echo</a>
-            </p>
-
-            <span id="busuanzi_container">
-              访客数：<span id="busuanzi_value_site_uv"></span> | 访问量 <span id="busuanzi_value_site_pv"></span>
-            </span>
-
-        </div>
-
-    </div>
-</footer>
-
-
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-	ga('create', 'UA-75634412-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
- <script>
-  window.onload = function() {
-    document.getElementById("nav-toggle").onclick = function() {
-      document.getElementById("nav-content").classList.toggle("hidden");
-    };
-
-    var donate = document.getElementById("btn-donate");
-    if (donate) {
-      donate.onclick = function() {
-        document.getElementById("donate-image").classList.remove("hidden");
-        donate.classList.add("hidden");
-      };
-    }
-
-    var hostname = window.location.hostname;
-    var divs = document.querySelectorAll('a[href^="http"]');
-    [].forEach.call(divs, function(div) {
-      url = div.getAttribute("href");
-      var domain = url
-        .replace("http://", "")
-        .replace("https://", "")
-        .split(/[/?#:]/)[0];
-      if (domain !== hostname) {
-        div.setAttribute("target", "_blank");
-      }
-    });
-  };
-
-   
-  
-  var h = document.documentElement,
-    b = document.body,
-    st = "scrollTop",
-    sh = "scrollHeight",
-    progress = document.querySelector("#progress"),
-    scroll;
-  var scrollpos = window.scrollY;
-  var header = document.getElementById("header");
-  var navcontent = document.getElementById("nav-content");
-
-  document.addEventListener("scroll", function() {
-     
-    scroll = ((h[st] || b[st]) / ((h[sh] || b[sh]) - h.clientHeight)) * 100;
-    progress.style.setProperty("--scroll", scroll + "%");
-
-     
-    scrollpos = window.scrollY;
-
-    if (scrollpos > 10) {
-      navcontent.classList.remove("bg-gray-100");
-    } else {
-      navcontent.classList.add("bg-gray-100");
-    }
-  });
-</script>
-
-</body>
-
-</html>
+<span style=color:#069;font-weight:700>var</span> clientKey <span style=color:#555>=</span> postman.getEnvironmentVariable(<span style=color:#c30>&#39;client_key&#39;</span>);
+<span style=color:#069;font-weight:700>var</span> clientSecret <span style=color:#555>=</span> postman.getEnvironmentVariable(<span style=color:#c30>&#39;client_secret&#39;</span>);
+
+<span style=color:#069;font-weight:700>var</span> exp <span style=color:#555>=</span> <span style=color:#366>Math</span>.floor(<span style=color:#366>Date</span>.now() <span style=color:#555>/</span> <span style=color:#f60>1000</span>) <span style=color:#555>+</span> <span style=color:#f60>15000</span>;
+<span style=color:#069;font-weight:700>var</span> now <span style=color:#555>=</span> <span style=color:#366>Math</span>.floor(<span style=color:#366>Date</span>.now() <span style=color:#555>/</span> <span style=color:#f60>1000</span>);
+<span style=color:#069;font-weight:700>var</span> header <span style=color:#555>=</span> { <span style=color:#c30>&#39;alg&#39;</span><span style=color:#555>:</span> <span style=color:#c30>&#39;HS256&#39;</span>, <span style=color:#c30>&#39;typ&#39;</span><span style=color:#555>:</span> <span style=color:#c30>&#39;JWT&#39;</span> };
+<span style=color:#069;font-weight:700>var</span> payload <span style=color:#555>=</span> { <span style=color:#c30>&#39;exp&#39;</span><span style=color:#555>:</span> exp, <span style=color:#c30>&#39;iat&#39;</span><span style=color:#555>:</span> now, <span style=color:#c30>&#39;client_id&#39;</span><span style=color:#555>:</span> clientKey};
+
+<span style=color:#069;font-weight:700>var</span> unsignedToken <span style=color:#555>=</span> base64object(header) <span style=color:#555>+</span> <span style=color:#c30>&#34;.&#34;</span> <span style=color:#555>+</span> base64object(payload);
+
+<span style=color:#069;font-weight:700>var</span> signatureHash <span style=color:#555>=</span> CryptoJS.HmacSHA256(unsignedToken, clientSecret);
+<span style=color:#069;font-weight:700>var</span> signature <span style=color:#555>=</span> CryptoJS.enc.Base64.stringify(signatureHash);
+<span style=color:#069;font-weight:700>var</span> token <span style=color:#555>=</span> <span style=color:#c30>&#39;Bearer &#39;</span> <span style=color:#555>+</span> unsignedToken <span style=color:#555>+</span> <span style=color:#c30>&#39;.&#39;</span> <span style=color:#555>+</span> signature;
+
+postman.setGlobalVariable(<span style=color:#c30>&#39;jwt_token&#39;</span>, removeIllegalCharacters(token));
+
+</code></pre></td></tr></table></div></div><p><img src=https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424160640.png alt></p><ul><li>最后在 Header 里面配置 Authorization 就可以直接用 <code>{{jwt_token}}</code> 了</li></ul><p><img src=https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424160651.png alt></p><p>上述方式是给单独的 API 的配置 Pre-request Scripts ，Postman 还可以给集合配置 Pre-request Scripts，这样的话整个集合就可以都使用这个 <code>{{jwt_token}}</code> 了。但是值得<strong>注意</strong>的有：</p><ul><li>集合里面配置是 Variables，单独配置的话只能设置环境变量。</li><li>如果集合配置了 Pre-request Script ，单独又配置了环境变量，Pre-request Script 脚本会<strong>优先读取</strong>环境变量的值，这个要非常注意。</li><li>集合的 Pre-request Scripts 获取变量方式有点不一样，比方说上面的生成 JWT Token 脚本，要使用 <code>pm.variables.get('client_key')</code> 代替 <code>postman.getEnvironmentVariable('client_key')</code>。</li></ul><p>更多使用方法，请查看<a href=https://learning.getpostman.com/docs/postman/scripts/pre_request_scripts/>官方文档 Pre-request scripts</a>。</p><h3 id=内置函数>内置函数</h3><p>我们除了可以自定义脚本之外，Postman 还内置了一些常用的变量:</p><ul><li><code>{{$guid}}</code>：v4 样式的 guid</li><li><code>{{$timestamp}}</code>：当前时间戳</li><li><code>{{$randomInt}}</code>：0到1000之间的随机整数</li></ul><p><img src=https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424160716.png alt></p><p>更多使用方法，请查看<a href=https://learning.getpostman.com/docs/postman/environments_and_globals/variables/>官方文档 Variables</a>。</p><h3 id=tests>Tests</h3><p>目前还没用到，下次补上……</p><h2 id=最后>最后</h2><p>如果你做也做接口开发，需要经常测试接口的话，推荐你使用 Postman，如果你经常使用 Postman 的话，可以多花的时间研究一下这个工具的使用方式，一定会为你之后节约很多时间。</p><p>正所谓『磨刀不误砍柴工』。</p><p>{% endraw %}</p><hr class="bg-gray-300 mt-8"><div class=pt-4><p class=text-center><button id=btn-donate class="px-5 py-2 inline-block rounded hover:bg-red-600 bg-red-400 text-white" for=reward>打赏</button></p><div class="flex flex-auto mt-2 mx-2 hidden" id=donate-image><div class="w-full px-2 my-2"><div class=bg-white><img class="h-48 shadow object-cover w-auto mx-auto" loading=lazy src=https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424153510.png alt=微信打赏><div class="text-center text-gray-500">微信打赏</div></div></div><div class="w-full px-2 my-2"><div class=bg-white><img class="h-48 shadow object-cover w-auto mx-auto" loading=lazy src=https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424153431.png alt=支付宝打赏><div class="text-center text-gray-500">支付宝打赏</div></div></div></div></div><div class="border-l-4 border-red-400 mx-auto bg-gray-200 text-gray-700 mt-5"><div class="pt-2 copyright"><ul class=list-none><li><strong>原文作者：</strong>
+<a rel=author href=https://blog.forecho.com>forecho</a></li><li style=word-break:break-all><strong>原文链接：</strong>
+<a href=https://blog.forecho.com/use-postman.html>https://blog.forecho.com/use-postman.html</a></li><li><strong>版权声明：</strong>本作品采用
+<a rel=license href=https://creativecommons.org/licenses/by-nc/4.0/deed.zh>署名-非商业性使用 4.0 国际 (CC BY-NC 4.0)</a>进行许可，非商业转载请注明出处（作者，原文链接），商业转载请联系作者获得授权。</li></ul></div></div></div><div class="text-base md:text-sm text-gray-500 pt-6"><a class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 hover:bg-gray-300" href=https://blog.forecho.com/tags/restful.html>#restful</a>
+<a class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 hover:bg-gray-300" href=https://blog.forecho.com/tags/%E5%B7%A5%E5%85%B7%E6%8E%A7.html>#工具控</a></div><p class="text-gray-500 text-sm text-right pt-1"><span id=busuanzi_container_page_pv>本文有 <span id=busuanzi_value_page_pv></span>次阅读</span></p></div><hr class="bg-gray-300 my-10"><div class="p-8 mt-6 lg:mt-0 rounded shadow bg-white"><h2 class="font-sans font-bold break-normal text-gray-700 px-2 pb-3 text-xl">相关文章</h2><li><a href=/use-jwt.html class="underline text-orange-600">使用 JWT</a></li><li><a href=/yii2-base-restful.html class="underline text-orange-600">Yii2 搭建最基础的 RESTful</a></li><li><a href=/yii2-use-restful.html class="underline text-orange-600">Yii2 如何实现 RESTful？</a></li><li><a href=/shennongjia-skiing.html class="underline text-orange-600">第七站：神农架滑雪</a></li><li><a href=/review-of-2018.html class="underline text-orange-600">2018年终总结</a></li></div></section><div class="hidden xl:text-sm xl:block xl:w-1/4 xl:px-6"><div class="lg:w-full mx-auto items-center justify-between"><div class="bg-white shadow rounded overflow-hidden"><div class="bg-cover bg-auto mx-auto w-32 h-32 mt-5 rounded-full" style="background-image:url(https://avatars0.githubusercontent.com/u/1725326?s=460&v=4)"></div><div class=p-4><p class="text-2xl text-center text-gray-900 pb-2">forecho</p><p class="text-sm text-center text-gray-700">把生命浪费在美好的事物上</p></div><div class="flex p-4 border-t text-sm border-gray-300 text-gray-700"><div class="flex-1 border-r border-gray-600"><p class=text-center><span class="text-gray-700 font-bold">346</span>
+文章</p></div><div class="flex-1 text-center"><p class=text-center><span class="text-gray-700 font-bold">100</span>
+标签</p></div></div><div class="px-4 pb-4 border-t border-gray-300"><div class="mt-6 pb-16 lg:pb-0 w-4/5 lg:w-full mx-auto flex flex-wrap items-center justify-between text-gray-500"><a href=//github.com/forecho class="hover:text-gray-900 p-1 text-2xl" target=_blank title=GitHub><i class="my-iconfont icon-social-github"></i></a><a href=//instagram.com/forecho class="hover:text-gray-900 p-1 text-2xl" target=_blank title=Instagram><i class="my-iconfont icon-instagram"></i></a><a href=//twitter.com/caizhenghai class="hover:text-gray-900 p-1 text-2xl" target=_blank title=Twitter><i class="my-iconfont icon-social-twitter"></i></a><a href=//douban.com/people/ipzone class="hover:text-gray-900 p-1 text-2xl" target=_blank title=Douban><i class="my-iconfont icon-social-douban"></i></a><a href=/atom.xml class="hover:text-gray-900 p-1 text-2xl" target=_blank title=RSS><i class="my-iconfont icon-feed"></i></a></div></div></div></div><div class="p-4 mt-2 lg:mt-4 rounded shadow bg-white"><h2 class="font-sans font-bold break-normal text-gray-700 px-2 pb-3 text-lg">热门文章</h2><li><a href=/financedeep-08.html class="underline text-orange-600 text-sm">【深度理财08】美港股打新哪家强</a></li><li><a href=/take-the-shenzhen-account-in-less-than-3-months.html class="underline text-orange-600 text-sm">用时不到3个月拿到深圳户口</a></li><li><a href=/how-do-i-invest-in-american-stocks.html class="underline text-orange-600 text-sm">我是怎么投资美股的</a></li></div><div class=profile-ads><div class="bg-white shadow"><img class="object-cover w-auto mx-auto mt-6" loading=lazy src=https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424153337.png title=微信：ipzone alt=微信：ipzone></div></div><div class="flex flex-col justify-between sticky top-0 pt-12 pb-4 -mt-10 text-gray-600"><div class="bg-white shadow rounded p-4 mt-5"><p class="text-base font-bold py-2 yg:pb-6 text-gray-700">文章目录</p><div class="sticky text-sm" style=top:6em id=menu-content><nav id=TableOfContents><ul><li><a href=#引言>引言</a></li><li><a href=#基本使用>基本使用</a><ul><li><a href=#创建环境变量>创建环境变量</a></li><li><a href=#获取请求的代码>获取请求的代码</a></li><li><a href=#查看-url-请求的-request-和-response>查看 URL 请求的 <code>Request</code> 和 <code>Response</code></a></li><li><a href=#其他>其他</a></li></ul></li><li><a href=#高级玩法>高级玩法</a><ul><li><a href=#pre-request-scripts>Pre-request Scripts</a></li><li><a href=#内置函数>内置函数</a></li><li><a href=#tests>Tests</a></li></ul></li><li><a href=#最后>最后</a></li></ul></nav></div></div></div></div></div><footer class="bg-white border-t border-gray-400 shadow mt-10"><div class="container mx-auto flex py-8"><div class="w-full text-center text-gray-600"><p>&copy; 2020 <a class=text-gray-700 href=https://blog.forecho.com>forecho's Blog By forecho</a></p><p class=pt-1>Powered by <a rel="nofollow noreferer noopener" href=https://gohugo.io/ class=text-gray-700 target=_blank>Hugo</a>
+Theme based on <a href=https://github.com/forecho/hugo-theme-echo class=text-gray-700 target=_blank>Echo</a></p><span id=busuanzi_container>访客数：<span id=busuanzi_value_site_uv></span> | 访问量 <span id=busuanzi_value_site_pv></span></span></div></div></footer><script type=application/javascript>var doNotTrack=false;if(!doNotTrack){(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');ga('create','UA-75634412-1','auto');ga('send','pageview');}</script><script>window.onload=function(){document.getElementById("nav-toggle").onclick=function(){document.getElementById("nav-content").classList.toggle("hidden");};var donate=document.getElementById("btn-donate");if(donate){donate.onclick=function(){document.getElementById("donate-image").classList.remove("hidden");donate.classList.add("hidden");};}
+var hostname=window.location.hostname;var divs=document.querySelectorAll('a[href^="http"]');[].forEach.call(divs,function(div){url=div.getAttribute("href");var domain=url.replace("http://","").replace("https://","").split(/[/?#:]/)[0];if(domain!==hostname){div.setAttribute("target","_blank");}});};var h=document.documentElement,b=document.body,st="scrollTop",sh="scrollHeight",progress=document.querySelector("#progress"),scroll;var scrollpos=window.scrollY;var header=document.getElementById("header");var navcontent=document.getElementById("nav-content");document.addEventListener("scroll",function(){scroll=((h[st]||b[st])/((h[sh]||b[sh])-h.clientHeight))*100;progress.style.setProperty("--scroll",scroll+"%");scrollpos=window.scrollY;if(scrollpos>10){navcontent.classList.remove("bg-gray-100");}else{navcontent.classList.add("bg-gray-100");}});</script></body></html>

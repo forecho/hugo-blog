@@ -1,51 +1,28 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>编程思想 on forecho&#39;s Blog</title>
-    <link>https://blog.forecho.com/tags/%E7%BC%96%E7%A8%8B%E6%80%9D%E6%83%B3.html</link>
-    <description>Recent content in 编程思想 on forecho&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 19 Dec 2016 12:09:00 +0800</lastBuildDate>
-    
-	<atom:link href="https://blog.forecho.com/tags/%E7%BC%96%E7%A8%8B%E6%80%9D%E6%83%B3/atom.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>用辅助函数来取代复杂的表达式</title>
-      <link>https://blog.forecho.com/write-helper-functions-instead-of-complex-expressions.html</link>
-      <pubDate>Mon, 19 Dec 2016 12:09:00 +0800</pubDate>
-      
-      <guid>https://blog.forecho.com/write-helper-functions-instead-of-complex-expressions.html</guid>
-      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
-&lt;p&gt;上上上个月在图书馆淘到一本书叫&lt;a href=&#34;https://book.douban.com/subject/26709315/&#34;&gt;《Effective Python - 编写高质量Python代码的59个有效方法》&lt;/a&gt;，虽然我不用 Python 写代码，但是好歹以前写过一点 Python 的皮毛。
-豆瓣看了一下评分，就果断借了这本书。当看到第四条方法《第4条：用辅助函数来取代复杂的表达式 》结合自己最近几年编程经验，深有感触，于是就有了这篇文章。&lt;/p&gt;
-&lt;h2 id=&#34;为什么要用辅助函数&#34;&gt;为什么要用辅助函数？&lt;/h2&gt;
-&lt;p&gt;在编程的时候，你肯定会遇到类似这样的事情：数据库中保存的商品单价单位是分，商品详情页需要你的商品价格，但是单位肯定是元。&lt;/p&gt;
-&lt;p&gt;那么我们可以怎么样实现呢？一般的做法肯定这样的，直接在视图页面要展示价格的地方这样写：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
-&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
-&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
-&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span style=&#34;color:#099&#34;&gt;&amp;lt;?&lt;/span&gt;&lt;span style=&#34;color:#555&#34;&gt;=&lt;/span&gt; round((&lt;span style=&#34;color:#033&#34;&gt;$price&lt;/span&gt; &lt;span style=&#34;color:#555&#34;&gt;/&lt;/span&gt; &lt;span style=&#34;color:#f60&#34;&gt;100&lt;/span&gt;), &lt;span style=&#34;color:#f60&#34;&gt;2&lt;/span&gt;) &lt;span style=&#34;color:#099&#34;&gt;?&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;这样写虽然能实现效果，但是如果需求有变化，需要使用强制保留两位小数，那么你需要这样改：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
-&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
-&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
-&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span style=&#34;color:#099&#34;&gt;&amp;lt;?&lt;/span&gt;&lt;span style=&#34;color:#555&#34;&gt;=&lt;/span&gt; number_format(round((&lt;span style=&#34;color:#033&#34;&gt;$price&lt;/span&gt; &lt;span style=&#34;color:#555&#34;&gt;/&lt;/span&gt; &lt;span style=&#34;color:#f60&#34;&gt;100&lt;/span&gt;), &lt;span style=&#34;color:#f60&#34;&gt;2&lt;/span&gt;), &lt;span style=&#34;color:#f60&#34;&gt;2&lt;/span&gt;, &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;.&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;&amp;#39;&lt;/span&gt;); &lt;span style=&#34;color:#099&#34;&gt;?&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;看上去虽然不多的代码，但是&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;阅读起来很困难，而且很上去也很乱。&lt;/li&gt;
-&lt;li&gt;如果涉及到很多东西的话，需要找到每个相应的地方然后做修改。同理，下次改需求的时候，修改也将会是一件很痛苦的事情。&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>编程思想 on forecho's Blog</title><link>https://blog.forecho.com/tags/%E7%BC%96%E7%A8%8B%E6%80%9D%E6%83%B3.html</link><description>Recent content in 编程思想 on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 19 Dec 2016 12:09:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/tags/%E7%BC%96%E7%A8%8B%E6%80%9D%E6%83%B3/atom.xml" rel="self" type="application/rss+xml"/><item><title>用辅助函数来取代复杂的表达式</title><link>https://blog.forecho.com/write-helper-functions-instead-of-complex-expressions.html</link><pubDate>Mon, 19 Dec 2016 12:09:00 +0800</pubDate><guid>https://blog.forecho.com/write-helper-functions-instead-of-complex-expressions.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>上上上个月在图书馆淘到一本书叫&lt;a href="https://book.douban.com/subject/26709315/">《Effective Python - 编写高质量Python代码的59个有效方法》&lt;/a>，虽然我不用 Python 写代码，但是好歹以前写过一点 Python 的皮毛。
+豆瓣看了一下评分，就果断借了这本书。当看到第四条方法《第4条：用辅助函数来取代复杂的表达式 》结合自己最近几年编程经验，深有感触，于是就有了这篇文章。&lt;/p>
+&lt;h2 id="为什么要用辅助函数">为什么要用辅助函数？&lt;/h2>
+&lt;p>在编程的时候，你肯定会遇到类似这样的事情：数据库中保存的商品单价单位是分，商品详情页需要你的商品价格，但是单位肯定是元。&lt;/p>
+&lt;p>那么我们可以怎么样实现呢？一般的做法肯定这样的，直接在视图页面要展示价格的地方这样写：&lt;/p>
+&lt;div class="highlight">&lt;div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-php" data-lang="php">&lt;span style="color:#099">&amp;lt;?&lt;/span>&lt;span style="color:#555">=&lt;/span> round((&lt;span style="color:#033">$price&lt;/span> &lt;span style="color:#555">/&lt;/span> &lt;span style="color:#f60">100&lt;/span>), &lt;span style="color:#f60">2&lt;/span>) &lt;span style="color:#099">?&amp;gt;&lt;/span>
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>这样写虽然能实现效果，但是如果需求有变化，需要使用强制保留两位小数，那么你需要这样改：&lt;/p>
+&lt;div class="highlight">&lt;div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-php" data-lang="php">&lt;span style="color:#099">&amp;lt;?&lt;/span>&lt;span style="color:#555">=&lt;/span> number_format(round((&lt;span style="color:#033">$price&lt;/span> &lt;span style="color:#555">/&lt;/span> &lt;span style="color:#f60">100&lt;/span>), &lt;span style="color:#f60">2&lt;/span>), &lt;span style="color:#f60">2&lt;/span>, &lt;span style="color:#c30">&amp;#39;.&amp;#39;&lt;/span>, &lt;span style="color:#c30">&amp;#39;&amp;#39;&lt;/span>); &lt;span style="color:#099">?&amp;gt;&lt;/span>
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>看上去虽然不多的代码，但是&lt;/p>
+&lt;ul>
+&lt;li>阅读起来很困难，而且很上去也很乱。&lt;/li>
+&lt;li>如果涉及到很多东西的话，需要找到每个相应的地方然后做修改。同理，下次改需求的时候，修改也将会是一件很痛苦的事情。&lt;/li>
+&lt;/ul></description></item></channel></rss>
