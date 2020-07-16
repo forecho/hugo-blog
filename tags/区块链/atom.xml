@@ -1,28 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>区块链 on forecho&#39;s Blog</title>
-    <link>https://blog.forecho.com/tags/%E5%8C%BA%E5%9D%97%E9%93%BE.html</link>
-    <description>Recent content in 区块链 on forecho&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 03 Feb 2018 15:29:00 +0800</lastBuildDate>
-    
-	<atom:link href="https://blog.forecho.com/tags/%E5%8C%BA%E5%9D%97%E9%93%BE/atom.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>用 PHP 了解区块链基本原型</title>
-      <link>https://blog.forecho.com/understand-blockchain-primitives-with-php.html</link>
-      <pubDate>Sat, 03 Feb 2018 15:29:00 +0800</pubDate>
-      
-      <guid>https://blog.forecho.com/understand-blockchain-primitives-with-php.html</guid>
-      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
-&lt;p&gt;最近这一个月一有时间就研究区块链的技术，看了不少文章，理论知识了解了不少。今天终于有时间写写『如何用 PHP 来了解区块链的基本原理』了。&lt;/p&gt;
-&lt;p&gt;本篇文章适合对区块链感兴趣而且还需要对区块链已经有一定了解的小伙伴。废话不多说，我们直接上代码。&lt;/p&gt;
-&lt;h2 id=&#34;block-区块&#34;&gt;Block 区块&lt;/h2&gt;
-&lt;p&gt;区块链由N个区块组成，在区块链里，价值信息存储在区块之中。比如，比特币的区块存储交易记录，而交易记录是任何加密货币的核心。除此之外，区块里还包含有技术信息，比如它的版本号，当前的时间戳，以及上一个区块的哈希（Hash）。&lt;/p&gt;</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>区块链 on forecho's Blog</title><link>https://blog.forecho.com/tags/%E5%8C%BA%E5%9D%97%E9%93%BE.html</link><description>Recent content in 区块链 on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 03 Feb 2018 15:29:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/tags/%E5%8C%BA%E5%9D%97%E9%93%BE/atom.xml" rel="self" type="application/rss+xml"/><item><title>用 PHP 了解区块链基本原型</title><link>https://blog.forecho.com/understand-blockchain-primitives-with-php.html</link><pubDate>Sat, 03 Feb 2018 15:29:00 +0800</pubDate><guid>https://blog.forecho.com/understand-blockchain-primitives-with-php.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>最近这一个月一有时间就研究区块链的技术，看了不少文章，理论知识了解了不少。今天终于有时间写写『如何用 PHP 来了解区块链的基本原理』了。&lt;/p>
+&lt;p>本篇文章适合对区块链感兴趣而且还需要对区块链已经有一定了解的小伙伴。废话不多说，我们直接上代码。&lt;/p>
+&lt;h2 id="block-区块">Block 区块&lt;/h2>
+&lt;p>区块链由N个区块组成，在区块链里，价值信息存储在区块之中。比如，比特币的区块存储交易记录，而交易记录是任何加密货币的核心。除此之外，区块里还包含有技术信息，比如它的版本号，当前的时间戳，以及上一个区块的哈希（Hash）。&lt;/p></description></item></channel></rss>

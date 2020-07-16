@@ -1,40 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>想法 on forecho&#39;s Blog</title>
-    <link>https://blog.forecho.com/tags/%E6%83%B3%E6%B3%95.html</link>
-    <description>Recent content in 想法 on forecho&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 16 Mar 2019 21:58:00 +0800</lastBuildDate>
-    
-	<atom:link href="https://blog.forecho.com/tags/%E6%83%B3%E6%B3%95/atom.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>征集友情链接</title>
-      <link>https://blog.forecho.com/collect-friendship-links.html</link>
-      <pubDate>Sat, 16 Mar 2019 21:58:00 +0800</pubDate>
-      
-      <guid>https://blog.forecho.com/collect-friendship-links.html</guid>
-      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
-&lt;p&gt;一直以来我的博客都是没加搞友情链接，前几天突然有一个想法。想搞一个『友情链接』。但是我想搞的这个『友情链接』更像是一个联盟，现在认真写博客的人越来越少了，我想把这些人集合到一起，决定暂时把联盟称之为『联盟链接』。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>一个里程碑</title>
-      <link>https://blog.forecho.com/a-milestone.html</link>
-      <pubDate>Fri, 20 Jan 2017 22:41:00 +0800</pubDate>
-      
-      <guid>https://blog.forecho.com/a-milestone.html</guid>
-      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
-&lt;p&gt;一直以来我写博客目的只是记录自己想法，从2011年7月实习开始，我接触了 WordPress，开始搭建了属于我自己的独立博客。后来因为某些原因，我抛弃了 WordPress，
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>想法 on forecho's Blog</title><link>https://blog.forecho.com/tags/%E6%83%B3%E6%B3%95.html</link><description>Recent content in 想法 on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 16 Mar 2019 21:58:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/tags/%E6%83%B3%E6%B3%95/atom.xml" rel="self" type="application/rss+xml"/><item><title>征集友情链接</title><link>https://blog.forecho.com/collect-friendship-links.html</link><pubDate>Sat, 16 Mar 2019 21:58:00 +0800</pubDate><guid>https://blog.forecho.com/collect-friendship-links.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>一直以来我的博客都是没加搞友情链接，前几天突然有一个想法。想搞一个『友情链接』。但是我想搞的这个『友情链接』更像是一个联盟，现在认真写博客的人越来越少了，我想把这些人集合到一起，决定暂时把联盟称之为『联盟链接』。&lt;/p></description></item><item><title>一个里程碑</title><link>https://blog.forecho.com/a-milestone.html</link><pubDate>Fri, 20 Jan 2017 22:41:00 +0800</pubDate><guid>https://blog.forecho.com/a-milestone.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>一直以来我写博客目的只是记录自己想法，从2011年7月实习开始，我接触了 WordPress，开始搭建了属于我自己的独立博客。后来因为某些原因，我抛弃了 WordPress，
 拥抱了静态博客的 Octopress，但是说实话，WordPress 确实是一个非常优秀的博客程序，自从用了 Octopress 我的博客流量长期以来都变成个人数，虽然我时常安慰自己，
-我是为自己而写，但是摸着良心说话，我也是很渴望被更多人发现。&lt;/p&gt;
-&lt;p&gt;新的一年里，我决定做出一些改变，即使是需要做一些我不愿意做的事情。除了给自己定了每月坚持写文章的目标之后，我还做了以下几点决定：&lt;/p&gt;
-&lt;h2 id=&#34;大统一&#34;&gt;大统一&lt;/h2&gt;
-&lt;p&gt;确定网络 ID，没错就是 『forecho』了，前几年就开始有意识的全部切换为此 ID，虽然确定得有些晚了，但是总算是一个不错的开始。（关于这个 ID 背后的故事我以后有机会可以讲给你们听）&lt;/p&gt;</description>
-    </item>
-    
-  </channel>
-</rss>
+我是为自己而写，但是摸着良心说话，我也是很渴望被更多人发现。&lt;/p>
+&lt;p>新的一年里，我决定做出一些改变，即使是需要做一些我不愿意做的事情。除了给自己定了每月坚持写文章的目标之后，我还做了以下几点决定：&lt;/p>
+&lt;h2 id="大统一">大统一&lt;/h2>
+&lt;p>确定网络 ID，没错就是 『forecho』了，前几年就开始有意识的全部切换为此 ID，虽然确定得有些晚了，但是总算是一个不错的开始。（关于这个 ID 背后的故事我以后有机会可以讲给你们听）&lt;/p></description></item></channel></rss>

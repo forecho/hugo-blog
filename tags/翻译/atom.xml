@@ -1,102 +1,56 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>翻译 on forecho&#39;s Blog</title>
-    <link>https://blog.forecho.com/tags/%E7%BF%BB%E8%AF%91.html</link>
-    <description>Recent content in 翻译 on forecho&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 29 Jan 2016 15:36:00 +0800</lastBuildDate>
-    
-	<atom:link href="https://blog.forecho.com/tags/%E7%BF%BB%E8%AF%91/atom.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>如何阅读一本书</title>
-      <link>https://blog.forecho.com/how-to-read-a-book.html</link>
-      <pubDate>Fri, 29 Jan 2016 15:36:00 +0800</pubDate>
-      
-      <guid>https://blog.forecho.com/how-to-read-a-book.html</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;大致翻译了一下，有些没看懂。😓&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&#34;买更多的书&#34;&gt;买更多的书&lt;/h2&gt;
-&lt;p&gt;每次买3-10本书，至少让自己有5本待读的书，让自己找不出「没有书可以读」的借口。&lt;/p&gt;
-&lt;h2 id=&#34;一次读三本书&#34;&gt;一次读三本书&lt;/h2&gt;
-&lt;p&gt;同一时间阅读三四本书，可以根据自己的心情和天气，小说和非小说类型随时切换着看。&lt;/p&gt;
-&lt;p&gt;第一本书卡住了，可以看第二本书。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>塑造成功框架的哲学</title>
-      <link>https://blog.forecho.com/successful-framework-philosophies.html</link>
-      <pubDate>Sun, 27 Dec 2015 22:37:00 +0800</pubDate>
-      
-      <guid>https://blog.forecho.com/successful-framework-philosophies.html</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;来源：&lt;a href=&#34;http://www.capitalone.io/blog/successful-framework-philosophies/&#34;&gt;Philosophies that Shaped Successful Frameworks&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;在过去的十年里我们看到了许多软件框架的出现，像 &lt;a href=&#34;http://spring.io/&#34;&gt;Spring&lt;/a&gt; 和 &lt;a href=&#34;http://rubyonrails.org/&#34;&gt;Ruby on Rails&lt;/a&gt; 已经是非常成功的框架了，掌握它们就意味着打开多扇就业机会的大门了。然而，对于每一个框架的成功，背后的大多数开发人员都不被人关注。2008年1月1日&lt;a href=&#34;https://en.wikipedia.org/wiki/Software_framework&#34;&gt;维基百科&lt;/a&gt; 列出了67个 Web 框架。然而今天，超过三分之二的消失在列表中或在三年内没有更新。作为 Yii 框架的创造者，我花了很多时间调查各种框架和理解为什么有些成功，有些失败了。我将描述我发现塑造成功框架的一些哲学。&lt;/p&gt;
-&lt;h2 id=&#34;为什么框架&#34;&gt;为什么框架?&lt;/h2&gt;
-&lt;p&gt;建立一个成功的框架，重要的是要了解什么是框架，开发人员为什么需要它们。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://queue.acm.org/detail.cfm?id=1017005&#34;&gt;Douglas C. Schmidt 等人&lt;/a&gt; 认为框架作为一个集成的软件构件(如类、对象和组件)集合，为相关应用程序提供一个可重用的体系结构。根据这一定义，
-框架应该是一个已完工的应用骨架组成可重用和可定制的组件。开发人员将扩展并定制一个框架通过提供他们的应用程序和领域特定逻辑来形成一个完整的应用程序。&lt;/p&gt;
-&lt;p&gt;一个框架典型的特征就是所谓的控制反转（&lt;a href=&#34;http://martinfowler.com/bliki/InversionOfControl.html&#34;&gt;inversion of control&lt;/a&gt;）。框架通常扮演着组织主程序的角色和调用应用程序代码。这里是反过来的控制流——它调用我而不是我调用框架。下图说明了框架之间的关系，函数库，和应用程序。注意框架通常提供现成的功能的库，以帮助开发人员构建应用程序更快。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://segmentfault.com/img/bVtewA&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;开发人员使用框架最重要的原因是框架如何提高生产力和帮助提高代码质量。例如，现代的框架(例如，django)，经常提供代码生成工具或样板帮助立即启动新项目。此外，精心设计的框架内嵌安全保护措施，帮助预防开发人员犯典型的安全漏洞。&lt;/p&gt;
-&lt;p&gt;企业使用框架，还有一个额外的好处是，它可以应用在整个企业，帮助执行标准。框架提供了记录模式，详细的设计和实现的工具用于在所有应用程序之间提供一个一致的结构。例如，在 Capital One (译者注：薛强所在的公司) 我们开发一个 「Chassis」的框架作为一个集成的基础，统一了许多厂商和顾客公司内部开发应用程序的 API。&lt;/p&gt;
-&lt;p&gt;当然，并不是所有的开发人员喜欢使用框架。一些一致的抱怨包括陡峭的学习曲线，框架耦合性比较高，性能较低，等等。今天，在这篇文章中我将为你解释现代框架如何的解决这些问题，让大多数的这些抱怨不再适用。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>如何让团队里的工程师对工作不厌烦</title>
-      <link>https://blog.forecho.com/coding-is-boring-unless.html</link>
-      <pubDate>Mon, 30 Nov 2015 17:40:00 +0800</pubDate>
-      
-      <guid>https://blog.forecho.com/coding-is-boring-unless.html</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;原文：&lt;a href=&#34;https://blog.enki.com/coding-is-boring-unless-4e496720d664#.pgkeq1x6r&#34;&gt;《Coding is boring, unless…》&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;作为一名工程师,我从来没有坚持同样的工作超过两年了。&lt;/p&gt;
-&lt;p&gt;每个新工作是一个不错的职业选择,高薪在我们行业中也是很常见的。但是我离职让我之前的老板不是很高兴。其中一些试着说服我,但是我觉得留下来很无聊,所以我不能留下来。&lt;/p&gt;
-&lt;p&gt;（免责声明：我很幸运的生活在一个编程工作比程序员更多的地方，所以我换工作有很多选择的余地。）&lt;/p&gt;
-&lt;p&gt;我现在作为 &lt;a href=&#34;http://enki.com/&#34;&gt;Enki&lt;/a&gt; 公司的联合创始人兼首席技术官。因此,我负责了公司的工程师文化。我工作的一部分是要确保我们的开发人员不会像我过去有时候一样的无聊。&lt;/p&gt;
-&lt;p&gt;为了帮助我们的团队，我们已经设计了一些策略对抗无聊并且已经应用到我们公司。因为这种策略目前运行良好,我想在这里分享下。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>PHP 中的动态属性和 StdClass</title>
-      <link>https://blog.forecho.com/dynamic-properties-in-php-and-stdclass.html</link>
-      <pubDate>Sun, 08 Nov 2015 21:52:00 +0800</pubDate>
-      
-      <guid>https://blog.forecho.com/dynamic-properties-in-php-and-stdclass.html</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;翻译 &lt;a href=&#34;http://krisjordan.com/dynamic-properties-in-php-with-stdclass&#34;&gt;Dynamic Properties in PHP and StdClass&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;JavaScript 和 Python 允许对象实例的动态属性。事实证明,PHP 也是如此。看官方 PHP 对象和类文档可能会导致你相信动态实例属性需要自定义 __get 和 __set 魔术方法。其实不用。&lt;/p&gt;
-&lt;h2 id=&#34;简单内置的动态属性&#34;&gt;简单,内置的动态属性&lt;/h2&gt;
-&lt;p&gt;看看以下代码:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
-&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
-&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 1
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 2
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 3
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 4
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 5
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 6
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 7
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 8
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 9
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;10
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;11
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;12
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;13
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;14
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;15
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;16
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
-&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;class DynamicProperties { }
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>翻译 on forecho's Blog</title><link>https://blog.forecho.com/tags/%E7%BF%BB%E8%AF%91.html</link><description>Recent content in 翻译 on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 29 Jan 2016 15:36:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/tags/%E7%BF%BB%E8%AF%91/atom.xml" rel="self" type="application/rss+xml"/><item><title>如何阅读一本书</title><link>https://blog.forecho.com/how-to-read-a-book.html</link><pubDate>Fri, 29 Jan 2016 15:36:00 +0800</pubDate><guid>https://blog.forecho.com/how-to-read-a-book.html</guid><description>&lt;blockquote>
+&lt;p>大致翻译了一下，有些没看懂。😓&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="买更多的书">买更多的书&lt;/h2>
+&lt;p>每次买3-10本书，至少让自己有5本待读的书，让自己找不出「没有书可以读」的借口。&lt;/p>
+&lt;h2 id="一次读三本书">一次读三本书&lt;/h2>
+&lt;p>同一时间阅读三四本书，可以根据自己的心情和天气，小说和非小说类型随时切换着看。&lt;/p>
+&lt;p>第一本书卡住了，可以看第二本书。&lt;/p></description></item><item><title>塑造成功框架的哲学</title><link>https://blog.forecho.com/successful-framework-philosophies.html</link><pubDate>Sun, 27 Dec 2015 22:37:00 +0800</pubDate><guid>https://blog.forecho.com/successful-framework-philosophies.html</guid><description>&lt;blockquote>
+&lt;p>来源：&lt;a href="http://www.capitalone.io/blog/successful-framework-philosophies/">Philosophies that Shaped Successful Frameworks&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;p>在过去的十年里我们看到了许多软件框架的出现，像 &lt;a href="http://spring.io/">Spring&lt;/a> 和 &lt;a href="http://rubyonrails.org/">Ruby on Rails&lt;/a> 已经是非常成功的框架了，掌握它们就意味着打开多扇就业机会的大门了。然而，对于每一个框架的成功，背后的大多数开发人员都不被人关注。2008年1月1日&lt;a href="https://en.wikipedia.org/wiki/Software_framework">维基百科&lt;/a> 列出了67个 Web 框架。然而今天，超过三分之二的消失在列表中或在三年内没有更新。作为 Yii 框架的创造者，我花了很多时间调查各种框架和理解为什么有些成功，有些失败了。我将描述我发现塑造成功框架的一些哲学。&lt;/p>
+&lt;h2 id="为什么框架">为什么框架?&lt;/h2>
+&lt;p>建立一个成功的框架，重要的是要了解什么是框架，开发人员为什么需要它们。&lt;/p>
+&lt;p>&lt;a href="https://queue.acm.org/detail.cfm?id=1017005">Douglas C. Schmidt 等人&lt;/a> 认为框架作为一个集成的软件构件(如类、对象和组件)集合，为相关应用程序提供一个可重用的体系结构。根据这一定义，
+框架应该是一个已完工的应用骨架组成可重用和可定制的组件。开发人员将扩展并定制一个框架通过提供他们的应用程序和领域特定逻辑来形成一个完整的应用程序。&lt;/p>
+&lt;p>一个框架典型的特征就是所谓的控制反转（&lt;a href="http://martinfowler.com/bliki/InversionOfControl.html">inversion of control&lt;/a>）。框架通常扮演着组织主程序的角色和调用应用程序代码。这里是反过来的控制流——它调用我而不是我调用框架。下图说明了框架之间的关系，函数库，和应用程序。注意框架通常提供现成的功能的库，以帮助开发人员构建应用程序更快。&lt;/p>
+&lt;p>&lt;img src="https://segmentfault.com/img/bVtewA" alt="">&lt;/p>
+&lt;p>开发人员使用框架最重要的原因是框架如何提高生产力和帮助提高代码质量。例如，现代的框架(例如，django)，经常提供代码生成工具或样板帮助立即启动新项目。此外，精心设计的框架内嵌安全保护措施，帮助预防开发人员犯典型的安全漏洞。&lt;/p>
+&lt;p>企业使用框架，还有一个额外的好处是，它可以应用在整个企业，帮助执行标准。框架提供了记录模式，详细的设计和实现的工具用于在所有应用程序之间提供一个一致的结构。例如，在 Capital One (译者注：薛强所在的公司) 我们开发一个 「Chassis」的框架作为一个集成的基础，统一了许多厂商和顾客公司内部开发应用程序的 API。&lt;/p>
+&lt;p>当然，并不是所有的开发人员喜欢使用框架。一些一致的抱怨包括陡峭的学习曲线，框架耦合性比较高，性能较低，等等。今天，在这篇文章中我将为你解释现代框架如何的解决这些问题，让大多数的这些抱怨不再适用。&lt;/p></description></item><item><title>如何让团队里的工程师对工作不厌烦</title><link>https://blog.forecho.com/coding-is-boring-unless.html</link><pubDate>Mon, 30 Nov 2015 17:40:00 +0800</pubDate><guid>https://blog.forecho.com/coding-is-boring-unless.html</guid><description>&lt;blockquote>
+&lt;p>原文：&lt;a href="https://blog.enki.com/coding-is-boring-unless-4e496720d664#.pgkeq1x6r">《Coding is boring, unless…》&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;p>作为一名工程师,我从来没有坚持同样的工作超过两年了。&lt;/p>
+&lt;p>每个新工作是一个不错的职业选择,高薪在我们行业中也是很常见的。但是我离职让我之前的老板不是很高兴。其中一些试着说服我,但是我觉得留下来很无聊,所以我不能留下来。&lt;/p>
+&lt;p>（免责声明：我很幸运的生活在一个编程工作比程序员更多的地方，所以我换工作有很多选择的余地。）&lt;/p>
+&lt;p>我现在作为 &lt;a href="http://enki.com/">Enki&lt;/a> 公司的联合创始人兼首席技术官。因此,我负责了公司的工程师文化。我工作的一部分是要确保我们的开发人员不会像我过去有时候一样的无聊。&lt;/p>
+&lt;p>为了帮助我们的团队，我们已经设计了一些策略对抗无聊并且已经应用到我们公司。因为这种策略目前运行良好,我想在这里分享下。&lt;/p></description></item><item><title>PHP 中的动态属性和 StdClass</title><link>https://blog.forecho.com/dynamic-properties-in-php-and-stdclass.html</link><pubDate>Sun, 08 Nov 2015 21:52:00 +0800</pubDate><guid>https://blog.forecho.com/dynamic-properties-in-php-and-stdclass.html</guid><description>&lt;blockquote>
+&lt;p>翻译 &lt;a href="http://krisjordan.com/dynamic-properties-in-php-with-stdclass">Dynamic Properties in PHP and StdClass&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;p>JavaScript 和 Python 允许对象实例的动态属性。事实证明,PHP 也是如此。看官方 PHP 对象和类文档可能会导致你相信动态实例属性需要自定义 __get 和 __set 魔术方法。其实不用。&lt;/p>
+&lt;h2 id="简单内置的动态属性">简单,内置的动态属性&lt;/h2>
+&lt;p>看看以下代码:&lt;/p>
+&lt;div class="highlight">&lt;div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-php" data-lang="php">class DynamicProperties { }
 $object = new DynamicProperties;
 echo isset($object-&amp;gt;foo) ? &amp;#39;t&amp;#39; : &amp;#39;f&amp;#39;; // f
 echo PHP_EOL;
@@ -107,15 +61,11 @@ $object-&amp;gt;fooz = &amp;#39;baz&amp;#39;;
 isset($object-&amp;gt;foo); // true
 unset($object-&amp;gt;foo);
 // Iterate through Properties and Values
-foreach($object as $property =&amp;gt; $value)  {
-    echo $property . &amp;#39; = &amp;#39; . $value . PHP_EOL;
+foreach($object as $property =&amp;gt; $value) {
+echo $property . &amp;#39; = &amp;#39; . $value . PHP_EOL;
 }
 // Prints:
 // fooz = baz
-&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;</description>
-    </item>
-    
-  </channel>
-</rss>
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item></channel></rss>

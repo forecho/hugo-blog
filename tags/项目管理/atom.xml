@@ -1,31 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>项目管理 on forecho&#39;s Blog</title>
-    <link>https://blog.forecho.com/tags/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86.html</link>
-    <description>Recent content in 项目管理 on forecho&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 04 Sep 2017 15:12:00 +0800</lastBuildDate>
-    
-	<atom:link href="https://blog.forecho.com/tags/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/atom.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>互联网产品开发流程</title>
-      <link>https://blog.forecho.com/internet-product-development-process.html</link>
-      <pubDate>Mon, 04 Sep 2017 15:12:00 +0800</pubDate>
-      
-      <guid>https://blog.forecho.com/internet-product-development-process.html</guid>
-      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
-&lt;p&gt;我们在开发项目的第二个版本接近尾声的时候，出现了两个主要问题：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;项目的延期。&lt;/li&gt;
-&lt;li&gt;产品需求没及时更上，导致开发有几天的工作只是修改 BUG、优化代码，无其他事情可做。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;这两个问题出现之后，我们跟老板开会讨论，然后疏通了一些开发流程，这些流程之前一直被我们所忽视。下面我就总结和分享一下这次的「经验教训」吧。&lt;/p&gt;
-&lt;h2 id=&#34;产品开发流程&#34;&gt;产品开发流程&lt;/h2&gt;</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>项目管理 on forecho's Blog</title><link>https://blog.forecho.com/tags/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86.html</link><description>Recent content in 项目管理 on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 04 Sep 2017 15:12:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/tags/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/atom.xml" rel="self" type="application/rss+xml"/><item><title>互联网产品开发流程</title><link>https://blog.forecho.com/internet-product-development-process.html</link><pubDate>Mon, 04 Sep 2017 15:12:00 +0800</pubDate><guid>https://blog.forecho.com/internet-product-development-process.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>我们在开发项目的第二个版本接近尾声的时候，出现了两个主要问题：&lt;/p>
+&lt;ol>
+&lt;li>项目的延期。&lt;/li>
+&lt;li>产品需求没及时更上，导致开发有几天的工作只是修改 BUG、优化代码，无其他事情可做。&lt;/li>
+&lt;/ol>
+&lt;p>这两个问题出现之后，我们跟老板开会讨论，然后疏通了一些开发流程，这些流程之前一直被我们所忽视。下面我就总结和分享一下这次的「经验教训」吧。&lt;/p>
+&lt;h2 id="产品开发流程">产品开发流程&lt;/h2></description></item></channel></rss>
