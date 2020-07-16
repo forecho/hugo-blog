@@ -1,6 +1,6 @@
 ---
 title: "GitHub Action 和 Travis CI 对比"
-date: 2020-07-16T15:08:00+08:00
+date: 2020-07-16T10:08:00+08:00
 tags: ["github", "ci", "吐槽"] 
 draft: false
 toc: true
