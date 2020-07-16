@@ -1,4 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on forecho's Blog</title><link>https://blog.forecho.com/posts.html</link><description>Recent content in Posts on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 16 Jul 2020 10:08:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/posts/atom.xml" rel="self" type="application/rss+xml"/><item><title>GitHub Action 和 Travis CI 对比</title><link>https://blog.forecho.com/github-action-vs-travis-ci.html</link><pubDate>Thu, 16 Jul 2020 10:08:00 +0800</pubDate><guid>https://blog.forecho.com/github-action-vs-travis-ci.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on forecho's Blog</title><link>https://blog.forecho.com/posts.html</link><description>Recent content in Posts on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 16 Jul 2020 11:09:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/posts/atom.xml" rel="self" type="application/rss+xml"/><item><title>【深度理财11】美股打新经验分享</title><link>https://blog.forecho.com/financedeep-11.html</link><pubDate>Thu, 16 Jul 2020 11:09:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-11.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/shut-up-and-take-my-money.jpg" alt="">&lt;/p>
+&lt;p>前一段时间我分享了&lt;a href="https://blog.forecho.com/financedeep-09.html">一篇文章&lt;/a>介绍了老虎入金操作，上次已经说了入金老虎证券就是为了打新，没过几条正好赶上了一个美股打新，这篇文章就分享一下我第一次美股打新的经验。&lt;/p>
+&lt;p>PS：还没有在老虎证券开户小伙伴可以通过下面链接开户：&lt;a href="http://link.3li3.com/tiger">http://link.3li3.com/tiger&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/itiger.png!s" alt="老虎证券开户">&lt;/p></description></item><item><title>GitHub Action 和 Travis CI 对比</title><link>https://blog.forecho.com/github-action-vs-travis-ci.html</link><pubDate>Thu, 16 Jul 2020 10:08:00 +0800</pubDate><guid>https://blog.forecho.com/github-action-vs-travis-ci.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
 &lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/ci.png" alt="">&lt;/p>
 &lt;p>&lt;a href="https://travis-ci.org/">Travis CI&lt;/a> 用了好几年了，主要用途就是实现我的静态博客自动发布，&lt;a href="https://github.com/features/actions">GitHub Action&lt;/a> 我是今年才开始用，今天我从自己的使用经验对比一下两个平台的使用感受。&lt;/p></description></item><item><title>【深度理财10】富途港股打新全知道</title><link>https://blog.forecho.com/financedeep-10.html</link><pubDate>Thu, 09 Jul 2020 11:09:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-10.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
 &lt;p>之前有写过一篇文章 - &lt;a href="https://blog.forecho.com/financedeep-08.html">《【深度理财08】美港股打新哪家强》&lt;/a>，介绍了几个美港股打新平台，这篇文章就来详细介绍一下我的富途证券港股打新经验，以及你们最关心的扣费问题。&lt;/p>
@@ -70,10 +74,4 @@
 &lt;blockquote>
 &lt;p>加一个风险提示：本篇文章仅代表我的个人观点，不构成与其他人相关的任何投资建议。在作出任何投资决定前，投资者应根据自身情况考虑投资产品相关的风险因素，并于需要时咨询专业投资顾问意见。&lt;/p>
 &lt;/blockquote>
-&lt;h2 id="买过的股票">买过的股票&lt;/h2></description></item><item><title>2019年终总结</title><link>https://blog.forecho.com/review-of-2019.html</link><pubDate>Tue, 21 Jan 2020 10:03:00 +0800</pubDate><guid>https://blog.forecho.com/review-of-2019.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>今天是我春节前上班的最后一天了，可以静下来来写年终总结了。我很喜欢年前的那几天上班，上下班路上人少，地铁不挤了。公司事儿也不多了，可以正常『摸鱼』了。&lt;/p>
-&lt;p>其实最主要的是，现在这年纪已经对过年没啥盼头了。元旦的那一天我甚至在 Twitter 上发了下面一段话：&lt;/p>
-&lt;blockquote>
-&lt;p>2020年到了，我却没有那么开心，随着年纪越来越大，越是不想接受新年的到来，反而有种莫名的失落感。&lt;/p>
-&lt;/blockquote>
-&lt;p>好了，不多说了，下面进入主题。&lt;/p></description></item></channel></rss>
+&lt;h2 id="买过的股票">买过的股票&lt;/h2></description></item></channel></rss>

@@ -1,4 +1,29 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 16 Jul 2020 10:08:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>GitHub Action 和 Travis CI 对比</title><link>https://blog.forecho.com/github-action-vs-travis-ci.html</link><pubDate>Thu, 16 Jul 2020 10:08:00 +0800</pubDate><guid>https://blog.forecho.com/github-action-vs-travis-ci.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 16 Jul 2020 11:09:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>【深度理财11】美股打新经验分享</title><link>https://blog.forecho.com/financedeep-11.html</link><pubDate>Thu, 16 Jul 2020 11:09:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-11.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/shut-up-and-take-my-money.jpg" alt="">&lt;/p>
+&lt;p>前一段时间我分享了&lt;a href="https://blog.forecho.com/financedeep-09.html">一篇文章&lt;/a>介绍了老虎入金操作，上次已经说了入金老虎证券就是为了打新，没过几条正好赶上了一个美股打新，这篇文章就分享一下我第一次美股打新的经验。&lt;/p>
+&lt;p>PS：还没有在老虎证券开户小伙伴可以通过下面链接开户：&lt;a href="http://link.3li3.com/tiger">http://link.3li3.com/tiger&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/itiger.png!s" alt="老虎证券开户">&lt;/p>
+&lt;h2 id="我的老虎打新之旅">我的老虎打新之旅&lt;/h2>
+&lt;p>先给大家看看我的打新记录：&lt;/p>
+&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20200716113059.jpg!m" alt="我的老虎打新记录">&lt;/p>
+&lt;h3 id="为什么参与-blct-的打新">为什么参与 BLCT 的打新&lt;/h3>
+&lt;p>坦率的讲，我对这个公司不熟，我甚至是因为在老虎证券里面看到他们 IPO 才知道这个公司，但是最后我为什么参与了这次打新呢？我总结了这几点：&lt;/p>
+&lt;ul>
+&lt;li>看到老虎证券的经理在朋友圈宣传这次 IPO。&lt;/li>
+&lt;li>去查这个公司的资料，初步了解情况，是全球第一个上市的 LGBTQ 公司。&lt;/li>
+&lt;li>老虎打新美股不收手续费，而我正好有现金可以拿去打新，而美股破发的概率比较小。&lt;/li>
+&lt;/ul>
+&lt;p>我承认我这次打新有点小冒险，因为没有对这个公司做深入研究，但是没也没打算持有，准备开盘就卖。&lt;/p>
+&lt;h3 id="中签">中签&lt;/h3>
+&lt;p>其实这次富途证券也可以参与 BLCT 的打新，也是无手续费（推广期间）。&lt;/p>
+&lt;p>与港股上市前一天公布中签的情况不同，美股是上市当天开盘前几个小时才公布。富途和老虎两个平台我都在刷评论，富途明显比老虎更早一步知道是否中签，我一直焦急的在等老虎证券的中签消息，结果迟迟不来，最后发现在「申购意向」中最下面已经看到中签数据了，但是消息还是没有来，估计还在消息队列里面排队呢。&lt;/p>
+&lt;p>最少申购100股，看到最少中签5股，我申购了300多股，给分配了30股。满意了。看了一下老虎得中签机制，它们采用得是普惠制为第一原则，意思是人人都有份，同时这也意味着中签得人得到得股数并不多，&lt;a href="https://www.itiger.com/help/detail/usxgsg">详情&lt;/a>。&lt;/p>
+&lt;h3 id="开盘">开盘&lt;/h3>
+&lt;p>美股分夏令和冬令时间，现在是夏令时间，北京时间9点半开盘，冬令时间要晚一个小时。但是新股不是说开盘了就能交易，新股开盘时间一般都在美股开盘一个小时左右（每个股票不同），这期间可以现场撮合交易时间等等，反正我们能做的就只能靠等开盘了，如果你没打算长期持有的话。&lt;/p>
+&lt;p>LGBTQ 上市那天正赶上我上班很累，准备早点儿睡觉的，但是我对这个股票又没有多少信心，所有我计划当天就卖出。结果一直等啊等，等到快11点了，终于可以交易了。$16 的发行价，开盘 $20，还算可以，但是我 $22 就卖了，累了，赶紧得卖了睡觉，然后我卖掉之后一度涨到 $27。赚了 $177 知足了。&lt;/p>
+&lt;h2 id="总结">总结&lt;/h2>
+&lt;p>这篇文章主要是给那些没打新过美股的小伙伴分享一点经验，让他们好做好心理准备。&lt;/p>
+&lt;p>另外老虎证券已经拿下了理想汽车的 IPO ，到时候我肯定会参与的，就凭王兴和李想这两个人，还有不参与申请的理由吗？&lt;/p></description></item><item><title>GitHub Action 和 Travis CI 对比</title><link>https://blog.forecho.com/github-action-vs-travis-ci.html</link><pubDate>Thu, 16 Jul 2020 10:08:00 +0800</pubDate><guid>https://blog.forecho.com/github-action-vs-travis-ci.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
 &lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/ci.png" alt="">&lt;/p>
 &lt;p>&lt;a href="https://travis-ci.org/">Travis CI&lt;/a> 用了好几年了，主要用途就是实现我的静态博客自动发布，&lt;a href="https://github.com/features/actions">GitHub Action&lt;/a> 我是今年才开始用，今天我从自己的使用经验对比一下两个平台的使用感受。&lt;/p>
 &lt;h2 id="travis-ci">Travis CI&lt;/h2>
@@ -1699,112 +1724,4 @@ velo客服工作时间：
 &lt;/ul>
 &lt;p>另外如果你想投资美股，关于开户以及入金的问题，可以去旁边关注我的公众号咨询我，我会把我知道的都告诉你。&lt;/p>
 &lt;p>另另外，我有一个美股群，想交流讨论的话，也可以找我入群。我不想群的人数太多，也不想入群的人不发言，所以现在设置了个门槛，入群要发一个随机红包，8人份，总金额为88元。&lt;/p>
-&lt;p>最后，新的一年到了，祝大家新年发大财。&lt;/p></description></item><item><title>2019年终总结</title><link>https://blog.forecho.com/review-of-2019.html</link><pubDate>Tue, 21 Jan 2020 10:03:00 +0800</pubDate><guid>https://blog.forecho.com/review-of-2019.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>今天是我春节前上班的最后一天了，可以静下来来写年终总结了。我很喜欢年前的那几天上班，上下班路上人少，地铁不挤了。公司事儿也不多了，可以正常『摸鱼』了。&lt;/p>
-&lt;p>其实最主要的是，现在这年纪已经对过年没啥盼头了。元旦的那一天我甚至在 Twitter 上发了下面一段话：&lt;/p>
-&lt;blockquote>
-&lt;p>2020年到了，我却没有那么开心，随着年纪越来越大，越是不想接受新年的到来，反而有种莫名的失落感。&lt;/p>
-&lt;/blockquote>
-&lt;p>好了，不多说了，下面进入主题。&lt;/p>
-&lt;h2 id="回顾2019">回顾2019&lt;/h2>
-&lt;h3 id="健身">健身&lt;/h3>
-&lt;p>以前我都是按照农历来统计的，但是 &lt;a href="https://habitify.me/">Habitify&lt;/a> 上都上阳历来算年度统计了，我也懒得自己数了，从今以后我也按照阳历还算吧。&lt;/p>
-&lt;p>今年很长一段时间习惯打卡我都是 &lt;a href="https://habitify.me/">Habitify&lt;/a> 和 &lt;a href="https://itunes.apple.com/cn/app/ibetter-%E4%B9%A0%E6%83%AF%E5%85%BB%E6%88%90%E6%89%93%E5%8D%A1-%E4%BA%BA%E7%94%9F%E5%85%BB%E6%88%90%E8%AE%A1%E5%88%92/id1262378864?mt=8">iBetter&lt;/a> 都记录，后来觉得还是太麻烦了，索性就只保留了功能跟强大 UI 更漂亮的 &lt;a href="https://habitify.me/">Habitify&lt;/a> 了，它现在还支持 Siri 打卡，非常方便，而因为去年数据丢失的事情，我现在都会定时手动备份数据。&lt;/p>
-&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/BuhvKE.jpg" alt="BuhvKE">&lt;/p>
-&lt;p>9月底的时候，Keep 搞活动，买年度会员很优惠，一冲动就买了。10 月底的时候买了任天堂的 Switch，11月底的时候买了健身环大冒险。买了健身环大冒险之后刚开始还和 Keep 切换着用，后来索性就放弃使用 Keep 了，白瞎了会员。&lt;/p>
-&lt;ul>
-&lt;li>Keep + 健身环大冒险年度146次&lt;/li>
-&lt;li>有氧拳击年度9次（自从买了健身环大冒险后有氧拳击就搁置了）&lt;/li>
-&lt;/ul>
-&lt;p>一年按照52周算的话，就是每周健身了 &lt;code>155/52=2.98&lt;/code> 次，离每周3次健身目标差一点点。另外就是去年说是准备跑步的，19年也没跑。&lt;/p>
-&lt;h3 id="工作">工作&lt;/h3>
-&lt;p>在目前的公司待满1年了，也参与了部分架构讨论，年底的时候公司准备搞一个卡券系统，说是用 Golang 开发，结果还没开始项目就流产了。&lt;/p>
-&lt;p>目前这个公司有9年业务线，很多项目都是试验性的，我们部门更是做一些平台业务支持的，看不到收益。公司也换了2个 CEO，新来的 CEO 是 JAVA 系的，我们部门又被迫转 JAVA，但是也不是所有人都有机会转，公司还搞了一个刷选政策。最终选了部门中的小部分人，剩下的人怎么处理也没给答复，不知道如何处理，人心惶惶。这次算是把我们部门拆了。&lt;/p>
-&lt;p>我们部门的产品要从 SaaS 转为 SCRM 了。而我有幸负责另外一条产品线，继续保持就可以了。这一年公司的福利也越来越少，年会又是没有。年终奖还得向集团申请，不知道什么结果。&lt;/p>
-&lt;p>所以我也不知道我还能在这个公司待多久。&lt;/p>
-&lt;h3 id="技术">技术&lt;/h3>
-&lt;p>现在的技术能力是增长缓慢的，更多的是理解业务的能力了。年底自学了一下 Golang，开始用 Golang 写一些小工具了，基本的语法能看懂了，但是并发、指针什么的还要多熟悉才行。&lt;/p>
-&lt;p>Docker 使用上也更熟悉了一点。&lt;/p>
-&lt;h3 id="旅游">旅游&lt;/h3>
-&lt;p>目前所在的公司还算正规，晚上加班如果有事，是可以申请调休的。而且调休半年有效。公司鼓励大家少加班，有调休就赶紧调休。所以我今年下半年体验了一次休5天，连着一起休息9天。&lt;/p>
-&lt;p>本来规划是去四川稻城亚丁的，但是由于已经是11月底了，那边太冷了，于是改成了去&lt;a href="https://blog.forecho.com/foshan-self-driving-tour.html">佛山自驾游&lt;/a>和去&lt;a href="https://blog.forecho.com/wugong-mountain-walking-tour.html">武功山徒步&lt;/a>。徒步没花多少钱，出发前买了一些装备倒是花了不少钱。&lt;/p>
-&lt;h3 id="读书">读书&lt;/h3>
-&lt;p>今年意外的参与了一个朋友的项目，帮他们写一个跨境电商的后台系统，可把我累坏了。前几个月一度导致我没时间看书，更是没时间健身了。直到后来需求慢慢变少才算缓解过来，今年也就读了这几本书：&lt;/p>
-&lt;ul>
-&lt;li>《陈志武金融通识课 : 金融其实很简单》: 挺好的一本讲金融知识的书籍，通俗易懂，并且也解开了我很多疑惑，为此我还写了一篇文章- &lt;a href="https://blog.forecho.com/readeep-s02e01.html">《【深度阅读 第二季 01】金融其实很简单》&lt;/a>。&lt;/li>
-&lt;li>《遥远的向日葵地》：讲述新疆牧场的生活，写的非常好。&lt;/li>
-&lt;li>《北海怪兽 : 国货/复古风潮终极制造者的自白书》：新裤子主唱画了漫画书，高中开始接触他们的歌，没想到主唱是一个会画画拍电影的人。&lt;/li>
-&lt;li>《刷新 : 重新发现商业与未来》：微软现任 CEO 写的书，想了解现在的微软怎么转型的，可以看看这本书。&lt;/li>
-&lt;li>《OKR工作法 : 谷歌、领英等公司的高绩效秘籍》：阅读的第一本 OKR 书，作者以一个创业公司如何使用 OKR 工作的故事来讲述自己的观点，简单明了。&lt;/li>
-&lt;/ul>
-&lt;p>未读完的书：&lt;/p>
-&lt;ul>
-&lt;li>《博弈与社会》：一本讲述博弈论相关的书，博弈论可谓对经济发展起到了重要的作用，没想到的是这本书有420页，看了半天也只看了不到三分之一的内容。而且我还特意去看了在博弈论领域有着重要贡献的约翰·福布斯·纳什的同名传记电影《美丽心灵》。&lt;/li>
-&lt;li>《身份的焦虑》：看了一半了，感觉书有点啰嗦&lt;/li>
-&lt;li>《哲学家们都干了些什么》：看了三分之一了，开始入门哲学了。&lt;/li>
-&lt;/ul>
-&lt;h3 id="理财">理财&lt;/h3>
-&lt;ul>
-&lt;li>基金：定投了好几个基金，得益于今年的大盘好趋势，19年我的基金整体收益有 10%。&lt;/li>
-&lt;li>A 股：今年有试水，买了人民网和中国软件，买完就跌了，后来回本就卖了，还是不敢玩。&lt;/li>
-&lt;li>美股：得意于年末的两个月大涨，19年整体收益有50%，再减去18年的负收益20%，所以两年来总收益还是不错的。后面我准备另外写篇文章聊聊我这两年买的那些美股。&lt;/li>
-&lt;/ul>
-&lt;h3 id="败物">败物&lt;/h3>
-&lt;p>记录大件支出：&lt;/p>
-&lt;ul>
-&lt;li>Bose QC 30 耳机：1.2k 买的，拼多多搞活动的时候买的，AirPods Pro 出来之后有点后悔买这个了。&lt;/li>
-&lt;li>任天堂 Switch：2k 买的，另外陆陆续续买了几个游戏已经差不多有1k了，不过这些游戏都可以卖掉以便『回血』。&lt;/li>
-&lt;li>HHKB + 妙控板：2k，HHKB 在咸鱼买的，很划算。&lt;/li>
-&lt;li>登山包 + 冲锋衣 + 徒步鞋等：双十一在迪卡侬花了2k买了一些徒步装备。&lt;/li>
-&lt;/ul>
-&lt;h3 id="博客">博客&lt;/h3>
-&lt;ul>
-&lt;li>今年除了5月份只写了一篇博客外，其他月份都完成了至少两篇文章的目标。&lt;/li>
-&lt;li>今年发起了一个叫&lt;a href="https://blog.forecho.com/friendship-links/">联盟链接&lt;/a>的组织，有兴趣欢迎大家加入。&lt;/li>
-&lt;li>博客从 Octopress 迁移到 Hugo，并且花了一个星期写了一个 Hugo 的主题。&lt;/li>
-&lt;li>&lt;a href="https://blog.forecho.com/tags/%E6%B7%B1%E5%BA%A6%E7%90%86%E8%B4%A2.html">深度理财&lt;/a>和&lt;a href="https://blog.forecho.com/tags/%E6%B7%B1%E5%BA%A6%E9%98%85%E8%AF%BB.html">深度阅读&lt;/a>基本上因为太忙给搁置了。&lt;/li>
-&lt;/ul>
-&lt;h3 id="三立三https3li3com">&lt;a href="https://3li3.com/">三立三&lt;/a>&lt;/h3>
-&lt;p>三立三因为是个人备案，年中被抽查，个人备案不允许搭建这样的网站，无奈之下，现在首页默认关闭了。除了首页其他链接都正常，登录用户不受到影响。&lt;/p>
-&lt;p>三立三19年无收益，会员这条路是走不下去了，考虑是否投放广告。&lt;/p>
-&lt;h3 id="其他">其他&lt;/h3>
-&lt;ul>
-&lt;li>支持 Yii3 的开发，每月给开发者捐赠1美元，详情 &lt;a href="https://blog.forecho.com/for-yii.html">《为了 Yii 的长远发展》&lt;/a>。&lt;/li>
-&lt;li>今年看了两部纪录片&lt;a href="https://movie.douban.com/subject/30390700/">《美国工厂》&lt;/a>和&lt;a href="https://movie.douban.com/subject/34807113/">《走进比尔：解码比尔·盖茨》&lt;/a>, 两部都非常不错，推荐给大家。前面一部是让你了解中美文化差异，以及帮你理解机器取代工人的趋势。第二个纪录片给你讲述比尔盖茨的另外一面。&lt;/li>
-&lt;li>今年追了6年的美剧《硅谷》完结了，但是给我印象最深刻的英剧是&lt;a href="https://www.imdb.com/title/tt8694364/">《Years and Years》&lt;/a>，这部英剧在豆瓣上被删除了，为此你更应该要好好看一下了。&lt;/li>
-&lt;li>年底准备换一个电信宽带套餐的，费了半天劲，最后发现1年前办的宽带有2年合约，1000块钱的定存，如果中途退出就算违约，然后会扣一半的钱，肯定。不然我就可以以139元/月，办理200M的套餐了。现在是169元/月，100M。&lt;/li>
-&lt;/ul>
-&lt;h2 id="展望2020">展望2020&lt;/h2>
-&lt;h3 id="健身-1">健身&lt;/h3>
-&lt;p>以前健身只称体脂，后来发觉这样不对，然后开始记录腰围、胸围以及两个手臂的数据，准备一个月记录一次数据。体重的变化已经不足以反馈了。&lt;/p>
-&lt;p>感觉上现在背比以前宽了，手臂也比以前粗了。2020年继续保持每周至少3次健身的目标，并且记录身体数据。&lt;/p>
-&lt;p>除了健身环大冒险之外还应该做一下有氧拳击。&lt;/p>
-&lt;h3 id="旅游-1">旅游&lt;/h3>
-&lt;p>继续保持，一年至少去一个地方的目标。想去一趟泰国玩，不知道能不能实现。&lt;/p>
-&lt;h3 id="工作-1">工作&lt;/h3>
-&lt;ul>
-&lt;li>继续学 Golang&lt;/li>
-&lt;li>看完《微服务架构设计模式》、《企业IT架构转型之道》、《性能之巅》&lt;/li>
-&lt;/ul>
-&lt;h3 id="理财-1">理财&lt;/h3>
-&lt;ul>
-&lt;li>继续看好美股。A股还是算了，买点基金吧。&lt;/li>
-&lt;/ul>
-&lt;h3 id="业余折腾">业余折腾&lt;/h3>
-&lt;p>今年就别瞎折腾了。&lt;/p>
-&lt;h3 id="读书-1">读书&lt;/h3>
-&lt;p>去年只看了完了5本书，惭愧。今年就定12本为目标吧，也就是说1个月至少1本，另外至少要啃完3本技术书。&lt;/p>
-&lt;h3 id="博客-1">博客&lt;/h3>
-&lt;ul>
-&lt;li>与以往每月2篇文章不同，给20年定的目标是每月写至少3篇文章。2020年我要多写一点技术文章。&lt;/li>
-&lt;li>恢复&lt;a href="https://blog.forecho.com/tags/%E6%B7%B1%E5%BA%A6%E7%90%86%E8%B4%A2.html">深度理财&lt;/a>和&lt;a href="https://blog.forecho.com/tags/%E6%B7%B1%E5%BA%A6%E9%98%85%E8%AF%BB.html">深度阅读&lt;/a>系列文章，月更也行。&lt;/li>
-&lt;/ul>
-&lt;h3 id="三立三https3li3com-1">&lt;a href="https://3li3.com/">三立三&lt;/a>&lt;/h3>
-&lt;p>想办法增加收入，不然就没钱续费服务器了。&lt;/p>
-&lt;h2 id="最后">最后&lt;/h2>
-&lt;p>去年非常流行的一句话是『2019年是过去10年里最差的一年，a却是未来10年里最好的一年』。那么今天我们回过来看这句话还对吗？&lt;/p>
-&lt;p>先说说我的答案：『对，也不对』。我的理解是这样的：&lt;/p>
-&lt;ul>
-&lt;li>互联网行业就业情况相比18年，19年不容乐观。先是996，再就是大量公司裁员，其中最著名的就是网易和华为251事件了。&lt;/li>
-&lt;li>股票行情在19年的最后两个月行情不错，基金只要你不瞎买，收益10%都不算多。股票 A股和美股最后两个月也疯狂上涨，美股又又又创新高（我关注美股较多）。&lt;/li>
-&lt;/ul></description></item></channel></rss>
+&lt;p>最后，新的一年到了，祝大家新年发大财。&lt;/p></description></item></channel></rss>
