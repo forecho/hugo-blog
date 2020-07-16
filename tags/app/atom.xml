@@ -1,7 +1,39 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>App on forecho's Blog</title><link>https://blog.forecho.com/tags/app.html</link><description>Recent content in App on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 22 May 2016 12:29:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/tags/app/atom.xml" rel="self" type="application/rss+xml"/><item><title>关于三立三</title><link>https://blog.forecho.com/about-3li3.com.html</link><pubDate>Sun, 22 May 2016 12:29:00 +0800</pubDate><guid>https://blog.forecho.com/about-3li3.com.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>项目上线之后有了一点点自由的零碎时间，再利用周末时间。于是就写了一个「监控你想要 App 降价或者限免的项目」，名字叫做&lt;a href="http://3li3.com/">三立三&lt;/a>。&lt;/p>
-&lt;h2 id="关于三立三">关于三立三&lt;/h2>
-&lt;p>我是一个 App 狂热爱好者，经常会去少数派，AppSo 等网站上去看一下最新最好玩的 App，经常会看到他们有推荐一些
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>App on forecho&#39;s Blog</title>
+    <link>https://blog.forecho.com/tags/app.html</link>
+    <description>Recent content in App on forecho&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 22 May 2016 12:29:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://blog.forecho.com/tags/app/atom.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>关于三立三</title>
+      <link>https://blog.forecho.com/about-3li3.com.html</link>
+      <pubDate>Sun, 22 May 2016 12:29:00 +0800</pubDate>
+      
+      <guid>https://blog.forecho.com/about-3li3.com.html</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;项目上线之后有了一点点自由的零碎时间，再利用周末时间。于是就写了一个「监控你想要 App 降价或者限免的项目」，名字叫做&lt;a href=&#34;http://3li3.com/&#34;&gt;三立三&lt;/a&gt;。&lt;/p&gt;
+&lt;h2 id=&#34;关于三立三&#34;&gt;关于三立三&lt;/h2&gt;
+&lt;p&gt;我是一个 App 狂热爱好者，经常会去少数派，AppSo 等网站上去看一下最新最好玩的 App，经常会看到他们有推荐一些
 精品的 App 限免，但是一般 App 限免是有时效性的，意思是说他们写的文章的时候是限免的，但是我去读文章的时候兴高采烈的去
-App Store 上准备下载的时候，那个 App 不一定还在限免。如果这个 App 对我来说不急着用的话，我肯定是希望在它最便宜或者最低价格的时候拿下。&lt;/p>
-&lt;p>所以我写了一个帮我监控 App 价格的项目，这个就是三立三诞生的主要原因。&lt;/p></description></item><item><title>推荐一些iPhone App（持续更新...）</title><link>https://blog.forecho.com/tui-jian-yi-xie-iphone-app-chi-xu-geng-xin.html</link><pubDate>Thu, 27 Dec 2012 12:47:00 +0800</pubDate><guid>https://blog.forecho.com/tui-jian-yi-xie-iphone-app-chi-xu-geng-xin.html</guid><description>一直都说iPhone手机的用户体验非常棒，于是再买了Macbook Pro几个月后，一直寻思着要买一部iPhone手机，于是现在就有了我的第一</description></item></channel></rss>
+App Store 上准备下载的时候，那个 App 不一定还在限免。如果这个 App 对我来说不急着用的话，我肯定是希望在它最便宜或者最低价格的时候拿下。&lt;/p&gt;
+&lt;p&gt;所以我写了一个帮我监控 App 价格的项目，这个就是三立三诞生的主要原因。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>推荐一些iPhone App（持续更新...）</title>
+      <link>https://blog.forecho.com/tui-jian-yi-xie-iphone-app-chi-xu-geng-xin.html</link>
+      <pubDate>Thu, 27 Dec 2012 12:47:00 +0800</pubDate>
+      
+      <guid>https://blog.forecho.com/tui-jian-yi-xie-iphone-app-chi-xu-geng-xin.html</guid>
+      <description>一直都说iPhone手机的用户体验非常棒，于是再买了Macbook Pro几个月后，一直寻思着要买一部iPhone手机，于是现在就有了我的第一</description>
+    </item>
+    
+  </channel>
+</rss>

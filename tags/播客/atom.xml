@@ -1,16 +1,57 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>播客 on forecho's Blog</title><link>https://blog.forecho.com/tags/%E6%92%AD%E5%AE%A2.html</link><description>Recent content in 播客 on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 06 Jun 2018 07:43:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/tags/%E6%92%AD%E5%AE%A2/atom.xml" rel="self" type="application/rss+xml"/><item><title>我在听的播客节目之2018年篇</title><link>https://blog.forecho.com/im-listening-to-podcasts-2018.html</link><pubDate>Wed, 06 Jun 2018 07:43:00 +0800</pubDate><guid>https://blog.forecho.com/im-listening-to-podcasts-2018.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>2017年的时候我写了一篇博客&lt;a href="https://blog.forecho.com/im-listening-to-podcasts.html">《我在听的播客节目》&lt;/a>，如今时隔1年多了，清单有了一些变化，所以打算重新写一篇。&lt;/p>
-&lt;h2 id="偏范科技类的播客">偏范科技类的播客&lt;/h2>
-&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424163628.png" alt="UX Coffee 设计咖">&lt;/p>
-&lt;p>&lt;strong>&lt;a href="http://www.uxcoffee.com/">UX Coffee 设计咖&lt;/a>&lt;/strong>&lt;/p>
-&lt;p>推荐指数：⭐⭐⭐⭐⭐&lt;/p>
-&lt;p>一档关于产品设计和用户体验的播客节目，四位主播都是在硅谷工作的设计师。每期节目，我们会邀请业界大咖聊聊和用户体验相关的事。&lt;/p></description></item><item><title>使用泛用型播客客户端订阅播客节目</title><link>https://blog.forecho.com/subscribe-to-podcasts-using-the-ubiquitous-podcast-client.html</link><pubDate>Tue, 17 Apr 2018 13:09:00 +0800</pubDate><guid>https://blog.forecho.com/subscribe-to-podcasts-using-the-ubiquitous-podcast-client.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>由于换了一家创业公司（等过一阵子有时间会细说这个事情），最近一个月会比较忙，都没时间写博客了，但是又不想停更，所以就有了这篇文章。&lt;/p>
-&lt;h2 id="诞生记">诞生记&lt;/h2>
-&lt;p>我听播客已经有几年了，每次做饭、跑步、打扫家务或者上下班比较累的时候听播客真是一举两得的事情。近两年由于喜马拉雅FM、蜻蜓FM等一系列的国内播客平台的火爆，提高了国内播客节目的产出。&lt;/p></description></item><item><title>技术转管理</title><link>https://blog.forecho.com/technology-transfer-management.html</link><pubDate>Mon, 28 Aug 2017 11:59:00 +0800</pubDate><guid>https://blog.forecho.com/technology-transfer-management.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>计划是做技术到30岁才准备转管理的，一直认为转管理一定要有一定的技术积累，才能服众。&lt;/p>
-&lt;p>然后我被裁员了，本打算再剩下的半年时间里，自己单干，做个产品试试看。计划之外的偶然机会是，一个通过技术认识的朋友，他在帮朋友的创业公司找一个技术管理。然后我接到了这个邀请，
-现在已经在这家小公司待了快满2个月了，结合自己的经验和见识我准备来说说技术转管理的事情。&lt;/p>
-&lt;h2 id="技术转管理">技术转管理&lt;/h2>
-&lt;h3 id="为什么项目经理工资比程序员高">为什么项目经理工资比程序员高？&lt;/h3>
-&lt;p>在中国，绝大多数的人转管理都是因为，管理职位工资比技术高，做了多年之后工资涨不上去了，就去转管理了。我觉得再这之前有必要想清楚为什么管理职位比技术的工资高？&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>播客 on forecho&#39;s Blog</title>
+    <link>https://blog.forecho.com/tags/%E6%92%AD%E5%AE%A2.html</link>
+    <description>Recent content in 播客 on forecho&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 06 Jun 2018 07:43:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://blog.forecho.com/tags/%E6%92%AD%E5%AE%A2/atom.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>我在听的播客节目之2018年篇</title>
+      <link>https://blog.forecho.com/im-listening-to-podcasts-2018.html</link>
+      <pubDate>Wed, 06 Jun 2018 07:43:00 +0800</pubDate>
+      
+      <guid>https://blog.forecho.com/im-listening-to-podcasts-2018.html</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;2017年的时候我写了一篇博客&lt;a href=&#34;https://blog.forecho.com/im-listening-to-podcasts.html&#34;&gt;《我在听的播客节目》&lt;/a&gt;，如今时隔1年多了，清单有了一些变化，所以打算重新写一篇。&lt;/p&gt;
+&lt;h2 id=&#34;偏范科技类的播客&#34;&gt;偏范科技类的播客&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424163628.png&#34; alt=&#34;UX Coffee 设计咖&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://www.uxcoffee.com/&#34;&gt;UX Coffee 设计咖&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;推荐指数：⭐⭐⭐⭐⭐&lt;/p&gt;
+&lt;p&gt;一档关于产品设计和用户体验的播客节目，四位主播都是在硅谷工作的设计师。每期节目，我们会邀请业界大咖聊聊和用户体验相关的事。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>使用泛用型播客客户端订阅播客节目</title>
+      <link>https://blog.forecho.com/subscribe-to-podcasts-using-the-ubiquitous-podcast-client.html</link>
+      <pubDate>Tue, 17 Apr 2018 13:09:00 +0800</pubDate>
+      
+      <guid>https://blog.forecho.com/subscribe-to-podcasts-using-the-ubiquitous-podcast-client.html</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;由于换了一家创业公司（等过一阵子有时间会细说这个事情），最近一个月会比较忙，都没时间写博客了，但是又不想停更，所以就有了这篇文章。&lt;/p&gt;
+&lt;h2 id=&#34;诞生记&#34;&gt;诞生记&lt;/h2&gt;
+&lt;p&gt;我听播客已经有几年了，每次做饭、跑步、打扫家务或者上下班比较累的时候听播客真是一举两得的事情。近两年由于喜马拉雅FM、蜻蜓FM等一系列的国内播客平台的火爆，提高了国内播客节目的产出。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>技术转管理</title>
+      <link>https://blog.forecho.com/technology-transfer-management.html</link>
+      <pubDate>Mon, 28 Aug 2017 11:59:00 +0800</pubDate>
+      
+      <guid>https://blog.forecho.com/technology-transfer-management.html</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;计划是做技术到30岁才准备转管理的，一直认为转管理一定要有一定的技术积累，才能服众。&lt;/p&gt;
+&lt;p&gt;然后我被裁员了，本打算再剩下的半年时间里，自己单干，做个产品试试看。计划之外的偶然机会是，一个通过技术认识的朋友，他在帮朋友的创业公司找一个技术管理。然后我接到了这个邀请，
+现在已经在这家小公司待了快满2个月了，结合自己的经验和见识我准备来说说技术转管理的事情。&lt;/p&gt;
+&lt;h2 id=&#34;技术转管理&#34;&gt;技术转管理&lt;/h2&gt;
+&lt;h3 id=&#34;为什么项目经理工资比程序员高&#34;&gt;为什么项目经理工资比程序员高？&lt;/h3&gt;
+&lt;p&gt;在中国，绝大多数的人转管理都是因为，管理职位工资比技术高，做了多年之后工资涨不上去了，就去转管理了。我觉得再这之前有必要想清楚为什么管理职位比技术的工资高？&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

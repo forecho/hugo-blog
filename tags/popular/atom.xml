@@ -1,24 +1,65 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>popular on forecho's Blog</title><link>https://blog.forecho.com/tags/popular.html</link><description>Recent content in popular on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 29 Jun 2020 13:09:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/tags/popular/atom.xml" rel="self" type="application/rss+xml"/><item><title>【深度理财08】美港股打新哪家强</title><link>https://blog.forecho.com/financedeep-08.html</link><pubDate>Mon, 29 Jun 2020 13:09:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-08.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>最近很多公司去香港上市，这意味着我们有很多机会去打新了。这篇文章打算分享一下什么是打新？、如何参与打新？以及我的打新原则。&lt;/p>
-&lt;h2 id="什么是打新">什么是打新&lt;/h2>
-&lt;p>百度百科是这么说的：&lt;/p>
-&lt;blockquote>
-&lt;p>打新，就是用资金参与新股申购，如果中签的话，就买到了即将上市的股票。&lt;/p>
-&lt;/blockquote>
-&lt;p>你可以理解为一个产品的预售，这个预售你只能通过证券平台购买，先交钱和手续费（每个证券公司收费不一样，有的暂时不收费）然后通过抽签的方式来决定你是否买中了。没买中手续费（如果有的话）也会扣除，然后交的钱会退回给你。&lt;/p></description></item><item><title>用时不到3个月拿到深圳户口</title><link>https://blog.forecho.com/take-the-shenzhen-account-in-less-than-3-months.html</link><pubDate>Sun, 15 Jul 2018 16:44:00 +0800</pubDate><guid>https://blog.forecho.com/take-the-shenzhen-account-in-less-than-3-months.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>如果想长期在深圳发展的话，拿到深圳户口还是有一些好处的。目前拿深圳户口相对比较容易，而且本科以及以上学历入深户还可以申请新引进人才租房和生活补贴。&lt;/p>
-&lt;p>本篇文章只是介绍自己（帮女友）办理深户经验，如果你跟她的条件类似，不妨可以参考一下我们的入户经验，她的大致情况如下：&lt;/p>
-&lt;ul>
-&lt;li>本科毕业 3 年以上。&lt;/li>
-&lt;li>未满 30 岁。&lt;/li>
-&lt;li>最近一个公司连续有交 7 个月社保。（这个非常重要，不然会让你提供一推材料。而且不能使用代缴社保公司，因为代缴社保在深圳属于违法的行为，办理深户的时候他们有一个公司黑名单，如果为你代缴社保的公司在这个黑名单里面，你就没办法办理深户了，只能重新换一家公司，再等 7 个月了。）&lt;/li>
-&lt;/ul>
-&lt;p>所以我们走的是『在职人才引进』入户流程。&lt;/p></description></item><item><title>我是怎么投资美股的</title><link>https://blog.forecho.com/how-do-i-invest-in-american-stocks.html</link><pubDate>Wed, 24 May 2017 23:33:00 +0800</pubDate><guid>https://blog.forecho.com/how-do-i-invest-in-american-stocks.html</guid><description>&lt;h2 id="学会理财">学会理财&lt;/h2>
-&lt;p>理财是一种生活方式，越早明白这个道理，越是受益。真正让我接触到理财的还是算是支付宝推出的余额宝了，说到这里，还得感谢马云爸爸。&lt;/p>
-&lt;p>理财的方式有很多种，你可以把钱放在余额宝里面每天拿几块钱，也可以把钱放在理财通、京东小金库里面，可以买基金，当然还可以买股票。这些投资理财的方式大家都可以去尝试一下。下面我先来分享几点我的经验：&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>余额宝&lt;/strong>投资收益的钱是越来越少了，后来基本上不把钱放到余额宝了。&lt;/li>
-&lt;li>&lt;strong>腾讯的理财通&lt;/strong>的理财产品收益还可以，我设置了有一个定投，每月把工资的一半拿来买理财产品，收益不算多，但是稳定。&lt;/li>
-&lt;li>后来听说&lt;strong>京东小金库&lt;/strong>收益还可以，我就跑去尝试了一下，收益确实把余额宝好，但是有点风险，可能跟我买的理财产品有关系。&lt;/li>
-&lt;li>也试过&lt;strong>蚂蚁聚宝&lt;/strong>的基金，选了两个产品定投，刚开始能赚点小钱，但是最近几个猛跌，倒亏了几千块钱，不知道啥情况，不敢动。&lt;/li>
-&lt;/ul></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>popular on forecho&#39;s Blog</title>
+    <link>https://blog.forecho.com/tags/popular.html</link>
+    <description>Recent content in popular on forecho&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 29 Jun 2020 13:09:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://blog.forecho.com/tags/popular/atom.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>【深度理财08】美港股打新哪家强</title>
+      <link>https://blog.forecho.com/financedeep-08.html</link>
+      <pubDate>Mon, 29 Jun 2020 13:09:00 +0800</pubDate>
+      
+      <guid>https://blog.forecho.com/financedeep-08.html</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;最近很多公司去香港上市，这意味着我们有很多机会去打新了。这篇文章打算分享一下什么是打新？、如何参与打新？以及我的打新原则。&lt;/p&gt;
+&lt;h2 id=&#34;什么是打新&#34;&gt;什么是打新&lt;/h2&gt;
+&lt;p&gt;百度百科是这么说的：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;打新，就是用资金参与新股申购，如果中签的话，就买到了即将上市的股票。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;你可以理解为一个产品的预售，这个预售你只能通过证券平台购买，先交钱和手续费（每个证券公司收费不一样，有的暂时不收费）然后通过抽签的方式来决定你是否买中了。没买中手续费（如果有的话）也会扣除，然后交的钱会退回给你。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>用时不到3个月拿到深圳户口</title>
+      <link>https://blog.forecho.com/take-the-shenzhen-account-in-less-than-3-months.html</link>
+      <pubDate>Sun, 15 Jul 2018 16:44:00 +0800</pubDate>
+      
+      <guid>https://blog.forecho.com/take-the-shenzhen-account-in-less-than-3-months.html</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;如果想长期在深圳发展的话，拿到深圳户口还是有一些好处的。目前拿深圳户口相对比较容易，而且本科以及以上学历入深户还可以申请新引进人才租房和生活补贴。&lt;/p&gt;
+&lt;p&gt;本篇文章只是介绍自己（帮女友）办理深户经验，如果你跟她的条件类似，不妨可以参考一下我们的入户经验，她的大致情况如下：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;本科毕业 3 年以上。&lt;/li&gt;
+&lt;li&gt;未满 30 岁。&lt;/li&gt;
+&lt;li&gt;最近一个公司连续有交 7 个月社保。（这个非常重要，不然会让你提供一推材料。而且不能使用代缴社保公司，因为代缴社保在深圳属于违法的行为，办理深户的时候他们有一个公司黑名单，如果为你代缴社保的公司在这个黑名单里面，你就没办法办理深户了，只能重新换一家公司，再等 7 个月了。）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;所以我们走的是『在职人才引进』入户流程。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>我是怎么投资美股的</title>
+      <link>https://blog.forecho.com/how-do-i-invest-in-american-stocks.html</link>
+      <pubDate>Wed, 24 May 2017 23:33:00 +0800</pubDate>
+      
+      <guid>https://blog.forecho.com/how-do-i-invest-in-american-stocks.html</guid>
+      <description>&lt;h2 id=&#34;学会理财&#34;&gt;学会理财&lt;/h2&gt;
+&lt;p&gt;理财是一种生活方式，越早明白这个道理，越是受益。真正让我接触到理财的还是算是支付宝推出的余额宝了，说到这里，还得感谢马云爸爸。&lt;/p&gt;
+&lt;p&gt;理财的方式有很多种，你可以把钱放在余额宝里面每天拿几块钱，也可以把钱放在理财通、京东小金库里面，可以买基金，当然还可以买股票。这些投资理财的方式大家都可以去尝试一下。下面我先来分享几点我的经验：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;余额宝&lt;/strong&gt;投资收益的钱是越来越少了，后来基本上不把钱放到余额宝了。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;腾讯的理财通&lt;/strong&gt;的理财产品收益还可以，我设置了有一个定投，每月把工资的一半拿来买理财产品，收益不算多，但是稳定。&lt;/li&gt;
+&lt;li&gt;后来听说&lt;strong&gt;京东小金库&lt;/strong&gt;收益还可以，我就跑去尝试了一下，收益确实把余额宝好，但是有点风险，可能跟我买的理财产品有关系。&lt;/li&gt;
+&lt;li&gt;也试过&lt;strong&gt;蚂蚁聚宝&lt;/strong&gt;的基金，选了两个产品定投，刚开始能赚点小钱，但是最近几个猛跌，倒亏了几千块钱，不知道啥情况，不敢动。&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,2 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>纪实 on forecho's Blog</title><link>https://blog.forecho.com/tags/%E7%BA%AA%E5%AE%9E.html</link><description>Recent content in 纪实 on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 29 Feb 2020 12:56:53 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/tags/%E7%BA%AA%E5%AE%9E/atom.xml" rel="self" type="application/rss+xml"/><item><title>记录这不平凡的一个月</title><link>https://blog.forecho.com/record-this-extraordinary-month.html</link><pubDate>Sat, 29 Feb 2020 12:56:53 +0800</pubDate><guid>https://blog.forecho.com/record-this-extraordinary-month.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>今天是这个月的最后一天了，因为『新冠病毒』的原因，让这个月注定不再平凡。我打算写下这篇文章，用文字记录我身边的事情。&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>纪实 on forecho&#39;s Blog</title>
+    <link>https://blog.forecho.com/tags/%E7%BA%AA%E5%AE%9E.html</link>
+    <description>Recent content in 纪实 on forecho&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 29 Feb 2020 12:56:53 +0800</lastBuildDate>
+    
+	<atom:link href="https://blog.forecho.com/tags/%E7%BA%AA%E5%AE%9E/atom.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>记录这不平凡的一个月</title>
+      <link>https://blog.forecho.com/record-this-extraordinary-month.html</link>
+      <pubDate>Sat, 29 Feb 2020 12:56:53 +0800</pubDate>
+      
+      <guid>https://blog.forecho.com/record-this-extraordinary-month.html</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;今天是这个月的最后一天了，因为『新冠病毒』的原因，让这个月注定不再平凡。我打算写下这篇文章，用文字记录我身边的事情。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

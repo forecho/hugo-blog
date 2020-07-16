@@ -1,31 +1,99 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Octopress on forecho's Blog</title><link>https://blog.forecho.com/tags/octopress.html</link><description>Recent content in Octopress on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 02 Jan 2020 18:48:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/tags/octopress/atom.xml" rel="self" type="application/rss+xml"/><item><title>Octopress 迁移到 Hugo</title><link>https://blog.forecho.com/octopress-migrate-to-hugo.html</link><pubDate>Thu, 02 Jan 2020 18:48:00 +0800</pubDate><guid>https://blog.forecho.com/octopress-migrate-to-hugo.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>终于还是受不了 Octopress 了，准备迁移到 &lt;a href="https://gohugo.io/">Hugo&lt;/a>，受不了 Octopress 是因为：&lt;/p>
-&lt;ul>
-&lt;li>markdown code 语法支持不好，很多时候莫名其妙的 Build 失败，让人抓狂。（最主要原因）&lt;/li>
-&lt;li>生成速度太慢，目前生成一次要2分多钟了&lt;/li>
-&lt;li>Octopress 项目已经没人维护了&lt;/li>
-&lt;/ul></description></item><item><title>Octopress 显示 `{{}}`</title><link>https://blog.forecho.com/about-octopress-use.html</link><pubDate>Wed, 06 Mar 2019 21:58:00 +0800</pubDate><guid>https://blog.forecho.com/about-octopress-use.html</guid><description>&lt;p>&lt;strong>注意：&lt;/strong> 本篇文章需要点击&lt;a href="https://github.com/forecho/blog/blob/master/source/_posts/2019-03-06-about-octopress-use-%7B%7B%7D%7D.md">这里&lt;/a>才能正常阅读。&lt;/p>
-&lt;p>Octopress 使用双花括号的时候就会自动把他认为是变量，会『翻译』，但是其实我们并不想要这种效果，怎么办呢？网上找了一圈发现可以用下面这种方式解决&lt;/p>
-&lt;div class="highlight">&lt;div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
-&lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
-&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-fallback" data-lang="fallback">{%raw%}{{thing}}{%endraw%}
-&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div></description></item><item><title>Octopress 添加打赏</title><link>https://blog.forecho.com/octopress-add-donate.html</link><pubDate>Thu, 28 Jan 2016 15:36:00 +0800</pubDate><guid>https://blog.forecho.com/octopress-add-donate.html</guid><description>&lt;h2 id="前言">前言&lt;/h2>
-&lt;p>本来今天是打算给博客添加一个打赏功能的，但是搜索了一下没发现 Octopress 有这个插件，然后就不知道怎么得就折腾 CC 协议插件了。&lt;/p>
-&lt;p>在折腾的过程中，我突然就学会写插件了，其实很简单。然后我就搜索到一个 hexo 打赏插件（因为懒得写样式和布局），经过几次修改，Octopress 打赏插件就这样诞生了。&lt;/p>
-&lt;h2 id="如何添加">如何添加&lt;/h2></description></item><item><title>Octopress 添加 CC 协议</title><link>https://blog.forecho.com/octopress-add-cc-license.html</link><pubDate>Thu, 28 Jan 2016 13:08:00 +0800</pubDate><guid>https://blog.forecho.com/octopress-add-cc-license.html</guid><description>&lt;h2 id="前言">前言&lt;/h2>
-&lt;p>如果你不知道什么是 CC 协议，或者你不知道选什么协议，请访问&lt;a href="http://creativecommons.org/choose/">Choose a Licens&lt;/a>（内容是中文的）。&lt;/p>
-&lt;h2 id="如何添加">如何添加&lt;/h2>
-&lt;p>我基本上是使用插件 &lt;a href="https://github.com/hoatle/octopress-cc-license">hoatle/octopress-cc-license&lt;/a> 完成的此功能，但是稍作修改，汉化了内容。&lt;/p></description></item><item><title>Octopress 结合 github 和 travis-ci 实现自动更新博客</title><link>https://blog.forecho.com/octopress-and-travis-ci.html</link><pubDate>Tue, 21 Jul 2015 17:25:00 +0800</pubDate><guid>https://blog.forecho.com/octopress-and-travis-ci.html</guid><description>&lt;h2 id="前言">前言&lt;/h2>
-&lt;p>这么久没更新博客了，一是因为 Octopress 虽然在自己的 MacBook 搭建起来了，但是工作电脑还没有，最主要的是工作电脑是 Windows 原来安装 Octopress 本身就是一件蛋疼的事情。对于一个懒人的我来说，一直想找一个自动生成静态博客并且会自动发布的解决方案，差点都准备放弃 Octopress 了，直到今天上午这种方案被我找到，本来以为最多一上午能搞定，没想到花费了我一天时间。&lt;/p>
-&lt;h2 id="实现">实现&lt;/h2>
-&lt;p>主要是利用 travis-ci 提供的持续集成服务实现的，主要分三步就搞定：&lt;/p>
-&lt;ol>
-&lt;li>用 github 登录&lt;a href="https://travis-ci.org/">Travis-CI&lt;/a>,然后开启你要使用集成服务的项目。&lt;/li>
-&lt;li>添加 &lt;code>.travis.yml&lt;/code> 文件（octopress 默认就有这个文件，我们修改就可以了）。&lt;/li>
-&lt;li>只要配置通过，当你 &lt;code>git push&lt;/code> 的时候就会自动触发 travis-ci，后面的工作就全自动了。&lt;/li>
-&lt;/ol></description></item><item><title>hello octopress</title><link>https://blog.forecho.com/hello-octopress.html</link><pubDate>Sun, 31 Aug 2014 09:24:00 +0800</pubDate><guid>https://blog.forecho.com/hello-octopress.html</guid><description>大名鼎鼎的 Octopress 总算安装成功了，但是 WordPress 里面的文章一直导入成功，但是显示不成功，详情页打开是空白的，哎，有时间再折腾吧。 至于搭建教程网上一搜一大把</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Octopress on forecho&#39;s Blog</title>
+    <link>https://blog.forecho.com/tags/octopress.html</link>
+    <description>Recent content in Octopress on forecho&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 02 Jan 2020 18:48:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://blog.forecho.com/tags/octopress/atom.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Octopress 迁移到 Hugo</title>
+      <link>https://blog.forecho.com/octopress-migrate-to-hugo.html</link>
+      <pubDate>Thu, 02 Jan 2020 18:48:00 +0800</pubDate>
+      
+      <guid>https://blog.forecho.com/octopress-migrate-to-hugo.html</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;终于还是受不了 Octopress 了，准备迁移到 &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;，受不了 Octopress 是因为：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;markdown code 语法支持不好，很多时候莫名其妙的 Build 失败，让人抓狂。（最主要原因）&lt;/li&gt;
+&lt;li&gt;生成速度太慢，目前生成一次要2分多钟了&lt;/li&gt;
+&lt;li&gt;Octopress 项目已经没人维护了&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>Octopress 显示 `{{}}` </title>
+      <link>https://blog.forecho.com/about-octopress-use.html</link>
+      <pubDate>Wed, 06 Mar 2019 21:58:00 +0800</pubDate>
+      
+      <guid>https://blog.forecho.com/about-octopress-use.html</guid>
+      <description>&lt;p&gt;&lt;strong&gt;注意：&lt;/strong&gt; 本篇文章需要点击&lt;a href=&#34;https://github.com/forecho/blog/blob/master/source/_posts/2019-03-06-about-octopress-use-%7B%7B%7D%7D.md&#34;&gt;这里&lt;/a&gt;才能正常阅读。&lt;/p&gt;
+&lt;p&gt;Octopress 使用双花括号的时候就会自动把他认为是变量，会『翻译』，但是其实我们并不想要这种效果，怎么办呢？网上找了一圈发现可以用下面这种方式解决&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;{%raw%}{{thing}}{%endraw%}
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Octopress 添加打赏</title>
+      <link>https://blog.forecho.com/octopress-add-donate.html</link>
+      <pubDate>Thu, 28 Jan 2016 15:36:00 +0800</pubDate>
+      
+      <guid>https://blog.forecho.com/octopress-add-donate.html</guid>
+      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+&lt;p&gt;本来今天是打算给博客添加一个打赏功能的，但是搜索了一下没发现 Octopress 有这个插件，然后就不知道怎么得就折腾 CC 协议插件了。&lt;/p&gt;
+&lt;p&gt;在折腾的过程中，我突然就学会写插件了，其实很简单。然后我就搜索到一个 hexo 打赏插件（因为懒得写样式和布局），经过几次修改，Octopress 打赏插件就这样诞生了。&lt;/p&gt;
+&lt;h2 id=&#34;如何添加&#34;&gt;如何添加&lt;/h2&gt;</description>
+    </item>
+    
+    <item>
+      <title>Octopress 添加 CC 协议</title>
+      <link>https://blog.forecho.com/octopress-add-cc-license.html</link>
+      <pubDate>Thu, 28 Jan 2016 13:08:00 +0800</pubDate>
+      
+      <guid>https://blog.forecho.com/octopress-add-cc-license.html</guid>
+      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+&lt;p&gt;如果你不知道什么是 CC 协议，或者你不知道选什么协议，请访问&lt;a href=&#34;http://creativecommons.org/choose/&#34;&gt;Choose a Licens&lt;/a&gt;（内容是中文的）。&lt;/p&gt;
+&lt;h2 id=&#34;如何添加&#34;&gt;如何添加&lt;/h2&gt;
+&lt;p&gt;我基本上是使用插件 &lt;a href=&#34;https://github.com/hoatle/octopress-cc-license&#34;&gt;hoatle/octopress-cc-license&lt;/a&gt; 完成的此功能，但是稍作修改，汉化了内容。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Octopress 结合 github 和 travis-ci 实现自动更新博客</title>
+      <link>https://blog.forecho.com/octopress-and-travis-ci.html</link>
+      <pubDate>Tue, 21 Jul 2015 17:25:00 +0800</pubDate>
+      
+      <guid>https://blog.forecho.com/octopress-and-travis-ci.html</guid>
+      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+&lt;p&gt;这么久没更新博客了，一是因为 Octopress 虽然在自己的  MacBook 搭建起来了，但是工作电脑还没有，最主要的是工作电脑是 Windows 原来安装 Octopress 本身就是一件蛋疼的事情。对于一个懒人的我来说，一直想找一个自动生成静态博客并且会自动发布的解决方案，差点都准备放弃 Octopress 了，直到今天上午这种方案被我找到，本来以为最多一上午能搞定，没想到花费了我一天时间。&lt;/p&gt;
+&lt;h2 id=&#34;实现&#34;&gt;实现&lt;/h2&gt;
+&lt;p&gt;主要是利用 travis-ci 提供的持续集成服务实现的，主要分三步就搞定：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;用 github 登录&lt;a href=&#34;https://travis-ci.org/&#34;&gt;Travis-CI&lt;/a&gt;,然后开启你要使用集成服务的项目。&lt;/li&gt;
+&lt;li&gt;添加 &lt;code&gt;.travis.yml&lt;/code&gt; 文件（octopress 默认就有这个文件，我们修改就可以了）。&lt;/li&gt;
+&lt;li&gt;只要配置通过，当你 &lt;code&gt;git push&lt;/code&gt; 的时候就会自动触发 travis-ci，后面的工作就全自动了。&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    
+    <item>
+      <title>hello octopress</title>
+      <link>https://blog.forecho.com/hello-octopress.html</link>
+      <pubDate>Sun, 31 Aug 2014 09:24:00 +0800</pubDate>
+      
+      <guid>https://blog.forecho.com/hello-octopress.html</guid>
+      <description>大名鼎鼎的 Octopress 总算安装成功了，但是 WordPress 里面的文章一直导入成功，但是显示不成功，详情页打开是空白的，哎，有时间再折腾吧。 至于搭建教程网上一搜一大把</description>
+    </item>
+    
+  </channel>
+</rss>

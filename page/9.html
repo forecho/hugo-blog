@@ -1,45 +1,688 @@
-<!doctype html><html lang=en-us><head><meta charset=utf-8><meta name=generator content="Hugo 0.74.1"><meta charset=utf-8><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><meta name=generator content="Saber v0.11.2"><meta name=author content="forecho"><meta name=keywords content="yii2,yii,炒美股,如何炒美股,美股入金 php,ios,ruby,python,swift,web development"><meta name=og:site_name content="forecho's Blog"><meta property="og:type" content="website"><meta property="title" content="forecho's Blog"><meta property="og:title" content="forecho's Blog"><meta property="twitter:title" content="forecho's Blog"><meta name=description content="forecho, forecho blog, forecho 独立博客"><meta property="og:description" content="forecho, forecho blog, forecho 独立博客"><meta property="twitter:description" content="forecho, forecho blog, forecho 独立博客"><meta property="og:type" content="website"><title>forecho's Blog</title><meta property="og:url" content="https://blog.forecho.com/"><meta property="og:image" content="https://avatars0.githubusercontent.com/u/1725326?s=460&v=4"><meta property="twitter:image" content="https://avatars0.githubusercontent.com/u/1725326?s=460&v=4"><link rel="shortcut icon" href="https://avatars0.githubusercontent.com/u/1725326?s=460&v=4" type=image/x-png><link href=https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css rel=stylesheet><link rel=stylesheet href=/css/main.css><link rel=stylesheet href=//at.alicdn.com/t/font_1607597_jhmihcvh0tm.css><link href=/index.xml rel=alternate type=application/rss+xml title="forecho's Blog"><script async src=//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js></script><meta name=google-site-verification content="OMI81_SJiESxwq-Fr0CLleoF7EzVdRx7QTQlbAfCVdI"><meta name=baidu-site-verification content="WuHyHeOJtJ"></head><body class="bg-gray-100 text-gray-900 tracking-wider leading-normal"><nav id=header class="bg-white fixed w-full z-10 top-0 shadow"><div id=progress class="h-1 z-20 top-0" style="background:linear-gradient(to right,#4dc0b5 var(--scroll),transparent 0)"></div><div class="w-full container mx-auto flex flex-wrap items-center justify-between my-1"><div class=pl-4><a class="text-gray-900 text-base no-underline hover:no-underline font-bold text-xl" href=/>forecho's Blog</a></div><div class="block lg:hidden pr-4"><button id=nav-toggle class="flex items-center px-3 py-2 border rounded text-gray-500 border-gray-600 hover:text-gray-900 hover:border-teal-500 appearance-none focus:outline-none"><svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg></button></div><div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block mt-2 lg:mt-0 bg-gray-100 md:bg-transparent z-20" id=nav-content><ul class="list-reset lg:flex justify-end flex-1 items-center"><li class=mr-3><a href=/ class="inline-block py-2 px-2 text-gray-700 font-bold no-underline">首页</a></li><li class=mr-3><a href=/posts.html class="inline-block py-2 px-2 text-gray-700 font-bold no-underline">文章归档</a></li><li class=mr-3><a href=/about.html class="inline-block py-2 px-2 text-gray-700 font-bold no-underline">关于我</a></li><li class=mr-3><a href=/friendship-links/ class="inline-block py-2 px-2 text-gray-700 font-bold no-underline">联盟链接</a></li></ul></div></div></nav><div id=container class="container w-full flex flex-wrap mx-auto px-2 lg:pt-12 mt-10"><section class="w-full lg:w-3/4 xl:w-3/4"><div class="px-8 py-6 mt-6 lg:mt-0 leading-normal rounded shadow bg-white"><article><div><h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-2xl lg:text-3xl"><a href=https://blog.forecho.com/understand-blockchain-primitives-with-php.html title="用 PHP 了解区块链基本原型">用 PHP 了解区块链基本原型</a></h1><p class="mb-1 text-sm text-gray-500"><span title="2018-02-03 15:29:00 +0800"><i class="iconfont icon-calendar" aria-hidden=true></i>03 Feb 2018</span>
-<span class="hidden xl:inline-block">|
-<i class="iconfont icon-book"></i>2108 字</span>
-<span class="hidden xl:inline-block">|
-<i class="iconfont icon-clock-o"></i>5 分钟读完</span></p></div><div class=post-content><h2 id=引言>引言</h2><p>最近这一个月一有时间就研究区块链的技术，看了不少文章，理论知识了解了不少。今天终于有时间写写『如何用 PHP 来了解区块链的基本原理』了。</p><p>本篇文章适合对区块链感兴趣而且还需要对区块链已经有一定了解的小伙伴。废话不多说，我们直接上代码。</p><h2 id=block-区块>Block 区块</h2><p>区块链由N个区块组成，在区块链里，价值信息存储在区块之中。比如，比特币的区块存储交易记录，而交易记录是任何加密货币的核心。除此之外，区块里还包含有技术信息，比如它的版本号，当前的时间戳，以及上一个区块的哈希（Hash）。</p></div><p class="text-sm font-semibold pt-5 text-gray-700"><a href=https://blog.forecho.com/understand-blockchain-primitives-with-php.html class="px-5 py-2 inline-block bg-gray-200 rounded hover:bg-gray-300">阅读全文</a></p></article><hr class="bg-gray-300 mt-10 mb-6"><article><div><h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-2xl lg:text-3xl"><a href=https://blog.forecho.com/summary-btc-investment-for-a-month.html title=币圈一个月，我总结出了这些>币圈一个月，我总结出了这些</a></h1><p class="mb-1 text-sm text-gray-500"><span title="2018-01-16 19:29:00 +0800"><i class="iconfont icon-calendar" aria-hidden=true></i>16 Jan 2018</span>
-<span class="hidden xl:inline-block">|
-<i class="iconfont icon-book"></i>2752 字</span>
-<span class="hidden xl:inline-block">|
-<i class="iconfont icon-clock-o"></i>6 分钟读完</span></p></div><div class=post-content><h2 id=引言>引言</h2><p>2017年是比特币最疯狂的一年，比特币可谓经历了重重考验，每次的大涨和大跌，都只能算是『正常』的波动。从去年底开始慢慢你会发现身边的人都在开始聊比特币了，我也正是从那个时候开始有点心动了，开始入场了。</p><p>但是首先要声明的是，我是抱着去学习去体验的心态入场的，所以我并没有投资很多钱，也没打算大赚一笔。这笔钱具体多少我就不说了，反正就算是这笔钱都亏掉我都不会很心疼的那种，亏了就算是教学费，赚了就是自己的运气。<strong>再次声明，炒币真的风险很大，请认真思考之后再做决定。</strong></p></div><p class="text-sm font-semibold pt-5 text-gray-700"><a href=https://blog.forecho.com/summary-btc-investment-for-a-month.html class="px-5 py-2 inline-block bg-gray-200 rounded hover:bg-gray-300">阅读全文</a></p></article><hr class="bg-gray-300 mt-10 mb-6"><article><div><h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-2xl lg:text-3xl"><a href=https://blog.forecho.com/a-half-year-review-of-entrepreneurship.html title=创业半年回顾>创业半年回顾</a></h1><p class="mb-1 text-sm text-gray-500"><span title="2018-01-07 07:29:00 +0800"><i class="iconfont icon-calendar" aria-hidden=true></i>07 Jan 2018</span>
-<span class="hidden xl:inline-block">|
-<i class="iconfont icon-book"></i>2970 字</span>
-<span class="hidden xl:inline-block">|
-<i class="iconfont icon-clock-o"></i>6 分钟读完</span></p></div><div class=post-content><h2 id=引言>引言</h2><p>2017年7月3号我以技术总监的身份正式加入一家创业公司，公司大概是5月份成立了，时至今日我的工作已有半年之久，今天这篇文章我打算总结一下这半年发生的一些事情。</p><h2 id=基本情况>基本情况</h2><p>做技术已经有5年多的经验了，虽谈不上技术有多厉害，在这几年也一直处于 SaaS 领域，对于一个小公司来说我的技术积累确实是足够了。</p><p>先讲一下整个公司的人员分布情况，我来的时候整个公司不到30人，但是技术部门足足占有一半以上的人，对于一个还没有推出任何产品的公司来说，技术部占这么多似乎是可以理解的。但以现在的角度来审视过去的话，我觉得对于一个创业团队来说个个都必须是精英才行。</p><p>刚来的时候人员分配是这样的：4个 UI、6个前端、3个后端，一个产品助理、一个兼职产品经理，加上我一起是15.5个人，从这你可以看得出来老板完全不懂技术。入职的第一天，我做的第一件事就是通过一对一会议简单的了解他们的基本履历。后来我裁掉了2个 UI，再陆续进来两个测试。</p></div><p class="text-sm font-semibold pt-5 text-gray-700"><a href=https://blog.forecho.com/a-half-year-review-of-entrepreneurship.html class="px-5 py-2 inline-block bg-gray-200 rounded hover:bg-gray-300">阅读全文</a></p></article><hr class="bg-gray-300 mt-10 mb-6"><article><div><h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-2xl lg:text-3xl"><a href=https://blog.forecho.com/readeep-010.html title=【深度阅读010】《另外8小时》>【深度阅读010】《另外8小时》</a></h1><p class="mb-1 text-sm text-gray-500"><span title="2018-01-02 19:29:00 +0800"><i class="iconfont icon-calendar" aria-hidden=true></i>02 Jan 2018</span>
-<span class="hidden xl:inline-block">|
-<i class="iconfont icon-book"></i>7293 字</span>
-<span class="hidden xl:inline-block">|
-<i class="iconfont icon-clock-o"></i>15 分钟读完</span></p></div><div class=post-content><p><a href="https://www.amazon.cn/dp/B00INIXFBM/?ie=UTF8&tag=forecho0c-23"><img src=https://images-cn.ssl-images-amazon.com/images/I/51oBghI53bL._SX352_BO1,204,203,200_.jpg alt=《另外8小时》></a></p><h2 id=先简单介绍一下作者>先简单介绍一下作者</h2><p>作者罗伯特·帕利亚里尼，美国顶尖财富管理公司之一 Pacifica WealthAdvisors 公司的总裁，拥有财务咨询规划师资格证和财务管理硕士学位。罗伯特也是畅销书作家，曾经出版《六天改变财务状况》一书，该书成功登上畅销书排行榜。作为财务和时间管理专家，罗伯特经常出现在电视节目和媒体上，如《早安美国》等，鼓励人们珍惜时间并努力创造财富，从而提高生活品质，获得幸福人生。他的文章经常被刊登在《华尔街日报》、《商业周刊》等著名报纸上，他还应邀在CBS商业新闻网上长期撰写『另外8小时』专栏，拥有广大读者群。（来源豆瓣）</p><h2 id=这本书主要讲什么>这本书主要讲什么？</h2><p>主要是讲述如何利用『另外8小时』进行时间管理、计划与控制的管理学类社会科学图书。</p></div><p class="text-sm font-semibold pt-5 text-gray-700"><a href=https://blog.forecho.com/readeep-010.html class="px-5 py-2 inline-block bg-gray-200 rounded hover:bg-gray-300">阅读全文</a></p></article><hr class="bg-gray-300 mt-10 mb-6"><article><div><h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-2xl lg:text-3xl"><a href=https://blog.forecho.com/summary-2017-financial-management.html title=总结2017年理财效益>总结2017年理财效益</a></h1><p class="mb-1 text-sm text-gray-500"><span title="2017-12-29 19:29:00 +0800"><i class="iconfont icon-calendar" aria-hidden=true></i>29 Dec 2017</span>
-<span class="hidden xl:inline-block">|
-<i class="iconfont icon-book"></i>3296 字</span>
-<span class="hidden xl:inline-block">|
-<i class="iconfont icon-clock-o"></i>7 分钟读完</span></p></div><div class=post-content><h2 id=引言>引言</h2><p>先简单介绍一下本人的家庭背景吧，由于家里一直是做小本生意的，很小就跟着父母在外「漂泊」，知道赚钱不容易，所以从小用钱就比较节省。初二开始进入私立寄宿学校，也就是那个时候开始我的生活费都是一学期一次性打到卡里面。那个时候小，不懂理财为何物，但是我从来也没有遇到过期末钱不够花的情况。</p><p>说了这么多，其实我想说的是，如果你现在还是一个月光族的话，对你来说理财是一件非常奢侈的事情。理财的前提是有存款，然后通过一些手段让你的钱越变越多，至少能跑过通货膨胀。</p></div><p class="text-sm font-semibold pt-5 text-gray-700"><a href=https://blog.forecho.com/summary-2017-financial-management.html class="px-5 py-2 inline-block bg-gray-200 rounded hover:bg-gray-300">阅读全文</a></p></article><hr class="bg-gray-300 mt-10 mb-6"><article><div><h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-2xl lg:text-3xl"><a href=https://blog.forecho.com/readeep-009.html title=【深度阅读009】《软技能》>【深度阅读009】《软技能》</a></h1><p class="mb-1 text-sm text-gray-500"><span title="2017-12-15 19:29:00 +0800"><i class="iconfont icon-calendar" aria-hidden=true></i>15 Dec 2017</span>
-<span class="hidden xl:inline-block">|
-<i class="iconfont icon-book"></i>5199 字</span>
-<span class="hidden xl:inline-block">|
-<i class="iconfont icon-clock-o"></i>11 分钟读完</span></p></div><div class=post-content><p><a href="https://www.amazon.cn/dp/B01J9MZPPO/?ie=UTF8&tag=forecho0c-23"><img src=https://images-cn.ssl-images-amazon.com/images/I/51%2BSiJy5MjL.jpg alt=《软技能》></a></p><h2 id=先简单介绍一下作者>先简单介绍一下作者</h2><p>John Z. Sonmez是『Simple Programmer』网站的创始人，他不辞辛劳地追求着『将复杂问题转化为简单解决方案』的梦想。他为在线培训机构 Pluralsight 开发了50多门在线课程，涉及 iOS、Android、.NET、Java 和游戏开发等多个主题。另外他还是『Get Up and CODE』播客和『Entreprogrammers』播客的主持人（来源豆瓣）</p><h2 id=这本书主要讲什么>这本书主要讲什么？</h2><p>不只是程序员，任何不入社会的人都应该读一读，里面的内容有涉及到个人职业、自我营销、学习、生产力、理财、健身、精神七个章节。基本上每个章节都能让我受益良多。</p><p>下面我就挑一些主要的章节简单说说我的收益。</p></div><p class="text-sm font-semibold pt-5 text-gray-700"><a href=https://blog.forecho.com/readeep-009.html class="px-5 py-2 inline-block bg-gray-200 rounded hover:bg-gray-300">阅读全文</a></p></article><hr class="bg-gray-300 mt-10 mb-6"><article><div><h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-2xl lg:text-3xl"><a href=https://blog.forecho.com/about-yii2-practice-book.html title="关于《Yii 2.x 最佳实践》">关于《Yii 2.x 最佳实践》</a></h1><p class="mb-1 text-sm text-gray-500"><span title="2017-12-13 20:29:00 +0800"><i class="iconfont icon-calendar" aria-hidden=true></i>13 Dec 2017</span>
-<span class="hidden xl:inline-block">|
-<i class="iconfont icon-book"></i>877 字</span>
-<span class="hidden xl:inline-block">|
-<i class="iconfont icon-clock-o"></i>2 分钟读完</span></p></div><div class=post-content><h2 id=起源>起源</h2><p>2012 年的时候我因为工作原因接触了 Yii 1.0，刚开始真是无从下手，而且大部分文档是英文的，只有少数的中文资料<a href=http://blog.yiiblog.info/>BoyLee 的 视频</a> 让我入了门， Yii 的 QQ 群一些大牛对新手的解惑，让我慢慢感受到 Yii 的强大。从此以后「除却巫山不是云」了，直到 Yii 2.0 版本推出。</p><p>Yii 是一个很强大的框架，而且设计的很好，它的模式非常一致，一旦你入门了，那么就会有一通百通的效果，这个过程中官方文档会一直伴随着你。但是作为一个强大的框架，入门门框却非常高，有一推的概念需要你去慢慢了解，我看到很多人只是把 Yii 框架当作一个简单的 PHP MVC 框架来用，完全没用把 Yii 框架的特性用起来，为他们感到惋惜。</p></div><p class="text-sm font-semibold pt-5 text-gray-700"><a href=https://blog.forecho.com/about-yii2-practice-book.html class="px-5 py-2 inline-block bg-gray-200 rounded hover:bg-gray-300">阅读全文</a></p></article><hr class="bg-gray-300 mt-10 mb-6"><article><div><h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-2xl lg:text-3xl"><a href=https://blog.forecho.com/readeep-008.html title=【深度阅读008】《快速阅读术》>【深度阅读008】《快速阅读术》</a></h1><p class="mb-1 text-sm text-gray-500"><span title="2017-12-02 20:29:00 +0800"><i class="iconfont icon-calendar" aria-hidden=true></i>02 Dec 2017</span>
-<span class="hidden xl:inline-block">|
-<i class="iconfont icon-book"></i>2927 字</span>
-<span class="hidden xl:inline-block">|
-<i class="iconfont icon-clock-o"></i>6 分钟读完</span></p></div><div class=post-content><p><a href="https://www.amazon.cn/dp/B0739ZX9WZ/?ie=UTF8&tag=forecho0c-23"><img src=https://images-cn.ssl-images-amazon.com/images/I/51NOb1yQyEL.jpg alt=《快速阅读术》></a></p><h2 id=先简单介绍一下作者>先简单介绍一下作者</h2><p>作者是 印南敦史，作家、书评家、自由撰稿人、编辑。1962年出生于日本东京，曾在广告代理公司工作，担任过音乐撰稿人、音乐杂志主编，后成为自由职业者。自从在广受商界人士欢迎的网络媒体“生活骇客（LifeHacker）日文版”撰写书评以来，他发现快速阅读大量书籍的有效方法。（来源豆瓣）</p><h2 id=这本书主要讲什么>这本书主要讲什么？</h2><p>主要是讲作者自身如何从一个慢读者达到一天一本书的阅读速度，现在作者甚至能做到1年700本的阅读目标。作者的阅读技巧不会涉及到「眼动训练」、「快速翻页」、「速读术」。</p></div><p class="text-sm font-semibold pt-5 text-gray-700"><a href=https://blog.forecho.com/readeep-008.html class="px-5 py-2 inline-block bg-gray-200 rounded hover:bg-gray-300">阅读全文</a></p></article><hr class="bg-gray-300 mt-10 mb-6"><article><div><h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-2xl lg:text-3xl"><a href=https://blog.forecho.com/readeep-007.html title="【深度阅读007】如何点亮你的人生技能树 - 《斜杠青年》读书笔记">【深度阅读007】如何点亮你的人生技能树 - 《斜杠青年》读书笔记</a></h1><p class="mb-1 text-sm text-gray-500"><span title="2017-11-25 16:01:00 +0800"><i class="iconfont icon-calendar" aria-hidden=true></i>25 Nov 2017</span>
-<span class="hidden xl:inline-block">|
-<i class="iconfont icon-book"></i>3000 字</span>
-<span class="hidden xl:inline-block">|
-<i class="iconfont icon-clock-o"></i>6 分钟读完</span></p></div><div class=post-content>在同样的时间中，有些人拥有着多重身份，每天做着不同职业的事，过着多样化的人生。《斜杠青年》一书，讲述的就是这群点满技能树的人。 什么是斜杠青年</div><p class="text-sm font-semibold pt-5 text-gray-700"><a href=https://blog.forecho.com/readeep-007.html class="px-5 py-2 inline-block bg-gray-200 rounded hover:bg-gray-300">阅读全文</a></p></article><hr class="bg-gray-300 mt-10 mb-6"><article><div><h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-2xl lg:text-3xl"><a href=https://blog.forecho.com/talk-to-product-manager.html title=聊聊产品经理>聊聊产品经理</a></h1><p class="mb-1 text-sm text-gray-500"><span title="2017-11-19 18:25:00 +0800"><i class="iconfont icon-calendar" aria-hidden=true></i>19 Nov 2017</span>
-<span class="hidden xl:inline-block">|
-<i class="iconfont icon-book"></i>1580 字</span>
-<span class="hidden xl:inline-block">|
-<i class="iconfont icon-clock-o"></i>4 分钟读完</span></p></div><div class=post-content><h2 id=引言>引言</h2><p>前几个月跟公司申请了一笔经费，给部门买了一些技术类的书，其中有一本书<a href=https://book.douban.com/subject/27029547/>《人人都是产品经理2.0》</a>，相信对产品经理有一点点了解的人都应该知道有一本书叫做《人人都是产品经理》。没错，那个作者最近出了新书。但是这篇文章我们不聊这本书，就聊聊我所认知的『产品经理』这个职位，毕竟书要等我看完再聊。</p><h2 id=没有产品经理的日子>没有产品经理的日子</h2><p>还没毕业那会，我就去了一个创业公司上班，是一个成立不久的外包公司。那一年是2012年的暑假，在武汉。那个时候从来没听过还有产品经理这个职位。由销售接单，然后我们技术去确定需求并且跟客户对接。我们最怕的就是需求有变，毕竟我们擅长的是技术，不擅长和客户打交道。</p></div><p class="text-sm font-semibold pt-5 text-gray-700"><a href=https://blog.forecho.com/talk-to-product-manager.html class="px-5 py-2 inline-block bg-gray-200 rounded hover:bg-gray-300">阅读全文</a></p></article><hr class="bg-gray-300 mt-10 mb-6"><p class=text-center><a class="md:text-xl text-gray-700" href=/posts.html>↑ 文章归档 ↑</a></p></div></section><div class="hidden md:block w-full lg:w-1/4 xl:w-1/4 px-6 text-gray-800 leading-normal"><div class="lg:w-full mx-auto items-center justify-between"><div class="bg-white shadow rounded overflow-hidden"><div class="bg-cover bg-auto mx-auto w-32 h-32 mt-5 rounded-full" style="background-image:url(https://avatars0.githubusercontent.com/u/1725326?s=460&v=4)"></div><div class=p-4><p class="text-2xl text-center text-gray-900 pb-2">forecho</p><p class="text-sm text-center text-gray-700">把生命浪费在美好的事物上</p></div><div class="flex p-4 border-t text-sm border-gray-300 text-gray-700"><div class="flex-1 border-r border-gray-600"><p class=text-center><span class="text-gray-700 font-bold">346</span>
-文章</p></div><div class="flex-1 text-center"><p class=text-center><span class="text-gray-700 font-bold">100</span>
-标签</p></div></div><div class="px-4 pb-4 border-t border-gray-300"><div class="mt-6 pb-16 lg:pb-0 w-4/5 lg:w-full mx-auto flex flex-wrap items-center justify-between text-gray-500"><a href=//github.com/forecho class="hover:text-gray-900 p-1 text-2xl" target=_blank title=GitHub><i class="my-iconfont icon-social-github"></i></a><a href=//instagram.com/forecho class="hover:text-gray-900 p-1 text-2xl" target=_blank title=Instagram><i class="my-iconfont icon-instagram"></i></a><a href=//twitter.com/caizhenghai class="hover:text-gray-900 p-1 text-2xl" target=_blank title=Twitter><i class="my-iconfont icon-social-twitter"></i></a><a href=//douban.com/people/ipzone class="hover:text-gray-900 p-1 text-2xl" target=_blank title=Douban><i class="my-iconfont icon-social-douban"></i></a><a href=/atom.xml class="hover:text-gray-900 p-1 text-2xl" target=_blank title=RSS><i class="my-iconfont icon-feed"></i></a></div></div></div></div><div class="p-4 mt-2 lg:mt-4 rounded shadow bg-white"><h2 class="font-sans font-bold break-normal text-gray-700 px-2 pb-3 text-lg">热门文章</h2><li><a href=/financedeep-08.html class="underline text-orange-600 text-sm">【深度理财08】美港股打新哪家强</a></li><li><a href=/take-the-shenzhen-account-in-less-than-3-months.html class="underline text-orange-600 text-sm">用时不到3个月拿到深圳户口</a></li><li><a href=/how-do-i-invest-in-american-stocks.html class="underline text-orange-600 text-sm">我是怎么投资美股的</a></li></div><div class=profile-ads><div class="bg-white shadow"><img class="object-cover w-auto mx-auto mt-6" loading=lazy src=https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424153337.png title=微信：ipzone alt=微信：ipzone></div></div></div></div><footer class="bg-white border-t border-gray-400 shadow mt-10"><div class="container mx-auto flex py-8"><div class="w-full text-center text-gray-600"><p>&copy; 2020 <a class=text-gray-700 href=https://blog.forecho.com>forecho's Blog By forecho</a></p><p class=pt-1>Powered by <a rel="nofollow noreferer noopener" href=https://gohugo.io/ class=text-gray-700 target=_blank>Hugo</a>
-Theme based on <a href=https://github.com/forecho/hugo-theme-echo class=text-gray-700 target=_blank>Echo</a></p><span id=busuanzi_container>访客数：<span id=busuanzi_value_site_uv></span> | 访问量 <span id=busuanzi_value_site_pv></span></span></div></div></footer><script type=application/javascript>var doNotTrack=false;if(!doNotTrack){(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');ga('create','UA-75634412-1','auto');ga('send','pageview');}</script><script>window.onload=function(){document.getElementById("nav-toggle").onclick=function(){document.getElementById("nav-content").classList.toggle("hidden");};var donate=document.getElementById("btn-donate");if(donate){donate.onclick=function(){document.getElementById("donate-image").classList.remove("hidden");donate.classList.add("hidden");};}
-var hostname=window.location.hostname;var divs=document.querySelectorAll('a[href^="http"]');[].forEach.call(divs,function(div){url=div.getAttribute("href");var domain=url.replace("http://","").replace("https://","").split(/[/?#:]/)[0];if(domain!==hostname){div.setAttribute("target","_blank");}});};var h=document.documentElement,b=document.body,st="scrollTop",sh="scrollHeight",progress=document.querySelector("#progress"),scroll;var scrollpos=window.scrollY;var header=document.getElementById("header");var navcontent=document.getElementById("nav-content");document.addEventListener("scroll",function(){scroll=((h[st]||b[st])/((h[sh]||b[sh])-h.clientHeight))*100;progress.style.setProperty("--scroll",scroll+"%");scrollpos=window.scrollY;if(scrollpos>10){navcontent.classList.remove("bg-gray-100");}else{navcontent.classList.add("bg-gray-100");}});</script></body></html>
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.68.0" />
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="generator" content="Saber v0.11.2">
+    <meta name="author" content="forecho" />
+    <meta name="keywords" content="yii2, yii, 炒美股, 如何炒美股, 美股入金 php, ios, ruby, python, swift, web development" />
+    <meta name="og:site_name" content="forecho&#39;s Blog" /><meta property="og:type" content="website" />
+    <meta property="title" content="forecho&#39;s Blog">
+    <meta property="og:title" content="forecho&#39;s Blog">
+    <meta property="twitter:title" content="forecho&#39;s Blog">
+    <meta name="description" content="forecho, forecho blog, forecho 独立博客">
+    <meta property="og:description" content="forecho, forecho blog, forecho 独立博客">
+    <meta property="twitter:description" content="forecho, forecho blog, forecho 独立博客">
+    <meta property="og:type" content="website">
+    <title>forecho&#39;s Blog</title>
+
+    <meta property="og:url" content="https://blog.forecho.com/" />
+
+    
+    <meta property="og:image" content="https://avatars0.githubusercontent.com/u/1725326?s=460&amp;v=4">
+    <meta property="twitter:image" content="https://avatars0.githubusercontent.com/u/1725326?s=460&amp;v=4">
+    <link rel="shortcut icon" href="https://avatars0.githubusercontent.com/u/1725326?s=460&amp;v=4" type="image/x-png" /><link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_1607597_jhmihcvh0tm.css" />
+    <link href="/index.xml" rel="alternate" type="application/rss+xml" title="forecho&#39;s Blog">
+    
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><meta name="google-site-verification" content="OMI81_SJiESxwq-Fr0CLleoF7EzVdRx7QTQlbAfCVdI" /><meta name="baidu-site-verification" content="WuHyHeOJtJ" />
+</head>
+
+<body class="bg-gray-100 text-gray-900 tracking-wider leading-normal">
+
+    <nav id="header" class="bg-white fixed w-full z-10 top-0 shadow">
+
+  <div id="progress" class="h-1 z-20 top-0" style="background:linear-gradient(to right, #4dc0b5 var(--scroll), transparent 0);"></div>
+
+  <div class="w-full container mx-auto flex flex-wrap items-center justify-between my-1">
+      <div class="pl-4">
+          <a class="text-gray-900 text-base no-underline hover:no-underline font-bold text-xl"  href="/">
+              forecho&#39;s Blog
+          </a>
+      </div>
+
+      <div class="block lg:hidden pr-4">
+          <button id="nav-toggle" class="flex items-center px-3 py-2 border rounded text-gray-500 border-gray-600 hover:text-gray-900 hover:border-teal-500 appearance-none focus:outline-none">
+              <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+          </button>
+      </div>
+
+      <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block mt-2 lg:mt-0 bg-gray-100 md:bg-transparent z-20" id="nav-content">
+          <ul class="list-reset lg:flex justify-end flex-1 items-center">
+              <li class="mr-3">
+                  <a href="/" class="inline-block py-2 px-2 text-gray-700 font-bold no-underline">首页</a>
+              </li>
+              <li class="mr-3">
+                  <a href="/posts.html" class="inline-block py-2 px-2 text-gray-700 font-bold no-underline">文章归档</a>
+              </li>
+              <li class="mr-3">
+                  <a href="/about.html" class="inline-block py-2 px-2 text-gray-700 font-bold no-underline">关于我</a>
+              </li>
+              <li class="mr-3">
+                  <a href="/friendship-links/" class="inline-block py-2 px-2 text-gray-700 font-bold no-underline">联盟链接</a>
+              </li>
+          </ul>
+      </div>
+  </div>
+</nav>
+
+    <div id="container" class="container w-full flex flex-wrap mx-auto px-2 lg:pt-12 mt-10">
+    <section class="w-full lg:w-3/4 xl:w-3/4">
+        <div class="px-8 py-6 mt-6 lg:mt-0 leading-normal rounded shadow bg-white">
+                
+                <article >
+                    
+                    <div>
+    <h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-2xl lg:text-3xl">
+        <a href="https://blog.forecho.com/understand-blockchain-primitives-with-php.html" title="用 PHP 了解区块链基本原型">用 PHP 了解区块链基本原型</a>
+    </h1>
+    <p class="mb-1 text-sm text-gray-500">
+        <span title=" 2018-02-03 15:29:00 &#43;0800">
+            <i class="iconfont icon-calendar" aria-hidden="true"></i> 03 Feb 2018
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-book"></i>
+            2108 字
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-clock-o"></i>
+            5 分钟读完
+        </span>
+    </p>
+</div>
+
+                    
+                    <div class="post-content">
+                        <h2 id="引言">引言</h2>
+<p>最近这一个月一有时间就研究区块链的技术，看了不少文章，理论知识了解了不少。今天终于有时间写写『如何用 PHP 来了解区块链的基本原理』了。</p>
+<p>本篇文章适合对区块链感兴趣而且还需要对区块链已经有一定了解的小伙伴。废话不多说，我们直接上代码。</p>
+<h2 id="block-区块">Block 区块</h2>
+<p>区块链由N个区块组成，在区块链里，价值信息存储在区块之中。比如，比特币的区块存储交易记录，而交易记录是任何加密货币的核心。除此之外，区块里还包含有技术信息，比如它的版本号，当前的时间戳，以及上一个区块的哈希（Hash）。</p>
+                    </div>
+                    <p class="text-sm font-semibold pt-5 text-gray-700 ">
+                        <a href="https://blog.forecho.com/understand-blockchain-primitives-with-php.html" class="px-5 py-2 inline-block bg-gray-200 rounded  hover:bg-gray-300">阅读全文</a>
+                    </p>
+                </article>
+
+                <hr class="bg-gray-300 mt-10 mb-6">
+            
+                <article >
+                    
+                    <div>
+    <h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-2xl lg:text-3xl">
+        <a href="https://blog.forecho.com/summary-btc-investment-for-a-month.html" title="币圈一个月，我总结出了这些">币圈一个月，我总结出了这些</a>
+    </h1>
+    <p class="mb-1 text-sm text-gray-500">
+        <span title=" 2018-01-16 19:29:00 &#43;0800">
+            <i class="iconfont icon-calendar" aria-hidden="true"></i> 16 Jan 2018
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-book"></i>
+            2752 字
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-clock-o"></i>
+            6 分钟读完
+        </span>
+    </p>
+</div>
+
+                    
+                    <div class="post-content">
+                        <h2 id="引言">引言</h2>
+<p>2017年是比特币最疯狂的一年，比特币可谓经历了重重考验，每次的大涨和大跌，都只能算是『正常』的波动。从去年底开始慢慢你会发现身边的人都在开始聊比特币了，我也正是从那个时候开始有点心动了，开始入场了。</p>
+<p>但是首先要声明的是，我是抱着去学习去体验的心态入场的，所以我并没有投资很多钱，也没打算大赚一笔。这笔钱具体多少我就不说了，反正就算是这笔钱都亏掉我都不会很心疼的那种，亏了就算是教学费，赚了就是自己的运气。<strong>再次声明，炒币真的风险很大，请认真思考之后再做决定。</strong></p>
+                    </div>
+                    <p class="text-sm font-semibold pt-5 text-gray-700 ">
+                        <a href="https://blog.forecho.com/summary-btc-investment-for-a-month.html" class="px-5 py-2 inline-block bg-gray-200 rounded  hover:bg-gray-300">阅读全文</a>
+                    </p>
+                </article>
+
+                <hr class="bg-gray-300 mt-10 mb-6">
+            
+                <article >
+                    
+                    <div>
+    <h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-2xl lg:text-3xl">
+        <a href="https://blog.forecho.com/a-half-year-review-of-entrepreneurship.html" title="创业半年回顾">创业半年回顾</a>
+    </h1>
+    <p class="mb-1 text-sm text-gray-500">
+        <span title=" 2018-01-07 07:29:00 &#43;0800">
+            <i class="iconfont icon-calendar" aria-hidden="true"></i> 07 Jan 2018
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-book"></i>
+            2970 字
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-clock-o"></i>
+            6 分钟读完
+        </span>
+    </p>
+</div>
+
+                    
+                    <div class="post-content">
+                        <h2 id="引言">引言</h2>
+<p>2017年7月3号我以技术总监的身份正式加入一家创业公司，公司大概是5月份成立了，时至今日我的工作已有半年之久，今天这篇文章我打算总结一下这半年发生的一些事情。</p>
+<h2 id="基本情况">基本情况</h2>
+<p>做技术已经有5年多的经验了，虽谈不上技术有多厉害，在这几年也一直处于 SaaS 领域，对于一个小公司来说我的技术积累确实是足够了。</p>
+<p>先讲一下整个公司的人员分布情况，我来的时候整个公司不到30人，但是技术部门足足占有一半以上的人，对于一个还没有推出任何产品的公司来说，技术部占这么多似乎是可以理解的。但以现在的角度来审视过去的话，我觉得对于一个创业团队来说个个都必须是精英才行。</p>
+<p>刚来的时候人员分配是这样的：4个 UI、6个前端、3个后端，一个产品助理、一个兼职产品经理，加上我一起是15.5个人，从这你可以看得出来老板完全不懂技术。入职的第一天，我做的第一件事就是通过一对一会议简单的了解他们的基本履历。后来我裁掉了2个 UI，再陆续进来两个测试。</p>
+                    </div>
+                    <p class="text-sm font-semibold pt-5 text-gray-700 ">
+                        <a href="https://blog.forecho.com/a-half-year-review-of-entrepreneurship.html" class="px-5 py-2 inline-block bg-gray-200 rounded  hover:bg-gray-300">阅读全文</a>
+                    </p>
+                </article>
+
+                <hr class="bg-gray-300 mt-10 mb-6">
+            
+                <article >
+                    
+                    <div>
+    <h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-2xl lg:text-3xl">
+        <a href="https://blog.forecho.com/readeep-010.html" title="【深度阅读010】《另外8小时》">【深度阅读010】《另外8小时》</a>
+    </h1>
+    <p class="mb-1 text-sm text-gray-500">
+        <span title=" 2018-01-02 19:29:00 &#43;0800">
+            <i class="iconfont icon-calendar" aria-hidden="true"></i> 02 Jan 2018
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-book"></i>
+            7293 字
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-clock-o"></i>
+            15 分钟读完
+        </span>
+    </p>
+</div>
+
+                    
+                    <div class="post-content">
+                        <p><a href="https://www.amazon.cn/dp/B00INIXFBM/?ie=UTF8&amp;tag=forecho0c-23"><img src="https://images-cn.ssl-images-amazon.com/images/I/51oBghI53bL._SX352_BO1,204,203,200_.jpg" alt="《另外8小时》"></a></p>
+<h2 id="先简单介绍一下作者">先简单介绍一下作者</h2>
+<p>作者罗伯特·帕利亚里尼，美国顶尖财富管理公司之一 Pacifica WealthAdvisors 公司的总裁，拥有财务咨询规划师资格证和财务管理硕士学位。罗伯特也是畅销书作家，曾经出版《六天改变财务状况》一书，该书成功登上畅销书排行榜。作为财务和时间管理专家，罗伯特经常出现在电视节目和媒体上，如《早安美国》等，鼓励人们珍惜时间并努力创造财富，从而提高生活品质，获得幸福人生。他的文章经常被刊登在《华尔街日报》、《商业周刊》等著名报纸上，他还应邀在CBS商业新闻网上长期撰写『另外8小时』专栏，拥有广大读者群。（来源豆瓣）</p>
+<h2 id="这本书主要讲什么">这本书主要讲什么？</h2>
+<p>主要是讲述如何利用『另外8小时』进行时间管理、计划与控制的管理学类社会科学图书。</p>
+                    </div>
+                    <p class="text-sm font-semibold pt-5 text-gray-700 ">
+                        <a href="https://blog.forecho.com/readeep-010.html" class="px-5 py-2 inline-block bg-gray-200 rounded  hover:bg-gray-300">阅读全文</a>
+                    </p>
+                </article>
+
+                <hr class="bg-gray-300 mt-10 mb-6">
+            
+                <article >
+                    
+                    <div>
+    <h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-2xl lg:text-3xl">
+        <a href="https://blog.forecho.com/summary-2017-financial-management.html" title="总结2017年理财效益">总结2017年理财效益</a>
+    </h1>
+    <p class="mb-1 text-sm text-gray-500">
+        <span title=" 2017-12-29 19:29:00 &#43;0800">
+            <i class="iconfont icon-calendar" aria-hidden="true"></i> 29 Dec 2017
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-book"></i>
+            3296 字
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-clock-o"></i>
+            7 分钟读完
+        </span>
+    </p>
+</div>
+
+                    
+                    <div class="post-content">
+                        <h2 id="引言">引言</h2>
+<p>先简单介绍一下本人的家庭背景吧，由于家里一直是做小本生意的，很小就跟着父母在外「漂泊」，知道赚钱不容易，所以从小用钱就比较节省。初二开始进入私立寄宿学校，也就是那个时候开始我的生活费都是一学期一次性打到卡里面。那个时候小，不懂理财为何物，但是我从来也没有遇到过期末钱不够花的情况。</p>
+<p>说了这么多，其实我想说的是，如果你现在还是一个月光族的话，对你来说理财是一件非常奢侈的事情。理财的前提是有存款，然后通过一些手段让你的钱越变越多，至少能跑过通货膨胀。</p>
+                    </div>
+                    <p class="text-sm font-semibold pt-5 text-gray-700 ">
+                        <a href="https://blog.forecho.com/summary-2017-financial-management.html" class="px-5 py-2 inline-block bg-gray-200 rounded  hover:bg-gray-300">阅读全文</a>
+                    </p>
+                </article>
+
+                <hr class="bg-gray-300 mt-10 mb-6">
+            
+                <article >
+                    
+                    <div>
+    <h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-2xl lg:text-3xl">
+        <a href="https://blog.forecho.com/readeep-009.html" title="【深度阅读009】《软技能》">【深度阅读009】《软技能》</a>
+    </h1>
+    <p class="mb-1 text-sm text-gray-500">
+        <span title=" 2017-12-15 19:29:00 &#43;0800">
+            <i class="iconfont icon-calendar" aria-hidden="true"></i> 15 Dec 2017
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-book"></i>
+            5199 字
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-clock-o"></i>
+            11 分钟读完
+        </span>
+    </p>
+</div>
+
+                    
+                    <div class="post-content">
+                        <p><a href="https://www.amazon.cn/dp/B01J9MZPPO/?ie=UTF8&amp;tag=forecho0c-23"><img src="https://images-cn.ssl-images-amazon.com/images/I/51%2BSiJy5MjL.jpg" alt="《软技能》"></a></p>
+<h2 id="先简单介绍一下作者">先简单介绍一下作者</h2>
+<p>John Z. Sonmez是『Simple Programmer』网站的创始人，他不辞辛劳地追求着『将复杂问题转化为简单解决方案』的梦想。他为在线培训机构 Pluralsight 开发了50多门在线课程，涉及 iOS、Android、.NET、Java 和游戏开发等多个主题。另外他还是『Get Up and CODE』播客和『Entreprogrammers』播客的主持人（来源豆瓣）</p>
+<h2 id="这本书主要讲什么">这本书主要讲什么？</h2>
+<p>不只是程序员，任何不入社会的人都应该读一读，里面的内容有涉及到个人职业、自我营销、学习、生产力、理财、健身、精神七个章节。基本上每个章节都能让我受益良多。</p>
+<p>下面我就挑一些主要的章节简单说说我的收益。</p>
+                    </div>
+                    <p class="text-sm font-semibold pt-5 text-gray-700 ">
+                        <a href="https://blog.forecho.com/readeep-009.html" class="px-5 py-2 inline-block bg-gray-200 rounded  hover:bg-gray-300">阅读全文</a>
+                    </p>
+                </article>
+
+                <hr class="bg-gray-300 mt-10 mb-6">
+            
+                <article >
+                    
+                    <div>
+    <h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-2xl lg:text-3xl">
+        <a href="https://blog.forecho.com/about-yii2-practice-book.html" title="关于《Yii 2.x 最佳实践》">关于《Yii 2.x 最佳实践》</a>
+    </h1>
+    <p class="mb-1 text-sm text-gray-500">
+        <span title=" 2017-12-13 20:29:00 &#43;0800">
+            <i class="iconfont icon-calendar" aria-hidden="true"></i> 13 Dec 2017
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-book"></i>
+            877 字
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-clock-o"></i>
+            2 分钟读完
+        </span>
+    </p>
+</div>
+
+                    
+                    <div class="post-content">
+                        <h2 id="起源">起源</h2>
+<p>2012 年的时候我因为工作原因接触了 Yii 1.0，刚开始真是无从下手，而且大部分文档是英文的，只有少数的中文资料<a href="http://blog.yiiblog.info/">BoyLee 的 视频</a> 让我入了门， Yii 的 QQ 群一些大牛对新手的解惑，让我慢慢感受到 Yii 的强大。从此以后「除却巫山不是云」了，直到 Yii 2.0 版本推出。</p>
+<p>Yii 是一个很强大的框架，而且设计的很好，它的模式非常一致，一旦你入门了，那么就会有一通百通的效果，这个过程中官方文档会一直伴随着你。但是作为一个强大的框架，入门门框却非常高，有一推的概念需要你去慢慢了解，我看到很多人只是把 Yii 框架当作一个简单的 PHP MVC 框架来用，完全没用把 Yii 框架的特性用起来，为他们感到惋惜。</p>
+                    </div>
+                    <p class="text-sm font-semibold pt-5 text-gray-700 ">
+                        <a href="https://blog.forecho.com/about-yii2-practice-book.html" class="px-5 py-2 inline-block bg-gray-200 rounded  hover:bg-gray-300">阅读全文</a>
+                    </p>
+                </article>
+
+                <hr class="bg-gray-300 mt-10 mb-6">
+            
+                <article >
+                    
+                    <div>
+    <h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-2xl lg:text-3xl">
+        <a href="https://blog.forecho.com/readeep-008.html" title="【深度阅读008】《快速阅读术》">【深度阅读008】《快速阅读术》</a>
+    </h1>
+    <p class="mb-1 text-sm text-gray-500">
+        <span title=" 2017-12-02 20:29:00 &#43;0800">
+            <i class="iconfont icon-calendar" aria-hidden="true"></i> 02 Dec 2017
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-book"></i>
+            2927 字
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-clock-o"></i>
+            6 分钟读完
+        </span>
+    </p>
+</div>
+
+                    
+                    <div class="post-content">
+                        <p><a href="https://www.amazon.cn/dp/B0739ZX9WZ/?ie=UTF8&amp;tag=forecho0c-23"><img src="https://images-cn.ssl-images-amazon.com/images/I/51NOb1yQyEL.jpg" alt="《快速阅读术》"></a></p>
+<h2 id="先简单介绍一下作者">先简单介绍一下作者</h2>
+<p>作者是 印南敦史，作家、书评家、自由撰稿人、编辑。1962年出生于日本东京，曾在广告代理公司工作，担任过音乐撰稿人、音乐杂志主编，后成为自由职业者。自从在广受商界人士欢迎的网络媒体“生活骇客（LifeHacker）日文版”撰写书评以来，他发现快速阅读大量书籍的有效方法。（来源豆瓣）</p>
+<h2 id="这本书主要讲什么">这本书主要讲什么？</h2>
+<p>主要是讲作者自身如何从一个慢读者达到一天一本书的阅读速度，现在作者甚至能做到1年700本的阅读目标。作者的阅读技巧不会涉及到「眼动训练」、「快速翻页」、「速读术」。</p>
+                    </div>
+                    <p class="text-sm font-semibold pt-5 text-gray-700 ">
+                        <a href="https://blog.forecho.com/readeep-008.html" class="px-5 py-2 inline-block bg-gray-200 rounded  hover:bg-gray-300">阅读全文</a>
+                    </p>
+                </article>
+
+                <hr class="bg-gray-300 mt-10 mb-6">
+            
+                <article >
+                    
+                    <div>
+    <h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-2xl lg:text-3xl">
+        <a href="https://blog.forecho.com/readeep-007.html" title="【深度阅读007】如何点亮你的人生技能树 - 《斜杠青年》读书笔记">【深度阅读007】如何点亮你的人生技能树 - 《斜杠青年》读书笔记</a>
+    </h1>
+    <p class="mb-1 text-sm text-gray-500">
+        <span title=" 2017-11-25 16:01:00 &#43;0800">
+            <i class="iconfont icon-calendar" aria-hidden="true"></i> 25 Nov 2017
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-book"></i>
+            3000 字
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-clock-o"></i>
+            6 分钟读完
+        </span>
+    </p>
+</div>
+
+                    
+                    <div class="post-content">
+                        在同样的时间中，有些人拥有着多重身份，每天做着不同职业的事，过着多样化的人生。《斜杠青年》一书，讲述的就是这群点满技能树的人。 什么是斜杠青年
+                    </div>
+                    <p class="text-sm font-semibold pt-5 text-gray-700 ">
+                        <a href="https://blog.forecho.com/readeep-007.html" class="px-5 py-2 inline-block bg-gray-200 rounded  hover:bg-gray-300">阅读全文</a>
+                    </p>
+                </article>
+
+                <hr class="bg-gray-300 mt-10 mb-6">
+            
+                <article >
+                    
+                    <div>
+    <h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-2xl lg:text-3xl">
+        <a href="https://blog.forecho.com/talk-to-product-manager.html" title="聊聊产品经理">聊聊产品经理</a>
+    </h1>
+    <p class="mb-1 text-sm text-gray-500">
+        <span title=" 2017-11-19 18:25:00 &#43;0800">
+            <i class="iconfont icon-calendar" aria-hidden="true"></i> 19 Nov 2017
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-book"></i>
+            1580 字
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-clock-o"></i>
+            4 分钟读完
+        </span>
+    </p>
+</div>
+
+                    
+                    <div class="post-content">
+                        <h2 id="引言">引言</h2>
+<p>前几个月跟公司申请了一笔经费，给部门买了一些技术类的书，其中有一本书<a href="https://book.douban.com/subject/27029547/">《人人都是产品经理2.0》</a>，相信对产品经理有一点点了解的人都应该知道有一本书叫做《人人都是产品经理》。没错，那个作者最近出了新书。但是这篇文章我们不聊这本书，就聊聊我所认知的『产品经理』这个职位，毕竟书要等我看完再聊。</p>
+<h2 id="没有产品经理的日子">没有产品经理的日子</h2>
+<p>还没毕业那会，我就去了一个创业公司上班，是一个成立不久的外包公司。那一年是2012年的暑假，在武汉。那个时候从来没听过还有产品经理这个职位。由销售接单，然后我们技术去确定需求并且跟客户对接。我们最怕的就是需求有变，毕竟我们擅长的是技术，不擅长和客户打交道。</p>
+                    </div>
+                    <p class="text-sm font-semibold pt-5 text-gray-700 ">
+                        <a href="https://blog.forecho.com/talk-to-product-manager.html" class="px-5 py-2 inline-block bg-gray-200 rounded  hover:bg-gray-300">阅读全文</a>
+                    </p>
+                </article>
+
+                <hr class="bg-gray-300 mt-10 mb-6">
+            
+            <p class="text-center">
+                <a  class="md:text-xl text-gray-700" href="/posts.html">↑ 文章归档 ↑</a>
+            </p>
+        </div>
+    </section>
+
+    <div class="hidden md:block w-full lg:w-1/4 xl:w-1/4 px-6 text-gray-800 leading-normal">
+
+        <div class="lg:w-full mx-auto items-center justify-between">
+    <div class="bg-white shadow rounded overflow-hidden">
+        <div class="bg-cover bg-auto mx-auto w-32 h-32 mt-5 rounded-full" style="background-image: url('https://avatars0.githubusercontent.com/u/1725326?s=460&amp;v=4')"> </div>
+        
+        <div class="p-4">
+            <p class="text-2xl text-center text-gray-900 pb-2">forecho</p>
+            <p class="text-sm text-center text-gray-700">把生命浪费在美好的事物上</p>
+        </div>
+        <div class="flex p-4 border-t text-sm border-gray-300 text-gray-700">
+            <div class="flex-1 border-r border-gray-600">
+                <p class="text-center">
+                    <span class="text-gray-700 font-bold">
+                        346
+                    </span>
+                    文章
+                </p>
+            </div>
+            <div class="flex-1 text-center">
+                <p class="text-center">
+                    <span class="text-gray-700 font-bold">
+                        
+                            100
+                        
+                    </span>
+                    标签
+                </p>
+            </div>
+        </div>
+        <div class="px-4 pb-4 border-t border-gray-300">
+            <div class="mt-6 pb-16 lg:pb-0 w-4/5 lg:w-full mx-auto flex flex-wrap items-center justify-between text-gray-500">
+                
+                <a href="//github.com/forecho" class="hover:text-gray-900 p-1 text-2xl" target="_blank" title="GitHub"><i class="my-iconfont icon-social-github"></i></a>
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+                <a href="//instagram.com/forecho" class="hover:text-gray-900 p-1 text-2xl" target="_blank" title="Instagram"><i class="my-iconfont icon-instagram"></i></a>
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+                <a href="//twitter.com/caizhenghai" class="hover:text-gray-900 p-1 text-2xl" target="_blank" title="Twitter"><i class="my-iconfont icon-social-twitter"></i></a>
+                
+
+                
+                <a href="//douban.com/people/ipzone" class="hover:text-gray-900 p-1 text-2xl" target="_blank" title="Douban"><i class="my-iconfont icon-social-douban"></i></a>
+                
+
+                
+                <a href="/atom.xml" class="hover:text-gray-900 p-1 text-2xl" target="_blank" title="RSS"><i class="my-iconfont icon-feed"></i></a>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="p-4 mt-2 lg:mt-4 rounded shadow bg-white">
+    <h2 class="font-sans font-bold break-normal text-gray-700 px-2 pb-3 text-lg">热门文章</h2>
+    
+    <li><a href="/financedeep-08.html" class="underline text-orange-600 text-sm">【深度理财08】美港股打新哪家强</a></li>
+    
+    <li><a href="/take-the-shenzhen-account-in-less-than-3-months.html" class="underline text-orange-600 text-sm">用时不到3个月拿到深圳户口</a></li>
+    
+    <li><a href="/how-do-i-invest-in-american-stocks.html" class="underline text-orange-600 text-sm">我是怎么投资美股的</a></li>
+    
+</div>
+
+
+
+    <div class="profile-ads"><div class="bg-white shadow"><img class=" object-cover w-auto mx-auto mt-6" loading="lazy" src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424153337.png" title="微信：ipzone" alt="微信：ipzone"></div></div>
+
+
+
+
+
+    </div>
+
+
+    </div>
+    
+    
+<footer class="bg-white border-t border-gray-400 shadow mt-10">	
+    <div class="container  mx-auto flex py-8">
+        <div class="w-full text-center text-gray-600 ">
+            <p>
+                &copy; 2020 <a  class="text-gray-700" href="https://blog.forecho.com">forecho&#39;s Blog By forecho </a>
+            </p>
+            
+            <p class="pt-1">
+                Powered by <a rel="nofollow noreferer noopener" href="https://gohugo.io/"  class="text-gray-700" target="_blank">Hugo</a> 
+                Theme based on <a href="https://github.com/forecho/hugo-theme-echo" class="text-gray-700" target="_blank">Echo</a>
+            </p>
+
+            <span id="busuanzi_container">
+              访客数：<span id="busuanzi_value_site_uv"></span> | 访问量 <span id="busuanzi_value_site_pv"></span>
+            </span>
+
+        </div>
+
+    </div>
+</footer>
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-75634412-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+ <script>
+  window.onload = function() {
+    document.getElementById("nav-toggle").onclick = function() {
+      document.getElementById("nav-content").classList.toggle("hidden");
+    };
+
+    var donate = document.getElementById("btn-donate");
+    if (donate) {
+      donate.onclick = function() {
+        document.getElementById("donate-image").classList.remove("hidden");
+        donate.classList.add("hidden");
+      };
+    }
+
+    var hostname = window.location.hostname;
+    var divs = document.querySelectorAll('a[href^="http"]');
+    [].forEach.call(divs, function(div) {
+      url = div.getAttribute("href");
+      var domain = url
+        .replace("http://", "")
+        .replace("https://", "")
+        .split(/[/?#:]/)[0];
+      if (domain !== hostname) {
+        div.setAttribute("target", "_blank");
+      }
+    });
+  };
+
+   
+  
+  var h = document.documentElement,
+    b = document.body,
+    st = "scrollTop",
+    sh = "scrollHeight",
+    progress = document.querySelector("#progress"),
+    scroll;
+  var scrollpos = window.scrollY;
+  var header = document.getElementById("header");
+  var navcontent = document.getElementById("nav-content");
+
+  document.addEventListener("scroll", function() {
+     
+    scroll = ((h[st] || b[st]) / ((h[sh] || b[sh]) - h.clientHeight)) * 100;
+    progress.style.setProperty("--scroll", scroll + "%");
+
+     
+    scrollpos = window.scrollY;
+
+    if (scrollpos > 10) {
+      navcontent.classList.remove("bg-gray-100");
+    } else {
+      navcontent.classList.add("bg-gray-100");
+    }
+  });
+</script>
+
+</body>
+
+</html>

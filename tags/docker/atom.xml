@@ -1,41 +1,82 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Docker on forecho's Blog</title><link>https://blog.forecho.com/tags/docker.html</link><description>Recent content in Docker on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 27 May 2019 10:58:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/tags/docker/atom.xml" rel="self" type="application/rss+xml"/><item><title>Docker 使用定时任务</title><link>https://blog.forecho.com/docker-use-cron.html</link><pubDate>Mon, 27 May 2019 10:58:00 +0800</pubDate><guid>https://blog.forecho.com/docker-use-cron.html</guid><description>&lt;h2 id="使用定时任务">使用定时任务&lt;/h2>
-&lt;p>在宿主主机使用 &lt;code>crontab -e&lt;/code> 添加如下示例命令就可以了，非常简单：&lt;/p>
-&lt;div class="highlight">&lt;div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
-&lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
-&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-fallback" data-lang="fallback">*/15 * * * * docker exec laradock_workspace_1 php /var/www/erp/yii sync/order &amp;gt;&amp;gt; /tmp/out-docker.log 2&amp;gt;&amp;amp;1
-&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>说明：&lt;/p>
-&lt;ul>
-&lt;li>&lt;code>*/15 * * * *&lt;/code> 代表 15 分钟执行一次&lt;/li>
-&lt;li>&lt;code>&amp;gt;&amp;gt; /tmp/out-docker.log 2&amp;gt;&amp;amp;1&lt;/code> 代表把命令的输出结果输入到 &lt;code>/tmp/out-docker.log&lt;/code> 文件中。&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>需要特别说明的是：&lt;/strong>&lt;/p>
-&lt;p>以往我们进入一个 Docker 终端都带 &lt;code>-it&lt;/code> 参数，如进入 &lt;code>laradock_workspace_1&lt;/code> 容器的命令是 &lt;code>docker exec -it laradock_workspace_1&lt;/code>，但是定时任务的时候不需要这个参数。&lt;/p>
-&lt;blockquote>
-&lt;p>原因是加了 &lt;code>-it&lt;/code> 就要开启了一个终端，而计划任务是无法进入任何终端的。&lt;/p>
-&lt;/blockquote></description></item><item><title>使用 Laradock</title><link>https://blog.forecho.com/use-laradock.html</link><pubDate>Tue, 27 Nov 2018 21:03:00 +0800</pubDate><guid>https://blog.forecho.com/use-laradock.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>PHP开发，想用 Docker 但又没太多时间去学，那你可以试试 &lt;a href="https://github.com/laradock/laradock">Lavadock&lt;/a> 项目，它是一套完整的基于 Docker 的 PHP 开发环境。包含了预先打包的 Docker 镜像，所有预先配置都是为了提供一个完美的 PHP 开发环境。&lt;/p>
-&lt;p>你可以很方便的搭建各种环境，比方说 redis、MongoDB、MySQL、Nginx 等等。&lt;/p></description></item><item><title>Mac 安装 Docker</title><link>https://blog.forecho.com/mac-install-docker.html</link><pubDate>Sun, 26 Jul 2015 22:55:00 +0800</pubDate><guid>https://blog.forecho.com/mac-install-docker.html</guid><description>&lt;h2 id="前言">前言&lt;/h2>
-&lt;p>前几天 MacBook 拿去修了，回来时候貌似覆盖的方式重装了一回系统了。反正就是 Apache 环境都没了，索性借这次机会使用一下 Docker 吧。&lt;/p>
-&lt;h2 id="安装">安装&lt;/h2>
-&lt;p>根据&lt;a href="https://docs.docker.com/mac/step_one/">官网的文档&lt;/a>安装 Docker，如果一切正常的话就是下载一个软件，双击傻瓜式的安装就可以了。&lt;/p>
-&lt;h2 id="下载太慢怎么办">下载太慢怎么办？&lt;/h2>
-&lt;p>刚才找到一个国内的&lt;a href="http://get.daocloud.io/#install-boot2docker">镜像&lt;/a>，速度还不错，推荐。&lt;/p>
-&lt;h2 id="安装失败报错怎么办">安装失败报错怎么办？&lt;/h2>
-&lt;div class="highlight">&lt;div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
-&lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
-&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-sh" data-lang="sh">&amp;gt; docker run hello-world
-&amp;gt; FATA&lt;span style="color:#555">[&lt;/span>0000&lt;span style="color:#555">]&lt;/span> Post http:///var/run/docker.sock/v1.18/containers/create: dial unix /var/run/docker.sock: no such file or directory. Are you trying to connect to a TLS-enabled daemon without TLS?
-FAIL
-&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docker on forecho&#39;s Blog</title>
+    <link>https://blog.forecho.com/tags/docker.html</link>
+    <description>Recent content in Docker on forecho&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 27 May 2019 10:58:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://blog.forecho.com/tags/docker/atom.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Docker 使用定时任务</title>
+      <link>https://blog.forecho.com/docker-use-cron.html</link>
+      <pubDate>Mon, 27 May 2019 10:58:00 +0800</pubDate>
+      
+      <guid>https://blog.forecho.com/docker-use-cron.html</guid>
+      <description>&lt;h2 id=&#34;使用定时任务&#34;&gt;使用定时任务&lt;/h2&gt;
+&lt;p&gt;在宿主主机使用 &lt;code&gt;crontab -e&lt;/code&gt; 添加如下示例命令就可以了，非常简单：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;*/15 * * * * docker exec laradock_workspace_1 php /var/www/erp/yii sync/order &amp;gt;&amp;gt; /tmp/out-docker.log 2&amp;gt;&amp;amp;1
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;说明：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;*/15 * * * *&lt;/code&gt; 代表 15 分钟执行一次&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;gt;&amp;gt; /tmp/out-docker.log 2&amp;gt;&amp;amp;1&lt;/code&gt; 代表把命令的输出结果输入到 &lt;code&gt;/tmp/out-docker.log&lt;/code&gt; 文件中。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;需要特别说明的是：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;以往我们进入一个 Docker 终端都带 &lt;code&gt;-it&lt;/code&gt; 参数，如进入 &lt;code&gt;laradock_workspace_1&lt;/code&gt; 容器的命令是 &lt;code&gt;docker exec -it laradock_workspace_1&lt;/code&gt;，但是定时任务的时候不需要这个参数。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;原因是加了 &lt;code&gt;-it&lt;/code&gt; 就要开启了一个终端，而计划任务是无法进入任何终端的。&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>使用 Laradock</title>
+      <link>https://blog.forecho.com/use-laradock.html</link>
+      <pubDate>Tue, 27 Nov 2018 21:03:00 +0800</pubDate>
+      
+      <guid>https://blog.forecho.com/use-laradock.html</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;PHP开发，想用 Docker 但又没太多时间去学，那你可以试试 &lt;a href=&#34;https://github.com/laradock/laradock&#34;&gt;Lavadock&lt;/a&gt; 项目，它是一套完整的基于 Docker 的 PHP 开发环境。包含了预先打包的 Docker 镜像，所有预先配置都是为了提供一个完美的 PHP 开发环境。&lt;/p&gt;
+&lt;p&gt;你可以很方便的搭建各种环境，比方说 redis、MongoDB、MySQL、Nginx 等等。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Mac 安装 Docker</title>
+      <link>https://blog.forecho.com/mac-install-docker.html</link>
+      <pubDate>Sun, 26 Jul 2015 22:55:00 +0800</pubDate>
+      
+      <guid>https://blog.forecho.com/mac-install-docker.html</guid>
+      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+&lt;p&gt;前几天 MacBook 拿去修了，回来时候貌似覆盖的方式重装了一回系统了。反正就是 Apache 环境都没了，索性借这次机会使用一下 Docker 吧。&lt;/p&gt;
+&lt;h2 id=&#34;安装&#34;&gt;安装&lt;/h2&gt;
+&lt;p&gt;根据&lt;a href=&#34;https://docs.docker.com/mac/step_one/&#34;&gt;官网的文档&lt;/a&gt;安装 Docker，如果一切正常的话就是下载一个软件，双击傻瓜式的安装就可以了。&lt;/p&gt;
+&lt;h2 id=&#34;下载太慢怎么办&#34;&gt;下载太慢怎么办？&lt;/h2&gt;
+&lt;p&gt;刚才找到一个国内的&lt;a href=&#34;http://get.daocloud.io/#install-boot2docker&#34;&gt;镜像&lt;/a&gt;，速度还不错，推荐。&lt;/p&gt;
+&lt;h2 id=&#34;安装失败报错怎么办&#34;&gt;安装失败报错怎么办？&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&amp;gt; docker run hello-world
+&amp;gt; FATA&lt;span style=&#34;color:#555&#34;&gt;[&lt;/span&gt;0000&lt;span style=&#34;color:#555&#34;&gt;]&lt;/span&gt; Post http:///var/run/docker.sock/v1.18/containers/create: dial unix /var/run/docker.sock: no such file or directory. Are you trying to connect to a TLS-enabled daemon without TLS?
+  FAIL
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

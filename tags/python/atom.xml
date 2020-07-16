@@ -1,11 +1,34 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Python on forecho's Blog</title><link>https://blog.forecho.com/tags/python.html</link><description>Recent content in Python on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 18 Nov 2014 20:05:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/tags/python/atom.xml" rel="self" type="application/rss+xml"/><item><title>安装 Python pip</title><link>https://blog.forecho.com/install-pip.html</link><pubDate>Tue, 18 Nov 2014 20:05:00 +0800</pubDate><guid>https://blog.forecho.com/install-pip.html</guid><description>&lt;h2 id="windows-安装">Windows 安装&lt;/h2>
-&lt;ol>
-&lt;li>先下载 &lt;a href="https://raw.github.com/pypa/pip/master/contrib/get-pip.py">get-pip.py&lt;/a>&lt;/li>
-&lt;li>再运行&lt;code>python get-pip.py&lt;/code>执行安装程序&lt;/li>
-&lt;li>添加环境变量到计算机，例如：&lt;code>C:\Python27\Scripts&lt;/code>&lt;/li>
-&lt;/ol>
-&lt;p>##Ubuntu安装&lt;/p>
-&lt;ol>
-&lt;li>在终端运行&lt;code>sudo apt-get install python-pip&lt;/code>&lt;/li>
-&lt;/ol>
-&lt;p>##解决asciii码错误&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on forecho&#39;s Blog</title>
+    <link>https://blog.forecho.com/tags/python.html</link>
+    <description>Recent content in Python on forecho&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 18 Nov 2014 20:05:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://blog.forecho.com/tags/python/atom.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>安装 Python pip</title>
+      <link>https://blog.forecho.com/install-pip.html</link>
+      <pubDate>Tue, 18 Nov 2014 20:05:00 +0800</pubDate>
+      
+      <guid>https://blog.forecho.com/install-pip.html</guid>
+      <description>&lt;h2 id=&#34;windows-安装&#34;&gt;Windows 安装&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;先下载 &lt;a href=&#34;https://raw.github.com/pypa/pip/master/contrib/get-pip.py&#34;&gt;get-pip.py&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;再运行&lt;code&gt;python get-pip.py&lt;/code&gt;执行安装程序&lt;/li&gt;
+&lt;li&gt;添加环境变量到计算机，例如：&lt;code&gt;C:\Python27\Scripts&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;##Ubuntu安装&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;在终端运行&lt;code&gt;sudo apt-get install python-pip&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;##解决asciii码错误&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

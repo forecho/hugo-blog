@@ -1,36 +1,86 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>mac on forecho's Blog</title><link>https://blog.forecho.com/tags/mac.html</link><description>Recent content in mac on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 12 May 2020 22:16:26 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/tags/mac/atom.xml" rel="self" type="application/rss+xml"/><item><title>Mac 维修记</title><link>https://blog.forecho.com/mac-repair-notes.html</link><pubDate>Tue, 12 May 2020 22:16:26 +0800</pubDate><guid>https://blog.forecho.com/mac-repair-notes.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>不知道是不是前一阵子在家干活（Coding）太猛了还是怎么着，有一天突然发现我的 Macbook Pro 盖子盖不严了，特别是刚使用完一阵子电脑还处于比较热的时候，如下图：&lt;/p>
-&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/IMG_4057.JPG!m" alt="IMG_4057">&lt;/p>
-&lt;p>对于使用多年 Mac 电脑的我来说，一看就知道是电池鼓包了。但是以往都是用了好几年（应该有大于3年）才这样，没想到这次我电脑还没到2年就这样了。简单了查了一些资料之后我决定去找 Apple 售后。&lt;/p></description></item><item><title>Mac 利器 Hammerspoon 使用指南</title><link>https://blog.forecho.com/use-hammerspoon.html</link><pubDate>Thu, 26 Dec 2019 21:48:00 +0800</pubDate><guid>https://blog.forecho.com/use-hammerspoon.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>今天要给大家分享的是一款 Mac 利器 Hammerspoon，通过编写 Lua 脚本可以让这款软件实现以下功能&lt;/p>
-&lt;ul>
-&lt;li>管理窗口大小以及位置&lt;/li>
-&lt;li>软件启动器&lt;/li>
-&lt;li>给特定的软件设置中/英文输入法&lt;/li>
-&lt;/ul>
-&lt;p>你甚至可以通过编写代码实现&lt;/p>
-&lt;ul>
-&lt;li>休眠状态关闭蓝牙功能&lt;/li>
-&lt;li>连上公司 Wi-Fi 自动静音&lt;/li>
-&lt;li>……&lt;/li>
-&lt;/ul>
-&lt;p>接下来详细讲解如何实现以上功能。不会 Lua？没关系，只要你有一点点编程经验，代码看起来都不是问题。&lt;/p></description></item><item><title>Mac 安装 Docker</title><link>https://blog.forecho.com/mac-install-docker.html</link><pubDate>Sun, 26 Jul 2015 22:55:00 +0800</pubDate><guid>https://blog.forecho.com/mac-install-docker.html</guid><description>&lt;h2 id="前言">前言&lt;/h2>
-&lt;p>前几天 MacBook 拿去修了，回来时候貌似覆盖的方式重装了一回系统了。反正就是 Apache 环境都没了，索性借这次机会使用一下 Docker 吧。&lt;/p>
-&lt;h2 id="安装">安装&lt;/h2>
-&lt;p>根据&lt;a href="https://docs.docker.com/mac/step_one/">官网的文档&lt;/a>安装 Docker，如果一切正常的话就是下载一个软件，双击傻瓜式的安装就可以了。&lt;/p>
-&lt;h2 id="下载太慢怎么办">下载太慢怎么办？&lt;/h2>
-&lt;p>刚才找到一个国内的&lt;a href="http://get.daocloud.io/#install-boot2docker">镜像&lt;/a>，速度还不错，推荐。&lt;/p>
-&lt;h2 id="安装失败报错怎么办">安装失败报错怎么办？&lt;/h2>
-&lt;div class="highlight">&lt;div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
-&lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
-&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-sh" data-lang="sh">&amp;gt; docker run hello-world
-&amp;gt; FATA&lt;span style="color:#555">[&lt;/span>0000&lt;span style="color:#555">]&lt;/span> Post http:///var/run/docker.sock/v1.18/containers/create: dial unix /var/run/docker.sock: no such file or directory. Are you trying to connect to a TLS-enabled daemon without TLS?
-FAIL
-&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div></description></item><item><title>Mac 安装 PHP5.4 的 Mcrypt 扩展</title><link>https://blog.forecho.com/mac-an-zhuang-php5-4-de-mcrypt-kuo-zhan.html</link><pubDate>Sat, 01 Mar 2014 14:34:00 +0800</pubDate><guid>https://blog.forecho.com/mac-an-zhuang-php5-4-de-mcrypt-kuo-zhan.html</guid><description>忘记什么时候把 MacBook 的 PHP 版本升级到 PHP5.4了，然后准备学一下 Laravel 这个框架的时候，提醒 Mcrypt 扩展未安装。 安装这个扩展真是头疼，尽管有 Homebrew ，尽管能 Google 到很</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mac on forecho&#39;s Blog</title>
+    <link>https://blog.forecho.com/tags/mac.html</link>
+    <description>Recent content in mac on forecho&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 12 May 2020 22:16:26 +0800</lastBuildDate>
+    
+	<atom:link href="https://blog.forecho.com/tags/mac/atom.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mac 维修记</title>
+      <link>https://blog.forecho.com/mac-repair-notes.html</link>
+      <pubDate>Tue, 12 May 2020 22:16:26 +0800</pubDate>
+      
+      <guid>https://blog.forecho.com/mac-repair-notes.html</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;不知道是不是前一阵子在家干活（Coding）太猛了还是怎么着，有一天突然发现我的 Macbook Pro 盖子盖不严了，特别是刚使用完一阵子电脑还处于比较热的时候，如下图：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/IMG_4057.JPG!m&#34; alt=&#34;IMG_4057&#34;&gt;&lt;/p&gt;
+&lt;p&gt;对于使用多年 Mac 电脑的我来说，一看就知道是电池鼓包了。但是以往都是用了好几年（应该有大于3年）才这样，没想到这次我电脑还没到2年就这样了。简单了查了一些资料之后我决定去找 Apple 售后。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Mac 利器 Hammerspoon 使用指南</title>
+      <link>https://blog.forecho.com/use-hammerspoon.html</link>
+      <pubDate>Thu, 26 Dec 2019 21:48:00 +0800</pubDate>
+      
+      <guid>https://blog.forecho.com/use-hammerspoon.html</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;今天要给大家分享的是一款 Mac 利器 Hammerspoon，通过编写 Lua 脚本可以让这款软件实现以下功能&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;管理窗口大小以及位置&lt;/li&gt;
+&lt;li&gt;软件启动器&lt;/li&gt;
+&lt;li&gt;给特定的软件设置中/英文输入法&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;你甚至可以通过编写代码实现&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;休眠状态关闭蓝牙功能&lt;/li&gt;
+&lt;li&gt;连上公司 Wi-Fi 自动静音&lt;/li&gt;
+&lt;li&gt;……&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;接下来详细讲解如何实现以上功能。不会 Lua？没关系，只要你有一点点编程经验，代码看起来都不是问题。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Mac 安装 Docker</title>
+      <link>https://blog.forecho.com/mac-install-docker.html</link>
+      <pubDate>Sun, 26 Jul 2015 22:55:00 +0800</pubDate>
+      
+      <guid>https://blog.forecho.com/mac-install-docker.html</guid>
+      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+&lt;p&gt;前几天 MacBook 拿去修了，回来时候貌似覆盖的方式重装了一回系统了。反正就是 Apache 环境都没了，索性借这次机会使用一下 Docker 吧。&lt;/p&gt;
+&lt;h2 id=&#34;安装&#34;&gt;安装&lt;/h2&gt;
+&lt;p&gt;根据&lt;a href=&#34;https://docs.docker.com/mac/step_one/&#34;&gt;官网的文档&lt;/a&gt;安装 Docker，如果一切正常的话就是下载一个软件，双击傻瓜式的安装就可以了。&lt;/p&gt;
+&lt;h2 id=&#34;下载太慢怎么办&#34;&gt;下载太慢怎么办？&lt;/h2&gt;
+&lt;p&gt;刚才找到一个国内的&lt;a href=&#34;http://get.daocloud.io/#install-boot2docker&#34;&gt;镜像&lt;/a&gt;，速度还不错，推荐。&lt;/p&gt;
+&lt;h2 id=&#34;安装失败报错怎么办&#34;&gt;安装失败报错怎么办？&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&amp;gt; docker run hello-world
+&amp;gt; FATA&lt;span style=&#34;color:#555&#34;&gt;[&lt;/span&gt;0000&lt;span style=&#34;color:#555&#34;&gt;]&lt;/span&gt; Post http:///var/run/docker.sock/v1.18/containers/create: dial unix /var/run/docker.sock: no such file or directory. Are you trying to connect to a TLS-enabled daemon without TLS?
+  FAIL
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Mac 安装 PHP5.4 的 Mcrypt 扩展</title>
+      <link>https://blog.forecho.com/mac-an-zhuang-php5-4-de-mcrypt-kuo-zhan.html</link>
+      <pubDate>Sat, 01 Mar 2014 14:34:00 +0800</pubDate>
+      
+      <guid>https://blog.forecho.com/mac-an-zhuang-php5-4-de-mcrypt-kuo-zhan.html</guid>
+      <description>忘记什么时候把 MacBook 的 PHP 版本升级到 PHP5.4了，然后准备学一下 Laravel 这个框架的时候，提醒 Mcrypt 扩展未安装。 安装这个扩展真是头疼，尽管有 Homebrew ，尽管能 Google 到很</description>
+    </item>
+    
+  </channel>
+</rss>

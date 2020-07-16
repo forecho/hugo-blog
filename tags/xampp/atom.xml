@@ -1,1 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>XAMPP on forecho's Blog</title><link>https://blog.forecho.com/tags/xampp.html</link><description>Recent content in XAMPP on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 21 Nov 2011 09:36:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/tags/xampp/atom.xml" rel="self" type="application/rss+xml"/><item><title>XAMPP 虚拟目录配置</title><link>https://blog.forecho.com/xampp-xu-ni-mu-lu-pei-zhi.html</link><pubDate>Mon, 21 Nov 2011 09:36:00 +0800</pubDate><guid>https://blog.forecho.com/xampp-xu-ni-mu-lu-pei-zhi.html</guid><description>我下载的是 xampp 1.77版本的。 安装的时候一直点下一步，不用有任何操作。 打开D:\xampp\apache\conf\extra\httpd-v</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>XAMPP on forecho&#39;s Blog</title>
+    <link>https://blog.forecho.com/tags/xampp.html</link>
+    <description>Recent content in XAMPP on forecho&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 21 Nov 2011 09:36:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://blog.forecho.com/tags/xampp/atom.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>XAMPP 虚拟目录配置</title>
+      <link>https://blog.forecho.com/xampp-xu-ni-mu-lu-pei-zhi.html</link>
+      <pubDate>Mon, 21 Nov 2011 09:36:00 +0800</pubDate>
+      
+      <guid>https://blog.forecho.com/xampp-xu-ni-mu-lu-pei-zhi.html</guid>
+      <description>我下载的是 xampp 1.77版本的。 安装的时候一直点下一步，不用有任何操作。 打开D:\xampp\apache\conf\extra\httpd-v</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,8 +1,120 @@
-<!doctype html><html lang=en-us><head><meta charset=utf-8><meta name=generator content="Hugo 0.74.1"><meta charset=utf-8><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><meta name=generator content="Saber v0.11.2"><meta name=author content="forecho"><meta name=keywords content="yii2,yii,炒美股,如何炒美股,美股入金 php,ios,ruby,python,swift,web development"><meta name=og:site_name content="forecho's Blog"><meta property="og:type" content="article"><meta property="title" content="CI自定义分页类 - forecho's Blog"><meta property="og:title" content="CI自定义分页类 - forecho's Blog"><meta property="twitter:title" content="CI自定义分页类 - forecho's Blog"><meta name=description content="之前我写过一篇文章，介绍了CI如何分页，请猛击~ 那么考虑到一个项目要分页的地方比较多，所以后来我们写了一个单独的分页类，这样一个项目的效率会"><meta property="og:description" content="之前我写过一篇文章，介绍了CI如何分页，请猛击~ 那么考虑到一个项目要分页的地方比较多，所以后来我们写了一个单独的分页类，这样一个项目的效率会"><meta property="twitter:description" content="之前我写过一篇文章，介绍了CI如何分页，请猛击~ 那么考虑到一个项目要分页的地方比较多，所以后来我们写了一个单独的分页类，这样一个项目的效率会"><meta property="og:type" content="article"><title>CI自定义分页类 - forecho's Blog</title><meta property="og:url" content="https://blog.forecho.com/ci-zi-ding-yi-fen-ye-lei.html"><meta property="og:image" content="https://avatars0.githubusercontent.com/u/1725326?s=460&v=4"><meta property="twitter:image" content="https://avatars0.githubusercontent.com/u/1725326?s=460&v=4"><link rel="shortcut icon" href="https://avatars0.githubusercontent.com/u/1725326?s=460&v=4" type=image/x-png><link href=https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css rel=stylesheet><link rel=stylesheet href=/css/main.css><link rel=stylesheet href=//at.alicdn.com/t/font_1607597_jhmihcvh0tm.css><link href=/index.xml rel=alternate type=application/rss+xml title="forecho's Blog"><script async src=//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js></script><meta name=google-site-verification content="OMI81_SJiESxwq-Fr0CLleoF7EzVdRx7QTQlbAfCVdI"><meta name=baidu-site-verification content="WuHyHeOJtJ"></head><body class="bg-gray-100 text-gray-900 tracking-wider leading-normal"><nav id=header class="bg-white fixed w-full z-10 top-0 shadow"><div id=progress class="h-1 z-20 top-0" style="background:linear-gradient(to right,#4dc0b5 var(--scroll),transparent 0)"></div><div class="w-full container mx-auto flex flex-wrap items-center justify-between my-1"><div class=pl-4><a class="text-gray-900 text-base no-underline hover:no-underline font-bold text-xl" href=/>forecho's Blog</a></div><div class="block lg:hidden pr-4"><button id=nav-toggle class="flex items-center px-3 py-2 border rounded text-gray-500 border-gray-600 hover:text-gray-900 hover:border-teal-500 appearance-none focus:outline-none"><svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg></button></div><div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block mt-2 lg:mt-0 bg-gray-100 md:bg-transparent z-20" id=nav-content><ul class="list-reset lg:flex justify-end flex-1 items-center"><li class=mr-3><a href=/ class="inline-block py-2 px-2 text-gray-700 font-bold no-underline">首页</a></li><li class=mr-3><a href=/posts.html class="inline-block py-2 px-2 text-gray-700 font-bold no-underline">文章归档</a></li><li class=mr-3><a href=/about.html class="inline-block py-2 px-2 text-gray-700 font-bold no-underline">关于我</a></li><li class=mr-3><a href=/friendship-links/ class="inline-block py-2 px-2 text-gray-700 font-bold no-underline">联盟链接</a></li></ul></div></div></nav><div id=container class="container w-full flex flex-wrap mx-auto px-2 lg:pt-12 mt-10"><section class="w-full lg:w-3/4 xl:w-3/4"><div class="px-8 py-6 mt-6 lg:mt-0 leading-normal rounded shadow bg-white"><div><h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-2xl lg:text-3xl"><a href=https://blog.forecho.com/ci-zi-ding-yi-fen-ye-lei.html title=CI自定义分页类>CI自定义分页类</a></h1><p class="mb-1 text-sm text-gray-500"><span title="2012-10-29 16:13:00 +0800"><i class="iconfont icon-calendar" aria-hidden=true></i>29 Oct 2012</span>
-<span class="hidden xl:inline-block">|
-<i class="iconfont icon-book"></i>1050 字</span>
-<span class="hidden xl:inline-block">|
-<i class="iconfont icon-clock-o"></i>3 分钟读完</span></p></div><div class=md:hidden><p class="text-base font-bold py-2 yg:pb-6 text-gray-700">文章目录</p><div class="sticky text-sm" style=top:6em id=menu-content><nav id=TableOfContents></nav></div></div><div class=post-content><p>之前我写过一篇文章，介绍了CI如何分页，<a href="/?p=286">请猛击~</a> 那么考虑到一个项目要分页的地方比较多，所以后来我们写了一个单独的分页类，这样一个项目的效率会大大提升。 1、首先，我们在  application / libraries /下面创建page.php（扩展分页类）文件，代码如下：</p><pre><code>&lt;?php
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.68.0" />
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="generator" content="Saber v0.11.2">
+    <meta name="author" content="forecho" />
+    <meta name="keywords" content="yii2, yii, 炒美股, 如何炒美股, 美股入金 php, ios, ruby, python, swift, web development" />
+    <meta name="og:site_name" content="forecho&#39;s Blog" /><meta property="og:type" content="article" />
+    <meta property="title" content="CI自定义分页类 - forecho&#39;s Blog">
+    <meta property="og:title" content="CI自定义分页类 - forecho&#39;s Blog">
+    <meta property="twitter:title" content="CI自定义分页类 - forecho&#39;s Blog">
+    <meta name="description" content="之前我写过一篇文章，介绍了CI如何分页，请猛击~ 那么考虑到一个项目要分页的地方比较多，所以后来我们写了一个单独的分页类，这样一个项目的效率会">
+    <meta property="og:description" content="之前我写过一篇文章，介绍了CI如何分页，请猛击~ 那么考虑到一个项目要分页的地方比较多，所以后来我们写了一个单独的分页类，这样一个项目的效率会">
+    <meta property="twitter:description" content="之前我写过一篇文章，介绍了CI如何分页，请猛击~ 那么考虑到一个项目要分页的地方比较多，所以后来我们写了一个单独的分页类，这样一个项目的效率会">
+    <meta property="og:type" content="article">
+    <title>CI自定义分页类 - forecho&#39;s Blog</title>
+
+    <meta property="og:url" content="https://blog.forecho.com/ci-zi-ding-yi-fen-ye-lei.html" />
+
+    
+    <meta property="og:image" content="https://avatars0.githubusercontent.com/u/1725326?s=460&amp;v=4">
+    <meta property="twitter:image" content="https://avatars0.githubusercontent.com/u/1725326?s=460&amp;v=4">
+    <link rel="shortcut icon" href="https://avatars0.githubusercontent.com/u/1725326?s=460&amp;v=4" type="image/x-png" /><link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_1607597_jhmihcvh0tm.css" />
+    <link href="/index.xml" rel="alternate" type="application/rss+xml" title="forecho&#39;s Blog">
+    
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><meta name="google-site-verification" content="OMI81_SJiESxwq-Fr0CLleoF7EzVdRx7QTQlbAfCVdI" /><meta name="baidu-site-verification" content="WuHyHeOJtJ" />
+</head>
+
+<body class="bg-gray-100 text-gray-900 tracking-wider leading-normal">
+
+    <nav id="header" class="bg-white fixed w-full z-10 top-0 shadow">
+
+  <div id="progress" class="h-1 z-20 top-0" style="background:linear-gradient(to right, #4dc0b5 var(--scroll), transparent 0);"></div>
+
+  <div class="w-full container mx-auto flex flex-wrap items-center justify-between my-1">
+      <div class="pl-4">
+          <a class="text-gray-900 text-base no-underline hover:no-underline font-bold text-xl"  href="/">
+              forecho&#39;s Blog
+          </a>
+      </div>
+
+      <div class="block lg:hidden pr-4">
+          <button id="nav-toggle" class="flex items-center px-3 py-2 border rounded text-gray-500 border-gray-600 hover:text-gray-900 hover:border-teal-500 appearance-none focus:outline-none">
+              <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+          </button>
+      </div>
+
+      <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block mt-2 lg:mt-0 bg-gray-100 md:bg-transparent z-20" id="nav-content">
+          <ul class="list-reset lg:flex justify-end flex-1 items-center">
+              <li class="mr-3">
+                  <a href="/" class="inline-block py-2 px-2 text-gray-700 font-bold no-underline">首页</a>
+              </li>
+              <li class="mr-3">
+                  <a href="/posts.html" class="inline-block py-2 px-2 text-gray-700 font-bold no-underline">文章归档</a>
+              </li>
+              <li class="mr-3">
+                  <a href="/about.html" class="inline-block py-2 px-2 text-gray-700 font-bold no-underline">关于我</a>
+              </li>
+              <li class="mr-3">
+                  <a href="/friendship-links/" class="inline-block py-2 px-2 text-gray-700 font-bold no-underline">联盟链接</a>
+              </li>
+          </ul>
+      </div>
+  </div>
+</nav>
+
+    <div id="container" class="container w-full flex flex-wrap mx-auto px-2 lg:pt-12 mt-10">
+<section class="w-full lg:w-3/4 xl:w-3/4">
+
+    
+    <div class="px-8 py-6 mt-6 lg:mt-0 leading-normal rounded shadow bg-white">
+
+        
+        <div>
+    <h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-2xl lg:text-3xl">
+        <a href="https://blog.forecho.com/ci-zi-ding-yi-fen-ye-lei.html" title="CI自定义分页类">CI自定义分页类</a>
+    </h1>
+    <p class="mb-1 text-sm text-gray-500">
+        <span title=" 2012-10-29 16:13:00 &#43;0800">
+            <i class="iconfont icon-calendar" aria-hidden="true"></i> 29 Oct 2012
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-book"></i>
+            1050 字
+        </span>
+
+        <span class="hidden xl:inline-block">
+            |
+            <i class="iconfont icon-clock-o"></i>
+            3 分钟读完
+        </span>
+    </p>
+</div>
+
+
+        <div class="md:hidden">
+            
+<p class="text-base font-bold py-2 yg:pb-6 text-gray-700">文章目录</p>
+    <div class="sticky text-sm" style="top:6em;" id="menu-content">
+        <nav id="TableOfContents"></nav>
+    </div>
+
+        </div> 
+
+        <div class="post-content">
+            <p>之前我写过一篇文章，介绍了CI如何分页，<a href="/?p=286">请猛击~</a> 那么考虑到一个项目要分页的地方比较多，所以后来我们写了一个单独的分页类，这样一个项目的效率会大大提升。 1、首先，我们在  application / libraries /下面创建page.php（扩展分页类）文件，代码如下：</p>
+<pre><code>&lt;?php
 
 class Page
 { 
@@ -59,7 +171,9 @@ class Page
 }
 
 ?&gt;
-</code></pre><p>2、那分页类写好了，如何使用呢？在控制器里面 controllers / feadmin.php文件（此处要结合你自己的项目，feadmin.php是我的控制器文件名）。下面是我们文章列表的示例代码：</p><pre><code>function postsList() {
+</code></pre>
+<p>2、那分页类写好了，如何使用呢？在控制器里面 controllers / feadmin.php文件（此处要结合你自己的项目，feadmin.php是我的控制器文件名）。下面是我们文章列表的示例代码：</p>
+<pre><code>function postsList() {
         $data['posts'] = $this-&gt;fe_model-&gt;page('posts', 'feadmin/postsList?',  @$_GET['per_page'], 2, 'id desc','category','posts.category = category.cid ');
         //print_r($data['posts']);
         $data['category'] = $this-&gt;fe_model-&gt;selectCate();
@@ -69,7 +183,9 @@ class Page
 
         $this-&gt;load-&gt;view('admin/postsView', $data);
     }
-</code></pre><p>此处我使用的是CI** GET分页**方法，具体需要看你的项目是否需要，此处可参考手册开启GET翻页功能。 fe_model是我项目的模型文件，那么要实现翻页，还需要在模型中写下面的方法：</p><pre><code>//分页
+</code></pre>
+<p>此处我使用的是CI** GET分页**方法，具体需要看你的项目是否需要，此处可参考手册开启GET翻页功能。 fe_model是我项目的模型文件，那么要实现翻页，还需要在模型中写下面的方法：</p>
+<pre><code>//分页
     function page($form, $url, $offset, $size, $order, $join, $joinArray){
 
         $fy['url'] = $url;
@@ -153,7 +269,9 @@ class Page
         return $this-&gt;db-&gt;get($form)-&gt;result();
 
     }
-</code></pre><p>3、下面的视图文件的代码：</p><pre><code>&lt;tbody&gt;
+</code></pre>
+<p>3、下面的视图文件的代码：</p>
+<pre><code>&lt;tbody&gt;
     &lt;?php foreach ($posts['admin'] as $post):
         ?&gt;
     &lt;tr&gt;
@@ -175,14 +293,332 @@ class Page
   &lt;?php 
   endforeach;?&gt;
 &lt;/tbody&gt;
-</code></pre><p>翻页的按钮代码如下：</p><pre><code>&lt;div class=&quot;pagination&quot;&gt;
+</code></pre>
+<p>翻页的按钮代码如下：</p>
+<pre><code>&lt;div class=&quot;pagination&quot;&gt;
     &lt;?php echo $this-&gt;pagination-&gt;create_links(); ?&gt;
 &lt;/div&gt;
-</code></pre><p>此处值得注意的是   完整项目代码请参考<a href=https://github.com/forecho/Fecms/>这里~</a></p><hr class="bg-gray-300 mt-8"><div class=pt-4><p class=text-center><button id=btn-donate class="px-5 py-2 inline-block rounded hover:bg-red-600 bg-red-400 text-white" for=reward>打赏</button></p><div class="flex flex-auto mt-2 mx-2 hidden" id=donate-image><div class="w-full px-2 my-2"><div class=bg-white><img class="h-48 shadow object-cover w-auto mx-auto" loading=lazy src=https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424153510.png alt=微信打赏><div class="text-center text-gray-500">微信打赏</div></div></div><div class="w-full px-2 my-2"><div class=bg-white><img class="h-48 shadow object-cover w-auto mx-auto" loading=lazy src=https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424153431.png alt=支付宝打赏><div class="text-center text-gray-500">支付宝打赏</div></div></div></div></div><div class="border-l-4 border-red-400 mx-auto bg-gray-200 text-gray-700 mt-5"><div class="pt-2 copyright"><ul class=list-none><li><strong>原文作者：</strong>
-<a rel=author href=https://blog.forecho.com>forecho</a></li><li style=word-break:break-all><strong>原文链接：</strong>
-<a href=https://blog.forecho.com/ci-zi-ding-yi-fen-ye-lei.html>https://blog.forecho.com/ci-zi-ding-yi-fen-ye-lei.html</a></li><li><strong>版权声明：</strong>本作品采用
-<a rel=license href=https://creativecommons.org/licenses/by-nc/4.0/deed.zh>署名-非商业性使用 4.0 国际 (CC BY-NC 4.0)</a>进行许可，非商业转载请注明出处（作者，原文链接），商业转载请联系作者获得授权。</li></ul></div></div></div><p class="text-gray-500 text-sm text-right pt-1"><span id=busuanzi_container_page_pv>本文有 <span id=busuanzi_value_page_pv></span>次阅读</span></p></div><hr class="bg-gray-300 my-10"><div class="p-8 mt-6 lg:mt-0 rounded shadow bg-white"><h2 class="font-sans font-bold break-normal text-gray-700 px-2 pb-3 text-xl">相关文章</h2><li><a href=/codeigniter-bei-fen-gong-neng.html class="underline text-orange-600">CodeIgniter备份功能</a></li><li><a href=/php-zhi-wu-xian-ji-fen-lei.html class="underline text-orange-600">PHP之无限极分类</a></li><li><a href=/shi-yong-biao-dan-yan-zheng-cha-jian-validform.html class="underline text-orange-600">使用表单验证插件 Validform</a></li><li><a href=/php-zui-jian-dan-de-fang-fa-diao-yong-kindeditor-bian-ji-qi.html class="underline text-orange-600">PHP最简单的方法调用kindeditor编辑器</a></li><li><a href=/di-yi-zhan-cheng-dou.html class="underline text-orange-600">第一站，成都</a></li></div></section><div class="hidden xl:text-sm xl:block xl:w-1/4 xl:px-6"><div class="lg:w-full mx-auto items-center justify-between"><div class="bg-white shadow rounded overflow-hidden"><div class="bg-cover bg-auto mx-auto w-32 h-32 mt-5 rounded-full" style="background-image:url(https://avatars0.githubusercontent.com/u/1725326?s=460&v=4)"></div><div class=p-4><p class="text-2xl text-center text-gray-900 pb-2">forecho</p><p class="text-sm text-center text-gray-700">把生命浪费在美好的事物上</p></div><div class="flex p-4 border-t text-sm border-gray-300 text-gray-700"><div class="flex-1 border-r border-gray-600"><p class=text-center><span class="text-gray-700 font-bold">346</span>
-文章</p></div><div class="flex-1 text-center"><p class=text-center><span class="text-gray-700 font-bold">100</span>
-标签</p></div></div><div class="px-4 pb-4 border-t border-gray-300"><div class="mt-6 pb-16 lg:pb-0 w-4/5 lg:w-full mx-auto flex flex-wrap items-center justify-between text-gray-500"><a href=//github.com/forecho class="hover:text-gray-900 p-1 text-2xl" target=_blank title=GitHub><i class="my-iconfont icon-social-github"></i></a><a href=//instagram.com/forecho class="hover:text-gray-900 p-1 text-2xl" target=_blank title=Instagram><i class="my-iconfont icon-instagram"></i></a><a href=//twitter.com/caizhenghai class="hover:text-gray-900 p-1 text-2xl" target=_blank title=Twitter><i class="my-iconfont icon-social-twitter"></i></a><a href=//douban.com/people/ipzone class="hover:text-gray-900 p-1 text-2xl" target=_blank title=Douban><i class="my-iconfont icon-social-douban"></i></a><a href=/atom.xml class="hover:text-gray-900 p-1 text-2xl" target=_blank title=RSS><i class="my-iconfont icon-feed"></i></a></div></div></div></div><div class="p-4 mt-2 lg:mt-4 rounded shadow bg-white"><h2 class="font-sans font-bold break-normal text-gray-700 px-2 pb-3 text-lg">热门文章</h2><li><a href=/financedeep-08.html class="underline text-orange-600 text-sm">【深度理财08】美港股打新哪家强</a></li><li><a href=/take-the-shenzhen-account-in-less-than-3-months.html class="underline text-orange-600 text-sm">用时不到3个月拿到深圳户口</a></li><li><a href=/how-do-i-invest-in-american-stocks.html class="underline text-orange-600 text-sm">我是怎么投资美股的</a></li></div><div class=profile-ads><div class="bg-white shadow"><img class="object-cover w-auto mx-auto mt-6" loading=lazy src=https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424153337.png title=微信：ipzone alt=微信：ipzone></div></div><div class="flex flex-col justify-between sticky top-0 pt-12 pb-4 -mt-10 text-gray-600"><div class="bg-white shadow rounded p-4 mt-5"><p class="text-base font-bold py-2 yg:pb-6 text-gray-700">文章目录</p><div class="sticky text-sm" style=top:6em id=menu-content><nav id=TableOfContents></nav></div></div></div></div></div><footer class="bg-white border-t border-gray-400 shadow mt-10"><div class="container mx-auto flex py-8"><div class="w-full text-center text-gray-600"><p>&copy; 2020 <a class=text-gray-700 href=https://blog.forecho.com>forecho's Blog By forecho</a></p><p class=pt-1>Powered by <a rel="nofollow noreferer noopener" href=https://gohugo.io/ class=text-gray-700 target=_blank>Hugo</a>
-Theme based on <a href=https://github.com/forecho/hugo-theme-echo class=text-gray-700 target=_blank>Echo</a></p><span id=busuanzi_container>访客数：<span id=busuanzi_value_site_uv></span> | 访问量 <span id=busuanzi_value_site_pv></span></span></div></div></footer><script type=application/javascript>var doNotTrack=false;if(!doNotTrack){(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');ga('create','UA-75634412-1','auto');ga('send','pageview');}</script><script>window.onload=function(){document.getElementById("nav-toggle").onclick=function(){document.getElementById("nav-content").classList.toggle("hidden");};var donate=document.getElementById("btn-donate");if(donate){donate.onclick=function(){document.getElementById("donate-image").classList.remove("hidden");donate.classList.add("hidden");};}
-var hostname=window.location.hostname;var divs=document.querySelectorAll('a[href^="http"]');[].forEach.call(divs,function(div){url=div.getAttribute("href");var domain=url.replace("http://","").replace("https://","").split(/[/?#:]/)[0];if(domain!==hostname){div.setAttribute("target","_blank");}});};var h=document.documentElement,b=document.body,st="scrollTop",sh="scrollHeight",progress=document.querySelector("#progress"),scroll;var scrollpos=window.scrollY;var header=document.getElementById("header");var navcontent=document.getElementById("nav-content");document.addEventListener("scroll",function(){scroll=((h[st]||b[st])/((h[sh]||b[sh])-h.clientHeight))*100;progress.style.setProperty("--scroll",scroll+"%");scrollpos=window.scrollY;if(scrollpos>10){navcontent.classList.remove("bg-gray-100");}else{navcontent.classList.add("bg-gray-100");}});</script></body></html>
+</code></pre>
+<p>此处值得注意的是<!-- raw HTML omitted -->   完整项目代码请参考<a href="https://github.com/forecho/Fecms/">这里~</a></p>
+
+
+            <hr class="bg-gray-300 mt-8">
+
+            
+<div class="pt-4">
+    <p class="text-center">
+        <button id="btn-donate" class="px-5 py-2 inline-block rounded hover:bg-red-600 bg-red-400 text-white" for="reward">打赏</button>
+    </p>
+    <div class="flex flex-auto mt-2 mx-2 hidden" id="donate-image">
+        
+        <div class="w-full px-2 my-2">
+            <div class="bg-white">
+                <img class="h-48 shadow object-cover w-auto mx-auto" loading="lazy" src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424153510.png" alt="微信打赏">
+                <div class="text-center text-gray-500">微信打赏</div>
+            </div>
+        </div>
+
+        <div class="w-full px-2 my-2">
+            <div class=" bg-white">
+                <img class="h-48 shadow object-cover w-auto mx-auto" loading="lazy" src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424153431.png" alt="支付宝打赏">
+                <div class="text-center text-gray-500">支付宝打赏</div>
+            </div>
+        </div> 
+
+    </div>
+</div>
+
+            
+<div class="border-l-4 border-red-400 mx-auto bg-gray-200 text-gray-700 mt-5">
+    <div class="pt-2 copyright">
+        <ul class="list-none">
+            <li>
+                <strong>原文作者：</strong>
+                <a rel="author" href="https://blog.forecho.com">forecho</a>
+            </li>
+            <li style="word-break:break-all">
+                <strong>原文链接：</strong>
+                <a href="https://blog.forecho.com/ci-zi-ding-yi-fen-ye-lei.html">https://blog.forecho.com/ci-zi-ding-yi-fen-ye-lei.html</a>
+            </li>
+            <li>
+                <strong>版权声明：</strong>本作品采用
+                <a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/deed.zh">署名-非商业性使用 4.0 国际 (CC BY-NC 4.0)</a>进行许可，非商业转载请注明出处（作者，原文链接），商业转载请联系作者获得授权。
+            </li>
+        </ul>
+    </div>
+ 
+</div>
+
+
+        </div>
+
+        
+        
+
+         
+        
+            <p class="text-gray-500 text-sm text-right pt-1">
+                <span id="busuanzi_container_page_pv">
+                    本文有 <span id="busuanzi_value_page_pv"></span> 次阅读
+                </span>
+            </p>
+        
+
+    </div>
+    
+
+    
+    <hr class="bg-gray-300 my-10">
+
+    
+        
+        
+        
+
+        
+
+
+<div class="p-8 mt-6 lg:mt-0 rounded shadow bg-white">
+    <h2 class="font-sans font-bold break-normal text-gray-700 px-2 pb-3 text-xl">相关文章</h2>
+    
+    <li><a href="/codeigniter-bei-fen-gong-neng.html" class="underline text-orange-600">CodeIgniter备份功能</a></li>
+    
+    <li><a href="/php-zhi-wu-xian-ji-fen-lei.html" class="underline text-orange-600">PHP之无限极分类</a></li>
+    
+    <li><a href="/shi-yong-biao-dan-yan-zheng-cha-jian-validform.html" class="underline text-orange-600">使用表单验证插件 Validform</a></li>
+    
+    <li><a href="/php-zui-jian-dan-de-fang-fa-diao-yong-kindeditor-bian-ji-qi.html" class="underline text-orange-600">PHP最简单的方法调用kindeditor编辑器</a></li>
+    
+    <li><a href="/di-yi-zhan-cheng-dou.html" class="underline text-orange-600">第一站，成都</a></li>
+    
+</div>
+
+
+    
+
+</section>
+
+
+<div class="hidden xl:text-sm xl:block xl:w-1/4 xl:px-6 ">
+
+    <div class="lg:w-full mx-auto items-center justify-between">
+    <div class="bg-white shadow rounded overflow-hidden">
+        <div class="bg-cover bg-auto mx-auto w-32 h-32 mt-5 rounded-full" style="background-image: url('https://avatars0.githubusercontent.com/u/1725326?s=460&amp;v=4')"> </div>
+        
+        <div class="p-4">
+            <p class="text-2xl text-center text-gray-900 pb-2">forecho</p>
+            <p class="text-sm text-center text-gray-700">把生命浪费在美好的事物上</p>
+        </div>
+        <div class="flex p-4 border-t text-sm border-gray-300 text-gray-700">
+            <div class="flex-1 border-r border-gray-600">
+                <p class="text-center">
+                    <span class="text-gray-700 font-bold">
+                        346
+                    </span>
+                    文章
+                </p>
+            </div>
+            <div class="flex-1 text-center">
+                <p class="text-center">
+                    <span class="text-gray-700 font-bold">
+                        
+                            100
+                        
+                    </span>
+                    标签
+                </p>
+            </div>
+        </div>
+        <div class="px-4 pb-4 border-t border-gray-300">
+            <div class="mt-6 pb-16 lg:pb-0 w-4/5 lg:w-full mx-auto flex flex-wrap items-center justify-between text-gray-500">
+                
+                <a href="//github.com/forecho" class="hover:text-gray-900 p-1 text-2xl" target="_blank" title="GitHub"><i class="my-iconfont icon-social-github"></i></a>
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+                <a href="//instagram.com/forecho" class="hover:text-gray-900 p-1 text-2xl" target="_blank" title="Instagram"><i class="my-iconfont icon-instagram"></i></a>
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+                <a href="//twitter.com/caizhenghai" class="hover:text-gray-900 p-1 text-2xl" target="_blank" title="Twitter"><i class="my-iconfont icon-social-twitter"></i></a>
+                
+
+                
+                <a href="//douban.com/people/ipzone" class="hover:text-gray-900 p-1 text-2xl" target="_blank" title="Douban"><i class="my-iconfont icon-social-douban"></i></a>
+                
+
+                
+                <a href="/atom.xml" class="hover:text-gray-900 p-1 text-2xl" target="_blank" title="RSS"><i class="my-iconfont icon-feed"></i></a>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="p-4 mt-2 lg:mt-4 rounded shadow bg-white">
+    <h2 class="font-sans font-bold break-normal text-gray-700 px-2 pb-3 text-lg">热门文章</h2>
+    
+    <li><a href="/financedeep-08.html" class="underline text-orange-600 text-sm">【深度理财08】美港股打新哪家强</a></li>
+    
+    <li><a href="/take-the-shenzhen-account-in-less-than-3-months.html" class="underline text-orange-600 text-sm">用时不到3个月拿到深圳户口</a></li>
+    
+    <li><a href="/how-do-i-invest-in-american-stocks.html" class="underline text-orange-600 text-sm">我是怎么投资美股的</a></li>
+    
+</div>
+
+
+
+    <div class="profile-ads"><div class="bg-white shadow"><img class=" object-cover w-auto mx-auto mt-6" loading="lazy" src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424153337.png" title="微信：ipzone" alt="微信：ipzone"></div></div>
+
+
+
+
+
+    <div class="flex flex-col justify-between sticky top-0 pt-12 pb-4 -mt-10 text-gray-600">
+        <div class="bg-white shadow rounded p-4 mt-5">
+            
+<p class="text-base font-bold py-2 yg:pb-6 text-gray-700">文章目录</p>
+    <div class="sticky text-sm" style="top:6em;" id="menu-content">
+        <nav id="TableOfContents"></nav>
+    </div>
+
+        </div>
+    </div>
+   
+</div> 
+
+    </div>
+    
+    
+<footer class="bg-white border-t border-gray-400 shadow mt-10">	
+    <div class="container  mx-auto flex py-8">
+        <div class="w-full text-center text-gray-600 ">
+            <p>
+                &copy; 2020 <a  class="text-gray-700" href="https://blog.forecho.com">forecho&#39;s Blog By forecho </a>
+            </p>
+            
+            <p class="pt-1">
+                Powered by <a rel="nofollow noreferer noopener" href="https://gohugo.io/"  class="text-gray-700" target="_blank">Hugo</a> 
+                Theme based on <a href="https://github.com/forecho/hugo-theme-echo" class="text-gray-700" target="_blank">Echo</a>
+            </p>
+
+            <span id="busuanzi_container">
+              访客数：<span id="busuanzi_value_site_uv"></span> | 访问量 <span id="busuanzi_value_site_pv"></span>
+            </span>
+
+        </div>
+
+    </div>
+</footer>
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-75634412-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+ <script>
+  window.onload = function() {
+    document.getElementById("nav-toggle").onclick = function() {
+      document.getElementById("nav-content").classList.toggle("hidden");
+    };
+
+    var donate = document.getElementById("btn-donate");
+    if (donate) {
+      donate.onclick = function() {
+        document.getElementById("donate-image").classList.remove("hidden");
+        donate.classList.add("hidden");
+      };
+    }
+
+    var hostname = window.location.hostname;
+    var divs = document.querySelectorAll('a[href^="http"]');
+    [].forEach.call(divs, function(div) {
+      url = div.getAttribute("href");
+      var domain = url
+        .replace("http://", "")
+        .replace("https://", "")
+        .split(/[/?#:]/)[0];
+      if (domain !== hostname) {
+        div.setAttribute("target", "_blank");
+      }
+    });
+  };
+
+   
+  
+  var h = document.documentElement,
+    b = document.body,
+    st = "scrollTop",
+    sh = "scrollHeight",
+    progress = document.querySelector("#progress"),
+    scroll;
+  var scrollpos = window.scrollY;
+  var header = document.getElementById("header");
+  var navcontent = document.getElementById("nav-content");
+
+  document.addEventListener("scroll", function() {
+     
+    scroll = ((h[st] || b[st]) / ((h[sh] || b[sh]) - h.clientHeight)) * 100;
+    progress.style.setProperty("--scroll", scroll + "%");
+
+     
+    scrollpos = window.scrollY;
+
+    if (scrollpos > 10) {
+      navcontent.classList.remove("bg-gray-100");
+    } else {
+      navcontent.classList.add("bg-gray-100");
+    }
+  });
+</script>
+
+</body>
+
+</html>
