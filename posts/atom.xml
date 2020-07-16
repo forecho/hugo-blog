@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on forecho's Blog</title><link>https://blog.forecho.com/posts.html</link><description>Recent content in Posts on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 09 Jul 2020 11:09:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/posts/atom.xml" rel="self" type="application/rss+xml"/><item><title>【深度理财10】富途港股打新全知道</title><link>https://blog.forecho.com/financedeep-10.html</link><pubDate>Thu, 09 Jul 2020 11:09:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-10.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on forecho's Blog</title><link>https://blog.forecho.com/posts.html</link><description>Recent content in Posts on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 16 Jul 2020 10:08:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/posts/atom.xml" rel="self" type="application/rss+xml"/><item><title>GitHub Action 和 Travis CI 对比</title><link>https://blog.forecho.com/github-action-vs-travis-ci.html</link><pubDate>Thu, 16 Jul 2020 10:08:00 +0800</pubDate><guid>https://blog.forecho.com/github-action-vs-travis-ci.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/ci.png" alt="">&lt;/p>
+&lt;p>&lt;a href="https://travis-ci.org/">Travis CI&lt;/a> 用了好几年了，主要用途就是实现我的静态博客自动发布，&lt;a href="https://github.com/features/actions">GitHub Action&lt;/a> 我是今年才开始用，今天我从自己的使用经验对比一下两个平台的使用感受。&lt;/p></description></item><item><title>【深度理财10】富途港股打新全知道</title><link>https://blog.forecho.com/financedeep-10.html</link><pubDate>Thu, 09 Jul 2020 11:09:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-10.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
 &lt;p>之前有写过一篇文章 - &lt;a href="https://blog.forecho.com/financedeep-08.html">《【深度理财08】美港股打新哪家强》&lt;/a>，介绍了几个美港股打新平台，这篇文章就来详细介绍一下我的富途证券港股打新经验，以及你们最关心的扣费问题。&lt;/p>
 &lt;p>还没有开户的小朋友，欢迎扫码开户：&lt;/p>
 &lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/futu5.png!s" alt="富途证券开户">&lt;/p></description></item><item><title>【深度理财09】2020最新老虎证券大陆卡入金指南</title><link>https://blog.forecho.com/financedeep-09.html</link><pubDate>Fri, 03 Jul 2020 11:09:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-09.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
@@ -74,8 +76,4 @@
 &lt;blockquote>
 &lt;p>2020年到了，我却没有那么开心，随着年纪越来越大，越是不想接受新年的到来，反而有种莫名的失落感。&lt;/p>
 &lt;/blockquote>
-&lt;p>好了，不多说了，下面进入主题。&lt;/p></description></item><item><title>一家会营销的螺蛳粉店</title><link>https://blog.forecho.com/river-snails-rice-noodle.html</link><pubDate>Sat, 18 Jan 2020 21:58:00 +0800</pubDate><guid>https://blog.forecho.com/river-snails-rice-noodle.html</guid><description>&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/C5TdgZ.jpg" alt="C5TdgZ">&lt;/p>
-&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>兔子老家是广西了，从小吃粉长大，所以我们现在仍然会保持着一周至少去吃一次螺蛳粉的习惯。&lt;/p>
-&lt;p>这篇文章只要是分享我家楼下附近的那家螺蛳粉，这家店的老板不简单，粉做的不错，重点是非常会营销。生意是越做越火，开了2年多了，不仅没倒闭，而且今年已经开了第二家分店了。&lt;/p>
-&lt;p>我觉得挺有意思的，打算分享给大家。&lt;/p></description></item></channel></rss>
+&lt;p>好了，不多说了，下面进入主题。&lt;/p></description></item></channel></rss>
