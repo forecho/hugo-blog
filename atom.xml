@@ -551,6 +551,9 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io
 &lt;p>之前我习惯用 host 泛解析工具，Windows 下面有 &lt;a href="https://mayakron.altervista.org/support/acrylic/Home.htm">Acrylic&lt;/a> ，但是当时安装完配置好环境，重启之后发现 WSL2 不能启动了，查了一下发现 &lt;a href="https://github.com/valeryan/valet-wsl/issues/14">WSL2 和 Acrylic 53 端口冲突&lt;/a>了，所以目前是放弃使用 Acrylic 了。&lt;/p>
 &lt;h3 id="快捷键问题">快捷键问题&lt;/h3>
 &lt;p>用习惯了 Mac 的快捷键就不习惯 Windows 快捷键方式了，Windows 快捷键用了两天复制粘贴按着小拇指疼，然后我就找方案。找了好几个最后找到了 &lt;a href="https://www.autohotkey.com/">AutoHotkey &lt;/a> 这个工具，通过写代码的方式改键，可玩性非常高，配合这个人写的代码 &lt;a href="https://github.com/Elethom/ahk-mackeys">Elethom/ahk-mackeys&lt;/a> 能满足大部分需求了。&lt;/p>
+&lt;h3 id="js-项目不能热更新">JS 项目不能热更新&lt;/h3>
+&lt;p>如果你的代码放在 Windows 目录下，使用 WSL2 环境，那么就会遇到代码修改之后不会热更新这个坑，使用软连接把 Windows 的目录链接到 WSL2 也不能解决。&lt;/p>
+&lt;p>目前唯一的解决办法就是把代码复制到 WSL2 系统里面，但是这样做意味着代码和环境绑定在一起了。系统挂了，你代码就可能找不回来了?有一定的风险。&lt;a href="https://github.com/microsoft/WSL/issues/4739">Issues 讨论链接&lt;/a>。&lt;/p>
 &lt;h2 id="软件推荐">软件推荐&lt;/h2>
 &lt;h3 id="dittohttpsditto-cpsourceforgeio">&lt;a href="https://ditto-cp.sourceforge.io/">Ditto&lt;/a>&lt;/h3>
 &lt;p>免费好用剪贴板软件&lt;/p>
