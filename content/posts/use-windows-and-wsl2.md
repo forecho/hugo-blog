@@ -133,6 +133,11 @@ Github Issues 链接 <https://github.com/microsoft/WSL/issues/4210>
 
 用习惯了 Mac 的快捷键就不习惯 Windows 快捷键方式了，Windows 快捷键用了两天复制粘贴按着小拇指疼，然后我就找方案。找了好几个最后找到了 [AutoHotkey ](https://www.autohotkey.com/) 这个工具，通过写代码的方式改键，可玩性非常高，配合这个人写的代码 [Elethom/ahk-mackeys](https://github.com/Elethom/ahk-mackeys) 能满足大部分需求了。
 
+### JS 项目不能热更新
+
+如果你的代码放在 Windows 目录下，使用 WSL2 环境，那么就会遇到代码修改之后不会热更新这个坑，使用软连接把 Windows 的目录链接到 WSL2 也不能解决。
+
+目前唯一的解决办法就是把代码复制到 WSL2 系统里面，但是这样做意味着代码和环境绑定在一起了。系统挂了，你代码就可能找不回来了?有一定的风险。[Issues 讨论链接](https://github.com/microsoft/WSL/issues/4739)。
 
 ## 软件推荐
 
