@@ -1,4 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>经验分享 on forecho's Blog</title><link>https://blog.forecho.com/tags/%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB.html</link><description>Recent content in 经验分享 on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 30 Jun 2020 11:09:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/tags/%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB/atom.xml" rel="self" type="application/rss+xml"/><item><title>Apple Pay 深圳通使用体验</title><link>https://blog.forecho.com/apple-pay-shenzhen-pass-user-experience.html</link><pubDate>Tue, 30 Jun 2020 11:09:00 +0800</pubDate><guid>https://blog.forecho.com/apple-pay-shenzhen-pass-user-experience.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>经验分享 on forecho's Blog</title><link>https://blog.forecho.com/tags/%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB.html</link><description>Recent content in 经验分享 on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 27 Aug 2020 10:09:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/tags/%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB/atom.xml" rel="self" type="application/rss+xml"/><item><title>「移动办公」地点测评</title><link>https://blog.forecho.com/remote-working.html</link><pubDate>Thu, 27 Aug 2020 10:09:00 +0800</pubDate><guid>https://blog.forecho.com/remote-working.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>最近业余时间都在开发一款个人资产管理的系统，所以连续几个周末都在「移动办公」，去过几个地方，想跟大家分享一下自己的体会。&lt;/p>
+&lt;h2 id="地点">地点&lt;/h2>
+&lt;h3 id="在家">在家&lt;/h3>
+&lt;p>🌕🌕🌕&lt;/p>
+&lt;p>在家办公是最方便的，我能想到的好处是：&lt;/p>
+&lt;ul>
+&lt;li>我的 MacBook 可以外接显示器。&lt;/li>
+&lt;li>没有通勤时间。&lt;/li>
+&lt;/ul></description></item><item><title>Apple Pay 深圳通使用体验</title><link>https://blog.forecho.com/apple-pay-shenzhen-pass-user-experience.html</link><pubDate>Tue, 30 Jun 2020 11:09:00 +0800</pubDate><guid>https://blog.forecho.com/apple-pay-shenzhen-pass-user-experience.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
 &lt;p>iOS 好像早就支持深圳通了，但是一直懒得开。直到最近 iOS 升级到 13.5.1 版本，系统通知栏提示我开通深圳通，然后抽空就开通了。&lt;/p>
 &lt;p>之前用了很久的云闪付，这篇文章就来说说怎么开通 Apple Pay 的深圳通以及它和云闪付的使用体验。&lt;/p>
 &lt;h2 id="如何开通-apple-pay-的深圳通">如何开通 Apple Pay 的深圳通&lt;/h2>
@@ -101,64 +110,4 @@ $ cp ~/dehydrated/docs/examples/domains.txt /etc/dehydrated/domains.txt
 &lt;p>徒步前有同事分享一些注意事项，我记住的大致有这些：&lt;/p></description></item><item><title>你的牙齿很值钱</title><link>https://blog.forecho.com/your-teeth-are-very-valuable.html</link><pubDate>Sun, 08 Jan 2017 23:32:00 +0800</pubDate><guid>https://blog.forecho.com/your-teeth-are-very-valuable.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
 &lt;p>事情的开始是这样的，那天下班在家上网逛 V2EX，然后看到了这篇文章&lt;a href="https://www.v2ex.com/t/323517">《我看牙医的经历》&lt;/a>，然后联想到我的两颗烂牙，想想就觉得后怕，于是下定决心去补牙，不然最后只会越拖越严重。&lt;/p>
 &lt;h2 id="选择哪里看牙">选择哪里看牙&lt;/h2>
-&lt;p>说道看牙，我的第一反应并没有说是去正规医院看病，因为我对他们也不了解，我怕被坑，然后正好兔子公司的有福利，可以用 Q点 兑换&lt;strong>瑞尔齿科&lt;/strong>的金卡，洗牙免费，看牙打折，网上简单搜索了一下评价还可以，于是我们就打打电话预约时间，先洗牙，顺便检查牙齿。&lt;/p></description></item><item><title>Ubuntu 使用 ShadowSocks + Privoxy 代理</title><link>https://blog.forecho.com/ubuntu-use-shadowsocks-and-privoxy.html</link><pubDate>Sat, 07 Jan 2017 12:35:00 +0800</pubDate><guid>https://blog.forecho.com/ubuntu-use-shadowsocks-and-privoxy.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>先说说这东西有什么用吧，我是 Windows7 使用 Vagrant 安装了个 Ubuntu 虚拟机，然后需要在虚拟机里面配置 SS 代理使用 PHP 的 Composer 下载，不然非常慢。
-那么本教程应该同样适用于 Ubuntu 服务器（做为 SS 客户端的方式）配置使用 SS，其他版本的 Linux 要想使用需要稍微改动下，但是思路是一样的。&lt;/p>
-&lt;p>如果你的 Mac 电脑，终端需要配置 SS 代理，推荐你使用 proxychains-ng 方式，具体查看&lt;a href="https://gold.xitu.io/entry/5821840cd203090055134cc0">macOS 终端走代理（科学上网）&lt;/a>&lt;/p>
-&lt;h2 id="shadowsocks-客户端">ShadowSocks 客户端&lt;/h2>
-&lt;p>注意是 ShadowSocks 客户端，服务端我就不介绍了。先安装 Python pip 再安装 shadowsocks，然后再配置：&lt;/p>
-&lt;div class="highlight">&lt;div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
-&lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
-&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-fallback" data-lang="fallback">sudo apt-get install python-pip
-sudo pip install shadowsocks
-sudo ln -s /usr/local/python/bin/sslocal /usr/bin/sslocal
-sudo vim /etc/shadowsocks.conf
-&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>配置文件代码如下：&lt;/p>
-&lt;div class="highlight">&lt;div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
-&lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
-&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-fallback" data-lang="fallback">{
-&amp;#34;server&amp;#34;:&amp;#34;your_server_ip&amp;#34;,
-&amp;#34;server_port&amp;#34;:your_server_port,
-&amp;#34;local_address&amp;#34;: &amp;#34;127.0.0.1&amp;#34;,
-&amp;#34;local_port&amp;#34;:1080,
-&amp;#34;password&amp;#34;:&amp;#34;your_server_passwd&amp;#34;,
-&amp;#34;timeout&amp;#34;:300,
-&amp;#34;method&amp;#34;:&amp;#34;aes-256-cfb&amp;#34;,
-&amp;#34;fast_open&amp;#34;: false,
-&amp;#34;workers&amp;#34;: 1
-}
-&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>&lt;strong>解释&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>&lt;code>server&lt;/code>: ss服务器IP&lt;/li>
-&lt;li>&lt;code>server_port&lt;/code>: ss服务器IP端口&lt;/li>
-&lt;li>&lt;code>local_address&lt;/code>: 本地ip&lt;/li>
-&lt;li>&lt;code>local_port&lt;/code>: #本地端口&lt;/li>
-&lt;li>&lt;code>password&lt;/code>: 连接ss密码&lt;/li>
-&lt;li>&lt;code>timeout&lt;/code>: 等待超时&lt;/li>
-&lt;li>&lt;code>method&lt;/code>: 加密方式&lt;/li>
-&lt;li>&lt;code>fast_open&lt;/code>: true 或 false。如果你的服务器 Linux 内核在3.7+，可以开启 fast_open 以降低延迟。开启方法： echo 3 &amp;gt; /proc/sys/net/ipv4/tcp_fastopen 开启之后，将 fast_open 的配置设置为 true 即可&lt;/li>
-&lt;li>&lt;code>workers&lt;/code>: 工作线程数&lt;/li>
-&lt;/ul></description></item></channel></rss>
+&lt;p>说道看牙，我的第一反应并没有说是去正规医院看病，因为我对他们也不了解，我怕被坑，然后正好兔子公司的有福利，可以用 Q点 兑换&lt;strong>瑞尔齿科&lt;/strong>的金卡，洗牙免费，看牙打折，网上简单搜索了一下评价还可以，于是我们就打打电话预约时间，先洗牙，顺便检查牙齿。&lt;/p></description></item></channel></rss>
