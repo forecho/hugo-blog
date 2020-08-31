@@ -7,7 +7,8 @@
 &lt;ul>
 &lt;li>我的 MacBook 可以外接显示器。&lt;/li>
 &lt;li>没有通勤时间。&lt;/li>
-&lt;/ul></description></item><item><title>【深度理财12】现在投资什么最好？</title><link>https://blog.forecho.com/financedeep-12.html</link><pubDate>Sat, 25 Jul 2020 11:09:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-12.html</guid><description>&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/2020%2007%20250q2PEp%20.jpg" alt="202007250q2PEp">&lt;/p>
+&lt;/ul></description></item><item><title>【深度理财13】投资 投机 赌博</title><link>https://blog.forecho.com/financedeep-13.html</link><pubDate>Wed, 26 Aug 2020 22:09:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-13.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>刚开始做投资的朋友，可以经常听到投机还有赌博这个词，你是否思考过，他们的界限到底是什么呢？今天这篇文章就来好好说说这三个的区别。&lt;/p></description></item><item><title>【深度理财12】现在投资什么最好？</title><link>https://blog.forecho.com/financedeep-12.html</link><pubDate>Sat, 25 Jul 2020 11:09:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-12.html</guid><description>&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/2020%2007%20250q2PEp%20.jpg" alt="202007250q2PEp">&lt;/p>
 &lt;h2 id="引言">引言&lt;/h2>
 &lt;p>最近有刚开始理财的朋友一直追问我「现在投资什么最好？」，今天我试着回答这个问题。&lt;/p>
 &lt;h2 id="tldr">TL;DR&lt;/h2>
@@ -74,11 +75,4 @@
 &lt;p>于是我只能自己摸索着如何把『电子书繁体竖排转换简体横排』，然后整理了成这篇文章。&lt;/p></description></item><item><title>自动化部署</title><link>https://blog.forecho.com/automatic-deployment.html</link><pubDate>Wed, 18 Mar 2020 19:36:14 +0800</pubDate><guid>https://blog.forecho.com/automatic-deployment.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
 &lt;p>有一个基于 Yii 的小项目，放在 GitHub 私有仓库里。刚开始部署的时候，直接手动 SSH 到服务器上，然后执行 &lt;code>git pull&lt;/code>，简单粗暴。但是随着时间的推移，现在在3台服务器部署了5套代码。以前的部署方式肯定是不行了，那得累死。&lt;/p>
 &lt;p>折腾了两天，终于搞定了方案，特来分享经验。&lt;/p></description></item><item><title>记录这不平凡的一个月</title><link>https://blog.forecho.com/record-this-extraordinary-month.html</link><pubDate>Sat, 29 Feb 2020 12:56:53 +0800</pubDate><guid>https://blog.forecho.com/record-this-extraordinary-month.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>今天是这个月的最后一天了，因为『新冠病毒』的原因，让这个月注定不再平凡。我打算写下这篇文章，用文字记录我身边的事情。&lt;/p></description></item><item><title>美股入金不用愁</title><link>https://blog.forecho.com/us-stock-deposit.html</link><pubDate>Mon, 24 Feb 2020 18:25:46 +0800</pubDate><guid>https://blog.forecho.com/us-stock-deposit.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>最近很多小伙伴咨询我美股如何入金的问题，今天我这里就统一回复一下我了解的方案。&lt;/p>
-&lt;h2 id="方案一">方案一&lt;/h2>
-&lt;h3 id="适合对象">适合对象&lt;/h3>
-&lt;p>已经开通富途证券或者准备开通富途证券的朋友。&lt;/p>
-&lt;p>PS：关于如何开通富途证券，详情参考我这篇文章&lt;a href="https://blog.forecho.com/how-do-i-invest-in-american-stocks.html">《我是怎么投资美股的》&lt;/a>。&lt;/p>
-&lt;p>⚠️ 懒人&lt;a href="http://link.3li3.com/futu">开户链接&lt;/a>&lt;/p>
-&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/futu5.png!s" alt="富途证券开户">&lt;/p></description></item></channel></rss>
+&lt;p>今天是这个月的最后一天了，因为『新冠病毒』的原因，让这个月注定不再平凡。我打算写下这篇文章，用文字记录我身边的事情。&lt;/p></description></item></channel></rss>
