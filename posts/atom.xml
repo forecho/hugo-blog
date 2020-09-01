@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on forecho's Blog</title><link>https://blog.forecho.com/posts.html</link><description>Recent content in Posts on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 27 Aug 2020 10:09:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/posts/atom.xml" rel="self" type="application/rss+xml"/><item><title>「移动办公」地点测评</title><link>https://blog.forecho.com/remote-working.html</link><pubDate>Thu, 27 Aug 2020 10:09:00 +0800</pubDate><guid>https://blog.forecho.com/remote-working.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on forecho's Blog</title><link>https://blog.forecho.com/posts.html</link><description>Recent content in Posts on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 31 Aug 2020 22:09:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/posts/atom.xml" rel="self" type="application/rss+xml"/><item><title>【深度理财14】聊聊最近的美股打新</title><link>https://blog.forecho.com/financedeep-14.html</link><pubDate>Mon, 31 Aug 2020 22:09:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-14.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>最近这一个月来已经参与了三次美股打新，今天这篇文章就来给大家分享一下我的「战果」。他们分别是：&lt;/p>
+&lt;h2 id="理想">理想&lt;/h2>
+&lt;p>因为汽车之家的李想和美团的王兴投资，我参与了理想汽车的打新。又因为特斯拉和蔚来汽车股票最近几个月的大涨，理想汽车的打新明显有很多人参与了，我分别在老虎证券和雪盈上参加了打新，结果如下：&lt;/p></description></item><item><title>「移动办公」地点测评</title><link>https://blog.forecho.com/remote-working.html</link><pubDate>Thu, 27 Aug 2020 10:09:00 +0800</pubDate><guid>https://blog.forecho.com/remote-working.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
 &lt;p>最近业余时间都在开发一款个人资产管理的系统，所以连续几个周末都在「移动办公」，去过几个地方，想跟大家分享一下自己的体会。&lt;/p>
 &lt;h2 id="地点">地点&lt;/h2>
 &lt;h3 id="在家">在家&lt;/h3>
@@ -74,5 +77,4 @@
 &lt;p>我现在有一本繁体竖排的电子书，竖排真的是没那么阅读习惯。繁体看着也累，于是想到了做个转换，于是网上搜索资料，但搜索到的都是与我反过来的，他们要把简体横排转换成繁体竖排。&lt;/p>
 &lt;p>于是我只能自己摸索着如何把『电子书繁体竖排转换简体横排』，然后整理了成这篇文章。&lt;/p></description></item><item><title>自动化部署</title><link>https://blog.forecho.com/automatic-deployment.html</link><pubDate>Wed, 18 Mar 2020 19:36:14 +0800</pubDate><guid>https://blog.forecho.com/automatic-deployment.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
 &lt;p>有一个基于 Yii 的小项目，放在 GitHub 私有仓库里。刚开始部署的时候，直接手动 SSH 到服务器上，然后执行 &lt;code>git pull&lt;/code>，简单粗暴。但是随着时间的推移，现在在3台服务器部署了5套代码。以前的部署方式肯定是不行了，那得累死。&lt;/p>
-&lt;p>折腾了两天，终于搞定了方案，特来分享经验。&lt;/p></description></item><item><title>记录这不平凡的一个月</title><link>https://blog.forecho.com/record-this-extraordinary-month.html</link><pubDate>Sat, 29 Feb 2020 12:56:53 +0800</pubDate><guid>https://blog.forecho.com/record-this-extraordinary-month.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>今天是这个月的最后一天了，因为『新冠病毒』的原因，让这个月注定不再平凡。我打算写下这篇文章，用文字记录我身边的事情。&lt;/p></description></item></channel></rss>
+&lt;p>折腾了两天，终于搞定了方案，特来分享经验。&lt;/p></description></item></channel></rss>
