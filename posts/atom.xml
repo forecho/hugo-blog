@@ -1,4 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on forecho's Blog</title><link>https://blog.forecho.com/posts.html</link><description>Recent content in Posts on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 31 Aug 2020 22:09:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/posts/atom.xml" rel="self" type="application/rss+xml"/><item><title>【深度理财14】聊聊最近的美股打新</title><link>https://blog.forecho.com/financedeep-14.html</link><pubDate>Mon, 31 Aug 2020 22:09:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-14.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on forecho's Blog</title><link>https://blog.forecho.com/posts.html</link><description>Recent content in Posts on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 04 Sep 2020 14:09:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/posts/atom.xml" rel="self" type="application/rss+xml"/><item><title>CashWarden 一款开源的资产管理系统</title><link>https://blog.forecho.com/hello-cashwarden.html</link><pubDate>Fri, 04 Sep 2020 14:09:00 +0800</pubDate><guid>https://blog.forecho.com/hello-cashwarden.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>今天要分享是一款我自己写的资产管理系统，而且这个系统代码开源。这篇文章我就来说说它的特性和使用指南。&lt;/p>
+&lt;ul>
+&lt;li>官网地址： &lt;a href="http://www.cashwarden.com/">http://www.cashwarden.com/&lt;/a>&lt;/li>
+&lt;li>源码地址： &lt;a href="https://github.com/cashwarden">https://github.com/cashwarden&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="特性">特性&lt;/h2>
+&lt;h3 id="记账">记账&lt;/h3>
+&lt;p>资产系统最重要也是最基本的肯定是记账了，清除自己的每一笔收支情况。为了让记账更轻松，我还开发了一个快速记账功能。&lt;/p></description></item><item><title>【深度理财14】聊聊最近的美股打新</title><link>https://blog.forecho.com/financedeep-14.html</link><pubDate>Mon, 31 Aug 2020 22:09:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-14.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
 &lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20200901hqt6rA.jpg" alt="20200901hqt6rA">&lt;/p>
 &lt;p>最近这一个月来已经参与了三次美股打新，今天这篇文章就来给大家分享一下我的「战果」。他们分别是：&lt;/p>
 &lt;h2 id="理想">理想&lt;/h2>
@@ -76,6 +84,4 @@
 &lt;h2 id="准备环境">准备环境&lt;/h2>
 &lt;p>自从用过 Docker 之后，我现在搭建环境第一步就去找 Docker 安装方式，其实他们官方文档写的非常清楚，但是我还是踩了一些坑，主要是网络问题，太慢，必须要换中国源。&lt;/p></description></item><item><title>电子书繁体竖排转换简体横排</title><link>https://blog.forecho.com/e-book-traditional-vertical-conversion-simplified-horizontal.html</link><pubDate>Thu, 19 Mar 2020 20:57:28 +0800</pubDate><guid>https://blog.forecho.com/e-book-traditional-vertical-conversion-simplified-horizontal.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
 &lt;p>我现在有一本繁体竖排的电子书，竖排真的是没那么阅读习惯。繁体看着也累，于是想到了做个转换，于是网上搜索资料，但搜索到的都是与我反过来的，他们要把简体横排转换成繁体竖排。&lt;/p>
-&lt;p>于是我只能自己摸索着如何把『电子书繁体竖排转换简体横排』，然后整理了成这篇文章。&lt;/p></description></item><item><title>自动化部署</title><link>https://blog.forecho.com/automatic-deployment.html</link><pubDate>Wed, 18 Mar 2020 19:36:14 +0800</pubDate><guid>https://blog.forecho.com/automatic-deployment.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>有一个基于 Yii 的小项目，放在 GitHub 私有仓库里。刚开始部署的时候，直接手动 SSH 到服务器上，然后执行 &lt;code>git pull&lt;/code>，简单粗暴。但是随着时间的推移，现在在3台服务器部署了5套代码。以前的部署方式肯定是不行了，那得累死。&lt;/p>
-&lt;p>折腾了两天，终于搞定了方案，特来分享经验。&lt;/p></description></item></channel></rss>
+&lt;p>于是我只能自己摸索着如何把『电子书繁体竖排转换简体横排』，然后整理了成这篇文章。&lt;/p></description></item></channel></rss>

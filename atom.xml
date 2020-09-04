@@ -1,4 +1,59 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 31 Aug 2020 22:09:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>【深度理财14】聊聊最近的美股打新</title><link>https://blog.forecho.com/financedeep-14.html</link><pubDate>Mon, 31 Aug 2020 22:09:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-14.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 04 Sep 2020 14:09:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>CashWarden 一款开源的资产管理系统</title><link>https://blog.forecho.com/hello-cashwarden.html</link><pubDate>Fri, 04 Sep 2020 14:09:00 +0800</pubDate><guid>https://blog.forecho.com/hello-cashwarden.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>今天要分享是一款我自己写的资产管理系统，而且这个系统代码开源。这篇文章我就来说说它的特性和使用指南。&lt;/p>
+&lt;ul>
+&lt;li>官网地址： &lt;a href="http://www.cashwarden.com/">http://www.cashwarden.com/&lt;/a>&lt;/li>
+&lt;li>源码地址： &lt;a href="https://github.com/cashwarden">https://github.com/cashwarden&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="特性">特性&lt;/h2>
+&lt;h3 id="记账">记账&lt;/h3>
+&lt;p>资产系统最重要也是最基本的肯定是记账了，清除自己的每一笔收支情况。为了让记账更轻松，我还开发了一个快速记账功能。&lt;/p>
+&lt;p>我们平常不想记账的一个原因可能就是嫌记账太麻烦了，要输入很多东西，所以我参考了之前我用的记账软件，设计了这个功能。简单的来说就是可以通过发送一句话实现记账功能，效果如下：&lt;/p>
+&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20200904A2e1h7.png" alt="20200904A2e1h7">&lt;/p>
+&lt;h3 id="账号">账号&lt;/h3>
+&lt;p>一个资产管理系统，不单单只是记账功能，还应该可以一览无余的知道自己的资产，所以就有了账号模块。你可以把你的所有储蓄卡、信用卡统统添加记录上来，做一个对自己资产了如指掌的人。&lt;/p>
+&lt;h3 id="分析">分析&lt;/h3>
+&lt;p>目前在账号、记录和仪表盘都可以看到一些分析统计的数据，初期急着上线所以比较简陋，等后期再完善。&lt;/p>
+&lt;h3 id="定时自动记账">定时自动记账&lt;/h3>
+&lt;p>有计划，但暂未开发。&lt;/p>
+&lt;h3 id="预算">预算&lt;/h3>
+&lt;p>有计划，但暂未开发。&lt;/p>
+&lt;h2 id="使用指南">使用指南&lt;/h2>
+&lt;h3 id="使用快速记账">使用快速记账&lt;/h3>
+&lt;p>目前快速记账功能是通过关键词匹配实现的，所以要想使用这个功能你就要先在 「设置 -&amp;gt; &lt;a href="http://www.cashwarden.com/#/settings/rules">规则设置&lt;/a>」中添加你的配置。然后才可以正常使用，目前「快速记账」有两个入口：&lt;/p>
+&lt;p>1⃣️ 在&lt;a href="http://www.cashwarden.com/#/record/index">记录&lt;/a>页面直接输入关键词然后按下回车键就可以添加了。&lt;/p>
+&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20200904g5uVQh.png" alt="20200904g5uVQh">&lt;/p>
+&lt;p>2⃣️ 给 Telegram Bot 发消息记账&lt;/p>
+&lt;p>在&lt;a href="http://www.cashwarden.com/#/settings/personal/binding">账号绑定&lt;/a>页面按照提示先绑定自己的 Telegram 账号就可以使用了。&lt;/p>
+&lt;p>另外日期我可以帮你智能的匹配好了，默认情况下是当前时间，但是你也可以这样去记账：&lt;/p>
+&lt;ul>
+&lt;li>昨天买菜23：添加时间是昨天的记录&lt;/li>
+&lt;li>前天买菜23：添加时间是前天的记录&lt;/li>
+&lt;li>23号买菜23：如果本月23号已经过了，那么添加时间是本月23号的记录。否则就是上个月23号的记录。&lt;/li>
+&lt;li>8月23号买菜23：如果本年8月23号已经过了，那么添加时间是本年8月23号的记录。否则就是去年8月23号的记录。&lt;/li>
+&lt;/ul>
+&lt;h3 id="规则的使用">规则的使用&lt;/h3>
+&lt;p>配置关键词（可以多个）之后，快速记账的时候就会根据关键词记账。我们可以分配支付或者收入的账号，还可以分配类别和标签。最关键的是可以匹配多个关键词，根据优先级来依序匹配记账。这意味着你可以实现快速记账的时候分配指定支付账号。&lt;/p>
+&lt;p>比方说吃饭这个事情，有时候我用饭卡消费，有时候用微信零钱，有时候用支付宝等等。那么我们就可以这样设置规则：&lt;/p>
+&lt;ul>
+&lt;li>添加一条「饭」关键词，然后分配对应的默认支付账户（比方说是饭卡），分配分类，分配标签等，&lt;strong>使用默认排序&lt;/strong>。&lt;/li>
+&lt;li>添加几条账户支付相关的规则，只需要设置关键词和分配支付账号，&lt;strong>把排序设置为10&lt;/strong>（越小数字优先级越高）。&lt;/li>
+&lt;/ul>
+&lt;p>如果是饭卡消费的你只要输入「午饭20」就可以了，如果是支付宝消费的，你就可以输入「午饭支付宝20」。&lt;/p>
+&lt;h3 id="标签说明">标签说明&lt;/h3>
+&lt;p>标签设置除了常规的标签操作之外，还有一个需要说明的就是：&lt;/p>
+&lt;ul>
+&lt;li>如果使用快速记账功能，描述信息如果存在标签库中，会自动在这笔记账信息中标注标签。&lt;/li>
+&lt;/ul>
+&lt;p>比方说我现在在标签设置中添加了「地铁」关键词，但是我在规则中改关键词规则并没有设置 「分配关键词」。但是当使用「地铁3.9」快速记账的时候，会自动加上「地铁」标签。&lt;/p>
+&lt;h2 id="诞生记">诞生记&lt;/h2>
+&lt;h3 id="起因">起因&lt;/h3>
+&lt;p>开发这个资产管理系统是因为我常用的一款记账软件（微记账）在7月份的时候发布了一个公告，上个月之后他们要停更了，而且他们没有 Web 版一直用着不爽，我早就想自己开发一款记账软件了，正好借着这个机会。&lt;/p>
+&lt;p>刚开始只是想开发一个记账软件，后来发现要做一个资产管理系统，要做的事情还是很多的。8月底的时候已经跑通了，于是发了&lt;a href="https://twitter.com/caizhenghai/status/1298480058357567489">一个 Twitter&lt;/a>，没想到获得 300 个点赞，很多人提出了想试用的要求，所以我不得不抓紧时间调整细节，就在昨天（9月3号）对外公开内测了。&lt;/p>
+&lt;h3 id="名字由来">名字由来&lt;/h3>
+&lt;p>密码管理我以前一直用 1Password，移动端免费，但是多账号同步收费，其实我都准备付费了的，直到我遇到了 &lt;a href="https://bitwarden.com/">Bitwarden&lt;/a>，开源，基本功能免费，而且还可以自己搭建，虽然界面没有 1Password 好看，但是基本功能也够我用了。&lt;/p>
+&lt;p>所以我这个系统就是想做资产管理届的 Bitwarden，于是就有了 CashWarden。&lt;/p>
+&lt;h2 id="最后">最后&lt;/h2>
+&lt;p>我们开了一个 Telegram 讨论组，如果你对此系统感兴趣欢迎加入讨论，地址是 &lt;a href="https://t.me/cashwarden">https://t.me/cashwarden&lt;/a>&lt;/p></description></item><item><title>【深度理财14】聊聊最近的美股打新</title><link>https://blog.forecho.com/financedeep-14.html</link><pubDate>Mon, 31 Aug 2020 22:09:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-14.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
 &lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20200901hqt6rA.jpg" alt="20200901hqt6rA">&lt;/p>
 &lt;p>最近这一个月来已经参与了三次美股打新，今天这篇文章就来给大家分享一下我的「战果」。他们分别是：&lt;/p>
 &lt;h2 id="理想">理想&lt;/h2>
@@ -1184,416 +1239,4 @@ return ($yii instanceof \yii\console\Application) ? &amp;#39;&amp;#39; : $yii-&a
 &lt;/ul>
 &lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/k1QTP2.jpg!m" alt="k1QTP2">&lt;/p>
 &lt;h2 id="最后">最后&lt;/h2>
-&lt;p>网上搜索了很多资料说要修改代码（修改 opf 和 css 文件），实测最新版的『Chinese Text Conversion』插件已经不需要那么做了，给开发者点赞。&lt;/p></description></item><item><title>自动化部署</title><link>https://blog.forecho.com/automatic-deployment.html</link><pubDate>Wed, 18 Mar 2020 19:36:14 +0800</pubDate><guid>https://blog.forecho.com/automatic-deployment.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>有一个基于 Yii 的小项目，放在 GitHub 私有仓库里。刚开始部署的时候，直接手动 SSH 到服务器上，然后执行 &lt;code>git pull&lt;/code>，简单粗暴。但是随着时间的推移，现在在3台服务器部署了5套代码。以前的部署方式肯定是不行了，那得累死。&lt;/p>
-&lt;p>折腾了两天，终于搞定了方案，特来分享经验。&lt;/p>
-&lt;h2 id="解决方案">解决方案&lt;/h2>
-&lt;h3 id="方案一基于-github-actions">方案一（基于 GitHub Actions）&lt;/h3>
-&lt;p>我还是挺喜欢 GitHub 的，功能强大。去年免费用户也可以创建私有仓库了，而且我昨天调研的时候才发现 &lt;a href="https://github.com/features/actions">GitHub Actions&lt;/a> 对于私有项目也是有免费额度的，每个月 2000 分钟，对于项目足够应付了。于是跑去看文档，看看怎么玩。&lt;/p>
-&lt;p>发现 Github Actions 上手真简单，分分钟我就实现了自动构建和部署了，第一版代码如下：&lt;/p>
-&lt;div class="highlight">&lt;div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
-&lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
-&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">24
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">25
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">26
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">27
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">28
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">29
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">30
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">31
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">32
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">33
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">34
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-yml" data-lang="yml">&lt;span style="color:#069;font-weight:bold">name&lt;/span>:&lt;span style="color:#bbb"> &lt;/span>PHP&lt;span style="color:#bbb"> &lt;/span>Auto&lt;span style="color:#bbb"> &lt;/span>Deploy&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb">&lt;/span>&lt;span style="color:#069;font-weight:bold">on&lt;/span>:&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb"> &lt;/span>&lt;span style="color:#069;font-weight:bold">push&lt;/span>:&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb"> &lt;/span>&lt;span style="color:#069;font-weight:bold">branches&lt;/span>:&lt;span style="color:#bbb"> &lt;/span>[&lt;span style="color:#bbb"> &lt;/span>master&lt;span style="color:#bbb"> &lt;/span>]&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb"> &lt;/span>&lt;span style="color:#069;font-weight:bold">pull_request&lt;/span>:&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb"> &lt;/span>&lt;span style="color:#069;font-weight:bold">branches&lt;/span>:&lt;span style="color:#bbb"> &lt;/span>[&lt;span style="color:#bbb"> &lt;/span>master&lt;span style="color:#bbb"> &lt;/span>]&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb">&lt;/span>&lt;span style="color:#069;font-weight:bold">jobs&lt;/span>:&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb"> &lt;/span>&lt;span style="color:#069;font-weight:bold">build&lt;/span>:&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb"> &lt;/span>&lt;span style="color:#069;font-weight:bold">runs-on&lt;/span>:&lt;span style="color:#bbb"> &lt;/span>ubuntu-latest&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb"> &lt;/span>&lt;span style="color:#069;font-weight:bold">steps&lt;/span>:&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb"> &lt;/span>- &lt;span style="color:#069;font-weight:bold">uses&lt;/span>:&lt;span style="color:#bbb"> &lt;/span>actions/checkout@v2&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb"> &lt;/span>- &lt;span style="color:#069;font-weight:bold">name&lt;/span>:&lt;span style="color:#bbb"> &lt;/span>Validate&lt;span style="color:#bbb"> &lt;/span>composer.json&lt;span style="color:#bbb"> &lt;/span>and&lt;span style="color:#bbb"> &lt;/span>composer.lock&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb"> &lt;/span>&lt;span style="color:#069;font-weight:bold">run&lt;/span>:&lt;span style="color:#bbb"> &lt;/span>composer&lt;span style="color:#bbb"> &lt;/span>validate&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb"> &lt;/span>- &lt;span style="color:#069;font-weight:bold">name&lt;/span>:&lt;span style="color:#bbb"> &lt;/span>Setting&lt;span style="color:#bbb"> &lt;/span>composer&lt;span style="color:#bbb"> &lt;/span>config&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb"> &lt;/span>&lt;span style="color:#069;font-weight:bold">run&lt;/span>:&lt;span style="color:#bbb"> &lt;/span>composer&lt;span style="color:#bbb"> &lt;/span>config&lt;span style="color:#bbb"> &lt;/span>-g&lt;span style="color:#bbb"> &lt;/span>github-oauth.github.com&lt;span style="color:#bbb"> &lt;/span>${{&lt;span style="color:#bbb"> &lt;/span>secrets.GITHUB_ONLYREAD_TOKEN&lt;span style="color:#bbb"> &lt;/span>}}&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb"> &lt;/span>- &lt;span style="color:#069;font-weight:bold">name&lt;/span>:&lt;span style="color:#bbb"> &lt;/span>Install&lt;span style="color:#bbb"> &lt;/span>dependencies&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb"> &lt;/span>&lt;span style="color:#069;font-weight:bold">run&lt;/span>:&lt;span style="color:#bbb"> &lt;/span>composer&lt;span style="color:#bbb"> &lt;/span>install&lt;span style="color:#bbb"> &lt;/span>--prefer-dist&lt;span style="color:#bbb"> &lt;/span>--no-progress&lt;span style="color:#bbb"> &lt;/span>--no-suggest&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb"> &lt;/span>- &lt;span style="color:#069;font-weight:bold">name&lt;/span>:&lt;span style="color:#bbb"> &lt;/span>Deploy&lt;span style="color:#bbb"> &lt;/span>to&lt;span style="color:#bbb"> &lt;/span>Server&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb"> &lt;/span>&lt;span style="color:#069;font-weight:bold">uses&lt;/span>:&lt;span style="color:#bbb"> &lt;/span>yiier/yii2-base-deploy@master&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb"> &lt;/span>&lt;span style="color:#069;font-weight:bold">with&lt;/span>:&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb"> &lt;/span>&lt;span style="color:#069;font-weight:bold">user&lt;/span>:&lt;span style="color:#bbb"> &lt;/span>root&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb"> &lt;/span>&lt;span style="color:#069;font-weight:bold">host&lt;/span>:&lt;span style="color:#bbb"> &lt;/span>xxxxx&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb"> &lt;/span>&lt;span style="color:#069;font-weight:bold">path&lt;/span>:&lt;span style="color:#bbb"> &lt;/span>xxxx&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb"> &lt;/span>&lt;span style="color:#069;font-weight:bold">owner&lt;/span>:&lt;span style="color:#bbb"> &lt;/span>root&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb"> &lt;/span>&lt;span style="color:#069;font-weight:bold">env&lt;/span>:&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb"> &lt;/span>&lt;span style="color:#069;font-weight:bold">DEPLOY_KEY&lt;/span>:&lt;span style="color:#bbb"> &lt;/span>${{&lt;span style="color:#bbb"> &lt;/span>secrets.DEPLOY_KEY&lt;span style="color:#bbb"> &lt;/span>}}&lt;span style="color:#bbb">
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>运行的时候，发现问题了，GitHub Actions rsync 到国内服务器速度真的巨慢。100M+ 的文件，硬生生的花了2个多小时，这还怎么玩？？&lt;/p>
-&lt;p>于是我跑到 &lt;a href="https://www.v2ex.com/t/653537">V2EX 发帖求助&lt;/a>，然后我就试用了一下曲线救国的方案，就是先把代码上传到云存储上，然后在 SSH 到服务器上下载部署，折腾了半天，第二个版本代码来了：&lt;/p>
-&lt;div class="highlight">&lt;div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
-&lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
-&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">24
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">25
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">26
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">27
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">28
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">29
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">30
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">31
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">32
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">33
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">34
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">35
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">36
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">37
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">38
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">39
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">40
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">41
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">42
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">43
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">44
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">45
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">46
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">47
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">48
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">49
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">50
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">51
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">52
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">53
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">54
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">55
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">56
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">57
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-yml" data-lang="yml">&lt;span style="color:#069;font-weight:bold">name&lt;/span>:&lt;span style="color:#bbb"> &lt;/span>PHP&lt;span style="color:#bbb"> &lt;/span>Auto&lt;span style="color:#bbb"> &lt;/span>Deploy&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb">&lt;/span>&lt;span style="color:#069;font-weight:bold">on&lt;/span>:&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb"> &lt;/span>&lt;span style="color:#069;font-weight:bold">push&lt;/span>:&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb"> &lt;/span>&lt;span style="color:#069;font-weight:bold">branches&lt;/span>:&lt;span style="color:#bbb"> &lt;/span>[&lt;span style="color:#bbb"> &lt;/span>master&lt;span style="color:#bbb"> &lt;/span>]&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb"> &lt;/span>&lt;span style="color:#069;font-weight:bold">pull_request&lt;/span>:&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb"> &lt;/span>&lt;span style="color:#069;font-weight:bold">branches&lt;/span>:&lt;span style="color:#bbb"> &lt;/span>[&lt;span style="color:#bbb"> &lt;/span>master&lt;span style="color:#bbb"> &lt;/span>]&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb">&lt;/span>&lt;span style="color:#069;font-weight:bold">jobs&lt;/span>:&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb"> &lt;/span>&lt;span style="color:#069;font-weight:bold">build&lt;/span>:&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb"> &lt;/span>&lt;span style="color:#069;font-weight:bold">runs-on&lt;/span>:&lt;span style="color:#bbb"> &lt;/span>ubuntu-latest&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb"> &lt;/span>&lt;span style="color:#069;font-weight:bold">steps&lt;/span>:&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb"> &lt;/span>- &lt;span style="color:#069;font-weight:bold">uses&lt;/span>:&lt;span style="color:#bbb"> &lt;/span>actions/checkout@master&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb"> &lt;/span>- &lt;span style="color:#069;font-weight:bold">name&lt;/span>:&lt;span style="color:#bbb"> &lt;/span>Speed&lt;span style="color:#bbb"> &lt;/span>up&lt;span style="color:#bbb"> &lt;/span>the&lt;span style="color:#bbb"> &lt;/span>packages&lt;span style="color:#bbb"> &lt;/span>installation&lt;span style="color:#bbb"> &lt;/span>process&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb"> &lt;/span>&lt;span style="color:#069;font-weight:bold">run&lt;/span>:&lt;span style="color:#bbb"> &lt;/span>composer&lt;span style="color:#bbb"> &lt;/span>global&lt;span style="color:#bbb"> &lt;/span>require&lt;span style="color:#bbb"> &lt;/span>hirak/prestissimo&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb"> &lt;/span>- &lt;span style="color:#069;font-weight:bold">name&lt;/span>:&lt;span style="color:#bbb"> &lt;/span>Setting&lt;span style="color:#bbb"> &lt;/span>composer&lt;span style="color:#bbb"> &lt;/span>config&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb"> &lt;/span>&lt;span style="color:#069;font-weight:bold">run&lt;/span>:&lt;span style="color:#bbb"> &lt;/span>composer&lt;span style="color:#bbb"> &lt;/span>config&lt;span style="color:#bbb"> &lt;/span>-g&lt;span style="color:#bbb"> &lt;/span>github-oauth.github.com&lt;span style="color:#bbb"> &lt;/span>${{&lt;span style="color:#bbb"> &lt;/span>secrets.GITHUB_ONLYREAD_TOKEN&lt;span style="color:#bbb"> &lt;/span>}}&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb"> &lt;/span>- &lt;span style="color:#069;font-weight:bold">name&lt;/span>:&lt;span style="color:#bbb"> &lt;/span>Install&lt;span style="color:#bbb"> &lt;/span>dependencies&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb"> &lt;/span>&lt;span style="color:#069;font-weight:bold">run&lt;/span>:&lt;span style="color:#bbb"> &lt;/span>composer&lt;span style="color:#bbb"> &lt;/span>install&lt;span style="color:#bbb"> &lt;/span>--prefer-dist&lt;span style="color:#bbb"> &lt;/span>--ignore-platform-reqs&lt;span style="color:#bbb"> &lt;/span>--no-dev&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb"> &lt;/span>- &lt;span style="color:#069;font-weight:bold">name&lt;/span>:&lt;span style="color:#bbb"> &lt;/span>Organize&lt;span style="color:#bbb"> &lt;/span>files&lt;span style="color:#bbb"> &lt;/span>整理文件&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb"> &lt;/span>&lt;span style="color:#069;font-weight:bold">run&lt;/span>:&lt;span style="color:#bbb"> &lt;/span>rm&lt;span style="color:#bbb"> &lt;/span>-rf&lt;span style="color:#bbb"> &lt;/span>.git&lt;span style="color:#bbb"> &lt;/span>&lt;span style="color:#099">&amp;amp;&amp;amp;&lt;/span>&lt;span style="color:#bbb"> &lt;/span>rm&lt;span style="color:#bbb"> &lt;/span>-rf&lt;span style="color:#bbb"> &lt;/span>README.md&lt;span style="color:#bbb"> &lt;/span>&lt;span style="color:#099">&amp;amp;&amp;amp;&lt;/span>&lt;span style="color:#bbb"> &lt;/span>zip&lt;span style="color:#bbb"> &lt;/span>-r&lt;span style="color:#bbb"> &lt;/span>code.zip&lt;span style="color:#bbb"> &lt;/span>.&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb"> &lt;/span>- &lt;span style="color:#069;font-weight:bold">name&lt;/span>:&lt;span style="color:#bbb"> &lt;/span>Install&lt;span style="color:#bbb"> &lt;/span>OSS&lt;span style="color:#bbb"> &lt;/span>&lt;span style="color:#099">&amp;amp;&amp;amp;&lt;/span>&lt;span style="color:#bbb"> &lt;/span>Upload&lt;span style="color:#bbb"> &lt;/span>Code&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb"> &lt;/span>&lt;span style="color:#069;font-weight:bold">uses&lt;/span>:&lt;span style="color:#bbb"> &lt;/span>manyuanrong/setup-ossutil@v1&lt;span style="color:#f60">.0&lt;/span>&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb"> &lt;/span>&lt;span style="color:#069;font-weight:bold">with&lt;/span>:&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb"> &lt;/span>&lt;span style="color:#069;font-weight:bold">endpoint&lt;/span>:&lt;span style="color:#bbb"> &lt;/span>&lt;span style="color:#c30">&amp;#34;oss-cn-beijing.aliyuncs.com&amp;#34;&lt;/span>&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb"> &lt;/span>&lt;span style="color:#069;font-weight:bold">access-key-id&lt;/span>:&lt;span style="color:#bbb"> &lt;/span>${{&lt;span style="color:#bbb"> &lt;/span>secrets.OSS_ACCESS_KEY_ID&lt;span style="color:#bbb"> &lt;/span>}}&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb"> &lt;/span>&lt;span style="color:#069;font-weight:bold">access-key-secret&lt;/span>:&lt;span style="color:#bbb"> &lt;/span>${{&lt;span style="color:#bbb"> &lt;/span>secrets.OSS_ACCESS_KEY_SECRET&lt;span style="color:#bbb"> &lt;/span>}}&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb"> &lt;/span>- &lt;span style="color:#069;font-weight:bold">run&lt;/span>:&lt;span style="color:#bbb"> &lt;/span>ossutil&lt;span style="color:#bbb"> &lt;/span>cp&lt;span style="color:#bbb"> &lt;/span>-rf&lt;span style="color:#bbb"> &lt;/span>code.zip&lt;span style="color:#bbb"> &lt;/span>oss://xx-backup&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb"> &lt;/span>- &lt;span style="color:#069;font-weight:bold">name&lt;/span>:&lt;span style="color:#bbb"> &lt;/span>Execute&lt;span style="color:#bbb"> &lt;/span>SSH&lt;span style="color:#bbb"> &lt;/span>commmands&lt;span style="color:#bbb"> &lt;/span>on&lt;span style="color:#bbb"> &lt;/span>remote&lt;span style="color:#bbb"> &lt;/span>server&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb"> &lt;/span>&lt;span style="color:#069;font-weight:bold">uses&lt;/span>:&lt;span style="color:#bbb"> &lt;/span>JimCronqvist/action-ssh@master&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb"> &lt;/span>&lt;span style="color:#069;font-weight:bold">env&lt;/span>:&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb"> &lt;/span>&lt;span style="color:#069;font-weight:bold">NAME&lt;/span>:&lt;span style="color:#bbb"> &lt;/span>&lt;span style="color:#c30">&amp;#34;test-deploy&amp;#34;&lt;/span>&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb"> &lt;/span>&lt;span style="color:#069;font-weight:bold">USER&lt;/span>:&lt;span style="color:#bbb"> &lt;/span>&lt;span style="color:#c30">&amp;#34;root&amp;#34;&lt;/span>&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb"> &lt;/span>&lt;span style="color:#069;font-weight:bold">OSS_ACCESS_KEY_ID&lt;/span>:&lt;span style="color:#bbb"> &lt;/span>${{&lt;span style="color:#bbb"> &lt;/span>secrets.OSS_ACCESS_KEY_ID&lt;span style="color:#bbb"> &lt;/span>}}&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb"> &lt;/span>&lt;span style="color:#069;font-weight:bold">OSS_ACCESS_KEY_SECRET&lt;/span>:&lt;span style="color:#bbb"> &lt;/span>${{&lt;span style="color:#bbb"> &lt;/span>secrets.OSS_ACCESS_KEY_SECRET&lt;span style="color:#bbb"> &lt;/span>}}&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb"> &lt;/span>&lt;span style="color:#069;font-weight:bold">with&lt;/span>:&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb"> &lt;/span>&lt;span style="color:#069;font-weight:bold">hosts&lt;/span>:&lt;span style="color:#bbb"> &lt;/span>&lt;span style="color:#c30">&amp;#39;root@xxxxxxxx&amp;#39;&lt;/span>&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb"> &lt;/span>&lt;span style="color:#069;font-weight:bold">privateKey&lt;/span>:&lt;span style="color:#bbb"> &lt;/span>${{&lt;span style="color:#bbb"> &lt;/span>secrets.DEPLOY_KEY&lt;span style="color:#bbb"> &lt;/span>}}&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb"> &lt;/span>&lt;span style="color:#069;font-weight:bold">debug&lt;/span>:&lt;span style="color:#bbb"> &lt;/span>&lt;span style="color:#069;font-weight:bold">false&lt;/span>&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb"> &lt;/span>&lt;span style="color:#069;font-weight:bold">command&lt;/span>:&lt;span style="color:#bbb"> &lt;/span>&lt;span style="color:#c30;font-style:italic">|
-&lt;/span>&lt;span style="color:#c30;font-style:italic"> mkdir -p ~/www/tmp&lt;/span>&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb"> &lt;/span>echo&lt;span style="color:#bbb"> &lt;/span>$&lt;span style="color:#c30">&amp;#39;\n&amp;#39;&lt;/span>&lt;span style="color:#bbb"> &lt;/span>&lt;span style="color:#c30">&amp;#34;------ DOWNLOAD CODE -------------------&amp;#34;&lt;/span>&lt;span style="color:#bbb"> &lt;/span>$&lt;span style="color:#c30">&amp;#39;\n&amp;#39;&lt;/span>&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb"> &lt;/span>sudo&lt;span style="color:#bbb"> &lt;/span>rm&lt;span style="color:#bbb"> &lt;/span>~/ossutil64&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb"> &lt;/span>wget&lt;span style="color:#bbb"> &lt;/span>http://gosspublic.alicdn.com/ossutil/&lt;span style="color:#f60">1.6.10&lt;/span>/ossutil64&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb"> &lt;/span>sudo&lt;span style="color:#bbb"> &lt;/span>chmod&lt;span style="color:#bbb"> &lt;/span>&lt;span style="color:#f60">755&lt;/span>&lt;span style="color:#bbb"> &lt;/span>~/ossutil64&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb"> &lt;/span>~/ossutil64&lt;span style="color:#bbb"> &lt;/span>config&lt;span style="color:#bbb"> &lt;/span>-e&lt;span style="color:#bbb"> &lt;/span>oss-cn-beijing.aliyuncs.com&lt;span style="color:#bbb"> &lt;/span>-i&lt;span style="color:#bbb"> &lt;/span>$OSS_ACCESS_KEY_ID&lt;span style="color:#bbb"> &lt;/span>-k&lt;span style="color:#bbb"> &lt;/span>$OSS_ACCESS_KEY_SECRET&lt;span style="color:#bbb"> &lt;/span>-L&lt;span style="color:#bbb"> &lt;/span>CH&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb"> &lt;/span>~/ossutil64&lt;span style="color:#bbb"> &lt;/span>cp&lt;span style="color:#bbb"> &lt;/span>oss://xxx-backup/code.zip&lt;span style="color:#bbb"> &lt;/span>~/www/tmp&lt;span style="color:#bbb"> &lt;/span>&lt;span style="color:#099">&amp;amp;&amp;amp;&lt;/span>&lt;span style="color:#bbb"> &lt;/span>unzip&lt;span style="color:#bbb"> &lt;/span>~/www/tmp/code&lt;span style="color:#bbb"> &lt;/span>~/www/tmp/code.zip&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb"> &lt;/span>cp&lt;span style="color:#bbb"> &lt;/span>-rf&lt;span style="color:#bbb"> &lt;/span>~/www/tmp/code&lt;span style="color:#bbb"> &lt;/span>~/www/$NAME&lt;span style="color:#bbb">
-&lt;/span>&lt;span style="color:#bbb"> &lt;/span>echo&lt;span style="color:#bbb"> &lt;/span>$&lt;span style="color:#c30">&amp;#39;\n&amp;#39;&lt;/span>&lt;span style="color:#bbb"> &lt;/span>&lt;span style="color:#c30">&amp;#34;------ CODE READY SUCCESSFUL!!! ---------&amp;#34;&lt;/span>&lt;span style="color:#bbb"> &lt;/span>$&lt;span style="color:#c30">&amp;#39;\n&amp;#39;&lt;/span>&lt;span style="color:#bbb">
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>测试了好多车代码终于写完了，但是跑起来发现还是坑爹，阿里云的 OSS 如果选的是国内的区域上传代码的时候就很慢，如果选的是香港的服务器，解决了上传慢的问题，但是发现下载又很慢（我用的是腾讯云的服务器）。&lt;/p>
-&lt;p>&lt;img src="https://i.loli.net/2020/03/18/sbHn1OzC79ILa3V.jpg" alt="坑爹呢这是？">&lt;/p>
-&lt;p>懒得再继续折腾这个方案了，跑去试试第二个方案。&lt;/p>
-&lt;h3 id="方案二基于-coding-构建">方案二（基于 Coding 构建）&lt;/h3>
-&lt;p>太久没登录 &lt;a href="https://coding.net/">Coding&lt;/a> 了，这次登录发现改版了不少。以前是免费会员限额项目个数，现在转型为团队版本了，免费版功能基本上不限制，只限制人数，最多5个人。&lt;/p>
-&lt;p>Coding 的构建是基于开源的 Jenkins，但是我懒得自己搭建了（没服务器）。一边看&lt;a href="https://help.coding.net/docs/devops/ci/introduce.html">文档&lt;/a>一边写 Jenkinsfile，发现 Jenkins 功能真是强大，有一定的学习门槛。但是最终实现了自己想要的效果，代码参考如下：&lt;/p>
-&lt;div class="highlight">&lt;div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
-&lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
-&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">24
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">25
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">26
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">27
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">28
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">29
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">30
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">31
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">32
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">33
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">34
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">35
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">36
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">37
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">38
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">39
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">40
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">41
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">42
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">43
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">44
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">45
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">46
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">47
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">48
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">49
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">50
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">51
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">52
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">53
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">54
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">55
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">56
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">57
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">58
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">59
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">60
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">61
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">62
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">63
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">64
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">65
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">66
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">67
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">68
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">69
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">70
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">71
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">72
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">73
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">74
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">75
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">76
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">77
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">78
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">79
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">80
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">81
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">82
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">83
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">84
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">85
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">86
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">87
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">88
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">89
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">90
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">91
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">92
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-fallback" data-lang="fallback">pipeline {
-agent any
-stages {
-stage(&amp;#39;Checkout&amp;#39;) {
-steps {
-checkout([
-$class: &amp;#39;GitSCM&amp;#39;,
-branches: [[name: env.GIT_BUILD_REF]],
-userRemoteConfigs: [[url: env.GIT_REPO_URL, credentialsId: env.CREDENTIALS_ID]]
-])
-}
-}
-stage(&amp;#39;Prepare&amp;#39;) {
-steps {
-sh &amp;#39;composer --version&amp;#39;
-// sh &amp;#39;composer config -g repo.packagist composer https://mirrors.aliyun.com/composer/&amp;#39;
-// sh &amp;#39;composer config --list --global&amp;#39;
-// sh &amp;#34;composer config -g github-oauth.github.com ${ env.GITHUB_ONLYREAD_TOKEN }&amp;#34;
-// sh &amp;#39;composer install --prefer-dist --ignore-platform-reqs --no-dev -vvv&amp;#39;
-}
-}
-stage(&amp;#39;Build&amp;#39;) {
-steps {
-echo &amp;#39;构建中...&amp;#39;
-sh &amp;#39;rm -rf .git README.md Jenkinsfile&amp;#39;
-sh &amp;#39;tar -zcf code.tar.gz *&amp;#39;
-echo &amp;#39;构建完成.&amp;#39;
-}
-}
-stage(&amp;#39;Deploy Test&amp;#39;) {
-when {
-branch &amp;#39;test&amp;#39;
-}
-steps {
-script {
-deployCode(&amp;#39;test&amp;#39;, &amp;#39;xxx.xxx.xxx.xxx&amp;#39;, &amp;#39;root&amp;#39;)
-}
-}
-}
-stage(&amp;#39;Deploy Prod&amp;#39;) {
-when {
-branch &amp;#39;master&amp;#39;
-}
-steps {
-script {
-deployCode(&amp;#39;xxx&amp;#39;, &amp;#39;xxx.xxx.xxx.xxx&amp;#39;, &amp;#39;root&amp;#39;)
-deployCode(&amp;#39;xxx&amp;#39;, &amp;#39;xxx.xxx.xxx.xxx&amp;#39;, &amp;#39;root&amp;#39;)
-}
-}
-}
-}
-}
-def deployCode(String name, String host, String user) {
-try {
-def remote = [:]
-remote.name = host
-remote.allowAnyHosts = true
-remote.host = host
-remote.user = user
-// 需要先创建一对 SSH 密钥，把私钥放在 CODING 凭据管理，把公钥放在服务器的 `.ssh/authorized_keys`，实现免密码登录
-withCredentials([sshUserPrivateKey(credentialsId: env.DEPLOY_KEY, keyFileVariable: &amp;#39;id_rsa&amp;#39;)]) {
-remote.identityFile = id_rsa
-// SSH 上传文件到远端服务器
-sshPut remote: remote, from: &amp;#39;code.tar.gz&amp;#39;, into: &amp;#39;/tmp/&amp;#39;
-// 解压缩
-sshCommand remote: remote, command: &amp;#34;rm -rf ~/www/tmp/code&amp;#34;
-sshCommand remote: remote, command: &amp;#34;mkdir -p ~/www/tmp/code&amp;#34;
-sshCommand remote: remote, command: &amp;#34;tar -zxf /tmp/code.tar.gz -C ~/www/tmp/code&amp;#34;
-sshCommand remote: remote, command: &amp;#34;mkdir -p ~/www/${name}&amp;#34;
-sshCommand remote: remote, command: &amp;#34;cp -R ~/www/tmp/code/* ~/www/${name}&amp;#34;
-// 项目权限
-sshCommand remote: remote, sudo: true, command: &amp;#34;chown -R ${user}:${user} ~/www/${name}&amp;#34;
-sshCommand remote: remote, sudo: true, command: &amp;#34;chmod 777 -R ~/www/${name}/runtime&amp;#34;
-sshCommand remote: remote, sudo: true, command: &amp;#34;chmod 777 -R ~/www/${name}/web/upload&amp;#34;
-sshCommand remote: remote, sudo: true, command: &amp;#34;chmod 777 -R ~/www/${name}/web/assets&amp;#34;
-// 项目 Composer
-sshCommand remote: remote, command: &amp;#34;docker exec -w /var/www/${name} laradock_workspace_1 composer config -g repo.packagist composer https://mirrors.aliyun.com/composer/&amp;#34;
-sshCommand remote: remote, command: &amp;#34;docker exec -w /var/www/${name} laradock_workspace_1 composer global require hirak/prestissimo&amp;#34;
-sshCommand remote: remote, command: &amp;#34;docker exec -w /var/www/${name} laradock_workspace_1 composer config -g github-oauth.github.com ${ env.GITHUB_ONLYREAD_TOKEN }&amp;#34;
-sshCommand remote: remote, command: &amp;#34;docker exec -w /var/www/${name} laradock_workspace_1 composer install --prefer-dist -v&amp;#34;
-// 项目 Command
-sshCommand remote: remote, command: &amp;#34;docker exec -w /var/www/${name} laradock_workspace_1 php yii migrate --interactive=0&amp;#34;
-}
-} catch(err) {
-echo &amp;#34;${err}&amp;#34;
-}
-}
-&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>用法我就不细说了，大家看代码和参考文档，学起来不难。这里说说使用 Coding 构建的坑：&lt;/p>
-&lt;ul>
-&lt;li>在部署代码之前运行 &lt;code>composer install&lt;/code> 很慢，即使我使用了阿里云的国内源。所以我暂时放弃部署之前运行 &lt;code>composer install&lt;/code> 了，改为部署的时候在服务器上运行，两种方案各有千秋。&lt;/li>
-&lt;li>Coding 构建是支持 GitHub 仓库的代码的，但是貌似不能自动化部署，反正没自动触发。还有就是用了 GitHub 仓库之后，第一步拉代码的时候有点慢，最后我被迫暂时把代码放在 Coding 了。&lt;/li>
-&lt;/ul>
-&lt;h2 id="最后">最后&lt;/h2>
-&lt;p>这两种部署方案，我最后总结一下：&lt;/p>
-&lt;ul>
-&lt;li>GitHub Actions 上手快，而且官方还提供了一个 Actions 市场，很方便，但是目前功能确实不如 Jenkins 强大。部署国内服务器网速巨慢，但是官方有提供自己部署 GitHub Actions，我没试。&lt;/li>
-&lt;li>使用 Coding 基于 Jenkins 的构建，缺点是 Jenkins 上手要花点时间，优点是功能强大。项目构建网络慢，但是部署国内服务器网络有优势。&lt;/li>
-&lt;/ul>
-&lt;p>总体来说我还是更喜欢 GitHub 以及其生态的，总感觉国内的用不习惯。所以我的观点是能用 GitHub Actions 方案就尽量用。&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://help.github.com/cn/actions">GitHub Actions Documentation&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://help.github.com/en/actions/hosting-your-own-runners/about-self-hosted-runners">About self-hosted runners&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://xuanwo.io/2019/08/30/jenkins-pipeline-intro/">Jenkins Pipeline 介绍&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://jenkins.io/zh/doc/">Jenkins 用户手册&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://help.coding.net/docs/devops/ci/introduce.html">Coding 持续集成（构建）介绍&lt;/a>&lt;/li>
-&lt;/ul></description></item></channel></rss>
+&lt;p>网上搜索了很多资料说要修改代码（修改 opf 和 css 文件），实测最新版的『Chinese Text Conversion』插件已经不需要那么做了，给开发者点赞。&lt;/p></description></item></channel></rss>
