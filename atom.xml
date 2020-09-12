@@ -14,7 +14,13 @@
 &lt;h3 id="分析">分析&lt;/h3>
 &lt;p>目前在账号、记录和仪表盘都可以看到一些分析统计的数据，初期急着上线所以比较简陋，等后期再完善。&lt;/p>
 &lt;h3 id="定时自动记账">定时自动记账&lt;/h3>
-&lt;p>有计划，但暂未开发。&lt;/p>
+&lt;p>这个使用场景有很多，比方说：&lt;/p>
+&lt;ul>
+&lt;li>每天的通勤地铁费用都说固定的，而且一般都是在法定工作日。&lt;/li>
+&lt;li>配合支付宝定期存钱&lt;/li>
+&lt;li>基金定期扣款&lt;/li>
+&lt;li>……&lt;/li>
+&lt;/ul>
 &lt;h3 id="预算">预算&lt;/h3>
 &lt;p>有计划，但暂未开发。&lt;/p>
 &lt;h2 id="使用指南">使用指南&lt;/h2>
@@ -45,6 +51,24 @@
 &lt;li>如果使用快速记账功能，描述信息如果存在标签库中，会自动在这笔记账信息中标注标签。&lt;/li>
 &lt;/ul>
 &lt;p>比方说我现在在标签设置中添加了「地铁」关键词，但是我在规则中改关键词规则并没有设置 「分配关键词」。但是当使用「地铁3.9」快速记账的时候，会自动加上「地铁」标签。&lt;/p>
+&lt;h3 id="定时记账使用">定时记账使用&lt;/h3>
+&lt;ul>
+&lt;li>先添加一笔记录，然后在记录列表找到「添加定时记账」按钮。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20200912RPOALI.png" alt="20200912RPOALI">&lt;/p>
+&lt;ul>
+&lt;li>目前支持的频率有：每天、每周、每月、工作日（周一至周五）、中国大陆的法定工作日。如果不够用欢迎反馈。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20200912GBYMDN.png" alt="20200912GBYMDN">&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>每天记账统一是 UTC+8 时区9点执行（暂时简单粗暴）。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>如果想要 Telegram 定时记账成功的通知，之前&lt;strong>绑定过 Telegram 的用户&lt;/strong>需要重新绑定一次，没绑定的去绑定就可以了，效果如下（标题不一样）：&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20200912UWlhko.png" alt="20200912UWlhko">&lt;/p>
 &lt;h2 id="诞生记">诞生记&lt;/h2>
 &lt;h3 id="起因">起因&lt;/h3>
 &lt;p>开发这个资产管理系统是因为我常用的一款记账软件（微记账）在7月份的时候发布了一个公告，上个月之后他们要停更了，而且他们没有 Web 版一直用着不爽，我早就想自己开发一款记账软件了，正好借着这个机会。&lt;/p>
