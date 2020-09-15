@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 15 Sep 2020 11:08:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>30岁生日</title><link>https://blog.forecho.com/30th-birthday.html</link><pubDate>Tue, 15 Sep 2020 11:08:00 +0800</pubDate><guid>https://blog.forecho.com/30th-birthday.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>虽然到现还是很抗拒，但是不得不面对的现实是，我今天30岁了，我要奔四了。&lt;/p>
+&lt;p>虽然到现还是很抗拒，但是不得不面对的现实是「我今天30岁了，我要奔四了」。&lt;/p>
 &lt;h2 id="一无所有">一无所有&lt;/h2>
 &lt;p>一直被身边的同年人所「抛弃」，来深圳也7年多了，相比留在武汉的朋友，我真是一无所有，买不起房，用不起车，更别说养小孩儿了，而他们现在基本上都有车有房有小孩了，我最近在思考13年年初来深圳的行为是否正确。&lt;/p>
 &lt;p>我怎么也没想到7年之后我还是个上班族，我太高估自己了，就像小时候我一直在思考是上北大还是清华。&lt;/p>
@@ -13,7 +13,7 @@
 &lt;h2 id="三分之一">三分之一&lt;/h2>
 &lt;p>以现在生活水平，我觉得如果不出意外的话，我们都能活到90岁，30岁了就相当于人生过了三分之一了，这样一想的话会好很多，我会觉得30～60岁是一个人一生的黄金时期了，所以我决定60岁之后退休。&lt;/p>
 &lt;h2 id="最后">最后&lt;/h2>
-&lt;p>「承认自己不行，只是个普通人」是一件很有勇气的事情，当我认清自己之后，我很难过。但是生活不应该只有房子，我们每个人都应该配拥有更好的生活，你需要做的就是改变现状，作出选择。&lt;/p></description></item><item><title>CashWarden 一款开源的资产管理系统</title><link>https://blog.forecho.com/hello-cashwarden.html</link><pubDate>Fri, 04 Sep 2020 14:09:00 +0800</pubDate><guid>https://blog.forecho.com/hello-cashwarden.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>「承认自己不行，只是个普通人」是一件很有勇气的事情，当我认清自己之后，我很难过。但是生活不应该只有房子，我们每个人都应该配拥有更好的生活，你需要做的就是改变现状，做出选择。&lt;/p></description></item><item><title>CashWarden 一款开源的资产管理系统</title><link>https://blog.forecho.com/hello-cashwarden.html</link><pubDate>Fri, 04 Sep 2020 14:09:00 +0800</pubDate><guid>https://blog.forecho.com/hello-cashwarden.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
 &lt;p>今天要分享是一款我自己写的资产管理系统，而且这个系统代码开源。这篇文章我就来说说它的特性和使用指南。&lt;/p>
 &lt;ul>
 &lt;li>官网地址： &lt;a href="http://www.cashwarden.com/">http://www.cashwarden.com/&lt;/a>&lt;/li>
