@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on forecho's Blog</title><link>https://blog.forecho.com/posts.html</link><description>Recent content in Posts on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 15 Sep 2020 11:08:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/posts/atom.xml" rel="self" type="application/rss+xml"/><item><title>30岁生日</title><link>https://blog.forecho.com/30th-birthday.html</link><pubDate>Tue, 15 Sep 2020 11:08:00 +0800</pubDate><guid>https://blog.forecho.com/30th-birthday.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
 &lt;p>虽然到现还是很抗拒，但是不得不面对的现实是，我今天30岁了，我要奔四了。&lt;/p>
 &lt;h2 id="一无所有">一无所有&lt;/h2>
-&lt;p>一直被身边的同年人所「抛弃」，来深圳也7年多了，相比留在武汉的朋友，我真是一无所有，买不起房，用不起车，更别所养小孩儿了，而他们现在基本上都有车有房有小孩了，我最近在思考13年年初来深圳的行为是否正确。&lt;/p></description></item><item><title>CashWarden 一款开源的资产管理系统</title><link>https://blog.forecho.com/hello-cashwarden.html</link><pubDate>Fri, 04 Sep 2020 14:09:00 +0800</pubDate><guid>https://blog.forecho.com/hello-cashwarden.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>一直被身边的同年人所「抛弃」，来深圳也7年多了，相比留在武汉的朋友，我真是一无所有，买不起房，用不起车，更别说养小孩儿了，而他们现在基本上都有车有房有小孩了，我最近在思考13年年初来深圳的行为是否正确。&lt;/p></description></item><item><title>CashWarden 一款开源的资产管理系统</title><link>https://blog.forecho.com/hello-cashwarden.html</link><pubDate>Fri, 04 Sep 2020 14:09:00 +0800</pubDate><guid>https://blog.forecho.com/hello-cashwarden.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
 &lt;p>今天要分享是一款我自己写的资产管理系统，而且这个系统代码开源。这篇文章我就来说说它的特性和使用指南。&lt;/p>
 &lt;ul>
 &lt;li>官网地址： &lt;a href="http://www.cashwarden.com/">http://www.cashwarden.com/&lt;/a>&lt;/li>
