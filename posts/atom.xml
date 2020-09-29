@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on forecho's Blog</title><link>https://blog.forecho.com/posts.html</link><description>Recent content in Posts on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 15 Sep 2020 11:08:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/posts/atom.xml" rel="self" type="application/rss+xml"/><item><title>30岁生日</title><link>https://blog.forecho.com/30th-birthday.html</link><pubDate>Tue, 15 Sep 2020 11:08:00 +0800</pubDate><guid>https://blog.forecho.com/30th-birthday.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on forecho's Blog</title><link>https://blog.forecho.com/posts.html</link><description>Recent content in Posts on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 29 Sep 2020 17:33:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/posts/atom.xml" rel="self" type="application/rss+xml"/><item><title>HTTP Location</title><link>https://blog.forecho.com/http-location.html</link><pubDate>Tue, 29 Sep 2020 17:33:00 +0800</pubDate><guid>https://blog.forecho.com/http-location.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>最近在开发 &lt;a href="https://blog.forecho.com/hello-cashwarden.html">CashWarden&lt;/a>，后端使用自己最熟悉的 &lt;a href="https://www.yiiframework.com/">Yii2 框架&lt;/a>开发的。&lt;/p>
+&lt;p>Yii2 默认支持 RESTful 风格，有几个接口我可以直接使用默认的就可以了，非常省力。 CashWarden 使用前后端分离的方式开发的，在这过程中，我遇到了一个非常奇怪的问题，花了一点时间（差不多一天时间吧）才解决，今天这篇文章我打算分享一下我遇到的问题，以及我是怎么解决的，希望看完你也有收获。&lt;/p></description></item><item><title>30岁生日</title><link>https://blog.forecho.com/30th-birthday.html</link><pubDate>Tue, 15 Sep 2020 11:08:00 +0800</pubDate><guid>https://blog.forecho.com/30th-birthday.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
 &lt;p>虽然到现还是很抗拒，但是不得不面对的现实是「我今天30岁了，我要奔四了」。&lt;/p>
 &lt;h2 id="一无所有">一无所有&lt;/h2>
 &lt;p>一直被身边的同年人所「抛弃」，来深圳也7年多了，相比留在武汉的朋友，我真是一无所有，买不起房，用不起车，更别说养小孩儿了，而他们现在基本上都有车有房有小孩了，我最近在思考13年年初来深圳的行为是否正确。&lt;/p></description></item><item><title>CashWarden 一款开源的资产管理系统</title><link>https://blog.forecho.com/hello-cashwarden.html</link><pubDate>Fri, 04 Sep 2020 14:09:00 +0800</pubDate><guid>https://blog.forecho.com/hello-cashwarden.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
@@ -82,7 +84,4 @@
 &lt;p>我身边的朋友可能发现了，迫于生计，我最近也开始搞副业了。到目前为止已经有1个多月了，本篇文章就打算分享一下这个副业的收益以及如何开始这份副业（参与门槛比较低，你也可以拥有此副业）。&lt;/p>
 &lt;h2 id="形式">形式&lt;/h2>
 &lt;p>这份副业本质上就是电子商务的返利，别人通过你的返利链接购物，促成订单成交，你获得订单佣金。&lt;/p>
-&lt;p>其实电商返利已经玩了很多年了，我参与的这个形式有以下几个特点：&lt;/p></description></item><item><title>使用 Graylog 收集日志</title><link>https://blog.forecho.com/use-graylog.html</link><pubDate>Sat, 21 Mar 2020 20:20:26 +0800</pubDate><guid>https://blog.forecho.com/use-graylog.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>随着项目越来越复杂，Bug 越来越难定位，一个专门的日志收集工具必不可少。于是花了两天时间玩了一下 Graylog，这篇文章就分享一下踩过的坑。&lt;/p>
-&lt;h2 id="准备环境">准备环境&lt;/h2>
-&lt;p>自从用过 Docker 之后，我现在搭建环境第一步就去找 Docker 安装方式，其实他们官方文档写的非常清楚，但是我还是踩了一些坑，主要是网络问题，太慢，必须要换中国源。&lt;/p></description></item></channel></rss>
+&lt;p>其实电商返利已经玩了很多年了，我参与的这个形式有以下几个特点：&lt;/p></description></item></channel></rss>
