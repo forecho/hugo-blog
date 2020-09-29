@@ -56,7 +56,7 @@ HTTP POST 返回的 Header：
 
 其实遇到这个问题，主要还是自己 HTTP 协议不熟导致的，只知道 302 的重定向跳转，但是不知道 Header 如果有 `Location` 浏览器会自动请求的知识。
 
-于此类似的知识点就是前端跨域的 HTTP OPTIONS 请求。
+与此类似的知识点就是前端跨域的 HTTP OPTIONS 请求。
 
 ## 扩展阅读
 
