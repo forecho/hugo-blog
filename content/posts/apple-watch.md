@@ -19,7 +19,7 @@ toc: true
 
 <!--more-->
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/202011191nxSXf.jpg)
+![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/202011191nxSXf.jpg!m)
 
 WatchOS7 终于有了睡眠监测功能，只要你的设备是 S3 以及以上款的 Apple Watch 都可以通过更新系统拥有此功能。
 
@@ -71,7 +71,6 @@ Apple Watch 一直主打的是健身伴侣，所以这个算是主要功能了�
 
 - 短信：由于国内垃圾短信太多了，我建议是把 Apple Watch 同步短信功能关闭，省的你手表老是接受各种短信。
 - 血氧：目前来说对我没有鸟用。
-
 
 ## 购买建议
 
