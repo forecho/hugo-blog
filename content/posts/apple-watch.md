@@ -7,7 +7,7 @@ toc: true
 
 ---
 
-![20201119v3oSRz](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20201119v3oSRz.jpg!m)
+![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20201119v3oSRz.jpg!m)
 
 ## 引言
 
@@ -19,7 +19,7 @@ toc: true
 
 <!--more-->
 
-![202011191nxSXf](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/202011191nxSXf.jpg)
+![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/202011191nxSXf.jpg)
 
 WatchOS7 终于有了睡眠监测功能，只要你的设备是 S3 以及以上款的 Apple Watch 都可以通过更新系统拥有此功能。
 
@@ -27,7 +27,7 @@ WatchOS7 终于有了睡眠监测功能，只要你的设备是 S3 以及以上�
 
 ### 健身
 
-![20201119V65x4R](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20201119V65x4R.jpg!m)
+![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20201119V65x4R.jpg!m)
 
 Apple Watch 一直主打的是健身伴侣，所以这个算是主要功能了。有了 Apple Watch 之后我的 iPhone 终于有了 「健身」这个 App，我可以在  Apple Watch 上设置目标了，主要可以设置三个维度的：
 
@@ -45,11 +45,11 @@ Apple Watch 一直主打的是健身伴侣，所以这个算是主要功能了�
 
 ### 安装 App
 
-- [Habitify](https://apps.apple.com/cn/app/habitify-habit-tracker/id1111447047) : 我一直在用的专门用来记录习惯的 App，第一次用的时候没有同步数据，我还联系他们客服咨询，结果他们让我试试后台杀掉 App，重新打开，后来确实可以了，使用这个 App，需要有科学上网的能力。
-- [Flat Tomato](https://apps.apple.com/cn/app/flat-tomato-time-management/id719462746)：我非常喜欢的一个番茄钟 App，简洁漂亮，现在终于可以在 Apple Watch 上使用了。
-- [AutoSleep](https://apps.apple.com/cn/app/autosleep-track-sleep-on-watch/id1164801111)：25块钱买的，买之前还犹豫过，但是证明还是非常好用的，帮你自动检测睡眠，可以查看睡眠质量（包括深度和浅度睡眠），而且中午午睡也能自动检测。
+- [Habitify](https://apps.apple.com/cn/app/habitify-habit-tracker/id1111447047?at=1010lmKs) : 我一直在用的专门用来记录习惯的 App，第一次用的时候没有同步数据，我还联系他们客服咨询，结果他们让我试试后台杀掉 App，重新打开，后来确实可以了，使用这个 App，需要有科学上网的能力。
+- [Flat Tomato](https://apps.apple.com/cn/app/flat-tomato-time-management/id719462746?at=1010lmKs)：我非常喜欢的一个番茄钟 App，简洁漂亮，现在终于可以在 Apple Watch 上使用了。
+- [AutoSleep](https://apps.apple.com/cn/app/autosleep-track-sleep-on-watch/id1164801111?at=1010lmKs)：25块钱买的，买之前还犹豫过，但是证明还是非常好用的，帮你自动检测睡眠，可以查看睡眠质量（包括深度和浅度睡眠），而且中午午睡也能自动检测。
 
-- [HeartAnalyzer](https://apps.apple.com/cn/app/heart-analyzer/id1006420410)：主要是检测心率的，免费+内购形式，免费版就足够好用了，有 iOS 小部件，而且这款 App 提供的表盘我非常喜欢，稍有遗憾的是目前暂时不支持中文。另外需要注意的是此款 App 内购有三个，分别都是12元，我刚开始以为12元解锁全部功能就买了，没想到是1个12元只能解锁部分功能😓。
+- [HeartAnalyzer](https://apps.apple.com/cn/app/heart-analyzer/id1006420410?at=1010lmKs)：主要是检测心率的，免费+内购形式，免费版就足够好用了，有 iOS 小部件，而且这款 App 提供的表盘我非常喜欢，稍有遗憾的是目前暂时不支持中文。另外需要注意的是此款 App 内购有三个，分别都是12元，我刚开始以为12元解锁全部功能就买了，没想到是1个12元只能解锁部分功能😓。
 ### 交通卡
 
 目前交通卡只能在 iPhone 和 Apple Watch 其中的一个设备上使用，也就是说可以相互移除和添加，就是不能两个同时使用。Apple Watch 添加交通卡，需要在 Apple 的 Apple Watch App 上操作，详情[《在 Apple Watch 上使用交通卡》](https://support.apple.com/zh-hk/guide/watch/apd5e6c6a7ee/watchos)。
@@ -59,7 +59,7 @@ Apple Watch 一直主打的是健身伴侣，所以这个算是主要功能了�
 可以使用 Apple Pay 和支付宝，不过我暂时还没体验过。
 ### 解锁 App 和 Mac
 
-当你有了 Apple Watch 之后，你的 Mac 「安全性与隐私」里面会多了一个 「使用您的 Apple Watch 解锁 App 和 Mac」选项，钩上之后你就可以使用此功能了。当然是要此功能需要你的 Mac 一直开着蓝牙。
+当你有了 Apple Watch 之后，你的 Mac 「安全性与隐私」里面会多了一个 「使用您的 Apple Watch 解锁 App 和 Mac」选项，勾上之后你就可以使用此功能了。当然是要此功能需要你的 Mac 一直开着蓝牙。
 
 
 ## 不能做的事情
