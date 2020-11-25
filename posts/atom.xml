@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on forecho's Blog</title><link>https://blog.forecho.com/posts.html</link><description>Recent content in Posts on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 09 Nov 2020 11:12:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/posts/atom.xml" rel="self" type="application/rss+xml"/><item><title>使用 Apple Watch</title><link>https://blog.forecho.com/apple-watch.html</link><pubDate>Mon, 09 Nov 2020 11:12:00 +0800</pubDate><guid>https://blog.forecho.com/apple-watch.html</guid><description>&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20201119v3oSRz.jpg!m" alt="">&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on forecho's Blog</title><link>https://blog.forecho.com/posts.html</link><description>Recent content in Posts on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 25 Nov 2020 14:09:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/posts/atom.xml" rel="self" type="application/rss+xml"/><item><title>CashWarden 使用指南之快速记账</title><link>https://blog.forecho.com/use-cashwarden-01.html</link><pubDate>Wed, 25 Nov 2020 14:09:00 +0800</pubDate><guid>https://blog.forecho.com/use-cashwarden-01.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>这是 CashWarden 使用指南系列文章，如果你还不知道什么是 CashWarden？请查看 &lt;a href="https://blog.forecho.com/hello-cashwarden.html">《CashWarden 一款开源的资产管理系统》&lt;/a>。&lt;/p>
+&lt;p>我觉得 CashWarden 最大的亮点就是快速记账功能了，所以这篇文章我会分享这个功能的使用指南以及我对此的一些思考，如果你有更好的想法欢迎与我交流。&lt;/p></description></item><item><title>使用 Apple Watch</title><link>https://blog.forecho.com/apple-watch.html</link><pubDate>Mon, 09 Nov 2020 11:12:00 +0800</pubDate><guid>https://blog.forecho.com/apple-watch.html</guid><description>&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20201119v3oSRz.jpg!m" alt="">&lt;/p>
 &lt;h2 id="引言">引言&lt;/h2>
 &lt;p>今年双十一我还是买了 Apple Watch S6，拼多多买的，2849 元。使用了差不多一个多星期了，今天这篇文章我就来分享一下我是如何使用 Apple Watch 以及一些使用感受。&lt;/p>
 &lt;h2 id="能做什么">能做什么？&lt;/h2>
@@ -72,7 +74,4 @@
 &lt;ul>
 &lt;li>如何安装 WSL2&lt;/li>
 &lt;li>把 WSL2 作为开发环境遇到的一些坑&lt;/li>
-&lt;/ul></description></item><item><title>Mac 维修记</title><link>https://blog.forecho.com/mac-repair-notes.html</link><pubDate>Tue, 12 May 2020 22:16:26 +0800</pubDate><guid>https://blog.forecho.com/mac-repair-notes.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>不知道是不是前一阵子在家干活（Coding）太猛了还是怎么着，有一天突然发现我的 Macbook Pro 盖子盖不严了，特别是刚使用完一阵子电脑还处于比较热的时候，如下图：&lt;/p>
-&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/IMG_4057.JPG!m" alt="IMG_4057">&lt;/p>
-&lt;p>对于使用多年 Mac 电脑的我来说，一看就知道是电池鼓包了。但是以往都是用了好几年（应该有大于3年）才这样，没想到这次我电脑还没到2年就这样了。简单了查了一些资料之后我决定去找 Apple 售后。&lt;/p></description></item></channel></rss>
+&lt;/ul></description></item></channel></rss>
