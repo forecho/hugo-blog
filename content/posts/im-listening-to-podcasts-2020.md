@@ -30,8 +30,7 @@ toc: true
 
 我已经在这里听到很多人来分享他们的故事了，彷佛多了很多种人生的经历。最近半年才发现，基本上每期都必听。
 
-
-![天才捕手FM](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20201130gXG9zy.jpg)
+![天才捕手FM](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20201130gXG9zy.jpg!s)
 
 
 ### 天才捕手FM
@@ -43,7 +42,7 @@ toc: true
 故事 FM 没听够的，可以听听这个，也非常有意思。
 
 
-![随机波动 StochasticVolatility](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20201130XkUOXn.jpg)
+![随机波动 StochasticVolatility](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20201130XkUOXn.jpg!s)
 
 ### [随机波动 StochasticVolatility](https://www.stovol.club/)
 
@@ -53,7 +52,7 @@ toc: true
 
 好在她们之后很快就推出了一档新节目就是现在的《随机波动》，因为主播是三位女性，所以选的话题都是侧重于女性视角，可以给我带来新的视角，我听过几期，给我影响最深的是对葛宇路和讨论女性做家务的两期。
 
-![捕蛇者说](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20201130JO6FFD.jpg)
+![捕蛇者说](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20201130JO6FFD.jpg!s)
 
 ### [捕蛇者说](https://pythonhunter.org/)
 
@@ -63,7 +62,7 @@ toc: true
 
 《Teahour》 停更之后他们又搞了一个区块链领域的播客 《Fork It》，听了几期之后还是决定放弃了。《捕蛇者说》算是为数不多再聊编程领域的中文播客了，如果你还有其他编程领域的中文播客，欢迎推荐给我。
 
-![梁文道·八分](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20201130818PMv.jpg)
+![梁文道·八分](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20201130818PMv.jpg!s)
 
 ### 梁文道·八分
 
