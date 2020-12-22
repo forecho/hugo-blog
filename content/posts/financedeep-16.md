@@ -108,4 +108,4 @@ PS: 交易费需要2个工作日才能看到，我就先估计有50吧。
 
 另外我创建了一个「打新交流群」，有一起玩打新的朋友欢迎加群一起交流：
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20201211IAiu3h.jpg)
+![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20201222VJDx4e.jpg)
