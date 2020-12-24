@@ -1,7 +1,7 @@
 ---
 title: "【深度理财17】关于 ARK"
 date: 2020-12-24T12:09:00+08:00
-tags: [深度理财", "美股"]
+tags: ["深度理财", "美股"]
 draft: false
 toc: true
 ---
