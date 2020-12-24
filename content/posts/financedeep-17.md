@@ -36,7 +36,7 @@ ARK 的创始人叫 [Cathie Wood](https://zh.wikipedia.org/wiki/%E5%98%89%E8%8A%
 
 #### [ARKK](https://ark-funds.com/arkk)
 
-ARK Innovation ETF 专注投资受惠于「巅覆性创新」产品及服务的企业，涵盖「基因革命」、「工业革新」、「次世代互联网」及「金融科技革新」范畴。
+ARK Innovation ETF 专注投资受惠于「颠覆性创新」产品及服务的企业，涵盖「基因革命」、「工业革新」、「次世代互联网」及「金融科技革新」范畴。
 
 简单理解它就是其他 ARK ETF 的 ETF。
 
