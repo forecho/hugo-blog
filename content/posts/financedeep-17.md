@@ -14,9 +14,9 @@ toc: true
 
 ## ARK 是什么？
 
-ARK（方舟投资）是一家专注于投资**颠覆性创新**的公司，他们公司目前管理 7 个 ETF，其中最有名是5个主动式的 ETF，另外 2 个是指数型被动 ETF，后面我们再详细聊这 7 个 ETF。
+ARK（方舟投资）是一家专注于投资**颠覆性创新**的公司，他们公司目前管理 7 个 ETF，其中最有名是 5 个主动式的 ETF，另外 2 个是指数型被动 ETF，后面我们再详细聊这 7 个 ETF。
 
-ARK 是2014年创办，投资的第一个方向就是 3D 打印机，但是有点失败，刚开始3年都没跑赢大盘，在2017年的时候才开始慢慢发力，到了2020年才算是爆发。
+ARK 是 2014 年创办，投资的第一个方向就是 3D 打印机，但是有点失败，刚开始 3 年都没跑赢大盘，在 2017 年的时候才开始慢慢发力，到了 2020 年才算是爆发。
 
 <!--more-->
 
@@ -26,7 +26,7 @@ ARK 的创始人叫 [Cathie Wood](https://zh.wikipedia.org/wiki/%E5%98%89%E8%8A%
 
 ![20201224pVGppR](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20201224pVGppR.png)
 
-2018 年 Elon Musk 因为不被市场看好和资金困难的原因曾[考虑私有化特斯拉](https://twitter.com/elonmusk/status/1026872652290379776?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1026872652290379776%7Ctwgr%5E%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fwww.thenewslens.com%2Farticle%2F105019)，但是 Cathie Wood 却是非常看好特斯拉的，5个主动式 ETF 中有3个是重仓特斯拉的，她甚至写信给 Elon Musk 和特斯拉的董事会，恳请他们不要将公司私有化。
+2018 年 Elon Musk 因为不被市场看好和资金困难的原因曾[考虑私有化特斯拉](https://twitter.com/elonmusk/status/1026872652290379776?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1026872652290379776%7Ctwgr%5E%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fwww.thenewslens.com%2Farticle%2F105019)，但是 Cathie Wood 却是非常看好特斯拉的，5 个主动式 ETF 中有 3 个是重仓特斯拉的，她甚至写信给 Elon Musk 和特斯拉的董事会，恳请他们不要将公司私有化。
 
 ## ETFs
 
@@ -92,12 +92,11 @@ Fintech Innovation ETF 专注投资从金融科技获利的企业，业务包括
 
 #### [IZRL](https://ark-funds.com/israel-etf)
 
-Total 3D-Printing Index，投资在美国、美国外已发展市场及台湾的3D打印企业，涉猎范畴包括硬件、设计程式、3D打印中心及打印材料。
+Total 3D-Printing Index，投资在美国、美国外已发展市场及台湾的 3D 打印企业，涉猎范畴包括硬件、设计程式、3D 打印中心及打印材料。
 
 截止到 2020-12-23 主要持仓有：
 
 ![IZRL](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20201224aRj0Kq.png)
-
 
 ## ARK 概况
 
