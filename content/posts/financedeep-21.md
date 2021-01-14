@@ -21,6 +21,9 @@ toc: true
 ### 清单
 
 - 报名链接：<https://www.wjx.cn/jq/103533604.aspx>
+
+![报名链接：](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20210114NSjeUY.png!s)
+
 - 办理时间：1 月 30 日
 - 办理地点：上海陆家嘴附近（信息审核无误后，1 月 27 日会统一通过短信告知）
 - 办理年龄：20-60 周岁
