@@ -1,4 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>经验分享 on forecho's Blog</title><link>https://blog.forecho.com/tags/%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB.html</link><description>Recent content in 经验分享 on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 02 Feb 2021 16:42:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/tags/%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB/atom.xml" rel="self" type="application/rss+xml"/><item><title>聊聊沙井万丰海岸城买房打新经历</title><link>https://blog.forecho.com/about-coast-city.html</link><pubDate>Tue, 02 Feb 2021 16:42:00 +0800</pubDate><guid>https://blog.forecho.com/about-coast-city.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>经验分享 on forecho's Blog</title><link>https://blog.forecho.com/tags/%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB.html</link><description>Recent content in 经验分享 on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 22 Feb 2021 10:03:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/tags/%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB/atom.xml" rel="self" type="application/rss+xml"/><item><title>使用 Clubhouse</title><link>https://blog.forecho.com/use-clubhouse.html</link><pubDate>Mon, 22 Feb 2021 10:03:00 +0800</pubDate><guid>https://blog.forecho.com/use-clubhouse.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>年前 Clubhouse 在 Twitter 开始火了，基本上人人都在谈，我认为它火爆的原因有：&lt;/p>
+&lt;ul>
+&lt;li>大佬的参与：伊隆·马斯克 (Elon Musk) 带货&lt;/li>
+&lt;li>邀请才能使用&lt;/li>
+&lt;/ul>
+&lt;p>等了很久我终于在群友的帮助下成功进入了 Clubhouse ，用了也快一个月了，这篇文章我就分享和记录一下我的使用感受。&lt;/p></description></item><item><title>聊聊沙井万丰海岸城买房打新经历</title><link>https://blog.forecho.com/about-coast-city.html</link><pubDate>Tue, 02 Feb 2021 16:42:00 +0800</pubDate><guid>https://blog.forecho.com/about-coast-city.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
 &lt;p>前几个月开始考虑在深圳买房，先看的是二手房，然后才知道还有买新房「打新」潮这个事情。二手房因为政府不好限价，新楼盘之前都有备案价，开盘的时候不能超过备案价的 15%，所以有一种现象就是新楼盘的价格会比周边二手房单价便宜几万的情况，其中最著名的事件就是「深圳润四网红盘」，买到就是赚到:&lt;/p>
 &lt;blockquote>
 &lt;p>一手房和二手房之间有超过 5 万元/平方米的价差。以润四最小面积 100 平方米计算，买到一套房有 500 万元的价差空间。&lt;/p>
@@ -81,9 +87,4 @@
 现在已经在这家小公司待了快满2个月了，结合自己的经验和见识我准备来说说技术转管理的事情。&lt;/p>
 &lt;h2 id="技术转管理">技术转管理&lt;/h2>
 &lt;h3 id="为什么项目经理工资比程序员高">为什么项目经理工资比程序员高？&lt;/h3>
-&lt;p>在中国，绝大多数的人转管理都是因为，管理职位工资比技术高，做了多年之后工资涨不上去了，就去转管理了。我觉得再这之前有必要想清楚为什么管理职位比技术的工资高？&lt;/p></description></item><item><title>我是如何学习 Angular</title><link>https://blog.forecho.com/how-do-i-learn-angular.html</link><pubDate>Thu, 03 Aug 2017 15:59:00 +0800</pubDate><guid>https://blog.forecho.com/how-do-i-learn-angular.html</guid><description>&lt;h2 id="交代我的前端背景">交代我的前端背景&lt;/h2>
-&lt;p>工作5年多了，基本上都在写 PHP，对于前端在校的时候学过一些 JavaScript、HTML 和 CSS，那个时候我 HTML 和 CSS 还是比较擅长的。&lt;/p>
-&lt;p>后来第一家公司是外包公司，页面都是我们写的。那个时候 jQuery 还是非常火的，但我傻傻分不清楚 JavaScript 和 jQuery 以及 Ajax 他们之间的区别。而我们的前端代码全靠复制百度搜索出来的结果，后来公司终于招来了一位前端工程师，可算是把我们从不明所以的前端坑里面解救出来了。&lt;/p>
-&lt;p>后来我就很少接触前端了，但是不是完全不接触，花了10块钱买了本二手的《锋利的 jQuery》，才知道 jQuery 还是很好上手的。再后来业余有时间我会看一下 ES6、React 和 Angular 的文档，然后跟着写写。
-但是因为主要工作还是 PHP，再加上一个人的精力有限，所以大部分时间还是在写 PHP，前端一直出于关注状态。&lt;/p>
-&lt;p>CSS 基本被我忘记的差不多了，好几年不写了，就越怕写 CSS 了。&lt;/p></description></item></channel></rss>
+&lt;p>在中国，绝大多数的人转管理都是因为，管理职位工资比技术高，做了多年之后工资涨不上去了，就去转管理了。我觉得再这之前有必要想清楚为什么管理职位比技术的工资高？&lt;/p></description></item></channel></rss>
