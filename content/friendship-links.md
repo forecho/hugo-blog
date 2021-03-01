@@ -19,18 +19,15 @@ url: /friendship-links/
 - [forecho](https://blog.forecho.com/)
 - [Jason](https://atjason.com/)
 - [把酒诗代码，趁乱写年华。](http://www.102no.com)
-- [sergiojune](https://sergiojune.com/)
-- [Wang Shudao](https://vulgur.github.io)
 - [数字游民部落](https://jarodise.com/)
-- [Darer](https://darerd.github.io/)
 - [大师兄](https://dsx2016.com/)
 - [To be a happy sir](https://www.happysir.com/)
 - [你好我是森林](https://chensenlin.cn/)
-- [Chorder](https://chorder.net/)
 - [完美的胖达](https://wmdpd.com/)
 - [刘悦的技术博客](https://v3u.cn/)
 - [见字如面](https://hiwannz.com/)
 - [DHTalk's Blog](https://zhangdinghao.cn/)
+- [Jackieの生活觀察](https://www.wangyurui.top/)
 
 ## 链接
 
