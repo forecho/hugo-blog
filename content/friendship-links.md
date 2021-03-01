@@ -27,7 +27,6 @@ url: /friendship-links/
 - [刘悦的技术博客](https://v3u.cn/)
 - [见字如面](https://hiwannz.com/)
 - [DHTalk's Blog](https://zhangdinghao.cn/)
-- [Jackieの生活觀察](https://www.wangyurui.top/)
 
 ## 链接
 
@@ -38,30 +37,25 @@ url: /friendship-links/
 - [唐巧的博客](http://blog.devtang.com/)
 - [Verne in GitHub](https://einverne.github.io/)
 - [笨方法学写作](https://www.cnfeat.com/)
-- [Kevin Blog](https://zhowkev.in/)
 - [Randy Lu](https://lutaonan.com/)
 - [Huiris's Blog](https://huiris.com/)
 - [熊二哈的猫窝](https://www.wispx.cn/)
 - [天雨的博客](https://blog.irain.in/)
-- [LengYues'Blog](https://www.apkdv.com/)
 - [城中村群租房](https://www.darmau.com/)
-- [朋也的博客](https://tomoya92.github.io/)
 - [kok 的笔记本](https://wocai.de/)
 - [Flyaway'Blog](http://zhouyichu.com/)
 - [默](https://jasper-1024.github.io/)
 - [初始化](https://init.blog/)
 - [kn007](https://kn007.net/)
 - [maemo の風船が！](https://www.maemo.cc/)
-- [意外](https://yukunweb.com/)
 - [逐鹿 IT](http://amonxu.com/)
-- [嘎里三分熟](http://www.jetchen.cn/)
 - [渚碧](https://jubeny.com/)
-- [深入浅出区块链](https://learnblockchain.cn/)
 - [晚晴幽草轩](https://www.jeffjade.com/)
 - [掘墓人的小铲子](https://juemuren4449.com)
 - [Henry Z's blog](https://changchen.me/)
 - [IOIOX](https://www.ioiox.com/)
 - [Lin.](https://www.mrlin93.com/)
+- [Jackieの生活觀察](https://www.wangyurui.top/)
 
 ## 待考察
 
