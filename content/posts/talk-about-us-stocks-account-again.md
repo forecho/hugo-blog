@@ -1,7 +1,7 @@
 ---
 title: "再谈美股开户:富途 VS 雪盈"
 date: 2018-02-26T13:09:00+08:00
-tags: ["美股"] 
+tags: ["美股","深度理财"] 
 draft: false
 toc: true
 ---
