@@ -1,4 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on forecho's Blog</title><link>https://blog.forecho.com/posts.html</link><description>Recent content in Posts on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 22 Feb 2021 10:03:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/posts/atom.xml" rel="self" type="application/rss+xml"/><item><title>使用 Clubhouse</title><link>https://blog.forecho.com/use-clubhouse.html</link><pubDate>Mon, 22 Feb 2021 10:03:00 +0800</pubDate><guid>https://blog.forecho.com/use-clubhouse.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on forecho's Blog</title><link>https://blog.forecho.com/posts.html</link><description>Recent content in Posts on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 09 Mar 2021 19:09:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/posts/atom.xml" rel="self" type="application/rss+xml"/><item><title>【深度理财22】股票投资的框架</title><link>https://blog.forecho.com/financedeep-22.html</link><pubDate>Tue, 09 Mar 2021 19:09:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-22.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>最近大盘回调，正好可以利用这段时间沉下心来好好梳理知识，今天我就来分享一下自己股票投资的框架，希望看完对你有帮助。&lt;/p>
+&lt;blockquote>
+&lt;p>加一个风险提示：本篇文章仅代表我的个人观点，不构成与其他人相关的任何投资建议。在作出任何投资决定前，投资者应根据自身情况考虑投资产品相关的风险因素，并于需要时咨询专业投资顾问意见。&lt;/p>
+&lt;/blockquote>
+&lt;p>我认为股票投资基本上分为这几类：&lt;/p>
+&lt;ul>
+&lt;li>技术面分析&lt;/li>
+&lt;li>基本面分析&lt;/li>
+&lt;li>基于消息面&lt;/li>
+&lt;/ul></description></item><item><title>使用 Clubhouse</title><link>https://blog.forecho.com/use-clubhouse.html</link><pubDate>Mon, 22 Feb 2021 10:03:00 +0800</pubDate><guid>https://blog.forecho.com/use-clubhouse.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
 &lt;p>年前 Clubhouse 在 Twitter 开始火了，基本上人人都在谈，我认为它火爆的原因有：&lt;/p>
 &lt;ul>
 &lt;li>大佬的参与：伊隆·马斯克 (Elon Musk) 带货&lt;/li>
@@ -100,12 +110,4 @@
 &lt;p>Yii2 默认支持 RESTful 风格，有几个接口我可以直接使用默认的就可以了，非常省力。 CashWarden 使用前后端分离的方式开发的，在这过程中，我遇到了一个非常奇怪的问题，花了一点时间（差不多一天时间吧）才解决，今天这篇文章我打算分享一下我遇到的问题，以及我是怎么解决的，希望看完你也有收获。&lt;/p></description></item><item><title>30岁生日</title><link>https://blog.forecho.com/30th-birthday.html</link><pubDate>Tue, 15 Sep 2020 11:08:00 +0800</pubDate><guid>https://blog.forecho.com/30th-birthday.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
 &lt;p>虽然到现还是很抗拒，但是不得不面对的现实是「我今天30岁了，我要奔四了」。&lt;/p>
 &lt;h2 id="一无所有">一无所有&lt;/h2>
-&lt;p>一直被身边的同年人所「抛弃」，来深圳也7年多了，相比留在武汉的朋友，我真是一无所有，买不起房，用不起车，更别说养小孩儿了，而他们现在基本上都有车有房有小孩了，我最近在思考13年年初来深圳的行为是否正确。&lt;/p></description></item><item><title>CashWarden 一款开源的资产管理系统</title><link>https://blog.forecho.com/hello-cashwarden.html</link><pubDate>Fri, 04 Sep 2020 14:09:00 +0800</pubDate><guid>https://blog.forecho.com/hello-cashwarden.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>今天要分享是一款我自己写的资产管理系统，而且这个系统代码开源。这篇文章我就来说说它的特性和使用指南。&lt;/p>
-&lt;ul>
-&lt;li>官网地址： &lt;a href="http://www.cashwarden.com/">http://www.cashwarden.com/&lt;/a>&lt;/li>
-&lt;li>源码地址： &lt;a href="https://github.com/cashwarden">https://github.com/cashwarden&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="特性">特性&lt;/h2>
-&lt;h3 id="记账">记账&lt;/h3>
-&lt;p>资产系统最重要也是最基本的肯定是记账了，清楚自己的每一笔收支情况。为了让记账更轻松，我还开发了一个快速记账功能。&lt;/p></description></item></channel></rss>
+&lt;p>一直被身边的同年人所「抛弃」，来深圳也7年多了，相比留在武汉的朋友，我真是一无所有，买不起房，用不起车，更别说养小孩儿了，而他们现在基本上都有车有房有小孩了，我最近在思考13年年初来深圳的行为是否正确。&lt;/p></description></item></channel></rss>

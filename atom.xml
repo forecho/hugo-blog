@@ -1,4 +1,60 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 22 Feb 2021 10:03:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>使用 Clubhouse</title><link>https://blog.forecho.com/use-clubhouse.html</link><pubDate>Mon, 22 Feb 2021 10:03:00 +0800</pubDate><guid>https://blog.forecho.com/use-clubhouse.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 09 Mar 2021 19:09:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>【深度理财22】股票投资的框架</title><link>https://blog.forecho.com/financedeep-22.html</link><pubDate>Tue, 09 Mar 2021 19:09:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-22.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>最近大盘回调，正好可以利用这段时间沉下心来好好梳理知识，今天我就来分享一下自己股票投资的框架，希望看完对你有帮助。&lt;/p>
+&lt;blockquote>
+&lt;p>加一个风险提示：本篇文章仅代表我的个人观点，不构成与其他人相关的任何投资建议。在作出任何投资决定前，投资者应根据自身情况考虑投资产品相关的风险因素，并于需要时咨询专业投资顾问意见。&lt;/p>
+&lt;/blockquote>
+&lt;p>我认为股票投资基本上分为这几类：&lt;/p>
+&lt;ul>
+&lt;li>技术面分析&lt;/li>
+&lt;li>基本面分析&lt;/li>
+&lt;li>基于消息面&lt;/li>
+&lt;/ul>
+&lt;h2 id="技术面分析">技术面分析&lt;/h2>
+&lt;p>主要就是看股票走势图，做分析，找规律。根据股票过去的价格走势，成交量等指标来分析与预测未来价格的走势。&lt;/p>
+&lt;p>我个人不是很推荐散户用这种股票投资方式，因为这太难了。因为现在很多基金都是用这种方式来交易，他们有大量的资源和算法，有的公司甚至爬网上的信息，做情绪训练。个人的投资经历有限，没有时间学习那么多技术名词和看各种指标。&lt;/p>
+&lt;p>&lt;strong>股票的价格短期来讲就是由供给需求来决定，长期来讲是由价值来决定。&lt;/strong> 所以我建议个人投资还是以中长期为主。&lt;/p>
+&lt;h2 id="基本面分析">基本面分析&lt;/h2>
+&lt;p>基本面分析主要是分三个层次：&lt;/p>
+&lt;ul>
+&lt;li>宏观&lt;/li>
+&lt;li>行业&lt;/li>
+&lt;li>公司&lt;/li>
+&lt;/ul>
+&lt;h3 id="宏观">宏观&lt;/h3>
+&lt;p>股票投资还是要学会怎么看宏观层次的，比方说这个&lt;a href="https://fred.stlouisfed.org/graph/?g=HfT">美国资产总量与 S&amp;amp;P 500 的关系&lt;/a>，最近炒得沸沸扬扬的&lt;a href="https://wallstreetcn.com/markets/codes/US10YR.OTC">美国10年期国债收益率
+&lt;/a>，&lt;a href="https://cn.investing.com/economic-calendar/unemployment-rate-300">美国失业率&lt;/a> 各种指数等等&lt;/p>
+&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20210309NRug6F.png" alt="">&lt;/p>
+&lt;p>根据宏观做投资最有名的对冲基金就是桥水基金了，他们根据宏观经济的判断完美的躲过几次金融危机，甚至在金融危机的时候别人亏钱他们还赚钱。&lt;/p>
+&lt;p>他们的 CEO 瑞·达利欧（Ray Dalio）还出了两本书《原则》和《债务危机》。另外他们还出过一个非常有名的视频，简单明了的讲出了经济运行的核心，推荐没看过的小伙伴一定要看一下&lt;a href="https://www.bilibili.com/video/BV15s411b7xr">《经济机器是怎样运行的》&lt;/a>。&lt;/p>
+&lt;p>看好美股市场就买 &lt;code>SPY&lt;/code> 、&lt;code>QQQ&lt;/code>、&lt;code>IVV&lt;/code>、&lt;code>VTI&lt;/code> 等等，看好中国市场就可以买 HS300ETF（&lt;code>510310&lt;/code>）、中证500（&lt;code>159982&lt;/code>）等等。&lt;/p>
+&lt;h3 id="行业">行业&lt;/h3>
+&lt;p>看完了宏观经济就来看行业了，这个就是选赛道，去年比较火的就是新能源、芯片行业了，不过最近跌的最凶的也是新能源了，但是我觉得是正常回调，不必过于担心。&lt;/p>
+&lt;p>行业之间差距非常大，行业选的好投资基本上就做对了一大半了，2020 年美股涨的最好的就是科技了：&lt;/p>
+&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/202103092yeRwm.png" alt="2020年美股各行业收益">&lt;/p>
+&lt;p>那么如何选择行业呢？我认为主要看以下几点：&lt;/p>
+&lt;ul>
+&lt;li>行业所处的周期：朝阳行业还是夕阳行业？&lt;/li>
+&lt;li>行业格局：顺周期还是逆周期？行业门槛如何？(金融和烟草进入门槛都比较高，所以利润就比较高）&lt;/li>
+&lt;li>政府扶持：当年的钢铁、光伏？如今的新能源？&lt;/li>
+&lt;li>板块轮动：成长股、价值股等&lt;/li>
+&lt;/ul>
+&lt;p>这步骤做好研究选好行业，不想往下研究个股，买行业的 ETF 就可以了，比方说：&lt;/p>
+&lt;ul>
+&lt;li>酒 ETF：&lt;code>512690&lt;/code>&lt;/li>
+&lt;li>新能车：&lt;code>159806&lt;/code>&lt;/li>
+&lt;li>医药 ETF：&lt;code>512010&lt;/code>&lt;/li>
+&lt;li>半导体 ETF：&lt;code>SMH&lt;/code>&lt;/li>
+&lt;li>……&lt;/li>
+&lt;/ul>
+&lt;h3 id="公司">公司&lt;/h3>
+&lt;p>买 ETF 觉得收益不够多，那你也可以去买个股，但是买个股就要做深入一点的研究了，就要看公司的财报，看不懂怎么办？可以去网上找其他 UP 主的分析，多看几个，然后自己做决定。&lt;/p>
+&lt;p>有机会的话体验一下他们的产品，把自己当成公司的股东。&lt;/p>
+&lt;h2 id="基于消息面">基于消息面&lt;/h2>
+&lt;p>除了以上两个基本投资策略，我觉得还有一个就是给基于消息面的投资，比方说前几年数字货币爆火的时候，只要一个公司宣布要进军区块链领域股价就迅速飙升，而最近这一年，最火的就属电动汽车了，前一段时间就有小米爆出造车的新闻，然后小米的股票就由跌转涨了。&lt;/p>
+&lt;p>基于消息面投资其实是赌博性质的投资，认清本质，所以我劝大家还是做好仓位控制，毕竟最后有概率成为接盘侠。&lt;/p>
+&lt;h2 id="总结">总结&lt;/h2>
+&lt;p>投资是一件很「简单」的事情，这篇文章主要是介绍了技术面分析、基本面分析、基于消息面三种类型的投资方式，重点推荐大家使用基本面分析的方式做中长期的投资。&lt;/p>
+&lt;p>PS：年初我创建了一个微信投资交流群，想加群的朋友先加我微信 ipzone 我拉你进群，申请好友请备注来意。&lt;/p></description></item><item><title>使用 Clubhouse</title><link>https://blog.forecho.com/use-clubhouse.html</link><pubDate>Mon, 22 Feb 2021 10:03:00 +0800</pubDate><guid>https://blog.forecho.com/use-clubhouse.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
 &lt;p>年前 Clubhouse 在 Twitter 开始火了，基本上人人都在谈，我认为它火爆的原因有：&lt;/p>
 &lt;ul>
 &lt;li>大佬的参与：伊隆·马斯克 (Elon Musk) 带货&lt;/li>
@@ -1071,83 +1127,4 @@
 &lt;h2 id="三分之一">三分之一&lt;/h2>
 &lt;p>以现在生活水平，我觉得如果不出意外的话，我们都能活到90岁，30岁了就相当于人生过了三分之一了，这样一想的话会好很多，我会觉得30～60岁是一个人一生的黄金时期了，所以我决定60岁之后退休。&lt;/p>
 &lt;h2 id="最后">最后&lt;/h2>
-&lt;p>「承认自己不行，只是个普通人」是一件很有勇气的事情，当我认清自己之后，我很难过。但是生活不应该只有房子，我们每个人都应该配拥有更好的生活，你需要做的就是改变现状，做出选择。&lt;/p></description></item><item><title>CashWarden 一款开源的资产管理系统</title><link>https://blog.forecho.com/hello-cashwarden.html</link><pubDate>Fri, 04 Sep 2020 14:09:00 +0800</pubDate><guid>https://blog.forecho.com/hello-cashwarden.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>今天要分享是一款我自己写的资产管理系统，而且这个系统代码开源。这篇文章我就来说说它的特性和使用指南。&lt;/p>
-&lt;ul>
-&lt;li>官网地址： &lt;a href="http://www.cashwarden.com/">http://www.cashwarden.com/&lt;/a>&lt;/li>
-&lt;li>源码地址： &lt;a href="https://github.com/cashwarden">https://github.com/cashwarden&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="特性">特性&lt;/h2>
-&lt;h3 id="记账">记账&lt;/h3>
-&lt;p>资产系统最重要也是最基本的肯定是记账了，清楚自己的每一笔收支情况。为了让记账更轻松，我还开发了一个快速记账功能。&lt;/p>
-&lt;p>我们平常不想记账的一个原因可能就是嫌记账太麻烦了，要输入很多东西，所以我参考了之前我用的记账软件，设计了这个功能。简单的来说就是可以通过发送一句话实现记账功能，效果如下：&lt;/p>
-&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20200904A2e1h7.png" alt="20200904A2e1h7">&lt;/p>
-&lt;h3 id="账号">账号&lt;/h3>
-&lt;p>一个资产管理系统，不单单只是记账功能，还应该可以一览无余的知道自己的资产，所以就有了账号模块。你可以把你的所有储蓄卡、信用卡统统添加记录上来，做一个对自己资产了如指掌的人。&lt;/p>
-&lt;h3 id="分析">分析&lt;/h3>
-&lt;p>目前在账号、记录和仪表盘都可以看到一些分析统计的数据，初期急着上线所以比较简陋，等后期再完善。&lt;/p>
-&lt;h3 id="定时自动记账">定时自动记账&lt;/h3>
-&lt;p>这个使用场景有很多，比方说：&lt;/p>
-&lt;ul>
-&lt;li>每天的通勤地铁费用都说固定的，而且一般都是在法定工作日。&lt;/li>
-&lt;li>配合支付宝定期存钱&lt;/li>
-&lt;li>基金定期扣款&lt;/li>
-&lt;li>……&lt;/li>
-&lt;/ul>
-&lt;h3 id="预算">预算&lt;/h3>
-&lt;p>有计划，但暂未开发。&lt;/p>
-&lt;h2 id="使用指南">使用指南&lt;/h2>
-&lt;h3 id="使用快速记账">使用快速记账&lt;/h3>
-&lt;p>目前快速记账功能是通过关键词匹配实现的，所以要想使用这个功能你就要先在 「设置 -&amp;gt; &lt;a href="http://www.cashwarden.com/#/settings/rules">规则设置&lt;/a>」中添加你的配置。然后才可以正常使用，目前「快速记账」有两个入口：&lt;/p>
-&lt;p>1⃣️ 在&lt;a href="http://www.cashwarden.com/#/record/index">记录&lt;/a>页面直接输入关键词然后按下回车键就可以添加了。&lt;/p>
-&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20200904g5uVQh.png" alt="20200904g5uVQh">&lt;/p>
-&lt;p>2⃣️ 给 Telegram Bot 发消息记账&lt;/p>
-&lt;p>在&lt;a href="http://www.cashwarden.com/#/settings/personal/binding">账号绑定&lt;/a>页面按照提示先绑定自己的 Telegram 账号就可以使用了。&lt;/p>
-&lt;p>另外日期我可以帮你智能的匹配好了，默认情况下是当前时间，但是你也可以这样去记账：&lt;/p>
-&lt;ul>
-&lt;li>昨天买菜23：添加时间是昨天的记录&lt;/li>
-&lt;li>前天买菜23：添加时间是前天的记录&lt;/li>
-&lt;li>23号买菜23：如果本月23号已经过了，那么添加时间是本月23号的记录。否则就是上个月23号的记录。&lt;/li>
-&lt;li>8月23号买菜23：如果本年8月23号已经过了，那么添加时间是本年8月23号的记录。否则就是去年8月23号的记录。&lt;/li>
-&lt;/ul>
-&lt;h3 id="规则的使用">规则的使用&lt;/h3>
-&lt;p>配置关键词（可以多个）之后，快速记账的时候就会根据关键词记账。我们可以分配支付或者收入的账号，还可以分配类别和标签。最关键的是可以匹配多个关键词，根据优先级来依序匹配记账。这意味着你可以实现快速记账的时候分配指定支付账号。&lt;/p>
-&lt;p>比方说吃饭这个事情，有时候我用饭卡消费，有时候用微信零钱，有时候用支付宝等等。那么我们就可以这样设置规则：&lt;/p>
-&lt;ul>
-&lt;li>添加一条「饭」关键词，然后分配对应的默认支付账户（比方说是饭卡），分配分类，分配标签等，&lt;strong>使用默认排序&lt;/strong>。&lt;/li>
-&lt;li>添加几条账户支付相关的规则，只需要设置关键词和分配支付账号，&lt;strong>把排序设置为10&lt;/strong>（越小数字优先级越高）。&lt;/li>
-&lt;/ul>
-&lt;p>如果是饭卡消费的你只要输入「午饭20」就可以了，如果是支付宝消费的，你就可以输入「午饭支付宝20」。&lt;/p>
-&lt;h3 id="标签说明">标签说明&lt;/h3>
-&lt;p>标签设置除了常规的标签操作之外，还有一个需要说明的就是：&lt;/p>
-&lt;ul>
-&lt;li>如果使用快速记账功能，描述信息如果存在标签库中，会自动在这笔记账信息中标注标签。&lt;/li>
-&lt;/ul>
-&lt;p>比方说我现在在标签设置中添加了「地铁」关键词，但是我在规则中改关键词规则并没有设置 「分配关键词」。但是当使用「地铁3.9」快速记账的时候，会自动加上「地铁」标签。&lt;/p>
-&lt;h3 id="定时记账使用">定时记账使用&lt;/h3>
-&lt;ul>
-&lt;li>先添加一笔记录，然后在记录列表找到「添加定时记账」按钮。&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20200912RPOALI.png" alt="20200912RPOALI">&lt;/p>
-&lt;ul>
-&lt;li>目前支持的频率有：每天、每周、每月、工作日（周一至周五）、中国大陆的法定工作日。如果不够用欢迎反馈。&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20200912GBYMDN.png" alt="20200912GBYMDN">&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>每天记账统一是 UTC+8 时区9点执行（暂时简单粗暴）。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>如果想要 Telegram 定时记账成功的通知，之前&lt;strong>绑定过 Telegram 的用户&lt;/strong>需要重新绑定一次，没绑定的去绑定就可以了，效果如下（标题不一样）：&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20200912UWlhko.png" alt="20200912UWlhko">&lt;/p>
-&lt;h2 id="诞生记">诞生记&lt;/h2>
-&lt;h3 id="起因">起因&lt;/h3>
-&lt;p>开发这个资产管理系统是因为我常用的一款记账软件（微记账）在7月份的时候发布了一个公告，上个月之后他们要停更了，而且他们没有 Web 版一直用着不爽，我早就想自己开发一款记账软件了，正好借着这个机会。&lt;/p>
-&lt;p>刚开始只是想开发一个记账软件，后来发现要做一个资产管理系统，要做的事情还是很多的。8月底的时候已经跑通了，于是发了&lt;a href="https://twitter.com/caizhenghai/status/1298480058357567489">一个 Twitter&lt;/a>，没想到获得 300 个点赞，很多人提出了想试用的要求，所以我不得不抓紧时间调整细节，就在昨天（9月3号）对外公开内测了。&lt;/p>
-&lt;h3 id="名字由来">名字由来&lt;/h3>
-&lt;p>密码管理我以前一直用 1Password，移动端免费，但是多账号同步收费，其实我都准备付费了的，直到我遇到了 &lt;a href="https://bitwarden.com/">Bitwarden&lt;/a>，开源，基本功能免费，而且还可以自己搭建，虽然界面没有 1Password 好看，但是基本功能也够我用了。&lt;/p>
-&lt;p>所以我这个系统就是想做资产管理届的 Bitwarden，于是就有了 CashWarden。&lt;/p>
-&lt;h2 id="最后">最后&lt;/h2>
-&lt;p>我们开了一个 Telegram 讨论组，如果你对此系统感兴趣欢迎加入讨论，地址是 &lt;a href="https://t.me/cashwarden">https://t.me/cashwarden&lt;/a>&lt;/p></description></item></channel></rss>
+&lt;p>「承认自己不行，只是个普通人」是一件很有勇气的事情，当我认清自己之后，我很难过。但是生活不应该只有房子，我们每个人都应该配拥有更好的生活，你需要做的就是改变现状，做出选择。&lt;/p></description></item></channel></rss>
