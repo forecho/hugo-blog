@@ -1,4 +1,111 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 09 Mar 2021 19:09:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>【深度理财22】股票投资的框架</title><link>https://blog.forecho.com/financedeep-22.html</link><pubDate>Tue, 09 Mar 2021 19:09:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-22.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 19 Mar 2021 19:09:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>【深度理财23】什么是期权</title><link>https://blog.forecho.com/financedeep-23.html</link><pubDate>Fri, 19 Mar 2021 19:09:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-23.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>今年 1 月底，我还是开始使用期权交易了，这一个月来我教了很多「学费」，学了很多，所以我打算写几篇文章分享和记录自己的学习成功。&lt;/p>
+&lt;p>⚠️ 期权是一种金融衍生品，相比股票，它要学的东西比较多，高收益同时也是高风险，而且学会了也不一定能赚钱，所以是否入场请三思。&lt;/p>
+&lt;h2 id="期权七大要素">期权七大要素&lt;/h2>
+&lt;p>「期权」顾名思义就是指某个时间以指定价格买卖的权利。&lt;/p>
+&lt;p>期权的七大要素：&lt;/p>
+&lt;ul>
+&lt;li>资产标的&lt;/li>
+&lt;li>买卖行为&lt;/li>
+&lt;li>权利金&lt;/li>
+&lt;li>保证金&lt;/li>
+&lt;li>行权价&lt;/li>
+&lt;li>到期日&lt;/li>
+&lt;li>是否行权&lt;/li>
+&lt;/ul>
+&lt;h3 id="资产标的">资产标的&lt;/h3>
+&lt;p>指的是该期权对应的实际资产，这里我们只讲股票，所以对应的就是正股，而且并不是所有的股票都适合做期权交易，选择的正股要满足以下几点：&lt;/p>
+&lt;ul>
+&lt;li>选择你熟悉的股票&lt;/li>
+&lt;li>选择期权交易量大的正股，比方说特斯拉，苹果，QQQ，SQQQ 等，交易量小的股票（期权）有可能买（卖）不出去，到时候你只能溢价交易了。&lt;/li>
+&lt;/ul>
+&lt;h3 id="买卖行为">买卖行为&lt;/h3>
+&lt;p>期权有看涨和看跌，对应的分别有买家和卖家，他们的权利（可选操作）和义务（必须操作）为：&lt;/p>
+&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20210320Yqw3Ka.png" alt="">&lt;/p>
+&lt;p>于是就有了这四个策略：&lt;/p>
+&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20210320IcwgxC.png" alt="">&lt;/p>
+&lt;ul>
+&lt;li>买方：买入 Call 或者 Put ，期权价格&lt;strong>上涨&lt;/strong>，你就会获利。&lt;/li>
+&lt;li>卖方：卖出 Call 或者 Put ，期权价格&lt;strong>下跌&lt;/strong>，你就会获利。&lt;/li>
+&lt;/ul>
+&lt;h3 id="权利金">权利金&lt;/h3>
+&lt;p>指买卖期权的金额：&lt;/p>
+&lt;ul>
+&lt;li>买家：为获取期权所赋予的权利而必须支付给卖方的费用。&lt;/li>
+&lt;li>卖家：是指卖出期权的报酬，最大收益为期权交易的成交总金额。&lt;/li>
+&lt;/ul>
+&lt;p>我们用赌场来做例子，方便大家理解：&lt;/p>
+&lt;ul>
+&lt;li>买家：类似赌场里的赌客，权利金就是赌金，赌客希望押对方向大赚一笔，押错方向最多损失全部权利金。&lt;/li>
+&lt;li>卖家：类似赌场里的庄家，希望赌客押错方向来赚取赌金（权利金）。&lt;/li>
+&lt;/ul>
+&lt;h3 id="保证金">保证金&lt;/h3>
+&lt;ul>
+&lt;li>买家：因为最大损失是权利金，风险有限而且预知，可以不行权，所以不需要冻结保证金。&lt;/li>
+&lt;li>卖家：要冻结对应的保证金，要确保有履行义务的能力。&lt;/li>
+&lt;/ul>
+&lt;h3 id="行权价">行权价&lt;/h3>
+&lt;p>到期时要交易正股的价格。&lt;/p>
+&lt;h3 id="到期日">到期日&lt;/h3>
+&lt;p>该期权要行权的日期。通常有两种：&lt;/p>
+&lt;ul>
+&lt;li>欧式期权：必须到「到期日」才可以行权&lt;/li>
+&lt;li>美式期权：到前期任一时间点都可以行权&lt;/li>
+&lt;/ul>
+&lt;p>美股和港股大部分港股都是美式期权，据我所知币安是欧式期权。&lt;/p>
+&lt;h3 id="是否行权">是否行权&lt;/h3>
+&lt;p>指买方选择是否要行权，可以选择放弃。卖家没有选择权，且必须配合买家行权。&lt;/p>
+&lt;h2 id="常见问题">常见问题&lt;/h2>
+&lt;h3 id="什么是价内与价外">什么是价内与价外？&lt;/h3>
+&lt;ul>
+&lt;li>价内：指比较划算的一边。行权价低于市价的看涨（Call）和行权价高于市价的看跌（Put）。&lt;/li>
+&lt;li>价外：指比较贵的一边。行权价高于市价的看涨（Call）和行权价低于市价的看跌（Put）。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20210320USdV8c.png!m" alt="">&lt;/p>
+&lt;p>价内和价外会随着股价的变化，上下浮动，到日期行权价处于什么位置决定是否获利：&lt;/p>
+&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20210322t3d6th.png" alt="">&lt;/p>
+&lt;ul>
+&lt;li>买家：希望期权到期的时候行权价在&lt;strong>价内&lt;/strong>就能获得利润&lt;/li>
+&lt;li>卖家：希望期权到期的时候行权价在&lt;strong>价外&lt;/strong>就能获得利润&lt;/li>
+&lt;/ul>
+&lt;h3 id="影响权利金的因素有哪些">影响权利金的因素有哪些？&lt;/h3>
+&lt;p>权利金 = 内在价值 + 外在价值：&lt;/p>
+&lt;ul>
+&lt;li>内在价值：市价和行权价的「差价」，因为卖家必须有行权的义务，因此内在价值越大时，代表买家获利也越大，对应的买家必须花更高的权利金。&lt;/li>
+&lt;li>外在价值：包括：
+&lt;ul>
+&lt;li>时间价值：距离期权到期日越久，代表不确定性更大，因此权利金也越高。&lt;/li>
+&lt;li>隐含波动率：是将市场上的权证交易价格代入权证理论价格模型（一种算法），反推出来的波动率数值。它的值越大代表不确定性越高，所以权利金也越昂贵。&lt;/li>
+&lt;li>利率、股息率等等&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="行权策略">行权策略&lt;/h3>
+&lt;p>我主要用的是富途证券来操作期权，他们的行权策略是：&lt;/p>
+&lt;ul>
+&lt;li>提前行权需要打电话联系客服，看来他们不提倡这种操作。&lt;/li>
+&lt;li>到期日当天期权为价外，则期权归零，不行权。若为期权价内期权会自动行权，前提是你账户有足够的资金行权，没有足够资金则强制平仓期权。&lt;/li>
+&lt;/ul>
+&lt;p>实际上我们没必要行权，我们只需要在到期日之前交易期权赚取差价就够了。&lt;/p>
+&lt;h2 id="最后">最后&lt;/h2>
+&lt;p>这篇文章主要分享了一些期权的基础知识，了解了这些基础之后我们才能更好的操作期权，现在我们来简单回顾一下这些基础知识，期权的七大要素：&lt;/p>
+&lt;ul>
+&lt;li>资产标的：该选择权对应的实际资产，例如 NIO、AAPL 股票&lt;/li>
+&lt;li>权利金：买方用来购买「选择权」的金额，卖家能获取到的最大金额&lt;/li>
+&lt;li>保证金：被冻结的金额，确保卖方有履行义务的能力。&lt;/li>
+&lt;li>行权价：到期时要交易的价格。&lt;/li>
+&lt;li>到期日：行权的最大截止日。&lt;/li>
+&lt;li>买卖行为：看涨（Call） or 看跌（Put）&lt;/li>
+&lt;li>行权：买方有选择是否要行权的权利，卖家没有选择。&lt;/li>
+&lt;/ul>
+&lt;p>下篇文章我再来介绍期权交易的基本策略，如果你对期权交易感兴趣，并且觉得这篇文章对你有帮助的话，欢迎分享与订阅。&lt;/p>
+&lt;blockquote>
+&lt;p>PS：年初我创建了一个微信投资交流群，想加群的朋友先加我微信 ipzone 我拉你进群，申请好友请备注来意。&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>开户福利：如果你还没有美股开户的话，推荐我正在使用的富途证券，他们目前开户成功入金有送股票，开户链接：http://link.3li3.com/futu&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/futu5.png!s" alt="富途证券开户">&lt;/p></description></item><item><title>【深度理财22】股票投资的框架</title><link>https://blog.forecho.com/financedeep-22.html</link><pubDate>Tue, 09 Mar 2021 19:09:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-22.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
 &lt;p>最近大盘回调，正好可以利用这段时间沉下心来好好梳理知识，今天我就来分享一下自己股票投资的框架，希望看完对你有帮助。&lt;/p>
 &lt;blockquote>
 &lt;p>加一个风险提示：本篇文章仅代表我的个人观点，不构成与其他人相关的任何投资建议。在作出任何投资决定前，投资者应根据自身情况考虑投资产品相关的风险因素，并于需要时咨询专业投资顾问意见。&lt;/p>
@@ -1112,19 +1219,4 @@
 &lt;ul>
 &lt;li>&lt;a href="https://www.php.net/manual/zh/function.header.php">header (PHP 手册)&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://zh.wikipedia.org/wiki/HTTP_Location">HTTP Location (维基百科)&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>30岁生日</title><link>https://blog.forecho.com/30th-birthday.html</link><pubDate>Tue, 15 Sep 2020 11:08:00 +0800</pubDate><guid>https://blog.forecho.com/30th-birthday.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>虽然到现还是很抗拒，但是不得不面对的现实是「我今天30岁了，我要奔四了」。&lt;/p>
-&lt;h2 id="一无所有">一无所有&lt;/h2>
-&lt;p>一直被身边的同年人所「抛弃」，来深圳也7年多了，相比留在武汉的朋友，我真是一无所有，买不起房，用不起车，更别说养小孩儿了，而他们现在基本上都有车有房有小孩了，我最近在思考13年年初来深圳的行为是否正确。&lt;/p>
-&lt;p>我怎么也没想到7年之后我还是个上班族，我太高估自己了，就像小时候我一直在思考是上北大还是清华。&lt;/p>
-&lt;p>当然也不能说我不够努力，我17年7月的时候去过一个创业公司当过技术主管，只不过不到半年公司连工资都发不出了，连欠我们4个月工资。我不甘心，正好又赶上一个认识的人要创业找技术合伙人，我拿底薪跟他干了五个月，每天都很辛苦，但是最后产品太烂，也推广不出去，我撑不住了，我选择放弃。&lt;/p>
-&lt;p>我太难了，最后还是乖乖去找工作了，还好运气不错，不到一个星期就找到满意的工作了，干到现在快2年了，公司是我上了这么久最喜欢的一家公司了，特别是刚入职那个时候的氛围，呆了这么久了虽然福利在变少，但是它不加薪啊。&lt;/p>
-&lt;h2 id="学会面对现实">学会面对现实&lt;/h2>
-&lt;p>说不上非常喜欢，但是我其实是想留在深圳的，毕竟在这里住了7年多了，我在武汉都没呆过这么久，有感情了，奈何钱包不允许，靠工资想留在深圳真的是非常非常辛苦，如果没有双方家庭的帮助，那就要辛苦夫妻两人了。&lt;/p>
-&lt;p>我想过了，就算我花了很多的钱凑够了首付，但是一个人上班月供太难了，而且非常不甘心的是我花了那么多钱却只能买一个小房子。如果买了房子，每个月房贷还完肯定是所剩无几了，别提养车和养小孩儿了。&lt;/p>
-&lt;p>深圳为什么是国内最「年轻人」的城市（深圳常住人口平均年龄仅有32.5岁），以前觉得挺自豪的，但是现在想想我们年轻的时候都是被割韭菜了。就相当于互联网公司为什么年轻人多啊，因为他们根本就不招聘35岁以上的人了，而且华为还裁掉35岁以上的老员工。深圳也是因为年纪大了买不起房都逃走的而得到这个称号的。&lt;/p>
-&lt;p>承认「靠工资买不起深圳的房」之后，我们就决定明年就离开深圳了，而且已经在选择目标城市了，打算先去成都看看。&lt;/p>
-&lt;h2 id="三分之一">三分之一&lt;/h2>
-&lt;p>以现在生活水平，我觉得如果不出意外的话，我们都能活到90岁，30岁了就相当于人生过了三分之一了，这样一想的话会好很多，我会觉得30～60岁是一个人一生的黄金时期了，所以我决定60岁之后退休。&lt;/p>
-&lt;h2 id="最后">最后&lt;/h2>
-&lt;p>「承认自己不行，只是个普通人」是一件很有勇气的事情，当我认清自己之后，我很难过。但是生活不应该只有房子，我们每个人都应该配拥有更好的生活，你需要做的就是改变现状，做出选择。&lt;/p></description></item></channel></rss>
+&lt;/ul></description></item></channel></rss>
