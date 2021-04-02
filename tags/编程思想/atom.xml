@@ -9,8 +9,8 @@
 &lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-php" data-lang="php">&lt;span style="color:#099">&amp;lt;?&lt;/span>&lt;span style="color:#555">=&lt;/span> round((&lt;span style="color:#033">$price&lt;/span> &lt;span style="color:#555">/&lt;/span> &lt;span style="color:#f60">100&lt;/span>), &lt;span style="color:#f60">2&lt;/span>) &lt;span style="color:#099">?&amp;gt;&lt;/span>
-&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-php" data-lang="php">&lt;span style="color:#555">&amp;lt;?=&lt;/span> round((&lt;span style="color:#033">$price&lt;/span> &lt;span style="color:#555">/&lt;/span> &lt;span style="color:#f60">100&lt;/span>), &lt;span style="color:#f60">2&lt;/span>) &lt;span style="color:#099">?&amp;gt;&lt;/span>&lt;span style="color:#a00;background-color:#faa">
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;p>这样写虽然能实现效果，但是如果需求有变化，需要使用强制保留两位小数，那么你需要这样改：&lt;/p>
 &lt;div class="highlight">&lt;div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
@@ -18,8 +18,8 @@
 &lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-php" data-lang="php">&lt;span style="color:#099">&amp;lt;?&lt;/span>&lt;span style="color:#555">=&lt;/span> number_format(round((&lt;span style="color:#033">$price&lt;/span> &lt;span style="color:#555">/&lt;/span> &lt;span style="color:#f60">100&lt;/span>), &lt;span style="color:#f60">2&lt;/span>), &lt;span style="color:#f60">2&lt;/span>, &lt;span style="color:#c30">&amp;#39;.&amp;#39;&lt;/span>, &lt;span style="color:#c30">&amp;#39;&amp;#39;&lt;/span>); &lt;span style="color:#099">?&amp;gt;&lt;/span>
-&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-php" data-lang="php">&lt;span style="color:#555">&amp;lt;?=&lt;/span> number_format(round((&lt;span style="color:#033">$price&lt;/span> &lt;span style="color:#555">/&lt;/span> &lt;span style="color:#f60">100&lt;/span>), &lt;span style="color:#f60">2&lt;/span>), &lt;span style="color:#f60">2&lt;/span>, &lt;span style="color:#c30">&amp;#39;.&amp;#39;&lt;/span>, &lt;span style="color:#c30">&amp;#39;&amp;#39;&lt;/span>); &lt;span style="color:#099">?&amp;gt;&lt;/span>&lt;span style="color:#a00;background-color:#faa">
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;p>看上去虽然不多的代码，但是&lt;/p>
 &lt;ul>

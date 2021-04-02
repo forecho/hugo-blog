@@ -63,43 +63,43 @@ cp -a environments/prod/frontend environments/prod/api
 &lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">40
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-php" data-lang="php">return [
-&amp;#39;Development&amp;#39; =&amp;gt; [
-&amp;#39;path&amp;#39; =&amp;gt; &amp;#39;dev&amp;#39;,
-&amp;#39;setWritable&amp;#39; =&amp;gt; [
-&amp;#39;backend/runtime&amp;#39;,
-&amp;#39;backend/web/assets&amp;#39;,
-&amp;#39;frontend/runtime&amp;#39;,
-&amp;#39;frontend/web/assets&amp;#39;,
-&amp;#39;api/runtime&amp;#39;,
-&amp;#39;api/web/assets&amp;#39;,
+&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-php" data-lang="php">&lt;span style="color:#069;font-weight:bold">return&lt;/span> [
+&lt;span style="color:#c30">&amp;#39;Development&amp;#39;&lt;/span> &lt;span style="color:#555">=&amp;gt;&lt;/span> [
+&lt;span style="color:#c30">&amp;#39;path&amp;#39;&lt;/span> &lt;span style="color:#555">=&amp;gt;&lt;/span> &lt;span style="color:#c30">&amp;#39;dev&amp;#39;&lt;/span>,
+&lt;span style="color:#c30">&amp;#39;setWritable&amp;#39;&lt;/span> &lt;span style="color:#555">=&amp;gt;&lt;/span> [
+&lt;span style="color:#c30">&amp;#39;backend/runtime&amp;#39;&lt;/span>,
+&lt;span style="color:#c30">&amp;#39;backend/web/assets&amp;#39;&lt;/span>,
+&lt;span style="color:#c30">&amp;#39;frontend/runtime&amp;#39;&lt;/span>,
+&lt;span style="color:#c30">&amp;#39;frontend/web/assets&amp;#39;&lt;/span>,
+&lt;span style="color:#c30">&amp;#39;api/runtime&amp;#39;&lt;/span>,
+&lt;span style="color:#c30">&amp;#39;api/web/assets&amp;#39;&lt;/span>,
 ],
-&amp;#39;setExecutable&amp;#39; =&amp;gt; [
-&amp;#39;yii&amp;#39;,
+&lt;span style="color:#c30">&amp;#39;setExecutable&amp;#39;&lt;/span> &lt;span style="color:#555">=&amp;gt;&lt;/span> [
+&lt;span style="color:#c30">&amp;#39;yii&amp;#39;&lt;/span>,
 ],
-&amp;#39;setCookieValidationKey&amp;#39; =&amp;gt; [
-&amp;#39;backend/config/main-local.php&amp;#39;,
-&amp;#39;frontend/config/main-local.php&amp;#39;,
-&amp;#39;api/config/main-local.php&amp;#39;,
+&lt;span style="color:#c30">&amp;#39;setCookieValidationKey&amp;#39;&lt;/span> &lt;span style="color:#555">=&amp;gt;&lt;/span> [
+&lt;span style="color:#c30">&amp;#39;backend/config/main-local.php&amp;#39;&lt;/span>,
+&lt;span style="color:#c30">&amp;#39;frontend/config/main-local.php&amp;#39;&lt;/span>,
+&lt;span style="color:#c30">&amp;#39;api/config/main-local.php&amp;#39;&lt;/span>,
 ],
 ],
-&amp;#39;Production&amp;#39; =&amp;gt; [
-&amp;#39;path&amp;#39; =&amp;gt; &amp;#39;prod&amp;#39;,
-&amp;#39;setWritable&amp;#39; =&amp;gt; [
-&amp;#39;backend/runtime&amp;#39;,
-&amp;#39;backend/web/assets&amp;#39;,
-&amp;#39;frontend/runtime&amp;#39;,
-&amp;#39;frontend/web/assets&amp;#39;,
-&amp;#39;api/runtime&amp;#39;,
-&amp;#39;api/web/assets&amp;#39;,
+&lt;span style="color:#c30">&amp;#39;Production&amp;#39;&lt;/span> &lt;span style="color:#555">=&amp;gt;&lt;/span> [
+&lt;span style="color:#c30">&amp;#39;path&amp;#39;&lt;/span> &lt;span style="color:#555">=&amp;gt;&lt;/span> &lt;span style="color:#c30">&amp;#39;prod&amp;#39;&lt;/span>,
+&lt;span style="color:#c30">&amp;#39;setWritable&amp;#39;&lt;/span> &lt;span style="color:#555">=&amp;gt;&lt;/span> [
+&lt;span style="color:#c30">&amp;#39;backend/runtime&amp;#39;&lt;/span>,
+&lt;span style="color:#c30">&amp;#39;backend/web/assets&amp;#39;&lt;/span>,
+&lt;span style="color:#c30">&amp;#39;frontend/runtime&amp;#39;&lt;/span>,
+&lt;span style="color:#c30">&amp;#39;frontend/web/assets&amp;#39;&lt;/span>,
+&lt;span style="color:#c30">&amp;#39;api/runtime&amp;#39;&lt;/span>,
+&lt;span style="color:#c30">&amp;#39;api/web/assets&amp;#39;&lt;/span>,
 ],
-&amp;#39;setExecutable&amp;#39; =&amp;gt; [
-&amp;#39;yii&amp;#39;,
+&lt;span style="color:#c30">&amp;#39;setExecutable&amp;#39;&lt;/span> &lt;span style="color:#555">=&amp;gt;&lt;/span> [
+&lt;span style="color:#c30">&amp;#39;yii&amp;#39;&lt;/span>,
 ],
-&amp;#39;setCookieValidationKey&amp;#39; =&amp;gt; [
-&amp;#39;backend/config/main-local.php&amp;#39;,
-&amp;#39;frontend/config/main-local.php&amp;#39;,
-&amp;#39;api/config/main-local.php&amp;#39;,
+&lt;span style="color:#c30">&amp;#39;setCookieValidationKey&amp;#39;&lt;/span> &lt;span style="color:#555">=&amp;gt;&lt;/span> [
+&lt;span style="color:#c30">&amp;#39;backend/config/main-local.php&amp;#39;&lt;/span>,
+&lt;span style="color:#c30">&amp;#39;frontend/config/main-local.php&amp;#39;&lt;/span>,
+&lt;span style="color:#c30">&amp;#39;api/config/main-local.php&amp;#39;&lt;/span>,
 ],
 ],
 ];

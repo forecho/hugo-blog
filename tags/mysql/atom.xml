@@ -5,26 +5,26 @@
 &lt;table>
 &lt;thead>
 &lt;tr>
-&lt;th align="left">字段&lt;/th>
-&lt;th align="right">注释&lt;/th>
+&lt;th style="text-align:left">字段&lt;/th>
+&lt;th style="text-align:right">注释&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td align="left">id&lt;/td>
-&lt;td align="right">主键自增&lt;/td>
+&lt;td style="text-align:left">id&lt;/td>
+&lt;td style="text-align:right">主键自增&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td align="left">activity_id&lt;/td>
-&lt;td align="right">活动ID&lt;/td>
+&lt;td style="text-align:left">activity_id&lt;/td>
+&lt;td style="text-align:right">活动ID&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td align="left">user_id&lt;/td>
-&lt;td align="right">用户 ID&lt;/td>
+&lt;td style="text-align:left">user_id&lt;/td>
+&lt;td style="text-align:right">用户 ID&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td align="left">number&lt;/td>
-&lt;td align="right">活动记录编号&lt;/td>
+&lt;td style="text-align:left">number&lt;/td>
+&lt;td style="text-align:right">活动记录编号&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>

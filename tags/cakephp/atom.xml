@@ -5,8 +5,8 @@
 &lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-php" data-lang="php">$this-&amp;gt;Order-&amp;gt;id = $id;
-$this-&amp;gt;Order-&amp;gt;saveField(&amp;#39;status&amp;#39;, $status);
+&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-php" data-lang="php">&lt;span style="color:#033">$this&lt;/span>&lt;span style="color:#555">-&amp;gt;&lt;/span>&lt;span style="color:#309">Order&lt;/span>&lt;span style="color:#555">-&amp;gt;&lt;/span>&lt;span style="color:#309">id&lt;/span> &lt;span style="color:#555">=&lt;/span> &lt;span style="color:#033">$id&lt;/span>;
+&lt;span style="color:#033">$this&lt;/span>&lt;span style="color:#555">-&amp;gt;&lt;/span>&lt;span style="color:#309">Order&lt;/span>&lt;span style="color:#555">-&amp;gt;&lt;/span>&lt;span style="color:#309">saveField&lt;/span>(&lt;span style="color:#c30">&amp;#39;status&amp;#39;&lt;/span>, &lt;span style="color:#033">$status&lt;/span>);
 &lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;h3 id="点赞的时候需要1如何更新数据库">点赞的时候需要+1，如何更新数据库？&lt;/h3>
@@ -18,9 +18,9 @@ $this-&amp;gt;Order-&amp;gt;saveField(&amp;#39;status&amp;#39;, $status);
 &lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-php" data-lang="php">$this-&amp;gt;Widget-&amp;gt;updateAll(
-array(&amp;#39;Widget.numberfield&amp;#39; =&amp;gt; &amp;#39;Widget.numberfield + 1&amp;#39;),
-array(&amp;#39;Widget.id&amp;#39; =&amp;gt; 1)
+&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-php" data-lang="php">&lt;span style="color:#033">$this&lt;/span>&lt;span style="color:#555">-&amp;gt;&lt;/span>&lt;span style="color:#309">Widget&lt;/span>&lt;span style="color:#555">-&amp;gt;&lt;/span>&lt;span style="color:#309">updateAll&lt;/span>(
+&lt;span style="color:#069;font-weight:bold">array&lt;/span>(&lt;span style="color:#c30">&amp;#39;Widget.numberfield&amp;#39;&lt;/span> &lt;span style="color:#555">=&amp;gt;&lt;/span> &lt;span style="color:#c30">&amp;#39;Widget.numberfield + 1&amp;#39;&lt;/span>),
+&lt;span style="color:#069;font-weight:bold">array&lt;/span>(&lt;span style="color:#c30">&amp;#39;Widget.id&amp;#39;&lt;/span> &lt;span style="color:#555">=&amp;gt;&lt;/span> &lt;span style="color:#f60">1&lt;/span>)
 );
 &lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
@@ -33,10 +33,10 @@ array(&amp;#39;Widget.id&amp;#39; =&amp;gt; 1)
 &lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-php" data-lang="php">// 只获取name字段信息
-$this-&amp;gt;User-&amp;gt;read(&amp;#39;name&amp;#39;, $id);
-// 获取所有信息
-$this-&amp;gt;User-&amp;gt;read(null, $id);
+&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-php" data-lang="php">&lt;span style="color:#09f;font-style:italic">// 只获取name字段信息
+&lt;/span>&lt;span style="color:#09f;font-style:italic">&lt;/span>&lt;span style="color:#033">$this&lt;/span>&lt;span style="color:#555">-&amp;gt;&lt;/span>&lt;span style="color:#309">User&lt;/span>&lt;span style="color:#555">-&amp;gt;&lt;/span>&lt;span style="color:#309">read&lt;/span>(&lt;span style="color:#c30">&amp;#39;name&amp;#39;&lt;/span>, &lt;span style="color:#033">$id&lt;/span>);
+&lt;span style="color:#09f;font-style:italic">// 获取所有信息
+&lt;/span>&lt;span style="color:#09f;font-style:italic">&lt;/span>&lt;span style="color:#033">$this&lt;/span>&lt;span style="color:#555">-&amp;gt;&lt;/span>&lt;span style="color:#309">User&lt;/span>&lt;span style="color:#555">-&amp;gt;&lt;/span>&lt;span style="color:#309">read&lt;/span>(&lt;span style="color:#069;font-weight:bold">null&lt;/span>, &lt;span style="color:#033">$id&lt;/span>);
 &lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div></description></item><item><title>CakePHP 使用插件导出 CSV 文件</title><link>https://blog.forecho.com/cakephp-shi-yong-cha-jian-dao-chu-csv-wen-jian.html</link><pubDate>Fri, 05 Sep 2014 21:42:00 +0800</pubDate><guid>https://blog.forecho.com/cakephp-shi-yong-cha-jian-dao-chu-csv-wen-jian.html</guid><description>&lt;p>插件地址：&lt;a href="https://github.com/josegonzalez/cakephp-csvview">https://github.com/josegonzalez/cakephp-csvview&lt;/a>&lt;/p>
@@ -52,10 +52,10 @@ $this-&amp;gt;User-&amp;gt;read(null, $id);
 &lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-php" data-lang="php">foreach ($data as $key =&amp;gt; $value) {
-$item[$key][&amp;#39;username&amp;#39;] = $value[&amp;#39;username&amp;#39;]. &amp;#34;\t&amp;#34;;
-$item[$key][&amp;#39;mobile&amp;#39;] = $value[&amp;#39;mobile&amp;#39;] . &amp;#34;\t&amp;#34;;
-$item[$key][&amp;#39;created&amp;#39;] = $value[&amp;#39;created&amp;#39;] . &amp;#34;\t&amp;#34;;
+&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-php" data-lang="php">&lt;span style="color:#069;font-weight:bold">foreach&lt;/span> (&lt;span style="color:#033">$data&lt;/span> &lt;span style="color:#069;font-weight:bold">as&lt;/span> &lt;span style="color:#033">$key&lt;/span> &lt;span style="color:#555">=&amp;gt;&lt;/span> &lt;span style="color:#033">$value&lt;/span>) {
+&lt;span style="color:#033">$item&lt;/span>[&lt;span style="color:#033">$key&lt;/span>][&lt;span style="color:#c30">&amp;#39;username&amp;#39;&lt;/span>] &lt;span style="color:#555">=&lt;/span> &lt;span style="color:#033">$value&lt;/span>[&lt;span style="color:#c30">&amp;#39;username&amp;#39;&lt;/span>]&lt;span style="color:#555">.&lt;/span> &lt;span style="color:#c30">&amp;#34;&lt;/span>&lt;span style="color:#c30;font-weight:bold">\t&lt;/span>&lt;span style="color:#c30">&amp;#34;&lt;/span>;
+&lt;span style="color:#033">$item&lt;/span>[&lt;span style="color:#033">$key&lt;/span>][&lt;span style="color:#c30">&amp;#39;mobile&amp;#39;&lt;/span>] &lt;span style="color:#555">=&lt;/span> &lt;span style="color:#033">$value&lt;/span>[&lt;span style="color:#c30">&amp;#39;mobile&amp;#39;&lt;/span>] &lt;span style="color:#555">.&lt;/span> &lt;span style="color:#c30">&amp;#34;&lt;/span>&lt;span style="color:#c30;font-weight:bold">\t&lt;/span>&lt;span style="color:#c30">&amp;#34;&lt;/span>;
+&lt;span style="color:#033">$item&lt;/span>[&lt;span style="color:#033">$key&lt;/span>][&lt;span style="color:#c30">&amp;#39;created&amp;#39;&lt;/span>] &lt;span style="color:#555">=&lt;/span> &lt;span style="color:#033">$value&lt;/span>[&lt;span style="color:#c30">&amp;#39;created&amp;#39;&lt;/span>] &lt;span style="color:#555">.&lt;/span> &lt;span style="color:#c30">&amp;#34;&lt;/span>&lt;span style="color:#c30;font-weight:bold">\t&lt;/span>&lt;span style="color:#c30">&amp;#34;&lt;/span>;
 }
 &lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>

@@ -50,22 +50,22 @@
 &lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-php" data-lang="php">class DynamicProperties { }
-$object = new DynamicProperties;
-echo isset($object-&amp;gt;foo) ? &amp;#39;t&amp;#39; : &amp;#39;f&amp;#39;; // f
-echo PHP_EOL;
-// Set Dynamic Properties foo and fooz
-$object-&amp;gt;foo = &amp;#39;bar&amp;#39;;
-$object-&amp;gt;fooz = &amp;#39;baz&amp;#39;;
-// Isset and Unset work
-isset($object-&amp;gt;foo); // true
-unset($object-&amp;gt;foo);
-// Iterate through Properties and Values
-foreach($object as $property =&amp;gt; $value) {
-echo $property . &amp;#39; = &amp;#39; . $value . PHP_EOL;
+&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-php" data-lang="php">&lt;span style="color:#069;font-weight:bold">class&lt;/span> &lt;span style="color:#0a8;font-weight:bold">DynamicProperties&lt;/span> { }
+&lt;span style="color:#033">$object&lt;/span> &lt;span style="color:#555">=&lt;/span> &lt;span style="color:#069;font-weight:bold">new&lt;/span> DynamicProperties;
+&lt;span style="color:#069;font-weight:bold">echo&lt;/span> isset(&lt;span style="color:#033">$object&lt;/span>&lt;span style="color:#555">-&amp;gt;&lt;/span>&lt;span style="color:#309">foo&lt;/span>) &lt;span style="color:#555">?&lt;/span> &lt;span style="color:#c30">&amp;#39;t&amp;#39;&lt;/span> &lt;span style="color:#555">:&lt;/span> &lt;span style="color:#c30">&amp;#39;f&amp;#39;&lt;/span>; &lt;span style="color:#09f;font-style:italic">// f
+&lt;/span>&lt;span style="color:#09f;font-style:italic">&lt;/span>&lt;span style="color:#069;font-weight:bold">echo&lt;/span> PHP_EOL;
+&lt;span style="color:#09f;font-style:italic">// Set Dynamic Properties foo and fooz
+&lt;/span>&lt;span style="color:#09f;font-style:italic">&lt;/span>&lt;span style="color:#033">$object&lt;/span>&lt;span style="color:#555">-&amp;gt;&lt;/span>&lt;span style="color:#309">foo&lt;/span> &lt;span style="color:#555">=&lt;/span> &lt;span style="color:#c30">&amp;#39;bar&amp;#39;&lt;/span>;
+&lt;span style="color:#033">$object&lt;/span>&lt;span style="color:#555">-&amp;gt;&lt;/span>&lt;span style="color:#309">fooz&lt;/span> &lt;span style="color:#555">=&lt;/span> &lt;span style="color:#c30">&amp;#39;baz&amp;#39;&lt;/span>;
+&lt;span style="color:#09f;font-style:italic">// Isset and Unset work
+&lt;/span>&lt;span style="color:#09f;font-style:italic">&lt;/span>isset(&lt;span style="color:#033">$object&lt;/span>&lt;span style="color:#555">-&amp;gt;&lt;/span>&lt;span style="color:#309">foo&lt;/span>); &lt;span style="color:#09f;font-style:italic">// true
+&lt;/span>&lt;span style="color:#09f;font-style:italic">&lt;/span>unset(&lt;span style="color:#033">$object&lt;/span>&lt;span style="color:#555">-&amp;gt;&lt;/span>&lt;span style="color:#309">foo&lt;/span>);
+&lt;span style="color:#09f;font-style:italic">// Iterate through Properties and Values
+&lt;/span>&lt;span style="color:#09f;font-style:italic">&lt;/span>&lt;span style="color:#069;font-weight:bold">foreach&lt;/span>(&lt;span style="color:#033">$object&lt;/span> &lt;span style="color:#069;font-weight:bold">as&lt;/span> &lt;span style="color:#033">$property&lt;/span> &lt;span style="color:#555">=&amp;gt;&lt;/span> &lt;span style="color:#033">$value&lt;/span>) {
+&lt;span style="color:#069;font-weight:bold">echo&lt;/span> &lt;span style="color:#033">$property&lt;/span> &lt;span style="color:#555">.&lt;/span> &lt;span style="color:#c30">&amp;#39; = &amp;#39;&lt;/span> &lt;span style="color:#555">.&lt;/span> &lt;span style="color:#033">$value&lt;/span> &lt;span style="color:#555">.&lt;/span> PHP_EOL;
 }
-// Prints:
-// fooz = baz
-&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;span style="color:#09f;font-style:italic">// Prints:
+&lt;/span>&lt;span style="color:#09f;font-style:italic">// fooz = baz
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div></description></item></channel></rss>
