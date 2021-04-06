@@ -12,8 +12,6 @@ toc: true
 
 这就是 [echo](https://github.com/forecho/hugo-theme-echo) 主题的由来。最近又优化了一下这个主题，就顺便写篇文章给大家介绍一下这个主题，刚写出来的时候只在 [V2EX 上](https://www.v2ex.com/t/637170#reply13)分享过。
 
-<!--more-->
-
 ## 特色
 
 ### 风格基于 [Tailwind CSS](https://tailwindcss.com/)
@@ -21,6 +19,8 @@ toc: true
 TailwindCSS 可以说是这两年比较火的 CSS 框架了，看腻了 [Bootstrap](https://getbootstrap.com/) 的样式，觉得 TailwindCSS 真漂亮，但是在使用上不同于 Bootstrap， TailwindCSS 给人的一种感觉是面向过程写代码，可以自己自由组装各种样式，缺点是学习门槛高一点。而且可能要写大量重复的代码。
 
 这次采用 TailwindCSS 做为主题 CSS 框架，一是因为它样式好看，二是尝鲜，换思路写 CSS。
+
+<!--more-->
 
 ### 深色模式
 
