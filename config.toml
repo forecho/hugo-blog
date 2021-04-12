@@ -18,7 +18,7 @@ lineNoStart = 1
 lineNos = true
 lineNumbersInTable = true
 noClasses = true
-style = "manni"
+style = "dracula"
 tabWidth = 2
 
 # https://gohugo.io/content-management/urls/#aliases
