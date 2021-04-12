@@ -1,61 +1,61 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>CakePHP on forecho's Blog</title><link>https://blog.forecho.com/tags/cakephp.html</link><description>Recent content in CakePHP on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 19 Nov 2014 22:00:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/tags/cakephp/atom.xml" rel="self" type="application/rss+xml"/><item><title>CakePHP 使用小技巧</title><link>https://blog.forecho.com/about-cakephp-tips.html</link><pubDate>Wed, 19 Nov 2014 22:00:00 +0800</pubDate><guid>https://blog.forecho.com/about-cakephp-tips.html</guid><description>&lt;h3 id="知道主键-id-更新一条数据代码示例">知道主键 ID 更新一条数据，代码示例：&lt;/h3>
-&lt;div class="highlight">&lt;div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
 &lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
-&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 &lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-php" data-lang="php">&lt;span style="color:#033">$this&lt;/span>&lt;span style="color:#555">-&amp;gt;&lt;/span>&lt;span style="color:#309">Order&lt;/span>&lt;span style="color:#555">-&amp;gt;&lt;/span>&lt;span style="color:#309">id&lt;/span> &lt;span style="color:#555">=&lt;/span> &lt;span style="color:#033">$id&lt;/span>;
-&lt;span style="color:#033">$this&lt;/span>&lt;span style="color:#555">-&amp;gt;&lt;/span>&lt;span style="color:#309">Order&lt;/span>&lt;span style="color:#555">-&amp;gt;&lt;/span>&lt;span style="color:#309">saveField&lt;/span>(&lt;span style="color:#c30">&amp;#39;status&amp;#39;&lt;/span>, &lt;span style="color:#033">$status&lt;/span>);
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-php" data-lang="php">&lt;span style="color:#8be9fd;font-style:italic">$this&lt;/span>&lt;span style="color:#ff79c6">-&amp;gt;&lt;/span>&lt;span style="color:#50fa7b">Order&lt;/span>&lt;span style="color:#ff79c6">-&amp;gt;&lt;/span>&lt;span style="color:#50fa7b">id&lt;/span> &lt;span style="color:#ff79c6">=&lt;/span> &lt;span style="color:#8be9fd;font-style:italic">$id&lt;/span>;
+&lt;span style="color:#8be9fd;font-style:italic">$this&lt;/span>&lt;span style="color:#ff79c6">-&amp;gt;&lt;/span>&lt;span style="color:#50fa7b">Order&lt;/span>&lt;span style="color:#ff79c6">-&amp;gt;&lt;/span>&lt;span style="color:#50fa7b">saveField&lt;/span>(&lt;span style="color:#f1fa8c">&amp;#39;status&amp;#39;&lt;/span>, &lt;span style="color:#8be9fd;font-style:italic">$status&lt;/span>);
 &lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;h3 id="点赞的时候需要1如何更新数据库">点赞的时候需要+1，如何更新数据库？&lt;/h3>
-&lt;div class="highlight">&lt;div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
 &lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
-&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 &lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
 &lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
 &lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-php" data-lang="php">&lt;span style="color:#033">$this&lt;/span>&lt;span style="color:#555">-&amp;gt;&lt;/span>&lt;span style="color:#309">Widget&lt;/span>&lt;span style="color:#555">-&amp;gt;&lt;/span>&lt;span style="color:#309">updateAll&lt;/span>(
-&lt;span style="color:#069;font-weight:bold">array&lt;/span>(&lt;span style="color:#c30">&amp;#39;Widget.numberfield&amp;#39;&lt;/span> &lt;span style="color:#555">=&amp;gt;&lt;/span> &lt;span style="color:#c30">&amp;#39;Widget.numberfield + 1&amp;#39;&lt;/span>),
-&lt;span style="color:#069;font-weight:bold">array&lt;/span>(&lt;span style="color:#c30">&amp;#39;Widget.id&amp;#39;&lt;/span> &lt;span style="color:#555">=&amp;gt;&lt;/span> &lt;span style="color:#f60">1&lt;/span>)
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-php" data-lang="php">&lt;span style="color:#8be9fd;font-style:italic">$this&lt;/span>&lt;span style="color:#ff79c6">-&amp;gt;&lt;/span>&lt;span style="color:#50fa7b">Widget&lt;/span>&lt;span style="color:#ff79c6">-&amp;gt;&lt;/span>&lt;span style="color:#50fa7b">updateAll&lt;/span>(
+&lt;span style="color:#ff79c6">array&lt;/span>(&lt;span style="color:#f1fa8c">&amp;#39;Widget.numberfield&amp;#39;&lt;/span> &lt;span style="color:#ff79c6">=&amp;gt;&lt;/span> &lt;span style="color:#f1fa8c">&amp;#39;Widget.numberfield + 1&amp;#39;&lt;/span>),
+&lt;span style="color:#ff79c6">array&lt;/span>(&lt;span style="color:#f1fa8c">&amp;#39;Widget.id&amp;#39;&lt;/span> &lt;span style="color:#ff79c6">=&amp;gt;&lt;/span> &lt;span style="color:#bd93f9">1&lt;/span>)
 );
 &lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;h3 id="如何通过主键最简单的方式获取到一条数据">如何通过主键最简单的方式获取到一条数据？&lt;/h3>
-&lt;div class="highlight">&lt;div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
 &lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
-&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 &lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
 &lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
 &lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-php" data-lang="php">&lt;span style="color:#09f;font-style:italic">// 只获取name字段信息
-&lt;/span>&lt;span style="color:#09f;font-style:italic">&lt;/span>&lt;span style="color:#033">$this&lt;/span>&lt;span style="color:#555">-&amp;gt;&lt;/span>&lt;span style="color:#309">User&lt;/span>&lt;span style="color:#555">-&amp;gt;&lt;/span>&lt;span style="color:#309">read&lt;/span>(&lt;span style="color:#c30">&amp;#39;name&amp;#39;&lt;/span>, &lt;span style="color:#033">$id&lt;/span>);
-&lt;span style="color:#09f;font-style:italic">// 获取所有信息
-&lt;/span>&lt;span style="color:#09f;font-style:italic">&lt;/span>&lt;span style="color:#033">$this&lt;/span>&lt;span style="color:#555">-&amp;gt;&lt;/span>&lt;span style="color:#309">User&lt;/span>&lt;span style="color:#555">-&amp;gt;&lt;/span>&lt;span style="color:#309">read&lt;/span>(&lt;span style="color:#069;font-weight:bold">null&lt;/span>, &lt;span style="color:#033">$id&lt;/span>);
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-php" data-lang="php">&lt;span style="color:#6272a4">// 只获取name字段信息
+&lt;/span>&lt;span style="color:#6272a4">&lt;/span>&lt;span style="color:#8be9fd;font-style:italic">$this&lt;/span>&lt;span style="color:#ff79c6">-&amp;gt;&lt;/span>&lt;span style="color:#50fa7b">User&lt;/span>&lt;span style="color:#ff79c6">-&amp;gt;&lt;/span>&lt;span style="color:#50fa7b">read&lt;/span>(&lt;span style="color:#f1fa8c">&amp;#39;name&amp;#39;&lt;/span>, &lt;span style="color:#8be9fd;font-style:italic">$id&lt;/span>);
+&lt;span style="color:#6272a4">// 获取所有信息
+&lt;/span>&lt;span style="color:#6272a4">&lt;/span>&lt;span style="color:#8be9fd;font-style:italic">$this&lt;/span>&lt;span style="color:#ff79c6">-&amp;gt;&lt;/span>&lt;span style="color:#50fa7b">User&lt;/span>&lt;span style="color:#ff79c6">-&amp;gt;&lt;/span>&lt;span style="color:#50fa7b">read&lt;/span>(&lt;span style="color:#ff79c6">null&lt;/span>, &lt;span style="color:#8be9fd;font-style:italic">$id&lt;/span>);
 &lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div></description></item><item><title>CakePHP 使用插件导出 CSV 文件</title><link>https://blog.forecho.com/cakephp-shi-yong-cha-jian-dao-chu-csv-wen-jian.html</link><pubDate>Fri, 05 Sep 2014 21:42:00 +0800</pubDate><guid>https://blog.forecho.com/cakephp-shi-yong-cha-jian-dao-chu-csv-wen-jian.html</guid><description>&lt;p>插件地址：&lt;a href="https://github.com/josegonzalez/cakephp-csvview">https://github.com/josegonzalez/cakephp-csvview&lt;/a>&lt;/p>
 &lt;p>用法就不说了，上面写的很详细了，补充两点吧。&lt;/p>
 &lt;p>&lt;strong>1. 是数字显示的问题&lt;/strong>&lt;/p>
 &lt;p>有时候数字很大，导出的文件打开，数字变成科学计数法显示了，这显然不是我们想要的，手动在每个值后面添加一个制表符「\t」就解决这个问题了。代码如下：&lt;/p>
-&lt;div class="highlight">&lt;div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
 &lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
-&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 &lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
 &lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
 &lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
 &lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-php" data-lang="php">&lt;span style="color:#069;font-weight:bold">foreach&lt;/span> (&lt;span style="color:#033">$data&lt;/span> &lt;span style="color:#069;font-weight:bold">as&lt;/span> &lt;span style="color:#033">$key&lt;/span> &lt;span style="color:#555">=&amp;gt;&lt;/span> &lt;span style="color:#033">$value&lt;/span>) {
-&lt;span style="color:#033">$item&lt;/span>[&lt;span style="color:#033">$key&lt;/span>][&lt;span style="color:#c30">&amp;#39;username&amp;#39;&lt;/span>] &lt;span style="color:#555">=&lt;/span> &lt;span style="color:#033">$value&lt;/span>[&lt;span style="color:#c30">&amp;#39;username&amp;#39;&lt;/span>]&lt;span style="color:#555">.&lt;/span> &lt;span style="color:#c30">&amp;#34;&lt;/span>&lt;span style="color:#c30;font-weight:bold">\t&lt;/span>&lt;span style="color:#c30">&amp;#34;&lt;/span>;
-&lt;span style="color:#033">$item&lt;/span>[&lt;span style="color:#033">$key&lt;/span>][&lt;span style="color:#c30">&amp;#39;mobile&amp;#39;&lt;/span>] &lt;span style="color:#555">=&lt;/span> &lt;span style="color:#033">$value&lt;/span>[&lt;span style="color:#c30">&amp;#39;mobile&amp;#39;&lt;/span>] &lt;span style="color:#555">.&lt;/span> &lt;span style="color:#c30">&amp;#34;&lt;/span>&lt;span style="color:#c30;font-weight:bold">\t&lt;/span>&lt;span style="color:#c30">&amp;#34;&lt;/span>;
-&lt;span style="color:#033">$item&lt;/span>[&lt;span style="color:#033">$key&lt;/span>][&lt;span style="color:#c30">&amp;#39;created&amp;#39;&lt;/span>] &lt;span style="color:#555">=&lt;/span> &lt;span style="color:#033">$value&lt;/span>[&lt;span style="color:#c30">&amp;#39;created&amp;#39;&lt;/span>] &lt;span style="color:#555">.&lt;/span> &lt;span style="color:#c30">&amp;#34;&lt;/span>&lt;span style="color:#c30;font-weight:bold">\t&lt;/span>&lt;span style="color:#c30">&amp;#34;&lt;/span>;
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-php" data-lang="php">&lt;span style="color:#ff79c6">foreach&lt;/span> (&lt;span style="color:#8be9fd;font-style:italic">$data&lt;/span> &lt;span style="color:#ff79c6">as&lt;/span> &lt;span style="color:#8be9fd;font-style:italic">$key&lt;/span> &lt;span style="color:#ff79c6">=&amp;gt;&lt;/span> &lt;span style="color:#8be9fd;font-style:italic">$value&lt;/span>) {
+&lt;span style="color:#8be9fd;font-style:italic">$item&lt;/span>[&lt;span style="color:#8be9fd;font-style:italic">$key&lt;/span>][&lt;span style="color:#f1fa8c">&amp;#39;username&amp;#39;&lt;/span>] &lt;span style="color:#ff79c6">=&lt;/span> &lt;span style="color:#8be9fd;font-style:italic">$value&lt;/span>[&lt;span style="color:#f1fa8c">&amp;#39;username&amp;#39;&lt;/span>]&lt;span style="color:#ff79c6">.&lt;/span> &lt;span style="color:#f1fa8c">&amp;#34;&lt;/span>&lt;span style="color:#f1fa8c">\t&lt;/span>&lt;span style="color:#f1fa8c">&amp;#34;&lt;/span>;
+&lt;span style="color:#8be9fd;font-style:italic">$item&lt;/span>[&lt;span style="color:#8be9fd;font-style:italic">$key&lt;/span>][&lt;span style="color:#f1fa8c">&amp;#39;mobile&amp;#39;&lt;/span>] &lt;span style="color:#ff79c6">=&lt;/span> &lt;span style="color:#8be9fd;font-style:italic">$value&lt;/span>[&lt;span style="color:#f1fa8c">&amp;#39;mobile&amp;#39;&lt;/span>] &lt;span style="color:#ff79c6">.&lt;/span> &lt;span style="color:#f1fa8c">&amp;#34;&lt;/span>&lt;span style="color:#f1fa8c">\t&lt;/span>&lt;span style="color:#f1fa8c">&amp;#34;&lt;/span>;
+&lt;span style="color:#8be9fd;font-style:italic">$item&lt;/span>[&lt;span style="color:#8be9fd;font-style:italic">$key&lt;/span>][&lt;span style="color:#f1fa8c">&amp;#39;created&amp;#39;&lt;/span>] &lt;span style="color:#ff79c6">=&lt;/span> &lt;span style="color:#8be9fd;font-style:italic">$value&lt;/span>[&lt;span style="color:#f1fa8c">&amp;#39;created&amp;#39;&lt;/span>] &lt;span style="color:#ff79c6">.&lt;/span> &lt;span style="color:#f1fa8c">&amp;#34;&lt;/span>&lt;span style="color:#f1fa8c">\t&lt;/span>&lt;span style="color:#f1fa8c">&amp;#34;&lt;/span>;
 }
 &lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>

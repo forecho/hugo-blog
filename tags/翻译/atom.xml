@@ -30,9 +30,9 @@
 &lt;p>JavaScript 和 Python 允许对象实例的动态属性。事实证明,PHP 也是如此。看官方 PHP 对象和类文档可能会导致你相信动态实例属性需要自定义 __get 和 __set 魔术方法。其实不用。&lt;/p>
 &lt;h2 id="简单内置的动态属性">简单,内置的动态属性&lt;/h2>
 &lt;p>看看以下代码:&lt;/p>
-&lt;div class="highlight">&lt;div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
 &lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
-&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
 &lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
 &lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
 &lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
@@ -50,22 +50,22 @@
 &lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-php" data-lang="php">&lt;span style="color:#069;font-weight:bold">class&lt;/span> &lt;span style="color:#0a8;font-weight:bold">DynamicProperties&lt;/span> { }
-&lt;span style="color:#033">$object&lt;/span> &lt;span style="color:#555">=&lt;/span> &lt;span style="color:#069;font-weight:bold">new&lt;/span> DynamicProperties;
-&lt;span style="color:#069;font-weight:bold">echo&lt;/span> isset(&lt;span style="color:#033">$object&lt;/span>&lt;span style="color:#555">-&amp;gt;&lt;/span>&lt;span style="color:#309">foo&lt;/span>) &lt;span style="color:#555">?&lt;/span> &lt;span style="color:#c30">&amp;#39;t&amp;#39;&lt;/span> &lt;span style="color:#555">:&lt;/span> &lt;span style="color:#c30">&amp;#39;f&amp;#39;&lt;/span>; &lt;span style="color:#09f;font-style:italic">// f
-&lt;/span>&lt;span style="color:#09f;font-style:italic">&lt;/span>&lt;span style="color:#069;font-weight:bold">echo&lt;/span> PHP_EOL;
-&lt;span style="color:#09f;font-style:italic">// Set Dynamic Properties foo and fooz
-&lt;/span>&lt;span style="color:#09f;font-style:italic">&lt;/span>&lt;span style="color:#033">$object&lt;/span>&lt;span style="color:#555">-&amp;gt;&lt;/span>&lt;span style="color:#309">foo&lt;/span> &lt;span style="color:#555">=&lt;/span> &lt;span style="color:#c30">&amp;#39;bar&amp;#39;&lt;/span>;
-&lt;span style="color:#033">$object&lt;/span>&lt;span style="color:#555">-&amp;gt;&lt;/span>&lt;span style="color:#309">fooz&lt;/span> &lt;span style="color:#555">=&lt;/span> &lt;span style="color:#c30">&amp;#39;baz&amp;#39;&lt;/span>;
-&lt;span style="color:#09f;font-style:italic">// Isset and Unset work
-&lt;/span>&lt;span style="color:#09f;font-style:italic">&lt;/span>isset(&lt;span style="color:#033">$object&lt;/span>&lt;span style="color:#555">-&amp;gt;&lt;/span>&lt;span style="color:#309">foo&lt;/span>); &lt;span style="color:#09f;font-style:italic">// true
-&lt;/span>&lt;span style="color:#09f;font-style:italic">&lt;/span>unset(&lt;span style="color:#033">$object&lt;/span>&lt;span style="color:#555">-&amp;gt;&lt;/span>&lt;span style="color:#309">foo&lt;/span>);
-&lt;span style="color:#09f;font-style:italic">// Iterate through Properties and Values
-&lt;/span>&lt;span style="color:#09f;font-style:italic">&lt;/span>&lt;span style="color:#069;font-weight:bold">foreach&lt;/span>(&lt;span style="color:#033">$object&lt;/span> &lt;span style="color:#069;font-weight:bold">as&lt;/span> &lt;span style="color:#033">$property&lt;/span> &lt;span style="color:#555">=&amp;gt;&lt;/span> &lt;span style="color:#033">$value&lt;/span>) {
-&lt;span style="color:#069;font-weight:bold">echo&lt;/span> &lt;span style="color:#033">$property&lt;/span> &lt;span style="color:#555">.&lt;/span> &lt;span style="color:#c30">&amp;#39; = &amp;#39;&lt;/span> &lt;span style="color:#555">.&lt;/span> &lt;span style="color:#033">$value&lt;/span> &lt;span style="color:#555">.&lt;/span> PHP_EOL;
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-php" data-lang="php">&lt;span style="color:#ff79c6">class&lt;/span> &lt;span style="color:#50fa7b">DynamicProperties&lt;/span> { }
+&lt;span style="color:#8be9fd;font-style:italic">$object&lt;/span> &lt;span style="color:#ff79c6">=&lt;/span> &lt;span style="color:#ff79c6">new&lt;/span> DynamicProperties;
+&lt;span style="color:#ff79c6">echo&lt;/span> isset(&lt;span style="color:#8be9fd;font-style:italic">$object&lt;/span>&lt;span style="color:#ff79c6">-&amp;gt;&lt;/span>&lt;span style="color:#50fa7b">foo&lt;/span>) &lt;span style="color:#ff79c6">?&lt;/span> &lt;span style="color:#f1fa8c">&amp;#39;t&amp;#39;&lt;/span> &lt;span style="color:#ff79c6">:&lt;/span> &lt;span style="color:#f1fa8c">&amp;#39;f&amp;#39;&lt;/span>; &lt;span style="color:#6272a4">// f
+&lt;/span>&lt;span style="color:#6272a4">&lt;/span>&lt;span style="color:#ff79c6">echo&lt;/span> PHP_EOL;
+&lt;span style="color:#6272a4">// Set Dynamic Properties foo and fooz
+&lt;/span>&lt;span style="color:#6272a4">&lt;/span>&lt;span style="color:#8be9fd;font-style:italic">$object&lt;/span>&lt;span style="color:#ff79c6">-&amp;gt;&lt;/span>&lt;span style="color:#50fa7b">foo&lt;/span> &lt;span style="color:#ff79c6">=&lt;/span> &lt;span style="color:#f1fa8c">&amp;#39;bar&amp;#39;&lt;/span>;
+&lt;span style="color:#8be9fd;font-style:italic">$object&lt;/span>&lt;span style="color:#ff79c6">-&amp;gt;&lt;/span>&lt;span style="color:#50fa7b">fooz&lt;/span> &lt;span style="color:#ff79c6">=&lt;/span> &lt;span style="color:#f1fa8c">&amp;#39;baz&amp;#39;&lt;/span>;
+&lt;span style="color:#6272a4">// Isset and Unset work
+&lt;/span>&lt;span style="color:#6272a4">&lt;/span>isset(&lt;span style="color:#8be9fd;font-style:italic">$object&lt;/span>&lt;span style="color:#ff79c6">-&amp;gt;&lt;/span>&lt;span style="color:#50fa7b">foo&lt;/span>); &lt;span style="color:#6272a4">// true
+&lt;/span>&lt;span style="color:#6272a4">&lt;/span>unset(&lt;span style="color:#8be9fd;font-style:italic">$object&lt;/span>&lt;span style="color:#ff79c6">-&amp;gt;&lt;/span>&lt;span style="color:#50fa7b">foo&lt;/span>);
+&lt;span style="color:#6272a4">// Iterate through Properties and Values
+&lt;/span>&lt;span style="color:#6272a4">&lt;/span>&lt;span style="color:#ff79c6">foreach&lt;/span>(&lt;span style="color:#8be9fd;font-style:italic">$object&lt;/span> &lt;span style="color:#ff79c6">as&lt;/span> &lt;span style="color:#8be9fd;font-style:italic">$property&lt;/span> &lt;span style="color:#ff79c6">=&amp;gt;&lt;/span> &lt;span style="color:#8be9fd;font-style:italic">$value&lt;/span>) {
+&lt;span style="color:#ff79c6">echo&lt;/span> &lt;span style="color:#8be9fd;font-style:italic">$property&lt;/span> &lt;span style="color:#ff79c6">.&lt;/span> &lt;span style="color:#f1fa8c">&amp;#39; = &amp;#39;&lt;/span> &lt;span style="color:#ff79c6">.&lt;/span> &lt;span style="color:#8be9fd;font-style:italic">$value&lt;/span> &lt;span style="color:#ff79c6">.&lt;/span> PHP_EOL;
 }
-&lt;span style="color:#09f;font-style:italic">// Prints:
-&lt;/span>&lt;span style="color:#09f;font-style:italic">// fooz = baz
+&lt;span style="color:#6272a4">// Prints:
+&lt;/span>&lt;span style="color:#6272a4">// fooz = baz
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div></description></item></channel></rss>

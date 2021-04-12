@@ -7,10 +7,10 @@
 折腾了两天，终于搞定了方案，特来分享经验。"><meta property="og:type" content="article"><title>自动化部署 - forecho's Blog</title><meta property="og:url" content="https://blog.forecho.com/automatic-deployment.html"><meta property="og:image" content="https://avatars0.githubusercontent.com/u/1725326?s=460&v=4"><meta property="twitter:image" content="https://avatars0.githubusercontent.com/u/1725326?s=460&v=4"><link rel="shortcut icon" href="https://avatars0.githubusercontent.com/u/1725326?s=460&v=4" type=image/x-png><link rel=stylesheet href=/css/main.min.97c2e024977ac11b784fbd9f3ce30326137dc21cf31d1aaf86d7f5fd1d2c470e.css integrity=sha256-l8LgJJd6wRt4T72fPOMDJhN9whzzHRqvhtf1/R0sRw4=><link rel=stylesheet href=//at.alicdn.com/t/font_1607597_jhmihcvh0tm.css><link href=/index.xml rel=alternate type=application/rss+xml title="forecho's Blog"><script async src=//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js></script><meta name=google-site-verification content="OMI81_SJiESxwq-Fr0CLleoF7EzVdRx7QTQlbAfCVdI"><meta name=baidu-site-verification content="WuHyHeOJtJ"></head><body class="bg-gray-100 dark:bg-gray-700 text-gray-900 dark:text-gray-100 tracking-wider leading-normal"><nav id=header class="bg-white dark:bg-black fixed w-full z-10 top-0 shadow"><div id=progress class="h-1 z-20 top-0" style="background:linear-gradient(to right,#4dc0b5 var(--scroll),transparent 0)"></div><div class="w-full container mx-auto flex flex-wrap items-center justify-between my-1"><div class=pl-4><a class="text-base no-underline hover:no-underline font-bold text-xl" href=/>forecho's Blog</a></div><div class="block lg:hidden pr-4"><button id=nav-toggle class="flex items-center px-3 py-2 border rounded text-gray-500 border-gray-600 hover:text-gray-900 hover:border-teal-500 appearance-none focus:outline-none"><svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg></button></div><div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block mt-2 lg:mt-0 bg-gray-100 dark:bg-black md:bg-transparent z-20" id=nav-content><ul class="list-reset lg:flex justify-end flex-1 items-center"><li class=mr-3><a href=/ class="inline-block py-2 px-2 text-gray-700 dark:text-gray-300 font-bold no-underline">首页</a></li><li class=mr-3><a href=/posts.html class="inline-block py-2 px-2 text-gray-700 dark:text-gray-300 font-bold no-underline">文章归档</a></li><li class=mr-3><a href=/about.html class="inline-block py-2 px-2 text-gray-700 dark:text-gray-300 font-bold no-underline">关于我</a></li><li class=mr-3><a href=/friendship-links/ class="inline-block py-2 px-2 text-gray-700 dark:text-gray-300 font-bold no-underline">联盟链接</a></li><button id=switchTheme class="h-10 w-10 flex justify-center items-center focus:outline-none"><div id=dark-icon class=hidden><svg fill="none" stroke="currentcolor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6"><title>Dark Mode</title><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003.0 0012 21a9.003 9.003.0 008.354-5.646z"/></svg></div><div id=light-icon><svg fill="none" stroke="currentcolor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6"><title>Light Mode</title><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364-.707-.707M6.343 6.343l-.707-.707m12.728.0-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg></div></button></ul></div></div></nav><div id=container class="container w-full flex flex-wrap mx-auto px-2 lg:pt-12 mt-10"><section class="w-full lg:w-3/4 xl:w-3/4"><div class="px-8 py-6 mt-6 lg:mt-0 leading-normal rounded shadow bg-white dark:bg-black"><div><h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-2xl lg:text-3xl dark:text-white"><a href=https://blog.forecho.com/automatic-deployment.html title=自动化部署>自动化部署</a></h1><p class="mb-1 text-sm text-gray-500 dark:text-gray-300"><span title=" 2020-03-18 19:36:14 +0800"><i class="iconfont icon-calendar" aria-hidden=true></i> 18 Mar 2020</span>
 <span class="hidden xl:inline-block">|
 <i class="iconfont icon-book"></i>
-1880 字</span>
+1987 字</span>
 <span class="hidden xl:inline-block">|
 <i class="iconfont icon-clock-o"></i>
-4 分钟读完</span></p></div><div class="md:hidden dark:text-gray-100"><p class="text-base font-bold py-2 yg:pb-6 text-gray-700 dark:text-gray-300">文章目录</p><div class="sticky text-sm" style=top:6em id=menu-content><nav id=TableOfContents><ul><li><a href=#引言>引言</a></li><li><a href=#解决方案>解决方案</a><ul><li><a href=#方案一基于-github-actions>方案一（基于 GitHub Actions）</a></li><li><a href=#方案二基于-coding-构建>方案二（基于 Coding 构建）</a></li></ul></li><li><a href=#最后>最后</a></li></ul></nav></div></div><div class="post-content dark:text-white"><h2 id=引言>引言</h2><p>有一个基于 Yii 的小项目，放在 GitHub 私有仓库里。刚开始部署的时候，直接手动 SSH 到服务器上，然后执行 <code>git pull</code>，简单粗暴。但是随着时间的推移，现在在3台服务器部署了5套代码。以前的部署方式肯定是不行了，那得累死。</p><p>折腾了两天，终于搞定了方案，特来分享经验。</p><h2 id=解决方案>解决方案</h2><h3 id=方案一基于-github-actions>方案一（基于 GitHub Actions）</h3><p>我还是挺喜欢 GitHub 的，功能强大。去年免费用户也可以创建私有仓库了，而且我昨天调研的时候才发现 <a href=https://github.com/features/actions>GitHub Actions</a> 对于私有项目也是有免费额度的，每个月 2000 分钟，对于项目足够应付了。于是跑去看文档，看看怎么玩。</p><p>发现 Github Actions 上手真简单，分分钟我就实现了自动构建和部署了，第一版代码如下：</p><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
+4 分钟读完</span></p></div><div class="md:hidden dark:text-gray-100"><p class="text-base font-bold py-2 yg:pb-6 text-gray-700 dark:text-gray-300">文章目录</p><div class="sticky text-sm" style=top:6em id=menu-content><nav id=TableOfContents><ul><li><a href=#引言>引言</a></li><li><a href=#解决方案>解决方案</a><ul><li><a href=#方案一基于-github-actions>方案一（基于 GitHub Actions）</a></li><li><a href=#方案二基于-coding-构建>方案二（基于 Coding 构建）</a></li></ul></li><li><a href=#最后>最后</a></li></ul></nav></div></div><div class="post-content dark:text-white"><h2 id=引言>引言</h2><p>有一个基于 Yii 的小项目，放在 GitHub 私有仓库里。刚开始部署的时候，直接手动 SSH 到服务器上，然后执行 <code>git pull</code>，简单粗暴。但是随着时间的推移，现在在3台服务器部署了5套代码。以前的部署方式肯定是不行了，那得累死。</p><p>折腾了两天，终于搞定了方案，特来分享经验。</p><h2 id=解决方案>解决方案</h2><h3 id=方案一基于-github-actions>方案一（基于 GitHub Actions）</h3><p>我还是挺喜欢 GitHub 的，功能强大。去年免费用户也可以创建私有仓库了，而且我昨天调研的时候才发现 <a href=https://github.com/features/actions>GitHub Actions</a> 对于私有项目也是有免费额度的，每个月 2000 分钟，对于项目足够应付了。于是跑去看文档，看看怎么玩。</p><p>发现 Github Actions 上手真简单，分分钟我就实现了自动构建和部署了，第一版代码如下：</p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 2
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 3
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 4
@@ -44,41 +44,41 @@
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">32
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">33
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">34
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-yml data-lang=yml><span style=color:#309;font-weight:700>name</span>:<span style=color:#bbb> </span>PHP Auto Deploy<span style=color:#bbb>
-</span><span style=color:#bbb>
-</span><span style=color:#bbb></span><span style=color:#309;font-weight:700>on</span>:<span style=color:#bbb>
-</span><span style=color:#bbb>  </span><span style=color:#309;font-weight:700>push</span>:<span style=color:#bbb>
-</span><span style=color:#bbb>    </span><span style=color:#309;font-weight:700>branches</span>:<span style=color:#bbb> </span>[<span style=color:#bbb> </span>master ]<span style=color:#bbb>
-</span><span style=color:#bbb>  </span><span style=color:#309;font-weight:700>pull_request</span>:<span style=color:#bbb>
-</span><span style=color:#bbb>    </span><span style=color:#309;font-weight:700>branches</span>:<span style=color:#bbb> </span>[<span style=color:#bbb> </span>master ]<span style=color:#bbb>
-</span><span style=color:#bbb>
-</span><span style=color:#bbb></span><span style=color:#309;font-weight:700>jobs</span>:<span style=color:#bbb>
-</span><span style=color:#bbb>  </span><span style=color:#309;font-weight:700>build</span>:<span style=color:#bbb>
-</span><span style=color:#bbb>
-</span><span style=color:#bbb>    </span><span style=color:#309;font-weight:700>runs-on</span>:<span style=color:#bbb> </span>ubuntu-latest<span style=color:#bbb>
-</span><span style=color:#bbb>
-</span><span style=color:#bbb>    </span><span style=color:#309;font-weight:700>steps</span>:<span style=color:#bbb>
-</span><span style=color:#bbb>      </span>- <span style=color:#309;font-weight:700>uses</span>:<span style=color:#bbb> </span>actions/checkout@v2<span style=color:#bbb>
-</span><span style=color:#bbb>
-</span><span style=color:#bbb>      </span>- <span style=color:#309;font-weight:700>name</span>:<span style=color:#bbb> </span>Validate composer.json and composer.lock<span style=color:#bbb>
-</span><span style=color:#bbb>        </span><span style=color:#309;font-weight:700>run</span>:<span style=color:#bbb> </span>composer validate<span style=color:#bbb>
-</span><span style=color:#bbb>
-</span><span style=color:#bbb>      </span>- <span style=color:#309;font-weight:700>name</span>:<span style=color:#bbb> </span>Setting composer config<span style=color:#bbb>
-</span><span style=color:#bbb>        </span><span style=color:#309;font-weight:700>run</span>:<span style=color:#bbb> </span>composer config -g github-oauth.github.com ${{ secrets.GITHUB_ONLYREAD_TOKEN }}<span style=color:#bbb>
-</span><span style=color:#bbb>
-</span><span style=color:#bbb>      </span>- <span style=color:#309;font-weight:700>name</span>:<span style=color:#bbb> </span>Install dependencies<span style=color:#bbb>
-</span><span style=color:#bbb>        </span><span style=color:#309;font-weight:700>run</span>:<span style=color:#bbb> </span>composer install --prefer-dist --no-progress --no-suggest<span style=color:#bbb>
-</span><span style=color:#bbb>
-</span><span style=color:#bbb>      </span>- <span style=color:#309;font-weight:700>name</span>:<span style=color:#bbb> </span>Deploy to Server<span style=color:#bbb>
-</span><span style=color:#bbb>        </span><span style=color:#309;font-weight:700>uses</span>:<span style=color:#bbb> </span>yiier/yii2-base-deploy@master<span style=color:#bbb>
-</span><span style=color:#bbb>        </span><span style=color:#309;font-weight:700>with</span>:<span style=color:#bbb>
-</span><span style=color:#bbb>          </span><span style=color:#309;font-weight:700>user</span>:<span style=color:#bbb> </span>root<span style=color:#bbb>
-</span><span style=color:#bbb>          </span><span style=color:#309;font-weight:700>host</span>:<span style=color:#bbb> </span>xxxxx<span style=color:#bbb>
-</span><span style=color:#bbb>          </span><span style=color:#309;font-weight:700>path</span>:<span style=color:#bbb> </span>xxxx<span style=color:#bbb>
-</span><span style=color:#bbb>          </span><span style=color:#309;font-weight:700>owner</span>:<span style=color:#bbb> </span>root<span style=color:#bbb>
-</span><span style=color:#bbb>        </span><span style=color:#309;font-weight:700>env</span>:<span style=color:#bbb>
-</span><span style=color:#bbb>          </span><span style=color:#309;font-weight:700>DEPLOY_KEY</span>:<span style=color:#bbb> </span>${{ secrets.DEPLOY_KEY }}<span style=color:#bbb>
-</span></code></pre></td></tr></table></div></div><p>运行的时候，发现问题了，GitHub Actions rsync 到国内服务器速度真的巨慢。100M+ 的文件，硬生生的花了2个多小时，这还怎么玩？？</p><p>于是我跑到 <a href=https://www.v2ex.com/t/653537>V2EX 发帖求助</a>，然后我就试用了一下曲线救国的方案，就是先把代码上传到云存储上，然后在 SSH 到服务器上下载部署，折腾了半天，第二个版本代码来了：</p><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-yml data-lang=yml><span style=color:#ff79c6>name</span>: PHP Auto Deploy
+
+<span style=color:#ff79c6>on</span>:
+  <span style=color:#ff79c6>push</span>:
+    <span style=color:#ff79c6>branches</span>: [ master ]
+  <span style=color:#ff79c6>pull_request</span>:
+    <span style=color:#ff79c6>branches</span>: [ master ]
+
+<span style=color:#ff79c6>jobs</span>:
+  <span style=color:#ff79c6>build</span>:
+
+    <span style=color:#ff79c6>runs-on</span>: ubuntu-latest
+
+    <span style=color:#ff79c6>steps</span>:
+      - <span style=color:#ff79c6>uses</span>: actions/checkout@v2
+
+      - <span style=color:#ff79c6>name</span>: Validate composer.json and composer.lock
+        <span style=color:#ff79c6>run</span>: composer validate
+
+      - <span style=color:#ff79c6>name</span>: Setting composer config
+        <span style=color:#ff79c6>run</span>: composer config -g github-oauth.github.com ${{ secrets.GITHUB_ONLYREAD_TOKEN }}
+
+      - <span style=color:#ff79c6>name</span>: Install dependencies
+        <span style=color:#ff79c6>run</span>: composer install --prefer-dist --no-progress --no-suggest
+
+      - <span style=color:#ff79c6>name</span>: Deploy to Server
+        <span style=color:#ff79c6>uses</span>: yiier/yii2-base-deploy@master
+        <span style=color:#ff79c6>with</span>:
+          <span style=color:#ff79c6>user</span>: root
+          <span style=color:#ff79c6>host</span>: xxxxx
+          <span style=color:#ff79c6>path</span>: xxxx
+          <span style=color:#ff79c6>owner</span>: root
+        <span style=color:#ff79c6>env</span>:
+          <span style=color:#ff79c6>DEPLOY_KEY</span>: ${{ secrets.DEPLOY_KEY }}
+</code></pre></td></tr></table></div></div><p>运行的时候，发现问题了，GitHub Actions rsync 到国内服务器速度真的巨慢。100M+ 的文件，硬生生的花了2个多小时，这还怎么玩？？</p><p>于是我跑到 <a href=https://www.v2ex.com/t/653537>V2EX 发帖求助</a>，然后我就试用了一下曲线救国的方案，就是先把代码上传到云存储上，然后在 SSH 到服务器上下载部署，折腾了半天，第二个版本代码来了：</p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 2
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 3
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 4
@@ -135,64 +135,64 @@
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">55
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">56
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">57
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-yml data-lang=yml><span style=color:#309;font-weight:700>name</span>:<span style=color:#bbb> </span>PHP Auto Deploy<span style=color:#bbb>
-</span><span style=color:#bbb>
-</span><span style=color:#bbb></span><span style=color:#309;font-weight:700>on</span>:<span style=color:#bbb>
-</span><span style=color:#bbb>  </span><span style=color:#309;font-weight:700>push</span>:<span style=color:#bbb>
-</span><span style=color:#bbb>    </span><span style=color:#309;font-weight:700>branches</span>:<span style=color:#bbb> </span>[<span style=color:#bbb> </span>master ]<span style=color:#bbb>
-</span><span style=color:#bbb>  </span><span style=color:#309;font-weight:700>pull_request</span>:<span style=color:#bbb>
-</span><span style=color:#bbb>    </span><span style=color:#309;font-weight:700>branches</span>:<span style=color:#bbb> </span>[<span style=color:#bbb> </span>master ]<span style=color:#bbb>
-</span><span style=color:#bbb>
-</span><span style=color:#bbb></span><span style=color:#309;font-weight:700>jobs</span>:<span style=color:#bbb>
-</span><span style=color:#bbb>  </span><span style=color:#309;font-weight:700>build</span>:<span style=color:#bbb>
-</span><span style=color:#bbb>
-</span><span style=color:#bbb>    </span><span style=color:#309;font-weight:700>runs-on</span>:<span style=color:#bbb> </span>ubuntu-latest<span style=color:#bbb>
-</span><span style=color:#bbb>
-</span><span style=color:#bbb>    </span><span style=color:#309;font-weight:700>steps</span>:<span style=color:#bbb>
-</span><span style=color:#bbb>      </span>- <span style=color:#309;font-weight:700>uses</span>:<span style=color:#bbb> </span>actions/checkout@master<span style=color:#bbb>
-</span><span style=color:#bbb>
-</span><span style=color:#bbb>      </span>- <span style=color:#309;font-weight:700>name</span>:<span style=color:#bbb> </span>Speed up the packages installation process<span style=color:#bbb>
-</span><span style=color:#bbb>        </span><span style=color:#309;font-weight:700>run</span>:<span style=color:#bbb> </span>composer global require hirak/prestissimo<span style=color:#bbb>
-</span><span style=color:#bbb>
-</span><span style=color:#bbb>      </span>- <span style=color:#309;font-weight:700>name</span>:<span style=color:#bbb> </span>Setting composer config<span style=color:#bbb>
-</span><span style=color:#bbb>        </span><span style=color:#309;font-weight:700>run</span>:<span style=color:#bbb> </span>composer config -g github-oauth.github.com ${{ secrets.GITHUB_ONLYREAD_TOKEN }}<span style=color:#bbb>
-</span><span style=color:#bbb>
-</span><span style=color:#bbb>      </span>- <span style=color:#309;font-weight:700>name</span>:<span style=color:#bbb> </span>Install dependencies<span style=color:#bbb>
-</span><span style=color:#bbb>        </span><span style=color:#309;font-weight:700>run</span>:<span style=color:#bbb> </span>composer install --prefer-dist --ignore-platform-reqs --no-dev<span style=color:#bbb>
-</span><span style=color:#bbb>
-</span><span style=color:#bbb>      </span>- <span style=color:#309;font-weight:700>name</span>:<span style=color:#bbb> </span>Organize files 整理文件<span style=color:#bbb>
-</span><span style=color:#bbb>        </span><span style=color:#309;font-weight:700>run</span>:<span style=color:#bbb> </span>rm -rf .git &amp;&amp; rm -rf README.md &amp;&amp; zip -r code.zip .<span style=color:#bbb>
-</span><span style=color:#bbb>
-</span><span style=color:#bbb>      </span>- <span style=color:#309;font-weight:700>name</span>:<span style=color:#bbb> </span>Install OSS &amp;&amp; Upload Code<span style=color:#bbb>
-</span><span style=color:#bbb>        </span><span style=color:#309;font-weight:700>uses</span>:<span style=color:#bbb> </span>manyuanrong/setup-ossutil@v1.0<span style=color:#bbb>
-</span><span style=color:#bbb>        </span><span style=color:#309;font-weight:700>with</span>:<span style=color:#bbb>
-</span><span style=color:#bbb>          </span><span style=color:#309;font-weight:700>endpoint</span>:<span style=color:#bbb> </span><span style=color:#c30>&#34;oss-cn-beijing.aliyuncs.com&#34;</span><span style=color:#bbb>
-</span><span style=color:#bbb>          </span><span style=color:#309;font-weight:700>access-key-id</span>:<span style=color:#bbb> </span>${{ secrets.OSS_ACCESS_KEY_ID }}<span style=color:#bbb>
-</span><span style=color:#bbb>          </span><span style=color:#309;font-weight:700>access-key-secret</span>:<span style=color:#bbb> </span>${{ secrets.OSS_ACCESS_KEY_SECRET }}<span style=color:#bbb>
-</span><span style=color:#bbb>      </span>- <span style=color:#309;font-weight:700>run</span>:<span style=color:#bbb> </span>ossutil cp -rf code.zip oss://xx-backup<span style=color:#bbb>
-</span><span style=color:#bbb>
-</span><span style=color:#bbb>      </span>- <span style=color:#309;font-weight:700>name</span>:<span style=color:#bbb> </span>Execute SSH commmands on remote server<span style=color:#bbb>
-</span><span style=color:#bbb>        </span><span style=color:#309;font-weight:700>uses</span>:<span style=color:#bbb> </span>JimCronqvist/action-ssh@master<span style=color:#bbb>
-</span><span style=color:#bbb>        </span><span style=color:#309;font-weight:700>env</span>:<span style=color:#bbb>
-</span><span style=color:#bbb>          </span><span style=color:#309;font-weight:700>NAME</span>:<span style=color:#bbb> </span><span style=color:#c30>&#34;test-deploy&#34;</span><span style=color:#bbb>
-</span><span style=color:#bbb>          </span><span style=color:#309;font-weight:700>USER</span>:<span style=color:#bbb> </span><span style=color:#c30>&#34;root&#34;</span><span style=color:#bbb>
-</span><span style=color:#bbb>          </span><span style=color:#309;font-weight:700>OSS_ACCESS_KEY_ID</span>:<span style=color:#bbb> </span>${{ secrets.OSS_ACCESS_KEY_ID }}<span style=color:#bbb>
-</span><span style=color:#bbb>          </span><span style=color:#309;font-weight:700>OSS_ACCESS_KEY_SECRET</span>:<span style=color:#bbb> </span>${{ secrets.OSS_ACCESS_KEY_SECRET }}<span style=color:#bbb>
-</span><span style=color:#bbb>        </span><span style=color:#309;font-weight:700>with</span>:<span style=color:#bbb>
-</span><span style=color:#bbb>          </span><span style=color:#309;font-weight:700>hosts</span>:<span style=color:#bbb> </span><span style=color:#c30>&#39;root@xxxxxxxx&#39;</span><span style=color:#bbb>
-</span><span style=color:#bbb>          </span><span style=color:#309;font-weight:700>privateKey</span>:<span style=color:#bbb> </span>${{ secrets.DEPLOY_KEY }}<span style=color:#bbb>
-</span><span style=color:#bbb>          </span><span style=color:#309;font-weight:700>debug</span>:<span style=color:#bbb> </span><span style=color:#069;font-weight:700>false</span><span style=color:#bbb>
-</span><span style=color:#bbb>          </span><span style=color:#309;font-weight:700>command</span>:<span style=color:#bbb> </span>|<span style=color:#c30;font-style:italic>
-</span><span style=color:#c30;font-style:italic>            mkdir -p ~/www/tmp
-</span><span style=color:#c30;font-style:italic>            echo $&#39;\n&#39; &#34;------ DOWNLOAD CODE  -------------------&#34; $&#39;\n&#39;
-</span><span style=color:#c30;font-style:italic>            sudo rm ~/ossutil64
-</span><span style=color:#c30;font-style:italic>            wget http://gosspublic.alicdn.com/ossutil/1.6.10/ossutil64
-</span><span style=color:#c30;font-style:italic>            sudo chmod 755 ~/ossutil64
-</span><span style=color:#c30;font-style:italic>            ~/ossutil64 config -e oss-cn-beijing.aliyuncs.com -i $OSS_ACCESS_KEY_ID -k $OSS_ACCESS_KEY_SECRET -L CH
-</span><span style=color:#c30;font-style:italic>            ~/ossutil64 cp oss://xxx-backup/code.zip ~/www/tmp &amp;&amp; unzip ~/www/tmp/code ~/www/tmp/code.zip
-</span><span style=color:#c30;font-style:italic>            cp -rf ~/www/tmp/code ~/www/$NAME
-</span><span style=color:#c30;font-style:italic>            echo $&#39;\n&#39; &#34;------ CODE READY SUCCESSFUL!!! ---------&#34; $&#39;\n&#39;</span><span style=color:#bbb>            
-</span></code></pre></td></tr></table></div></div><p>测试了好多车代码终于写完了，但是跑起来发现还是坑爹，阿里云的 OSS 如果选的是国内的区域上传代码的时候就很慢，如果选的是香港的服务器，解决了上传慢的问题，但是发现下载又很慢（我用的是腾讯云的服务器）。</p><p><img src=https://i.loli.net/2020/03/18/sbHn1OzC79ILa3V.jpg alt=坑爹呢这是？></p><p>懒得再继续折腾这个方案了，跑去试试第二个方案。</p><h3 id=方案二基于-coding-构建>方案二（基于 Coding 构建）</h3><p>太久没登录 <a href=https://coding.net/>Coding</a> 了，这次登录发现改版了不少。以前是免费会员限额项目个数，现在转型为团队版本了，免费版功能基本上不限制，只限制人数，最多5个人。</p><p>Coding 的构建是基于开源的 Jenkins，但是我懒得自己搭建了（没服务器）。一边看<a href=https://help.coding.net/docs/devops/ci/introduce.html>文档</a>一边写 Jenkinsfile，发现 Jenkins 功能真是强大，有一定的学习门槛。但是最终实现了自己想要的效果，代码参考如下：</p><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-yml data-lang=yml><span style=color:#ff79c6>name</span>: PHP Auto Deploy
+
+<span style=color:#ff79c6>on</span>:
+  <span style=color:#ff79c6>push</span>:
+    <span style=color:#ff79c6>branches</span>: [ master ]
+  <span style=color:#ff79c6>pull_request</span>:
+    <span style=color:#ff79c6>branches</span>: [ master ]
+
+<span style=color:#ff79c6>jobs</span>:
+  <span style=color:#ff79c6>build</span>:
+
+    <span style=color:#ff79c6>runs-on</span>: ubuntu-latest
+
+    <span style=color:#ff79c6>steps</span>:
+      - <span style=color:#ff79c6>uses</span>: actions/checkout@master
+
+      - <span style=color:#ff79c6>name</span>: Speed up the packages installation process
+        <span style=color:#ff79c6>run</span>: composer global require hirak/prestissimo
+
+      - <span style=color:#ff79c6>name</span>: Setting composer config
+        <span style=color:#ff79c6>run</span>: composer config -g github-oauth.github.com ${{ secrets.GITHUB_ONLYREAD_TOKEN }}
+
+      - <span style=color:#ff79c6>name</span>: Install dependencies
+        <span style=color:#ff79c6>run</span>: composer install --prefer-dist --ignore-platform-reqs --no-dev
+
+      - <span style=color:#ff79c6>name</span>: Organize files 整理文件
+        <span style=color:#ff79c6>run</span>: rm -rf .git &amp;&amp; rm -rf README.md &amp;&amp; zip -r code.zip .
+
+      - <span style=color:#ff79c6>name</span>: Install OSS &amp;&amp; Upload Code
+        <span style=color:#ff79c6>uses</span>: manyuanrong/setup-ossutil@v1.0
+        <span style=color:#ff79c6>with</span>:
+          <span style=color:#ff79c6>endpoint</span>: <span style=color:#f1fa8c>&#34;oss-cn-beijing.aliyuncs.com&#34;</span>
+          <span style=color:#ff79c6>access-key-id</span>: ${{ secrets.OSS_ACCESS_KEY_ID }}
+          <span style=color:#ff79c6>access-key-secret</span>: ${{ secrets.OSS_ACCESS_KEY_SECRET }}
+      - <span style=color:#ff79c6>run</span>: ossutil cp -rf code.zip oss://xx-backup
+
+      - <span style=color:#ff79c6>name</span>: Execute SSH commmands on remote server
+        <span style=color:#ff79c6>uses</span>: JimCronqvist/action-ssh@master
+        <span style=color:#ff79c6>env</span>:
+          <span style=color:#ff79c6>NAME</span>: <span style=color:#f1fa8c>&#34;test-deploy&#34;</span>
+          <span style=color:#ff79c6>USER</span>: <span style=color:#f1fa8c>&#34;root&#34;</span>
+          <span style=color:#ff79c6>OSS_ACCESS_KEY_ID</span>: ${{ secrets.OSS_ACCESS_KEY_ID }}
+          <span style=color:#ff79c6>OSS_ACCESS_KEY_SECRET</span>: ${{ secrets.OSS_ACCESS_KEY_SECRET }}
+        <span style=color:#ff79c6>with</span>:
+          <span style=color:#ff79c6>hosts</span>: <span style=color:#f1fa8c>&#39;root@xxxxxxxx&#39;</span>
+          <span style=color:#ff79c6>privateKey</span>: ${{ secrets.DEPLOY_KEY }}
+          <span style=color:#ff79c6>debug</span>: <span style=color:#ff79c6>false</span>
+          <span style=color:#ff79c6>command</span>: |<span style=color:#f1fa8c>
+</span><span style=color:#f1fa8c>            mkdir -p ~/www/tmp
+</span><span style=color:#f1fa8c>            echo $&#39;\n&#39; &#34;------ DOWNLOAD CODE  -------------------&#34; $&#39;\n&#39;
+</span><span style=color:#f1fa8c>            sudo rm ~/ossutil64
+</span><span style=color:#f1fa8c>            wget http://gosspublic.alicdn.com/ossutil/1.6.10/ossutil64
+</span><span style=color:#f1fa8c>            sudo chmod 755 ~/ossutil64
+</span><span style=color:#f1fa8c>            ~/ossutil64 config -e oss-cn-beijing.aliyuncs.com -i $OSS_ACCESS_KEY_ID -k $OSS_ACCESS_KEY_SECRET -L CH
+</span><span style=color:#f1fa8c>            ~/ossutil64 cp oss://xxx-backup/code.zip ~/www/tmp &amp;&amp; unzip ~/www/tmp/code ~/www/tmp/code.zip
+</span><span style=color:#f1fa8c>            cp -rf ~/www/tmp/code ~/www/$NAME
+</span><span style=color:#f1fa8c>            echo $&#39;\n&#39; &#34;------ CODE READY SUCCESSFUL!!! ---------&#34; $&#39;\n&#39;</span>            
+</code></pre></td></tr></table></div></div><p>测试了好多车代码终于写完了，但是跑起来发现还是坑爹，阿里云的 OSS 如果选的是国内的区域上传代码的时候就很慢，如果选的是香港的服务器，解决了上传慢的问题，但是发现下载又很慢（我用的是腾讯云的服务器）。</p><p><img src=https://i.loli.net/2020/03/18/sbHn1OzC79ILa3V.jpg alt=坑爹呢这是？></p><p>懒得再继续折腾这个方案了，跑去试试第二个方案。</p><h3 id=方案二基于-coding-构建>方案二（基于 Coding 构建）</h3><p>太久没登录 <a href=https://coding.net/>Coding</a> 了，这次登录发现改版了不少。以前是免费会员限额项目个数，现在转型为团队版本了，免费版功能基本上不限制，只限制人数，最多5个人。</p><p>Coding 的构建是基于开源的 Jenkins，但是我懒得自己搭建了（没服务器）。一边看<a href=https://help.coding.net/docs/devops/ci/introduce.html>文档</a>一边写 Jenkinsfile，发现 Jenkins 功能真是强大，有一定的学习门槛。但是最终实现了自己想要的效果，代码参考如下：</p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 2
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 3
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 4
@@ -284,7 +284,7 @@
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">90
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">91
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">92
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-fallback data-lang=fallback>pipeline {
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-fallback data-lang=fallback>pipeline {
     agent any
     stages {
         stage(&#39;Checkout&#39;) {

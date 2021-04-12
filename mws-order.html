@@ -10,7 +10,7 @@
 1234 字</span>
 <span class="hidden xl:inline-block">|
 <i class="iconfont icon-clock-o"></i>
-3 分钟读完</span></p></div><div class="md:hidden dark:text-gray-100"><p class="text-base font-bold py-2 yg:pb-6 text-gray-700 dark:text-gray-300">文章目录</p><div class="sticky text-sm" style=top:6em id=menu-content><nav id=TableOfContents><ul><li><a href=#引言>引言</a></li><li><a href=#sdk>SDK</a></li><li><a href=#订单相关的功能>订单相关的功能</a><ul><li><a href=#同步订单>同步订单</a></li><li><a href=#发货>发货</a></li></ul></li><li><a href=#总结>总结</a></li><li><a href=#相关文章>相关文章</a></li></ul></nav></div></div><div class="post-content dark:text-white"><h2 id=引言>引言</h2><p>最近这几个月都在帮一个朋友在开发亚马逊 ERP 系统，使用了 <a href=http://docs.developer.amazonservices.com/en_US/dev_guide/index.html>MWS 接口</a>，自己一路摸索，花了不少时间和精力，现在想把这些经验记录分享出来，让大家少走一些弯路。</p><p>这将是一系列文章，本篇主要讲与订单相关的接口。</p><h2 id=sdk>SDK</h2><p>MWS 的接口文档在<a href=http://docs.developer.amazonservices.com/en_US/orders-2013-09-01/Orders_Overview.html>这里</a>（中文文档不是最新的）查看，但是官方给的 PHP SDK 非常的老了，而且每个功能模块还是分散的，于是我就去 Github 找到了 Star 最多的一个，即 <a href=https://github.com/meertensm/amazon-mws>meertensm/amazon-mws</a>，好用是好用，但是我使用之前没发现作者好像没维护了，有一些坑在里面。</p><p>好在这些坑我都帮你踩过了，你接着往下看就可以了。</p><h2 id=订单相关的功能>订单相关的功能</h2><h3 id=同步订单>同步订单</h3><p><strong>订单列表</strong></p><p>文档地址：<a href=http://docs.developer.amazonservices.com/zh_CN/orders/2013-09-01/Orders_ListOrders.html>ListOrders</a></p><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
+3 分钟读完</span></p></div><div class="md:hidden dark:text-gray-100"><p class="text-base font-bold py-2 yg:pb-6 text-gray-700 dark:text-gray-300">文章目录</p><div class="sticky text-sm" style=top:6em id=menu-content><nav id=TableOfContents><ul><li><a href=#引言>引言</a></li><li><a href=#sdk>SDK</a></li><li><a href=#订单相关的功能>订单相关的功能</a><ul><li><a href=#同步订单>同步订单</a></li><li><a href=#发货>发货</a></li></ul></li><li><a href=#总结>总结</a></li><li><a href=#相关文章>相关文章</a></li></ul></nav></div></div><div class="post-content dark:text-white"><h2 id=引言>引言</h2><p>最近这几个月都在帮一个朋友在开发亚马逊 ERP 系统，使用了 <a href=http://docs.developer.amazonservices.com/en_US/dev_guide/index.html>MWS 接口</a>，自己一路摸索，花了不少时间和精力，现在想把这些经验记录分享出来，让大家少走一些弯路。</p><p>这将是一系列文章，本篇主要讲与订单相关的接口。</p><h2 id=sdk>SDK</h2><p>MWS 的接口文档在<a href=http://docs.developer.amazonservices.com/en_US/orders-2013-09-01/Orders_Overview.html>这里</a>（中文文档不是最新的）查看，但是官方给的 PHP SDK 非常的老了，而且每个功能模块还是分散的，于是我就去 Github 找到了 Star 最多的一个，即 <a href=https://github.com/meertensm/amazon-mws>meertensm/amazon-mws</a>，好用是好用，但是我使用之前没发现作者好像没维护了，有一些坑在里面。</p><p>好在这些坑我都帮你踩过了，你接着往下看就可以了。</p><h2 id=订单相关的功能>订单相关的功能</h2><h3 id=同步订单>同步订单</h3><p><strong>订单列表</strong></p><p>文档地址：<a href=http://docs.developer.amazonservices.com/zh_CN/orders/2013-09-01/Orders_ListOrders.html>ListOrders</a></p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 2
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 3
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 4
@@ -20,17 +20,17 @@
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 8
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 9
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">10
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-php data-lang=php><span style=color:#033>$client</span> <span style=color:#555>=</span> <span style=color:#069;font-weight:700>new</span> MCS\MWSClient([
-    <span style=color:#c30>&#39;Marketplace_Id&#39;</span> <span style=color:#555>=&gt;</span> <span style=color:#c30>&#39;&#39;</span>,
-    <span style=color:#c30>&#39;Seller_Id&#39;</span> <span style=color:#555>=&gt;</span> <span style=color:#c30>&#39;&#39;</span>,
-    <span style=color:#c30>&#39;Access_Key_ID&#39;</span> <span style=color:#555>=&gt;</span> <span style=color:#c30>&#39;&#39;</span>,
-    <span style=color:#c30>&#39;Secret_Access_Key&#39;</span> <span style=color:#555>=&gt;</span> <span style=color:#c30>&#39;&#39;</span>,
-    <span style=color:#c30>&#39;MWSAuthToken&#39;</span> <span style=color:#555>=&gt;</span> <span style=color:#c30>&#39;&#39;</span> <span style=color:#09f;font-style:italic>// Optional. Only use this key if you are a third party user/developer
-</span><span style=color:#09f;font-style:italic></span>]);
-<span style=color:#033>$fromDate</span> <span style=color:#555>=</span> <span style=color:#069;font-weight:700>new</span> DateTime(<span style=color:#c30>&#39;2016-01-01&#39;</span>);
-<span style=color:#033>$states</span> <span style=color:#555>=</span> [<span style=color:#c30>&#39;Unshipped&#39;</span>,<span style=color:#c30>&#39;PartiallyShipped&#39;</span>,<span style=color:#c30>&#39;Shipped&#39;</span>,<span style=color:#c30>&#39;PendingAvailability&#39;</span>,<span style=color:#c30>&#39;Pending&#39;</span>,<span style=color:#c30>&#39;InvoiceUnconfirmed&#39;</span>,<span style=color:#c30>&#39;Canceled&#39;</span>,<span style=color:#c30>&#39;Unfulfillable&#39;</span>];
-<span style=color:#033>$client</span><span style=color:#555>-&gt;</span><span style=color:#309>ListOrders</span>(<span style=color:#033>$fromDate</span>, <span style=color:#069;font-weight:700>false</span>, <span style=color:#033>$states</span>);
-</code></pre></td></tr></table></div></div><p>SDK 的 <a href=https://github.com/meertensm/amazon-mws/blob/master/src/MWSClient.php#L383>ListOrders()</a> 默认的 <code>states</code> 只有两个状态。</p><p><strong>订单商品</strong></p><p>要想获取订单里的商品信息要调用 <a href=https://github.com/meertensm/amazon-mws/blob/master/src/MWSClient.php#L493>ListOrderItems()</a></p><p><strong>订单商品的属性和图片</strong></p><p>要想获取订单商品里的属性和图片信息得调用 <a href=https://github.com/meertensm/amazon-mws/blob/master/src/MWSClient.php#L553>GetMatchingProductForId()</a>，商品属性目前应该只有 <code>Size</code> 和 <code>Color</code>。</p><p>注意：如果接口返回 <code>Request is throttled</code>，那你就要考虑接口频率问题了，详情就得查看文档<a href=http://docs.developer.amazonservices.com/zh_CN/dev_guide/DG_Throttling.html>《限制：针对提交请求频率的限制》</a>了。</p><h3 id=发货>发货</h3><p><strong>思路</strong></p><p>发货是一个异步接口，流程就是先创建一个类型为 <code>_POST_ORDER_FULFILLMENT_DATA_</code> 的 <code>SubmitFeed</code>，获取到一个 <code>FeedSubmissionId</code>，然后稍候通过另外一个接口传 <code>FeedSubmissionId</code> 查询发货结果。</p><p><strong>实践</strong></p><p>坑的是前面提到的 <a href=https://github.com/meertensm/amazon-mws>meertensm/amazon-mws</a> 库作者没有实现发货方法，提了 PR 作者也没时间管了，所以我自己实现了。</p><ul><li>先创建一个 <code>core/replace/MWSClient.php</code> 文件:</li></ul><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-php data-lang=php><span style=color:#8be9fd;font-style:italic>$client</span> <span style=color:#ff79c6>=</span> <span style=color:#ff79c6>new</span> MCS\MWSClient([
+    <span style=color:#f1fa8c>&#39;Marketplace_Id&#39;</span> <span style=color:#ff79c6>=&gt;</span> <span style=color:#f1fa8c>&#39;&#39;</span>,
+    <span style=color:#f1fa8c>&#39;Seller_Id&#39;</span> <span style=color:#ff79c6>=&gt;</span> <span style=color:#f1fa8c>&#39;&#39;</span>,
+    <span style=color:#f1fa8c>&#39;Access_Key_ID&#39;</span> <span style=color:#ff79c6>=&gt;</span> <span style=color:#f1fa8c>&#39;&#39;</span>,
+    <span style=color:#f1fa8c>&#39;Secret_Access_Key&#39;</span> <span style=color:#ff79c6>=&gt;</span> <span style=color:#f1fa8c>&#39;&#39;</span>,
+    <span style=color:#f1fa8c>&#39;MWSAuthToken&#39;</span> <span style=color:#ff79c6>=&gt;</span> <span style=color:#f1fa8c>&#39;&#39;</span> <span style=color:#6272a4>// Optional. Only use this key if you are a third party user/developer
+</span><span style=color:#6272a4></span>]);
+<span style=color:#8be9fd;font-style:italic>$fromDate</span> <span style=color:#ff79c6>=</span> <span style=color:#ff79c6>new</span> DateTime(<span style=color:#f1fa8c>&#39;2016-01-01&#39;</span>);
+<span style=color:#8be9fd;font-style:italic>$states</span> <span style=color:#ff79c6>=</span> [<span style=color:#f1fa8c>&#39;Unshipped&#39;</span>,<span style=color:#f1fa8c>&#39;PartiallyShipped&#39;</span>,<span style=color:#f1fa8c>&#39;Shipped&#39;</span>,<span style=color:#f1fa8c>&#39;PendingAvailability&#39;</span>,<span style=color:#f1fa8c>&#39;Pending&#39;</span>,<span style=color:#f1fa8c>&#39;InvoiceUnconfirmed&#39;</span>,<span style=color:#f1fa8c>&#39;Canceled&#39;</span>,<span style=color:#f1fa8c>&#39;Unfulfillable&#39;</span>];
+<span style=color:#8be9fd;font-style:italic>$client</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>ListOrders</span>(<span style=color:#8be9fd;font-style:italic>$fromDate</span>, <span style=color:#ff79c6>false</span>, <span style=color:#8be9fd;font-style:italic>$states</span>);
+</code></pre></td></tr></table></div></div><p>SDK 的 <a href=https://github.com/meertensm/amazon-mws/blob/master/src/MWSClient.php#L383>ListOrders()</a> 默认的 <code>states</code> 只有两个状态。</p><p><strong>订单商品</strong></p><p>要想获取订单里的商品信息要调用 <a href=https://github.com/meertensm/amazon-mws/blob/master/src/MWSClient.php#L493>ListOrderItems()</a></p><p><strong>订单商品的属性和图片</strong></p><p>要想获取订单商品里的属性和图片信息得调用 <a href=https://github.com/meertensm/amazon-mws/blob/master/src/MWSClient.php#L553>GetMatchingProductForId()</a>，商品属性目前应该只有 <code>Size</code> 和 <code>Color</code>。</p><p>注意：如果接口返回 <code>Request is throttled</code>，那你就要考虑接口频率问题了，详情就得查看文档<a href=http://docs.developer.amazonservices.com/zh_CN/dev_guide/DG_Throttling.html>《限制：针对提交请求频率的限制》</a>了。</p><h3 id=发货>发货</h3><p><strong>思路</strong></p><p>发货是一个异步接口，流程就是先创建一个类型为 <code>_POST_ORDER_FULFILLMENT_DATA_</code> 的 <code>SubmitFeed</code>，获取到一个 <code>FeedSubmissionId</code>，然后稍候通过另外一个接口传 <code>FeedSubmissionId</code> 查询发货结果。</p><p><strong>实践</strong></p><p>坑的是前面提到的 <a href=https://github.com/meertensm/amazon-mws>meertensm/amazon-mws</a> 库作者没有实现发货方法，提了 PR 作者也没时间管了，所以我自己实现了。</p><ul><li>先创建一个 <code>core/replace/MWSClient.php</code> 文件:</li></ul><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 2
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 3
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 4
@@ -95,86 +95,86 @@
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">63
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">64
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">65
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-php data-lang=php><span style=color:#555>&lt;?</span>php
-<span style=color:#c30;font-style:italic>/**
-</span><span style=color:#c30;font-style:italic> * author     : forecho &lt;caizhenghai@gmail.com&gt;
-</span><span style=color:#c30;font-style:italic> * createTime : 2019/6/11 9:53 PM
-</span><span style=color:#c30;font-style:italic> * description:
-</span><span style=color:#c30;font-style:italic> */</span>
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-php data-lang=php><span style=color:#ff79c6>&lt;?</span>php
+<span style=color:#f1fa8c>/**
+</span><span style=color:#f1fa8c> * author     : forecho &lt;caizhenghai@gmail.com&gt;
+</span><span style=color:#f1fa8c> * createTime : 2019/6/11 9:53 PM
+</span><span style=color:#f1fa8c> * description:
+</span><span style=color:#f1fa8c> */</span>
 
-<span style=color:#069;font-weight:700>namespace</span> app\core\helpers;
+<span style=color:#ff79c6>namespace</span> app\core\helpers;
 
-<span style=color:#069;font-weight:700>use</span> Exception;
+<span style=color:#ff79c6>use</span> Exception;
 
-<span style=color:#069;font-weight:700>class</span> <span style=color:#0a8;font-weight:700>MWSClient</span> <span style=color:#069;font-weight:700>extends</span> \MCS\MWSClient
+<span style=color:#ff79c6>class</span> <span style=color:#50fa7b>MWSClient</span> <span style=color:#ff79c6>extends</span> \MCS\MWSClient
 {
-    <span style=color:#c30;font-style:italic>/**
-</span><span style=color:#c30;font-style:italic>     * Sets the shipping status of an order
-</span><span style=color:#c30;font-style:italic>     * @param array $data required data
-</span><span style=color:#c30;font-style:italic>     * @return array feed submission result
-</span><span style=color:#c30;font-style:italic>     * @throws Exception
-</span><span style=color:#c30;font-style:italic>     */</span>
-    <span style=color:#069;font-weight:700>public</span> <span style=color:#069;font-weight:700>function</span> <span style=color:#c0f>setDeliveryState</span>(<span style=color:#069;font-weight:700>array</span> <span style=color:#033>$data</span>)
+    <span style=color:#f1fa8c>/**
+</span><span style=color:#f1fa8c>     * Sets the shipping status of an order
+</span><span style=color:#f1fa8c>     * @param array $data required data
+</span><span style=color:#f1fa8c>     * @return array feed submission result
+</span><span style=color:#f1fa8c>     * @throws Exception
+</span><span style=color:#f1fa8c>     */</span>
+    <span style=color:#ff79c6>public</span> <span style=color:#ff79c6>function</span> <span style=color:#50fa7b>setDeliveryState</span>(<span style=color:#ff79c6>array</span> <span style=color:#8be9fd;font-style:italic>$data</span>)
     {
-        <span style=color:#069;font-weight:700>if</span> (<span style=color:#555>!</span>isset(<span style=color:#033>$data</span>[<span style=color:#c30>&#34;shippingDate&#34;</span>])) {
-            <span style=color:#033>$data</span>[<span style=color:#c30>&#34;shippingDate&#34;</span>] <span style=color:#555>=</span> date(<span style=color:#c30>&#34;c&#34;</span>);
+        <span style=color:#ff79c6>if</span> (<span style=color:#ff79c6>!</span>isset(<span style=color:#8be9fd;font-style:italic>$data</span>[<span style=color:#f1fa8c>&#34;shippingDate&#34;</span>])) {
+            <span style=color:#8be9fd;font-style:italic>$data</span>[<span style=color:#f1fa8c>&#34;shippingDate&#34;</span>] <span style=color:#ff79c6>=</span> date(<span style=color:#f1fa8c>&#34;c&#34;</span>);
         }
 
-        <span style=color:#069;font-weight:700>if</span> (<span style=color:#555>!</span>isset(<span style=color:#033>$data</span>[<span style=color:#c30>&#34;carrierCode&#34;</span>]) <span style=color:#555>&amp;&amp;</span> <span style=color:#555>!</span>isset(<span style=color:#033>$data</span>[<span style=color:#c30>&#34;carrierName&#34;</span>])) {
-            <span style=color:#069;font-weight:700>throw</span> <span style=color:#069;font-weight:700>new</span> Exception(<span style=color:#c30>&#39;Missing required carrier data&#39;</span>);
+        <span style=color:#ff79c6>if</span> (<span style=color:#ff79c6>!</span>isset(<span style=color:#8be9fd;font-style:italic>$data</span>[<span style=color:#f1fa8c>&#34;carrierCode&#34;</span>]) <span style=color:#ff79c6>&amp;&amp;</span> <span style=color:#ff79c6>!</span>isset(<span style=color:#8be9fd;font-style:italic>$data</span>[<span style=color:#f1fa8c>&#34;carrierName&#34;</span>])) {
+            <span style=color:#ff79c6>throw</span> <span style=color:#ff79c6>new</span> Exception(<span style=color:#f1fa8c>&#39;Missing required carrier data&#39;</span>);
         }
 
-        <span style=color:#033>$feed</span> <span style=color:#555>=</span> [
-            <span style=color:#c30>&#39;MessageType&#39;</span> <span style=color:#555>=&gt;</span> <span style=color:#c30>&#39;OrderFulfillment&#39;</span>,
-            <span style=color:#c30>&#39;Message&#39;</span> <span style=color:#555>=&gt;</span> [
-                <span style=color:#c30>&#39;MessageID&#39;</span> <span style=color:#555>=&gt;</span> rand(),
-                <span style=color:#c30>&#34;OrderFulfillment&#34;</span> <span style=color:#555>=&gt;</span> [
-                    <span style=color:#c30>&#34;AmazonOrderID&#34;</span> <span style=color:#555>=&gt;</span> <span style=color:#033>$data</span>[<span style=color:#c30>&#34;orderId&#34;</span>],
-                    <span style=color:#c30>&#34;FulfillmentDate&#34;</span> <span style=color:#555>=&gt;</span> <span style=color:#033>$data</span>[<span style=color:#c30>&#34;shippingDate&#34;</span>]
+        <span style=color:#8be9fd;font-style:italic>$feed</span> <span style=color:#ff79c6>=</span> [
+            <span style=color:#f1fa8c>&#39;MessageType&#39;</span> <span style=color:#ff79c6>=&gt;</span> <span style=color:#f1fa8c>&#39;OrderFulfillment&#39;</span>,
+            <span style=color:#f1fa8c>&#39;Message&#39;</span> <span style=color:#ff79c6>=&gt;</span> [
+                <span style=color:#f1fa8c>&#39;MessageID&#39;</span> <span style=color:#ff79c6>=&gt;</span> rand(),
+                <span style=color:#f1fa8c>&#34;OrderFulfillment&#34;</span> <span style=color:#ff79c6>=&gt;</span> [
+                    <span style=color:#f1fa8c>&#34;AmazonOrderID&#34;</span> <span style=color:#ff79c6>=&gt;</span> <span style=color:#8be9fd;font-style:italic>$data</span>[<span style=color:#f1fa8c>&#34;orderId&#34;</span>],
+                    <span style=color:#f1fa8c>&#34;FulfillmentDate&#34;</span> <span style=color:#ff79c6>=&gt;</span> <span style=color:#8be9fd;font-style:italic>$data</span>[<span style=color:#f1fa8c>&#34;shippingDate&#34;</span>]
                 ]
             ]
         ];
-        <span style=color:#033>$fulfillmentData</span> <span style=color:#555>=</span> [];
+        <span style=color:#8be9fd;font-style:italic>$fulfillmentData</span> <span style=color:#ff79c6>=</span> [];
 
 
-        <span style=color:#069;font-weight:700>if</span> (isset(<span style=color:#033>$data</span>[<span style=color:#c30>&#34;carrierCode&#34;</span>])) {
-            <span style=color:#033>$fulfillmentData</span>[<span style=color:#c30>&#34;CarrierCode&#34;</span>] <span style=color:#555>=</span> <span style=color:#033>$data</span>[<span style=color:#c30>&#34;carrierCode&#34;</span>];
-        } <span style=color:#069;font-weight:700>elseif</span> (isset(<span style=color:#033>$data</span>[<span style=color:#c30>&#34;carrierName&#34;</span>])) {
-            <span style=color:#033>$fulfillmentData</span>[<span style=color:#c30>&#34;CarrierName&#34;</span>] <span style=color:#555>=</span> <span style=color:#033>$data</span>[<span style=color:#c30>&#34;carrierName&#34;</span>];
+        <span style=color:#ff79c6>if</span> (isset(<span style=color:#8be9fd;font-style:italic>$data</span>[<span style=color:#f1fa8c>&#34;carrierCode&#34;</span>])) {
+            <span style=color:#8be9fd;font-style:italic>$fulfillmentData</span>[<span style=color:#f1fa8c>&#34;CarrierCode&#34;</span>] <span style=color:#ff79c6>=</span> <span style=color:#8be9fd;font-style:italic>$data</span>[<span style=color:#f1fa8c>&#34;carrierCode&#34;</span>];
+        } <span style=color:#ff79c6>elseif</span> (isset(<span style=color:#8be9fd;font-style:italic>$data</span>[<span style=color:#f1fa8c>&#34;carrierName&#34;</span>])) {
+            <span style=color:#8be9fd;font-style:italic>$fulfillmentData</span>[<span style=color:#f1fa8c>&#34;CarrierName&#34;</span>] <span style=color:#ff79c6>=</span> <span style=color:#8be9fd;font-style:italic>$data</span>[<span style=color:#f1fa8c>&#34;carrierName&#34;</span>];
         }
 
-        <span style=color:#069;font-weight:700>if</span> (isset(<span style=color:#033>$data</span>[<span style=color:#c30>&#34;shippingMethod&#34;</span>])) {
-            <span style=color:#033>$fulfillmentData</span>[<span style=color:#c30>&#34;ShippingMethod&#34;</span>] <span style=color:#555>=</span> <span style=color:#033>$data</span>[<span style=color:#c30>&#34;shippingMethod&#34;</span>];
+        <span style=color:#ff79c6>if</span> (isset(<span style=color:#8be9fd;font-style:italic>$data</span>[<span style=color:#f1fa8c>&#34;shippingMethod&#34;</span>])) {
+            <span style=color:#8be9fd;font-style:italic>$fulfillmentData</span>[<span style=color:#f1fa8c>&#34;ShippingMethod&#34;</span>] <span style=color:#ff79c6>=</span> <span style=color:#8be9fd;font-style:italic>$data</span>[<span style=color:#f1fa8c>&#34;shippingMethod&#34;</span>];
         }
 
 
-        <span style=color:#069;font-weight:700>if</span> (isset(<span style=color:#033>$data</span>[<span style=color:#c30>&#34;trackingCode&#34;</span>])) {
-            <span style=color:#033>$fulfillmentData</span>[<span style=color:#c30>&#34;ShipperTrackingNumber&#34;</span>] <span style=color:#555>=</span> <span style=color:#033>$data</span>[<span style=color:#c30>&#34;trackingCode&#34;</span>];
+        <span style=color:#ff79c6>if</span> (isset(<span style=color:#8be9fd;font-style:italic>$data</span>[<span style=color:#f1fa8c>&#34;trackingCode&#34;</span>])) {
+            <span style=color:#8be9fd;font-style:italic>$fulfillmentData</span>[<span style=color:#f1fa8c>&#34;ShipperTrackingNumber&#34;</span>] <span style=color:#ff79c6>=</span> <span style=color:#8be9fd;font-style:italic>$data</span>[<span style=color:#f1fa8c>&#34;trackingCode&#34;</span>];
         }
 
-        <span style=color:#069;font-weight:700>if</span> (sizeof(<span style=color:#033>$fulfillmentData</span>) <span style=color:#555>&gt;</span> <span style=color:#f60>0</span>) {
-            <span style=color:#033>$feed</span>[<span style=color:#c30>&#34;Message&#34;</span>][<span style=color:#c30>&#34;OrderFulfillment&#34;</span>][<span style=color:#c30>&#34;FulfillmentData&#34;</span>] <span style=color:#555>=</span> <span style=color:#033>$fulfillmentData</span>;
+        <span style=color:#ff79c6>if</span> (sizeof(<span style=color:#8be9fd;font-style:italic>$fulfillmentData</span>) <span style=color:#ff79c6>&gt;</span> <span style=color:#bd93f9>0</span>) {
+            <span style=color:#8be9fd;font-style:italic>$feed</span>[<span style=color:#f1fa8c>&#34;Message&#34;</span>][<span style=color:#f1fa8c>&#34;OrderFulfillment&#34;</span>][<span style=color:#f1fa8c>&#34;FulfillmentData&#34;</span>] <span style=color:#ff79c6>=</span> <span style=color:#8be9fd;font-style:italic>$fulfillmentData</span>;
         }
-        <span style=color:#033>$feed</span> <span style=color:#555>=</span> <span style=color:#033>$this</span><span style=color:#555>-&gt;</span><span style=color:#309>SubmitFeed</span>(<span style=color:#c30>&#39;_POST_ORDER_FULFILLMENT_DATA_&#39;</span>, <span style=color:#033>$feed</span>);
+        <span style=color:#8be9fd;font-style:italic>$feed</span> <span style=color:#ff79c6>=</span> <span style=color:#8be9fd;font-style:italic>$this</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>SubmitFeed</span>(<span style=color:#f1fa8c>&#39;_POST_ORDER_FULFILLMENT_DATA_&#39;</span>, <span style=color:#8be9fd;font-style:italic>$feed</span>);
 
-        <span style=color:#069;font-weight:700>return</span> <span style=color:#033>$feed</span>;
+        <span style=color:#ff79c6>return</span> <span style=color:#8be9fd;font-style:italic>$feed</span>;
     }
 }
-</code></pre></td></tr></table></div></div><ul><li>然后修改第一步调用 <code>MWSClient</code> 类的时候使用我们自己的类：</li></ul><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
+</code></pre></td></tr></table></div></div><ul><li>然后修改第一步调用 <code>MWSClient</code> 类的时候使用我们自己的类：</li></ul><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">2
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">3
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">4
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">5
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">6
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">7
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-php data-lang=php><span style=color:#033>$client</span> <span style=color:#555>=</span> <span style=color:#069;font-weight:700>new</span> app\core\helpers\MWSClient([
-    <span style=color:#c30>&#39;Marketplace_Id&#39;</span> <span style=color:#555>=&gt;</span> <span style=color:#c30>&#39;&#39;</span>,
-    <span style=color:#c30>&#39;Seller_Id&#39;</span> <span style=color:#555>=&gt;</span> <span style=color:#c30>&#39;&#39;</span>,
-    <span style=color:#c30>&#39;Access_Key_ID&#39;</span> <span style=color:#555>=&gt;</span> <span style=color:#c30>&#39;&#39;</span>,
-    <span style=color:#c30>&#39;Secret_Access_Key&#39;</span> <span style=color:#555>=&gt;</span> <span style=color:#c30>&#39;&#39;</span>,
-    <span style=color:#c30>&#39;MWSAuthToken&#39;</span> <span style=color:#555>=&gt;</span> <span style=color:#c30>&#39;&#39;</span> <span style=color:#09f;font-style:italic>// Optional. Only use this key if you are a third party user/developer
-</span><span style=color:#09f;font-style:italic></span>]);
-</code></pre></td></tr></table></div></div><ul><li>这样之后我们就可以这样发货了：</li></ul><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-php data-lang=php><span style=color:#8be9fd;font-style:italic>$client</span> <span style=color:#ff79c6>=</span> <span style=color:#ff79c6>new</span> app\core\helpers\MWSClient([
+    <span style=color:#f1fa8c>&#39;Marketplace_Id&#39;</span> <span style=color:#ff79c6>=&gt;</span> <span style=color:#f1fa8c>&#39;&#39;</span>,
+    <span style=color:#f1fa8c>&#39;Seller_Id&#39;</span> <span style=color:#ff79c6>=&gt;</span> <span style=color:#f1fa8c>&#39;&#39;</span>,
+    <span style=color:#f1fa8c>&#39;Access_Key_ID&#39;</span> <span style=color:#ff79c6>=&gt;</span> <span style=color:#f1fa8c>&#39;&#39;</span>,
+    <span style=color:#f1fa8c>&#39;Secret_Access_Key&#39;</span> <span style=color:#ff79c6>=&gt;</span> <span style=color:#f1fa8c>&#39;&#39;</span>,
+    <span style=color:#f1fa8c>&#39;MWSAuthToken&#39;</span> <span style=color:#ff79c6>=&gt;</span> <span style=color:#f1fa8c>&#39;&#39;</span> <span style=color:#6272a4>// Optional. Only use this key if you are a third party user/developer
+</span><span style=color:#6272a4></span>]);
+</code></pre></td></tr></table></div></div><ul><li>这样之后我们就可以这样发货了：</li></ul><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 2
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 3
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 4
@@ -193,24 +193,24 @@
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">17
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">18
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">19
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-php data-lang=php><span style=color:#033>$client</span><span style=color:#555>-&gt;</span><span style=color:#309>setDeliveryState</span>([
-    <span style=color:#c30>&#34;orderId&#34;</span> <span style=color:#555>=&gt;</span> <span style=color:#f60>3456342</span>,
-    <span style=color:#c30>&#34;carrierCode&#34;</span> <span style=color:#555>=&gt;</span> <span style=color:#c30>&#34;UPS&#34;</span>,
-    <span style=color:#c30>&#34;trackingCode&#34;</span> <span style=color:#555>=&gt;</span> <span style=color:#c30>&#34;34JD943T6&#34;</span>,
-    <span style=color:#c30>&#34;shippingMethod&#34;</span> <span style=color:#555>=&gt;</span> <span style=color:#c30>&#34;1 Day&#34;</span>,
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-php data-lang=php><span style=color:#8be9fd;font-style:italic>$client</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>setDeliveryState</span>([
+    <span style=color:#f1fa8c>&#34;orderId&#34;</span> <span style=color:#ff79c6>=&gt;</span> <span style=color:#bd93f9>3456342</span>,
+    <span style=color:#f1fa8c>&#34;carrierCode&#34;</span> <span style=color:#ff79c6>=&gt;</span> <span style=color:#f1fa8c>&#34;UPS&#34;</span>,
+    <span style=color:#f1fa8c>&#34;trackingCode&#34;</span> <span style=color:#ff79c6>=&gt;</span> <span style=color:#f1fa8c>&#34;34JD943T6&#34;</span>,
+    <span style=color:#f1fa8c>&#34;shippingMethod&#34;</span> <span style=color:#ff79c6>=&gt;</span> <span style=color:#f1fa8c>&#34;1 Day&#34;</span>,
 ]);
 
-<span style=color:#033>$client</span><span style=color:#555>-&gt;</span><span style=color:#309>setDeliveryState</span>([
-    <span style=color:#c30>&#34;orderId&#34;</span> <span style=color:#555>=&gt;</span> <span style=color:#f60>3456342</span>,
-    <span style=color:#c30>&#34;carrierName&#34;</span> <span style=color:#555>=&gt;</span> <span style=color:#c30>&#34;Mini transporters A.C.&#34;</span>,
-    <span style=color:#c30>&#34;trackingCode&#34;</span> <span style=color:#555>=&gt;</span> <span style=color:#c30>&#34;34JD943T6&#34;</span>,
+<span style=color:#8be9fd;font-style:italic>$client</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>setDeliveryState</span>([
+    <span style=color:#f1fa8c>&#34;orderId&#34;</span> <span style=color:#ff79c6>=&gt;</span> <span style=color:#bd93f9>3456342</span>,
+    <span style=color:#f1fa8c>&#34;carrierName&#34;</span> <span style=color:#ff79c6>=&gt;</span> <span style=color:#f1fa8c>&#34;Mini transporters A.C.&#34;</span>,
+    <span style=color:#f1fa8c>&#34;trackingCode&#34;</span> <span style=color:#ff79c6>=&gt;</span> <span style=color:#f1fa8c>&#34;34JD943T6&#34;</span>,
 ]);
 
-<span style=color:#033>$client</span><span style=color:#555>-&gt;</span><span style=color:#309>setDeliveryState</span>([
-    <span style=color:#c30>&#34;orderId&#34;</span> <span style=color:#555>=&gt;</span> <span style=color:#f60>3456342</span>,
-    <span style=color:#c30>&#34;carrierName&#34;</span> <span style=color:#555>=&gt;</span> <span style=color:#c30>&#34;Mini transporters A.C.&#34;</span>,
-    <span style=color:#c30>&#34;trackingCode&#34;</span> <span style=color:#555>=&gt;</span> <span style=color:#c30>&#34;34JD943T6&#34;</span>,
-    <span style=color:#c30>&#34;shippingDate&#34;</span> <span style=color:#555>=&gt;</span> <span style=color:#c30>&#34;2018-06-21T12:32:24+02:00&#34;</span>
+<span style=color:#8be9fd;font-style:italic>$client</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>setDeliveryState</span>([
+    <span style=color:#f1fa8c>&#34;orderId&#34;</span> <span style=color:#ff79c6>=&gt;</span> <span style=color:#bd93f9>3456342</span>,
+    <span style=color:#f1fa8c>&#34;carrierName&#34;</span> <span style=color:#ff79c6>=&gt;</span> <span style=color:#f1fa8c>&#34;Mini transporters A.C.&#34;</span>,
+    <span style=color:#f1fa8c>&#34;trackingCode&#34;</span> <span style=color:#ff79c6>=&gt;</span> <span style=color:#f1fa8c>&#34;34JD943T6&#34;</span>,
+    <span style=color:#f1fa8c>&#34;shippingDate&#34;</span> <span style=color:#ff79c6>=&gt;</span> <span style=color:#f1fa8c>&#34;2018-06-21T12:32:24+02:00&#34;</span>
 ]);
 </code></pre></td></tr></table></div></div><p>以上实践代码我是根据 <a href=https://github.com/meertensm/amazon-mws/issues/55>Update order - set delivery state #55</a> 这个 Issues 采坑而来的。</p><ul><li>查询发货结果</li></ul><p>无论成功或者失败都可以通过 <a href=https://github.com/meertensm/amazon-mws/blob/master/src/MWSClient.php#L956>GetFeedSubmissionResult()</a> 方法获取结果。</p><p>PS: 可以分享一下我发货采坑的过程：</p><p>MWS 对应的接口都会有对应的参数 XMLSchema，是专门用来校验接口传过去的参数，我们可以找一个在线 XML 校验的网站，校验我们要传过去的值是否正确。异步接口调试非常的麻烦，而且亚马逊返回的错误信息又不足够详细。</p><ul><li><a href=https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_1_9/OrderFulfillment.xsd>OrderFulfillment 的 XMLSchema</a></li><li><a href=https://www.liquid-technologies.com/online-xsd-validator>在线 XML 校验</a></li></ul><h2 id=总结>总结</h2><p>发现国内使用 MWS 的文档和资料比较少，自己辛辛苦苦踩的坑，当然要分享出来，希望对你有用。</p><h2 id=相关文章>相关文章</h2><ul><li><a href=https://blog.forecho.com/mws-order.html>《MWS 开发 - 订单篇》</a></li><li><a href=https://blog.forecho.com/mws-product.html>《MWS 开发 - 产品上传篇》</a></li></ul><hr class="bg-gray-300 mt-8"><div class=pt-4><p class=text-center><button id=btn-donate class="px-5 py-2 inline-block rounded hover:bg-red-600 bg-red-400 text-white" for=reward>打赏</button></p><div class="flex-auto mt-2 mx-2 hidden" id=donate-image><div class="w-full px-2 my-2"><div class="bg-white dark:bg-black"><img class="h-48 shadow object-cover w-auto mx-auto" loading=lazy src=https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424153510.png alt=微信打赏><div class="text-center text-gray-500">微信打赏</div></div></div><div class="w-full px-2 my-2"><div class="bg-white dark:bg-black"><img class="h-48 shadow object-cover w-auto mx-auto" loading=lazy src=https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424153431.png alt=支付宝打赏><div class="text-center text-gray-500">支付宝打赏</div></div></div></div></div><div class="border-l-4 border-red-400 mx-auto text-gray-500"><div class=copyright><ul class=list-none><li><strong>原文作者：</strong>
 <a rel=author href=https://blog.forecho.com>forecho</a></li><li style=word-break:break-all><strong>原文链接：</strong>

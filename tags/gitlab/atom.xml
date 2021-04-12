@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GitLab on forecho's Blog</title><link>https://blog.forecho.com/tags/gitlab.html</link><description>Recent content in GitLab on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 07 Nov 2017 16:01:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/tags/gitlab/atom.xml" rel="self" type="application/rss+xml"/><item><title>使用 GitLab</title><link>https://blog.forecho.com/use-gitlab.html</link><pubDate>Tue, 07 Nov 2017 16:01:00 +0800</pubDate><guid>https://blog.forecho.com/use-gitlab.html</guid><description>&lt;h2 id="安装-gitlab">安装 GitLab&lt;/h2>
-&lt;div class="highlight">&lt;div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
 &lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
-&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 &lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
 &lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-fallback" data-lang="fallback">$ sudo apt-get install curl openssh-server ca-certificates postfix
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-fallback" data-lang="fallback">$ sudo apt-get install curl openssh-server ca-certificates postfix
 $ curl -sS http://packages.gitlab.cc/install/gitlab-ce/script.deb.sh | sudo bash
 $ sudo apt-get install gitlab-ce
 &lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
@@ -14,12 +14,12 @@ $ sudo apt-get install gitlab-ce
 &lt;/div>&lt;p>如果需要安装指定版本，最后一步之前去 &lt;a href="https://packages.gitlab.com/gitlab/gitlab-ce">https://packages.gitlab.com/gitlab/gitlab-ce&lt;/a> 看一下，找到指定版本，有安装指南。&lt;/p>
 &lt;p>PS：查看 Linux 当前系统版本用 &lt;code>cat /etc/lsb-release&lt;/code> 命令。&lt;/p>
 &lt;p>修改 GitLab 配置文件&lt;/p>
-&lt;div class="highlight">&lt;div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
 &lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
-&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-fallback" data-lang="fallback">$ sudo vim /etc/gitlab/gitlab.rb
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-fallback" data-lang="fallback">$ sudo vim /etc/gitlab/gitlab.rb
 &lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;p>修改之后的配置如下：&lt;/p></description></item></channel></rss>

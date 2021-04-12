@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Docker on forecho's Blog</title><link>https://blog.forecho.com/tags/docker.html</link><description>Recent content in Docker on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 27 May 2019 10:58:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/tags/docker/atom.xml" rel="self" type="application/rss+xml"/><item><title>Docker 使用定时任务</title><link>https://blog.forecho.com/docker-use-cron.html</link><pubDate>Mon, 27 May 2019 10:58:00 +0800</pubDate><guid>https://blog.forecho.com/docker-use-cron.html</guid><description>&lt;h2 id="使用定时任务">使用定时任务&lt;/h2>
 &lt;p>在宿主主机使用 &lt;code>crontab -e&lt;/code> 添加如下示例命令就可以了，非常简单：&lt;/p>
-&lt;div class="highlight">&lt;div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
 &lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
-&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-fallback" data-lang="fallback">*/15 * * * * docker exec laradock_workspace_1 php /var/www/erp/yii sync/order &amp;gt;&amp;gt; /tmp/out-docker.log 2&amp;gt;&amp;amp;1
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-fallback" data-lang="fallback">*/15 * * * * docker exec laradock_workspace_1 php /var/www/erp/yii sync/order &amp;gt;&amp;gt; /tmp/out-docker.log 2&amp;gt;&amp;amp;1
 &lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;p>说明：&lt;/p>
@@ -26,15 +26,15 @@
 &lt;h2 id="下载太慢怎么办">下载太慢怎么办？&lt;/h2>
 &lt;p>刚才找到一个国内的&lt;a href="http://get.daocloud.io/#install-boot2docker">镜像&lt;/a>，速度还不错，推荐。&lt;/p>
 &lt;h2 id="安装失败报错怎么办">安装失败报错怎么办？&lt;/h2>
-&lt;div class="highlight">&lt;div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
 &lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
-&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 &lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
 &lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-sh" data-lang="sh">&amp;gt; docker run hello-world
-&amp;gt; FATA&lt;span style="color:#555">[&lt;/span>0000&lt;span style="color:#555">]&lt;/span> Post http:///var/run/docker.sock/v1.18/containers/create: dial unix /var/run/docker.sock: no such file or directory. Are you trying to connect to a TLS-enabled daemon without TLS?
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-sh" data-lang="sh">&amp;gt; docker run hello-world
+&amp;gt; FATA&lt;span style="color:#ff79c6">[&lt;/span>0000&lt;span style="color:#ff79c6">]&lt;/span> Post http:///var/run/docker.sock/v1.18/containers/create: dial unix /var/run/docker.sock: no such file or directory. Are you trying to connect to a TLS-enabled daemon without TLS?
 FAIL
 &lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>

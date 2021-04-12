@@ -22,23 +22,23 @@ Octopress 项目已经没人维护了
 1180 字</span>
 <span class="hidden xl:inline-block">|
 <i class="iconfont icon-clock-o"></i>
-3 分钟读完</span></p></div><div class="md:hidden dark:text-gray-100"><p class="text-base font-bold py-2 yg:pb-6 text-gray-700 dark:text-gray-300">文章目录</p><div class="sticky text-sm" style=top:6em id=menu-content><nav id=TableOfContents><ul><li><a href=#引言>引言</a></li><li><a href=#安装-hugo>安装 Hugo</a></li><li><a href=#迁移文章>迁移文章</a><ul><li><a href=#使用方式>使用方式</a></li></ul></li><li><a href=#最后>最后</a></li><li><a href=#使用感受对比>使用感受对比</a><ul><li><a href=#博客源码结构>博客源码结构</a></li><li><a href=#ci-时间>CI 时间</a></li><li><a href=#功能>功能</a></li></ul></li><li><a href=#总结>总结</a></li><li><a href=#参考链接>参考链接</a></li></ul></nav></div></div><div class="post-content dark:text-white"><h2 id=引言>引言</h2><p>终于还是受不了 Octopress 了，准备迁移到 <a href=https://gohugo.io/>Hugo</a>，受不了 Octopress 是因为：</p><ul><li>markdown code 语法支持不好，很多时候莫名其妙的 Build 失败，让人抓狂。（最主要原因）</li><li>生成速度太慢，目前生成一次要2分多钟了</li><li>Octopress 项目已经没人维护了</li></ul><h2 id=安装-hugo>安装 Hugo</h2><p>如果是 Mac 的话直接：</p><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
+3 分钟读完</span></p></div><div class="md:hidden dark:text-gray-100"><p class="text-base font-bold py-2 yg:pb-6 text-gray-700 dark:text-gray-300">文章目录</p><div class="sticky text-sm" style=top:6em id=menu-content><nav id=TableOfContents><ul><li><a href=#引言>引言</a></li><li><a href=#安装-hugo>安装 Hugo</a></li><li><a href=#迁移文章>迁移文章</a><ul><li><a href=#使用方式>使用方式</a></li></ul></li><li><a href=#最后>最后</a></li><li><a href=#使用感受对比>使用感受对比</a><ul><li><a href=#博客源码结构>博客源码结构</a></li><li><a href=#ci-时间>CI 时间</a></li><li><a href=#功能>功能</a></li></ul></li><li><a href=#总结>总结</a></li><li><a href=#参考链接>参考链接</a></li></ul></nav></div></div><div class="post-content dark:text-white"><h2 id=引言>引言</h2><p>终于还是受不了 Octopress 了，准备迁移到 <a href=https://gohugo.io/>Hugo</a>，受不了 Octopress 是因为：</p><ul><li>markdown code 语法支持不好，很多时候莫名其妙的 Build 失败，让人抓狂。（最主要原因）</li><li>生成速度太慢，目前生成一次要2分多钟了</li><li>Octopress 项目已经没人维护了</li></ul><h2 id=安装-hugo>安装 Hugo</h2><p>如果是 Mac 的话直接：</p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">2
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">3
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">4
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">5
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">6
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-sh data-lang=sh>brew install hugo
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-sh data-lang=sh>brew install hugo
 hugo new site blog
-<span style=color:#366>cd</span> blog
+<span style=color:#8be9fd;font-style:italic>cd</span> blog
 git init
 git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke
-<span style=color:#366>echo</span> <span style=color:#c30>&#39;theme = &#34;ananke&#34;&#39;</span> &gt;&gt; config.toml
-</code></pre></td></tr></table></div></div><p>然后就可以用下面命令生成文章了：</p><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-sh data-lang=sh>hugo new posts/my-first-post.md
-</code></pre></td></tr></table></div></div><p>开启服务</p><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-sh data-lang=sh>hugo server -D
-</code></pre></td></tr></table></div></div><p>然后访问 <a href=http://localhost:1313/>http://localhost:1313/</a> 就可以看到你的 Hugo 博客了。</p><h2 id=迁移文章>迁移文章</h2><p>官方有<a href=https://gohugo.io/tools/migrations/>迁移指南</a>，Octopress 迁移到 Hugo 官方推荐使用 <a href=https://github.com/codebrane/octohug>octohug</a>，但是我使用下来发现不好用，迁移完之后有小问题。于是我找了一篇文章，结合文章给的代码，自己完善了功能，终于达到我要的效果，参考代码如下：</p><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
+<span style=color:#8be9fd;font-style:italic>echo</span> <span style=color:#f1fa8c>&#39;theme = &#34;ananke&#34;&#39;</span> &gt;&gt; config.toml
+</code></pre></td></tr></table></div></div><p>然后就可以用下面命令生成文章了：</p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-sh data-lang=sh>hugo new posts/my-first-post.md
+</code></pre></td></tr></table></div></div><p>开启服务</p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-sh data-lang=sh>hugo server -D
+</code></pre></td></tr></table></div></div><p>然后访问 <a href=http://localhost:1313/>http://localhost:1313/</a> 就可以看到你的 Hugo 博客了。</p><h2 id=迁移文章>迁移文章</h2><p>官方有<a href=https://gohugo.io/tools/migrations/>迁移指南</a>，Octopress 迁移到 Hugo 官方推荐使用 <a href=https://github.com/codebrane/octohug>octohug</a>，但是我使用下来发现不好用，迁移完之后有小问题。于是我找了一篇文章，结合文章给的代码，自己完善了功能，终于达到我要的效果，参考代码如下：</p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 2
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 3
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 4
@@ -132,102 +132,102 @@ git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/anan
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">92
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">93
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">94
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-go data-lang=go><span style=color:#069;font-weight:700>package</span> main
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-go data-lang=go><span style=color:#ff79c6>package</span> main
 
-<span style=color:#069;font-weight:700>import</span> (
-	<span style=color:#c30>&#34;flag&#34;</span>
-	<span style=color:#c30>&#34;fmt&#34;</span>
-	<span style=color:#c30>&#34;io/ioutil&#34;</span>
-	<span style=color:#c30>&#34;os&#34;</span>
-	<span style=color:#c30>&#34;regexp&#34;</span>
-	<span style=color:#c30>&#34;strings&#34;</span>
+<span style=color:#ff79c6>import</span> (
+	<span style=color:#f1fa8c>&#34;flag&#34;</span>
+	<span style=color:#f1fa8c>&#34;fmt&#34;</span>
+	<span style=color:#f1fa8c>&#34;io/ioutil&#34;</span>
+	<span style=color:#f1fa8c>&#34;os&#34;</span>
+	<span style=color:#f1fa8c>&#34;regexp&#34;</span>
+	<span style=color:#f1fa8c>&#34;strings&#34;</span>
 )
 
-<span style=color:#069;font-weight:700>func</span> <span style=color:#c0f>main</span>() {
-	<span style=color:#069;font-weight:700>var</span> src, dst <span style=color:#078;font-weight:700>string</span>
-	flag.<span style=color:#c0f>StringVar</span>(<span style=color:#555>&amp;</span>src, <span style=color:#c30>&#34;src&#34;</span>, <span style=color:#c30>&#34;&#34;</span>, <span style=color:#c30>&#34;source&#34;</span>)
-	flag.<span style=color:#c0f>StringVar</span>(<span style=color:#555>&amp;</span>dst, <span style=color:#c30>&#34;dst&#34;</span>, <span style=color:#c30>&#34;&#34;</span>, <span style=color:#c30>&#34;destination&#34;</span>)
-	flag.<span style=color:#c0f>Parse</span>()
+<span style=color:#8be9fd;font-style:italic>func</span> <span style=color:#50fa7b>main</span>() {
+	<span style=color:#8be9fd;font-style:italic>var</span> src, dst <span style=color:#8be9fd>string</span>
+	flag.<span style=color:#50fa7b>StringVar</span>(<span style=color:#ff79c6>&amp;</span>src, <span style=color:#f1fa8c>&#34;src&#34;</span>, <span style=color:#f1fa8c>&#34;&#34;</span>, <span style=color:#f1fa8c>&#34;source&#34;</span>)
+	flag.<span style=color:#50fa7b>StringVar</span>(<span style=color:#ff79c6>&amp;</span>dst, <span style=color:#f1fa8c>&#34;dst&#34;</span>, <span style=color:#f1fa8c>&#34;&#34;</span>, <span style=color:#f1fa8c>&#34;destination&#34;</span>)
+	flag.<span style=color:#50fa7b>Parse</span>()
 
-	<span style=color:#069;font-weight:700>if</span> _, err <span style=color:#555>:=</span> os.<span style=color:#c0f>Stat</span>(src); os.<span style=color:#c0f>IsNotExist</span>(err) {
-		<span style=color:#366>panic</span>(<span style=color:#c30>&#34;source directory does not exist&#34;</span>)
+	<span style=color:#ff79c6>if</span> _, err <span style=color:#ff79c6>:=</span> os.<span style=color:#50fa7b>Stat</span>(src); os.<span style=color:#50fa7b>IsNotExist</span>(err) {
+		<span style=color:#8be9fd;font-style:italic>panic</span>(<span style=color:#f1fa8c>&#34;source directory does not exist&#34;</span>)
 	}
 
-	<span style=color:#069;font-weight:700>if</span> _, err <span style=color:#555>:=</span> os.<span style=color:#c0f>Stat</span>(dst); os.<span style=color:#c0f>IsNotExist</span>(err) {
-		<span style=color:#069;font-weight:700>if</span> err <span style=color:#555>:=</span> os.<span style=color:#c0f>Mkdir</span>(dst, os.ModePerm); err <span style=color:#555>!=</span> <span style=color:#069;font-weight:700>nil</span> {
-			<span style=color:#366>panic</span>(err)
+	<span style=color:#ff79c6>if</span> _, err <span style=color:#ff79c6>:=</span> os.<span style=color:#50fa7b>Stat</span>(dst); os.<span style=color:#50fa7b>IsNotExist</span>(err) {
+		<span style=color:#ff79c6>if</span> err <span style=color:#ff79c6>:=</span> os.<span style=color:#50fa7b>Mkdir</span>(dst, os.ModePerm); err <span style=color:#ff79c6>!=</span> <span style=color:#ff79c6>nil</span> {
+			<span style=color:#8be9fd;font-style:italic>panic</span>(err)
 		}
 	}
 
-	files, err <span style=color:#555>:=</span> ioutil.<span style=color:#c0f>ReadDir</span>(src)
-	<span style=color:#069;font-weight:700>if</span> err <span style=color:#555>!=</span> <span style=color:#069;font-weight:700>nil</span> {
-		<span style=color:#366>panic</span>(err)
+	files, err <span style=color:#ff79c6>:=</span> ioutil.<span style=color:#50fa7b>ReadDir</span>(src)
+	<span style=color:#ff79c6>if</span> err <span style=color:#ff79c6>!=</span> <span style=color:#ff79c6>nil</span> {
+		<span style=color:#8be9fd;font-style:italic>panic</span>(err)
 	}
 
-	<span style=color:#069;font-weight:700>for</span> _, file <span style=color:#555>:=</span> <span style=color:#069;font-weight:700>range</span> files {
-		filename <span style=color:#555>:=</span> file.<span style=color:#c0f>Name</span>()
-		re <span style=color:#555>:=</span> regexp.<span style=color:#c0f>MustCompile</span>(<span style=color:#c30>`^\d{4}-\d{2}-\d{2}-(.*).m(arkdown|d)`</span>)
-		<span style=color:#09f;font-style:italic>// Ignore non-matching filenames (i.e. do no dereference nil)
-</span><span style=color:#09f;font-style:italic></span>		<span style=color:#069;font-weight:700>if</span> matches <span style=color:#555>:=</span> re.<span style=color:#c0f>FindStringSubmatch</span>(filename); matches <span style=color:#555>==</span> <span style=color:#069;font-weight:700>nil</span> {
-			<span style=color:#069;font-weight:700>continue</span>
+	<span style=color:#ff79c6>for</span> _, file <span style=color:#ff79c6>:=</span> <span style=color:#ff79c6>range</span> files {
+		filename <span style=color:#ff79c6>:=</span> file.<span style=color:#50fa7b>Name</span>()
+		re <span style=color:#ff79c6>:=</span> regexp.<span style=color:#50fa7b>MustCompile</span>(<span style=color:#f1fa8c>`^\d{4}-\d{2}-\d{2}-(.*).m(arkdown|d)`</span>)
+		<span style=color:#6272a4>// Ignore non-matching filenames (i.e. do no dereference nil)
+</span><span style=color:#6272a4></span>		<span style=color:#ff79c6>if</span> matches <span style=color:#ff79c6>:=</span> re.<span style=color:#50fa7b>FindStringSubmatch</span>(filename); matches <span style=color:#ff79c6>==</span> <span style=color:#ff79c6>nil</span> {
+			<span style=color:#ff79c6>continue</span>
 		}
 
-		in <span style=color:#555>:=</span> fmt.<span style=color:#c0f>Sprintf</span>(<span style=color:#c30>&#34;%s%s&#34;</span>, src, filename)
-		data, err <span style=color:#555>:=</span> ioutil.<span style=color:#c0f>ReadFile</span>(in)
-		<span style=color:#069;font-weight:700>if</span> err <span style=color:#555>!=</span> <span style=color:#069;font-weight:700>nil</span> {
-			<span style=color:#366>panic</span>(err)
+		in <span style=color:#ff79c6>:=</span> fmt.<span style=color:#50fa7b>Sprintf</span>(<span style=color:#f1fa8c>&#34;%s%s&#34;</span>, src, filename)
+		data, err <span style=color:#ff79c6>:=</span> ioutil.<span style=color:#50fa7b>ReadFile</span>(in)
+		<span style=color:#ff79c6>if</span> err <span style=color:#ff79c6>!=</span> <span style=color:#ff79c6>nil</span> {
+			<span style=color:#8be9fd;font-style:italic>panic</span>(err)
 		}
 
-		re = regexp.<span style=color:#c0f>MustCompile</span>(<span style=color:#c30>`(\d{4}-\d{2}-\d{2})-(.*)`</span>)
-		newFilename <span style=color:#555>:=</span> re.<span style=color:#c0f>ReplaceAllString</span>(filename, <span style=color:#c30>&#34;$2&#34;</span>)
+		re = regexp.<span style=color:#50fa7b>MustCompile</span>(<span style=color:#f1fa8c>`(\d{4}-\d{2}-\d{2})-(.*)`</span>)
+		newFilename <span style=color:#ff79c6>:=</span> re.<span style=color:#50fa7b>ReplaceAllString</span>(filename, <span style=color:#f1fa8c>&#34;$2&#34;</span>)
 
-		re = regexp.<span style=color:#c0f>MustCompile</span>(<span style=color:#c30>`---\n([\s\S]*)---\n([\s\S]*)`</span>)
-		matches <span style=color:#555>:=</span> re.<span style=color:#c0f>FindSubmatch</span>(data)
-		header <span style=color:#555>:=</span> <span style=color:#366>string</span>(matches[<span style=color:#f60>1</span>])
-		body <span style=color:#555>:=</span> <span style=color:#366>string</span>(matches[<span style=color:#f60>2</span>])
-		draftline <span style=color:#555>:=</span> <span style=color:#c30>&#34;draft: false\n&#34;</span>
+		re = regexp.<span style=color:#50fa7b>MustCompile</span>(<span style=color:#f1fa8c>`---\n([\s\S]*)---\n([\s\S]*)`</span>)
+		matches <span style=color:#ff79c6>:=</span> re.<span style=color:#50fa7b>FindSubmatch</span>(data)
+		header <span style=color:#ff79c6>:=</span> <span style=color:#8be9fd;font-style:italic>string</span>(matches[<span style=color:#bd93f9>1</span>])
+		body <span style=color:#ff79c6>:=</span> <span style=color:#8be9fd;font-style:italic>string</span>(matches[<span style=color:#bd93f9>2</span>])
+		draftline <span style=color:#ff79c6>:=</span> <span style=color:#f1fa8c>&#34;draft: false\n&#34;</span>
 
-		<span style=color:#09f;font-style:italic>// date
-</span><span style=color:#09f;font-style:italic></span>		re = regexp.<span style=color:#c0f>MustCompile</span>(<span style=color:#c30>`date: (\d{4}-\d{2}-\d{2}) (\d{2}:\d{2}).*\n`</span>)
-		header = re.<span style=color:#c0f>ReplaceAllString</span>(header, <span style=color:#c30>`date: ${1}T$2:00+08:00`</span><span style=color:#555>+</span><span style=color:#c30>&#34;\n&#34;</span>)
+		<span style=color:#6272a4>// date
+</span><span style=color:#6272a4></span>		re = regexp.<span style=color:#50fa7b>MustCompile</span>(<span style=color:#f1fa8c>`date: (\d{4}-\d{2}-\d{2}) (\d{2}:\d{2}).*\n`</span>)
+		header = re.<span style=color:#50fa7b>ReplaceAllString</span>(header, <span style=color:#f1fa8c>`date: ${1}T$2:00+08:00`</span><span style=color:#ff79c6>+</span><span style=color:#f1fa8c>&#34;\n&#34;</span>)
 
-		<span style=color:#09f;font-style:italic>// layout
-</span><span style=color:#09f;font-style:italic></span>		re = regexp.<span style=color:#c0f>MustCompile</span>(<span style=color:#c30>`layout: .*\n`</span>)
-		header = re.<span style=color:#c0f>ReplaceAllString</span>(header, <span style=color:#c30>&#34;&#34;</span>)
+		<span style=color:#6272a4>// layout
+</span><span style=color:#6272a4></span>		re = regexp.<span style=color:#50fa7b>MustCompile</span>(<span style=color:#f1fa8c>`layout: .*\n`</span>)
+		header = re.<span style=color:#50fa7b>ReplaceAllString</span>(header, <span style=color:#f1fa8c>&#34;&#34;</span>)
 
-		<span style=color:#09f;font-style:italic>// comments
-</span><span style=color:#09f;font-style:italic></span>		re = regexp.<span style=color:#c0f>MustCompile</span>(<span style=color:#c30>`comments: .*\n`</span>)
-		header = re.<span style=color:#c0f>ReplaceAllString</span>(header, <span style=color:#c30>&#34;&#34;</span>)
+		<span style=color:#6272a4>// comments
+</span><span style=color:#6272a4></span>		re = regexp.<span style=color:#50fa7b>MustCompile</span>(<span style=color:#f1fa8c>`comments: .*\n`</span>)
+		header = re.<span style=color:#50fa7b>ReplaceAllString</span>(header, <span style=color:#f1fa8c>&#34;&#34;</span>)
 
-		<span style=color:#09f;font-style:italic>// categories
-</span><span style=color:#09f;font-style:italic></span>		re = regexp.<span style=color:#c0f>MustCompile</span>(<span style=color:#c30>`categories: (.*)\n`</span>)
-		matches = re.<span style=color:#c0f>FindSubmatch</span>([]<span style=color:#366>byte</span>(header))
-		<span style=color:#069;font-weight:700>if</span> categories <span style=color:#555>:=</span> <span style=color:#366>string</span>(matches[<span style=color:#f60>1</span>]); categories <span style=color:#555>!=</span> <span style=color:#c30>&#34;&#34;</span> {
-			tags <span style=color:#555>:=</span> strings.<span style=color:#c0f>ReplaceAll</span>(categories, <span style=color:#c30>&#34; &#34;</span>, <span style=color:#c30>&#34;\&#34;, \&#34;&#34;</span>)
-			header = re.<span style=color:#c0f>ReplaceAllString</span>(header, fmt.<span style=color:#c0f>Sprintf</span>(<span style=color:#c30>&#34;tags: [\&#34;%s\&#34;] \n&#34;</span>, tags))
+		<span style=color:#6272a4>// categories
+</span><span style=color:#6272a4></span>		re = regexp.<span style=color:#50fa7b>MustCompile</span>(<span style=color:#f1fa8c>`categories: (.*)\n`</span>)
+		matches = re.<span style=color:#50fa7b>FindSubmatch</span>([]<span style=color:#8be9fd;font-style:italic>byte</span>(header))
+		<span style=color:#ff79c6>if</span> categories <span style=color:#ff79c6>:=</span> <span style=color:#8be9fd;font-style:italic>string</span>(matches[<span style=color:#bd93f9>1</span>]); categories <span style=color:#ff79c6>!=</span> <span style=color:#f1fa8c>&#34;&#34;</span> {
+			tags <span style=color:#ff79c6>:=</span> strings.<span style=color:#50fa7b>ReplaceAll</span>(categories, <span style=color:#f1fa8c>&#34; &#34;</span>, <span style=color:#f1fa8c>&#34;\&#34;, \&#34;&#34;</span>)
+			header = re.<span style=color:#50fa7b>ReplaceAllString</span>(header, fmt.<span style=color:#50fa7b>Sprintf</span>(<span style=color:#f1fa8c>&#34;tags: [\&#34;%s\&#34;] \n&#34;</span>, tags))
 		}
 
-		more <span style=color:#555>:=</span> <span style=color:#c30>&#34;toc: true\n&#34;</span>
-		header = fmt.<span style=color:#c0f>Sprintf</span>(<span style=color:#c30>&#34;%s%s%s&#34;</span>, header, draftline, more)
+		more <span style=color:#ff79c6>:=</span> <span style=color:#f1fa8c>&#34;toc: true\n&#34;</span>
+		header = fmt.<span style=color:#50fa7b>Sprintf</span>(<span style=color:#f1fa8c>&#34;%s%s%s&#34;</span>, header, draftline, more)
 
-		content <span style=color:#555>:=</span> fmt.<span style=color:#c0f>Sprintf</span>(<span style=color:#c30>&#34;---\n%s---\n%s&#34;</span>, header, body)
+		content <span style=color:#ff79c6>:=</span> fmt.<span style=color:#50fa7b>Sprintf</span>(<span style=color:#f1fa8c>&#34;---\n%s---\n%s&#34;</span>, header, body)
 
-		<span style=color:#09f;font-style:italic>// toc
-</span><span style=color:#09f;font-style:italic></span>		toc <span style=color:#555>:=</span> <span style=color:#c30>&#34;* list element with functor item\n{:toc}\n&#34;</span>
-		content = strings.<span style=color:#c0f>ReplaceAll</span>(content, toc, <span style=color:#c30>&#34;&#34;</span>)
+		<span style=color:#6272a4>// toc
+</span><span style=color:#6272a4></span>		toc <span style=color:#ff79c6>:=</span> <span style=color:#f1fa8c>&#34;* list element with functor item\n{:toc}\n&#34;</span>
+		content = strings.<span style=color:#50fa7b>ReplaceAll</span>(content, toc, <span style=color:#f1fa8c>&#34;&#34;</span>)
 
-		content = strings.<span style=color:#c0f>ReplaceAll</span>(content, <span style=color:#c30>&#34;{{ .Site.BaseURL }}&#34;</span>, <span style=color:#c30>&#34;{{ .Site.BaseURL }}&#34;</span>)
+		content = strings.<span style=color:#50fa7b>ReplaceAll</span>(content, <span style=color:#f1fa8c>&#34;{{ .Site.BaseURL }}&#34;</span>, <span style=color:#f1fa8c>&#34;{{ .Site.BaseURL }}&#34;</span>)
 
-		out <span style=color:#555>:=</span> dst <span style=color:#555>+</span> newFilename
-		fmt.<span style=color:#c0f>Printf</span>(<span style=color:#c30>&#34;%s -&gt; %s\n&#34;</span>, in, out)
+		out <span style=color:#ff79c6>:=</span> dst <span style=color:#ff79c6>+</span> newFilename
+		fmt.<span style=color:#50fa7b>Printf</span>(<span style=color:#f1fa8c>&#34;%s -&gt; %s\n&#34;</span>, in, out)
 
-		<span style=color:#069;font-weight:700>if</span> err <span style=color:#555>:=</span> ioutil.<span style=color:#c0f>WriteFile</span>(out, []<span style=color:#366>byte</span>(content), <span style=color:#f60>0644</span>); err <span style=color:#555>!=</span> <span style=color:#069;font-weight:700>nil</span> {
-			<span style=color:#366>panic</span>(err)
+		<span style=color:#ff79c6>if</span> err <span style=color:#ff79c6>:=</span> ioutil.<span style=color:#50fa7b>WriteFile</span>(out, []<span style=color:#8be9fd;font-style:italic>byte</span>(content), <span style=color:#bd93f9>0644</span>); err <span style=color:#ff79c6>!=</span> <span style=color:#ff79c6>nil</span> {
+			<span style=color:#8be9fd;font-style:italic>panic</span>(err)
 		}
 	}
 }
-</code></pre></td></tr></table></div></div><h3 id=使用方式>使用方式</h3><p>在 Octopress 博客根目录下新建一个 <code>main.go</code> 文件，然后把上面代码拷贝进去，然后执行下面代码完成迁移：</p><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-sh data-lang=sh>go run main.go -src octopress-blog/blog/_posts/ -dst hugo-blog/content/posts/
+</code></pre></td></tr></table></div></div><h3 id=使用方式>使用方式</h3><p>在 Octopress 博客根目录下新建一个 <code>main.go</code> 文件，然后把上面代码拷贝进去，然后执行下面代码完成迁移：</p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-sh data-lang=sh>go run main.go -src octopress-blog/blog/_posts/ -dst hugo-blog/content/posts/
 </code></pre></td></tr></table></div></div><h2 id=最后>最后</h2><p>这篇文章主要是分享 Octopress 迁移 Hugo 文章的经验，上面的迁移代码不复杂，有一点点 Golang 经验应该是看得懂的，你可以根据自己的需求修改代码。</p><h2 id=使用感受对比>使用感受对比</h2><h3 id=博客源码结构>博客源码结构</h3><p>Hugo 的目录结构要比 Octopress 简单的多。主题有一个专门的文件夹存放，这样使得博客源码显得干净整洁。</p><h3 id=ci-时间>CI 时间</h3><p>同样都配置了 CI ，使用 Travis-CI 自动生成静态文件，自动更新博客。但是身为 Golang 开发的 Hugo，明显要比基于 Ruby 开发的 Octopress 要快的多，之前要2分多钟，现在只要1分钟左右就可以了。</p><p><img src=https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/KPA3Wt.png alt=KPA3Wt></p><h3 id=功能>功能</h3><p>Octopress 我已经很久没完了，但是最近我自己写了一个 Hugo 主题，明显感觉到 Hugo 要比 Octopress 功能多。官方也有一个基础的 <a href=https://gohugo.io/templates/internal/>templates</a></p><h2 id=总结>总结</h2><p>这次迁移总的来说 Hugo 各方面基本上都完胜 Octopress，就着这次迁移博客的时候顺便做了以下几件事情：</p><ul><li>把所有 URL 都转为小写了（虽然以前的部分 URL 可能会收到影响）</li><li>放弃通过分类来管理文章，只使用标签来管理（虽然一篇文章分类也允许有多个）。</li><li>自己写了一个 <a href=https://github.com/forecho/hugo-theme-echo>Hugo 主题</a>，通过写这个主题实现了几个自己一直想要的功能：<ul><li>优化了 SEO，现在分享我的文章到 Twitter 上会显示卡片模式链接</li><li>文章详情会自动列出相关文章（Hugo 自带这个功能，太棒了）</li><li>通过给文章打特定的标签，实现热门文章列表</li></ul></li></ul><h2 id=参考链接>参考链接</h2><ul><li><a href=https://miguelmota.com/blog/migrating-from-jekyll-to-hugo/>Migrating from Jekyll to Hugo</a></li></ul><hr class="bg-gray-300 mt-8"><div class=pt-4><p class=text-center><button id=btn-donate class="px-5 py-2 inline-block rounded hover:bg-red-600 bg-red-400 text-white" for=reward>打赏</button></p><div class="flex-auto mt-2 mx-2 hidden" id=donate-image><div class="w-full px-2 my-2"><div class="bg-white dark:bg-black"><img class="h-48 shadow object-cover w-auto mx-auto" loading=lazy src=https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424153510.png alt=微信打赏><div class="text-center text-gray-500">微信打赏</div></div></div><div class="w-full px-2 my-2"><div class="bg-white dark:bg-black"><img class="h-48 shadow object-cover w-auto mx-auto" loading=lazy src=https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424153431.png alt=支付宝打赏><div class="text-center text-gray-500">支付宝打赏</div></div></div></div></div><div class="border-l-4 border-red-400 mx-auto text-gray-500"><div class=copyright><ul class=list-none><li><strong>原文作者：</strong>
 <a rel=author href=https://blog.forecho.com>forecho</a></li><li style=word-break:break-all><strong>原文链接：</strong>
 <a href=https://blog.forecho.com/octopress-migrate-to-hugo.html>https://blog.forecho.com/octopress-migrate-to-hugo.html</a></li><li><strong>版权声明：</strong>本作品采用

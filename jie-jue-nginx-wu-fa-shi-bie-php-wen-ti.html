@@ -4,9 +4,9 @@
 606 字</span>
 <span class="hidden xl:inline-block">|
 <i class="iconfont icon-clock-o"></i>
-2 分钟读完</span></p></div><div class="md:hidden dark:text-gray-100"><p class="text-base font-bold py-2 yg:pb-6 text-gray-700 dark:text-gray-300">文章目录</p><div class="sticky text-sm" style=top:6em id=menu-content><nav id=TableOfContents></nav></div></div><div class="post-content dark:text-white"><p>这两天很蛋疼的在Linux下面配置LNMP环境。参考了比较多的资料，但是发现一个问题，就是安装好环境之后，Nginx无法识别PHP文件，HTML文件是没有问题的。</p><p>还要解决配置多个虚拟目录的问题。</p><p>后来就各种Google找资料，按照<a href=http://www.markdream.com/server/nginx-config-null-host.shtml>这篇文章</a>的方法配置，还算比较成功。</p><p>这个可以成功的配置虚拟目录，但是还是无法识别PHP。</p><p>后来找到<a href=http://ilovers.sinaapp.com/drupal/node/10>这篇文章</a>，其中提到：Nginx 本身并没有PHP 解释器，所以，需要借助于 PHP 提供的 fastcgi，所以，需要运行 PHP 的 php-cgi 进程；</p><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-fallback data-lang=fallback>php-cgi -b 127.0.0.1:9000 # cmd 中运行 php-cgi，监听本地地址，9000端口；
-</code></pre></td></tr></table></div></div><p>我是比较头晕不知道自己是否安装了这个，但是发现自己Nginx配置目录下还是有fastcgi文件的。 **我的9000端口法无监听？**试了一下这个方法，无效。 其实这个地方监听是什么，你需要去看<code>/etc/php5/fpm/pool.d/www.conf</code>配置文件写的是什么，这个写成一致即可。 后来把：</p><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
+2 分钟读完</span></p></div><div class="md:hidden dark:text-gray-100"><p class="text-base font-bold py-2 yg:pb-6 text-gray-700 dark:text-gray-300">文章目录</p><div class="sticky text-sm" style=top:6em id=menu-content><nav id=TableOfContents></nav></div></div><div class="post-content dark:text-white"><p>这两天很蛋疼的在Linux下面配置LNMP环境。参考了比较多的资料，但是发现一个问题，就是安装好环境之后，Nginx无法识别PHP文件，HTML文件是没有问题的。</p><p>还要解决配置多个虚拟目录的问题。</p><p>后来就各种Google找资料，按照<a href=http://www.markdream.com/server/nginx-config-null-host.shtml>这篇文章</a>的方法配置，还算比较成功。</p><p>这个可以成功的配置虚拟目录，但是还是无法识别PHP。</p><p>后来找到<a href=http://ilovers.sinaapp.com/drupal/node/10>这篇文章</a>，其中提到：Nginx 本身并没有PHP 解释器，所以，需要借助于 PHP 提供的 fastcgi，所以，需要运行 PHP 的 php-cgi 进程；</p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-fallback data-lang=fallback>php-cgi -b 127.0.0.1:9000 # cmd 中运行 php-cgi，监听本地地址，9000端口；
+</code></pre></td></tr></table></div></div><p>我是比较头晕不知道自己是否安装了这个，但是发现自己Nginx配置目录下还是有fastcgi文件的。 **我的9000端口法无监听？**试了一下这个方法，无效。 其实这个地方监听是什么，你需要去看<code>/etc/php5/fpm/pool.d/www.conf</code>配置文件写的是什么，这个写成一致即可。 后来把：</p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 2
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 3
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 4
@@ -19,7 +19,7 @@
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">11
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">12
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">13
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-fallback data-lang=fallback>location ~ \.php($|/) {
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-fallback data-lang=fallback>location ~ \.php($|/) {
     set  $script     $uri;
     set  $path_info  &#34;&#34;;
     if ($uri ~ &#34;^(.+\.php)(/.+)&#34;) {
@@ -32,14 +32,14 @@
     fastcgi_param  SCRIPT_FILENAME          /usr/local/vhost/demo$script;
     fastcgi_param  SCRIPT_NAME              $script;
 }
-</code></pre></td></tr></table></div></div><p>改成为：</p><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
+</code></pre></td></tr></table></div></div><p>改成为：</p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">2
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">3
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">4
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">5
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">6
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">7
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-fallback data-lang=fallback>location ~ \.php$ {
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-fallback data-lang=fallback>location ~ \.php$ {
     root   /usr/local/vhost/demo;
     fastcgi_pass unix:/var/run/php5-fpm.sock;
     fastcgi_index  index.php;

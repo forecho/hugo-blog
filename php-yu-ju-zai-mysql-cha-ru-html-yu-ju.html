@@ -4,7 +4,7 @@
 515 字</span>
 <span class="hidden xl:inline-block">|
 <i class="iconfont icon-clock-o"></i>
-2 分钟读完</span></p></div><div class="md:hidden dark:text-gray-100"><p class="text-base font-bold py-2 yg:pb-6 text-gray-700 dark:text-gray-300">文章目录</p><div class="sticky text-sm" style=top:6em id=menu-content><nav id=TableOfContents></nav></div></div><div class="post-content dark:text-white"><p>我们需要做一个后台能手动插入 百度地图的界面。就是<a href=http://dev.baidu.com/wiki/static/map/API/tool/creatMap/>http://dev.baidu.com/wiki/static/map/API/tool/creatMap/</a></p><p>问题是我们要做一个给用户使用的，能自行添加的功能。 于是我们用iframe方法把百度这个也没调用过来了，现在关键是要把代码写入MySQL数据库了，我发现怎么写也写入不了。 于是在网上查了一些资料，自己尝试。发现需要转义字符串。 <strong>与PHP字符串转义相关的配置和函数如下：</strong></p><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
+2 分钟读完</span></p></div><div class="md:hidden dark:text-gray-100"><p class="text-base font-bold py-2 yg:pb-6 text-gray-700 dark:text-gray-300">文章目录</p><div class="sticky text-sm" style=top:6em id=menu-content><nav id=TableOfContents></nav></div></div><div class="post-content dark:text-white"><p>我们需要做一个后台能手动插入 百度地图的界面。就是<a href=http://dev.baidu.com/wiki/static/map/API/tool/creatMap/>http://dev.baidu.com/wiki/static/map/API/tool/creatMap/</a></p><p>问题是我们要做一个给用户使用的，能自行添加的功能。 于是我们用iframe方法把百度这个也没调用过来了，现在关键是要把代码写入MySQL数据库了，我发现怎么写也写入不了。 于是在网上查了一些资料，自己尝试。发现需要转义字符串。 <strong>与PHP字符串转义相关的配置和函数如下：</strong></p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 2
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 3
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 4
@@ -17,19 +17,19 @@
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">11
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">12
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">13
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-php data-lang=php><span style=color:#f60>1.</span>magic_quotes_runtime
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-php data-lang=php><span style=color:#bd93f9>1.</span>magic_quotes_runtime
 
-<span style=color:#f60>2.</span>magic_quotes_gpc
+<span style=color:#bd93f9>2.</span>magic_quotes_gpc
 
-<span style=color:#f60>3.</span>addslashes()和stripslashes()
+<span style=color:#bd93f9>3.</span>addslashes()和stripslashes()
 
-<span style=color:#f60>4.</span>mysql_escape_string()
+<span style=color:#bd93f9>4.</span>mysql_escape_string()
 
-<span style=color:#f60>5.</span>addcslashes()和stripcslashes()
+<span style=color:#bd93f9>5.</span>addcslashes()和stripcslashes()
 
-<span style=color:#f60>6.</span>htmlentities() 和html_entity_decode()
+<span style=color:#bd93f9>6.</span>htmlentities() 和html_entity_decode()
 
-<span style=color:#f60>7.</span>htmlspecialchars()和htmlspecialchars_decode()
+<span style=color:#bd93f9>7.</span>htmlspecialchars()和htmlspecialchars_decode()
 </code></pre></td></tr></table></div></div><p>我用的是第3个，OK成功了。</p><p>其中，我们犯了一个错误，我们用JQ传值，把百度地图获得的代码放在input里面，结果input所获得的值是只能为一行，而我们获得的值，其中有用“//”注释，结果JS代码全给注释掉了。而且有些JS代码必需要换行，不然好报错。</p><p>那么发现问题的根本原因，剩下的就好解决。</p><p>花了差不多一天的时间，获得经验。</p><hr class="bg-gray-300 mt-8"><div class=pt-4><p class=text-center><button id=btn-donate class="px-5 py-2 inline-block rounded hover:bg-red-600 bg-red-400 text-white" for=reward>打赏</button></p><div class="flex-auto mt-2 mx-2 hidden" id=donate-image><div class="w-full px-2 my-2"><div class="bg-white dark:bg-black"><img class="h-48 shadow object-cover w-auto mx-auto" loading=lazy src=https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424153510.png alt=微信打赏><div class="text-center text-gray-500">微信打赏</div></div></div><div class="w-full px-2 my-2"><div class="bg-white dark:bg-black"><img class="h-48 shadow object-cover w-auto mx-auto" loading=lazy src=https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424153431.png alt=支付宝打赏><div class="text-center text-gray-500">支付宝打赏</div></div></div></div></div><div class="border-l-4 border-red-400 mx-auto text-gray-500"><div class=copyright><ul class=list-none><li><strong>原文作者：</strong>
 <a rel=author href=https://blog.forecho.com>forecho</a></li><li style=word-break:break-all><strong>原文链接：</strong>
 <a href=https://blog.forecho.com/php-yu-ju-zai-mysql-cha-ru-html-yu-ju.html>https://blog.forecho.com/php-yu-ju-zai-mysql-cha-ru-html-yu-ju.html</a></li><li><strong>版权声明：</strong>本作品采用

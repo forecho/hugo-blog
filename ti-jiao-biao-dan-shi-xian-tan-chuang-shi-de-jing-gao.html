@@ -4,7 +4,7 @@
 428 字</span>
 <span class="hidden xl:inline-block">|
 <i class="iconfont icon-clock-o"></i>
-1 分钟读完</span></p></div><div class="md:hidden dark:text-gray-100"><p class="text-base font-bold py-2 yg:pb-6 text-gray-700 dark:text-gray-300">文章目录</p><div class="sticky text-sm" style=top:6em id=menu-content><nav id=TableOfContents></nav></div></div><div class="post-content dark:text-white"><p>适合使用编辑器的时候的验证。JS代码如下(第二个为UEditor的特殊判断用法)：</p><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
+1 分钟读完</span></p></div><div class="md:hidden dark:text-gray-100"><p class="text-base font-bold py-2 yg:pb-6 text-gray-700 dark:text-gray-300">文章目录</p><div class="sticky text-sm" style=top:6em id=menu-content><nav id=TableOfContents></nav></div></div><div class="post-content dark:text-white"><p>适合使用编辑器的时候的验证。JS代码如下(第二个为UEditor的特殊判断用法)：</p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 2
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 3
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 4
@@ -23,26 +23,26 @@
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">17
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">18
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">19
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-javascript data-lang=javascript><span style=color:#555>&lt;</span>script language<span style=color:#555>=</span><span style=color:#c30>&#34;javascript&#34;</span><span style=color:#555>&gt;</span>
-<span style=color:#069;font-weight:700>function</span> chkinput(form)
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-javascript data-lang=javascript><span style=color:#ff79c6>&lt;</span>script language<span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;javascript&#34;</span><span style=color:#ff79c6>&gt;</span>
+<span style=color:#8be9fd;font-style:italic>function</span> chkinput(form)
 {
-    <span style=color:#069;font-weight:700>if</span> (form.title.value<span style=color:#555>==</span><span style=color:#c30>&#34;&#34;</span>) {
-        alert(<span style=color:#c30>&#34;请输入新闻标题!&#34;</span>);
+    <span style=color:#ff79c6>if</span> (form.title.value<span style=color:#ff79c6>==</span><span style=color:#f1fa8c>&#34;&#34;</span>) {
+        alert(<span style=color:#f1fa8c>&#34;请输入新闻标题!&#34;</span>);
         form.title.select();
-        <span style=color:#069;font-weight:700>return</span>(<span style=color:#069;font-weight:700>false</span>);
+        <span style=color:#ff79c6>return</span>(<span style=color:#ff79c6>false</span>);
     }
 
-    <span style=color:#069;font-weight:700>var</span> content<span style=color:#555>=</span>editor.hasContents()
+    <span style=color:#8be9fd;font-style:italic>var</span> content<span style=color:#ff79c6>=</span>editor.hasContents()
 
-    <span style=color:#069;font-weight:700>if</span> (<span style=color:#555>!</span>content) {
-        alert(<span style=color:#c30>&#34;你的输入为空&#34;</span>);
-        <span style=color:#069;font-weight:700>return</span>(<span style=color:#069;font-weight:700>false</span>);
+    <span style=color:#ff79c6>if</span> (<span style=color:#ff79c6>!</span>content) {
+        alert(<span style=color:#f1fa8c>&#34;你的输入为空&#34;</span>);
+        <span style=color:#ff79c6>return</span>(<span style=color:#ff79c6>false</span>);
     }
 
-    <span style=color:#069;font-weight:700>return</span>(<span style=color:#069;font-weight:700>true</span>);
+    <span style=color:#ff79c6>return</span>(<span style=color:#ff79c6>true</span>);
 }
-<span style=color:#555>&lt;</span><span style=color:#a00;background-color:#faa>/script&gt;</span>
-</code></pre></td></tr></table></div></div><p>html代码如下：</p><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
+<span style=color:#ff79c6>&lt;</span>/script&gt;
+</code></pre></td></tr></table></div></div><p>html代码如下：</p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 2
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 3
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 4
@@ -70,34 +70,34 @@
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">26
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">27
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">28
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-html data-lang=html>&lt;<span style=color:#309;font-weight:700>form</span> <span style=color:#309>action</span><span style=color:#555>=</span><span style=color:#c30>&#34;&lt;?php echo site_url(&#39;chome/news_ok&#39;)?&gt;&#34;</span> <span style=color:#309>method</span><span style=color:#555>=</span><span style=color:#c30>&#34;post&#34;</span> <span style=color:#309>onSubmit</span><span style=color:#555>=</span><span style=color:#c30>&#34;return chkinput(this)&#34;</span>&gt;
-    &lt;<span style=color:#309;font-weight:700>dl</span>&gt;
-        &lt;<span style=color:#309;font-weight:700>dt</span>&gt;标题：&lt;/<span style=color:#309;font-weight:700>dt</span>&gt;
-        &lt;<span style=color:#309;font-weight:700>dd</span>&gt;&lt;<span style=color:#309;font-weight:700>input</span> <span style=color:#309>type</span><span style=color:#555>=</span><span style=color:#c30>&#34;text&#34;</span> <span style=color:#309>name</span><span style=color:#555>=</span><span style=color:#c30>&#34;title&#34;</span> /&gt;&lt;/<span style=color:#309;font-weight:700>dd</span>&gt;
-        &lt;<span style=color:#309;font-weight:700>dt</span>&gt;分类：&lt;/<span style=color:#309;font-weight:700>dt</span>&gt;
-        &lt;<span style=color:#309;font-weight:700>dd</span>&gt;
-            &lt;<span style=color:#309;font-weight:700>select</span> <span style=color:#309>name</span><span style=color:#555>=</span><span style=color:#c30>&#34;navid&#34;</span>&gt;
-            <span style=color:#099>&lt;?php foreach ($nav as $row){
-</span><span style=color:#099>                if ($row[&#39;nav_id&#39;]!=1 &amp;&amp; $row[&#39;nav_type&#39;]==$nav_type) {
-</span><span style=color:#099>                    echo &#39;&lt;option value=&#39;.$row[&#39;nav_name&#39;].&#39;&gt;&#39;.$row[&#39;nav_name&#39;].&#39;&lt;/option&gt;&#39;;
-</span><span style=color:#099>                };
-</span><span style=color:#099>            }?&gt;</span>
-            &lt;/<span style=color:#309;font-weight:700>select</span>&gt;
-        &lt;/<span style=color:#309;font-weight:700>dd</span>&gt;
-        &lt;<span style=color:#309;font-weight:700>dt</span>&gt;时间：&lt;/<span style=color:#309;font-weight:700>dt</span>&gt;
-        &lt;<span style=color:#309;font-weight:700>dd</span>&gt;&lt;<span style=color:#309;font-weight:700>input</span> <span style=color:#309>id</span><span style=color:#555>=</span><span style=color:#c30>&#34;d11&#34;</span> <span style=color:#309>type</span><span style=color:#555>=</span><span style=color:#c30>&#34;text&#34;</span> <span style=color:#309>onClick</span><span style=color:#555>=</span><span style=color:#c30>&#34;WdatePicker()&#34;</span> <span style=color:#309>name</span><span style=color:#555>=</span><span style=color:#c30>&#34;addtime&#34;</span> <span style=color:#309>value</span><span style=color:#555>=</span><span style=color:#c30>&#34;&lt;?php echo date(&#34;</span><span style=color:#309>Y-m-d</span><span style=color:#a00;background-color:#faa>&#34;);?</span>&gt;&#34; autocomplete=&#34;off&#34;/&gt;&lt;/<span style=color:#309;font-weight:700>dd</span>&gt;
-        &lt;<span style=color:#309;font-weight:700>dt</span>&gt;&lt;/<span style=color:#309;font-weight:700>dt</span>&gt;
-        &lt;<span style=color:#309;font-weight:700>dd</span>&gt;
-            &lt;<span style=color:#309;font-weight:700>script</span> <span style=color:#309>type</span><span style=color:#555>=</span><span style=color:#c30>&#34;text/plain&#34;</span> <span style=color:#309>id</span><span style=color:#555>=</span><span style=color:#c30>&#34;myEditor&#34;</span>&gt;&lt;/<span style=color:#309;font-weight:700>script</span>&gt;
-            &lt;<span style=color:#309;font-weight:700>script</span> <span style=color:#309>type</span><span style=color:#555>=</span><span style=color:#c30>&#34;text/javascript&#34;</span>&gt;
-                <span style=color:#069;font-weight:700>var</span> editor <span style=color:#555>=</span> <span style=color:#069;font-weight:700>new</span> baidu.editor.ui.Editor();
-                editor.render(<span style=color:#c30>&#34;myEditor&#34;</span>);
-            &lt;/<span style=color:#309;font-weight:700>script</span>&gt;
-        &lt;/<span style=color:#309;font-weight:700>dd</span>&gt;
-        &lt;<span style=color:#309;font-weight:700>dt</span>&gt;&lt;/<span style=color:#309;font-weight:700>dt</span>&gt;
-        &lt;<span style=color:#309;font-weight:700>dd</span> <span style=color:#309>class</span><span style=color:#555>=</span><span style=color:#c30>&#34;submit&#34;</span>&gt;&lt;<span style=color:#309;font-weight:700>input</span> <span style=color:#309>type</span><span style=color:#555>=</span><span style=color:#c30>&#34;submit&#34;</span> <span style=color:#309>name</span><span style=color:#555>=</span><span style=color:#c30>&#34;submit&#34;</span> <span style=color:#309>value</span><span style=color:#555>=</span><span style=color:#c30>&#34;&amp;nbsp;&#34;</span> /&gt;&lt;/<span style=color:#309;font-weight:700>dd</span>&gt;
-    &lt;/<span style=color:#309;font-weight:700>dl</span>&gt;
-&lt;/<span style=color:#309;font-weight:700>form</span>&gt;
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-html data-lang=html>&lt;<span style=color:#ff79c6>form</span> <span style=color:#50fa7b>action</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;&lt;?php echo site_url(&#39;chome/news_ok&#39;)?&gt;&#34;</span> <span style=color:#50fa7b>method</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;post&#34;</span> <span style=color:#50fa7b>onSubmit</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;return chkinput(this)&#34;</span>&gt;
+    &lt;<span style=color:#ff79c6>dl</span>&gt;
+        &lt;<span style=color:#ff79c6>dt</span>&gt;标题：&lt;/<span style=color:#ff79c6>dt</span>&gt;
+        &lt;<span style=color:#ff79c6>dd</span>&gt;&lt;<span style=color:#ff79c6>input</span> <span style=color:#50fa7b>type</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;text&#34;</span> <span style=color:#50fa7b>name</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;title&#34;</span> /&gt;&lt;/<span style=color:#ff79c6>dd</span>&gt;
+        &lt;<span style=color:#ff79c6>dt</span>&gt;分类：&lt;/<span style=color:#ff79c6>dt</span>&gt;
+        &lt;<span style=color:#ff79c6>dd</span>&gt;
+            &lt;<span style=color:#ff79c6>select</span> <span style=color:#50fa7b>name</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;navid&#34;</span>&gt;
+            <span style=color:#ff79c6>&lt;?php foreach ($nav as $row){
+</span><span style=color:#ff79c6>                if ($row[&#39;nav_id&#39;]!=1 &amp;&amp; $row[&#39;nav_type&#39;]==$nav_type) {
+</span><span style=color:#ff79c6>                    echo &#39;&lt;option value=&#39;.$row[&#39;nav_name&#39;].&#39;&gt;&#39;.$row[&#39;nav_name&#39;].&#39;&lt;/option&gt;&#39;;
+</span><span style=color:#ff79c6>                };
+</span><span style=color:#ff79c6>            }?&gt;</span>
+            &lt;/<span style=color:#ff79c6>select</span>&gt;
+        &lt;/<span style=color:#ff79c6>dd</span>&gt;
+        &lt;<span style=color:#ff79c6>dt</span>&gt;时间：&lt;/<span style=color:#ff79c6>dt</span>&gt;
+        &lt;<span style=color:#ff79c6>dd</span>&gt;&lt;<span style=color:#ff79c6>input</span> <span style=color:#50fa7b>id</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;d11&#34;</span> <span style=color:#50fa7b>type</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;text&#34;</span> <span style=color:#50fa7b>onClick</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;WdatePicker()&#34;</span> <span style=color:#50fa7b>name</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;addtime&#34;</span> <span style=color:#50fa7b>value</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;&lt;?php echo date(&#34;</span><span style=color:#50fa7b>Y-m-d</span>&#34;);?&gt;&#34; autocomplete=&#34;off&#34;/&gt;&lt;/<span style=color:#ff79c6>dd</span>&gt;
+        &lt;<span style=color:#ff79c6>dt</span>&gt;&lt;/<span style=color:#ff79c6>dt</span>&gt;
+        &lt;<span style=color:#ff79c6>dd</span>&gt;
+            &lt;<span style=color:#ff79c6>script</span> <span style=color:#50fa7b>type</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;text/plain&#34;</span> <span style=color:#50fa7b>id</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;myEditor&#34;</span>&gt;&lt;/<span style=color:#ff79c6>script</span>&gt;
+            &lt;<span style=color:#ff79c6>script</span> <span style=color:#50fa7b>type</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;text/javascript&#34;</span>&gt;
+                <span style=color:#8be9fd;font-style:italic>var</span> editor <span style=color:#ff79c6>=</span> <span style=color:#ff79c6>new</span> baidu.editor.ui.Editor();
+                editor.render(<span style=color:#f1fa8c>&#34;myEditor&#34;</span>);
+            &lt;/<span style=color:#ff79c6>script</span>&gt;
+        &lt;/<span style=color:#ff79c6>dd</span>&gt;
+        &lt;<span style=color:#ff79c6>dt</span>&gt;&lt;/<span style=color:#ff79c6>dt</span>&gt;
+        &lt;<span style=color:#ff79c6>dd</span> <span style=color:#50fa7b>class</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;submit&#34;</span>&gt;&lt;<span style=color:#ff79c6>input</span> <span style=color:#50fa7b>type</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;submit&#34;</span> <span style=color:#50fa7b>name</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;submit&#34;</span> <span style=color:#50fa7b>value</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;&amp;nbsp;&#34;</span> /&gt;&lt;/<span style=color:#ff79c6>dd</span>&gt;
+    &lt;/<span style=color:#ff79c6>dl</span>&gt;
+&lt;/<span style=color:#ff79c6>form</span>&gt;
 </code></pre></td></tr></table></div></div><p>这个表单里面有两个效果，一个是<a href=http://www.my97.net/dp/demo/index.htm>My97日期控件</a>JS，还有一个<a href=http://ueditor.baidu.com/teach.html>百度Ueditor编辑器</a>。 使用百度编辑器的时候注意editor_config.js 配置文件里面的URL路径。 注：autocomplete=&ldquo;off"是关闭记忆功能。</p><hr class="bg-gray-300 mt-8"><div class=pt-4><p class=text-center><button id=btn-donate class="px-5 py-2 inline-block rounded hover:bg-red-600 bg-red-400 text-white" for=reward>打赏</button></p><div class="flex-auto mt-2 mx-2 hidden" id=donate-image><div class="w-full px-2 my-2"><div class="bg-white dark:bg-black"><img class="h-48 shadow object-cover w-auto mx-auto" loading=lazy src=https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424153510.png alt=微信打赏><div class="text-center text-gray-500">微信打赏</div></div></div><div class="w-full px-2 my-2"><div class="bg-white dark:bg-black"><img class="h-48 shadow object-cover w-auto mx-auto" loading=lazy src=https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424153431.png alt=支付宝打赏><div class="text-center text-gray-500">支付宝打赏</div></div></div></div></div><div class="border-l-4 border-red-400 mx-auto text-gray-500"><div class=copyright><ul class=list-none><li><strong>原文作者：</strong>
 <a rel=author href=https://blog.forecho.com>forecho</a></li><li style=word-break:break-all><strong>原文链接：</strong>
 <a href=https://blog.forecho.com/ti-jiao-biao-dan-shi-xian-tan-chuang-shi-de-jing-gao.html>https://blog.forecho.com/ti-jiao-biao-dan-shi-xian-tan-chuang-shi-de-jing-gao.html</a></li><li><strong>版权声明：</strong>本作品采用

@@ -13,45 +13,45 @@
 1438 字</span>
 <span class="hidden xl:inline-block">|
 <i class="iconfont icon-clock-o"></i>
-3 分钟读完</span></p></div><div class="md:hidden dark:text-gray-100"><p class="text-base font-bold py-2 yg:pb-6 text-gray-700 dark:text-gray-300">文章目录</p><div class="sticky text-sm" style=top:6em id=menu-content><nav id=TableOfContents><ul><li><a href=#引言>引言</a></li><li><a href=#准备环境>准备环境</a><ul><li><a href=#安装-docker-和-docker-compose>安装 Docker 和 Docker compose</a></li><li><a href=#换中国源>换中国源</a></li></ul></li><li><a href=#安装-graylog>安装 Graylog</a></li><li><a href=#测试>测试</a></li><li><a href=#在-yii2-中使用>在 Yii2 中使用</a><ul><li><a href=#安装扩展包>安装扩展包：</a></li><li><a href=#配置>配置</a></li><li><a href=#使用>使用</a></li></ul></li><li><a href=#与-efk-对比>与 EFK 对比</a></li><li><a href=#最后>最后</a></li></ul></nav></div></div><div class="post-content dark:text-white"><h2 id=引言>引言</h2><p>随着项目越来越复杂，Bug 越来越难定位，一个专门的日志收集工具必不可少。于是花了两天时间玩了一下 Graylog，这篇文章就分享一下踩过的坑。</p><h2 id=准备环境>准备环境</h2><p>自从用过 Docker 之后，我现在搭建环境第一步就去找 Docker 安装方式，其实他们官方文档写的非常清楚，但是我还是踩了一些坑，主要是网络问题，太慢，必须要换中国源。</p><h3 id=安装-docker-和-docker-compose>安装 Docker 和 Docker compose</h3><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
+3 分钟读完</span></p></div><div class="md:hidden dark:text-gray-100"><p class="text-base font-bold py-2 yg:pb-6 text-gray-700 dark:text-gray-300">文章目录</p><div class="sticky text-sm" style=top:6em id=menu-content><nav id=TableOfContents><ul><li><a href=#引言>引言</a></li><li><a href=#准备环境>准备环境</a><ul><li><a href=#安装-docker-和-docker-compose>安装 Docker 和 Docker compose</a></li><li><a href=#换中国源>换中国源</a></li></ul></li><li><a href=#安装-graylog>安装 Graylog</a></li><li><a href=#测试>测试</a></li><li><a href=#在-yii2-中使用>在 Yii2 中使用</a><ul><li><a href=#安装扩展包>安装扩展包：</a></li><li><a href=#配置>配置</a></li><li><a href=#使用>使用</a></li></ul></li><li><a href=#与-efk-对比>与 EFK 对比</a></li><li><a href=#最后>最后</a></li></ul></nav></div></div><div class="post-content dark:text-white"><h2 id=引言>引言</h2><p>随着项目越来越复杂，Bug 越来越难定位，一个专门的日志收集工具必不可少。于是花了两天时间玩了一下 Graylog，这篇文章就分享一下踩过的坑。</p><h2 id=准备环境>准备环境</h2><p>自从用过 Docker 之后，我现在搭建环境第一步就去找 Docker 安装方式，其实他们官方文档写的非常清楚，但是我还是踩了一些坑，主要是网络问题，太慢，必须要换中国源。</p><h3 id=安装-docker-和-docker-compose>安装 Docker 和 Docker compose</h3><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">2
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">3
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">4
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">5
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-fallback data-lang=fallback>curl -sSL https://get.daocloud.io/docker | sh
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-fallback data-lang=fallback>curl -sSL https://get.daocloud.io/docker | sh
 
 curl -L https://get.daocloud.io/docker/compose/releases/download/1.25.4/docker-compose-`uname -s`-`uname -m` &gt; /usr/local/bin/docker-compose
 chmod +x /usr/local/bin/docker-compose
 docker-compose --version
-</code></pre></td></tr></table></div></div><h3 id=换中国源>换中国源</h3><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-fallback data-lang=fallback>vim /etc/docker/daemon.json
-</code></pre></td></tr></table></div></div><p>添加代码：</p><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
+</code></pre></td></tr></table></div></div><h3 id=换中国源>换中国源</h3><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-fallback data-lang=fallback>vim /etc/docker/daemon.json
+</code></pre></td></tr></table></div></div><p>添加代码：</p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">2
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">3
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">4
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">5
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">6
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-json data-lang=json>{
-    <span style=color:#309;font-weight:700>&#34;registry-mirrors&#34;</span>: [
-        <span style=color:#c30>&#34;https://dockerhub.azk8s.cn&#34;</span>,
-        <span style=color:#c30>&#34;https://docker.mirrors.ustc.edu.cn&#34;</span>
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-json data-lang=json>{
+    <span style=color:#ff79c6>&#34;registry-mirrors&#34;</span>: [
+        <span style=color:#f1fa8c>&#34;https://dockerhub.azk8s.cn&#34;</span>,
+        <span style=color:#f1fa8c>&#34;https://docker.mirrors.ustc.edu.cn&#34;</span>
     ]
 }
-</code></pre></td></tr></table></div></div><p>重启服务（重启才生效）</p><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-fallback data-lang=fallback>sudo systemctl daemon-reload &amp;&amp; sudo systemctl restart docker
-</code></pre></td></tr></table></div></div><h2 id=安装-graylog>安装 Graylog</h2><p>下载代码：</p><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
+</code></pre></td></tr></table></div></div><p>重启服务（重启才生效）</p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-fallback data-lang=fallback>sudo systemctl daemon-reload &amp;&amp; sudo systemctl restart docker
+</code></pre></td></tr></table></div></div><h2 id=安装-graylog>安装 Graylog</h2><p>下载代码：</p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">2
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-fallback data-lang=fallback>git clone https://github.com/forecho/graylog-docker.git
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-fallback data-lang=fallback>git clone https://github.com/forecho/graylog-docker.git
 cd graylog-docker
-</code></pre></td></tr></table></div></div><p>然后修改 <code>docker-compose.yml</code> 里的环境变量：</p><ul><li><strong><code>GRAYLOG_PASSWORD_SECRET</code></strong>: 密码密钥，至少16位数</li><li><strong><code>GRAYLOG_ROOT_PASSWORD_SHA2</code></strong>: 加密过的密码，这里默认是 <code>admin</code>，如果要修改则执行下面命令，把生成的结果复制到这里。</li></ul><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-shell data-lang=shell><span style=color:#366>echo</span> -n <span style=color:#c30>&#34;Enter Password: &#34;</span> <span style=color:#555>&amp;&amp;</span> head -1 &lt;/dev/stdin | tr -d <span style=color:#c30>&#39;\n&#39;</span> | sha256sum | cut -d<span style=color:#c30>&#34; &#34;</span> -f1
-</code></pre></td></tr></table></div></div><ul><li><strong><code>GRAYLOG_HTTP_EXTERNAL_URI</code></strong>: 本地部署就不需要修改，如果是服务器部署，要改成服务器 IP。</li></ul><p>然后执行下面命令开始安装：</p><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-shell data-lang=shell>sudo docker-compose up -d
-</code></pre></td></tr></table></div></div><p>浏览器使用输入 <code>GRAYLOG_HTTP_EXTERNAL_URI</code> 环境变量的值就可以访问了，本地搭建默认是 <a href=http://127.0.0.1:9000/>http://127.0.0.1:9000/</a></p><h2 id=测试>测试</h2><p>本地测试写入日志命令，根据需要修改最后的 IP 地址：</p><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-shell data-lang=shell><span style=color:#366>echo</span> <span style=color:#c30>&#39;{&#34;version&#34;: &#34;1.1&#34;,&#34;host&#34;:&#34;example.org&#34;,&#34;short_message&#34;:&#34;A short message that helps you identify what is going on&#34;,&#34;full_message&#34;:&#34;Backtrace here\n\nmore stuff&#34;,&#34;level&#34;:1,&#34;_user_id&#34;:9001,&#34;_some_info&#34;:&#34;foo&#34;,&#34;_some_env_var&#34;:&#34;bar&#34;}&#39;</span> | gzip | nc -u -w <span style=color:#f60>1</span> 127.0.0.1 <span style=color:#f60>12201</span>
-</code></pre></td></tr></table></div></div><p>详情参考 <a href=https://github.com/forecho/graylog-docker>forecho/graylog-docker</a></p><h2 id=在-yii2-中使用>在 Yii2 中使用</h2><h3 id=安装扩展包>安装扩展包：</h3><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-shell data-lang=shell>composer require --prefer-dist yiier/yii2-graylog-target <span style=color:#c30>&#34;*&#34;</span>
-</code></pre></td></tr></table></div></div><h3 id=配置>配置</h3><p>然后修改配置文件：</p><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
+</code></pre></td></tr></table></div></div><p>然后修改 <code>docker-compose.yml</code> 里的环境变量：</p><ul><li><strong><code>GRAYLOG_PASSWORD_SECRET</code></strong>: 密码密钥，至少16位数</li><li><strong><code>GRAYLOG_ROOT_PASSWORD_SHA2</code></strong>: 加密过的密码，这里默认是 <code>admin</code>，如果要修改则执行下面命令，把生成的结果复制到这里。</li></ul><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-shell data-lang=shell><span style=color:#8be9fd;font-style:italic>echo</span> -n <span style=color:#f1fa8c>&#34;Enter Password: &#34;</span> <span style=color:#ff79c6>&amp;&amp;</span> head -1 &lt;/dev/stdin | tr -d <span style=color:#f1fa8c>&#39;\n&#39;</span> | sha256sum | cut -d<span style=color:#f1fa8c>&#34; &#34;</span> -f1
+</code></pre></td></tr></table></div></div><ul><li><strong><code>GRAYLOG_HTTP_EXTERNAL_URI</code></strong>: 本地部署就不需要修改，如果是服务器部署，要改成服务器 IP。</li></ul><p>然后执行下面命令开始安装：</p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-shell data-lang=shell>sudo docker-compose up -d
+</code></pre></td></tr></table></div></div><p>浏览器使用输入 <code>GRAYLOG_HTTP_EXTERNAL_URI</code> 环境变量的值就可以访问了，本地搭建默认是 <a href=http://127.0.0.1:9000/>http://127.0.0.1:9000/</a></p><h2 id=测试>测试</h2><p>本地测试写入日志命令，根据需要修改最后的 IP 地址：</p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-shell data-lang=shell><span style=color:#8be9fd;font-style:italic>echo</span> <span style=color:#f1fa8c>&#39;{&#34;version&#34;: &#34;1.1&#34;,&#34;host&#34;:&#34;example.org&#34;,&#34;short_message&#34;:&#34;A short message that helps you identify what is going on&#34;,&#34;full_message&#34;:&#34;Backtrace here\n\nmore stuff&#34;,&#34;level&#34;:1,&#34;_user_id&#34;:9001,&#34;_some_info&#34;:&#34;foo&#34;,&#34;_some_env_var&#34;:&#34;bar&#34;}&#39;</span> | gzip | nc -u -w <span style=color:#bd93f9>1</span> 127.0.0.1 <span style=color:#bd93f9>12201</span>
+</code></pre></td></tr></table></div></div><p>详情参考 <a href=https://github.com/forecho/graylog-docker>forecho/graylog-docker</a></p><h2 id=在-yii2-中使用>在 Yii2 中使用</h2><h3 id=安装扩展包>安装扩展包：</h3><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-shell data-lang=shell>composer require --prefer-dist yiier/yii2-graylog-target <span style=color:#f1fa8c>&#34;*&#34;</span>
+</code></pre></td></tr></table></div></div><h3 id=配置>配置</h3><p>然后修改配置文件：</p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 2
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 3
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 4
@@ -78,34 +78,34 @@ cd graylog-docker
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">25
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">26
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">27
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-php data-lang=php><span style=color:#069;font-weight:700>return</span> [
-    <span style=color:#c30>&#39;components&#39;</span> <span style=color:#555>=&gt;</span> [
-        <span style=color:#c30>&#39;log&#39;</span> <span style=color:#555>=&gt;</span> [
-            <span style=color:#c30>&#39;targets&#39;</span> <span style=color:#555>=&gt;</span> [
-                <span style=color:#c30>&#39;graylog&#39;</span> <span style=color:#555>=&gt;</span> [
-                    <span style=color:#c30>&#39;class&#39;</span> <span style=color:#555>=&gt;</span> yiier\graylog\Target<span style=color:#555>::</span><span style=color:#309>class</span>,
-                    <span style=color:#c30>&#39;levels&#39;</span> <span style=color:#555>=&gt;</span> [<span style=color:#c30>&#39;error&#39;</span>, <span style=color:#c30>&#39;warning&#39;</span>, <span style=color:#c30>&#39;info&#39;</span>],
-                    <span style=color:#09f;font-style:italic>// &#39;categories&#39; =&gt; [&#39;application&#39;, &#39;graylog&#39;],
-</span><span style=color:#09f;font-style:italic></span>                    <span style=color:#09f;font-style:italic>// &#39;logVars&#39; =&gt; [&#39;_GET&#39;, &#39;_POST&#39;, &#39;_FILES&#39;, &#39;_COOKIE&#39;, &#39;_SESSION&#39;],
-</span><span style=color:#09f;font-style:italic></span>                    <span style=color:#09f;font-style:italic>// &#39;facility&#39; =&gt; &#39;facility-name&#39;,
-</span><span style=color:#09f;font-style:italic></span>                    <span style=color:#c30>&#39;transport&#39;</span> <span style=color:#555>=&gt;</span> [
-                        <span style=color:#c30>&#39;class&#39;</span> <span style=color:#555>=&gt;</span> yiier\graylog\transport\UdpTransport<span style=color:#555>::</span><span style=color:#309>class</span>,
-                        <span style=color:#c30>&#39;host&#39;</span> <span style=color:#555>=&gt;</span> <span style=color:#c30>&#39;127.0.0.1&#39;</span>,
-                        <span style=color:#c30>&#39;port&#39;</span> <span style=color:#555>=&gt;</span> <span style=color:#c30>&#39;1231&#39;</span>,
-                        <span style=color:#c30>&#39;chunkSize&#39;</span> <span style=color:#555>=&gt;</span> <span style=color:#f60>4321</span>,
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-php data-lang=php><span style=color:#ff79c6>return</span> [
+    <span style=color:#f1fa8c>&#39;components&#39;</span> <span style=color:#ff79c6>=&gt;</span> [
+        <span style=color:#f1fa8c>&#39;log&#39;</span> <span style=color:#ff79c6>=&gt;</span> [
+            <span style=color:#f1fa8c>&#39;targets&#39;</span> <span style=color:#ff79c6>=&gt;</span> [
+                <span style=color:#f1fa8c>&#39;graylog&#39;</span> <span style=color:#ff79c6>=&gt;</span> [
+                    <span style=color:#f1fa8c>&#39;class&#39;</span> <span style=color:#ff79c6>=&gt;</span> yiier\graylog\Target<span style=color:#ff79c6>::</span><span style=color:#50fa7b>class</span>,
+                    <span style=color:#f1fa8c>&#39;levels&#39;</span> <span style=color:#ff79c6>=&gt;</span> [<span style=color:#f1fa8c>&#39;error&#39;</span>, <span style=color:#f1fa8c>&#39;warning&#39;</span>, <span style=color:#f1fa8c>&#39;info&#39;</span>],
+                    <span style=color:#6272a4>// &#39;categories&#39; =&gt; [&#39;application&#39;, &#39;graylog&#39;],
+</span><span style=color:#6272a4></span>                    <span style=color:#6272a4>// &#39;logVars&#39; =&gt; [&#39;_GET&#39;, &#39;_POST&#39;, &#39;_FILES&#39;, &#39;_COOKIE&#39;, &#39;_SESSION&#39;],
+</span><span style=color:#6272a4></span>                    <span style=color:#6272a4>// &#39;facility&#39; =&gt; &#39;facility-name&#39;,
+</span><span style=color:#6272a4></span>                    <span style=color:#f1fa8c>&#39;transport&#39;</span> <span style=color:#ff79c6>=&gt;</span> [
+                        <span style=color:#f1fa8c>&#39;class&#39;</span> <span style=color:#ff79c6>=&gt;</span> yiier\graylog\transport\UdpTransport<span style=color:#ff79c6>::</span><span style=color:#50fa7b>class</span>,
+                        <span style=color:#f1fa8c>&#39;host&#39;</span> <span style=color:#ff79c6>=&gt;</span> <span style=color:#f1fa8c>&#39;127.0.0.1&#39;</span>,
+                        <span style=color:#f1fa8c>&#39;port&#39;</span> <span style=color:#ff79c6>=&gt;</span> <span style=color:#f1fa8c>&#39;1231&#39;</span>,
+                        <span style=color:#f1fa8c>&#39;chunkSize&#39;</span> <span style=color:#ff79c6>=&gt;</span> <span style=color:#bd93f9>4321</span>,
                     ],
-                    <span style=color:#c30>&#39;additionalFields&#39;</span> <span style=color:#555>=&gt;</span> [
-                        <span style=color:#c30>&#39;user-ip&#39;</span> <span style=color:#555>=&gt;</span> <span style=color:#069;font-weight:700>function</span> (<span style=color:#033>$yii</span>) {
-                            <span style=color:#069;font-weight:700>return</span> (<span style=color:#033>$yii</span> instanceof \yii\console\Application) <span style=color:#555>?</span> <span style=color:#c30>&#39;&#39;</span> <span style=color:#555>:</span> <span style=color:#033>$yii</span><span style=color:#555>-&gt;</span><span style=color:#309>request</span><span style=color:#555>-&gt;</span><span style=color:#309>userIP</span>;
+                    <span style=color:#f1fa8c>&#39;additionalFields&#39;</span> <span style=color:#ff79c6>=&gt;</span> [
+                        <span style=color:#f1fa8c>&#39;user-ip&#39;</span> <span style=color:#ff79c6>=&gt;</span> <span style=color:#ff79c6>function</span> (<span style=color:#8be9fd;font-style:italic>$yii</span>) {
+                            <span style=color:#ff79c6>return</span> (<span style=color:#8be9fd;font-style:italic>$yii</span> instanceof \yii\console\Application) <span style=color:#ff79c6>?</span> <span style=color:#f1fa8c>&#39;&#39;</span> <span style=color:#ff79c6>:</span> <span style=color:#8be9fd;font-style:italic>$yii</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>request</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>userIP</span>;
                         },
-                        <span style=color:#c30>&#39;tag&#39;</span> <span style=color:#555>=&gt;</span> <span style=color:#c30>&#39;tag-name&#39;</span>
+                        <span style=color:#f1fa8c>&#39;tag&#39;</span> <span style=color:#ff79c6>=&gt;</span> <span style=color:#f1fa8c>&#39;tag-name&#39;</span>
                     ],
                 ],
             ],
         ],
     ],
 ];
-</code></pre></td></tr></table></div></div><h3 id=使用>使用</h3><p>有两种方式：</p><ul><li>方式一：使用 Yii 自带的日志方式：</li></ul><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
+</code></pre></td></tr></table></div></div><h3 id=使用>使用</h3><p>有两种方式：</p><ul><li>方式一：使用 Yii 自带的日志方式：</li></ul><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 2
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 3
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 4
@@ -140,42 +140,42 @@ cd graylog-docker
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">33
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">34
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">35
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-php data-lang=php><span style=color:#555>&lt;?</span>php
-<span style=color:#09f;font-style:italic>// short_message will contain string representation of [&#39;test1&#39; =&gt; 123, &#39;test2&#39; =&gt; 456],
-</span><span style=color:#09f;font-style:italic>// no full_message will be sent
-</span><span style=color:#09f;font-style:italic></span>Yii<span style=color:#555>::</span><span style=color:#309>info</span>([
-    <span style=color:#c30>&#39;test1&#39;</span> <span style=color:#555>=&gt;</span> <span style=color:#f60>123</span>,
-    <span style=color:#c30>&#39;test2&#39;</span> <span style=color:#555>=&gt;</span> <span style=color:#f60>456</span>,
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-php data-lang=php><span style=color:#ff79c6>&lt;?</span>php
+<span style=color:#6272a4>// short_message will contain string representation of [&#39;test1&#39; =&gt; 123, &#39;test2&#39; =&gt; 456],
+</span><span style=color:#6272a4>// no full_message will be sent
+</span><span style=color:#6272a4></span>Yii<span style=color:#ff79c6>::</span><span style=color:#50fa7b>info</span>([
+    <span style=color:#f1fa8c>&#39;test1&#39;</span> <span style=color:#ff79c6>=&gt;</span> <span style=color:#bd93f9>123</span>,
+    <span style=color:#f1fa8c>&#39;test2&#39;</span> <span style=color:#ff79c6>=&gt;</span> <span style=color:#bd93f9>456</span>,
 ]);
 
-<span style=color:#09f;font-style:italic>// short_message will contain &#39;Test short message&#39;,
-</span><span style=color:#09f;font-style:italic>// two additional fields will be sent,
-</span><span style=color:#09f;font-style:italic>// full_message will contain all other stuff without &#39;short&#39; and &#39;additional&#39;:
-</span><span style=color:#09f;font-style:italic>// string representation of [&#39;test1&#39; =&gt; 123, &#39;test2&#39; =&gt; 456]
-</span><span style=color:#09f;font-style:italic></span>Yii<span style=color:#555>::</span><span style=color:#309>info</span>([
-    <span style=color:#c30>&#39;test1&#39;</span> <span style=color:#555>=&gt;</span> <span style=color:#f60>123</span>,
-    <span style=color:#c30>&#39;test2&#39;</span> <span style=color:#555>=&gt;</span> <span style=color:#f60>456</span>,
-    <span style=color:#c30>&#39;short&#39;</span> <span style=color:#555>=&gt;</span> <span style=color:#c30>&#39;Test short message&#39;</span>,
-    <span style=color:#c30>&#39;additional&#39;</span> <span style=color:#555>=&gt;</span> [
-        <span style=color:#c30>&#39;additional1&#39;</span> <span style=color:#555>=&gt;</span> <span style=color:#c30>&#39;abc&#39;</span>,
-        <span style=color:#c30>&#39;additional2&#39;</span> <span style=color:#555>=&gt;</span> <span style=color:#c30>&#39;def&#39;</span>,
+<span style=color:#6272a4>// short_message will contain &#39;Test short message&#39;,
+</span><span style=color:#6272a4>// two additional fields will be sent,
+</span><span style=color:#6272a4>// full_message will contain all other stuff without &#39;short&#39; and &#39;additional&#39;:
+</span><span style=color:#6272a4>// string representation of [&#39;test1&#39; =&gt; 123, &#39;test2&#39; =&gt; 456]
+</span><span style=color:#6272a4></span>Yii<span style=color:#ff79c6>::</span><span style=color:#50fa7b>info</span>([
+    <span style=color:#f1fa8c>&#39;test1&#39;</span> <span style=color:#ff79c6>=&gt;</span> <span style=color:#bd93f9>123</span>,
+    <span style=color:#f1fa8c>&#39;test2&#39;</span> <span style=color:#ff79c6>=&gt;</span> <span style=color:#bd93f9>456</span>,
+    <span style=color:#f1fa8c>&#39;short&#39;</span> <span style=color:#ff79c6>=&gt;</span> <span style=color:#f1fa8c>&#39;Test short message&#39;</span>,
+    <span style=color:#f1fa8c>&#39;additional&#39;</span> <span style=color:#ff79c6>=&gt;</span> [
+        <span style=color:#f1fa8c>&#39;additional1&#39;</span> <span style=color:#ff79c6>=&gt;</span> <span style=color:#f1fa8c>&#39;abc&#39;</span>,
+        <span style=color:#f1fa8c>&#39;additional2&#39;</span> <span style=color:#ff79c6>=&gt;</span> <span style=color:#f1fa8c>&#39;def&#39;</span>,
     ],
 ]);
  
-<span style=color:#09f;font-style:italic>// short_message will contain &#39;Test short message&#39;,
-</span><span style=color:#09f;font-style:italic>// two additional fields will be sent,
-</span><span style=color:#09f;font-style:italic>// full_message will contain &#39;Test full message&#39;, all other stuff will be lost
-</span><span style=color:#09f;font-style:italic></span>Yii<span style=color:#555>::</span><span style=color:#309>info</span>([
-    <span style=color:#c30>&#39;test1&#39;</span> <span style=color:#555>=&gt;</span> <span style=color:#f60>123</span>,
-    <span style=color:#c30>&#39;test2&#39;</span> <span style=color:#555>=&gt;</span> <span style=color:#f60>456</span>,
-    <span style=color:#c30>&#39;short&#39;</span> <span style=color:#555>=&gt;</span> <span style=color:#c30>&#39;Test short message&#39;</span>,
-    <span style=color:#c30>&#39;full&#39;</span> <span style=color:#555>=&gt;</span> <span style=color:#c30>&#39;Test full message&#39;</span>,
-    <span style=color:#c30>&#39;additional&#39;</span> <span style=color:#555>=&gt;</span> [
-        <span style=color:#c30>&#39;additional1&#39;</span> <span style=color:#555>=&gt;</span> <span style=color:#c30>&#39;abc&#39;</span>,
-        <span style=color:#c30>&#39;additional2&#39;</span> <span style=color:#555>=&gt;</span> <span style=color:#c30>&#39;def&#39;</span>,
+<span style=color:#6272a4>// short_message will contain &#39;Test short message&#39;,
+</span><span style=color:#6272a4>// two additional fields will be sent,
+</span><span style=color:#6272a4>// full_message will contain &#39;Test full message&#39;, all other stuff will be lost
+</span><span style=color:#6272a4></span>Yii<span style=color:#ff79c6>::</span><span style=color:#50fa7b>info</span>([
+    <span style=color:#f1fa8c>&#39;test1&#39;</span> <span style=color:#ff79c6>=&gt;</span> <span style=color:#bd93f9>123</span>,
+    <span style=color:#f1fa8c>&#39;test2&#39;</span> <span style=color:#ff79c6>=&gt;</span> <span style=color:#bd93f9>456</span>,
+    <span style=color:#f1fa8c>&#39;short&#39;</span> <span style=color:#ff79c6>=&gt;</span> <span style=color:#f1fa8c>&#39;Test short message&#39;</span>,
+    <span style=color:#f1fa8c>&#39;full&#39;</span> <span style=color:#ff79c6>=&gt;</span> <span style=color:#f1fa8c>&#39;Test full message&#39;</span>,
+    <span style=color:#f1fa8c>&#39;additional&#39;</span> <span style=color:#ff79c6>=&gt;</span> [
+        <span style=color:#f1fa8c>&#39;additional1&#39;</span> <span style=color:#ff79c6>=&gt;</span> <span style=color:#f1fa8c>&#39;abc&#39;</span>,
+        <span style=color:#f1fa8c>&#39;additional2&#39;</span> <span style=color:#ff79c6>=&gt;</span> <span style=color:#f1fa8c>&#39;def&#39;</span>,
     ],
 ]);
-</code></pre></td></tr></table></div></div><ul><li>方式二：使用 <code>\yiier\graylog\Log</code></li></ul><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
+</code></pre></td></tr></table></div></div><ul><li>方式二：使用 <code>\yiier\graylog\Log</code></li></ul><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 2
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 3
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 4
@@ -191,21 +191,21 @@ cd graylog-docker
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">14
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">15
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">16
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-php data-lang=php><span style=color:#555>&lt;?</span>php
-\yiier\graylog\Log<span style=color:#555>::</span><span style=color:#309>info</span>(
-    <span style=color:#c30>&#39;Test short message&#39;</span>,
-    <span style=color:#c30>&#39;Test full message&#39;</span>
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-php data-lang=php><span style=color:#ff79c6>&lt;?</span>php
+\yiier\graylog\Log<span style=color:#ff79c6>::</span><span style=color:#50fa7b>info</span>(
+    <span style=color:#f1fa8c>&#39;Test short message&#39;</span>,
+    <span style=color:#f1fa8c>&#39;Test full message&#39;</span>
 );
 
 
-\yiier\graylog\Log<span style=color:#555>::</span><span style=color:#309>info</span>(
-    <span style=color:#c30>&#39;Test short message&#39;</span>,
-    <span style=color:#c30>&#39;Test full message&#39;</span>, 
+\yiier\graylog\Log<span style=color:#ff79c6>::</span><span style=color:#50fa7b>info</span>(
+    <span style=color:#f1fa8c>&#39;Test short message&#39;</span>,
+    <span style=color:#f1fa8c>&#39;Test full message&#39;</span>, 
     [
-        <span style=color:#c30>&#39;additional1&#39;</span> <span style=color:#555>=&gt;</span> <span style=color:#c30>&#39;abc&#39;</span>,
-        <span style=color:#c30>&#39;additional2&#39;</span> <span style=color:#555>=&gt;</span> <span style=color:#c30>&#39;def&#39;</span>,
+        <span style=color:#f1fa8c>&#39;additional1&#39;</span> <span style=color:#ff79c6>=&gt;</span> <span style=color:#f1fa8c>&#39;abc&#39;</span>,
+        <span style=color:#f1fa8c>&#39;additional2&#39;</span> <span style=color:#ff79c6>=&gt;</span> <span style=color:#f1fa8c>&#39;def&#39;</span>,
     ],
-    <span style=color:#c30>&#39;graylog&#39;</span>
+    <span style=color:#f1fa8c>&#39;graylog&#39;</span>
 );
 </code></pre></td></tr></table></div></div><p>详情参考 <a href=https://github.com/yiier/yii2-graylog-target>yiier/yii2-graylog-target</a></p><h2 id=与-efk-对比>与 EFK 对比</h2><p>没有深度研究，不知道两种方法哪个好？我所知道的：</p><ul><li>Graylog 作为专门的 log 收集工具，自带日志报警功能（具体使用方法，以后再补充），而据我所知 EFK 自带是没有这个功能的，为此我们项目组同事还特意写了一个小项目实现这个日志报警功能。</li><li>我们公司为了节省服务器开支把 EFK 换成 Graylog 了。</li></ul><h2 id=最后>最后</h2><p>最后说明一下为什么又重现造了一个 Yii 扩展的轮子？</p><p>因为刚开始用 <a href=https://github.com/RomeroMsk/yii2-graylog2>RomeroMsk/yii2-graylog2</a>，照着文档使用，使用命令行调试，发现死活写不成功日志。而且这东西调试起来非常麻烦，因为这个库代码异常了，什么错误信息都看不到。</p><p>最后才发现问题出现在文档里面 <code>return $yii->request->getUserIP();</code>，这段代码不支持命令行方式运行，更加严谨的方式是 <code>return ($yii instanceof \yii\console\Application) ? '' : $yii->request->userIP;</code>。</p><p>当然上面那个结论我是最后才发现的，在这之前我不得已去找了其他库，找了半天，找到了 <a href=https://github.com/alexeevdv/yii2-graylog-target>alexeevdv/yii2-graylog-target</a>，然后发现这个库，文档安装方式写错了，这不是问题，我还热心的给他提了 <a href=https://github.com/alexeevdv/yii2-graylog-target/pull/1>PR</a>，因为他代码写的好，单元测试满分。但是这个库有两个坑
 ：</p><ul><li>代码写的太『优雅』了，以至于按照文档方式使用 PhpStorm 却是提示代码异常。</li><li>另外一个问题就是他不支持扩展标签，比分说 <code>tag</code>, 多项目使用一个日志收集肯定要用 <code>tag</code> 区分的。</li></ul><p>索性我就在他们两个的基础上重现造了轮子，并且增加了 <code>\yiier\graylog\Log</code> 使用方式。</p><hr class="bg-gray-300 mt-8"><div class=pt-4><p class=text-center><button id=btn-donate class="px-5 py-2 inline-block rounded hover:bg-red-600 bg-red-400 text-white" for=reward>打赏</button></p><div class="flex-auto mt-2 mx-2 hidden" id=donate-image><div class="w-full px-2 my-2"><div class="bg-white dark:bg-black"><img class="h-48 shadow object-cover w-auto mx-auto" loading=lazy src=https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424153510.png alt=微信打赏><div class="text-center text-gray-500">微信打赏</div></div></div><div class="w-full px-2 my-2"><div class="bg-white dark:bg-black"><img class="h-48 shadow object-cover w-auto mx-auto" loading=lazy src=https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424153431.png alt=支付宝打赏><div class="text-center text-gray-500">支付宝打赏</div></div></div></div></div><div class="border-l-4 border-red-400 mx-auto text-gray-500"><div class=copyright><ul class=list-none><li><strong>原文作者：</strong>

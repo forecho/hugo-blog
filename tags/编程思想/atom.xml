@@ -4,22 +4,22 @@
 &lt;h2 id="为什么要用辅助函数">为什么要用辅助函数？&lt;/h2>
 &lt;p>在编程的时候，你肯定会遇到类似这样的事情：数据库中保存的商品单价单位是分，商品详情页需要你的商品价格，但是单位肯定是元。&lt;/p>
 &lt;p>那么我们可以怎么样实现呢？一般的做法肯定这样的，直接在视图页面要展示价格的地方这样写：&lt;/p>
-&lt;div class="highlight">&lt;div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
 &lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
-&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-php" data-lang="php">&lt;span style="color:#555">&amp;lt;?=&lt;/span> round((&lt;span style="color:#033">$price&lt;/span> &lt;span style="color:#555">/&lt;/span> &lt;span style="color:#f60">100&lt;/span>), &lt;span style="color:#f60">2&lt;/span>) &lt;span style="color:#099">?&amp;gt;&lt;/span>&lt;span style="color:#a00;background-color:#faa">
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-php" data-lang="php">&lt;span style="color:#ff79c6">&amp;lt;?=&lt;/span> round((&lt;span style="color:#8be9fd;font-style:italic">$price&lt;/span> &lt;span style="color:#ff79c6">/&lt;/span> &lt;span style="color:#bd93f9">100&lt;/span>), &lt;span style="color:#bd93f9">2&lt;/span>) &lt;span style="color:#ff79c6">?&amp;gt;&lt;/span>
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;p>这样写虽然能实现效果，但是如果需求有变化，需要使用强制保留两位小数，那么你需要这样改：&lt;/p>
-&lt;div class="highlight">&lt;div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
 &lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
-&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-php" data-lang="php">&lt;span style="color:#555">&amp;lt;?=&lt;/span> number_format(round((&lt;span style="color:#033">$price&lt;/span> &lt;span style="color:#555">/&lt;/span> &lt;span style="color:#f60">100&lt;/span>), &lt;span style="color:#f60">2&lt;/span>), &lt;span style="color:#f60">2&lt;/span>, &lt;span style="color:#c30">&amp;#39;.&amp;#39;&lt;/span>, &lt;span style="color:#c30">&amp;#39;&amp;#39;&lt;/span>); &lt;span style="color:#099">?&amp;gt;&lt;/span>&lt;span style="color:#a00;background-color:#faa">
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-php" data-lang="php">&lt;span style="color:#ff79c6">&amp;lt;?=&lt;/span> number_format(round((&lt;span style="color:#8be9fd;font-style:italic">$price&lt;/span> &lt;span style="color:#ff79c6">/&lt;/span> &lt;span style="color:#bd93f9">100&lt;/span>), &lt;span style="color:#bd93f9">2&lt;/span>), &lt;span style="color:#bd93f9">2&lt;/span>, &lt;span style="color:#f1fa8c">&amp;#39;.&amp;#39;&lt;/span>, &lt;span style="color:#f1fa8c">&amp;#39;&amp;#39;&lt;/span>); &lt;span style="color:#ff79c6">?&amp;gt;&lt;/span>
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;p>看上去虽然不多的代码，但是&lt;/p>
 &lt;ul>

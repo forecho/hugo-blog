@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>api on forecho's Blog</title><link>https://blog.forecho.com/tags/api.html</link><description>Recent content in api on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 27 Jul 2015 22:25:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/tags/api/atom.xml" rel="self" type="application/rss+xml"/><item><title>Yii2 高级版新建一个 Api 应用</title><link>https://blog.forecho.com/yii2-create-api.html</link><pubDate>Mon, 27 Jul 2015 22:25:00 +0800</pubDate><guid>https://blog.forecho.com/yii2-create-api.html</guid><description>&lt;p>先在项目的根目录下复制一份 backend 为 api：&lt;/p>
-&lt;div class="highlight">&lt;div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
 &lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
-&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-sh" data-lang="sh">cp backend/ api -r
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-sh" data-lang="sh">cp backend/ api -r
 &lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;p>拷贝 api 环境&lt;/p>
-&lt;div class="highlight">&lt;div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
 &lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
-&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 &lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-sh" data-lang="sh">cp -a environments/dev/frontend environments/dev/api
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-sh" data-lang="sh">cp -a environments/dev/frontend environments/dev/api
 cp -a environments/prod/frontend environments/prod/api
 &lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;p>修改 environments/index.php 文件之后的代码（主要是添加了一些 api 相关的代码）：&lt;/p>
-&lt;div class="highlight">&lt;div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
 &lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
-&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
 &lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
 &lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
 &lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
@@ -63,43 +63,43 @@ cp -a environments/prod/frontend environments/prod/api
 &lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">40
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-php" data-lang="php">&lt;span style="color:#069;font-weight:bold">return&lt;/span> [
-&lt;span style="color:#c30">&amp;#39;Development&amp;#39;&lt;/span> &lt;span style="color:#555">=&amp;gt;&lt;/span> [
-&lt;span style="color:#c30">&amp;#39;path&amp;#39;&lt;/span> &lt;span style="color:#555">=&amp;gt;&lt;/span> &lt;span style="color:#c30">&amp;#39;dev&amp;#39;&lt;/span>,
-&lt;span style="color:#c30">&amp;#39;setWritable&amp;#39;&lt;/span> &lt;span style="color:#555">=&amp;gt;&lt;/span> [
-&lt;span style="color:#c30">&amp;#39;backend/runtime&amp;#39;&lt;/span>,
-&lt;span style="color:#c30">&amp;#39;backend/web/assets&amp;#39;&lt;/span>,
-&lt;span style="color:#c30">&amp;#39;frontend/runtime&amp;#39;&lt;/span>,
-&lt;span style="color:#c30">&amp;#39;frontend/web/assets&amp;#39;&lt;/span>,
-&lt;span style="color:#c30">&amp;#39;api/runtime&amp;#39;&lt;/span>,
-&lt;span style="color:#c30">&amp;#39;api/web/assets&amp;#39;&lt;/span>,
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-php" data-lang="php">&lt;span style="color:#ff79c6">return&lt;/span> [
+&lt;span style="color:#f1fa8c">&amp;#39;Development&amp;#39;&lt;/span> &lt;span style="color:#ff79c6">=&amp;gt;&lt;/span> [
+&lt;span style="color:#f1fa8c">&amp;#39;path&amp;#39;&lt;/span> &lt;span style="color:#ff79c6">=&amp;gt;&lt;/span> &lt;span style="color:#f1fa8c">&amp;#39;dev&amp;#39;&lt;/span>,
+&lt;span style="color:#f1fa8c">&amp;#39;setWritable&amp;#39;&lt;/span> &lt;span style="color:#ff79c6">=&amp;gt;&lt;/span> [
+&lt;span style="color:#f1fa8c">&amp;#39;backend/runtime&amp;#39;&lt;/span>,
+&lt;span style="color:#f1fa8c">&amp;#39;backend/web/assets&amp;#39;&lt;/span>,
+&lt;span style="color:#f1fa8c">&amp;#39;frontend/runtime&amp;#39;&lt;/span>,
+&lt;span style="color:#f1fa8c">&amp;#39;frontend/web/assets&amp;#39;&lt;/span>,
+&lt;span style="color:#f1fa8c">&amp;#39;api/runtime&amp;#39;&lt;/span>,
+&lt;span style="color:#f1fa8c">&amp;#39;api/web/assets&amp;#39;&lt;/span>,
 ],
-&lt;span style="color:#c30">&amp;#39;setExecutable&amp;#39;&lt;/span> &lt;span style="color:#555">=&amp;gt;&lt;/span> [
-&lt;span style="color:#c30">&amp;#39;yii&amp;#39;&lt;/span>,
+&lt;span style="color:#f1fa8c">&amp;#39;setExecutable&amp;#39;&lt;/span> &lt;span style="color:#ff79c6">=&amp;gt;&lt;/span> [
+&lt;span style="color:#f1fa8c">&amp;#39;yii&amp;#39;&lt;/span>,
 ],
-&lt;span style="color:#c30">&amp;#39;setCookieValidationKey&amp;#39;&lt;/span> &lt;span style="color:#555">=&amp;gt;&lt;/span> [
-&lt;span style="color:#c30">&amp;#39;backend/config/main-local.php&amp;#39;&lt;/span>,
-&lt;span style="color:#c30">&amp;#39;frontend/config/main-local.php&amp;#39;&lt;/span>,
-&lt;span style="color:#c30">&amp;#39;api/config/main-local.php&amp;#39;&lt;/span>,
+&lt;span style="color:#f1fa8c">&amp;#39;setCookieValidationKey&amp;#39;&lt;/span> &lt;span style="color:#ff79c6">=&amp;gt;&lt;/span> [
+&lt;span style="color:#f1fa8c">&amp;#39;backend/config/main-local.php&amp;#39;&lt;/span>,
+&lt;span style="color:#f1fa8c">&amp;#39;frontend/config/main-local.php&amp;#39;&lt;/span>,
+&lt;span style="color:#f1fa8c">&amp;#39;api/config/main-local.php&amp;#39;&lt;/span>,
 ],
 ],
-&lt;span style="color:#c30">&amp;#39;Production&amp;#39;&lt;/span> &lt;span style="color:#555">=&amp;gt;&lt;/span> [
-&lt;span style="color:#c30">&amp;#39;path&amp;#39;&lt;/span> &lt;span style="color:#555">=&amp;gt;&lt;/span> &lt;span style="color:#c30">&amp;#39;prod&amp;#39;&lt;/span>,
-&lt;span style="color:#c30">&amp;#39;setWritable&amp;#39;&lt;/span> &lt;span style="color:#555">=&amp;gt;&lt;/span> [
-&lt;span style="color:#c30">&amp;#39;backend/runtime&amp;#39;&lt;/span>,
-&lt;span style="color:#c30">&amp;#39;backend/web/assets&amp;#39;&lt;/span>,
-&lt;span style="color:#c30">&amp;#39;frontend/runtime&amp;#39;&lt;/span>,
-&lt;span style="color:#c30">&amp;#39;frontend/web/assets&amp;#39;&lt;/span>,
-&lt;span style="color:#c30">&amp;#39;api/runtime&amp;#39;&lt;/span>,
-&lt;span style="color:#c30">&amp;#39;api/web/assets&amp;#39;&lt;/span>,
+&lt;span style="color:#f1fa8c">&amp;#39;Production&amp;#39;&lt;/span> &lt;span style="color:#ff79c6">=&amp;gt;&lt;/span> [
+&lt;span style="color:#f1fa8c">&amp;#39;path&amp;#39;&lt;/span> &lt;span style="color:#ff79c6">=&amp;gt;&lt;/span> &lt;span style="color:#f1fa8c">&amp;#39;prod&amp;#39;&lt;/span>,
+&lt;span style="color:#f1fa8c">&amp;#39;setWritable&amp;#39;&lt;/span> &lt;span style="color:#ff79c6">=&amp;gt;&lt;/span> [
+&lt;span style="color:#f1fa8c">&amp;#39;backend/runtime&amp;#39;&lt;/span>,
+&lt;span style="color:#f1fa8c">&amp;#39;backend/web/assets&amp;#39;&lt;/span>,
+&lt;span style="color:#f1fa8c">&amp;#39;frontend/runtime&amp;#39;&lt;/span>,
+&lt;span style="color:#f1fa8c">&amp;#39;frontend/web/assets&amp;#39;&lt;/span>,
+&lt;span style="color:#f1fa8c">&amp;#39;api/runtime&amp;#39;&lt;/span>,
+&lt;span style="color:#f1fa8c">&amp;#39;api/web/assets&amp;#39;&lt;/span>,
 ],
-&lt;span style="color:#c30">&amp;#39;setExecutable&amp;#39;&lt;/span> &lt;span style="color:#555">=&amp;gt;&lt;/span> [
-&lt;span style="color:#c30">&amp;#39;yii&amp;#39;&lt;/span>,
+&lt;span style="color:#f1fa8c">&amp;#39;setExecutable&amp;#39;&lt;/span> &lt;span style="color:#ff79c6">=&amp;gt;&lt;/span> [
+&lt;span style="color:#f1fa8c">&amp;#39;yii&amp;#39;&lt;/span>,
 ],
-&lt;span style="color:#c30">&amp;#39;setCookieValidationKey&amp;#39;&lt;/span> &lt;span style="color:#555">=&amp;gt;&lt;/span> [
-&lt;span style="color:#c30">&amp;#39;backend/config/main-local.php&amp;#39;&lt;/span>,
-&lt;span style="color:#c30">&amp;#39;frontend/config/main-local.php&amp;#39;&lt;/span>,
-&lt;span style="color:#c30">&amp;#39;api/config/main-local.php&amp;#39;&lt;/span>,
+&lt;span style="color:#f1fa8c">&amp;#39;setCookieValidationKey&amp;#39;&lt;/span> &lt;span style="color:#ff79c6">=&amp;gt;&lt;/span> [
+&lt;span style="color:#f1fa8c">&amp;#39;backend/config/main-local.php&amp;#39;&lt;/span>,
+&lt;span style="color:#f1fa8c">&amp;#39;frontend/config/main-local.php&amp;#39;&lt;/span>,
+&lt;span style="color:#f1fa8c">&amp;#39;api/config/main-local.php&amp;#39;&lt;/span>,
 ],
 ],
 ];

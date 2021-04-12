@@ -37,7 +37,7 @@ Yii2 使用 RESTful？
 619 字</span>
 <span class="hidden xl:inline-block">|
 <i class="iconfont icon-clock-o"></i>
-2 分钟读完</span></p></div><div class="md:hidden dark:text-gray-100"><p class="text-base font-bold py-2 yg:pb-6 text-gray-700 dark:text-gray-300">文章目录</p><div class="sticky text-sm" style=top:6em id=menu-content><nav id=TableOfContents><ul><li><a href=#什么是rest>什么是REST</a></li><li><a href=#为什么要restful>为什么要Restful？</a></li><li><a href=#yii2-使用-restful>Yii2 使用 RESTful？</a><ul><li><a href=#yii2-restful-如何实现自定义方法>Yii2 RESTful 如何实现自定义方法？</a></li><li><a href=#实现用户验证>实现用户验证</a></li></ul></li><li><a href=#参考文章>参考文章</a></li></ul></nav></div></div><div class="post-content dark:text-white"><h2 id=什么是rest>什么是REST</h2><p>简单的说，REST 指的是一组架构约束条件和原则。满足这些约束条件和原则的应用程序或设计就是 RESTful。</p><h2 id=为什么要restful>为什么要Restful？</h2><p>主要遵循两个准则：</p><ul><li>不要为了RESTful而RESTful</li><li>在能表达清楚的情况下，简单就是美</li></ul><h2 id=yii2-使用-restful>Yii2 使用 RESTful？</h2><p>其实 Yii2 框架本身就对 RESTful 是友好支持的，具体可以看<a href=http://www.yiiframework.com/doc-2.0/guide-rest-quick-start.html>官方文档</a>，或者去看源码，都是可以的。</p><p><strong>下面分享我写的<a href=https://github.com/iiYii/yii2-rest-demo>Yii2 RESTful DEMO</a>。</strong></p><p>具体实现可以看我的代码，有不懂的可以留言。下面我重点说一下值得注意的地方：</p><h3 id=yii2-restful-如何实现自定义方法>Yii2 RESTful 如何实现自定义方法？</h3><p>新建一个 user 控制器，输入以下代码：</p><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
+2 分钟读完</span></p></div><div class="md:hidden dark:text-gray-100"><p class="text-base font-bold py-2 yg:pb-6 text-gray-700 dark:text-gray-300">文章目录</p><div class="sticky text-sm" style=top:6em id=menu-content><nav id=TableOfContents><ul><li><a href=#什么是rest>什么是REST</a></li><li><a href=#为什么要restful>为什么要Restful？</a></li><li><a href=#yii2-使用-restful>Yii2 使用 RESTful？</a><ul><li><a href=#yii2-restful-如何实现自定义方法>Yii2 RESTful 如何实现自定义方法？</a></li><li><a href=#实现用户验证>实现用户验证</a></li></ul></li><li><a href=#参考文章>参考文章</a></li></ul></nav></div></div><div class="post-content dark:text-white"><h2 id=什么是rest>什么是REST</h2><p>简单的说，REST 指的是一组架构约束条件和原则。满足这些约束条件和原则的应用程序或设计就是 RESTful。</p><h2 id=为什么要restful>为什么要Restful？</h2><p>主要遵循两个准则：</p><ul><li>不要为了RESTful而RESTful</li><li>在能表达清楚的情况下，简单就是美</li></ul><h2 id=yii2-使用-restful>Yii2 使用 RESTful？</h2><p>其实 Yii2 框架本身就对 RESTful 是友好支持的，具体可以看<a href=http://www.yiiframework.com/doc-2.0/guide-rest-quick-start.html>官方文档</a>，或者去看源码，都是可以的。</p><p><strong>下面分享我写的<a href=https://github.com/iiYii/yii2-rest-demo>Yii2 RESTful DEMO</a>。</strong></p><p>具体实现可以看我的代码，有不懂的可以留言。下面我重点说一下值得注意的地方：</p><h3 id=yii2-restful-如何实现自定义方法>Yii2 RESTful 如何实现自定义方法？</h3><p>新建一个 user 控制器，输入以下代码：</p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">2
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">3
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">4
@@ -45,7 +45,7 @@ Yii2 使用 RESTful？
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">6
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">7
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">8
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-fallback data-lang=fallback>namespace app\controllers;
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-fallback data-lang=fallback>namespace app\controllers;
 
 use yii\rest\ActiveController;
 
@@ -53,21 +53,21 @@ class UserController extends ActiveController
 {
     public $modelClass = &#39;app\models\User&#39;;
 }
-</code></pre></td></tr></table></div></div><p>然后你在浏览器里面输入 用 GET 请求 <code>localhost/basic/web/users</code> 这个地址是可以跑的，因为继承的 <code>ActiveController</code> 这个类是有对 user RESTful 表的 基本操作的，包括 GET，POST，PUT，PATCH，DELETE。所以我们要注销系统自带的实现方法，代码如下，添加到控制器中，后者自己新建一个 ActiveController 类。</p><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
+</code></pre></td></tr></table></div></div><p>然后你在浏览器里面输入 用 GET 请求 <code>localhost/basic/web/users</code> 这个地址是可以跑的，因为继承的 <code>ActiveController</code> 这个类是有对 user RESTful 表的 基本操作的，包括 GET，POST，PUT，PATCH，DELETE。所以我们要注销系统自带的实现方法，代码如下，添加到控制器中，后者自己新建一个 ActiveController 类。</p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">2
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">3
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">4
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">5
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">6
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">7
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-fallback data-lang=fallback>public function actions()
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-fallback data-lang=fallback>public function actions()
 {
    $actions = parent::actions();
     // 注销系统自带的实现方法
     unset($actions[&#39;index&#39;], $actions[&#39;update&#39;], $actions[&#39;create&#39;], $actions[&#39;delete&#39;], $actions[&#39;view&#39;]);
     return $actions;
 }
-</code></pre></td></tr></table></div></div><p>然后下面我们就可以写自己的 actionIndex、actionCreate、actionUpdate 和 actionDelete 了。</p><h3 id=实现用户验证>实现用户验证</h3><p>框架其实是提供三种验证方式的，我就说一下最长用的 token 实现验证吧。</p><p>首先你要在控制器中加入下面代码：</p><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
+</code></pre></td></tr></table></div></div><p>然后下面我们就可以写自己的 actionIndex、actionCreate、actionUpdate 和 actionDelete 了。</p><h3 id=实现用户验证>实现用户验证</h3><p>框架其实是提供三种验证方式的，我就说一下最长用的 token 实现验证吧。</p><p>首先你要在控制器中加入下面代码：</p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 2
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 3
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 4
@@ -78,7 +78,7 @@ class UserController extends ActiveController
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 9
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">10
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">11
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-fallback data-lang=fallback>public function behaviors()
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-fallback data-lang=fallback>public function behaviors()
 {
     $behaviors = parent::behaviors();
     $behaviors[&#39;authenticator&#39;] = [

@@ -4,7 +4,7 @@
 324 字</span>
 <span class="hidden xl:inline-block">|
 <i class="iconfont icon-clock-o"></i>
-1 分钟读完</span></p></div><div class="md:hidden dark:text-gray-100"><p class="text-base font-bold py-2 yg:pb-6 text-gray-700 dark:text-gray-300">文章目录</p><div class="sticky text-sm" style=top:6em id=menu-content><nav id=TableOfContents></nav></div></div><div class="post-content dark:text-white"><p>配置文件在 protected\config\main.php <strong>开启gii</strong> 找到下面这段代码，把注释去掉：</p><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
+1 分钟读完</span></p></div><div class="md:hidden dark:text-gray-100"><p class="text-base font-bold py-2 yg:pb-6 text-gray-700 dark:text-gray-300">文章目录</p><div class="sticky text-sm" style=top:6em id=menu-content><nav id=TableOfContents></nav></div></div><div class="post-content dark:text-white"><p>配置文件在 protected\config\main.php <strong>开启gii</strong> 找到下面这段代码，把注释去掉：</p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">2
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">3
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">4
@@ -12,15 +12,15 @@
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">6
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">7
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">8
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-php data-lang=php><span style=color:#09f;font-style:italic>/*
-</span><span style=color:#09f;font-style:italic>&#39;gii&#39;=&gt;array(
-</span><span style=color:#09f;font-style:italic>    &#39;class&#39;=&gt;&#39;system.gii.GiiModule&#39;,
-</span><span style=color:#09f;font-style:italic>    &#39;password&#39;=&gt;&#39;Enter Your Password Here&#39;,
-</span><span style=color:#09f;font-style:italic>    // If removed, Gii defaults to localhost only. Edit carefully to taste.
-</span><span style=color:#09f;font-style:italic>    &#39;ipFilters&#39;=&gt;array(&#39;127.0.0.1&#39;,&#39;::1&#39;),
-</span><span style=color:#09f;font-style:italic>),
-</span><span style=color:#09f;font-style:italic>*/</span>
-</code></pre></td></tr></table></div></div><p>修改password为自己使用的密码。 ps：如果访问gii的时候提示文件不存在，那就修改ipFilters中127.0.0.1为自己的IP。 <strong>开启数据库</strong> 找到下面这段代码：</p><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-php data-lang=php><span style=color:#6272a4>/*
+</span><span style=color:#6272a4>&#39;gii&#39;=&gt;array(
+</span><span style=color:#6272a4>    &#39;class&#39;=&gt;&#39;system.gii.GiiModule&#39;,
+</span><span style=color:#6272a4>    &#39;password&#39;=&gt;&#39;Enter Your Password Here&#39;,
+</span><span style=color:#6272a4>    // If removed, Gii defaults to localhost only. Edit carefully to taste.
+</span><span style=color:#6272a4>    &#39;ipFilters&#39;=&gt;array(&#39;127.0.0.1&#39;,&#39;::1&#39;),
+</span><span style=color:#6272a4>),
+</span><span style=color:#6272a4>*/</span>
+</code></pre></td></tr></table></div></div><p>修改password为自己使用的密码。 ps：如果访问gii的时候提示文件不存在，那就修改ipFilters中127.0.0.1为自己的IP。 <strong>开启数据库</strong> 找到下面这段代码：</p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 2
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 3
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 4
@@ -33,20 +33,20 @@
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">11
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">12
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">13
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-php data-lang=php><span style=color:#c30>&#39;db&#39;</span><span style=color:#555>=&gt;</span><span style=color:#069;font-weight:700>array</span>(
-    <span style=color:#c30>&#39;connectionString&#39;</span> <span style=color:#555>=&gt;</span> <span style=color:#c30>&#39;sqlite:&#39;</span><span style=color:#555>.</span>dirname(<span style=color:#360>__FILE__</span>)<span style=color:#555>.</span><span style=color:#c30>&#39;/../data/testdrive.db&#39;</span>,
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-php data-lang=php><span style=color:#f1fa8c>&#39;db&#39;</span><span style=color:#ff79c6>=&gt;</span><span style=color:#ff79c6>array</span>(
+    <span style=color:#f1fa8c>&#39;connectionString&#39;</span> <span style=color:#ff79c6>=&gt;</span> <span style=color:#f1fa8c>&#39;sqlite:&#39;</span><span style=color:#ff79c6>.</span>dirname(__FILE__)<span style=color:#ff79c6>.</span><span style=color:#f1fa8c>&#39;/../data/testdrive.db&#39;</span>,
 ),
-<span style=color:#09f;font-style:italic>// uncomment the following to use a MySQL database
-</span><span style=color:#09f;font-style:italic></span><span style=color:#09f;font-style:italic>/*
-</span><span style=color:#09f;font-style:italic>&#39;db&#39;=&gt;array(
-</span><span style=color:#09f;font-style:italic>    &#39;connectionString&#39; =&gt; &#39;mysql:host=localhost;dbname=testdrive&#39;,
-</span><span style=color:#09f;font-style:italic>    &#39;emulatePrepare&#39; =&gt; true,
-</span><span style=color:#09f;font-style:italic>    &#39;username&#39; =&gt; &#39;root&#39;,
-</span><span style=color:#09f;font-style:italic>    &#39;password&#39; =&gt; &#39;&#39;,
-</span><span style=color:#09f;font-style:italic>    &#39;charset&#39; =&gt; &#39;utf8&#39;,
-</span><span style=color:#09f;font-style:italic>),
-</span><span style=color:#09f;font-style:italic>*/</span>
-</code></pre></td></tr></table></div></div><p>把上面一段注释掉，下面一段开启，修改之后如下：</p><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
+<span style=color:#6272a4>// uncomment the following to use a MySQL database
+</span><span style=color:#6272a4></span><span style=color:#6272a4>/*
+</span><span style=color:#6272a4>&#39;db&#39;=&gt;array(
+</span><span style=color:#6272a4>    &#39;connectionString&#39; =&gt; &#39;mysql:host=localhost;dbname=testdrive&#39;,
+</span><span style=color:#6272a4>    &#39;emulatePrepare&#39; =&gt; true,
+</span><span style=color:#6272a4>    &#39;username&#39; =&gt; &#39;root&#39;,
+</span><span style=color:#6272a4>    &#39;password&#39; =&gt; &#39;&#39;,
+</span><span style=color:#6272a4>    &#39;charset&#39; =&gt; &#39;utf8&#39;,
+</span><span style=color:#6272a4>),
+</span><span style=color:#6272a4>*/</span>
+</code></pre></td></tr></table></div></div><p>把上面一段注释掉，下面一段开启，修改之后如下：</p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 2
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 3
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 4
@@ -61,21 +61,21 @@
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">13
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">14
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">15
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-php data-lang=php><span style=color:#09f;font-style:italic>/*
-</span><span style=color:#09f;font-style:italic>&#39;db&#39;=&gt;array(
-</span><span style=color:#09f;font-style:italic>    &#39;connectionString&#39; =&gt; &#39;sqlite:&#39;.dirname(__FILE__).&#39;/../data/testdrive.db&#39;,
-</span><span style=color:#09f;font-style:italic>),
-</span><span style=color:#09f;font-style:italic>*/</span>
-<span style=color:#09f;font-style:italic>// uncomment the following to use a MySQL database
-</span><span style=color:#09f;font-style:italic></span>
-<span style=color:#c30>&#39;db&#39;</span><span style=color:#555>=&gt;</span><span style=color:#069;font-weight:700>array</span>(
-    <span style=color:#c30>&#39;connectionString&#39;</span> <span style=color:#555>=&gt;</span> <span style=color:#c30>&#39;mysql:host=localhost;dbname=appyii&#39;</span>,
-    <span style=color:#c30>&#39;emulatePrepare&#39;</span> <span style=color:#555>=&gt;</span> <span style=color:#069;font-weight:700>true</span>,
-    <span style=color:#c30>&#39;username&#39;</span> <span style=color:#555>=&gt;</span> <span style=color:#c30>&#39;root&#39;</span>,
-    <span style=color:#c30>&#39;password&#39;</span> <span style=color:#555>=&gt;</span> <span style=color:#c30>&#39;&#39;</span>,
-    <span style=color:#c30>&#39;charset&#39;</span> <span style=color:#555>=&gt;</span> <span style=color:#c30>&#39;utf8&#39;</span>,
-    <span style=color:#c30>&#39;tablePrefix&#39;</span><span style=color:#555>=&gt;</span><span style=color:#c30>&#39;fe_&#39;</span>,<span style=color:#09f;font-style:italic>//指表前缀，需要的自行添加
-</span><span style=color:#09f;font-style:italic></span>),
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-php data-lang=php><span style=color:#6272a4>/*
+</span><span style=color:#6272a4>&#39;db&#39;=&gt;array(
+</span><span style=color:#6272a4>    &#39;connectionString&#39; =&gt; &#39;sqlite:&#39;.dirname(__FILE__).&#39;/../data/testdrive.db&#39;,
+</span><span style=color:#6272a4>),
+</span><span style=color:#6272a4>*/</span>
+<span style=color:#6272a4>// uncomment the following to use a MySQL database
+</span><span style=color:#6272a4></span>
+<span style=color:#f1fa8c>&#39;db&#39;</span><span style=color:#ff79c6>=&gt;</span><span style=color:#ff79c6>array</span>(
+    <span style=color:#f1fa8c>&#39;connectionString&#39;</span> <span style=color:#ff79c6>=&gt;</span> <span style=color:#f1fa8c>&#39;mysql:host=localhost;dbname=appyii&#39;</span>,
+    <span style=color:#f1fa8c>&#39;emulatePrepare&#39;</span> <span style=color:#ff79c6>=&gt;</span> <span style=color:#ff79c6>true</span>,
+    <span style=color:#f1fa8c>&#39;username&#39;</span> <span style=color:#ff79c6>=&gt;</span> <span style=color:#f1fa8c>&#39;root&#39;</span>,
+    <span style=color:#f1fa8c>&#39;password&#39;</span> <span style=color:#ff79c6>=&gt;</span> <span style=color:#f1fa8c>&#39;&#39;</span>,
+    <span style=color:#f1fa8c>&#39;charset&#39;</span> <span style=color:#ff79c6>=&gt;</span> <span style=color:#f1fa8c>&#39;utf8&#39;</span>,
+    <span style=color:#f1fa8c>&#39;tablePrefix&#39;</span><span style=color:#ff79c6>=&gt;</span><span style=color:#f1fa8c>&#39;fe_&#39;</span>,<span style=color:#6272a4>//指表前缀，需要的自行添加
+</span><span style=color:#6272a4></span>),
 </code></pre></td></tr></table></div></div><p>dbname:指数据库名。</p><hr class="bg-gray-300 mt-8"><div class=pt-4><p class=text-center><button id=btn-donate class="px-5 py-2 inline-block rounded hover:bg-red-600 bg-red-400 text-white" for=reward>打赏</button></p><div class="flex-auto mt-2 mx-2 hidden" id=donate-image><div class="w-full px-2 my-2"><div class="bg-white dark:bg-black"><img class="h-48 shadow object-cover w-auto mx-auto" loading=lazy src=https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424153510.png alt=微信打赏><div class="text-center text-gray-500">微信打赏</div></div></div><div class="w-full px-2 my-2"><div class="bg-white dark:bg-black"><img class="h-48 shadow object-cover w-auto mx-auto" loading=lazy src=https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424153431.png alt=支付宝打赏><div class="text-center text-gray-500">支付宝打赏</div></div></div></div></div><div class="border-l-4 border-red-400 mx-auto text-gray-500"><div class=copyright><ul class=list-none><li><strong>原文作者：</strong>
 <a rel=author href=https://blog.forecho.com>forecho</a></li><li style=word-break:break-all><strong>原文链接：</strong>
 <a href=https://blog.forecho.com/yii-xue-xi-bi-ji-er-xiu-gai-pei-zhi-wen-jian.html>https://blog.forecho.com/yii-xue-xi-bi-ji-er-xiu-gai-pei-zhi-wen-jian.html</a></li><li><strong>版权声明：</strong>本作品采用

@@ -91,17 +91,17 @@ public function testComputePermission()
 1725 字</span>
 <span class="hidden xl:inline-block">|
 <i class="iconfont icon-clock-o"></i>
-4 分钟读完</span></p></div><div class="md:hidden dark:text-gray-100"><p class="text-base font-bold py-2 yg:pb-6 text-gray-700 dark:text-gray-300">文章目录</p><div class="sticky text-sm" style=top:6em id=menu-content><nav id=TableOfContents><ul><li><a href=#引言>引言</a></li><li><a href=#单元测试>单元测试</a><ul><li><a href=#基本的断言>基本的断言</a></li><li><a href=#断言返回数据数组包含某个键值>断言返回数据数组包含某个键值</a></li><li><a href=#多组数据测试>多组数据测试</a></li><li><a href=#console-测试>Console 测试</a></li><li><a href=#断言类>断言类</a></li><li><a href=#异常测试>异常测试</a></li><li><a href=#队列测试>队列测试</a></li><li><a href=#api-接口测试>API 接口测试</a></li><li><a href=#第三方接口依赖测试>第三方接口依赖测试</a></li><li><a href=#关于清除测试数据>关于清除测试数据</a></li><li><a href=#加速跑单元测试>加速跑单元测试</a></li></ul></li><li><a href=#最后>最后</a></li></ul></nav></div></div><div class="post-content dark:text-white"><h2 id=引言>引言</h2><p>新公司入职第一件事就是让我给一个用 Laravel 框架开发的项目写单元测试，我会说『当了这么多年的程序员没写过单元测试吗？』，于是我一边学习一边写，这篇文章是我写了一个月单元测试的经验分享。</p><h2 id=单元测试>单元测试</h2><h3 id=基本的断言>基本的断言</h3><ul><li>断言两边数据相等使用 <code>assertEquals($a, $a1)</code></li></ul><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
+4 分钟读完</span></p></div><div class="md:hidden dark:text-gray-100"><p class="text-base font-bold py-2 yg:pb-6 text-gray-700 dark:text-gray-300">文章目录</p><div class="sticky text-sm" style=top:6em id=menu-content><nav id=TableOfContents><ul><li><a href=#引言>引言</a></li><li><a href=#单元测试>单元测试</a><ul><li><a href=#基本的断言>基本的断言</a></li><li><a href=#断言返回数据数组包含某个键值>断言返回数据数组包含某个键值</a></li><li><a href=#多组数据测试>多组数据测试</a></li><li><a href=#console-测试>Console 测试</a></li><li><a href=#断言类>断言类</a></li><li><a href=#异常测试>异常测试</a></li><li><a href=#队列测试>队列测试</a></li><li><a href=#api-接口测试>API 接口测试</a></li><li><a href=#第三方接口依赖测试>第三方接口依赖测试</a></li><li><a href=#关于清除测试数据>关于清除测试数据</a></li><li><a href=#加速跑单元测试>加速跑单元测试</a></li></ul></li><li><a href=#最后>最后</a></li></ul></nav></div></div><div class="post-content dark:text-white"><h2 id=引言>引言</h2><p>新公司入职第一件事就是让我给一个用 Laravel 框架开发的项目写单元测试，我会说『当了这么多年的程序员没写过单元测试吗？』，于是我一边学习一边写，这篇文章是我写了一个月单元测试的经验分享。</p><h2 id=单元测试>单元测试</h2><h3 id=基本的断言>基本的断言</h3><ul><li>断言两边数据相等使用 <code>assertEquals($a, $a1)</code></li></ul><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">2
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">3
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">4
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">5
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-fallback data-lang=fallback>public function testComputePermission()
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-fallback data-lang=fallback>public function testComputePermission()
 {
     $totalPermission = TCH::computePermission([PointsAccountPermissions::TRANSFER]);
     $this-&gt;assertEquals($totalPermission, PointsAccountPermissions::TRANSFER);
 }
-</code></pre></td></tr></table></div></div><ul><li>断言结果是 <code>true</code> 使用 <code>assertTrue($a)</code>，与之相反的是 <code>assertFalse($b)</code></li><li>断言文件是否存在使用 <code>assertFileExists($path)</code></li><li>断言数据库没有数据使用 <code>assertDatabaseMissing('user', [])</code></li><li>断言两个类一样使用 <code>assertSame($a, $b)</code></li><li>……</li></ul><h3 id=断言返回数据数组包含某个键值>断言返回数据数组包含某个键值</h3><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
+</code></pre></td></tr></table></div></div><ul><li>断言结果是 <code>true</code> 使用 <code>assertTrue($a)</code>，与之相反的是 <code>assertFalse($b)</code></li><li>断言文件是否存在使用 <code>assertFileExists($path)</code></li><li>断言数据库没有数据使用 <code>assertDatabaseMissing('user', [])</code></li><li>断言两个类一样使用 <code>assertSame($a, $b)</code></li><li>……</li></ul><h3 id=断言返回数据数组包含某个键值>断言返回数据数组包含某个键值</h3><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 2
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 3
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 4
@@ -114,20 +114,20 @@ public function testComputePermission()
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">11
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">12
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">13
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-php data-lang=php><span style=color:#c30;font-style:italic>/**
-</span><span style=color:#c30;font-style:italic>* @throws \App\Exceptions\ThirdPartyServiceErrorException
-</span><span style=color:#c30;font-style:italic>*/</span>
-<span style=color:#069;font-weight:700>public</span> <span style=color:#069;font-weight:700>function</span> <span style=color:#c0f>testDecodeUnionId</span>()
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-php data-lang=php><span style=color:#f1fa8c>/**
+</span><span style=color:#f1fa8c>* @throws \App\Exceptions\ThirdPartyServiceErrorException
+</span><span style=color:#f1fa8c>*/</span>
+<span style=color:#ff79c6>public</span> <span style=color:#ff79c6>function</span> <span style=color:#50fa7b>testDecodeUnionId</span>()
 {
-    <span style=color:#033>$accountBaseService</span> <span style=color:#555>=</span> app()<span style=color:#555>-&gt;</span><span style=color:#309>make</span>(AccountBaseService<span style=color:#555>::</span><span style=color:#309>class</span>);
-    <span style=color:#033>$unionId</span> <span style=color:#555>=</span> mt_rand(<span style=color:#f60>1</span>, <span style=color:#f60>100</span>);
-    <span style=color:#033>$response</span> <span style=color:#555>=</span> <span style=color:#033>$accountBaseService</span><span style=color:#555>-&gt;</span><span style=color:#309>decodeUnionId</span>([<span style=color:#033>$unionId</span>]);
-    <span style=color:#033>$this</span><span style=color:#555>-&gt;</span><span style=color:#309>assertArrayHasKey</span>(<span style=color:#c30>&#39;data&#39;</span>, <span style=color:#033>$response</span>);
-    <span style=color:#033>$data</span> <span style=color:#555>=</span> data_get(<span style=color:#033>$response</span>, <span style=color:#c30>&#39;data.list.0&#39;</span>);
-    <span style=color:#033>$this</span><span style=color:#555>-&gt;</span><span style=color:#309>assertArrayHasKey</span>(<span style=color:#c30>&#39;brand_id&#39;</span>, <span style=color:#033>$data</span>);
-    <span style=color:#033>$this</span><span style=color:#555>-&gt;</span><span style=color:#309>assertArrayHasKey</span>(<span style=color:#c30>&#39;account_id&#39;</span>, <span style=color:#033>$data</span>);
+    <span style=color:#8be9fd;font-style:italic>$accountBaseService</span> <span style=color:#ff79c6>=</span> app()<span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>make</span>(AccountBaseService<span style=color:#ff79c6>::</span><span style=color:#50fa7b>class</span>);
+    <span style=color:#8be9fd;font-style:italic>$unionId</span> <span style=color:#ff79c6>=</span> mt_rand(<span style=color:#bd93f9>1</span>, <span style=color:#bd93f9>100</span>);
+    <span style=color:#8be9fd;font-style:italic>$response</span> <span style=color:#ff79c6>=</span> <span style=color:#8be9fd;font-style:italic>$accountBaseService</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>decodeUnionId</span>([<span style=color:#8be9fd;font-style:italic>$unionId</span>]);
+    <span style=color:#8be9fd;font-style:italic>$this</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>assertArrayHasKey</span>(<span style=color:#f1fa8c>&#39;data&#39;</span>, <span style=color:#8be9fd;font-style:italic>$response</span>);
+    <span style=color:#8be9fd;font-style:italic>$data</span> <span style=color:#ff79c6>=</span> data_get(<span style=color:#8be9fd;font-style:italic>$response</span>, <span style=color:#f1fa8c>&#39;data.list.0&#39;</span>);
+    <span style=color:#8be9fd;font-style:italic>$this</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>assertArrayHasKey</span>(<span style=color:#f1fa8c>&#39;brand_id&#39;</span>, <span style=color:#8be9fd;font-style:italic>$data</span>);
+    <span style=color:#8be9fd;font-style:italic>$this</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>assertArrayHasKey</span>(<span style=color:#f1fa8c>&#39;account_id&#39;</span>, <span style=color:#8be9fd;font-style:italic>$data</span>);
 }
-</code></pre></td></tr></table></div></div><h3 id=多组数据测试>多组数据测试</h3><p>多组数据可以使用 <code>@dataProvider</code> 的方式传入数据来测试。比方说我测试一个金额，只支持正数、两位小数。</p><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
+</code></pre></td></tr></table></div></div><h3 id=多组数据测试>多组数据测试</h3><p>多组数据可以使用 <code>@dataProvider</code> 的方式传入数据来测试。比方说我测试一个金额，只支持正数、两位小数。</p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 2
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 3
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 4
@@ -189,69 +189,69 @@ public function testComputePermission()
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">60
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">61
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">62
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-php data-lang=php><span style=color:#069;font-weight:700>namespace</span> App\Rules\Rules;
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-php data-lang=php><span style=color:#ff79c6>namespace</span> App\Rules\Rules;
 
-<span style=color:#069;font-weight:700>use</span> App\Rules\AmountRule;
-<span style=color:#069;font-weight:700>use</span> PHPUnit\Framework\TestCase;
+<span style=color:#ff79c6>use</span> App\Rules\AmountRule;
+<span style=color:#ff79c6>use</span> PHPUnit\Framework\TestCase;
 
-<span style=color:#069;font-weight:700>class</span> <span style=color:#0a8;font-weight:700>AmountRuleTest</span> <span style=color:#069;font-weight:700>extends</span> TestCase
+<span style=color:#ff79c6>class</span> <span style=color:#50fa7b>AmountRuleTest</span> <span style=color:#ff79c6>extends</span> TestCase
 {
-    <span style=color:#c30;font-style:italic>/**
-</span><span style=color:#c30;font-style:italic>     * @var AmountRule()
-</span><span style=color:#c30;font-style:italic>     */</span>
-    <span style=color:#069;font-weight:700>protected</span> <span style=color:#033>$rule</span>;
+    <span style=color:#f1fa8c>/**
+</span><span style=color:#f1fa8c>     * @var AmountRule()
+</span><span style=color:#f1fa8c>     */</span>
+    <span style=color:#ff79c6>protected</span> <span style=color:#8be9fd;font-style:italic>$rule</span>;
 
-    <span style=color:#069;font-weight:700>public</span> <span style=color:#069;font-weight:700>function</span> <span style=color:#c0f>setUp</span>()
+    <span style=color:#ff79c6>public</span> <span style=color:#ff79c6>function</span> <span style=color:#50fa7b>setUp</span>()
     {
-        <span style=color:#069;font-weight:700>parent</span><span style=color:#555>::</span><span style=color:#309>setUp</span>();
-        <span style=color:#033>$this</span><span style=color:#555>-&gt;</span><span style=color:#309>rule</span> <span style=color:#555>=</span> <span style=color:#069;font-weight:700>new</span> AmountRule();
+        <span style=color:#ff79c6>parent</span><span style=color:#ff79c6>::</span><span style=color:#50fa7b>setUp</span>();
+        <span style=color:#8be9fd;font-style:italic>$this</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>rule</span> <span style=color:#ff79c6>=</span> <span style=color:#ff79c6>new</span> AmountRule();
     }
 
-    <span style=color:#c30;font-style:italic>/**
-</span><span style=color:#c30;font-style:italic>     *
-</span><span style=color:#c30;font-style:italic>     * @dataProvider evenPassData
-</span><span style=color:#c30;font-style:italic>     * @param int|float $int
-</span><span style=color:#c30;font-style:italic>     * @return void
-</span><span style=color:#c30;font-style:italic>     */</span>
-    <span style=color:#069;font-weight:700>public</span> <span style=color:#069;font-weight:700>function</span> <span style=color:#c0f>testEvenPass</span>(<span style=color:#033>$int</span>)
+    <span style=color:#f1fa8c>/**
+</span><span style=color:#f1fa8c>     *
+</span><span style=color:#f1fa8c>     * @dataProvider evenPassData
+</span><span style=color:#f1fa8c>     * @param int|float $int
+</span><span style=color:#f1fa8c>     * @return void
+</span><span style=color:#f1fa8c>     */</span>
+    <span style=color:#ff79c6>public</span> <span style=color:#ff79c6>function</span> <span style=color:#50fa7b>testEvenPass</span>(<span style=color:#8be9fd;font-style:italic>$int</span>)
     {
-        <span style=color:#033>$this</span><span style=color:#555>-&gt;</span><span style=color:#309>assertTrue</span>(<span style=color:#033>$this</span><span style=color:#555>-&gt;</span><span style=color:#309>rule</span><span style=color:#555>-&gt;</span><span style=color:#309>passes</span>(<span style=color:#c30>&#39;test&#39;</span>, <span style=color:#033>$int</span>));
+        <span style=color:#8be9fd;font-style:italic>$this</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>assertTrue</span>(<span style=color:#8be9fd;font-style:italic>$this</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>rule</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>passes</span>(<span style=color:#f1fa8c>&#39;test&#39;</span>, <span style=color:#8be9fd;font-style:italic>$int</span>));
     }
 
-    <span style=color:#c30;font-style:italic>/**
-</span><span style=color:#c30;font-style:italic>     *
-</span><span style=color:#c30;font-style:italic>     * @dataProvider evenFailData
-</span><span style=color:#c30;font-style:italic>     * @param int|float $int
-</span><span style=color:#c30;font-style:italic>     * @return void
-</span><span style=color:#c30;font-style:italic>     */</span>
-    <span style=color:#069;font-weight:700>public</span> <span style=color:#069;font-weight:700>function</span> <span style=color:#c0f>testEvenFail</span>(<span style=color:#033>$int</span>)
+    <span style=color:#f1fa8c>/**
+</span><span style=color:#f1fa8c>     *
+</span><span style=color:#f1fa8c>     * @dataProvider evenFailData
+</span><span style=color:#f1fa8c>     * @param int|float $int
+</span><span style=color:#f1fa8c>     * @return void
+</span><span style=color:#f1fa8c>     */</span>
+    <span style=color:#ff79c6>public</span> <span style=color:#ff79c6>function</span> <span style=color:#50fa7b>testEvenFail</span>(<span style=color:#8be9fd;font-style:italic>$int</span>)
     {
-        <span style=color:#033>$this</span><span style=color:#555>-&gt;</span><span style=color:#309>assertFalse</span>(<span style=color:#033>$this</span><span style=color:#555>-&gt;</span><span style=color:#309>rule</span><span style=color:#555>-&gt;</span><span style=color:#309>passes</span>(<span style=color:#c30>&#39;test&#39;</span>, <span style=color:#033>$int</span>));
+        <span style=color:#8be9fd;font-style:italic>$this</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>assertFalse</span>(<span style=color:#8be9fd;font-style:italic>$this</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>rule</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>passes</span>(<span style=color:#f1fa8c>&#39;test&#39;</span>, <span style=color:#8be9fd;font-style:italic>$int</span>));
     }
 
-    <span style=color:#069;font-weight:700>public</span> <span style=color:#069;font-weight:700>function</span> <span style=color:#c0f>evenPassData</span>()
+    <span style=color:#ff79c6>public</span> <span style=color:#ff79c6>function</span> <span style=color:#50fa7b>evenPassData</span>()
     {
-        <span style=color:#069;font-weight:700>return</span> [
-            [<span style=color:#f60>100</span>],
-            [<span style=color:#f60>100.11</span>],
-            [<span style=color:#f60>2</span>],
-            [<span style=color:#f60>2.00</span>],
-            [<span style=color:#f60>2.01</span>],
-            [<span style=color:#f60>2.1</span>],
+        <span style=color:#ff79c6>return</span> [
+            [<span style=color:#bd93f9>100</span>],
+            [<span style=color:#bd93f9>100.11</span>],
+            [<span style=color:#bd93f9>2</span>],
+            [<span style=color:#bd93f9>2.00</span>],
+            [<span style=color:#bd93f9>2.01</span>],
+            [<span style=color:#bd93f9>2.1</span>],
         ];
     }
 
-    <span style=color:#069;font-weight:700>public</span> <span style=color:#069;font-weight:700>function</span> <span style=color:#c0f>evenFailData</span>()
+    <span style=color:#ff79c6>public</span> <span style=color:#ff79c6>function</span> <span style=color:#50fa7b>evenFailData</span>()
     {
-        <span style=color:#069;font-weight:700>return</span> [
-            [<span style=color:#555>-</span><span style=color:#f60>1</span>],
-            [<span style=color:#f60>1.111</span>],
-            [<span style=color:#555>-</span><span style=color:#f60>1.1</span>],
-            [<span style=color:#f60>0</span>],
+        <span style=color:#ff79c6>return</span> [
+            [<span style=color:#ff79c6>-</span><span style=color:#bd93f9>1</span>],
+            [<span style=color:#bd93f9>1.111</span>],
+            [<span style=color:#ff79c6>-</span><span style=color:#bd93f9>1.1</span>],
+            [<span style=color:#bd93f9>0</span>],
         ];
     }
 }
-</code></pre></td></tr></table></div></div><h3 id=console-测试>Console 测试</h3><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
+</code></pre></td></tr></table></div></div><h3 id=console-测试>Console 测试</h3><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 2
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 3
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 4
@@ -288,44 +288,44 @@ public function testComputePermission()
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">35
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">36
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">37
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-php data-lang=php><span style=color:#069;font-weight:700>namespace</span> App\Console\Commands;
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-php data-lang=php><span style=color:#ff79c6>namespace</span> App\Console\Commands;
 
-<span style=color:#069;font-weight:700>use</span> App\Models\ClientApp;
-<span style=color:#069;font-weight:700>use</span> Illuminate\Console\Command;
-<span style=color:#069;font-weight:700>use</span> Webpatser\Uuid\Uuid;
+<span style=color:#ff79c6>use</span> App\Models\ClientApp;
+<span style=color:#ff79c6>use</span> Illuminate\Console\Command;
+<span style=color:#ff79c6>use</span> Webpatser\Uuid\Uuid;
 
-<span style=color:#069;font-weight:700>class</span> <span style=color:#0a8;font-weight:700>CreateClient</span> <span style=color:#069;font-weight:700>extends</span> Command
+<span style=color:#ff79c6>class</span> <span style=color:#50fa7b>CreateClient</span> <span style=color:#ff79c6>extends</span> Command
 {
-    <span style=color:#09f;font-style:italic>//  something code
-</span><span style=color:#09f;font-style:italic></span>
-    <span style=color:#c30;font-style:italic>/**
-</span><span style=color:#c30;font-style:italic>     * Execute the console command.
-</span><span style=color:#c30;font-style:italic>     *
-</span><span style=color:#c30;font-style:italic>     * @return mixed
-</span><span style=color:#c30;font-style:italic>     * @throws \Exception
-</span><span style=color:#c30;font-style:italic>     */</span>
-    <span style=color:#069;font-weight:700>public</span> <span style=color:#069;font-weight:700>function</span> <span style=color:#c0f>handle</span>()
+    <span style=color:#6272a4>//  something code
+</span><span style=color:#6272a4></span>
+    <span style=color:#f1fa8c>/**
+</span><span style=color:#f1fa8c>     * Execute the console command.
+</span><span style=color:#f1fa8c>     *
+</span><span style=color:#f1fa8c>     * @return mixed
+</span><span style=color:#f1fa8c>     * @throws \Exception
+</span><span style=color:#f1fa8c>     */</span>
+    <span style=color:#ff79c6>public</span> <span style=color:#ff79c6>function</span> <span style=color:#50fa7b>handle</span>()
     {
-        <span style=color:#033>$title</span> <span style=color:#555>=</span> <span style=color:#033>$this</span><span style=color:#555>-&gt;</span><span style=color:#309>ask</span>(<span style=color:#c30>&#39;客户端应用名称&#39;</span>);
-        <span style=color:#033>$desc</span> <span style=color:#555>=</span> <span style=color:#033>$this</span><span style=color:#555>-&gt;</span><span style=color:#309>ask</span>(<span style=color:#c30>&#39;客户端应用描述&#39;</span>);
-        <span style=color:#033>$access</span> <span style=color:#555>=</span> <span style=color:#033>$this</span><span style=color:#555>-&gt;</span><span style=color:#309>ask</span>(<span style=color:#c30>&#39;access (1: 私有  2: 内部　３:　公开)&#39;</span>);
+        <span style=color:#8be9fd;font-style:italic>$title</span> <span style=color:#ff79c6>=</span> <span style=color:#8be9fd;font-style:italic>$this</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>ask</span>(<span style=color:#f1fa8c>&#39;客户端应用名称&#39;</span>);
+        <span style=color:#8be9fd;font-style:italic>$desc</span> <span style=color:#ff79c6>=</span> <span style=color:#8be9fd;font-style:italic>$this</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>ask</span>(<span style=color:#f1fa8c>&#39;客户端应用描述&#39;</span>);
+        <span style=color:#8be9fd;font-style:italic>$access</span> <span style=color:#ff79c6>=</span> <span style=color:#8be9fd;font-style:italic>$this</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>ask</span>(<span style=color:#f1fa8c>&#39;access (1: 私有  2: 内部　３:　公开)&#39;</span>);
 
-        <span style=color:#033>$appId</span> <span style=color:#555>=</span> Uuid<span style=color:#555>::</span><span style=color:#309>generate</span>();
-        <span style=color:#033>$secret</span> <span style=color:#555>=</span> str_random(<span style=color:#f60>64</span>);
+        <span style=color:#8be9fd;font-style:italic>$appId</span> <span style=color:#ff79c6>=</span> Uuid<span style=color:#ff79c6>::</span><span style=color:#50fa7b>generate</span>();
+        <span style=color:#8be9fd;font-style:italic>$secret</span> <span style=color:#ff79c6>=</span> str_random(<span style=color:#bd93f9>64</span>);
 
-        <span style=color:#033>$data</span> <span style=color:#555>=</span> [
-            <span style=color:#09f;font-style:italic>// something code
-</span><span style=color:#09f;font-style:italic></span>        ];
+        <span style=color:#8be9fd;font-style:italic>$data</span> <span style=color:#ff79c6>=</span> [
+            <span style=color:#6272a4>// something code
+</span><span style=color:#6272a4></span>        ];
 
-        ClientApp<span style=color:#555>::</span><span style=color:#309>create</span>(<span style=color:#033>$data</span>);
+        ClientApp<span style=color:#ff79c6>::</span><span style=color:#50fa7b>create</span>(<span style=color:#8be9fd;font-style:italic>$data</span>);
 
-        <span style=color:#033>$this</span><span style=color:#555>-&gt;</span><span style=color:#309>info</span>(<span style=color:#c30>&#34;Done!</span><span style=color:#c30;font-weight:700>\n</span><span style=color:#c30>&#34;</span>);
-        <span style=color:#033>$this</span><span style=color:#555>-&gt;</span><span style=color:#309>info</span>(<span style=color:#c30>&#39;client_id: &#39;</span> <span style=color:#555>.</span> <span style=color:#033>$appId</span>);
-        <span style=color:#033>$this</span><span style=color:#555>-&gt;</span><span style=color:#309>info</span>(<span style=color:#c30>&#39;secret: &#39;</span> <span style=color:#555>.</span> <span style=color:#033>$secret</span>);
+        <span style=color:#8be9fd;font-style:italic>$this</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>info</span>(<span style=color:#f1fa8c>&#34;Done!</span><span style=color:#f1fa8c>\n</span><span style=color:#f1fa8c>&#34;</span>);
+        <span style=color:#8be9fd;font-style:italic>$this</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>info</span>(<span style=color:#f1fa8c>&#39;client_id: &#39;</span> <span style=color:#ff79c6>.</span> <span style=color:#8be9fd;font-style:italic>$appId</span>);
+        <span style=color:#8be9fd;font-style:italic>$this</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>info</span>(<span style=color:#f1fa8c>&#39;secret: &#39;</span> <span style=color:#ff79c6>.</span> <span style=color:#8be9fd;font-style:italic>$secret</span>);
     }
 }
 
-</code></pre></td></tr></table></div></div><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
+</code></pre></td></tr></table></div></div><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 2
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 3
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 4
@@ -344,26 +344,26 @@ public function testComputePermission()
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">17
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">18
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">19
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-php data-lang=php><span style=color:#069;font-weight:700>public</span> <span style=color:#069;font-weight:700>function</span> <span style=color:#c0f>testCreateClient</span>()
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-php data-lang=php><span style=color:#ff79c6>public</span> <span style=color:#ff79c6>function</span> <span style=color:#50fa7b>testCreateClient</span>()
 {
-    <span style=color:#033>$application</span> <span style=color:#555>=</span> <span style=color:#069;font-weight:700>new</span> Application();
+    <span style=color:#8be9fd;font-style:italic>$application</span> <span style=color:#ff79c6>=</span> <span style=color:#ff79c6>new</span> Application();
 
-    <span style=color:#033>$testedCommand</span> <span style=color:#555>=</span> <span style=color:#033>$this</span><span style=color:#555>-&gt;</span><span style=color:#309>app</span><span style=color:#555>-&gt;</span><span style=color:#309>make</span>(CreateClient<span style=color:#555>::</span><span style=color:#309>class</span>);
-    <span style=color:#033>$testedCommand</span><span style=color:#555>-&gt;</span><span style=color:#309>setLaravel</span>(app());
-    <span style=color:#033>$application</span><span style=color:#555>-&gt;</span><span style=color:#309>add</span>(<span style=color:#033>$testedCommand</span>);
+    <span style=color:#8be9fd;font-style:italic>$testedCommand</span> <span style=color:#ff79c6>=</span> <span style=color:#8be9fd;font-style:italic>$this</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>app</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>make</span>(CreateClient<span style=color:#ff79c6>::</span><span style=color:#50fa7b>class</span>);
+    <span style=color:#8be9fd;font-style:italic>$testedCommand</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>setLaravel</span>(app());
+    <span style=color:#8be9fd;font-style:italic>$application</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>add</span>(<span style=color:#8be9fd;font-style:italic>$testedCommand</span>);
 
-    <span style=color:#033>$commandTester</span> <span style=color:#555>=</span> <span style=color:#069;font-weight:700>new</span> CommandTester(<span style=color:#033>$testedCommand</span>);
-    <span style=color:#033>$commandTester</span><span style=color:#555>-&gt;</span><span style=color:#309>setInputs</span>([<span style=color:#c30>&#39;测试&#39;</span>, <span style=color:#c30>&#39;单元测试&#39;</span>, <span style=color:#f60>1</span>]);
-    <span style=color:#033>$commandTester</span><span style=color:#555>-&gt;</span><span style=color:#309>execute</span>([<span style=color:#c30>&#39;command&#39;</span> <span style=color:#555>=&gt;</span> <span style=color:#033>$testedCommand</span><span style=color:#555>-&gt;</span><span style=color:#309>getName</span>()]);
+    <span style=color:#8be9fd;font-style:italic>$commandTester</span> <span style=color:#ff79c6>=</span> <span style=color:#ff79c6>new</span> CommandTester(<span style=color:#8be9fd;font-style:italic>$testedCommand</span>);
+    <span style=color:#8be9fd;font-style:italic>$commandTester</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>setInputs</span>([<span style=color:#f1fa8c>&#39;测试&#39;</span>, <span style=color:#f1fa8c>&#39;单元测试&#39;</span>, <span style=color:#bd93f9>1</span>]);
+    <span style=color:#8be9fd;font-style:italic>$commandTester</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>execute</span>([<span style=color:#f1fa8c>&#39;command&#39;</span> <span style=color:#ff79c6>=&gt;</span> <span style=color:#8be9fd;font-style:italic>$testedCommand</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>getName</span>()]);
 
-    <span style=color:#033>$this</span><span style=color:#555>-&gt;</span><span style=color:#309>assertRegExp</span>(<span style=color:#c30>&#39;/client_id: \w{8}(-\w{4}){3}-\w{12}\\n/&#39;</span>, <span style=color:#033>$commandTester</span><span style=color:#555>-&gt;</span><span style=color:#309>getDisplay</span>());
-    <span style=color:#033>$this</span><span style=color:#555>-&gt;</span><span style=color:#309>assertDatabaseHas</span>(ClientApp<span style=color:#555>::</span><span style=color:#309>TABLE_NAME</span>, [
-        <span style=color:#c30>&#39;title&#39;</span> <span style=color:#555>=&gt;</span> <span style=color:#c30>&#39;测试&#39;</span>,
-        <span style=color:#c30>&#39;description&#39;</span> <span style=color:#555>=&gt;</span> <span style=color:#c30>&#39;单元测试&#39;</span>,
-        <span style=color:#c30>&#39;access&#39;</span> <span style=color:#555>=&gt;</span> <span style=color:#f60>1</span>,
+    <span style=color:#8be9fd;font-style:italic>$this</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>assertRegExp</span>(<span style=color:#f1fa8c>&#39;/client_id: \w{8}(-\w{4}){3}-\w{12}\\n/&#39;</span>, <span style=color:#8be9fd;font-style:italic>$commandTester</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>getDisplay</span>());
+    <span style=color:#8be9fd;font-style:italic>$this</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>assertDatabaseHas</span>(ClientApp<span style=color:#ff79c6>::</span><span style=color:#50fa7b>TABLE_NAME</span>, [
+        <span style=color:#f1fa8c>&#39;title&#39;</span> <span style=color:#ff79c6>=&gt;</span> <span style=color:#f1fa8c>&#39;测试&#39;</span>,
+        <span style=color:#f1fa8c>&#39;description&#39;</span> <span style=color:#ff79c6>=&gt;</span> <span style=color:#f1fa8c>&#39;单元测试&#39;</span>,
+        <span style=color:#f1fa8c>&#39;access&#39;</span> <span style=color:#ff79c6>=&gt;</span> <span style=color:#bd93f9>1</span>,
     ]);
 }
-</code></pre></td></tr></table></div></div><h3 id=断言类>断言类</h3><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
+</code></pre></td></tr></table></div></div><h3 id=断言类>断言类</h3><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">2
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">3
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">4
@@ -372,16 +372,16 @@ public function testComputePermission()
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">7
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">8
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">9
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-php data-lang=php><span style=color:#c30;font-style:italic>/**
-</span><span style=color:#c30;font-style:italic>* @test
-</span><span style=color:#c30;font-style:italic>*/</span>
-<span style=color:#069;font-weight:700>public</span> <span style=color:#069;font-weight:700>function</span> <span style=color:#c0f>getAccountByUnionId</span>()
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-php data-lang=php><span style=color:#f1fa8c>/**
+</span><span style=color:#f1fa8c>* @test
+</span><span style=color:#f1fa8c>*/</span>
+<span style=color:#ff79c6>public</span> <span style=color:#ff79c6>function</span> <span style=color:#50fa7b>getAccountByUnionId</span>()
 {
-    <span style=color:#033>$service</span> <span style=color:#555>=</span> <span style=color:#069;font-weight:700>new</span> PointsAccountService();
-    <span style=color:#033>$record</span> <span style=color:#555>=</span> <span style=color:#033>$service</span><span style=color:#555>-&gt;</span><span style=color:#309>getAccountByUnionId</span>(<span style=color:#f60>1</span>);
-    <span style=color:#033>$this</span><span style=color:#555>-&gt;</span><span style=color:#309>assertInstanceOf</span>(PointsAccount<span style=color:#555>::</span><span style=color:#309>class</span>, <span style=color:#033>$record</span>);
+    <span style=color:#8be9fd;font-style:italic>$service</span> <span style=color:#ff79c6>=</span> <span style=color:#ff79c6>new</span> PointsAccountService();
+    <span style=color:#8be9fd;font-style:italic>$record</span> <span style=color:#ff79c6>=</span> <span style=color:#8be9fd;font-style:italic>$service</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>getAccountByUnionId</span>(<span style=color:#bd93f9>1</span>);
+    <span style=color:#8be9fd;font-style:italic>$this</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>assertInstanceOf</span>(PointsAccount<span style=color:#ff79c6>::</span><span style=color:#50fa7b>class</span>, <span style=color:#8be9fd;font-style:italic>$record</span>);
 }
-</code></pre></td></tr></table></div></div><blockquote><p>PS: 方法含有 test 或者使用注释 <code>@test</code> 都可以识别是单元测试的一个方法。</p></blockquote><h3 id=异常测试>异常测试</h3><p>默认没有测试异常的方法，所以我们自己实现一个。</p><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
+</code></pre></td></tr></table></div></div><blockquote><p>PS: 方法含有 test 或者使用注释 <code>@test</code> 都可以识别是单元测试的一个方法。</p></blockquote><h3 id=异常测试>异常测试</h3><p>默认没有测试异常的方法，所以我们自己实现一个。</p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 2
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 3
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 4
@@ -398,38 +398,38 @@ public function testComputePermission()
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">15
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">16
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">17
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-php data-lang=php><span style=color:#c30;font-style:italic>/**
-</span><span style=color:#c30;font-style:italic>* Asserts that the given callback throws the given exception.
-</span><span style=color:#c30;font-style:italic>*
-</span><span style=color:#c30;font-style:italic>* @param string $expectClass The name of the expected exception class
-</span><span style=color:#c30;font-style:italic>* @param callable $callback A callback which should throw the exception
-</span><span style=color:#c30;font-style:italic>*/</span>
-<span style=color:#069;font-weight:700>protected</span> <span style=color:#069;font-weight:700>function</span> <span style=color:#c0f>assertException</span>(string <span style=color:#033>$expectClass</span>, callable <span style=color:#033>$callback</span>)
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-php data-lang=php><span style=color:#f1fa8c>/**
+</span><span style=color:#f1fa8c>* Asserts that the given callback throws the given exception.
+</span><span style=color:#f1fa8c>*
+</span><span style=color:#f1fa8c>* @param string $expectClass The name of the expected exception class
+</span><span style=color:#f1fa8c>* @param callable $callback A callback which should throw the exception
+</span><span style=color:#f1fa8c>*/</span>
+<span style=color:#ff79c6>protected</span> <span style=color:#ff79c6>function</span> <span style=color:#50fa7b>assertException</span>(string <span style=color:#8be9fd;font-style:italic>$expectClass</span>, callable <span style=color:#8be9fd;font-style:italic>$callback</span>)
 {
-    <span style=color:#069;font-weight:700>try</span> {
-        <span style=color:#033>$callback</span>();
-    } <span style=color:#069;font-weight:700>catch</span> (\Throwable <span style=color:#033>$exception</span>) {
-        <span style=color:#033>$this</span><span style=color:#555>-&gt;</span><span style=color:#309>assertInstanceOf</span>(<span style=color:#033>$expectClass</span>, <span style=color:#033>$exception</span>, <span style=color:#c30>&#39;An invalid exception was thrown&#39;</span>);
-        <span style=color:#069;font-weight:700>return</span>;
+    <span style=color:#ff79c6>try</span> {
+        <span style=color:#8be9fd;font-style:italic>$callback</span>();
+    } <span style=color:#ff79c6>catch</span> (\Throwable <span style=color:#8be9fd;font-style:italic>$exception</span>) {
+        <span style=color:#8be9fd;font-style:italic>$this</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>assertInstanceOf</span>(<span style=color:#8be9fd;font-style:italic>$expectClass</span>, <span style=color:#8be9fd;font-style:italic>$exception</span>, <span style=color:#f1fa8c>&#39;An invalid exception was thrown&#39;</span>);
+        <span style=color:#ff79c6>return</span>;
     }
 
-    <span style=color:#033>$this</span><span style=color:#555>-&gt;</span><span style=color:#309>fail</span>(<span style=color:#c30>&#39;No exception was thrown&#39;</span>);
+    <span style=color:#8be9fd;font-style:italic>$this</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>fail</span>(<span style=color:#f1fa8c>&#39;No exception was thrown&#39;</span>);
 }
-</code></pre></td></tr></table></div></div><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
+</code></pre></td></tr></table></div></div><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">2
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">3
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">4
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">5
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">6
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">7
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-php data-lang=php><span style=color:#069;font-weight:700>public</span> <span style=color:#069;font-weight:700>function</span> <span style=color:#c0f>testSomeException</span>()
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-php data-lang=php><span style=color:#ff79c6>public</span> <span style=color:#ff79c6>function</span> <span style=color:#50fa7b>testSomeException</span>()
 {
-    <span style=color:#033>$service</span> <span style=color:#555>=</span> <span style=color:#069;font-weight:700>new</span> PointsAccountService();
-    <span style=color:#033>$this</span><span style=color:#555>-&gt;</span><span style=color:#309>assertException</span>(\InvalidArgumentException<span style=color:#555>::</span><span style=color:#309>class</span>, <span style=color:#069;font-weight:700>function</span> () <span style=color:#069;font-weight:700>use</span> (<span style=color:#033>$service</span>) {
-        <span style=color:#033>$service</span><span style=color:#555>-&gt;</span><span style=color:#309>getAccountByUnionId</span>(<span style=color:#f60>0</span>);
+    <span style=color:#8be9fd;font-style:italic>$service</span> <span style=color:#ff79c6>=</span> <span style=color:#ff79c6>new</span> PointsAccountService();
+    <span style=color:#8be9fd;font-style:italic>$this</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>assertException</span>(\InvalidArgumentException<span style=color:#ff79c6>::</span><span style=color:#50fa7b>class</span>, <span style=color:#ff79c6>function</span> () <span style=color:#ff79c6>use</span> (<span style=color:#8be9fd;font-style:italic>$service</span>) {
+        <span style=color:#8be9fd;font-style:italic>$service</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>getAccountByUnionId</span>(<span style=color:#bd93f9>0</span>);
     });
 }
-</code></pre></td></tr></table></div></div><h3 id=队列测试>队列测试</h3><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
+</code></pre></td></tr></table></div></div><h3 id=队列测试>队列测试</h3><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 2
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 3
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 4
@@ -441,19 +441,19 @@ public function testComputePermission()
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">10
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">11
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">12
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-php data-lang=php><span style=color:#069;font-weight:700>use</span> Illuminate\Support\Facades\Queue;
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-php data-lang=php><span style=color:#ff79c6>use</span> Illuminate\Support\Facades\Queue;
 
-<span style=color:#069;font-weight:700>public</span> <span style=color:#069;font-weight:700>function</span> <span style=color:#c0f>testJob</span>()
+<span style=color:#ff79c6>public</span> <span style=color:#ff79c6>function</span> <span style=color:#50fa7b>testJob</span>()
 {
-    Queue<span style=color:#555>::</span><span style=color:#309>fake</span>();
+    Queue<span style=color:#ff79c6>::</span><span style=color:#50fa7b>fake</span>();
 
-    <span style=color:#09f;font-style:italic>// 推送数据到队列
-</span><span style=color:#09f;font-style:italic></span>    SomeJob<span style=color:#555>::</span><span style=color:#309>dispatch</span>(<span style=color:#033>$vars</span>);
+    <span style=color:#6272a4>// 推送数据到队列
+</span><span style=color:#6272a4></span>    SomeJob<span style=color:#ff79c6>::</span><span style=color:#50fa7b>dispatch</span>(<span style=color:#8be9fd;font-style:italic>$vars</span>);
 
-    <span style=color:#09f;font-style:italic>// 断言已经在队列中
-</span><span style=color:#09f;font-style:italic></span>    Queue<span style=color:#555>::</span><span style=color:#309>assertPushed</span>(SomeJob<span style=color:#555>::</span><span style=color:#309>class</span>);
+    <span style=color:#6272a4>// 断言已经在队列中
+</span><span style=color:#6272a4></span>    Queue<span style=color:#ff79c6>::</span><span style=color:#50fa7b>assertPushed</span>(SomeJob<span style=color:#ff79c6>::</span><span style=color:#50fa7b>class</span>);
 }
-</code></pre></td></tr></table></div></div><p>需要补充的是队列这块注意 <code>phpunit.xml</code> 文件里面的 <code>&lt;env name="QUEUE_CONNECTION" value="sync"/></code> 代码，意思是使用同步的方式跑队列。这里要根据自己的情况修改配置。</p><h3 id=api-接口测试>API 接口测试</h3><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
+</code></pre></td></tr></table></div></div><p>需要补充的是队列这块注意 <code>phpunit.xml</code> 文件里面的 <code>&lt;env name="QUEUE_CONNECTION" value="sync"/></code> 代码，意思是使用同步的方式跑队列。这里要根据自己的情况修改配置。</p><h3 id=api-接口测试>API 接口测试</h3><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 2
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 3
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 4
@@ -466,20 +466,20 @@ public function testComputePermission()
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">11
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">12
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">13
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-php data-lang=php><span style=color:#069;font-weight:700>use</span> Illuminate\Http\Request;
-<span style=color:#069;font-weight:700>public</span> <span style=color:#069;font-weight:700>function</span> <span style=color:#c0f>testUserCreate</span>()
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-php data-lang=php><span style=color:#ff79c6>use</span> Illuminate\Http\Request;
+<span style=color:#ff79c6>public</span> <span style=color:#ff79c6>function</span> <span style=color:#50fa7b>testUserCreate</span>()
 {
-    <span style=color:#033>$data</span> <span style=color:#555>=</span> [
-        <span style=color:#c30>&#39;username&#39;</span> <span style=color:#555>=&gt;</span> <span style=color:#c30>&#39;test&#39;</span>,
+    <span style=color:#8be9fd;font-style:italic>$data</span> <span style=color:#ff79c6>=</span> [
+        <span style=color:#f1fa8c>&#39;username&#39;</span> <span style=color:#ff79c6>=&gt;</span> <span style=color:#f1fa8c>&#39;test&#39;</span>,
     ];
-    <span style=color:#033>$response</span> <span style=color:#555>=</span> <span style=color:#033>$this</span><span style=color:#555>-&gt;</span><span style=color:#309>json</span>(Request<span style=color:#555>::</span><span style=color:#309>METHOD_POST</span>, config(<span style=color:#c30>&#39;app.url&#39;</span>) <span style=color:#555>.</span> <span style=color:#c30>&#39;/users&#39;</span>, <span style=color:#033>$data</span>);
-    <span style=color:#033>$response</span><span style=color:#555>-&gt;</span><span style=color:#309>assertStatus</span>(<span style=color:#f60>200</span>)
-        <span style=color:#555>-&gt;</span><span style=color:#309>assertJson</span>([
-            <span style=color:#c30>&#39;code&#39;</span> <span style=color:#555>=&gt;</span> <span style=color:#f60>0</span>,
+    <span style=color:#8be9fd;font-style:italic>$response</span> <span style=color:#ff79c6>=</span> <span style=color:#8be9fd;font-style:italic>$this</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>json</span>(Request<span style=color:#ff79c6>::</span><span style=color:#50fa7b>METHOD_POST</span>, config(<span style=color:#f1fa8c>&#39;app.url&#39;</span>) <span style=color:#ff79c6>.</span> <span style=color:#f1fa8c>&#39;/users&#39;</span>, <span style=color:#8be9fd;font-style:italic>$data</span>);
+    <span style=color:#8be9fd;font-style:italic>$response</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>assertStatus</span>(<span style=color:#bd93f9>200</span>)
+        <span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>assertJson</span>([
+            <span style=color:#f1fa8c>&#39;code&#39;</span> <span style=color:#ff79c6>=&gt;</span> <span style=color:#bd93f9>0</span>,
         ]);
-    <span style=color:#09f;font-style:italic>// something other assert
-</span><span style=color:#09f;font-style:italic></span>}
-</code></pre></td></tr></table></div></div><h3 id=第三方接口依赖测试>第三方接口依赖测试</h3><p>如果我们项目中有依赖第三方接口，我们测试的时候不会直接去请求第三方接口，而是断言其接口成功返回。那么具体怎么测试呢？使用 mock 是一种方式，但是我使用的是另外一种方式：</p><ul><li>添加接口返回的数据，比方说添加 <code>tests/fixtures/simple_data/vendor/v1/member/info.json</code> 文件，里面就贴上接口正常返回的数据。</li><li>添加控制器方法 <code>app/Http/Controllers/TestController.php</code> 文件，里面的方法做文件映射：</li></ul><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
+    <span style=color:#6272a4>// something other assert
+</span><span style=color:#6272a4></span>}
+</code></pre></td></tr></table></div></div><h3 id=第三方接口依赖测试>第三方接口依赖测试</h3><p>如果我们项目中有依赖第三方接口，我们测试的时候不会直接去请求第三方接口，而是断言其接口成功返回。那么具体怎么测试呢？使用 mock 是一种方式，但是我使用的是另外一种方式：</p><ul><li>添加接口返回的数据，比方说添加 <code>tests/fixtures/simple_data/vendor/v1/member/info.json</code> 文件，里面就贴上接口正常返回的数据。</li><li>添加控制器方法 <code>app/Http/Controllers/TestController.php</code> 文件，里面的方法做文件映射：</li></ul><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 2
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 3
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 4
@@ -496,41 +496,41 @@ public function testComputePermission()
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">15
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">16
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">17
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-php data-lang=php><span style=color:#069;font-weight:700>namespace</span> App\Http\Controllers;
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-php data-lang=php><span style=color:#ff79c6>namespace</span> App\Http\Controllers;
 
-<span style=color:#069;font-weight:700>use</span> Illuminate\Http\Response;
-<span style=color:#069;font-weight:700>use</span> Illuminate\Routing\Route;
+<span style=color:#ff79c6>use</span> Illuminate\Http\Response;
+<span style=color:#ff79c6>use</span> Illuminate\Routing\Route;
 
-<span style=color:#069;font-weight:700>class</span> <span style=color:#0a8;font-weight:700>TestController</span> <span style=color:#069;font-weight:700>extends</span> Controller
+<span style=color:#ff79c6>class</span> <span style=color:#50fa7b>TestController</span> <span style=color:#ff79c6>extends</span> Controller
 {
-    <span style=color:#069;font-weight:700>public</span> <span style=color:#069;font-weight:700>function</span> <span style=color:#c0f>index</span>(Route <span style=color:#033>$route</span>)<span style=color:#555>:</span> Response
+    <span style=color:#ff79c6>public</span> <span style=color:#ff79c6>function</span> <span style=color:#50fa7b>index</span>(Route <span style=color:#8be9fd;font-style:italic>$route</span>)<span style=color:#ff79c6>:</span> Response
     {
-        <span style=color:#069;font-weight:700>if</span> (<span style=color:#033>$url</span> <span style=color:#555>=</span> str_replace(<span style=color:#c30>&#39;api/tests/v1&#39;</span>, <span style=color:#c30>&#39;&#39;</span>, <span style=color:#033>$route</span><span style=color:#555>-&gt;</span><span style=color:#309>uri</span>)) {
-            <span style=color:#033>$path</span> <span style=color:#555>=</span> base_path(<span style=color:#c30>&#39;/tests/fixtures/simple_data/vendor/v1&#39;</span>);
-            <span style=color:#033>$data</span> <span style=color:#555>=</span> file_get_contents(<span style=color:#c30>&#34;</span><span style=color:#a00>{</span><span style=color:#033>$path</span><span style=color:#a00>}{</span><span style=color:#033>$url</span><span style=color:#a00>}</span><span style=color:#c30>.json&#34;</span>);
-            <span style=color:#069;font-weight:700>return</span> response(<span style=color:#033>$data</span>, <span style=color:#f60>200</span>, [<span style=color:#c30>&#39;Content-Type&#39;</span> <span style=color:#555>=&gt;</span> <span style=color:#c30>&#39;application/json&#39;</span>]);
+        <span style=color:#ff79c6>if</span> (<span style=color:#8be9fd;font-style:italic>$url</span> <span style=color:#ff79c6>=</span> str_replace(<span style=color:#f1fa8c>&#39;api/tests/v1&#39;</span>, <span style=color:#f1fa8c>&#39;&#39;</span>, <span style=color:#8be9fd;font-style:italic>$route</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>uri</span>)) {
+            <span style=color:#8be9fd;font-style:italic>$path</span> <span style=color:#ff79c6>=</span> base_path(<span style=color:#f1fa8c>&#39;/tests/fixtures/simple_data/vendor/v1&#39;</span>);
+            <span style=color:#8be9fd;font-style:italic>$data</span> <span style=color:#ff79c6>=</span> file_get_contents(<span style=color:#f1fa8c>&#34;</span><span style=color:#f1fa8c>{</span><span style=color:#8be9fd;font-style:italic>$path</span><span style=color:#f1fa8c>}{</span><span style=color:#8be9fd;font-style:italic>$url</span><span style=color:#f1fa8c>}</span><span style=color:#f1fa8c>.json&#34;</span>);
+            <span style=color:#ff79c6>return</span> response(<span style=color:#8be9fd;font-style:italic>$data</span>, <span style=color:#bd93f9>200</span>, [<span style=color:#f1fa8c>&#39;Content-Type&#39;</span> <span style=color:#ff79c6>=&gt;</span> <span style=color:#f1fa8c>&#39;application/json&#39;</span>]);
         }
-        <span style=color:#069;font-weight:700>return</span> response(<span style=color:#c30>&#39;&#39;</span>);
+        <span style=color:#ff79c6>return</span> response(<span style=color:#f1fa8c>&#39;&#39;</span>);
     }
 }
-</code></pre></td></tr></table></div></div><ul><li>添加路由配置文件 <code>routes/api.php</code></li></ul><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
+</code></pre></td></tr></table></div></div><ul><li>添加路由配置文件 <code>routes/api.php</code></li></ul><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">2
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">3
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">4
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">5
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">6
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-php data-lang=php><span style=color:#09f;font-style:italic>// tests v1 版本 account-base-service 和 notification
-</span><span style=color:#09f;font-style:italic></span>Route<span style=color:#555>::</span><span style=color:#309>group</span>([<span style=color:#c30>&#39;prefix&#39;</span> <span style=color:#555>=&gt;</span> <span style=color:#c30>&#39;tests/v1&#39;</span>,], <span style=color:#069;font-weight:700>function</span> () {
-    Route<span style=color:#555>::</span><span style=color:#309>get</span>(<span style=color:#c30>&#39;member/info&#39;</span>, <span style=color:#c30>&#39;TestController@index&#39;</span>);
-    Route<span style=color:#555>::</span><span style=color:#309>post</span>(<span style=color:#c30>&#39;member/create&#39;</span>, <span style=color:#c30>&#39;TestController@index&#39;</span>);
-    <span style=color:#09f;font-style:italic>// ……
-</span><span style=color:#09f;font-style:italic></span>});
-</code></pre></td></tr></table></div></div><blockquote><p>PS: 这里最后两步之所以不使用路由回调函数方式实现，是因为 <code>php artisan route:cache</code> 命令不支持路由 <code>Closure</code></p></blockquote><h3 id=关于清除测试数据>关于清除测试数据</h3><p>Laravel 自带一个 <code>RefreshDatabase</code> trait，如果你的测试类加入了 <code>use RefreshDatabase;</code> 代码，那么每跑一个测试会清除数据。但是我嫌这样跑测试太慢，基本上都不用这个方法。</p><p>Laravel 默认如果有 <code>.env.testing</code> 环境配置文件的话，跑单元测试会使用这个文件的配置，里面可以配置单独的数据库等其他配置。所以我目前本地使用的是这种方式来跑单元测试。</p><h3 id=加速跑单元测试>加速跑单元测试</h3><p>跑单元测试我们一般用下面这个命令跑：</p><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-sh data-lang=sh>vendor/bin/phpunit
-</code></pre></td></tr></table></div></div><p>但是单元测试多了之后，上面这种方式跑单元测试会变慢，我们可以用 <a href=https://github.com/krakjoe/phpdbg>phpdbg</a> 来加速跑运行单元测试，以节省时间。</p><p>安装：</p><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-fallback data-lang=fallback>sudo apt-get install php7.2-phpdbg -y
-</code></pre></td></tr></table></div></div><p>使用：</p><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-fallback data-lang=fallback>phpdbg -qrr ./vendor/bin/phpunit -dmemory_limit=1024M  
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-php data-lang=php><span style=color:#6272a4>// tests v1 版本 account-base-service 和 notification
+</span><span style=color:#6272a4></span>Route<span style=color:#ff79c6>::</span><span style=color:#50fa7b>group</span>([<span style=color:#f1fa8c>&#39;prefix&#39;</span> <span style=color:#ff79c6>=&gt;</span> <span style=color:#f1fa8c>&#39;tests/v1&#39;</span>,], <span style=color:#ff79c6>function</span> () {
+    Route<span style=color:#ff79c6>::</span><span style=color:#50fa7b>get</span>(<span style=color:#f1fa8c>&#39;member/info&#39;</span>, <span style=color:#f1fa8c>&#39;TestController@index&#39;</span>);
+    Route<span style=color:#ff79c6>::</span><span style=color:#50fa7b>post</span>(<span style=color:#f1fa8c>&#39;member/create&#39;</span>, <span style=color:#f1fa8c>&#39;TestController@index&#39;</span>);
+    <span style=color:#6272a4>// ……
+</span><span style=color:#6272a4></span>});
+</code></pre></td></tr></table></div></div><blockquote><p>PS: 这里最后两步之所以不使用路由回调函数方式实现，是因为 <code>php artisan route:cache</code> 命令不支持路由 <code>Closure</code></p></blockquote><h3 id=关于清除测试数据>关于清除测试数据</h3><p>Laravel 自带一个 <code>RefreshDatabase</code> trait，如果你的测试类加入了 <code>use RefreshDatabase;</code> 代码，那么每跑一个测试会清除数据。但是我嫌这样跑测试太慢，基本上都不用这个方法。</p><p>Laravel 默认如果有 <code>.env.testing</code> 环境配置文件的话，跑单元测试会使用这个文件的配置，里面可以配置单独的数据库等其他配置。所以我目前本地使用的是这种方式来跑单元测试。</p><h3 id=加速跑单元测试>加速跑单元测试</h3><p>跑单元测试我们一般用下面这个命令跑：</p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-sh data-lang=sh>vendor/bin/phpunit
+</code></pre></td></tr></table></div></div><p>但是单元测试多了之后，上面这种方式跑单元测试会变慢，我们可以用 <a href=https://github.com/krakjoe/phpdbg>phpdbg</a> 来加速跑运行单元测试，以节省时间。</p><p>安装：</p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-fallback data-lang=fallback>sudo apt-get install php7.2-phpdbg -y
+</code></pre></td></tr></table></div></div><p>使用：</p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-fallback data-lang=fallback>phpdbg -qrr ./vendor/bin/phpunit -dmemory_limit=1024M  
 </code></pre></td></tr></table></div></div><p>如果还是嫌慢，还有优化空间，以后再补充。</p><h2 id=最后>最后</h2><p>我们的单元测试只在本地和 <a href=https://travis-ci.org/>travis</a> 里面跑，自从写了单元测试之后，改代码要放心的很多。如果时间允许的话，推荐大家也多写写单元测试。养成好习惯。</p><hr class="bg-gray-300 mt-8"><div class=pt-4><p class=text-center><button id=btn-donate class="px-5 py-2 inline-block rounded hover:bg-red-600 bg-red-400 text-white" for=reward>打赏</button></p><div class="flex-auto mt-2 mx-2 hidden" id=donate-image><div class="w-full px-2 my-2"><div class="bg-white dark:bg-black"><img class="h-48 shadow object-cover w-auto mx-auto" loading=lazy src=https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424153510.png alt=微信打赏><div class="text-center text-gray-500">微信打赏</div></div></div><div class="w-full px-2 my-2"><div class="bg-white dark:bg-black"><img class="h-48 shadow object-cover w-auto mx-auto" loading=lazy src=https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424153431.png alt=支付宝打赏><div class="text-center text-gray-500">支付宝打赏</div></div></div></div></div><div class="border-l-4 border-red-400 mx-auto text-gray-500"><div class=copyright><ul class=list-none><li><strong>原文作者：</strong>
 <a rel=author href=https://blog.forecho.com>forecho</a></li><li style=word-break:break-all><strong>原文链接：</strong>
 <a href=https://blog.forecho.com/laravel-tests.html>https://blog.forecho.com/laravel-tests.html</a></li><li><strong>版权声明：</strong>本作品采用

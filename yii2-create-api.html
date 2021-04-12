@@ -325,13 +325,13 @@ return [
 286 字</span>
 <span class="hidden xl:inline-block">|
 <i class="iconfont icon-clock-o"></i>
-1 分钟读完</span></p></div><div class="md:hidden dark:text-gray-100"><p class="text-base font-bold py-2 yg:pb-6 text-gray-700 dark:text-gray-300">文章目录</p><div class="sticky text-sm" style=top:6em id=menu-content><nav id=TableOfContents></nav></div></div><div class="post-content dark:text-white"><p>先在项目的根目录下复制一份 backend 为 api：</p><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-sh data-lang=sh>cp backend/ api -r
-</code></pre></td></tr></table></div></div><p>拷贝 api 环境</p><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
+1 分钟读完</span></p></div><div class="md:hidden dark:text-gray-100"><p class="text-base font-bold py-2 yg:pb-6 text-gray-700 dark:text-gray-300">文章目录</p><div class="sticky text-sm" style=top:6em id=menu-content><nav id=TableOfContents></nav></div></div><div class="post-content dark:text-white"><p>先在项目的根目录下复制一份 backend 为 api：</p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-sh data-lang=sh>cp backend/ api -r
+</code></pre></td></tr></table></div></div><p>拷贝 api 环境</p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">2
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-sh data-lang=sh>cp -a environments/dev/frontend environments/dev/api
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-sh data-lang=sh>cp -a environments/dev/frontend environments/dev/api
 cp -a environments/prod/frontend environments/prod/api
-</code></pre></td></tr></table></div></div><p>修改 environments/index.php 文件之后的代码（主要是添加了一些 api 相关的代码）：</p><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
+</code></pre></td></tr></table></div></div><p>修改 environments/index.php 文件之后的代码（主要是添加了一些 api 相关的代码）：</p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 2
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 3
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 4
@@ -371,59 +371,59 @@ cp -a environments/prod/frontend environments/prod/api
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">38
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">39
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">40
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-php data-lang=php><span style=color:#069;font-weight:700>return</span> [
-    <span style=color:#c30>&#39;Development&#39;</span> <span style=color:#555>=&gt;</span> [
-        <span style=color:#c30>&#39;path&#39;</span> <span style=color:#555>=&gt;</span> <span style=color:#c30>&#39;dev&#39;</span>,
-        <span style=color:#c30>&#39;setWritable&#39;</span> <span style=color:#555>=&gt;</span> [
-            <span style=color:#c30>&#39;backend/runtime&#39;</span>,
-            <span style=color:#c30>&#39;backend/web/assets&#39;</span>,
-            <span style=color:#c30>&#39;frontend/runtime&#39;</span>,
-            <span style=color:#c30>&#39;frontend/web/assets&#39;</span>,
-            <span style=color:#c30>&#39;api/runtime&#39;</span>,
-            <span style=color:#c30>&#39;api/web/assets&#39;</span>,
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-php data-lang=php><span style=color:#ff79c6>return</span> [
+    <span style=color:#f1fa8c>&#39;Development&#39;</span> <span style=color:#ff79c6>=&gt;</span> [
+        <span style=color:#f1fa8c>&#39;path&#39;</span> <span style=color:#ff79c6>=&gt;</span> <span style=color:#f1fa8c>&#39;dev&#39;</span>,
+        <span style=color:#f1fa8c>&#39;setWritable&#39;</span> <span style=color:#ff79c6>=&gt;</span> [
+            <span style=color:#f1fa8c>&#39;backend/runtime&#39;</span>,
+            <span style=color:#f1fa8c>&#39;backend/web/assets&#39;</span>,
+            <span style=color:#f1fa8c>&#39;frontend/runtime&#39;</span>,
+            <span style=color:#f1fa8c>&#39;frontend/web/assets&#39;</span>,
+            <span style=color:#f1fa8c>&#39;api/runtime&#39;</span>,
+            <span style=color:#f1fa8c>&#39;api/web/assets&#39;</span>,
         ],
-        <span style=color:#c30>&#39;setExecutable&#39;</span> <span style=color:#555>=&gt;</span> [
-            <span style=color:#c30>&#39;yii&#39;</span>,
+        <span style=color:#f1fa8c>&#39;setExecutable&#39;</span> <span style=color:#ff79c6>=&gt;</span> [
+            <span style=color:#f1fa8c>&#39;yii&#39;</span>,
         ],
-        <span style=color:#c30>&#39;setCookieValidationKey&#39;</span> <span style=color:#555>=&gt;</span> [
-            <span style=color:#c30>&#39;backend/config/main-local.php&#39;</span>,
-            <span style=color:#c30>&#39;frontend/config/main-local.php&#39;</span>,
-            <span style=color:#c30>&#39;api/config/main-local.php&#39;</span>,
+        <span style=color:#f1fa8c>&#39;setCookieValidationKey&#39;</span> <span style=color:#ff79c6>=&gt;</span> [
+            <span style=color:#f1fa8c>&#39;backend/config/main-local.php&#39;</span>,
+            <span style=color:#f1fa8c>&#39;frontend/config/main-local.php&#39;</span>,
+            <span style=color:#f1fa8c>&#39;api/config/main-local.php&#39;</span>,
         ],
     ],
-    <span style=color:#c30>&#39;Production&#39;</span> <span style=color:#555>=&gt;</span> [
-        <span style=color:#c30>&#39;path&#39;</span> <span style=color:#555>=&gt;</span> <span style=color:#c30>&#39;prod&#39;</span>,
-        <span style=color:#c30>&#39;setWritable&#39;</span> <span style=color:#555>=&gt;</span> [
-            <span style=color:#c30>&#39;backend/runtime&#39;</span>,
-            <span style=color:#c30>&#39;backend/web/assets&#39;</span>,
-            <span style=color:#c30>&#39;frontend/runtime&#39;</span>,
-            <span style=color:#c30>&#39;frontend/web/assets&#39;</span>,
-            <span style=color:#c30>&#39;api/runtime&#39;</span>,
-            <span style=color:#c30>&#39;api/web/assets&#39;</span>,
+    <span style=color:#f1fa8c>&#39;Production&#39;</span> <span style=color:#ff79c6>=&gt;</span> [
+        <span style=color:#f1fa8c>&#39;path&#39;</span> <span style=color:#ff79c6>=&gt;</span> <span style=color:#f1fa8c>&#39;prod&#39;</span>,
+        <span style=color:#f1fa8c>&#39;setWritable&#39;</span> <span style=color:#ff79c6>=&gt;</span> [
+            <span style=color:#f1fa8c>&#39;backend/runtime&#39;</span>,
+            <span style=color:#f1fa8c>&#39;backend/web/assets&#39;</span>,
+            <span style=color:#f1fa8c>&#39;frontend/runtime&#39;</span>,
+            <span style=color:#f1fa8c>&#39;frontend/web/assets&#39;</span>,
+            <span style=color:#f1fa8c>&#39;api/runtime&#39;</span>,
+            <span style=color:#f1fa8c>&#39;api/web/assets&#39;</span>,
         ],
-        <span style=color:#c30>&#39;setExecutable&#39;</span> <span style=color:#555>=&gt;</span> [
-            <span style=color:#c30>&#39;yii&#39;</span>,
+        <span style=color:#f1fa8c>&#39;setExecutable&#39;</span> <span style=color:#ff79c6>=&gt;</span> [
+            <span style=color:#f1fa8c>&#39;yii&#39;</span>,
         ],
-        <span style=color:#c30>&#39;setCookieValidationKey&#39;</span> <span style=color:#555>=&gt;</span> [
-            <span style=color:#c30>&#39;backend/config/main-local.php&#39;</span>,
-            <span style=color:#c30>&#39;frontend/config/main-local.php&#39;</span>,
-            <span style=color:#c30>&#39;api/config/main-local.php&#39;</span>,
+        <span style=color:#f1fa8c>&#39;setCookieValidationKey&#39;</span> <span style=color:#ff79c6>=&gt;</span> [
+            <span style=color:#f1fa8c>&#39;backend/config/main-local.php&#39;</span>,
+            <span style=color:#f1fa8c>&#39;frontend/config/main-local.php&#39;</span>,
+            <span style=color:#f1fa8c>&#39;api/config/main-local.php&#39;</span>,
         ],
     ],
 ];
-</code></pre></td></tr></table></div></div><p>然后再执行初始化命令：</p><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-sh data-lang=sh>php init
-</code></pre></td></tr></table></div></div><p>然后记得去 common/config/bootstrap.php 最后一行添加如下代码：</p><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-php data-lang=php>Yii<span style=color:#555>::</span><span style=color:#309>setAlias</span>(<span style=color:#c30>&#39;api&#39;</span>, dirname(dirname(<span style=color:#360>__DIR__</span>)) <span style=color:#555>.</span> <span style=color:#c30>&#39;/api&#39;</span>);
-</code></pre></td></tr></table></div></div><p>修改一下配置文件 api/config/main.php</p><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
+</code></pre></td></tr></table></div></div><p>然后再执行初始化命令：</p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-sh data-lang=sh>php init
+</code></pre></td></tr></table></div></div><p>然后记得去 common/config/bootstrap.php 最后一行添加如下代码：</p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-php data-lang=php>Yii<span style=color:#ff79c6>::</span><span style=color:#50fa7b>setAlias</span>(<span style=color:#f1fa8c>&#39;api&#39;</span>, dirname(dirname(__DIR__)) <span style=color:#ff79c6>.</span> <span style=color:#f1fa8c>&#39;/api&#39;</span>);
+</code></pre></td></tr></table></div></div><p>修改一下配置文件 api/config/main.php</p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">2
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">3
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">4
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">5
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-php data-lang=php><span style=color:#069;font-weight:700>return</span> [
-    <span style=color:#c30>&#39;id&#39;</span> <span style=color:#555>=&gt;</span> <span style=color:#c30>&#39;app-api&#39;</span>,
-    <span style=color:#09f;font-style:italic>// ...
-</span><span style=color:#09f;font-style:italic></span>    <span style=color:#c30>&#39;controllerNamespace&#39;</span> <span style=color:#555>=&gt;</span> <span style=color:#c30>&#39;api\controllers&#39;</span>,
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-php data-lang=php><span style=color:#ff79c6>return</span> [
+    <span style=color:#f1fa8c>&#39;id&#39;</span> <span style=color:#ff79c6>=&gt;</span> <span style=color:#f1fa8c>&#39;app-api&#39;</span>,
+    <span style=color:#6272a4>// ...
+</span><span style=color:#6272a4></span>    <span style=color:#f1fa8c>&#39;controllerNamespace&#39;</span> <span style=color:#ff79c6>=&gt;</span> <span style=color:#f1fa8c>&#39;api\controllers&#39;</span>,
 ]
 </code></pre></td></tr></table></div></div><p>最后 api 里面的控制器等有命名空间的文件也要修改一下。</p><p><strong>参考资料</strong></p><ul><li><a href=http://blog.phpor.me/%E5%B7%A5%E4%BD%9C/yii/2014/11/17/yii2-usage.html#create_new_app>在原有的Yii2框架上，新建一个api应用</a></li><li><a href=http://www.digpage.com/video_1.html>第一讲：基础配置</a></li></ul><hr class="bg-gray-300 mt-8"><div class=pt-4><p class=text-center><button id=btn-donate class="px-5 py-2 inline-block rounded hover:bg-red-600 bg-red-400 text-white" for=reward>打赏</button></p><div class="flex-auto mt-2 mx-2 hidden" id=donate-image><div class="w-full px-2 my-2"><div class="bg-white dark:bg-black"><img class="h-48 shadow object-cover w-auto mx-auto" loading=lazy src=https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424153510.png alt=微信打赏><div class="text-center text-gray-500">微信打赏</div></div></div><div class="w-full px-2 my-2"><div class="bg-white dark:bg-black"><img class="h-48 shadow object-cover w-auto mx-auto" loading=lazy src=https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424153431.png alt=支付宝打赏><div class="text-center text-gray-500">支付宝打赏</div></div></div></div></div><div class="border-l-4 border-red-400 mx-auto text-gray-500"><div class=copyright><ul class=list-none><li><strong>原文作者：</strong>
 <a rel=author href=https://blog.forecho.com>forecho</a></li><li style=word-break:break-all><strong>原文链接：</strong>

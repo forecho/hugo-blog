@@ -6,12 +6,12 @@
 &lt;li>Octopress 项目已经没人维护了&lt;/li>
 &lt;/ul></description></item><item><title>Octopress 显示 `{{}}`</title><link>https://blog.forecho.com/about-octopress-use.html</link><pubDate>Wed, 06 Mar 2019 21:58:00 +0800</pubDate><guid>https://blog.forecho.com/about-octopress-use.html</guid><description>&lt;p>&lt;strong>注意：&lt;/strong> 本篇文章需要点击&lt;a href="https://github.com/forecho/blog/blob/master/source/_posts/2019-03-06-about-octopress-use-%7B%7B%7D%7D.md">这里&lt;/a>才能正常阅读。&lt;/p>
 &lt;p>Octopress 使用双花括号的时候就会自动把他认为是变量，会『翻译』，但是其实我们并不想要这种效果，怎么办呢？网上找了一圈发现可以用下面这种方式解决&lt;/p>
-&lt;div class="highlight">&lt;div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
 &lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
-&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-fallback" data-lang="fallback">{%raw%}{{thing}}{%endraw%}
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-fallback" data-lang="fallback">{%raw%}{{thing}}{%endraw%}
 &lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div></description></item><item><title>Octopress 添加打赏</title><link>https://blog.forecho.com/octopress-add-donate.html</link><pubDate>Thu, 28 Jan 2016 15:36:00 +0800</pubDate><guid>https://blog.forecho.com/octopress-add-donate.html</guid><description>&lt;h2 id="前言">前言&lt;/h2>

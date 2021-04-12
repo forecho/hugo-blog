@@ -14,9 +14,9 @@
 &lt;p>第一次主要是我电脑下班之后没关机，睡眠模式，结果半夜停电了，导致强制关机了，最后导致 &lt;code>vagrant up&lt;/code> 命令启动不了了，最后我又重新安装了我的 vagrant。
 所以，切记，&lt;strong>一定要学会打包自己的 vagrant&lt;/strong>。&lt;/p>
 &lt;p>&lt;strong>打包自己的 vagrant&lt;/strong>&lt;/p>
-&lt;div class="highlight">&lt;div style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
 &lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
-&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 &lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
 &lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
 &lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
@@ -24,12 +24,12 @@
 &lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre style="background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-sh" data-lang="sh">$ vagrant package
-&lt;span style="color:#555">[&lt;/span>default&lt;span style="color:#555">]&lt;/span> Attempting graceful shutdown of VM...
-&lt;span style="color:#555">[&lt;/span>default&lt;span style="color:#555">]&lt;/span> Clearing any previously &lt;span style="color:#366">set&lt;/span> forwarded ports...
-&lt;span style="color:#555">[&lt;/span>default&lt;span style="color:#555">]&lt;/span> Creating temporary directory &lt;span style="color:#069;font-weight:bold">for&lt;/span> export...
-&lt;span style="color:#555">[&lt;/span>default&lt;span style="color:#555">]&lt;/span> Exporting VM...
-&lt;span style="color:#555">[&lt;/span>default&lt;span style="color:#555">]&lt;/span> Compressing package to: /Users/astaxie/vagrant/package.box
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-sh" data-lang="sh">$ vagrant package
+&lt;span style="color:#ff79c6">[&lt;/span>default&lt;span style="color:#ff79c6">]&lt;/span> Attempting graceful shutdown of VM...
+&lt;span style="color:#ff79c6">[&lt;/span>default&lt;span style="color:#ff79c6">]&lt;/span> Clearing any previously &lt;span style="color:#8be9fd;font-style:italic">set&lt;/span> forwarded ports...
+&lt;span style="color:#ff79c6">[&lt;/span>default&lt;span style="color:#ff79c6">]&lt;/span> Creating temporary directory &lt;span style="color:#ff79c6">for&lt;/span> export...
+&lt;span style="color:#ff79c6">[&lt;/span>default&lt;span style="color:#ff79c6">]&lt;/span> Exporting VM...
+&lt;span style="color:#ff79c6">[&lt;/span>default&lt;span style="color:#ff79c6">]&lt;/span> Compressing package to: /Users/astaxie/vagrant/package.box
 &lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;p>有了这个备份就是可以放心的使（zhe）用（teng）vagrant 了。&lt;/p>

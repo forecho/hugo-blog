@@ -4,7 +4,7 @@
 506 字</span>
 <span class="hidden xl:inline-block">|
 <i class="iconfont icon-clock-o"></i>
-2 分钟读完</span></p></div><div class="post-content dark:text-white"><blockquote><p>翻译 <a href=http://krisjordan.com/dynamic-properties-in-php-with-stdclass>Dynamic Properties in PHP and StdClass</a></p></blockquote><p>JavaScript 和 Python 允许对象实例的动态属性。事实证明,PHP 也是如此。看官方 PHP 对象和类文档可能会导致你相信动态实例属性需要自定义 __get 和 __set 魔术方法。其实不用。</p><h2 id=简单内置的动态属性>简单,内置的动态属性</h2><p>看看以下代码:</p><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
+2 分钟读完</span></p></div><div class="post-content dark:text-white"><blockquote><p>翻译 <a href=http://krisjordan.com/dynamic-properties-in-php-with-stdclass>Dynamic Properties in PHP and StdClass</a></p></blockquote><p>JavaScript 和 Python 允许对象实例的动态属性。事实证明,PHP 也是如此。看官方 PHP 对象和类文档可能会导致你相信动态实例属性需要自定义 __get 和 __set 魔术方法。其实不用。</p><h2 id=简单内置的动态属性>简单,内置的动态属性</h2><p>看看以下代码:</p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 2
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 3
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 4
@@ -20,22 +20,22 @@
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">14
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">15
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">16
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-php data-lang=php><span style=color:#069;font-weight:700>class</span> <span style=color:#0a8;font-weight:700>DynamicProperties</span> { }
-<span style=color:#033>$object</span> <span style=color:#555>=</span> <span style=color:#069;font-weight:700>new</span> DynamicProperties;
-<span style=color:#069;font-weight:700>echo</span> isset(<span style=color:#033>$object</span><span style=color:#555>-&gt;</span><span style=color:#309>foo</span>) <span style=color:#555>?</span> <span style=color:#c30>&#39;t&#39;</span> <span style=color:#555>:</span> <span style=color:#c30>&#39;f&#39;</span>; <span style=color:#09f;font-style:italic>// f
-</span><span style=color:#09f;font-style:italic></span><span style=color:#069;font-weight:700>echo</span> PHP_EOL;
-<span style=color:#09f;font-style:italic>// Set Dynamic Properties foo and fooz
-</span><span style=color:#09f;font-style:italic></span><span style=color:#033>$object</span><span style=color:#555>-&gt;</span><span style=color:#309>foo</span> <span style=color:#555>=</span> <span style=color:#c30>&#39;bar&#39;</span>;
-<span style=color:#033>$object</span><span style=color:#555>-&gt;</span><span style=color:#309>fooz</span> <span style=color:#555>=</span> <span style=color:#c30>&#39;baz&#39;</span>;
-<span style=color:#09f;font-style:italic>// Isset and Unset work
-</span><span style=color:#09f;font-style:italic></span>isset(<span style=color:#033>$object</span><span style=color:#555>-&gt;</span><span style=color:#309>foo</span>); <span style=color:#09f;font-style:italic>// true
-</span><span style=color:#09f;font-style:italic></span>unset(<span style=color:#033>$object</span><span style=color:#555>-&gt;</span><span style=color:#309>foo</span>);
-<span style=color:#09f;font-style:italic>// Iterate through Properties and Values
-</span><span style=color:#09f;font-style:italic></span><span style=color:#069;font-weight:700>foreach</span>(<span style=color:#033>$object</span> <span style=color:#069;font-weight:700>as</span> <span style=color:#033>$property</span> <span style=color:#555>=&gt;</span> <span style=color:#033>$value</span>)  {
-    <span style=color:#069;font-weight:700>echo</span> <span style=color:#033>$property</span> <span style=color:#555>.</span> <span style=color:#c30>&#39; = &#39;</span> <span style=color:#555>.</span> <span style=color:#033>$value</span> <span style=color:#555>.</span> PHP_EOL;
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-php data-lang=php><span style=color:#ff79c6>class</span> <span style=color:#50fa7b>DynamicProperties</span> { }
+<span style=color:#8be9fd;font-style:italic>$object</span> <span style=color:#ff79c6>=</span> <span style=color:#ff79c6>new</span> DynamicProperties;
+<span style=color:#ff79c6>echo</span> isset(<span style=color:#8be9fd;font-style:italic>$object</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>foo</span>) <span style=color:#ff79c6>?</span> <span style=color:#f1fa8c>&#39;t&#39;</span> <span style=color:#ff79c6>:</span> <span style=color:#f1fa8c>&#39;f&#39;</span>; <span style=color:#6272a4>// f
+</span><span style=color:#6272a4></span><span style=color:#ff79c6>echo</span> PHP_EOL;
+<span style=color:#6272a4>// Set Dynamic Properties foo and fooz
+</span><span style=color:#6272a4></span><span style=color:#8be9fd;font-style:italic>$object</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>foo</span> <span style=color:#ff79c6>=</span> <span style=color:#f1fa8c>&#39;bar&#39;</span>;
+<span style=color:#8be9fd;font-style:italic>$object</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>fooz</span> <span style=color:#ff79c6>=</span> <span style=color:#f1fa8c>&#39;baz&#39;</span>;
+<span style=color:#6272a4>// Isset and Unset work
+</span><span style=color:#6272a4></span>isset(<span style=color:#8be9fd;font-style:italic>$object</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>foo</span>); <span style=color:#6272a4>// true
+</span><span style=color:#6272a4></span>unset(<span style=color:#8be9fd;font-style:italic>$object</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>foo</span>);
+<span style=color:#6272a4>// Iterate through Properties and Values
+</span><span style=color:#6272a4></span><span style=color:#ff79c6>foreach</span>(<span style=color:#8be9fd;font-style:italic>$object</span> <span style=color:#ff79c6>as</span> <span style=color:#8be9fd;font-style:italic>$property</span> <span style=color:#ff79c6>=&gt;</span> <span style=color:#8be9fd;font-style:italic>$value</span>)  {
+    <span style=color:#ff79c6>echo</span> <span style=color:#8be9fd;font-style:italic>$property</span> <span style=color:#ff79c6>.</span> <span style=color:#f1fa8c>&#39; = &#39;</span> <span style=color:#ff79c6>.</span> <span style=color:#8be9fd;font-style:italic>$value</span> <span style=color:#ff79c6>.</span> PHP_EOL;
 }
-<span style=color:#09f;font-style:italic>// Prints:
-</span><span style=color:#09f;font-style:italic>// fooz = baz
+<span style=color:#6272a4>// Prints:
+</span><span style=color:#6272a4>// fooz = baz
 </span></code></pre></td></tr></table></div></div></div><p class="text-sm font-semibold pt-5 text-gray-700 dark:text-gray-300"><a href=https://blog.forecho.com/dynamic-properties-in-php-and-stdclass.html class="px-5 py-2 inline-block bg-gray-200 dark:bg-gray-800 rounded hover:bg-gray-300 dark:hover:bg-gray-700">阅读全文</a></p></article><hr class="bg-gray-300 mt-10 mb-6"><article><div><h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-2xl lg:text-3xl dark:text-white"><a href=https://blog.forecho.com/before-25.html title=25岁之后>25岁之后</a></h1><p class="mb-1 text-sm text-gray-500 dark:text-gray-300"><span title=" 2015-09-13 17:17:00 +0800"><i class="iconfont icon-calendar" aria-hidden=true></i> 13 Sep 2015</span>
 <span class="hidden xl:inline-block">|
 <i class="iconfont icon-book"></i>
@@ -63,31 +63,31 @@
 <i class="iconfont icon-clock-o"></i>
 2 分钟读完</span></p></div><div class="post-content dark:text-white"><h2 id=前言>前言</h2><p>之前我有写<a href=/blog/windows-coding-tool.html#section-1>《Windows 开发利器》</a>文章提到使用「VirtualBox + Vagrant（打造 Linux 开发环境）」，
 到现在为止在公司使用也有几个月了，到现在为只出现过两次问题。</p><h2 id=第一次启动不了>第一次启动不了</h2><p>第一次主要是我电脑下班之后没关机，睡眠模式，结果半夜停电了，导致强制关机了，最后导致 <code>vagrant up</code> 命令启动不了了，最后我又重新安装了我的 vagrant。
-所以，切记，<strong>一定要学会打包自己的 vagrant</strong>。</p><p><strong>打包自己的 vagrant</strong></p><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
+所以，切记，<strong>一定要学会打包自己的 vagrant</strong>。</p><p><strong>打包自己的 vagrant</strong></p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">2
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">3
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">4
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">5
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">6
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-sh data-lang=sh>$ vagrant package
-<span style=color:#555>[</span>default<span style=color:#555>]</span> Attempting graceful shutdown of VM...
-<span style=color:#555>[</span>default<span style=color:#555>]</span> Clearing any previously <span style=color:#366>set</span> forwarded ports...
-<span style=color:#555>[</span>default<span style=color:#555>]</span> Creating temporary directory <span style=color:#069;font-weight:700>for</span> export...
-<span style=color:#555>[</span>default<span style=color:#555>]</span> Exporting VM...
-<span style=color:#555>[</span>default<span style=color:#555>]</span> Compressing package to: /Users/astaxie/vagrant/package.box
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-sh data-lang=sh>$ vagrant package
+<span style=color:#ff79c6>[</span>default<span style=color:#ff79c6>]</span> Attempting graceful shutdown of VM...
+<span style=color:#ff79c6>[</span>default<span style=color:#ff79c6>]</span> Clearing any previously <span style=color:#8be9fd;font-style:italic>set</span> forwarded ports...
+<span style=color:#ff79c6>[</span>default<span style=color:#ff79c6>]</span> Creating temporary directory <span style=color:#ff79c6>for</span> export...
+<span style=color:#ff79c6>[</span>default<span style=color:#ff79c6>]</span> Exporting VM...
+<span style=color:#ff79c6>[</span>default<span style=color:#ff79c6>]</span> Compressing package to: /Users/astaxie/vagrant/package.box
 </code></pre></td></tr></table></div></div><p>有了这个备份就是可以放心的使（zhe）用（teng）vagrant 了。</p><p>下面我们重点来讲讲今天遇到的这个坑。</p></div><p class="text-sm font-semibold pt-5 text-gray-700 dark:text-gray-300"><a href=https://blog.forecho.com/solve-vagrant-up-timeout.html class="px-5 py-2 inline-block bg-gray-200 dark:bg-gray-800 rounded hover:bg-gray-300 dark:hover:bg-gray-700">阅读全文</a></p></article><hr class="bg-gray-300 mt-10 mb-6"><article><div><h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-2xl lg:text-3xl dark:text-white"><a href=https://blog.forecho.com/yii2-create-api.html title="Yii2 高级版新建一个 Api 应用">Yii2 高级版新建一个 Api 应用</a></h1><p class="mb-1 text-sm text-gray-500 dark:text-gray-300"><span title=" 2015-07-27 22:25:00 +0800"><i class="iconfont icon-calendar" aria-hidden=true></i> 27 Jul 2015</span>
 <span class="hidden xl:inline-block">|
 <i class="iconfont icon-book"></i>
 286 字</span>
 <span class="hidden xl:inline-block">|
 <i class="iconfont icon-clock-o"></i>
-1 分钟读完</span></p></div><div class="post-content dark:text-white"><p>先在项目的根目录下复制一份 backend 为 api：</p><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-sh data-lang=sh>cp backend/ api -r
-</code></pre></td></tr></table></div></div><p>拷贝 api 环境</p><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
+1 分钟读完</span></p></div><div class="post-content dark:text-white"><p>先在项目的根目录下复制一份 backend 为 api：</p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-sh data-lang=sh>cp backend/ api -r
+</code></pre></td></tr></table></div></div><p>拷贝 api 环境</p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">2
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-sh data-lang=sh>cp -a environments/dev/frontend environments/dev/api
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-sh data-lang=sh>cp -a environments/dev/frontend environments/dev/api
 cp -a environments/prod/frontend environments/prod/api
-</code></pre></td></tr></table></div></div><p>修改 environments/index.php 文件之后的代码（主要是添加了一些 api 相关的代码）：</p><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
+</code></pre></td></tr></table></div></div><p>修改 environments/index.php 文件之后的代码（主要是添加了一些 api 相关的代码）：</p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 2
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 3
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 4
@@ -127,43 +127,43 @@ cp -a environments/prod/frontend environments/prod/api
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">38
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">39
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">40
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-php data-lang=php><span style=color:#069;font-weight:700>return</span> [
-    <span style=color:#c30>&#39;Development&#39;</span> <span style=color:#555>=&gt;</span> [
-        <span style=color:#c30>&#39;path&#39;</span> <span style=color:#555>=&gt;</span> <span style=color:#c30>&#39;dev&#39;</span>,
-        <span style=color:#c30>&#39;setWritable&#39;</span> <span style=color:#555>=&gt;</span> [
-            <span style=color:#c30>&#39;backend/runtime&#39;</span>,
-            <span style=color:#c30>&#39;backend/web/assets&#39;</span>,
-            <span style=color:#c30>&#39;frontend/runtime&#39;</span>,
-            <span style=color:#c30>&#39;frontend/web/assets&#39;</span>,
-            <span style=color:#c30>&#39;api/runtime&#39;</span>,
-            <span style=color:#c30>&#39;api/web/assets&#39;</span>,
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-php data-lang=php><span style=color:#ff79c6>return</span> [
+    <span style=color:#f1fa8c>&#39;Development&#39;</span> <span style=color:#ff79c6>=&gt;</span> [
+        <span style=color:#f1fa8c>&#39;path&#39;</span> <span style=color:#ff79c6>=&gt;</span> <span style=color:#f1fa8c>&#39;dev&#39;</span>,
+        <span style=color:#f1fa8c>&#39;setWritable&#39;</span> <span style=color:#ff79c6>=&gt;</span> [
+            <span style=color:#f1fa8c>&#39;backend/runtime&#39;</span>,
+            <span style=color:#f1fa8c>&#39;backend/web/assets&#39;</span>,
+            <span style=color:#f1fa8c>&#39;frontend/runtime&#39;</span>,
+            <span style=color:#f1fa8c>&#39;frontend/web/assets&#39;</span>,
+            <span style=color:#f1fa8c>&#39;api/runtime&#39;</span>,
+            <span style=color:#f1fa8c>&#39;api/web/assets&#39;</span>,
         ],
-        <span style=color:#c30>&#39;setExecutable&#39;</span> <span style=color:#555>=&gt;</span> [
-            <span style=color:#c30>&#39;yii&#39;</span>,
+        <span style=color:#f1fa8c>&#39;setExecutable&#39;</span> <span style=color:#ff79c6>=&gt;</span> [
+            <span style=color:#f1fa8c>&#39;yii&#39;</span>,
         ],
-        <span style=color:#c30>&#39;setCookieValidationKey&#39;</span> <span style=color:#555>=&gt;</span> [
-            <span style=color:#c30>&#39;backend/config/main-local.php&#39;</span>,
-            <span style=color:#c30>&#39;frontend/config/main-local.php&#39;</span>,
-            <span style=color:#c30>&#39;api/config/main-local.php&#39;</span>,
+        <span style=color:#f1fa8c>&#39;setCookieValidationKey&#39;</span> <span style=color:#ff79c6>=&gt;</span> [
+            <span style=color:#f1fa8c>&#39;backend/config/main-local.php&#39;</span>,
+            <span style=color:#f1fa8c>&#39;frontend/config/main-local.php&#39;</span>,
+            <span style=color:#f1fa8c>&#39;api/config/main-local.php&#39;</span>,
         ],
     ],
-    <span style=color:#c30>&#39;Production&#39;</span> <span style=color:#555>=&gt;</span> [
-        <span style=color:#c30>&#39;path&#39;</span> <span style=color:#555>=&gt;</span> <span style=color:#c30>&#39;prod&#39;</span>,
-        <span style=color:#c30>&#39;setWritable&#39;</span> <span style=color:#555>=&gt;</span> [
-            <span style=color:#c30>&#39;backend/runtime&#39;</span>,
-            <span style=color:#c30>&#39;backend/web/assets&#39;</span>,
-            <span style=color:#c30>&#39;frontend/runtime&#39;</span>,
-            <span style=color:#c30>&#39;frontend/web/assets&#39;</span>,
-            <span style=color:#c30>&#39;api/runtime&#39;</span>,
-            <span style=color:#c30>&#39;api/web/assets&#39;</span>,
+    <span style=color:#f1fa8c>&#39;Production&#39;</span> <span style=color:#ff79c6>=&gt;</span> [
+        <span style=color:#f1fa8c>&#39;path&#39;</span> <span style=color:#ff79c6>=&gt;</span> <span style=color:#f1fa8c>&#39;prod&#39;</span>,
+        <span style=color:#f1fa8c>&#39;setWritable&#39;</span> <span style=color:#ff79c6>=&gt;</span> [
+            <span style=color:#f1fa8c>&#39;backend/runtime&#39;</span>,
+            <span style=color:#f1fa8c>&#39;backend/web/assets&#39;</span>,
+            <span style=color:#f1fa8c>&#39;frontend/runtime&#39;</span>,
+            <span style=color:#f1fa8c>&#39;frontend/web/assets&#39;</span>,
+            <span style=color:#f1fa8c>&#39;api/runtime&#39;</span>,
+            <span style=color:#f1fa8c>&#39;api/web/assets&#39;</span>,
         ],
-        <span style=color:#c30>&#39;setExecutable&#39;</span> <span style=color:#555>=&gt;</span> [
-            <span style=color:#c30>&#39;yii&#39;</span>,
+        <span style=color:#f1fa8c>&#39;setExecutable&#39;</span> <span style=color:#ff79c6>=&gt;</span> [
+            <span style=color:#f1fa8c>&#39;yii&#39;</span>,
         ],
-        <span style=color:#c30>&#39;setCookieValidationKey&#39;</span> <span style=color:#555>=&gt;</span> [
-            <span style=color:#c30>&#39;backend/config/main-local.php&#39;</span>,
-            <span style=color:#c30>&#39;frontend/config/main-local.php&#39;</span>,
-            <span style=color:#c30>&#39;api/config/main-local.php&#39;</span>,
+        <span style=color:#f1fa8c>&#39;setCookieValidationKey&#39;</span> <span style=color:#ff79c6>=&gt;</span> [
+            <span style=color:#f1fa8c>&#39;backend/config/main-local.php&#39;</span>,
+            <span style=color:#f1fa8c>&#39;frontend/config/main-local.php&#39;</span>,
+            <span style=color:#f1fa8c>&#39;api/config/main-local.php&#39;</span>,
         ],
     ],
 ];
@@ -179,11 +179,11 @@ cp -a environments/prod/frontend environments/prod/api
 254 字</span>
 <span class="hidden xl:inline-block">|
 <i class="iconfont icon-clock-o"></i>
-1 分钟读完</span></p></div><div class="post-content dark:text-white"><h2 id=前言>前言</h2><p>前几天 MacBook 拿去修了，回来时候貌似覆盖的方式重装了一回系统了。反正就是 Apache 环境都没了，索性借这次机会使用一下 Docker 吧。</p><h2 id=安装>安装</h2><p>根据<a href=https://docs.docker.com/mac/step_one/>官网的文档</a>安装 Docker，如果一切正常的话就是下载一个软件，双击傻瓜式的安装就可以了。</p><h2 id=下载太慢怎么办>下载太慢怎么办？</h2><p>刚才找到一个国内的<a href=http://get.daocloud.io/#install-boot2docker>镜像</a>，速度还不错，推荐。</p><h2 id=安装失败报错怎么办>安装失败报错怎么办？</h2><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
+1 分钟读完</span></p></div><div class="post-content dark:text-white"><h2 id=前言>前言</h2><p>前几天 MacBook 拿去修了，回来时候貌似覆盖的方式重装了一回系统了。反正就是 Apache 环境都没了，索性借这次机会使用一下 Docker 吧。</p><h2 id=安装>安装</h2><p>根据<a href=https://docs.docker.com/mac/step_one/>官网的文档</a>安装 Docker，如果一切正常的话就是下载一个软件，双击傻瓜式的安装就可以了。</p><h2 id=下载太慢怎么办>下载太慢怎么办？</h2><p>刚才找到一个国内的<a href=http://get.daocloud.io/#install-boot2docker>镜像</a>，速度还不错，推荐。</p><h2 id=安装失败报错怎么办>安装失败报错怎么办？</h2><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">2
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">3
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-sh data-lang=sh>&gt; docker run hello-world
-&gt; FATA<span style=color:#555>[</span>0000<span style=color:#555>]</span> Post http:///var/run/docker.sock/v1.18/containers/create: dial unix /var/run/docker.sock: no such file or directory. Are you trying to connect to a TLS-enabled daemon without TLS?
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-sh data-lang=sh>&gt; docker run hello-world
+&gt; FATA<span style=color:#ff79c6>[</span>0000<span style=color:#ff79c6>]</span> Post http:///var/run/docker.sock/v1.18/containers/create: dial unix /var/run/docker.sock: no such file or directory. Are you trying to connect to a TLS-enabled daemon without TLS?
   FAIL
 </code></pre></td></tr></table></div></div></div><p class="text-sm font-semibold pt-5 text-gray-700 dark:text-gray-300"><a href=https://blog.forecho.com/mac-install-docker.html class="px-5 py-2 inline-block bg-gray-200 dark:bg-gray-800 rounded hover:bg-gray-300 dark:hover:bg-gray-700">阅读全文</a></p></article><hr class="bg-gray-300 mt-10 mb-6"><article><div><h1 class="font-bold break-normal text-gray-800 pt-2 pb-2 text-2xl lg:text-3xl dark:text-white"><a href=https://blog.forecho.com/octopress-and-travis-ci.html title="Octopress 结合 github 和 travis-ci 实现自动更新博客">Octopress 结合 github 和 travis-ci 实现自动更新博客</a></h1><p class="mb-1 text-sm text-gray-500 dark:text-gray-300"><span title=" 2015-07-21 17:25:00 +0800"><i class="iconfont icon-calendar" aria-hidden=true></i> 21 Jul 2015</span>
 <span class="hidden xl:inline-block">|

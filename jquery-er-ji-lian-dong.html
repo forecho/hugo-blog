@@ -4,7 +4,7 @@
 1097 字</span>
 <span class="hidden xl:inline-block">|
 <i class="iconfont icon-clock-o"></i>
-3 分钟读完</span></p></div><div class="md:hidden dark:text-gray-100"><p class="text-base font-bold py-2 yg:pb-6 text-gray-700 dark:text-gray-300">文章目录</p><div class="sticky text-sm" style=top:6em id=menu-content><nav id=TableOfContents></nav></div></div><div class="post-content dark:text-white"><p>公司JS做的一个效果，二级联动 获取第二个value的值。 下面是js代码。</p><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
+3 分钟读完</span></p></div><div class="md:hidden dark:text-gray-100"><p class="text-base font-bold py-2 yg:pb-6 text-gray-700 dark:text-gray-300">文章目录</p><div class="sticky text-sm" style=top:6em id=menu-content><nav id=TableOfContents></nav></div></div><div class="post-content dark:text-white"><p>公司JS做的一个效果，二级联动 获取第二个value的值。 下面是js代码。</p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 2
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 3
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 4
@@ -37,40 +37,40 @@
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">31
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">32
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">33
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-javascript data-lang=javascript><span style=color:#555>&lt;</span>script type<span style=color:#555>=</span><span style=color:#c30>&#34;text/javascript&#34;</span> src<span style=color:#555>=</span><span style=color:#c30>&#34;js/jquery-1.6.2.min.js&#34;</span><span style=color:#555>&gt;</span><span style=color:#09f;font-style:italic>// &lt;![CDATA[
-</span><span style=color:#09f;font-style:italic></span><span style=color:#555>&lt;</span>script type<span style=color:#555>=</span><span style=color:#c30>&#34;text/javascript&#34;</span><span style=color:#555>&gt;</span>
-<span style=color:#069;font-weight:700>var</span> currentShowCity<span style=color:#555>=</span><span style=color:#f60>0</span>;
-$(<span style=color:#366>document</span>).ready(<span style=color:#069;font-weight:700>function</span>(){
-   $(<span style=color:#c30>&#34;#province&#34;</span>).change(<span style=color:#069;font-weight:700>function</span>(){
-       $(<span style=color:#c30>&#34;#content&#34;</span>).text(<span style=color:#c30>&#34;&#34;</span>);
-	   $(<span style=color:#c30>&#34;#province option&#34;</span>).each(<span style=color:#069;font-weight:700>function</span>(i,o){
-		   <span style=color:#069;font-weight:700>if</span>($(<span style=color:#069;font-weight:700>this</span>).attr(<span style=color:#c30>&#34;selected&#34;</span>)){
-			   $(<span style=color:#c30>&#34;.city&#34;</span>).hide();
-			   $(<span style=color:#c30>&#34;.city&#34;</span>).eq(i).show();
-			   currentShowCity<span style=color:#555>=</span>i;
-			   $(<span style=color:#c30>&#34;.city:eq(&#34;</span><span style=color:#555>+</span>i<span style=color:#555>+</span><span style=color:#c30>&#34;)&#34;</span>).change(<span style=color:#069;font-weight:700>function</span>(){
-			     $(<span style=color:#c30>&#34;.city:eq(&#34;</span><span style=color:#555>+</span>i<span style=color:#555>+</span><span style=color:#c30>&#34;) option&#34;</span>).each(<span style=color:#069;font-weight:700>function</span>(i,o){
-				    <span style=color:#069;font-weight:700>if</span>($(<span style=color:#069;font-weight:700>this</span>).attr(<span style=color:#c30>&#34;selected&#34;</span>)){
-					  $(<span style=color:#c30>&#34;#content&#34;</span>).text($(<span style=color:#069;font-weight:700>this</span>).text());
-                       $(<span style=color:#c30>&#34;#value&#34;</span>).val($(<span style=color:#069;font-weight:700>this</span>).val());
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-javascript data-lang=javascript><span style=color:#ff79c6>&lt;</span>script type<span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;text/javascript&#34;</span> src<span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;js/jquery-1.6.2.min.js&#34;</span><span style=color:#ff79c6>&gt;</span><span style=color:#6272a4>// &lt;![CDATA[
+</span><span style=color:#6272a4></span><span style=color:#ff79c6>&lt;</span>script type<span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;text/javascript&#34;</span><span style=color:#ff79c6>&gt;</span>
+<span style=color:#8be9fd;font-style:italic>var</span> currentShowCity<span style=color:#ff79c6>=</span><span style=color:#bd93f9>0</span>;
+$(<span style=color:#8be9fd;font-style:italic>document</span>).ready(<span style=color:#8be9fd;font-style:italic>function</span>(){
+   $(<span style=color:#f1fa8c>&#34;#province&#34;</span>).change(<span style=color:#8be9fd;font-style:italic>function</span>(){
+       $(<span style=color:#f1fa8c>&#34;#content&#34;</span>).text(<span style=color:#f1fa8c>&#34;&#34;</span>);
+	   $(<span style=color:#f1fa8c>&#34;#province option&#34;</span>).each(<span style=color:#8be9fd;font-style:italic>function</span>(i,o){
+		   <span style=color:#ff79c6>if</span>($(<span style=color:#ff79c6>this</span>).attr(<span style=color:#f1fa8c>&#34;selected&#34;</span>)){
+			   $(<span style=color:#f1fa8c>&#34;.city&#34;</span>).hide();
+			   $(<span style=color:#f1fa8c>&#34;.city&#34;</span>).eq(i).show();
+			   currentShowCity<span style=color:#ff79c6>=</span>i;
+			   $(<span style=color:#f1fa8c>&#34;.city:eq(&#34;</span><span style=color:#ff79c6>+</span>i<span style=color:#ff79c6>+</span><span style=color:#f1fa8c>&#34;)&#34;</span>).change(<span style=color:#8be9fd;font-style:italic>function</span>(){
+			     $(<span style=color:#f1fa8c>&#34;.city:eq(&#34;</span><span style=color:#ff79c6>+</span>i<span style=color:#ff79c6>+</span><span style=color:#f1fa8c>&#34;) option&#34;</span>).each(<span style=color:#8be9fd;font-style:italic>function</span>(i,o){
+				    <span style=color:#ff79c6>if</span>($(<span style=color:#ff79c6>this</span>).attr(<span style=color:#f1fa8c>&#34;selected&#34;</span>)){
+					  $(<span style=color:#f1fa8c>&#34;#content&#34;</span>).text($(<span style=color:#ff79c6>this</span>).text());
+                       $(<span style=color:#f1fa8c>&#34;#value&#34;</span>).val($(<span style=color:#ff79c6>this</span>).val());
 					}
 				 })
 			   })
 		   }
 	   });
    });
-   $(<span style=color:#c30>&#34;#province&#34;</span>).change();
+   $(<span style=color:#f1fa8c>&#34;#province&#34;</span>).change();
 });
-<span style=color:#069;font-weight:700>function</span> getSelectValue(){
-	alert(<span style=color:#c30>&#34;1级=&#34;</span><span style=color:#555>+</span>$(<span style=color:#c30>&#34;#province&#34;</span>).val());
-	$(<span style=color:#c30>&#34;.city&#34;</span>).each(<span style=color:#069;font-weight:700>function</span>(i,o){
-		 <span style=color:#069;font-weight:700>if</span>(i <span style=color:#555>==</span> currentShowCity){
-			alert(<span style=color:#c30>&#34;2级=&#34;</span><span style=color:#555>+</span>$(<span style=color:#c30>&#34;.city&#34;</span>).eq(i).val());
+<span style=color:#8be9fd;font-style:italic>function</span> getSelectValue(){
+	alert(<span style=color:#f1fa8c>&#34;1级=&#34;</span><span style=color:#ff79c6>+</span>$(<span style=color:#f1fa8c>&#34;#province&#34;</span>).val());
+	$(<span style=color:#f1fa8c>&#34;.city&#34;</span>).each(<span style=color:#8be9fd;font-style:italic>function</span>(i,o){
+		 <span style=color:#ff79c6>if</span>(i <span style=color:#ff79c6>==</span> currentShowCity){
+			alert(<span style=color:#f1fa8c>&#34;2级=&#34;</span><span style=color:#ff79c6>+</span>$(<span style=color:#f1fa8c>&#34;.city&#34;</span>).eq(i).val());
 		 }
     });
 }
-<span style=color:#09f;font-style:italic>// ]]&gt;&lt;/script&gt;
-</span></code></pre></td></tr></table></div></div><p>下面是html代码。</p><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
+<span style=color:#6272a4>// ]]&gt;&lt;/script&gt;
+</span></code></pre></td></tr></table></div></div><p>下面是html代码。</p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 2
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 3
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 4
@@ -101,37 +101,37 @@ $(<span style=color:#366>document</span>).ready(<span style=color:#069;font-weig
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">29
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">30
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">31
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-html data-lang=html>&lt;<span style=color:#309;font-weight:700>select</span> <span style=color:#309>id</span><span style=color:#555>=</span><span style=color:#c30>&#34;province&#34;</span>&gt;
-	&lt;<span style=color:#309;font-weight:700>option</span> <span style=color:#309>selected</span><span style=color:#555>=</span><span style=color:#c30>&#34;selected&#34;</span>&gt;----请选择省份----&lt;/<span style=color:#309;font-weight:700>option</span>&gt;
-	&lt;<span style=color:#309;font-weight:700>option</span>&gt;北京&lt;/<span style=color:#309;font-weight:700>option</span>&gt;
-	&lt;<span style=color:#309;font-weight:700>option</span>&gt;上海&lt;/<span style=color:#309;font-weight:700>option</span>&gt;
-	&lt;<span style=color:#309;font-weight:700>option</span>&gt;江苏&lt;/<span style=color:#309;font-weight:700>option</span>&gt;
-&lt;/<span style=color:#309;font-weight:700>select</span>&gt;
-&lt;<span style=color:#309;font-weight:700>select</span> <span style=color:#309>class</span><span style=color:#555>=</span><span style=color:#c30>&#34;city&#34;</span> <span style=color:#309>style</span><span style=color:#555>=</span><span style=color:#c30>&#34;display: inline-block;&#34;</span>&gt;
-	&lt;<span style=color:#309;font-weight:700>option</span>&gt;----请选择----&lt;/<span style=color:#309;font-weight:700>option</span>&gt;
-&lt;/<span style=color:#309;font-weight:700>select</span>&gt;
-&lt;<span style=color:#309;font-weight:700>select</span> <span style=color:#309>class</span><span style=color:#555>=</span><span style=color:#c30>&#34;city&#34;</span> <span style=color:#309>style</span><span style=color:#555>=</span><span style=color:#c30>&#34;display: none;&#34;</span>&gt;
-	&lt;<span style=color:#309;font-weight:700>option</span>&gt;----请选择----&lt;/<span style=color:#309;font-weight:700>option</span>&gt;
-	&lt;<span style=color:#309;font-weight:700>option</span> <span style=color:#309>value</span><span style=color:#555>=</span><span style=color:#c30>&#34;20&#34;</span>&gt;预定流程&lt;/<span style=color:#309;font-weight:700>option</span>&gt;
-	&lt;<span style=color:#309;font-weight:700>option</span> <span style=color:#309>value</span><span style=color:#555>=</span><span style=color:#c30>&#34;21&#34;</span>&gt;预定演示&lt;/<span style=color:#309;font-weight:700>option</span>&gt;
-	&lt;<span style=color:#309;font-weight:700>option</span> <span style=color:#309>value</span><span style=color:#555>=</span><span style=color:#c30>&#34;22&#34;</span>&gt;服务时间&lt;/<span style=color:#309;font-weight:700>option</span>&gt;
-	&lt;<span style=color:#309;font-weight:700>option</span> <span style=color:#309>value</span><span style=color:#555>=</span><span style=color:#c30>&#34;23&#34;</span>&gt;注意事项&lt;/<span style=color:#309;font-weight:700>option</span>&gt;
-&lt;/<span style=color:#309;font-weight:700>select</span>&gt;
-&lt;<span style=color:#309;font-weight:700>select</span> <span style=color:#309>class</span><span style=color:#555>=</span><span style=color:#c30>&#34;city&#34;</span> <span style=color:#309>style</span><span style=color:#555>=</span><span style=color:#c30>&#34;display: none;&#34;</span>&gt;
-	&lt;<span style=color:#309;font-weight:700>option</span>&gt;----请选择----&lt;/<span style=color:#309;font-weight:700>option</span>&gt;
-	&lt;<span style=color:#309;font-weight:700>option</span> <span style=color:#309>value</span><span style=color:#555>=</span><span style=color:#c30>&#34;24&#34;</span>&gt;会员章程&lt;/<span style=color:#309;font-weight:700>option</span>&gt;
-	&lt;<span style=color:#309;font-weight:700>option</span> <span style=color:#309>value</span><span style=color:#555>=</span><span style=color:#c30>&#34;25&#34;</span>&gt;入会资格&lt;/<span style=color:#309;font-weight:700>option</span>&gt;
-	&lt;<span style=color:#309;font-weight:700>option</span> <span style=color:#309>value</span><span style=color:#555>=</span><span style=color:#c30>&#34;26&#34;</span>&gt;会员优惠&lt;/<span style=color:#309;font-weight:700>option</span>&gt;
-	&lt;<span style=color:#309;font-weight:700>option</span> <span style=color:#309>value</span><span style=color:#555>=</span><span style=color:#c30>&#34;27&#34;</span>&gt;会员申请&lt;/<span style=color:#309;font-weight:700>option</span>&gt;
-&lt;/<span style=color:#309;font-weight:700>select</span>&gt;
-&lt;<span style=color:#309;font-weight:700>select</span> <span style=color:#309>class</span><span style=color:#555>=</span><span style=color:#c30>&#34;city&#34;</span> <span style=color:#309>style</span><span style=color:#555>=</span><span style=color:#c30>&#34;display: none;&#34;</span>&gt;
-	&lt;<span style=color:#309;font-weight:700>option</span>&gt;----请选择----&lt;/<span style=color:#309;font-weight:700>option</span>&gt;
-	&lt;<span style=color:#309;font-weight:700>option</span> <span style=color:#309>value</span><span style=color:#555>=</span><span style=color:#c30>&#34;28&#34;</span>&gt;儿童座椅&lt;/<span style=color:#309;font-weight:700>option</span>&gt;
-	&lt;<span style=color:#309;font-weight:700>option</span> <span style=color:#309>value</span><span style=color:#555>=</span><span style=color:#c30>&#34;29&#34;</span>&gt;GPS&lt;/<span style=color:#309;font-weight:700>option</span>&gt;
-	&lt;<span style=color:#309;font-weight:700>option</span> <span style=color:#309>value</span><span style=color:#555>=</span><span style=color:#c30>&#34;30&#34;</span>&gt;送车上门&lt;/<span style=color:#309;font-weight:700>option</span>&gt;
-	&lt;<span style=color:#309;font-weight:700>option</span> <span style=color:#309>value</span><span style=color:#555>=</span><span style=color:#c30>&#34;31&#34;</span>&gt;异店还车&lt;/<span style=color:#309;font-weight:700>option</span>&gt;
-&lt;/<span style=color:#309;font-weight:700>select</span>&gt;
-&lt;<span style=color:#309;font-weight:700>input</span> <span style=color:#309>id</span><span style=color:#555>=</span><span style=color:#c30>&#34;value&#34;</span> <span style=color:#309>type</span><span style=color:#555>=</span><span style=color:#c30>&#34;text&#34;</span> <span style=color:#309>name</span><span style=color:#555>=</span><span style=color:#c30>&#34;&#34;</span> <span style=color:#309>value</span><span style=color:#555>=</span><span style=color:#c30>&#34;&#34;</span> /&gt; &lt;<span style=color:#309;font-weight:700>input</span> <span style=color:#309>onclick</span><span style=color:#555>=</span><span style=color:#c30>&#34;getSelectValue();&#34;</span> <span style=color:#309>type</span><span style=color:#555>=</span><span style=color:#c30>&#34;button&#34;</span> <span style=color:#309>value</span><span style=color:#555>=</span><span style=color:#c30>&#34;点我&#34;</span> /&gt;
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-html data-lang=html>&lt;<span style=color:#ff79c6>select</span> <span style=color:#50fa7b>id</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;province&#34;</span>&gt;
+	&lt;<span style=color:#ff79c6>option</span> <span style=color:#50fa7b>selected</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;selected&#34;</span>&gt;----请选择省份----&lt;/<span style=color:#ff79c6>option</span>&gt;
+	&lt;<span style=color:#ff79c6>option</span>&gt;北京&lt;/<span style=color:#ff79c6>option</span>&gt;
+	&lt;<span style=color:#ff79c6>option</span>&gt;上海&lt;/<span style=color:#ff79c6>option</span>&gt;
+	&lt;<span style=color:#ff79c6>option</span>&gt;江苏&lt;/<span style=color:#ff79c6>option</span>&gt;
+&lt;/<span style=color:#ff79c6>select</span>&gt;
+&lt;<span style=color:#ff79c6>select</span> <span style=color:#50fa7b>class</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;city&#34;</span> <span style=color:#50fa7b>style</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;display: inline-block;&#34;</span>&gt;
+	&lt;<span style=color:#ff79c6>option</span>&gt;----请选择----&lt;/<span style=color:#ff79c6>option</span>&gt;
+&lt;/<span style=color:#ff79c6>select</span>&gt;
+&lt;<span style=color:#ff79c6>select</span> <span style=color:#50fa7b>class</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;city&#34;</span> <span style=color:#50fa7b>style</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;display: none;&#34;</span>&gt;
+	&lt;<span style=color:#ff79c6>option</span>&gt;----请选择----&lt;/<span style=color:#ff79c6>option</span>&gt;
+	&lt;<span style=color:#ff79c6>option</span> <span style=color:#50fa7b>value</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;20&#34;</span>&gt;预定流程&lt;/<span style=color:#ff79c6>option</span>&gt;
+	&lt;<span style=color:#ff79c6>option</span> <span style=color:#50fa7b>value</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;21&#34;</span>&gt;预定演示&lt;/<span style=color:#ff79c6>option</span>&gt;
+	&lt;<span style=color:#ff79c6>option</span> <span style=color:#50fa7b>value</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;22&#34;</span>&gt;服务时间&lt;/<span style=color:#ff79c6>option</span>&gt;
+	&lt;<span style=color:#ff79c6>option</span> <span style=color:#50fa7b>value</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;23&#34;</span>&gt;注意事项&lt;/<span style=color:#ff79c6>option</span>&gt;
+&lt;/<span style=color:#ff79c6>select</span>&gt;
+&lt;<span style=color:#ff79c6>select</span> <span style=color:#50fa7b>class</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;city&#34;</span> <span style=color:#50fa7b>style</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;display: none;&#34;</span>&gt;
+	&lt;<span style=color:#ff79c6>option</span>&gt;----请选择----&lt;/<span style=color:#ff79c6>option</span>&gt;
+	&lt;<span style=color:#ff79c6>option</span> <span style=color:#50fa7b>value</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;24&#34;</span>&gt;会员章程&lt;/<span style=color:#ff79c6>option</span>&gt;
+	&lt;<span style=color:#ff79c6>option</span> <span style=color:#50fa7b>value</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;25&#34;</span>&gt;入会资格&lt;/<span style=color:#ff79c6>option</span>&gt;
+	&lt;<span style=color:#ff79c6>option</span> <span style=color:#50fa7b>value</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;26&#34;</span>&gt;会员优惠&lt;/<span style=color:#ff79c6>option</span>&gt;
+	&lt;<span style=color:#ff79c6>option</span> <span style=color:#50fa7b>value</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;27&#34;</span>&gt;会员申请&lt;/<span style=color:#ff79c6>option</span>&gt;
+&lt;/<span style=color:#ff79c6>select</span>&gt;
+&lt;<span style=color:#ff79c6>select</span> <span style=color:#50fa7b>class</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;city&#34;</span> <span style=color:#50fa7b>style</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;display: none;&#34;</span>&gt;
+	&lt;<span style=color:#ff79c6>option</span>&gt;----请选择----&lt;/<span style=color:#ff79c6>option</span>&gt;
+	&lt;<span style=color:#ff79c6>option</span> <span style=color:#50fa7b>value</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;28&#34;</span>&gt;儿童座椅&lt;/<span style=color:#ff79c6>option</span>&gt;
+	&lt;<span style=color:#ff79c6>option</span> <span style=color:#50fa7b>value</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;29&#34;</span>&gt;GPS&lt;/<span style=color:#ff79c6>option</span>&gt;
+	&lt;<span style=color:#ff79c6>option</span> <span style=color:#50fa7b>value</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;30&#34;</span>&gt;送车上门&lt;/<span style=color:#ff79c6>option</span>&gt;
+	&lt;<span style=color:#ff79c6>option</span> <span style=color:#50fa7b>value</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;31&#34;</span>&gt;异店还车&lt;/<span style=color:#ff79c6>option</span>&gt;
+&lt;/<span style=color:#ff79c6>select</span>&gt;
+&lt;<span style=color:#ff79c6>input</span> <span style=color:#50fa7b>id</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;value&#34;</span> <span style=color:#50fa7b>type</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;text&#34;</span> <span style=color:#50fa7b>name</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;&#34;</span> <span style=color:#50fa7b>value</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;&#34;</span> /&gt; &lt;<span style=color:#ff79c6>input</span> <span style=color:#50fa7b>onclick</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;getSelectValue();&#34;</span> <span style=color:#50fa7b>type</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;button&#34;</span> <span style=color:#50fa7b>value</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;点我&#34;</span> /&gt;
 </code></pre></td></tr></table></div></div><p>效果演示代码请猛击 <a href=http://www.nowhisky.com/demo/2liandong.html>这里~~~~</a></p><hr class="bg-gray-300 mt-8"><div class=pt-4><p class=text-center><button id=btn-donate class="px-5 py-2 inline-block rounded hover:bg-red-600 bg-red-400 text-white" for=reward>打赏</button></p><div class="flex-auto mt-2 mx-2 hidden" id=donate-image><div class="w-full px-2 my-2"><div class="bg-white dark:bg-black"><img class="h-48 shadow object-cover w-auto mx-auto" loading=lazy src=https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424153510.png alt=微信打赏><div class="text-center text-gray-500">微信打赏</div></div></div><div class="w-full px-2 my-2"><div class="bg-white dark:bg-black"><img class="h-48 shadow object-cover w-auto mx-auto" loading=lazy src=https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424153431.png alt=支付宝打赏><div class="text-center text-gray-500">支付宝打赏</div></div></div></div></div><div class="border-l-4 border-red-400 mx-auto text-gray-500"><div class=copyright><ul class=list-none><li><strong>原文作者：</strong>
 <a rel=author href=https://blog.forecho.com>forecho</a></li><li style=word-break:break-all><strong>原文链接：</strong>
 <a href=https://blog.forecho.com/jquery-er-ji-lian-dong.html>https://blog.forecho.com/jquery-er-ji-lian-dong.html</a></li><li><strong>版权声明：</strong>本作品采用

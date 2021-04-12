@@ -43,7 +43,7 @@
 1455 字</span>
 <span class="hidden xl:inline-block">|
 <i class="iconfont icon-clock-o"></i>
-3 分钟读完</span></p></div><div class="md:hidden dark:text-gray-100"><p class="text-base font-bold py-2 yg:pb-6 text-gray-700 dark:text-gray-300">文章目录</p><div class="sticky text-sm" style=top:6em id=menu-content><nav id=TableOfContents><ul><li><a href=#引言>引言</a></li><li><a href=#实现>实现</a><ul><li><a href=#目录结构>目录结构</a></li><li><a href=#初始化文件>初始化文件</a></li><li><a href=#配置文件>配置文件</a></li><li><a href=#实现自动输入法切换功能>实现自动输入法切换功能</a></li><li><a href=#切换输入法>切换输入法</a></li><li><a href=#app-启动>App 启动</a></li><li><a href=#自动重载配置>自动重载配置</a></li><li><a href=#窗口管理>窗口管理</a></li><li><a href=#休眠自动关闭蓝牙>休眠自动关闭蓝牙</a></li></ul></li><li><a href=#最后>最后</a></li><li><a href=#参考链接>参考链接</a></li></ul></nav></div></div><div class="post-content dark:text-white"><h2 id=引言>引言</h2><p>今天要给大家分享的是一款 Mac 利器 Hammerspoon，通过编写 Lua 脚本可以让这款软件实现以下功能</p><ul><li>管理窗口大小以及位置</li><li>软件启动器</li><li>给特定的软件设置中/英文输入法</li></ul><p>你甚至可以通过编写代码实现</p><ul><li>休眠状态关闭蓝牙功能</li><li>连上公司 Wi-Fi 自动静音</li><li>……</li></ul><p>接下来详细讲解如何实现以上功能。不会 Lua？没关系，只要你有一点点编程经验，代码看起来都不是问题。</p><h2 id=实现>实现</h2><p>我自己的配置代码已经在 GitHub 上开源，有兴趣的可以直接去读源码 - <a href=https://github.com/forecho/hammerspoon-config>forecho/hammerspoon-config</a></p><h3 id=目录结构>目录结构</h3><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
+3 分钟读完</span></p></div><div class="md:hidden dark:text-gray-100"><p class="text-base font-bold py-2 yg:pb-6 text-gray-700 dark:text-gray-300">文章目录</p><div class="sticky text-sm" style=top:6em id=menu-content><nav id=TableOfContents><ul><li><a href=#引言>引言</a></li><li><a href=#实现>实现</a><ul><li><a href=#目录结构>目录结构</a></li><li><a href=#初始化文件>初始化文件</a></li><li><a href=#配置文件>配置文件</a></li><li><a href=#实现自动输入法切换功能>实现自动输入法切换功能</a></li><li><a href=#切换输入法>切换输入法</a></li><li><a href=#app-启动>App 启动</a></li><li><a href=#自动重载配置>自动重载配置</a></li><li><a href=#窗口管理>窗口管理</a></li><li><a href=#休眠自动关闭蓝牙>休眠自动关闭蓝牙</a></li></ul></li><li><a href=#最后>最后</a></li><li><a href=#参考链接>参考链接</a></li></ul></nav></div></div><div class="post-content dark:text-white"><h2 id=引言>引言</h2><p>今天要给大家分享的是一款 Mac 利器 Hammerspoon，通过编写 Lua 脚本可以让这款软件实现以下功能</p><ul><li>管理窗口大小以及位置</li><li>软件启动器</li><li>给特定的软件设置中/英文输入法</li></ul><p>你甚至可以通过编写代码实现</p><ul><li>休眠状态关闭蓝牙功能</li><li>连上公司 Wi-Fi 自动静音</li><li>……</li></ul><p>接下来详细讲解如何实现以上功能。不会 Lua？没关系，只要你有一点点编程经验，代码看起来都不是问题。</p><h2 id=实现>实现</h2><p>我自己的配置代码已经在 GitHub 上开源，有兴趣的可以直接去读源码 - <a href=https://github.com/forecho/hammerspoon-config>forecho/hammerspoon-config</a></p><h3 id=目录结构>目录结构</h3><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 2
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 3
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 4
@@ -54,7 +54,7 @@
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 9
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">10
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">11
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-fallback data-lang=fallback>.
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-fallback data-lang=fallback>.
 ├── README.md
 ├── config.lua
 ├── init.lua
@@ -65,7 +65,7 @@
     ├── launcher.lua
     ├── reload.lua
     └── window.lua
-</code></pre></td></tr></table></div></div><ul><li><code>init.lua</code> 是入口文件</li><li><code>config.lua</code> 是配置文件，通过修改此文件，定制化自己的需求</li><li><code>modules</code> 是每个模块的文件夹，具体功能都在这里实现</li></ul><h3 id=初始化文件>初始化文件</h3><p><code>init.lua</code></p><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
+</code></pre></td></tr></table></div></div><ul><li><code>init.lua</code> 是入口文件</li><li><code>config.lua</code> 是配置文件，通过修改此文件，定制化自己的需求</li><li><code>modules</code> 是每个模块的文件夹，具体功能都在这里实现</li></ul><h3 id=初始化文件>初始化文件</h3><p><code>init.lua</code></p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 2
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 3
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 4
@@ -82,24 +82,24 @@
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">15
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">16
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">17
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-lua data-lang=lua>
-require <span style=color:#c30>&#34;modules.reload&#34;</span>
-require <span style=color:#c30>&#34;config&#34;</span>
-require <span style=color:#c30>&#34;modules.window&#34;</span>
-require <span style=color:#c30>&#34;modules.launcher&#34;</span>
-require <span style=color:#c30>&#34;modules.input&#34;</span>
-require <span style=color:#c30>&#34;modules.defaultInput&#34;</span>
-require <span style=color:#c30>&#34;modules.bluetoothSleep&#34;</span>
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-lua data-lang=lua>
+require <span style=color:#f1fa8c>&#34;modules.reload&#34;</span>
+require <span style=color:#f1fa8c>&#34;config&#34;</span>
+require <span style=color:#f1fa8c>&#34;modules.window&#34;</span>
+require <span style=color:#f1fa8c>&#34;modules.launcher&#34;</span>
+require <span style=color:#f1fa8c>&#34;modules.input&#34;</span>
+require <span style=color:#f1fa8c>&#34;modules.defaultInput&#34;</span>
+require <span style=color:#f1fa8c>&#34;modules.bluetoothSleep&#34;</span>
 
-<span style=color:#09f;font-style:italic>-- 调试代码</span>
-hs.hotkey.bind({<span style=color:#c30>&#39;cmd&#39;</span>, <span style=color:#c30>&#39;shift&#39;</span>}, <span style=color:#c30>&#39;h&#39;</span>, <span style=color:#069;font-weight:700>function</span>() 
-	hs.alert(<span style=color:#c30>&#39;Hello World&#39;</span>) 
-	speaker <span style=color:#555>=</span> hs.speech.new()
-	speaker:speak(<span style=color:#c30>&#34;Hammerspoon is online&#34;</span>)
-	hs.notify.new({title<span style=color:#555>=</span><span style=color:#c30>&#34;Hammerspoon launch&#34;</span>, informativeText<span style=color:#555>=</span><span style=color:#c30>&#34;Boss, at your service&#34;</span>}):send()
-<span style=color:#069;font-weight:700>end</span>)
+<span style=color:#6272a4>-- 调试代码</span>
+hs.hotkey.bind({<span style=color:#f1fa8c>&#39;cmd&#39;</span>, <span style=color:#f1fa8c>&#39;shift&#39;</span>}, <span style=color:#f1fa8c>&#39;h&#39;</span>, <span style=color:#ff79c6>function</span>() 
+	hs.alert(<span style=color:#f1fa8c>&#39;Hello World&#39;</span>) 
+	speaker <span style=color:#ff79c6>=</span> hs.speech.new()
+	speaker:speak(<span style=color:#f1fa8c>&#34;Hammerspoon is online&#34;</span>)
+	hs.notify.new({title<span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;Hammerspoon launch&#34;</span>, informativeText<span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;Boss, at your service&#34;</span>}):send()
+<span style=color:#ff79c6>end</span>)
 
-</code></pre></td></tr></table></div></div><h3 id=配置文件>配置文件</h3><p><code>config.lua</code></p><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
+</code></pre></td></tr></table></div></div><h3 id=配置文件>配置文件</h3><p><code>config.lua</code></p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 2
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 3
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 4
@@ -135,43 +135,43 @@ hs.hotkey.bind({<span style=color:#c30>&#39;cmd&#39;</span>, <span style=color:#
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">34
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">35
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">36
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-lua data-lang=lua>
-windowHotkey <span style=color:#555>=</span> {<span style=color:#c30>&#39;control&#39;</span>,<span style=color:#c30>&#39;command&#39;</span>}
-launcherHotkey <span style=color:#555>=</span> {<span style=color:#c30>&#39;option&#39;</span>}
-inputHotkey <span style=color:#555>=</span> {<span style=color:#c30>&#39;option&#39;</span>}
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-lua data-lang=lua>
+windowHotkey <span style=color:#ff79c6>=</span> {<span style=color:#f1fa8c>&#39;control&#39;</span>,<span style=color:#f1fa8c>&#39;command&#39;</span>}
+launcherHotkey <span style=color:#ff79c6>=</span> {<span style=color:#f1fa8c>&#39;option&#39;</span>}
+inputHotkey <span style=color:#ff79c6>=</span> {<span style=color:#f1fa8c>&#39;option&#39;</span>}
 
-applist <span style=color:#555>=</span> {
-    {shortcut <span style=color:#555>=</span> <span style=color:#c30>&#39;Q&#39;</span>,appname <span style=color:#555>=</span> <span style=color:#c30>&#39;QQ&#39;</span>},
-    {shortcut <span style=color:#555>=</span> <span style=color:#c30>&#39;G&#39;</span>,appname <span style=color:#555>=</span> <span style=color:#c30>&#39;Google Chrome&#39;</span>},
-    {shortcut <span style=color:#555>=</span> <span style=color:#c30>&#39;C&#39;</span>,appname <span style=color:#555>=</span> <span style=color:#c30>&#39;Visual Studio Code&#39;</span>},
-    {shortcut <span style=color:#555>=</span> <span style=color:#c30>&#39;I&#39;</span>,appname <span style=color:#555>=</span> <span style=color:#c30>&#39;iTerm&#39;</span>},
-    {shortcut <span style=color:#555>=</span> <span style=color:#c30>&#39;P&#39;</span>,appname <span style=color:#555>=</span> <span style=color:#c30>&#39;PHPStorm&#39;</span>},
-    {shortcut <span style=color:#555>=</span> <span style=color:#c30>&#39;W&#39;</span>,appname <span style=color:#555>=</span> <span style=color:#c30>&#39;WeChat&#39;</span>},
-    {shortcut <span style=color:#555>=</span> <span style=color:#c30>&#39;O&#39;</span>,appname <span style=color:#555>=</span> <span style=color:#c30>&#39;Postman&#39;</span>},
-    {shortcut <span style=color:#555>=</span> <span style=color:#c30>&#39;Y&#39;</span>,appname <span style=color:#555>=</span> <span style=color:#c30>&#39;企业微信&#39;</span>},
+applist <span style=color:#ff79c6>=</span> {
+    {shortcut <span style=color:#ff79c6>=</span> <span style=color:#f1fa8c>&#39;Q&#39;</span>,appname <span style=color:#ff79c6>=</span> <span style=color:#f1fa8c>&#39;QQ&#39;</span>},
+    {shortcut <span style=color:#ff79c6>=</span> <span style=color:#f1fa8c>&#39;G&#39;</span>,appname <span style=color:#ff79c6>=</span> <span style=color:#f1fa8c>&#39;Google Chrome&#39;</span>},
+    {shortcut <span style=color:#ff79c6>=</span> <span style=color:#f1fa8c>&#39;C&#39;</span>,appname <span style=color:#ff79c6>=</span> <span style=color:#f1fa8c>&#39;Visual Studio Code&#39;</span>},
+    {shortcut <span style=color:#ff79c6>=</span> <span style=color:#f1fa8c>&#39;I&#39;</span>,appname <span style=color:#ff79c6>=</span> <span style=color:#f1fa8c>&#39;iTerm&#39;</span>},
+    {shortcut <span style=color:#ff79c6>=</span> <span style=color:#f1fa8c>&#39;P&#39;</span>,appname <span style=color:#ff79c6>=</span> <span style=color:#f1fa8c>&#39;PHPStorm&#39;</span>},
+    {shortcut <span style=color:#ff79c6>=</span> <span style=color:#f1fa8c>&#39;W&#39;</span>,appname <span style=color:#ff79c6>=</span> <span style=color:#f1fa8c>&#39;WeChat&#39;</span>},
+    {shortcut <span style=color:#ff79c6>=</span> <span style=color:#f1fa8c>&#39;O&#39;</span>,appname <span style=color:#ff79c6>=</span> <span style=color:#f1fa8c>&#39;Postman&#39;</span>},
+    {shortcut <span style=color:#ff79c6>=</span> <span style=color:#f1fa8c>&#39;Y&#39;</span>,appname <span style=color:#ff79c6>=</span> <span style=color:#f1fa8c>&#39;企业微信&#39;</span>},
 }
 
-appInputMethod <span style=color:#555>=</span> {
-    {<span style=color:#c30>&#39;/Applications/iTerm.app&#39;</span>, <span style=color:#c30>&#39;English&#39;</span>},
-    {<span style=color:#c30>&#39;/Applications/Visual Studio Code.app&#39;</span>, <span style=color:#c30>&#39;English&#39;</span>},
-    {<span style=color:#c30>&#39;/Applications/PHPStorm.app&#39;</span>, <span style=color:#c30>&#39;English&#39;</span>},
-    {<span style=color:#c30>&#39;/Applications/Xcode.app&#39;</span>, <span style=color:#c30>&#39;English&#39;</span>},
-    {<span style=color:#c30>&#39;/Applications/Google Chrome.app&#39;</span>, <span style=color:#c30>&#39;English&#39;</span>},
-    {<span style=color:#c30>&#39;/System/Library/CoreServices/Finder.app&#39;</span>, <span style=color:#c30>&#39;English&#39;</span>},
-    {<span style=color:#c30>&#39;/Applications/DingTalk.app&#39;</span>, <span style=color:#c30>&#39;Chinese&#39;</span>},
-    {<span style=color:#c30>&#39;/Applications/Kindle.app&#39;</span>, <span style=color:#c30>&#39;English&#39;</span>},
-    {<span style=color:#c30>&#39;/Applications/NeteaseMusic.app&#39;</span>, <span style=color:#c30>&#39;Chinese&#39;</span>},
-    {<span style=color:#c30>&#39;/Applications/WeChat.app&#39;</span>, <span style=color:#c30>&#39;Chinese&#39;</span>},
-    {<span style=color:#c30>&#39;/Applications/System Preferences.app&#39;</span>, <span style=color:#c30>&#39;English&#39;</span>},
-    {<span style=color:#c30>&#39;/Applications/Dash.app&#39;</span>, <span style=color:#c30>&#39;English&#39;</span>},
-    {<span style=color:#c30>&#39;/Applications/MindNode.app&#39;</span>, <span style=color:#c30>&#39;Chinese&#39;</span>},
-    {<span style=color:#c30>&#39;/Applications/QQ.app&#39;</span>, <span style=color:#c30>&#39;Chinese&#39;</span>},
-    {<span style=color:#c30>&#39;/Applications/企业微信.app&#39;</span>, <span style=color:#c30>&#39;Chinese&#39;</span>},
-    {<span style=color:#c30>&#39;/Applications/wechatwebdevtools.app&#39;</span>, <span style=color:#c30>&#39;English&#39;</span>},
-    {<span style=color:#c30>&#39;/Applications/Sketch.app&#39;</span>, <span style=color:#c30>&#39;English&#39;</span>},
+appInputMethod <span style=color:#ff79c6>=</span> {
+    {<span style=color:#f1fa8c>&#39;/Applications/iTerm.app&#39;</span>, <span style=color:#f1fa8c>&#39;English&#39;</span>},
+    {<span style=color:#f1fa8c>&#39;/Applications/Visual Studio Code.app&#39;</span>, <span style=color:#f1fa8c>&#39;English&#39;</span>},
+    {<span style=color:#f1fa8c>&#39;/Applications/PHPStorm.app&#39;</span>, <span style=color:#f1fa8c>&#39;English&#39;</span>},
+    {<span style=color:#f1fa8c>&#39;/Applications/Xcode.app&#39;</span>, <span style=color:#f1fa8c>&#39;English&#39;</span>},
+    {<span style=color:#f1fa8c>&#39;/Applications/Google Chrome.app&#39;</span>, <span style=color:#f1fa8c>&#39;English&#39;</span>},
+    {<span style=color:#f1fa8c>&#39;/System/Library/CoreServices/Finder.app&#39;</span>, <span style=color:#f1fa8c>&#39;English&#39;</span>},
+    {<span style=color:#f1fa8c>&#39;/Applications/DingTalk.app&#39;</span>, <span style=color:#f1fa8c>&#39;Chinese&#39;</span>},
+    {<span style=color:#f1fa8c>&#39;/Applications/Kindle.app&#39;</span>, <span style=color:#f1fa8c>&#39;English&#39;</span>},
+    {<span style=color:#f1fa8c>&#39;/Applications/NeteaseMusic.app&#39;</span>, <span style=color:#f1fa8c>&#39;Chinese&#39;</span>},
+    {<span style=color:#f1fa8c>&#39;/Applications/WeChat.app&#39;</span>, <span style=color:#f1fa8c>&#39;Chinese&#39;</span>},
+    {<span style=color:#f1fa8c>&#39;/Applications/System Preferences.app&#39;</span>, <span style=color:#f1fa8c>&#39;English&#39;</span>},
+    {<span style=color:#f1fa8c>&#39;/Applications/Dash.app&#39;</span>, <span style=color:#f1fa8c>&#39;English&#39;</span>},
+    {<span style=color:#f1fa8c>&#39;/Applications/MindNode.app&#39;</span>, <span style=color:#f1fa8c>&#39;Chinese&#39;</span>},
+    {<span style=color:#f1fa8c>&#39;/Applications/QQ.app&#39;</span>, <span style=color:#f1fa8c>&#39;Chinese&#39;</span>},
+    {<span style=color:#f1fa8c>&#39;/Applications/企业微信.app&#39;</span>, <span style=color:#f1fa8c>&#39;Chinese&#39;</span>},
+    {<span style=color:#f1fa8c>&#39;/Applications/wechatwebdevtools.app&#39;</span>, <span style=color:#f1fa8c>&#39;English&#39;</span>},
+    {<span style=color:#f1fa8c>&#39;/Applications/Sketch.app&#39;</span>, <span style=color:#f1fa8c>&#39;English&#39;</span>},
 }
 
-</code></pre></td></tr></table></div></div><h3 id=实现自动输入法切换功能>实现自动输入法切换功能</h3><p><code>defaultInput.lua</code></p><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
+</code></pre></td></tr></table></div></div><h3 id=实现自动输入法切换功能>实现自动输入法切换功能</h3><p><code>defaultInput.lua</code></p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 2
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 3
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 4
@@ -219,55 +219,55 @@ appInputMethod <span style=color:#555>=</span> {
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">46
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">47
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">48
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-lua data-lang=lua>
-<span style=color:#069;font-weight:700>local</span> <span style=color:#069;font-weight:700>function</span> <span style=color:#c0f>Chinese</span>()
-    hs.keycodes.currentSourceID(<span style=color:#c30>&#34;com.sogou.inputmethod.sogou.pinyin&#34;</span>)
-<span style=color:#069;font-weight:700>end</span>
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-lua data-lang=lua>
+<span style=color:#8be9fd;font-style:italic>local</span> <span style=color:#ff79c6>function</span> <span style=color:#50fa7b>Chinese</span>()
+    hs.keycodes.currentSourceID(<span style=color:#f1fa8c>&#34;com.sogou.inputmethod.sogou.pinyin&#34;</span>)
+<span style=color:#ff79c6>end</span>
 
-<span style=color:#069;font-weight:700>local</span> <span style=color:#069;font-weight:700>function</span> <span style=color:#c0f>English</span>()
-    hs.keycodes.currentSourceID(<span style=color:#c30>&#34;com.apple.keylayout.ABC&#34;</span>)
-<span style=color:#069;font-weight:700>end</span>
+<span style=color:#8be9fd;font-style:italic>local</span> <span style=color:#ff79c6>function</span> <span style=color:#50fa7b>English</span>()
+    hs.keycodes.currentSourceID(<span style=color:#f1fa8c>&#34;com.apple.keylayout.ABC&#34;</span>)
+<span style=color:#ff79c6>end</span>
 
-<span style=color:#069;font-weight:700>function</span> <span style=color:#c0f>updateFocusAppInputMethod</span>()
-    <span style=color:#069;font-weight:700>local</span> focusAppPath <span style=color:#555>=</span> hs.window.frontmostWindow():application():path()
-    <span style=color:#069;font-weight:700>for</span> index, app <span style=color:#069;font-weight:700>in</span> pairs(appInputMethod) <span style=color:#069;font-weight:700>do</span>
-        <span style=color:#069;font-weight:700>local</span> appPath <span style=color:#555>=</span> app[<span style=color:#f60>1</span>]
-        <span style=color:#069;font-weight:700>local</span> expectedIme <span style=color:#555>=</span> app[<span style=color:#f60>2</span>]
+<span style=color:#ff79c6>function</span> <span style=color:#50fa7b>updateFocusAppInputMethod</span>()
+    <span style=color:#8be9fd;font-style:italic>local</span> focusAppPath <span style=color:#ff79c6>=</span> hs.window.frontmostWindow():application():path()
+    <span style=color:#ff79c6>for</span> index, app <span style=color:#ff79c6>in</span> pairs(appInputMethod) <span style=color:#ff79c6>do</span>
+        <span style=color:#8be9fd;font-style:italic>local</span> appPath <span style=color:#ff79c6>=</span> app[<span style=color:#bd93f9>1</span>]
+        <span style=color:#8be9fd;font-style:italic>local</span> expectedIme <span style=color:#ff79c6>=</span> app[<span style=color:#bd93f9>2</span>]
 
-        <span style=color:#069;font-weight:700>if</span> focusAppPath <span style=color:#555>==</span> appPath <span style=color:#069;font-weight:700>then</span>
-            <span style=color:#069;font-weight:700>if</span> expectedIme <span style=color:#555>==</span> <span style=color:#c30>&#39;English&#39;</span> <span style=color:#069;font-weight:700>then</span>
+        <span style=color:#ff79c6>if</span> focusAppPath <span style=color:#ff79c6>==</span> appPath <span style=color:#ff79c6>then</span>
+            <span style=color:#ff79c6>if</span> expectedIme <span style=color:#ff79c6>==</span> <span style=color:#f1fa8c>&#39;English&#39;</span> <span style=color:#ff79c6>then</span>
                 English()
-            <span style=color:#069;font-weight:700>else</span>
+            <span style=color:#ff79c6>else</span>
                 Chinese()
-            <span style=color:#069;font-weight:700>end</span>
-            <span style=color:#069;font-weight:700>break</span>
-        <span style=color:#069;font-weight:700>end</span>
-    <span style=color:#069;font-weight:700>end</span>
-<span style=color:#069;font-weight:700>end</span>
+            <span style=color:#ff79c6>end</span>
+            <span style=color:#ff79c6>break</span>
+        <span style=color:#ff79c6>end</span>
+    <span style=color:#ff79c6>end</span>
+<span style=color:#ff79c6>end</span>
 
-<span style=color:#09f;font-style:italic>-- helper hotkey to figure out the app path and name of current focused window</span>
-hs.hotkey.bind({<span style=color:#c30>&#39;ctrl&#39;</span>, <span style=color:#c30>&#39;cmd&#39;</span>}, <span style=color:#c30>&#34;.&#34;</span>, <span style=color:#069;font-weight:700>function</span>()
-    hs.alert.show(<span style=color:#c30>&#34;App path:        &#34;</span>
-    <span style=color:#555>..</span>hs.window.focusedWindow():application():path()
-    <span style=color:#555>..</span><span style=color:#c30>&#34;</span><span style=color:#c30;font-weight:700>\n</span><span style=color:#c30>&#34;</span>
-    <span style=color:#555>..</span><span style=color:#c30>&#34;App name:      &#34;</span>
-    <span style=color:#555>..</span>hs.window.focusedWindow():application():name()
-    <span style=color:#555>..</span><span style=color:#c30>&#34;</span><span style=color:#c30;font-weight:700>\n</span><span style=color:#c30>&#34;</span>
-    <span style=color:#555>..</span><span style=color:#c30>&#34;IM source id:  &#34;</span>
-    <span style=color:#555>..</span>hs.keycodes.currentSourceID())
-<span style=color:#069;font-weight:700>end</span>)
+<span style=color:#6272a4>-- helper hotkey to figure out the app path and name of current focused window</span>
+hs.hotkey.bind({<span style=color:#f1fa8c>&#39;ctrl&#39;</span>, <span style=color:#f1fa8c>&#39;cmd&#39;</span>}, <span style=color:#f1fa8c>&#34;.&#34;</span>, <span style=color:#ff79c6>function</span>()
+    hs.alert.show(<span style=color:#f1fa8c>&#34;App path:        &#34;</span>
+    <span style=color:#ff79c6>..</span>hs.window.focusedWindow():application():path()
+    <span style=color:#ff79c6>..</span><span style=color:#f1fa8c>&#34;</span><span style=color:#f1fa8c>\n</span><span style=color:#f1fa8c>&#34;</span>
+    <span style=color:#ff79c6>..</span><span style=color:#f1fa8c>&#34;App name:      &#34;</span>
+    <span style=color:#ff79c6>..</span>hs.window.focusedWindow():application():name()
+    <span style=color:#ff79c6>..</span><span style=color:#f1fa8c>&#34;</span><span style=color:#f1fa8c>\n</span><span style=color:#f1fa8c>&#34;</span>
+    <span style=color:#ff79c6>..</span><span style=color:#f1fa8c>&#34;IM source id:  &#34;</span>
+    <span style=color:#ff79c6>..</span>hs.keycodes.currentSourceID())
+<span style=color:#ff79c6>end</span>)
 
-<span style=color:#09f;font-style:italic>-- Handle cursor focus and application&#39;s screen manage.</span>
-<span style=color:#069;font-weight:700>function</span> <span style=color:#c0f>applicationWatcher</span>(appName, eventType, appObject)
-    <span style=color:#069;font-weight:700>if</span> (eventType <span style=color:#555>==</span> hs.application.watcher.activated) <span style=color:#069;font-weight:700>then</span>
+<span style=color:#6272a4>-- Handle cursor focus and application&#39;s screen manage.</span>
+<span style=color:#ff79c6>function</span> <span style=color:#50fa7b>applicationWatcher</span>(appName, eventType, appObject)
+    <span style=color:#ff79c6>if</span> (eventType <span style=color:#ff79c6>==</span> hs.application.watcher.activated) <span style=color:#ff79c6>then</span>
         updateFocusAppInputMethod()
-    <span style=color:#069;font-weight:700>end</span>
-<span style=color:#069;font-weight:700>end</span>
+    <span style=color:#ff79c6>end</span>
+<span style=color:#ff79c6>end</span>
 
-appWatcher <span style=color:#555>=</span> hs.application.watcher.new(applicationWatcher)
+appWatcher <span style=color:#ff79c6>=</span> hs.application.watcher.new(applicationWatcher)
 appWatcher:start()
 
-</code></pre></td></tr></table></div></div><h3 id=切换输入法>切换输入法</h3><p><code>input.lua</code> 实现切换输入法功能，这个已经弃用了，最后还是使用系统自带的快捷键了，代码放出来给大家参考：</p><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
+</code></pre></td></tr></table></div></div><h3 id=切换输入法>切换输入法</h3><p><code>input.lua</code> 实现切换输入法功能，这个已经弃用了，最后还是使用系统自带的快捷键了，代码放出来给大家参考：</p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 2
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 3
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 4
@@ -297,51 +297,51 @@ appWatcher:start()
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">28
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">29
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">30
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-lua data-lang=lua>
-<span style=color:#069;font-weight:700>local</span> <span style=color:#069;font-weight:700>function</span> <span style=color:#c0f>Chinese</span>()
-    hs.keycodes.currentSourceID(<span style=color:#c30>&#34;com.sogou.inputmethod.sogou.pinyin&#34;</span>)
-<span style=color:#069;font-weight:700>end</span>
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-lua data-lang=lua>
+<span style=color:#8be9fd;font-style:italic>local</span> <span style=color:#ff79c6>function</span> <span style=color:#50fa7b>Chinese</span>()
+    hs.keycodes.currentSourceID(<span style=color:#f1fa8c>&#34;com.sogou.inputmethod.sogou.pinyin&#34;</span>)
+<span style=color:#ff79c6>end</span>
 
-<span style=color:#069;font-weight:700>local</span> <span style=color:#069;font-weight:700>function</span> <span style=color:#c0f>English</span>()
-    hs.keycodes.currentSourceID(<span style=color:#c30>&#34;com.apple.keylayout.ABC&#34;</span>)
-<span style=color:#069;font-weight:700>end</span>
+<span style=color:#8be9fd;font-style:italic>local</span> <span style=color:#ff79c6>function</span> <span style=color:#50fa7b>English</span>()
+    hs.keycodes.currentSourceID(<span style=color:#f1fa8c>&#34;com.apple.keylayout.ABC&#34;</span>)
+<span style=color:#ff79c6>end</span>
 
 
-hs.hotkey.bind(inputHotkey, <span style=color:#c30>&#39;S&#39;</span>, <span style=color:#069;font-weight:700>function</span>() 
+hs.hotkey.bind(inputHotkey, <span style=color:#f1fa8c>&#39;S&#39;</span>, <span style=color:#ff79c6>function</span>() 
     Chinese()
-<span style=color:#069;font-weight:700>end</span>)
+<span style=color:#ff79c6>end</span>)
 
-hs.hotkey.bind(inputHotkey, <span style=color:#c30>&#39;E&#39;</span>, <span style=color:#069;font-weight:700>function</span>() 
+hs.hotkey.bind(inputHotkey, <span style=color:#f1fa8c>&#39;E&#39;</span>, <span style=color:#ff79c6>function</span>() 
     English()
-<span style=color:#069;font-weight:700>end</span>)
+<span style=color:#ff79c6>end</span>)
 
-<span style=color:#069;font-weight:700>local</span> <span style=color:#069;font-weight:700>function</span> <span style=color:#c0f>cycleInputMethod</span>()
-    <span style=color:#069;font-weight:700>if</span> hs.keycodes.currentSourceID() <span style=color:#555>==</span> <span style=color:#c30>&#34;com.apple.keylayout.ABC&#34;</span> <span style=color:#069;font-weight:700>then</span>
-        hs.keycodes.currentSourceID(<span style=color:#c30>&#34;com.sogou.inputmethod.sogou.pinyin&#34;</span> )
-    <span style=color:#069;font-weight:700>elseif</span> hs.keycodes.currentSourceID() <span style=color:#555>==</span> <span style=color:#c30>&#34;com.sogou.inputmethod.sogou.pinyin&#34;</span> <span style=color:#069;font-weight:700>then</span>
-        hs.keycodes.currentSourceID(<span style=color:#c30>&#34;com.apple.inputmethod.SCIM.ITABC&#34;</span>)
-    <span style=color:#069;font-weight:700>elseif</span> hs.keycodes.currentSourceID() <span style=color:#555>==</span> <span style=color:#c30>&#34;com.apple.inputmethod.SCIM.ITABC&#34;</span> <span style=color:#069;font-weight:700>then</span>
-        hs.keycodes.currentSourceID(<span style=color:#c30>&#34;com.apple.keylayout.ABC&#34;</span>)
-    <span style=color:#069;font-weight:700>end</span>
-<span style=color:#069;font-weight:700>end</span>
+<span style=color:#8be9fd;font-style:italic>local</span> <span style=color:#ff79c6>function</span> <span style=color:#50fa7b>cycleInputMethod</span>()
+    <span style=color:#ff79c6>if</span> hs.keycodes.currentSourceID() <span style=color:#ff79c6>==</span> <span style=color:#f1fa8c>&#34;com.apple.keylayout.ABC&#34;</span> <span style=color:#ff79c6>then</span>
+        hs.keycodes.currentSourceID(<span style=color:#f1fa8c>&#34;com.sogou.inputmethod.sogou.pinyin&#34;</span> )
+    <span style=color:#ff79c6>elseif</span> hs.keycodes.currentSourceID() <span style=color:#ff79c6>==</span> <span style=color:#f1fa8c>&#34;com.sogou.inputmethod.sogou.pinyin&#34;</span> <span style=color:#ff79c6>then</span>
+        hs.keycodes.currentSourceID(<span style=color:#f1fa8c>&#34;com.apple.inputmethod.SCIM.ITABC&#34;</span>)
+    <span style=color:#ff79c6>elseif</span> hs.keycodes.currentSourceID() <span style=color:#ff79c6>==</span> <span style=color:#f1fa8c>&#34;com.apple.inputmethod.SCIM.ITABC&#34;</span> <span style=color:#ff79c6>then</span>
+        hs.keycodes.currentSourceID(<span style=color:#f1fa8c>&#34;com.apple.keylayout.ABC&#34;</span>)
+    <span style=color:#ff79c6>end</span>
+<span style=color:#ff79c6>end</span>
 
-hs.hotkey.bind(inputHotkey, <span style=color:#c30>&#39;.&#39;</span>, cycleInputMethod)
+hs.hotkey.bind(inputHotkey, <span style=color:#f1fa8c>&#39;.&#39;</span>, cycleInputMethod)
 
-</code></pre></td></tr></table></div></div><h3 id=app-启动>App 启动</h3><p><code>launcher.lua</code>，可以实现特定的快捷键启动指定的软件，使用最频繁的功能了，妥妥的提升效率。实现代码如下：</p><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
+</code></pre></td></tr></table></div></div><h3 id=app-启动>App 启动</h3><p><code>launcher.lua</code>，可以实现特定的快捷键启动指定的软件，使用最频繁的功能了，妥妥的提升效率。实现代码如下：</p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">2
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">3
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">4
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">5
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">6
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">7
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-lua data-lang=lua>
-hs.fnutils.each(applist, <span style=color:#069;font-weight:700>function</span>(entry)
-    hs.hotkey.bind(launcherHotkey, entry.shortcut, entry.appname, <span style=color:#069;font-weight:700>function</span>()
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-lua data-lang=lua>
+hs.fnutils.each(applist, <span style=color:#ff79c6>function</span>(entry)
+    hs.hotkey.bind(launcherHotkey, entry.shortcut, entry.appname, <span style=color:#ff79c6>function</span>()
         hs.application.launchOrFocus(entry.appname)
-    <span style=color:#069;font-weight:700>end</span>)
-<span style=color:#069;font-weight:700>end</span>)
+    <span style=color:#ff79c6>end</span>)
+<span style=color:#ff79c6>end</span>)
 
-</code></pre></td></tr></table></div></div><p>修改 <code>config.lua</code> 文件，定制化自己的需求。</p><h3 id=自动重载配置>自动重载配置</h3><p>不用手动点击刷新，自动重载 Hammerspoon 配置</p><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
+</code></pre></td></tr></table></div></div><p>修改 <code>config.lua</code> 文件，定制化自己的需求。</p><h3 id=自动重载配置>自动重载配置</h3><p>不用手动点击刷新，自动重载 Hammerspoon 配置</p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 2
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 3
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 4
@@ -361,27 +361,27 @@ hs.fnutils.each(applist, <span style=color:#069;font-weight:700>function</span>(
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">18
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">19
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">20
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-lua data-lang=lua>
-<span style=color:#069;font-weight:700>local</span> <span style=color:#069;font-weight:700>function</span> <span style=color:#c0f>reloadConfig</span>(paths)
-    doReload <span style=color:#555>=</span> <span style=color:#069;font-weight:700>false</span>
-    <span style=color:#069;font-weight:700>for</span> _,file <span style=color:#069;font-weight:700>in</span> pairs(paths) <span style=color:#069;font-weight:700>do</span>
-        <span style=color:#069;font-weight:700>if</span> file:sub(<span style=color:#555>-</span><span style=color:#f60>4</span>) <span style=color:#555>==</span> <span style=color:#c30>&#34;.lua&#34;</span> <span style=color:#069;font-weight:700>then</span>
-            print(<span style=color:#c30>&#34;A lua config file changed, reload&#34;</span>)
-            doReload <span style=color:#555>=</span> <span style=color:#069;font-weight:700>true</span>
-        <span style=color:#069;font-weight:700>end</span>
-    <span style=color:#069;font-weight:700>end</span>
-    <span style=color:#069;font-weight:700>if</span> <span style=color:#000;font-weight:700>not</span> doReload <span style=color:#069;font-weight:700>then</span>
-        print(<span style=color:#c30>&#34;No lua file changed, skipping reload&#34;</span>)
-        <span style=color:#069;font-weight:700>return</span>
-    <span style=color:#069;font-weight:700>end</span>
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-lua data-lang=lua>
+<span style=color:#8be9fd;font-style:italic>local</span> <span style=color:#ff79c6>function</span> <span style=color:#50fa7b>reloadConfig</span>(paths)
+    doReload <span style=color:#ff79c6>=</span> <span style=color:#ff79c6>false</span>
+    <span style=color:#ff79c6>for</span> _,file <span style=color:#ff79c6>in</span> pairs(paths) <span style=color:#ff79c6>do</span>
+        <span style=color:#ff79c6>if</span> file:sub(<span style=color:#ff79c6>-</span><span style=color:#bd93f9>4</span>) <span style=color:#ff79c6>==</span> <span style=color:#f1fa8c>&#34;.lua&#34;</span> <span style=color:#ff79c6>then</span>
+            print(<span style=color:#f1fa8c>&#34;A lua config file changed, reload&#34;</span>)
+            doReload <span style=color:#ff79c6>=</span> <span style=color:#ff79c6>true</span>
+        <span style=color:#ff79c6>end</span>
+    <span style=color:#ff79c6>end</span>
+    <span style=color:#ff79c6>if</span> <span style=color:#ff79c6>not</span> doReload <span style=color:#ff79c6>then</span>
+        print(<span style=color:#f1fa8c>&#34;No lua file changed, skipping reload&#34;</span>)
+        <span style=color:#ff79c6>return</span>
+    <span style=color:#ff79c6>end</span>
 
     hs.reload()
-<span style=color:#069;font-weight:700>end</span>
+<span style=color:#ff79c6>end</span>
 
-configFileWatcher <span style=color:#555>=</span> hs.pathwatcher.new(os.getenv(<span style=color:#c30>&#34;HOME&#34;</span>) <span style=color:#555>..</span> <span style=color:#c30>&#34;/.hammerspoon/&#34;</span>, reloadConfig)
+configFileWatcher <span style=color:#ff79c6>=</span> hs.pathwatcher.new(os.getenv(<span style=color:#f1fa8c>&#34;HOME&#34;</span>) <span style=color:#ff79c6>..</span> <span style=color:#f1fa8c>&#34;/.hammerspoon/&#34;</span>, reloadConfig)
 configFileWatcher:start()
 
-</code></pre></td></tr></table></div></div><h3 id=窗口管理>窗口管理</h3><p><code>window.lua</code>，我只有最大化和两个显示器换屏的需求，所以只实现的这个功能，还可以实现二分之一屏幕的需求，参考本文末尾给的参考链接。</p><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
+</code></pre></td></tr></table></div></div><h3 id=窗口管理>窗口管理</h3><p><code>window.lua</code>，我只有最大化和两个显示器换屏的需求，所以只实现的这个功能，还可以实现二分之一屏幕的需求，参考本文末尾给的参考链接。</p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 2
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 3
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 4
@@ -412,40 +412,40 @@ configFileWatcher:start()
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">29
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">30
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">31
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-lua data-lang=lua>
-hs.hotkey.bind(windowHotkey, <span style=color:#c30>&#39;return&#39;</span>, <span style=color:#069;font-weight:700>function</span>()
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-lua data-lang=lua>
+hs.hotkey.bind(windowHotkey, <span style=color:#f1fa8c>&#39;return&#39;</span>, <span style=color:#ff79c6>function</span>()
     hs.grid.maximizeWindow()
-<span style=color:#069;font-weight:700>end</span>)
+<span style=color:#ff79c6>end</span>)
 
-hs.hotkey.bind(windowHotkey, <span style=color:#c30>&#39;F&#39;</span>, <span style=color:#069;font-weight:700>function</span>() 
+hs.hotkey.bind(windowHotkey, <span style=color:#f1fa8c>&#39;F&#39;</span>, <span style=color:#ff79c6>function</span>() 
     hs.window.focusedWindow():toggleFullScreen()
-<span style=color:#069;font-weight:700>end</span>)
+<span style=color:#ff79c6>end</span>)
 
-hs.hotkey.bind(windowHotkey, <span style=color:#c30>&#39;left&#39;</span>, <span style=color:#069;font-weight:700>function</span>()
-    <span style=color:#069;font-weight:700>local</span> w <span style=color:#555>=</span> hs.window.focusedWindow()
-    <span style=color:#069;font-weight:700>if</span> <span style=color:#000;font-weight:700>not</span> w <span style=color:#069;font-weight:700>then</span>
-        <span style=color:#069;font-weight:700>return</span>
-    <span style=color:#069;font-weight:700>end</span>
-    <span style=color:#069;font-weight:700>local</span> s <span style=color:#555>=</span> w:screen():toWest()
-    <span style=color:#069;font-weight:700>if</span> s <span style=color:#069;font-weight:700>then</span>
+hs.hotkey.bind(windowHotkey, <span style=color:#f1fa8c>&#39;left&#39;</span>, <span style=color:#ff79c6>function</span>()
+    <span style=color:#8be9fd;font-style:italic>local</span> w <span style=color:#ff79c6>=</span> hs.window.focusedWindow()
+    <span style=color:#ff79c6>if</span> <span style=color:#ff79c6>not</span> w <span style=color:#ff79c6>then</span>
+        <span style=color:#ff79c6>return</span>
+    <span style=color:#ff79c6>end</span>
+    <span style=color:#8be9fd;font-style:italic>local</span> s <span style=color:#ff79c6>=</span> w:screen():toWest()
+    <span style=color:#ff79c6>if</span> s <span style=color:#ff79c6>then</span>
         w:moveToScreen(s)
-    <span style=color:#069;font-weight:700>end</span>
-<span style=color:#069;font-weight:700>end</span>)
+    <span style=color:#ff79c6>end</span>
+<span style=color:#ff79c6>end</span>)
 
-hs.hotkey.bind(windowHotkey, <span style=color:#c30>&#39;right&#39;</span>, <span style=color:#069;font-weight:700>function</span>()
-    <span style=color:#069;font-weight:700>local</span> w <span style=color:#555>=</span> hs.window.focusedWindow()
-    <span style=color:#069;font-weight:700>if</span> <span style=color:#000;font-weight:700>not</span> w <span style=color:#069;font-weight:700>then</span>
-        <span style=color:#069;font-weight:700>return</span>
-    <span style=color:#069;font-weight:700>end</span>
-    <span style=color:#069;font-weight:700>local</span> s <span style=color:#555>=</span> w:screen():toEast()
-    <span style=color:#069;font-weight:700>if</span> s <span style=color:#069;font-weight:700>then</span>
+hs.hotkey.bind(windowHotkey, <span style=color:#f1fa8c>&#39;right&#39;</span>, <span style=color:#ff79c6>function</span>()
+    <span style=color:#8be9fd;font-style:italic>local</span> w <span style=color:#ff79c6>=</span> hs.window.focusedWindow()
+    <span style=color:#ff79c6>if</span> <span style=color:#ff79c6>not</span> w <span style=color:#ff79c6>then</span>
+        <span style=color:#ff79c6>return</span>
+    <span style=color:#ff79c6>end</span>
+    <span style=color:#8be9fd;font-style:italic>local</span> s <span style=color:#ff79c6>=</span> w:screen():toEast()
+    <span style=color:#ff79c6>if</span> s <span style=color:#ff79c6>then</span>
         w:moveToScreen(s)
-    <span style=color:#069;font-weight:700>end</span>
-<span style=color:#069;font-weight:700>end</span>)
+    <span style=color:#ff79c6>end</span>
+<span style=color:#ff79c6>end</span>)
 
-</code></pre></td></tr></table></div></div><h3 id=休眠自动关闭蓝牙>休眠自动关闭蓝牙</h3><p><code>bluetoothSleep.lua</code>，无意中发现 Mac 电脑休眠的时候蓝牙居然还出于开着的状态，感觉有点浪费电，使用写了一个脚本实现蓝牙自动开关功能。</p><p>使用这个功能之前先要安装 <code>blueutil</code></p><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-sh data-lang=sh>brew install blueutil
-</code></pre></td></tr></table></div></div><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
+</code></pre></td></tr></table></div></div><h3 id=休眠自动关闭蓝牙>休眠自动关闭蓝牙</h3><p><code>bluetoothSleep.lua</code>，无意中发现 Mac 电脑休眠的时候蓝牙居然还出于开着的状态，感觉有点浪费电，使用写了一个脚本实现蓝牙自动开关功能。</p><p>使用这个功能之前先要安装 <code>blueutil</code></p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-sh data-lang=sh>brew install blueutil
+</code></pre></td></tr></table></div></div><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 2
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 3
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 4
@@ -469,28 +469,28 @@ hs.hotkey.bind(windowHotkey, <span style=color:#c30>&#39;right&#39;</span>, <spa
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">22
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">23
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">24
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-lua data-lang=lua>
-<span style=color:#069;font-weight:700>function</span> <span style=color:#c0f>bluetoothSwitch</span>(state)
-    <span style=color:#09f;font-style:italic>-- state: 0(off), 1(on)</span>
-    cmd <span style=color:#555>=</span> <span style=color:#c30>&#34;/usr/local/bin/blueutil --power &#34;</span><span style=color:#555>..</span>(state)
-    result <span style=color:#555>=</span> hs.osascript.applescript(string.format(<span style=color:#c30>&#39;do shell script &#34;%s&#34;&#39;</span>, cmd))
-<span style=color:#069;font-weight:700>end</span>
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-lua data-lang=lua>
+<span style=color:#ff79c6>function</span> <span style=color:#50fa7b>bluetoothSwitch</span>(state)
+    <span style=color:#6272a4>-- state: 0(off), 1(on)</span>
+    cmd <span style=color:#ff79c6>=</span> <span style=color:#f1fa8c>&#34;/usr/local/bin/blueutil --power &#34;</span><span style=color:#ff79c6>..</span>(state)
+    result <span style=color:#ff79c6>=</span> hs.osascript.applescript(string.format(<span style=color:#f1fa8c>&#39;do shell script &#34;%s&#34;&#39;</span>, cmd))
+<span style=color:#ff79c6>end</span>
 
-<span style=color:#069;font-weight:700>function</span> <span style=color:#c0f>caffeinateCallback</span>(eventType)
-    <span style=color:#069;font-weight:700>if</span> (eventType <span style=color:#555>==</span> hs.caffeinate.watcher.screensDidSleep) <span style=color:#069;font-weight:700>then</span>
-      print(<span style=color:#c30>&#34;screensDidSleep&#34;</span>)
-    <span style=color:#069;font-weight:700>elseif</span> (eventType <span style=color:#555>==</span> hs.caffeinate.watcher.screensDidWake) <span style=color:#069;font-weight:700>then</span>
-      print(<span style=color:#c30>&#34;screensDidWake&#34;</span>)
-    <span style=color:#069;font-weight:700>elseif</span> (eventType <span style=color:#555>==</span> hs.caffeinate.watcher.screensDidLock) <span style=color:#069;font-weight:700>then</span>
-      print(<span style=color:#c30>&#34;screensDidLock&#34;</span>)
-      bluetoothSwitch(<span style=color:#f60>0</span>)
-    <span style=color:#069;font-weight:700>elseif</span> (eventType <span style=color:#555>==</span> hs.caffeinate.watcher.screensDidUnlock) <span style=color:#069;font-weight:700>then</span>
-      print(<span style=color:#c30>&#34;screensDidUnlock&#34;</span>)
-      bluetoothSwitch(<span style=color:#f60>1</span>)
-    <span style=color:#069;font-weight:700>end</span>
-<span style=color:#069;font-weight:700>end</span>
+<span style=color:#ff79c6>function</span> <span style=color:#50fa7b>caffeinateCallback</span>(eventType)
+    <span style=color:#ff79c6>if</span> (eventType <span style=color:#ff79c6>==</span> hs.caffeinate.watcher.screensDidSleep) <span style=color:#ff79c6>then</span>
+      print(<span style=color:#f1fa8c>&#34;screensDidSleep&#34;</span>)
+    <span style=color:#ff79c6>elseif</span> (eventType <span style=color:#ff79c6>==</span> hs.caffeinate.watcher.screensDidWake) <span style=color:#ff79c6>then</span>
+      print(<span style=color:#f1fa8c>&#34;screensDidWake&#34;</span>)
+    <span style=color:#ff79c6>elseif</span> (eventType <span style=color:#ff79c6>==</span> hs.caffeinate.watcher.screensDidLock) <span style=color:#ff79c6>then</span>
+      print(<span style=color:#f1fa8c>&#34;screensDidLock&#34;</span>)
+      bluetoothSwitch(<span style=color:#bd93f9>0</span>)
+    <span style=color:#ff79c6>elseif</span> (eventType <span style=color:#ff79c6>==</span> hs.caffeinate.watcher.screensDidUnlock) <span style=color:#ff79c6>then</span>
+      print(<span style=color:#f1fa8c>&#34;screensDidUnlock&#34;</span>)
+      bluetoothSwitch(<span style=color:#bd93f9>1</span>)
+    <span style=color:#ff79c6>end</span>
+<span style=color:#ff79c6>end</span>
 
-caffeinateWatcher <span style=color:#555>=</span> hs.caffeinate.watcher.new(caffeinateCallback)
+caffeinateWatcher <span style=color:#ff79c6>=</span> hs.caffeinate.watcher.new(caffeinateCallback)
 caffeinateWatcher:start()
 
 </code></pre></td></tr></table></div></div><h2 id=最后>最后</h2><p>Hammerspoon 能做的事情当然远不知这些，但是这些功能已经让我事半功倍了，最重要的是这个软件开源免费！</p><h2 id=参考链接>参考链接</h2><ul><li><a href=https://www.hammerspoon.org/>Hammerspoon</a></li><li><a href=https://thinkhard.tech/2019/04/08/hammerspoon-introduce/>推荐一个 MacOS 上用了就无法自拔的神器 [Hammerspoon] 和我的配置方案</a></li><li><a href=https://zhuanlan.zhihu.com/p/59737941>『Hammerspoon』Mac 锁屏自动开关蓝牙</a></li></ul><hr class="bg-gray-300 mt-8"><div class=pt-4><p class=text-center><button id=btn-donate class="px-5 py-2 inline-block rounded hover:bg-red-600 bg-red-400 text-white" for=reward>打赏</button></p><div class="flex-auto mt-2 mx-2 hidden" id=donate-image><div class="w-full px-2 my-2"><div class="bg-white dark:bg-black"><img class="h-48 shadow object-cover w-auto mx-auto" loading=lazy src=https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424153510.png alt=微信打赏><div class="text-center text-gray-500">微信打赏</div></div></div><div class="w-full px-2 my-2"><div class="bg-white dark:bg-black"><img class="h-48 shadow object-cover w-auto mx-auto" loading=lazy src=https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424153431.png alt=支付宝打赏><div class="text-center text-gray-500">支付宝打赏</div></div></div></div></div><div class="border-l-4 border-red-400 mx-auto text-gray-500"><div class=copyright><ul class=list-none><li><strong>原文作者：</strong>

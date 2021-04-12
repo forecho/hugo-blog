@@ -4,21 +4,21 @@
 530 字</span>
 <span class="hidden xl:inline-block">|
 <i class="iconfont icon-clock-o"></i>
-2 分钟读完</span></p></div><div class="md:hidden dark:text-gray-100"><p class="text-base font-bold py-2 yg:pb-6 text-gray-700 dark:text-gray-300">文章目录</p><div class="sticky text-sm" style=top:6em id=menu-content><nav id=TableOfContents></nav></div></div><div class="post-content dark:text-white"><p>首先定义表单中checkbox的name为一个数组range[]</p><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-html data-lang=html>&lt;<span style=color:#309;font-weight:700>input</span> <span style=color:#309>type</span><span style=color:#555>=</span><span style=color:#c30>&#34;checkbox&#34;</span> <span style=color:#309>name</span><span style=color:#555>=</span><span style=color:#c30>&#34;range[]&#34;</span> <span style=color:#309>value</span><span style=color:#555>=</span><span style=color:#c30>&#34;你设定的值&#34;</span> /&gt;
-</code></pre></td></tr></table></div></div><p>示例：</p><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-html data-lang=html>&lt;<span style=color:#309;font-weight:700>input</span> <span style=color:#309>type</span><span style=color:#555>=</span><span style=color:#c30>&#34;checkbox&#34;</span> <span style=color:#309>name</span><span style=color:#555>=</span><span style=color:#c30>&#34;range[]&#34;</span> <span style=color:#309>value</span><span style=color:#555>=</span><span style=color:#c30>&#34;&lt;?php echo $row[&#39;id&#39;];?&gt;&#34;</span>/&gt;
-</code></pre></td></tr></table></div></div><p>下面是“全选”、“反选”、“删除”。</p><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
+2 分钟读完</span></p></div><div class="md:hidden dark:text-gray-100"><p class="text-base font-bold py-2 yg:pb-6 text-gray-700 dark:text-gray-300">文章目录</p><div class="sticky text-sm" style=top:6em id=menu-content><nav id=TableOfContents></nav></div></div><div class="post-content dark:text-white"><p>首先定义表单中checkbox的name为一个数组range[]</p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-html data-lang=html>&lt;<span style=color:#ff79c6>input</span> <span style=color:#50fa7b>type</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;checkbox&#34;</span> <span style=color:#50fa7b>name</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;range[]&#34;</span> <span style=color:#50fa7b>value</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;你设定的值&#34;</span> /&gt;
+</code></pre></td></tr></table></div></div><p>示例：</p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-html data-lang=html>&lt;<span style=color:#ff79c6>input</span> <span style=color:#50fa7b>type</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;checkbox&#34;</span> <span style=color:#50fa7b>name</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;range[]&#34;</span> <span style=color:#50fa7b>value</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;&lt;?php echo $row[&#39;id&#39;];?&gt;&#34;</span>/&gt;
+</code></pre></td></tr></table></div></div><p>下面是“全选”、“反选”、“删除”。</p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">2
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">3
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">4
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">5
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-html data-lang=html>&lt;<span style=color:#309;font-weight:700>input</span> <span style=color:#309>type</span><span style=color:#555>=</span><span style=color:#c30>&#34;button&#34;</span> <span style=color:#309>value</span><span style=color:#555>=</span><span style=color:#c30>&#34;全选&#34;</span> <span style=color:#309>id</span><span style=color:#555>=</span><span style=color:#c30>&#34;selectAll&#34;</span>&gt;
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-html data-lang=html>&lt;<span style=color:#ff79c6>input</span> <span style=color:#50fa7b>type</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;button&#34;</span> <span style=color:#50fa7b>value</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;全选&#34;</span> <span style=color:#50fa7b>id</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;selectAll&#34;</span>&gt;
 
-&lt;<span style=color:#309;font-weight:700>input</span> <span style=color:#309>type</span><span style=color:#555>=</span><span style=color:#c30>&#34;button&#34;</span> <span style=color:#309>value</span><span style=color:#555>=</span><span style=color:#c30>&#34;反选&#34;</span> <span style=color:#309>id</span><span style=color:#555>=</span><span style=color:#c30>&#34;unSelect&#34;</span>&gt;
+&lt;<span style=color:#ff79c6>input</span> <span style=color:#50fa7b>type</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;button&#34;</span> <span style=color:#50fa7b>value</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;反选&#34;</span> <span style=color:#50fa7b>id</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;unSelect&#34;</span>&gt;
 
-&lt;<span style=color:#309;font-weight:700>input</span> <span style=color:#309>type</span><span style=color:#555>=</span><span style=color:#c30>&#34;submit&#34;</span> <span style=color:#309>value</span><span style=color:#555>=</span><span style=color:#c30>&#34;删除&#34;</span> <span style=color:#309>onclick</span><span style=color:#555>=</span><span style=color:#c30>&#34;return queren()&#34;</span> /&gt;
-</code></pre></td></tr></table></div></div><p>JS代码如下：</p><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
+&lt;<span style=color:#ff79c6>input</span> <span style=color:#50fa7b>type</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;submit&#34;</span> <span style=color:#50fa7b>value</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;删除&#34;</span> <span style=color:#50fa7b>onclick</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;return queren()&#34;</span> /&gt;
+</code></pre></td></tr></table></div></div><p>JS代码如下：</p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 2
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 3
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 4
@@ -50,39 +50,39 @@
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">30
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">31
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">32
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-javascript data-lang=javascript><span style=color:#555>&lt;</span>script type<span style=color:#555>=</span><span style=color:#c30>&#34;text/javascript&#34;</span><span style=color:#555>&gt;</span>
-<span style=color:#069;font-weight:700>function</span> $(id){
-    <span style=color:#069;font-weight:700>return</span> <span style=color:#366>document</span>.getElementById(id);
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-javascript data-lang=javascript><span style=color:#ff79c6>&lt;</span>script type<span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;text/javascript&#34;</span><span style=color:#ff79c6>&gt;</span>
+<span style=color:#8be9fd;font-style:italic>function</span> $(id){
+    <span style=color:#ff79c6>return</span> <span style=color:#8be9fd;font-style:italic>document</span>.getElementById(id);
 }
-<span style=color:#366>window</span>.onload<span style=color:#555>=</span><span style=color:#069;font-weight:700>function</span>(){
-    <span style=color:#069;font-weight:700>var</span> selectAll <span style=color:#555>=</span> $(<span style=color:#c30>&#34;selectAll&#34;</span>),
-    unSelect <span style=color:#555>=</span> $(<span style=color:#c30>&#34;unSelect&#34;</span>),
-    inputs<span style=color:#555>=</span><span style=color:#366>document</span>.getElementsByName(<span style=color:#c30>&#39;range[]&#39;</span>),
-    len <span style=color:#555>=</span> inputs.length;
-    selectAll.onclick<span style=color:#555>=</span><span style=color:#069;font-weight:700>function</span>(){
-        <span style=color:#069;font-weight:700>for</span>(<span style=color:#069;font-weight:700>var</span> i<span style=color:#555>=</span><span style=color:#f60>0</span>; i<span style=color:#555>&lt;</span>len;i<span style=color:#555>++</span>){
-            inputs[i].checked<span style=color:#555>=</span><span style=color:#069;font-weight:700>true</span>;
+<span style=color:#8be9fd;font-style:italic>window</span>.onload<span style=color:#ff79c6>=</span><span style=color:#8be9fd;font-style:italic>function</span>(){
+    <span style=color:#8be9fd;font-style:italic>var</span> selectAll <span style=color:#ff79c6>=</span> $(<span style=color:#f1fa8c>&#34;selectAll&#34;</span>),
+    unSelect <span style=color:#ff79c6>=</span> $(<span style=color:#f1fa8c>&#34;unSelect&#34;</span>),
+    inputs<span style=color:#ff79c6>=</span><span style=color:#8be9fd;font-style:italic>document</span>.getElementsByName(<span style=color:#f1fa8c>&#39;range[]&#39;</span>),
+    len <span style=color:#ff79c6>=</span> inputs.length;
+    selectAll.onclick<span style=color:#ff79c6>=</span><span style=color:#8be9fd;font-style:italic>function</span>(){
+        <span style=color:#ff79c6>for</span>(<span style=color:#8be9fd;font-style:italic>var</span> i<span style=color:#ff79c6>=</span><span style=color:#bd93f9>0</span>; i<span style=color:#ff79c6>&lt;</span>len;i<span style=color:#ff79c6>++</span>){
+            inputs[i].checked<span style=color:#ff79c6>=</span><span style=color:#ff79c6>true</span>;
         }
     }
-    unSelect.onclick<span style=color:#555>=</span><span style=color:#069;font-weight:700>function</span>(){
-        <span style=color:#069;font-weight:700>for</span>(<span style=color:#069;font-weight:700>var</span> i<span style=color:#555>=</span><span style=color:#f60>0</span>; i<span style=color:#555>&lt;</span>len;i<span style=color:#555>++</span>){
-            <span style=color:#069;font-weight:700>var</span> o <span style=color:#555>=</span> inputs[i];
-            o.checked<span style=color:#555>?</span>o.checked<span style=color:#555>=</span><span style=color:#069;font-weight:700>false</span><span style=color:#555>:</span>o.checked<span style=color:#555>=</span><span style=color:#069;font-weight:700>true</span>;
+    unSelect.onclick<span style=color:#ff79c6>=</span><span style=color:#8be9fd;font-style:italic>function</span>(){
+        <span style=color:#ff79c6>for</span>(<span style=color:#8be9fd;font-style:italic>var</span> i<span style=color:#ff79c6>=</span><span style=color:#bd93f9>0</span>; i<span style=color:#ff79c6>&lt;</span>len;i<span style=color:#ff79c6>++</span>){
+            <span style=color:#8be9fd;font-style:italic>var</span> o <span style=color:#ff79c6>=</span> inputs[i];
+            o.checked<span style=color:#ff79c6>?</span>o.checked<span style=color:#ff79c6>=</span><span style=color:#ff79c6>false</span><span style=color:#ff79c6>:</span>o.checked<span style=color:#ff79c6>=</span><span style=color:#ff79c6>true</span>;
         }
     }
 }
-<span style=color:#555>&lt;</span><span style=color:#a00;background-color:#faa>/script&gt;</span>
+<span style=color:#ff79c6>&lt;</span>/script&gt;
 
-<span style=color:#555>&lt;</span>script type<span style=color:#555>=</span><span style=color:#c30>&#34;text/javascript&#34;</span><span style=color:#555>&gt;</span>
-<span style=color:#069;font-weight:700>function</span> queren(){
-    <span style=color:#069;font-weight:700>var</span> info<span style=color:#555>=</span>confirm(<span style=color:#c30>&#39;确认删除么？&#39;</span>);
-    <span style=color:#069;font-weight:700>if</span>(info<span style=color:#555>==</span><span style=color:#069;font-weight:700>true</span>){
-        <span style=color:#069;font-weight:700>return</span> <span style=color:#069;font-weight:700>true</span>;
+<span style=color:#ff79c6>&lt;</span>script type<span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;text/javascript&#34;</span><span style=color:#ff79c6>&gt;</span>
+<span style=color:#8be9fd;font-style:italic>function</span> queren(){
+    <span style=color:#8be9fd;font-style:italic>var</span> info<span style=color:#ff79c6>=</span>confirm(<span style=color:#f1fa8c>&#39;确认删除么？&#39;</span>);
+    <span style=color:#ff79c6>if</span>(info<span style=color:#ff79c6>==</span><span style=color:#ff79c6>true</span>){
+        <span style=color:#ff79c6>return</span> <span style=color:#ff79c6>true</span>;
     }
-    <span style=color:#069;font-weight:700>return</span> <span style=color:#069;font-weight:700>false</span>;
+    <span style=color:#ff79c6>return</span> <span style=color:#ff79c6>false</span>;
 }
-<span style=color:#555>&lt;</span><span style=color:#a00;background-color:#faa>/script&gt;</span>
-</code></pre></td></tr></table></div></div><p>JS代码如下：</p><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
+<span style=color:#ff79c6>&lt;</span>/script&gt;
+</code></pre></td></tr></table></div></div><p>JS代码如下：</p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 2
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 3
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 4
@@ -132,58 +132,58 @@
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">48
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">49
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">50
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-javascript data-lang=javascript><span style=color:#555>&lt;</span>script type<span style=color:#555>=</span><span style=color:#c30>&#34;text/javascript&#34;</span><span style=color:#555>&gt;</span>
-<span style=color:#069;font-weight:700>function</span> $(id){
-<span style=color:#069;font-weight:700>return</span> <span style=color:#366>document</span>.getElementById(id);
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-javascript data-lang=javascript><span style=color:#ff79c6>&lt;</span>script type<span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;text/javascript&#34;</span><span style=color:#ff79c6>&gt;</span>
+<span style=color:#8be9fd;font-style:italic>function</span> $(id){
+<span style=color:#ff79c6>return</span> <span style=color:#8be9fd;font-style:italic>document</span>.getElementById(id);
 }
-<span style=color:#366>window</span>.onload<span style=color:#555>=</span><span style=color:#069;font-weight:700>function</span>(){
-	<span style=color:#069;font-weight:700>var</span> pan;
-	<span style=color:#069;font-weight:700>var</span> conf;
-	<span style=color:#069;font-weight:700>var</span> selectAll <span style=color:#555>=</span> $(<span style=color:#c30>&#34;selectAll&#34;</span>),
-	unSelect <span style=color:#555>=</span> $(<span style=color:#c30>&#34;unSelect&#34;</span>),
-	del <span style=color:#555>=</span> $(<span style=color:#c30>&#34;del&#34;</span>),
-	inputs<span style=color:#555>=</span><span style=color:#366>document</span>.getElementsByName(<span style=color:#c30>&#39;range[]&#39;</span>),
-	len <span style=color:#555>=</span> inputs.length;
-	selectAll.onclick<span style=color:#555>=</span><span style=color:#069;font-weight:700>function</span>(){
-		<span style=color:#069;font-weight:700>for</span>(<span style=color:#069;font-weight:700>var</span> i<span style=color:#555>=</span><span style=color:#f60>0</span>; i<span style=color:#555>&lt;</span>len;i<span style=color:#555>++</span>){
-			inputs[i].checked<span style=color:#555>=</span><span style=color:#069;font-weight:700>true</span>;
+<span style=color:#8be9fd;font-style:italic>window</span>.onload<span style=color:#ff79c6>=</span><span style=color:#8be9fd;font-style:italic>function</span>(){
+	<span style=color:#8be9fd;font-style:italic>var</span> pan;
+	<span style=color:#8be9fd;font-style:italic>var</span> conf;
+	<span style=color:#8be9fd;font-style:italic>var</span> selectAll <span style=color:#ff79c6>=</span> $(<span style=color:#f1fa8c>&#34;selectAll&#34;</span>),
+	unSelect <span style=color:#ff79c6>=</span> $(<span style=color:#f1fa8c>&#34;unSelect&#34;</span>),
+	del <span style=color:#ff79c6>=</span> $(<span style=color:#f1fa8c>&#34;del&#34;</span>),
+	inputs<span style=color:#ff79c6>=</span><span style=color:#8be9fd;font-style:italic>document</span>.getElementsByName(<span style=color:#f1fa8c>&#39;range[]&#39;</span>),
+	len <span style=color:#ff79c6>=</span> inputs.length;
+	selectAll.onclick<span style=color:#ff79c6>=</span><span style=color:#8be9fd;font-style:italic>function</span>(){
+		<span style=color:#ff79c6>for</span>(<span style=color:#8be9fd;font-style:italic>var</span> i<span style=color:#ff79c6>=</span><span style=color:#bd93f9>0</span>; i<span style=color:#ff79c6>&lt;</span>len;i<span style=color:#ff79c6>++</span>){
+			inputs[i].checked<span style=color:#ff79c6>=</span><span style=color:#ff79c6>true</span>;
 		}
 	}
-	unSelect.onclick<span style=color:#555>=</span><span style=color:#069;font-weight:700>function</span>(){
-		<span style=color:#069;font-weight:700>for</span>(<span style=color:#069;font-weight:700>var</span> i<span style=color:#555>=</span><span style=color:#f60>0</span>; i<span style=color:#555>&lt;</span>len;i<span style=color:#555>++</span>){
-			<span style=color:#069;font-weight:700>var</span> o <span style=color:#555>=</span> inputs[i];
-			o.checked<span style=color:#555>?</span>o.checked<span style=color:#555>=</span><span style=color:#069;font-weight:700>false</span><span style=color:#555>:</span>o.checked<span style=color:#555>=</span><span style=color:#069;font-weight:700>true</span>;
+	unSelect.onclick<span style=color:#ff79c6>=</span><span style=color:#8be9fd;font-style:italic>function</span>(){
+		<span style=color:#ff79c6>for</span>(<span style=color:#8be9fd;font-style:italic>var</span> i<span style=color:#ff79c6>=</span><span style=color:#bd93f9>0</span>; i<span style=color:#ff79c6>&lt;</span>len;i<span style=color:#ff79c6>++</span>){
+			<span style=color:#8be9fd;font-style:italic>var</span> o <span style=color:#ff79c6>=</span> inputs[i];
+			o.checked<span style=color:#ff79c6>?</span>o.checked<span style=color:#ff79c6>=</span><span style=color:#ff79c6>false</span><span style=color:#ff79c6>:</span>o.checked<span style=color:#ff79c6>=</span><span style=color:#ff79c6>true</span>;
 		}
 	}
 
-	$(<span style=color:#c30>&#34;form1&#34;</span>).onsubmit<span style=color:#555>=</span><span style=color:#069;font-weight:700>function</span>(){
-		<span style=color:#069;font-weight:700>for</span>(<span style=color:#069;font-weight:700>var</span> i<span style=color:#555>=</span><span style=color:#f60>0</span>; i<span style=color:#555>&lt;</span>len;i<span style=color:#555>++</span>){
-			<span style=color:#069;font-weight:700>var</span> o <span style=color:#555>=</span> inputs[i];
-			<span style=color:#069;font-weight:700>if</span>(o.checked){
-				pan<span style=color:#555>=</span><span style=color:#f60>1</span>;
-				<span style=color:#069;font-weight:700>break</span>;
-			}<span style=color:#069;font-weight:700>else</span>{
-				pan<span style=color:#555>=</span><span style=color:#f60>0</span>;
+	$(<span style=color:#f1fa8c>&#34;form1&#34;</span>).onsubmit<span style=color:#ff79c6>=</span><span style=color:#8be9fd;font-style:italic>function</span>(){
+		<span style=color:#ff79c6>for</span>(<span style=color:#8be9fd;font-style:italic>var</span> i<span style=color:#ff79c6>=</span><span style=color:#bd93f9>0</span>; i<span style=color:#ff79c6>&lt;</span>len;i<span style=color:#ff79c6>++</span>){
+			<span style=color:#8be9fd;font-style:italic>var</span> o <span style=color:#ff79c6>=</span> inputs[i];
+			<span style=color:#ff79c6>if</span>(o.checked){
+				pan<span style=color:#ff79c6>=</span><span style=color:#bd93f9>1</span>;
+				<span style=color:#ff79c6>break</span>;
+			}<span style=color:#ff79c6>else</span>{
+				pan<span style=color:#ff79c6>=</span><span style=color:#bd93f9>0</span>;
 			}
 		}
 
-		<span style=color:#069;font-weight:700>if</span>(<span style=color:#555>!</span>pan){
-			alert(<span style=color:#c30>&#34;请选择&#34;</span>);
-			<span style=color:#069;font-weight:700>return</span> <span style=color:#069;font-weight:700>false</span>;
-		}<span style=color:#069;font-weight:700>else</span>{
-			conf<span style=color:#555>=</span>confirm(<span style=color:#c30>&#34;确定删除&#34;</span>);
+		<span style=color:#ff79c6>if</span>(<span style=color:#ff79c6>!</span>pan){
+			alert(<span style=color:#f1fa8c>&#34;请选择&#34;</span>);
+			<span style=color:#ff79c6>return</span> <span style=color:#ff79c6>false</span>;
+		}<span style=color:#ff79c6>else</span>{
+			conf<span style=color:#ff79c6>=</span>confirm(<span style=color:#f1fa8c>&#34;确定删除&#34;</span>);
 		}
 
-		<span style=color:#069;font-weight:700>if</span>(conf){
-		  <span style=color:#069;font-weight:700>return</span> <span style=color:#069;font-weight:700>true</span>;
-		}<span style=color:#069;font-weight:700>else</span>{
-			<span style=color:#069;font-weight:700>return</span> <span style=color:#069;font-weight:700>false</span>;
+		<span style=color:#ff79c6>if</span>(conf){
+		  <span style=color:#ff79c6>return</span> <span style=color:#ff79c6>true</span>;
+		}<span style=color:#ff79c6>else</span>{
+			<span style=color:#ff79c6>return</span> <span style=color:#ff79c6>false</span>;
 		}
 	}
 }
-<span style=color:#555>&lt;</span><span style=color:#a00;background-color:#faa>/script&gt;</span>
-</code></pre></td></tr></table></div></div><p>删除按钮：</p><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-html data-lang=html>&lt;<span style=color:#309;font-weight:700>input</span> <span style=color:#309>type</span><span style=color:#555>=</span><span style=color:#c30>&#34;submit&#34;</span> <span style=color:#309>value</span><span style=color:#555>=</span><span style=color:#c30>&#34;删除&#34;</span> <span style=color:#309>id</span><span style=color:#555>=</span><span style=color:#c30>&#34;del&#34;</span> /&gt;
+<span style=color:#ff79c6>&lt;</span>/script&gt;
+</code></pre></td></tr></table></div></div><p>删除按钮：</p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-html data-lang=html>&lt;<span style=color:#ff79c6>input</span> <span style=color:#50fa7b>type</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;submit&#34;</span> <span style=color:#50fa7b>value</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;删除&#34;</span> <span style=color:#50fa7b>id</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;del&#34;</span> /&gt;
 </code></pre></td></tr></table></div></div><p>form表单id=&ldquo;form1&rdquo; 并且还要调用一个jquery。</p><hr class="bg-gray-300 mt-8"><div class=pt-4><p class=text-center><button id=btn-donate class="px-5 py-2 inline-block rounded hover:bg-red-600 bg-red-400 text-white" for=reward>打赏</button></p><div class="flex-auto mt-2 mx-2 hidden" id=donate-image><div class="w-full px-2 my-2"><div class="bg-white dark:bg-black"><img class="h-48 shadow object-cover w-auto mx-auto" loading=lazy src=https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424153510.png alt=微信打赏><div class="text-center text-gray-500">微信打赏</div></div></div><div class="w-full px-2 my-2"><div class="bg-white dark:bg-black"><img class="h-48 shadow object-cover w-auto mx-auto" loading=lazy src=https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424153431.png alt=支付宝打赏><div class="text-center text-gray-500">支付宝打赏</div></div></div></div></div><div class="border-l-4 border-red-400 mx-auto text-gray-500"><div class=copyright><ul class=list-none><li><strong>原文作者：</strong>
 <a rel=author href=https://blog.forecho.com>forecho</a></li><li style=word-break:break-all><strong>原文链接：</strong>
 <a href=https://blog.forecho.com/shi-xian-checkbox-quan-xuan-he-php-shan-chu-duo-ge-shu-ju.html>https://blog.forecho.com/shi-xian-checkbox-quan-xuan-he-php-shan-chu-duo-ge-shu-ju.html</a></li><li><strong>版权声明：</strong>本作品采用

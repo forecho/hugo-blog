@@ -4,7 +4,7 @@
 28 字</span>
 <span class="hidden xl:inline-block">|
 <i class="iconfont icon-clock-o"></i>
-1 分钟读完</span></p></div><div class="md:hidden dark:text-gray-100"><p class="text-base font-bold py-2 yg:pb-6 text-gray-700 dark:text-gray-300">文章目录</p><div class="sticky text-sm" style=top:6em id=menu-content><nav id=TableOfContents></nav></div></div><div class="post-content dark:text-white"><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
+1 分钟读完</span></p></div><div class="md:hidden dark:text-gray-100"><p class="text-base font-bold py-2 yg:pb-6 text-gray-700 dark:text-gray-300">文章目录</p><div class="sticky text-sm" style=top:6em id=menu-content><nav id=TableOfContents></nav></div></div><div class="post-content dark:text-white"><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 2
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 3
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 4
@@ -15,14 +15,14 @@
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 9
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">10
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">11
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-php data-lang=php><span style=color:#069;font-weight:700>function</span> <span style=color:#c0f>relations</span>()
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-php data-lang=php><span style=color:#ff79c6>function</span> <span style=color:#50fa7b>relations</span>()
     {
-        <span style=color:#069;font-weight:700>return</span> <span style=color:#069;font-weight:700>array</span>(
-            <span style=color:#c30>&#39;last_experience&#39;</span> <span style=color:#555>=&gt;</span> <span style=color:#069;font-weight:700>array</span>(
-                self<span style=color:#555>::</span><span style=color:#309>HAS_ONE</span>,
-                <span style=color:#c30>&#39;Experience&#39;</span>,
-                <span style=color:#c30>&#39;&#39;</span>,
-                <span style=color:#c30>&#39;on&#39;</span> <span style=color:#555>=&gt;</span> <span style=color:#c30>&#39;user_id=last_experience.user_id&#39;</span>
+        <span style=color:#ff79c6>return</span> <span style=color:#ff79c6>array</span>(
+            <span style=color:#f1fa8c>&#39;last_experience&#39;</span> <span style=color:#ff79c6>=&gt;</span> <span style=color:#ff79c6>array</span>(
+                self<span style=color:#ff79c6>::</span><span style=color:#50fa7b>HAS_ONE</span>,
+                <span style=color:#f1fa8c>&#39;Experience&#39;</span>,
+                <span style=color:#f1fa8c>&#39;&#39;</span>,
+                <span style=color:#f1fa8c>&#39;on&#39;</span> <span style=color:#ff79c6>=&gt;</span> <span style=color:#f1fa8c>&#39;user_id=last_experience.user_id&#39;</span>
             ),
         );
     }

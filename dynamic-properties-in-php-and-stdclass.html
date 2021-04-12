@@ -136,7 +136,7 @@ foreach($object as $property => $value)  {
 506 字</span>
 <span class="hidden xl:inline-block">|
 <i class="iconfont icon-clock-o"></i>
-2 分钟读完</span></p></div><div class="md:hidden dark:text-gray-100"><p class="text-base font-bold py-2 yg:pb-6 text-gray-700 dark:text-gray-300">文章目录</p><div class="sticky text-sm" style=top:6em id=menu-content><nav id=TableOfContents><ul><li><a href=#简单内置的动态属性>简单,内置的动态属性</a></li><li><a href=#stdclass-anonymous-objects>StdClass: Anonymous Objects</a></li></ul></nav></div></div><div class="post-content dark:text-white"><blockquote><p>翻译 <a href=http://krisjordan.com/dynamic-properties-in-php-with-stdclass>Dynamic Properties in PHP and StdClass</a></p></blockquote><p>JavaScript 和 Python 允许对象实例的动态属性。事实证明,PHP 也是如此。看官方 PHP 对象和类文档可能会导致你相信动态实例属性需要自定义 __get 和 __set 魔术方法。其实不用。</p><h2 id=简单内置的动态属性>简单,内置的动态属性</h2><p>看看以下代码:</p><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
+2 分钟读完</span></p></div><div class="md:hidden dark:text-gray-100"><p class="text-base font-bold py-2 yg:pb-6 text-gray-700 dark:text-gray-300">文章目录</p><div class="sticky text-sm" style=top:6em id=menu-content><nav id=TableOfContents><ul><li><a href=#简单内置的动态属性>简单,内置的动态属性</a></li><li><a href=#stdclass-anonymous-objects>StdClass: Anonymous Objects</a></li></ul></nav></div></div><div class="post-content dark:text-white"><blockquote><p>翻译 <a href=http://krisjordan.com/dynamic-properties-in-php-with-stdclass>Dynamic Properties in PHP and StdClass</a></p></blockquote><p>JavaScript 和 Python 允许对象实例的动态属性。事实证明,PHP 也是如此。看官方 PHP 对象和类文档可能会导致你相信动态实例属性需要自定义 __get 和 __set 魔术方法。其实不用。</p><h2 id=简单内置的动态属性>简单,内置的动态属性</h2><p>看看以下代码:</p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 2
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 3
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 4
@@ -152,35 +152,35 @@ foreach($object as $property => $value)  {
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">14
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">15
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">16
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-php data-lang=php><span style=color:#069;font-weight:700>class</span> <span style=color:#0a8;font-weight:700>DynamicProperties</span> { }
-<span style=color:#033>$object</span> <span style=color:#555>=</span> <span style=color:#069;font-weight:700>new</span> DynamicProperties;
-<span style=color:#069;font-weight:700>echo</span> isset(<span style=color:#033>$object</span><span style=color:#555>-&gt;</span><span style=color:#309>foo</span>) <span style=color:#555>?</span> <span style=color:#c30>&#39;t&#39;</span> <span style=color:#555>:</span> <span style=color:#c30>&#39;f&#39;</span>; <span style=color:#09f;font-style:italic>// f
-</span><span style=color:#09f;font-style:italic></span><span style=color:#069;font-weight:700>echo</span> PHP_EOL;
-<span style=color:#09f;font-style:italic>// Set Dynamic Properties foo and fooz
-</span><span style=color:#09f;font-style:italic></span><span style=color:#033>$object</span><span style=color:#555>-&gt;</span><span style=color:#309>foo</span> <span style=color:#555>=</span> <span style=color:#c30>&#39;bar&#39;</span>;
-<span style=color:#033>$object</span><span style=color:#555>-&gt;</span><span style=color:#309>fooz</span> <span style=color:#555>=</span> <span style=color:#c30>&#39;baz&#39;</span>;
-<span style=color:#09f;font-style:italic>// Isset and Unset work
-</span><span style=color:#09f;font-style:italic></span>isset(<span style=color:#033>$object</span><span style=color:#555>-&gt;</span><span style=color:#309>foo</span>); <span style=color:#09f;font-style:italic>// true
-</span><span style=color:#09f;font-style:italic></span>unset(<span style=color:#033>$object</span><span style=color:#555>-&gt;</span><span style=color:#309>foo</span>);
-<span style=color:#09f;font-style:italic>// Iterate through Properties and Values
-</span><span style=color:#09f;font-style:italic></span><span style=color:#069;font-weight:700>foreach</span>(<span style=color:#033>$object</span> <span style=color:#069;font-weight:700>as</span> <span style=color:#033>$property</span> <span style=color:#555>=&gt;</span> <span style=color:#033>$value</span>)  {
-    <span style=color:#069;font-weight:700>echo</span> <span style=color:#033>$property</span> <span style=color:#555>.</span> <span style=color:#c30>&#39; = &#39;</span> <span style=color:#555>.</span> <span style=color:#033>$value</span> <span style=color:#555>.</span> PHP_EOL;
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-php data-lang=php><span style=color:#ff79c6>class</span> <span style=color:#50fa7b>DynamicProperties</span> { }
+<span style=color:#8be9fd;font-style:italic>$object</span> <span style=color:#ff79c6>=</span> <span style=color:#ff79c6>new</span> DynamicProperties;
+<span style=color:#ff79c6>echo</span> isset(<span style=color:#8be9fd;font-style:italic>$object</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>foo</span>) <span style=color:#ff79c6>?</span> <span style=color:#f1fa8c>&#39;t&#39;</span> <span style=color:#ff79c6>:</span> <span style=color:#f1fa8c>&#39;f&#39;</span>; <span style=color:#6272a4>// f
+</span><span style=color:#6272a4></span><span style=color:#ff79c6>echo</span> PHP_EOL;
+<span style=color:#6272a4>// Set Dynamic Properties foo and fooz
+</span><span style=color:#6272a4></span><span style=color:#8be9fd;font-style:italic>$object</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>foo</span> <span style=color:#ff79c6>=</span> <span style=color:#f1fa8c>&#39;bar&#39;</span>;
+<span style=color:#8be9fd;font-style:italic>$object</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>fooz</span> <span style=color:#ff79c6>=</span> <span style=color:#f1fa8c>&#39;baz&#39;</span>;
+<span style=color:#6272a4>// Isset and Unset work
+</span><span style=color:#6272a4></span>isset(<span style=color:#8be9fd;font-style:italic>$object</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>foo</span>); <span style=color:#6272a4>// true
+</span><span style=color:#6272a4></span>unset(<span style=color:#8be9fd;font-style:italic>$object</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>foo</span>);
+<span style=color:#6272a4>// Iterate through Properties and Values
+</span><span style=color:#6272a4></span><span style=color:#ff79c6>foreach</span>(<span style=color:#8be9fd;font-style:italic>$object</span> <span style=color:#ff79c6>as</span> <span style=color:#8be9fd;font-style:italic>$property</span> <span style=color:#ff79c6>=&gt;</span> <span style=color:#8be9fd;font-style:italic>$value</span>)  {
+    <span style=color:#ff79c6>echo</span> <span style=color:#8be9fd;font-style:italic>$property</span> <span style=color:#ff79c6>.</span> <span style=color:#f1fa8c>&#39; = &#39;</span> <span style=color:#ff79c6>.</span> <span style=color:#8be9fd;font-style:italic>$value</span> <span style=color:#ff79c6>.</span> PHP_EOL;
 }
-<span style=color:#09f;font-style:italic>// Prints:
-</span><span style=color:#09f;font-style:italic>// fooz = baz
-</span></code></pre></td></tr></table></div></div><p>使用内置动态实例属性的速度比使用魔法 __get 和 __set 方法快一个数量级（30倍,通过我的分析）。在 PHP 中动态属性访问时是没有回调方法。</p><p>因此,什么情况下需要使用 __get 和 __set 呢？如果你需要更复杂的行为,比如需要计算属性,你必须使用__get和__set。另外，如果你不愿意让类拥有动态属性你可以使用__get和__set抛出错误。</p><h2 id=stdclass-anonymous-objects>StdClass: Anonymous Objects</h2><p>有时一个属性包扔到键值对是必要的。一种方法是使用数组,但这需要引用所有的键。另一种方法是使用动态属性 StdClass 的实例。StdClass 是 PHP 中没有预定义的成员属性的特殊类。</p><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
+<span style=color:#6272a4>// Prints:
+</span><span style=color:#6272a4>// fooz = baz
+</span></code></pre></td></tr></table></div></div><p>使用内置动态实例属性的速度比使用魔法 __get 和 __set 方法快一个数量级（30倍,通过我的分析）。在 PHP 中动态属性访问时是没有回调方法。</p><p>因此,什么情况下需要使用 __get 和 __set 呢？如果你需要更复杂的行为,比如需要计算属性,你必须使用__get和__set。另外，如果你不愿意让类拥有动态属性你可以使用__get和__set抛出错误。</p><h2 id=stdclass-anonymous-objects>StdClass: Anonymous Objects</h2><p>有时一个属性包扔到键值对是必要的。一种方法是使用数组,但这需要引用所有的键。另一种方法是使用动态属性 StdClass 的实例。StdClass 是 PHP 中没有预定义的成员属性的特殊类。</p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">2
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">3
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-fallback data-lang=fallback>$object = new StdClass;
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-fallback data-lang=fallback>$object = new StdClass;
 $object-&gt;foo = &#39;bar&#39;;
 json_encode($object);
-</code></pre></td></tr></table></div></div><p>接下来我使用 SPL&rsquo;s 的 Countable 和 ArrayAccess 可以实现下面的几个动作:</p><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
+</code></pre></td></tr></table></div></div><p>接下来我使用 SPL&rsquo;s 的 Countable 和 ArrayAccess 可以实现下面的几个动作:</p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">2
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">3
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">4
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">5
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">6
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-fallback data-lang=fallback>class MyClass implements Countable, ArrayAccess { ... }
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-fallback data-lang=fallback>class MyClass implements Countable, ArrayAccess { ... }
 $myObject = new MyClass();
 // Using array access notation
 $myObject[0] = &#39;hello&#39;;

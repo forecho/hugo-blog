@@ -16,7 +16,7 @@ Block 区块
 2108 字</span>
 <span class="hidden xl:inline-block">|
 <i class="iconfont icon-clock-o"></i>
-5 分钟读完</span></p></div><div class="md:hidden dark:text-gray-100"><p class="text-base font-bold py-2 yg:pb-6 text-gray-700 dark:text-gray-300">文章目录</p><div class="sticky text-sm" style=top:6em id=menu-content><nav id=TableOfContents><ul><li><a href=#引言>引言</a></li><li><a href=#block-区块>Block 区块</a></li><li><a href=#blockchain-区块链>Blockchain 区块链</a></li><li><a href=#总结>总结</a></li><li><a href=#参考连接>参考连接</a></li></ul></nav></div></div><div class="post-content dark:text-white"><h2 id=引言>引言</h2><p>最近这一个月一有时间就研究区块链的技术，看了不少文章，理论知识了解了不少。今天终于有时间写写『如何用 PHP 来了解区块链的基本原理』了。</p><p>本篇文章适合对区块链感兴趣而且还需要对区块链已经有一定了解的小伙伴。废话不多说，我们直接上代码。</p><h2 id=block-区块>Block 区块</h2><p>区块链由N个区块组成，在区块链里，价值信息存储在区块之中。比如，比特币的区块存储交易记录，而交易记录是任何加密货币的核心。除此之外，区块里还包含有技术信息，比如它的版本号，当前的时间戳，以及上一个区块的哈希（Hash）。</p><p>在这篇文章中，我们所实现的并不是像比特币那样完整的区块链，而是一个简化版本的区块链，它只含有最基本的核心信息。差不多是这样：</p><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
+5 分钟读完</span></p></div><div class="md:hidden dark:text-gray-100"><p class="text-base font-bold py-2 yg:pb-6 text-gray-700 dark:text-gray-300">文章目录</p><div class="sticky text-sm" style=top:6em id=menu-content><nav id=TableOfContents><ul><li><a href=#引言>引言</a></li><li><a href=#block-区块>Block 区块</a></li><li><a href=#blockchain-区块链>Blockchain 区块链</a></li><li><a href=#总结>总结</a></li><li><a href=#参考连接>参考连接</a></li></ul></nav></div></div><div class="post-content dark:text-white"><h2 id=引言>引言</h2><p>最近这一个月一有时间就研究区块链的技术，看了不少文章，理论知识了解了不少。今天终于有时间写写『如何用 PHP 来了解区块链的基本原理』了。</p><p>本篇文章适合对区块链感兴趣而且还需要对区块链已经有一定了解的小伙伴。废话不多说，我们直接上代码。</p><h2 id=block-区块>Block 区块</h2><p>区块链由N个区块组成，在区块链里，价值信息存储在区块之中。比如，比特币的区块存储交易记录，而交易记录是任何加密货币的核心。除此之外，区块里还包含有技术信息，比如它的版本号，当前的时间戳，以及上一个区块的哈希（Hash）。</p><p>在这篇文章中，我们所实现的并不是像比特币那样完整的区块链，而是一个简化版本的区块链，它只含有最基本的核心信息。差不多是这样：</p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 2
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 3
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 4
@@ -52,43 +52,43 @@ Block 区块
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">34
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">35
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">36
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-php data-lang=php><span style=color:#069;font-weight:700>class</span> <span style=color:#0a8;font-weight:700>Block</span>
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-php data-lang=php><span style=color:#ff79c6>class</span> <span style=color:#50fa7b>Block</span>
 {
-    <span style=color:#c30;font-style:italic>/**
-</span><span style=color:#c30;font-style:italic>     * @var string 时间
-</span><span style=color:#c30;font-style:italic>     */</span>
-    <span style=color:#069;font-weight:700>public</span> <span style=color:#033>$timestamp</span>;
+    <span style=color:#f1fa8c>/**
+</span><span style=color:#f1fa8c>     * @var string 时间
+</span><span style=color:#f1fa8c>     */</span>
+    <span style=color:#ff79c6>public</span> <span style=color:#8be9fd;font-style:italic>$timestamp</span>;
 
-    <span style=color:#c30;font-style:italic>/**
-</span><span style=color:#c30;font-style:italic>     * @var integer 索引
-</span><span style=color:#c30;font-style:italic>     */</span>
-    <span style=color:#069;font-weight:700>public</span> <span style=color:#033>$index</span>;
+    <span style=color:#f1fa8c>/**
+</span><span style=color:#f1fa8c>     * @var integer 索引
+</span><span style=color:#f1fa8c>     */</span>
+    <span style=color:#ff79c6>public</span> <span style=color:#8be9fd;font-style:italic>$index</span>;
 
-    <span style=color:#c30;font-style:italic>/**
-</span><span style=color:#c30;font-style:italic>     * @var string 数据
-</span><span style=color:#c30;font-style:italic>     */</span>
-    <span style=color:#069;font-weight:700>public</span> <span style=color:#033>$data</span>;
+    <span style=color:#f1fa8c>/**
+</span><span style=color:#f1fa8c>     * @var string 数据
+</span><span style=color:#f1fa8c>     */</span>
+    <span style=color:#ff79c6>public</span> <span style=color:#8be9fd;font-style:italic>$data</span>;
 
-    <span style=color:#c30;font-style:italic>/**
-</span><span style=color:#c30;font-style:italic>     * @var string 上一个哈希值
-</span><span style=color:#c30;font-style:italic>     */</span>
-    <span style=color:#069;font-weight:700>public</span> <span style=color:#033>$prevHash</span>;
+    <span style=color:#f1fa8c>/**
+</span><span style=color:#f1fa8c>     * @var string 上一个哈希值
+</span><span style=color:#f1fa8c>     */</span>
+    <span style=color:#ff79c6>public</span> <span style=color:#8be9fd;font-style:italic>$prevHash</span>;
 
-    <span style=color:#c30;font-style:italic>/**
-</span><span style=color:#c30;font-style:italic>     * @var string 当前哈希
-</span><span style=color:#c30;font-style:italic>     */</span>
-    <span style=color:#069;font-weight:700>public</span> <span style=color:#033>$hash</span>;
+    <span style=color:#f1fa8c>/**
+</span><span style=color:#f1fa8c>     * @var string 当前哈希
+</span><span style=color:#f1fa8c>     */</span>
+    <span style=color:#ff79c6>public</span> <span style=color:#8be9fd;font-style:italic>$hash</span>;
 
-    <span style=color:#069;font-weight:700>public</span> <span style=color:#069;font-weight:700>function</span> __construct(<span style=color:#033>$index</span>, <span style=color:#033>$timestamp</span>, <span style=color:#033>$data</span>, <span style=color:#033>$prevHash</span> <span style=color:#555>=</span> <span style=color:#c30>&#39;&#39;</span>)
+    <span style=color:#ff79c6>public</span> <span style=color:#ff79c6>function</span> __construct(<span style=color:#8be9fd;font-style:italic>$index</span>, <span style=color:#8be9fd;font-style:italic>$timestamp</span>, <span style=color:#8be9fd;font-style:italic>$data</span>, <span style=color:#8be9fd;font-style:italic>$prevHash</span> <span style=color:#ff79c6>=</span> <span style=color:#f1fa8c>&#39;&#39;</span>)
     {
-        <span style=color:#033>$this</span><span style=color:#555>-&gt;</span><span style=color:#309>index</span> <span style=color:#555>=</span> <span style=color:#033>$index</span>;
-        <span style=color:#033>$this</span><span style=color:#555>-&gt;</span><span style=color:#309>timestamp</span> <span style=color:#555>=</span> <span style=color:#033>$timestamp</span>;
-        <span style=color:#033>$this</span><span style=color:#555>-&gt;</span><span style=color:#309>data</span> <span style=color:#555>=</span> <span style=color:#033>$data</span>;
-        <span style=color:#033>$this</span><span style=color:#555>-&gt;</span><span style=color:#309>prevHash</span> <span style=color:#555>=</span> <span style=color:#033>$prevHash</span>;
-        <span style=color:#033>$this</span><span style=color:#555>-&gt;</span><span style=color:#309>hash</span> <span style=color:#555>=</span> <span style=color:#033>$this</span><span style=color:#555>-&gt;</span><span style=color:#309>calculateHash</span>();
+        <span style=color:#8be9fd;font-style:italic>$this</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>index</span> <span style=color:#ff79c6>=</span> <span style=color:#8be9fd;font-style:italic>$index</span>;
+        <span style=color:#8be9fd;font-style:italic>$this</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>timestamp</span> <span style=color:#ff79c6>=</span> <span style=color:#8be9fd;font-style:italic>$timestamp</span>;
+        <span style=color:#8be9fd;font-style:italic>$this</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>data</span> <span style=color:#ff79c6>=</span> <span style=color:#8be9fd;font-style:italic>$data</span>;
+        <span style=color:#8be9fd;font-style:italic>$this</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>prevHash</span> <span style=color:#ff79c6>=</span> <span style=color:#8be9fd;font-style:italic>$prevHash</span>;
+        <span style=color:#8be9fd;font-style:italic>$this</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>hash</span> <span style=color:#ff79c6>=</span> <span style=color:#8be9fd;font-style:italic>$this</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>calculateHash</span>();
     }
 }
-</code></pre></td></tr></table></div></div><ul><li><code>timestamp</code>是当前的时间戳（即，区块被创建的时间），</li><li><code>data</code> 是区块中包含的价值信息，</li><li><code>prevHash</code> 存储的是上一个区块的哈希</li><li><code>hash</code> 保存的是当前区块的哈希。</li></ul><p>在比特币的标配中，timestamp、prevHash、hash 是区块的头部数据（Block headers），构成一个单独的数据结构；而交易记录（Transactions，在我们这个版本中就是 data），是另外一个单独的数据结构。而我们在这里为了简化，把数据结构混在了一起。</p><p>那我们如何计算哈希呢？计算哈希的方式是区块链的重要特征之一，也正是这个特性使得区块链如此安全。关键在于，计算哈希是一个计算起来很困难的工作，它需要时间，哪怕是在很快的计算机上（这就是为什么人们要买比 CPU 计算能力更强悍 GPU 甚至专门的 ASIC 芯片做矿机的 原因）。这是故意如此设计的，这么做的结果是，往区块链（数据库）里添加新的区块（数据）有一定的困难，以此保证一旦新的数据被加入，往后很难篡改。以后的文章里会进一步讨论并实现这个机制。</p><p>现在呢，我们只需要罢区块里的各个字段关联起来，并在此基础上计算出一个 SHA-256 哈希。让我们调用一下 calculateHash 这个方法：</p><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
+</code></pre></td></tr></table></div></div><ul><li><code>timestamp</code>是当前的时间戳（即，区块被创建的时间），</li><li><code>data</code> 是区块中包含的价值信息，</li><li><code>prevHash</code> 存储的是上一个区块的哈希</li><li><code>hash</code> 保存的是当前区块的哈希。</li></ul><p>在比特币的标配中，timestamp、prevHash、hash 是区块的头部数据（Block headers），构成一个单独的数据结构；而交易记录（Transactions，在我们这个版本中就是 data），是另外一个单独的数据结构。而我们在这里为了简化，把数据结构混在了一起。</p><p>那我们如何计算哈希呢？计算哈希的方式是区块链的重要特征之一，也正是这个特性使得区块链如此安全。关键在于，计算哈希是一个计算起来很困难的工作，它需要时间，哪怕是在很快的计算机上（这就是为什么人们要买比 CPU 计算能力更强悍 GPU 甚至专门的 ASIC 芯片做矿机的 原因）。这是故意如此设计的，这么做的结果是，往区块链（数据库）里添加新的区块（数据）有一定的困难，以此保证一旦新的数据被加入，往后很难篡改。以后的文章里会进一步讨论并实现这个机制。</p><p>现在呢，我们只需要罢区块里的各个字段关联起来，并在此基础上计算出一个 SHA-256 哈希。让我们调用一下 calculateHash 这个方法：</p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">2
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">3
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">4
@@ -96,31 +96,31 @@ Block 区块
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">6
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">7
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">8
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-php data-lang=php><span style=color:#c30;font-style:italic>/**
-</span><span style=color:#c30;font-style:italic>* 加密算法
-</span><span style=color:#c30;font-style:italic>* @return string
-</span><span style=color:#c30;font-style:italic>*/</span>
-<span style=color:#069;font-weight:700>public</span> <span style=color:#069;font-weight:700>function</span> <span style=color:#c0f>calculateHash</span>()
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-php data-lang=php><span style=color:#f1fa8c>/**
+</span><span style=color:#f1fa8c>* 加密算法
+</span><span style=color:#f1fa8c>* @return string
+</span><span style=color:#f1fa8c>*/</span>
+<span style=color:#ff79c6>public</span> <span style=color:#ff79c6>function</span> <span style=color:#50fa7b>calculateHash</span>()
 {
-    <span style=color:#069;font-weight:700>return</span> hash(<span style=color:#c30>&#39;sha256&#39;</span>, <span style=color:#033>$this</span><span style=color:#555>-&gt;</span><span style=color:#309>index</span> <span style=color:#555>.</span> <span style=color:#033>$this</span><span style=color:#555>-&gt;</span><span style=color:#309>prevHash</span> <span style=color:#555>.</span> <span style=color:#033>$this</span><span style=color:#555>-&gt;</span><span style=color:#309>timestamp</span> <span style=color:#555>.</span> json_encode(<span style=color:#033>$this</span><span style=color:#555>-&gt;</span><span style=color:#309>data</span>));
+    <span style=color:#ff79c6>return</span> hash(<span style=color:#f1fa8c>&#39;sha256&#39;</span>, <span style=color:#8be9fd;font-style:italic>$this</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>index</span> <span style=color:#ff79c6>.</span> <span style=color:#8be9fd;font-style:italic>$this</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>prevHash</span> <span style=color:#ff79c6>.</span> <span style=color:#8be9fd;font-style:italic>$this</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>timestamp</span> <span style=color:#ff79c6>.</span> json_encode(<span style=color:#8be9fd;font-style:italic>$this</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>data</span>));
 }
-</code></pre></td></tr></table></div></div><p>有了构造函数，我们可以很简单的创建一个区块：</p><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-php data-lang=php><span style=color:#069;font-weight:700>new</span> Block(<span style=color:#f60>1</span>, <span style=color:#c30>&#39;2017-02-23&#39;</span>, [<span style=color:#c30>&#39;amount&#39;</span> <span style=color:#555>=&gt;</span> <span style=color:#f60>1</span>])
-</code></pre></td></tr></table></div></div><h2 id=blockchain-区块链>Blockchain 区块链</h2><p>区块链的本质是保存着特定的数据结构的数据库。它是一个有序的，尾部相连的链表。这就意味着区块是以插入的顺序被存储的，每个区块连接着前一个区块。这种结构就可以很快的获取链上的最后一个区块，而且可以很高效地通过 hash 获取区块。</p><p>在 PHP 语言中，这种结构可以通过使用 array 来实现：</p><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
+</code></pre></td></tr></table></div></div><p>有了构造函数，我们可以很简单的创建一个区块：</p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-php data-lang=php><span style=color:#ff79c6>new</span> Block(<span style=color:#bd93f9>1</span>, <span style=color:#f1fa8c>&#39;2017-02-23&#39;</span>, [<span style=color:#f1fa8c>&#39;amount&#39;</span> <span style=color:#ff79c6>=&gt;</span> <span style=color:#bd93f9>1</span>])
+</code></pre></td></tr></table></div></div><h2 id=blockchain-区块链>Blockchain 区块链</h2><p>区块链的本质是保存着特定的数据结构的数据库。它是一个有序的，尾部相连的链表。这就意味着区块是以插入的顺序被存储的，每个区块连接着前一个区块。这种结构就可以很快的获取链上的最后一个区块，而且可以很高效地通过 hash 获取区块。</p><p>在 PHP 语言中，这种结构可以通过使用 array 来实现：</p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">2
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">3
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">4
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">5
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">6
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">7
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-php data-lang=php><span style=color:#069;font-weight:700>class</span> <span style=color:#0a8;font-weight:700>BlockChain</span>
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-php data-lang=php><span style=color:#ff79c6>class</span> <span style=color:#50fa7b>BlockChain</span>
 {
-    <span style=color:#c30;font-style:italic>/**
-</span><span style=color:#c30;font-style:italic>     * @var Block[]
-</span><span style=color:#c30;font-style:italic>     */</span>
-    <span style=color:#069;font-weight:700>public</span> <span style=color:#033>$chain</span> <span style=color:#555>=</span> [];
+    <span style=color:#f1fa8c>/**
+</span><span style=color:#f1fa8c>     * @var Block[]
+</span><span style=color:#f1fa8c>     */</span>
+    <span style=color:#ff79c6>public</span> <span style=color:#8be9fd;font-style:italic>$chain</span> <span style=color:#ff79c6>=</span> [];
 }
-</code></pre></td></tr></table></div></div><p>现在我们来写一个添加区块链的方法：</p><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
+</code></pre></td></tr></table></div></div><p>现在我们来写一个添加区块链的方法：</p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 2
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 3
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 4
@@ -130,17 +130,17 @@ Block 区块
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 8
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 9
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">10
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-php data-lang=php><span style=color:#c30;font-style:italic>/**
-</span><span style=color:#c30;font-style:italic>* 添加区块
-</span><span style=color:#c30;font-style:italic>* @param Block $newBlock
-</span><span style=color:#c30;font-style:italic>*/</span>
-<span style=color:#069;font-weight:700>public</span> <span style=color:#069;font-weight:700>function</span> <span style=color:#c0f>addBlock</span>(Block <span style=color:#033>$newBlock</span>)
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-php data-lang=php><span style=color:#f1fa8c>/**
+</span><span style=color:#f1fa8c>* 添加区块
+</span><span style=color:#f1fa8c>* @param Block $newBlock
+</span><span style=color:#f1fa8c>*/</span>
+<span style=color:#ff79c6>public</span> <span style=color:#ff79c6>function</span> <span style=color:#50fa7b>addBlock</span>(Block <span style=color:#8be9fd;font-style:italic>$newBlock</span>)
 {
-    <span style=color:#033>$newBlock</span><span style=color:#555>-&gt;</span><span style=color:#309>prevHash</span> <span style=color:#555>=</span> <span style=color:#033>$this</span><span style=color:#555>-&gt;</span><span style=color:#309>getLatestBlock</span>()<span style=color:#555>-&gt;</span><span style=color:#309>hash</span>;
-    <span style=color:#033>$newBlock</span><span style=color:#555>-&gt;</span><span style=color:#309>hash</span> <span style=color:#555>=</span> <span style=color:#033>$newBlock</span><span style=color:#555>-&gt;</span><span style=color:#309>calculateHash</span>();
-    array_push(<span style=color:#033>$this</span><span style=color:#555>-&gt;</span><span style=color:#309>chain</span>, <span style=color:#033>$newBlock</span>);
+    <span style=color:#8be9fd;font-style:italic>$newBlock</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>prevHash</span> <span style=color:#ff79c6>=</span> <span style=color:#8be9fd;font-style:italic>$this</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>getLatestBlock</span>()<span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>hash</span>;
+    <span style=color:#8be9fd;font-style:italic>$newBlock</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>hash</span> <span style=color:#ff79c6>=</span> <span style=color:#8be9fd;font-style:italic>$newBlock</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>calculateHash</span>();
+    array_push(<span style=color:#8be9fd;font-style:italic>$this</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>chain</span>, <span style=color:#8be9fd;font-style:italic>$newBlock</span>);
 }
-</code></pre></td></tr></table></div></div><p>是不是非常简单？要添加一个新的区块，我们就需要一个已存在区块，然而我们的区块链上还没有一个区块！所以，在任何一个区块链中，必须有至少一个区块，这个区块，要是链上的第一个区块，他被称为创始区块(genesis block)。现在我们用构造方法去创建这样一个区块：</p><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
+</code></pre></td></tr></table></div></div><p>是不是非常简单？要添加一个新的区块，我们就需要一个已存在区块，然而我们的区块链上还没有一个区块！所以，在任何一个区块链中，必须有至少一个区块，这个区块，要是链上的第一个区块，他被称为创始区块(genesis block)。现在我们用构造方法去创建这样一个区块：</p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 2
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 3
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 4
@@ -161,28 +161,28 @@ Block 区块
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">19
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">20
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">21
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-php data-lang=php><span style=color:#069;font-weight:700>class</span> <span style=color:#0a8;font-weight:700>BlockChain</span>
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-php data-lang=php><span style=color:#ff79c6>class</span> <span style=color:#50fa7b>BlockChain</span>
 {
-    <span style=color:#c30;font-style:italic>/**
-</span><span style=color:#c30;font-style:italic>     * @var Block[]
-</span><span style=color:#c30;font-style:italic>     */</span>
-    <span style=color:#069;font-weight:700>public</span> <span style=color:#033>$chain</span> <span style=color:#555>=</span> [];
+    <span style=color:#f1fa8c>/**
+</span><span style=color:#f1fa8c>     * @var Block[]
+</span><span style=color:#f1fa8c>     */</span>
+    <span style=color:#ff79c6>public</span> <span style=color:#8be9fd;font-style:italic>$chain</span> <span style=color:#ff79c6>=</span> [];
 
-    <span style=color:#069;font-weight:700>public</span> <span style=color:#069;font-weight:700>function</span> __construct()
+    <span style=color:#ff79c6>public</span> <span style=color:#ff79c6>function</span> __construct()
     {
-        <span style=color:#033>$this</span><span style=color:#555>-&gt;</span><span style=color:#309>chain</span> <span style=color:#555>=</span> [<span style=color:#033>$this</span><span style=color:#555>-&gt;</span><span style=color:#309>createGenesisBlock</span>()];
+        <span style=color:#8be9fd;font-style:italic>$this</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>chain</span> <span style=color:#ff79c6>=</span> [<span style=color:#8be9fd;font-style:italic>$this</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>createGenesisBlock</span>()];
     }
 
-    <span style=color:#c30;font-style:italic>/**
-</span><span style=color:#c30;font-style:italic>        * 创世区块
-</span><span style=color:#c30;font-style:italic>        * @return Block
-</span><span style=color:#c30;font-style:italic>        */</span>
-    <span style=color:#069;font-weight:700>public</span> <span style=color:#069;font-weight:700>function</span> <span style=color:#c0f>createGenesisBlock</span>()
+    <span style=color:#f1fa8c>/**
+</span><span style=color:#f1fa8c>        * 创世区块
+</span><span style=color:#f1fa8c>        * @return Block
+</span><span style=color:#f1fa8c>        */</span>
+    <span style=color:#ff79c6>public</span> <span style=color:#ff79c6>function</span> <span style=color:#50fa7b>createGenesisBlock</span>()
     {
-        <span style=color:#069;font-weight:700>return</span> <span style=color:#069;font-weight:700>new</span> Block(<span style=color:#f60>0</span>, <span style=color:#c30>&#39;2017-01-23&#39;</span>, <span style=color:#c30>&#39;forecho&#39;</span>, <span style=color:#c30>&#39;0&#39;</span>);
+        <span style=color:#ff79c6>return</span> <span style=color:#ff79c6>new</span> Block(<span style=color:#bd93f9>0</span>, <span style=color:#f1fa8c>&#39;2017-01-23&#39;</span>, <span style=color:#f1fa8c>&#39;forecho&#39;</span>, <span style=color:#f1fa8c>&#39;0&#39;</span>);
     }
 }
-</code></pre></td></tr></table></div></div><p>为了确认一下区块链是否正常工作，我们写一个方法来验证：</p><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
+</code></pre></td></tr></table></div></div><p>为了确认一下区块链是否正常工作，我们写一个方法来验证：</p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 2
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 3
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 4
@@ -200,25 +200,25 @@ Block 区块
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">16
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">17
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">18
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-php data-lang=php><span style=color:#c30;font-style:italic>/**
-</span><span style=color:#c30;font-style:italic>* 验证区块链
-</span><span style=color:#c30;font-style:italic>* @return bool
-</span><span style=color:#c30;font-style:italic>*/</span>
-<span style=color:#069;font-weight:700>public</span> <span style=color:#069;font-weight:700>function</span> <span style=color:#c0f>isChainValid</span>()
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-php data-lang=php><span style=color:#f1fa8c>/**
+</span><span style=color:#f1fa8c>* 验证区块链
+</span><span style=color:#f1fa8c>* @return bool
+</span><span style=color:#f1fa8c>*/</span>
+<span style=color:#ff79c6>public</span> <span style=color:#ff79c6>function</span> <span style=color:#50fa7b>isChainValid</span>()
 {
-    <span style=color:#069;font-weight:700>for</span> (<span style=color:#033>$i</span> <span style=color:#555>=</span> <span style=color:#f60>1</span>; <span style=color:#033>$i</span> <span style=color:#555>&lt;</span> count(<span style=color:#033>$this</span><span style=color:#555>-&gt;</span><span style=color:#309>chain</span>); <span style=color:#033>$i</span><span style=color:#555>++</span>) {
-        <span style=color:#033>$currentBlock</span> <span style=color:#555>=</span> <span style=color:#033>$this</span><span style=color:#555>-&gt;</span><span style=color:#309>chain</span>[<span style=color:#033>$i</span>];
-        <span style=color:#033>$prevBlock</span> <span style=color:#555>=</span> <span style=color:#033>$this</span><span style=color:#555>-&gt;</span><span style=color:#309>chain</span>[<span style=color:#033>$i</span> <span style=color:#555>-</span> <span style=color:#f60>1</span>];
-        <span style=color:#069;font-weight:700>if</span> (<span style=color:#033>$currentBlock</span><span style=color:#555>-&gt;</span><span style=color:#309>hash</span> <span style=color:#555>!==</span> <span style=color:#033>$currentBlock</span><span style=color:#555>-&gt;</span><span style=color:#309>calculateHash</span>()) {
-            <span style=color:#069;font-weight:700>return</span> <span style=color:#069;font-weight:700>false</span>;
+    <span style=color:#ff79c6>for</span> (<span style=color:#8be9fd;font-style:italic>$i</span> <span style=color:#ff79c6>=</span> <span style=color:#bd93f9>1</span>; <span style=color:#8be9fd;font-style:italic>$i</span> <span style=color:#ff79c6>&lt;</span> count(<span style=color:#8be9fd;font-style:italic>$this</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>chain</span>); <span style=color:#8be9fd;font-style:italic>$i</span><span style=color:#ff79c6>++</span>) {
+        <span style=color:#8be9fd;font-style:italic>$currentBlock</span> <span style=color:#ff79c6>=</span> <span style=color:#8be9fd;font-style:italic>$this</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>chain</span>[<span style=color:#8be9fd;font-style:italic>$i</span>];
+        <span style=color:#8be9fd;font-style:italic>$prevBlock</span> <span style=color:#ff79c6>=</span> <span style=color:#8be9fd;font-style:italic>$this</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>chain</span>[<span style=color:#8be9fd;font-style:italic>$i</span> <span style=color:#ff79c6>-</span> <span style=color:#bd93f9>1</span>];
+        <span style=color:#ff79c6>if</span> (<span style=color:#8be9fd;font-style:italic>$currentBlock</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>hash</span> <span style=color:#ff79c6>!==</span> <span style=color:#8be9fd;font-style:italic>$currentBlock</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>calculateHash</span>()) {
+            <span style=color:#ff79c6>return</span> <span style=color:#ff79c6>false</span>;
         }
-        <span style=color:#069;font-weight:700>if</span> (<span style=color:#033>$currentBlock</span><span style=color:#555>-&gt;</span><span style=color:#309>prevHash</span> <span style=color:#555>!==</span> <span style=color:#033>$prevBlock</span><span style=color:#555>-&gt;</span><span style=color:#309>hash</span>) {
-            <span style=color:#069;font-weight:700>return</span> <span style=color:#069;font-weight:700>false</span>;
+        <span style=color:#ff79c6>if</span> (<span style=color:#8be9fd;font-style:italic>$currentBlock</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>prevHash</span> <span style=color:#ff79c6>!==</span> <span style=color:#8be9fd;font-style:italic>$prevBlock</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>hash</span>) {
+            <span style=color:#ff79c6>return</span> <span style=color:#ff79c6>false</span>;
         }
     }
-    <span style=color:#069;font-weight:700>return</span> <span style=color:#069;font-weight:700>true</span>;
+    <span style=color:#ff79c6>return</span> <span style=color:#ff79c6>true</span>;
 }
-</code></pre></td></tr></table></div></div><p>开始测试：</p><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
+</code></pre></td></tr></table></div></div><p>开始测试：</p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 2
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 3
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 4
@@ -228,16 +228,16 @@ Block 区块
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 8
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 9
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">10
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-php data-lang=php><span style=color:#033>$blockChain</span> <span style=color:#555>=</span> <span style=color:#069;font-weight:700>new</span> BlockChain();
-<span style=color:#033>$blockChain</span><span style=color:#555>-&gt;</span><span style=color:#309>addBlock</span>(<span style=color:#069;font-weight:700>new</span> Block(<span style=color:#f60>1</span>, <span style=color:#c30>&#39;2017-02-23&#39;</span>, [<span style=color:#c30>&#39;amount&#39;</span> <span style=color:#555>=&gt;</span> <span style=color:#f60>1</span>]));
-<span style=color:#033>$blockChain</span><span style=color:#555>-&gt;</span><span style=color:#309>addBlock</span>(<span style=color:#069;font-weight:700>new</span> Block(<span style=color:#f60>2</span>, <span style=color:#c30>&#39;2017-03-23&#39;</span>, [<span style=color:#c30>&#39;amount&#39;</span> <span style=color:#555>=&gt;</span> <span style=color:#f60>3</span>]));
-<span style=color:#033>$blockChain</span><span style=color:#555>-&gt;</span><span style=color:#309>addBlock</span>(<span style=color:#069;font-weight:700>new</span> Block(<span style=color:#f60>3</span>, <span style=color:#c30>&#39;2017-04-23&#39;</span>, [<span style=color:#c30>&#39;amount&#39;</span> <span style=color:#555>=&gt;</span> <span style=color:#f60>20</span>]));
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-php data-lang=php><span style=color:#8be9fd;font-style:italic>$blockChain</span> <span style=color:#ff79c6>=</span> <span style=color:#ff79c6>new</span> BlockChain();
+<span style=color:#8be9fd;font-style:italic>$blockChain</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>addBlock</span>(<span style=color:#ff79c6>new</span> Block(<span style=color:#bd93f9>1</span>, <span style=color:#f1fa8c>&#39;2017-02-23&#39;</span>, [<span style=color:#f1fa8c>&#39;amount&#39;</span> <span style=color:#ff79c6>=&gt;</span> <span style=color:#bd93f9>1</span>]));
+<span style=color:#8be9fd;font-style:italic>$blockChain</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>addBlock</span>(<span style=color:#ff79c6>new</span> Block(<span style=color:#bd93f9>2</span>, <span style=color:#f1fa8c>&#39;2017-03-23&#39;</span>, [<span style=color:#f1fa8c>&#39;amount&#39;</span> <span style=color:#ff79c6>=&gt;</span> <span style=color:#bd93f9>3</span>]));
+<span style=color:#8be9fd;font-style:italic>$blockChain</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>addBlock</span>(<span style=color:#ff79c6>new</span> Block(<span style=color:#bd93f9>3</span>, <span style=color:#f1fa8c>&#39;2017-04-23&#39;</span>, [<span style=color:#f1fa8c>&#39;amount&#39;</span> <span style=color:#ff79c6>=&gt;</span> <span style=color:#bd93f9>20</span>]));
 
-print_r(<span style=color:#033>$blockChain</span>);
-<span style=color:#069;font-weight:700>echo</span> <span style=color:#c30>&#34;区块链验证通过吗？&#34;</span> <span style=color:#555>.</span> (<span style=color:#033>$blockChain</span><span style=color:#555>-&gt;</span><span style=color:#309>isChainValid</span>() <span style=color:#555>?</span> <span style=color:#c30>&#39;通过&#39;</span> <span style=color:#555>:</span> <span style=color:#c30>&#39;失败&#39;</span>) <span style=color:#555>.</span> PHP_EOL;
-<span style=color:#033>$blockChain</span><span style=color:#555>-&gt;</span><span style=color:#309>chain</span>[<span style=color:#f60>1</span>]<span style=color:#555>-&gt;</span><span style=color:#309>data</span> <span style=color:#555>=</span> [<span style=color:#c30>&#39;amount&#39;</span> <span style=color:#555>=&gt;</span> <span style=color:#f60>2</span>];
-<span style=color:#033>$blockChain</span><span style=color:#555>-&gt;</span><span style=color:#309>chain</span>[<span style=color:#f60>1</span>]<span style=color:#555>-&gt;</span><span style=color:#309>hash</span> <span style=color:#555>=</span> <span style=color:#033>$blockChain</span><span style=color:#555>-&gt;</span><span style=color:#309>chain</span>[<span style=color:#f60>1</span>]<span style=color:#555>-&gt;</span><span style=color:#309>calculateHash</span>();
-<span style=color:#069;font-weight:700>echo</span> <span style=color:#c30>&#34;区块链验证通过吗？&#34;</span> <span style=color:#555>.</span> (<span style=color:#033>$blockChain</span><span style=color:#555>-&gt;</span><span style=color:#309>isChainValid</span>() <span style=color:#555>?</span> <span style=color:#c30>&#39;通过&#39;</span> <span style=color:#555>:</span> <span style=color:#c30>&#39;失败&#39;</span>) <span style=color:#555>.</span> PHP_EOL;
+print_r(<span style=color:#8be9fd;font-style:italic>$blockChain</span>);
+<span style=color:#ff79c6>echo</span> <span style=color:#f1fa8c>&#34;区块链验证通过吗？&#34;</span> <span style=color:#ff79c6>.</span> (<span style=color:#8be9fd;font-style:italic>$blockChain</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>isChainValid</span>() <span style=color:#ff79c6>?</span> <span style=color:#f1fa8c>&#39;通过&#39;</span> <span style=color:#ff79c6>:</span> <span style=color:#f1fa8c>&#39;失败&#39;</span>) <span style=color:#ff79c6>.</span> PHP_EOL;
+<span style=color:#8be9fd;font-style:italic>$blockChain</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>chain</span>[<span style=color:#bd93f9>1</span>]<span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>data</span> <span style=color:#ff79c6>=</span> [<span style=color:#f1fa8c>&#39;amount&#39;</span> <span style=color:#ff79c6>=&gt;</span> <span style=color:#bd93f9>2</span>];
+<span style=color:#8be9fd;font-style:italic>$blockChain</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>chain</span>[<span style=color:#bd93f9>1</span>]<span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>hash</span> <span style=color:#ff79c6>=</span> <span style=color:#8be9fd;font-style:italic>$blockChain</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>chain</span>[<span style=color:#bd93f9>1</span>]<span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>calculateHash</span>();
+<span style=color:#ff79c6>echo</span> <span style=color:#f1fa8c>&#34;区块链验证通过吗？&#34;</span> <span style=color:#ff79c6>.</span> (<span style=color:#8be9fd;font-style:italic>$blockChain</span><span style=color:#ff79c6>-&gt;</span><span style=color:#50fa7b>isChainValid</span>() <span style=color:#ff79c6>?</span> <span style=color:#f1fa8c>&#39;通过&#39;</span> <span style=color:#ff79c6>:</span> <span style=color:#f1fa8c>&#39;失败&#39;</span>) <span style=color:#ff79c6>.</span> PHP_EOL;
 </code></pre></td></tr></table></div></div><p>完整代码去<a href=https://github.com/forecho/hi-Blockchain>forecho/hi-Blockchain</a> 看，运行结果看<a href=https://ideone.com/CDGIju>这里</a>。</p><p>以上就是区块链的基本原理了，是不是很简单，但实际上真实的区块链远比这个要复杂。在我们的区块链里，添加一个新区块非常快，非常容易；但是在真正的区块链中添加一个新的区块需要更多的工作：在获得添加区块的允许之前要做很繁重的计算才行（这个过程被称为工『作证明机制』，即，『Proof-of-Work』，POW）。并且，区块链是一个没有主权的分布式的数据库。因此，任何一个新的区块在被加入之前，必须经过网络中其它参与者的确认与允许（这个机制被称为『共识机制』，『Consensus』）…… 还有，我们的区块链里，还没有任何交易记录呢！</p><h2 id=总结>总结</h2><p>网上看到的最多的是用 Go 来现实，但是我还没来得及去学 Go 语言，无意中看到一个用 JavaScript 实现的版本，好在有一些 JS 基础，看懂了之后觉得『这个 PHP 也能实现嘛』，然后就有了这篇文章。</p><p>个人觉得区块链如此之火是因为它是跨界的产物，不仅要学习技术而且还要学习金融。『一头扎进技术里是没有未来的，你技术再好永远有比你好的技术，技术再结合金融领域的知识，就很有意思』这句话是一个老板对我说的，非常赞同。</p><h2 id=参考连接>参考连接</h2><ul><li><a href=http://lixiaolai.com/2017/09/28/building-blockchain-in-go-part-1/>使用 Go 语言打造区块链（一）</a></li><li><a href=https://annatarhe.github.io/2017/12/29/building-blockchain-in-go-part-1-basic-prototype.html>用 golang 实现区块链系列一 - 基本原型</a></li><li><a href=https://jeiwan.cc/posts/building-blockchain-in-go-part-1/>Building Blockchain in Go. Part 1: Basic Prototype</a></li><li><a href="https://www.youtube.com/watch?v=zVqczFZr124&t=10s&index=2&list=PLQ5fjAsCtfQ77yDXk8BVW6sRQO9qzq-Os">[YouTube]Creating a blockchain with Javascript (Blockchain, part 1)</a></li></ul><hr class="bg-gray-300 mt-8"><div class=pt-4><p class=text-center><button id=btn-donate class="px-5 py-2 inline-block rounded hover:bg-red-600 bg-red-400 text-white" for=reward>打赏</button></p><div class="flex-auto mt-2 mx-2 hidden" id=donate-image><div class="w-full px-2 my-2"><div class="bg-white dark:bg-black"><img class="h-48 shadow object-cover w-auto mx-auto" loading=lazy src=https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424153510.png alt=微信打赏><div class="text-center text-gray-500">微信打赏</div></div></div><div class="w-full px-2 my-2"><div class="bg-white dark:bg-black"><img class="h-48 shadow object-cover w-auto mx-auto" loading=lazy src=https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424153431.png alt=支付宝打赏><div class="text-center text-gray-500">支付宝打赏</div></div></div></div></div><div class="border-l-4 border-red-400 mx-auto text-gray-500"><div class=copyright><ul class=list-none><li><strong>原文作者：</strong>
 <a rel=author href=https://blog.forecho.com>forecho</a></li><li style=word-break:break-all><strong>原文链接：</strong>
 <a href=https://blog.forecho.com/understand-blockchain-primitives-with-php.html>https://blog.forecho.com/understand-blockchain-primitives-with-php.html</a></li><li><strong>版权声明：</strong>本作品采用

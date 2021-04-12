@@ -4,7 +4,7 @@
 199 字</span>
 <span class="hidden xl:inline-block">|
 <i class="iconfont icon-clock-o"></i>
-1 分钟读完</span></p></div><div class="md:hidden dark:text-gray-100"><p class="text-base font-bold py-2 yg:pb-6 text-gray-700 dark:text-gray-300">文章目录</p><div class="sticky text-sm" style=top:6em id=menu-content><nav id=TableOfContents><ul><li><a href=#comments>Comments</a></li></ul></nav></div></div><div class="post-content dark:text-white"><p>JS代码如下：</p><div class=highlight><div style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
+1 分钟读完</span></p></div><div class="md:hidden dark:text-gray-100"><p class="text-base font-bold py-2 yg:pb-6 text-gray-700 dark:text-gray-300">文章目录</p><div class="sticky text-sm" style=top:6em id=menu-content><nav id=TableOfContents><ul><li><a href=#comments>Comments</a></li></ul></nav></div></div><div class="post-content dark:text-white"><p>JS代码如下：</p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 2
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 3
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 4
@@ -54,55 +54,55 @@
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">48
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">49
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">50
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-javascript data-lang=javascript>(<span style=color:#069;font-weight:700>function</span>($)
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-javascript data-lang=javascript>(<span style=color:#8be9fd;font-style:italic>function</span>($)
 {
-    $(<span style=color:#366>document</span>).ready(<span style=color:#069;font-weight:700>function</span>() {
-        $(<span style=color:#c30>&#39;.styleswitch&#39;</span>).click(<span style=color:#069;font-weight:700>function</span>()
+    $(<span style=color:#8be9fd;font-style:italic>document</span>).ready(<span style=color:#8be9fd;font-style:italic>function</span>() {
+        $(<span style=color:#f1fa8c>&#39;.styleswitch&#39;</span>).click(<span style=color:#8be9fd;font-style:italic>function</span>()
         {
-            switchStylestyle(<span style=color:#069;font-weight:700>this</span>.getAttribute(<span style=color:#c30>&#34;rel&#34;</span>));
-            <span style=color:#069;font-weight:700>return</span> <span style=color:#069;font-weight:700>false</span>;
+            switchStylestyle(<span style=color:#ff79c6>this</span>.getAttribute(<span style=color:#f1fa8c>&#34;rel&#34;</span>));
+            <span style=color:#ff79c6>return</span> <span style=color:#ff79c6>false</span>;
         });
-        <span style=color:#069;font-weight:700>var</span> c <span style=color:#555>=</span> readCookie(<span style=color:#c30>&#39;style&#39;</span>);
-        <span style=color:#069;font-weight:700>if</span> (c) switchStylestyle(c);
+        <span style=color:#8be9fd;font-style:italic>var</span> c <span style=color:#ff79c6>=</span> readCookie(<span style=color:#f1fa8c>&#39;style&#39;</span>);
+        <span style=color:#ff79c6>if</span> (c) switchStylestyle(c);
     });
 
-    <span style=color:#069;font-weight:700>function</span> switchStylestyle(styleName)
+    <span style=color:#8be9fd;font-style:italic>function</span> switchStylestyle(styleName)
     {
-        $(<span style=color:#c30>&#39;link[rel*=style][title]&#39;</span>).each(<span style=color:#069;font-weight:700>function</span>(i)
+        $(<span style=color:#f1fa8c>&#39;link[rel*=style][title]&#39;</span>).each(<span style=color:#8be9fd;font-style:italic>function</span>(i)
         {
-            <span style=color:#069;font-weight:700>this</span>.disabled <span style=color:#555>=</span> <span style=color:#069;font-weight:700>true</span>;
-            <span style=color:#069;font-weight:700>if</span> (<span style=color:#069;font-weight:700>this</span>.getAttribute(<span style=color:#c30>&#39;title&#39;</span>) <span style=color:#555>==</span> styleName) <span style=color:#069;font-weight:700>this</span>.disabled <span style=color:#555>=</span> <span style=color:#069;font-weight:700>false</span>;
+            <span style=color:#ff79c6>this</span>.disabled <span style=color:#ff79c6>=</span> <span style=color:#ff79c6>true</span>;
+            <span style=color:#ff79c6>if</span> (<span style=color:#ff79c6>this</span>.getAttribute(<span style=color:#f1fa8c>&#39;title&#39;</span>) <span style=color:#ff79c6>==</span> styleName) <span style=color:#ff79c6>this</span>.disabled <span style=color:#ff79c6>=</span> <span style=color:#ff79c6>false</span>;
         });
-        createCookie(<span style=color:#c30>&#39;style&#39;</span>, styleName, <span style=color:#f60>365</span>);
+        createCookie(<span style=color:#f1fa8c>&#39;style&#39;</span>, styleName, <span style=color:#bd93f9>365</span>);
     }
 })(jQuery);
 
-<span style=color:#069;font-weight:700>function</span> createCookie(name,value,days)
+<span style=color:#8be9fd;font-style:italic>function</span> createCookie(name,value,days)
 {
-    <span style=color:#069;font-weight:700>if</span> (days)
+    <span style=color:#ff79c6>if</span> (days)
     {
-        <span style=color:#069;font-weight:700>var</span> date <span style=color:#555>=</span> <span style=color:#069;font-weight:700>new</span> <span style=color:#366>Date</span>();
-        date.setTime(date.getTime()<span style=color:#555>+</span>(days<span style=color:#555>*</span><span style=color:#f60>24</span><span style=color:#555>*</span><span style=color:#f60>60</span><span style=color:#555>*</span><span style=color:#f60>60</span><span style=color:#555>*</span><span style=color:#f60>1000</span>));
-        <span style=color:#069;font-weight:700>var</span> expires <span style=color:#555>=</span> <span style=color:#c30>&#34;; expires=&#34;</span><span style=color:#555>+</span>date.toGMTString();
+        <span style=color:#8be9fd;font-style:italic>var</span> date <span style=color:#ff79c6>=</span> <span style=color:#ff79c6>new</span> <span style=color:#8be9fd;font-style:italic>Date</span>();
+        date.setTime(date.getTime()<span style=color:#ff79c6>+</span>(days<span style=color:#ff79c6>*</span><span style=color:#bd93f9>24</span><span style=color:#ff79c6>*</span><span style=color:#bd93f9>60</span><span style=color:#ff79c6>*</span><span style=color:#bd93f9>60</span><span style=color:#ff79c6>*</span><span style=color:#bd93f9>1000</span>));
+        <span style=color:#8be9fd;font-style:italic>var</span> expires <span style=color:#ff79c6>=</span> <span style=color:#f1fa8c>&#34;; expires=&#34;</span><span style=color:#ff79c6>+</span>date.toGMTString();
     }
-    <span style=color:#069;font-weight:700>else</span> <span style=color:#069;font-weight:700>var</span> expires <span style=color:#555>=</span> <span style=color:#c30>&#34;&#34;</span>;
-    <span style=color:#366>document</span>.cookie <span style=color:#555>=</span> name<span style=color:#555>+</span><span style=color:#c30>&#34;=&#34;</span><span style=color:#555>+</span>value<span style=color:#555>+</span>expires<span style=color:#555>+</span><span style=color:#c30>&#34;; path=/&#34;</span>;
+    <span style=color:#ff79c6>else</span> <span style=color:#8be9fd;font-style:italic>var</span> expires <span style=color:#ff79c6>=</span> <span style=color:#f1fa8c>&#34;&#34;</span>;
+    <span style=color:#8be9fd;font-style:italic>document</span>.cookie <span style=color:#ff79c6>=</span> name<span style=color:#ff79c6>+</span><span style=color:#f1fa8c>&#34;=&#34;</span><span style=color:#ff79c6>+</span>value<span style=color:#ff79c6>+</span>expires<span style=color:#ff79c6>+</span><span style=color:#f1fa8c>&#34;; path=/&#34;</span>;
 }
-<span style=color:#069;font-weight:700>function</span> readCookie(name)
+<span style=color:#8be9fd;font-style:italic>function</span> readCookie(name)
 {
-    <span style=color:#069;font-weight:700>var</span> nameEQ <span style=color:#555>=</span> name <span style=color:#555>+</span> <span style=color:#c30>&#34;=&#34;</span>;
-    <span style=color:#069;font-weight:700>var</span> ca <span style=color:#555>=</span> <span style=color:#366>document</span>.cookie.split(<span style=color:#c30>&#39;;&#39;</span>);
-    <span style=color:#069;font-weight:700>for</span>(<span style=color:#069;font-weight:700>var</span> i<span style=color:#555>=</span><span style=color:#f60>0</span>;i <span style=color:#555>&lt;</span> ca.length;i<span style=color:#555>++</span>)
+    <span style=color:#8be9fd;font-style:italic>var</span> nameEQ <span style=color:#ff79c6>=</span> name <span style=color:#ff79c6>+</span> <span style=color:#f1fa8c>&#34;=&#34;</span>;
+    <span style=color:#8be9fd;font-style:italic>var</span> ca <span style=color:#ff79c6>=</span> <span style=color:#8be9fd;font-style:italic>document</span>.cookie.split(<span style=color:#f1fa8c>&#39;;&#39;</span>);
+    <span style=color:#ff79c6>for</span>(<span style=color:#8be9fd;font-style:italic>var</span> i<span style=color:#ff79c6>=</span><span style=color:#bd93f9>0</span>;i <span style=color:#ff79c6>&lt;</span> ca.length;i<span style=color:#ff79c6>++</span>)
     {
-        <span style=color:#069;font-weight:700>var</span> c <span style=color:#555>=</span> ca[i];
-        <span style=color:#069;font-weight:700>while</span> (c.charAt(<span style=color:#f60>0</span>)<span style=color:#555>==</span><span style=color:#c30>&#39; &#39;</span>) c <span style=color:#555>=</span> c.substring(<span style=color:#f60>1</span>,c.length);
-        <span style=color:#069;font-weight:700>if</span> (c.indexOf(nameEQ) <span style=color:#555>==</span> <span style=color:#f60>0</span>) <span style=color:#069;font-weight:700>return</span> c.substring(nameEQ.length,c.length);
+        <span style=color:#8be9fd;font-style:italic>var</span> c <span style=color:#ff79c6>=</span> ca[i];
+        <span style=color:#ff79c6>while</span> (c.charAt(<span style=color:#bd93f9>0</span>)<span style=color:#ff79c6>==</span><span style=color:#f1fa8c>&#39; &#39;</span>) c <span style=color:#ff79c6>=</span> c.substring(<span style=color:#bd93f9>1</span>,c.length);
+        <span style=color:#ff79c6>if</span> (c.indexOf(nameEQ) <span style=color:#ff79c6>==</span> <span style=color:#bd93f9>0</span>) <span style=color:#ff79c6>return</span> c.substring(nameEQ.length,c.length);
     }
-    <span style=color:#069;font-weight:700>return</span> <span style=color:#069;font-weight:700>null</span>;
+    <span style=color:#ff79c6>return</span> <span style=color:#ff79c6>null</span>;
 }
-<span style=color:#069;font-weight:700>function</span> eraseCookie(name)
+<span style=color:#8be9fd;font-style:italic>function</span> eraseCookie(name)
 {
-    createCookie(name,<span style=color:#c30>&#34;&#34;</span>,<span style=color:#555>-</span><span style=color:#f60>1</span>);
+    createCookie(name,<span style=color:#f1fa8c>&#34;&#34;</span>,<span style=color:#ff79c6>-</span><span style=color:#bd93f9>1</span>);
 }
 </code></pre></td></tr></table></div></div><p>效果虽然有了，但有点看不懂，求解释~~~</p><h2 id=comments>Comments</h2><p><strong><a href=#25 title="2011-12-09 22:19:13">29的博客</a>:</strong> 学习了的。</p><hr class="bg-gray-300 mt-8"><div class=pt-4><p class=text-center><button id=btn-donate class="px-5 py-2 inline-block rounded hover:bg-red-600 bg-red-400 text-white" for=reward>打赏</button></p><div class="flex-auto mt-2 mx-2 hidden" id=donate-image><div class="w-full px-2 my-2"><div class="bg-white dark:bg-black"><img class="h-48 shadow object-cover w-auto mx-auto" loading=lazy src=https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424153510.png alt=微信打赏><div class="text-center text-gray-500">微信打赏</div></div></div><div class="w-full px-2 my-2"><div class="bg-white dark:bg-black"><img class="h-48 shadow object-cover w-auto mx-auto" loading=lazy src=https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424153431.png alt=支付宝打赏><div class="text-center text-gray-500">支付宝打赏</div></div></div></div></div><div class="border-l-4 border-red-400 mx-auto text-gray-500"><div class=copyright><ul class=list-none><li><strong>原文作者：</strong>
 <a rel=author href=https://blog.forecho.com>forecho</a></li><li style=word-break:break-all><strong>原文链接：</strong>
