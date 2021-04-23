@@ -1,4 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 09 Apr 2021 16:09:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>【深度理财25】随机买股票实验</title><link>https://blog.forecho.com/financedeep-25.html</link><pubDate>Fri, 09 Apr 2021 16:09:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-25.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 23 Apr 2021 16:09:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>【深度理财26】随机买股票实验结局</title><link>https://blog.forecho.com/financedeep-26.html</link><pubDate>Fri, 23 Apr 2021 16:09:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-26.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>两周前因为 A 股市场太让人沮丧了，而正好我看到一个好玩儿的事情，于是我就跟风做了一个实验，详情请看&lt;a href="https://blog.forecho.com/financedeep-25.html">《【深度理财25】随机买股票实验》&lt;/a>。&lt;/p>
+&lt;p>今天收盘前把之前的两支股票卖了，先说说结果，总体是亏钱了。&lt;/p>
+&lt;h2 id="卖股">卖股&lt;/h2>
+&lt;p>赶在收盘前卖一个好价格，下面是这两个的卖出价格&lt;/p>
+&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/202104237E7G4T.JPEG!m" alt="">&lt;/p>
+&lt;p>盈亏统计我也算好了，两个公式分别是：&lt;/p>
+&lt;ul>
+&lt;li>盈亏 = 卖出总金额-买入总金额-卖出手续费-买入手续费&lt;/li>
+&lt;li>盈亏比例 = 盈亏/买入总金额*100&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20210423Ei4i4y.png" alt="">&lt;/p>
+&lt;p>所以总的来说我亏了 331.2 = 358.1-26.9 😭😭&lt;/p>
+&lt;h2 id="复盘">复盘&lt;/h2>
+&lt;p>因为那天选股的方式效率很低，而且我开始玩的时候离收盘时间只有半个多小时，所以那天选股的时候有点着急，导致我事后才发现&lt;strong>上海洗霸&lt;/strong>其实不是我选出来的！！你回去看图就知道了上海洗霸股票代码是 &lt;code>603200&lt;/code> 而我选的代码是 &lt;code>03200&lt;/code>，当时着急没仔细看就买了。&lt;/p>
+&lt;p>而且这货今天跌了 6% 😭😭&lt;/p>
+&lt;p>结局是我亲自选的&lt;code>三安光电&lt;/code>最后盈利了，而错选的&lt;code>上海洗霸&lt;/code>，虽然最后总的来说是亏钱了，但是这点倒是让我挺欣慰的。&lt;/p>
+&lt;h2 id="最后">最后&lt;/h2>
+&lt;p>总的来说我明白了几点：&lt;/p>
+&lt;ul>
+&lt;li>分散投资确实很重要，还好一个涨一个跌&lt;/li>
+&lt;li>A 股的涨跌有点没逻辑，所以我还是坚持不买 A 股个股&lt;/li>
+&lt;/ul></description></item><item><title>【深度理财25】随机买股票实验</title><link>https://blog.forecho.com/financedeep-25.html</link><pubDate>Fri, 09 Apr 2021 16:09:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-25.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
 &lt;p>今天中午吃完饭之后看了一会儿 YouTube，然后它给我推荐了一个视频，还是挺有意思的。视频的内容就是迫于春节之后股票行情一直不好，然后 UP 主想到了让猴子丢飞镖乱选股票，跟华尔街的专业分析师 PK 绩效，没想到猴子居然获胜的实验，然后他也实践了一把这个实验。&lt;/p>
 &lt;p>他实验的内容大致就是自己扔球然后选股票，买入之后两个星期卖掉。看了之后觉得挺有意思的，于是我也想玩一把。&lt;/p>
 &lt;h2 id="选股">选股&lt;/h2>
@@ -1137,81 +1159,4 @@ cc c
 &lt;/li>
 &lt;/ul>
 &lt;h2 id="最后">最后&lt;/h2>
-&lt;p>总的来说，18年推荐的节目现在大多数还在听，我使用的依然是 &lt;a href="https://overcast.fm/">Overcast&lt;/a> App 来听播客，另外也推荐一款由即刻团队打造的&lt;a href="https://www.xiaoyuzhoufm.com/">小宇宙&lt;/a>播客 App 。&lt;/p></description></item><item><title>CashWarden 使用指南之快速记账</title><link>https://blog.forecho.com/use-cashwarden-01.html</link><pubDate>Wed, 25 Nov 2020 14:09:00 +0800</pubDate><guid>https://blog.forecho.com/use-cashwarden-01.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>这是 CashWarden 使用指南系列文章，如果你还不知道什么是 CashWarden？请查看 &lt;a href="https://blog.forecho.com/hello-cashwarden.html">《CashWarden 一款开源的资产管理系统》&lt;/a>。&lt;/p>
-&lt;p>我觉得 CashWarden 最大的亮点就是快速记账功能了，所以这篇文章我会分享这个功能的使用指南以及我对此的一些思考，如果你有更好的想法欢迎与我交流。&lt;/p>
-&lt;h2 id="快速记账-10">快速记账 1.0&lt;/h2>
-&lt;p>之前可能有提过，此功能有借鉴「微记账」和 iOS 的「捷径」两款 App。但是捷径交互有点复杂，我想让用户使用起来更加简单，所以就有了「规则」模块。&lt;/p>
-&lt;p>以下是最初版的规则说明，为了方便后面升级说明，我又复制了一份：&lt;/p>
-&lt;blockquote>
-&lt;p>配置关键词（可以多个）之后，快速记账的时候就会根据关键词记账。我们可以分配支付或者收入的账号，还可以分配类别和标签。最关键的是可以匹配多个关键词，根据优先级来依序匹配记账。这意味着你可以实现快速记账的时候分配指定支付账号。&lt;/p>
-&lt;/blockquote>
-&lt;blockquote>
-&lt;p>比方说吃饭这个事情，有时候我用饭卡消费，有时候用微信零钱，有时候用支付宝等等。那么我们就可以这样设置规则：&lt;/p>
-&lt;/blockquote>
-&lt;blockquote>
-&lt;ul>
-&lt;li>添加一条「饭」关键词，然后分配对应的默认支付账户（比方说是饭卡），分配分类，分配标签等，使用默认排序。&lt;/li>
-&lt;li>添加几条账户支付相关的规则，只需要设置关键词和分配支付账号，把排序设置为10（越小数字优先级越高）。&lt;/li>
-&lt;/ul>
-&lt;/blockquote>
-&lt;blockquote>
-&lt;p>如果是饭卡消费的你只要输入「午饭20」就可以了，如果是支付宝消费的，你就可以输入「午饭支付宝20」。&lt;/p>
-&lt;/blockquote>
-&lt;p>之后更加用户的反馈，我又加了默认金额功能，这样如果是一项固定金额的支出，你甚至都不用输入金额就可以记账了。&lt;/p>
-&lt;h2 id="快速记账-20">快速记账 2.0&lt;/h2>
-&lt;p>为了开发联合记账，让家庭小团队能同时记账，我开发了账本功能，但是一旦加入账本概念，让原本的功能都变得要复杂都多了。我不得不做了以下调整：&lt;/p>
-&lt;h3 id="分类关键词">分类关键词&lt;/h3>
-&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20201125w1AFYE.png" alt="20201125w1AFYE">&lt;/p>
-&lt;p>为了账本内其他成员能方便的快速记账，我开发了分类和账户关键词功能，这样快速记账的时候，其他成员几乎不需要配置也可以很方便的使用快速记账功能了。&lt;/p>
-&lt;p>我举一些例子来说明吧，还是拿吃饭来说，我给「餐饮食品」分配了 「饭,餐,水果,面包,菜,水」几个关键词，在没有任何规则的情况下，只使用了分类关键词，那么我输入「午餐20」，如果一切顺利的话，会新增一条这样的记录：&lt;/p>
-&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
-&lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
-&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-fallback" data-lang="fallback">账本：默认账本
-支付账户：默认账户
-交易类型：支出（默认是支出）
-分类：餐饮食品
-金额：20
-&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>同理，如果你使用「买菜20」、「午饭20」、「工作餐20」等描述记账，你都会添加跟上面类似的一条记录。&lt;/p>
-&lt;h3 id="账户关键词">账户关键词&lt;/h3>
-&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20201125EGDhFJ.png" alt="20201125EGDhFJ">&lt;/p>
-&lt;p>还是接着上面说，话说有一天招行信用卡支付有活动，于是你午饭选了招行信用卡支付，那么你怎么快速记账呢？&lt;/p>
-&lt;p>这个时候你需要配合账户关键词了，事先你需要新增一个招行信用卡账户，然后关键词使用「招行信用卡」，这样当你输入「招行信用卡午餐20」的时候，会新增一条这样的记录：&lt;/p>
-&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
-&lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
-&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-fallback" data-lang="fallback">账本：默认账本
-支付账户：招行信用卡
-交易类型：支出（默认是支出）
-分类：餐饮食品
-金额：20
-&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h3 id="规则">规则&lt;/h3>
-&lt;p>规则还属于个人名下，但是每条规则必须要选择分配的账本。除了以前那样使用规则，你还可以：&lt;/p>
-&lt;p>&lt;strong>一、 通过规则来分配账本&lt;/strong>&lt;/p>
-&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/202011252gds6f.png!m" alt="202011252gds6f">&lt;/p>
-&lt;p>比方说我新建了一个「生意账本」我新增了一个这样的账本，这样我每次快速记账的时候，只要输入的描述带有「生意」就会记录到生意账本里面，但是需要注意的是，如果记录到生意账本，只会使用生意账本的分类关键词。&lt;/p>
-&lt;p>&lt;strong>二、 使用「*」特殊关键词&lt;/strong>&lt;/p>
-&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20201125YmToLv.png!m" alt="20201125YmToLv">&lt;/p>
-&lt;p>比方说我新建了一个旅游账本，准备出去玩一个星期，如何让快速记账全部方便快捷的记录到指定的账本里面呢？我开发了一个「*」关键词，一旦你配置并且开启了此功能，此刻你所记录的所有记录都会归为你配置的账本里面（记账描述的时候不需要特殊的关键词），结束旅行之后，你可以通过关闭此规则来恢复日常记账。&lt;/p>
-&lt;p>当然你也可以通过修改默认账本来实现此功能，但不会有「分配标签」功能。&lt;/p>
-&lt;h2 id="最后">最后&lt;/h2>
-&lt;p>通过给分类和账户增加关键词功能，大大减少了规则的使用场景，规则更适用于固定收支和转账的场景。&lt;/p>
-&lt;p>目前所做的功能都有为之后复制和分享账本模版做了铺垫，如果你看完此篇文章对快速记账还是有疑问的话，欢迎在 Telegram 讨论组中与我交流，地址： &lt;a href="https://t.me/cashwarden">https://t.me/cashwarden&lt;/a>&lt;/p>
-&lt;p>或者给我写 Email： caizhenghai[@]gmail.com&lt;/p></description></item></channel></rss>
+&lt;p>总的来说，18年推荐的节目现在大多数还在听，我使用的依然是 &lt;a href="https://overcast.fm/">Overcast&lt;/a> App 来听播客，另外也推荐一款由即刻团队打造的&lt;a href="https://www.xiaoyuzhoufm.com/">小宇宙&lt;/a>播客 App 。&lt;/p></description></item></channel></rss>
