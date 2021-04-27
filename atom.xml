@@ -1,4 +1,73 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 23 Apr 2021 16:09:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>【深度理财26】随机买股票实验结局</title><link>https://blog.forecho.com/financedeep-26.html</link><pubDate>Fri, 23 Apr 2021 16:09:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-26.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 26 Apr 2021 17:09:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>【深度理财27】交易期权容易犯的错</title><link>https://blog.forecho.com/financedeep-27.html</link><pubDate>Mon, 26 Apr 2021 17:09:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-27.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>上个月写了两篇期权干货文章了：&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://blog.forecho.com/financedeep-23.html">【深度理财23】什么是期权&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://blog.forecho.com/financedeep-24.html">【深度理财24】期权交易基本策略&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>之前内容比较干，今天来点湿货，我来谈谈这三个月来我交易期权学到的经验。&lt;/p>
+&lt;blockquote>
+&lt;p>加一个风险提示：本篇文章仅代表我的个人观点，不构成与其他人相关的任何投资建议。在作出任何投资决定前，投资者应根据自身情况考虑投资产品相关的风险因素，并于需要时咨询专业投资顾问意见。&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="容易犯的错">容易犯的错&lt;/h2>
+&lt;h3 id="以为到了行权价就能赚钱">以为到了行权价就能赚钱&lt;/h3>
+&lt;p>现在回过头来总结，没想到我刚期权没多久就开启了美股成长股「熊市」，而我持仓大部分都是成长股，全部中招。刚开始为了挽回收益损失，我用了期权抄底，以为到了行权价就能赚回。&lt;/p>
+&lt;p>其实期权到期日如果到了行权价，你不一定会赚钱，如果期权买的价格很贵，也会亏钱。简单举个例子，我前一段时间买了一张 SNAP210423C60000 的期权，它的含义是：&lt;/p>
+&lt;ul>
+&lt;li>一张 SNAP 的 Call 期权&lt;/li>
+&lt;li>行权价为 60&lt;/li>
+&lt;li>到期日为 2021-04-23&lt;/li>
+&lt;/ul>
+&lt;p>这张期权我买了三张，平均成本价为 4.1，那么截止到 2021-04-23 SNAP 股票价格至少要到 64.1 我才能赚钱，如果跌到 60 以下，我这个期权就是废纸。&lt;/p>
+&lt;p>PUT 期权也是类似的，也要算是期权成本价。所以在买期权的时候，一定要把成本+行权价一起考虑。&lt;/p>
+&lt;h3 id="加仓期权">加仓期权&lt;/h3>
+&lt;p>买期权时，如果期权亏了很多，请谨慎加仓期权，因为期权亏了，说明期权行权价和正股价格越来越远，说明离行权目标越来越远，这个时候你加仓，大概率钱会赔完。&lt;/p>
+&lt;p>股票跌了加仓，只要是优质的股票，会有涨回来的一天，但是期权就不同了，期权有时间期限。股票行情不好的时候，横盘一两个月是有的，但是你可能只买了一个月到期的期权，期权没等到那天就归零了，这就意味着你损失了筹码。&lt;/p>
+&lt;p>如果真的想加仓的话，可以考虑换一个行权价买入。&lt;/p>
+&lt;h3 id="交易不太活跃的期权">交易不太活跃的期权&lt;/h3>
+&lt;p>不太活跃的期权，意味着期权买卖溢价高，买入和卖出价格相差比较大。选择期权的时候一定要考虑到这个问题。当然到时候你指望行权那也是可以的。&lt;/p>
+&lt;p>最好选择流动性比较好，交易量大的期权。&lt;/p>
+&lt;h3 id="重仓期权">重仓期权&lt;/h3>
+&lt;p>如果重仓期权，一次输了会让你万劫不复。期权本身就有点赌博的性质，所以一定要控制期权仓位。&lt;/p>
+&lt;h3 id="不关注市场消息">不关注市场消息&lt;/h3>
+&lt;p>市场消息对股票短期价格影响很大，这意味着期权也会受到更大的影响，比方说前一阵子，小米公司在闭市之前宣布造车，我的小米看涨期权立马从亏损到翻倍状态。所以如果你交易期权需要关注：&lt;/p>
+&lt;ul>
+&lt;li>重要市场消息&lt;/li>
+&lt;li>财报信息&lt;/li>
+&lt;li>宏观经济调控&lt;/li>
+&lt;/ul>
+&lt;h3 id="没策略或者计划">没策略或者计划&lt;/h3>
+&lt;ul>
+&lt;li>交易期权之前一定先选好交易策略，看涨、看跌、还是对冲风险？&lt;/li>
+&lt;li>什么时候止盈？&lt;/li>
+&lt;li>最多能承受多少亏损？&lt;/li>
+&lt;/ul>
+&lt;h3 id="不了解期权基本知识">不了解期权基本知识&lt;/h3>
+&lt;p>不了解期权基本知识就开始交易期权是非常危险的，期权不比股票，股票买了你可以长期拿着不动就能赚钱，但是期权不行，期权有时间价值，即使股票横盘，期权也会亏钱。&lt;/p>
+&lt;p>所以一定要学好基本知识再开始使用期权，少亏点钱。&lt;/p>
+&lt;h2 id="常见问题">常见问题&lt;/h2>
+&lt;h3 id="sell-put-没到达行权价格会怎么样">Sell Put 没到达行权价格会怎么样？&lt;/h3>
+&lt;ul>
+&lt;li>Sell Put 如果截止日的时候&lt;strong>到了&lt;/strong>行权价格，那么买方就不会行权，你就赚到了权利金。&lt;/li>
+&lt;li>Sell Put 如果截止日的时候&lt;strong>没到&lt;/strong>行权价格，那么买方就会行权，你会使用被冻结的资金以行权价买入指定数量的股票，权利金全部归你。&lt;/li>
+&lt;/ul>
+&lt;h3 id="buy-call-没到达行权价格会怎么样">Buy Call 没到达行权价格会怎么样？&lt;/h3>
+&lt;ul>
+&lt;li>Buy Put 如果截止日的时候&lt;strong>到了&lt;/strong>行权价格，请确保有足够的资金行权，不然我也不知道后果是什么。&lt;/li>
+&lt;li>Buy Put 如果截止日的时候&lt;strong>没到&lt;/strong>行权价格，期权归零。&lt;/li>
+&lt;/ul>
+&lt;h3 id="sell-put-不想行权怎么办">Sell Put 不想行权怎么办？&lt;/h3>
+&lt;p>在到期日之前买入期权，平仓即可。&lt;/p>
+&lt;h2 id="总结">总结&lt;/h2>
+&lt;p>这篇文章主要介绍了交易期权容易犯的错，回顾一下主要有以下几点：&lt;/p>
+&lt;ul>
+&lt;li>以为到了行权价就能赚钱：买期权的时候，一定要把成本+行权价一起考虑&lt;/li>
+&lt;li>加仓期权：谨慎操作，加仓期权不比加仓股票&lt;/li>
+&lt;li>交易不太活跃的期权：买入容易卖出难&lt;/li>
+&lt;li>重仓期权：输了就万劫不复&lt;/li>
+&lt;li>不关注市场消息：找死&lt;/li>
+&lt;li>不了解期权基本知识：送钱&lt;/li>
+&lt;/ul>
+&lt;p>如果你喜欢我的期权系列文章，记得点赞 ➕ 关注。后面我会分享几次我交易期权的经历，包括赚钱的和不赚钱的。&lt;/p></description></item><item><title>【深度理财26】随机买股票实验结局</title><link>https://blog.forecho.com/financedeep-26.html</link><pubDate>Fri, 23 Apr 2021 16:09:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-26.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
 &lt;p>两周前因为 A 股市场太让人沮丧了，而正好我看到一个好玩儿的事情，于是我就跟风做了一个实验，详情请看&lt;a href="https://blog.forecho.com/financedeep-25.html">《【深度理财25】随机买股票实验》&lt;/a>。&lt;/p>
 &lt;p>今天收盘前把之前的两支股票卖了，先说说结果，总体是亏钱了。&lt;/p>
 &lt;h2 id="卖股">卖股&lt;/h2>
@@ -1113,50 +1182,4 @@ cc c
 &lt;/div>
 &lt;/div>&lt;h2 id="最后">最后&lt;/h2>
 &lt;p>之前可以用民生大陆卡成功入金，但是最近有小伙伴反馈境外汇款的时候提示「要去柜台办理」，所以才有了这篇文章。&lt;/p>
-&lt;p>港美股是一个长期的投资行为，需要准备一笔短期不用的钱，出金的时候需要境外卡，但是以后还是有很多机会办境外卡的，所以如果真的想投资港美股的小伙伴可以先用大陆卡的方式上车。&lt;/p></description></item><item><title>我在听的播客节目之2020年篇</title><link>https://blog.forecho.com/im-listening-to-podcasts-2020.html</link><pubDate>Mon, 30 Nov 2020 11:43:00 +0800</pubDate><guid>https://blog.forecho.com/im-listening-to-podcasts-2020.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>虽然2020年上半年因为疫情原因，在家办公了好几个月，少了在通勤的路上听播客的场景，但是一恢复上班之后我听播客的时间又多了。时隔上次分享的&lt;a href="https://blog.forecho.com/im-listening-to-podcasts-2018.html">清单&lt;/a>，已经有1年多了，如今我在听的节目清单确实变化有点多了。&lt;/p>
-&lt;p>好了，不废话了直接上清单。&lt;/p>
-&lt;ul>
-&lt;li>力荐：⭐⭐⭐⭐⭐&lt;/li>
-&lt;li>推荐：⭐⭐⭐⭐&lt;/li>
-&lt;li>一般：⭐⭐⭐&lt;/li>
-&lt;/ul>
-&lt;h2 id="清单">清单&lt;/h2>
-&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20201130alEPYB.jpg!s" alt="故事FM">&lt;/p>
-&lt;h3 id="故事fmhttpsstoryfmcn">&lt;a href="https://storyfm.cn/">故事FM&lt;/a>&lt;/h3>
-&lt;p>推荐指数：⭐⭐⭐⭐⭐&lt;/p>
-&lt;p>谁不爱听故事呢？这个播客非常有意思，而且制作非常精良，不仅有声音版本，而且关注他们关注号之后还可以看到图文版本。&lt;/p>
-&lt;p>我已经在这里听到很多人来分享他们的故事了，彷佛多了很多种人生的经历。最近半年才发现，基本上每期都必听。&lt;/p>
-&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20201130gXG9zy.jpg!s" alt="天才捕手FM">&lt;/p>
-&lt;h3 id="天才捕手fm">天才捕手FM&lt;/h3>
-&lt;p>推荐指数：⭐⭐⭐⭐&lt;/p>
-&lt;p>最近才发现的 FM，属于比较猎奇的节目，节目是采访各种职业的嘉宾方式。只听过 DNA 检测师和配音演员的采访，涨了很多见识。&lt;/p>
-&lt;p>故事 FM 没听够的，可以听听这个，也非常有意思。&lt;/p>
-&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20201130XkUOXn.jpg!s" alt="随机波动 StochasticVolatility">&lt;/p>
-&lt;h3 id="随机波动-stochasticvolatilityhttpswwwstovolclub">&lt;a href="https://www.stovol.club/">随机波动 StochasticVolatility&lt;/a>&lt;/h3>
-&lt;p>推荐指数：⭐⭐⭐⭐&lt;/p>
-&lt;p>是由三位女性媒体人发起的一档泛文化类播客，她们之前的一档播客叫&lt;a href="https://www.surplusvalue.club/">《剩余价值》&lt;/a> 今年疫情他们发布了第五十一期节目「瘟疫、语言和具体的人」，内容是对北京大学历史教授罗新的采访，后来因为这次的采访，这档节目被全网封杀了。详情 - &lt;a href="https://blog.yitianshijie.net/2020/02/26/surplus-value-podcast-banned-by-china/">《《剩余价值》播客被中国封杀》&lt;/a>。&lt;/p>
-&lt;p>好在她们之后很快就推出了一档新节目就是现在的《随机波动》，因为主播是三位女性，所以选的话题都是侧重于女性视角，可以给我带来新的视角，我听过几期，给我影响最深的是对葛宇路和讨论女性做家务的两期。&lt;/p>
-&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20201130JO6FFD.jpg!s" alt="捕蛇者说">&lt;/p>
-&lt;h3 id="捕蛇者说httpspythonhunterorg">&lt;a href="https://pythonhunter.org/">捕蛇者说&lt;/a>&lt;/h3>
-&lt;p>推荐指数：⭐⭐⭐⭐&lt;/p>
-&lt;p>一档关于编程、程序员、以及 Python 的中文播客。&lt;/p>
-&lt;p>《Teahour》 停更之后他们又搞了一个区块链领域的播客 《Fork It》，听了几期之后还是决定放弃了。《捕蛇者说》算是为数不多再聊编程领域的中文播客了，如果你还有其他编程领域的中文播客，欢迎推荐给我。&lt;/p>
-&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20201130818PMv.jpg!s" alt="梁文道·八分">&lt;/p>
-&lt;h3 id="梁文道八分">梁文道·八分&lt;/h3>
-&lt;p>推荐指数：⭐⭐⭐⭐&lt;/p>
-&lt;p>「八分」是由梁文道和看理想团队共同打造的一档全新文化类音频节目。梁文道将和你一起从理想走到现实，重新审视文化现象，社会趋势和热点话题。&lt;/p>
-&lt;p>知道梁文道是因为他之前的读书节目 - 《一千零一夜》&lt;/p>
-&lt;h3 id="其他">其他&lt;/h3>
-&lt;ul>
-&lt;li>《疯投圈》：商业领域的播客，虽然更新频率不高，但是我挺喜欢这种节奏的，每期必听。&lt;/li>
-&lt;li>《冬吴同学会》：第二季出来之后等了很久才出的第三季，以至于我第三季都没听。&lt;/li>
-&lt;li>还在继续听的有：
-&lt;ul>
-&lt;li>《UX Coffee 设计咖》&lt;/li>
-&lt;li>《追科技撩艺术》&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;h2 id="最后">最后&lt;/h2>
-&lt;p>总的来说，18年推荐的节目现在大多数还在听，我使用的依然是 &lt;a href="https://overcast.fm/">Overcast&lt;/a> App 来听播客，另外也推荐一款由即刻团队打造的&lt;a href="https://www.xiaoyuzhoufm.com/">小宇宙&lt;/a>播客 App 。&lt;/p></description></item></channel></rss>
+&lt;p>港美股是一个长期的投资行为，需要准备一笔短期不用的钱，出金的时候需要境外卡，但是以后还是有很多机会办境外卡的，所以如果真的想投资港美股的小伙伴可以先用大陆卡的方式上车。&lt;/p></description></item></channel></rss>
