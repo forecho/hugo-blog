@@ -46,6 +46,7 @@ toc = true
 navItems = [
   ["首页", "/"],
   ["文章归档", "/posts.html"],
+  ["美股开户", "https://stock.forecho.com/"],
   ["关于我", "/about.html"],
   ["联盟链接", "/friendship-links/"],
 ]
