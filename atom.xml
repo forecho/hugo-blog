@@ -86,7 +86,7 @@
 &lt;/ul>
 &lt;h3 id="buy-call-没到达行权价格会怎么样">Buy Call 没到达行权价格会怎么样？&lt;/h3>
 &lt;ul>
-&lt;li>Buy Put 如果截止日的时候&lt;strong>到了&lt;/strong>行权价格，请确保有足够的资金行权，不然我也不知道后果是什么。&lt;/li>
+&lt;li>Buy Put 如果截止日的时候&lt;strong>到了&lt;/strong>行权价格，请确保有足够的资金行权，如果资金不够，期权会被强制卖出（平仓）。&lt;/li>
 &lt;li>Buy Put 如果截止日的时候&lt;strong>没到&lt;/strong>行权价格，期权归零。&lt;/li>
 &lt;/ul>
 &lt;h3 id="sell-put-不想行权怎么办">Sell Put 不想行权怎么办？&lt;/h3>
