@@ -1,4 +1,38 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 07 May 2021 16:40:58 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>【深度阅读 第四季 01】金融投资课</title><link>https://blog.forecho.com/readeep-s04e01.html</link><pubDate>Fri, 07 May 2021 16:40:58 +0800</pubDate><guid>https://blog.forecho.com/readeep-s04e01.html</guid><description>&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20210507S6UOh6.jpg!m" alt="《陈志武金融投资课》">&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 29 May 2021 10:59:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>【深度理财28】如何在股市动荡期使用期权赚钱</title><link>https://blog.forecho.com/financedeep-28.html</link><pubDate>Sat, 29 May 2021 10:59:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-28.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>写了几篇期权的理论知识，今天来点操作篇，这次重点讲讲如何在股市动荡期通过期权策略赚钱。&lt;/p>
+&lt;p>前面我已经讲过&lt;a href="https://blog.forecho.com/financedeep-24.html">期权的基本策略&lt;/a>，对期权不了解的朋友建议先去看一下。&lt;/p>
+&lt;h2 id="covered-call-策略">Covered Call 策略&lt;/h2>
+&lt;p>我们先来回顾一下，卖 Call 意味着你预判目标股票接下来会横盘或者小跌，正股在期权到期日价格不会超过行权价。但是如果股票一直涨的话，期权到期行权的话你就是在「做空」了，这是一种非常危险的事情。那么本次介绍的 Covered Call 策略可以有效降低风险。&lt;/p>
+&lt;p>所谓的 Covered Call 策略就是持有股票，并卖出对应的 Call 期权，预判期权到期日不会涨到行权价。这种策略非常适合你长期看好某个股票，但是最近大盘情况不好，可以使用这种策略抵抗下跌风险。&lt;/p>
+&lt;p>最近三个星期我都在玩这种策略，就以我长期看好的特斯拉（我持有正股）为例吧，以下三种情况我都经历了，下面我来展开说说：&lt;/p>
+&lt;h3 id="正股下跌赚">正股下跌（赚）&lt;/h3>
+&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/202105296kb4qG.jpg!m" alt="">&lt;/p>
+&lt;p>上图是我 5 月 11 号卖出的一个特斯拉末日 Call 期权，行权价是 630，当时的正股价格应该是在 600 左右，我喜欢卖出行权价略高一点的 Call 期权，接下来股票的走势一路下跌，远没到
+行权价，我顺利拿到了期权的权利金，也就是上图的 899 美元。&lt;/p>
+&lt;p>这让我有种收租的感觉。持有正股的我，在下跌的行情下得到了「补偿」。&lt;/p>
+&lt;h3 id="到期日接近行权价或者小涨小赚">到期日接近行权价或者小涨（小赚）&lt;/h3>
+&lt;p>接下来的一次我又按照上次的套路继续卖出了一个略高于当前正股价格的 Call ，但是到了期权行权日那天股票一直略高于行权日，第一次遇到这种情况的时候我还会紧张，生怕被行权，一晚上没睡好。但是后来细想，即使被行权了又怎样，如果价格差距不大，大不了再找机会买回来就是了，而且加上权利金，差距不大的话，总体我还是赚的。&lt;/p>
+&lt;h3 id="正股上涨亏">正股上涨（亏？）&lt;/h3>
+&lt;p>股票已经连续下跌两周了，这次我还是继续卖出了一个略高于当前正股价格的 Call，不巧的是这个星期股票一路上涨，已经涨超了我的期权行权价，我的期权开始亏钱了，但是因为我有正股，我不怕被行权。&lt;/p>
+&lt;p>行权意味着我要按照行权价卖出股票，股票上涨不再和我有关系，但是权利金我必须得拿，股票还可以找机会买回来。&lt;/p>
+&lt;h2 id="卖-put-策略">卖 Put 策略&lt;/h2>
+&lt;p>这个策略我之前也玩过几次，但是每次都输了，不过也分享一下吧。卖 Put 意味着你预判目标股票接下来会横盘或者小涨，正股在期权到期日价格不会跌过行权价。&lt;/p>
+&lt;p>卖出 Put 会冻结行权的保证金，下面我也来分三种情况说说：&lt;/p>
+&lt;h3 id="正股上涨赚">正股上涨（赚）&lt;/h3>
+&lt;p>股票上涨，超过行权价，意味着你能拿到所有的权利金。即使大涨也不会跟你有任何关系。&lt;/p>
+&lt;h3 id="到期日接近行权价或者小跌小赚">到期日接近行权价或者小跌（小赚）&lt;/h3>
+&lt;p>如果股票差点儿就到了行权价，就会被行权了，如果差距不大，算上权利金总体还能是赚钱的。&lt;/p>
+&lt;h3 id="正股下跌亏">正股下跌（亏？）&lt;/h3>
+&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20210529K1ZA5Y.jpg!m" alt="">&lt;/p>
+&lt;p>上图是我 3 月 30 号卖的 AMD Put 期权，行权价是 80，我希望股票上涨，但是接下来股票一路下跌，我被迫行权，以 80 的价格买入 100 股 AMD 股票。&lt;/p>
+&lt;p>但是如果我们长期看过 AMD 股票，认为它长期还是上涨的话，我们可以在&lt;strong>到期日&lt;/strong>收盘前，买入一张 21040180 AMD Put 期权来平仓，然后再卖出同样行权价的期权，比方说 21040980 AMD Put 期权，这种方式可以一直重复操作，直到赚钱，这种方式：&lt;/p>
+&lt;ul>
+&lt;li>不必占用大量资金去行权&lt;/li>
+&lt;li>如果股票只是小跌还能算上权利金还可能是赚钱的&lt;/li>
+&lt;/ul>
+&lt;h2 id="总结">总结&lt;/h2>
+&lt;p>总的来说，买期权我们的目的是赚取权利金，期权策略选的好，在股市动荡的时候我们也能赚钱。自从学了期权之后看股票的走势就会多了一个视角，大部分股票的行权日都是每个星期五，所以那一天股价通常波动比较大。&lt;/p>
+&lt;p>今天的文章就分享到这，如果你喜欢我的期权系列文章，记得点赞 ➕ 关注。后面我会分享前一段时间我交易富途股票期权的惊险刺激经历。&lt;/p></description></item><item><title>【深度阅读 第四季 01】金融投资课</title><link>https://blog.forecho.com/readeep-s04e01.html</link><pubDate>Fri, 07 May 2021 16:40:58 +0800</pubDate><guid>https://blog.forecho.com/readeep-s04e01.html</guid><description>&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20210507S6UOh6.jpg!m" alt="《陈志武金融投资课》">&lt;/p>
 &lt;h2 id="一段话说明这本书主要讲什么">一段话说明『这本书主要讲什么？』&lt;/h2>
 &lt;p>主要是讲述了以下三个问题：&lt;/p>
 &lt;ul>
@@ -281,9 +315,8 @@
 &lt;h2 id="卖期权">卖期权&lt;/h2>
 &lt;p>新手买期权，高手卖期权。买期权用小资金就能获利几倍，给人的诱惑非常大，但是市场的趋势是很难预测的，特别是期权还是一个有时间期权的预测，那就更难了。所以卖期权看似收益少，但是比较容易获利。&lt;/p>
 &lt;h3 id="卖-call横盘或者小跌">卖 Call（横盘或者小跌）&lt;/h3>
-&lt;p>卖 Call 指你有义务以约定好的价格卖出股票，简单理解就相当于你给股票设置了一个止损价，如果股票涨到价格 A 就卖出，没涨到价格 A 你就赚到了权利金。
-cc c
-所以为了保险起见请提前买入相应的股票数量，不然到时候股票大涨，你还在做空，那就亏死。&lt;/p>
+&lt;p>卖 Call 指你有义务以约定好的价格卖出股票，简单理解就相当于你给股票设置了一个止损价，如果股票涨到价格 A 就卖出，没涨到价格 A 你就赚到了权利金。&lt;/p>
+&lt;p>所以为了保险起见请提前买入相应的股票数量，不然到时候股票大涨，你还在做空，那就亏死。&lt;/p>
 &lt;ul>
 &lt;li>何时使用：当您持熊市观点时。如果对市场下跌信心不足，卖出较高行权价的看涨期权，如果确信市场将停滞或下跌，卖出平价看涨期权。&lt;/li>
 &lt;li>获利特点：获利最大为权利金收入。到期时，收支平衡点为执行价 格 A 加上权利金收入。如果市价等于或低于行权价 A，则获利达到最大。&lt;/li>
@@ -1090,62 +1123,4 @@ cc c
 &lt;li>百度&lt;/li>
 &lt;li>小牛电动&lt;/li>
 &lt;li>虎牙&lt;/li>
-&lt;/ul></description></item><item><title>【深度理财16】打新真的赚钱吗？</title><link>https://blog.forecho.com/financedeep-16.html</link><pubDate>Fri, 11 Dec 2020 12:09:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-16.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>我算是比较晚才开始玩打新的了，&lt;a href="https://blog.forecho.com/financedeep-10.html">《【深度理财10】富途港股打新全知道》&lt;/a> 这篇文章，我又来聊聊最近港美股打新的经历，希望我分享的经历对你有帮助。&lt;/p>
-&lt;h2 id="港股打新">港股打新&lt;/h2>
-&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20201211C29zj2.png" alt="港股打新">&lt;/p>
-&lt;p>先看看最近我的港股打新记录，距离上次分享已经4个月了，这之后我又参与了14次打新，其中有3次是我中途撤销的，有1次是蚂蚁没上市的。也就是说10次打新中签了2次，我的个人中签率为20%。下面我挨个统计一下收支：&lt;/p>
-&lt;h3 id="01449-立德教育">01449 立德教育&lt;/h3>
-&lt;p>打新总费用：&lt;code>62.3=50+2.46*5&lt;/code>&lt;/p>
-&lt;h3 id="09633-农夫山泉">09633 农夫山泉&lt;/h3>
-&lt;p>打新总费用：&lt;code>93.74=50+4.86*9&lt;/code>&lt;/p>
-&lt;p>因为这个中签了一手，所以我们算一下总收益（卖出金额-买入金额-交易费用-打新费用）：
-&lt;code>3580.14=8000-4300-26.12-93.74&lt;/code>&lt;/p>
-&lt;h3 id="02101-福禄控股">02101 福禄控股&lt;/h3>
-&lt;p>打新总费用：&lt;code>75.1=50+5.02*5&lt;/code>&lt;/p>
-&lt;h3 id="00909-明源云">00909 明源云&lt;/h3>
-&lt;p>打新总费用：&lt;code>93.15=50+8.63*5&lt;/code>&lt;/p>
-&lt;h3 id="06998-嘉和生物-b">06998 嘉和生物-B&lt;/h3>
-&lt;p>打新总费用：&lt;code>176.49=50+18.07*7&lt;/code>&lt;/p>
-&lt;h3 id="01952-云顶新耀-b">01952 云顶新耀-B&lt;/h3>
-&lt;p>打新总费用：&lt;code>86.19=50+5.17*7&lt;/code>&lt;/p>
-&lt;h3 id="06989-卓越商企服务">06989 卓越商企服务&lt;/h3>
-&lt;p>打新总费用：&lt;code>86.18=50+12.06*3&lt;/code>&lt;/p>
-&lt;h3 id="02096-先声药业">02096 先声药业&lt;/h3>
-&lt;p>打新总费用：&lt;code>96.41=50+15.47*3&lt;/code>&lt;/p>
-&lt;h3 id="02126-药明巨诺-b">02126 药明巨诺-B&lt;/h3>
-&lt;p>打新总费用：&lt;code>103.76=50+13.44*4&lt;/code>&lt;/p>
-&lt;h3 id="06688-蚂蚁集团">06688 蚂蚁集团&lt;/h3>
-&lt;p>虽然蚂蚁没有上市成功，虽然后面富途免了申购佣金和银行融资费用，但是没有给我们这些使用富途融资打新的费用，所以蚂蚁的打新总费用：&lt;code>46.68=15.06*3+0.75*2&lt;/code>&lt;/p>
-&lt;h3 id="09992-泡泡玛特">09992 泡泡玛特&lt;/h3>
-&lt;p>打新总费用：&lt;code>93.45=50+8.69*5&lt;/code>&lt;/p>
-&lt;p>申6手中1手，暗盘的时候还73买了一手，然后75卖了，算一下总收益（卖出金额-买入金额-交易费用-打新费用）：&lt;code>8006.55=15850-7700-~50-93.45&lt;/code>&lt;/p>
-&lt;p>PS: 交易费需要2个工作日才能看到，我就先估计有50吧。&lt;/p>
-&lt;h2 id="美股打新">美股打新&lt;/h2>
-&lt;p>我开老虎证券其实就是为了美股打新，但是开户没过多久，富途证券也支持美股打新了。挺好的，我又可以在富途证券上参与打新了。这四个月来，我总共参与了7次美股打新，基本上富途有的我都参与了，中签数量分别如下：&lt;/p>
-&lt;ul>
-&lt;li>贝壳：认购1050股中140股&lt;/li>
-&lt;li>小鹏汽车：认购1050股中10股&lt;/li>
-&lt;li>秦淮数据：认购1000股中5股&lt;/li>
-&lt;li>名创优品：认购300股中10股&lt;/li>
-&lt;li>陆金所：认购1000股中10股&lt;/li>
-&lt;li>逸仙电商：认购200股中6股&lt;/li>
-&lt;li>一起教育科技：认购2500股中5股&lt;/li>
-&lt;/ul>
-&lt;p>富途美股打新除了第一次贝壳很给力之外，其他分配的很少，即使我后来认购2500手的一起教育也只分配给我5股，有点气人。美股的中签策略与港股很大不同，简单来说就是美股分配是有证券商自己分配的，而证券商都是普惠政策，基本上参与就有份（当然也有不中签的情况），又因为美股1手就是1股，开盘之后涨幅即使到了100%，你手上只有5股，也赚不了多少钱。有时候甚至赚的钱都不够交易手续费的呢？&lt;/p>
-&lt;p>而很多美国公司上市，中国的证券平台是没有资格参与 IPO 的，所以我们只能眼巴巴的羡慕别人了。再分享两个美股新股我操作的两个经验吧：&lt;/p>
-&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20201211RGEeMx.jpg" alt="">&lt;/p>
-&lt;h3 id="work">WORK&lt;/h3>
-&lt;p>我现在的公司有在用他们的 Slack 聊天工具，而且早在这个工具刚出来没多久我就开始用了，个人还是很喜欢的，所以得知这个公司要上市之后我就打算买入一点（IPO 是没资格参加的），但是作为新股买入之后一直没涨，而且还跌，最后割肉了，亏了几百刀。&lt;/p>
-&lt;h3 id="dash">DASH&lt;/h3>
-&lt;p>前天上市，而且上市之前我才知道这个公司，不知道为什么我又手痒了，说是「美国饿了么」，看盘交易时间是转钟之后，等不及要睡觉了，然后我体验了一把「止损市价单」功能，新股上市是不能用「市价单」和「限价单」的。挂了一个单我就睡觉了，然后醒来的时候看到结果了，开盘就飙到接近翻倍了，后面就慢慢回落，在慢慢有点小涨幅，这种我不了解的股票，我买着也很不放心。等我反应过来想卖的时候已经跌倒我买入价了，还好第二天又有一点涨幅，挂了一个单卖了。就这样提心吊胆的赚了20、30美元，真不值。说了那么多就是想说美股开盘即使是翻倍，如果你没有资格参与 IPO 或者没中签的话就不要瞎参与了，不然你就成人的韭菜，散户就应该认清自己。&lt;/p>
-&lt;p>现在想想还有点后怕，下次再也不玩这种接飞刀的「游戏」了。&lt;/p>
-&lt;h2 id="总结">总结&lt;/h2>
-&lt;p>总的来说：&lt;/p>
-&lt;ul>
-&lt;li>港股打新虽然中签率没以前那么高了，但是还是有的玩的，有破发的风险（要选择性参与），但是也有大肉签，只要中签，一手基本上都能赚个几千，何况你还可以多证券平台同时参与打新。&lt;/li>
-&lt;li>美股打新赚钱就别抱什么希望了，给你5股，就算翻倍能赚多少钱？一般都是几十美元。&lt;/li>
-&lt;/ul>
-&lt;p>但是美股打新又一个好处就是周期短，一般从 IPO 到上市只需要几天时间，但是港股从 IPO 到上市一般要半个月左右，有点漫长。&lt;/p>
-&lt;p>另外我创建了一个「打新交流群」，有一起玩打新的朋友欢迎加群一起交流：&lt;/p>
-&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20201222VJDx4e.jpg" alt="">&lt;/p></description></item></channel></rss>
+&lt;/ul></description></item></channel></rss>
