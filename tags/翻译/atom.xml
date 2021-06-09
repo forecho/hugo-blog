@@ -14,7 +14,7 @@
 &lt;p>&lt;a href="https://queue.acm.org/detail.cfm?id=1017005">Douglas C. Schmidt 等人&lt;/a> 认为框架作为一个集成的软件构件(如类、对象和组件)集合，为相关应用程序提供一个可重用的体系结构。根据这一定义，
 框架应该是一个已完工的应用骨架组成可重用和可定制的组件。开发人员将扩展并定制一个框架通过提供他们的应用程序和领域特定逻辑来形成一个完整的应用程序。&lt;/p>
 &lt;p>一个框架典型的特征就是所谓的控制反转（&lt;a href="http://martinfowler.com/bliki/InversionOfControl.html">inversion of control&lt;/a>）。框架通常扮演着组织主程序的角色和调用应用程序代码。这里是反过来的控制流——它调用我而不是我调用框架。下图说明了框架之间的关系，函数库，和应用程序。注意框架通常提供现成的功能的库，以帮助开发人员构建应用程序更快。&lt;/p>
-&lt;p>&lt;img src="https://segmentfault.com/img/bVtewA" alt="">&lt;/p>
+&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20210609SINrB1.jpg" alt="">&lt;/p>
 &lt;p>开发人员使用框架最重要的原因是框架如何提高生产力和帮助提高代码质量。例如，现代的框架(例如，django)，经常提供代码生成工具或样板帮助立即启动新项目。此外，精心设计的框架内嵌安全保护措施，帮助预防开发人员犯典型的安全漏洞。&lt;/p>
 &lt;p>企业使用框架，还有一个额外的好处是，它可以应用在整个企业，帮助执行标准。框架提供了记录模式，详细的设计和实现的工具用于在所有应用程序之间提供一个一致的结构。例如，在 Capital One (译者注：薛强所在的公司) 我们开发一个 「Chassis」的框架作为一个集成的基础，统一了许多厂商和顾客公司内部开发应用程序的 API。&lt;/p>
 &lt;p>当然，并不是所有的开发人员喜欢使用框架。一些一致的抱怨包括陡峭的学习曲线，框架耦合性比较高，性能较低，等等。今天，在这篇文章中我将为你解释现代框架如何的解决这些问题，让大多数的这些抱怨不再适用。&lt;/p></description></item><item><title>如何让团队里的工程师对工作不厌烦</title><link>https://blog.forecho.com/coding-is-boring-unless.html</link><pubDate>Mon, 30 Nov 2015 17:40:00 +0800</pubDate><guid>https://blog.forecho.com/coding-is-boring-unless.html</guid><description>&lt;blockquote>
