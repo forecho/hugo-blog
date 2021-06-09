@@ -6,7 +6,7 @@ draft: false
 toc: true
 ---
 
-> 来源：[Philosophies that Shaped Successful Frameworks](http://www.capitalone.io/blog/successful-framework-philosophies/)
+> 来源：[Philosophies that Shaped Successful Frameworks](https://medium.com/capital-one-tech/philosophies-that-shaped-successful-frameworks-f976781e9bd4)
 
 在过去的十年里我们看到了许多软件框架的出现，像 [Spring](http://spring.io/) 和 [Ruby on Rails](http://rubyonrails.org/) 已经是非常成功的框架了，掌握它们就意味着打开多扇就业机会的大门了。然而，对于每一个框架的成功，背后的大多数开发人员都不被人关注。2008年1月1日[维基百科](https://en.wikipedia.org/wiki/Software_framework) 列出了67个 Web 框架。然而今天，超过三分之二的消失在列表中或在三年内没有更新。作为 Yii 框架的创造者，我花了很多时间调查各种框架和理解为什么有些成功，有些失败了。我将描述我发现塑造成功框架的一些哲学。
 
