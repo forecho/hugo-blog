@@ -6,7 +6,7 @@
 &lt;h2 id="一次读三本书">一次读三本书&lt;/h2>
 &lt;p>同一时间阅读三四本书，可以根据自己的心情和天气，小说和非小说类型随时切换着看。&lt;/p>
 &lt;p>第一本书卡住了，可以看第二本书。&lt;/p></description></item><item><title>塑造成功框架的哲学</title><link>https://blog.forecho.com/successful-framework-philosophies.html</link><pubDate>Sun, 27 Dec 2015 22:37:00 +0800</pubDate><guid>https://blog.forecho.com/successful-framework-philosophies.html</guid><description>&lt;blockquote>
-&lt;p>来源：&lt;a href="http://www.capitalone.io/blog/successful-framework-philosophies/">Philosophies that Shaped Successful Frameworks&lt;/a>&lt;/p>
+&lt;p>来源：&lt;a href="https://medium.com/capital-one-tech/philosophies-that-shaped-successful-frameworks-f976781e9bd4">Philosophies that Shaped Successful Frameworks&lt;/a>&lt;/p>
 &lt;/blockquote>
 &lt;p>在过去的十年里我们看到了许多软件框架的出现，像 &lt;a href="http://spring.io/">Spring&lt;/a> 和 &lt;a href="http://rubyonrails.org/">Ruby on Rails&lt;/a> 已经是非常成功的框架了，掌握它们就意味着打开多扇就业机会的大门了。然而，对于每一个框架的成功，背后的大多数开发人员都不被人关注。2008年1月1日&lt;a href="https://en.wikipedia.org/wiki/Software_framework">维基百科&lt;/a> 列出了67个 Web 框架。然而今天，超过三分之二的消失在列表中或在三年内没有更新。作为 Yii 框架的创造者，我花了很多时间调查各种框架和理解为什么有些成功，有些失败了。我将描述我发现塑造成功框架的一些哲学。&lt;/p>
 &lt;h2 id="为什么框架">为什么框架?&lt;/h2>
