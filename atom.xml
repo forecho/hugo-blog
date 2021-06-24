@@ -1,4 +1,27 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 14 Jun 2021 18:03:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>浮生一日：深圳非典型程序员的真实一天</title><link>https://blog.forecho.com/life-in-a-day.html</link><pubDate>Mon, 14 Jun 2021 18:03:00 +0800</pubDate><guid>https://blog.forecho.com/life-in-a-day.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 24 Jun 2021 18:09:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>耗京东羊毛</title><link>https://blog.forecho.com/get-the-jd-best-deal.html</link><pubDate>Thu, 24 Jun 2021 18:09:00 +0800</pubDate><guid>https://blog.forecho.com/get-the-jd-best-deal.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>本篇文章主要分享「如何通过脚本实现自动签到等功能获取京东京豆？」，京豆可以在京东购物的时候抵现金，1000 京东抵扣 10 块钱。平台会员一个月能自动获取 1000 左右的京豆吧，如果你是 PLUS 会员，会有更多。&lt;/p>
+&lt;p>本篇教程需要懂程序，主要面向程序员，第一个需要花点时间配置和熟悉，后面每个月也需要花几分钟更新一下就可以了。&lt;/p>
+&lt;h2 id="教程">教程&lt;/h2>
+&lt;h3 id="fork-代码">Fork 代码&lt;/h3>
+&lt;p>源码在 &lt;a href="https://github.com/forecho/scripts-JD">forecho/scripts-JD&lt;/a> , 你需要先 Fork 一份。&lt;/p>
+&lt;p>跑这个脚本有好几种方法，我使用的是 GitHub Action，我也推荐大家使用这种方式，免费，简单好用。你基本上不用操作什么。&lt;/p>
+&lt;h3 id="配置-cookie">配置 Cookie&lt;/h3>
+&lt;p>Fork 代码之后，找到项目的 「Settings」-&amp;gt; 「Secrets」，然后点击 &lt;code>New repository secret&lt;/code> 添加 &lt;code>JD_COOKIE&lt;/code> 环境变量&lt;/p>
+&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20210624SwmqXY.png" alt="">&lt;/p>
+&lt;p>&lt;code>JD_COOKIE&lt;/code> 的值是通过先登录你自己账号，获取 cookie 再过滤重组得到的。具体操作步骤请看：&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/forecho/scripts-JD/blob/master/backUp/GetJdCookie.md">浏览器获取京东 cookie 教程&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/forecho/scripts-JD/blob/master/backUp/GetJdCookie2.md">浏览器插件获取京东 cookie 教程&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>我们都知道 cookie 一般都是有有效期，一般这个步骤 30 天之后需要再重新操作一边。&lt;/p>
+&lt;h3 id="配置通知">配置通知&lt;/h3>
+&lt;p>这个虽然不是必填，但是有了通知才放心，才能在 cookie 过期之后第一时间及时处理。&lt;/p>
+&lt;p>通知具体方案请看文档 &lt;a href="https://github.com/forecho/scripts-JD/blob/master/githubAction.md#%E4%B8%8B%E6%96%B9%E6%8F%90%E4%BE%9B%E4%BD%BF%E7%94%A8%E5%88%B0%E7%9A%84-secrets%E5%85%A8%E9%9B%86%E5%90%88">《下方提供使用到的 Secrets 全集合》&lt;/a>。我用的 telegram 通知，感觉最方便了，效果如下：&lt;/p>
+&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20210624i9nBbD.png" alt="">&lt;/p>
+&lt;p>这个根据你自己的情况按需配置就可以了。&lt;/p>
+&lt;h2 id="最后">最后&lt;/h2>
+&lt;p>这个脚本太强大了，不仅能自动而且还可以配置多个京东账号，虽然每天获取的京豆看上去不多，但是积水成渊，一个月免费获得 10 块钱不香吗？&lt;/p>
+&lt;p>而且配置起来也花不了多少时间。&lt;/p></description></item><item><title>浮生一日：深圳非典型程序员的真实一天</title><link>https://blog.forecho.com/life-in-a-day.html</link><pubDate>Mon, 14 Jun 2021 18:03:00 +0800</pubDate><guid>https://blog.forecho.com/life-in-a-day.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
 &lt;p>这篇文章我打算模仿最近看了一个系列视频的采访风格，以文字的形式记录下我（深圳程序员）真实的一天。&lt;/p>
 &lt;h2 id="典型的工作日">典型的工作日&lt;/h2>
 &lt;h3 id="655">6:55&lt;/h3>
@@ -1013,103 +1036,4 @@
 &lt;li>支付成功之后，页面立即显示一个 PDF 文件，打开就是土耳其电子签证，打印就可以用了。&lt;/li>
 &lt;/ol>
 &lt;h2 id="最后">最后&lt;/h2>
-&lt;p>不会办理的也可以找淘宝，不过自己办理步骤也很简单，你找淘宝会泄露你的个人隐私，而且有中间商赚差价。&lt;/p></description></item><item><title>【深度理财19】2020 年年终总结投资篇</title><link>https://blog.forecho.com/financedeep-19.html</link><pubDate>Mon, 04 Jan 2021 12:09:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-19.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>又到了一年一度的总结了，从去年开始我就决定以后每年都聊一些我的持仓，这是本系列的第二篇，第一篇请看&lt;a href="https://blog.forecho.com/financedeep-06.html">《【深度理财06】聊聊这些年我买过的股票》&lt;/a>。&lt;/p>
-&lt;blockquote>
-&lt;p>加一个风险提示：本篇文章仅代表我的个人观点，不构成与其他人相关的任何投资建议。在作出任何投资决定前，投资者应根据自身情况考虑投资产品相关的风险因素，并于需要时咨询专业投资顾问意见。&lt;/p>
-&lt;/blockquote>
-&lt;h2 id="基金">基金&lt;/h2>
-&lt;h3 id="概况">概况&lt;/h3>
-&lt;p>2020 年 A 股整体行情还不错，买了几只基金都涨的还可以。&lt;/p>
-&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20210104SSWO6u.png" alt="白酒兴邦，科技误国">&lt;/p>
-&lt;p>今年收益最好的板块就是白酒和医药了。正所谓：&lt;/p>
-&lt;blockquote>
-&lt;p>年少不知白酒香, 错把科技加满仓。 年少不知白酒好, 错把医药当成宝。 年少不知白酒醉, 错把证券当安慰。 年少不知白酒强, 错把有色当栋梁。&lt;/p>
-&lt;/blockquote>
-&lt;h3 id="我购买的基金">我购买的基金&lt;/h3>
-&lt;p>按照收益情况排名，先说说几个赚钱的：&lt;/p>
-&lt;ul>
-&lt;li>161725 招商中证白酒指数&lt;/li>
-&lt;li>003096 中欧医疗健康混合C&lt;/li>
-&lt;li>001938 中欧时代先锋股票A&lt;/li>
-&lt;li>005911 广发双擎升级混动A&lt;/li>
-&lt;li>206009 鹏华新兴产业混合&lt;/li>
-&lt;li>260108 景顺长城新兴成长&lt;/li>
-&lt;/ul>
-&lt;p>当然也有表现比较差的：&lt;/p>
-&lt;ul>
-&lt;li>320007 诺安成长混动：涨跌幅都比较大，下半年受美国打压中国半导体印象严重，不过还好我上车早，总体是没亏钱，就是收益回退了很多。&lt;/li>
-&lt;li>519674 银河创新成长混动：这个是真亏钱了。&lt;/li>
-&lt;/ul>
-&lt;h3 id="总结">总结&lt;/h3>
-&lt;p>2020 年我的&lt;strong>策略&lt;/strong>调整了，能目标投的都是目标投，落袋为安，止盈还是很重要的，宁愿少赚点钱。我买的基金基本上都是定投，一般都是两周投几百块钱，或者一个月投一次，虽然不能赚到最大的涨幅，但是总体下来支付宝收益还是跑盈了 93% 的用户。成绩单如下，左边是支付宝，右边是京东金融：&lt;/p>
-&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20210104CFbgfC.JPG" alt="">&lt;/p>
-&lt;ul>
-&lt;li>2020 年我把 50% 左右的钱都拿来定投基金了，分别给了支付宝 23% 和京东金融 27%，从收益结果来看，两边成绩差不多。&lt;/li>
-&lt;li>由于 2019 年我在京东金融把大部分钱都拿去理财产品了，2020 年才开始做基金投资，看看上面右图 2019 年和 2020 年就可以明显感觉到会理财和不会理财的差距了，收益有 10 倍的距离。&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20210104A3ZwUp.PNG" alt="京东金融">&lt;/p>
-&lt;p>这里再给京东金融打个小广告，因为我这一年来一直在上面做定投，定投的钱用的完了，我就开始选几个卖出赎回，这样让资金流动起来了，交易的次数多了，每次交易都会获得成长值，不知不觉我都京东金融成长值都 8 万多了，有 5 万成长值就成为黑金用户，黑金用户有一些生活特权，比较划算的就是可以抢免费抢 PLUS 年卡个腾讯视频 VIP 季卡，每个月都可以抢一个。我是上个月才发现自己有这个特权的。&lt;/p>
-&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20210104Sx8qnK.PNG!m" alt="">&lt;/p>
-&lt;p>另外说一个有趣的事情，我在 2019 年年就开始定投招商白酒，那个时候支付宝买基金可以选择「智能定投」，我就想尝试一下，然后我就设置了每周智能定投200，结果你猜怎么着？一个月过去了，由于白酒一直处于非低估区，迟迟没有投资，还好我最后修改为普通定投了，不然肯定赚不到今年这波白酒的钱了。&lt;/p>
-&lt;h2 id="美港股">美港股&lt;/h2>
-&lt;p>2020 年美股可以说是能源汽车的元年了，特斯拉、蔚来汽车暴涨，小鹏、理想也都纷纷上市。先说说总体收益，我主要用雪盈和富途平台，其他平台的钱不多就不统计了。左边是雪盈，右边是富途：&lt;/p>
-&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20210104DMkv6u.JPG" alt="收益">&lt;/p>
-&lt;p>下面我挑几个我已经持有的股票说说：&lt;/p>
-&lt;h3 id="tsla-特斯拉">TSLA 特斯拉&lt;/h3>
-&lt;p>我从 2018 年 2 月份正式买入特斯拉股票，后面陆陆续续有加仓，富途和雪盈特斯拉仓位分别占有30%和95%的仓位，可见我对特斯拉有多钟爱了吧。去年我就有分析过，随着特斯拉在上海建厂的成功，交付数量大幅度增加，特斯拉开始拆股，最近又被加入标普500，这都是利好。&lt;/p>
-&lt;p>截止到 2021-01-01 特斯拉股价已经 705.670 了，股票 1：5 拆股之后涨到 400 多的时候很多人都说太高了，然后再它股价跌到 400 以下的时候，那些人纷纷出来说，我已经清仓特斯拉了，因为觉得股价太高。但是后来随着股价涨到 600+ 的时候不知道他们是否有买回来。&lt;/p>
-&lt;p>我承认特斯拉的股票涨得我也看不懂了，刚开始暴涨的时候我也有点慌，所以我在不到 600 的时候卖出了 1/10 的仓位，但是后面是一路涨到了 700 ，真是要拍断大腿。所以我现在决定以后把特斯拉的股票当作礼物送给我儿子/女儿了，不卖了。&lt;/p>
-&lt;h3 id="nio-蔚来汽车">NIO 蔚来汽车&lt;/h3>
-&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20210104hzPEdQ.PNG!m" alt="蔚来汽车">&lt;/p>
-&lt;p>因为邀请好友使用老虎证券，她入金之后我拿了 78 美元佣金，我看着 78 美元躺在我的老虎证券里面，能干啥呢？看了一圈发现蔚来汽车才不到 2 美元，想着我钱少，挑便宜的买，可以多买点，万万没想到的是，这 1 年的时间里，蔚来汽车现在股价已经是 48.740 了，价格已经是我买的时候翻了 27 倍了。我在 1.76 股价的时候买入的，虽然不是最低点买入（后来又有跌），但是这足以跟身边的朋友吹牛逼了。&lt;/p>
-&lt;p>蔚来汽车股价正在爆发是在 2020 年，之前我也不瞧不起国产车，还在网上「嘲讽」过。想不起来当初处于什么原因 2020 年 3 月份的时候我开始分批买入蔚来汽车，分别都是不到 3 美元的价格，6 月份时候已经涨到 6 美元了，已经翻倍了，卖出了一些蔚来汽车，后来又有加仓，目前持仓均价是 8.45 。应该是在 7 月份的时候我开始研究蔚来汽车，我后来看好蔚来汽车主要处于以下几点：&lt;/p>
-&lt;ul>
-&lt;li>不同于特斯拉快速充电方案，蔚来汽车支持快速换电，而且这个已经有专利保护，算是核心竞争力。&lt;/li>
-&lt;li>电车分离，买车的时候已经支持不带电池的方案了，电池可以租，这个是非常不错的方案，要知道一辆电动车电池属于消耗品，而且这几年再飞速发展，这种做之后，一是可以解决大家对电池老化的顾虑，二是买车更便宜了。&lt;/li>
-&lt;li>蔚来汽车服务好，用户品牌忠诚度高。&lt;/li>
-&lt;li>全铝机身的汽车，40 万的钱可以买 70 万的配置，性价比高。&lt;/li>
-&lt;li>背后有政府投资。&lt;/li>
-&lt;/ul>
-&lt;p>当然我觉得蔚来汽车的缺点可能是在自动驾驶上面，没有卖点，好在今年下半年他们有在这块发力了。&lt;/p>
-&lt;h3 id="amd--nvda">AMD &amp;amp;&amp;amp; NVDA&lt;/h3>
-&lt;p>同去年，基本仓位保持不变。&lt;/p>
-&lt;h3 id="xpev-小鹏汽车">XPEV 小鹏汽车&lt;/h3>
-&lt;p>蔚来汽车是在 2018 年上市的，那个时候我应该还不知道 IPO 怎么玩，小鹏上市的时候正好是电动汽车火热的时候，我当然参加了。不然打新分到的股票数量很少，有点让人生气。&lt;/p>
-&lt;p>我一开始是怎么看好小鹏汽车的，认为他跟特斯拉比没啥优势，而且小鹏汽车在外名声不好，自动驾驶有偷特斯拉源码的嫌疑，所以 IPO 没过多久我就清仓了。但是 10 月底的时候我有看到网上测评小鹏汽车的自动驾驶体验，网上赶紧去买了他们的股票，那个时候股价 19.1 ，一个月之后他们的股价涨到了 55，有点幸运，不过我后来又有加仓，收益有所回退。总的来说我看好小鹏汽车的主要原因：&lt;/p>
-&lt;ul>
-&lt;li>创始人是 UC 浏览器创始人，有阿里投资，互联网基因的公司，他们的车软件交互做的非常好，而且自动驾驶在测试阶段广受好评。&lt;/li>
-&lt;/ul>
-&lt;h3 id="pdd-拼多多">PDD 拼多多&lt;/h3>
-&lt;p>最近一年比较喜欢在拼多多上购物，于是就购买了一些他们的股票，不太喜欢阿里，于是就没碰阿里的股票，京东在今年 3 月份（股灾）被迫清仓了，后来也没有买入过了。&lt;/p>
-&lt;h3 id="tdd">TDD&lt;/h3>
-&lt;p>SaaS 领域，为广告商提供的技术平台，算是一个比较小众的领域，成交量和新闻都不多，但是我发现互联网发展到今天，大部分营收还是靠流量放广告，所以我就一直持有此股。&lt;/p>
-&lt;p>拿了接近2年了，陆陆续续有交易，目前是翻了 2.5 倍。&lt;/p>
-&lt;h3 id="li-理想">LI 理想&lt;/h3>
-&lt;p>蔚来和小鹏都说了，那就再说说理想吧，不同于他们是纯电动车，理想目前是增程式电动车，可以充电使用，单纯充电只能行驶 80 - 100 公里，最大的特色是可以加油，解决充电担心没电的焦虑，背后是美团系投资。&lt;/p>
-&lt;p>我处于看好又不好看的阶段，目前是小仓位。&lt;/p>
-&lt;h3 id="snap">SNAP&lt;/h3>
-&lt;p>虽然我没用过他们的 App，但是我有关注，他们产品理念我很喜欢，主打年轻人，阅后即焚，没有社交压力。&lt;/p>
-&lt;h3 id="beke-贝壳">BEKE 贝壳&lt;/h3>
-&lt;p>贝壳 IPO 我在富途上参与了，中签了 140 股，本来我是打算上市当天卖出的，但是后来没卖成功，就一直拿着了，现在涨到 61.540 了，20 美元的上市价格，现在已经翻了 3 倍，后来我还发现 ARK 一直很看好贝壳，5 个基金有 3 个基金持有贝壳。&lt;/p>
-&lt;h3 id="msft-微软">MSFT 微软&lt;/h3>
-&lt;p>持仓1年多了，股价很稳，但是也只能说很稳了，涨幅有限，后来我清仓了，把钱拿来买其他了。&lt;/p>
-&lt;h3 id="sq">SQ&lt;/h3>
-&lt;p>我是 Twitter 重度用户，他们的股票我也买过，但是财报一直不给力，所以在一次大跌再加上年初股灾的时候被迫清仓了，亏了不少钱。但是我比较喜欢他们的创始人，当我发现这个创始人另外还有一家上市公司叫 Square 之后，我就去调研了一番，7 月份上车了。&lt;/p>
-&lt;h3 id="roku--zm">ROKU &amp;amp;&amp;amp; ZM&lt;/h3>
-&lt;p>今年因为疫情原因 ROKU 和 ZM 都纷纷大涨，看得我有点眼红了，然后在 9 月和 10 月份的时候分别买入了，到目前为止前者有小盈利，后者最近跌的有点多，亏损状态。&lt;/p>
-&lt;h3 id="bynd-beyond-meat">BYND Beyond Meat&lt;/h3>
-&lt;p>非常火的人造肉公司，连比尔盖茨都看好的公司，刚上市那会儿，有个群里面有人天天发这个公司的涨幅，上市以来确实涨了不少，我也是今年才上车的，但是因为疫情原因，作为给门店的供应商，他们自然有受到影响。但是我依然持有他们是因为我大部分股票都是科技类的，我需要一个非科技的股票来降低风险。&lt;/p>
-&lt;h3 id="美团">美团&lt;/h3>
-&lt;p>2020 年开始关注美团，也是很看好他们公司的未来发展潜力，3 月份的时候以 95.5 的价格入了一手，小仓位，几个月前就翻倍了，但是最近受中国垄断法的影响，他们股价有在跌，后面我又加仓了 2 手。&lt;/p>
-&lt;h3 id="小米">小米&lt;/h3>
-&lt;p>之前被小米深深伤害了，但是 2020 年他们股价终于给力了，群里面有位大佬一直看好小米，在他的影响下我终于在 22.3 的时候上车了，但是也只敢买 1 手。&lt;/p>
-&lt;h3 id="总结-1">总结&lt;/h3>
-&lt;p>2020 年绝对是不平凡的一年，因为新冠肺炎这个黑天鹅事件，美股陆续熔断了 3 次（大跌），连巴菲特都没见过这种情况。我是从 2017 年开始投资美股的，总体一直处于盈利状态，直到那三次熔断，我也被跌惨了。&lt;/p>
-&lt;p>由于我使用了融资功能，大跌之后我必须要割肉回血了，我不得不做了仓位调整，留下几个我长期看好的股票。也有朋友受不了大跌，选择清仓离场，但是做了仓位调整之后还是选择相信美股大跌只是暂时的。现在问我那段时间跌的慌不慌，说不慌说假的。&lt;/p>
-&lt;p>今年的之所以有这些收益，全靠特斯拉和蔚来汽车还有 AMD 给力了。我之所以分享我购买的股票给大家，不是希望你照着我给的「致富代码」买买买，而是给你参考，你需要结合你自己的想法，自己做决定。&lt;/p>
-&lt;h2 id="交流群">交流群&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://t.me/joinchat/HLo343KtlcmNgfmF">Telegram&lt;/a>&lt;/li>
-&lt;li>微信群：由于群已经满了 200 人了，想加群的朋友先加我微信 ipzone 我拉你进群，申请好友请备注来意。&lt;/li>
-&lt;/ul></description></item></channel></rss>
+&lt;p>不会办理的也可以找淘宝，不过自己办理步骤也很简单，你找淘宝会泄露你的个人隐私，而且有中间商赚差价。&lt;/p></description></item></channel></rss>
