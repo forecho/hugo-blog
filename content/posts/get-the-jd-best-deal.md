@@ -33,7 +33,7 @@ Fork 代码之后，找到项目的 「Settings」-> 「Secrets」，然后点�
 - [浏览器获取京东 cookie 教程](https://github.com/forecho/scripts-JD/blob/master/backUp/GetJdCookie.md)
 - [浏览器插件获取京东 cookie 教程](https://github.com/forecho/scripts-JD/blob/master/backUp/GetJdCookie2.md)
 
-我们都知道 cookie 一般都是有有效期，一般这个步骤 30 天之后需要再重新操作一边。
+我们都知道 cookie 一般都是有有效期，一般这个步骤 30 天之后需要再重新操作一遍。
 
 ### 配置通知
 
