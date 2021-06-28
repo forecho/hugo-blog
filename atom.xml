@@ -1,4 +1,52 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 24 Jun 2021 18:09:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>薅京东羊毛</title><link>https://blog.forecho.com/get-the-jd-best-deal.html</link><pubDate>Thu, 24 Jun 2021 18:09:00 +0800</pubDate><guid>https://blog.forecho.com/get-the-jd-best-deal.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 27 Jun 2021 10:59:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>【深度理财29】美股分析网站介绍</title><link>https://blog.forecho.com/financedeep-29.html</link><pubDate>Sun, 27 Jun 2021 10:59:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-29.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>最近有朋友咨询我一些美股分析的网站，结合我之前看过的资料，于是我整理了这篇干货文章。&lt;/p>
+&lt;h2 id="网站">网站&lt;/h2>
+&lt;h3 id="yahoofinance">Yahoo！Finance&lt;/h3>
+&lt;ul>
+&lt;li>地址：&lt;a href="https://finance.yahoo.com/">https://finance.yahoo.com/&lt;/a>&lt;/li>
+&lt;li>特点：免费、大而全&lt;/li>
+&lt;/ul>
+&lt;p>这个不用多介绍了吧，就是一个股票门户网站，上面的资料很多，而且全部免费。&lt;/p>
+&lt;h3 id="gurufocus">Gurufocus&lt;/h3>
+&lt;ul>
+&lt;li>地址：&lt;a href="https://www.gurufocus.com">https://www.gurufocus.com&lt;/a>&lt;/li>
+&lt;li>特点：部分数据收费，图表观看数据直观&lt;/li>
+&lt;/ul>
+&lt;p>这个网站主要把股票的各种数据汇总之后用图表的方式展示，对数字不敏感的用户，可以使用这个网站，比方说这个是 &lt;a href="https://www.gurufocus.com/stock/TSLA/summary">TSLA&lt;/a> 的主页&lt;/p>
+&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20210625KMlVnn.png" alt="">&lt;/p>
+&lt;p>当然这里面有些数据是收费才能看的，不过免费账户对于新手来说基本上也够用。&lt;/p>
+&lt;h3 id="openinsider">OpenInsider&lt;/h3>
+&lt;ul>
+&lt;li>地址：&lt;a href="http://openinsider.com/">http://openinsider.com/&lt;/a>&lt;/li>
+&lt;li>特点：免费&lt;/li>
+&lt;/ul>
+&lt;p>查询公司内部员工买卖股票记录。这个数据有时候很有用，因为只有公司内部员工才比较了解自己的公司情况，特别是高管级别的员工。这个是特斯拉公司最近的内部员工交易情况：&lt;/p>
+&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20210625NKKuek.png" alt="">&lt;/p>
+&lt;p>有时候卖股票并不能代表什么？因为卖股票可能有个人原因，但是如果公司有大量员工买入自家公司的股票时，可能是利好消息要来了。&lt;/p>
+&lt;h3 id="simply-wallst">Simply Wallst&lt;/h3>
+&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20210625fM3JSm.png" alt="">&lt;/p>
+&lt;ul>
+&lt;li>地址：&lt;a href="https://simplywall.st">https://simplywall.st&lt;/a>&lt;/li>
+&lt;li>特点：图表、分析类、部分功能收费&lt;/li>
+&lt;/ul>
+&lt;p>可以查看公司的估值，以及分析师对公司未来三五年营业额和获利的估值，还可以查看公司的运营状态指标、公司持股比例等等数据。&lt;/p>
+&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20210628uLBeLb.png" alt="">&lt;/p>
+&lt;p>关注股票之后还会收到上图这种周报的邮件，感觉很实用。&lt;/p>
+&lt;h3 id="tipranks">Tipranks&lt;/h3>
+&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/202106257oyRhz.png" alt="">&lt;/p>
+&lt;ul>
+&lt;li>地址：&lt;a href="https://www.tipranks.com/">https://www.tipranks.com/&lt;/a>&lt;/li>
+&lt;li>特点：部分功能收费，查看分析师的目标价&lt;/li>
+&lt;/ul>
+&lt;p>查看分析师给公司股票的目标价，而且还能追踪给的目标价准确率（收费功能），数据当然只是仅当参考，不要无脑跟单。&lt;/p>
+&lt;h2 id="其他分析网站">其他分析网站&lt;/h2>
+&lt;ul>
+&lt;li>Macrotrends &lt;a href="https://www.macrotrends.net/">https://www.macrotrends.net/&lt;/a>&lt;/li>
+&lt;li>Seeking Alpha &lt;a href="https://seekingalpha.com/">https://seekingalpha.com/&lt;/a>&lt;/li>
+&lt;li>Motley Fool &lt;a href="https://www.fool.com/">https://www.fool.com/&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="最后">最后&lt;/h2>
+&lt;p>数据分析只是辅助作用，我是不太相信技术炒股的。所以以上网站只是帮你做决策的工具，炒股最重要的是你该什么时候做出怎样的决策。&lt;/p></description></item><item><title>薅京东羊毛</title><link>https://blog.forecho.com/get-the-jd-best-deal.html</link><pubDate>Thu, 24 Jun 2021 18:09:00 +0800</pubDate><guid>https://blog.forecho.com/get-the-jd-best-deal.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
 &lt;p>本篇文章主要分享「如何通过脚本实现自动签到等功能获取京东京豆？」，京豆可以在京东购物的时候抵现金，1000 京东抵扣 10 块钱。平台会员一个月能自动获取 1000 左右的京豆吧，如果你是 PLUS 会员，会有更多。&lt;/p>
 &lt;p>本篇教程需要懂程序，主要面向程序员，第一个需要花点时间配置和熟悉，后面每个月也需要花几分钟更新一下就可以了。&lt;/p>
 &lt;h2 id="教程">教程&lt;/h2>
@@ -1000,40 +1048,4 @@
 &lt;li>南洋中国大陆账户直接转账至南洋香港账户每日限额 5000 美金。超过 5000 美元的汇款需要提供汇款用途凭证，每个月建议汇款不要超过 2 次。可以选择其他国内银行限额高的跨境汇款至南洋香港账户。&lt;/li>
 &lt;/ul>
 &lt;h2 id="最后">最后&lt;/h2>
-&lt;p>目前这个渠道只针对上海想办香港卡的用户，其他城市暂时没有，如果之后想办理可以先加我微信 ipzone（申请好友请注明来意），我拉你进群，以后有渠道我会在群内第一时间告知。&lt;/p></description></item><item><title>【深度理财20】如何办理一张多次往返境外的签证？</title><link>https://blog.forecho.com/financedeep-20.html</link><pubDate>Mon, 11 Jan 2021 18:09:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-20.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>现在办理境外银行卡，很多都要求有一张多次往返境外的签证，那么本篇文章就分享一下如何快速，便宜的办理一张多次往返境外的签证。&lt;/p>
-&lt;h2 id="办理签证">办理签证&lt;/h2>
-&lt;h3 id="土耳其">土耳其&lt;/h3>
-&lt;ul>
-&lt;li>优点：
-&lt;ul>
-&lt;li>方便：在线就能办理，填个表单就搞定，不用出门&lt;/li>
-&lt;li>快速：最快 10 分钟能拿到签证&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>签证材料：
-&lt;ul>
-&lt;li>有效的护照（有效期为六个月以上）&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>签证种类: 电子签&lt;/li>
-&lt;li>签证费及有效期: 60 美金/人 + 1.5 美金手续费，约合人民币440 元，单次30天的签证，在180天之内有效
-有效的护照（有效期为六个月以上）&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>签证流程&lt;/strong>&lt;/p>
-&lt;p>登录土耳其电子签证的官网 &lt;a href="https://www.evisa.gov.tr/zh/">https://www.evisa.gov.tr/zh/&lt;/a>&lt;/p>
-&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20210111wFfUuj.jpg!s" alt="土耳其电子签证的官网">&lt;/p>
-&lt;ol>
-&lt;li>点击「&lt;a href="https://www.evisa.gov.tr/zh/apply/">申请&lt;/a>」链接，第一项「请选择旅行证件所属国家/地区」，选择「中国」，然后是旅行证件选择「普通护照」，填写验证码。&lt;/li>
-&lt;/ol>
-&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20210111ffEonV.png" alt="到达日期">&lt;/p>
-&lt;ol start="2">
-&lt;li>接着选择到达土耳其的时间，即在该有效期内，任一日期入境土耳其的时间。如果是为了申请香港银行卡而办理电子签，「到达土耳其日期」尽可能选择距今最远时间。&lt;/li>
-&lt;li>先决条件全部打勾&lt;/li>
-&lt;li>用英文填写所有的个人信息&lt;/li>
-&lt;li>检查无误点击「核实」提交申请（电子邮件地址很重要，一定要能收到邮件的有效地址）。&lt;/li>
-&lt;li>检查邮箱，不出意外你会收到一封土耳其签证的确认邮件，确认之后才能进入付款选项。支付宝微信都可以用。&lt;/li>
-&lt;li>支付成功之后，页面立即显示一个 PDF 文件，打开就是土耳其电子签证，打印就可以用了。&lt;/li>
-&lt;/ol>
-&lt;h2 id="最后">最后&lt;/h2>
-&lt;p>不会办理的也可以找淘宝，不过自己办理步骤也很简单，你找淘宝会泄露你的个人隐私，而且有中间商赚差价。&lt;/p></description></item></channel></rss>
+&lt;p>目前这个渠道只针对上海想办香港卡的用户，其他城市暂时没有，如果之后想办理可以先加我微信 ipzone（申请好友请注明来意），我拉你进群，以后有渠道我会在群内第一时间告知。&lt;/p></description></item></channel></rss>
