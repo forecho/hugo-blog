@@ -49,6 +49,10 @@ toc: true
 
 可以查看公司的估值，以及分析师对公司未来三五年营业额和获利的估值，还可以查看公司的运营状态指标、公司持股比例等等数据。
 
+![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20210628uLBeLb.png)
+
+关注股票之后还会收到上图这种周报的邮件，感觉很实用。
+
 ### Tipranks
 
 ![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/202106257oyRhz.png)
