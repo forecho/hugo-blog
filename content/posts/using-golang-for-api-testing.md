@@ -1,7 +1,7 @@
 ---
 title: "我是如何用 Golang 做接口测试的"
 date: 2021-08-16T10:59:00+08:00
-tags: ["技术", "Golang"]
+tags: ["技术分享", "Golang"]
 draft: false
 toc: true
 ---
