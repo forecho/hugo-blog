@@ -1,4 +1,303 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 29 Jul 2021 10:59:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>【深度理财 32】远离中概股，我都投资了哪些非中概股</title><link>https://blog.forecho.com/financedeep-32.html</link><pubDate>Thu, 29 Jul 2021 10:59:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-32.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 16 Aug 2021 10:59:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>我是如何用 Golang 做接口测试的</title><link>https://blog.forecho.com/using-golang-for-api-testing.html</link><pubDate>Mon, 16 Aug 2021 10:59:00 +0800</pubDate><guid>https://blog.forecho.com/using-golang-for-api-testing.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>最近公司项目用 Golang 重写，总算是有机会实战了。这篇文章主要分享与记录我是怎么在 Golang 的项目中写接口测试的。&lt;/p>
+&lt;p>因为是换语言重写 API 项目，所以一定要保证新旧项目对外输出的结果一致性。由于我使用 Golang 的时间不算太久，本篇文章如有错误、不足之处，还请大家多多指教。&lt;/p>
+&lt;h2 id="接口测试">接口测试&lt;/h2>
+&lt;p>接口测试的代码有参考 &lt;a href="https://github.com/qiangxue/go-rest-api/blob/master/internal/auth/api_test.go#L21">qiangxue/go-rest-api&lt;/a> 的代码，但是因为使用的包和结构也不太一样，所以会有调整，但是思路是差不多的。&lt;/p>
+&lt;h3 id="tests-包">tests 包&lt;/h3>
+&lt;p>先建一个 tests 包，写一个 &lt;code>Endpoint&lt;/code> 方法：&lt;/p>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">24
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">25
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">26
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">27
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">28
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">29
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">30
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">31
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">32
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">33
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">34
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">35
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">36
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">37
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">38
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">39
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">40
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">41
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">42
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">43
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">44
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">45
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">46
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">47
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">48
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">49
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">50
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">51
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-go" data-lang="go">&lt;span style="color:#ff79c6">package&lt;/span> tests
+&lt;span style="color:#ff79c6">import&lt;/span> (
+&lt;span style="color:#f1fa8c">&amp;#34;bytes&amp;#34;&lt;/span>
+&lt;span style="color:#f1fa8c">&amp;#34;fmt&amp;#34;&lt;/span>
+&lt;span style="color:#f1fa8c">&amp;#34;github.com/julienschmidt/httprouter&amp;#34;&lt;/span>
+&lt;span style="color:#f1fa8c">&amp;#34;github.com/kinbiko/jsonassert&amp;#34;&lt;/span>
+&lt;span style="color:#f1fa8c">&amp;#34;github.com/stretchr/testify/assert&amp;#34;&lt;/span>
+&lt;span style="color:#f1fa8c">&amp;#34;net/http&amp;#34;&lt;/span>
+&lt;span style="color:#f1fa8c">&amp;#34;net/http/httptest&amp;#34;&lt;/span>
+&lt;span style="color:#f1fa8c">&amp;#34;testing&amp;#34;&lt;/span>
+)
+&lt;span style="color:#6272a4">// APITestCase represents the data needed to describe an API test case.
+&lt;/span>&lt;span style="color:#6272a4">&lt;/span>&lt;span style="color:#8be9fd;font-style:italic">type&lt;/span> APITestCase &lt;span style="color:#8be9fd;font-style:italic">struct&lt;/span> {
+Name &lt;span style="color:#8be9fd">string&lt;/span>
+Method &lt;span style="color:#8be9fd">string&lt;/span>
+URL &lt;span style="color:#8be9fd">string&lt;/span>
+Body &lt;span style="color:#8be9fd">string&lt;/span>
+Header http.Header
+WantStatus &lt;span style="color:#8be9fd">int&lt;/span>
+WantResponse &lt;span style="color:#8be9fd">string&lt;/span>
+}
+&lt;span style="color:#6272a4">// Endpoint tests an HTTP endpoint using the given APITestCase spec.
+&lt;/span>&lt;span style="color:#6272a4">&lt;/span>&lt;span style="color:#8be9fd;font-style:italic">func&lt;/span> &lt;span style="color:#50fa7b">Endpoint&lt;/span>(t &lt;span style="color:#ff79c6">*&lt;/span>testing.T, router &lt;span style="color:#ff79c6">*&lt;/span>httprouter.Router, tc APITestCase) {
+t.&lt;span style="color:#50fa7b">Run&lt;/span>(tc.Name, &lt;span style="color:#8be9fd;font-style:italic">func&lt;/span>(t &lt;span style="color:#ff79c6">*&lt;/span>testing.T) {
+req, _ &lt;span style="color:#ff79c6">:=&lt;/span> http.&lt;span style="color:#50fa7b">NewRequest&lt;/span>(tc.Method, tc.URL, bytes.&lt;span style="color:#50fa7b">NewBufferString&lt;/span>(tc.Body))
+&lt;span style="color:#ff79c6">if&lt;/span> tc.Header &lt;span style="color:#ff79c6">!=&lt;/span> &lt;span style="color:#ff79c6">nil&lt;/span> {
+req.Header = tc.Header
+}
+&lt;span style="color:#ff79c6">if&lt;/span> req.Header.&lt;span style="color:#50fa7b">Get&lt;/span>(&lt;span style="color:#f1fa8c">&amp;#34;Content-Type&amp;#34;&lt;/span>) &lt;span style="color:#ff79c6">==&lt;/span> &lt;span style="color:#f1fa8c">&amp;#34;&amp;#34;&lt;/span> {
+req.Header.&lt;span style="color:#50fa7b">Set&lt;/span>(&lt;span style="color:#f1fa8c">&amp;#34;Content-Type&amp;#34;&lt;/span>, &lt;span style="color:#f1fa8c">&amp;#34;application/json&amp;#34;&lt;/span>)
+}
+res &lt;span style="color:#ff79c6">:=&lt;/span> httptest.&lt;span style="color:#50fa7b">NewRecorder&lt;/span>()
+router.&lt;span style="color:#50fa7b">ServeHTTP&lt;/span>(res, req)
+assert.&lt;span style="color:#50fa7b">Equal&lt;/span>(t, tc.WantStatus, res.Code, &lt;span style="color:#f1fa8c">&amp;#34;status mismatch&amp;#34;&lt;/span>)
+&lt;span style="color:#ff79c6">if&lt;/span> tc.WantResponse &lt;span style="color:#ff79c6">!=&lt;/span> &lt;span style="color:#f1fa8c">&amp;#34;&amp;#34;&lt;/span> {
+ja &lt;span style="color:#ff79c6">:=&lt;/span> jsonassert.&lt;span style="color:#50fa7b">New&lt;/span>(t)
+ja.&lt;span style="color:#50fa7b">Assertf&lt;/span>(res.Body.&lt;span style="color:#50fa7b">String&lt;/span>(), tc.WantResponse)
+}
+})
+}
+&lt;span style="color:#8be9fd;font-style:italic">func&lt;/span> &lt;span style="color:#50fa7b">MockAuthHeader&lt;/span>(JWT &lt;span style="color:#8be9fd">string&lt;/span>) http.Header {
+header &lt;span style="color:#ff79c6">:=&lt;/span> http.Header{}
+header.&lt;span style="color:#50fa7b">Set&lt;/span>(&lt;span style="color:#f1fa8c">&amp;#34;Authorization&amp;#34;&lt;/span>, fmt.&lt;span style="color:#50fa7b">Sprintf&lt;/span>(&lt;span style="color:#f1fa8c">&amp;#34;Bearer %v&amp;#34;&lt;/span>, JWT))
+&lt;span style="color:#ff79c6">return&lt;/span> header
+}
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>几点需要说明：&lt;/p>
+&lt;ul>
+&lt;li>我们路由用的是 &lt;code>julienschmidt/httprouter&lt;/code> 此处你可以更改适用你们的&lt;/li>
+&lt;li>&lt;code>stretchr/testify&lt;/code> 包是 Go 用的最多的断言包，非常好用，出现断言失败，输出结果清晰明了，推荐。&lt;/li>
+&lt;li>&lt;code>kinbiko/jsonassert&lt;/code> 这个包可以断言两个 &lt;code>JSON&lt;/code> 的值是否相等，使用这个包是因为 &lt;code>stretchr/testify&lt;/code> 不满足我们的需求，我们每个接口都会返回 &lt;code>request_id&lt;/code> 这个值是唯一且随机的，所以我们断言的时候不必考虑这个值，使用的 &lt;code>kinbiko/jsonassert&lt;/code> 的 &lt;code>&amp;lt;&amp;lt;PRESENCE&amp;gt;&amp;gt;&lt;/code> 就能很好的满足我们的需求。另外由于 WantResponse 值我是直接拿的老项目返回的值做比对的， &lt;code>kinbiko/jsonassert&lt;/code> 断言 &lt;code>JSON&lt;/code> 时不会考虑顺序，这个也正是我们需要的功能。&lt;/li>
+&lt;/ul>
+&lt;h3 id="接口测试-1">接口测试&lt;/h3>
+&lt;p>一个示例：&lt;/p>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">24
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">25
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">26
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">27
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">28
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">29
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">30
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">31
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">32
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">33
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">34
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">35
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">36
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">37
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">38
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">39
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">40
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">41
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">42
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-go" data-lang="go">&lt;span style="color:#8be9fd;font-style:italic">func&lt;/span> &lt;span style="color:#50fa7b">mockNewServer&lt;/span>() &lt;span style="color:#ff79c6">*&lt;/span>Server {
+&lt;span style="color:#ff79c6">return&lt;/span> &lt;span style="color:#50fa7b">NewServer&lt;/span>()
+}
+&lt;span style="color:#8be9fd;font-style:italic">func&lt;/span> &lt;span style="color:#50fa7b">TestAccount&lt;/span>(t &lt;span style="color:#ff79c6">*&lt;/span>testing.T) {
+c &lt;span style="color:#ff79c6">:=&lt;/span> &lt;span style="color:#50fa7b">mockNewServer&lt;/span>()
+JWT, _ &lt;span style="color:#ff79c6">:=&lt;/span> jwt.&lt;span style="color:#50fa7b">MakeJWT&lt;/span>(tests.ClientId, tests.ClientSecret)
+header &lt;span style="color:#ff79c6">:=&lt;/span> tests.&lt;span style="color:#50fa7b">MockAuthHeader&lt;/span>(JWT)
+items &lt;span style="color:#ff79c6">:=&lt;/span> []tests.APITestCase{
+{
+&lt;span style="color:#f1fa8c">&amp;#34;test_unauthorized&amp;#34;&lt;/span>,
+&lt;span style="color:#f1fa8c">&amp;#34;GET&amp;#34;&lt;/span>,
+&lt;span style="color:#f1fa8c">&amp;#34;/api/v1/account/1155501&amp;#34;&lt;/span>,
+&lt;span style="color:#f1fa8c">&amp;#34;&amp;#34;&lt;/span>,
+&lt;span style="color:#ff79c6">nil&lt;/span>,
+http.StatusUnauthorized,
+&lt;span style="color:#f1fa8c">`{&amp;#34;request_id&amp;#34;:&amp;#34;&amp;lt;&amp;lt;PRESENCE&amp;gt;&amp;gt;&amp;#34;,&amp;#34;code&amp;#34;:50000,&amp;#34;status_code&amp;#34;:401,&amp;#34;message&amp;#34;:&amp;#34;token 验证失败：未识别的 payload&amp;#34;}`&lt;/span>,
+},
+{
+&lt;span style="color:#f1fa8c">&amp;#34;get_account_info&amp;#34;&lt;/span>,
+&lt;span style="color:#f1fa8c">&amp;#34;GET&amp;#34;&lt;/span>,
+&lt;span style="color:#f1fa8c">&amp;#34;/api/v1/account/1155501&amp;#34;&lt;/span>,
+&lt;span style="color:#f1fa8c">&amp;#34;&amp;#34;&lt;/span>,
+header,
+http.StatusOK,
+&lt;span style="color:#f1fa8c">`{&amp;#34;request_id&amp;#34;:&amp;#34;&amp;lt;&amp;lt;PRESENCE&amp;gt;&amp;gt;&amp;#34;,&amp;#34;message&amp;#34;:&amp;#34;success&amp;#34;,&amp;#34;code&amp;#34;:0,&amp;#34;data&amp;#34;:{&amp;#34;union_id&amp;#34;:1155501,&amp;#34;status&amp;#34;:&amp;#34;valid&amp;#34;,&amp;#34;created_at&amp;#34;:&amp;#34;2021-06-18T14:57:18+08:00&amp;#34;,&amp;#34;updated_at&amp;#34;:&amp;#34;2021-06-22T10:44:26+08:00&amp;#34;}}`&lt;/span>,
+},
+{
+&lt;span style="color:#f1fa8c">&amp;#34;account_not_found&amp;#34;&lt;/span>,
+&lt;span style="color:#f1fa8c">&amp;#34;GET&amp;#34;&lt;/span>,
+&lt;span style="color:#f1fa8c">&amp;#34;/api/v1/points/account/1551734&amp;#34;&lt;/span>,
+&lt;span style="color:#f1fa8c">&amp;#34;&amp;#34;&lt;/span>,
+header,
+http.StatusOK,
+&lt;span style="color:#f1fa8c">`{&amp;#34;request_id&amp;#34;:&amp;#34;&amp;lt;&amp;lt;PRESENCE&amp;gt;&amp;gt;&amp;#34;,&amp;#34;code&amp;#34;:42003,&amp;#34;status_code&amp;#34;:400,&amp;#34;message&amp;#34;:&amp;#34;parameter union_id is invalid.&amp;#34;}`&lt;/span>,
+},
+}
+&lt;span style="color:#ff79c6">for&lt;/span> _, tc &lt;span style="color:#ff79c6">:=&lt;/span> &lt;span style="color:#ff79c6">range&lt;/span> items {
+tests.&lt;span style="color:#50fa7b">Endpoint&lt;/span>(t, c.router, tc)
+}
+}
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ul>
+&lt;li>&lt;code>mockNewServer&lt;/code> 就是起一个 Server，具体每个项目都不太一样&lt;/li>
+&lt;li>接口如果需要鉴权的话，要传入 &lt;code>token&lt;/code> 数据。 我们使用的是在 &lt;code>header&lt;/code> 里面传入 &lt;code>JWT&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;h2 id="mock-第三方接口">Mock 第三方接口&lt;/h2>
+&lt;p>有时候我们的项目会依赖另外一个项目的接口，就比分说发通知的功能，我们会单独请求一个通知系统的接口给用户发通知，这种情况如何写测试代码呢？&lt;/p>
+&lt;p>首先要明确的是我们不会测试第三方接口的服务，所以这里我们就断言第三方接口一定会返回我们需要的数据。使用 Mock 方式就能达到这个需求。&lt;/p>
+&lt;p>我们使用的是 &lt;a href="https://github.com/jarcoal/httpmock">jarcoal/httpmock&lt;/a> 这个包，可以很好的满足我们的需求。&lt;/p>
+&lt;p>使用方法我们分两步：&lt;/p>
+&lt;h3 id="先定义-mock-数据">先定义 Mock 数据&lt;/h3>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">24
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">25
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">26
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">27
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">28
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">29
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-go" data-lang="go">&lt;span style="color:#8be9fd;font-style:italic">type&lt;/span> mockServiceAPI &lt;span style="color:#8be9fd;font-style:italic">struct&lt;/span> {
+Method &lt;span style="color:#8be9fd">string&lt;/span>
+URL &lt;span style="color:#8be9fd">string&lt;/span>
+Body &lt;span style="color:#8be9fd">string&lt;/span>
+WantStatus &lt;span style="color:#8be9fd">int&lt;/span>
+WantResponse &lt;span style="color:#8be9fd">string&lt;/span>
+}
+&lt;span style="color:#8be9fd;font-style:italic">func&lt;/span> &lt;span style="color:#50fa7b">MockNotificationServiceAPI&lt;/span>() {
+&lt;span style="color:#6272a4">// 读配置文件
+&lt;/span>&lt;span style="color:#6272a4">&lt;/span> domain &lt;span style="color:#ff79c6">:=&lt;/span> config.&lt;span style="color:#50fa7b">GetString&lt;/span>(&lt;span style="color:#f1fa8c">&amp;#34;notification_service_api&amp;#34;&lt;/span>)
+items &lt;span style="color:#ff79c6">:=&lt;/span> []mockServiceAPI{
+{
+http.MethodPost,
+&lt;span style="color:#f1fa8c">&amp;#34;/api/v1/template/send&amp;#34;&lt;/span>,
+&lt;span style="color:#f1fa8c">`{&amp;#34;app_key&amp;#34;:&amp;#34;website&amp;#34;,&amp;#34;topic&amp;#34;:&amp;#34;points&amp;#34;,&amp;#34;topic_sub_key&amp;#34;:&amp;#34;login&amp;#34;,&amp;#34;types&amp;#34;:[&amp;#34;mail&amp;#34;],&amp;#34;data&amp;#34;:[{&amp;#34;union_id&amp;#34;:1551630,&amp;#34;template_data&amp;#34;:{&amp;#34;url&amp;#34;:&amp;#34;https://blog.forecho.com/&amp;#34;}}]}`&lt;/span>,
+http.StatusOK,
+&lt;span style="color:#f1fa8c">`{&amp;#34;code&amp;#34;: 200,&amp;#34;msg&amp;#34;: &amp;#34;请求成功&amp;#34;,&amp;#34;data&amp;#34;: []}`&lt;/span>,
+},
+}
+&lt;span style="color:#ff79c6">for&lt;/span> _, item &lt;span style="color:#ff79c6">:=&lt;/span> &lt;span style="color:#ff79c6">range&lt;/span> items {
+httpmock.&lt;span style="color:#50fa7b">Activate&lt;/span>()
+httpmock.&lt;span style="color:#50fa7b">RegisterResponder&lt;/span>(
+&lt;span style="color:#f1fa8c">&amp;#34;POST&amp;#34;&lt;/span>,
+fmt.&lt;span style="color:#50fa7b">Sprintf&lt;/span>(&lt;span style="color:#f1fa8c">&amp;#34;%s%s&amp;#34;&lt;/span>, domain, item.URL),
+httpmock.&lt;span style="color:#50fa7b">NewStringResponder&lt;/span>(item.WantStatus, item.WantResponse),
+)
+}
+}
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="使用-mock">使用 Mock&lt;/h3>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-go" data-lang="go">&lt;span style="color:#8be9fd;font-style:italic">func&lt;/span> &lt;span style="color:#50fa7b">TestSendNotification&lt;/span>(t &lt;span style="color:#ff79c6">*&lt;/span>testing.T) {
+tests.&lt;span style="color:#50fa7b">MockNotificationServiceAPI&lt;/span>()
+&lt;span style="color:#ff79c6">defer&lt;/span> httpmock.&lt;span style="color:#50fa7b">DeactivateAndReset&lt;/span>()
+&lt;span style="color:#6272a4">// something test code
+&lt;/span>&lt;span style="color:#6272a4">&lt;/span>}
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>加入上面两行代码之后，跑测试时请求的第三方接口（URL 一致的话）会直接返回我们的 Mock 数据，非常方便。&lt;/p>
+&lt;h2 id="总结">总结&lt;/h2>
+&lt;p>测试是非常有必要写的，特别是核心代码的测试一定要覆盖到，为以后重构或者修改需求都带来更多保障。&lt;/p>
+&lt;p>回顾一下今天主要就是分享了一下接口功能测试以及如何 Mock API 返回的数据，帮忙更好的写测试。&lt;/p>
+&lt;p>希望本篇文章分享对你有帮助。&lt;/p></description></item><item><title>【深度理财 32】远离中概股，我都投资了哪些非中概股</title><link>https://blog.forecho.com/financedeep-32.html</link><pubDate>Thu, 29 Jul 2021 10:59:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-32.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
 &lt;p>这个月中概股有多惨，我就不说了，自从滴滴上市以来，引发了中概股一系列因为政策原因大跌，还好我中概股仓位不算太多（不过也亏了很多）。&lt;/p>
 &lt;p>今年年初的时候我分享过自己的持仓，感兴趣可以去看看&lt;a href="https://blog.forecho.com/financedeep-19.html">《【深度理财 19】2020 年年终总结投资篇》&lt;/a>，这篇文章我主要是分享我持有的一些非中概股。&lt;/p>
 &lt;blockquote>
@@ -1024,63 +1323,4 @@
 &lt;p>希望能在深圳安家。&lt;/p>
 &lt;h2 id="最后">最后&lt;/h2>
 &lt;p>2020 年都过去了，疫情还没结束，我们依旧每天带着口罩上下班，我们依旧去不了香港，我想去香港把我的工银亚洲卡解冻。&lt;/p>
-&lt;p>最后希望 2021 年疫情能结束吧，另外祝大家牛年发大财。&lt;/p></description></item><item><title>2020年终总结之阅读篇</title><link>https://blog.forecho.com/review-of-2020-read-book.html</link><pubDate>Mon, 08 Feb 2021 10:03:00 +0800</pubDate><guid>https://blog.forecho.com/review-of-2020-read-book.html</guid><description>&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20210209LLRsLQ.png" alt="">&lt;/p>
-&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>马上就要春节了，是时候总结一下我去年读过的书了。&lt;/p>
-&lt;p>查看了一下豆瓣标记，去年我一共读过 7 本书，不多 🤦‍♂️，我简单根据现在的记忆回顾一下每本书吧，如果你书的内容感兴趣，可以自己把书找来读读。&lt;/p>
-&lt;h2 id="读过">读过&lt;/h2>
-&lt;h3 id="鱼翅与花椒">《鱼翅与花椒》&lt;/h3>
-&lt;p>推荐指数：🌟🌟🌟🌟🌟&lt;/p>
-&lt;p>我有为这本书单独写过一篇文章 - &lt;a href="https://blog.forecho.com/readeep-s03e01.html">《【深度阅读 第三季 01】舌尖上的寻路中国》&lt;/a>。&lt;/p>
-&lt;p>本书的作者是英国人，她同时也是一位美食爱好者，1992 初次来中国，1994 年去成都留学，爱上川菜，之后的几年她开始学烹饪学校学习厨艺，后来还去过长沙、香港、北京、福建、苏州、扬州等地方体验不同的菜系，不仅仅是一本美食书籍，同时还会讲述当年的文化和历史。&lt;/p>
-&lt;p>这本书翻译的也非常好。&lt;/p>
-&lt;p>前一段时间无意中看到一个播客有一期有采访到此书的作者，有幸听到她的声音，当时还有点小激动，链接 - &lt;a href="https://thinkagepodcast.fireside.fm/24">《24. 扶霞：一个为川菜立传的英国人》&lt;/a>。&lt;/p>
-&lt;h3 id="妇产科男医生告诉你">《妇产科男医生告诉你》&lt;/h3>
-&lt;p>推荐指数：🌟🌟🌟🌟&lt;/p>
-&lt;p>田吉顺我很早就在知乎上关注过了，正好在找一本关于怀孕知识的书籍，田吉顺是专业的妇产科男医生。&lt;/p>
-&lt;p>书的内容很有趣，又讲知识，又讲案例的，学到了不少东西。推荐给需要相关知识的人。&lt;/p>
-&lt;h3 id="最好金龟换酒">《最好金龟换酒》&lt;/h3>
-&lt;p>推荐指数：🌟🌟🌟🌟🌟&lt;/p>
-&lt;p>看这书名，你肯定不知道这本书是讲啥的吧？&lt;/p>
-&lt;p>内容其实是讲的作者从高压的金融行业辞职去旅行的故事，而这本书主要是讲他们拉丁美洲之旅的（下本书有讲亚洲之行，我还没看）。&lt;/p>
-&lt;p>拉丁美洲对大多数中国人来说，是一个神秘而又遥远的地方，今年因为疫情不能出远门旅行，正好通过这本书我跟着作者一起去了一趟拉丁美洲走了一圈，只记得以下几点：&lt;/p>
-&lt;ul>
-&lt;li>疯狂的墨西哥，我只记得他们的城市是倾斜的&lt;/li>
-&lt;li>哥伦比亚，看过美剧《毒枭》的人都懂&lt;/li>
-&lt;li>玛雅文化&lt;/li>
-&lt;li>红湖，因为火烈鸟的关系，整个湖都变成红色的了&lt;/li>
-&lt;li>作者的两次徒步经历，忘记是哪两个国家了，第一个徒步了好几天，条件很简陋，环境也比较恶劣，但是景色很美。后面一次徒步之行条件非常好。&lt;/li>
-&lt;li>因为海明威而火的国家 - 古巴&lt;/li>
-&lt;li>阿根廷人很瘦，喜欢整容，看心理医生，那边的牛肉非常好吃&lt;/li>
-&lt;li>……&lt;/li>
-&lt;/ul>
-&lt;p>喜欢旅行的朋友不要错过这本书。&lt;/p>
-&lt;h3 id="技巧">《技巧》&lt;/h3>
-&lt;p>推荐指数：🌟🌟🌟&lt;/p>
-&lt;p>作者 Tinyfool ，在 IT 圈还算比较红的人，早年听过他录制的播客节目，但是声音很嘈杂，听不清楚，逐放弃。&lt;/p>
-&lt;p>去图书馆正好看到这本书，就借来看看，内容挺口水的，应该是从他公众号整理出来的文章，看起来也很快（轻松）。里面有讲他自己的经历和他身边朋友的故事，我觉得可以看看。&lt;/p>
-&lt;h3 id="淡定才能富足">《淡定，才能富足》&lt;/h3>
-&lt;p>推荐指数：🌟🌟🌟&lt;/p>
-&lt;p>图书馆随便找来的理财书，内容其实还可以，作者是一个资产管理人（帮别人管理资产的人），投资也比较偏保守的那种，投资的朋友看看就行，我们资产少，没必要采取那么保守的投资风格。&lt;/p>
-&lt;p>看完这本书我认同作者以下几点：&lt;/p>
-&lt;ul>
-&lt;li>不要相信股评人，试图去预测股市的人都是不可靠的。&lt;/li>
-&lt;li>投资之前先确定自己的投资目标，不要盲目跟从别人&lt;/li>
-&lt;/ul>
-&lt;h3 id="肠子的小心思">《肠子的小心思》&lt;/h3>
-&lt;p>推荐指数：🌟🌟🌟🌟🌟&lt;/p>
-&lt;p>一本讲肠子的科普书籍，内容轻松搞笑，但是很多干货，我们对肠胃系统了解的知之甚，但是肠子其实是非常重要，肠胃影响着我们每天的情绪，睡眠。我们不仅大脑，同时也有一个「肠脑」。&lt;/p>
-&lt;p>本书的作者是一个德国医学博士，本书的翻译也很接地气，翻译的很好。&lt;/p>
-&lt;h3 id="我如何从股市赚了200万">《我如何从股市赚了200万》&lt;/h3>
-&lt;p>推荐指数：🌟🌟🌟🌟&lt;/p>
-&lt;p>这本书是很久以前写的了，那个年代作者交易还是靠发电报。作者分享自己作为一个散户是如何在美股中赚到钱的，内容写的挺有意思的：&lt;/p>
-&lt;ul>
-&lt;li>踏入股市是因为别人支付股票给他作为表演费，股票之后大涨，大赚一笔。然后开始关注股市。&lt;/li>
-&lt;li>作为一个刚入市的散户，亏钱交学费是必不可少的历程&lt;/li>
-&lt;li>开始认真模式，价值投资。赚了一笔钱，然后去华尔街，想通过离市场近，赚钱。&lt;/li>
-&lt;li>事与愿违，离华尔街太近，反而噪音太多，打乱自己的投资原则。亏钱之后开始调整策略，远离华尔街。&lt;/li>
-&lt;li>后来发明了一套看走势图的「箱体策略，从技术层面投资，最后赚到了 200 万美元。&lt;/li>
-&lt;/ul>
-&lt;p>作者的后来有分享到，从消息层面来说，华尔街知道的消息肯定要比你早，那么你想要赚钱就得比新闻出来之前操作，那么怎么去发现呢？就是去关注股票的交易量，一个股票的交易量突然的暴增如果还没有新闻放出，背后肯定是有原因的。&lt;/p>
-&lt;h2 id="最后">最后&lt;/h2>
-&lt;p>去年给自己定的 12 本目标，看来今年没实现了，说好的看技术类的书，因为美股收益不错，也没沉下来心。&lt;/p></description></item></channel></rss>
+&lt;p>最后希望 2021 年疫情能结束吧，另外祝大家牛年发大财。&lt;/p></description></item></channel></rss>
