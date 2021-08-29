@@ -696,7 +696,88 @@ tests.&lt;span style="color:#50fa7b">MockNotificationServiceAPI&lt;/span>()
 &lt;h2 id="总结">总结&lt;/h2>
 &lt;p>总的来说，买期权我们的目的是赚取权利金，期权策略选的好，在股市动荡的时候我们也能赚钱。自从学了期权之后看股票的走势就会多了一个视角，大部分股票的行权日都是每个星期五，所以那一天股价通常波动比较大。&lt;/p>
 &lt;p>⚠️ 另外要补充一点，卖期权只适合股价波动比较小的股票，比方说 FUTU 富途 这个股票就不适合这种方式。&lt;/p>
-&lt;p>今天的文章就分享到这，如果你喜欢我的期权系列文章，记得点赞 ➕ 关注。后面我会分享前一段时间我交易富途股票期权的惊险刺激经历。&lt;/p></description></item><item><title>【深度阅读 第四季 01】金融投资课</title><link>https://blog.forecho.com/readeep-s04e01.html</link><pubDate>Fri, 07 May 2021 16:40:58 +0800</pubDate><guid>https://blog.forecho.com/readeep-s04e01.html</guid><description>&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20210507S6UOh6.jpg!m" alt="《陈志武金融投资课》">&lt;/p>
+&lt;p>今天的文章就分享到这，如果你喜欢我的期权系列文章，记得点赞 ➕ 关注。后面我会分享前一段时间我交易富途股票期权的惊险刺激经历。&lt;/p></description></item><item><title>【深度理财 33】如何在股市动荡期使用期权赚钱</title><link>https://blog.forecho.com/financedeep-33.html</link><pubDate>Sat, 29 May 2021 10:59:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-33.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>这篇主要是讲解期权组合的第一篇文章，不了解期权的朋友可以先看我&lt;a href="https://blog.forecho.com/tags/%E6%9C%9F%E6%9D%83.html">之前的期权系列文章&lt;/a>。&lt;/p>
+&lt;p>目前我所使用的证券平台只有雪盈和微牛支持组合期权，本篇文章主要是使用雪盈来做实例，没开户的朋友如果想体验组合期权推荐使用雪盈：&lt;/p>
+&lt;ul>
+&lt;li>开户地址：&lt;a href="http://link.3li3.com/xueying">http://link.3li3.com/xueying&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/snowballsecurities.png!s" alt="雪盈证券开户">&lt;/p>
+&lt;h2 id="vertical-spread">Vertical Spread&lt;/h2>
+&lt;h3 id="什么是-vertical-spread">什么是 Vertical Spread？&lt;/h3>
+&lt;p>根据 &lt;a href="https://www.investopedia.com/terms/v/verticalspread.asp">What Is a Vertical Spread?&lt;/a> 描述，简单翻译就是：&lt;/p>
+&lt;p>即垂直价差，指同时买入和卖出相同类型（看跌或看涨）同一到期日但行权价格不同的期权。术语「垂直 」来自于执行价格的位置。&lt;/p>
+&lt;h3 id="特点">特点&lt;/h3>
+&lt;p>垂直价差最大的好处有两个：&lt;/p>
+&lt;ul>
+&lt;li>减小风险&lt;/li>
+&lt;li>扩大盈利&lt;/li>
+&lt;/ul>
+&lt;p>坏处：&lt;/p>
+&lt;ul>
+&lt;li>盈利有限，锁定了最大盈利，遇到暴涨与你无关&lt;/li>
+&lt;/ul>
+&lt;p>垂直价差分为以下四种：&lt;/p>
+&lt;ul>
+&lt;li>牛市看涨价差（Bull Call Spread）&lt;/li>
+&lt;li>牛市看跌价差（Bull Put Spread）&lt;/li>
+&lt;li>熊市看涨价差（Bear Call Spread）&lt;/li>
+&lt;li>熊市看跌价差（Bear Put Spread）&lt;/li>
+&lt;/ul>
+&lt;h3 id="牛市看涨价差bull-call-spread">牛市看涨价差（Bull Call Spread）&lt;/h3>
+&lt;p>虽然理论上买 Call 是盈利无限的，但是实际上我们都知道不可能是无限利润的，暴涨的概率是非常非常小的。这个时候我们可以使用期权组合的垂直价差策略来减小风险。&lt;/p>
+&lt;ul>
+&lt;li>特点：买较低执行价 (A) 的看涨期权，同时出售另一个到期日相同但执行价（B）较高的看涨期权（在同一标的资产上）。&lt;/li>
+&lt;li>表示：我看涨某个股票，但是到期日不会涨到 B 价格。&lt;/li>
+&lt;/ul>
+&lt;p>下面我们来用实例讲解一下，先看一张图，这是三张比较典型的组合期权：&lt;/p>
+&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/202108295AEzBS.jpeg" alt="">&lt;/p>
+&lt;ul>
+&lt;li>图一：观察了几天 AMD 后，我发现它开始进入上涨趋势了，想买 AMD 的 Call，但是又怕期权归零，这个时候我使用了垂直价差策略，下单了一个组合期权，预测 AMD 会涨到 110 但是不会涨到 115。&lt;/li>
+&lt;li>图二：NVDA 和 AMD 也同属于半导体板块，所以我也下单了一张 NVDA 的组合期权，两张期权组合最大的区别是&lt;code>最大亏损&lt;/code>和&lt;code>最大盈利&lt;/code>比不同，NVDA 明显要稍微保守一点，即更容易达到最大盈利。&lt;/li>
+&lt;li>图三：TSLA 连续跌了几天了，想抄底，于是我也买了一个组合期权，而这个组合&lt;code>最大亏损&lt;/code>和&lt;code>最大盈利&lt;/code>是一样的。&lt;/li>
+&lt;/ul>
+&lt;p>我们再来说说结果：&lt;/p>
+&lt;ul>
+&lt;li>AMD 后来跌了，108 的价格都没达到，我买的一张 Call 没有到行权价归零了，但是卖的 Call 也没有被行权，给了一定补偿，所以最后只亏损 250。&lt;/li>
+&lt;li>NVDA 最后一天波动比较大，我提前止盈了。&lt;/li>
+&lt;li>TSLA 最后一天收盘价到达了&lt;code>盈亏平衡点&lt;/code>（ 712 的价格），我顺利拿到了 2500。&lt;/li>
+&lt;/ul>
+&lt;p>从上图我们可以得出一个结论，&lt;code>最大盈利&lt;/code>如果大于&lt;code>最大亏损&lt;/code>意味着比较小概率到达&lt;code>最大盈利&lt;/code>。&lt;/p>
+&lt;p>另外虽然我没有钱为 TSLA 行权，但是如果最后是实值期权，雪盈会自动帮你平仓，这点倒是不用担心。&lt;/p>
+&lt;h3 id="牛市看跌价差bull-put-spread">牛市看跌价差（Bull Put Spread）&lt;/h3>
+&lt;ul>
+&lt;li>特点：购买执行价（A）高的看跌期权，同时出售另一个到期日相同但执行价（B）格较低的看跌期权（在同一标的资产上）。&lt;/li>
+&lt;li>表示：我预测某个股票不会跌过 A 价格，一旦跌过了我愿意以 A 价格买入，而且我不担心它跌过 B 价格（我拥有 B 价格的卖出权）&lt;/li>
+&lt;/ul>
+&lt;h3 id="熊市看涨价差bear-call-spread">熊市看涨价差（Bear Call Spread）&lt;/h3>
+&lt;ul>
+&lt;li>特点：出售执行价（A）低的看涨期权，同时购买较高执行价（B）的到期日相同的另一看涨期权（在同一标的资产上）。&lt;/li>
+&lt;li>表示：我预测股票会跌，愿意用 A 价格卖出股票，如果如果我预测错了，股票大涨了，涨过了 B 价格，那我也不会错过赚钱的机会。&lt;/li>
+&lt;/ul>
+&lt;h3 id="熊市看跌价差bear-put-spread">熊市看跌价差（Bear Put Spread）&lt;/h3>
+&lt;ul>
+&lt;li>特点：购买执行价（A）高的看跌期权，同时出售另一个到期日相同但执行价（B）较低的看跌期权。&lt;/li>
+&lt;li>表示：我预测股票会跌，但跌幅有限，不会跌过 B 价格。 我有 A 价格卖出此股票的权利。&lt;/li>
+&lt;/ul>
+&lt;h2 id="注意事项">注意事项&lt;/h2>
+&lt;h3 id="不要玩交易不活跃的期权">不要玩交易不活跃的期权&lt;/h3>
+&lt;p>之前我们就讲过交易期权之前一定要看看这个期权的交易量，如果不活跃的期权，会存在期权差价，玩这种期权就比较吃亏。&lt;/p>
+&lt;h3 id="不建议单个平仓期权">不建议单个平仓期权&lt;/h3>
+&lt;p>雪盈组合期权成交之后，你的持仓会有两张期权，那么如何平仓期权呢？找到交易记录，如何之前是买入的组合期权，这个时候设置价格卖出组合期权就可以了。不推荐两张期权单个去平仓，会有风险，有可能会让本来盈利的变成亏损。&lt;/p>
+&lt;h3 id="使用支持组合期权的交易平台">使用支持组合期权的交易平台&lt;/h3>
+&lt;p>富途证券目前不支持组合期权，虽然也可以玩，但是不交易玩，因为：&lt;/p>
+&lt;ul>
+&lt;li>如果两个期权不同时成交，就失去了组合期权的优势了&lt;/li>
+&lt;li>如果不支持组合期权，需要保证金，这保证金也不少了，玩不起来。&lt;/li>
+&lt;/ul>
+&lt;h2 id="最后">最后&lt;/h2>
+&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20210829FHRJGv.jpg" alt="垂直价差 Vertical Spread 策略对比">&lt;/p>
+&lt;p>期权的可玩性有很多，自从学了组合期权我都不想玩当个期权了。垂直价差 (Vertical Spread) 是最常用的策略之一，因为风险可控，回报也可以预期。这种方式要风险小的很多，万一方向错误不至于亏很多。&lt;/p>
+&lt;h2 id="资料">资料&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.usoptions.net/post/strategy4">《策略之四，Vertical Spread 垂直价差》&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>【深度阅读 第四季 01】金融投资课</title><link>https://blog.forecho.com/readeep-s04e01.html</link><pubDate>Fri, 07 May 2021 16:40:58 +0800</pubDate><guid>https://blog.forecho.com/readeep-s04e01.html</guid><description>&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20210507S6UOh6.jpg!m" alt="《陈志武金融投资课》">&lt;/p>
 &lt;h2 id="一段话说明这本书主要讲什么">一段话说明『这本书主要讲什么？』&lt;/h2>
 &lt;p>主要是讲述了以下三个问题：&lt;/p>
 &lt;ul>
@@ -1222,105 +1303,4 @@ tests.&lt;span style="color:#50fa7b">MockNotificationServiceAPI&lt;/span>()
 &lt;/ul>
 &lt;h2 id="最后">最后&lt;/h2>
 &lt;p>玩了几天 Clubhouse 就让我想起了刚开始的知乎，刚开始也是邀请制，氛围就特别好。直到后来用户量上去之后内容质量也下来了。&lt;/p>
-&lt;p>最近几年我都没在上过知乎了。如今 Clubhouse 被墙了，我倒是觉得未必是一件坏事。就像如今我只用 Twitter 不用微博了。&lt;/p></description></item><item><title>2020年终总结</title><link>https://blog.forecho.com/review-of-2020.html</link><pubDate>Tue, 09 Feb 2021 10:03:00 +0800</pubDate><guid>https://blog.forecho.com/review-of-2020.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;blockquote>
-&lt;p>今天是我春节前上班的最后一天了，可以静下来来写年终总结了。我很喜欢年前的那几天上班，上下班路上人少，地铁不挤了。公司事儿也不多了，可以正常『摸鱼』了。&lt;/p>
-&lt;/blockquote>
-&lt;p>上面这段话是去年年终总结的开头，感觉今天这篇文章也适用。&lt;/p>
-&lt;h2 id="回顾-2020">回顾 2020&lt;/h2>
-&lt;h3 id="健身">健身&lt;/h3>
-&lt;p>&lt;a href="https://habitify.me/">Habitify&lt;/a> 统计如下：&lt;/p>
-&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20210209npmQS8.JPEG!m" alt="">&lt;/p>
-&lt;ul>
-&lt;li>今年 1 月底到 3 月中旬，今年新冠疫情我在广西远程办公，健身也不方便，在家天天除了吃就是工作睡觉了，哈哈，小肚子都长出来了，回深圳之后立马捡起来健身，回归二天一次的健身环大冒险。&lt;/li>
-&lt;li>10 月份的时候因为出去玩就打破计划了。&lt;/li>
-&lt;li>11 月份的时候又跑去做了一次有氧拳击，隔天背后肌肉酸痛了几天。&lt;/li>
-&lt;li>12 月份天气太冷，不想运动，幸运的是深圳冬天只有一个星期，天气回暖之后我又回复了运动&lt;/li>
-&lt;/ul>
-&lt;p>一年按照 52 周算的话，就是每周健身了 &lt;code>95/52=1.82&lt;/code> 次，如果减去 2、3 月的影响，其实也只达到了 2.15 次/周。&lt;/p>
-&lt;p>健身已经养成习惯了，现在如果连续几天没健身，身体就开始不舒适了。健身环健身其实挺轻松的，虽然不能锻炼出大块头的肌肉，但是减脂还是有效果的，增肌比较慢。另外我已经把冒险的世界打通关了，现在已经进入第二阶段的世界了。&lt;/p>
-&lt;h3 id="工作">工作&lt;/h3>
-&lt;p>年初因为疫情让原本不富裕的公司开始了裁员，我们之前的团队，被分成两部分，我们小组被分配到另外一个部门了，另外一个小组部分裁员，我们留下来的人，变成了维护项目，需求也变的很少了。&lt;/p>
-&lt;p>这一年来基本上就没加班，前几次加班是因为晚上发版，后来我们干脆调整为下午发版，这之后我就加过一次班了。不加班的日子真是爽，不想换工作的原因之一就是担心找不到这样一家不加班的公司。&lt;/p>
-&lt;h3 id="技术">技术&lt;/h3>
-&lt;p>目前的工作主要中心都转为维护了，需求比较少，所以说实话这一年技术没得到多少提升。&lt;/p>
-&lt;p>但是业余时间做了一个记账的项目 - &lt;a href="https://blog.forecho.com/tags/cashwarden.html">Cashwarden&lt;/a>，又把 Yii2 和 Angular 的技术捡起来了。&lt;/p>
-&lt;p>小程序也在开发中，尝试了几个小程序框架，最后还是选的 &lt;a href="https://uniapp.dcloud.io/">uni-app&lt;/a>，因为上手简单。&lt;/p>
-&lt;h3 id="旅游">旅游&lt;/h3>
-&lt;p>前半年不敢出远门，但是我年假加上 19 年的加班调休，一起有 2 个星期了，不用就得过期了，所以最后国庆后我们去了一趟成都，这是我第二次去成都了。后来写了一篇游记 - &lt;a href="https://blog.forecho.com/travel-10.html">《第十站：重游成都》&lt;/a>&lt;/p>
-&lt;p>又去了一趟广州，这次目的不仅仅是旅行，更多的是去了解广州是否符合我们定居。&lt;/p>
-&lt;h3 id="读书">读书&lt;/h3>
-&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20210209Foa8bb.JPEG!m" alt="">&lt;/p>
-&lt;p>查看统计发现去年也是 95 天阅读或者学习了，最后总共阅读了 7 本书：&lt;/p>
-&lt;ul>
-&lt;li>《鱼翅与花椒》&lt;/li>
-&lt;li>《妇产科男医生告诉你》&lt;/li>
-&lt;li>《最好金龟换酒》&lt;/li>
-&lt;li>《技巧》&lt;/li>
-&lt;li>《淡定，才能富足》&lt;/li>
-&lt;li>《肠子的小心思》&lt;/li>
-&lt;li>《我如何从股市赚了 200 万》&lt;/li>
-&lt;/ul>
-&lt;p>我还单独写了一篇文章分享这几本书的介绍 - &lt;a href="https://blog.forecho.com/review-of-2020-read-book.html">《2020 年终总结之阅读篇》&lt;/a>&lt;/p>
-&lt;h3 id="理财">理财&lt;/h3>
-&lt;ul>
-&lt;li>基金：19 年我的基金整体收益有 10%，20 年行情更好了，我的整体收益有 20%+，收益跑赢了沪深 300&lt;/li>
-&lt;li>A 股：没敢买个股，买了一些 ETF，相比基金，买 ETF 更方便出入金，而且能设定买入和卖出价格，这是优势也是缺点，也有让你担心此刻价格太高，不敢买入，而错过好的上车机会。基金可以无脑买入。&lt;/li>
-&lt;li>美股：因为新冠肺炎这个黑天鹅事件，美股陆续熔断了 3 次（重复提起）,美股浮盈从+20 到 -10% 再到 290%，主要收益都是靠几个信仰股 TSLA、NIO、AMD、NVDA&lt;/li>
-&lt;li>港股：港股被腾讯和小米伤害之后，有很大一段时间我的港股都是空仓，但是这一年我开始玩港股打新，收益还不错，一年来中签 7 次，赚了几万，年初疫情，美团 100 的时候开始建仓，再它 200 多的时候加仓，现在已经翻倍了 ，后来小米 20+ 的时候也开始建仓，但是最近小米不争气，只是小赚。&lt;/li>
-&lt;/ul>
-&lt;p>另外我有专门写过一篇文章投资年终总结 - &lt;a href="https://blog.forecho.com/financedeep-19.html">【深度理财 19】2020 年年终总结投资篇&lt;/a>&lt;/p>
-&lt;h3 id="败物">败物&lt;/h3>
-&lt;p>记录大件支出：&lt;/p>
-&lt;ul>
-&lt;li>Apple Watch s6：2726，详情 - &lt;a href="https://blog.forecho.com/apple-watch.html">《使用 Apple Watch》&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h3 id="博客">博客&lt;/h3>
-&lt;ul>
-&lt;li>今年除了 10 月份只写了两篇博客外，其他月份都完成了至少三篇文章的目标。&lt;/li>
-&lt;li>&lt;a href="https://blog.forecho.com/tags/%E6%B7%B1%E5%BA%A6%E7%90%86%E8%B4%A2.html">深度理财&lt;/a> 系列文章变得多了起来。&lt;/li>
-&lt;li>&lt;a href="https://blog.forecho.com/tags/%E6%B7%B1%E5%BA%A6%E9%98%85%E8%AF%BB.html">深度阅读&lt;/a> 基本上搁置了，但是书还有在看。&lt;/li>
-&lt;/ul>
-&lt;h3 id="三立三https3li3com">&lt;a href="https://3li3.com/">三立三&lt;/a>&lt;/h3>
-&lt;p>没有收益，服务器到期之后没有续费了。&lt;/p>
-&lt;h3 id="其他">其他&lt;/h3>
-&lt;ul>
-&lt;li>
-&lt;p>可能因为没加班，这一年来向来不看综艺节目的我，2020 年居然看完过三档综艺节目，真香。它们分别是：&lt;/p>
-&lt;ul>
-&lt;li>《乘风破浪的姐姐第一季》： 爷青回&lt;/li>
-&lt;li>《说唱新世代》：唱 Rap 真是太酷了，喜欢狗哥&lt;/li>
-&lt;li>《脱口秀大会第三季》：到了第三季我才知道还有这样一档节目&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>之前帮朋友写的跨境电商 ERP 因为没有收入，就慢慢退出了，然后自己开了一个新坑，写了一个资产管理的项目 - Cashwarden，2021 推出订阅增值功能，目前有几个付费用户。&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;h2 id="展望-2021">展望 2021&lt;/h2>
-&lt;h3 id="健身-1">健身&lt;/h3>
-&lt;p>去年准备每个月记录腰围、胸围以及两个手臂的数据，结果把这事给忘记了，看来得添加一个提醒才行。&lt;/p>
-&lt;p>2021 年当然是继续保持健身了，目标是减脂的同时增肌，希望年底的时候目标体重是 130 斤。&lt;/p>
-&lt;h3 id="旅游-1">旅游&lt;/h3>
-&lt;p>继续保持，一年至少去一个地方的目标。&lt;/p>
-&lt;h3 id="工作-1">工作&lt;/h3>
-&lt;p>去年定的目标是：&lt;/p>
-&lt;blockquote>
-&lt;p>继续学 Golang 和 看完《微服务架构设计模式》、《企业 IT 架构转型之道》、《性能之巅》&lt;/p>
-&lt;/blockquote>
-&lt;p>基本上没实现。2020 年快到年底的时候我想过换工作，因为目前的工作没有职业发展空间了，但是最近我又改变主意了，年纪大了，学不动了，不加班多点时间陪伴家人，少点工资也挺好。&lt;/p>
-&lt;h3 id="理财-1">理财&lt;/h3>
-&lt;p>继续看好美股。A 股买基金和 ETF，去年因为输出了很多理财方面的文章，认识了很多朋友，还建立了一个投资群，大家互相学习，一起发财。如果你有兴趣加入的话，可以加我微信：ipzone，注明来意。&lt;/p>
-&lt;h3 id="业余折腾">业余折腾&lt;/h3>
-&lt;p>有时间继续完善 CashWarden，另外我最近有开了一个最终 ARK 持仓变化的项目，有时间继续完善。&lt;/p>
-&lt;h3 id="读书-1">读书&lt;/h3>
-&lt;p>去年只看了完了 7 本书，惭愧。今年就定 8 本为目标吧，步子迈得太大，容易扯到蛋。&lt;/p>
-&lt;h3 id="博客-1">博客&lt;/h3>
-&lt;p>继续每月 3 篇的更新目标&lt;/p>
-&lt;h3 id="其他-1">其他&lt;/h3>
-&lt;p>其实去年下半年的时候我们开始考虑在哪定居的问题，去过成都、广州。最后都不太满意，另外就是我们对两个城市都比较陌生，最后年底的时候考虑到如果能在深圳买房就尽力在上车吧，虽然深圳房价高、教育医疗差，但是它也有好的一面。&lt;/p>
-&lt;p>然后年底的时候开始在深圳看房，前一段时间也参与过&lt;a href="https://blog.forecho.com/about-coast-city.html">海岸城打新&lt;/a>，最后也是没有打中，最近这一年政府又开始管控房价了，昨天还出了一个二手房指导价格，不知道未来对二手房市场有什么影响，过完年再观望一阵子吧。&lt;/p>
-&lt;p>希望能在深圳安家。&lt;/p>
-&lt;h2 id="最后">最后&lt;/h2>
-&lt;p>2020 年都过去了，疫情还没结束，我们依旧每天带着口罩上下班，我们依旧去不了香港，我想去香港把我的工银亚洲卡解冻。&lt;/p>
-&lt;p>最后希望 2021 年疫情能结束吧，另外祝大家牛年发大财。&lt;/p></description></item></channel></rss>
+&lt;p>最近几年我都没在上过知乎了。如今 Clubhouse 被墙了，我倒是觉得未必是一件坏事。就像如今我只用 Twitter 不用微博了。&lt;/p></description></item></channel></rss>
