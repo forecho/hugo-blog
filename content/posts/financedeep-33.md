@@ -1,11 +1,10 @@
 ---
-title: "【深度理财 33】期权组合之垂直价差策略"
+title: "【深度理财 33】期权组合之 Vertical Spread 垂直价差策略"
 date: 2021-08-29T10:59:00+08:00
 tags: ["深度理财", "美股", "期权"]
 draft: false
 toc: true
 ---
-
 ## 引言
 
 这篇主要是讲解期权组合的第一篇文章，不了解期权的朋友可以先看我[之前的期权系列文章](https://blog.forecho.com/tags/%E6%9C%9F%E6%9D%83.html)。
