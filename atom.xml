@@ -1,4 +1,85 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 16 Aug 2021 10:59:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>我是如何用 Golang 做接口测试的</title><link>https://blog.forecho.com/using-golang-for-api-testing.html</link><pubDate>Mon, 16 Aug 2021 10:59:00 +0800</pubDate><guid>https://blog.forecho.com/using-golang-for-api-testing.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 29 Aug 2021 14:59:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>期权组合之 Vertical Spread</title><link>https://blog.forecho.com/financedeep-33.html</link><pubDate>Sun, 29 Aug 2021 14:59:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-33.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>这篇主要是讲解期权组合的第一篇文章，不了解期权的朋友可以先看我&lt;a href="https://blog.forecho.com/tags/%E6%9C%9F%E6%9D%83.html">之前的期权系列文章&lt;/a>。&lt;/p>
+&lt;p>目前我所使用的证券平台只有雪盈和微牛支持组合期权，本篇文章主要是使用雪盈来做实例，没开户的朋友如果想体验组合期权推荐使用雪盈：&lt;/p>
+&lt;ul>
+&lt;li>开户地址：&lt;a href="http://link.3li3.com/xueying">http://link.3li3.com/xueying&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/snowballsecurities.png!s" alt="雪盈证券开户">&lt;/p>
+&lt;h2 id="vertical-spread">Vertical Spread&lt;/h2>
+&lt;h3 id="什么是-vertical-spread">什么是 Vertical Spread？&lt;/h3>
+&lt;p>根据 &lt;a href="https://www.investopedia.com/terms/v/verticalspread.asp">What Is a Vertical Spread?&lt;/a> 描述，简单翻译就是：&lt;/p>
+&lt;p>即垂直价差，指同时买入和卖出相同类型（看跌或看涨）同一到期日但行权价格不同的期权。术语「垂直 」来自于执行价格的位置。&lt;/p>
+&lt;h3 id="特点">特点&lt;/h3>
+&lt;p>垂直价差最大的好处有两个：&lt;/p>
+&lt;ul>
+&lt;li>减小风险&lt;/li>
+&lt;li>扩大盈利&lt;/li>
+&lt;/ul>
+&lt;p>坏处：&lt;/p>
+&lt;ul>
+&lt;li>盈利有限，锁定了最大盈利，遇到暴涨与你无关&lt;/li>
+&lt;/ul>
+&lt;p>垂直价差分为以下四种：&lt;/p>
+&lt;ul>
+&lt;li>牛市看涨价差（Bull Call Spread）&lt;/li>
+&lt;li>牛市看跌价差（Bull Put Spread）&lt;/li>
+&lt;li>熊市看涨价差（Bear Call Spread）&lt;/li>
+&lt;li>熊市看跌价差（Bear Put Spread）&lt;/li>
+&lt;/ul>
+&lt;h3 id="牛市看涨价差bull-call-spread">牛市看涨价差（Bull Call Spread）&lt;/h3>
+&lt;p>虽然理论上买 Call 是盈利无限的，但是实际上我们都知道不可能是无限利润的，暴涨的概率是非常非常小的。这个时候我们可以使用期权组合的垂直价差策略来减小风险。&lt;/p>
+&lt;ul>
+&lt;li>特点：买较低执行价 (A) 的看涨期权，同时出售另一个到期日相同但执行价（B）较高的看涨期权（在同一标的资产上）。&lt;/li>
+&lt;li>表示：我看涨某个股票，但是到期日不会涨到 B 价格。&lt;/li>
+&lt;/ul>
+&lt;p>下面我们来用实例讲解一下，先看一张图，这是三张比较典型的组合期权：&lt;/p>
+&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/202108295AEzBS.jpeg!m" alt="">&lt;/p>
+&lt;ul>
+&lt;li>图一：观察了几天 AMD 后，我发现它开始进入上涨趋势了，想买 AMD 的 Call，但是又怕期权归零，这个时候我使用了垂直价差策略，下单了一个组合期权，预测 AMD 会涨到 110 但是不会涨到 115。&lt;/li>
+&lt;li>图二：NVDA 和 AMD 也同属于半导体板块，所以我也下单了一张 NVDA 的组合期权，两张期权组合最大的区别是&lt;code>最大亏损&lt;/code>和&lt;code>最大盈利&lt;/code>比不同，NVDA 明显要稍微保守一点，即更容易达到最大盈利。&lt;/li>
+&lt;li>图三：TSLA 连续跌了几天了，想抄底，于是我也买了一个组合期权，而这个组合&lt;code>最大亏损&lt;/code>和&lt;code>最大盈利&lt;/code>是一样的。&lt;/li>
+&lt;/ul>
+&lt;p>我们再来说说结果：&lt;/p>
+&lt;ul>
+&lt;li>AMD 后来跌了，108 的价格都没达到，我买的一张 Call 没有到行权价归零了，但是卖的 Call 也没有被行权，给了一定补偿，所以最后只亏损 250。&lt;/li>
+&lt;li>NVDA 最后一天波动比较大，我提前止盈了。&lt;/li>
+&lt;li>TSLA 最后一天收盘价到达了&lt;code>盈亏平衡点&lt;/code>（ 712 的价格），我顺利拿到了 2500。&lt;/li>
+&lt;/ul>
+&lt;p>从上图我们可以得出一个结论，&lt;code>最大盈利&lt;/code>如果大于&lt;code>最大亏损&lt;/code>意味着比较小概率到达&lt;code>最大盈利&lt;/code>。&lt;/p>
+&lt;p>另外虽然我没有钱为 TSLA 行权，但是如果最后是实值期权，雪盈会自动帮你平仓，这点倒是不用担心。&lt;/p>
+&lt;h3 id="牛市看跌价差bull-put-spread">牛市看跌价差（Bull Put Spread）&lt;/h3>
+&lt;ul>
+&lt;li>特点：购买执行价（A）高的看跌期权，同时出售另一个到期日相同但执行价（B）格较低的看跌期权（在同一标的资产上）。&lt;/li>
+&lt;li>表示：我预测某个股票不会跌过 A 价格，一旦跌过了我愿意以 A 价格买入，而且我不担心它跌过 B 价格（我拥有 B 价格的卖出权）&lt;/li>
+&lt;/ul>
+&lt;h3 id="熊市看涨价差bear-call-spread">熊市看涨价差（Bear Call Spread）&lt;/h3>
+&lt;ul>
+&lt;li>特点：出售执行价（A）低的看涨期权，同时购买较高执行价（B）的到期日相同的另一看涨期权（在同一标的资产上）。&lt;/li>
+&lt;li>表示：我预测股票会跌，愿意用 A 价格卖出股票，如果如果我预测错了，股票大涨了，涨过了 B 价格，那我也不会错过赚钱的机会。&lt;/li>
+&lt;/ul>
+&lt;h3 id="熊市看跌价差bear-put-spread">熊市看跌价差（Bear Put Spread）&lt;/h3>
+&lt;ul>
+&lt;li>特点：购买执行价（A）高的看跌期权，同时出售另一个到期日相同但执行价（B）较低的看跌期权。&lt;/li>
+&lt;li>表示：我预测股票会跌，但跌幅有限，不会跌过 B 价格。 我有 A 价格卖出此股票的权利。&lt;/li>
+&lt;/ul>
+&lt;h2 id="注意事项">注意事项&lt;/h2>
+&lt;h3 id="不要玩交易不活跃的期权">不要玩交易不活跃的期权&lt;/h3>
+&lt;p>之前我们就讲过交易期权之前一定要看看这个期权的交易量，如果不活跃的期权，会存在期权差价，玩这种期权就比较吃亏。&lt;/p>
+&lt;h3 id="不建议单个平仓期权">不建议单个平仓期权&lt;/h3>
+&lt;p>雪盈组合期权成交之后，你的持仓会有两张期权，那么如何平仓期权呢？找到交易记录，如何之前是买入的组合期权，这个时候设置价格卖出组合期权就可以了。不推荐两张期权单个去平仓，会有风险，有可能会让本来盈利的变成亏损。&lt;/p>
+&lt;h3 id="使用支持组合期权的交易平台">使用支持组合期权的交易平台&lt;/h3>
+&lt;p>富途证券目前不支持组合期权，虽然也可以玩，但是不交易玩，因为：&lt;/p>
+&lt;ul>
+&lt;li>如果两个期权不同时成交，就失去了组合期权的优势了&lt;/li>
+&lt;li>如果不支持组合期权，需要保证金，这保证金也不少了，玩不起来。&lt;/li>
+&lt;/ul>
+&lt;h2 id="最后">最后&lt;/h2>
+&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20210829FHRJGv.jpg" alt="垂直价差 Vertical Spread 策略对比">&lt;/p>
+&lt;p>期权的可玩性有很多，自从学了组合期权我都不想玩当个期权了。垂直价差 (Vertical Spread) 是最常用的策略之一，因为风险可控，回报也可以预期。这种方式要风险小的很多，万一方向错误不至于亏很多。&lt;/p>
+&lt;h2 id="资料">资料&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.usoptions.net/post/strategy4">《策略之四，Vertical Spread 垂直价差》&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>我是如何用 Golang 做接口测试的</title><link>https://blog.forecho.com/using-golang-for-api-testing.html</link><pubDate>Mon, 16 Aug 2021 10:59:00 +0800</pubDate><guid>https://blog.forecho.com/using-golang-for-api-testing.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
 &lt;p>最近公司项目用 Golang 重写，总算是有机会实战了。这篇文章主要分享与记录我是怎么在 Golang 的项目中写接口测试的。&lt;/p>
 &lt;p>因为是换语言重写 API 项目，所以一定要保证新旧项目对外输出的结果一致性。由于我使用 Golang 的时间不算太久，本篇文章如有错误、不足之处，还请大家多多指教。&lt;/p>
 &lt;h2 id="接口测试">接口测试&lt;/h2>
@@ -696,88 +777,7 @@ tests.&lt;span style="color:#50fa7b">MockNotificationServiceAPI&lt;/span>()
 &lt;h2 id="总结">总结&lt;/h2>
 &lt;p>总的来说，买期权我们的目的是赚取权利金，期权策略选的好，在股市动荡的时候我们也能赚钱。自从学了期权之后看股票的走势就会多了一个视角，大部分股票的行权日都是每个星期五，所以那一天股价通常波动比较大。&lt;/p>
 &lt;p>⚠️ 另外要补充一点，卖期权只适合股价波动比较小的股票，比方说 FUTU 富途 这个股票就不适合这种方式。&lt;/p>
-&lt;p>今天的文章就分享到这，如果你喜欢我的期权系列文章，记得点赞 ➕ 关注。后面我会分享前一段时间我交易富途股票期权的惊险刺激经历。&lt;/p></description></item><item><title>【深度理财 33】如何在股市动荡期使用期权赚钱</title><link>https://blog.forecho.com/financedeep-33.html</link><pubDate>Sat, 29 May 2021 10:59:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-33.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>这篇主要是讲解期权组合的第一篇文章，不了解期权的朋友可以先看我&lt;a href="https://blog.forecho.com/tags/%E6%9C%9F%E6%9D%83.html">之前的期权系列文章&lt;/a>。&lt;/p>
-&lt;p>目前我所使用的证券平台只有雪盈和微牛支持组合期权，本篇文章主要是使用雪盈来做实例，没开户的朋友如果想体验组合期权推荐使用雪盈：&lt;/p>
-&lt;ul>
-&lt;li>开户地址：&lt;a href="http://link.3li3.com/xueying">http://link.3li3.com/xueying&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/snowballsecurities.png!s" alt="雪盈证券开户">&lt;/p>
-&lt;h2 id="vertical-spread">Vertical Spread&lt;/h2>
-&lt;h3 id="什么是-vertical-spread">什么是 Vertical Spread？&lt;/h3>
-&lt;p>根据 &lt;a href="https://www.investopedia.com/terms/v/verticalspread.asp">What Is a Vertical Spread?&lt;/a> 描述，简单翻译就是：&lt;/p>
-&lt;p>即垂直价差，指同时买入和卖出相同类型（看跌或看涨）同一到期日但行权价格不同的期权。术语「垂直 」来自于执行价格的位置。&lt;/p>
-&lt;h3 id="特点">特点&lt;/h3>
-&lt;p>垂直价差最大的好处有两个：&lt;/p>
-&lt;ul>
-&lt;li>减小风险&lt;/li>
-&lt;li>扩大盈利&lt;/li>
-&lt;/ul>
-&lt;p>坏处：&lt;/p>
-&lt;ul>
-&lt;li>盈利有限，锁定了最大盈利，遇到暴涨与你无关&lt;/li>
-&lt;/ul>
-&lt;p>垂直价差分为以下四种：&lt;/p>
-&lt;ul>
-&lt;li>牛市看涨价差（Bull Call Spread）&lt;/li>
-&lt;li>牛市看跌价差（Bull Put Spread）&lt;/li>
-&lt;li>熊市看涨价差（Bear Call Spread）&lt;/li>
-&lt;li>熊市看跌价差（Bear Put Spread）&lt;/li>
-&lt;/ul>
-&lt;h3 id="牛市看涨价差bull-call-spread">牛市看涨价差（Bull Call Spread）&lt;/h3>
-&lt;p>虽然理论上买 Call 是盈利无限的，但是实际上我们都知道不可能是无限利润的，暴涨的概率是非常非常小的。这个时候我们可以使用期权组合的垂直价差策略来减小风险。&lt;/p>
-&lt;ul>
-&lt;li>特点：买较低执行价 (A) 的看涨期权，同时出售另一个到期日相同但执行价（B）较高的看涨期权（在同一标的资产上）。&lt;/li>
-&lt;li>表示：我看涨某个股票，但是到期日不会涨到 B 价格。&lt;/li>
-&lt;/ul>
-&lt;p>下面我们来用实例讲解一下，先看一张图，这是三张比较典型的组合期权：&lt;/p>
-&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/202108295AEzBS.jpeg" alt="">&lt;/p>
-&lt;ul>
-&lt;li>图一：观察了几天 AMD 后，我发现它开始进入上涨趋势了，想买 AMD 的 Call，但是又怕期权归零，这个时候我使用了垂直价差策略，下单了一个组合期权，预测 AMD 会涨到 110 但是不会涨到 115。&lt;/li>
-&lt;li>图二：NVDA 和 AMD 也同属于半导体板块，所以我也下单了一张 NVDA 的组合期权，两张期权组合最大的区别是&lt;code>最大亏损&lt;/code>和&lt;code>最大盈利&lt;/code>比不同，NVDA 明显要稍微保守一点，即更容易达到最大盈利。&lt;/li>
-&lt;li>图三：TSLA 连续跌了几天了，想抄底，于是我也买了一个组合期权，而这个组合&lt;code>最大亏损&lt;/code>和&lt;code>最大盈利&lt;/code>是一样的。&lt;/li>
-&lt;/ul>
-&lt;p>我们再来说说结果：&lt;/p>
-&lt;ul>
-&lt;li>AMD 后来跌了，108 的价格都没达到，我买的一张 Call 没有到行权价归零了，但是卖的 Call 也没有被行权，给了一定补偿，所以最后只亏损 250。&lt;/li>
-&lt;li>NVDA 最后一天波动比较大，我提前止盈了。&lt;/li>
-&lt;li>TSLA 最后一天收盘价到达了&lt;code>盈亏平衡点&lt;/code>（ 712 的价格），我顺利拿到了 2500。&lt;/li>
-&lt;/ul>
-&lt;p>从上图我们可以得出一个结论，&lt;code>最大盈利&lt;/code>如果大于&lt;code>最大亏损&lt;/code>意味着比较小概率到达&lt;code>最大盈利&lt;/code>。&lt;/p>
-&lt;p>另外虽然我没有钱为 TSLA 行权，但是如果最后是实值期权，雪盈会自动帮你平仓，这点倒是不用担心。&lt;/p>
-&lt;h3 id="牛市看跌价差bull-put-spread">牛市看跌价差（Bull Put Spread）&lt;/h3>
-&lt;ul>
-&lt;li>特点：购买执行价（A）高的看跌期权，同时出售另一个到期日相同但执行价（B）格较低的看跌期权（在同一标的资产上）。&lt;/li>
-&lt;li>表示：我预测某个股票不会跌过 A 价格，一旦跌过了我愿意以 A 价格买入，而且我不担心它跌过 B 价格（我拥有 B 价格的卖出权）&lt;/li>
-&lt;/ul>
-&lt;h3 id="熊市看涨价差bear-call-spread">熊市看涨价差（Bear Call Spread）&lt;/h3>
-&lt;ul>
-&lt;li>特点：出售执行价（A）低的看涨期权，同时购买较高执行价（B）的到期日相同的另一看涨期权（在同一标的资产上）。&lt;/li>
-&lt;li>表示：我预测股票会跌，愿意用 A 价格卖出股票，如果如果我预测错了，股票大涨了，涨过了 B 价格，那我也不会错过赚钱的机会。&lt;/li>
-&lt;/ul>
-&lt;h3 id="熊市看跌价差bear-put-spread">熊市看跌价差（Bear Put Spread）&lt;/h3>
-&lt;ul>
-&lt;li>特点：购买执行价（A）高的看跌期权，同时出售另一个到期日相同但执行价（B）较低的看跌期权。&lt;/li>
-&lt;li>表示：我预测股票会跌，但跌幅有限，不会跌过 B 价格。 我有 A 价格卖出此股票的权利。&lt;/li>
-&lt;/ul>
-&lt;h2 id="注意事项">注意事项&lt;/h2>
-&lt;h3 id="不要玩交易不活跃的期权">不要玩交易不活跃的期权&lt;/h3>
-&lt;p>之前我们就讲过交易期权之前一定要看看这个期权的交易量，如果不活跃的期权，会存在期权差价，玩这种期权就比较吃亏。&lt;/p>
-&lt;h3 id="不建议单个平仓期权">不建议单个平仓期权&lt;/h3>
-&lt;p>雪盈组合期权成交之后，你的持仓会有两张期权，那么如何平仓期权呢？找到交易记录，如何之前是买入的组合期权，这个时候设置价格卖出组合期权就可以了。不推荐两张期权单个去平仓，会有风险，有可能会让本来盈利的变成亏损。&lt;/p>
-&lt;h3 id="使用支持组合期权的交易平台">使用支持组合期权的交易平台&lt;/h3>
-&lt;p>富途证券目前不支持组合期权，虽然也可以玩，但是不交易玩，因为：&lt;/p>
-&lt;ul>
-&lt;li>如果两个期权不同时成交，就失去了组合期权的优势了&lt;/li>
-&lt;li>如果不支持组合期权，需要保证金，这保证金也不少了，玩不起来。&lt;/li>
-&lt;/ul>
-&lt;h2 id="最后">最后&lt;/h2>
-&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20210829FHRJGv.jpg" alt="垂直价差 Vertical Spread 策略对比">&lt;/p>
-&lt;p>期权的可玩性有很多，自从学了组合期权我都不想玩当个期权了。垂直价差 (Vertical Spread) 是最常用的策略之一，因为风险可控，回报也可以预期。这种方式要风险小的很多，万一方向错误不至于亏很多。&lt;/p>
-&lt;h2 id="资料">资料&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://www.usoptions.net/post/strategy4">《策略之四，Vertical Spread 垂直价差》&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>【深度阅读 第四季 01】金融投资课</title><link>https://blog.forecho.com/readeep-s04e01.html</link><pubDate>Fri, 07 May 2021 16:40:58 +0800</pubDate><guid>https://blog.forecho.com/readeep-s04e01.html</guid><description>&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20210507S6UOh6.jpg!m" alt="《陈志武金融投资课》">&lt;/p>
+&lt;p>今天的文章就分享到这，如果你喜欢我的期权系列文章，记得点赞 ➕ 关注。后面我会分享前一段时间我交易富途股票期权的惊险刺激经历。&lt;/p></description></item><item><title>【深度阅读 第四季 01】金融投资课</title><link>https://blog.forecho.com/readeep-s04e01.html</link><pubDate>Fri, 07 May 2021 16:40:58 +0800</pubDate><guid>https://blog.forecho.com/readeep-s04e01.html</guid><description>&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20210507S6UOh6.jpg!m" alt="《陈志武金融投资课》">&lt;/p>
 &lt;h2 id="一段话说明这本书主要讲什么">一段话说明『这本书主要讲什么？』&lt;/h2>
 &lt;p>主要是讲述了以下三个问题：&lt;/p>
 &lt;ul>
