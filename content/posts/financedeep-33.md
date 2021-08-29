@@ -53,7 +53,7 @@ toc: true
 
 下面我们来用实例讲解一下，先看一张图，这是三张比较典型的组合期权：
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/202108295AEzBS.jpeg!m)
+![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/202108295AEzBS.jpeg)
 
 - 图一：观察了几天 AMD 后，我发现它开始进入上涨趋势了，想买 AMD 的 Call，但是又怕期权归零，这个时候我使用了垂直价差策略，下单了一个组合期权，预测 AMD 会涨到 110 但是不会涨到 115。
 - 图二：NVDA 和 AMD 也同属于半导体板块，所以我也下单了一张 NVDA 的组合期权，两张期权组合最大的区别是`最大亏损`和`最大盈利`比不同，NVDA 明显要稍微保守一点，即更容易达到最大盈利。
