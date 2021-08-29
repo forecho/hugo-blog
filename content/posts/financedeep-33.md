@@ -106,7 +106,7 @@ toc: true
 
 ## 最后
 
-![垂直价差 (Vertical Spread) 策略对比](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20210829FHRJGv.jpg)
+![垂直价差 Vertical Spread 策略对比](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20210829FHRJGv.jpg)
 
 期权的可玩性有很多，自从学了组合期权我都不想玩当个期权了。垂直价差 (Vertical Spread) 是最常用的策略之一，因为风险可控，回报也可以预期。这种方式要风险小的很多，万一方向错误不至于亏很多。
 
