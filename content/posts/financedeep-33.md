@@ -1,5 +1,5 @@
 ---
-title: "【深度理财 33】期权组合之 Vertical Spread 策略"
+title: "【深度理财 33】期权组合之 Vertical Spread"
 date: 2021-08-29T14:59:00+08:00
 tags: ["深度理财", "美股", "期权"]
 draft: false
