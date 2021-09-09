@@ -81,8 +81,6 @@ twitter = "caizhenghai"
 douban = "ipzone"
 rss = "/atom.xml"
 
-[params.gitment] # Gitment is a comment system based on GitHub issues. see https://github.com/imsun/gitment
+[params.utterances] # https://utteranc.es/
 owner = "forecho" # Your GitHub ID
-repo = "hugo-blog" # The repo to store comments
-clientId = "f3b5ed820012fa9f7efe" # Your client ID
-clientSecret = "d08b071360904cc1fc5cbca0a50ac8fbf7f04c1d" # Your client secret
+repo = "hugo-blog"# The repo to store comments
