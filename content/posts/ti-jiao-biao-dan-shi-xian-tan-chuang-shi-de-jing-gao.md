@@ -6,7 +6,7 @@ draft: false
 toc: true
 ---
 
-适合使用编辑器的时候的验证。JS代码如下(第二个为UEditor的特殊判断用法)：
+适合使用编辑器的时候的验证。JS 代码如下 (第二个为 UEditor 的特殊判断用法)：
 
 
 ```javascript
@@ -14,7 +14,7 @@ toc: true
 function chkinput(form)
 {
     if (form.title.value=="") {
-        alert("请输入新闻标题!");
+        alert("请输入新闻标题！");
         form.title.select();
         return(false);
     }
@@ -32,7 +32,7 @@ function chkinput(form)
 ```
 
 
-html代码如下：
+html 代码如下：
 
 
 ```html
@@ -67,4 +67,4 @@ html代码如下：
 ```
 
 
-这个表单里面有两个效果，一个是[My97日期控件](http://www.my97.net/dp/demo/index.htm)JS，还有一个[百度Ueditor编辑器](http://ueditor.baidu.com/teach.html)。 使用百度编辑器的时候注意editor_config.js 配置文件里面的URL路径。 注：autocomplete="off"是关闭记忆功能。
+这个表单里面有两个效果，一个是[My97 日期控件](http://www.my97.net/dp/demo/index.htm)JS，还有一个[百度 Ueditor 编辑器](http://ueditor.baidu.com/teach.html)。 使用百度编辑器的时候注意 editor_config.js 配置文件里面的 URL 路径。 注：autocomplete="off"是关闭记忆功能。
