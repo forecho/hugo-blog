@@ -84,3 +84,5 @@ rss = "/atom.xml"
 [params.utterances] # https://utteranc.es/
 owner = "forecho" # Your GitHub ID
 repo = "hugo-blog"# The repo to store comments
+theme = "github-light"
+issueterm = "title"
