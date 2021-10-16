@@ -41,12 +41,8 @@ url: /friendship-links/
 - [Huiris's Blog](https://huiris.com/)
 - [熊二哈的猫窝](https://www.wispx.cn/)
 - [天雨的博客](https://blog.irain.in/)
-- [城中村群租房](https://www.darmau.com/)
 - [kok 的笔记本](https://wocai.de/)
-- [Flyaway'Blog](http://zhouyichu.com/)
 - [默](https://jasper-1024.github.io/)
-- [初始化](https://init.blog/)
-- [kn007](https://kn007.net/)
 - [maemo の風船が！](https://www.maemo.cc/)
 - [逐鹿 IT](http://amonxu.com/)
 - [渚碧](https://jubeny.com/)
@@ -55,7 +51,7 @@ url: /friendship-links/
 - [Henry Z's blog](https://changchen.me/)
 - [IOIOX](https://www.ioiox.com/)
 - [Lin.](https://www.mrlin93.com/)
-- [Jackieの生活觀察](https://www.wangyurui.top/)
+- [Jackie の生活觀察](https://www.wangyurui.top/)
 
 ## 待考察
 
