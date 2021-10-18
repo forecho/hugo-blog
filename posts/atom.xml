@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on forecho's Blog</title><link>https://blog.forecho.com/posts.html</link><description>Recent content in Posts on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 09 Sep 2021 09:50:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/posts/atom.xml" rel="self" type="application/rss+xml"/><item><title>讨薪维权之路</title><link>https://blog.forecho.com/the-road-to-asking-for-pay-and-defending-rights.html</link><pubDate>Thu, 09 Sep 2021 09:50:00 +0800</pubDate><guid>https://blog.forecho.com/the-road-to-asking-for-pay-and-defending-rights.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on forecho's Blog</title><link>https://blog.forecho.com/posts.html</link><description>Recent content in Posts on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 18 Oct 2021 18:09:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/posts/atom.xml" rel="self" type="application/rss+xml"/><item><title>GitHub 组织项目免费使用 Vercel</title><link>https://blog.forecho.com/free-use-of-vercel-for-github-organizational.html</link><pubDate>Mon, 18 Oct 2021 18:09:00 +0800</pubDate><guid>https://blog.forecho.com/free-use-of-vercel-for-github-organizational.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>&lt;a href="https://vercel.com/">Vercel&lt;/a> 是一个静态网站托管项目，而且有很多东西自动化完成，反正就是非常的方便和省事，我的&lt;a href="https://stock.forecho.com/">港美股平台推荐&lt;/a>网页就是使用 Vercel 托管的，访问速度很快吧。&lt;/p>
+&lt;p>Vercel 托管 GitHub 个人项目是免费的，不管私有还是开源，这还是比较良心的，但是组织项目是收费的，需要在 Vercel 创建 Team 才能使用，但是吧价格太贵了，对于目前没有收入的我来说有点承受不起，于是就找到了一种方式可以免费托管 GitHub 组织项目代码的方式。&lt;/p></description></item><item><title>讨薪维权之路</title><link>https://blog.forecho.com/the-road-to-asking-for-pay-and-defending-rights.html</link><pubDate>Thu, 09 Sep 2021 09:50:00 +0800</pubDate><guid>https://blog.forecho.com/the-road-to-asking-for-pay-and-defending-rights.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
 &lt;p>持续更新中&amp;hellip;&lt;/p>
 &lt;p>这是我目前正在经历的事情，打算写这篇文章记录下来，留作记录，也可以给其他人分享一些经验。&lt;/p>
 &lt;p>这不是我第一次维权了，上一次也是被欠薪，小公司，老板一直拖欠工资，欠了差不多 4 个多月最后才偿还工资，我们都没要求赔偿。当初有了解过去劳动仲裁，但是最后还没去。详情可以看 &lt;a href="https://blog.forecho.com/the-first-venture-came-to-an-end.html">《第一次创业告一段落》&lt;/a>。&lt;/p>
@@ -107,18 +109,4 @@
 &lt;li>到期日：行权的最大截止日。&lt;/li>
 &lt;li>买卖行为：看涨（Call） or 看跌（Put）&lt;/li>
 &lt;li>行权：买方有选择是否要行权的权利，卖家没有选择。&lt;/li>
-&lt;/ul></description></item><item><title>【深度理财23】什么是期权</title><link>https://blog.forecho.com/financedeep-23.html</link><pubDate>Fri, 19 Mar 2021 19:09:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-23.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>今年 1 月底，我还是开始使用期权交易了，这一个月来我教了很多「学费」，学了很多，所以我打算写几篇文章分享和记录自己的学习成果。&lt;/p>
-&lt;p>⚠️ 期权是一种金融衍生品，相比股票，它要学的东西比较多，高收益同时也是高风险，而且学会了也不一定能赚钱，所以是否入场请三思。&lt;/p>
-&lt;h2 id="期权七大要素">期权七大要素&lt;/h2>
-&lt;p>「期权」顾名思义就是指某个时间以指定价格买卖的权利。&lt;/p>
-&lt;p>期权的七大要素：&lt;/p>
-&lt;ul>
-&lt;li>资产标的&lt;/li>
-&lt;li>买卖行为&lt;/li>
-&lt;li>权利金&lt;/li>
-&lt;li>保证金&lt;/li>
-&lt;li>行权价&lt;/li>
-&lt;li>到期日&lt;/li>
-&lt;li>是否行权&lt;/li>
 &lt;/ul></description></item></channel></rss>

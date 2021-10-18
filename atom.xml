@@ -1,4 +1,95 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 09 Sep 2021 09:50:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>讨薪维权之路</title><link>https://blog.forecho.com/the-road-to-asking-for-pay-and-defending-rights.html</link><pubDate>Thu, 09 Sep 2021 09:50:00 +0800</pubDate><guid>https://blog.forecho.com/the-road-to-asking-for-pay-and-defending-rights.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 18 Oct 2021 18:09:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>GitHub 组织项目免费使用 Vercel</title><link>https://blog.forecho.com/free-use-of-vercel-for-github-organizational.html</link><pubDate>Mon, 18 Oct 2021 18:09:00 +0800</pubDate><guid>https://blog.forecho.com/free-use-of-vercel-for-github-organizational.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>&lt;a href="https://vercel.com/">Vercel&lt;/a> 是一个静态网站托管项目，而且有很多东西自动化完成，反正就是非常的方便和省事，我的&lt;a href="https://stock.forecho.com/">港美股平台推荐&lt;/a>网页就是使用 Vercel 托管的，访问速度很快吧。&lt;/p>
+&lt;p>Vercel 托管 GitHub 个人项目是免费的，不管私有还是开源，这还是比较良心的，但是组织项目是收费的，需要在 Vercel 创建 Team 才能使用，但是吧价格太贵了，对于目前没有收入的我来说有点承受不起，于是就找到了一种方式可以免费托管 GitHub 组织项目代码的方式。&lt;/p>
+&lt;h2 id="操作步骤">操作步骤&lt;/h2>
+&lt;h3 id="本地环境搭建">本地环境搭建&lt;/h3>
+&lt;p>本地先有 &lt;a href="https://nodejs.org/">Nodejs&lt;/a> 环境，然后执行下面代码安装 Vercel&lt;/p>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-fallback" data-lang="fallback">npm i -g vercel
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="搭建项目">搭建项目&lt;/h3>
+&lt;p>然后就开始本地搭建项目了，不管你是博客还是文档都可以，支持的 &lt;a href="https://vercel.com/new/templates">template&lt;/a> 有很多。&lt;/p>
+&lt;p>比方说我想搭建一个文档，我就找到了官方的&lt;a href="https://github.com/shuding/nextra">文档示例项目代码&lt;/a>，下载了一份直接就可以用了。&lt;/p>
+&lt;h3 id="创建-velcel-项目">创建 Velcel 项目&lt;/h3>
+&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20211018e1a6SM.png" alt="">&lt;/p>
+&lt;p>在网页上我们只能通过导入 GitHub 项目的方式创建 Velcel 项目，免费版不能在线使用 GitHub 组织的代码，所以我们要使用命令行创建。&lt;/p>
+&lt;p>在上一步准备好的项目根目录执行 &lt;code>vercel&lt;/code> 命令，然后按照提示一路操作就可以了，选项我都是选默认的，这个要按照项目情况选。&lt;/p>
+&lt;p>然后使用 &lt;code>cat&lt;/code> 命令获取 &lt;code>orgId&lt;/code> 和 &lt;code>projectId&lt;/code> 的值&lt;/p>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-fallback" data-lang="fallback">cat .vercel/project.json
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="添加-github-actions">添加 GitHub Actions&lt;/h3>
+&lt;p>在当前项目添加 Github Action 部署文件 &lt;code>.github/workflows/deploy.yml&lt;/code>，实现自动化部署，代码如下：&lt;/p>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-fallback" data-lang="fallback">name: deploy website preview
+on:
+push:
+branches:
+- main
+jobs:
+deploy:
+runs-on: ubuntu-latest
+steps:
+- uses: actions/checkout@v2
+- uses: amondnet/vercel-action@v20
+with:
+github-token: ${{ secrets.GITHUB_TOKEN }}
+vercel-token: ${{ secrets.VERCEL_TOKEN }}
+vercel-args: &amp;#39;--prod&amp;#39; #Optional
+vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
+vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID_STATIC }}
+- name: preview-url
+run: |
+echo ${{ steps.vercel-action.outputs.preview-url }}
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>根据你的需求需要适当的修改。&lt;/p>
+&lt;h3 id="添加-github-actions-secrets">添加 GitHub Actions secrets&lt;/h3>
+&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20211018Xyc06u.png" alt="">&lt;/p>
+&lt;p>给 GitHub Actions 添加环境变量，在 GitHub 项目的设置里面找到相应的位置创建，我们只需要创建三个值：&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>VERCEL_ORG_ID&lt;/code>：前面获取到的 &lt;code>orgId&lt;/code>&lt;/li>
+&lt;li>&lt;code>VERCEL_PROJECT_ID_STATIC&lt;/code>：前面获取到的 &lt;code>projectId&lt;/code>&lt;/li>
+&lt;li>&lt;code>VERCEL_TOKEN&lt;/code>：在 Velcel 手动&lt;a href="https://vercel.com/account/tokens">创建 token&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>然后每次 &lt;code>push&lt;/code> 代码， Velcel 就会自动部署了。&lt;/p>
+&lt;h2 id="最后">最后&lt;/h2>
+&lt;p>这几步虽然操作起来不算麻烦，但是也费时间，有能力的朋友尽量还是购买 &lt;a href="https://vercel.com/pricing">Vercel Pro&lt;/a> 吧。&lt;/p>
+&lt;p>最后感谢 &lt;a href="https://vercel.com/">Vercel&lt;/a> 和 &lt;a href="https://github.com/amondnet/vercel-action">amondnet/vercel-action&lt;/a> 提供的服务。&lt;/p></description></item><item><title>讨薪维权之路</title><link>https://blog.forecho.com/the-road-to-asking-for-pay-and-defending-rights.html</link><pubDate>Thu, 09 Sep 2021 09:50:00 +0800</pubDate><guid>https://blog.forecho.com/the-road-to-asking-for-pay-and-defending-rights.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
 &lt;p>持续更新中&amp;hellip;&lt;/p>
 &lt;p>这是我目前正在经历的事情，打算写这篇文章记录下来，留作记录，也可以给其他人分享一些经验。&lt;/p>
 &lt;p>这不是我第一次维权了，上一次也是被欠薪，小公司，老板一直拖欠工资，欠了差不多 4 个多月最后才偿还工资，我们都没要求赔偿。当初有了解过去劳动仲裁，但是最后还没去。详情可以看 &lt;a href="https://blog.forecho.com/the-first-venture-came-to-an-end.html">《第一次创业告一段落》&lt;/a>。&lt;/p>
@@ -1197,110 +1288,4 @@ tests.&lt;span style="color:#50fa7b">MockNotificationServiceAPI&lt;/span>()
 &lt;li>开户福利：如果你还没有美股开户的话，推荐我正在使用的雪盈证券，他们目前完成开户并且入金，即享 66 港币返佣卡，入金等值 2w 港币以上享 266 港币现金 +10 美元返佣卡*1，入的越多，领的越多，最多价值 4988 港币
 ：&lt;a href="http://link.3li3.com/xueying">http://link.3li3.com/xueying&lt;/a>&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/snowballsecurities.png!s" alt="雪盈证券开户">&lt;/p></description></item><item><title>【深度理财23】什么是期权</title><link>https://blog.forecho.com/financedeep-23.html</link><pubDate>Fri, 19 Mar 2021 19:09:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-23.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>今年 1 月底，我还是开始使用期权交易了，这一个月来我教了很多「学费」，学了很多，所以我打算写几篇文章分享和记录自己的学习成果。&lt;/p>
-&lt;p>⚠️ 期权是一种金融衍生品，相比股票，它要学的东西比较多，高收益同时也是高风险，而且学会了也不一定能赚钱，所以是否入场请三思。&lt;/p>
-&lt;h2 id="期权七大要素">期权七大要素&lt;/h2>
-&lt;p>「期权」顾名思义就是指某个时间以指定价格买卖的权利。&lt;/p>
-&lt;p>期权的七大要素：&lt;/p>
-&lt;ul>
-&lt;li>资产标的&lt;/li>
-&lt;li>买卖行为&lt;/li>
-&lt;li>权利金&lt;/li>
-&lt;li>保证金&lt;/li>
-&lt;li>行权价&lt;/li>
-&lt;li>到期日&lt;/li>
-&lt;li>是否行权&lt;/li>
-&lt;/ul>
-&lt;h3 id="资产标的">资产标的&lt;/h3>
-&lt;p>指的是该期权对应的实际资产，这里我们只讲股票，所以对应的就是正股，而且并不是所有的股票都适合做期权交易，选择的正股要满足以下几点：&lt;/p>
-&lt;ul>
-&lt;li>选择你熟悉的股票&lt;/li>
-&lt;li>选择期权交易量大的正股，比方说特斯拉，苹果，QQQ，SQQQ 等，交易量小的股票（期权）有可能买（卖）不出去，到时候你只能溢价交易了。&lt;/li>
-&lt;/ul>
-&lt;h3 id="买卖行为">买卖行为&lt;/h3>
-&lt;p>期权有看涨和看跌，对应的分别有买家和卖家，他们的权利（可选操作）和义务（必须操作）为：&lt;/p>
-&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20210320Yqw3Ka.png" alt="">&lt;/p>
-&lt;p>于是就有了这四个策略：&lt;/p>
-&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20210320IcwgxC.png" alt="">&lt;/p>
-&lt;ul>
-&lt;li>买方：买入 Call 或者 Put ，期权价格&lt;strong>上涨&lt;/strong>，你就会获利。&lt;/li>
-&lt;li>卖方：卖出 Call 或者 Put ，期权价格&lt;strong>下跌&lt;/strong>，你就会获利。&lt;/li>
-&lt;/ul>
-&lt;h3 id="权利金">权利金&lt;/h3>
-&lt;p>指买卖期权的金额：&lt;/p>
-&lt;ul>
-&lt;li>买家：为获取期权所赋予的权利而必须支付给卖方的费用。&lt;/li>
-&lt;li>卖家：是指卖出期权的报酬，最大收益为期权交易的成交总金额。&lt;/li>
-&lt;/ul>
-&lt;p>我们用赌场来做例子，方便大家理解：&lt;/p>
-&lt;ul>
-&lt;li>买家：类似赌场里的赌客，权利金就是赌金，赌客希望押对方向大赚一笔，押错方向最多损失全部权利金。&lt;/li>
-&lt;li>卖家：类似赌场里的庄家，希望赌客押错方向来赚取赌金（权利金）。&lt;/li>
-&lt;/ul>
-&lt;h3 id="保证金">保证金&lt;/h3>
-&lt;ul>
-&lt;li>买家：因为最大损失是权利金，风险有限而且预知，可以不行权，所以不需要冻结保证金。&lt;/li>
-&lt;li>卖家：要冻结对应的保证金，要确保有履行义务的能力。&lt;/li>
-&lt;/ul>
-&lt;h3 id="行权价">行权价&lt;/h3>
-&lt;p>到期时要交易正股的价格。&lt;/p>
-&lt;h3 id="到期日">到期日&lt;/h3>
-&lt;p>该期权要行权的日期。通常有两种：&lt;/p>
-&lt;ul>
-&lt;li>欧式期权：必须到「到期日」才可以行权&lt;/li>
-&lt;li>美式期权：到前期任一时间点都可以行权&lt;/li>
-&lt;/ul>
-&lt;p>美股和港股大部分港股都是美式期权，据我所知币安是欧式期权。&lt;/p>
-&lt;h3 id="是否行权">是否行权&lt;/h3>
-&lt;p>指买方选择是否要行权，可以选择放弃。卖家没有选择权，且必须配合买家行权。&lt;/p>
-&lt;h2 id="常见问题">常见问题&lt;/h2>
-&lt;h3 id="什么是价内与价外">什么是价内与价外？&lt;/h3>
-&lt;ul>
-&lt;li>价内：指比较划算的一边。行权价低于市价的看涨（Call）和行权价高于市价的看跌（Put）。&lt;/li>
-&lt;li>价外：指比较贵的一边。行权价高于市价的看涨（Call）和行权价低于市价的看跌（Put）。&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20210320USdV8c.png!m" alt="">&lt;/p>
-&lt;p>价内和价外会随着股价的变化，上下浮动，到日期行权价处于什么位置决定是否获利：&lt;/p>
-&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20210322t3d6th.png" alt="">&lt;/p>
-&lt;ul>
-&lt;li>买家：希望期权到期的时候行权价在&lt;strong>价内&lt;/strong>就能获得利润&lt;/li>
-&lt;li>卖家：希望期权到期的时候行权价在&lt;strong>价外&lt;/strong>就能获得利润&lt;/li>
-&lt;/ul>
-&lt;h3 id="影响权利金的因素有哪些">影响权利金的因素有哪些？&lt;/h3>
-&lt;p>权利金 = 内在价值 + 外在价值：&lt;/p>
-&lt;ul>
-&lt;li>内在价值：市价和行权价的「差价」，因为卖家必须有行权的义务，因此内在价值越大时，代表买家获利也越大，对应的买家必须花更高的权利金。&lt;/li>
-&lt;li>外在价值：包括：
-&lt;ul>
-&lt;li>时间价值：距离期权到期日越久，代表不确定性更大，因此权利金也越高。&lt;/li>
-&lt;li>隐含波动率：是将市场上的权证交易价格代入权证理论价格模型（一种算法），反推出来的波动率数值。它的值越大代表不确定性越高，所以权利金也越昂贵。&lt;/li>
-&lt;li>利率、股息率等等&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;h3 id="行权策略">行权策略&lt;/h3>
-&lt;p>我主要用的是富途证券来操作期权，他们的行权策略是：&lt;/p>
-&lt;ul>
-&lt;li>提前行权需要打电话联系客服，看来他们不提倡这种操作。&lt;/li>
-&lt;li>到期日当天期权为价外，则期权归零，不行权。若为期权价内期权会自动行权，前提是你账户有足够的资金行权，没有足够资金则强制平仓期权。&lt;/li>
-&lt;/ul>
-&lt;p>实际上我们没必要行权，我们只需要在到期日之前交易期权赚取差价就够了。&lt;/p>
-&lt;h2 id="最后">最后&lt;/h2>
-&lt;p>这篇文章主要分享了一些期权的基础知识，了解了这些基础之后我们才能更好的操作期权，现在我们来简单回顾一下这些基础知识，期权的七大要素：&lt;/p>
-&lt;ul>
-&lt;li>资产标的：该选择权对应的实际资产，例如 NIO、AAPL 股票&lt;/li>
-&lt;li>权利金：买方用来购买「选择权」的金额，卖家能获取到的最大金额&lt;/li>
-&lt;li>保证金：被冻结的金额，确保卖方有履行义务的能力。&lt;/li>
-&lt;li>行权价：到期时要交易的价格。&lt;/li>
-&lt;li>到期日：行权的最大截止日。&lt;/li>
-&lt;li>买卖行为：看涨（Call） or 看跌（Put）&lt;/li>
-&lt;li>行权：买方有选择是否要行权的权利，卖家没有选择。&lt;/li>
-&lt;/ul>
-&lt;p>下篇文章我再来介绍期权交易的基本策略，如果你对期权交易感兴趣，并且觉得这篇文章对你有帮助的话，欢迎分享与订阅。&lt;/p>
-&lt;h2 id="福利">福利&lt;/h2>
-&lt;ul>
-&lt;li>微信群：年初我创建了一个微信投资交流群，想加群的朋友先加我微信 ipzone 我拉你进群，申请好友请备注来意。&lt;/li>
-&lt;li>开户福利：如果你还没有美股开户的话，推荐我正在使用的富途证券，他们目前开户成功入金有送股票，开户链接：&lt;a href="http://link.3li3.com/futu">http://link.3li3.com/futu&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/futu5.png!s" alt="富途证券开户">&lt;/p></description></item></channel></rss>
+&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/snowballsecurities.png!s" alt="雪盈证券开户">&lt;/p></description></item></channel></rss>
