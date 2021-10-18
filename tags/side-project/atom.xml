@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Side project on forecho's Blog</title><link>https://blog.forecho.com/tags/side-project.html</link><description>Recent content in Side project on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 04 Sep 2020 14:09:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/tags/side-project/atom.xml" rel="self" type="application/rss+xml"/><item><title>CashWarden 一款开源的资产管理系统</title><link>https://blog.forecho.com/hello-cashwarden.html</link><pubDate>Fri, 04 Sep 2020 14:09:00 +0800</pubDate><guid>https://blog.forecho.com/hello-cashwarden.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
 &lt;p>今天要分享是一款我自己写的资产管理系统，而且这个系统代码开源。这篇文章我就来说说它的特性和使用指南。&lt;/p>
 &lt;ul>
-&lt;li>官网地址： &lt;a href="http://www.cashwarden.com/">http://www.cashwarden.com/&lt;/a>&lt;/li>
+&lt;li>官网地址： &lt;a href="https://cashwarden.com/">https://cashwarden.com/&lt;/a>&lt;/li>
 &lt;li>源码地址： &lt;a href="https://github.com/cashwarden">https://github.com/cashwarden&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="特性">特性&lt;/h2>

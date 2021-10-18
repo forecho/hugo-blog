@@ -3,7 +3,7 @@
 &lt;p>我觉得 CashWarden 最大的亮点就是快速记账功能了，所以这篇文章我会分享这个功能的使用指南以及我对此的一些思考，如果你有更好的想法欢迎与我交流。&lt;/p></description></item><item><title>CashWarden 一款开源的资产管理系统</title><link>https://blog.forecho.com/hello-cashwarden.html</link><pubDate>Fri, 04 Sep 2020 14:09:00 +0800</pubDate><guid>https://blog.forecho.com/hello-cashwarden.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
 &lt;p>今天要分享是一款我自己写的资产管理系统，而且这个系统代码开源。这篇文章我就来说说它的特性和使用指南。&lt;/p>
 &lt;ul>
-&lt;li>官网地址： &lt;a href="http://www.cashwarden.com/">http://www.cashwarden.com/&lt;/a>&lt;/li>
+&lt;li>官网地址： &lt;a href="https://cashwarden.com/">https://cashwarden.com/&lt;/a>&lt;/li>
 &lt;li>源码地址： &lt;a href="https://github.com/cashwarden">https://github.com/cashwarden&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="特性">特性&lt;/h2>
