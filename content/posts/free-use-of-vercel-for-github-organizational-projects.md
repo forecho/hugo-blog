@@ -90,3 +90,5 @@ jobs:
 ## 最后
 
 这几步虽然操作起来不算麻烦，但是也费时间，有能力的朋友尽量还是购买 [Vercel Pro](https://vercel.com/pricing) 吧。
+
+最后感谢 [Vercel](https://vercel.com/) 和 [amondnet/vercel-action](https://github.com/amondnet/vercel-action) 提供的服务。
