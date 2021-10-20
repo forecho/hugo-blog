@@ -62,7 +62,7 @@ PS：上家公司用的是 Jira 管理项目，当时就体验过，用过这个
 
 ## 对小团队更友好
 
-Jira 功能强大，也很复杂，没有免费版，不太适合小团队。而 Linear 对小团队非常优化，免费用户功能很良心。具体区别你可以看看这个页面 - [Pricing](https://linear.app/pricing)
+Jira 功能强大，也很复杂，没有免费版，不太适合小团队。而 Linear 对小团队非常友好，免费用户功能很良心。具体区别你可以看看这个页面 - [Pricing](https://linear.app/pricing)
 
 ## 最后
 
