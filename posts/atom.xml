@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on forecho's Blog</title><link>https://blog.forecho.com/posts.html</link><description>Recent content in Posts on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 18 Oct 2021 18:09:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/posts/atom.xml" rel="self" type="application/rss+xml"/><item><title>GitHub 组织项目免费使用 Vercel</title><link>https://blog.forecho.com/free-use-of-vercel-for-github-organizational.html</link><pubDate>Mon, 18 Oct 2021 18:09:00 +0800</pubDate><guid>https://blog.forecho.com/free-use-of-vercel-for-github-organizational.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on forecho's Blog</title><link>https://blog.forecho.com/posts.html</link><description>Recent content in Posts on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 20 Oct 2021 10:59:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/posts/atom.xml" rel="self" type="application/rss+xml"/><item><title>使用 Linear 来管理你的项目</title><link>https://blog.forecho.com/using-linear.html</link><pubDate>Wed, 20 Oct 2021 10:59:00 +0800</pubDate><guid>https://blog.forecho.com/using-linear.html</guid><description>&lt;p>&lt;a href="https://linear.app/">&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20211020VXxM9t.png" alt="">&lt;/a>&lt;/p>
+&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>互联网时代，大家做软件开发通常都是使用&lt;a href="https://zh.wikipedia.org/zh/Scrum">敏捷开发&lt;/a>的模式，那么告别小作坊式的软件开发应该从使用项目管理工具开始。&lt;/p>
+&lt;p>从事 WEB 开发接近 9 年了，这些年来从刚开始的公司没有项目管理工具，到后来用过 &lt;a href="https://trello.com/">Trello&lt;/a>、&lt;a href="https://www.tapd.cn/">TAPD&lt;/a> 、&lt;a href="https://www.teambition.com/">Teambition&lt;/a> 、&lt;a href="https://github.com/cashwarden/web/projects">Github Projects&lt;/a> 、&lt;a href="https://www.atlassian.com/software/jira">Jira&lt;/a> 等不计其数的产品。&lt;/p></description></item><item><title>GitHub 组织项目免费使用 Vercel</title><link>https://blog.forecho.com/free-use-of-vercel-for-github-organizational.html</link><pubDate>Mon, 18 Oct 2021 18:09:00 +0800</pubDate><guid>https://blog.forecho.com/free-use-of-vercel-for-github-organizational.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
 &lt;p>&lt;a href="https://vercel.com/">Vercel&lt;/a> 是一个静态网站托管项目，而且有很多东西自动化完成，反正就是非常的方便和省事，我的&lt;a href="https://stock.forecho.com/">港美股平台推荐&lt;/a>网页就是使用 Vercel 托管的，访问速度很快吧。&lt;/p>
 &lt;p>Vercel 托管 GitHub 个人项目是免费的，不管私有还是开源，这还是比较良心的，但是组织项目是收费的，需要在 Vercel 创建 Team 才能使用，但是吧价格太贵了，对于目前没有收入的我来说有点承受不起，于是就找到了一种方式可以免费托管 GitHub 组织项目代码的方式。&lt;/p></description></item><item><title>讨薪维权之路</title><link>https://blog.forecho.com/the-road-to-asking-for-pay-and-defending-rights.html</link><pubDate>Thu, 09 Sep 2021 09:50:00 +0800</pubDate><guid>https://blog.forecho.com/the-road-to-asking-for-pay-and-defending-rights.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
 &lt;p>持续更新中&amp;hellip;&lt;/p>
@@ -97,16 +100,4 @@
 &lt;h2 id="特色">特色&lt;/h2>
 &lt;h3 id="风格基于-tailwind-csshttpstailwindcsscom">风格基于 &lt;a href="https://tailwindcss.com/">Tailwind CSS&lt;/a>&lt;/h3>
 &lt;p>TailwindCSS 可以说是这两年比较火的 CSS 框架了，看腻了 &lt;a href="https://getbootstrap.com/">Bootstrap&lt;/a> 的样式，觉得 TailwindCSS 真漂亮，但是在使用上不同于 Bootstrap， TailwindCSS 给人的一种感觉是面向过程写代码，可以自己自由组装各种样式，缺点是学习门槛高一点。而且可能要写大量重复的代码。&lt;/p>
-&lt;p>这次采用 TailwindCSS 做为主题 CSS 框架，一是因为它样式好看，二是尝鲜，换思路写 CSS。&lt;/p></description></item><item><title>【深度理财24】期权交易基本策略</title><link>https://blog.forecho.com/financedeep-24.html</link><pubDate>Tue, 23 Mar 2021 16:09:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-24.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>上一篇文章我分享了&lt;a href="https://blog.forecho.com/financedeep-23.html">《【深度理财23】什么是期权》&lt;/a>，那么这一篇文件我就来分享期权的基本交易策略。&lt;/p>
-&lt;h2 id="交易流程">交易流程&lt;/h2>
-&lt;p>我们先来回顾一下期权的七大要素：&lt;/p>
-&lt;ul>
-&lt;li>资产标的：该选择权对应的实际资产，例如 NIO、AAPL 股票&lt;/li>
-&lt;li>权利金：买方用来购买「选择权」的金额，卖家能获取到的最大金额&lt;/li>
-&lt;li>保证金：被冻结的金额，确保卖方有履行义务的能力。&lt;/li>
-&lt;li>行权价：到期时要交易的价格。&lt;/li>
-&lt;li>到期日：行权的最大截止日。&lt;/li>
-&lt;li>买卖行为：看涨（Call） or 看跌（Put）&lt;/li>
-&lt;li>行权：买方有选择是否要行权的权利，卖家没有选择。&lt;/li>
-&lt;/ul></description></item></channel></rss>
+&lt;p>这次采用 TailwindCSS 做为主题 CSS 框架，一是因为它样式好看，二是尝鲜，换思路写 CSS。&lt;/p></description></item></channel></rss>

@@ -1,4 +1,38 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 18 Oct 2021 18:09:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>GitHub 组织项目免费使用 Vercel</title><link>https://blog.forecho.com/free-use-of-vercel-for-github-organizational.html</link><pubDate>Mon, 18 Oct 2021 18:09:00 +0800</pubDate><guid>https://blog.forecho.com/free-use-of-vercel-for-github-organizational.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 20 Oct 2021 10:59:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>使用 Linear 来管理你的项目</title><link>https://blog.forecho.com/using-linear.html</link><pubDate>Wed, 20 Oct 2021 10:59:00 +0800</pubDate><guid>https://blog.forecho.com/using-linear.html</guid><description>&lt;p>&lt;a href="https://linear.app/">&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20211020VXxM9t.png" alt="">&lt;/a>&lt;/p>
+&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>互联网时代，大家做软件开发通常都是使用&lt;a href="https://zh.wikipedia.org/zh/Scrum">敏捷开发&lt;/a>的模式，那么告别小作坊式的软件开发应该从使用项目管理工具开始。&lt;/p>
+&lt;p>从事 WEB 开发接近 9 年了，这些年来从刚开始的公司没有项目管理工具，到后来用过 &lt;a href="https://trello.com/">Trello&lt;/a>、&lt;a href="https://www.tapd.cn/">TAPD&lt;/a> 、&lt;a href="https://www.teambition.com/">Teambition&lt;/a> 、&lt;a href="https://github.com/cashwarden/web/projects">Github Projects&lt;/a> 、&lt;a href="https://www.atlassian.com/software/jira">Jira&lt;/a> 等不计其数的产品。&lt;/p>
+&lt;p>今天我正式给大家推荐到目前为止我用过的最满意的项目管理工具 - &lt;a href="https://linear.app/">Linear&lt;/a>，下面我就挑几个本人喜欢的亮点谈谈：&lt;/p>
+&lt;h2 id="多种视角">多种视角&lt;/h2>
+&lt;p>可以从多种视角获取项目的进度：&lt;/p>
+&lt;h3 id="清单模式">清单模式&lt;/h3>
+&lt;p>可以让你专注于当下任务。&lt;/p>
+&lt;h3 id="看板模式">看板模式&lt;/h3>
+&lt;p>可以让你一览项目整体情况。&lt;/p>
+&lt;h3 id="甘特图模式">甘特图模式：&lt;/h3>
+&lt;p>了解项目的整体进度，防止延期。&lt;/p>
+&lt;h2 id="自动化">自动化&lt;/h2>
+&lt;p>这里指的是配合 GitHub、GitLab 实现任务状态自动更新的功能，使用此功能要先配置 GitHub、GitLab，其他配置可以使用默认的也可以自定义。&lt;/p>
+&lt;p>此功能是我最喜欢的功能了，而且这也是我使用 Linear 最大的原因。这是一种工作流程，大概流程就是：&lt;/p>
+&lt;ul>
+&lt;li>先在项目管理里面创建一个 Issue，也就是任务&lt;/li>
+&lt;li>然后代码里面，新建一个分支开发任务，关键在于这个分支的命名，必须要按照约定的规则命名。&lt;/li>
+&lt;li>开发完成之后提交 PR (Pull request) 然后状态就会自动更新为「In Progress」&lt;/li>
+&lt;li>PR 被合并之后，任务的状态就自动更新为「Done」&lt;/li>
+&lt;li>最重要的是 PR 页面会自动贴上 Linear 任务单连接，Linear 任务单这边也会自动补上 PR 单，非常方便回顾和查看&lt;/li>
+&lt;/ul>
+&lt;p>详情介绍可以去看官网文档 - &lt;a href="https://linearapp.notion.site/GitHub-and-GitLab-fa4b88df484343e4989538f066c729f3">《GitHub and GitLab》&lt;/a>&lt;/p>
+&lt;p>PS：上家公司用的是 Jira 管理项目，当时就体验过，用过这个功能之后就觉得「真是太棒了」，但是 Jira 没有提供免费版本，而 Linear 可以免费使用。&lt;/p>
+&lt;h2 id="开放生态">开放生态&lt;/h2>
+&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20211020XuH2yo.png" alt="">&lt;/p>
+&lt;p>国内的话生态太差了，很多软件都不会打通，Linear 目前支持以上几个平台。&lt;/p>
+&lt;p>举个列子 Linear 连接 &lt;a href="https://slack.com/intl/zh-cn/">Slack&lt;/a> 之后，如果有任务更新状态也会自动给 Slack 发消息，方便同步消息。&lt;/p>
+&lt;p>上面的自动化功能就得益于生态的开放，反正我没看到有一家国内项目管理有此功能的。&lt;/p>
+&lt;h2 id="对小团队更友好">对小团队更友好&lt;/h2>
+&lt;p>Jira 功能强大，也很复杂，没有免费版，不太适合小团队。而 Linear 对小团队非常优化，免费用户功能很良心。具体区别你可以看看这个页面 - &lt;a href="https://linear.app/pricing">Pricing&lt;/a>&lt;/p>
+&lt;h2 id="最后">最后&lt;/h2>
+&lt;p>知道这个工具还是得意于推友 &lt;a href="https://twitter.com/liuyi0922">@61&lt;/a> 的推文，然后去体验了一把，确实很给力，而且还可以免费使用我一直在寻找的自动化功能，真的非常感谢。&lt;/p>
+&lt;p>另外 GitHub Projects 其实也有类似的功能，但是其他功能就比较简陋了。另外还有一款类似的项目管理工具 - &lt;a href="https://height.app/">Height&lt;/a> ，设计理念有点区别，有兴趣也可以去体验一下。&lt;/p></description></item><item><title>GitHub 组织项目免费使用 Vercel</title><link>https://blog.forecho.com/free-use-of-vercel-for-github-organizational.html</link><pubDate>Mon, 18 Oct 2021 18:09:00 +0800</pubDate><guid>https://blog.forecho.com/free-use-of-vercel-for-github-organizational.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
 &lt;p>&lt;a href="https://vercel.com/">Vercel&lt;/a> 是一个静态网站托管项目，而且有很多东西自动化完成，反正就是非常的方便和省事，我的&lt;a href="https://stock.forecho.com/">港美股平台推荐&lt;/a>网页就是使用 Vercel 托管的，访问速度很快吧。&lt;/p>
 &lt;p>Vercel 托管 GitHub 个人项目是免费的，不管私有还是开源，这还是比较良心的，但是组织项目是收费的，需要在 Vercel 创建 Team 才能使用，但是吧价格太贵了，对于目前没有收入的我来说有点承受不起，于是就找到了一种方式可以免费托管 GitHub 组织项目代码的方式。&lt;/p>
 &lt;h2 id="操作步骤">操作步骤&lt;/h2>
@@ -1190,102 +1224,4 @@ tests.&lt;span style="color:#50fa7b">MockNotificationServiceAPI&lt;/span>()
 &lt;ul>
 &lt;li>主题的地址 &lt;a href="https://github.com/forecho/hugo-theme-echo">hugo-theme-echo&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://github.com/forecho/hugo-blog">本博客的源码地址&lt;/a>：你可以参考我的 Hugo 配置信息和 GitHub Actions 配置&lt;/li>
-&lt;/ul></description></item><item><title>【深度理财24】期权交易基本策略</title><link>https://blog.forecho.com/financedeep-24.html</link><pubDate>Tue, 23 Mar 2021 16:09:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-24.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>上一篇文章我分享了&lt;a href="https://blog.forecho.com/financedeep-23.html">《【深度理财23】什么是期权》&lt;/a>，那么这一篇文件我就来分享期权的基本交易策略。&lt;/p>
-&lt;h2 id="交易流程">交易流程&lt;/h2>
-&lt;p>我们先来回顾一下期权的七大要素：&lt;/p>
-&lt;ul>
-&lt;li>资产标的：该选择权对应的实际资产，例如 NIO、AAPL 股票&lt;/li>
-&lt;li>权利金：买方用来购买「选择权」的金额，卖家能获取到的最大金额&lt;/li>
-&lt;li>保证金：被冻结的金额，确保卖方有履行义务的能力。&lt;/li>
-&lt;li>行权价：到期时要交易的价格。&lt;/li>
-&lt;li>到期日：行权的最大截止日。&lt;/li>
-&lt;li>买卖行为：看涨（Call） or 看跌（Put）&lt;/li>
-&lt;li>行权：买方有选择是否要行权的权利，卖家没有选择。&lt;/li>
-&lt;/ul>
-&lt;p>根据期权的七大要素，我一般是分这几步来操作期权：&lt;/p>
-&lt;ul>
-&lt;li>先选择要交易期权的正股&lt;/li>
-&lt;li>预测走势，看涨、看跌或者横盘&lt;/li>
-&lt;li>选时间，赌财报的话我会选择财报之后一周左右到日期，否则还是选择长期，少则一个月，长则半年以上&lt;/li>
-&lt;li>看隐含波动率和交易量还有价格&lt;/li>
-&lt;/ul>
-&lt;h2 id="买方">买方&lt;/h2>
-&lt;h3 id="买-call看大涨">买 Call（看大涨）&lt;/h3>
-&lt;p>买 Call 就代表你有权以约定好的价格购买股票。&lt;/p>
-&lt;ul>
-&lt;li>何时使用：当你认为市场为牛市或大牛市时；偶尔赌财报时。&lt;/li>
-&lt;li>获利特点：行权价 &amp;lt; 市价才能获利。到期时，收支平衡点为看涨期行权价 + 期权成本价，新手买期权往往忽视这点，以为到期日市价小于行权价就可以获利了，你应该要关注你的期权成本。&lt;/li>
-&lt;li>损失特点：损失上限为所支付的权利金。如果市价最终低于期权行权价，则损失达到最大。&lt;/li>
-&lt;li>衰减特点：权利金为消耗性资产。随着时间的流逝，权利金日益减少。这就是为什么股票横盘你的期权也会亏的原因。&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20210320gdybFF.png!m" alt="买 Call">&lt;/p>
-&lt;p>上图是我买的一张行权价为 85 几个月之后到期的 AMD Call，富途证券 Mac 客户端（手机客户端好像没找到）有展示，这张期权到期日要大于 90.2 我才能获利。&lt;/p>
-&lt;p>买 Call 策略是小白上手期权最简单的方式了，这种方式：&lt;/p>
-&lt;ul>
-&lt;li>优势：小资金高杠杆、盈利无限、亏损有限，最大亏损为买入期权时付出的期权费&lt;/li>
-&lt;li>不足：随着到期日的接近会不断损失时间价值&lt;/li>
-&lt;/ul>
-&lt;p>用来赌财报用这种方式有非常大的诱惑，但是我还是劝大家谨慎用此方式，因为如果正股横盘或者下跌都会亏钱的，所以亏起来非常快。&lt;/p>
-&lt;h3 id="买-put看大跌">买 Put（看大跌）&lt;/h3>
-&lt;p>买 Put 就代表你有权以约定好的价格卖出股票。&lt;/p>
-&lt;ul>
-&lt;li>何时使用：当您认为市场为熊市或大熊市时；看跌某个股票。&lt;/li>
-&lt;li>获利特点：行权价 &amp;gt; 市价才能获利。到期时，收支平衡点为行权价 A - 期权成本价。&lt;/li>
-&lt;li>损失特点：损失上限为所支付的权利金。如果市场最终超过行权价 A，则损失达到最大。&lt;/li>
-&lt;li>衰减特点：权利金为消耗性资产。随着时间的流逝，权利金日益减少。股票横盘你的期权也会亏。&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20210323lBONwr.png!m" alt="买 Put">&lt;/p>
-&lt;p>上图是一张行权价为 26 一个月之后到期的 TME Put，富途证券 Mac 客户端（手机客户端好像没找到）有展示，这张期权到期日要小于 25.6 我才能获利。&lt;/p>
-&lt;p>买 Put 与买 Call 很类似，区别就是前者是看跌后者是看涨。所以它们的特点是一样的：&lt;/p>
-&lt;ul>
-&lt;li>优势：高杠杆、亏损有限（最大亏损为买入期权时付出的期权费）&lt;/li>
-&lt;li>不足：随着到期日的接近会不断损失时间价值&lt;/li>
-&lt;/ul>
-&lt;h2 id="卖期权">卖期权&lt;/h2>
-&lt;p>新手买期权，高手卖期权。买期权用小资金就能获利几倍，给人的诱惑非常大，但是市场的趋势是很难预测的，特别是期权还是一个有时间期权的预测，那就更难了。所以卖期权看似收益少，但是比较容易获利。&lt;/p>
-&lt;h3 id="卖-call横盘或者小跌">卖 Call（横盘或者小跌）&lt;/h3>
-&lt;p>卖 Call 指你有义务以约定好的价格卖出股票，简单理解就相当于你给股票设置了一个止损价，如果股票涨到价格 A 就卖出，没涨到价格 A 你就赚到了权利金。&lt;/p>
-&lt;p>所以为了保险起见请提前买入相应的股票数量，不然到时候股票大涨，你还在做空，那就亏死。&lt;/p>
-&lt;ul>
-&lt;li>何时使用：当您持熊市观点时。如果对市场下跌信心不足，卖出较高行权价的看涨期权，如果确信市场将停滞或下跌，卖出平价看涨期权。&lt;/li>
-&lt;li>获利特点：获利最大为权利金收入。到期时，收支平衡点为执行价 格 A 加上权利金收入。如果市价等于或低于行权价 A，则获利达到最大。&lt;/li>
-&lt;li>损失特点：潜在损失无限。损失随市价上涨而增加。到期时，市价每高于收支平衡点一个点，损失即增加一个点。 由于风险是无限的，必须密切关注持仓。&lt;/li>
-&lt;li>衰减特点：持仓市值因时间衰减而获利。期权卖方的获利随期权时间价值的流逝而增加。如果市价低于或者等于行权价，则可从时间衰减中获得最大盈利。&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20210320ge6LDh.png!m" alt="卖 Call">&lt;/p>
-&lt;p>上图是一张行权价为 85 几个月之后到期的 AMD Call，富途证券 Mac 客户端（手机客户端好像没找到）有展示，如果你卖了这张 Call，那么它到期日要股票市价小于 98.55 你就能获利，当股价等于行权价时，你就能赚到所有的权利金，缺点是股价跌到行权价以下也跟你没关系了，你已经赚到所有你能赚到的了。&lt;/p>
-&lt;p>总的来说卖 Call 的特点是：&lt;/p>
-&lt;ul>
-&lt;li>优势: 如果股票低于行权价，则大赚可以获取时间价值的额外收益；&lt;/li>
-&lt;li>不足: 保证金要求较高、亏损无限、盈利有限（最大盈利为卖出期权时收到的期权费）；&lt;/li>
-&lt;/ul>
-&lt;p>裸卖 Call 如果股票涨了，甚至大涨，你的风险还是很大的，所以一般的建议是同时买 100 股（1 张期权对应 100 股正股 ）正股你再卖 Call ，大涨最多就是少赚了点，它的特点就变成：&lt;/p>
-&lt;ul>
-&lt;li>优势：持有正股的同时可获取额外的收益、为正股下跌提供一定的保护&lt;/li>
-&lt;li>不足：正股快速上涨时可能会被迫卖出股票（期权被行权）&lt;/li>
-&lt;/ul>
-&lt;h3 id="卖-put-横盘或者小涨">卖 Put （横盘或者小涨）&lt;/h3>
-&lt;p>买 Put 指你有义务以约定好的价格买入股票，简单理解就相当于你给股票设置了一个限价单。如果股票跌到价格 A 就要买入，没跌到价格 A 你就赚到了权利金。&lt;/p>
-&lt;ul>
-&lt;li>何时使用：如果您坚信市场不会下跌。如果您只是有些相信，则卖出较低于市价期权;如果非常确信市场会横盘或上涨，则卖出平价期权。如果您怀疑市场会停滞且比较看多，卖出溢价期权以获得最大盈利。&lt;/li>
-&lt;li>获利特点：获利限于出售看跌期权所收到的权利金。到期时，收支平衡点为执行价格 A 减去权利金收入。如果市场结算价等于或高于 A，则获利达到最大。&lt;/li>
-&lt;li>损失特点：潜在损失无限。损失随市场下跌而增加。由于风险是无限的，必须密切关注头寸。&lt;/li>
-&lt;li>衰减特点：权利金因时间衰减而获利。期权卖方的获利随期权时间价值的流逝而增加。如果期权为平价期权，则可从时间衰减中获得最大盈利。&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/202103238w3mZG.png!m" alt="卖 Put">&lt;/p>
-&lt;p>上图是一张行权价为 26 几天之后到期的 TME Put，富途证券 Mac 客户端（手机客户端好像没找到）有展示，这张期权到期日股票市价要大于 31.17 我才能获利。&lt;/p>
-&lt;ul>
-&lt;li>优势：可以获取时间价值的额外收益&lt;/li>
-&lt;li>不足：保证金要求较高、盈利有限（最大盈利为卖出期权时收到的期权费）&lt;/li>
-&lt;/ul>
-&lt;h2 id="总结">总结&lt;/h2>
-&lt;p>期权的基本策略就是以上几种了，总的来说就是卖期权比买期权容易赚钱，但是需要冻结保证金，而且赚的钱有限，很多人瞧不上，于是都禁不住诱惑去买期权，买期权虽然小资金押对方向之后能赚到大钱，但是太难了，不亚于赌博。如果一碰到熊市那就是在送钱。&lt;/p>
-&lt;p>本篇文章就讲这么多了，下次我再来分享我交易期权踩过的坑，如果你感兴趣，并且觉得这篇文章对你有帮助的话，欢迎分享与订阅。&lt;/p>
-&lt;h2 id="福利">福利&lt;/h2>
-&lt;ul>
-&lt;li>微信群：年初我创建了一个微信投资交流群，想加群的朋友先加我微信 ipzone 我拉你进群，申请好友请备注来意。&lt;/li>
-&lt;li>开户福利：如果你还没有美股开户的话，推荐我正在使用的雪盈证券，他们目前完成开户并且入金，即享 66 港币返佣卡，入金等值 2w 港币以上享 266 港币现金 +10 美元返佣卡*1，入的越多，领的越多，最多价值 4988 港币
-：&lt;a href="http://link.3li3.com/xueying">http://link.3li3.com/xueying&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/snowballsecurities.png!s" alt="雪盈证券开户">&lt;/p></description></item></channel></rss>
+&lt;/ul></description></item></channel></rss>
