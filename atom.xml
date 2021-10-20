@@ -31,7 +31,7 @@
 &lt;h2 id="对小团队更友好">对小团队更友好&lt;/h2>
 &lt;p>Jira 功能强大，也很复杂，没有免费版，不太适合小团队。而 Linear 对小团队非常优化，免费用户功能很良心。具体区别你可以看看这个页面 - &lt;a href="https://linear.app/pricing">Pricing&lt;/a>&lt;/p>
 &lt;h2 id="最后">最后&lt;/h2>
-&lt;p>知道这个工具还是得意于推友 &lt;a href="https://twitter.com/liuyi0922">@61&lt;/a> 的推文，然后去体验了一把，确实很给力，而且还可以免费使用我一直在寻找的自动化功能，真的非常感谢。&lt;/p>
+&lt;p>知道这个工具还是得益于推友 &lt;a href="https://twitter.com/liuyi0922">@61&lt;/a> 的推文，然后去体验了一把，确实很给力，而且还可以免费使用我一直在寻找的自动化功能，真的非常感谢。&lt;/p>
 &lt;p>另外 GitHub Projects 其实也有类似的功能，但是其他功能就比较简陋了。另外还有一款类似的项目管理工具 - &lt;a href="https://height.app/">Height&lt;/a> ，设计理念有点区别，有兴趣也可以去体验一下。&lt;/p></description></item><item><title>GitHub 组织项目免费使用 Vercel</title><link>https://blog.forecho.com/free-use-of-vercel-for-github-organizational.html</link><pubDate>Mon, 18 Oct 2021 18:09:00 +0800</pubDate><guid>https://blog.forecho.com/free-use-of-vercel-for-github-organizational.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
 &lt;p>&lt;a href="https://vercel.com/">Vercel&lt;/a> 是一个静态网站托管项目，而且有很多东西自动化完成，反正就是非常的方便和省事，我的&lt;a href="https://stock.forecho.com/">港美股平台推荐&lt;/a>网页就是使用 Vercel 托管的，访问速度很快吧。&lt;/p>
 &lt;p>Vercel 托管 GitHub 个人项目是免费的，不管私有还是开源，这还是比较良心的，但是组织项目是收费的，需要在 Vercel 创建 Team 才能使用，但是吧价格太贵了，对于目前没有收入的我来说有点承受不起，于是就找到了一种方式可以免费托管 GitHub 组织项目代码的方式。&lt;/p>
