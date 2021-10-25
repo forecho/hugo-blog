@@ -14,7 +14,6 @@ toc: true
 
 ## 迈向自由与责任
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20211023H0DxIA.jpg)
 
 ### 提高人才密度
 
@@ -141,6 +140,10 @@ Netflix 是想打造员工之间互相循环反馈机制，他们摸索了两个
 他们根据[艾琳的国家地图工具](https://erinmeyer.com/tools/)制作了 Netflix 的文化地图，然后会做相应的调整与适应。
 
 ## 推荐理由
+
+总结本书内容，如下图，Netflix 主要分三步实现了他们现现在的企业文化：
+
+![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20211023H0DxIA.jpg)
 
 「自由与责任」的核心理念就是充分给予自由，但是如果被滥用，必须受到严厉的惩罚。这种制度非常适合创意类型的公司，因为他们更多的是脑力劳动，而不是靠堆时间。
 
