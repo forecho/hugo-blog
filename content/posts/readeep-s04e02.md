@@ -89,7 +89,7 @@ FaceBook 后来也找过 Snapchat，想要收购他，但是他的创始人不�
 
 直到后来他参加奥斯卡颁奖典礼的时候，发现很多明星都会用 Snapchat 的 Stories，他知道，如果 Instagram 还是保持不变的话，它将慢慢失去用户。
 
-Instagram 发布了 Stories 之后他们也不否认是「复制」Snapchat 的 ，「就像电子邮件或短信一样，Snapchat 发明了这一方式并不意味着其他公司应该避免利用这一机会。」 这种说法得到媒体的一致好评，虽然用户有抱怨，但是数据很好看。
+Instagram 发布了 Stories 之后他们也不否认是「复制」Snapchat 的 ，「就像电子邮件或短信一样，Snapchat 发明了这一方式并不意味着其他公司应该避免利用这一机会。」这种说法得到媒体的一致好评，虽然用户有抱怨，但是数据很好看。
 
 
 然而 FaceBook 系很多 App 也疯狂的加上了 Stories 功能，特别是 WhatsApp 这种聊天软件，加上了之后给人感觉很奇怪。
@@ -97,7 +97,7 @@ Instagram 发布了 Stories 之后他们也不否认是「复制」Snapchat 的 
 
 ### WhatsApp
 
-FaceBook 收购了一家 VPN（Onavo） 软件公司 ，有了这款 VPN，FaceBook 就能知道现在网络上哪一款 App 非常火爆了，扎克伯格要赶在它们超越 FaceBook 打败它或者收购它。
+FaceBook 收购了一家 VPN（Onavo）软件公司 ，有了这款 VPN，FaceBook 就能知道现在网络上哪一款 App 非常火爆了，扎克伯格要赶在它们超越 FaceBook 打败它或者收购它。
 
 WhatsApp 就是一个很好的例子，本来是没机会收购的，但是因为 FaceBook 收购 Instagram 之后让其独立运营，成为 FaceBook 收购之后首个独立运营的一个案例。再加上收购是由 Kevin 去说服，让收购 WhatsApp 变得很顺利。
 
