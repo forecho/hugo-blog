@@ -1,4 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on forecho's Blog</title><link>https://blog.forecho.com/posts.html</link><description>Recent content in Posts on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 20 Oct 2021 10:59:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/posts/atom.xml" rel="self" type="application/rss+xml"/><item><title>使用 Linear 来管理你的项目</title><link>https://blog.forecho.com/using-linear.html</link><pubDate>Wed, 20 Oct 2021 10:59:00 +0800</pubDate><guid>https://blog.forecho.com/using-linear.html</guid><description>&lt;p>&lt;a href="https://linear.app/">&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20211020VXxM9t.png" alt="">&lt;/a>&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on forecho's Blog</title><link>https://blog.forecho.com/posts.html</link><description>Recent content in Posts on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 23 Oct 2021 14:40:58 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/posts/atom.xml" rel="self" type="application/rss+xml"/><item><title>【深度阅读 第四季 03】Netflix 的自由与责任工作法</title><link>https://blog.forecho.com/readeep-s04e03.html</link><pubDate>Sat, 23 Oct 2021 14:40:58 +0800</pubDate><guid>https://blog.forecho.com/readeep-s04e03.html</guid><description>&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20211023FmJ3os.jpg" alt="《不拘一格》">&lt;/p>
+&lt;h2 id="一段话说明这本书主要讲什么">一段话说明『这本书主要讲什么？』&lt;/h2>
+&lt;p>这是一本讲 Netflix 企业文化和企业管理的书。&lt;/p>
+&lt;h2 id="迈向自由与责任">迈向自由与责任&lt;/h2>
+&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20211023H0DxIA.jpg" alt="">&lt;/p>
+&lt;h3 id="提高人才密度">提高人才密度&lt;/h3>
+&lt;p>Netflix 是 1997 年成立，1998 年正式上线运营，刚开始只是个在线租碟的公司。2001 年春受互联网经济泡沫破裂影响，拥有 120 多名的 Netflix 也要开始裁员了。&lt;/p>
+&lt;p>裁掉了相对逊色的员工，留下表现优异的 80 名员工。这次裁员的事件让里德（Netflix CEO）有了重大认知改变。&lt;/p>
+&lt;p>虽然员工裁掉了 1/3 但是事后留下的员工很快恢复正常工作，而且个个充满激情与活力，整个公司的氛围也是高涨情绪。里德认识到虽然裁员让员工变少了，但是人才的比例变高了，即人才密度提高了。&lt;/p></description></item><item><title>使用 Linear 来管理你的项目</title><link>https://blog.forecho.com/using-linear.html</link><pubDate>Wed, 20 Oct 2021 10:59:00 +0800</pubDate><guid>https://blog.forecho.com/using-linear.html</guid><description>&lt;p>&lt;a href="https://linear.app/">&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20211020VXxM9t.png" alt="">&lt;/a>&lt;/p>
 &lt;h2 id="引言">引言&lt;/h2>
 &lt;p>互联网时代，大家做软件开发通常都是使用&lt;a href="https://zh.wikipedia.org/zh/Scrum">敏捷开发&lt;/a>的模式，那么告别小作坊式的软件开发应该从使用项目管理工具开始。&lt;/p>
 &lt;p>从事 WEB 开发接近 9 年了，这些年来从刚开始的公司没有项目管理工具，到后来用过 &lt;a href="https://trello.com/">Trello&lt;/a>、&lt;a href="https://www.tapd.cn/">TAPD&lt;/a> 、&lt;a href="https://www.teambition.com/">Teambition&lt;/a> 、&lt;a href="https://github.com/cashwarden/web/projects">Github Projects&lt;/a> 、&lt;a href="https://www.atlassian.com/software/jira">Jira&lt;/a> 等不计其数的产品。&lt;/p></description></item><item><title>GitHub 组织项目免费使用 Vercel</title><link>https://blog.forecho.com/free-use-of-vercel-for-github-organizational.html</link><pubDate>Mon, 18 Oct 2021 18:09:00 +0800</pubDate><guid>https://blog.forecho.com/free-use-of-vercel-for-github-organizational.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
@@ -94,10 +102,4 @@
 &lt;li>管理风险：高风险一定伴随着高收益，聪明的投资者一定会在两种类型的投资中寻找平衡。&lt;/li>
 &lt;li>低买高卖：我们想办法低买高卖，以获得最大回报。&lt;/li>
 &lt;li>重新评估：股票都是有周期性的，所以我们也要周期性的调整我们的仓位。&lt;/li>
-&lt;/ul></description></item><item><title>Hugo 极简主题 Echo</title><link>https://blog.forecho.com/hugo-theme-echo.html</link><pubDate>Tue, 06 Apr 2021 12:33:00 +0800</pubDate><guid>https://blog.forecho.com/hugo-theme-echo.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>去年年初的时候博客从 &lt;a href="https://blog.forecho.com/octopress-migrate-to-hugo.html">Octopress 迁移到 Hugo&lt;/a>，那个时候找遍了很多 Hugo 主题都不满意，于是自己写了一个。&lt;/p>
-&lt;p>这就是 &lt;a href="https://github.com/forecho/hugo-theme-echo">echo&lt;/a> 主题的由来。最近又优化了一下这个主题，就顺便写篇文章给大家介绍一下这个主题，刚写出来的时候只在 &lt;a href="https://www.v2ex.com/t/637170#reply13">V2EX 上&lt;/a>分享过。&lt;/p>
-&lt;h2 id="特色">特色&lt;/h2>
-&lt;h3 id="风格基于-tailwind-csshttpstailwindcsscom">风格基于 &lt;a href="https://tailwindcss.com/">Tailwind CSS&lt;/a>&lt;/h3>
-&lt;p>TailwindCSS 可以说是这两年比较火的 CSS 框架了，看腻了 &lt;a href="https://getbootstrap.com/">Bootstrap&lt;/a> 的样式，觉得 TailwindCSS 真漂亮，但是在使用上不同于 Bootstrap， TailwindCSS 给人的一种感觉是面向过程写代码，可以自己自由组装各种样式，缺点是学习门槛高一点。而且可能要写大量重复的代码。&lt;/p>
-&lt;p>这次采用 TailwindCSS 做为主题 CSS 框架，一是因为它样式好看，二是尝鲜，换思路写 CSS。&lt;/p></description></item></channel></rss>
+&lt;/ul></description></item></channel></rss>
