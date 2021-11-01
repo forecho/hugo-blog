@@ -33,6 +33,7 @@
 &lt;p>顺便推荐一下其它我在用的工具：&lt;/p>
 &lt;h3 id="sentryhttpssentryio">&lt;a href="https://sentry.io/">Sentry&lt;/a>&lt;/h3>
 &lt;p>如果小公司小项目，没有专业的测试人员，可以试试接入 &lt;a href="https://sentry.io/">Sentry&lt;/a>，无入侵的接入，可以说基本上是 0 成本使用，有了它你可以很清楚的了解线上产品的异常情况，达到快速响应。&lt;/p>
+&lt;p>而且 Sentry 也和 GitHub 还有 Jira\Linear 等很多系统打通了，生态好。&lt;/p>
 &lt;p>如果项目做大之后可以考虑接入 &lt;a href="https://www.elastic.co/products/enterprise-search">EFK&lt;/a>&lt;/p>
 &lt;h3 id="datadoghttpswwwdatadoghqcom">&lt;a href="https://www.datadoghq.com/">Datadog&lt;/a>&lt;/h3>
 &lt;p>这是一个基于 SaaS 的数据分析平台提供对服务器，数据库，工具和服务的监视。在你的项目达到一定规模，可以考虑使用这个，能帮助你节省 DevOps 人力。&lt;/p>
