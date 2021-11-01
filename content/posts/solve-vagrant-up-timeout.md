@@ -3,6 +3,7 @@ title: "解决「vagrant up」timeout 问题"
 date: 2015-07-30T22:38:00+08:00
 tags: ["Vagrant", "VirtualBox", "吐槽"] 
 ---
+
 ## 前言
 
 之前我有写[《Windows 开发利器》](/blog/windows-coding-tool.html#section-1)文章提到使用「VirtualBox + Vagrant（打造 Linux 开发环境）」，
@@ -32,14 +33,14 @@ $ vagrant package
 
 ## 第二次启动不了
 
-今天我跟往常一样在终端用`vagrant up`命令去启动的时候，一直显示的是「timeout」启动不了。然后我打开 VirtualBox，使用界面尝试着去启动，但是刚开机 boot 完之后就提示我大概意思是：系统不支持64位，CPU 不支持虚拟化。
+今天我跟往常一样在终端用`vagrant up`命令去启动的时候，一直显示的是「timeout」启动不了。然后我打开 VirtualBox，使用界面尝试着去启动，但是刚开机 boot 完之后就提示我大概意思是：系统不支持 64 位，CPU 不支持虚拟化。
 真是日了狗了，昨天之前都是用的好好的，突然就说不支持了，之前有搜过资料知道要改 BIOS 设置，但问题是我之前都是好好的，解释不通啊。
 
 然后我以为是我的软件有问题，下载了好几个版本的 VirtualBox，发现 VirtualBox 5 都出来了，但是安装之后 vagrant 说不支持，然后又去更新 vagrant，真是各种折腾。
 
 VirtualBox 有的版本启动系统的时候，报错，最后上网搜索，发现 4.3.12 版本的可以正常使用，安装后真的可以使用。
 
-但是最后还是因为「系统不支持64位，CPU 不支持虚拟化」还是不行，好吧，我要去 BIOS 看看到底是什么个情况，哪知道我那电脑又是映泰主板的，真是坑，找半天最后才百度知道在什么鬼地方的。为什么要用缩写写的方式，真是坑爹。
+但是最后还是因为「系统不支持 64 位，CPU 不支持虚拟化」还是不行，好吧，我要去 BIOS 看看到底是什么个情况，哪知道我那电脑又是映泰主板的，真是坑，找半天最后才百度知道在什么鬼地方的。为什么要用缩写写的方式，真是坑爹。
 
 找到之后发现是「enabled」状态，当时我就懵逼了，设置没问题啊。好吧，我又去开启折腾 VirtualBox 去了，又去换版本常识，最后都快有放弃使用 vagrant 的念头了。
 
@@ -65,5 +66,5 @@ toc: true
 **参考文章**：
 
 - [路径（七）：用 Vagrant 管理虚拟机](http://ninghao.net/blog/2077)
-- [Vgrant使用入门](https://github.com/astaxie/Go-in-Action/blob/master/ebook/zh/01.3.md)
-- [映泰A3怎么开启虚拟化](http://zhidao.baidu.com/link?url=HxDvjGXnQCVV73G1MtkZyIO4ym3nbSMScrLfsAnjsPIXakl39kuCtGuUtzGkVoEbPT2fBlhsi5X-iQPhF7eoBa)
+- [Vgrant 使用入门](https://github.com/astaxie/Go-in-Action/blob/master/ebook/zh/01.3.md)
+- [映泰 A3 怎么开启虚拟化](http://zhidao.baidu.com/link?url=HxDvjGXnQCVV73G1MtkZyIO4ym3nbSMScrLfsAnjsPIXakl39kuCtGuUtzGkVoEbPT2fBlhsi5X-iQPhF7eoBa)
