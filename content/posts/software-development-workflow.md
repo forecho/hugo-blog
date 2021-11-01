@@ -76,6 +76,16 @@ toc: true
 
 这是一个基于 SaaS 的数据分析平台提供对服务器，数据库，工具和服务的监视。在你的项目达到一定规模，可以考虑使用这个，能帮助你节省 DevOps 人力。
 
+### CI/CD
+
+持续集成和持续交付是现代化开发的必备了，推荐使用 [GitHub Actions](https://github.com/features/actions) 或者 [Travis CI](https://travis-ci.org/)，如果是 GitLab 
+就是 Runner 了，当然也有自己搭建 [Jenkins](https://www.jenkins.io/)（不推荐）
+
+我认为以下功能是最起码要有的：
+
+- PR 自动跑单元测试
+- 合并到指定分支（`master` 或者 `stage` 分支）实现自动化部署
+
 ## 总结
 
 越是小的团队越是要自动化一切能自动化的。总结下来：
