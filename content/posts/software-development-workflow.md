@@ -1,7 +1,7 @@
 ---
 title: "软件开发的工作流"
 date: 2021-10-31T21:03:00+08:00
-tags: ["经验分享", "项目管理"] 
+tags: ["经验分享", ""] 
 draft: false
 toc: true
 ---
@@ -69,6 +69,8 @@ toc: true
 ### [Sentry](https://sentry.io/)
 
 如果小公司小项目，没有专业的测试人员，可以试试接入 [Sentry](https://sentry.io/)，无入侵的接入，可以说基本上是 0 成本使用，有了它你可以很清楚的了解线上产品的异常情况，达到快速响应。
+
+而且 Sentry 也和 GitHub 还有 Jira\Linear 等很多系统打通了，生态好。
 
 如果项目做大之后可以考虑接入 [EFK](https://www.elastic.co/products/enterprise-search)
 
