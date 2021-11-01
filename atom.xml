@@ -1,4 +1,48 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 23 Oct 2021 14:40:58 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>【深度阅读 第四季 03】Netflix 的自由与责任工作法</title><link>https://blog.forecho.com/readeep-s04e03.html</link><pubDate>Sat, 23 Oct 2021 14:40:58 +0800</pubDate><guid>https://blog.forecho.com/readeep-s04e03.html</guid><description>&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20211023FmJ3os.jpg" alt="《不拘一格》">&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 31 Oct 2021 21:03:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>软件开发的工作流</title><link>https://blog.forecho.com/software-development-workflow.html</link><pubDate>Sun, 31 Oct 2021 21:03:00 +0800</pubDate><guid>https://blog.forecho.com/software-development-workflow.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>今天我打算给大家分享一下我上家公司的软件开发工作流，工作也 9 年了，这是我迄今为止觉得最舒服的工作流。&lt;/p>
+&lt;h2 id="工作流">工作流&lt;/h2>
+&lt;p>我们使用了工具主要有：&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com">GitHub&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://slack.com/">Slack&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://jira.com/">Jira&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="slackhttpsslackcom">&lt;a href="https://slack.com/">Slack&lt;/a>&lt;/h3>
+&lt;p>用过钉钉、企业微信、体验过 Microsoft Teams、Discord 等产品，个人觉得最适合企业办公的工具是 Slack（&lt;del>这也是为什么它刚上市的时候我就买了他的股票，虽然后来被割了&lt;/del>）。&lt;/p>
+&lt;p>个人认为 Slack 最大的亮点在于：&lt;/p>
+&lt;p>&lt;strong>丰富的应用市场&lt;/strong>&lt;/p>
+&lt;p>可以安装各种 App ，丰富的应用市场，生态非常好，我来说几个使用场景：&lt;/p>
+&lt;ul>
+&lt;li>开发完一个功能之后我们会通过 PR (Pull request) 合并代码，Slack 配置上 GitHub 应用，打通两边的用户，当 PR 需要人 review 的时候，对应的人会收到 Slack 通知，而不是我提交 PR 之后再给对应的人发消息，让他去 review，据我所知企业微信、钉钉是没办法做到这点的。不管是提醒 PR 还是 PR 被合并，对应的人都会自动收到消息，这体验非常棒。没有这个功能只能依靠 GitHub 的 Email 提醒？&lt;/li>
+&lt;li>各种消息提醒，比如：代码成功上了 prod，错误预警等等，不过这种企业微信、钉钉也可以实现。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>更加友好的讨论方式&lt;/strong>&lt;/p>
+&lt;p>每条消息都可以单独的回复讨论，非常方便深入讨论问题（我真的爱死这个功能了），方便多个话题同时讨论（在不同的 Thread 回复消息，互不干扰），而且这种讨论方式能做到最小干扰他人，Thread 里面有信息更新，只有相关人员才（不是整个讨论组的人）会收到通知&lt;/p>
+&lt;p>飞书、企业微信、钉钉都把「消息可以标记表情」功能抄过来了，不知道为什么他们不抄袭这个 Thread 消息讨论的功能？&lt;/p>
+&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20211026LQWoJ2.png" alt="">&lt;/p>
+&lt;h3 id="githubhttpsgithubcom">&lt;a href="https://github.com">GitHub&lt;/a>&lt;/h3>
+&lt;p>相信大家现在都在用 Git 管理代码吧，不是用 GitHub 就是用 GitLab 了，GitLab 其实也可以，但是 GitHub 功能更多一点，生态也好一些。而且现在 GitHub 免费账户，都可以在组织里创建私有代码库了。&lt;/p>
+&lt;p>不过锁定指定分支，不能直接 push 只能通过 PR 提交代码，这个功能还是收费的。如果团队开发还是有必要使用这个功能的。&lt;/p>
+&lt;h3 id="jirahttpsjiracom">&lt;a href="https://jira.com/">Jira&lt;/a>&lt;/h3>
+&lt;p>超强大的项目管理软件，不过没有免费版，可以通过配置可以实现与 GitHub 打通，一个任务一个分支开发，开发完成提交 PR 之后会自动更新 Jira 任务单的状态，而且任务单也会有 GitHub 对应的 PR 链接，方便回顾。&lt;/p>
+&lt;p>目前我发现 &lt;a href="https://linear.app/">Linear&lt;/a> 可以做到这几本的功能，虽然 Linear 功能还比较，没有 Jira 的冲刺和给任务单分配 Points 等功能，单基本够用。下面是 Linear 和 GitHub 的两张效果图：&lt;/p>
+&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20211101kVkxJs.png" alt="Linear 任务单">&lt;/p>
+&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/202111012LCJoC.png" alt="Github PR">&lt;/p>
+&lt;p>据我所知，Tapd 和 teambition 是没有打通 GitHub 的，他们只提供一个非常简单的关联功能，就是写 commits 消息的时候附带他们的任务 ID，但是这会有一个问题，写 commits 的时候经常会忘记附带任务 ID，而按照 Git 分支名称做自动化要合理的多。&lt;/p>
+&lt;h2 id="其他">其他&lt;/h2>
+&lt;p>顺便推荐一下其它我在用的工具：&lt;/p>
+&lt;h3 id="sentryhttpssentryio">&lt;a href="https://sentry.io/">Sentry&lt;/a>&lt;/h3>
+&lt;p>如果小公司小项目，没有专业的测试人员，可以试试接入 &lt;a href="https://sentry.io/">Sentry&lt;/a>，无入侵的接入，可以说基本上是 0 成本使用，有了它你可以很清楚的了解线上产品的异常情况，达到快速响应。&lt;/p>
+&lt;p>如果项目做大之后可以考虑接入 &lt;a href="https://www.elastic.co/products/enterprise-search">EFK&lt;/a>&lt;/p>
+&lt;h3 id="datadoghttpswwwdatadoghqcom">&lt;a href="https://www.datadoghq.com/">Datadog&lt;/a>&lt;/h3>
+&lt;p>这是一个基于 SaaS 的数据分析平台提供对服务器，数据库，工具和服务的监视。在你的项目达到一定规模，可以考虑使用这个，能帮助你节省 DevOps 人力。&lt;/p>
+&lt;h2 id="总结">总结&lt;/h2>
+&lt;p>越是小的团队越是要自动化一切能自动化的。总结下来：&lt;/p>
+&lt;ul>
+&lt;li>Slack 是目前没有能代替的企业沟通工具&lt;/li>
+&lt;li>代码 GitHub 或者 GitLab 都可以，但是 GitHub 生态和功能更友好&lt;/li>
+&lt;li>项目管理工具推荐使用 &lt;a href="https://jira.com/">Jira&lt;/a> 和 &lt;a href="https://linear.app/">Linear&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>【深度阅读 第四季 03】Netflix 的自由与责任工作法</title><link>https://blog.forecho.com/readeep-s04e03.html</link><pubDate>Sat, 23 Oct 2021 14:40:58 +0800</pubDate><guid>https://blog.forecho.com/readeep-s04e03.html</guid><description>&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20211023FmJ3os.jpg" alt="《不拘一格》">&lt;/p>
 &lt;h2 id="一段话说明这本书主要讲什么">一段话说明『这本书主要讲什么？』&lt;/h2>
 &lt;p>这是一本讲 Netflix 企业文化和企业管理的书。&lt;/p>
 &lt;h2 id="迈向自由与责任">迈向自由与责任&lt;/h2>
@@ -1258,56 +1302,4 @@ tests.&lt;span style="color:#50fa7b">MockNotificationServiceAPI&lt;/span>()
 &lt;p>对账单目前还没出来，所以还看不到手续费，目前处于亏损状态。等 2 周之后看看结果吧。&lt;/p>
 &lt;h2 id="最后">最后&lt;/h2>
 &lt;p>那个 UP 主2周之后按照约定把股票卖了，他的 8 支股票有赚有亏，但是总体是盈利了 10%+ ，得出的结论是要分散投资。&lt;/p>
-&lt;p>我只有 2 支股票，这次就玩 2 支吧，2 周后见。&lt;/p></description></item><item><title>用投资的思维提升自己</title><link>https://blog.forecho.com/knowledge-portfolios.html</link><pubDate>Tue, 06 Apr 2021 17:33:00 +0800</pubDate><guid>https://blog.forecho.com/knowledge-portfolios.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>当初进入股票投资领域，想用自己技术的思维帮助自己投资，然后三年多过去了，现在回顾起来，好像并没有用到什么技术思维。这一次相反，我想用投资的思维提升自己的知识。&lt;/p>
-&lt;h2 id="投资思维">投资思维&lt;/h2>
-&lt;ul>
-&lt;li>定投：基金定投是一种很常见的事情，是一种低风险投资的方式。&lt;/li>
-&lt;li>多元化：分散投资也是一种常见的思维，我们常说「不要把鸡蛋放在一个篮子里面」&lt;/li>
-&lt;li>管理风险：高风险一定伴随着高收益，聪明的投资者一定会在两种类型的投资中寻找平衡。&lt;/li>
-&lt;li>低买高卖：我们想办法低买高卖，以获得最大回报。&lt;/li>
-&lt;li>重新评估：股票都是有周期性的，所以我们也要周期性的调整我们的仓位。&lt;/li>
-&lt;/ul>
-&lt;h2 id="提升自己">提升自己&lt;/h2>
-&lt;h3 id="定投">定投&lt;/h3>
-&lt;p>定投不在于大小，贵在坚持。回想下来最近这两年我一直在坚持每周 3 次健身就是一种定投。只是看书的习惯没有持续的坚持，需要加强自律。&lt;/p>
-&lt;h3 id="多元化">多元化&lt;/h3>
-&lt;p>扩大自己知识的广度，就技术来说你需要知道每一种技术的优缺点和使用场景。而且 IT 行业的知识变化比较大，你需要时刻保持学习。&lt;/p>
-&lt;h3 id="管理风险">管理风险&lt;/h3>
-&lt;p>把你所有的精力都放在一个技术上，不是什么好事情，万一哪天那个技术不再流行你就有可能找不到工作了。如今前端的火爆导致现在的 iOS 难找工作。所以你需要调整你的精力，可以把少部分精力放在高风险的技术提升上。&lt;/p>
-&lt;p>这两年比较火的 &lt;a href="https://www.rust-lang.org/">Rust&lt;/a>、&lt;a href="https://deno.land/">Deno&lt;/a> 是不是可以做为高风险投资？&lt;/p>
-&lt;h3 id="低买高卖">低买高卖&lt;/h3>
-&lt;p>寻找被低估的股票很难，在一个技术流行之前抓住机会学习它也并不容易。但是一旦你抓住了这种机会你的收益就非常高。早年的 JAVA 、JavaScript 和前几年 Golang 都算不错的机会。&lt;/p>
-&lt;h3 id="重新评估">重新评估&lt;/h3>
-&lt;p>IT 行业技术变化比较快，前几年最流行的 PHP 现在国内已经没那么人要了。所以我们要定期评估自己的技能。&lt;/p>
-&lt;h2 id="实践方式">实践方式&lt;/h2>
-&lt;p>其实本篇文章的主题来源于我最近在看的&lt;a href="https://book.douban.com/subject/5387402/">《程序员修炼之道:从小工到专家》&lt;/a>本书，作者给出的实践方式是：&lt;/p>
-&lt;h3 id="每年至少学习一种新语言">每年至少学习一种新语言&lt;/h3>
-&lt;p>可以帮助你开阔思路，而且现在网上很多学习资料，学习起来要容易的多。但是实际上我最近这两年除了 PHP 外，其次就是会点 Python 了，JavaScript 和 Golang 也是懂点皮毛，工作上使用场景很少。&lt;/p>
-&lt;h3 id="每季度阅读一本技术书籍">每季度阅读一本技术书籍&lt;/h3>
-&lt;p>说来也是惭愧，这几年我已经很久没阅读完过一本技术书籍了，家里的技术书籍倒是很多。&lt;/p>
-&lt;h3 id="也要阅读非技术书籍">也要阅读非技术书籍&lt;/h3>
-&lt;p>这点做的很好，现在主要阅读的书都是非技术类型的，毕竟读起来相对不费脑子。&lt;/p>
-&lt;h3 id="上课">上课&lt;/h3>
-&lt;p>现在都没时间看视频教程了，别说上课了。&lt;/p>
-&lt;h3 id="参加本地用户组织">参加本地用户组织&lt;/h3>
-&lt;p>分享会这几年也去的很少了，感觉现在免费的活动广告的比较多，听懂的也比较少，上次去听分享还是 19 年 8 月，春哥的&lt;a href="https://blog.forecho.com/participate-in-the-openresty-technical-salon.html">《OpenResty 技术沙龙活动》&lt;/a>。&lt;/p>
-&lt;h3 id="跟上潮流">跟上潮流&lt;/h3>
-&lt;p>工作之余要去看看技术社区最新的技术趋势。这点我有经常逛社区和 GitHub。&lt;/p>
-&lt;h2 id="如何开始">如何开始&lt;/h2>
-&lt;ul>
-&lt;li>本周就开始学习一种新的语言，你有很多选择：Python、PHP、Golang、Nodejs、Smalltalk、Ruby、Crystal 等等&lt;/li>
-&lt;li>开始阅读新的技术书籍&lt;/li>
-&lt;li>去和别人互相交流技术方案&lt;/li>
-&lt;/ul>
-&lt;h2 id="总结">总结&lt;/h2>
-&lt;p>以前从来没有用这种方式来思考个人的知识提升，觉得还是挺有意思的。就目前来看我这几点我还需要加强：&lt;/p>
-&lt;ul>
-&lt;li>阅读书籍，特别是技术书籍，还是需要坚持定投，晚上少追点剧&lt;/li>
-&lt;li>新技术的持续学习，保持高风险投资的定投，之前常常是刚入门就放弃了。&lt;/li>
-&lt;/ul>
-&lt;p>除了以上所说的，书中还提到了最重要的两点是：&lt;/p>
-&lt;ul>
-&lt;li>坚持定投，长期回报是非常可观的。&lt;/li>
-&lt;li>具有批判性思维，也就是需要有独立思考能力，为什么现在国内 Golang 非常火爆，为什么生态更加丰富的 Nodejs 在国内有点落末了？你看到的不一定是真实情况，所以这就需要你有批判性思维。&lt;/li>
-&lt;/ul></description></item></channel></rss>
+&lt;p>我只有 2 支股票，这次就玩 2 支吧，2 周后见。&lt;/p></description></item></channel></rss>

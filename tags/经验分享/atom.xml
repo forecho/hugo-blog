@@ -1,4 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>经验分享 on forecho's Blog</title><link>https://blog.forecho.com/tags/%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB.html</link><description>Recent content in 经验分享 on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 20 Oct 2021 10:59:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/tags/%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB/atom.xml" rel="self" type="application/rss+xml"/><item><title>使用 Linear 来管理你的项目</title><link>https://blog.forecho.com/using-linear.html</link><pubDate>Wed, 20 Oct 2021 10:59:00 +0800</pubDate><guid>https://blog.forecho.com/using-linear.html</guid><description>&lt;p>&lt;a href="https://linear.app/">&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20211020VXxM9t.png" alt="">&lt;/a>&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>经验分享 on forecho's Blog</title><link>https://blog.forecho.com/tags/%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB.html</link><description>Recent content in 经验分享 on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 31 Oct 2021 21:03:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/tags/%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB/atom.xml" rel="self" type="application/rss+xml"/><item><title>软件开发的工作流</title><link>https://blog.forecho.com/software-development-workflow.html</link><pubDate>Sun, 31 Oct 2021 21:03:00 +0800</pubDate><guid>https://blog.forecho.com/software-development-workflow.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>今天我打算给大家分享一下我上家公司的软件开发工作流，工作也 9 年了，这是我迄今为止觉得最舒服的工作流。&lt;/p>
+&lt;h2 id="工作流">工作流&lt;/h2>
+&lt;p>我们使用了工具主要有：&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com">GitHub&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://slack.com/">Slack&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://jira.com/">Jira&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>使用 Linear 来管理你的项目</title><link>https://blog.forecho.com/using-linear.html</link><pubDate>Wed, 20 Oct 2021 10:59:00 +0800</pubDate><guid>https://blog.forecho.com/using-linear.html</guid><description>&lt;p>&lt;a href="https://linear.app/">&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20211020VXxM9t.png" alt="">&lt;/a>&lt;/p>
 &lt;h2 id="引言">引言&lt;/h2>
 &lt;p>互联网时代，大家做软件开发通常都是使用&lt;a href="https://zh.wikipedia.org/zh/Scrum">敏捷开发&lt;/a>的模式，那么告别小作坊式的软件开发应该从使用项目管理工具开始。&lt;/p>
 &lt;p>从事 WEB 开发接近 9 年了，这些年来从刚开始的公司没有项目管理工具，到后来用过 &lt;a href="https://trello.com/">Trello&lt;/a>、&lt;a href="https://www.tapd.cn/">TAPD&lt;/a> 、&lt;a href="https://www.teambition.com/">Teambition&lt;/a> 、&lt;a href="https://github.com/cashwarden/web/projects">Github Projects&lt;/a> 、&lt;a href="https://www.atlassian.com/software/jira">Jira&lt;/a> 等不计其数的产品。&lt;/p></description></item><item><title>GitHub 组织项目免费使用 Vercel</title><link>https://blog.forecho.com/free-use-of-vercel-for-github-organizational.html</link><pubDate>Mon, 18 Oct 2021 18:09:00 +0800</pubDate><guid>https://blog.forecho.com/free-use-of-vercel-for-github-organizational.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
@@ -73,14 +81,4 @@
 &lt;p>性能优化的第一步就是要发现系统的性能瓶颈。这部分一般都会有专门的 QA 去测试，输出报告。性能测试大多都是并发测试，推荐使用 &lt;a href="https://jmeter.apache.org/">Apache JMeter™&lt;/a> ，免费并且功能强大，支持多系统平台。至于使用教程，我就不贴了，网上一搜一大把。&lt;/p></description></item><item><title>坐着高铁去香港</title><link>https://blog.forecho.com/sitting-on-the-high-speed-rail-to-hong-kong.html</link><pubDate>Sun, 16 Dec 2018 21:03:00 +0800</pubDate><guid>https://blog.forecho.com/sitting-on-the-high-speed-rail-to-hong-kong.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
 &lt;p>前一段时间内地去香港的高铁终于开通了，正好前一段时间去香港有事，于是体验了一把，现在把整个流程分享一下，希望我的经验对你有帮助。&lt;/p>
 &lt;h2 id="关于港澳通行证">关于港澳通行证&lt;/h2>
-&lt;p>翻看自己的照片，上一次去香港已经是2年前的圣诞节了。所以这次确定要去香港之前，就在淘宝上找了一家帮忙续签港澳通行证的服务。不得不说现在的流程和体验比前两年好多了，前两年还得让我去一个网站填一推资料，这次直接下单，备注写上港澳通行证号和姓名，然后用任何一个快递寄给指定地址就好了。从寄出快递到收到证件花了不到10天，整个体验非常棒。&lt;/p></description></item><item><title>使用 NAS</title><link>https://blog.forecho.com/use-nas.html</link><pubDate>Fri, 30 Nov 2018 21:03:00 +0800</pubDate><guid>https://blog.forecho.com/use-nas.html</guid><description>&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20191105105249.jpg" alt="">&lt;/p>
-&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>听说 NAS 有一段时间了，双十一之前整理照片的时候，NAS 再次出现在我的视线前，当天脑子一『发热』，使用 Google 恶补了很多知识。可以备份照片、下载电影，甚至可以跑 docker，想买了。&lt;/p>
-&lt;h2 id="什么是-nas">什么是 NAS&lt;/h2>
-&lt;p>NAS 是 Network Area Storage 的缩写，即网络存储解决方案，说白了就是可以自己控制的网盘，外观就是一个可以装多个硬盘的机箱，局域网内下载传输速度很快，而且比网盘功能更强大一些。&lt;/p>
-&lt;h2 id="购买方案">购买方案&lt;/h2>
-&lt;p>使用 NAS 无非就以下几种方案：&lt;/p>
-&lt;ul>
-&lt;li>购买现成的 NAS ，有群晖和威联通&lt;/li>
-&lt;li>自己买硬件自己安装系统，甚至可以安装群晖的系统，俗称黑群晖。&lt;/li>
-&lt;/ul></description></item></channel></rss>
+&lt;p>翻看自己的照片，上一次去香港已经是2年前的圣诞节了。所以这次确定要去香港之前，就在淘宝上找了一家帮忙续签港澳通行证的服务。不得不说现在的流程和体验比前两年好多了，前两年还得让我去一个网站填一推资料，这次直接下单，备注写上港澳通行证号和姓名，然后用任何一个快递寄给指定地址就好了。从寄出快递到收到证件花了不到10天，整个体验非常棒。&lt;/p></description></item></channel></rss>
