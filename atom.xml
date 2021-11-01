@@ -36,6 +36,14 @@
 &lt;p>如果项目做大之后可以考虑接入 &lt;a href="https://www.elastic.co/products/enterprise-search">EFK&lt;/a>&lt;/p>
 &lt;h3 id="datadoghttpswwwdatadoghqcom">&lt;a href="https://www.datadoghq.com/">Datadog&lt;/a>&lt;/h3>
 &lt;p>这是一个基于 SaaS 的数据分析平台提供对服务器，数据库，工具和服务的监视。在你的项目达到一定规模，可以考虑使用这个，能帮助你节省 DevOps 人力。&lt;/p>
+&lt;h3 id="cicd">CI/CD&lt;/h3>
+&lt;p>持续集成和持续交付是现代化开发的必备了，推荐使用 &lt;a href="https://github.com/features/actions">GitHub Actions&lt;/a> 或者 &lt;a href="https://travis-ci.org/">Travis CI&lt;/a>，如果是 GitLab
+就是 Runner 了，当然也有自己搭建 &lt;a href="https://www.jenkins.io/">Jenkins&lt;/a>（不推荐）&lt;/p>
+&lt;p>我认为以下功能是最起码要有的：&lt;/p>
+&lt;ul>
+&lt;li>PR 自动跑单元测试&lt;/li>
+&lt;li>合并到指定分支（&lt;code>master&lt;/code> 或者 &lt;code>stage&lt;/code> 分支）实现自动化部署&lt;/li>
+&lt;/ul>
 &lt;h2 id="总结">总结&lt;/h2>
 &lt;p>越是小的团队越是要自动化一切能自动化的。总结下来：&lt;/p>
 &lt;ul>
