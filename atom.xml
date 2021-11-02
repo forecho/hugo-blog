@@ -25,7 +25,7 @@
 &lt;p>不过锁定指定分支，不能直接 push 只能通过 PR 提交代码，这个功能还是收费的。如果团队开发还是有必要使用这个功能的。&lt;/p>
 &lt;h3 id="jirahttpsjiracom">&lt;a href="https://jira.com/">Jira&lt;/a>&lt;/h3>
 &lt;p>超强大的项目管理软件，不过没有免费版，可以通过配置可以实现与 GitHub 打通，一个任务一个分支开发，开发完成提交 PR 之后会自动更新 Jira 任务单的状态，而且任务单也会有 GitHub 对应的 PR 链接，方便回顾。&lt;/p>
-&lt;p>目前我发现 &lt;a href="https://linear.app/">Linear&lt;/a> 可以做到这几本的功能，虽然 Linear 功能还比较，没有 Jira 的冲刺和给任务单分配 Points 等功能，单基本够用。下面是 Linear 和 GitHub 的两张效果图：&lt;/p>
+&lt;p>目前我发现 &lt;a href="https://linear.app/">Linear&lt;/a> 可以做到这基本的功能，虽然 Linear 功能还比较简陋，没有 Jira 的冲刺和给任务单分配 Points 等功能，但是这也基本够用。下面是 Linear 和 GitHub 的两张效果图：&lt;/p>
 &lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20211101kVkxJs.png" alt="Linear 任务单">&lt;/p>
 &lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/202111012LCJoC.png" alt="Github PR">&lt;/p>
 &lt;p>据我所知，Tapd 和 teambition 是没有打通 GitHub 的，他们只提供一个非常简单的关联功能，就是写 commits 消息的时候附带他们的任务 ID，但是这会有一个问题，写 commits 的时候经常会忘记附带任务 ID，而按照 Git 分支名称做自动化要合理的多。&lt;/p>
