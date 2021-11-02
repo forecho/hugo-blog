@@ -53,8 +53,7 @@ toc: true
 
 超强大的项目管理软件，不过没有免费版，可以通过配置可以实现与 GitHub 打通，一个任务一个分支开发，开发完成提交 PR 之后会自动更新 Jira 任务单的状态，而且任务单也会有  GitHub 对应的 PR 链接，方便回顾。
 
-目前我发现 [Linear](https://linear.app/) 可以做到这几本的功能，虽然 Linear 功能还比较，没有 Jira 的冲刺和给任务单分配 Points 等功能，单基本够用。下面是 Linear 和 GitHub 的两张效果图：
-
+目前我发现 [Linear](https://linear.app/) 可以做到这基本的功能，虽然 Linear 功能还比较简陋，没有 Jira 的冲刺和给任务单分配 Points 等功能，但是这也基本够用。下面是 Linear 和 GitHub 的两张效果图：
 
 ![Linear 任务单](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20211101kVkxJs.png)
 
