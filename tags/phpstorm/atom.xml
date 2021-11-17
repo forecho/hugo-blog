@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>phpstorm on forecho's Blog</title><link>https://blog.forecho.com/tags/phpstorm.html</link><description>Recent content in phpstorm on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 17 Nov 2021 13:12:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/tags/phpstorm/atom.xml" rel="self" type="application/rss+xml"/><item><title>使用 PHP CS Fixer 规范代码</title><link>https://blog.forecho.com/how-to-format-code-using-php-cs-fixer.html</link><pubDate>Wed, 17 Nov 2021 13:12:00 +0800</pubDate><guid>https://blog.forecho.com/how-to-format-code-using-php-cs-fixer.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>之前我有写过&lt;a href="https://blog.forecho.com/php-code-formatter-tips.html">《PHP 代码规范之工具篇》&lt;/a>，这次我们来看看如何使用 PHP CS Fixer 进行代码规范。这篇文章可以做为补充。&lt;/p>
+&lt;p>之前我有写过&lt;a href="https://blog.forecho.com/php-code-formatter-tips.html">《PHP 代码规范之工具篇》&lt;/a>，上次主要用的是 &lt;a href="https://github.com/squizlabs/PHP_CodeSniffer">PHP CodeSniffer&lt;/a> ，这次我们来看看如何使用 PHP CS Fixer 进行代码规范以及如何格式化代码。&lt;/p>
+&lt;p>这篇文章可以做为上篇文章的补充。&lt;/p>
 &lt;h2 id="安装">安装&lt;/h2>
 &lt;h3 id="安装-php-cs-fixerhttpsgithubcomfriendsofphpphp-cs-fixer">安装 &lt;a href="https://github.com/FriendsOfPHP/PHP-CS-Fixer">PHP CS Fixer&lt;/a>&lt;/h3>
 &lt;p>全局安装：&lt;/p>
