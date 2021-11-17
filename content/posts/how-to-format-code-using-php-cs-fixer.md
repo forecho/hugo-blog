@@ -8,7 +8,9 @@ toc: true
 
 ## 引言
 
-之前我有写过[《PHP 代码规范之工具篇》](https://blog.forecho.com/php-code-formatter-tips.html)，这次我们来看看如何使用 PHP CS Fixer 进行代码规范。这篇文章可以做为补充。
+之前我有写过[《PHP 代码规范之工具篇》](https://blog.forecho.com/php-code-formatter-tips.html)，上次主要用的是 [PHP CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) ，这次我们来看看如何使用 PHP CS Fixer 进行代码规范以及如何格式化代码。
+
+这篇文章可以做为上篇文章的补充。
 
 ## 安装
 
