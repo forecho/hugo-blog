@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>代码规范 on forecho's Blog</title><link>https://blog.forecho.com/tags/%E4%BB%A3%E7%A0%81%E8%A7%84%E8%8C%83.html</link><description>Recent content in 代码规范 on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 17 Nov 2021 13:12:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/tags/%E4%BB%A3%E7%A0%81%E8%A7%84%E8%8C%83/atom.xml" rel="self" type="application/rss+xml"/><item><title>使用 PHP CS Fixer 规范代码</title><link>https://blog.forecho.com/how-to-format-code-using-php-cs-fixer.html</link><pubDate>Wed, 17 Nov 2021 13:12:00 +0800</pubDate><guid>https://blog.forecho.com/how-to-format-code-using-php-cs-fixer.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>之前我有写过&lt;a href="https://blog.forecho.com/php-code-formatter-tips.html">《PHP 代码规范之工具篇》&lt;/a>，这次我们来看看如何使用 PHP CS Fixer 进行代码规范。这篇文章可以做为补充。&lt;/p>
+&lt;h2 id="安装">安装&lt;/h2>
+&lt;h3 id="安装-php-cs-fixerhttpsgithubcomfriendsofphpphp-cs-fixer">安装 &lt;a href="https://github.com/FriendsOfPHP/PHP-CS-Fixer">PHP CS Fixer&lt;/a>&lt;/h3>
+&lt;p>全局安装：&lt;/p>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-shell" data-lang="shell">composer require --global firephp/php-cs-fixer
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item></channel></rss>

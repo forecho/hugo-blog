@@ -1,4 +1,278 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 31 Oct 2021 21:03:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>软件开发的工作流</title><link>https://blog.forecho.com/software-development-workflow.html</link><pubDate>Sun, 31 Oct 2021 21:03:00 +0800</pubDate><guid>https://blog.forecho.com/software-development-workflow.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 17 Nov 2021 13:12:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>使用 PHP CS Fixer 规范代码</title><link>https://blog.forecho.com/how-to-format-code-using-php-cs-fixer.html</link><pubDate>Wed, 17 Nov 2021 13:12:00 +0800</pubDate><guid>https://blog.forecho.com/how-to-format-code-using-php-cs-fixer.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>之前我有写过&lt;a href="https://blog.forecho.com/php-code-formatter-tips.html">《PHP 代码规范之工具篇》&lt;/a>，这次我们来看看如何使用 PHP CS Fixer 进行代码规范。这篇文章可以做为补充。&lt;/p>
+&lt;h2 id="安装">安装&lt;/h2>
+&lt;h3 id="安装-php-cs-fixerhttpsgithubcomfriendsofphpphp-cs-fixer">安装 &lt;a href="https://github.com/FriendsOfPHP/PHP-CS-Fixer">PHP CS Fixer&lt;/a>&lt;/h3>
+&lt;p>全局安装：&lt;/p>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-shell" data-lang="shell">composer require --global firephp/php-cs-fixer
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>或者单个项目安装：&lt;/p>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-shell" data-lang="shell">composer require firephp/php-cs-fixer --dev
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="自定义规则">自定义规则&lt;/h3>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-shell" data-lang="shell">vim .php-cs-fixer.dist.php
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>我目前使用的是基于 PSR12 修改的规则，可以参考，也可以自己去自定义规则，代码如下：&lt;/p>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">24
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">25
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">26
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">27
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">28
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">29
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">30
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">31
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">32
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">33
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">34
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">35
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">36
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">37
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">38
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">39
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">40
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-php" data-lang="php">&lt;span style="color:#ff79c6">&amp;lt;?&lt;/span>php
+&lt;span style="color:#ff79c6">use&lt;/span> PhpCsFixer\Config;
+&lt;span style="color:#ff79c6">use&lt;/span> PhpCsFixer\Finder;
+&lt;span style="color:#8be9fd;font-style:italic">$finder&lt;/span> &lt;span style="color:#ff79c6">=&lt;/span> Finder&lt;span style="color:#ff79c6">::&lt;/span>&lt;span style="color:#50fa7b">create&lt;/span>()
+&lt;span style="color:#ff79c6">-&amp;gt;&lt;/span>&lt;span style="color:#50fa7b">in&lt;/span>([
+__DIR__&lt;span style="color:#ff79c6">.&lt;/span>&lt;span style="color:#f1fa8c">&amp;#39;/app&amp;#39;&lt;/span>,
+__DIR__&lt;span style="color:#ff79c6">.&lt;/span>&lt;span style="color:#f1fa8c">&amp;#39;/config&amp;#39;&lt;/span>,
+__DIR__&lt;span style="color:#ff79c6">.&lt;/span>&lt;span style="color:#f1fa8c">&amp;#39;/database&amp;#39;&lt;/span>,
+__DIR__&lt;span style="color:#ff79c6">.&lt;/span>&lt;span style="color:#f1fa8c">&amp;#39;/resources&amp;#39;&lt;/span>,
+__DIR__&lt;span style="color:#ff79c6">.&lt;/span>&lt;span style="color:#f1fa8c">&amp;#39;/routes&amp;#39;&lt;/span>,
+__DIR__&lt;span style="color:#ff79c6">.&lt;/span>&lt;span style="color:#f1fa8c">&amp;#39;/tests&amp;#39;&lt;/span>,
+])
+&lt;span style="color:#ff79c6">-&amp;gt;&lt;/span>&lt;span style="color:#50fa7b">name&lt;/span>(&lt;span style="color:#f1fa8c">&amp;#39;*.php&amp;#39;&lt;/span>)
+&lt;span style="color:#ff79c6">-&amp;gt;&lt;/span>&lt;span style="color:#50fa7b">notName&lt;/span>(&lt;span style="color:#f1fa8c">&amp;#39;*.blade.php&amp;#39;&lt;/span>)
+&lt;span style="color:#ff79c6">-&amp;gt;&lt;/span>&lt;span style="color:#50fa7b">ignoreDotFiles&lt;/span>(&lt;span style="color:#ff79c6">true&lt;/span>)
+&lt;span style="color:#ff79c6">-&amp;gt;&lt;/span>&lt;span style="color:#50fa7b">ignoreVCS&lt;/span>(&lt;span style="color:#ff79c6">true&lt;/span>);
+&lt;span style="color:#ff79c6">return&lt;/span> (&lt;span style="color:#ff79c6">new&lt;/span> Config())
+&lt;span style="color:#ff79c6">-&amp;gt;&lt;/span>&lt;span style="color:#50fa7b">setRules&lt;/span>([
+&lt;span style="color:#f1fa8c">&amp;#39;@PSR12&amp;#39;&lt;/span> &lt;span style="color:#ff79c6">=&amp;gt;&lt;/span> &lt;span style="color:#ff79c6">true&lt;/span>,
+&lt;span style="color:#f1fa8c">&amp;#39;array_syntax&amp;#39;&lt;/span> &lt;span style="color:#ff79c6">=&amp;gt;&lt;/span> [&lt;span style="color:#f1fa8c">&amp;#39;syntax&amp;#39;&lt;/span> &lt;span style="color:#ff79c6">=&amp;gt;&lt;/span> &lt;span style="color:#f1fa8c">&amp;#39;short&amp;#39;&lt;/span>],
+&lt;span style="color:#f1fa8c">&amp;#39;ordered_imports&amp;#39;&lt;/span> &lt;span style="color:#ff79c6">=&amp;gt;&lt;/span> [&lt;span style="color:#f1fa8c">&amp;#39;sort_algorithm&amp;#39;&lt;/span> &lt;span style="color:#ff79c6">=&amp;gt;&lt;/span> &lt;span style="color:#f1fa8c">&amp;#39;alpha&amp;#39;&lt;/span>],
+&lt;span style="color:#f1fa8c">&amp;#39;no_unused_imports&amp;#39;&lt;/span> &lt;span style="color:#ff79c6">=&amp;gt;&lt;/span> &lt;span style="color:#ff79c6">true&lt;/span>,
+&lt;span style="color:#f1fa8c">&amp;#39;trailing_comma_in_multiline&amp;#39;&lt;/span> &lt;span style="color:#ff79c6">=&amp;gt;&lt;/span> &lt;span style="color:#ff79c6">true&lt;/span>,
+&lt;span style="color:#f1fa8c">&amp;#39;phpdoc_scalar&amp;#39;&lt;/span> &lt;span style="color:#ff79c6">=&amp;gt;&lt;/span> &lt;span style="color:#ff79c6">true&lt;/span>,
+&lt;span style="color:#f1fa8c">&amp;#39;unary_operator_spaces&amp;#39;&lt;/span> &lt;span style="color:#ff79c6">=&amp;gt;&lt;/span> &lt;span style="color:#ff79c6">true&lt;/span>,
+&lt;span style="color:#f1fa8c">&amp;#39;binary_operator_spaces&amp;#39;&lt;/span> &lt;span style="color:#ff79c6">=&amp;gt;&lt;/span> &lt;span style="color:#ff79c6">true&lt;/span>,
+&lt;span style="color:#f1fa8c">&amp;#39;blank_line_before_statement&amp;#39;&lt;/span> &lt;span style="color:#ff79c6">=&amp;gt;&lt;/span> [
+&lt;span style="color:#f1fa8c">&amp;#39;statements&amp;#39;&lt;/span> &lt;span style="color:#ff79c6">=&amp;gt;&lt;/span> [&lt;span style="color:#f1fa8c">&amp;#39;break&amp;#39;&lt;/span>, &lt;span style="color:#f1fa8c">&amp;#39;continue&amp;#39;&lt;/span>, &lt;span style="color:#f1fa8c">&amp;#39;declare&amp;#39;&lt;/span>, &lt;span style="color:#f1fa8c">&amp;#39;return&amp;#39;&lt;/span>, &lt;span style="color:#f1fa8c">&amp;#39;throw&amp;#39;&lt;/span>, &lt;span style="color:#f1fa8c">&amp;#39;try&amp;#39;&lt;/span>],
+],
+&lt;span style="color:#f1fa8c">&amp;#39;phpdoc_single_line_var_spacing&amp;#39;&lt;/span> &lt;span style="color:#ff79c6">=&amp;gt;&lt;/span> &lt;span style="color:#ff79c6">true&lt;/span>,
+&lt;span style="color:#f1fa8c">&amp;#39;phpdoc_var_without_name&amp;#39;&lt;/span> &lt;span style="color:#ff79c6">=&amp;gt;&lt;/span> &lt;span style="color:#ff79c6">true&lt;/span>,
+&lt;span style="color:#f1fa8c">&amp;#39;method_argument_space&amp;#39;&lt;/span> &lt;span style="color:#ff79c6">=&amp;gt;&lt;/span> [
+&lt;span style="color:#f1fa8c">&amp;#39;on_multiline&amp;#39;&lt;/span> &lt;span style="color:#ff79c6">=&amp;gt;&lt;/span> &lt;span style="color:#f1fa8c">&amp;#39;ensure_fully_multiline&amp;#39;&lt;/span>,
+&lt;span style="color:#f1fa8c">&amp;#39;keep_multiple_spaces_after_comma&amp;#39;&lt;/span> &lt;span style="color:#ff79c6">=&amp;gt;&lt;/span> &lt;span style="color:#ff79c6">true&lt;/span>,
+]
+])
+&lt;span style="color:#ff79c6">-&amp;gt;&lt;/span>&lt;span style="color:#50fa7b">setFinder&lt;/span>(&lt;span style="color:#8be9fd;font-style:italic">$finder&lt;/span>);
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>PS：使用不同的框架，第一段代码会不一样，上面是针对 Laravel 的结构。&lt;/p>
+&lt;p>然后修改 &lt;code>.gitignore&lt;/code> 文件，添加如下内容：&lt;/p>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-fallback" data-lang="fallback">.php-cs-fixer.cache
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="安装-grumphphttpsgithubcomphprogrumphp">安装 &lt;a href="https://github.com/phpro/grumphp">GrumPHP&lt;/a>&lt;/h3>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-shell" data-lang="shell">composer require --dev phpro/grumphp
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;code>grumphp.yml&lt;/code> 配置如下：&lt;/p>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">7
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">8
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-yaml" data-lang="yaml">&lt;span style="color:#ff79c6">grumphp&lt;/span>:
+&lt;span style="color:#ff79c6">tasks&lt;/span>:
+&lt;span style="color:#ff79c6">phpcsfixer&lt;/span>:
+&lt;span style="color:#ff79c6">config&lt;/span>: .php-cs-fixer.dist.php
+&lt;span style="color:#ff79c6">verbose&lt;/span>: &lt;span style="color:#ff79c6">true&lt;/span>
+&lt;span style="color:#ff79c6">diff&lt;/span>: &lt;span style="color:#ff79c6">true&lt;/span>
+&lt;span style="color:#ff79c6">triggered_by&lt;/span>:
+- php
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="添加-composer-script">添加 composer script&lt;/h3>
+&lt;p>在 &lt;code>composer.json&lt;/code> 的 &lt;code>scripts&lt;/code> 中添加如下内容：&lt;/p>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-json" data-lang="json">&lt;span style="color:#f1fa8c">&amp;#34;scripts&amp;#34;&lt;/span>: {
+&lt;span style="color:#ff79c6">&amp;#34;php-cs-fixer&amp;#34;&lt;/span>: &lt;span style="color:#f1fa8c">&amp;#34;php-cs-fixer fix&amp;#34;&lt;/span>
+}
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>路径需要根据情况修改。&lt;/p>
+&lt;h2 id="配置-phpstorm">配置 Phpstorm&lt;/h2>
+&lt;h3 id="设置-psr12-代码风格">设置 &lt;code>PSR12&lt;/code> 代码风格&lt;/h3>
+&lt;p>Phpstorm 依次点击菜单栏 &lt;code>PhpStorm Settings -&amp;gt; Editor -&amp;gt; Code Style -&amp;gt; PHP&lt;/code> 找到 &lt;code>Set from&lt;/code> 选择 &lt;code>Predefinded Style -&amp;gt; PSR12&lt;/code>&lt;/p>
+&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20211117SCXvnN.png" alt="">&lt;/p>
+&lt;h3 id="添加-external-tools">添加 External Tools&lt;/h3>
+&lt;p>这一步是方便自动化格式代码的重要步骤，我们可以在 Phpstorm 中添加一个 External Tools，这样我们就可以在 Phpstorm 中自动化格式代码了。&lt;/p>
+&lt;p>Phpstorm 依次点击菜单栏 &lt;code>PhpStorm Settings -&amp;gt; Tools -&amp;gt; External Tools&lt;/code> 添加一个 External Tools，设置如下：&lt;/p>
+&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20211117Z056E4.png" alt="">&lt;/p>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-fallback" data-lang="fallback">name: &amp;#34;PHP CS Fixer&amp;#34;
+description: &amp;#34;Apply php-cs-fixer to the current file&amp;#34;
+program: &amp;#34;/Users/forecho/.composer/vendor/bin/php-cs-fixer&amp;#34; // 这里是你的 composer 安装路径
+arguments: &amp;#34;fix $FileDir$/$FileName$&amp;#34; // 这里是你的 php-cs-fixer 命令
+working_dir: &amp;#34;$ProjectFileDir$&amp;#34;
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;code>Open console for tool output&lt;/code> 前面的 ✅ 去掉，不然会弹出一个输出结果的窗口，不方便。&lt;/p>
+&lt;h3 id="使用-php-cs-fixer-校验代码">使用 PHP CS Fixer 校验代码&lt;/h3>
+&lt;p>Phpstorm 依次点击菜单栏 &lt;code>PhpStorm Settings -&amp;gt; Editor -&amp;gt; Inspections&lt;/code> 选上 &lt;code>PHP -&amp;gt; Quality Tools -&amp;gt; PHP CS Fixer validation&lt;/code>:&lt;/p>
+&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20211117J4SoI7.png" alt="">&lt;/p>
+&lt;p>图上&lt;code>第 4 点&lt;/code>要自己选路径，我这里是 &lt;code>/Users/forecho/Code/php/account/.php-cs-fixer.dist.php&lt;/code>，这里需要改成你自己项目的路径。&lt;/p>
+&lt;h3 id="配置快捷键">配置快捷键&lt;/h3>
+&lt;p>Phpstorm 依次点击菜单栏 &lt;code>PhpStorm Settings -&amp;gt; Keymap&lt;/code> 给 PHP CS Fixer 添加快捷键：&lt;/p>
+&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20211117HdJuXl.png" alt="">&lt;/p>
+&lt;h3 id="录制宏">录制宏&lt;/h3>
+&lt;p>通过录制宏可以实现一个快捷键做几件事情，具体请看我之前的文章：&lt;a href="https://blog.forecho.com/php-code-formatter-tips.html#%E5%BD%95%E5%88%B6%E5%AE%8F">《PHP 代码规范之工具篇 - 录制宏》&lt;/a>&lt;/p>
+&lt;h2 id="github-actions-自动修复代码格式">GitHub Actions 自动修复代码格式&lt;/h2>
+&lt;p>不是很推荐这种方式，但是如果有需要还是可以做到的。&lt;/p>
+&lt;p>在项目中添加文件 &lt;code>.github/workflows/php-cs-fixer.yml&lt;/code>，内容如下：&lt;/p>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">24
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">25
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">26
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">27
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">28
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">29
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-yaml" data-lang="yaml">&lt;span style="color:#ff79c6">name&lt;/span>: Check &amp;amp; fix styling
+&lt;span style="color:#ff79c6">on&lt;/span>: [ push ]
+&lt;span style="color:#ff79c6">jobs&lt;/span>:
+&lt;span style="color:#ff79c6">style&lt;/span>:
+&lt;span style="color:#ff79c6">runs-on&lt;/span>: ubuntu-latest
+&lt;span style="color:#ff79c6">steps&lt;/span>:
+- &lt;span style="color:#ff79c6">name&lt;/span>: Checkout code
+&lt;span style="color:#ff79c6">uses&lt;/span>: actions/checkout@v1
+- &lt;span style="color:#ff79c6">name&lt;/span>: Fix style
+&lt;span style="color:#ff79c6">uses&lt;/span>: docker://oskarstark/php-cs-fixer-ga
+&lt;span style="color:#ff79c6">with&lt;/span>:
+&lt;span style="color:#ff79c6">args&lt;/span>: --config=.php-cs-fixer.dist.php --allow-risky=yes
+- &lt;span style="color:#ff79c6">name&lt;/span>: Extract branch name
+&lt;span style="color:#ff79c6">shell&lt;/span>: bash
+&lt;span style="color:#ff79c6">run&lt;/span>: echo &amp;#34;##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})&amp;#34;
+&lt;span style="color:#ff79c6">id&lt;/span>: extract_branch
+- &lt;span style="color:#ff79c6">name&lt;/span>: Commit changes
+&lt;span style="color:#ff79c6">uses&lt;/span>: stefanzweifel/git-auto-commit-action@v2.3.0
+&lt;span style="color:#ff79c6">with&lt;/span>:
+&lt;span style="color:#ff79c6">commit_message&lt;/span>: Fix styling
+&lt;span style="color:#ff79c6">branch&lt;/span>: ${{ steps.extract_branch.outputs.branch }}
+&lt;span style="color:#ff79c6">env&lt;/span>:
+&lt;span style="color:#ff79c6">GITHUB_TOKEN&lt;/span>: ${{ secrets.GITHUB_TOKEN }}
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="最后">最后&lt;/h2>
+&lt;p>多人团队合作代码规范性非常有必要，代码风格的统一，越早执行越好。&lt;/p>
+&lt;h2 id="参考资料">参考资料&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://si-dev.com/ru/blog/how-to-format-code-in-phpstorm-using-php-cs-fixer">《КАК ОТФОРМАТИРОВАТЬ КОД В PHPSTORM ИСПОЛЬЗУЯ PHP CS FIXER》&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.jetbrains.com/help/phpstorm/using-php-cs-fixer.html#installing-configuring-php-cs-fixer">Phpstorm PHP CS Fixer&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://eidson.info/post/phpstorm-file-watcher-php-cs-fixer">《Create a File Watcher for php-cs-fixer in PhpStorm》&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>软件开发的工作流</title><link>https://blog.forecho.com/software-development-workflow.html</link><pubDate>Sun, 31 Oct 2021 21:03:00 +0800</pubDate><guid>https://blog.forecho.com/software-development-workflow.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
 &lt;p>今天我打算给大家分享一下我上家公司的软件开发工作流，工作也 9 年了，这是我迄今为止觉得最舒服的工作流。&lt;/p>
 &lt;h2 id="工作流">工作流&lt;/h2>
 &lt;p>我们使用了工具主要有：&lt;/p>
@@ -1291,24 +1565,4 @@ tests.&lt;span style="color:#50fa7b">MockNotificationServiceAPI&lt;/span>()
 &lt;ul>
 &lt;li>分散投资确实很重要，还好一个涨一个跌&lt;/li>
 &lt;li>A 股的涨跌有点没逻辑，所以我还是坚持不买 A 股个股&lt;/li>
-&lt;/ul></description></item><item><title>【深度理财25】随机买股票实验</title><link>https://blog.forecho.com/financedeep-25.html</link><pubDate>Fri, 09 Apr 2021 16:09:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-25.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>今天中午吃完饭之后看了一会儿 YouTube，然后它给我推荐了一个视频，还是挺有意思的。视频的内容就是迫于春节之后股票行情一直不好，然后 UP 主想到了让猴子丢飞镖乱选股票，跟华尔街的专业分析师 PK 绩效，没想到猴子居然获胜的实验，然后他也实践了一把这个实验。&lt;/p>
-&lt;p>他实验的内容大致就是自己扔球然后选股票，买入之后两个星期卖掉。看了之后觉得挺有意思的，于是我也想玩一把。&lt;/p>
-&lt;h2 id="选股">选股&lt;/h2>
-&lt;p>YouTube 视频 UP 主是仍球然后根据数字选股，我没他那个装备，于是我想到了抽奖的程序，午睡醒来之后我就去找符合要求的开源程序，最后选择了这个&lt;a href="https://github.com/75team/raffle#2017%E5%B9%B4%E4%BC%9A%E6%8A%BD%E5%A5%96">奇舞团历年年会现场抽奖程序&lt;/a>，他仍了 1 个多小时，最后自己选了 6 支股票，然后两个员工各选了 1 个，我点了 30 多分钟鼠标，直到闭市也只选出了 2 个（因为很多无效数字），本来是打算选 5 个的。没想到这还真是体力活啊，最后选出来的两个是：&lt;/p>
-&lt;ul>
-&lt;li>三安光电&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20210409vNPBqg.png" alt="三安光电">&lt;/p>
-&lt;ul>
-&lt;li>上海洗霸&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20210409ZlbNTq.png" alt="上海洗霸">&lt;/p>
-&lt;p>对这两个股票完全不熟悉，甚至都没听过，说实话风险还是挺大的，不过我只是各买了一手，已做好亏损的准备了。&lt;/p>
-&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20210409tD1y05.jpg!m" alt="">&lt;/p>
-&lt;h2 id="统计">统计&lt;/h2>
-&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/202104097Z8XhO.png" alt="">&lt;/p>
-&lt;p>对账单目前还没出来，所以还看不到手续费，目前处于亏损状态。等 2 周之后看看结果吧。&lt;/p>
-&lt;h2 id="最后">最后&lt;/h2>
-&lt;p>那个 UP 主2周之后按照约定把股票卖了，他的 8 支股票有赚有亏，但是总体是盈利了 10%+ ，得出的结论是要分散投资。&lt;/p>
-&lt;p>我只有 2 支股票，这次就玩 2 支吧，2 周后见。&lt;/p></description></item></channel></rss>
+&lt;/ul></description></item></channel></rss>
