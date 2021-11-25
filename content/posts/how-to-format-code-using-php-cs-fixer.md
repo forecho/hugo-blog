@@ -89,6 +89,16 @@ PS：使用不同的框架，第一段代码会不一样，上面是针对 Larav
 .php-cs-fixer.cache
 ```
 
+直接运行 `php-cs-fixer fix` 即可，或者运行：
+
+```shell
+vendor/bin/php-cs-fixer fix --config=.php-cs-fixer.dist.php
+```
+
+文章到这里其实已经可以结束了，下面我们配置一些辅助性的工具，比如：
+
+---------------------------------------
+
 ### 安装 [GrumPHP](https://github.com/phpro/grumphp)
 
 ```shell
