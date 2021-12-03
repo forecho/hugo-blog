@@ -23,10 +23,10 @@ toc: true
 
 ### Gurufocus
 
-- 地址：<https://www.gurufocus.com>
+- 地址：[https://www.gurufocus.com](http://www.gurufocus.com?r=2512c27bc10eba5077ea576e0536b1ff)
 - 特点：部分数据收费，图表观看数据直观
 
-这个网站主要把股票的各种数据汇总之后用图表的方式展示，对数字不敏感的用户，可以使用这个网站，比方说这个是 [TSLA](https://www.gurufocus.com/stock/TSLA/summary) 的主页
+这个网站主要把股票的各种数据汇总之后用图表的方式展示，对数字不敏感的用户，可以使用这个网站，比方说这个是 [TSLA](https://www.gurufocus.com/stock/TSLA/summary?r=2512c27bc10eba5077ea576e0536b1ff) 的主页
 
 ![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20210625KMlVnn.png)
 
