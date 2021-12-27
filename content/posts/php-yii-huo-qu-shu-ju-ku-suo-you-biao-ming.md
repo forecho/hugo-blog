@@ -6,12 +6,12 @@ draft: false
 toc: true
 ---
 
-再次感叹Google和English的强大，所以以后找问题一定要在Google加英语的关键词。 MySQL获取所有的表名很简单，就一行代码如下： 
+再次感叹 Google 和 English 的强大，所以以后找问题一定要在 Google 加英语的关键词。 MySQL 获取所有的表名很简单，就一行代码如下： 
     
     
     SHOW TABLES
 
-Yii获取所有的表名，代码如下： 
+Yii 获取所有的表名，代码如下： 
     
     
     foreach(Yii::app()->db->schema->getTables() as $name=>$table)
