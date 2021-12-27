@@ -1,14 +1,14 @@
 ---
-title: "PHP 获取当前URL的相关参数"
+title: "PHP 获取当前 URL 的相关参数"
 date: 2011-11-17T10:20:00+08:00
 tags: ["PHP"] 
 draft: false
 toc: true
 ---
 
-$_SERVER["QUERY_STRING"]获取查询语句，实例中可知，获取的是?后面的值 $_SERVER["REQUEST_URI"]
+$_SERVER["QUERY_STRING"] 获取查询语句，实例中可知，获取的是？后面的值 $_SERVER["REQUEST_URI"]
 
-获取http://old.forecho.com后面的值，包括/
+获取 http://old.forecho.com 后面的值，包括/
 
 $_SERVER["SCRIPT_NAME"]
 
@@ -18,7 +18,7 @@ $_SERVER["PHP_SELF"]
 
 当前正在执行脚本的文件名
 
-比如当前页面URL为
+比如当前页面 URL 为
 
 http://old.forecho.com/index.php?cid=1&page=4
 
@@ -31,7 +31,7 @@ $_SERVER["SCRIPT_NAME"] = "/index.php"
 $_SERVER["PHP_SELF"]     = "/index.php"
 ```
 
-另外可以参考：[PHP获取当前页面的URL](http://www.ludou.org/get_current_page_url.html#title-1)
+另外可以参考：[PHP 获取当前页面的 URL](http://www.ludou.org/get_current_page_url.html#title-1)
 
 **补充： **
 

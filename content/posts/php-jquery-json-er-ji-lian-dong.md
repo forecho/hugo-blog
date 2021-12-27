@@ -6,7 +6,7 @@ draft: false
 toc: true
 ---
 
-HTML代码如下： 
+HTML 代码如下： 
     
     
     <select name="category_f" id="category_f" class="valid">
@@ -19,14 +19,14 @@ HTML代码如下：
     	<option value="12">川菜</option>
     </select>
 
-JavaScript代码如下： 
+JavaScript 代码如下： 
     
     
     <script type="text/javascript">		
         $("#category_f").click(function() {
             var html = '';
         	$.ajax({
-        		url: '/getcategory', //PHP方法
+        		url: '/getcategory', //PHP 方法
         		type: 'POST',
                 dataType: 'json',
         		data: {f: $(this).val()},
@@ -40,7 +40,7 @@ JavaScript代码如下：
         });
     </script>
 
- PHP action处理页面： 
+ PHP action 处理页面： 
     
     
     public function getcategory()
@@ -52,7 +52,7 @@ JavaScript代码如下：
     	exit($json[$_POST['f']]);
     }
 
-上面代码已经可以用了，**但是修改页面如何去实现呢？所以我要重构上面的代码。** JavaScript代码被改成这样了(重在理解代码，我这个代码有可能在你的场景中不适用): 
+上面代码已经可以用了，**但是修改页面如何去实现呢？所以我要重构上面的代码。** JavaScript 代码被改成这样了 (重在理解代码，我这个代码有可能在你的场景中不适用): 
     
     
     <script type="text/javascript">
@@ -68,7 +68,7 @@ JavaScript代码如下：
         function ajaxSelect (argument,id) {
             var html = '';
             $.ajax({
-                url: '/getcategory',  //PHP方法
+                url: '/getcategory',  //PHP 方法
                 type: 'POST',
                 dataType: 'json',
                 data: {f: argument},
@@ -86,7 +86,7 @@ JavaScript代码如下：
         }
     </script>
 
-HTML简化后如下： 
+HTML 简化后如下： 
     
     
     <select name="data[category_f]" id="category_f" class="valid">
@@ -96,4 +96,4 @@ HTML简化后如下：
     </select>
     <select name="data[category_s]" id="category_s" class="valid"></select>
 
-PHP action代码不变。
+PHP action 代码不变。
