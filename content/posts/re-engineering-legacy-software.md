@@ -58,6 +58,7 @@ toc: true
 
 - 如果你们使用的 GitHub 那就可以用 GitHub Actions 来自动化部署。
 - 如果使用的是 Gitlab，那就可以用 Gitlab CI 来自动化部署。
+- [Jenkins](https://jenkins.io/) 也是一个不错的自动化部署工具。
 
 ### 自动化测试
 
