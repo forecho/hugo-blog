@@ -70,6 +70,7 @@ toc: true
 - Macrotrends <https://www.macrotrends.net/>
 - Seeking Alpha <https://seekingalpha.com/>
 - Motley Fool <https://www.fool.com/>
+- FINVIZ <https://finviz.com//> ：拥有强大的选股器、板块涨跌地图
 
 ## 最后
 
