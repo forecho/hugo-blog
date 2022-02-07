@@ -1,6 +1,6 @@
 ---
 title: "2021 年终总结"
-date: 2022-02-06T16:33:00+08:00
+date: 2022-02-06T22:30:00+08:00
 tags: ["年终总结"] 
 draft: false
 toc: true
@@ -56,7 +56,7 @@ toc: true
 这是我待过最长时间的公司了，眼看就 3 年了。
 
 总之我以为比较稳定的工作没了（具体可以看[《讨薪维权之路》](https://blog.forecho.com/the-road-to-asking-for-pay-and-defending-rights.html)），
-后来差不多找了 1 个月的工作，发现找到合适岗位还挺难的。最后选择去了一家小公司，目前为止感觉还不错，今年还拿了年终奖，有 3 年多没拿年终奖了。
+后来差不多找了 1 个月的工作，发现找到合适岗位还挺难的。最后选择去了一家小公司，目前为止感觉还不错，还有年终奖，有 3 年多没拿年终奖了。
 
 ### 技术
 
@@ -112,7 +112,7 @@ toc: true
 
 ### 业余折腾
 
-有时间继续完善 [CashWarden](https://cashwarden.com/)
+有时间继续完善 [CashWarden](https://cashwarden.com/)。
 
 ### 读书
 
