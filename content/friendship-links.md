@@ -27,6 +27,7 @@ url: /friendship-links/
 - [刘悦的技术博客](https://v3u.cn/)
 - [见字如面](https://hiwannz.com/)
 - [DHTalk's Blog](https://zhangdinghao.cn/)
+- [安全代码](http://www.usmacd.com/)
 
 ## 链接
 
