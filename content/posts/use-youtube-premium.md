@@ -73,7 +73,7 @@ YouTube Premium 简单理解就是 YouTube 会员，主要功能有以下几点�
 
 ![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/202202283S8AuH.png)
 
-由于我使用的是中国地区，现在在中国 IP 不可能注册 Google 账号的，所以 IP 方式加入家庭在我这里是无法做到的，所以只能手动添加地区了。Google [添加地区的页面](https://pay.google.com/gp/w/u/0/home/settings) 需要提供信用卡信息，但是不是所有人都有办理信用卡的。
+由于我使用的是中国地区，现在在中国 IP 不可能注册 Google 账号的，所以 IP 方式加入家庭在我这里是无法做到的，最终只能手动添加地区了。Google [添加地区的页面](https://pay.google.com/gp/w/u/0/home/settings) 需要提供信用卡信息，但是不是所有人都有办理信用卡的。
 
 经过我瞎试，最后居然成功添加了地区，步骤是：
 
