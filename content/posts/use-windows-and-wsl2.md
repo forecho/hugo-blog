@@ -21,7 +21,7 @@ toc: true
 
 - 至少是 Window10 专业版，家庭版不行。
 - 申请加入 [Windows Insider](https://insider.windows.com/zh-cn/)，然后在「Windows 设置 > 更新和安全 > Windows 预览体验计划」处选择加入快或慢。
-- 在 「设置 > Windows 更新」中升级系统，通过在 `cmd` 中输入 `ver` 来确认版本为 Windows 10 18917 或更高。
+- 在「设置 > Windows 更新」中升级系统，通过在 `cmd` 中输入 `ver` 来确认版本为 Windows 10 18917 或更高。
 - 以管理员身份运行 PowerShell 终端。
 - 执行以下命令：
 
@@ -43,7 +43,7 @@ wsl -l -v
 
 ## 安装 WSL2
 
-在 「Microsoft Store」中搜索 「wsl」，点击安装「Ubuntu 18.04 LTS」和「Windows Terminal」，安装完之后我们通过 「Windows Terminal」来登录 WSL2 中的 Ubuntu 系统。
+在「Microsoft Store」中搜索「wsl」，点击安装「Ubuntu 18.04 LTS」和「Windows Terminal」，安装完之后我们通过「Windows Terminal」来登录 WSL2 中的 Ubuntu 系统。
 
 剩下的就是常规操作，换系统为国内源，安装 `ZSH` 和 `oh-my-zsh` 以及 Docker 等等。
 
@@ -102,7 +102,7 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io
 
 VS Code 和 WSL2 配合的非常好，所以这个编辑器是必装软件。安装完之后你可以在 WSL2 Shell 里面执行 `code .` 打开此目录下的文件，首次会自动安装 [Remote - WSL](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl) 扩展，非常方便。
 
-但是如果你使用的是 JetBrains 的 IDE，想使用 WSL2 的 Shell，可以在设置里面找到 「Tools > Terminal > Shell path」 修改为：
+但是如果你使用的是 JetBrains 的 IDE，想使用 WSL2 的 Shell，可以在设置里面找到「Tools > Terminal > Shell path」修改为：
 
 ```
 "cmd.exe" /k "wsl.exe"
@@ -112,7 +112,7 @@ VS Code 和 WSL2 配合的非常好，所以这个编辑器是必装软件。安
 
 ### 动态 IP
 
-最新版的 WSL2 已经默认帮你绑定了 localhost 到 ubuntu 系统了，所以使用 localhost （可以加端口）访问 Ubuntu 里面的服务不会有任何问题。
+最新版的 WSL2 已经默认帮你绑定了 localhost 到 ubuntu 系统了，所以使用 localhost（可以加端口）访问 Ubuntu 里面的服务不会有任何问题。
 
 但是如果你想用使用自定义 nginx 的 server_name 就必须要在 Windows 里面配置 host，而对于的 `server_name` IP 并不是 `127.0.0.1` 而要在 WSL2 通过下面命令获取到对应的 IP 地址：
 
@@ -137,7 +137,7 @@ Github Issues 链接 <https://github.com/microsoft/WSL/issues/4210>
 
 如果你的代码放在 Windows 目录下，使用 WSL2 环境，那么就会遇到代码修改之后不会热更新这个坑，使用软连接把 Windows 的目录链接到 WSL2 也不能解决。
 
-目前唯一的解决办法就是把代码复制到 WSL2 系统里面，但是这样做意味着代码和环境绑定在一起了。系统挂了，你代码就可能找不回来了?有一定的风险。[Issues 讨论链接](https://github.com/microsoft/WSL/issues/4739)。
+目前唯一的解决办法就是把代码复制到 WSL2 系统里面，但是这样做意味着代码和环境绑定在一起了。系统挂了，你代码就可能找不回来了？有一定的风险。[Issues 讨论链接](https://github.com/microsoft/WSL/issues/4739)。
 
 ## 软件推荐
 
@@ -161,5 +161,5 @@ Github Issues 链接 <https://github.com/microsoft/WSL/issues/4210>
 
 ## 参考链接
 
-- [将WSL2作为生产力工具](https://dmego.me/2019/12/21/make-wsl2-as-a-productivity-tool/)
+- [将 WSL2 作为生产力工具](https://dmego.me/2019/12/21/make-wsl2-as-a-productivity-tool/)
 - [在 Windows 上用 WSL 优雅开发](https://github.com/spencerwooo/dowww)
