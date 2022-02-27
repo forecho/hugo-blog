@@ -37,7 +37,7 @@ YouTube Premium 简单理解就是 YouTube 会员，主要功能有以下几点�
 
 ### 确认 Google 账号地区
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/2022022753JNWH.png)
+![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/2022022753JNWH.png!m)
 
 ⚠️ 同一个地区的 Google 账号才能组建一个家庭，这一条规则非常重要。家长是什么区，其他 5 个账号只能在这个区，不然无法加入。
 
@@ -63,7 +63,7 @@ YouTube Premium 简单理解就是 YouTube 会员，主要功能有以下几点�
 
 ### 注册 Google 账号
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20220227Z7MqKp.png)
+![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20220227Z7MqKp.png!m)
 
 这里又遇到一个坑，现在在国内注册 Google 账号，到验证手机号那一步就失败了，提示「此电话号码无法用于进行验证」，而之前网上流传的修改浏览器语言包（删除中文语言包）的方式也不管用了，依旧提示「此电话号码无法用于进行验证」。
 
@@ -71,7 +71,7 @@ YouTube Premium 简单理解就是 YouTube 会员，主要功能有以下几点�
 
 ### 无信用卡添加地区
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/202202283S8AuH.png)
+![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/202202283S8AuH.png!m)
 
 由于我使用的是中国地区，现在在中国 IP 不可能注册 Google 账号的，所以 IP 方式加入家庭在我这里是无法做到的，最终只能手动添加地区了。Google [添加地区的页面](https://pay.google.com/gp/w/u/0/home/settings) 需要提供信用卡信息，但是不是所有人都有办理信用卡的。
 
