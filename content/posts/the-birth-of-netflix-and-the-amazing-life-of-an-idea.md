@@ -6,6 +6,8 @@ draft: true
 toc: true
 ---
 
+![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20220320e3MOa4.jpg)
+
 ## 一段话说明『这本书主要讲什么？』
 
 这是一本由 Netflix 联合创始人出品的书，讲述了 Netflix 的创业史和创新历程。对 Netflix 发展历史感兴趣的朋友不要错过。内容干货十足，幽默有趣。
