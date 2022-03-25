@@ -6,22 +6,22 @@ draft: false
 toc: true
 ---
 
-## 什么是REST
+## 什么是 REST
 
 简单的说，REST 指的是一组架构约束条件和原则。满足这些约束条件和原则的应用程序或设计就是 RESTful。
 
-## 为什么要Restful？
+## 为什么要 Restful？
 
 主要遵循两个准则：
 
-- 不要为了RESTful而RESTful
+- 不要为了 RESTful 而 RESTful
 - 在能表达清楚的情况下，简单就是美
 
 ## Yii2 使用 RESTful？
 
 其实 Yii2 框架本身就对 RESTful 是友好支持的，具体可以看[官方文档](http://www.yiiframework.com/doc-2.0/guide-rest-quick-start.html)，或者去看源码，都是可以的。
 
-**下面分享我写的[Yii2 RESTful DEMO](https://github.com/iiYii/yii2-rest-demo)。**
+**下面分享我写的 [Yii2 RESTful DEMO](https://github.com/iiYii/yii2-rest-demo)。**
 
 具体实现可以看我的代码，有不懂的可以留言。下面我重点说一下值得注意的地方：
 
@@ -82,5 +82,5 @@ public function behaviors()
 
 ## 参考文章
 
-- [理解RESTful架构](http://www.ruanyifeng.com/blog/2011/09/restful.html)
-- [RESTful实践总结](http://segmentfault.com/blog/cloudmario/1190000000635914)
+- [理解 RESTful 架构](http://www.ruanyifeng.com/blog/2011/09/restful.html)
+- [RESTful 实践总结](http://segmentfault.com/blog/cloudmario/1190000000635914)
