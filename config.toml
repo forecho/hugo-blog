@@ -82,8 +82,17 @@ twitter = "caizhenghai"
 douban = "ipzone"
 rss = "/atom.xml"
 
-[params.utterances] # https://utteranc.es/
-owner = "forecho" # Your GitHub ID
-repo = "hugo-blog"# The repo to store comments
-theme = "github-light"
-issueterm = "title"
+# [params.utterances] # https://utteranc.es/
+# owner = "forecho" # Your GitHub ID
+# repo = "hugo-blog"# The repo to store comments
+# theme = "github-light"
+# issueterm = "title"
+
+[params.giscus] # https://giscus.app
+repo = "forecho/hugo-blog" # Repo where the comments will live
+repo_id = "MDEwOlJlcG9zaXRvcnkyMzMwMzE1NDU" # Repo where the comments will live
+category = "Announcements" # Repo where the comments will live
+category_id = "DIC_kwDODePHec4COSbJ" # Repo where the comments will live
+mapping = "title" # How Utterances will match comment to page
+theme = "light" # What theme to use
+reactions_enabled = 1 # Enable reactions
