@@ -96,3 +96,4 @@ category_id = "DIC_kwDODePHec4COSbJ" # Repo where the comments will live
 mapping = "title" # How Utterances will match comment to page
 theme = "light" # What theme to use
 reactions_enabled = 1 # Enable reactions
+lang = "zh-CN" # Language
