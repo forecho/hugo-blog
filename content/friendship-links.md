@@ -14,21 +14,18 @@ url: /friendship-links/
 
 ### 成员
 
-有加入微信群，我们称之为成员。
+博客每个月坚持更新且有加入微信群，我们称之为成员。
 
 - [forecho](https://blog.forecho.com/)
 - [Jason](https://atjason.com/)
 - [把酒诗代码，趁乱写年华。](http://www.102no.com)
 - [数字游民部落](https://jarodise.com/)
 - [大师兄](https://dsx2016.com/)
-- [To be a happy sir](https://www.happysir.com/)
-- [你好我是森林](https://chensenlin.cn/)
-- [完美的胖达](https://wmdpd.com/)
 - [刘悦的技术博客](https://v3u.cn/)
 - [见字如面](https://hiwannz.com/)
-- [DHTalk's Blog](https://zhangdinghao.cn/)
 - [安全代码](http://www.usmacd.com/)
 - [李雪含](https://dajiayouxuan.com/)
+- [胡涂说](https://hutusi.com/)
 
 ## 链接
 
@@ -54,6 +51,10 @@ url: /friendship-links/
 - [IOIOX](https://www.ioiox.com/)
 - [Lin.](https://www.mrlin93.com/)
 - [Jackie の生活觀察](https://www.wangyurui.top/)
+- [To be a happy sir](https://www.happysir.com/)
+- [你好我是森林](https://chensenlin.cn/)
+- [完美的胖达](https://wmdpd.com/)
+- [DHTalk's Blog](https://zhangdinghao.cn/)
 
 ## 待考察
 
