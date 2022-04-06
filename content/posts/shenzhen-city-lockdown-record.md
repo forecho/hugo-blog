@@ -31,7 +31,7 @@ toc: true
 
 晚上公司发布了在家办公一周的公告，还好我每天有背笔记本上下班，电脑在公司的同事，晚上还得赶到公司去取电脑。而那些给员工配台式机的公司，员工还得扛着台式机回家，那天地铁里都是搬电脑的。
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20220405ISZAui.jpeg)
+![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20220405ISZAui.jpeg!m)
 
 ### 在家办公
 
