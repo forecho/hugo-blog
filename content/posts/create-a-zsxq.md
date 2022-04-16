@@ -41,7 +41,7 @@ toc: true
 
 ## 最后
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20220416KK7O8z.png)
+![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20220416KK7O8z.png!m)
 
 这不是我第一次创建知识星球了，949 天之前我就创办过一个，因为是免费加入的，没有太多责任，也没好好运营，没过几天就被遗忘了。
 
