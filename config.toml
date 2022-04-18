@@ -57,8 +57,8 @@ uglyURLs = true
 busuanzi = true # 是否使用不蒜子统计站点访问量
 staticCDNPrefix = "https://cdn.bootcss.com/font-awesome/5.11.2"
 extraHead = '<meta name="google-site-verification" content="OMI81_SJiESxwq-Fr0CLleoF7EzVdRx7QTQlbAfCVdI" /><meta name="sogou_site_verification" content="5AsiT3lHig"/><meta name="baidu-site-verification" content="WuHyHeOJtJ" />'
-postAds = '<div class="p-4 md:hidden rounded shadow bg-white dark:bg-black"><img class=" object-cover w-auto mx-auto mt-6" loading="lazy" src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424153337.png" title="微信：ipzone" alt="微信：ipzone"></div>'
-profileAds = '<div class="p-4 mt-2 lg:mt-4 rounded shadow bg-white dark:bg-black"><img class=" object-cover w-auto mx-auto mt-6" loading="lazy" src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424153337.png" title="微信：ipzone" alt="微信：ipzone"></div>'
+postAds = '<div class="p-4 md:hidden rounded shadow bg-white dark:bg-gray-800"><img class=" object-cover w-auto mx-auto mt-6" loading="lazy" src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424153337.png" title="微信：ipzone" alt="微信：ipzone"></div>'
+profileAds = '<div class="p-4 mt-2 lg:mt-4 rounded shadow bg-white dark:bg-gray-800"><img class=" object-cover w-auto mx-auto mt-6" loading="lazy" src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424153337.png" title="微信：ipzone" alt="微信：ipzone"></div>'
 notFoundAds = ''
 
 # 开启版权声明，协议名字和链接都可以换
@@ -94,7 +94,7 @@ repo_id = "MDEwOlJlcG9zaXRvcnkyMzMwMzE1NDU" # Repo where the comments will live
 category = "Announcements" # Repo where the comments will live
 category_id = "DIC_kwDODePHec4COSbJ" # Repo where the comments will live
 mapping = "title" # How Utterances will match comment to page
-theme = "light" # What theme to use
+theme = "dark_dimmed" # What theme to use
 reactions_enabled = 1 # Enable reactions
 emit_metadata = 0 # Emit metadata
 lang = "zh-CN" # Language
