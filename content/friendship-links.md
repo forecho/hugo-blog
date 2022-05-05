@@ -55,6 +55,7 @@ url: /friendship-links/
 - [你好我是森林](https://chensenlin.cn/)
 - [完美的胖达](https://wmdpd.com/)
 - [DHTalk's Blog](https://zhangdinghao.cn/)
+- [涛叔](https://taoshu.in/)
 
 ## 待考察
 
