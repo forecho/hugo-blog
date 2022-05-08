@@ -16,7 +16,7 @@ toc: true
 
 ## 基本介绍
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20220508y4O9Xu.jpg)
+![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20220508y4O9Xu.jpg!m)
 
 - 用 `>` 表示高于，用 `<` 表示低于
 
@@ -42,7 +42,7 @@ toc: true
 
 ### 无影蜡烛
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20220508UYro6H.png)
+![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20220508UYro6H.png!m)
 
 特点：
 
@@ -51,7 +51,7 @@ toc: true
 
 ### 十字星蜡烛
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20220508imgdvl.png)
+![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20220508imgdvl.png!m)
 
 定义：
 
@@ -65,7 +65,7 @@ toc: true
 
 ### 锤子蜡烛
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20220508hE2ozA.png)
+![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20220508hE2ozA.png!m)
 
 特点：
 
@@ -82,7 +82,7 @@ toc: true
 - 条形图
 - 日本蜡烛图
 
-毫无疑问日本蜡烛图成为如今最常用的股票分析图表。因为它能更多的反应股票的走势，而且更加直观。
+毫无疑问日本蜡烛图成为如今最常用的股票分析图表。因为它能更多地反映股票的走势，而且更加直观。
 
 了解蜡烛图的基本用法之后，我们可以通过多个蜡烛组合图来分析股票的走势。
 
