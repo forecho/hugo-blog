@@ -1,10 +1,11 @@
 ---
-title: "使用Yii的 CMenu"
+title: "使用 Yii 的 CMenu"
 date: 2014-11-17T12:51:00+08:00
 tags: ["yii1"] 
 draft: false
 toc: true
 ---
+
 ```php
 $this->widget('zii.widgets.CMenu',array(
     'activeCssClass'=>'当前热点元素的样式',
@@ -67,7 +68,7 @@ $this->widget('zii.widgets.CMenu',array(
 <!--more-->
 1. `label`：菜单显示的文本，可以加 `html` 进行修饰，但要将 `encodeLabel` 参数值设为 `false`
 
-2. `url`：链接地址，若是字符串，则是基于网站根地址的绝对路径，比如网站地址为`baidu.com`，字符串url设置为`article`，则最终生成的地址为`baidu.com/article`，如果设置类型为数组，则效果与`createUrl`方法一样，比如网址还是`baidu.com`，设置的数组url为`array(detail/article)`，则最终生成的地址为`baidu.com/?r=detail/article`，控制器/方法格式的
+2. `url`：链接地址，若是字符串，则是基于网站根地址的绝对路径，比如网站地址为`baidu.com`，字符串 url 设置为`article`，则最终生成的地址为`baidu.com/article`，如果设置类型为数组，则效果与`createUrl`方法一样，比如网址还是`baidu.com`，设置的数组 url 为`array(detail/article)`，则最终生成的地址为`baidu.com/?r=detail/article`，控制器/方法格式的
 
 3. `visible`：可见，`boolean`值，当然可以用函数来取值，决定什么情况下隐藏
 
@@ -83,11 +84,11 @@ $this->widget('zii.widgets.CMenu',array(
 
 9. `submenuOptions`：子栏目的`<ul>`属性，`<li>`和`<a>`属性还是和上面一样分别对`item`设置
 
-10. `activeCssClass`：当前选中菜单的Css的`Class`名称
+10. `activeCssClass`：当前选中菜单的 Css 的`Class`名称
 
-11. `firstItemCssClass`：第一个菜单按钮的Css的`Class`名称
+11. `firstItemCssClass`：第一个菜单按钮的 Css 的`Class`名称
 
-12. `lastItemCssClass`：最后一个菜单按钮的Css的`Class`名称
+12. `lastItemCssClass`：最后一个菜单按钮的 Css 的`Class`名称
 
-当然可以分别为每个Item菜单元素添加指定的`Class`，即在对应的Item元素上增加`itemOptions`设置。
+当然可以分别为每个 Item 菜单元素添加指定的`Class`，即在对应的 Item 元素上增加`itemOptions`设置。
 
