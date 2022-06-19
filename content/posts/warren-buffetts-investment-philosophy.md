@@ -95,6 +95,8 @@ PS: 附 [Berkshire Hathaway 最近 10 年持仓变化](https://valuesider.com/em
 
 ![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/202206196YIe2t.png)
 
+红色区域是经济衰退的周期，绿色区域是经济发展的周期。
+
 当你耐心的等待和参与时间总会给你带来丰厚的收益。投资一年收益 200% 并没有什么了不起的，但是如果你能每年收益 20% 那才是可怕的，看看最近几年的 ARK。
 
 ![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/202206194cm4gz.jpg)
