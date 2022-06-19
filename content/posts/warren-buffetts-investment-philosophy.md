@@ -105,3 +105,5 @@ PS: 附 [Berkshire Hathaway 最近 10 年持仓变化](https://valuesider.com/em
 ## 最后
 
 最后再次提醒大家，投资就要投自己懂的公司，如果不懂也懒得研究就去买大盘、行业 ETF 吧。这样也可以吃上时代的红利。
+
+另外也可以考虑买 Berkshire Hathaway 的股票，买不起 BRK.A  就买 BRK.B 吧，区别不大。
