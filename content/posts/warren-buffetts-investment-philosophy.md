@@ -74,7 +74,7 @@ PS：附 [复利计算器](http://dailycalculators.com/cn/node/10)
 
 ![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20220619XCJTt2.png)
 
-<iframe src="https://valuesider.com/embed/chart/timeline/guru/warren-buffett-berkshire-hathaway/1067983?limit=10&title=1&include_others=0" scrolling="no" frameborder="0" style="width: 100%; min-height: 525px" onload="(function(f) { let s = function() { return Math.round(125 + Math.max(400, f.offsetWidth * 0.4) + (f.getAttribute('src').indexOf('title=1') === -1 ? 0 : 80)); }; f.height = s(); if (f.getAttribute('data-l') !== 'on') { f.setAttribute('data-l', 'on'); window.addEventListener('resize', function() { f.height = s(); }); } })(this)"></iframe>
+PS: 附 [Berkshire Hathaway 最近 10 年持仓变化](https://valuesider.com/embed/chart/timeline/guru/warren-buffett-berkshire-hathaway/1067983?limit=10&title=1&include_others=0)
 
 当然巴菲特敢重仓也跟 Berkshire Hathaway 主营业务 - 保险有关，保险是一个长期、稳定的业务，这意味着保险公司有稳定的现金流。
 
@@ -91,7 +91,7 @@ PS：附 [复利计算器](http://dailycalculators.com/cn/node/10)
 
 ### 长期持有
 
-经济的发展是有周期的，有时候周期长 ()，有时候周期很短 ()。公司的发展需要时间，只有达到一定的周期的公司才能实现红利。下图就是道琼斯指数的数据：
+经济的发展是有周期的，有时候周期长 (几十年？)，有时候周期很短 (3-10 年左右)。公司的发展需要时间，只有达到一定的周期的公司才能实现红利。下图就是道琼斯指数的数据：
 
 ![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/202206196YIe2t.png)
 
