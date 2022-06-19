@@ -6,6 +6,8 @@ draft: false
 toc: true
 ---
 
+![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20220619ctYrL3.jpg)
+
 ## 引言
 
 巴菲特可谓是公认的投资最厉害的人了。他 55 年平均年化收益率有 21%+，这是什么概念？假设 55 年前你有 1000 块钱复利投资：
