@@ -57,7 +57,7 @@ toc: true
 
 ### 其他
 
-- 使用项目管理工具来管理项目进度，尽力按照乔尔测试的理念来管理项目（关于乔尔测试可以查看[如果是我来做项目经理](https://blog.forecho.com/if-i-was-a-project-manager.html)）。
+- 使用项目管理工具来管理项目进度，尽力按照乔尔测试的理念来管理项目（关于乔尔测试可以查看 [如果是我来做项目经理](https://blog.forecho.com/if-i-was-a-project-manager.html)）。
 - 每周的周报
 
 ## 总结
