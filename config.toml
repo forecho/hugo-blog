@@ -11,8 +11,8 @@ googleAnalytics = "UA-75634412-1" # UA-XXXXXXXX-X
 enableRobotsTXT = true
 
 [markup.highlight]
-codeFences = true # 高亮markdown的代码块
-guessSyntax = true # 高亮markdown中没有标注语言的代码块
+codeFences = true # 高亮 markdown 的代码块
+guessSyntax = true # 高亮 markdown 中没有标注语言的代码块
 hl_Lines = ""
 lineNoStart = 1
 lineNos = true
