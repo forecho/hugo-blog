@@ -1,7 +1,7 @@
 ---
 title: "MWS 开发 - 产品上传篇"
 date: 2019-08-08T22:58:00+08:00
-tags: ["MWS开发"] 
+tags: ["MWS 开发"] 
 draft: false
 toc: true
 ---
@@ -50,7 +50,7 @@ toc: true
 composer require mcs/amazon-mws
 ```
 
-> 如果在执行命令行的时候提示需要输入 `Token` 的话，解决办法就是去 GitHub 的 [Personal access tokens](https://github.com/settings/tokens) 页面，点击 「Generate new token」 新建一个 Token，选择 `public_repo` ，然后就会得到一个 Token，然后去终端输入这个值就可以继续了。
+> 如果在执行命令行的时候提示需要输入 `Token` 的话，解决办法就是去 GitHub 的 [Personal access tokens](https://github.com/settings/tokens) 页面，点击「Generate new token」新建一个 Token，选择 `public_repo` ，然后就会得到一个 Token，然后去终端输入这个值就可以继续了。
 
 原来的库上传产品非常简单，更是没有提供 `_POST_FLAT_FILE_LISTINGS_DATA_` 的方式上传产品，我在这个 issue#30 - [Add Product Error](https://github.com/meertensm/amazon-mws/issues/30) 的基础上加了此功能。
 
@@ -162,7 +162,7 @@ public function uploadAmazon(string $productType, Product $product, int $product
 }
 ```
 
-上传产品是一个异步接口，提交成功会返回如下数据:
+上传产品是一个异步接口，提交成功会返回如下数据：
 
 ```php
 [
@@ -222,7 +222,7 @@ if ($isJp) {
 
 上传产品的时候图片我们是给的图片地址链接，如果图片放在国内，很容易出现亚马逊下载产品图片超时导致的刊登失败。所以我们要想办法把我们的图片存到海外，比方说使用阿里的 OSS。
 
-如果因为用了阿里 OSS 的海外 Bucket，导致我们在使用的时候上传图片很慢，可以了解一下这个[《OSS全球传输加速开启公测，助力企业业务全地域覆盖》](https://yq.aliyun.com/articles/688039)。
+如果因为用了阿里 OSS 的海外 Bucket，导致我们在使用的时候上传图片很慢，可以了解一下这个[《OSS 全球传输加速开启公测，助力企业业务全地域覆盖》](https://yq.aliyun.com/articles/688039)。
 
 ### UPC/EAN
 
@@ -230,7 +230,7 @@ if ($isJp) {
 
 ### 关于产品描述
 
-产品描述除了不能大于 2000 字符串之外，还不能使用除了 `<br>`（换行） 和 `<b></b>`（加粗） 之外的 HTML 标签。
+产品描述除了不能大于 2000 字符串之外，还不能使用除了 `<br>`（换行）和 `<b></b>`（加粗）之外的 HTML 标签。
 
 ### SKU 异常
 
