@@ -40,7 +40,7 @@ POST 还可以非常方便的获取各种语言的请求代码，方便你在开
 
 ![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424160614.png)
 
-在软件的左下角，找到终端的图标，就可以打开 Postman Console 。
+在软件的左下角，找到终端的图标，就可以打开 Postman Console。
 
 ### 其他
 
@@ -101,22 +101,22 @@ postman.setGlobalVariable('jwt_token', removeIllegalCharacters(token));
 
 ![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424160651.png)
 
-上述方式是给单独的 API 的配置 Pre-request Scripts ，Postman 还可以给集合配置 Pre-request Scripts，这样的话整个集合就可以都使用这个 `{{jwt_token}}` 了。但是值得**注意**的有：
+上述方式是给单独的 API 的配置 Pre-request Scripts，Postman 还可以给集合配置 Pre-request Scripts，这样的话整个集合就可以都使用这个 `{{jwt_token}}` 了。但是值得**注意**的有：
 
 - 集合里面配置是 Variables，单独配置的话只能设置环境变量。
-- 如果集合配置了 Pre-request Script ，单独又配置了环境变量，Pre-request Script 脚本会**优先读取**环境变量的值，这个要非常注意。
+- 如果集合配置了 Pre-request Script，单独又配置了环境变量，Pre-request Script 脚本会**优先读取**环境变量的值，这个要非常注意。
 - 集合的 Pre-request Scripts 获取变量方式有点不一样，比方说上面的生成 JWT Token 脚本，要使用 `pm.variables.get('client_key')` 代替 `postman.getEnvironmentVariable('client_key')`。
 
 更多使用方法，请查看[官方文档 Pre-request scripts](https://learning.getpostman.com/docs/postman/scripts/pre_request_scripts/)。
 
 ### 内置函数
 
-我们除了可以自定义脚本之外，Postman 还内置了一些常用的变量:
+我们除了可以自定义脚本之外，Postman 还内置了一些常用的变量：
 
 
 - `{{$guid}}`：v4 样式的 guid
 - `{{$timestamp}}`：当前时间戳
-- `{{$randomInt}}`：0到1000之间的随机整数
+- `{{$randomInt}}`：0 到 1000 之间的随机整数
 
 ![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424160716.png)
 
