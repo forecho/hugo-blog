@@ -28,7 +28,7 @@ Railway 提供服务器和数据库服务，注册账户就可以免费使用 50
 
 Supabase 提供 Database、Authentication、Storage、Edge Functions 服务，这里我们只需要用它的 Database 服务，免费额度有 500MB，感觉对小项目够用了。
 
-值得注意的是 Supabase 提供 Database 是 PostgreSQL，如果要使用 MySQL 的话，可以使用 [PlanetScale](https://planetscale.com/)。
+值得注意的是 Supabase 提供 Database 是 PostgreSQL，如果要用 MySQL 的话，可以使用 [PlanetScale](https://planetscale.com/)。
 
 ## 部署 Laravel 应用
 
