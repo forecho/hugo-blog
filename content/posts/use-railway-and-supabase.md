@@ -18,9 +18,9 @@ toc: true
 
 ## [Railway](https://railway.app?referralCode=HI0KtP) 
 
-Railway 提供服务器和数据库服务，注册账户就可以免费使用 500 小时（20 天），或者 5 美元以下的额度，详情看他们的 [Starter Plan](https://docs.railway.app/reference/plans#starter-plan)。
+Railway 提供服务器和数据库服务，注册账户就可以免费使用 500 小时（20 天），或者 5 美元以下的额度，每个月重置额度，详情看他们的 [Starter Plan](https://docs.railway.app/reference/plans#starter-plan)。
 
-绑定信用卡之后就会按照使用情况自动扣钱了，每个月超过 5 美元就开始收费。而且没有 500 小时限制。所以 Starter Plan 版就是给你体验的，真要使用起来还是得绑定信用卡。
+绑定信用卡之后就会按照使用情况自动扣钱了，每个月超过 5 美元就开始收费。当然也就没有 500 小时/月的限制。所以 Starter Plan 版就是给你体验的，真要使用起来还是得绑定信用卡。
 
 这里我们只使用它提供的服务器服务，数据库可以使用 Supabase 代替，以减轻 Railway 的免费额度。
 
