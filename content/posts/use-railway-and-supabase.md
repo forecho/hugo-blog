@@ -58,6 +58,14 @@ Railway 看起来是一个很新的平台，不是很完善，目前我没找到
 
 另外听说 [Fly.io](https://fly.io/) 也是一个不错的平台，下回有时间可以研究一下。
 
+## 更新
+
+今天折腾了半天好好体验了一下 PlanetScale 和 Supabase，功能是不错，产品是好产品，但是真正要用起来的话发现国内网络延迟太高了（我选的是新加坡节点），我的服务器在香港，一个请求接近 2 秒。体验下来 PlanetScale 会比 Supabase 好一点。
+
+如果是自己一个人用还好，但是如果是 Side Project 用的话，太慢，体验不好。
+
+最后不得不放弃了，还是老老实实用阿里云的 RDS，RDS 新用户基础版 3 年 59.9 元，这个价格还不错。
+
 ## 参考资料
 
 - [使用 Railway 和 Miniflux 零成本搭建 RSS 服务](https://blog.cysi.me/2022/05/build-miniflux-rss-on-railway.html)
