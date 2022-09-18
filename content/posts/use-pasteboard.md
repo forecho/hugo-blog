@@ -60,7 +60,7 @@ iOS 上的剪贴板扩展 App，但是很少使用，毕竟文字工作者用的
 
 ### 其他
 
-今天有体验的产品有：
+今天有体验的产品有，我对它们都不满意：
 
 - [Paste](https://pasteapp.me/)
 - [PasteNow](https://pastenow.app/)
