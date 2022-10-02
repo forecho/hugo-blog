@@ -6,7 +6,7 @@ draft: false
 toc: true
 ---
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20221002m7Slxr.png)
+[![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20221002m7Slxr.png)](https://obsidian.md/)
 
 ## 引言
 
