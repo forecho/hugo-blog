@@ -6,6 +6,8 @@ draft: false
 toc: true
 ---
 
+![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20221002m7Slxr.png)
+
 ## 引言
 
 Obsidian 是一个非常好用的笔记软件，使用它有一阵子了，今天打算给大家分享一下我的使用经验。
