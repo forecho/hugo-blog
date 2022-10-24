@@ -32,7 +32,7 @@ url: /friendship-links/
 有些是申请加入的，有些是我自己搜集的。
 
 - [KAIX.IN](https://kaix.in/)
-- [罗磊的独立博客](https://luolei.org/)
+- [Macin's Blog](https://www.macin.org/)
 - [唐巧的博客](http://blog.devtang.com/)
 - [Verne in GitHub](https://einverne.github.io/)
 - [笨方法学写作](https://www.cnfeat.com/)
