@@ -16,7 +16,7 @@ YouTube Premium 简单理解就是 YouTube 会员，主要功能有以下几点�
 
 - 去广告
 - App 后台播放以及离线功能
-- YouTube Music 功能，解锁所有歌曲，可以离线。（ App iOS 端需要 Apple ID 在非中国大陆区才能下载）
+- YouTube Music 功能，解锁所有歌曲，可以离线。（App iOS 端需要 Apple ID 在非中国大陆区才能下载）
 - 等等
 
 <!--more-->
@@ -83,6 +83,33 @@ YouTube Premium 简单理解就是 YouTube 会员，主要功能有以下几点�
 
 Google 当然会通过一笔支付然后退款的方式来验证信用卡，所以这里信用卡验证自然不能通过，但是地区和地址信息是操作成功了的，我们的目的达到了。
 
+
+## 家庭会员如何转区
+
+### 选新的地区
+
+![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20221026sX3mHN.png!m)
+
+迫于美国的通货膨胀，YouTube 会员开始涨价了，之前阿根廷的 ARS 179/月 要涨到 ARS 699/月，涨幅高达 290%。
+
+![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20221026wRyPGl.png!m)
+
+土耳其也涨了，不过涨价之后。土耳其更便宜了。下图我做了价格的对比：
+
+![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20221026Npf5qi.png!m)
+
+其实印度最便宜，但是印度门槛高，国内的 Visa 卡用不了，我试过了。
+
+### 如何转区
+
+- 先去 Google Play 的 [设置](https://pay.google.com/gp/w/u/0/home/settings) ,选中之前的阿根廷付款资料，然后页面最下方会有一个「关闭付款资料」的按钮，点击它删掉之前的付款资料
+- 切换梯子到土耳其
+- 去 YouTube 的 [购买内容和会员](https://www.youtube.com/paid_memberships) 页面，暂停会员
+- 然后再回到 Google Play 的 [设置](https://pay.google.com/gp/w/u/0/home/settings)页面，添加一个新的付款方式，选土耳其，信用卡选国内的 Visa 卡就可以，地址随便在网上找一个假地址，比如我用的 [Fake address generator Turkey](https://www.fakexy.com/fake-address-generator-tr)
+- Google Play 的 [设置](https://pay.google.com/gp/w/u/0/home/settings)
+- 去 YouTube 的 [购买内容和会员](https://www.youtube.com/paid_memberships) 页面，恢复家庭会员，按照步骤走就可以了
+
+会员时间会自动延长，不会丢失。
 
 ## 资料
 
