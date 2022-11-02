@@ -79,10 +79,15 @@ Obsidian 支持附件，设置好附件目录，图片复制过来就自动到�
 - Obsidian Git：同步笔记到 GitHub
 - Open vault in VSCode: 用 VSCode 打开 Obsidian 的笔记目录，VSCode 可以用我的 GitHub Copilot 补全功能，非常方便。
 - Tag Wrangler: 标签管理
+- Auto Link Title: 自动获取链接的标题
+- Easy Typing: 书写体验增强插件，自动格式化文档等等
 
 ## 主题
 
-Obsidian 主题非常多，我目前在用的是 [Blue Topaz](https://github.com/cumany/Blue-topaz-examples) 主题，非常简洁，而且还有很多自定义的选项。
+更新：1.0 之后我使用默认主题了，默认主题已经足够好用了。
+
+> Obsidian 主题非常多，我目前在用的是 [Blue Topaz](https://github.com/cumany/Blue-topaz-examples) 主题，非常简洁，而且还有很多自定义的选项。
+
 
 ## 总结
 
