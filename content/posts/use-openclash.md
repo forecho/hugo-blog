@@ -6,6 +6,8 @@ draft: false
 toc: true
 ---
 
+![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20221102Dexz0D.png)
+
 ## 引言
 
 最近有个需求就是想让电子书设备也能上 Google 等网站，由于电子书设备功能有限，不能安装翻墙软件，所以只能通过路由器或者软路由来实现连网科学上网。
@@ -60,7 +62,7 @@ reboot
 
 ### 软路由网络配置
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20221102zBR6Ho.png)
+![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20221102zBR6Ho.png!m)
 
 修改网络 进入 LEDE 网络 - 接口 - 编辑 LAN：
 
@@ -95,17 +97,17 @@ OpenClash 有两种方式可以配置 Clash 配置文件，一种是「配置文
 
 ### 配置 OpenClash
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20221102R9etfB.png)
+![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20221102R9etfB.png!m)
 
 
 打开 OpenClash 的「全局配置」，先配置模式，我选择的是「Fake-IP(增强）模式」，配置好之后，点击「应用配置」，就可以了。
 
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20221102AFhvBA.png)
+![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20221102AFhvBA.png!m)
 
 「基本配置」我基本没改。
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/202211025Lkxko.png)
+![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/202211025Lkxko.png!m)
 
 「DNS 设置」如上。其他都没怎么改。
 
@@ -121,7 +123,7 @@ OpenClash 默认首页是「运行状态」页面，很方便看到当前的状�
 
 ### 自动模式
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/202211026RG3rx.png)
+![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/202211026RG3rx.png!m)
 
 这种就是把软路由的 DHCP 服务器打开，并且把强制功能勾上，再把路由器的 DHCP 关闭，这样就可以让所有的设备都走代理，这种方式比较简单粗暴，但是有时候会出现一些问题。比方说我在 NAS 的几个服务就有点问题了。
 
