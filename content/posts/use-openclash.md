@@ -117,9 +117,16 @@ OpenClash 默认首页是「运行状态」页面，很方便看到当前的状�
 
 ### 手动模式【推荐】
 
+![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20221102tnvU6d.PNG!m)
+
 比较推荐这种方式，手动比较方便可靠，家里网络情况比较复杂，这种模式方便。
 
-这种模式就是手动配置你需要走代理的的设备，一般都在 Wi-Fi 里面配置，把设备的网关和 DNS 都改成软路由的地址，然后就可以了。
+这种模式就是手动配置你需要走代理的的设备，一般都在 Wi-Fi 里面配置：
+
+- 把设备的 IP 配置一个局域网段内可用的 IPv4，改最后一位数即可
+- DNS 都改成软路由的地址
+
+然后就可以了。
 
 ### 自动模式
 
@@ -136,9 +143,5 @@ OpenClash 默认首页是「运行状态」页面，很方便看到当前的状�
 ## 参考
 
 - [OpenWrt 如何彻底禁用 IPv6 功能 - 乐猪小憩](https://keer.me/Openwrt-closes-IPv6.html)
-- [【2022-10-29】每日更新 高大全/精简版 Openwrt x86 5.15 内核 软路由固件 (提供定制)-OPENWRT 专版 - 恩山无线论坛](https://www.right.com.cn/forum/thread-8236842-1-1.html)
 - [在群晖上利用 VMM 玩转旁路由之 LEDE - NASDD](https://www.nasdd.cn/archives/190.html)
-- [群晖 ds218+旁路由实战 - Just 在路上](https://www.flyada.com/2019/09/07/%E7%BE%A4%E6%99%96ds218+%E6%97%81%E8%B7%AF%E7%94%B1%E5%AE%9E%E6%88%98/)
-- [折腾群晖笔记：利用 VMM 虚拟机 安装 LEDE 旁路由 实现软路由超强功能_NAS 存储_什么值得买](https://post.smzdm.com/p/apze08d7/)
--  [OpenWrt 正确编译安装 OpenClash 的方法 - 彧繎博客](https://opssh.cn/luyou/241.html)
-- [挂载硬盘 | 易有云 文档中心](https://doc.linkease.com/zh/guide/easepi/common.html#%E6%97%81%E8%B7%AF%E7%94%B1%E6%A8%A1%E5%BC%8F)
+- [LEDE(OpenWrt) 安装 openclash ｜旁路由技巧 ｜ 配置网络流量全部通过旁路由](https://blog.frytea.com/archives/450/)
