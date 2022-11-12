@@ -66,7 +66,7 @@ Telegram 除了私聊、群组功能，还可以创建频道，你可以简单�
 
 ### 分组功能
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/202211129XJOoZ.png!m)
+![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/202211129XJOoZ.png)
 
 Telegram 有分组功能，加的群组、频道太多，消息根本看不过来怎么办？群组这个功能非常有用，你可以把你优先关注的群组、频道放在一个分组里，这样你就可以优先关注这些群组、频道的消息，非常方便。
 
