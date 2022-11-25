@@ -25,11 +25,11 @@ toc: true
 
 我目前使用的是 [Hammerspoon](https://www.hammerspoon.org/) 来设置快捷键来切换应用，比如我设置了 `Alt + g` 来切换到 Chrome，`Alt + c` 来切换到 VSCode，`Alt + i` 来切换到 iTerm2，这样就可以很方便的切换应用了。
 
-Hammerspoon 功能强大，免费，但是上手有一点门槛，你可以通过看[Mac 利器 Hammerspoon 使用指南](https://blog.forecho.com/use-hammerspoon.html#app-%E5%90%AF%E5%8A%A8) 文章和参考[我的配置](https://github.com/forecho/hammerspoon-config)，完成此项功能。
+Hammerspoon 功能强大，免费，但是上手有一点门槛，你可以通过看[Mac 利器 Hammerspoon 使用指南](https://blog.forecho.com/use-hammerspoon.html#app-%E5%90%AF%E5%8A%A8) 文章和参考[我的配置](https://github.com/forecho/hammerspoon-config)来完成此项功能。如果你实在搞不定 Hammerspoon，可以考虑使用 [Alfred](https://www.alfredapp.com/) 来实现此功能。
 
 另外补充：
 
-- 不常用的软件我们可以使用 [Alfred](https://www.alfredapp.com/) 或者[Raycast](https://raycast.com/) 来快速启动
+- 不常用的软件可以使用 [Alfred](https://www.alfredapp.com/) 或者[Raycast](https://raycast.com/) 来快速启动
 - 一个应用有多个窗口时，可以使用 `Ctrl（Command） + ~` 来切换窗口
 
 ### 使用 Vim
