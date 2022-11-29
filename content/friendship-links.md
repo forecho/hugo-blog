@@ -49,13 +49,12 @@ url: /friendship-links/
 - [掘墓人的小铲子](https://juemuren4449.com)
 - [Henry Z's blog](https://changchen.me/)
 - [IOIOX](https://www.ioiox.com/)
-- [Lin.](https://www.mrlin93.com/)
 - [Jackie の生活觀察](https://www.wangyurui.top/)
-- [To be a happy sir](https://www.happysir.com/)
 - [你好我是森林](https://chensenlin.cn/)
 - [完美的胖达](https://wmdpd.com/)
 - [DHTalk's Blog](https://zhangdinghao.cn/)
 - [涛叔](https://taoshu.in/)
+- [Kingram](http://kingram.top/posts/)
 
 ## 待考察
 
