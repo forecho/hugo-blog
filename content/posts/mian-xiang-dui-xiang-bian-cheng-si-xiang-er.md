@@ -1,5 +1,5 @@
 ---
-title: "面向对象编程思想(二)"
+title: "面向对象编程思想 (二)"
 date: 2013-02-17T15:51:00+08:00
 tags: ["php"] 
 draft: false
@@ -18,7 +18,7 @@ class NoteBook{
     private $os;
     private $work;
    
-    //构造函数:创建和初始化对象成员属性
+    //构造函数：创建和初始化对象成员属性
     function __construct($name,$type,$os,$work){
         $this->name = $name;
         $this->type = $type;
@@ -70,9 +70,9 @@ unset($macbook->name);
 echo "<hr/>";
    
 if(isset($macbook->name)){
-    echo "成员属性name存在于NoteBook类中";
+    echo "成员属性 name 存在于 NoteBook 类中";
 }else{
-    echo "成员属性name不存在于NoteBook类中";
+    echo "成员属性 name 不存在于 NoteBook 类中";
 }
    
 ?>

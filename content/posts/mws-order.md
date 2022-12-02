@@ -1,7 +1,7 @@
 ---
 title: "MWS 开发 - 订单篇"
 date: 2019-07-08T22:58:00+08:00
-tags: ["MWS开发"] 
+tags: ["MWS 开发"] 
 draft: false
 toc: true
 ---
@@ -63,7 +63,7 @@ SDK 的 [ListOrders()](https://github.com/meertensm/amazon-mws/blob/master/src/M
 
 坑的是前面提到的 [meertensm/amazon-mws](https://github.com/meertensm/amazon-mws) 库作者没有实现发货方法，提了 PR 作者也没时间管了，所以我自己实现了。
 
-- 先创建一个 `core/replace/MWSClient.php` 文件:
+- 先创建一个 `core/replace/MWSClient.php` 文件：
 
 ```php
 <?php

@@ -28,7 +28,7 @@ toc: true
 
 <!--more-->
 
-解决办法参考[[DevOp] Mac上使用Docker](http://chinhui-blog.logdown.com/posts/263035-note-on-a-mac-using-the-docker) 和 [Mac OS X Yosemite 10.10.1安装Docker](http://blog.csdn.net/delphiwcdj/article/details/41780063)
+解决办法参考[[DevOp] Mac上使用Docker](http://chinhui-blog.logdown.com/posts/263035-note-on-a-mac-using-the-docker) 和 [Mac OS X Yosemite 10.10.1 安装 Docker](http://blog.csdn.net/delphiwcdj/article/details/41780063)
 
 ## 测试是否安装成功
 
