@@ -66,12 +66,13 @@ Shadowsocks 是一个开源的代理软件，可以让你科学上网。你需�
 
 ### iOS 端
 
-iOS 端想使用科学上网就稍微有麻烦，首选那些 App 都不在国内应用商店，所以你需要一个美区的 Apple ID，然后在美区的 App Store 下载这些 App。
+iOS 端想使用科学上网就稍微有麻烦，首选那些 App 都不在国内应用商店，所以首选你需要一个美区的 Apple ID，然后在美区的 App Store 下载这些 App。
 
 注册美区 Apple ID 其实是免费的，嫌麻烦就花钱买吧，推荐在[小火箭吧](https://xiaohuojian8.com/aff/3200.html)买。
 
-不建议使用不认识人的 Apple ID，有风险。参考：[【2022 年】五分钟注册美区 Apple ID，手把手教，稳定且耐用！](https://zhuanlan.zhihu.com/p/367821925)
+注册参考：[【2022 年】五分钟注册美区 Apple ID，手把手教，稳定且耐用！](https://zhuanlan.zhihu.com/p/367821925)
 
+不建议使用不认识人的 Apple ID，有风险。另外多提一句，千万不要在 iPhone 的 iCloud 登录任何不是自己的帐号，登录之后别人可以锁你设备，很危险。只需要在 App Store 登录就可以了。
 
 我们在 App Store 登录美区的 Apple ID 之后，就可以下载我们需要的 App 了，我目前在用的 App 有：
 
