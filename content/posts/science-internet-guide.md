@@ -97,7 +97,7 @@ iOS 端想使用科学上网就稍微有麻烦，首选那些 App 都不在国�
 
 ### Windows 端
 
-这里推荐 [clash for Windows](https://github.com/Fndroid/clash_for_windows_pkg/releases)，开源免费。
+这里推荐 [clash for Windows](https://github.com/Fndroid/clash_for_windows_pkg/releases)
 
 PS：我没有 Windows 电脑，所以我也没用过。
 
