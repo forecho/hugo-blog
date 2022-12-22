@@ -11,9 +11,7 @@ npm install postcss-cli
 
 ```bash
 hugo server
-
 # or
 # show draft
 hugo server -D
-```
 ```
