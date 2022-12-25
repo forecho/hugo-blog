@@ -41,14 +41,14 @@ sudo vim /etc/shadowsocks.conf
 
 **解释**
 
-- `server`: ss服务器IP
-- `server_port`: ss服务器IP端口
-- `local_address`: 本地ip
+- `server`: ss 服务器 IP
+- `server_port`: ss 服务器 IP 端口
+- `local_address`: 本地 ip
 - `local_port`:  #本地端口
-- `password`: 连接ss密码
+- `password`: 连接 ss 密码
 - `timeout`: 等待超时
 - `method`: 加密方式
-- `fast_open`: true 或 false。如果你的服务器 Linux 内核在3.7+，可以开启 fast_open 以降低延迟。开启方法： echo 3 > /proc/sys/net/ipv4/tcp_fastopen 开启之后，将 fast_open 的配置设置为 true 即可
+- `fast_open`: true 或 false。如果你的服务器 Linux 内核在 3.7+，可以开启 fast_open 以降低延迟。开启方法：echo 3 > /proc/sys/net/ipv4/tcp_fastopen 开启之后，将 fast_open 的配置设置为 true 即可
 - `workers`: 工作线程数
 
 <!--more-->
@@ -62,7 +62,7 @@ sudo nohup sslocal -c /etc/shadowsocks.conf >/dev/null 2>%1 &
 sudo ps aux |grep sslocal |grep -v "grep"
 ```
 
-PS：2018年1月29日更新内容
+PS：2018 年 1 月 29 日更新内容
 
 前一段时间用这种方式发现不用了，搞了半天最后才想起来要看日志，日志大致内容如下：
 
@@ -102,7 +102,7 @@ sudo cp /usr/local/lib/python2.7/dist-packages/shadowsocks/crypto/openssl.py /us
 sudo vim /usr/local/lib/python2.7/dist-packages/shadowsocks/crypto/openssl.py
 ```
 
-搜索一下 `cleanup`, 一共有两处，把 `cleanup` 改成 `reset`，也就是说:
+搜索一下 `cleanup`, 一共有两处，把 `cleanup` 改成 `reset`，也就是说：
 
 - 将 `libcrypto.EVP_CIPHER_CTX_cleanup.argtypes = (c_void_p,)` 改为 `libcrypto.EVP_CIPHER_CTX_reset.argtypes = (c_void_p,)`
 - 将 `libcrypto.EVP_CIPHER_CTX_cleanup(self._ctx)` 改为 `libcrypto.EVP_CIPHER_CTX_reset(self._ctx)`
@@ -132,7 +132,7 @@ sudo vim /etc/privoxy/config
 
 找到 `listen-address` 确保有这行代码 `listen-address 127.0.0.1:8118`
 
-找到 `forward-socks5` 确保有这行代码(没有自己加) `forward-socks5  /  127.0.0.1:1080 .`
+找到 `forward-socks5` 确保有这行代码 (没有自己加) `forward-socks5  /  127.0.0.1:1080 .`
 
 启动
 
@@ -168,7 +168,7 @@ curl ip.gs
 
 ## 参考链接
 
-- [Linux中使用ShadowSocks+Privoxy代理](https://docs.lvrui.io/2016/12/12/Linux%E4%B8%AD%E4%BD%BF%E7%94%A8ShadowSocks-Privoxy%E4%BB%A3%E7%90%86/)
-- [linux下的ss+privoxy代理配置](http://www.voidcn.com/blog/xwydq/article/p-5796260.html)
+- [Linux 中使用 ShadowSocks+Privoxy 代理](https://docs.lvrui.io/2016/12/12/Linux%E4%B8%AD%E4%BD%BF%E7%94%A8ShadowSocks-Privoxy%E4%BB%A3%E7%90%86/)
+- [linux 下的 ss+privoxy 代理配置](http://www.voidcn.com/blog/xwydq/article/p-5796260.html)
 - [Linux 命令行下使用 Shadowsocks 代理](https://mritd.me/2016/07/22/Linux-%E5%91%BD%E4%BB%A4%E8%A1%8C%E4%B8%8B%E4%BD%BF%E7%94%A8-Shadowsocks-%E4%BB%A3%E7%90%86/)
-- [解决openssl升级到1.1.0后shadowsocks服务报错问题](https://blog.lyz810.com/article/2016/09/shadowsocks-with-openssl-greater-than-110/)
+- [解决 openssl 升级到 1.1.0 后 shadowsocks 服务报错问题](https://blog.lyz810.com/article/2016/09/shadowsocks-with-openssl-greater-than-110/)

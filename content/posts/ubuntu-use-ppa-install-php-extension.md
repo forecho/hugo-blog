@@ -10,7 +10,7 @@ toc: true
 
 PPA，即 Personal Package Archives 缩写，也就是个人软件包集。
 
-> 有很多软件因为种种原因，不能进入官方的 Ubuntu 软件仓库。 为了方便 Ubuntu 用户使用，launchpad.net 提供了 ppa，允许用户建立自己的软件仓库， 自由的上传软件。PPA 也被用来对一些打算进入 Ubuntu 官方仓库的软件，或者某些软件的新版本进行测试。
+> 有很多软件因为种种原因，不能进入官方的 Ubuntu 软件仓库。为了方便 Ubuntu 用户使用，launchpad.net 提供了 ppa，允许用户建立自己的软件仓库，自由的上传软件。PPA 也被用来对一些打算进入 Ubuntu 官方仓库的软件，或者某些软件的新版本进行测试。
 
 ## 使用
 
@@ -74,4 +74,4 @@ sudo apt-get install php5-fpm
 ## 参考文章
 
 - [软件包管理](http://people.ubuntu.com/~happyaron/udc-cn/lucid-html/ch11s02.html)
-- [ubuntu通过ppa源安装php5.4或php5.5](http://blog.x228.com/archives/316.html)
+- [ubuntu 通过 ppa 源安装 php5.4 或 php5.5](http://blog.x228.com/archives/316.html)
