@@ -14,7 +14,7 @@ toc: true
 
 ### [OptionStrat](https://optionstrat.com/flow/live)
 
-![HrmDqQ](https://img.forecho.com/HrmDqQ.png)
+![](https://img.forecho.com/HrmDqQ.png)
 
 OptionStrat 是期权交易者不错的工具，使用 OptionStrat 直观的可视化和分析工具进行更智能的交易，免费版用户可以查看延迟 15 分钟的期权流。
 
@@ -22,7 +22,7 @@ OptionStrat 是期权交易者不错的工具，使用 OptionStrat 直观的可�
 
 <!--more-->
 
-![IAKLxB](https://img.forecho.com/IAKLxB.png)
+![](https://img.forecho.com/IAKLxB.png)
 
 BarChart 有免费提供一个异常期权活动的页面，可以看到当天的期权大单。
 
@@ -30,7 +30,7 @@ BarChart 有免费提供一个异常期权活动的页面，可以看到当天�
 
 ### [unusualwhales](https://unusualwhales.com/)
 
-![0LCp2z](https://img.forecho.com/0LCp2z.png)
+![](https://img.forecho.com/0LCp2z.png)
 
 UnusualWhales 是一个收费的期权大单监控平台，可以看到当天的期权大单。免费版可以看到最近 7 天的期权大单。
 
@@ -38,11 +38,9 @@ UnusualWhales 是一个收费的期权大单监控平台，可以看到当天的
 
 可以买终身会员，不过最近涨价了，现在终身会员要 3000 美金。
 
-
-
 ### 证券 App
 
-![m3trQx](https://img.forecho.com/m3trQx.PNG)
+![](https://img.forecho.com/m3trQx.PNG)
 
 据我所知，富途牛牛和华盛证券都有这个功能，数据可能不全，但是可以看到当天的期权大单。作为一个免费的功能，还是很不错的。
 
@@ -50,7 +48,7 @@ UnusualWhales 是一个收费的期权大单监控平台，可以看到当天的
 
 ### Twitter
 
-![VE4bj8](https://img.forecho.com/VE4bj8.png)
+![](https://img.forecho.com/VE4bj8.png)
 
 Twitter 上有很多分享期权大单的账号，比如：
 
@@ -68,7 +66,7 @@ Twitter 上有很多分享期权大单的账号，比如：
 
 ### 期权大单的交易类型
 
-![o3l0LP](https://img.forecho.com/o3l0LP.png)
+![](https://img.forecho.com/o3l0LP.png)
 
 期权大单的交易类型主要有以下三种：
 
@@ -76,25 +74,25 @@ Twitter 上有很多分享期权大单的账号，比如：
 - Split Order: 单交易所分割交易
 - Sweep Order: 扫单交易
 
-#### Block Order
+**Block Order**
 
 Block Order 是指一次性交易大量的期权合约，比如一次性买入 1000 个合约，这种交易一般是由机构投资者进行的。在非公开市场进行，且私下交易，交易完之后才去交易所登记清算。
 
 好处是可以用单一的价格买入大量的期权合约，避免了市场上的价格波动。
 
-#### Split Order
+**Split Order**
 
 Split Order 是指机构或者大户在一家交易所上短时间内分批次的买入或者卖出期权合约，然后变成一个大单交易记录。
 
 因为这种交易很明显就能识别交易者的情绪。
 
-#### Sweep Order
+**Sweep Order**
 
 Sweep Order 是 Split Order 的升级版本，是指机构或者大户在多家交易所上短时间内分批次的买入或者卖出期权合约，是短线交易者的常用手段，因为它可以隐藏交易者的情绪。
 
 ### 期权大单的交易方向
 
-![KhqXFB](https://img.forecho.com/KhqXFB.png)
+![](https://img.forecho.com/KhqXFB.png)
 
 怎么看期权是买入还是卖出？unusualwhales 有显示 Side（有的平台没有），对于 Call 来说：
 
@@ -122,4 +120,4 @@ Sweep Order 是 Split Order 的升级版本，是指机构或者大户在多家�
 
 期权大单是期权市场的一大特色，它能够很直观的反映市场的情绪，但是并不能说明市场的走势，所以我们需要结合其他的指标来判断市场的走势。
 
-当然期权的大单交易流只是一个帮我们做交易决策的工具，最终的交易决策还是要靠自己的判断。
+最重要的是期权的大单交易流只是一个帮我们做交易决策的工具，最终的交易决策还是要靠自己的判断，所以不要随意的跟单。
