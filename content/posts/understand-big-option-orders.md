@@ -10,6 +10,8 @@ toc: true
 
 玩美股期权差不多有一年了，今天给大家分享一下，我是在哪里看到的期权大单，以及如何读懂期权大单。
 
+本篇文章适合有一定期权基础的读者。如果你还不懂什么是期权？可以去看看我的[期权系列](https://blog.forecho.com/tags/%E6%9C%9F%E6%9D%83.html)文章。
+
 ## 在哪里看到期权大单
 
 ### [OptionStrat](https://optionstrat.com/flow/live)
