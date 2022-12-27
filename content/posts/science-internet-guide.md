@@ -79,7 +79,9 @@ iOS 端想使用科学上网就稍微有麻烦，首选那些 App 都不在国�
 - [Stash](https://apps.apple.com/app/stash/id1596063349)：我当前正在用的 App，功能比较强大，价格也不贵，推荐使用。
 - [Shadowrocket](https://apps.apple.com/us/app/shadowrocket/id932747118)：小火箭，便宜，销量垂直领域第一了吧，现在依旧保持更新。我把它作为备用 App。
 
-当然这两个 App 都是收费的，然后就涉及到支付问题了，美国 Apple ID 支付的有点麻烦，所以我建议大家用购买兑换码的方式购买这两个 App。这里我在网上搜索了两个网站，方便你们购买：
+当然这两个 App 都是收费的，然后就涉及到支付问题了，目前支付宝很方便就能实现给美区 Apple ID 充值了，具体可以看[《2022 年给苹果 iPhone App Store 美区 AppleID 充值的两种安全方法（国内信用卡或支付宝）》](https://zhuanlan.zhihu.com/p/591979093)，**强烈推荐这种方式**。
+
+另外一种就是购买兑换码的方式购买这两个 App。这里我在网上搜索了两个网站，方便你们购买：
 
 - [桃子商店](https://shop.tz.ci/buy/13)
 - [火箭少女小卖部](https://www.rocketgirls.space/product/10.html)
