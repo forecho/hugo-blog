@@ -38,7 +38,7 @@ toc: true
 
 ![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20230102PKKc4y.png!m)
 
-2022 年我算是做到了坚持每天学英语，感谢多邻国，是它让我坚持下来的。每天 10-20 分钟，看似非常少，但是坚持下来，效果还是很明显的。
+2017 年的时候我发布了一篇[《我在学英语》](https://blog.forecho.com/i-am-learning-english.html)，但是遗憾的是没能坚持多久。2022 年我算是做到了坚持每天学英语，感谢多邻国，是它让我坚持下来的。每天 10-20 分钟，看似非常少，但是坚持下来，效果还是很明显的。
 
 不同于其他背单词学英语的 App，多邻国是用游戏花的方式学英语，激励你每天坚持学习。我有试过其他一些学英语 App，但是无一例外都没能坚持下来。
 
@@ -108,6 +108,10 @@ toc: true
 虽然我暂时放弃使用了 Yii2，但是我依旧在支持 [Yii Software](https://github.com/yiisoft)，我每个月依旧在给他们赞助。
 
 强哥虽然不再维护 Yii 了，目前的主力团队是俄罗斯人，他们今年经历了战争，比我们更惨，他们现在更需要支持，虽然更新进度慢，但是能理解，期待 Yii3 早日发布。
+
+![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20230102MpjPt9.png) 
+
+2011 年就注册了 Twitter，2016 年放弃微博，转战 [Twitter](https://twitter.com/caizhenghai)，今年是我在 Twitter 上涨粉丝最多的一年（去年粉丝好像是 2k 多），感谢大家的厚爱。
 
 ## 展望 2023
 
