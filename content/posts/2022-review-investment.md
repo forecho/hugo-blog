@@ -79,7 +79,7 @@ toc: true
 - NVDA
 - AMD
 - DDOG
-- TDD
+- TTD
 - NET
 - SNAP
 
