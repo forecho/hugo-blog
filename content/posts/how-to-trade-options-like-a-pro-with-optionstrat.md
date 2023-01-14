@@ -166,7 +166,9 @@ Optionstrat 默认给了三个筛选条件，免费使用，很给力，分别�
 
 目前我用这个功能不对，有兴趣你们自己去看官方教程 [Strategy Optimizer Tutorial](https://optionstrat.com/tutorials/strategy-optimizer?ref=caizhenghai)。
 
-## 我是如何使用 [Optionstrat](https://optionstrat.com/caizhenghai) 的
+## 使用经验
+
+### 使用流程
 
 先去 [Flow Summary](https://optionstrat.com/flow?ref=caizhenghai) 页面看期权概况，然后找熟悉的标的关注，然后点进去看交易记录，观察可疑的交易，目前主要是看买单。
 
@@ -177,6 +179,8 @@ Optionstrat 默认给了三个筛选条件，免费使用，很给力，分别�
 ![](https://img.forecho.com/g7fyXY.png)
 
 本月 4 号开始使用，11 号开始付费，现在收益率已经 35%，目前唯一不确定的是「这笔钱是靠运气赚到的还是靠我自己分析赚到的」，有待时间去检验我的成果 😄。
+
+### 心得
 
 另外分享一下我的使用心得：
 
