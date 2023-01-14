@@ -16,15 +16,15 @@ toc: true
 
 <!--more-->
 
-## [Optionstrat](https://optionstrat.com/caizhenghai) 是什么？
+## Optionstrat 是什么？
 
-网站的介绍是：
+[Optionstrat](https://optionstrat.com/caizhenghai) 网站的介绍是：
 
 > 期权交易者的工具包，使用 OptionStrat 直观的可视化和分析工具进行更智能的交易
 
-## [Optionstrat](https://optionstrat.com/caizhenghai) 能干什么？
+## Optionstrat 能干什么？
 
-主要有三个功能：
+[Optionstrat](https://optionstrat.com/caizhenghai) 主要有三个功能：
 
 - 期权交易策略分析
 - 期权优化
