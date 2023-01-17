@@ -14,3 +14,9 @@ hugo server
 # or
 hugo server -D # show draft
 ```
+
+Update Submodule
+
+```bash
+git submodule update --remote
+```
