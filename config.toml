@@ -39,6 +39,7 @@ bio = "把生命浪费在美好的事物上"
 homepage = "https://forecho.com/"
 
 [params]
+htmlClass="dark"
 favicon = "https://avatars0.githubusercontent.com/u/1725326?s=460&v=4"
 keywords = "yii2, yii, 炒美股, 如何炒美股, 美股入金 php, ios, ruby, python, swift, web development"
 description = "forecho, forecho blog, forecho 独立博客"
