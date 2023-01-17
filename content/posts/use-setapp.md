@@ -14,6 +14,8 @@ toc: true
 
 我用了 SetApp 有一段时间了，这里分享一下我的使用经验。
 
+<!--more-->
+
 ## 价格
 
 ![](https://img.forecho.com/C6CwzS.jpg)
