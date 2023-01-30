@@ -48,7 +48,10 @@ toc: true
 
 ![](https://img.forecho.com/Cp1V65.png)
 
-Mac 的话目前只发现[hallelujahIM(哈利路亚 英文输入法) ](https://github.com/dongyuwei/hallelujahIM), 是 Mac 平台一款智能英语输入法，效果如上图。
+Mac 的话目前只发现[hallelujahIM(哈利路亚 英文输入法) ](https://github.com/dongyuwei/hallelujahIM), 是 Mac 平台一款智能英语输入法，效果如上图。部分特性如下：
+
+- 支持按拼音来输出对应英文。如输入 suanfa，输入法会候选词中会显示 algorithm。
+- 支持按英文单词的模糊音来输入。如输入 cerrage 或者 kerrage 可以得到 courage 候选词，也可以输入 aosome 或者 ausome 来得到 awesome 候选词。
 
 
 ## 语法纠正
