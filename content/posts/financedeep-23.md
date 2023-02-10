@@ -135,7 +135,7 @@ toc: true
 
 ## 福利
 
-- 微信群：年初我创建了一个微信投资交流群，想加群的朋友先加我微信 ipzone 我拉你进群，申请好友请备注来意。
-- 开户福利：如果你还没有美股开户的话，推荐我正在使用的富途证券，他们目前开户成功入金有送股票，开户链接：<http://link.3li3.com/futu>
+- Telegram 交流群：欢迎加入我的 Telegram 交流群，一起学习交流：<https://t.me/BaoFuTogether>
+- 开户福利：如果你还没有美股开户的话，推荐我正在使用的长桥证券，他们目前开户成功入金有送股票，开户链接：<http://link.3li3.com/qiao>
 
-![富途证券开户](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/futu5.png!s)
+![长桥证券开户](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/202302103dIO3V.png!s)
