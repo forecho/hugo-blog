@@ -33,7 +33,7 @@ toc: true
 
 期权状态。先**预览整个状况**，绿色代表看涨，红色代表看跌。
 
-![](https://img.forecho.com/5XgGGQ.png)
+![](https://img.forecho.com/HQQR6U.png)
 
 
 然后查看「OPEN INTEREST BY STRIKES」**了解未平仓期权数（IO）**，注意要选择最近到期的日期（只看末日期权）。绿色未平仓数数量最大的是阻力线，选两个记录下来。
