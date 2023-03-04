@@ -12,7 +12,7 @@ toc: true
 
 ## 使用 Tradytics 日交易
 
-主要看 TICKER DASHBOARDS 下面的三个 Dashboard，分别是：
+主要是使用 TICKER DASHBOARDS 下面的三个 Dashboard，使用这三个工具的主要目的是找到指定股票当天的阻力点和支撑点，然后在这些点位上进行交易。
 
 ### Stocks Dashboard 
 
