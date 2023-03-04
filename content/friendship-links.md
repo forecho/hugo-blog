@@ -55,6 +55,7 @@ url: /friendship-links/
 - [DHTalk's Blog](https://zhangdinghao.cn/)
 - [涛叔](https://taoshu.in/)
 - [Kingram](http://kingram.top/posts/)
+- [王小嗨的不老歌](https://sogola.com/)
 
 ## 待考察
 
