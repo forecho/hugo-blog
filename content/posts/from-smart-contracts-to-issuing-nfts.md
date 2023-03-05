@@ -43,7 +43,7 @@ toc: true
 
 ### 与传统合约区别
 
-![](https://img.forecho.com/N5YXLz.jpg "智能合约与传统合约区别")
+![](https://img.forecho.com/jxPZS2.png "智能合约与传统合约区别")
 
 | 特点 |	传统合约	| 智能合约 | 
 | ----- | ----- | ----- |
