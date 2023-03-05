@@ -84,7 +84,7 @@ jobs:
 - `VERCEL_PROJECT_ID_STATIC`：前面获取到的 `projectId`
 - `VERCEL_TOKEN`：在 Velcel 手动[创建 token](https://vercel.com/account/tokens)
 
-然后每次 `push` 代码， Velcel 就会自动部署了。
+然后每次 `push` 代码，Velcel 就会自动部署了。
 
 
 ## 最后
