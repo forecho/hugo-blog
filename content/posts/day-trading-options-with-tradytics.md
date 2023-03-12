@@ -28,7 +28,7 @@ Tradytics 每天分析超过一百万个数据点，来自期权流量、股票�
 
 ![](https://img.forecho.com/nDtDk2.png)
 
-访问 [Options Market](https://tradytics.com/options-market) 了解市场的详细视图和统计数据，将帮助我们选择股票进行期权交易。
+访问 [Options Market](https://tradytics.com/options-market) 了解市场的详细视图和统计数据，将有助于我们选择合适的交易方向。
 
 上图是汇总的市场净流量是将市场中所有股票的净保证金与 SPY 股价进行比较，可用于预测市场方向。点是基于动量的进入点。请观看[视频指南](https://www.youtube.com/watch?v=HHkRGiqBKvg)了解更多详情。
 
