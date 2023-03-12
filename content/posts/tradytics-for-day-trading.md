@@ -1,7 +1,7 @@
 ---
 title: "用 Tradytics 日交易"
 date: 2023-03-03T22:18:00+08:00
-tags: ["深度理财", "美股", "日交易"]
+tags: ["深度理财", "美股", "tradytics"]
 draft: false
 toc: true
 ---
