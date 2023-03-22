@@ -105,7 +105,7 @@ iOS 端想使用科学上网就稍微有麻烦，首选那些 App 都不在国�
 
 ### Mac 端
 
-这里只推荐 [clashX](https://github.com/yichengchen/clashX)，开源免费。我目前在用的也是这个。
+Mac 端有 [clashX](https://github.com/yichengchen/clashX)，开源免费。我目前在用的是 [ClashX Pro](https://install.appcenter.ms/users/clashx/apps/clashx-pro/distribution_groups/public)
 
 当然前面提到 Stash 也出了 Mac 版本，但是价格不便宜，感觉没必要。ClashX 足够好用了。
 
