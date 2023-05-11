@@ -78,9 +78,11 @@ GME 2021-01-25 被逼空，那个时候散户联合起来搞机构，散户的�
 ## 查看被做空的股票
 
 - [Most Shorted Stocks - Benzinga](https://www.benzinga.com/short-interest/most-shorted)
+- [High Short Interest Stocks](https://www.highshortinterest.com/)
 - [Site Unreachable](https://finance.yahoo.com/u/yahoo-finance/watchlists/stocks-with-the-highest-short-interest/)
 - [Short Interest - MarketWatch](https://www.marketwatch.com/tools/screener/short-interest)
-- [High Short Interest Stocks](https://www.highshortinterest.com/)
+
+PS：前两个网站数据每两周更新一次，后面两个网站没看到更新说明。
 
 ## 总结
 
