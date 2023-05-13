@@ -123,8 +123,6 @@ MA5 = (P1 + P2 + P3 + P4 + P5) / 5
     - MA10：中短线操作，一周到一个月
     - MA20：中线操作，一个月左右
 
-
-
 ## 真假金叉
 
 ![](https://img.forecho.com/lWCRCG.png)
