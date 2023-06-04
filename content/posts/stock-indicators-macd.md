@@ -15,7 +15,7 @@ MACD 也是股票技术分析中最常用的技术指标之一，经常被用来
 
 ### 基础概念
 
-![](https://i.imgur.com/kvzypmT.png)
+![](https://img.forecho.com/2WntZv.jpg)
 
 MACD 是指数平滑异同移动平均线 (Moving Average Convergence Divergence) 的缩写，简称「指数平滑异同移动平均线」，代表一种趋势跟踪的动量指标。MACD 通常由 4 部分组成：
 
@@ -62,7 +62,7 @@ MACD 指标比较适合做中长线操作。
 
 ### 示例
 
-![](https://i.imgur.com/BzmszUt.jpg)
+![](https://img.forecho.com/AVbteN.jpg)
 
 1. 上涨趋势确认
 2. 下跌趋势确认
@@ -78,7 +78,7 @@ MACD 指标比较适合做中长线操作。
 MACD 背离是指股价与 MACD 指标之间的背离，即股价与 MACD 指标的走势方向不一致。
 
 
-![](https://i.imgur.com/gMXEG0f.jpg)
+![](https://img.forecho.com/mkWGWJ.jpg)
 
 这两种情况要注意了：
 
