@@ -12,7 +12,6 @@ toc: true
 
 不了解期权和 Optionstrat 的朋友可以先看看我的 [期权系列文章](https://blog.forecho.com/tags/期权.html) 。
 
-<!--more-->
 
 ## 过滤功能
 
@@ -23,6 +22,8 @@ toc: true
 而且像特斯拉、SPY、QQQ  这种期权流量很大的股票，买 CALL 和 PUT 的人都很多，那这种情况我们要通过  Filter 功能来过滤掉，让它帮我们找到可循的交易信号。
 
 PS：Optionstrat 免费会员期权数据有 15 分钟的延迟，并且不能自定义 Filter，而且也不会有 APP 推送通知。如果你体验了一段时间，觉得还不错，想要更好的体验，可以考虑购买会员，非常值。
+
+<!--more-->
 
 ### 默认 Filter
 
