@@ -63,3 +63,6 @@ toc: true
 
 - TRC：`TRdBDpuSVffHfAD33SFVyc62hZe79msdcd`
 - ETH：`0xc1a3C8DF608F8D4a321fEC13e968327ccFd0bf74`
+
+
+附上学习资料：[《区块链安全入门笔记》](https://github.com/slowmist/Knowledge-Base/tree/master/blockchain_security_study_notes)
