@@ -50,7 +50,7 @@ url: /friendship-links/
 - [Henry Z's blog](https://changchen.me/)
 - [IOIOX](https://www.ioiox.com/)
 - [Jackie の生活觀察](https://www.wangyurui.top/)
-- [你好我是森林](https://chensenlin.cn/)
+- [特立独行的异类](https://www.demochen.com/)
 - [完美的胖达](https://wmdpd.com/)
 - [DHTalk's Blog](https://zhangdinghao.cn/)
 - [涛叔](https://taoshu.in/)
