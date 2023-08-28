@@ -57,7 +57,7 @@ rssFullContent = true
 uglyURLs = true
 busuanzi = true # 是否使用不蒜子统计站点访问量
 staticCDNPrefix = "https://cdn.bootcss.com/font-awesome/5.11.2"
-extraHead = '<meta name="google-site-verification" content="OMI81_SJiESxwq-Fr0CLleoF7EzVdRx7QTQlbAfCVdI" /><meta name="sogou_site_verification" content="5AsiT3lHig"/><meta name="baidu-site-verification" content="WuHyHeOJtJ" /><script async defer src="https://analytics.umami.is/script.js" data-website-id="22ae6477-c352-415f-8268-5f4ad12792a7"></script>'
+extraHead = '<meta name="google-site-verification" content="OMI81_SJiESxwq-Fr0CLleoF7EzVdRx7QTQlbAfCVdI" /><meta name="sogou_site_verification" content="5AsiT3lHig"/><meta name="baidu-site-verification" content="WuHyHeOJtJ" /><script async src="https://analytics.umami.is/script.js" data-website-id="22ae6477-c352-415f-8268-5f4ad12792a7"></script>'
 postAds = '<div class="p-4 md:hidden rounded shadow bg-white dark:bg-gray-800"><img class=" object-cover w-auto mx-auto mt-6" loading="lazy" src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424153337.png" title="微信：ipzone" alt="微信：ipzone"></div>'
 profileAds = '<div class="p-4 mt-2 lg:mt-4 rounded shadow bg-white dark:bg-gray-800"><img class=" object-cover w-auto mx-auto mt-6" loading="lazy" src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424153337.png" title="微信：ipzone" alt="微信：ipzone"></div>'
 notFoundAds = ''
