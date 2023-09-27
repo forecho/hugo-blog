@@ -18,7 +18,7 @@ toc: true
 
 PS：关于如何开通富途证券，详情参考我这篇文章[《我是怎么投资美股的》](https://blog.forecho.com/how-do-i-invest-in-american-stocks.html)。
 
-⚠️ 懒人[开户链接](http://link.3li3.com/futu)
+⚠️ 懒人[开户链接](https://link.3li3.com/futu)
 
 ![富途证券开户](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/futu5.png!s)
 
@@ -68,9 +68,9 @@ velo客服工作时间：
 
 ### 具体方案
 
-使用[老虎证券](http://link.3li3.com/tiger)交易。小米投资的一家专注美港股的互联网券商。
+使用[老虎证券](https://link.3li3.com/tiger)交易。小米投资的一家专注美港股的互联网券商。
 
-点击 <http://link.3li3.com/tiger> 线上开户通过之后就可以使用大陆银行卡入金了。推荐使用民生银行卡。
+点击 <https://link.3li3.com/tiger> 线上开户通过之后就可以使用大陆银行卡入金了。推荐使用民生银行卡。
 
 ![老虎证券开户](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/itiger.png!s)
 

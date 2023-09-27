@@ -12,7 +12,7 @@ toc: true
 
 前一段时间我分享了[一篇文章](https://blog.forecho.com/financedeep-09.html)介绍了老虎入金操作，上次已经说了入金老虎证券就是为了打新，没过几条正好赶上了一个美股打新，这篇文章就分享一下我第一次美股打新的经验。
 
-PS：还没有在老虎证券开户小伙伴可以通过下面链接开户：<http://link.3li3.com/tiger>
+PS：还没有在老虎证券开户小伙伴可以通过下面链接开户：<https://link.3li3.com/tiger>
 
 ![老虎证券开户](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/itiger.png!s)
 

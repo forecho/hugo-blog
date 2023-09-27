@@ -10,11 +10,11 @@ toc: true
 
 去年五月份的之后我写过一篇关于[《我是如何投资美股》](https://blog.forecho.com/how-do-i-invest-in-american-stocks.html)的文章，得到很多朋友的关注。
 
-今天这篇文章我主要是分享一下作为美股初学者的我，使用[富途证劵](http://link.3li3.com/futu)和雪盈证劵的感受和体验。希望对你在选择平台上有一点参考意义。
+今天这篇文章我主要是分享一下作为美股初学者的我，使用[富途证劵](https://link.3li3.com/futu)和雪盈证劵的感受和体验。希望对你在选择平台上有一点参考意义。
 
 ## 富途证券
 
-官网地址：<http://link.3li3.com/futu>
+官网地址：<https://link.3li3.com/futu>
 
 ![富途证券开户](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/futu5.png!s)
 
@@ -64,7 +64,7 @@ toc: true
 
 ## 雪盈证券
 
-官网地址：<http://link.3li3.com/xueying>
+官网地址：<https://link.3li3.com/xueying>
 
 ![雪盈证券开户](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/snowballsecurities.png!s)
 
@@ -114,4 +114,4 @@ toc: true
 
 **更新：**
 
-富途证券已经不支持国内银行卡入金了，只能办一张香港银行卡才可以。如果你暂时没有条件办香港卡，而又想入金的话，可以推荐使用[雪盈证券](http://link.3li3.com/xueying)。支持国内银行卡入金，但是值得注意的是，有入金门槛，第一次入金必须要大于3000美元。
+富途证券已经不支持国内银行卡入金了，只能办一张香港银行卡才可以。如果你暂时没有条件办香港卡，而又想入金的话，可以推荐使用[雪盈证券](https://link.3li3.com/xueying)。支持国内银行卡入金，但是值得注意的是，有入金门槛，第一次入金必须要大于3000美元。

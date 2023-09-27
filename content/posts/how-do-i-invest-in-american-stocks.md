@@ -52,7 +52,7 @@ toc: true
 
 看到这里如果你也想投资美股的话，推荐你使用富途，这款 App 体验做的确实不错，开户方式：
 
-- 点击[开户链接](http://link.3li3.com/futu)
+- 点击[开户链接](https://link.3li3.com/futu)
 - 扫码开户
 
 ![EJFeTo](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/EJFeTo.png)

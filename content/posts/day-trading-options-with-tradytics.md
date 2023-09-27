@@ -8,7 +8,7 @@ toc: true
 
 ## 引言
 
-前一段时间和几个朋友以一个非常低的价格拼车买了 [Tradytics](http://link.3li3.com/tradytics) 的会员，一有时间我就研究如何使用，虽然 [Tradytics](http://link.3li3.com/tradytics) 太复杂了，但是有很多有用的数据，可以帮我们看清目前的市场状况，然后做出正确的交易决策。
+前一段时间和几个朋友以一个非常低的价格拼车买了 [Tradytics](https://link.3li3.com/tradytics) 的会员，一有时间我就研究如何使用，虽然 [Tradytics](https://link.3li3.com/tradytics) 太复杂了，但是有很多有用的数据，可以帮我们看清目前的市场状况，然后做出正确的交易决策。
 
 我会把我学到的东西分享出来，希望能帮助到大家。系列文章点击 [Tradytics](https://blog.forecho.com/tags/tradytics.html) 查看。
 

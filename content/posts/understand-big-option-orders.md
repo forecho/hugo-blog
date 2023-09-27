@@ -127,6 +127,6 @@ Sweep Order 是 Split Order 的升级版本，是指机构或者大户在多家�
 ## 福利
 
 - Telegram 交流群：欢迎加入我的 Telegram 交流群，一起学习交流：<https://t.me/BaoFuTogether>
-- 开户福利：如果你还没有美股开户的话，推荐我正在使用的长桥证券，他们目前开户成功入金有送股票，开户链接：<http://link.3li3.com/qiao>
+- 开户福利：如果你还没有美股开户的话，推荐我正在使用的长桥证券，他们目前开户成功入金有送股票，开户链接：<https://link.3li3.com/qiao>
 
 ![长桥证券开户](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/202302103dIO3V.png!s)

@@ -12,7 +12,7 @@ toc: true
 
 目前我所使用的证券平台只有雪盈和微牛支持组合期权，本篇文章主要是使用雪盈来做实例，没开户的朋友如果想体验组合期权推荐使用雪盈：
 
-- 开户地址：<http://link.3li3.com/xueying>
+- 开户地址：<https://link.3li3.com/xueying>
 
 ![雪盈证券开户](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/snowballsecurities.png!s)
 

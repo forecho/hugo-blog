@@ -20,7 +20,7 @@ toc: true
 
 根据我的使用过的几个证券平台经验，如果你已经有了境外卡我推荐你使用富途证券：
 
-- 开户地址：<http://link.3li3.com/futu>
+- 开户地址：<https://link.3li3.com/futu>
 
 ![富途证券开户](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/futu5.png!s)
 
@@ -36,7 +36,7 @@ toc: true
 - 暗盘交易：不支持
 - 优势：雪球旗下证券，交易费低至$0.99/笔，融资年化低，支持大陆卡入金。
 - 劣势：打新能力不行，热门新股申购要排队，而且大概率会失败。入金2万港币门槛。
-- 开户地址：<http://link.3li3.com/xueying>
+- 开户地址：<https://link.3li3.com/xueying>
 
 ![雪盈证券开户](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/snowballsecurities.png!s)
 
@@ -52,7 +52,7 @@ toc: true
 - 融资费率：目前是3.8%
 - 暗盘交易：支持
 - 优势：支持大陆卡入金，招商银行成功率高。
-- 开户地址：<http://link.3li3.com/eddid>
+- 开户地址：<https://link.3li3.com/eddid>
 
 ![艾德证券开户](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/2020120913V7Ov.png!s)
 

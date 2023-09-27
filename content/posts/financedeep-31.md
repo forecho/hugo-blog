@@ -12,7 +12,7 @@ toc: true
 
 没开户的可以使用这个开户：
 
-- 开户链接：<http://link.3li3.com/yxzq>
+- 开户链接：<https://link.3li3.com/yxzq>
 
 ![盈立智投开户](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20210723iBxsf0.jpg!s)
 
@@ -87,7 +87,7 @@ toc: true
 
 整体下来我觉得盈立还是不错的美股证券平台，有自己的特色，比方说策略、日内融等等。最近他们刚好在搞两周年活动，开户入金有很多福利：
 
-- 开户链接：<http://link.3li3.com/yxzq>
+- 开户链接：<https://link.3li3.com/yxzq>
 
 ![盈立智投开户](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20210723iBxsf0.jpg!s)
 

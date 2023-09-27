@@ -10,7 +10,7 @@ toc: true
 
 大家期待已久的香港银行卡办卡渠道终于来了，这次雪盈提供的南洋商业银行渠道，所以没有雪盈账户的请先用下面链接开好户：
 
-- 开户地址：<http://link.3li3.com/xueying>
+- 开户地址：<https://link.3li3.com/xueying>
 
 ![雪盈证券开户](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/snowballsecurities.png!s)
 

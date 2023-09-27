@@ -29,7 +29,7 @@ YouTube Premium 简单理解就是 YouTube 会员，主要功能有以下几点�
 
 开通前提准备：
 
-- 阿根廷 IP：作为家长因为需要操作付费，所以需要有阿根廷 IP，我目前使用的[梯子](http://link.3li3.com/mxwljsq)有提供阿根廷 IP。
+- 阿根廷 IP：作为家长因为需要操作付费，所以需要有阿根廷 IP，我目前使用的[梯子](https://link.3li3.com/mxwljsq)有提供阿根廷 IP。
 - 信用卡：支持 visa 或者 mastercard 的信用卡
 
 

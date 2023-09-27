@@ -8,7 +8,7 @@ toc: true
 
 ## 引言
 
-如今美股开户的 APP 很多，什么[富途证券](http://link.3li3.com/futu)、[老虎证券](http://link.3li3.com/tiger)、[雪盈](http://link.3li3.com/xueying) 等等，开户步骤也非常简单，但是入金确实有点麻烦，很多人都「卡」在这里了。嫌入金麻烦，更嫌出金麻烦。
+如今美股开户的 APP 很多，什么[富途证券](https://link.3li3.com/futu)、[老虎证券](https://link.3li3.com/tiger)、[雪盈](https://link.3li3.com/xueying) 等等，开户步骤也非常简单，但是入金确实有点麻烦，很多人都「卡」在这里了。嫌入金麻烦，更嫌出金麻烦。
 
 那么今天这篇文章我就分享一下怎么用基金的方式投资美股？以及这种方式的利弊。
 

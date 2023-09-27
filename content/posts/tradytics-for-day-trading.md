@@ -8,7 +8,7 @@ toc: true
 
 ## 引言
 
-[Tradytics](http://link.3li3.com/tradytics) 是一个美股期权交易平台，提供了很多有用的数据，可以帮助我们日交易。今天就来介绍一下如何使用 Tradytics 日交易。
+[Tradytics](https://link.3li3.com/tradytics) 是一个美股期权交易平台，提供了很多有用的数据，可以帮助我们日交易。今天就来介绍一下如何使用 Tradytics 日交易。
 
 ## 使用 Tradytics 日交易
 
