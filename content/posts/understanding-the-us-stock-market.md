@@ -238,7 +238,7 @@ Finviz 的 [S&P 500 Map](https://finviz.com/map.ashx) 可以查看每天大盘�
 
 ![](https://img.forecho.com/HdrQL5.png)
 
-使用 [Breadth](https://breadth.com/) 可以查看每天大盘的整体市场宽度。
+使用 [Breadth](https://www.trading-logic.com/index.html) 可以查看每天大盘的整体市场宽度。
 
 **什么是市场宽度？**
 
