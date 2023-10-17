@@ -47,7 +47,7 @@ Tips:
 - QQQ、SPY、IWM 的期权可能是对冲
 - 英伟达和特斯拉期权很活跃，噪音比较多，很考验操作能力了，能力不行的可以忽略他们的信号
 - 重点关注 1 M 以上 PREMIUM 的期权信号
-- 关注大盘方向和我分享的 Tradytics 的市场净流量指标，顺着趋势方向做多或者做空。
+- 关注大盘方向和我分享的 [Tradytics 的市场净流量指标](https://blog.forecho.com/market-net-flow.html)，顺着趋势方向做多或者做空。
 
 ## 为什么要收费
 
