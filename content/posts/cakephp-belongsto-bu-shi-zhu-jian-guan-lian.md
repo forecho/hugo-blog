@@ -8,7 +8,7 @@ toc: true
 
 belongsTo 是`属于`的关系。
 
-```
+```php
 var $belongsTo = array(
 
     'Inventory' => array(
