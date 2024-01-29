@@ -56,6 +56,7 @@ url: /friendship-links/
 - [涛叔](https://taoshu.in/)
 - [Kingram](http://kingram.top/posts/)
 - [王小嗨的不老歌](https://sogola.com/)
+- [莫尔索](https://liduos.com/)
 
 ## 待考察
 
