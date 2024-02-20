@@ -47,7 +47,7 @@ toc = true
 navItems = [
   ["首页", "/"],
   ["文章归档", "/posts.html"],
-  ["股票投资原则", "https://github.com/forecho/Stock-Investment-Principle/"],
+  ["美股社区", "https://link.3li3.com/richcalls"],
   ["投资", "https://6url.net"],
   ["关于我", "/about.html"],
   ["联盟链接", "/friendship-links/"],
