@@ -13,7 +13,7 @@ $this->Order->id = $id;
 $this->Order->saveField('status', $status);
 ```
 
-### 点赞的时候需要+1，如何更新数据库？
+### 点赞的时候需要 +1，如何更新数据库？
 
 ```php
 $this->Widget->updateAll(
@@ -25,7 +25,7 @@ $this->Widget->updateAll(
 ### 如何通过主键最简单的方式获取到一条数据？
 
 ```php
-// 只获取name字段信息
+// 只获取 name 字段信息
 $this->User->read('name', $id);
 // 获取所有信息
 $this->User->read(null, $id);
@@ -33,13 +33,13 @@ $this->User->read(null, $id);
 
 <!--more-->
 
-### CakePHP控制器如何返回上一页？
+### CakePHP 控制器如何返回上一页？
 
 ```php
 $this->redirect($this->referer());
 ```
 
-### CakePHP A控制器调用B控制器？
+### CakePHP A 控制器调用 B 控制器？
 
 ```php
 $this->requestAction(
@@ -50,7 +50,7 @@ $this->requestAction(
 );
 ```
 
-这样可以在A控制器调用B控制器方法，而且在后面传参过去，用$this->request->data获取参数值。
+这样可以在 A 控制器调用 B 控制器方法，而且在后面传参过去，用$this->request->data 获取参数值。
 
 ### 输出单个页面执行的 SQL 语句
 
@@ -59,7 +59,7 @@ $log = $this->Model->getDataSource()->getLog(false, false);
 debug($log);
 ```
 
-Model要改一下名字才能用。
+Model 要改一下名字才能用。
 
 ### 模糊和 OR 搜索示例：
 
@@ -90,7 +90,7 @@ $this->User->findByEmailOrUsername('jhon','jhon');
 $this->User->findByUsernameAndPassword('jhon','123');
 ```
 
-### CakePHP saveAll 的用法:
+### CakePHP saveAll 的用法：
 
 ```php
 for ($i=0; $i < count($data['product_id']); $i++) {
@@ -101,7 +101,7 @@ $this->DiscountProduct->saveAll($item);
 ```
 
 ### 如果要是有 CakePHP 自带和 HTML 结合的 FORM
-必须在 Controller 的 action 里面使用这个：`$this->request->data = $data;` 修改的时候才能读取数据，并且view里面的 form 要使用 CakePHP 的
+必须在 Controller 的 action 里面使用这个：`$this->request->data = $data;` 修改的时候才能读取数据，并且 view 里面的 form 要使用 CakePHP 的
 
 ```php
 <?php echo $this->Form->create('PrintAd', array('type'=>'post')); ?>
@@ -114,7 +114,7 @@ $this->DiscountProduct->saveAll($item);
 `modified` datetime NOT NULL,
 ```
 
-### CakePHP 自带图片+链接
+### CakePHP 自带图片 + 链接
 
 ```php
 echo $this->Html->link(
