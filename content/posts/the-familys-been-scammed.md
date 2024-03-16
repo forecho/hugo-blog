@@ -77,3 +77,13 @@ PS: 图片上面的网址你不用刻意去记，因为他们过一段时间就�
 - 不要相信天下掉馅饼的好事情，想想别人为什么会那么有耐心的教你赚钱，真有那么好的事情让自己遇到了？人家图什么？
 - 炒币炒股一定要去正规的交易所，正规的交易软件，比如[欧易](https://link.3li3.com/okxx)、币安等。
 
+
+## 外链
+
+相关的诈骗案例：
+
+- <https://cloudsea35.com/usdt/>
+- <https://zhuanlan.zhihu.com/p/406633065>
+- <https://www.youtube.com/watch?v=Vqyh37EdTD8>
+- <https://www.youtube.com/watch?v=X7M9givWpbY>
+
