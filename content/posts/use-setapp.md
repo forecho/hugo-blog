@@ -10,7 +10,7 @@ toc: true
 
 ## 引言
 
-[SetApp](https://setapp.com/) 是一个 Mac 软件平台，你订阅 SetApp 之后，它上面的所有软件都可以免费使用，而你不需要再一个一个去购买或者订阅了。
+[SetApp](https://setapp.sjv.io/g1EDB0) 是一个 Mac 软件平台，你订阅 SetApp 之后，它上面的所有软件都可以免费使用，而你不需要再一个一个去购买或者订阅了。
 
 我用了 SetApp 有一段时间了，这里分享一下我的使用经验。
 
@@ -20,7 +20,7 @@ toc: true
 
 ![](https://img.forecho.com/C6CwzS.jpg)
 
-SetApp 刚出来的时候推出了 Family Plan，价格的话最便宜可以做到 15人民币/月/人，大概就是 180 左右一年，具体你们看 [《Setapp 家庭套餐最低月费 15 元，近 200 款正版 macOS 软件随便用》](https://www.appinn.com/setapp-family-plan/)。
+SetApp 刚出来的时候推出了 Family Plan，价格的话最便宜可以做到 15 人民币/月/人，大概就是 180 左右一年，具体你们看 [《Setapp 家庭套餐最低月费 15 元，近 200 款正版 macOS 软件随便用》](https://www.appinn.com/setapp-family-plan/)。
 
 ![](https://img.forecho.com/7zOHPV.png)
 
@@ -32,11 +32,12 @@ SetApp 刚出来的时候推出了 Family Plan，价格的话最便宜可以做�
 
 ## 软件数量
 
-[官网显示](https://setapp.com/apps)有 230+个软件，但是精品的软件我觉得不超过 100 个吧，然后你要在要精品的这些软件中找到是否有你需要的，最后才能决定是否值得你花钱订阅。
+[官网显示](https://setapp.sjv.io/g1EDB0)有 230+ 个软件，但是精品的软件我觉得不超过 100 个吧，然后你要在要精品的这些软件中找到是否有你需要的，最后才能决定是否值得你花钱订阅。
 
 ## 我在用的一些软件
 
-![](https://img.forecho.com/EuLGQY.png)
+![](https://img.forecho.com/cO2V78.png)
+
 
 ### TablePlus
 
@@ -112,9 +113,22 @@ AirPods Pro 2 只能连接一个设备，当你带耳机连接 Mac 的时候，�
 
 单独为 DevUtils 付费很不划算，因为这个软件的功能很多网站都有免费提供，但是既然 SetApp 有了，就可以免费用了。
 
-### Wallpaper Wizard 2
+
+### TypingMind
 
 推荐：⭐⭐⭐
+
+第三方 AI 聊天客户端，刚开始只有 OpenAI 的模型，后面支持了其他模型，本身是收费的，而且需要输入模型的 API Key 才能用，但是 SetApp 版本可以免费用，在不需要输入 API Key 的情况下，有限制的使用。可以不花钱体验 GPT-4 的强大。
+
+### Spark Mail
+
+推荐：⭐⭐⭐
+
+邮件客户端，支持 Mac、iOS、Android，功能强大，SetApp 免费使用专业版。
+
+### Wallpaper Wizard 2
+
+推荐：⭐⭐
 
 [Wallpaper Wizard 2](https://wallwiz.com/) 是一款 Mac 下的壁纸软件，可以自动更换壁纸，也可以手动更换壁纸。
 
