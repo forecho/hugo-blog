@@ -1,5 +1,5 @@
 ---
-title: "使用 RichCalls Warden"
+title: "RichCalls Warden 使用指南"
 date: 2024-08-06T12:58:00+08:00
 tags: ["RichCalls", "Warden", "美股"]
 draft: false
@@ -154,4 +154,6 @@ order_type: mo
 
 ## 最后
 
-这套系统还在不断的完善中，如果你有什么好的建议或者想法，欢迎加我微信 `ipzone` 加项目群交流，申请加好友请备注 `Warden`。
+这套系统我目前只花了 2 个周末时间开发，还在不断的完善中。
+
+如果你有什么好的建议或者想法，欢迎加我微信 `ipzone` 加项目群交流，申请加好友请备注 `Warden`。
