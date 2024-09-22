@@ -14,6 +14,7 @@ toc: true
 
 - 基本上按照这个教程来操作就可以了 - [蜗牛星际老骥伏枥---黑群晖 6.1 无损升级 DSM7.2_U 盘](https://post.smzdm.com/p/a0q8kgq8/)
 - 最新的 ARPL 的方式安装群晖真是简单，仓库地址 - [RROrg/rr](https://github.com/RROrg/rr)
+- 选型号的时候不知道选哪个，我看大家都选  DS918+，我也就选了 DS918+
 
 遇到的三个地方有坑：
 
