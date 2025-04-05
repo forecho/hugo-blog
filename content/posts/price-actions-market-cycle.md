@@ -167,7 +167,7 @@ toc: true
 
 我们可以使用二元决策来做交易，当面对行情的时候在 2 个选项中选择一个，迅速根据行情做出决策。
 
-![v0VjCl](https://img.forecho.com/v0VjCl.png)
+![057HuF](https://img.forecho.com/057HuF.png)
 
 
 ## 总结
