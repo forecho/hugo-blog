@@ -94,7 +94,7 @@ toc: true
 
 ### 宽通道
 
-![iV553i](https://img.forecho.com/iV553i.png)
+![6UfDud](https://img.forecho.com/6UfDud.png)
 
 上图的 k 线，是宽通道的 k 线。我画的红色的线就是回调的 k 线。
 
