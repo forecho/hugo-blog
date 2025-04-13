@@ -27,7 +27,7 @@ toc: true
 
 ### 交易时间段的建议
 
-你可以学习课程中名为《Trading Different Times of the Day》的模块（在课程 48 集），尤其是从《Trading the Open》的视频开始（在课程 48 集前 6 个视频）。
+你可以学习课程中名为《Trading Different Times of the Day》的部分（在课程 48 集），尤其是从《Trading the Open》的视频开始（在课程 48 集前 6 个视频）。
 
 只交易开盘两个小时（24根K线）并坚持练习几周。理解这些开盘阶段的行为特征，以及在与昨日收盘价、跳空低开、跳空高开等的关系下，如何做多或在区间/趋势性开盘中操作。
 
