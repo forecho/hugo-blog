@@ -69,7 +69,7 @@ toc: true
 
 ## 指标
 
-TradingView 有一个免费的指标叫做 ["Horns Pattern Identifier [LuxAlgo]"](https://www.tradingview.com/script/eyakzwYP-Horns-Pattern-Identifier-LuxAlgo/)，可以识别出喇叭形态。但是这个免费的指标不是特别好用，刚开始的时候我们可以理由这个指标来识别出喇叭形态，但是我们更应该训练自己的眼睛来识别出喇叭形态。
+TradingView 有一个免费的指标叫做 ["Horns Pattern Identifier [LuxAlgo]"](https://www.tradingview.com/script/eyakzwYP-Horns-Pattern-Identifier-LuxAlgo/)，可以识别出喇叭形态。但是这个免费的指标不是特别好用，B 和 S 也不好用，但是刚开始的时候我们可以利用这个指标来识别出喇叭形态，但是我们更应该训练自己的眼睛来识别出喇叭形态。
 
 
 比如下面的图指标就无法识别出来 
