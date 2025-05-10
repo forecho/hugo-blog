@@ -8,7 +8,9 @@ toc: true
 
 ## 引言
 
-本篇文章主要介绍如何利用限价订单，并结合喇叭形态（Horn Pattern）在市场中寻找获利机会。主要总结了 [PriceActionRose LimitOrder Buy and Sell Signals With Targets Using TradingView Horn Indicator](https://www.youtube.com/watch?v=Gjc5tww1nd0) 视频中的内容。
+本篇文章主要介绍如何利用限价订单，并结合喇叭形态（Horn Pattern）在市场中寻找获利机会。
+
+主要总结了 [《PriceActionRose LimitOrder Buy and Sell Signals With Targets Using TradingView Horn Indicator》](https://www.youtube.com/watch?v=Gjc5tww1nd0) 视频中的内容。建议先看视频，再来看这篇文章。
 
 ## 什么是限价订单
 
