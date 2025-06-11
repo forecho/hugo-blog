@@ -10,7 +10,7 @@ toc: true
 
 最近在练习价格行为学（简称 PA）交易法，自有资金有限，亏损了压力山大；后面就算技术到位，没有足够的本金，也很难获得可观的回报。这时候，自营交易平台（Prop Firm）就成了一个非常好的选择。
 
-市面上有很多 Prop Firm，但很多平台的考试规则都非常复杂，让人望而却步。而 Topstep 的特色就在于它简洁明了的规则，让交易者可以更专注于交易本身，而不是去研究各种条条框框。
+市面上有很多 Prop Firm，但很多平台的考试规则都非常复杂，让人望而却步。而 [Topstep](https://www.topstep.com/) 的特色就在于它简洁明了的规则，让交易者可以更专注于交易本身，而不是去研究各种条条框框。
 
 这篇文章，我就来分享一下我是如何使用 Topstep，并详细介绍它的考试规则和一些通关技巧。
 
@@ -151,5 +151,12 @@ Topstep 不仅是一个提供资金的 Prop Firm 平台，更是一个培养专�
 
 总的来说，如果你想要一个既能提供资金，又能帮助你成长为专业交易员的平台，Topstep 是一个很好的选择。这个平台的目的就是培养
 挖掘优秀的交易员，然后利润分成，帮他们赚钱。
+
+## 参考资料
+
+- [Topstep 官网](https://www.topstep.com/)
+- [Topstep 社区](https://discord.gg/topstep)
+- [Topstep是什麼？是詐騙嗎？詳細教學考試規則與通關技巧心得、如何開通Express並出金](https://homedadpro.com/topstep-rules/)
+- [TopstepX 系統使用教學-圖表下單、閃電下單(DOM)、停損停利設置方法](https://www.youtube.com/watch?v=FugYg5kaGQk)
 
 
