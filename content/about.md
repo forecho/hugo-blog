@@ -57,7 +57,3 @@ draft: false
 - 微信公众号
 
 ![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424163739.png)
-
-- 知识星球
-
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/202301011rAMvL.png!m)
