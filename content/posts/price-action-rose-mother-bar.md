@@ -8,7 +8,7 @@ toc: true
 
 ## 引言
 
-本文将深入探讨一种在价格行为分析中较为进阶的概念——“Mother Bar”（孕线）及其交易策略。该策略源自交易员 Rose，本文内容主要基于 PriceActionKim 对其的讲解，核心是利用 Mother Bar 形成后的特定价格区域，通过限价单（Limit Order）进行高胜率的剥头皮（Scalp）交易。
+本文将深入探讨一种在价格行为分析中较为进阶的概念——“Mother Bar”（孕线）及其交易策略。该策略源自交易员 Rose，本文内容主要基于 [PriceActionKim](https://www.youtube.com/@PriceActionKim) 对其的讲解，核心是利用 Mother Bar 形成后的特定价格区域，通过限价单（Limit Order）进行高胜率的剥头皮（Scalp）交易。
 
 这个概念对于初学者可能稍有难度，因为它不仅涉及到对市场结构的深刻理解，还需要交易者熟练运用限价单。然而，掌握它将极大地帮助你理解在某些关键价位市场发生反转和波动的内在逻辑。
 
