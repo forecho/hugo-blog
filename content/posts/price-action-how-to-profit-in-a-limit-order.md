@@ -1,7 +1,7 @@
 ---
 title: "价格行为学 - 如何使用限价订单结合喇叭形态获利"
 date: 2025-05-10T22:10:58+08:00
-tags: ["价格行为学"]
+tags: ["价格行为学", "交易策略", "PriceActionRose"]
 draft: false
 toc: true
 ---
