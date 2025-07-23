@@ -1,7 +1,7 @@
 ---
 title: "价格行为学 - Rose 的 Mother Bar (孕线) 策略"
 date: 2025-07-22T20:00:00+08:00
-tags: ["价格行为学", "交易策略"]
+tags: ["价格行为学", "交易策略", "PriceActionRose"]
 draft: false
 toc: true
 ---

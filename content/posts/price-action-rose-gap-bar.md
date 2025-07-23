@@ -1,7 +1,7 @@
 ---
 title: "价格行为学 - Rose 的 Gap Bar"
 date: 2025-05-07T16:10:58+08:00
-tags: ["价格行为学"] 
+tags: ["价格行为学", "交易策略", "PriceActionRose"]
 draft: false
 toc: true
 ---
