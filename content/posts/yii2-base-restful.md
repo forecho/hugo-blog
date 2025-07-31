@@ -1,16 +1,14 @@
 ---
 title: "Yii2 搭建最基础的 RESTful"
 date: 2015-07-27T20:25:00+08:00
-tags: ["yii2", "restful"] 
+tags: ["yii2", "restful"]
+draft: true
+toc: true
 ---
 
 为了让项目更加清晰，我们可以单独新建一个 Api，用来专门开发 Api。至于怎么新建，参考这篇文章：[Yii2 高级版新建一个 Api 应用](https://blog.forecho.com/blog/yii2-create-api.html)
 
 
-
-
------------------draft: false
-toc: true
 ---
 **系列文章**
 
