@@ -29,7 +29,7 @@ toc: true
 
 该策略使用一个免费的 TradingView 指标来自动筛选和高亮显示符合上述标准的“腿”。
 
--   **指标名称**：`Supply Demand ZONE`
+-   **指标名称**：[Supply Demand ZONE](https://www.tradingview.com/script/Pr9hTL4v-Supply-Demand-ZONE/)
 -   **作者**：Bitcoin Jesus
 
 你可以直接在 TradingView 中搜索并添加此指标。根据原作者的分享，可以参考以下设置，当然你也可以根据自己的喜好调整颜色。
