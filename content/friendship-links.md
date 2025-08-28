@@ -26,6 +26,7 @@ url: /friendship-links/
 - [安全代码](http://www.usmacd.com/)
 - [李雪含](https://dajiayouxuan.com/)
 - [胡涂说](https://hutusi.com/)
+- [Debug客栈](https://blog.debuginn.com/)
 
 ## 链接
 
