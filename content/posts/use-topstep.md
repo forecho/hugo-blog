@@ -170,54 +170,11 @@ MLL 是动态的，会随账户盈利调整：
 考试号我觉得是一种练习 PA 的具有**性价比**的方案了，价格不贵，而且有目标，我会认真对待。考试通过之后我也会考虑继续使用 Topstep 的账户。
 
 
-## Topstepx 平台使用
+## 交易平台
 
-### Order 设置
+Topstep 官方提供了一个名为 TopstepX 的网页交易平台，这套系统是由 [ProjectX](https://www.projectx.com/) 提供的，功能非常强大。我将一些常用的设置和功能整理成了一篇独立的文章，方便查阅。
 
-![](https://img.forecho.com/EW04Y2.png)
-
-我就使用的默认布局，只是把 Order 板块的一个 「Hide Join Bid / Ask Buttons」 给勾选了。因为第一次使用的时候，我理解错这个按钮的意思，导致下单错误，PA 交易法是不需要这个按钮的。
-
-另外也把 「Hide Buy / Sell Buttons」也给勾选了，那是市价单下单，容易让我 FOMO 下单，PA 交易员应该只做 LMT 和 STP 单。
-
-
-### 自动设置止盈止损
-
-![](https://img.forecho.com/dfZex0.png)
-
-在 settings -> risk settings 中设置。
-
-与我之前所以的交易平台不同，Topstepx 的自动设置止盈止损是在设置中的，每笔交易的止盈金额和亏损价格统一设置，一单设置好之后，订单成交之后会自动设置止盈止损。之后可以通过图标上拖拽来调整止盈止损。
-
-感觉这种方式更省事，不用每次都手动设置。
-
-
-### 设置最大亏损之后自动锁账户
-
-![](https://img.forecho.com/flGxUh.png)
-
-
-在 settings -> risk settings 中设置。
-
-可以设置当天亏损的最大额度，超过这个额度之后自动锁账户，防止你上头交易，账户爆仓。
-
-
-### 锁账户
-
-![](https://img.forecho.com/5PsQw9.png)
-
-当你连续亏了几笔之后，担心自己心态炸了，防止自己非理性交易，Topstepx 提供了一个锁账户的功能。非常贴心，点击之后可以选择锁定的时长。
-
-
-### 图表上显示交易记录
-
-![](https://img.forecho.com/SdaQyZ.png)
-
-如果你想在图表上显示交易记录，方便复盘，可以点图表上方的「Preferences」按钮，如下图：
-
-![](https://img.forecho.com/pubNJl.png)
-
-然后点击 「Show Chart Executions」，我顺便把 「Data Update Speed 」设置为 「Fast」了。
+详情请见：[《ProjectX 交易平台使用指南》]({{< relref "projectx-trading-platform-guide.md" >}})
 
 ## 总结
 
