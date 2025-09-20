@@ -10,6 +10,8 @@ toc: true
 
 [ProjectX](https://www.projectx.com/) 是一套功能强大的网页期货交易平台，被包括 Topstep (其平台名为 TopstepX) 在内的多家自营交易公司所采用。这篇文章将详细介绍我个人在使用这套平台时的一些常用设置和功能，希望能帮助你更快地上手。
 
+建议先看[《使用 Topstep 交易期货》]({{< relref "use-topstep.md" >}})这篇文章，了解一下 Topstep 的考试号和资金账户。
+
 <!--more-->
 
 ## Order 设置
