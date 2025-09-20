@@ -172,11 +172,14 @@ MLL 是动态的，会随账户盈利调整：
 
 ## Topstepx 平台使用
 
-### 布局
+### Order 设置
 
-![](https://img.forecho.com/OqmTtK.png)
+![](https://img.forecho.com/EW04Y2.png)
 
-我就使用的默认布局，只是把 Order 板块的一个 「Hide Join Bid / Ask Buttons」给勾选了。因为第一次使用的时候，我理解错这个按钮的意思，导致下单错误。另外 PA 交易法是不需要这个按钮的。
+我就使用的默认布局，只是把 Order 板块的一个 「Hide Join Bid / Ask Buttons」 给勾选了。因为第一次使用的时候，我理解错这个按钮的意思，导致下单错误，PA 交易法是不需要这个按钮的。
+
+另外也把 「Hide Buy / Sell Buttons」也给勾选了，那是市价单下单，容易让我 FOMO 下单，PA 交易员应该只做 LMT 和 STP 单。
+
 
 ### 自动设置止盈止损
 
