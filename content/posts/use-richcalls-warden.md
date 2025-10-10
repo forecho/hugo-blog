@@ -10,7 +10,7 @@ toc: true
 
 Warden 是我开发的一套用于帮我们美股止盈/止损的工具，它可以帮助你在美股交易中更好的控制风险。帮助你守住利润，避免亏损。
 
-官网是 <https://warden.richcalls.xyz/>，使用 Google 账号登录即可使用。目前内测版本，内测期间免费使用。
+官网是 <https://www.wardenstock.com/>，使用 Google 账号登录即可使用。目前内测版本，内测期间免费使用。
 
 
 ## 配置账户
