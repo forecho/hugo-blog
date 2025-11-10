@@ -70,5 +70,5 @@ toc: true
 
 ## 参考
 
--   本文思想受交易员 Chris Bus (Traders Profit Compass) 关于头寸管理的启发。
+-   本文思想受交易员 [Chris Bus (Traders Profit Compass) 关于头寸管理](https://www.youtube.com/watch?v=CnQe4ekm4dE)的启发。
 -   杰西·利弗莫尔的《股票作手回忆录》对“向上加码”有深刻的论述。
