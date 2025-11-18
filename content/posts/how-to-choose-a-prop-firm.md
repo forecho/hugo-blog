@@ -1,7 +1,7 @@
 ---
 title: "如何选择自营交易平台"
 date: 2025-09-01T22:00:00+08:00
-tags: ["交易平台", "价格行为学"]
+tags: ["PropFirm", "价格行为学"]
 draft: false
 toc: true
 ---
