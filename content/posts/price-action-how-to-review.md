@@ -144,7 +144,7 @@ Bar Count 指标可以使用下面两个（其他的 Bar Count 指标不对于�
 - <https://cn.tradingview.com/script/VLPP33S1-bar-count-plot-only-for-far-lookback/>
 
 
-## 使用 PAHUB 中一起来复盘
+## 使用 PAHUB 一起来复盘
 
 我最近开发了一个网站，提供一个价格行为学社区，大家一起复盘，一起学习，一起进步。其中有一个复盘任务模块，每天会自动随机选一个日期作为复盘任务，大家可以在 TradingView 上完成复盘任务，并提交到社区中。完成提交之后可以查看其他人的复盘结果，并进行讨论。
 
