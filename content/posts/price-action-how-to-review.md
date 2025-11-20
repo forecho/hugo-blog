@@ -127,6 +127,22 @@ Al Brooks 过去习惯用方块来标记交易，但现在官方已统一更新�
 
 ![](https://img.forecho.com/2HM2nv.jpg)
 
+## 如何在 TradingView 跳转时间点
+
+对于 1 年 内的 K 线图，我们可以使用 TradingView 的左下角跳转时间点功能来快速跳转。
+
+但是想跳转到 2 年之前的时间点，就需要一点技巧了，方式就是：在搜索框里输入合约+日期就可以了. 如"ESM2022"直接**点回车**就行了。
+
+![](https://img.forecho.com/o4kKxg.png)
+
+ES 之后的 H M U Z 分别对应了 3月、6月、9月、12月的四个合约。
+
+
+Bar Count 指标可以使用下面两个（其他的 Bar Count 指标不对于远期时间点无效）：
+
+- <https://cn.tradingview.com/script/YBg5QAh4-Intraday-Bar-Counting/>
+- <https://cn.tradingview.com/script/VLPP33S1-bar-count-plot-only-for-far-lookback/>
+
 
 ## 总结
 
@@ -139,3 +155,9 @@ Al Brooks 过去习惯用方块来标记交易，但现在官方已统一更新�
 5.  **坚持每日练习**，直到你形成肌肉记忆。
 
 通过日复一日的刻意练习，你将能更从容地应对瞬息万变的市场，并更准确地把握交易机会。
+
+## 参考资料
+
+- [5 Steps to Finding Today's Trades](https://www.youtube.com/watch?v=AGyOld9iY8U)
+- [如何通过复盘训练提高自己的实盘能力【价格行为学】](https://www.youtube.com/watch?v=QuLPncRIo9w)
+- [价格行为学|5步找到交易机会|Price Action Al Brooks|BTC|形态|K线](https://www.youtube.com/watch?v=J5fI0aB_rCI)
