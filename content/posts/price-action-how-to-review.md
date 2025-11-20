@@ -144,6 +144,15 @@ Bar Count 指标可以使用下面两个（其他的 Bar Count 指标不对于�
 - <https://cn.tradingview.com/script/VLPP33S1-bar-count-plot-only-for-far-lookback/>
 
 
+## 使用 PAHUB 中一起来复盘
+
+我最近开发了一个网站，提供一个价格行为学社区，大家一起复盘，一起学习，一起进步。其中有一个复盘任务模块，每天会自动随机选一个日期作为复盘任务，大家可以在 TradingView 上完成复盘任务，并提交到社区中。完成提交之后可以查看其他人的复盘结果，并进行讨论。
+
+复盘地址：<https://pahubcn.com/app/review-tasks>
+
+欢迎大家访问并参与进来，一起学习价格行为学，一起进步。
+
+
 ## 总结
 
 系统化的复盘是从新手到稳定盈利交易员的必经之路。Al Brooks 的五步法为我们提供了一个清晰、可执行的框架：
