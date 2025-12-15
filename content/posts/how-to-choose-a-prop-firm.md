@@ -35,6 +35,8 @@ toc: true
 不过他们的 TopstepX（指 [Projectx](https://www.projectx.com/) 交易平台）很好用，很多功能很实用，完全是从交易员角度出发设计的。
 我在 [《使用 Topstep 交易期货》](https://blog.forecho.com/use-topstep.html) 这篇文章中也有介绍过 TopstepX 的一些功能。
 
+> 更新：Topstep 现在也有免激活账号了，但是月费还是要继续付。
+
 ### Tradeify
 
 [Tradeify](https://www.tradeify.co/) 听说是出金最爽快的平台了，上次因为活动太给力，直接打 5 折。冲动之下花了 364.5 刀买了一个 `Lightning Funded` 150k 账户，大出血。
@@ -49,6 +51,7 @@ Tradeify 现在买号有 Projectx 的选项了，但是仍然不可选，Discord
 
 
 > 更新：Tradeify 现在支持 Projectx 平台了，但是额外要多收一点点美刀。现在多一个选择了。以后自己胜率提高，能力变强之后可以考虑该平台了。
+> 再次更新：Projectx 现在成了 Topstep 独占了，不让其他平台使用了。
 
 
 ### Lucidtrading
@@ -60,6 +63,8 @@ Lucidtrading 的考试号是一次性收费的，不需要按月付费了，虽�
 但是反过来如果你一个月内把 Lucidtrading 的考试号给做爆仓了，说明你亏了，不如去买 Topstep 的考试号划算，意思你应该懂了吧。
 
 Lucidtrading 使用的 LucidX 就是 Projectx，这正是我想要的。
+
+> 更新：Projectx 现在成了 Topstep 独占了，不让其他平台使用了。
 
 
 ## 总结
