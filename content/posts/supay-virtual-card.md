@@ -33,8 +33,9 @@ Supay 的注册流程主打「能省则省」：
 
 - **支持邮箱一键注册**。
 - **无需手机号、无需 KYC**：开卡更简单，也更注重隐私。
+- **使用推荐链接注册可减免 $1 开卡费**：通过我的[推荐链接](https://www.supaycard.com/landingView?ref=forecho)注册，首次开卡时可减免 1 美金开卡费。
 
-这点对我来说价值很明确：很多服务一旦强绑定手机号/实名，后续迁移成本会变高；而“能用邮箱完成闭环”的产品，往往更适合做工具卡/订阅卡。
+这点对我来说价值很明确：很多服务一旦强绑定手机号/实名，后续迁移成本会变高；而"能用邮箱完成闭环"的产品，往往更适合做工具卡/订阅卡。
 
 ## 卡片优势：新卡段 + 覆盖率 + 无限开卡
 
@@ -69,7 +70,7 @@ Supay 支持**无限开卡**，用起来更灵活。
 Supay 的费用口径很克制，**费用仅包括**：
 
 1. **开卡费**：
-   - MasterCard：`$8`
+   - MasterCard：`$8`（使用[推荐链接](https://www.supaycard.com/landingView?ref=forecho)注册可减免 `$1`，首次开卡仅需 `$7`）
    - Discover：`$5`
 2. **充值手续费**：`2%`
 
@@ -92,7 +93,7 @@ Supay 的费用口径很克制，**费用仅包括**：
 ### 一个简单的成本示例（把账算清楚）
 
 - 你充值 `100 USDT`，按 `2%` 手续费计算，手续费约 `2 USDT`。
-- 如果你开一张 MasterCard，固定开卡费 `8 美金`。
+- 如果你开一张 MasterCard，固定开卡费 `8 美金`（使用推荐链接注册首次开卡可减免 `$1`，仅需 `$7`）。
 
 因此更合理的用法往往是：**按周期规划预算（例如一个月/一季度），一次性充值，再按用途开卡**，而不是高频小额充值。
 
@@ -141,7 +142,7 @@ Supay 的定位是「虚拟卡聚合服务」：**在香港注册，通过对接
 
 ## 了解更多（官方链接）
 
-- 官网：[https://www.supaycard.com/](https://www.supaycard.com/landingView?ref=forecho)
+- 官网：[https://www.supaycard.com/landingView?ref=forecho](https://www.supaycard.com/landingView?ref=forecho)
 - Supay 官方 Telegram 群组链接：[https://t.me/+n7J8kQ73uCdkZDQ9](https://t.me/+n7J8kQ73uCdkZDQ9)
 
 > 说明：本文仅基于公开信息与个人使用体验整理，不构成任何投资/金融/税务建议；具体可用性以商户与支付网络规则为准。
