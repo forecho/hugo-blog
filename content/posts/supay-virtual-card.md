@@ -142,6 +142,6 @@ Supay 的定位是「虚拟卡聚合服务」：**在香港注册，通过对接
 ## 了解更多（官方链接）
 
 - 官网：[https://www.supaycard.com/](https://www.supaycard.com/landingView?ref=forecho)
-- Supay 官方 Telegram 群组链接（请务必保存）：[https://t.me/+n7J8kQ73uCdkZDQ9](https://t.me/+n7J8kQ73uCdkZDQ9)
+- Supay 官方 Telegram 群组链接：[https://t.me/+n7J8kQ73uCdkZDQ9](https://t.me/+n7J8kQ73uCdkZDQ9)
 
 > 说明：本文仅基于公开信息与个人使用体验整理，不构成任何投资/金融/税务建议；具体可用性以商户与支付网络规则为准。
