@@ -6,7 +6,7 @@ draft: false
 toc: true
 ---
 
-在 Al Brooks 的价格行为（Price Action）体系中，有一个非常形象但常被忽视的概念，中文圈常称之为**“臭鼬止损”（Skunk Exit / Smell Test）**。
+在 Al Brooks 的价格行为（Price Action）体系中，有一个非常形象但常被忽视的概念，中文圈常称之为“臭鼬止损”（Skunk Exit / Smell Test）。
 
 很多交易者都有过这种经历：入场了一笔看起来完美的交易，但随后的 K 线走得磨磨唧唧，甚至出现反向信号。这时候你心里犯嘀咕：“感觉不太对……”，但看了一眼下方的硬止损（Hard Stop），心想：“还没打止损呢，再拿一拿。”
 
