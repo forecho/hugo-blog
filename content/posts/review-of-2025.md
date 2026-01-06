@@ -153,7 +153,7 @@ Claude Code, CodeX, Cursor、OpenCode、Google 的 Antigravity 这些都是我�
 
 ### 旅游
 
-再过几个月宝宝就 3 个月了，我已经迫不及待的要带她去多看看这个世界了。
+再过几个月宝宝就 3 岁了，我已经迫不及待的要带她去多看看这个世界了。
 
 ### 工作
 
