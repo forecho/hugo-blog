@@ -1,7 +1,7 @@
 ---
 title: "Price Action 复盘 0106：盘前准备与 1R2R 止盈策略"
 date: 2026-01-11T22:00:00+08:00
-tags: ["Price Action", "复盘", "交易系统", "ES"]
+tags: ["Price Action", "复盘", "价格行为学"]
 draft: false
 toc: true
 ---
