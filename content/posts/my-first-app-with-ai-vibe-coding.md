@@ -43,7 +43,7 @@ toc: true
 
 ## 上架与资料填写
 
-![](https://i.imgant.com/v2/YDLY7QT.png)
+![](https://i.imgant.com/v2/5QbBkAM.png)
 
 开发 App 比较麻烦的另一个环节是上架，因为需要填写一大堆资料，这是我很头疼的事情。
 
