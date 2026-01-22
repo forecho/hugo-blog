@@ -16,6 +16,9 @@ toc: true
 
 在这篇文章中，即使你像我一样对 Xcode 充满恐惧，也能了解到如何利用 AI 克服这些障碍。
 
+<!--more-->
+
+
 ## 开发工具的选择
 
 ![](https://i.imgant.com/v2/ZZXNyzM.png)
