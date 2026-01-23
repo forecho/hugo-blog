@@ -6,6 +6,8 @@ draft: false
 toc: true
 ---
 
+## 引言
+
 最近看到一个非常有意思的交易策略视频 [**The Trading Strategy So Good That No One Uses It**](https://www.youtube.com/watch?v=OoVJB8_PvdY)，核心观点非常“反直觉”：**入场位置不重要，胜率也不重要，甚至可以在 10 秒图表上做交易。**
 
 听起来像是在赌博？但仔细拆解其背后的数学逻辑和风控体系，你会发现它其实戳中了大多数交易者亏损的痛点。
