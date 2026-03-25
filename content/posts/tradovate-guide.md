@@ -1,7 +1,7 @@
 ---
 title: "Tradovate 平台使用指南：从入门到精通"
 date: 2026-02-04T20:55:00+08:00
-tags: ["Tradovate", "Topstep", "PropFirm"]
+tags: ["Tradovate", "Topstep", "PropFirm", "popular"]
 draft: false
 toc: true
 ---
