@@ -1,7 +1,7 @@
 ---
 title: "价格行为学 - Rose 的 Mother Bar (孕线) 策略"
 date: 2025-07-22T20:00:00+08:00
-tags: ["价格行为学", "交易策略", "PriceActionRose"]
+tags: ["价格行为学", "交易策略", "PriceActionRose", "Mother Bar"]
 draft: false
 toc: true
 ---
@@ -9,6 +9,17 @@ toc: true
 ## 引言
 
 ![](https://img.forecho.com/1VWMDW.png)
+
+这篇文章保留为 **Mother Bar 的概念入门版**，适合先快速理解：什么是 MB、为什么它本质上是一个小区间、以及它在不同市场背景下该怎么用。
+
+如果你想直接看更完整的实战框架，包括：
+
+- `0.21 / 0.79` 的切换阈值
+- BLSHS 与 BO 的分支决策
+- 宽止损、小仓位的执行口径
+- LMT / STP 的使用方式
+
+可以继续阅读完整版：**[《Rose 的 Mother Bar 交易法：从区间剥头皮到突破跟随的完整执行框架》]({{< relref "mb-setup-scalping.md" >}})**。
 
 本文将深入探讨一种在价格行为分析中较为进阶的概念——“Mother Bar”（孕线）及其交易策略。该策略源自交易员 Rose，本文内容主要基于 [PriceActionKim](https://www.youtube.com/@PriceActionKim) 对其的讲解，核心是利用 Mother Bar 形成后的特定价格区域，通过限价单（Limit Order）进行高胜率的剥头皮（Scalp）交易。
 
@@ -96,5 +107,7 @@ Rose 的 Mother Bar 策略是一个精细且强大的交易系统，它将经典
 -   **核心**：Mother Bar 代表震荡区间，其内部划分的点位是高概率的交易区域。
 -   **关键**：必须结合**市场背景**（震荡、趋势早期、趋势末期）来决定是“高抛低吸”还是“顺势而为”。
 -   **风险**：剥头皮交易需要严格的**仓位管理**和灵活的风险控制，做到“宽止损，早离场”。
+
+如果你已经理解了本文的概念部分，下一步建议继续看完整版：**[《Rose 的 Mother Bar 交易法：从区间剥头皮到突破跟随的完整执行框架》]({{< relref "mb-setup-scalping.md" >}})**。
 
 通过不断练习，理解不同市场背景下的应对之道，Mother Bar 策略可以成为你观察和利用市场微观结构的有力工具。 
