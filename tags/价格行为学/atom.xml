@@ -1,4 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>价格行为学 on forecho's Blog</title><link>https://blog.forecho.com/tags/%E4%BB%B7%E6%A0%BC%E8%A1%8C%E4%B8%BA%E5%AD%A6.html</link><description>Recent content in 价格行为学 on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 11 Jan 2026 22:00:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/tags/%E4%BB%B7%E6%A0%BC%E8%A1%8C%E4%B8%BA%E5%AD%A6/atom.xml" rel="self" type="application/rss+xml"/><item><title>Price Action 复盘 0106：盘前准备与 1R2R 止盈策略</title><link>https://blog.forecho.com/price-action-review-0106.html</link><pubDate>Sun, 11 Jan 2026 22:00:00 +0800</pubDate><guid>https://blog.forecho.com/price-action-review-0106.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>价格行为学 on forecho's Blog</title><link>https://blog.forecho.com/tags/%E4%BB%B7%E6%A0%BC%E8%A1%8C%E4%B8%BA%E5%AD%A6.html</link><description>Recent content in 价格行为学 on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 31 Mar 2026 16:30:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/tags/%E4%BB%B7%E6%A0%BC%E8%A1%8C%E4%B8%BA%E5%AD%A6/atom.xml" rel="self" type="application/rss+xml"/><item><title>交易心理学深度剖析：真正决定盈亏的，不是技术而是你怎么面对亏损</title><link>https://blog.forecho.com/trading-psychology-deep-analysis.html</link><pubDate>Tue, 31 Mar 2026 16:30:00 +0800</pubDate><guid>https://blog.forecho.com/trading-psychology-deep-analysis.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>很多人一提到交易心理，第一反应是“控制情绪”。这句话没错，但太浅了。&lt;/p>
+&lt;p>我越来越确认一件事：&lt;strong>交易心理并不是在下单那一刻靠意志力压住情绪，而是在下单之前，就用规则、风险上限和执行流程，把情绪能破坏你的空间压缩到最小。&lt;/strong>&lt;/p>
+&lt;p>真正让交易员持续亏损的，往往不是不会看图，也不是完全没有方法，而是明明知道该怎么做，到了盘中却做不出来：该止损的时候犹豫，不该追的时候手痒，连亏两笔之后开始报复性交易，连续顺利几天之后又突然自信膨胀。&lt;/p>
+&lt;p>这篇文章我想系统整理一下交易心理学里最核心的部分：贪婪、恐惧、急躁、纪律，以及很多人容易忽略的过度自信。重点不在于概念解释，而在于把它们还原成&lt;strong>可执行的交易规则&lt;/strong>。&lt;/p></description></item><item><title>Price Action 复盘 0106：盘前准备与 1R2R 止盈策略</title><link>https://blog.forecho.com/price-action-review-0106.html</link><pubDate>Sun, 11 Jan 2026 22:00:00 +0800</pubDate><guid>https://blog.forecho.com/price-action-review-0106.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
 &lt;p>很多交易者在盘中容易迷失，往往是因为盘前准备做得不够充分，或者对大小周期的转换缺乏清晰的认知。本文基于 0106 的 ES（标普500期指）实盘复盘，总结了一套从盘前准备到实盘执行的完整流程。&lt;/p>
 &lt;p>核心观点是：&lt;strong>盘前准备决定了你对当天行情的“剧本”预设，而实盘中的 1R2R 止盈策略则是保护利润、穿越震荡的护身符。&lt;/strong>&lt;/p>
 &lt;h2 id="核心原则">核心原则&lt;/h2>
@@ -124,8 +128,4 @@
 &lt;li>&lt;strong>连续的趋势 K 线&lt;/strong>: 几根连续的同向 K 线（例如，没有重叠的几根大阳线）可以被看作一个整体的“Gap Bar”，代表了一段强劲的趋势。&lt;/li>
 &lt;li>&lt;strong>隐含的供需区 (Implicit Gap)&lt;/strong>: 这是 Rose 的一个独特见解。一个“缺口”不一定需要是 K 线之间的可见空间。例如，当一根看涨 K 线的上影线部分与下一根看跌 K 线的实体部分重叠时，这个重叠区域就形成了一个隐含的“缺口”，也就是一个供应区或卖方区。同理，看跌 K 线的下影线和看涨 K 线的实体也可以形成一个需求区或买方区。Rose 将这些区域视为有大量限价单等待成交的关键位置。&lt;/li>
 &lt;/ol>
-&lt;p>总的来说，Gap Bar 是市场力量失衡的信号，它创造了高概率的交易机会。&lt;/p></description></item><item><title>价格行为学 TradingView 指标介绍</title><link>https://blog.forecho.com/price-actions-bpa.html</link><pubDate>Sun, 27 Apr 2025 02:44:00 +0800</pubDate><guid>https://blog.forecho.com/price-actions-bpa.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>&lt;img src="https://img.forecho.com/JXsf94.png" alt="">&lt;/p>
-&lt;p>这篇文章主要是介绍一下我正在使用 TradingView 的价格行为学指标 - &lt;a href="https://www.tradingview.com/script/1pg8TesK-bpa/">bpa&lt;/a>(Brooks Price Action 缩写)。&lt;/p>
-&lt;h2 id="指标介绍">指标介绍&lt;/h2>
-&lt;p>这里主要是说一下默认的配置说明，方便自己使用的同时，也方便大家查阅。&lt;/p></description></item></channel></rss>
+&lt;p>总的来说，Gap Bar 是市场力量失衡的信号，它创造了高概率的交易机会。&lt;/p></description></item></channel></rss>
