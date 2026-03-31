@@ -1,148 +1,167 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>深度理财 on forecho's Blog</title><link>https://blog.forecho.com/tags/%E6%B7%B1%E5%BA%A6%E7%90%86%E8%B4%A2.html</link><description>Recent content in 深度理财 on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 29 Aug 2021 14:59:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/tags/%E6%B7%B1%E5%BA%A6%E7%90%86%E8%B4%A2/atom.xml" rel="self" type="application/rss+xml"/><item><title>期权组合之 Vertical Spread</title><link>https://blog.forecho.com/financedeep-33.html</link><pubDate>Sun, 29 Aug 2021 14:59:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-33.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>这篇主要是讲解期权组合的第一篇文章，不了解期权的朋友可以先看我&lt;a href="https://blog.forecho.com/tags/%E6%9C%9F%E6%9D%83.html">之前的期权系列文章&lt;/a>。&lt;/p>
-&lt;p>目前我所使用的证券平台只有雪盈和微牛支持组合期权，本篇文章主要是使用雪盈来做实例，没开户的朋友如果想体验组合期权推荐使用雪盈：&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>深度理财 on forecho's Blog</title><link>https://blog.forecho.com/tags/%E6%B7%B1%E5%BA%A6%E7%90%86%E8%B4%A2.html</link><description>Recent content in 深度理财 on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 19 Feb 2024 19:01:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/tags/%E6%B7%B1%E5%BA%A6%E7%90%86%E8%B4%A2/atom.xml" rel="self" type="application/rss+xml"/><item><title>轻松实现期权交易盈利 2.0 版本</title><link>https://blog.forecho.com/about-the-option-fee-group-2.0.html</link><pubDate>Mon, 19 Feb 2024 19:01:00 +0800</pubDate><guid>https://blog.forecho.com/about-the-option-fee-group-2.0.html</guid><description>&lt;p>&lt;img src="https://img.forecho.com/C9FgsP.png" alt="">&lt;/p>
+&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>去年中旬我开通了一个期权收费群，已经有很多小伙伴加入过了，详情可以看&lt;a href="https://blog.forecho.com/about-the-option-fee-group.html">《轻松实现期权交易盈利》&lt;/a>。&lt;/p>
+&lt;p>已经过去半年多了，我们的社区也发生了一些变化，我今天来介绍一下这个群的 2.0 版本，如果你对美股、期权感兴趣，欢迎加入。&lt;/p>
+&lt;h2 id="变化">变化&lt;/h2>
+&lt;h3 id="沟通方式">沟通方式&lt;/h3>
+&lt;p>之前一直用微信群沟通，但是微信群功能太弱了，开盘期间我会分享一些信号，但是有时候群友需要沟通，沟通消息会淹没信号，很容易让会员错失信号。所以我们迁移到了 Slack，用了几个月下来，感觉很棒。&lt;/p>
+&lt;p>我曾经工作过的公司用过 Slack 办公，用过之前就真的回不去了，非常适合沟通，效率很高。我曾一直想用 Slack 建立社区，没想到这次居然成功了。&lt;/p>
+&lt;p>微信只适合闲聊。&lt;/p>
+&lt;h3 id="会员等级">会员等级&lt;/h3></description></item><item><title>2023 年年终总结投资篇</title><link>https://blog.forecho.com/2023-review-investment.html</link><pubDate>Tue, 02 Jan 2024 00:14:00 +0800</pubDate><guid>https://blog.forecho.com/2023-review-investment.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>2023 这糟糕的一年终于要结束了，按照惯例，每年来一次投资年终总结，来看看这一年的投资表现如何。这是这系列的第五篇文章，前四篇文章：&lt;/p>
 &lt;ul>
-&lt;li>开户地址：&lt;a href="http://link.3li3.com/xueying">http://link.3li3.com/xueying&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://blog.forecho.com/2022-review-investment.html">2022 年年终总结投资篇&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://blog.forecho.com/financedeep-34.html">【深度理财 34】2021 年年终总结投资篇&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://blog.forecho.com/financedeep-19.html">【深度理财 19】2020 年年终总结投资篇&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://blog.forecho.com/financedeep-06.html">【深度理财 06】聊聊这些年我买过的股票&lt;/a>&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/snowballsecurities.png!s" alt="雪盈证券开户">&lt;/p></description></item><item><title>【深度理财 32】远离中概股，我都投资了哪些非中概股</title><link>https://blog.forecho.com/financedeep-32.html</link><pubDate>Thu, 29 Jul 2021 10:59:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-32.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>这个月中概股有多惨，我就不说了，自从滴滴上市以来，引发了中概股一系列因为政策原因大跌，还好我中概股仓位不算太多（不过也亏了很多）。&lt;/p>
-&lt;p>今年年初的时候我分享过自己的持仓，感兴趣可以去看看&lt;a href="https://blog.forecho.com/financedeep-19.html">《【深度理财 19】2020 年年终总结投资篇》&lt;/a>，这篇文章我主要是分享我持有的一些非中概股。&lt;/p>
-&lt;blockquote>
-&lt;p>加一个风险提示：本篇文章仅代表我的个人观点，不构成与其他人相关的任何投资建议。在作出任何投资决定前，投资者应根据自身情况考虑投资产品相关的风险因素，并于需要时咨询专业投资顾问意见。&lt;/p>
-&lt;/blockquote></description></item><item><title>【深度理财 31】盈立智投使用测评</title><link>https://blog.forecho.com/financedeep-31.html</link><pubDate>Fri, 23 Jul 2021 10:59:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-31.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>香港卡开了当然要找证券入金了，之前我一直在用的有富途、雪盈、老虎。这次我选了一个盈立智投，体验了差不多快一个月了，今天就来分享（吐槽）使用经验。&lt;/p>
-&lt;p>没开户的可以使用这个开户：&lt;/p>
-&lt;ul>
-&lt;li>开户链接：&lt;a href="http://link.3li3.com/yxzq">http://link.3li3.com/yxzq&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20210723iBxsf0.jpg!s" alt="盈立智投开户">&lt;/p></description></item><item><title>【深度理财 30】如何办一张汇丰香港卡</title><link>https://blog.forecho.com/financedeep-30.html</link><pubDate>Thu, 08 Jul 2021 10:59:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-30.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>受疫情影响香港不知道什么时间解封，而目前在大陆见证办香港卡的渠道是越来越少了。本篇文章就是来分享我如何办汇丰香港卡的经历的。&lt;/p>
-&lt;h2 id="办卡门槛">办卡门槛&lt;/h2>
-&lt;ul>
-&lt;li>费用：0&lt;/li>
-&lt;li>条件：港澳通行证（签证过期不用管，证件没过期就行），不需要护照&lt;/li>
-&lt;li>门槛：50 万理财，但是如果是上市公司，在他们企业白名单内，可以不需要 50 万理财&lt;/li>
-&lt;li>时间：下卡时间要 1 个月左右，但是作为汇丰卓越理财卡，如果卡里面余额不够 50 万的话，会收 300 元人民币/月的服务费。&lt;/li>
-&lt;/ul>
-&lt;h2 id="流程">流程&lt;/h2>
-&lt;h3 id="预约">预约&lt;/h3>
-&lt;p>如果要办，可以加我微信号「ipzone」，暗号「汇丰」，我发你开户预约链接。&lt;/p></description></item><item><title>【深度理财 29】美股分析网站介绍</title><link>https://blog.forecho.com/financedeep-29.html</link><pubDate>Sun, 27 Jun 2021 10:59:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-29.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>最近有朋友咨询我一些美股分析的网站，结合我之前看过的资料，于是我整理了这篇干货文章。&lt;/p>
-&lt;h2 id="网站">网站&lt;/h2>
-&lt;h3 id="yahoofinance">Yahoo！Finance&lt;/h3>
-&lt;ul>
-&lt;li>地址：&lt;a href="https://finance.yahoo.com/">https://finance.yahoo.com/&lt;/a>&lt;/li>
-&lt;li>特点：免费、大而全&lt;/li>
-&lt;/ul>
-&lt;p>这个不用多介绍了吧，就是一个股票门户网站，上面的资料很多，而且全部免费。&lt;/p></description></item><item><title>【深度理财 28】如何在股市动荡期使用期权赚钱</title><link>https://blog.forecho.com/financedeep-28.html</link><pubDate>Sat, 29 May 2021 10:59:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-28.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>写了几篇期权的理论知识，今天来点操作篇，这次重点讲讲如何在股市动荡期通过期权策略赚钱。&lt;/p>
-&lt;p>前面我已经讲过&lt;a href="https://blog.forecho.com/financedeep-24.html">期权的基本策略&lt;/a>，对期权不了解的朋友建议先去看一下。&lt;/p></description></item><item><title>【深度理财27】交易期权容易犯的错</title><link>https://blog.forecho.com/financedeep-27.html</link><pubDate>Mon, 26 Apr 2021 17:09:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-27.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>上个月写了两篇期权干货文章了：&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://blog.forecho.com/financedeep-23.html">【深度理财23】什么是期权&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://blog.forecho.com/financedeep-24.html">【深度理财24】期权交易基本策略&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;p>之前内容比较干，今天来点湿货，我来谈谈这三个月来我交易期权学到的经验。&lt;/p>
-&lt;blockquote>
-&lt;p>加一个风险提示：本篇文章仅代表我的个人观点，不构成与其他人相关的任何投资建议。在作出任何投资决定前，投资者应根据自身情况考虑投资产品相关的风险因素，并于需要时咨询专业投资顾问意见。&lt;/p>
-&lt;/blockquote></description></item><item><title>【深度理财26】随机买股票实验结局</title><link>https://blog.forecho.com/financedeep-26.html</link><pubDate>Fri, 23 Apr 2021 16:09:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-26.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>两周前因为 A 股市场太让人沮丧了，而正好我看到一个好玩儿的事情，于是我就跟风做了一个实验，详情请看&lt;a href="https://blog.forecho.com/financedeep-25.html">《【深度理财25】随机买股票实验》&lt;/a>。&lt;/p>
-&lt;p>今天收盘前把之前的两支股票卖了，先说说结果，总体是亏钱了。&lt;/p></description></item><item><title>【深度理财25】随机买股票实验</title><link>https://blog.forecho.com/financedeep-25.html</link><pubDate>Fri, 09 Apr 2021 16:09:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-25.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>今天中午吃完饭之后看了一会儿 YouTube，然后它给我推荐了一个视频，还是挺有意思的。视频的内容就是迫于春节之后股票行情一直不好，然后 UP 主想到了让猴子丢飞镖乱选股票，跟华尔街的专业分析师 PK 绩效，没想到猴子居然获胜的实验，然后他也实践了一把这个实验。&lt;/p>
-&lt;p>他实验的内容大致就是自己扔球然后选股票，买入之后两个星期卖掉。看了之后觉得挺有意思的，于是我也想玩一把。&lt;/p>
-&lt;h2 id="选股">选股&lt;/h2></description></item><item><title>【深度理财24】期权交易基本策略</title><link>https://blog.forecho.com/financedeep-24.html</link><pubDate>Tue, 23 Mar 2021 16:09:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-24.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>上一篇文章我分享了&lt;a href="https://blog.forecho.com/financedeep-23.html">《【深度理财23】什么是期权》&lt;/a>，那么这一篇文件我就来分享期权的基本交易策略。&lt;/p>
-&lt;h2 id="交易流程">交易流程&lt;/h2>
-&lt;p>我们先来回顾一下期权的七大要素：&lt;/p>
-&lt;ul>
-&lt;li>资产标的：该选择权对应的实际资产，例如 NIO、AAPL 股票&lt;/li>
-&lt;li>权利金：买方用来购买「选择权」的金额，卖家能获取到的最大金额&lt;/li>
-&lt;li>保证金：被冻结的金额，确保卖方有履行义务的能力。&lt;/li>
-&lt;li>行权价：到期时要交易的价格。&lt;/li>
-&lt;li>到期日：行权的最大截止日。&lt;/li>
-&lt;li>买卖行为：看涨（Call） or 看跌（Put）&lt;/li>
-&lt;li>行权：买方有选择是否要行权的权利，卖家没有选择。&lt;/li>
-&lt;/ul></description></item><item><title>【深度理财23】什么是期权</title><link>https://blog.forecho.com/financedeep-23.html</link><pubDate>Fri, 19 Mar 2021 19:09:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-23.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>今年 1 月底，我还是开始使用期权交易了，这一个月来我教了很多「学费」，学了很多，所以我打算写几篇文章分享和记录自己的学习成果。&lt;/p>
-&lt;p>⚠️ 期权是一种金融衍生品，相比股票，它要学的东西比较多，高收益同时也是高风险，而且学会了也不一定能赚钱，所以是否入场请三思。&lt;/p>
-&lt;h2 id="期权七大要素">期权七大要素&lt;/h2>
-&lt;p>「期权」顾名思义就是指某个时间以指定价格买卖的权利。&lt;/p>
-&lt;p>期权的七大要素：&lt;/p>
-&lt;ul>
-&lt;li>资产标的&lt;/li>
-&lt;li>买卖行为&lt;/li>
-&lt;li>权利金&lt;/li>
-&lt;li>保证金&lt;/li>
-&lt;li>行权价&lt;/li>
-&lt;li>到期日&lt;/li>
-&lt;li>是否行权&lt;/li>
-&lt;/ul></description></item><item><title>【深度理财22】股票投资的框架</title><link>https://blog.forecho.com/financedeep-22.html</link><pubDate>Tue, 09 Mar 2021 19:09:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-22.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>最近大盘回调，正好可以利用这段时间沉下心来好好梳理知识，今天我就来分享一下自己股票投资的框架，希望看完对你有帮助。&lt;/p>
 &lt;blockquote>
 &lt;p>加一个风险提示：本篇文章仅代表我的个人观点，不构成与其他人相关的任何投资建议。在作出任何投资决定前，投资者应根据自身情况考虑投资产品相关的风险因素，并于需要时咨询专业投资顾问意见。&lt;/p>
 &lt;/blockquote>
-&lt;p>我认为股票投资基本上分为这几类：&lt;/p>
+&lt;p>PS：下文中的今年是指 2023 年。&lt;/p>
+&lt;h2 id="基金--a-股">基金 &amp;amp;&amp;amp; A 股&lt;/h2>
+&lt;h3 id="概况">概况&lt;/h3>
+&lt;p>&lt;img src="https://img.forecho.com/IMG_6142.JPG" alt="">&lt;/p>
+&lt;p>今年基金收益表现还不错，总体收益 7% 左右，去年总体在收益 -13% 左右。&lt;/p>
+&lt;p>今年基金之所以不错得益于我的一个重要的决策，3 月份底清仓了支付宝基金，4 月底清仓了京东金融上面的国内基金，保留了几个美国基金。&lt;/p>
+&lt;p>全部亏损割肉了，年底回顾，清仓之后国内基金都跌了 30% 左右，而美国基金都涨了 30% 左右，这个决策是非常正确的。&lt;/p></description></item><item><title>期权要学会滚仓</title><link>https://blog.forecho.com/options-roll-up.html</link><pubDate>Sat, 16 Dec 2023 15:09:00 +0800</pubDate><guid>https://blog.forecho.com/options-roll-up.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>期权的滚仓是一个很重要的概念，也是一个很重要的操作，如果你学会了滚仓，那么你就可以让你赚的更多的钱，如果不会滚仓，你可能会后悔卖飞了的期权。&lt;/p>
+&lt;p>期权的滚仓主要有：&lt;/p>
 &lt;ul>
-&lt;li>技术面分析&lt;/li>
-&lt;li>基本面分析&lt;/li>
-&lt;li>基于消息面&lt;/li>
-&lt;/ul></description></item><item><title>【深度理财21】2021 年上海办理香港卡渠道</title><link>https://blog.forecho.com/financedeep-21.html</link><pubDate>Thu, 14 Jan 2021 10:09:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-21.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>大家期待已久的香港银行卡办卡渠道终于来了，这次雪盈提供的南洋商业银行渠道，所以没有雪盈账户的请先用下面链接开好户：&lt;/p>
-&lt;ul>
-&lt;li>开户地址：&lt;a href="http://link.3li3.com/xueying">http://link.3li3.com/xueying&lt;/a>&lt;/li>
+&lt;li>Roll Up：通常是看涨期权&lt;/li>
+&lt;li>Roll Down：通常是看跌期权&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/snowballsecurities.png!s" alt="雪盈证券开户">&lt;/p>
-&lt;h2 id="正文">正文&lt;/h2></description></item><item><title>【深度理财 20】如何办理一张多次往返境外的签证？</title><link>https://blog.forecho.com/financedeep-20.html</link><pubDate>Mon, 11 Jan 2021 18:09:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-20.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>现在办理境外银行卡，很多都要求有一张多次往返境外的签证，那么本篇文章就分享一下如何快速，便宜的办理一张多次往返境外的签证。&lt;/p>
-&lt;h2 id="办理签证">办理签证&lt;/h2>
-&lt;h3 id="土耳其">土耳其&lt;/h3>
+&lt;p>这篇文章我主要分享一下 Roll Up 的操作，Roll Down 的操作和 Roll Up 是一样的，只是方向相反而已。&lt;/p></description></item><item><title>股票技术指标 - 跳空缺口</title><link>https://blog.forecho.com/stock-indicators-gap.html</link><pubDate>Fri, 22 Sep 2023 17:30:00 +0800</pubDate><guid>https://blog.forecho.com/stock-indicators-gap.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>跳空缺口是股票技术分析中的一个重要概念，它常常被当做股票的重要支撑位和阻力位，这篇文章主要介绍跳空缺口的原理和使用方法。&lt;/p>
+&lt;h2 id="什么是跳空缺口">什么是跳空缺口&lt;/h2>
+&lt;p>&lt;img src="https://img.forecho.com/H7mVrM.png" alt="">&lt;/p>
+&lt;p>特点：&lt;/p>
 &lt;ul>
-&lt;li>优点：
+&lt;li>缺口是一种价格差异，它是由于股票价格在一个交易日收盘后和下一个交易日开盘时产生的价格差异，而这个区间内没有成交记录。&lt;/li>
+&lt;li>整个缺口区域都是支撑位和阻力位，只要没有被回补完，就代表有一定的支撑或阻力。&lt;/li>
+&lt;li>缺口的大小表示力量的大小，缺口越大，力量越大。&lt;/li>
+&lt;li>跳空缺囗如果在 2-3 天内被回补，则可视为「假突破」。&lt;/li>
+&lt;/ul></description></item><item><title>轻松实现期权交易盈利</title><link>https://blog.forecho.com/about-the-option-fee-group.html</link><pubDate>Mon, 11 Sep 2023 19:01:00 +0800</pubDate><guid>https://blog.forecho.com/about-the-option-fee-group.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>美股已经炒了 6 年，期权也交易了 3 年多了，今年算是找到了一点门路，通过期权赚了一点钱。&lt;/p>
+&lt;p>差不多在一个月前我开通了一个期权收费群，目前已经有不少小伙伴加入了，我今天来介绍一下这个群，如果你对期权感兴趣，欢迎加入。&lt;/p>
+&lt;h2 id="期权收费群">期权收费群&lt;/h2>
+&lt;p>这个群我会每天都分享期权交易的 Idea，这些 Idea 都是我通过一个付费工具再结合自己研究出来的策略严格筛选出来的，通常这些 Idea 我都会实时分享出来的，你可以选择跟或者不跟，你需要自己做决策，我自己也不是 100% 跟单的。&lt;/p>
+&lt;p>我通常会截图发出来，图长这样：&lt;/p>
+&lt;p>&lt;img src="https://img.forecho.com/JJXW8Z.png" alt="">&lt;/p></description></item><item><title>股票技术指标 - 布林通道（BOLL）</title><link>https://blog.forecho.com/stock-indicators-boll.html</link><pubDate>Wed, 06 Sep 2023 19:30:00 +0800</pubDate><guid>https://blog.forecho.com/stock-indicators-boll.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>布林通道（BOLL）是由美国经济学家约翰·布林格（John Bollinger）结合了均线和统计学的标准差提出的概念。这一指标可以帮助投资者理解价格的相对高低以及价格的波动性，从而做出更明智的投资决策。&lt;/p>
+&lt;h2 id="什么是布林通道">什么是布林通道&lt;/h2>
+&lt;p>&lt;img src="https://img.forecho.com/oMBxiB.png" alt="">&lt;/p>
+&lt;p>布林通道是移动平均线和标准差的概念，以 MA20 为中轴线，上下各偏离 2 个标准差的距离，形成一个通道。布林通道由三条轨道线组成：&lt;/p>
 &lt;ul>
-&lt;li>方便：在线就能办理，填个表单就搞定，不用出门&lt;/li>
-&lt;li>快速：最快 10 分钟能拿到签证&lt;/li>
+&lt;li>上轨线 = MA20 + 2 * 标准差&lt;/li>
+&lt;li>中轨线 = MA20&lt;/li>
+&lt;li>下轨线 = MA20 - 2 * 标准差&lt;/li>
+&lt;/ul>
+&lt;p>PS: 这里的标准差是统计学中的一个概念，核心思想就是大多数股价涨到一定的高度就会回落，跌到一定的低度就会反弹，这个高度和低度就是标准差。&lt;/p></description></item><item><title>如何抓住股票的起涨点</title><link>https://blog.forecho.com/how-to-seize-the-rising-point-of-stocks.html</link><pubDate>Fri, 23 Jun 2023 10:47:00 +0800</pubDate><guid>https://blog.forecho.com/how-to-seize-the-rising-point-of-stocks.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>今天主要是给大家分享一下我在股票投资中的一个小技巧，这个技巧可以帮助你从 K 线图上抓住股票的起涨点，从而提高你的投资收益。&lt;/p>
+&lt;h2 id="股票的起涨暗号">股票的起涨暗号&lt;/h2>
+&lt;p>&lt;img src="https://img.forecho.com/K0iHYB.png" alt="">&lt;/p>
+&lt;h3 id="完美底部">完美底部&lt;/h3>
+&lt;p>完美底部，长期盘整，2 个月以上。&lt;/p>
+&lt;h3 id="均线多头排列">均线多头排列&lt;/h3>
+&lt;ul>
+&lt;li>3 条或者 4 条均线多头排列，完成多头排列向上。&lt;/li>
+&lt;li>短的均线一定要在长的均线之上。&lt;/li>
+&lt;li>均线分别看 5、10、20、60 日均线。&lt;/li>
+&lt;/ul></description></item><item><title>股票技术指标 - 随机（KD）指标</title><link>https://blog.forecho.com/stock-indicators-kd.html</link><pubDate>Sun, 11 Jun 2023 19:30:00 +0800</pubDate><guid>https://blog.forecho.com/stock-indicators-kd.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>KD 指标是目前股市上常用的短线入场技术指标之一，它是一个领先的指标，这篇文章主要介绍 KD 指标的原理和使用方法。&lt;/p>
+&lt;h2 id="什么是-dk-指标">什么是 DK 指标&lt;/h2>
+&lt;p>KD 指标 (Stochastic Oscillator) 又叫随机指标，是一种反映价格波动的指标，由 George C.Lane 于 1950 年代提出，是目前股市上常用的技术指标之一，被广泛应用于预测金融市场的中短线行情趋势。&lt;/p>
+&lt;p>KD 指标，最主要就是用来呈现过去一段时间股价强弱趋势、许多人会运用这些数字，来作为寻找价格转折点的交易讯号依据。&lt;/p>
+&lt;p>PS: 在 KD 指标的基础上进一步发展出了 KDJ 指标，它比 KD 线多了一条 J 线。但是 DK 才是最基础的指标，所以我们先来学习 KD 指标。&lt;/p>
+&lt;h2 id="kd-指标的计算公式">KD 指标的计算公式&lt;/h2>
+&lt;p>&lt;img src="https://img.forecho.com/fIp7yU.png" alt="">&lt;/p></description></item><item><title>股票技术指标 - 指数平滑异同移动平均线（MACD）指标</title><link>https://blog.forecho.com/stock-indicators-macd.html</link><pubDate>Thu, 25 May 2023 10:49:00 +0800</pubDate><guid>https://blog.forecho.com/stock-indicators-macd.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>MACD 也是股票技术分析中最常用的技术指标之一，经常被用来判断股票的趋势的转向。这篇文章主要介绍 MACD 指标的计算方法和使用方法。&lt;/p>
+&lt;h2 id="什么是-macd-指标">什么是 MACD 指标&lt;/h2>
+&lt;h3 id="基础概念">基础概念&lt;/h3>
+&lt;p>&lt;img src="https://img.forecho.com/2WntZv.jpg" alt="">&lt;/p>
+&lt;p>MACD 是指数平滑异同移动平均线 (Moving Average Convergence Divergence) 的缩写，简称「指数平滑异同移动平均线」，代表一种趋势跟踪的动量指标。MACD 通常由 4 部分组成：&lt;/p>
+&lt;ol>
+&lt;li>DIF 值（快线）：快线（短期指数平滑移动平均线）与慢线（长期指数平滑移动平均线）的差值。一般是 MA12 - MA26。&lt;/li>
+&lt;li>DEA 值（慢线）：DIF 的 9 日指数平滑移动平均线。&lt;/li>
+&lt;li>MACD 柱（动能）：DIF 与 DEA 之间的差值，柱状图。一般是 DIF - DEA。
+&lt;ul>
+&lt;li>值是正数，表示快线在慢线之上，市场处于上涨趋势；&lt;/li>
+&lt;li>值是负数，表示快线在慢线之下，市场处于下跌趋势。&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>签证材料：
+&lt;li>0 轴：多空分界线，MACD 柱在 0 轴之上，表示多头市场；MACD 柱在 0 轴之下，表示空头市场。&lt;/li>
+&lt;/ol></description></item><item><title>股票技术指标 - 移动平均线（MA）指标</title><link>https://blog.forecho.com/stock-indicators-ma.html</link><pubDate>Sat, 13 May 2023 10:49:00 +0800</pubDate><guid>https://blog.forecho.com/stock-indicators-ma.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>MA 是股票技术分析中最常用的技术指标之一，经常被用来判断股票的趋势。这篇文章主要介绍 MA 指标的计算方法和使用方法。&lt;/p>
+&lt;h2 id="什么是-ma-指标">什么是 MA 指标&lt;/h2>
+&lt;p>MA 是移动平均线 (Moving Average) 的缩写，简称「均线」，代表过去一段时间内股票的平均价格。&lt;/p>
+&lt;h2 id="计算方法">计算方法&lt;/h2>
+&lt;p>均线的计算方法相对简单。它是在一定时期内股票收盘价的平均值。&lt;/p>
+&lt;p>以下是计算均线的基本步骤：&lt;/p></description></item><item><title>如何通过逼空来赚钱？</title><link>https://blog.forecho.com/short-squeeze.html</link><pubDate>Wed, 10 May 2023 12:49:00 +0800</pubDate><guid>https://blog.forecho.com/short-squeeze.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>逼空是一种投资策略，它的目的是通过买入股票来迫使空头平仓，从而推高股价。逼空是一种高风险高回报的投资策略，它的风险在于，如果空头不平仓，那么逼空者将会面临巨大的损失。&lt;/p>
+&lt;p>这篇文章将会介绍逼空的原理，以及如何通过逼空来赚钱。&lt;/p>
+&lt;h2 id="什么是做空">什么是做空？&lt;/h2>
+&lt;p>在讲逼空之前我们要先了解什么是做空？做空是一种投资策略，当你看空某个股票的时候，预期其股价接下来会下跌，那么你就可以通过做空来赚钱。&lt;/p>
+&lt;p>做空有两种方式，一种是买看跌期权一种是直接卖股票，我们这里只针对后者进行讨论。&lt;/p>
+&lt;p>做空股票，操作上你可以直接在券商平仓卖出股票，即向市场借入股票，日后归还股票就可以了。这个过程中券商会向你收取利息，直到你归还股票为止。&lt;/p></description></item><item><title>市场净流量：金融交易中的关键工具与策略</title><link>https://blog.forecho.com/market-net-flow.html</link><pubDate>Sun, 19 Mar 2023 10:06:00 +0800</pubDate><guid>https://blog.forecho.com/market-net-flow.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>市场净流量是一种金融交易中的关键工具，用于评估市场中的多空情绪。通过综合分析市场净流量、技术分析和其他交易策略，交易者可以更准确地预测市场走势并做出更明智的投资决策。&lt;/p>
+&lt;p>本文将详细介绍市场净流量的概念、如何分析市场净流量以及如何将其与其他交易策略结合使用。&lt;/p>
+&lt;p>最后，本文还将介绍 Tradytics 的市场净流量指标的使用方法，帮助交易者更好地分析市场净流量。&lt;/p></description></item><item><title>使用 Tradytics 进行日内期权交易</title><link>https://blog.forecho.com/day-trading-options-with-tradytics.html</link><pubDate>Sat, 11 Mar 2023 10:40:00 +0800</pubDate><guid>https://blog.forecho.com/day-trading-options-with-tradytics.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>前一段时间和几个朋友以一个非常低的价格拼车买了 &lt;a href="https://link.3li3.com/tradytics">Tradytics&lt;/a> 的会员，一有时间我就研究如何使用，虽然 &lt;a href="https://link.3li3.com/tradytics">Tradytics&lt;/a> 太复杂了，但是有很多有用的数据，可以帮我们看清目前的市场状况，然后做出正确的交易决策。&lt;/p>
+&lt;p>我会把我学到的东西分享出来，希望能帮助到大家。系列文章点击 &lt;a href="https://blog.forecho.com/tags/tradytics.html">Tradytics&lt;/a> 查看。&lt;/p>
+&lt;h2 id="tradytics-是什么">Tradytics 是什么？&lt;/h2>
+&lt;p>Tradytics 是一个人工智能驱动的交易平台，提供了各种工具来帮助我们在市场上获得优势，它每天分析超过一百万个数据点，来自期权流量、股票日内数据、新闻、内部交易等。&lt;/p>
+&lt;p>基于这些分析，通过专有人工智能算法，提取有用信息，帮助我们提前评估市场走向。&lt;/p></description></item><item><title>重新了解美股市场</title><link>https://blog.forecho.com/understanding-the-us-stock-market.html</link><pubDate>Sat, 04 Mar 2023 15:29:00 +0800</pubDate><guid>https://blog.forecho.com/understanding-the-us-stock-market.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>玩了几年美股，以前都没好好了解美股市场，直到去年熊市才开始疯狂学习美股市场。我打算出一系列学习美股的文章，这是此系列的第一篇。&lt;/p>
+&lt;p>如果你是一个美股新手，那么这篇文章适合你。&lt;/p>
+&lt;h2 id="为什么投资美股">为什么投资美股？&lt;/h2>
+&lt;h3 id="股票市场">股票市场&lt;/h3>
+&lt;p>&lt;img src="https://img.forecho.com/6l8nbW.png" alt="">&lt;/p>
+&lt;p>根据 &lt;a href="https://www.statista.com/statistics/710680/global-stock-markets-by-country/">Statista&lt;/a> 提供的数据，截至 2022 年 1 月，全球最大股票市场的国家分布，按总世界股权市值占比划分。美股市场是世界上最大的股票市场，它的市值是全球股票市场的 60%（接近）。而中国股市的市值不到 4%，差距非常大。&lt;/p></description></item><item><title>用 Tradytics 日交易</title><link>https://blog.forecho.com/tradytics-for-day-trading.html</link><pubDate>Fri, 03 Mar 2023 22:18:00 +0800</pubDate><guid>https://blog.forecho.com/tradytics-for-day-trading.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>&lt;a href="https://link.3li3.com/tradytics">Tradytics&lt;/a> 是一个美股期权交易平台，提供了很多有用的数据，可以帮助我们日交易。今天就来介绍一下如何使用 Tradytics 日交易。&lt;/p>
+&lt;h2 id="使用-tradytics-日交易">使用 Tradytics 日交易&lt;/h2>
+&lt;p>主要是使用 TICKER DASHBOARDS 下面的三个 Dashboard，使用这三个工具的主要目的是找到指定股票当天的阻力点和支撑点，然后在这些点位上进行交易。&lt;/p>
+&lt;h3 id="stocks-dashboard">Stocks Dashboard&lt;/h3>
+&lt;p>主要目的就是添加 GEX 线&lt;/p>
+&lt;p>&lt;img src="https://img.forecho.com/JJth2E.png" alt="">&lt;/p></description></item><item><title>来香港办香港银行卡</title><link>https://blog.forecho.com/coming-to-hong-kong-to-get-a-hong-kong-bank-card.html</link><pubDate>Fri, 17 Feb 2023 14:10:00 +0800</pubDate><guid>https://blog.forecho.com/coming-to-hong-kong-to-get-a-hong-kong-bank-card.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>公司让我们来香港出差，我顺便办了香港银行卡，这里记录一下办卡的过程。&lt;/p>
+&lt;h2 id="中国银行香港卡">中国银行香港卡&lt;/h2>
+&lt;h3 id="经过">经过&lt;/h3>
+&lt;p>我是从深圳北坐高铁过来的，早上到达香港，出站之后，就百度附近的中国银行，最近的一家在中港城，走十几分钟就到了。&lt;/p>
+&lt;p>我们大概 10 点半左右到了中国银行香港营业厅，门口取号，给我的是 70 号，目前正在办的是 9 号，一个号大概要办理 45 分钟，工作人员在取号的之前都会告诉你，让你知道大概要等多久。&lt;/p>
+&lt;p>他们 17 点就下班了，70 号意味着你今天都不一定能办到卡，没想到工作日来香港办卡人都这么多，我看今天大概率没希望了然后我们就走了。&lt;/p>
+&lt;p>第二天我去酒店附近的分行办卡，人很少，去了就差不多可以办卡了，所以我建议大家不要去中港城的中国银行香港分行办，因为那边人太多了。&lt;/p>
+&lt;p>我最后是在&lt;strong>湾仔地铁口&lt;/strong>那边的中国银行香港分行办的卡。你也可以去&lt;strong>铜锣湾&lt;/strong>那边的中国银行香港分行办，这两个分行都是在地铁站附近，很方便。一个分行不行的话，你可以去另一个分行办。&lt;/p></description></item><item><title>像专业人士一样交易期权之如何使用 Optionstrat</title><link>https://blog.forecho.com/how-to-trade-options-like-a-pro-with-optionstrat.html</link><pubDate>Sat, 14 Jan 2023 08:47:00 +0800</pubDate><guid>https://blog.forecho.com/how-to-trade-options-like-a-pro-with-optionstrat.html</guid><description>&lt;p>&lt;img src="https://img.forecho.com/81rCn8.png" alt="">&lt;/p>
+&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>前几天分享了一篇文章 - &lt;a href="https://blog.forecho.com/understand-big-option-orders.html">《读懂期权大单》&lt;/a> ，介绍了几个可以看期权流的网站，其中一个是 &lt;a href="https://optionstrat.com/caizhenghai">Optionstrat&lt;/a> ，用了一个星期后，今天来分享一些使用心得。&lt;/p>
+&lt;p>本篇文章适合有一定期权基础的读者，如果你还不了解期权，可以先看看我的 &lt;a href="https://blog.forecho.com/tags/%E6%9C%9F%E6%9D%83.html">期权系列文章&lt;/a> 。&lt;/p></description></item><item><title>2022 年年终总结投资篇</title><link>https://blog.forecho.com/2022-review-investment.html</link><pubDate>Sat, 31 Dec 2022 22:14:00 +0800</pubDate><guid>https://blog.forecho.com/2022-review-investment.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>2022 这操蛋的一年终于要结束了，按照惯例，每年来一次投资年终总结，来看看这一年的投资表现如何。这是这系列的第四篇文章，前三篇文章：&lt;/p>
 &lt;ul>
-&lt;li>有效的护照（有效期为六个月以上）&lt;/li>
+&lt;li>&lt;a href="https://blog.forecho.com/financedeep-34.html">【深度理财 34】2021 年年终总结投资篇&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://blog.forecho.com/financedeep-19.html">【深度理财 19】2020 年年终总结投资篇&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://blog.forecho.com/financedeep-06.html">【深度理财 06】聊聊这些年我买过的股票&lt;/a>&lt;/li>
 &lt;/ul>
-&lt;/li>
-&lt;li>签证种类：电子签&lt;/li>
-&lt;li>签证费及有效期: 60 美金/人 + 1.5 美金手续费，约合人民币 440 元，单次 30 天的签证，在 180 天之内有效
-有效的护照（有效期为六个月以上）&lt;/li>
-&lt;/ul></description></item><item><title>【深度理财19】2020 年年终总结投资篇</title><link>https://blog.forecho.com/financedeep-19.html</link><pubDate>Mon, 04 Jan 2021 12:09:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-19.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>又到了一年一度的总结了，从去年开始我就决定以后每年都聊一些我的持仓，这是本系列的第二篇，第一篇请看&lt;a href="https://blog.forecho.com/financedeep-06.html">《【深度理财06】聊聊这些年我买过的股票》&lt;/a>。&lt;/p>
 &lt;blockquote>
 &lt;p>加一个风险提示：本篇文章仅代表我的个人观点，不构成与其他人相关的任何投资建议。在作出任何投资决定前，投资者应根据自身情况考虑投资产品相关的风险因素，并于需要时咨询专业投资顾问意见。&lt;/p>
 &lt;/blockquote>
 &lt;h2 id="基金">基金&lt;/h2>
 &lt;h3 id="概况">概况&lt;/h3>
-&lt;p>2020 年 A 股整体行情还不错，买了几只基金都涨的还可以。&lt;/p>
-&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20210104SSWO6u.png" alt="白酒兴邦，科技误国">&lt;/p>
-&lt;p>今年收益最好的板块就是白酒和医药了。正所谓：&lt;/p>
-&lt;blockquote>
-&lt;p>年少不知白酒香, 错把科技加满仓。 年少不知白酒好, 错把医药当成宝。 年少不知白酒醉, 错把证券当安慰。 年少不知白酒强, 错把有色当栋梁。&lt;/p>
-&lt;/blockquote></description></item><item><title>【深度理财18】这个证券平台 2021 年港股现金打新全年 0 佣金</title><link>https://blog.forecho.com/financedeep-18.html</link><pubDate>Thu, 31 Dec 2020 12:09:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-18.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>2020 年 6 月份我正式入坑港股打新，这半年来参与接近 20 次港股打新，虽然只中签了三次，但是赚了 1.5 万左右的港币。这还只是一个证券平台的数据，如果是多个平台的话，那收益还是不错的。&lt;/p>
-&lt;h2 id="正文">正文&lt;/h2>
-&lt;h3 id="不废话篇">不废话篇&lt;/h3>
-&lt;p>今天要介绍的就是&lt;strong>富利证券&lt;/strong>（名字有点像富途证券，但是别搞错了！），他们现在搞活动「 2021 年港股现金打新全年 0 佣金」，开户地址是 &lt;a href="http://link.3li3.com/fuli">http://link.3li3.com/fuli&lt;/a>&lt;/p>
-&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20201231Q9w5Pm.png!s" alt="富利证券">&lt;/p>
-&lt;p>PS: 首次入金至少 1 万港币且一个月内不能出金&lt;/p></description></item><item><title>【深度理财17】关于 ARK</title><link>https://blog.forecho.com/financedeep-17.html</link><pubDate>Thu, 24 Dec 2020 12:09:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-17.html</guid><description>&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20201224hR9drd.png" alt="ARK">&lt;/p>
-&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>我是最近几个月才听说 &lt;a href="https://ark-funds.com/">ARK&lt;/a>，研究了一番，有点相见恨晚，今天这篇文章我就来分享一下自己的学习结果。&lt;/p>
-&lt;h2 id="ark-是什么">ARK 是什么？&lt;/h2>
-&lt;p>ARK（方舟投资）是一家专注于投资&lt;strong>颠覆性创新&lt;/strong>的公司，他们公司目前管理 7 个 ETF，其中最有名是 5 个主动式的 ETF，另外 2 个是指数型被动 ETF，后面我们再详细聊这 7 个 ETF。&lt;/p>
-&lt;p>ARK 是 2014 年创办，投资的第一个方向就是 3D 打印机，但是有点失败，刚开始 3 年都没跑赢大盘，在 2017 年的时候才开始慢慢发力，到了 2020 年才算是爆发。&lt;/p></description></item><item><title>【深度理财16】打新真的赚钱吗？</title><link>https://blog.forecho.com/financedeep-16.html</link><pubDate>Fri, 11 Dec 2020 12:09:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-16.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>我算是比较晚才开始玩打新的了，&lt;a href="https://blog.forecho.com/financedeep-10.html">《【深度理财10】富途港股打新全知道》&lt;/a> 这篇文章，我又来聊聊最近港美股打新的经历，希望我分享的经历对你有帮助。&lt;/p>
-&lt;h2 id="港股打新">港股打新&lt;/h2>
-&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20201211C29zj2.png" alt="港股打新">&lt;/p>
-&lt;p>先看看最近我的港股打新记录，距离上次分享已经4个月了，这之后我又参与了14次打新，其中有3次是我中途撤销的，有1次是蚂蚁没上市的。也就是说10次打新中签了2次，我的个人中签率为20%。下面我挨个统计一下收支：&lt;/p></description></item><item><title>【深度理财15】又谈美股开户</title><link>https://blog.forecho.com/financedeep-15.html</link><pubDate>Wed, 09 Dec 2020 12:09:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-15.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>时间过得很快，眼看就要2021年了，今年美股又是持续高涨，最近很多小伙伴咨询我美股开户以及美股入金的方式。今天我就来整理一篇文章分享一下我所知道的美股开户和美股入金方式，希望对你有用。&lt;/p>
-&lt;h2 id="境外卡入金">境外卡入金&lt;/h2>
-&lt;p>有境外卡当然是最好的方式了，美股入金就非常方便，但是呢？随着政策的收紧，之前分享的民生银行5万门槛开香港的方式如今不能用了。现在开境外卡门槛是越来越高了。&lt;/p></description></item><item><title>【深度理财14】聊聊最近的美股打新</title><link>https://blog.forecho.com/financedeep-14.html</link><pubDate>Mon, 31 Aug 2020 22:09:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-14.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20200901hqt6rA.jpg" alt="20200901hqt6rA">&lt;/p>
-&lt;p>最近这一个月来已经参与了三次美股打新，今天这篇文章就来给大家分享一下我的「战果」。他们分别是：&lt;/p>
-&lt;h2 id="理想">理想&lt;/h2>
-&lt;p>因为汽车之家的李想和美团的王兴投资，我参与了理想汽车的打新。又因为特斯拉和蔚来汽车股票最近几个月的大涨，理想汽车的打新明显有很多人参与了，我分别在老虎证券和雪盈上参加了打新，结果如下：&lt;/p></description></item></channel></rss>
+&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20221231t8bD5U.JPG" alt="">&lt;/p>
+&lt;p>今年基金亏惨了，总体收益 -13% 左右，去年是 +6%，去年的利润全没了还不说，还倒亏钱了。&lt;/p>
+&lt;p>因为今天中国的疫情封控，导致经济下滑，股市自然好不到哪里去了，我今年主要的仓位：&lt;/p>
+&lt;ul>
+&lt;li>新能源（40%）&lt;/li>
+&lt;li>医疗（30%）&lt;/li>
+&lt;li>白酒（20%）&lt;/li>
+&lt;li>其他（10%）&lt;/li>
+&lt;/ul></description></item><item><title>读懂期权大单</title><link>https://blog.forecho.com/understand-big-option-orders.html</link><pubDate>Thu, 22 Dec 2022 12:35:00 +0800</pubDate><guid>https://blog.forecho.com/understand-big-option-orders.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>玩美股期权差不多有一年了，今天给大家分享一下，我是在哪里看到的期权大单，以及如何读懂期权大单。&lt;/p>
+&lt;p>本篇文章适合有一定期权基础的读者。如果你还不懂什么是期权？可以去看看我的&lt;a href="https://blog.forecho.com/tags/%E6%9C%9F%E6%9D%83.html">期权系列&lt;/a>文章。&lt;/p>
+&lt;h2 id="在哪里看到期权大单">在哪里看到期权大单&lt;/h2>
+&lt;h3 id="optionstrathttpsoptionstratcomflowliverefcaizhenghai力推">&lt;a href="https://optionstrat.com/flow/live?ref=caizhenghai">OptionStrat&lt;/a>（力推）&lt;/h3>
+&lt;p>&lt;img src="https://img.forecho.com/HrmDqQ.png" alt="">&lt;/p>
+&lt;p>OptionStrat 是期权交易者不错的工具，使用 OptionStrat 直观的可视化和分析工具进行更智能的交易，免费版用户可以查看延迟 15 分钟的期权流。&lt;/p>
+&lt;h3 id="barcharthttpswwwbarchartcomoptionsunusual-activity">&lt;a href="https://www.barchart.com/options/unusual-activity">barchart&lt;/a>&lt;/h3></description></item><item><title>关于利率你应该知道的事情</title><link>https://blog.forecho.com/things-you-should-know-about-interest-rates.html</link><pubDate>Sun, 21 Aug 2022 22:39:00 +0800</pubDate><guid>https://blog.forecho.com/things-you-should-know-about-interest-rates.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>关注美股的朋友今年肯定对「美联储加息」不陌生吧？为了缓解美国高通涨，美联储今年已经加息了好几次，加息跟利率有什么关系？又跟美股有什么关系呢？这篇文章我试着来解释一下。&lt;/p>
+&lt;h2 id="什么是利率">什么是利率？&lt;/h2>
+&lt;p>利率，也称之为利息，简单理解就是钱的时间成本。打个比方，假设银行的利率是 3%，那么你在银行里存 100，那么明年你取出的钱是 103。同样你向银行借 100 的话，那么明年你还给银行的钱就是 103。&lt;/p></description></item></channel></rss>

@@ -1,114 +1,140 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on forecho's Blog</title><link>https://blog.forecho.com/posts.html</link><description>Recent content in Posts on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 17 Nov 2021 13:12:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/posts/atom.xml" rel="self" type="application/rss+xml"/><item><title>使用 PHP CS Fixer 规范代码</title><link>https://blog.forecho.com/how-to-format-code-using-php-cs-fixer.html</link><pubDate>Wed, 17 Nov 2021 13:12:00 +0800</pubDate><guid>https://blog.forecho.com/how-to-format-code-using-php-cs-fixer.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>之前我有写过&lt;a href="https://blog.forecho.com/php-code-formatter-tips.html">《PHP 代码规范之工具篇》&lt;/a>，上次主要用的是 &lt;a href="https://github.com/squizlabs/PHP_CodeSniffer">PHP CodeSniffer&lt;/a> ，这次我们来看看如何使用 PHP CS Fixer 进行代码规范以及如何格式化代码。&lt;/p>
-&lt;p>这篇文章可以做为上篇文章的补充。&lt;/p>
-&lt;h2 id="安装">安装&lt;/h2>
-&lt;h3 id="安装-php-cs-fixerhttpsgithubcomfriendsofphpphp-cs-fixer">安装 &lt;a href="https://github.com/FriendsOfPHP/PHP-CS-Fixer">PHP CS Fixer&lt;/a>&lt;/h3>
-&lt;p>全局安装：&lt;/p>
-&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
-&lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
-&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-shell" data-lang="shell">composer require --global firephp/php-cs-fixer
-&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div></description></item><item><title>软件开发的工作流</title><link>https://blog.forecho.com/software-development-workflow.html</link><pubDate>Sun, 31 Oct 2021 21:03:00 +0800</pubDate><guid>https://blog.forecho.com/software-development-workflow.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>今天我打算给大家分享一下我上家公司的软件开发工作流，工作也 9 年了，这是我迄今为止觉得最舒服的工作流。&lt;/p>
-&lt;h2 id="工作流">工作流&lt;/h2>
-&lt;p>我们使用了工具主要有：&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com">GitHub&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://slack.com/">Slack&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://jira.com/">Jira&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>【深度阅读 第四季 03】Netflix 的自由与责任工作法</title><link>https://blog.forecho.com/readeep-s04e03.html</link><pubDate>Sat, 23 Oct 2021 14:40:58 +0800</pubDate><guid>https://blog.forecho.com/readeep-s04e03.html</guid><description>&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20211023FmJ3os.jpg" alt="《不拘一格》">&lt;/p>
-&lt;h2 id="一段话说明这本书主要讲什么">一段话说明『这本书主要讲什么？』&lt;/h2>
-&lt;p>这是一本讲 Netflix 企业文化和企业管理的书。&lt;/p>
-&lt;h2 id="迈向自由与责任">迈向自由与责任&lt;/h2>
-&lt;h3 id="提高人才密度">提高人才密度&lt;/h3>
-&lt;p>Netflix 是 1997 年成立，1998 年正式上线运营，刚开始只是个在线租碟的公司。2001 年春受互联网经济泡沫破裂影响，拥有 120 多名的 Netflix 也要开始裁员了。&lt;/p>
-&lt;p>裁掉了相对逊色的员工，留下表现优异的 80 名员工。这次裁员的事件让里德（Netflix CEO）有了重大认知改变。&lt;/p>
-&lt;p>虽然员工裁掉了 1/3 但是事后留下的员工很快恢复正常工作，而且个个充满激情与活力，整个公司的氛围也是高涨情绪。里德认识到虽然裁员让员工变少了，但是人才的比例变高了，即人才密度提高了。&lt;/p></description></item><item><title>使用 Linear 来管理你的项目</title><link>https://blog.forecho.com/using-linear.html</link><pubDate>Wed, 20 Oct 2021 10:59:00 +0800</pubDate><guid>https://blog.forecho.com/using-linear.html</guid><description>&lt;p>&lt;a href="https://linear.app/">&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20211020VXxM9t.png" alt="">&lt;/a>&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on forecho's Blog</title><link>https://blog.forecho.com/posts.html</link><description>Recent content in Posts on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 30 Mar 2026 15:00:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/posts/atom.xml" rel="self" type="application/rss+xml"/><item><title>年赚 5000 万美元的交易团队，在一顿晚餐上说了什么？</title><link>https://blog.forecho.com/top-trading-team-dinner-lessons.html</link><pubDate>Mon, 30 Mar 2026 15:00:00 +0800</pubDate><guid>https://blog.forecho.com/top-trading-team-dinner-lessons.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>SMB Capital 的两位顶级交易员 Nano 和 Max——一个是七位数级别的 Pro，另一个是八位数级别的 Producer——坐在迈阿密 Wynwood 区一家高端日料餐厅 Uchi 里，边吃边回答交易社区提交的问题。&lt;/p>
+&lt;p>这不是一场精心包装的采访，而是一次私人晚餐上的真实对话。他们的团队年交易利润接近 &lt;strong>5000 万美元&lt;/strong>。但让我觉得最有价值的，不是这个数字本身，而是他们在回答社区问题时展现出的思维方式——非常朴素、非常坦诚，而且很多观点直接颠覆了新手的常见做法。&lt;/p>
+&lt;p>我把这场对话中的核心要点逐一提炼出来，结合自己的理解做了整理。内容比较多，建议收藏慢慢看。&lt;/p></description></item><item><title>价格行为交易：交易心理的 5 个关键问题</title><link>https://blog.forecho.com/5-thoughts-on-trading-psychology.html</link><pubDate>Mon, 30 Mar 2026 10:00:00 +0800</pubDate><guid>https://blog.forecho.com/5-thoughts-on-trading-psychology.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>做交易久了我越来越认同一件事：大多数人亏钱，不是因为看不懂图，而是因为在关键时刻总做错同一类决定。&lt;/p>
+&lt;p>比如，看到一点反转迹象就急着抄底；亏损单拿着不走；刚有一点利润就赶紧跑；一旦连续几天做对了，又忍不住放大仓位。表面看是执行问题，底层其实都是心理问题。&lt;/p>
+&lt;p>Al Brooks 在一次关于交易心理的分享里，讲了 5 个非常实用的点。我把它们整理成一篇更适合落地执行的版本。重点不在“听懂”，而在于你能不能把它变成自己的交易规则。&lt;/p></description></item><item><title>特斯拉第一次长途驾驶体验</title><link>https://blog.forecho.com/first-tesla-long-distance-driving.html</link><pubDate>Tue, 24 Mar 2026 11:48:00 +0800</pubDate><guid>https://blog.forecho.com/first-tesla-long-distance-driving.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>之前春节回家，是我第一次长途驾驶。&lt;/p>
+&lt;p>夫妻俩带着一个两岁多的宝宝，单程接近一千公里。因为是第一次开这么远的高速，出发之前我在家用高德地图做了不少准备工作。&lt;/p>
+&lt;p>经历了一趟去程和回程之后，趁着记忆犹新，写篇博客来复盘一下这次长途驾驶的体验和心得。&lt;/p></description></item><item><title>创纪录出金 250 万美金！顶级交易员浓缩 14 年的 5 个交易心理学法则</title><link>https://blog.forecho.com/14-years-trading-psychology.html</link><pubDate>Sat, 21 Mar 2026 00:10:00 +0800</pubDate><guid>https://blog.forecho.com/14-years-trading-psychology.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>有一位交易了 14 年的前辈，他在交易生涯中总共赚取了 450 万美元的利润。更震撼的是，他今年仅单次出金就拿到了 &lt;strong>250 万美元&lt;/strong>，创下了自营交易公司（Prop Firm）历史上的最高出金记录。&lt;/p>
+&lt;p>今天，我们将他这 14 年的交易心理学精华，浓缩成这篇能让你快速读完的 &lt;strong>5 个核心法则&lt;/strong>。&lt;/p>
+&lt;p>很多新手总以为只要找到一个完美的“圣杯”策略就能暴富。但他坦言：&lt;strong>完美的策略不会让你变富&lt;/strong>。他甚至曾用那个后来帮他赚了几百万美元的策略亏过钱。为什么？因为当情绪接管大脑时，再好的策略也会崩溃。&lt;/p>
+&lt;p>最惨痛的亏损，往往不是因为糟糕的交易信号，而是因为“把好机会做烂了”——比如报复性交易、犹豫不决或者极度自负。&lt;/p>
+&lt;p>让我们直接进入正题，看看这 5 个拉开凡人与顶尖交易员差距的法则。&lt;/p></description></item><item><title>交易员的 5 个阶段：你现在处于哪一层？</title><link>https://blog.forecho.com/five-levels-of-trader.html</link><pubDate>Fri, 20 Mar 2026 23:45:00 +0800</pubDate><guid>https://blog.forecho.com/five-levels-of-trader.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>在交易的世界里，大多数人往往会卡在某个瓶颈期，甚至很多人的交易生涯就在“第三阶段”无声无息地结束了，而他们自己可能都没意识到。&lt;/p>
+&lt;p>最近，S&amp;amp;B Capital 的一位资深交易员总结了交易员成长的 5 个必经阶段。想要突破瓶颈，你需要做的第一件事就是&lt;strong>对自己保持极其残酷的诚实&lt;/strong>。不要去想你“想”在哪个阶段，或者“应该”在哪个阶段，而是诚实地面对你现在的真实状态。&lt;/p>
+&lt;p>这篇文章，我将带大家梳理这 5 个阶段的特征。每个阶段都包含了心态、行为和盈亏模式三个维度。请记住，&lt;strong>你无法跳级&lt;/strong>，只能一步步打怪升级，因为每个阶段都在为你教授下一个阶段所需的关键技能。&lt;/p></description></item><item><title>Tradovate 平台使用指南：从入门到精通</title><link>https://blog.forecho.com/tradovate-guide.html</link><pubDate>Wed, 04 Feb 2026 20:55:00 +0800</pubDate><guid>https://blog.forecho.com/tradovate-guide.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>如果你正在参加 Topstep 考试，或者打算尝试海外期货交易，那么 Tradovate 是一个你绕不开的交易平台。Tradovate 不仅是 Topstep 的合作平台之一，本身也是一家支持直接入金交易的券商。&lt;/p>
+&lt;p>相比于其他老牌软件，Tradovate 的最大优势在于它是基于 Web 的云端平台，不需要繁琐的安装配置，打开浏览器就能用，而且界面相对现代。但对于第一次接触的同学来说，默认界面可能显得有些凌乱和复特别是英文环境让人望而生畏。&lt;/p>
+&lt;p>这篇文章将基于 Tradovate 的核心功能，整理一份详细的使用指南，带你快速上手这个平台。&lt;/p></description></item><item><title>用 AI Vibe Coding 第一次开发 App 的经验</title><link>https://blog.forecho.com/my-first-app-with-ai-vibe-coding.html</link><pubDate>Thu, 22 Jan 2026 14:07:41 +0800</pubDate><guid>https://blog.forecho.com/my-first-app-with-ai-vibe-coding.html</guid><description>&lt;p>&lt;img src="https://i.imgant.com/v2/aqcxJtZ.png" alt="image">&lt;/p>
 &lt;h2 id="引言">引言&lt;/h2>
-&lt;p>互联网时代，大家做软件开发通常都是使用&lt;a href="https://zh.wikipedia.org/zh/Scrum">敏捷开发&lt;/a>的模式，那么告别小作坊式的软件开发应该从使用项目管理工具开始。&lt;/p>
-&lt;p>从事 WEB 开发接近 9 年了，这些年来从刚开始的公司没有项目管理工具，到后来用过 &lt;a href="https://trello.com/">Trello&lt;/a>、&lt;a href="https://www.tapd.cn/">TAPD&lt;/a> 、&lt;a href="https://www.teambition.com/">Teambition&lt;/a> 、&lt;a href="https://github.com/cashwarden/web/projects">Github Projects&lt;/a> 、&lt;a href="https://www.atlassian.com/software/jira">Jira&lt;/a> 等不计其数的产品。&lt;/p></description></item><item><title>GitHub 组织项目免费使用 Vercel</title><link>https://blog.forecho.com/free-use-of-vercel-for-github-organizational.html</link><pubDate>Mon, 18 Oct 2021 18:09:00 +0800</pubDate><guid>https://blog.forecho.com/free-use-of-vercel-for-github-organizational.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>&lt;a href="https://vercel.com/">Vercel&lt;/a> 是一个静态网站托管项目，而且有很多东西自动化完成，反正就是非常的方便和省事，我的&lt;a href="https://stock.forecho.com/">港美股平台推荐&lt;/a>网页就是使用 Vercel 托管的，访问速度很快吧。&lt;/p>
-&lt;p>Vercel 托管 GitHub 个人项目是免费的，不管私有还是开源，这还是比较良心的，但是组织项目是收费的，需要在 Vercel 创建 Team 才能使用，但是吧价格太贵了，对于目前没有收入的我来说有点承受不起，于是就找到了一种方式可以免费托管 GitHub 组织项目代码的方式。&lt;/p></description></item><item><title>讨薪维权之路</title><link>https://blog.forecho.com/the-road-to-asking-for-pay-and-defending-rights.html</link><pubDate>Thu, 09 Sep 2021 09:50:00 +0800</pubDate><guid>https://blog.forecho.com/the-road-to-asking-for-pay-and-defending-rights.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>持续更新中&amp;hellip;&lt;/p>
-&lt;p>这是我目前正在经历的事情，打算写这篇文章记录下来，留作记录，也可以给其他人分享一些经验。&lt;/p>
-&lt;p>这不是我第一次维权了，上一次也是被欠薪，小公司，老板一直拖欠工资，欠了差不多 4 个多月最后才偿还工资，我们都没要求赔偿。当初有了解过去劳动仲裁，但是最后还没去。详情可以看 &lt;a href="https://blog.forecho.com/the-first-venture-came-to-an-end.html">《第一次创业告一段落》&lt;/a>。&lt;/p>
-&lt;p>废话不多说，下面我门进入这次的主题。&lt;/p></description></item><item><title>31 岁生日，还没有而立</title><link>https://blog.forecho.com/31th-birthday.html</link><pubDate>Mon, 06 Sep 2021 11:08:00 +0800</pubDate><guid>https://blog.forecho.com/31th-birthday.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>前两天过了 31 岁生日，这次过生日还是在周六，难得生日正好在周末。这篇文章就随便写点最近的感悟吧。&lt;/p>
-&lt;h2 id="回顾这几年职业生涯">回顾这几年职业生涯&lt;/h2>
-&lt;p>最近这两年因为疫情原因，公司业务受到了一些影响，虽然我没有被裁员，有幸被留下来了。但是这两年也基本上属于躺平状态，公司需求不多，我们不用加班，这是我在没有涨工资的情况下还没走的主要原因。&lt;/p>
-&lt;p>我们的工作性质有点儿像是给香港做外包，香港人办事「效率低」，节奏慢，挺好的。而且他们的工作流程与国际接轨，个人觉得很舒畅。&lt;/p>
-&lt;p>最近这一年我来一直犹豫要不要换工作，是继续躺平还是「升级」呢？在犹豫当中我好不容易选择了躺平，我选择不加班，多花点时间陪陪家人，自己业余时间做点项目挺好。但是这样的话我的技术就不会得到很大的提升，因为公司业务发展处于平稳状态。&lt;/p></description></item><item><title>期权组合之 Vertical Spread</title><link>https://blog.forecho.com/financedeep-33.html</link><pubDate>Sun, 29 Aug 2021 14:59:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-33.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>这篇主要是讲解期权组合的第一篇文章，不了解期权的朋友可以先看我&lt;a href="https://blog.forecho.com/tags/%E6%9C%9F%E6%9D%83.html">之前的期权系列文章&lt;/a>。&lt;/p>
-&lt;p>目前我所使用的证券平台只有雪盈和微牛支持组合期权，本篇文章主要是使用雪盈来做实例，没开户的朋友如果想体验组合期权推荐使用雪盈：&lt;/p>
+&lt;p>我是一个拥有 10 年开发经验的 Web 开发工程师，主要专注于后端开发。虽然我也曾两次尝试学习开发 App，但都因为门槛太高没能入门就放弃了。&lt;/p>
+&lt;p>这次借助 AI Vibe Coding 模式，我成功开发并上架了一款 App —— &lt;strong>&lt;a href="https://patimer.app/">PATimer&lt;/a>&lt;/strong>。这是一款倒计时提醒应用，目前已经发布了 Mac OS 版本。&lt;/p>
+&lt;p>在这篇文章中，即使你像我一样对 Xcode 充满恐惧，也能了解到如何利用 AI 克服这些障碍。&lt;/p></description></item><item><title>美国投资冠军 J Law 的 11 条交易心法</title><link>https://blog.forecho.com/11-lessons-from-j-law.html</link><pubDate>Tue, 20 Jan 2026 10:00:00 +0800</pubDate><guid>https://blog.forecho.com/11-lessons-from-j-law.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>J Law 是美国投资冠军（US Investing Champion），也是一位备受尊敬的交易员。但他并非一蹴而就，从 2009 年开始交易，最初也是依靠“消息”和“内幕”亏损了两年，直到他开始系统性地学习和构建自己的交易体系。&lt;/p>
+&lt;p>TraderLion 整理了 J Law 的 11 条核心经验，这不仅是关于“买什么”，更是关于“怎么像专业人士一样思考”。我参考之前整理 Bill Ackman 投资课的逻辑，将这 11 条经验重新梳理为三个维度：&lt;strong>心法与成长&lt;/strong>、&lt;strong>交易体系&lt;/strong>、&lt;strong>日常纪律&lt;/strong>，并附上可执行的行动清单。&lt;/p>
+&lt;h2 id="第一阶段心法与成长找到你的路">第一阶段：心法与成长（找到你的路）&lt;/h2>
+&lt;p>在这一阶段，J Law 强调的是“生存”和“自我认知”。&lt;/p>
+&lt;h3 id="1-交易是个性化的游戏">1. 交易是个性化的游戏&lt;/h3>
+&lt;p>新手常犯的错误是盲目模仿别人的策略。J Law 指出，&lt;strong>你必须找到一套符合你个性的交易系统&lt;/strong>。&lt;/p>
 &lt;ul>
-&lt;li>开户地址：&lt;a href="http://link.3li3.com/xueying">http://link.3li3.com/xueying&lt;/a>&lt;/li>
+&lt;li>有些人能忍受大幅回撤以换取巨额收益，有些人则需要平稳的曲线。&lt;/li>
+&lt;li>他花了很长时间通过读书、上课，并分析了自己超过 1,000 笔交易后，才明白什么风格最适合自己。&lt;/li>
+&lt;/ul></description></item><item><title>比尔·阿克曼投资第一课：一小时看懂商业与投资底层逻辑</title><link>https://blog.forecho.com/bill-ackman-finance-investing-basics.html</link><pubDate>Thu, 15 Jan 2026 10:00:00 +0800</pubDate><guid>https://blog.forecho.com/bill-ackman-finance-investing-basics.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>比尔·阿克曼有一堂很好的入门课，主题是“用不到一小时，把金融与投资的基本概念讲清楚”。他没有从公式开始，而是用一个非常具体的例子：&lt;strong>我们一起开一家柠檬水摊&lt;/strong>。&lt;/p>
+&lt;p>这堂课的价值在于：你会发现很多“金融名词”，其实都能翻译成三个问题——&lt;strong>钱从哪来&lt;/strong>、&lt;strong>钱去哪了&lt;/strong>、&lt;strong>这家公司到底值多少钱&lt;/strong>。我把视频里的关键信息按这个顺序整理成一篇可直接复用的笔记。&lt;/p>
+&lt;h2 id="核心原则">核心原则&lt;/h2>
+&lt;ol>
+&lt;li>&lt;strong>复利最吃“时间”&lt;/strong>：同样的收益率，差异往往来自开始得早不早。
+&lt;ul>
+&lt;li>他给的例子很直观：22 岁一次性存下 $10,000，之后不再追加，每年赚 10%，43 年后大约是 $600,000；如果等到 32 岁才开始，同样 10% 的年化，最后大约是 $232,000。&lt;/li>
+&lt;li>他也用更高收益率说明“指数增长”的威力：同样是 43 年，10% 和 15% 的结果会差一个数量级；如果你真能做到 20% 的长期复利，结果会非常夸张（他还引用了“复利很强大”的经典说法）。&lt;/li>
+&lt;li>但他马上补了一刀：如果你为了追求 20% 去冒险，结果每 12 年亏掉一半本金，那么长期结果会被严重摧毁。要点是：&lt;strong>别把复利毁在大回撤上&lt;/strong>。&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/snowballsecurities.png!s" alt="雪盈证券开户">&lt;/p></description></item><item><title>我是如何用 Golang 做接口测试的</title><link>https://blog.forecho.com/using-golang-for-api-testing.html</link><pubDate>Mon, 16 Aug 2021 10:59:00 +0800</pubDate><guid>https://blog.forecho.com/using-golang-for-api-testing.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>最近公司项目用 Golang 重写，总算是有机会实战了。这篇文章主要分享与记录我是怎么在 Golang 的项目中写接口测试的。&lt;/p>
-&lt;p>因为是换语言重写 API 项目，所以一定要保证新旧项目对外输出的结果一致性。由于我使用 Golang 的时间不算太久，本篇文章如有错误、不足之处，还请大家多多指教。&lt;/p></description></item><item><title>【深度理财 32】远离中概股，我都投资了哪些非中概股</title><link>https://blog.forecho.com/financedeep-32.html</link><pubDate>Thu, 29 Jul 2021 10:59:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-32.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>这个月中概股有多惨，我就不说了，自从滴滴上市以来，引发了中概股一系列因为政策原因大跌，还好我中概股仓位不算太多（不过也亏了很多）。&lt;/p>
-&lt;p>今年年初的时候我分享过自己的持仓，感兴趣可以去看看&lt;a href="https://blog.forecho.com/financedeep-19.html">《【深度理财 19】2020 年年终总结投资篇》&lt;/a>，这篇文章我主要是分享我持有的一些非中概股。&lt;/p>
+&lt;/li>
+&lt;li>&lt;strong>风险的核心不是波动&lt;/strong>：股价每天涨跌不是重点，重点是你投资的企业是否可能让你遭遇&lt;strong>永久性损失&lt;/strong>。&lt;/li>
+&lt;li>&lt;strong>把股票当成“收益率会变化的资产”&lt;/strong>：他用一个简单比喻解释市盈率（PE）——把 PE 反过来就是收益率的近似：&lt;code>E/P = 1/PE&lt;/code>。例如 PE=10，大致对应 10% 的“盈利收益率”，可以拿来和国债收益率对比。&lt;/li>
+&lt;/ol></description></item><item><title>Price Action 复盘 0106：盘前准备与 1R2R 止盈策略</title><link>https://blog.forecho.com/price-action-review-0106.html</link><pubDate>Sun, 11 Jan 2026 22:00:00 +0800</pubDate><guid>https://blog.forecho.com/price-action-review-0106.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>很多交易者在盘中容易迷失，往往是因为盘前准备做得不够充分，或者对大小周期的转换缺乏清晰的认知。本文基于 0106 的 ES（标普500期指）实盘复盘，总结了一套从盘前准备到实盘执行的完整流程。&lt;/p>
+&lt;p>核心观点是：&lt;strong>盘前准备决定了你对当天行情的“剧本”预设，而实盘中的 1R2R 止盈策略则是保护利润、穿越震荡的护身符。&lt;/strong>&lt;/p>
+&lt;h2 id="核心原则">核心原则&lt;/h2>
+&lt;ol>
+&lt;li>&lt;strong>准备即战斗&lt;/strong>：盘前 30-60 分钟的准备工作（含身体状态调整）比盘中盯着分时图更重要。&lt;/li>
+&lt;li>&lt;strong>大周期定方向，小周期找位置&lt;/strong>：周线/日线看趋势，15分钟/5分钟找入场点。盘中严禁盯着 1 小时图做决策。&lt;/li>
+&lt;li>&lt;strong>机械化执行&lt;/strong>：严格遵循 1R 减仓、2R 清仓或移动止损的规则，特别是对待“第一次反转”要降低预期。&lt;/li>
+&lt;/ol></description></item><item><title>Price Action 进阶：被套了怎么办？高手的「救火」指南</title><link>https://blog.forecho.com/trading-psychology-and-position-management.html</link><pubDate>Thu, 08 Jan 2026 18:00:00 +0800</pubDate><guid>https://blog.forecho.com/trading-psychology-and-position-management.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>在交易中，我们看复盘图时总是觉得“这里做多、那里止盈”很完美。但在实盘中，最真实的情况往往是：&lt;strong>一进去就被套了。&lt;/strong>&lt;/p>
+&lt;p>这时候，新手和高手的区别就出来了：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>新手&lt;/strong>：祈祷、死扛、甚至愤怒地加仓（Martingale），最后爆仓。&lt;/li>
+&lt;li>&lt;strong>高手&lt;/strong>：冷静判断结构变化，通过&lt;strong>科学的加仓（Scaling In）&lt;strong>和&lt;/strong>心理博弈&lt;/strong>，把一笔必亏的单子处理成平手甚至微利。&lt;/li>
+&lt;/ul>
+&lt;p>结合资深 Price Action 交易员的实战笔记，我们今天不谈“怎么大赚”，专门谈谈 &lt;strong>“怎么不亏大钱”&lt;/strong>。&lt;/p></description></item><item><title>Price Action 实战手册：用「三层周期」构建稳定盈利体系</title><link>https://blog.forecho.com/pa-multi-timeframe-strategy.html</link><pubDate>Thu, 08 Jan 2026 16:00:00 +0800</pubDate><guid>https://blog.forecho.com/pa-multi-timeframe-strategy.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>很多交易者在学习多周期分析（Multi-Timeframe Analysis, MTF）时，最痛苦的不是不懂理论，而是 &lt;strong>「周期打架」&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>1小时图看涨，15分钟图看跌，5分钟图又是横盘。&lt;/li>
+&lt;li>到底听谁的？&lt;/li>
+&lt;li>切来切去，最后在 1 分钟图里追涨杀跌，把大方向忘得一干二净。&lt;/li>
+&lt;/ul>
+&lt;p>结合 Price Action 实战体系，我们发现很多高手之所以能稳定盈利，是因为他们建立了一套&lt;strong>严格的层级秩序&lt;/strong>。他们不仅看 15m，也会用 1H 定大局，再用 2m/5m 开枪。&lt;/p>
+&lt;p>这不仅仅是“看大做小”那么简单，而是一套&lt;strong>三维立体&lt;/strong>的作战系统。今天这篇文章，我们就把这套系统拆解成可以落地的&lt;strong>实战手册&lt;/strong>。&lt;/p></description></item><item><title>2025 年终总结</title><link>https://blog.forecho.com/review-of-2025.html</link><pubDate>Mon, 05 Jan 2026 16:00:00 +0800</pubDate><guid>https://blog.forecho.com/review-of-2025.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>2024 年因为太忙，也可能是因为没心情就没写年终总结了，到了 2025 年年末，终于还是决定写一篇总结，回顾一下过去的一年，展望一下新的一年，不然以后都不记得这一年怎么过的了。&lt;/p>
+&lt;h2 id="回顾-2024-2025">回顾 2024-2025&lt;/h2>
+&lt;h3 id="生活">生活&lt;/h3>
+&lt;p>23 年年底公司已经倒闭，到现在我已经有 2 年没上班了，这两年主要精力都放在带孩子和炒股上了，基本上没什么收入来源，第一年全靠之前公司欠薪 + 赔偿金过活。&lt;/p>
+&lt;p>他们答应我分 12 期给我，但是后面给到第 8 期又暂停了，问了好几次都没下文了。于是我只能拿着文件跑到劳动仲裁委员会去申请仲裁，深圳效率还可以（排队等还是要的，毕竟人太多），对方也没出庭，直接判我胜诉了，但是目前还在走执行立案的流程，提交了好几次资料都被打回了。&lt;/p>
+&lt;p>另外就是 25 年纳指表现还不错，收益能覆盖到半年的生活开支，所以整体上还算过得去。但是生活质量确实下降了很多，毕竟没收入来源，花钱都要精打细算。&lt;/p>
+&lt;p>看了看 23 年底的年终总结，唯一的愿望就是买特斯拉，24 年 7 月份的时候我确实买了 Model Y，5 年免息，那个时候也是我美股账户里钱最多的时候了，所以就下单了。&lt;/p></description></item><item><title>Price Action 里的「臭鼬止损」：当交易闻起来不对劲时，立刻跑路</title><link>https://blog.forecho.com/al-brooks-skunk-exit-strategy.html</link><pubDate>Mon, 05 Jan 2026 14:00:00 +0800</pubDate><guid>https://blog.forecho.com/al-brooks-skunk-exit-strategy.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>在 Al Brooks 的价格行为（Price Action）体系中，有一个非常形象但常被误解的概念，叫“臭鼬止损”（Skunk Exit / Smell Test）。&lt;/p>
+&lt;p>很多交易者都有过这种经历：入场了一笔看起来完美的交易，但随后的 K 线走得磨磨唧唧，甚至出现反向信号。这时候你心里犯嘀咕：“感觉不太对……”，但看了一眼下方的硬止损（Hard Stop），心想：“还没打止损呢，再拿一拿。”&lt;/p>
+&lt;p>结果往往是：你在痛苦中煎熬了几根 K 线，最后被狠狠打掉止损。&lt;/p>
+&lt;p>“气味测试”的核心逻辑就是为了解决这个问题：&lt;strong>当一笔交易“闻起来”不对劲（像臭鼬一样臭）时，不要等硬止损触发，也不要把它移到半山腰（Skunk Stop），而是立刻市价离场。&lt;/strong>&lt;/p>
+&lt;p>下面我按「核心逻辑 → 识别信号 → 数学期望 → 执行难点」把这个策略拆解清楚。&lt;/p></description></item><item><title>一种反直觉的交易策略：忽略胜率，专注盈亏比</title><link>https://blog.forecho.com/counter-intuitive-trading-strategy.html</link><pubDate>Mon, 05 Jan 2026 10:00:00 +0800</pubDate><guid>https://blog.forecho.com/counter-intuitive-trading-strategy.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>最近看到一个非常有意思的交易策略视频 &lt;a href="https://www.youtube.com/watch?v=OoVJB8_PvdY">&lt;strong>The Trading Strategy So Good That No One Uses It&lt;/strong>&lt;/a>，核心观点非常“反直觉”：&lt;strong>入场位置不重要，胜率也不重要，甚至可以在 10 秒图表上做交易。&lt;/strong>&lt;/p>
+&lt;p>听起来像是在赌博？但仔细拆解其背后的数学逻辑和风控体系，你会发现它其实戳中了大多数交易者亏损的痛点。&lt;/p>
+&lt;p>下面我按「核心逻辑 → 策略执行 → 数学模型 → 工具门槛」把这个策略的关键点写清楚。&lt;/p>
+&lt;h2 id="先给结论核心逻辑">先给结论（核心逻辑）&lt;/h2>
+&lt;ol>
+&lt;li>&lt;strong>反人性的持仓逻辑&lt;/strong>：大多数人亏损的根本原因是 &lt;strong>“截断利润，让亏损奔跑”&lt;/strong> （亏了死拿，赚了就跑）。这个策略的核心是反其道而行之：&lt;strong>极速截断亏损，让利润无限奔跑&lt;/strong>。&lt;/li>
+&lt;li>&lt;strong>入场并不重要&lt;/strong>：你几乎可以在任意位置、基于任意理由（甚至抛硬币）入场，只要风控执行得当。&lt;/li>
+&lt;li>&lt;strong>盈亏比是唯一真理&lt;/strong>：胜率可以低至 40% 甚至更低，但只要偶尔抓住一波大行情（10 倍、50 倍甚至 100 倍盈亏比），一单的利润就能覆盖几十单的磨损和止损。&lt;/li>
+&lt;/ol>
 &lt;blockquote>
-&lt;p>加一个风险提示：本篇文章仅代表我的个人观点，不构成与其他人相关的任何投资建议。在作出任何投资决定前，投资者应根据自身情况考虑投资产品相关的风险因素，并于需要时咨询专业投资顾问意见。&lt;/p>
-&lt;/blockquote></description></item><item><title>【深度理财 31】盈立智投使用测评</title><link>https://blog.forecho.com/financedeep-31.html</link><pubDate>Fri, 23 Jul 2021 10:59:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-31.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>香港卡开了当然要找证券入金了，之前我一直在用的有富途、雪盈、老虎。这次我选了一个盈立智投，体验了差不多快一个月了，今天就来分享（吐槽）使用经验。&lt;/p>
-&lt;p>没开户的可以使用这个开户：&lt;/p>
-&lt;ul>
-&lt;li>开户链接：&lt;a href="http://link.3li3.com/yxzq">http://link.3li3.com/yxzq&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20210723iBxsf0.jpg!s" alt="盈立智投开户">&lt;/p></description></item><item><title>【深度理财 30】如何办一张汇丰香港卡</title><link>https://blog.forecho.com/financedeep-30.html</link><pubDate>Thu, 08 Jul 2021 10:59:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-30.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>受疫情影响香港不知道什么时间解封，而目前在大陆见证办香港卡的渠道是越来越少了。本篇文章就是来分享我如何办汇丰香港卡的经历的。&lt;/p>
-&lt;h2 id="办卡门槛">办卡门槛&lt;/h2>
-&lt;ul>
-&lt;li>费用：0&lt;/li>
-&lt;li>条件：港澳通行证（签证过期不用管，证件没过期就行），不需要护照&lt;/li>
-&lt;li>门槛：50 万理财，但是如果是上市公司，在他们企业白名单内，可以不需要 50 万理财&lt;/li>
-&lt;li>时间：下卡时间要 1 个月左右，但是作为汇丰卓越理财卡，如果卡里面余额不够 50 万的话，会收 300 元人民币/月的服务费。&lt;/li>
-&lt;/ul>
-&lt;h2 id="流程">流程&lt;/h2>
-&lt;h3 id="预约">预约&lt;/h3>
-&lt;p>如果要办，可以加我微信号「ipzone」，暗号「汇丰」，我发你开户预约链接。&lt;/p></description></item><item><title>【深度理财 29】美股分析网站介绍</title><link>https://blog.forecho.com/financedeep-29.html</link><pubDate>Sun, 27 Jun 2021 10:59:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-29.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>最近有朋友咨询我一些美股分析的网站，结合我之前看过的资料，于是我整理了这篇干货文章。&lt;/p>
-&lt;h2 id="网站">网站&lt;/h2>
-&lt;h3 id="yahoofinance">Yahoo！Finance&lt;/h3>
-&lt;ul>
-&lt;li>地址：&lt;a href="https://finance.yahoo.com/">https://finance.yahoo.com/&lt;/a>&lt;/li>
-&lt;li>特点：免费、大而全&lt;/li>
-&lt;/ul>
-&lt;p>这个不用多介绍了吧，就是一个股票门户网站，上面的资料很多，而且全部免费。&lt;/p></description></item><item><title>薅京东羊毛</title><link>https://blog.forecho.com/get-the-jd-best-deal.html</link><pubDate>Thu, 24 Jun 2021 18:09:00 +0800</pubDate><guid>https://blog.forecho.com/get-the-jd-best-deal.html</guid><description>&lt;h2 id="更新">更新&lt;/h2>
-&lt;p>此方法已经不再适用，这种方式违反了 GitHub Actions 使用条款，账号 Github Actions 有被禁用的风险，别问我是为什么知道的？🤦‍♂️&lt;/p>
-&lt;p>而且 GitHub Actions 如果被禁用，申诉的话，要一个月左右，😭 他们工单处理效率太低了。但是你可以在自己服务器上使用 docker 方式部署。&lt;/p>
+&lt;p>⚠️ &lt;strong>风险提示&lt;/strong>：本文仅为策略逻辑探讨，不构成任何投资建议。该策略对交易环境（点差、佣金）和执行力要求极高。&lt;/p>
+&lt;/blockquote></description></item><item><title>Supay 虚拟卡：隐私友好、费用透明的一张「能长期用」的卡</title><link>https://blog.forecho.com/supay-virtual-card.html</link><pubDate>Tue, 16 Dec 2025 10:00:00 +0800</pubDate><guid>https://blog.forecho.com/supay-virtual-card.html</guid><description>&lt;p>&lt;img src="https://i.imgant.com/v2/nzBSr3L.png" alt="">&lt;/p>
 &lt;h2 id="引言">引言&lt;/h2>
-&lt;p>本篇文章主要分享「如何通过脚本实现自动签到等功能获取京东京豆？」，京豆可以在京东购物的时候抵现金，1000 京东抵扣 10 块钱。平台会员一个月能自动获取 1000 左右的京豆吧，如果你是 PLUS 会员，会有更多。&lt;/p>
-&lt;p>本篇教程需要懂程序，主要面向程序员，第一个需要花点时间配置和熟悉，后面每个月也需要花几分钟更新一下就可以了。&lt;/p></description></item><item><title>浮生一日：深圳非典型程序员的真实一天</title><link>https://blog.forecho.com/life-in-a-day.html</link><pubDate>Mon, 14 Jun 2021 18:03:00 +0800</pubDate><guid>https://blog.forecho.com/life-in-a-day.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>这篇文章我打算模仿最近看了一个系列视频的采访风格，以文字的形式记录下我（深圳程序员）真实的一天。&lt;/p>
-&lt;h2 id="典型的工作日">典型的工作日&lt;/h2>
-&lt;h3 id="655">6:55&lt;/h3>
-&lt;p>虽然我定的是 &lt;code>6:55&lt;/code> 的闹钟，但是大概率我会比这个早起床。起床第一件事是跑去厕所，边上厕所，边打开&lt;a href="http://link.3li3.com/futu">富途&lt;/a>和&lt;a href="http://link.3li3.com/xueying">雪盈&lt;/a>查看昨晚上美股的收益情况。&lt;/p>
-&lt;p>然后再看看京东金融和支付宝的收益情况。上完厕所就开始洗漱了。&lt;/p></description></item><item><title>【深度阅读 第四季 02】解密 Instagram</title><link>https://blog.forecho.com/readeep-s04e02.html</link><pubDate>Mon, 31 May 2021 18:40:58 +0800</pubDate><guid>https://blog.forecho.com/readeep-s04e02.html</guid><description>&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/202105319Ux3KN.png!m" alt="《解密 Instagram》">&lt;/p>
-&lt;h2 id="一段话说明这本书主要讲什么">一段话说明『这本书主要讲什么？』&lt;/h2>
-&lt;p>一本讲 Instagram 的传记，但是不是以采访的方式。&lt;/p></description></item><item><title>【深度理财 28】如何在股市动荡期使用期权赚钱</title><link>https://blog.forecho.com/financedeep-28.html</link><pubDate>Sat, 29 May 2021 10:59:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-28.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>写了几篇期权的理论知识，今天来点操作篇，这次重点讲讲如何在股市动荡期通过期权策略赚钱。&lt;/p>
-&lt;p>前面我已经讲过&lt;a href="https://blog.forecho.com/financedeep-24.html">期权的基本策略&lt;/a>，对期权不了解的朋友建议先去看一下。&lt;/p></description></item><item><title>【深度阅读 第四季 01】金融投资课</title><link>https://blog.forecho.com/readeep-s04e01.html</link><pubDate>Fri, 07 May 2021 16:40:58 +0800</pubDate><guid>https://blog.forecho.com/readeep-s04e01.html</guid><description>&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20210507S6UOh6.jpg!m" alt="《陈志武金融投资课》">&lt;/p>
-&lt;h2 id="一段话说明这本书主要讲什么">一段话说明『这本书主要讲什么？』&lt;/h2>
-&lt;p>主要是讲述了以下三个问题：&lt;/p>
+&lt;p>很多人办虚拟卡的真实诉求并不复杂：&lt;strong>能注册、能支付、别折腾、成本算得清楚&lt;/strong>。但现实是，手机号/实名/KYC、卡段被标记、月费/管理费/汇损……这些坑一踩一个准。&lt;/p>
+&lt;p>我最近在用的是 &lt;a href="https://www.supaycard.com/landingView?ref=forecho">Supay&lt;/a>（香港注册的虚拟卡聚合服务），它的定位很明确：&lt;strong>邮箱一键注册、无需手机号/无需 KYC、更注重隐私；卡段新、覆盖面广；费用只有开卡费 + 充值手续费，其他尽量不收。&lt;/strong>&lt;/p>
+&lt;p>下面我按「注册体验 → 卡片优势 → 费用口径 → 使用体验」把关键点写清楚。&lt;/p></description></item><item><title>新手 Prop Firm 交易指南：抛弃策略焦虑，聚焦风控核心</title><link>https://blog.forecho.com/prop-firm-trading-guide-for-beginners.html</link><pubDate>Wed, 10 Dec 2025 10:15:22 +0800</pubDate><guid>https://blog.forecho.com/prop-firm-trading-guide-for-beginners.html</guid><description>&lt;p>&lt;img src="https://i.imgant.com/v2/CfjQ4wJ.jpeg" alt="">&lt;/p>
+&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>在 Prop Firm 交易中，很多新手交易者容易陷入一个误区：痴迷于寻找“必胜”的交易策略，导致频繁交易、情绪失控，最终因为一笔糟糕的交易而前功尽弃。他们往往忽略了，决定账户生死的并非某个神奇指标，而是&lt;strong>基础的风险管理框架&lt;/strong>。&lt;/p>
+&lt;p>本文将为你提供一套可直接落地的交易工作流，它源于一个核心理念：&lt;strong>与其追求不确定的策略，不如聚焦可控的风险&lt;/strong>。我们将先讲结论，再拆解步骤，最后用清单确保你能稳定执行。&lt;/p>
+&lt;h2 id="核心原则">核心原则&lt;/h2>
+&lt;ol>
+&lt;li>&lt;strong>风控优于策略 (Risk &amp;gt; Strategy)&lt;/strong>：Prop Firm 账户的“多条命”不是用来试错的。你的首要任务是生存，而生存依赖于铁律般的止损和仓位管理，而非花哨的入场信号。&lt;/li>
+&lt;li>&lt;strong>位置决定一切 (Position is Everything)&lt;/strong>：交易的本质是寻找概率优势。一个“位置合理”的入场点，能让你用最小的风险博取最大的潜在回报，这比预测市场的短期涨跌重要得多。&lt;/li>
+&lt;li>&lt;strong>交易是纪律性的重复 (Trading is Disciplined Repetition)&lt;/strong>：专业交易者从不追求单笔交易的完美。他们做的，是日复一日地重复执行一个具有正向数学期望的流程。找到一个固定的时间，专注于此，是成功的第一步。&lt;/li>
+&lt;/ol></description></item><item><title>精通价格行为：用「数K线」系统化交易回调</title><link>https://blog.forecho.com/mastering-price-action-bar-counting.html</link><pubDate>Thu, 04 Dec 2025 16:30:00 +0800</pubDate><guid>https://blog.forecho.com/mastering-price-action-bar-counting.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>在趋势交易中，交易者普遍面临一个困境：明知趋势存在，却苦于找不到精准的入场点。过早入场，容易在回调中被止损；过晚入场，又会错过最佳的盈亏比。这种执行层面的不确定性，是导致亏损的主要原因之一。&lt;/p>
+&lt;p>本文将介绍一套可直接落地的系统化做法：&lt;strong>数K线 (Bar Counting)&lt;/strong>。它是一种纯粹基于价格行为的分析方法，能帮你把复杂的回调形态简化为清晰、可执行的交易信号。&lt;/p>
+&lt;h2 id="核心原则">核心原则&lt;/h2>
+&lt;ol>
+&lt;li>&lt;strong>回调是高胜率机会&lt;/strong>：趋势中的回调 (Pullback) 是趋势将延续的信号，为顺势交易者提供了风险较低、胜率较高的入场区域。&lt;/li>
+&lt;li>&lt;strong>交易决策基于数学与概率&lt;/strong>：专业的交易依赖数学期望。例如，&lt;strong>50% 回调位&lt;/strong>之所以重要，并非神秘数字，而是因为它在数学上为顺势方提供了在公平盈亏比（1:1）下的概率优势。&lt;/li>
+&lt;li>&lt;strong>数K线是系统化的入场框架&lt;/strong>：它将复杂的形态，如双底/顶 (Double Bottom/Top)、楔形 (Wedge)，统一归纳为可计数的信号 (H1/H2, L1/L2)，帮助交易者克服入场焦虑，形成机械化、有逻辑依据的交易系统。&lt;/li>
+&lt;/ol></description></item><item><title>不止损，你迟早会亏光：新手交易者的第一道风控护栏</title><link>https://blog.forecho.com/stop-loss-is-the-most-important-thing-in-trading.html</link><pubDate>Sun, 30 Nov 2025 10:00:00 +0800</pubDate><guid>https://blog.forecho.com/stop-loss-is-the-most-important-thing-in-trading.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>在交易世界里，多数人把目光聚焦于如何赚取超额回报，却往往忽略了那个真正决定你能否长期存活的关键因素：&lt;strong>风险管理（Risk Management）&lt;/strong>。不止损，就如同开车没有刹车，无论车速多快，结局都已注定。本文将给出一套可直接落地的止损方法论：先讲核心原则，再给计算公式，最后用清单确保你能将纪律刻进每一次交易。&lt;/p>
+&lt;h2 id="核心原则为什么止损不可或缺">核心原则：为什么止损不可或缺？&lt;/h2>
+&lt;h3 id="1-风险优先利润在后">1. 风险优先，利润在后&lt;/h3>
+&lt;p>你的本金是有限资源。在学会稳定盈利前，首要任务是确保你能长久地留在市场里。止损就是截断亏损，保护本金，让你有足够的机会等到真正属于你的行情。&lt;/p>
+&lt;h3 id="2-承认错误而非失败">2. 承认错误，而非失败&lt;/h3>
+&lt;p>再完美的分析也无法保证 100% 的胜率。止损的本质是「认错」——承认当前这笔交易的判断是错误的，并立即采取行动，避免小错酿成大祸。这无关失败，只关乎纪律。&lt;/p>
+&lt;h3 id="3-杜绝系统性风险">3. 杜绝系统性风险&lt;/h3>
+&lt;p>不止损、扛单，尤其是在趋势行情中逆势加仓，是导致账户爆仓的头号杀手。一个专业的交易者，绝不会允许这类可能导致本金清零的系统性风险存在于自己的交易模式中。&lt;/p></description></item><item><title>RichCalls 6.0：专为美股交易者打造的付费信息共享社区</title><link>https://blog.forecho.com/richcalls-us-stock-community-guide.html</link><pubDate>Fri, 21 Nov 2025 15:00:00 +0800</pubDate><guid>https://blog.forecho.com/richcalls-us-stock-community-guide.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>对于美股交易者来说，获取及时、高质量的决策参考信息至关重要。然而，许多顶级的分析服务、交易室（Trading Room）和数据工具价格不菲，让许多个人交易者望而却步。今天，我想向大家介绍我组织的 RichCalls 美股社区，目前已升级到 6.0 版本，它通过“信息拼车”的模式，旨在解决这一痛点。&lt;/p>
+&lt;h2 id="核心服务共享顶级交易者资讯">核心服务：共享顶级交易者资讯&lt;/h2>
+&lt;p>RichCalls 社区的核心是“信息共享”，我们将多位成员的需求整合起来，集体订阅市场上广受好评的付费服务，让每个人都能以极低的成本获取海量优质内容。&lt;/p>
+&lt;p>目前 6.0 版本提供的核心内容包括：&lt;/p>
 &lt;ul>
-&lt;li>金融有什么用？&lt;/li>
-&lt;li>金融如何帮助财富增长？&lt;/li>
-&lt;li>金融如何规避风险？&lt;/li>
-&lt;/ul></description></item><item><title>【深度理财27】交易期权容易犯的错</title><link>https://blog.forecho.com/financedeep-27.html</link><pubDate>Mon, 26 Apr 2021 17:09:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-27.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>上个月写了两篇期权干货文章了：&lt;/p>
+&lt;li>&lt;strong>j-law 会员服务&lt;/strong>：订阅油管知名博主 &lt;a href="https://www.youtube.com/@jlawstock">j-law&lt;/a> 的 MYT 会员内容，他以清晰的宏观分析和日内交易策略著称。&lt;/li>
+&lt;li>&lt;strong>Brooks Trading Room&lt;/strong>：来自价格行为（Price Action）大师 Al Brooks 的专业交易室，提供每日市场分析和交易机会解读。&lt;/li>
+&lt;li>&lt;strong>Tradytics 期权市场净流量&lt;/strong>：提供付费的 &lt;code>market-tide&lt;/code> 数据服务。如果你是日内交易者，这个工具可以帮助你清晰地看到市场的多空力量分布，把握交易节奏。&lt;/li>
+&lt;li>&lt;strong>精选 Substack 付费专栏&lt;/strong>：我们订阅了多个高质量的 Substack 专栏，内容涵盖：
 &lt;ul>
-&lt;li>&lt;a href="https://blog.forecho.com/financedeep-23.html">【深度理财23】什么是期权&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://blog.forecho.com/financedeep-24.html">【深度理财24】期权交易基本策略&lt;/a>&lt;/li>
+&lt;li>期货交易，例如 &lt;a href="https://tradecompanion.substack.com/">Adam Mancini 的交易伴侣&lt;/a>。&lt;/li>
+&lt;li>深入的基本面研究和个股分析。&lt;/li>
 &lt;/ul>
-&lt;p>之前内容比较干，今天来点湿货，我来谈谈这三个月来我交易期权学到的经验。&lt;/p>
-&lt;blockquote>
-&lt;p>加一个风险提示：本篇文章仅代表我的个人观点，不构成与其他人相关的任何投资建议。在作出任何投资决定前，投资者应根据自身情况考虑投资产品相关的风险因素，并于需要时咨询专业投资顾问意见。&lt;/p>
-&lt;/blockquote></description></item><item><title>【深度理财26】随机买股票实验结局</title><link>https://blog.forecho.com/financedeep-26.html</link><pubDate>Fri, 23 Apr 2021 16:09:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-26.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>两周前因为 A 股市场太让人沮丧了，而正好我看到一个好玩儿的事情，于是我就跟风做了一个实验，详情请看&lt;a href="https://blog.forecho.com/financedeep-25.html">《【深度理财25】随机买股票实验》&lt;/a>。&lt;/p>
-&lt;p>今天收盘前把之前的两支股票卖了，先说说结果，总体是亏钱了。&lt;/p></description></item></channel></rss>
+&lt;/li>
+&lt;/ul></description></item></channel></rss>

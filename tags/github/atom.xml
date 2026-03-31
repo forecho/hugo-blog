@@ -1,4 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>github on forecho's Blog</title><link>https://blog.forecho.com/tags/github.html</link><description>Recent content in github on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 16 Jul 2020 10:08:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/tags/github/atom.xml" rel="self" type="application/rss+xml"/><item><title>GitHub Action 和 Travis CI 对比</title><link>https://blog.forecho.com/github-action-vs-travis-ci.html</link><pubDate>Thu, 16 Jul 2020 10:08:00 +0800</pubDate><guid>https://blog.forecho.com/github-action-vs-travis-ci.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>github on forecho's Blog</title><link>https://blog.forecho.com/tags/github.html</link><description>Recent content in github on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 17 Apr 2023 13:33:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/tags/github/atom.xml" rel="self" type="application/rss+xml"/><item><title>本地多 GitHub 账号使用</title><link>https://blog.forecho.com/local-use-of-multiple-github-accounts.html</link><pubDate>Mon, 17 Apr 2023 13:33:00 +0800</pubDate><guid>https://blog.forecho.com/local-use-of-multiple-github-accounts.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>如果你在公司也试用 Github 托管代码的话，你可能会遇到一个问题，本地同时使用你的个人账号和公司账号。&lt;/p>
+&lt;p>那么本篇文章就为你分享如何在本地同时使用多个 Github 账号。&lt;/p>
+&lt;h3 id="ssh-配置">SSH 配置&lt;/h3>
+&lt;h2 id="生成工作需要的-ssh">生成工作需要的 ssh&lt;/h2>
+&lt;p>这里默认你已经有了个人的 ssh 密钥，如果没有的话，你需要先生成个人的 ssh 密钥。&lt;/p>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-shell" data-lang="shell">ssh-keygen -t rsa -b &lt;span style="color:#bd93f9">4096&lt;/span> -C &lt;span style="color:#f1fa8c">&amp;#34;forecho@work.com&amp;#34;&lt;/span> -f ~/.ssh/work
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item><item><title>聊聊最近 GitHub 账号异常问题</title><link>https://blog.forecho.com/talking-about-the-recent-github-account-anomaly.html</link><pubDate>Sun, 16 Jan 2022 08:09:00 +0800</pubDate><guid>https://blog.forecho.com/talking-about-the-recent-github-account-anomaly.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>最近半年我的 GitHub 账号出现过两次异常情况：&lt;/p>
+&lt;ul>
+&lt;li>GitHub Actions 被封禁，无法使用&lt;/li>
+&lt;li>账号的组织功能被标记（Several of your organizations have been flagged.）&lt;/li>
+&lt;/ul>
+&lt;p>目前这两个功能都恢复正常了。这篇文章我就来分享一下整个过程，以及如何解决这个问题，避免后人踩坑。&lt;/p></description></item><item><title>GitHub Action 和 Travis CI 对比</title><link>https://blog.forecho.com/github-action-vs-travis-ci.html</link><pubDate>Thu, 16 Jul 2020 10:08:00 +0800</pubDate><guid>https://blog.forecho.com/github-action-vs-travis-ci.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
 &lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/ci.png" alt="">&lt;/p>
 &lt;p>&lt;a href="https://travis-ci.org/">Travis CI&lt;/a> 用了好几年了，主要用途就是实现我的静态博客自动发布，&lt;a href="https://github.com/features/actions">GitHub Action&lt;/a> 我是今年才开始用，今天我从自己的使用经验对比一下两个平台的使用感受。&lt;/p></description></item><item><title>GitHub 单独设置某个项目的配置信息</title><link>https://blog.forecho.com/github-use-token-push.html</link><pubDate>Mon, 15 Feb 2016 15:08:00 +0800</pubDate><guid>https://blog.forecho.com/github-use-token-push.html</guid><description>&lt;h2 id="场景">场景&lt;/h2>
 &lt;p>我们先这种情况的谈谈这个使用场景，你不一定用得到这个方法。&lt;/p>

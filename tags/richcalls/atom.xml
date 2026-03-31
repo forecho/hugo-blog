@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RichCalls on forecho's Blog</title><link>https://blog.forecho.com/tags/richcalls.html</link><description>Recent content in RichCalls on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 21 Nov 2025 15:00:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/tags/richcalls/atom.xml" rel="self" type="application/rss+xml"/><item><title>RichCalls 6.0：专为美股交易者打造的付费信息共享社区</title><link>https://blog.forecho.com/richcalls-us-stock-community-guide.html</link><pubDate>Fri, 21 Nov 2025 15:00:00 +0800</pubDate><guid>https://blog.forecho.com/richcalls-us-stock-community-guide.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>对于美股交易者来说，获取及时、高质量的决策参考信息至关重要。然而，许多顶级的分析服务、交易室（Trading Room）和数据工具价格不菲，让许多个人交易者望而却步。今天，我想向大家介绍我组织的 RichCalls 美股社区，目前已升级到 6.0 版本，它通过“信息拼车”的模式，旨在解决这一痛点。&lt;/p>
+&lt;h2 id="核心服务共享顶级交易者资讯">核心服务：共享顶级交易者资讯&lt;/h2>
+&lt;p>RichCalls 社区的核心是“信息共享”，我们将多位成员的需求整合起来，集体订阅市场上广受好评的付费服务，让每个人都能以极低的成本获取海量优质内容。&lt;/p>
+&lt;p>目前 6.0 版本提供的核心内容包括：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>j-law 会员服务&lt;/strong>：订阅油管知名博主 &lt;a href="https://www.youtube.com/@jlawstock">j-law&lt;/a> 的 MYT 会员内容，他以清晰的宏观分析和日内交易策略著称。&lt;/li>
+&lt;li>&lt;strong>Brooks Trading Room&lt;/strong>：来自价格行为（Price Action）大师 Al Brooks 的专业交易室，提供每日市场分析和交易机会解读。&lt;/li>
+&lt;li>&lt;strong>Tradytics 期权市场净流量&lt;/strong>：提供付费的 &lt;code>market-tide&lt;/code> 数据服务。如果你是日内交易者，这个工具可以帮助你清晰地看到市场的多空力量分布，把握交易节奏。&lt;/li>
+&lt;li>&lt;strong>精选 Substack 付费专栏&lt;/strong>：我们订阅了多个高质量的 Substack 专栏，内容涵盖：
+&lt;ul>
+&lt;li>期货交易，例如 &lt;a href="https://tradecompanion.substack.com/">Adam Mancini 的交易伴侣&lt;/a>。&lt;/li>
+&lt;li>深入的基本面研究和个股分析。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></description></item><item><title>RichCalls Warden 使用指南</title><link>https://blog.forecho.com/use-richcalls-warden.html</link><pubDate>Tue, 06 Aug 2024 12:58:00 +0800</pubDate><guid>https://blog.forecho.com/use-richcalls-warden.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>Warden 是我开发的一套用于帮我们美股止盈/止损的工具，它可以帮助你在美股交易中更好的控制风险。帮助你守住利润，避免亏损。&lt;/p>
+&lt;p>官网是 &lt;a href="https://www.wardenstock.com/">https://www.wardenstock.com/&lt;/a>，使用 Google 账号登录即可使用。目前内测版本，内测期间免费使用。&lt;/p>
+&lt;h2 id="配置账户">配置账户&lt;/h2>
+&lt;p>登录之后在菜单栏选择「账户管理」，然后添加账户就可以了。目前只支持长桥证券和富途证券。而且只支持美股。&lt;/p></description></item></channel></rss>

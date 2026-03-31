@@ -1,4 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>git on forecho's Blog</title><link>https://blog.forecho.com/tags/git.html</link><description>Recent content in git on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 15 Feb 2016 15:08:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/tags/git/atom.xml" rel="self" type="application/rss+xml"/><item><title>GitHub 单独设置某个项目的配置信息</title><link>https://blog.forecho.com/github-use-token-push.html</link><pubDate>Mon, 15 Feb 2016 15:08:00 +0800</pubDate><guid>https://blog.forecho.com/github-use-token-push.html</guid><description>&lt;h2 id="场景">场景&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>git on forecho's Blog</title><link>https://blog.forecho.com/tags/git.html</link><description>Recent content in git on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 17 Apr 2023 13:33:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/tags/git/atom.xml" rel="self" type="application/rss+xml"/><item><title>本地多 GitHub 账号使用</title><link>https://blog.forecho.com/local-use-of-multiple-github-accounts.html</link><pubDate>Mon, 17 Apr 2023 13:33:00 +0800</pubDate><guid>https://blog.forecho.com/local-use-of-multiple-github-accounts.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>如果你在公司也试用 Github 托管代码的话，你可能会遇到一个问题，本地同时使用你的个人账号和公司账号。&lt;/p>
+&lt;p>那么本篇文章就为你分享如何在本地同时使用多个 Github 账号。&lt;/p>
+&lt;h3 id="ssh-配置">SSH 配置&lt;/h3>
+&lt;h2 id="生成工作需要的-ssh">生成工作需要的 ssh&lt;/h2>
+&lt;p>这里默认你已经有了个人的 ssh 密钥，如果没有的话，你需要先生成个人的 ssh 密钥。&lt;/p>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-shell" data-lang="shell">ssh-keygen -t rsa -b &lt;span style="color:#bd93f9">4096&lt;/span> -C &lt;span style="color:#f1fa8c">&amp;#34;forecho@work.com&amp;#34;&lt;/span> -f ~/.ssh/work
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item><item><title>GitHub 单独设置某个项目的配置信息</title><link>https://blog.forecho.com/github-use-token-push.html</link><pubDate>Mon, 15 Feb 2016 15:08:00 +0800</pubDate><guid>https://blog.forecho.com/github-use-token-push.html</guid><description>&lt;h2 id="场景">场景&lt;/h2>
 &lt;p>我们先这种情况的谈谈这个使用场景，你不一定用得到这个方法。&lt;/p>
 &lt;p>A 拿 B 电脑打算使用一段时间，A 用 git clone 了一份自己的代码，想用 B 电脑写一些代码。但是 B 平常也写代码，B 电脑上有一套自己的 git 环境.&lt;/p>
 &lt;p>那么问题来了，我们要怎样在不修改 B 电脑全局环境的情况下使用 GitHub？&lt;/p>

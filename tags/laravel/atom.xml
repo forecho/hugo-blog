@@ -1,4 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>laravel on forecho's Blog</title><link>https://blog.forecho.com/tags/laravel.html</link><description>Recent content in laravel on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 14 Jan 2019 15:03:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/tags/laravel/atom.xml" rel="self" type="application/rss+xml"/><item><title>Laravel 写单元测试</title><link>https://blog.forecho.com/laravel-tests.html</link><pubDate>Mon, 14 Jan 2019 15:03:00 +0800</pubDate><guid>https://blog.forecho.com/laravel-tests.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>laravel on forecho's Blog</title><link>https://blog.forecho.com/tags/laravel.html</link><description>Recent content in laravel on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 30 Aug 2022 09:09:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/tags/laravel/atom.xml" rel="self" type="application/rss+xml"/><item><title>使用 Railway 和 Supabase 部署 Laravel 应用</title><link>https://blog.forecho.com/use-railway-and-supabase.html</link><pubDate>Tue, 30 Aug 2022 09:09:00 +0800</pubDate><guid>https://blog.forecho.com/use-railway-and-supabase.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>&lt;a href="https://twitter.com/novoreorx/status/1557713528609714176">&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20220830lBfWYZ.png" alt="20220830lBfWYZ">&lt;/a>&lt;/p>
+&lt;p>刷 Twitter 的时候看到有人分享如何使用 &lt;a href="https://railway.app?referralCode=HI0KtP">Railway&lt;/a> + &lt;a href="https://supabase.com/">Supabase&lt;/a> 部署应用，这些 PaaS 服务通常都有免费额度，如果是小项目通常相当于免费使用。&lt;/p>
+&lt;p>简单看了一下觉得还不错，于是我尝试部署了一份 Laravel 应用。这篇文章就来分享一下我踩过的坑。&lt;/p></description></item><item><title>Laravel Passport OAuth2 实践</title><link>https://blog.forecho.com/laravel-passpart-oauth2-implement.html</link><pubDate>Mon, 28 Mar 2022 17:30:00 +0800</pubDate><guid>https://blog.forecho.com/laravel-passpart-oauth2-implement.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>最近在搞 OAuth2 Service 相关功能，踩了很多坑，打算记录分享一下。&lt;/p>
+&lt;p>这篇文章主要讲 OAuth2 的实现，以及 &lt;a href="https://laravel.com/docs/9.x/passport">Laravel Passport&lt;/a> 的使用。&lt;/p>
+&lt;h2 id="介绍-oauth2">介绍 OAuth2&lt;/h2>
+&lt;p>简单来讲 OAuth 2.0 就是一个行业的标准授权协议。目的是为了给第三方应用颁发一个有时效性的访问令牌，以便第三方应用能够访问被授权的资源，我们常见场景有第三方登录。&lt;/p>
+&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20220328fYuKxr.jpg" alt="">&lt;/p></description></item><item><title>Laravel 使用远程 API 作为认证</title><link>https://blog.forecho.com/laravel-using-a-remote-api-as-auth.html</link><pubDate>Fri, 24 Dec 2021 15:28:00 +0800</pubDate><guid>https://blog.forecho.com/laravel-using-a-remote-api-as-auth.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>最近做系统拆分的工作，先把用户模块拆出来，做了一个 Account-System，使用 Laravel 的 Passport 来做认证，方便快捷。&lt;/p>
+&lt;p>然后把钱包功能也拆出来了，做了一个 Wallet-System，用户认证都去请求 Account-System，钱包相关都去请求 Wallet-System。这篇文章主要是分享怎么让 Laravel 使用远程 API 作为认证。&lt;/p>
+&lt;h2 id="流程">流程&lt;/h2>
+&lt;p>两个系统的职责不一样，所以还是先简单介绍一下流程：&lt;/p>
+&lt;ul>
+&lt;li>用户登录和注册都是去 Account-System 进行的。&lt;/li>
+&lt;li>用户登录成功之后返回一个 Access-Token。&lt;/li>
+&lt;li>访问 Wallet-System 的时候，需要带上 Access-Token。&lt;/li>
+&lt;li>Account-System 提供一个验证 Access-Token 的 API。Wallet-System 在处理请求之前先去 Account-System 验证 Access-Token。&lt;/li>
+&lt;/ul></description></item><item><title>Laravel 写单元测试</title><link>https://blog.forecho.com/laravel-tests.html</link><pubDate>Mon, 14 Jan 2019 15:03:00 +0800</pubDate><guid>https://blog.forecho.com/laravel-tests.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
 &lt;p>新公司入职第一件事就是让我给一个用 Laravel 框架开发的项目写单元测试，我会说『当了这么多年的程序员没写过单元测试吗？』，于是我一边学习一边写，这篇文章是我写了一个月单元测试的经验分享。&lt;/p>
 &lt;h2 id="单元测试">单元测试&lt;/h2>
 &lt;h3 id="基本的断言">基本的断言&lt;/h3>

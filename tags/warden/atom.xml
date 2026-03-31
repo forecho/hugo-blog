@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Warden on forecho's Blog</title><link>https://blog.forecho.com/tags/warden.html</link><description>Recent content in Warden on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 06 Aug 2024 12:58:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/tags/warden/atom.xml" rel="self" type="application/rss+xml"/><item><title>RichCalls Warden 使用指南</title><link>https://blog.forecho.com/use-richcalls-warden.html</link><pubDate>Tue, 06 Aug 2024 12:58:00 +0800</pubDate><guid>https://blog.forecho.com/use-richcalls-warden.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>Warden 是我开发的一套用于帮我们美股止盈/止损的工具，它可以帮助你在美股交易中更好的控制风险。帮助你守住利润，避免亏损。&lt;/p>
+&lt;p>官网是 &lt;a href="https://www.wardenstock.com/">https://www.wardenstock.com/&lt;/a>，使用 Google 账号登录即可使用。目前内测版本，内测期间免费使用。&lt;/p>
+&lt;h2 id="配置账户">配置账户&lt;/h2>
+&lt;p>登录之后在菜单栏选择「账户管理」，然后添加账户就可以了。目前只支持长桥证券和富途证券。而且只支持美股。&lt;/p></description></item></channel></rss>

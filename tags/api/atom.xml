@@ -1,4 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>api on forecho's Blog</title><link>https://blog.forecho.com/tags/api.html</link><description>Recent content in api on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 27 Jul 2015 22:25:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/tags/api/atom.xml" rel="self" type="application/rss+xml"/><item><title>Yii2 高级版新建一个 Api 应用</title><link>https://blog.forecho.com/yii2-create-api.html</link><pubDate>Mon, 27 Jul 2015 22:25:00 +0800</pubDate><guid>https://blog.forecho.com/yii2-create-api.html</guid><description>&lt;p>先在项目的根目录下复制一份 backend 为 api：&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>api on forecho's Blog</title><link>https://blog.forecho.com/tags/api.html</link><description>Recent content in api on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 24 Dec 2021 15:28:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/tags/api/atom.xml" rel="self" type="application/rss+xml"/><item><title>Laravel 使用远程 API 作为认证</title><link>https://blog.forecho.com/laravel-using-a-remote-api-as-auth.html</link><pubDate>Fri, 24 Dec 2021 15:28:00 +0800</pubDate><guid>https://blog.forecho.com/laravel-using-a-remote-api-as-auth.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>最近做系统拆分的工作，先把用户模块拆出来，做了一个 Account-System，使用 Laravel 的 Passport 来做认证，方便快捷。&lt;/p>
+&lt;p>然后把钱包功能也拆出来了，做了一个 Wallet-System，用户认证都去请求 Account-System，钱包相关都去请求 Wallet-System。这篇文章主要是分享怎么让 Laravel 使用远程 API 作为认证。&lt;/p>
+&lt;h2 id="流程">流程&lt;/h2>
+&lt;p>两个系统的职责不一样，所以还是先简单介绍一下流程：&lt;/p>
+&lt;ul>
+&lt;li>用户登录和注册都是去 Account-System 进行的。&lt;/li>
+&lt;li>用户登录成功之后返回一个 Access-Token。&lt;/li>
+&lt;li>访问 Wallet-System 的时候，需要带上 Access-Token。&lt;/li>
+&lt;li>Account-System 提供一个验证 Access-Token 的 API。Wallet-System 在处理请求之前先去 Account-System 验证 Access-Token。&lt;/li>
+&lt;/ul></description></item><item><title>Yii2 高级版新建一个 Api 应用</title><link>https://blog.forecho.com/yii2-create-api.html</link><pubDate>Mon, 27 Jul 2015 22:25:00 +0800</pubDate><guid>https://blog.forecho.com/yii2-create-api.html</guid><description>&lt;p>先在项目的根目录下复制一份 backend 为 api：&lt;/p>
 &lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
 &lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
 &lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1

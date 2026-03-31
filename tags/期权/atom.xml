@@ -1,22 +1,90 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>期权 on forecho's Blog</title><link>https://blog.forecho.com/tags/%E6%9C%9F%E6%9D%83.html</link><description>Recent content in 期权 on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 29 Aug 2021 14:59:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/tags/%E6%9C%9F%E6%9D%83/atom.xml" rel="self" type="application/rss+xml"/><item><title>期权组合之 Vertical Spread</title><link>https://blog.forecho.com/financedeep-33.html</link><pubDate>Sun, 29 Aug 2021 14:59:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-33.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>期权 on forecho's Blog</title><link>https://blog.forecho.com/tags/%E6%9C%9F%E6%9D%83.html</link><description>Recent content in 期权 on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 06 Sep 2025 22:00:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/tags/%E6%9C%9F%E6%9D%83/atom.xml" rel="self" type="application/rss+xml"/><item><title>期权交易中的 Max Pain（最大痛点）理论</title><link>https://blog.forecho.com/options-max-pain.html</link><pubDate>Sat, 06 Sep 2025 22:00:00 +0800</pubDate><guid>https://blog.forecho.com/options-max-pain.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>在期权交易的世界里，交易者们总是在寻找能够预测市场未来走向的“优势”（Edge）。Max Pain（最大痛点）理论正是这样一种独特而引人深思的分析工具。它并非一个精确的科学法则，而是一种基于期权市场结构和人性博弈的理论，同时也带有一定的争议性。&lt;/p>
+&lt;p>根据统计，大约 60% 的期权合约会在到期前被交易平仓，10% 会被行权，而剩下的 &lt;strong>30% 则会以价值归零告终&lt;/strong>。Max Pain 理论的核心，正是聚焦于这 30% 的合约。&lt;/p>
+&lt;p>该理论的核心观点是：随着期权到期日的临近，标的资产（如股票）的价格会倾向于朝着一个特定的价格点移动——在这个价格点，最大数量的期权合约将以“价外”（Out-of-the-Money）的状态到期，变得一文不值。&lt;/p>
+&lt;p>这个价格点，就是所谓的“最大痛点”。对于期权买方（Holders）来说，这是他们集体亏损最大的“痛点”；而对于期权卖方（Sellers），通常是做市商（Market Makers）或机构，这却是他们盈利最大、兑付义务最小的“甜点”。&lt;/p>
+&lt;p>本文将深入探讨 Max Pain 理论的计算方式、实战应用及其局限性，帮助你理解这一反直觉但极具洞察力的市场现象。&lt;/p></description></item><item><title>Unusual Whales 如何解读期权交易类型</title><link>https://blog.forecho.com/unusualwhales-how-to-interpret-types-of-option-transactions.html</link><pubDate>Fri, 04 Jul 2025 22:00:00 +0800</pubDate><guid>https://blog.forecho.com/unusualwhales-how-to-interpret-types-of-option-transactions.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>本文将详细介绍如何判断期权合约的买卖方向，以及如何区分开仓和平仓。内容参考自 &lt;a href="https://unusualwhales.com/information/how-to-interpret-types-of-option-transactions">Unusual Whales 官方文档&lt;/a>。&lt;/p>
+&lt;h2 id="期权交易的四种基本方式">期权交易的四种基本方式&lt;/h2>
+&lt;p>&lt;strong>你可以通过四种方式交易期权合约：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>买入看涨期权（买价方向/在买价）&lt;/li>
+&lt;li>卖出看涨期权（卖价方向/在卖价）&lt;/li>
+&lt;li>买入看跌期权（买价方向/在买价）&lt;/li>
+&lt;li>卖出看跌期权（卖价方向/在卖价）&lt;/li>
+&lt;/ul>
+&lt;p>假设你看好 ABC 公司，可以买入看涨期权。平仓时卖出该看涨期权。若你看空 XYZ 公司，可以买入看跌期权，平仓时卖出该看跌期权。&lt;/p>
+&lt;blockquote>
+&lt;p>你可以观看 Unusual Whales 的 &lt;a href="https://www.youtube.com/watch?v=9g74rfdEILA">期权交易的四种方式&lt;/a> 视频，了解更详细的讲解和实际 Flow Feed 示例。&lt;/p>
+&lt;/blockquote></description></item><item><title>轻松实现期权交易盈利 2.0 版本</title><link>https://blog.forecho.com/about-the-option-fee-group-2.0.html</link><pubDate>Mon, 19 Feb 2024 19:01:00 +0800</pubDate><guid>https://blog.forecho.com/about-the-option-fee-group-2.0.html</guid><description>&lt;p>&lt;img src="https://img.forecho.com/C9FgsP.png" alt="">&lt;/p>
+&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>去年中旬我开通了一个期权收费群，已经有很多小伙伴加入过了，详情可以看&lt;a href="https://blog.forecho.com/about-the-option-fee-group.html">《轻松实现期权交易盈利》&lt;/a>。&lt;/p>
+&lt;p>已经过去半年多了，我们的社区也发生了一些变化，我今天来介绍一下这个群的 2.0 版本，如果你对美股、期权感兴趣，欢迎加入。&lt;/p>
+&lt;h2 id="变化">变化&lt;/h2>
+&lt;h3 id="沟通方式">沟通方式&lt;/h3>
+&lt;p>之前一直用微信群沟通，但是微信群功能太弱了，开盘期间我会分享一些信号，但是有时候群友需要沟通，沟通消息会淹没信号，很容易让会员错失信号。所以我们迁移到了 Slack，用了几个月下来，感觉很棒。&lt;/p>
+&lt;p>我曾经工作过的公司用过 Slack 办公，用过之前就真的回不去了，非常适合沟通，效率很高。我曾一直想用 Slack 建立社区，没想到这次居然成功了。&lt;/p>
+&lt;p>微信只适合闲聊。&lt;/p>
+&lt;h3 id="会员等级">会员等级&lt;/h3></description></item><item><title>期权要学会滚仓</title><link>https://blog.forecho.com/options-roll-up.html</link><pubDate>Sat, 16 Dec 2023 15:09:00 +0800</pubDate><guid>https://blog.forecho.com/options-roll-up.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>期权的滚仓是一个很重要的概念，也是一个很重要的操作，如果你学会了滚仓，那么你就可以让你赚的更多的钱，如果不会滚仓，你可能会后悔卖飞了的期权。&lt;/p>
+&lt;p>期权的滚仓主要有：&lt;/p>
+&lt;ul>
+&lt;li>Roll Up：通常是看涨期权&lt;/li>
+&lt;li>Roll Down：通常是看跌期权&lt;/li>
+&lt;/ul>
+&lt;p>这篇文章我主要分享一下 Roll Up 的操作，Roll Down 的操作和 Roll Up 是一样的，只是方向相反而已。&lt;/p></description></item><item><title>轻松实现期权交易盈利</title><link>https://blog.forecho.com/about-the-option-fee-group.html</link><pubDate>Mon, 11 Sep 2023 19:01:00 +0800</pubDate><guid>https://blog.forecho.com/about-the-option-fee-group.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>美股已经炒了 6 年，期权也交易了 3 年多了，今年算是找到了一点门路，通过期权赚了一点钱。&lt;/p>
+&lt;p>差不多在一个月前我开通了一个期权收费群，目前已经有不少小伙伴加入了，我今天来介绍一下这个群，如果你对期权感兴趣，欢迎加入。&lt;/p>
+&lt;h2 id="期权收费群">期权收费群&lt;/h2>
+&lt;p>这个群我会每天都分享期权交易的 Idea，这些 Idea 都是我通过一个付费工具再结合自己研究出来的策略严格筛选出来的，通常这些 Idea 我都会实时分享出来的，你可以选择跟或者不跟，你需要自己做决策，我自己也不是 100% 跟单的。&lt;/p>
+&lt;p>我通常会截图发出来，图长这样：&lt;/p>
+&lt;p>&lt;img src="https://img.forecho.com/JJXW8Z.png" alt="">&lt;/p></description></item><item><title>市场净流量：金融交易中的关键工具与策略</title><link>https://blog.forecho.com/market-net-flow.html</link><pubDate>Sun, 19 Mar 2023 10:06:00 +0800</pubDate><guid>https://blog.forecho.com/market-net-flow.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>市场净流量是一种金融交易中的关键工具，用于评估市场中的多空情绪。通过综合分析市场净流量、技术分析和其他交易策略，交易者可以更准确地预测市场走势并做出更明智的投资决策。&lt;/p>
+&lt;p>本文将详细介绍市场净流量的概念、如何分析市场净流量以及如何将其与其他交易策略结合使用。&lt;/p>
+&lt;p>最后，本文还将介绍 Tradytics 的市场净流量指标的使用方法，帮助交易者更好地分析市场净流量。&lt;/p></description></item><item><title>使用 Tradytics 进行日内期权交易</title><link>https://blog.forecho.com/day-trading-options-with-tradytics.html</link><pubDate>Sat, 11 Mar 2023 10:40:00 +0800</pubDate><guid>https://blog.forecho.com/day-trading-options-with-tradytics.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>前一段时间和几个朋友以一个非常低的价格拼车买了 &lt;a href="https://link.3li3.com/tradytics">Tradytics&lt;/a> 的会员，一有时间我就研究如何使用，虽然 &lt;a href="https://link.3li3.com/tradytics">Tradytics&lt;/a> 太复杂了，但是有很多有用的数据，可以帮我们看清目前的市场状况，然后做出正确的交易决策。&lt;/p>
+&lt;p>我会把我学到的东西分享出来，希望能帮助到大家。系列文章点击 &lt;a href="https://blog.forecho.com/tags/tradytics.html">Tradytics&lt;/a> 查看。&lt;/p>
+&lt;h2 id="tradytics-是什么">Tradytics 是什么？&lt;/h2>
+&lt;p>Tradytics 是一个人工智能驱动的交易平台，提供了各种工具来帮助我们在市场上获得优势，它每天分析超过一百万个数据点，来自期权流量、股票日内数据、新闻、内部交易等。&lt;/p>
+&lt;p>基于这些分析，通过专有人工智能算法，提取有用信息，帮助我们提前评估市场走向。&lt;/p></description></item><item><title>像专业人士一样交易期权之如何使用 Optionstrat</title><link>https://blog.forecho.com/how-to-trade-options-like-a-pro-with-optionstrat.html</link><pubDate>Sat, 14 Jan 2023 08:47:00 +0800</pubDate><guid>https://blog.forecho.com/how-to-trade-options-like-a-pro-with-optionstrat.html</guid><description>&lt;p>&lt;img src="https://img.forecho.com/81rCn8.png" alt="">&lt;/p>
+&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>前几天分享了一篇文章 - &lt;a href="https://blog.forecho.com/understand-big-option-orders.html">《读懂期权大单》&lt;/a> ，介绍了几个可以看期权流的网站，其中一个是 &lt;a href="https://optionstrat.com/caizhenghai">Optionstrat&lt;/a> ，用了一个星期后，今天来分享一些使用心得。&lt;/p>
+&lt;p>本篇文章适合有一定期权基础的读者，如果你还不了解期权，可以先看看我的 &lt;a href="https://blog.forecho.com/tags/%E6%9C%9F%E6%9D%83.html">期权系列文章&lt;/a> 。&lt;/p></description></item><item><title>读懂期权大单</title><link>https://blog.forecho.com/understand-big-option-orders.html</link><pubDate>Thu, 22 Dec 2022 12:35:00 +0800</pubDate><guid>https://blog.forecho.com/understand-big-option-orders.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>玩美股期权差不多有一年了，今天给大家分享一下，我是在哪里看到的期权大单，以及如何读懂期权大单。&lt;/p>
+&lt;p>本篇文章适合有一定期权基础的读者。如果你还不懂什么是期权？可以去看看我的&lt;a href="https://blog.forecho.com/tags/%E6%9C%9F%E6%9D%83.html">期权系列&lt;/a>文章。&lt;/p>
+&lt;h2 id="在哪里看到期权大单">在哪里看到期权大单&lt;/h2>
+&lt;h3 id="optionstrathttpsoptionstratcomflowliverefcaizhenghai力推">&lt;a href="https://optionstrat.com/flow/live?ref=caizhenghai">OptionStrat&lt;/a>（力推）&lt;/h3>
+&lt;p>&lt;img src="https://img.forecho.com/HrmDqQ.png" alt="">&lt;/p>
+&lt;p>OptionStrat 是期权交易者不错的工具，使用 OptionStrat 直观的可视化和分析工具进行更智能的交易，免费版用户可以查看延迟 15 分钟的期权流。&lt;/p>
+&lt;h3 id="barcharthttpswwwbarchartcomoptionsunusual-activity">&lt;a href="https://www.barchart.com/options/unusual-activity">barchart&lt;/a>&lt;/h3></description></item><item><title>【深度理财 36】股市大跌如何做对冲？</title><link>https://blog.forecho.com/financedeep-36.html</link><pubDate>Tue, 15 Mar 2022 09:09:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-36.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>想必大家最近都感受到了股市暴跌的行情了吧？特别是 A 股、港股、还有中概股，跌得可谓特别惨烈，你以为今天已经跌了很多了，那么明天只会更多。&lt;/p>
+&lt;p>在这种行情下，我今天分享几个对冲风险的方法，可以让大家在股市暴跌的情况下减少损失。&lt;/p>
+&lt;h2 id="股市下跌的对冲方式">股市下跌的对冲方式&lt;/h2>
+&lt;h3 id="购买做空-etf">购买做空 ETF&lt;/h3>
+&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/202203157jvoBy.JPEG!m" alt="">&lt;/p>
+&lt;p>目前我找到了这几个做空的 ETF，都是做空指数不是个股的，这很适合在熊市的时候买入，更激进的可以配合期权操作，买入这几个 ETF 的 CALL。&lt;/p></description></item><item><title>【深度理财 35】财报季稳赚策略</title><link>https://blog.forecho.com/financedeep-35.html</link><pubDate>Mon, 28 Feb 2022 09:09:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-35.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>这篇主要是讲解期权隐含波动率的文字，不了解期权的朋友可以先看我&lt;a href="https://blog.forecho.com/tags/%E6%9C%9F%E6%9D%83.html">之前的期权系列文章&lt;/a>。&lt;/p>
+&lt;p>最近财报季给大家分享一个期权稳赚策略，那就是在标的资产财报前几天（通常在一个星期以内）买入平值期权，随着期权的隐含波动率（IV）提高，在财报之前平仓的策略。&lt;/p>
+&lt;h2 id="理论知识">理论知识&lt;/h2>
+&lt;h3 id="期权的价格决定因素">期权的价格决定因素&lt;/h3></description></item><item><title>期权组合之 Vertical Spread</title><link>https://blog.forecho.com/financedeep-33.html</link><pubDate>Sun, 29 Aug 2021 14:59:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-33.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
 &lt;p>这篇主要是讲解期权组合的第一篇文章，不了解期权的朋友可以先看我&lt;a href="https://blog.forecho.com/tags/%E6%9C%9F%E6%9D%83.html">之前的期权系列文章&lt;/a>。&lt;/p>
 &lt;p>目前我所使用的证券平台只有雪盈和微牛支持组合期权，本篇文章主要是使用雪盈来做实例，没开户的朋友如果想体验组合期权推荐使用雪盈：&lt;/p>
 &lt;ul>
-&lt;li>开户地址：&lt;a href="http://link.3li3.com/xueying">http://link.3li3.com/xueying&lt;/a>&lt;/li>
+&lt;li>开户地址：&lt;a href="https://link.3li3.com/xueying">https://link.3li3.com/xueying&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/snowballsecurities.png!s" alt="雪盈证券开户">&lt;/p></description></item><item><title>【深度理财 28】如何在股市动荡期使用期权赚钱</title><link>https://blog.forecho.com/financedeep-28.html</link><pubDate>Sat, 29 May 2021 10:59:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-28.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
 &lt;p>写了几篇期权的理论知识，今天来点操作篇，这次重点讲讲如何在股市动荡期通过期权策略赚钱。&lt;/p>
-&lt;p>前面我已经讲过&lt;a href="https://blog.forecho.com/financedeep-24.html">期权的基本策略&lt;/a>，对期权不了解的朋友建议先去看一下。&lt;/p></description></item><item><title>【深度理财27】交易期权容易犯的错</title><link>https://blog.forecho.com/financedeep-27.html</link><pubDate>Mon, 26 Apr 2021 17:09:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-27.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>前面我已经讲过&lt;a href="https://blog.forecho.com/financedeep-24.html">期权的基本策略&lt;/a>，对期权不了解的朋友建议先去看一下。&lt;/p></description></item><item><title>【深度理财 27】交易期权容易犯的错</title><link>https://blog.forecho.com/financedeep-27.html</link><pubDate>Mon, 26 Apr 2021 17:09:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-27.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
 &lt;p>上个月写了两篇期权干货文章了：&lt;/p>
 &lt;ul>
-&lt;li>&lt;a href="https://blog.forecho.com/financedeep-23.html">【深度理财23】什么是期权&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://blog.forecho.com/financedeep-24.html">【深度理财24】期权交易基本策略&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://blog.forecho.com/financedeep-23.html">【深度理财 23】什么是期权&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://blog.forecho.com/financedeep-24.html">【深度理财 24】期权交易基本策略&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;p>之前内容比较干，今天来点湿货，我来谈谈这三个月来我交易期权学到的经验。&lt;/p>
 &lt;blockquote>
 &lt;p>加一个风险提示：本篇文章仅代表我的个人观点，不构成与其他人相关的任何投资建议。在作出任何投资决定前，投资者应根据自身情况考虑投资产品相关的风险因素，并于需要时咨询专业投资顾问意见。&lt;/p>
-&lt;/blockquote></description></item><item><title>【深度理财24】期权交易基本策略</title><link>https://blog.forecho.com/financedeep-24.html</link><pubDate>Tue, 23 Mar 2021 16:09:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-24.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>上一篇文章我分享了&lt;a href="https://blog.forecho.com/financedeep-23.html">《【深度理财23】什么是期权》&lt;/a>，那么这一篇文件我就来分享期权的基本交易策略。&lt;/p>
+&lt;/blockquote></description></item><item><title>【深度理财 24】期权交易基本策略</title><link>https://blog.forecho.com/financedeep-24.html</link><pubDate>Tue, 23 Mar 2021 16:09:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-24.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>上一篇文章我分享了&lt;a href="https://blog.forecho.com/financedeep-23.html">《【深度理财 23】什么是期权》&lt;/a>，那么这一篇文件我就来分享期权的基本交易策略。&lt;/p>
 &lt;h2 id="交易流程">交易流程&lt;/h2>
 &lt;p>我们先来回顾一下期权的七大要素：&lt;/p>
 &lt;ul>
@@ -25,7 +93,7 @@
 &lt;li>保证金：被冻结的金额，确保卖方有履行义务的能力。&lt;/li>
 &lt;li>行权价：到期时要交易的价格。&lt;/li>
 &lt;li>到期日：行权的最大截止日。&lt;/li>
-&lt;li>买卖行为：看涨（Call） or 看跌（Put）&lt;/li>
+&lt;li>买卖行为：看涨（Call）or 看跌（Put）&lt;/li>
 &lt;li>行权：买方有选择是否要行权的权利，卖家没有选择。&lt;/li>
 &lt;/ul></description></item><item><title>【深度理财23】什么是期权</title><link>https://blog.forecho.com/financedeep-23.html</link><pubDate>Fri, 19 Mar 2021 19:09:00 +0800</pubDate><guid>https://blog.forecho.com/financedeep-23.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
 &lt;p>今年 1 月底，我还是开始使用期权交易了，这一个月来我教了很多「学费」，学了很多，所以我打算写几篇文章分享和记录自己的学习成果。&lt;/p>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>passport on forecho's Blog</title><link>https://blog.forecho.com/tags/passport.html</link><description>Recent content in passport on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 28 Mar 2022 17:30:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/tags/passport/atom.xml" rel="self" type="application/rss+xml"/><item><title>Laravel Passport OAuth2 实践</title><link>https://blog.forecho.com/laravel-passpart-oauth2-implement.html</link><pubDate>Mon, 28 Mar 2022 17:30:00 +0800</pubDate><guid>https://blog.forecho.com/laravel-passpart-oauth2-implement.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>最近在搞 OAuth2 Service 相关功能，踩了很多坑，打算记录分享一下。&lt;/p>
+&lt;p>这篇文章主要讲 OAuth2 的实现，以及 &lt;a href="https://laravel.com/docs/9.x/passport">Laravel Passport&lt;/a> 的使用。&lt;/p>
+&lt;h2 id="介绍-oauth2">介绍 OAuth2&lt;/h2>
+&lt;p>简单来讲 OAuth 2.0 就是一个行业的标准授权协议。目的是为了给第三方应用颁发一个有时效性的访问令牌，以便第三方应用能够访问被授权的资源，我们常见场景有第三方登录。&lt;/p>
+&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20220328fYuKxr.jpg" alt="">&lt;/p></description></item></channel></rss>

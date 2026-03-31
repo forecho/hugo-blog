@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Unusual Whales on forecho's Blog</title><link>https://blog.forecho.com/tags/unusual-whales.html</link><description>Recent content in Unusual Whales on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 04 Jul 2025 22:00:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/tags/unusual-whales/atom.xml" rel="self" type="application/rss+xml"/><item><title>Unusual Whales 如何解读期权交易类型</title><link>https://blog.forecho.com/unusualwhales-how-to-interpret-types-of-option-transactions.html</link><pubDate>Fri, 04 Jul 2025 22:00:00 +0800</pubDate><guid>https://blog.forecho.com/unusualwhales-how-to-interpret-types-of-option-transactions.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>本文将详细介绍如何判断期权合约的买卖方向，以及如何区分开仓和平仓。内容参考自 &lt;a href="https://unusualwhales.com/information/how-to-interpret-types-of-option-transactions">Unusual Whales 官方文档&lt;/a>。&lt;/p>
+&lt;h2 id="期权交易的四种基本方式">期权交易的四种基本方式&lt;/h2>
+&lt;p>&lt;strong>你可以通过四种方式交易期权合约：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>买入看涨期权（买价方向/在买价）&lt;/li>
+&lt;li>卖出看涨期权（卖价方向/在卖价）&lt;/li>
+&lt;li>买入看跌期权（买价方向/在买价）&lt;/li>
+&lt;li>卖出看跌期权（卖价方向/在卖价）&lt;/li>
+&lt;/ul>
+&lt;p>假设你看好 ABC 公司，可以买入看涨期权。平仓时卖出该看涨期权。若你看空 XYZ 公司，可以买入看跌期权，平仓时卖出该看跌期权。&lt;/p>
+&lt;blockquote>
+&lt;p>你可以观看 Unusual Whales 的 &lt;a href="https://www.youtube.com/watch?v=9g74rfdEILA">期权交易的四种方式&lt;/a> 视频，了解更详细的讲解和实际 Flow Feed 示例。&lt;/p>
+&lt;/blockquote></description></item></channel></rss>

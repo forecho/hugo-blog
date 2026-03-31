@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PriceActionRose on forecho's Blog</title><link>https://blog.forecho.com/tags/priceactionrose.html</link><description>Recent content in PriceActionRose on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 23 Aug 2025 21:00:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/tags/priceactionrose/atom.xml" rel="self" type="application/rss+xml"/><item><title>价格行为学精髓：逐根 K 线分析，洞悉市场真相</title><link>https://blog.forecho.com/price-action-rose-core-bar-analysis.html</link><pubDate>Sat, 23 Aug 2025 21:00:00 +0800</pubDate><guid>https://blog.forecho.com/price-action-rose-core-bar-analysis.html</guid><description>&lt;h2 id="引言别再追逐流动性让我们谈谈更本质的东西">引言：别再追逐“流动性”，让我们谈谈更本质的东西&lt;/h2>
+&lt;p>在交易社区中，“流动性猎取 (Liquidity Grab)”是一个常用术语，用来解释那些看似“反常”的价格波动。然而，Al Brooks 认为，与其依赖这些模糊且难以量化的概念，不如回归到价格行为交易的基石——&lt;strong>逐根 K 线分析 (Bar by Bar Reading)&lt;/strong>。&lt;/p>
+&lt;p>价格的每一个微小变动，都是买卖双方力量博弈的真实记录。真正的交易大师，能够像阅读一本书一样，从连续的 K 线中读出市场的完整故事：谁在掌控局面？谁被套牢了？下一个最可能发生的情节是什么？&lt;/p>
+&lt;p>本文将深入拆解 Al Brooks 价格行为学的两大核心支柱，并通过详细的图文案例，带你学习如何进行专业的“逐根 K 线分析”，从而真正理解市场，并与机构交易者站在同一边。&lt;/p>
+&lt;p>本文所有内容都来自于 rose 的 Discord 讨论内容，我负责翻译和整理。&lt;/p></description></item><item><title>价格行为学 - 供给需求腿 (Supply/Demand Legs) 交易策略</title><link>https://blog.forecho.com/price-action-rose-supply-demand-legs.html</link><pubDate>Wed, 20 Aug 2025 20:00:00 +0800</pubDate><guid>https://blog.forecho.com/price-action-rose-supply-demand-legs.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>本文将详细介绍一种名为“供给需求腿”（Supply and Demand Legs）的交易策略。该方法本质上是**“突破-回调-延续”**模型的量化应用，它通过一个免费的 TradingView 指标，帮助交易者清晰地识别趋势的启动，并专注于捕捉高胜率的第二段行情。&lt;/p>
+&lt;p>这套系统尤其适合那些在交易中感到困难、希望获得更明确交易信号的交易者。&lt;/p>
+&lt;p>本文所有内容都来自于 rose 的 Discord 讨论内容，我只是负责翻译和整理。&lt;/p></description></item><item><title>价格行为学 - Rose 的 Caveman (野人) 交易策略</title><link>https://blog.forecho.com/price-action-rose-caveman-setup.html</link><pubDate>Wed, 23 Jul 2025 23:00:00 +0800</pubDate><guid>https://blog.forecho.com/price-action-rose-caveman-setup.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>&lt;img src="https://img.forecho.com/mgV9OX.png" alt="">&lt;/p>
+&lt;p>本文将介绍一种由交易员 Rose 提出的高效剥头皮（Scalp）策略——“Caveman Setup”（野人策略）。这个策略的核心思想是识别并利用一次失败的趋势突破尝试，在市场反转的瞬间入场，捕捉快速的利润。&lt;/p>
+&lt;p>该策略之所以被称为“野人”，或许是因为它的规则简单直接，一旦符合条件便果断出击。它非常适合用来交易那些看似要突破却没能成功的“陷阱”。&lt;/p>
+&lt;p>本文所有内容都来自于 rose 的 Discord 讨论内容，我只是负责翻译和整理。&lt;/p></description></item><item><title>价格行为学 - Rose 的 Mother Bar (孕线) 策略</title><link>https://blog.forecho.com/price-action-rose-mother-bar.html</link><pubDate>Tue, 22 Jul 2025 20:00:00 +0800</pubDate><guid>https://blog.forecho.com/price-action-rose-mother-bar.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>&lt;img src="https://img.forecho.com/1VWMDW.png" alt="">&lt;/p>
+&lt;p>这篇文章保留为 &lt;strong>Mother Bar 的概念入门版&lt;/strong>，适合先快速理解：什么是 MB、为什么它本质上是一个小区间、以及它在不同市场背景下该怎么用。&lt;/p>
+&lt;p>如果你想直接看更完整的实战框架，包括：&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>0.21 / 0.79&lt;/code> 的切换阈值&lt;/li>
+&lt;li>BLSHS 与 BO 的分支决策&lt;/li>
+&lt;li>宽止损、小仓位的执行口径&lt;/li>
+&lt;li>LMT / STP 的使用方式&lt;/li>
+&lt;/ul>
+&lt;p>可以继续阅读完整版：&lt;strong>&lt;a href="https://blog.forecho.com/mb-setup-scalping.html">《Rose 的 Mother Bar 交易法：从区间剥头皮到突破跟随的完整执行框架》&lt;/a>&lt;/strong>。&lt;/p>
+&lt;p>本文将深入探讨一种在价格行为分析中较为进阶的概念——“Mother Bar”（孕线）及其交易策略。该策略源自交易员 Rose，本文内容主要基于 &lt;a href="https://www.youtube.com/@PriceActionKim">PriceActionKim&lt;/a> 对其的讲解，核心是利用 Mother Bar 形成后的特定价格区域，通过限价单（Limit Order）进行高胜率的剥头皮（Scalp）交易。&lt;/p>
+&lt;p>这个概念对于初学者可能稍有难度，因为它不仅涉及到对市场结构的深刻理解，还需要交易者熟练运用限价单。然而，掌握它将极大地帮助你理解在某些关键价位市场发生反转和波动的内在逻辑。&lt;/p></description></item><item><title>价格行为学 - Rose 的 MTR (主趋势反转)</title><link>https://blog.forecho.com/price-action-rose-mtr.html</link><pubDate>Tue, 01 Jul 2025 16:10:58 +0800</pubDate><guid>https://blog.forecho.com/price-action-rose-mtr.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>本篇文章主要是介绍 Rose 的 MTR 交易策略。涉及到的来源：&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=jpoS_xmX2Mg">EOD Review ES Futures - April 10, 2025 Thursday - PriceActionRose - Entry Methods with Risk Reward&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>本策略的核心在于识别那些被市场&amp;quot;欺骗&amp;quot;并套牢的交易者，然后利用他们平仓（止损）时产生的强大动能来获利。这通常发生在趋势的末期或者关键的支撑/阻力位。&lt;/p>
+&lt;h2 id="核心理念寻找被套的交易者">核心理念：寻找被套的交易者&lt;/h2>
+&lt;p>PriceActionRose 在她的复盘视频中反复强调一个观点：&lt;strong>理解谁被套牢了，以及他们将在哪里离场，是交易成功的关键。&lt;/strong>&lt;/p>
+&lt;blockquote>
+&lt;p>&amp;ldquo;if you cannot figure out is why market suddenly reversing here rather than closing bare bars and continue to sell. If you cannot tell who&amp;rsquo;s stuck and who&amp;rsquo;s getting out and where they&amp;rsquo;re getting out, okay, then you&amp;rsquo;re not the half the trader you think that you are.&amp;rdquo;&lt;/p>
+&lt;p>&amp;ldquo;如果你搞不清楚为什么市场会突然在这里反转，而不是继续收出阴线并持续下跌。如果你看不出谁被套了、他们在哪里离场，那你根本不了解交易的真谛。&amp;rdquo;&lt;/p>
+&lt;/blockquote></description></item><item><title>价格行为学 - 如何使用限价订单结合喇叭形态获利</title><link>https://blog.forecho.com/price-action-how-to-profit-in-a-limit-order.html</link><pubDate>Sat, 10 May 2025 22:10:58 +0800</pubDate><guid>https://blog.forecho.com/price-action-how-to-profit-in-a-limit-order.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>本篇文章主要介绍如何利用限价订单，并结合喇叭形态（Horn Pattern）在市场中寻找获利机会。&lt;/p>
+&lt;p>主要总结了 &lt;a href="https://www.youtube.com/watch?v=Gjc5tww1nd0">《PriceActionRose LimitOrder Buy and Sell Signals With Targets Using TradingView Horn Indicator》&lt;/a> 视频中的内容。建议先看视频，再来看这篇文章。&lt;/p>
+&lt;h2 id="什么是限价订单">什么是限价订单&lt;/h2>
+&lt;p>限价订单（Limit Order）是一种订单类型，允许交易者指定愿意购买或出售资产的特定价格或更好的价格。当市场价格达到交易者设定的限价或更有利的价格时，订单才会被执行。在某些市场条件，例如区间震荡或等待特定价格水平突破时，使用限价订单可以帮助交易者更精确地入场和管理风险。本篇文章将重点介绍如何结合喇叭形态使用限价订单进行交易。&lt;/p>
+&lt;h2 id="什么是-horn-pattern">什么是 Horn Pattern？&lt;/h2>
+&lt;p>&amp;ldquo;Horn Pattern&amp;rdquo;（喇叭形态）它是一种多头和空头可能被困住的价格行为模式，我们可以通过识别出这种模式，就可以找到潜在的获利机会。&lt;/p>
+&lt;p>它的图案有点像喇叭，所以叫喇叭形态。&lt;/p></description></item><item><title>价格行为学 - Rose 的 Gap Bar</title><link>https://blog.forecho.com/price-action-rose-gap-bar.html</link><pubDate>Wed, 07 May 2025 16:10:58 +0800</pubDate><guid>https://blog.forecho.com/price-action-rose-gap-bar.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>本篇文章主要是介绍 Rose 的 Gap Bar 交易策略。涉及到的来源：&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://youtu.be/lxlY29T9SwU?si=qVIwrYuD6_ijTiEW&amp;amp;t=167">Price Action Rose - Trading Room Sample Wednesday 1200-1400 ET&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="什么是-gap-bar">什么是 Gap Bar&lt;/h2>
+&lt;p>在 Rose 的交易系统中，“Gap Bar” (跳空 K 线) 是一个核心概念，但它的定义比字面意义上的“跳空”要宽泛。它可以指：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>强趋势 K 线&lt;/strong>: 一根远离指数移动平均线 (EMA) 的强力阳线或阴线，显示出强劲的买方或卖方力量。这种 K 线表明趋势很可能会延续。Rose 提到：“一个像这样的跳空 K 线……会寻求延续。”&lt;/li>
+&lt;li>&lt;strong>连续的趋势 K 线&lt;/strong>: 几根连续的同向 K 线（例如，没有重叠的几根大阳线）可以被看作一个整体的“Gap Bar”，代表了一段强劲的趋势。&lt;/li>
+&lt;li>&lt;strong>隐含的供需区 (Implicit Gap)&lt;/strong>: 这是 Rose 的一个独特见解。一个“缺口”不一定需要是 K 线之间的可见空间。例如，当一根看涨 K 线的上影线部分与下一根看跌 K 线的实体部分重叠时，这个重叠区域就形成了一个隐含的“缺口”，也就是一个供应区或卖方区。同理，看跌 K 线的下影线和看涨 K 线的实体也可以形成一个需求区或买方区。Rose 将这些区域视为有大量限价单等待成交的关键位置。&lt;/li>
+&lt;/ol>
+&lt;p>总的来说，Gap Bar 是市场力量失衡的信号，它创造了高概率的交易机会。&lt;/p></description></item></channel></rss>

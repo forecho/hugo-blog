@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Price Action on forecho's Blog</title><link>https://blog.forecho.com/tags/price-action.html</link><description>Recent content in Price Action on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 11 Jan 2026 22:00:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/tags/price-action/atom.xml" rel="self" type="application/rss+xml"/><item><title>Price Action 复盘 0106：盘前准备与 1R2R 止盈策略</title><link>https://blog.forecho.com/price-action-review-0106.html</link><pubDate>Sun, 11 Jan 2026 22:00:00 +0800</pubDate><guid>https://blog.forecho.com/price-action-review-0106.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>很多交易者在盘中容易迷失，往往是因为盘前准备做得不够充分，或者对大小周期的转换缺乏清晰的认知。本文基于 0106 的 ES（标普500期指）实盘复盘，总结了一套从盘前准备到实盘执行的完整流程。&lt;/p>
+&lt;p>核心观点是：&lt;strong>盘前准备决定了你对当天行情的“剧本”预设，而实盘中的 1R2R 止盈策略则是保护利润、穿越震荡的护身符。&lt;/strong>&lt;/p>
+&lt;h2 id="核心原则">核心原则&lt;/h2>
+&lt;ol>
+&lt;li>&lt;strong>准备即战斗&lt;/strong>：盘前 30-60 分钟的准备工作（含身体状态调整）比盘中盯着分时图更重要。&lt;/li>
+&lt;li>&lt;strong>大周期定方向，小周期找位置&lt;/strong>：周线/日线看趋势，15分钟/5分钟找入场点。盘中严禁盯着 1 小时图做决策。&lt;/li>
+&lt;li>&lt;strong>机械化执行&lt;/strong>：严格遵循 1R 减仓、2R 清仓或移动止损的规则，特别是对待“第一次反转”要降低预期。&lt;/li>
+&lt;/ol></description></item><item><title>Price Action 进阶：被套了怎么办？高手的「救火」指南</title><link>https://blog.forecho.com/trading-psychology-and-position-management.html</link><pubDate>Thu, 08 Jan 2026 18:00:00 +0800</pubDate><guid>https://blog.forecho.com/trading-psychology-and-position-management.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>在交易中，我们看复盘图时总是觉得“这里做多、那里止盈”很完美。但在实盘中，最真实的情况往往是：&lt;strong>一进去就被套了。&lt;/strong>&lt;/p>
+&lt;p>这时候，新手和高手的区别就出来了：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>新手&lt;/strong>：祈祷、死扛、甚至愤怒地加仓（Martingale），最后爆仓。&lt;/li>
+&lt;li>&lt;strong>高手&lt;/strong>：冷静判断结构变化，通过&lt;strong>科学的加仓（Scaling In）&lt;strong>和&lt;/strong>心理博弈&lt;/strong>，把一笔必亏的单子处理成平手甚至微利。&lt;/li>
+&lt;/ul>
+&lt;p>结合资深 Price Action 交易员的实战笔记，我们今天不谈“怎么大赚”，专门谈谈 &lt;strong>“怎么不亏大钱”&lt;/strong>。&lt;/p></description></item><item><title>Price Action 实战手册：用「三层周期」构建稳定盈利体系</title><link>https://blog.forecho.com/pa-multi-timeframe-strategy.html</link><pubDate>Thu, 08 Jan 2026 16:00:00 +0800</pubDate><guid>https://blog.forecho.com/pa-multi-timeframe-strategy.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>很多交易者在学习多周期分析（Multi-Timeframe Analysis, MTF）时，最痛苦的不是不懂理论，而是 &lt;strong>「周期打架」&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>1小时图看涨，15分钟图看跌，5分钟图又是横盘。&lt;/li>
+&lt;li>到底听谁的？&lt;/li>
+&lt;li>切来切去，最后在 1 分钟图里追涨杀跌，把大方向忘得一干二净。&lt;/li>
+&lt;/ul>
+&lt;p>结合 Price Action 实战体系，我们发现很多高手之所以能稳定盈利，是因为他们建立了一套&lt;strong>严格的层级秩序&lt;/strong>。他们不仅看 15m，也会用 1H 定大局，再用 2m/5m 开枪。&lt;/p>
+&lt;p>这不仅仅是“看大做小”那么简单，而是一套&lt;strong>三维立体&lt;/strong>的作战系统。今天这篇文章，我们就把这套系统拆解成可以落地的&lt;strong>实战手册&lt;/strong>。&lt;/p></description></item><item><title>Price Action 里的「臭鼬止损」：当交易闻起来不对劲时，立刻跑路</title><link>https://blog.forecho.com/al-brooks-skunk-exit-strategy.html</link><pubDate>Mon, 05 Jan 2026 14:00:00 +0800</pubDate><guid>https://blog.forecho.com/al-brooks-skunk-exit-strategy.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>在 Al Brooks 的价格行为（Price Action）体系中，有一个非常形象但常被误解的概念，叫“臭鼬止损”（Skunk Exit / Smell Test）。&lt;/p>
+&lt;p>很多交易者都有过这种经历：入场了一笔看起来完美的交易，但随后的 K 线走得磨磨唧唧，甚至出现反向信号。这时候你心里犯嘀咕：“感觉不太对……”，但看了一眼下方的硬止损（Hard Stop），心想：“还没打止损呢，再拿一拿。”&lt;/p>
+&lt;p>结果往往是：你在痛苦中煎熬了几根 K 线，最后被狠狠打掉止损。&lt;/p>
+&lt;p>“气味测试”的核心逻辑就是为了解决这个问题：&lt;strong>当一笔交易“闻起来”不对劲（像臭鼬一样臭）时，不要等硬止损触发，也不要把它移到半山腰（Skunk Stop），而是立刻市价离场。&lt;/strong>&lt;/p>
+&lt;p>下面我按「核心逻辑 → 识别信号 → 数学期望 → 执行难点」把这个策略拆解清楚。&lt;/p></description></item><item><title>精通价格行为：用「数K线」系统化交易回调</title><link>https://blog.forecho.com/mastering-price-action-bar-counting.html</link><pubDate>Thu, 04 Dec 2025 16:30:00 +0800</pubDate><guid>https://blog.forecho.com/mastering-price-action-bar-counting.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>在趋势交易中，交易者普遍面临一个困境：明知趋势存在，却苦于找不到精准的入场点。过早入场，容易在回调中被止损；过晚入场，又会错过最佳的盈亏比。这种执行层面的不确定性，是导致亏损的主要原因之一。&lt;/p>
+&lt;p>本文将介绍一套可直接落地的系统化做法：&lt;strong>数K线 (Bar Counting)&lt;/strong>。它是一种纯粹基于价格行为的分析方法，能帮你把复杂的回调形态简化为清晰、可执行的交易信号。&lt;/p>
+&lt;h2 id="核心原则">核心原则&lt;/h2>
+&lt;ol>
+&lt;li>&lt;strong>回调是高胜率机会&lt;/strong>：趋势中的回调 (Pullback) 是趋势将延续的信号，为顺势交易者提供了风险较低、胜率较高的入场区域。&lt;/li>
+&lt;li>&lt;strong>交易决策基于数学与概率&lt;/strong>：专业的交易依赖数学期望。例如，&lt;strong>50% 回调位&lt;/strong>之所以重要，并非神秘数字，而是因为它在数学上为顺势方提供了在公平盈亏比（1:1）下的概率优势。&lt;/li>
+&lt;li>&lt;strong>数K线是系统化的入场框架&lt;/strong>：它将复杂的形态，如双底/顶 (Double Bottom/Top)、楔形 (Wedge)，统一归纳为可计数的信号 (H1/H2, L1/L2)，帮助交易者克服入场焦虑，形成机械化、有逻辑依据的交易系统。&lt;/li>
+&lt;/ol></description></item></channel></rss>

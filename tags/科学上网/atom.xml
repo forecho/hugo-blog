@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>科学上网 on forecho's Blog</title><link>https://blog.forecho.com/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91.html</link><description>Recent content in 科学上网 on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 07 Jan 2017 12:35:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/atom.xml" rel="self" type="application/rss+xml"/><item><title>Ubuntu 使用 ShadowSocks + Privoxy 代理</title><link>https://blog.forecho.com/ubuntu-use-shadowsocks-and-privoxy.html</link><pubDate>Sat, 07 Jan 2017 12:35:00 +0800</pubDate><guid>https://blog.forecho.com/ubuntu-use-shadowsocks-and-privoxy.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>科学上网 on forecho's Blog</title><link>https://blog.forecho.com/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91.html</link><description>Recent content in 科学上网 on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 31 Oct 2022 09:00:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/atom.xml" rel="self" type="application/rss+xml"/><item><title>使用 OpenClash</title><link>https://blog.forecho.com/use-openclash.html</link><pubDate>Mon, 31 Oct 2022 09:00:00 +0800</pubDate><guid>https://blog.forecho.com/use-openclash.html</guid><description>&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20221102Dexz0D.png" alt="">&lt;/p>
+&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>最近有个需求就是想让电子书设备也能上 Google 等网站，由于电子书设备功能有限，不能安装翻墙软件，所以只能通过路由器或者软路由来实现连网科学上网。&lt;/p>
+&lt;p>家里的小米路由不支持翻墙插件，所以只能通过软路由来实现。正好家里有一个 NAS，可以作为软路由使用。&lt;/p>
+&lt;h2 id="openwrt">OpenWrt&lt;/h2>
+&lt;p>软路由 主要步骤就是先在我的黑群晖里面通过虚拟机功能安装一个 OpenWrt，然后在 OpenWrt 上面安装 OpenClash。&lt;/p></description></item><item><title>Ubuntu 使用 ShadowSocks + Privoxy 代理</title><link>https://blog.forecho.com/ubuntu-use-shadowsocks-and-privoxy.html</link><pubDate>Sat, 07 Jan 2017 12:35:00 +0800</pubDate><guid>https://blog.forecho.com/ubuntu-use-shadowsocks-and-privoxy.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
 &lt;p>先说说这东西有什么用吧，我是 Windows7 使用 Vagrant 安装了个 Ubuntu 虚拟机，然后需要在虚拟机里面配置 SS 代理使用 PHP 的 Composer 下载，不然非常慢。
 那么本教程应该同样适用于 Ubuntu 服务器（做为 SS 客户端的方式）配置使用 SS，其他版本的 Linux 要想使用需要稍微改动下，但是思路是一样的。&lt;/p>
 &lt;p>如果你的 Mac 电脑，终端需要配置 SS 代理，推荐你使用 proxychains-ng 方式，具体查看&lt;a href="https://gold.xitu.io/entry/5821840cd203090055134cc0">macOS 终端走代理（科学上网）&lt;/a>&lt;/p>
@@ -49,13 +54,13 @@ sudo vim /etc/shadowsocks.conf
 &lt;/div>
 &lt;/div>&lt;p>&lt;strong>解释&lt;/strong>&lt;/p>
 &lt;ul>
-&lt;li>&lt;code>server&lt;/code>: ss服务器IP&lt;/li>
-&lt;li>&lt;code>server_port&lt;/code>: ss服务器IP端口&lt;/li>
-&lt;li>&lt;code>local_address&lt;/code>: 本地ip&lt;/li>
+&lt;li>&lt;code>server&lt;/code>: ss 服务器 IP&lt;/li>
+&lt;li>&lt;code>server_port&lt;/code>: ss 服务器 IP 端口&lt;/li>
+&lt;li>&lt;code>local_address&lt;/code>: 本地 ip&lt;/li>
 &lt;li>&lt;code>local_port&lt;/code>: #本地端口&lt;/li>
-&lt;li>&lt;code>password&lt;/code>: 连接ss密码&lt;/li>
+&lt;li>&lt;code>password&lt;/code>: 连接 ss 密码&lt;/li>
 &lt;li>&lt;code>timeout&lt;/code>: 等待超时&lt;/li>
 &lt;li>&lt;code>method&lt;/code>: 加密方式&lt;/li>
-&lt;li>&lt;code>fast_open&lt;/code>: true 或 false。如果你的服务器 Linux 内核在3.7+，可以开启 fast_open 以降低延迟。开启方法： echo 3 &amp;gt; /proc/sys/net/ipv4/tcp_fastopen 开启之后，将 fast_open 的配置设置为 true 即可&lt;/li>
+&lt;li>&lt;code>fast_open&lt;/code>: true 或 false。如果你的服务器 Linux 内核在 3.7+，可以开启 fast_open 以降低延迟。开启方法：echo 3 &amp;gt; /proc/sys/net/ipv4/tcp_fastopen 开启之后，将 fast_open 的配置设置为 true 即可&lt;/li>
 &lt;li>&lt;code>workers&lt;/code>: 工作线程数&lt;/li>
 &lt;/ul></description></item></channel></rss>

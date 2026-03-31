@@ -1,4 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>nas on forecho's Blog</title><link>https://blog.forecho.com/tags/nas.html</link><description>Recent content in nas on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 30 Nov 2018 21:03:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/tags/nas/atom.xml" rel="self" type="application/rss+xml"/><item><title>使用 NAS</title><link>https://blog.forecho.com/use-nas.html</link><pubDate>Fri, 30 Nov 2018 21:03:00 +0800</pubDate><guid>https://blog.forecho.com/use-nas.html</guid><description>&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20191105105249.jpg" alt="">&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>nas on forecho's Blog</title><link>https://blog.forecho.com/tags/nas.html</link><description>Recent content in nas on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 30 Nov 2018 21:03:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/tags/nas/atom.xml" rel="self" type="application/rss+xml"/><item><title>使用 NAS 黑群晖</title><link>https://blog.forecho.com/use-nas.html</link><pubDate>Fri, 30 Nov 2018 21:03:00 +0800</pubDate><guid>https://blog.forecho.com/use-nas.html</guid><description>&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20191105105249.jpg" alt="">&lt;/p>
+&lt;h2 id="升级到-72">升级到 7.2&lt;/h2>
+&lt;p>最近（2024-09-22）把黑群晖从 6 升级到了 7.2，升级步骤非常简单，但是由于是第一次，还是花费了不少时间，这里记录一下：&lt;/p>
+&lt;ul>
+&lt;li>基本上按照这个教程来操作就可以了 - &lt;a href="https://post.smzdm.com/p/a0q8kgq8/">蜗牛星际老骥伏枥&amp;mdash;黑群晖 6.1 无损升级 DSM7.2_U 盘&lt;/a>&lt;/li>
+&lt;li>最新的 ARPL 的方式安装群晖真是简单，仓库地址 - &lt;a href="https://github.com/RROrg/rr">RROrg/rr&lt;/a>&lt;/li>
+&lt;li>选型号的时候不知道选哪个，我看大家都选 DS918+，我也就选了 DS918+&lt;/li>
+&lt;/ul>
+&lt;p>遇到的三个地方有坑：&lt;/p>
+&lt;ul>
+&lt;li>刚开始使用 U 盘启动的时候，一直卡在了 &lt;code>BOOTING..&lt;/code> 这个地方，刚开始以为出了什么问题，后面发现这里只需要等待就行了，大概要等好几分钟的那种。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://img.forecho.com/V0jB1n.png" alt="">&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>安装完了之后提示我去访问 5000 端口，但是我访问不了，一直以为是哪里出了问题，后面发现这里只需要等就好了，也是要等很久的那种。可以使用 &lt;a href="https://www.suncan.com.cn/archives/5612">群晖助手&lt;/a> 来查询 IP 地址。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>最后通过访问 5000 端口安装完群晖之后要重启，这里安装和重启也要等很久，10 分钟以上吧，然后继续使用群晖助手来查找 IP 地址，如果你之前在群晖 6 的时候设置了静态 IP，那么这里就需要使用之前的 IP 地址来访问了。&lt;/p>
+&lt;/li>
+&lt;/ul>
 &lt;h2 id="引言">引言&lt;/h2>
 &lt;p>听说 NAS 有一段时间了，双十一之前整理照片的时候，NAS 再次出现在我的视线前，当天脑子一『发热』，使用 Google 恶补了很多知识。可以备份照片、下载电影，甚至可以跑 docker，想买了。&lt;/p>
 &lt;h2 id="什么是-nas">什么是 NAS&lt;/h2>
@@ -6,6 +26,6 @@
 &lt;h2 id="购买方案">购买方案&lt;/h2>
 &lt;p>使用 NAS 无非就以下几种方案：&lt;/p>
 &lt;ul>
-&lt;li>购买现成的 NAS ，有群晖和威联通&lt;/li>
+&lt;li>购买现成的 NAS，有群晖和威联通&lt;/li>
 &lt;li>自己买硬件自己安装系统，甚至可以安装群晖的系统，俗称黑群晖。&lt;/li>
 &lt;/ul></description></item></channel></rss>

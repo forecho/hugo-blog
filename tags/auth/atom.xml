@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>auth on forecho's Blog</title><link>https://blog.forecho.com/tags/auth.html</link><description>Recent content in auth on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 24 Dec 2021 15:28:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/tags/auth/atom.xml" rel="self" type="application/rss+xml"/><item><title>Laravel 使用远程 API 作为认证</title><link>https://blog.forecho.com/laravel-using-a-remote-api-as-auth.html</link><pubDate>Fri, 24 Dec 2021 15:28:00 +0800</pubDate><guid>https://blog.forecho.com/laravel-using-a-remote-api-as-auth.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>最近做系统拆分的工作，先把用户模块拆出来，做了一个 Account-System，使用 Laravel 的 Passport 来做认证，方便快捷。&lt;/p>
+&lt;p>然后把钱包功能也拆出来了，做了一个 Wallet-System，用户认证都去请求 Account-System，钱包相关都去请求 Wallet-System。这篇文章主要是分享怎么让 Laravel 使用远程 API 作为认证。&lt;/p>
+&lt;h2 id="流程">流程&lt;/h2>
+&lt;p>两个系统的职责不一样，所以还是先简单介绍一下流程：&lt;/p>
+&lt;ul>
+&lt;li>用户登录和注册都是去 Account-System 进行的。&lt;/li>
+&lt;li>用户登录成功之后返回一个 Access-Token。&lt;/li>
+&lt;li>访问 Wallet-System 的时候，需要带上 Access-Token。&lt;/li>
+&lt;li>Account-System 提供一个验证 Access-Token 的 API。Wallet-System 在处理请求之前先去 Account-System 验证 Access-Token。&lt;/li>
+&lt;/ul></description></item></channel></rss>

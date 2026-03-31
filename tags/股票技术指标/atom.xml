@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>股票技术指标 on forecho's Blog</title><link>https://blog.forecho.com/tags/%E8%82%A1%E7%A5%A8%E6%8A%80%E6%9C%AF%E6%8C%87%E6%A0%87.html</link><description>Recent content in 股票技术指标 on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 22 Sep 2023 17:30:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/tags/%E8%82%A1%E7%A5%A8%E6%8A%80%E6%9C%AF%E6%8C%87%E6%A0%87/atom.xml" rel="self" type="application/rss+xml"/><item><title>股票技术指标 - 跳空缺口</title><link>https://blog.forecho.com/stock-indicators-gap.html</link><pubDate>Fri, 22 Sep 2023 17:30:00 +0800</pubDate><guid>https://blog.forecho.com/stock-indicators-gap.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>跳空缺口是股票技术分析中的一个重要概念，它常常被当做股票的重要支撑位和阻力位，这篇文章主要介绍跳空缺口的原理和使用方法。&lt;/p>
+&lt;h2 id="什么是跳空缺口">什么是跳空缺口&lt;/h2>
+&lt;p>&lt;img src="https://img.forecho.com/H7mVrM.png" alt="">&lt;/p>
+&lt;p>特点：&lt;/p>
+&lt;ul>
+&lt;li>缺口是一种价格差异，它是由于股票价格在一个交易日收盘后和下一个交易日开盘时产生的价格差异，而这个区间内没有成交记录。&lt;/li>
+&lt;li>整个缺口区域都是支撑位和阻力位，只要没有被回补完，就代表有一定的支撑或阻力。&lt;/li>
+&lt;li>缺口的大小表示力量的大小，缺口越大，力量越大。&lt;/li>
+&lt;li>跳空缺囗如果在 2-3 天内被回补，则可视为「假突破」。&lt;/li>
+&lt;/ul></description></item><item><title>股票技术指标 - 布林通道（BOLL）</title><link>https://blog.forecho.com/stock-indicators-boll.html</link><pubDate>Wed, 06 Sep 2023 19:30:00 +0800</pubDate><guid>https://blog.forecho.com/stock-indicators-boll.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>布林通道（BOLL）是由美国经济学家约翰·布林格（John Bollinger）结合了均线和统计学的标准差提出的概念。这一指标可以帮助投资者理解价格的相对高低以及价格的波动性，从而做出更明智的投资决策。&lt;/p>
+&lt;h2 id="什么是布林通道">什么是布林通道&lt;/h2>
+&lt;p>&lt;img src="https://img.forecho.com/oMBxiB.png" alt="">&lt;/p>
+&lt;p>布林通道是移动平均线和标准差的概念，以 MA20 为中轴线，上下各偏离 2 个标准差的距离，形成一个通道。布林通道由三条轨道线组成：&lt;/p>
+&lt;ul>
+&lt;li>上轨线 = MA20 + 2 * 标准差&lt;/li>
+&lt;li>中轨线 = MA20&lt;/li>
+&lt;li>下轨线 = MA20 - 2 * 标准差&lt;/li>
+&lt;/ul>
+&lt;p>PS: 这里的标准差是统计学中的一个概念，核心思想就是大多数股价涨到一定的高度就会回落，跌到一定的低度就会反弹，这个高度和低度就是标准差。&lt;/p></description></item><item><title>如何抓住股票的起涨点</title><link>https://blog.forecho.com/how-to-seize-the-rising-point-of-stocks.html</link><pubDate>Fri, 23 Jun 2023 10:47:00 +0800</pubDate><guid>https://blog.forecho.com/how-to-seize-the-rising-point-of-stocks.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>今天主要是给大家分享一下我在股票投资中的一个小技巧，这个技巧可以帮助你从 K 线图上抓住股票的起涨点，从而提高你的投资收益。&lt;/p>
+&lt;h2 id="股票的起涨暗号">股票的起涨暗号&lt;/h2>
+&lt;p>&lt;img src="https://img.forecho.com/K0iHYB.png" alt="">&lt;/p>
+&lt;h3 id="完美底部">完美底部&lt;/h3>
+&lt;p>完美底部，长期盘整，2 个月以上。&lt;/p>
+&lt;h3 id="均线多头排列">均线多头排列&lt;/h3>
+&lt;ul>
+&lt;li>3 条或者 4 条均线多头排列，完成多头排列向上。&lt;/li>
+&lt;li>短的均线一定要在长的均线之上。&lt;/li>
+&lt;li>均线分别看 5、10、20、60 日均线。&lt;/li>
+&lt;/ul></description></item><item><title>股票技术指标 - 随机（KD）指标</title><link>https://blog.forecho.com/stock-indicators-kd.html</link><pubDate>Sun, 11 Jun 2023 19:30:00 +0800</pubDate><guid>https://blog.forecho.com/stock-indicators-kd.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>KD 指标是目前股市上常用的短线入场技术指标之一，它是一个领先的指标，这篇文章主要介绍 KD 指标的原理和使用方法。&lt;/p>
+&lt;h2 id="什么是-dk-指标">什么是 DK 指标&lt;/h2>
+&lt;p>KD 指标 (Stochastic Oscillator) 又叫随机指标，是一种反映价格波动的指标，由 George C.Lane 于 1950 年代提出，是目前股市上常用的技术指标之一，被广泛应用于预测金融市场的中短线行情趋势。&lt;/p>
+&lt;p>KD 指标，最主要就是用来呈现过去一段时间股价强弱趋势、许多人会运用这些数字，来作为寻找价格转折点的交易讯号依据。&lt;/p>
+&lt;p>PS: 在 KD 指标的基础上进一步发展出了 KDJ 指标，它比 KD 线多了一条 J 线。但是 DK 才是最基础的指标，所以我们先来学习 KD 指标。&lt;/p>
+&lt;h2 id="kd-指标的计算公式">KD 指标的计算公式&lt;/h2>
+&lt;p>&lt;img src="https://img.forecho.com/fIp7yU.png" alt="">&lt;/p></description></item><item><title>股票技术指标 - 指数平滑异同移动平均线（MACD）指标</title><link>https://blog.forecho.com/stock-indicators-macd.html</link><pubDate>Thu, 25 May 2023 10:49:00 +0800</pubDate><guid>https://blog.forecho.com/stock-indicators-macd.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>MACD 也是股票技术分析中最常用的技术指标之一，经常被用来判断股票的趋势的转向。这篇文章主要介绍 MACD 指标的计算方法和使用方法。&lt;/p>
+&lt;h2 id="什么是-macd-指标">什么是 MACD 指标&lt;/h2>
+&lt;h3 id="基础概念">基础概念&lt;/h3>
+&lt;p>&lt;img src="https://img.forecho.com/2WntZv.jpg" alt="">&lt;/p>
+&lt;p>MACD 是指数平滑异同移动平均线 (Moving Average Convergence Divergence) 的缩写，简称「指数平滑异同移动平均线」，代表一种趋势跟踪的动量指标。MACD 通常由 4 部分组成：&lt;/p>
+&lt;ol>
+&lt;li>DIF 值（快线）：快线（短期指数平滑移动平均线）与慢线（长期指数平滑移动平均线）的差值。一般是 MA12 - MA26。&lt;/li>
+&lt;li>DEA 值（慢线）：DIF 的 9 日指数平滑移动平均线。&lt;/li>
+&lt;li>MACD 柱（动能）：DIF 与 DEA 之间的差值，柱状图。一般是 DIF - DEA。
+&lt;ul>
+&lt;li>值是正数，表示快线在慢线之上，市场处于上涨趋势；&lt;/li>
+&lt;li>值是负数，表示快线在慢线之下，市场处于下跌趋势。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>0 轴：多空分界线，MACD 柱在 0 轴之上，表示多头市场；MACD 柱在 0 轴之下，表示空头市场。&lt;/li>
+&lt;/ol></description></item><item><title>股票技术指标 - 移动平均线（MA）指标</title><link>https://blog.forecho.com/stock-indicators-ma.html</link><pubDate>Sat, 13 May 2023 10:49:00 +0800</pubDate><guid>https://blog.forecho.com/stock-indicators-ma.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>MA 是股票技术分析中最常用的技术指标之一，经常被用来判断股票的趋势。这篇文章主要介绍 MA 指标的计算方法和使用方法。&lt;/p>
+&lt;h2 id="什么是-ma-指标">什么是 MA 指标&lt;/h2>
+&lt;p>MA 是移动平均线 (Moving Average) 的缩写，简称「均线」，代表过去一段时间内股票的平均价格。&lt;/p>
+&lt;h2 id="计算方法">计算方法&lt;/h2>
+&lt;p>均线的计算方法相对简单。它是在一定时期内股票收盘价的平均值。&lt;/p>
+&lt;p>以下是计算均线的基本步骤：&lt;/p></description></item></channel></rss>

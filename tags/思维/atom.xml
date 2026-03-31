@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>思维 on forecho's Blog</title><link>https://blog.forecho.com/tags/%E6%80%9D%E7%BB%B4.html</link><description>Recent content in 思维 on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 05 Jan 2026 10:00:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/tags/%E6%80%9D%E7%BB%B4/atom.xml" rel="self" type="application/rss+xml"/><item><title>一种反直觉的交易策略：忽略胜率，专注盈亏比</title><link>https://blog.forecho.com/counter-intuitive-trading-strategy.html</link><pubDate>Mon, 05 Jan 2026 10:00:00 +0800</pubDate><guid>https://blog.forecho.com/counter-intuitive-trading-strategy.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>最近看到一个非常有意思的交易策略视频 &lt;a href="https://www.youtube.com/watch?v=OoVJB8_PvdY">&lt;strong>The Trading Strategy So Good That No One Uses It&lt;/strong>&lt;/a>，核心观点非常“反直觉”：&lt;strong>入场位置不重要，胜率也不重要，甚至可以在 10 秒图表上做交易。&lt;/strong>&lt;/p>
+&lt;p>听起来像是在赌博？但仔细拆解其背后的数学逻辑和风控体系，你会发现它其实戳中了大多数交易者亏损的痛点。&lt;/p>
+&lt;p>下面我按「核心逻辑 → 策略执行 → 数学模型 → 工具门槛」把这个策略的关键点写清楚。&lt;/p>
+&lt;h2 id="先给结论核心逻辑">先给结论（核心逻辑）&lt;/h2>
+&lt;ol>
+&lt;li>&lt;strong>反人性的持仓逻辑&lt;/strong>：大多数人亏损的根本原因是 &lt;strong>“截断利润，让亏损奔跑”&lt;/strong> （亏了死拿，赚了就跑）。这个策略的核心是反其道而行之：&lt;strong>极速截断亏损，让利润无限奔跑&lt;/strong>。&lt;/li>
+&lt;li>&lt;strong>入场并不重要&lt;/strong>：你几乎可以在任意位置、基于任意理由（甚至抛硬币）入场，只要风控执行得当。&lt;/li>
+&lt;li>&lt;strong>盈亏比是唯一真理&lt;/strong>：胜率可以低至 40% 甚至更低，但只要偶尔抓住一波大行情（10 倍、50 倍甚至 100 倍盈亏比），一单的利润就能覆盖几十单的磨损和止损。&lt;/li>
+&lt;/ol>
+&lt;blockquote>
+&lt;p>⚠️ &lt;strong>风险提示&lt;/strong>：本文仅为策略逻辑探讨，不构成任何投资建议。该策略对交易环境（点差、佣金）和执行力要求极高。&lt;/p>
+&lt;/blockquote></description></item></channel></rss>
