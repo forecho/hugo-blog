@@ -823,6 +823,7 @@
 &lt;ul>
 &lt;li>&lt;strong>资料生成&lt;/strong>：我使用了 OpenAI 的浏览器工具 &lt;strong>ChatGPT Atlas&lt;/strong>（如果你使用 Claude 的浏览器扩展也可以直接使用 Chrome 浏览器）。它可以帮你输出需要填写的资料，甚至有时候能直接帮你填上去，大大减轻了负担。&lt;/li>
 &lt;li>&lt;strong>截图上传&lt;/strong>：你可以选择手动截图，但我推荐使用 &lt;strong>Fastlane&lt;/strong>。虽然配置有点麻烦，但你可以让 AI 帮你写脚本，实现自动截图，一劳永逸。&lt;/li>
+&lt;li>&lt;strong>完全自动化的 AI 上架工具（重磅推荐）&lt;/strong>：如果你想像我一样彻底摆脱难用的 App Store Connect 网页，务必试试 &lt;strong>&lt;a href="https://asccli.sh/">App Store Connect CLI (asccli.sh)&lt;/a>&lt;/strong>。它是一款专门为 AI Agent（比如 Claude Code、Cursor）设计的命令行工具，并内置了丰富的 Skills。有了它，你可以直接在终端里让 AI 帮你自动完成创建 App、填写多语言元数据、上传截图、管理证书、发布 TestFlight 等全套上架流程，完美契合 Vibe Coding，帮你省下大量时间。&lt;/li>
 &lt;li>&lt;strong>提审前自检&lt;/strong>：强烈推荐使用 &lt;a href="https://github.com/truongduy2611/app-store-preflight-skills">app-store-preflight-skills&lt;/a>。在正式提交 App Store 审核之前，用这个工具进行一次自我审核（Preflight），可以提前发现很多潜在的违规或遗漏问题，避免因为低级错误被拒而浪费审核时间。&lt;/li>
 &lt;/ul>
 &lt;h2 id="避坑指南">避坑指南&lt;/h2>
