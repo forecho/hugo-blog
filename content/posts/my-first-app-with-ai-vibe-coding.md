@@ -26,7 +26,7 @@ toc: true
 在开发过程中，我使用了多种 AI 工具，主要包括 Codex、Claude Code 以及 Google 的 Antigravity。
 
 *   **Claude Code**：在实现具体功能时体验非常棒，开发效率极快，给人的感觉就像是真正的“结对编程”。强烈推荐安装 [superpowers](https://github.com/obra/superpowers)。
-    *   **举个例子**：当我告诉它“我想做一个倒计时结束后的全屏提醒功能”时，它没有直接写代码，而是利用 superpowers 问我：“全屏提醒是否需要强制置顶？是否需要播放声音？如果用户在开会（勿扰模式）该如何处理？” 这些细节我自己一开始完全没想到，确认完这些细节后它生成的代码几乎一次通过。
+    *   **举个例子**：当我告诉它“我想做一个倒计时结束后的全屏提醒功能”时，它没有直接写代码，而是利用 superpowers 问我：“全屏提醒是否需要强制置顶？是否需要播放声音？如果用户在开会（勿扰模式）该如何处理？”这些细节我自己一开始完全没想到，确认完这些细节后它生成的代码几乎一次通过。
 *   **Codex**：相比之下稍微慢一点，通常是一段操作之后，过几分钟才反馈说“活干完了”。不过它的优势是比较稳，不容易出错。
 *   **Antigravity**：我使用 **Gemini 3 Pro** 模型来调整 UI 和 UX，效果是最好的。值得一提的是，Antigravity 里面也集成了 Claude Opus 4.5 模型，综合来看，Google 的这个工具性价比非常高。
     *   **举个例子**：在调整主界面的进度环时，我怎么调参数都觉得不够优雅。后来我直接把设计稿截图丢给 Antigravity，说“我要这种磨砂玻璃质感和渐变色”，它给出的 SwiftUI 代码完美复刻了视觉效果，连阴影的透明度都调教得非常到位。
@@ -51,8 +51,8 @@ toc: true
 
 *   **资料生成**：我使用了 OpenAI 的浏览器工具 **ChatGPT Atlas**（如果你使用 Claude 的浏览器扩展也可以直接使用 Chrome 浏览器）。它可以帮你输出需要填写的资料，甚至有时候能直接帮你填上去，大大减轻了负担。
 *   **截图上传**：你可以选择手动截图，但我推荐使用 **Fastlane**。虽然配置有点麻烦，但你可以让 AI 帮你写脚本，实现自动截图，一劳永逸。
-*   **完全自动化的 AI 上架工具（重磅推荐）**：如果你想像我一样彻底摆脱难用的 App Store Connect 网页，务必试试 **[App Store Connect CLI (asccli.sh)](https://asccli.sh/)**。它是一款专门为 AI Agent（比如 Claude Code、Cursor）设计的命令行工具，并内置了丰富的 Skills。有了它，你可以直接在终端里让 AI 帮你自动完成创建 App、填写多语言元数据、上传截图、管理证书、发布 TestFlight 等全套上架流程，完美契合 Vibe Coding，帮你省下大量时间。
-*   **提审前自检**：强烈推荐使用 [app-store-preflight-skills](https://github.com/truongduy2611/app-store-preflight-skills)。在正式提交 App Store 审核之前，用这个工具进行一次自我审核（Preflight），可以提前发现很多潜在的违规或遗漏问题，避免因为低级错误被拒而浪费审核时间。
+*   **完全自动化的 AI 上架工具（后续补充重磅推荐）**：开发当时我还没发现这个神器，吃了不少苦头。如果你想像我一样彻底摆脱难用的 App Store Connect 网页，务必试试 **[App Store Connect CLI (asccli.sh)](https://asccli.sh/)**。它是一款专门为 AI Agent（比如 Claude Code、Cursor）设计的命令行工具，并内置了丰富的 Skills。有了它，你可以直接在终端里让 AI 帮你自动完成创建 App、填写多语言元数据、上传截图、管理证书、发布 TestFlight 等全套上架流程，完美契合 Vibe Coding，帮你省下大量时间。
+*   **提审前自检（后续补充推荐）**：这也是我在开发完才发现的实用工具 [app-store-preflight-skills](https://github.com/truongduy2611/app-store-preflight-skills)。在正式提交 App Store 审核之前，用这个工具进行一次自我审核（Preflight），可以提前发现很多潜在的违规或遗漏问题，避免因为低级错误被拒而浪费审核时间。
 
 ## 避坑指南
 
