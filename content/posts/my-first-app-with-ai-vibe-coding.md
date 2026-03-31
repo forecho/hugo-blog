@@ -51,6 +51,7 @@ toc: true
 
 *   **资料生成**：我使用了 OpenAI 的浏览器工具 **ChatGPT Atlas**（如果你使用 Claude 的浏览器扩展也可以直接使用 Chrome 浏览器）。它可以帮你输出需要填写的资料，甚至有时候能直接帮你填上去，大大减轻了负担。
 *   **截图上传**：你可以选择手动截图，但我推荐使用 **Fastlane**。虽然配置有点麻烦，但你可以让 AI 帮你写脚本，实现自动截图，一劳永逸。
+*   **提审前自检**：强烈推荐使用 [app-store-preflight-skills](https://github.com/truongduy2611/app-store-preflight-skills)。在正式提交 App Store 审核之前，用这个工具进行一次自我审核（Preflight），可以提前发现很多潜在的违规或遗漏问题，避免因为低级错误被拒而浪费审核时间。
 
 ## 避坑指南
 
