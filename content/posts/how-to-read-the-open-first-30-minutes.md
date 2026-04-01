@@ -11,11 +11,11 @@ toc: true
 这一组文章建议按顺序阅读：
 
 - **开盘 30 分钟怎么读盘：跳空、第一根 K 线与当天主方向（当前）**
-- [1Rev 与 1PB：开盘后最重要的两类机会](/posts/first-reversal-and-first-pullback/)
-- [A2 是什么：最值得先练的价格行为 setup](/posts/what-is-a2-price-action-setup/)
-- [大多数突破都会失败：区间行情里真正值得做的机会](/posts/most-breakouts-fail-trading-range-playbook/)
-- [趋势日怎么做：硬趋势、软趋势与 Spike and Channel](/posts/trend-day-hard-trend-soft-trend-playbook/)
-- [为什么你看对了方向，还是赚不到钱](/posts/why-you-still-cant-make-money-even-if-you-read-the-market-right/)
+- [1Rev 与 1PB：开盘后最重要的两类机会]({{< relref "first-reversal-and-first-pullback.md" >}})
+- [A2 是什么：最值得先练的价格行为 setup]({{< relref "what-is-a2-price-action-setup.md" >}})
+- [大多数突破都会失败：区间行情里真正值得做的机会]({{< relref "most-breakouts-fail-trading-range-playbook.md" >}})
+- [趋势日怎么做：硬趋势、软趋势与 Spike and Channel]({{< relref "trend-day-hard-trend-soft-trend-playbook.md" >}})
+- [为什么你看对了方向，还是赚不到钱]({{< relref "why-you-still-cant-make-money-even-if-you-read-the-market-right.md" >}})
 
 ## 引言
 
@@ -288,5 +288,5 @@ toc: true
 
 ## 参考链接
 
-- [A2、1PB、1Rev 实战手册：怎么入场，止损放哪，什么情况直接放弃](/posts/a2-1pb-1rev-trading-playbook/)
-- [交易心理学深度剖析：真正决定盈亏的，不是技术而是你怎么面对亏损](/posts/trading-psychology-deep-analysis/)
+- [A2、1PB、1Rev 实战手册：怎么入场，止损放哪，什么情况直接放弃]({{< relref "a2-1pb-1rev-trading-playbook.md" >}})
+- [交易心理学深度剖析：真正决定盈亏的，不是技术而是你怎么面对亏损]({{< relref "trading-psychology-deep-analysis.md" >}})

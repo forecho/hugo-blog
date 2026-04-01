@@ -374,5 +374,5 @@ A2 和 1PB 的优势就在这里：它们更容易让你把止损放在结构外
 
 ## 参考链接
 
-- [交易心理学深度剖析：真正决定盈亏的，不是技术而是你怎么面对亏损](/posts/trading-psychology-deep-analysis/)
-- [不止损，你迟早会亏光：新手交易者的第一道风控护栏](/posts/stop-loss-is-the-most-important-thing-in-trading/)
+- [交易心理学深度剖析：真正决定盈亏的，不是技术而是你怎么面对亏损]({{< relref "trading-psychology-deep-analysis.md" >}})
+- [不止损，你迟早会亏光：新手交易者的第一道风控护栏]({{< relref "stop-loss-is-the-most-important-thing-in-trading.md" >}})
