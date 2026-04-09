@@ -1,4 +1,85 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 31 Mar 2026 23:10:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>为什么你看对了方向，还是赚不到钱</title><link>https://blog.forecho.com/why-you-still-cant-make-money-even-if-you-read-the-market-right.html</link><pubDate>Tue, 31 Mar 2026 23:10:00 +0800</pubDate><guid>https://blog.forecho.com/why-you-still-cant-make-money-even-if-you-read-the-market-right.html</guid><description>&lt;h2 id="系列导航">系列导航&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 09 Apr 2026 10:00:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>介绍一下我自己做的图床 ImgAnt</title><link>https://blog.forecho.com/introducing-imgant-image-hosting.html</link><pubDate>Thu, 09 Apr 2026 10:00:00 +0800</pubDate><guid>https://blog.forecho.com/introducing-imgant-image-hosting.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>先上地址：&lt;/p>
+&lt;ul>
+&lt;li>网站：&lt;a href="https://imgant.com">imgant.com&lt;/a>&lt;/li>
+&lt;li>Mac 客户端下载：&lt;a href="https://imgant.com/download">imgant.com/download&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;a href="https://imgant.com">ImgAnt&lt;/a> 是我自己做的一个图床，已经断断续续折腾了一段时间，现在已经可以正常给我自己写博客和做笔记用了，顺便也开放给其他人用。这篇文章就把我做这个项目的初衷、目前支持的功能、以及一些我自己觉得好用的点，简单介绍一下。&lt;/p>
+&lt;h2 id="为什么自己又做一个图床">为什么自己又做一个图床&lt;/h2>
+&lt;p>我之前一直在用一些免费图床，踩过的坑大概这几种：&lt;/p>
+&lt;ul>
+&lt;li>今天还能用，过两个月突然把外链全挂了，博客里的老图全部变成 X&lt;/li>
+&lt;li>只支持匿名上传，传完想删除都找不到入口&lt;/li>
+&lt;li>想换一个自己的域名作为图片地址，发现根本不支持&lt;/li>
+&lt;li>想接到自己写的小工具里批量上传，没有像样的 API&lt;/li>
+&lt;/ul>
+&lt;p>ImgAnt 就是为了解决我自己这几个问题做的。它既保留了「打开网页就能拖进去传一张」这种最快的用法，也支持注册账户之后做相册管理、接 API、甚至绑定自己的域名走 HTTPS。&lt;/p>
+&lt;h2 id="匿名用户拖进去就能传">匿名用户：拖进去就能传&lt;/h2>
+&lt;p>最基本的用法，打开 &lt;a href="https://imgant.com">imgant.com&lt;/a>，把图片拖进页面，或者直接 &lt;!-- raw HTML omitted -->Cmd&lt;!-- raw HTML omitted --> + &lt;!-- raw HTML omitted -->V&lt;!-- raw HTML omitted --> 粘贴，就能传。&lt;/p>
+&lt;ul>
+&lt;li>支持 WebP / PNG / JPG / GIF&lt;/li>
+&lt;li>上传完可以一键复制 URL / Markdown / HTML / BBCode&lt;/li>
+&lt;li>上传历史保存在浏览器本地，换台电脑就看不见了，这是有意的&lt;/li>
+&lt;/ul>
+&lt;p>对于只是偶尔发张图的场景，根本不需要登录。&lt;/p>
+&lt;h2 id="套餐划分">套餐划分&lt;/h2>
+&lt;p>需要先说明一下，ImgAnt 目前分四档：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Free&lt;/strong>（免费）：匿名或注册，走 Imgur 通道上传&lt;/li>
+&lt;li>&lt;strong>Air&lt;/strong>（$1.99/月）：Imgur 通道 + 云端历史 + 相册 + 删除能力&lt;/li>
+&lt;li>&lt;strong>Pro&lt;/strong>（$3.99/月）：100GB 自有存储（B2）、云端历史、相册、删除、API Key、原图直链&lt;/li>
+&lt;li>&lt;strong>Pro+&lt;/strong>（$8.99/月）：500GB 自有存储、高级图片处理、水印、自定义域名&lt;/li>
+&lt;/ul>
+&lt;p>这里有个坑要提醒一下：&lt;strong>注册一个 Free 账户，其实和匿名使用几乎没有区别&lt;/strong>。Free 账户可以登录，但看不了自己的上传历史（后端直接 403），不能建相册，不能删除已上传的图片，也不能创建 API Key。换句话说，Free 这一档只是「能登录进去看看」，真正让账户体系发挥价值的起点是 &lt;strong>Air&lt;/strong>。&lt;/p>
+&lt;p>这是我故意这样设计的。图床最贵的不是存储本身，而是「长期稳定地把图留着」的责任。所以我不想让免费账户在我这边产生任何需要兜底的存储，Free 用户的图直接走 Imgur，我只做前端转发。Air 开始才会真正接管图片的生命周期（历史、删除、相册）。&lt;/p>
+&lt;h2 id="air-及以上解锁的功能">Air 及以上解锁的功能&lt;/h2>
+&lt;ul>
+&lt;li>相册分组、筛选、归档&lt;/li>
+&lt;li>云端上传历史（Free 这边历史只存浏览器 localStorage，换台电脑就没了）&lt;/li>
+&lt;li>删除云端图片&lt;/li>
+&lt;li>Pro 开始：API Key 管理，用 &lt;code>X-API-Key&lt;/code> 调 &lt;code>/api/v1/api-upload&lt;/code> 批量传图&lt;/li>
+&lt;li>Pro 开始：默认返回 Cloudflare 前置的&lt;strong>原图直链&lt;/strong>，不再走转发&lt;/li>
+&lt;li>Pro 开始：相册邀请别人加入，区分「只读」和「可上传」权限&lt;/li>
+&lt;li>Pro+ 独占：绑定自己的域名走 HTTPS，以及高级图片处理（这个下面会专门讲）&lt;/li>
+&lt;/ul>
+&lt;p>高级处理是 Pro+ 专属的，入口是带参数的图片 URL：&lt;/p>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-text" data-lang="text">/:storage_key?format=jpeg|png|webp&amp;amp;quality=1-100&amp;amp;width=&amp;amp;height=&amp;amp;watermark=&amp;amp;watermark_pos=
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>比如我想把一张图裁成 800 宽、转成 WebP、质量 80，就可以直接在 URL 里加参数，不用本地再跑一遍工具。&lt;/p>
+&lt;h2 id="自定义域名">自定义域名&lt;/h2>
+&lt;p>这个功能是我自己最想要的。很多图床之所以不敢重度用，就是因为一旦换图床，老链接全部失效。ImgAnt 上 Pro+ 可以把图片挂到自己的域名下，配置也非常丝滑。&lt;/p>
+&lt;p>对我来说，这意味着即使将来 ImgAnt 被我自己关掉，我只要改一条 DNS，就能把图片全部迁到别处，老链接不会挂。&lt;/p>
+&lt;h2 id="api-接口">API 接口&lt;/h2>
+&lt;p>账户页里可以创建 API Key，拿到之后请求：&lt;/p>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-bash" data-lang="bash">curl -X POST https://api.imgant.com/api/v1/api-upload &lt;span style="color:#f1fa8c">\
+&lt;/span>&lt;span style="color:#f1fa8c">&lt;/span> -H &lt;span style="color:#f1fa8c">&amp;#34;X-API-Key: YOUR_KEY&amp;#34;&lt;/span> &lt;span style="color:#f1fa8c">\
+&lt;/span>&lt;span style="color:#f1fa8c">&lt;/span> -F &lt;span style="color:#f1fa8c">&amp;#34;file=@./a.png&amp;#34;&lt;/span>
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>返回里会有直链，可以直接塞到自己的小工具、脚本、Alfred workflow 里。我自己就是用这个接口把一些截图工作流连上了。&lt;/p>
+&lt;h2 id="mac-客户端">Mac 客户端&lt;/h2>
+&lt;p>除了网页，我还做了一个 Mac 客户端，下载地址在 &lt;a href="https://imgant.com/download">imgant.com/download&lt;/a>。它的定位很简单：&lt;/p>
+&lt;ul>
+&lt;li>状态栏常驻&lt;/li>
+&lt;li>截图或拖进去自动上传&lt;/li>
+&lt;li>上传完直接把 Markdown 链接塞进剪贴板&lt;/li>
+&lt;/ul>
+&lt;p>对于写博客的人来说，这一步会比「打开网页 → 拖上去 → 复制」省很多次跳转。&lt;/p>
+&lt;h2 id="写在最后">写在最后&lt;/h2>
+&lt;p>这个项目目前还在持续迭代中，我自己在重度用，意味着遇到问题我会比任何用户都更早发现。如果你也有类似的困扰——想要一个不会突然跑路、支持自己域名、可以接 API 的图床，欢迎去 &lt;a href="https://imgant.com">imgant.com&lt;/a> 试试，有问题可以给我发邮件。&lt;/p></description></item><item><title>为什么你看对了方向，还是赚不到钱</title><link>https://blog.forecho.com/why-you-still-cant-make-money-even-if-you-read-the-market-right.html</link><pubDate>Tue, 31 Mar 2026 23:10:00 +0800</pubDate><guid>https://blog.forecho.com/why-you-still-cant-make-money-even-if-you-read-the-market-right.html</guid><description>&lt;h2 id="系列导航">系列导航&lt;/h2>
 &lt;p>这一组文章建议按顺序阅读：&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://blog.forecho.com/how-to-read-the-open-first-30-minutes.html">开盘 30 分钟怎么读盘：跳空、第一根 K 线与当天主方向&lt;/a>&lt;/li>
@@ -2070,7 +2151,7 @@
 &lt;p>第二天有了高速经验之后，才开始抓紧赶路。为了补回进度，我们不得不在晚上开车。&lt;/p>
 &lt;p>再说回程。从武汉回深圳，一千一百公里左右。非高峰期原本 11 个小时的车程，我一个人硬生生开了 16 个小时，其中大概有 4 个小时是在服务区休息的，基本上每开一两个小时就要休整一次。最后一个小时特别熬人，困又睡不着，于是喝了瓶红牛继续撑回家了。不过多亏了特斯拉的辅助驾驶，行程轻松了许多，没有它我根本不可能一天单人开到深圳。&lt;/p>
 &lt;h2 id="导航体验">导航体验&lt;/h2>
-&lt;p>&lt;img src="https://r2.imgant.com/2026/03/24/085306-ffcf83f0.png" alt="">&lt;/p>
+&lt;p>&lt;img src="https://imgant.forecho.com/2026/03/24/085306-ffcf83f0.png" alt="">&lt;/p>
 &lt;p>刚开始我同时开着车机导航和手机高德导航，后来发现两个导航声音太干扰了，就把手机导航关掉了，全程用车机导航。&lt;/p>
 &lt;p>特斯拉的车机导航体验总体还不错，会自动显示每个服务区的距离。想去服务区休息的话直接点右上角，把服务区加进停站就行了，很方便。&lt;/p>
 &lt;p>不过导航也有局限性：它只能基于&amp;quot;道路是否拥堵&amp;quot;和&amp;quot;距离&amp;quot;这两个维度来规划路线，不会考虑高速是双车道还是三车道。我们回来的时候走了一段双车道高速，体验很差。路上货车多，大货车超车要占用快车道，但车速又快不起来，经常要慢下来干等，有时候一辆货车要一次性超前面四辆货车，只能在后面干等着。直到快到目的地车道变宽了，才顺畅起来。&lt;/p>
@@ -2964,131 +3045,4 @@
 &lt;/ol>
 &lt;h2 id="结语">结语&lt;/h2>
 &lt;p>交易不是一场追求 100% 胜率的游戏，而是一场&lt;strong>管理风险&lt;/strong>的游戏。&lt;/p>
-&lt;p>当你学会了 &lt;strong>“承认失败 -&amp;gt; 科学补仓 -&amp;gt; 平手离场”&lt;/strong> 这套组合拳，你就拥有了在市场中活下去的底气。记住，&lt;strong>活得久，才能赚得多。&lt;/strong>&lt;/p></description></item><item><title>Price Action 实战手册：用「三层周期」构建稳定盈利体系</title><link>https://blog.forecho.com/pa-multi-timeframe-strategy.html</link><pubDate>Thu, 08 Jan 2026 16:00:00 +0800</pubDate><guid>https://blog.forecho.com/pa-multi-timeframe-strategy.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>很多交易者在学习多周期分析（Multi-Timeframe Analysis, MTF）时，最痛苦的不是不懂理论，而是 &lt;strong>「周期打架」&lt;/strong>：&lt;/p>
-&lt;ul>
-&lt;li>1小时图看涨，15分钟图看跌，5分钟图又是横盘。&lt;/li>
-&lt;li>到底听谁的？&lt;/li>
-&lt;li>切来切去，最后在 1 分钟图里追涨杀跌，把大方向忘得一干二净。&lt;/li>
-&lt;/ul>
-&lt;p>结合 Price Action 实战体系，我们发现很多高手之所以能稳定盈利，是因为他们建立了一套&lt;strong>严格的层级秩序&lt;/strong>。他们不仅看 15m，也会用 1H 定大局，再用 2m/5m 开枪。&lt;/p>
-&lt;p>这不仅仅是“看大做小”那么简单，而是一套&lt;strong>三维立体&lt;/strong>的作战系统。今天这篇文章，我们就把这套系统拆解成可以落地的&lt;strong>实战手册&lt;/strong>。&lt;/p>
-&lt;h2 id="第一章建立三维视角">第一章：建立三维视角&lt;/h2>
-&lt;p>要学透这套打法，你不能只盯着一个平面，要把市场看成三层：&lt;/p>
-&lt;h3 id="1-顶层设计1小时图-1h--定战场">1. 顶层设计：1小时图 (1H) —— 定战场&lt;/h3>
-&lt;p>&lt;strong>作用&lt;/strong>：&lt;strong>判断“大环境”和“关键位”。&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>问自己两个问题&lt;/strong>：
-&lt;ol>
-&lt;li>当前是&lt;strong>强趋势&lt;/strong>（均线发散，K线实体大）还是&lt;strong>大震荡&lt;/strong>（EMA 走平，K线重叠）？&lt;/li>
-&lt;li>今天的&lt;strong>关键战场&lt;/strong>在哪里？（前一天的最高/最低点、未测试的缺口、大级别的供需区）。&lt;/li>
-&lt;/ol>
-&lt;/li>
-&lt;li>&lt;strong>动作&lt;/strong>：画出最关键的 2-3 条线。&lt;strong>如果是强趋势，不做逆势单；如果是大震荡，只在边缘做反转。&lt;/strong>&lt;/li>
-&lt;/ul>
-&lt;h3 id="2-中层结构15分钟图-15m--定方向">2. 中层结构：15分钟图 (15m) —— 定方向&lt;/h3>
-&lt;p>&lt;strong>作用&lt;/strong>：&lt;strong>这是最核心的“锚点周期”。&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>看结构&lt;/strong>：这里是识别&lt;strong>形态&lt;/strong>的最佳周期。比如：
-&lt;ul>
-&lt;li>&lt;strong>TR (震荡区间)&lt;/strong>：震荡区间。&lt;/li>
-&lt;li>&lt;strong>Broad Channel&lt;/strong>：宽幅通道（这是常见的一种形态，看似震荡但有方向）。&lt;/li>
-&lt;li>&lt;strong>Wedge&lt;/strong>：楔形顶/底。&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>看均线&lt;/strong>：&lt;strong>EMA 20&lt;/strong> 是生命线。价格是在 EMA 之上（多头控盘）还是之下（空头控盘）？还是反复穿梭（震荡）？&lt;/li>
-&lt;/ul>
-&lt;h3 id="3-底层执行2分钟5分钟图-2m5m--定扳机">3. 底层执行：2分钟/5分钟图 (2m/5m) —— 定扳机&lt;/h3>
-&lt;p>&lt;strong>作用&lt;/strong>：&lt;strong>寻找极致盈亏比的入场点。&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>为什么用 2m？&lt;/strong> 有时候 5m 的 K 线太长，止损太大；或者 5m 还没收盘，2m 已经走出了微型结构（如微型双底）。&lt;/li>
-&lt;li>&lt;strong>动作&lt;/strong>：精确到 Tick 级别的挂单（突破单或限价单）。&lt;/li>
-&lt;/ul>
-&lt;h2 id="第二章核心战法拆解">第二章：核心战法拆解&lt;/h2>
-&lt;p>我们还原实战复盘中的三个经典场景，手把手教你怎么把这三个周期串起来。&lt;/p>
-&lt;h3 id="战法一大周期嵌套结构">战法一：大周期嵌套结构&lt;/h3>
-&lt;p>&lt;strong>场景&lt;/strong>：1H 级别是一个巨大的震荡区间（TR），但 15m 级别走出了一个宽幅下降通道。&lt;/p>
-&lt;ol>
-&lt;li>&lt;strong>1H (观察)&lt;/strong>：确认大背景是震荡，价格接近 TR 的底部支撑。&lt;strong>策略：只做多，不做空。&lt;/strong>&lt;/li>
-&lt;li>&lt;strong>15m (确认)&lt;/strong>：价格触碰通道下沿，并未加速跌破，而是开始磨叽。&lt;/li>
-&lt;li>&lt;strong>2m/5m (开枪)&lt;/strong>：
-&lt;ul>
-&lt;li>等待一个小级别的**“楔形底”** 或 **“微型双底”**。&lt;/li>
-&lt;li>&lt;strong>信号 K&lt;/strong>：必须是一根收盘强劲的阳线。&lt;/li>
-&lt;li>&lt;strong>入场&lt;/strong>：在信号 K 高点上方 1 个 Tick 挂 &lt;strong>突破买单&lt;/strong>。&lt;/li>
-&lt;li>&lt;strong>止盈&lt;/strong>：先看 15m 通道的上沿，最终目标看 1H TR 的中部或上沿。&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ol>
-&lt;h3 id="战法二强趋势中的-50-回调">战法二：强趋势中的 50% 回调&lt;/h3>
-&lt;p>&lt;strong>场景&lt;/strong>：1H 和 15m 都在强势上涨（K 线大阳，几乎没有阴线，远离 EMA 20）。&lt;/p>
-&lt;ol>
-&lt;li>&lt;strong>1H/15m (观察)&lt;/strong>：趋势极强，不要想摸顶做空。等待回调买入。&lt;/li>
-&lt;li>&lt;strong>5m (执行)&lt;/strong>：
-&lt;ul>
-&lt;li>价格开始回落，但你是&lt;strong>限价单&lt;/strong>玩家。&lt;/li>
-&lt;li>量出这一波上涨波段的 &lt;strong>50% 斐波那契回撤位&lt;/strong>。&lt;/li>
-&lt;li>直接在 50% 位置挂买单，止损放在起涨点下方。&lt;/li>
-&lt;li>&lt;strong>逻辑&lt;/strong>：强趋势下，机构算法会在 50% 折扣价自动扫货，博取第二段上涨。&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ol>
-&lt;h3 id="战法三边缘的假摔-failed-breakout">战法三：边缘的“假摔” (Failed Breakout)&lt;/h3>
-&lt;p>&lt;strong>场景&lt;/strong>：1H 震荡，15m 价格刺破了前低。&lt;/p>
-&lt;ol>
-&lt;li>&lt;strong>1H/15m (观察)&lt;/strong>：价格跌破了关键支撑，看起来要崩盘。但你记得“震荡区间里的突破 80% 都会失败”。&lt;/li>
-&lt;li>&lt;strong>2m/5m (开枪)&lt;/strong>：
-&lt;ul>
-&lt;li>&lt;strong>关键信号&lt;/strong>：K 线跌破支撑后，没有连续的大阴线跟随，反而立刻收了一根长下影线，或者直接反包回来（内包线 / 吞没）。&lt;/li>
-&lt;li>这就是 &lt;strong>突破失败&lt;/strong>。&lt;/li>
-&lt;li>&lt;strong>入场&lt;/strong>：在反包 K 线的上方挂单做多。&lt;/li>
-&lt;li>&lt;strong>止损&lt;/strong>：极窄，就放在刚创出的那个低点下方。&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ol>
-&lt;h2 id="第三章复盘中的魔鬼细节">第三章：复盘中的“魔鬼细节”&lt;/h2>
-&lt;p>要在实战中复制这套打法，你必须注意以下细节：&lt;/p>
-&lt;h3 id="1-关于-ema-20-的使用">1. 关于 EMA 20 的使用&lt;/h3>
-&lt;p>EMA 20 是 Price Action 中最重要的均线。&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>在 15m 图上&lt;/strong>：如果价格一直被 EMA 20 压制，不要轻易做多，除非出现了非常标准的底部结构（楔形）。&lt;/li>
-&lt;li>&lt;strong>在 5m 图上&lt;/strong>：如果价格突破了 EMA 20 并且回踩不破（更高低点），这是趋势可能反转的第一信号。&lt;/li>
-&lt;/ul>
-&lt;h3 id="2-关于tick-级挂单">2. 关于“Tick 级”挂单&lt;/h3>
-&lt;ul>
-&lt;li>&lt;strong>突破单（Stop Entry）&lt;/strong>：通常用于反转确认。比如信号 K 高点是 100.00，你在 100.25 (1 tick above) 挂买入停止单。如果价格不到，就不进场，避免被假动作骗。&lt;/li>
-&lt;li>&lt;strong>限价单（Limit Entry）&lt;/strong>：通常用于强趋势回调（50% PB）或震荡区间的极端位置（摸顶底）。&lt;/li>
-&lt;/ul>
-&lt;h3 id="3-关于止盈1mm-与-2mm">3. 关于止盈：1MM 与 2MM&lt;/h3>
-&lt;ul>
-&lt;li>&lt;strong>1MM (1倍测量目标位)&lt;/strong>：第一段上涨/下跌的等距目标位。&lt;/li>
-&lt;li>&lt;strong>TR 里的止盈&lt;/strong>：如果你在 TR 底部做多，&lt;strong>不要贪心拿到顶部&lt;/strong>。在 TR 的 &lt;strong>50% 中部位置&lt;/strong> 或者 &lt;strong>1MM&lt;/strong> 位置就应该减仓或止盈。因为震荡区间里，价格经常走到一半就折返。&lt;/li>
-&lt;/ul>
-&lt;h3 id="4-关键设置rth-常规时段-图表">4. 关键设置：RTH (常规时段) 图表&lt;/h3>
-&lt;ul>
-&lt;li>&lt;strong>务必使用 RTH&lt;/strong>：本策略的核心逻辑（如缺口、开盘第1根K线）是基于 &lt;strong>美股常规交易时段 (9:30 - 16:15 ET)&lt;/strong> 的。&lt;/li>
-&lt;li>&lt;strong>不要用 24小时电子盘 (ETH)&lt;/strong>：ETH 图表是连续的，会掩盖掉关键的“跳空缺口”信息，导致形态识别失真。&lt;/li>
-&lt;li>&lt;strong>例外情况&lt;/strong>：可以在 1H 大周期上短暂切换 ETH，查看盘前是否有关键的支撑阻力位（Globex High/Low），但交易信号（Signal Bar）一律以 RTH 为准。&lt;/li>
-&lt;/ul>
-&lt;h2 id="第四章给学不会的同学的练习计划">第四章：给“学不会”的同学的练习计划&lt;/h2>
-&lt;p>如果你觉得还是复杂，请按这个步骤强制练习 2 周：&lt;/p>
-&lt;ol>
-&lt;li>&lt;strong>做减法&lt;/strong>：只看 &lt;strong>15m&lt;/strong> 和 &lt;strong>2m&lt;/strong> 两个周期。关掉其他所有图表。&lt;/li>
-&lt;li>&lt;strong>只做一个形态&lt;/strong>：&lt;strong>15m 级别的震荡区间边缘的突破失败&lt;/strong>。
-&lt;ul>
-&lt;li>画出 15m 的高低点。&lt;/li>
-&lt;li>闹钟响了（价格到了边缘）。&lt;/li>
-&lt;li>切到 2m，等待“假突破”信号。&lt;/li>
-&lt;li>进场，止损，止盈。&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>强制复盘&lt;/strong>：每天收盘后，把当天的 15m 图打印出来，标出所有的 &lt;strong>突破失败&lt;/strong>，你会惊讶地发现机会其实非常多。&lt;/li>
-&lt;/ol>
-&lt;h2 id="结语">结语&lt;/h2>
-&lt;p>多周期分析的本质，是&lt;strong>用显微镜（小周期）去验证望远镜（大周期）看到的景色。&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>1H 告诉你“这里可能有金矿”。&lt;/li>
-&lt;li>15m 告诉你“这片区域土壤结构不错”。&lt;/li>
-&lt;li>2m 告诉你“就是这一铲子，挖！”&lt;/li>
-&lt;/ul>
-&lt;p>不要被图表吓倒，先从&lt;strong>固定这三个视角&lt;/strong>开始，你会发现盘面突然变得清晰了。&lt;/p></description></item></channel></rss>
+&lt;p>当你学会了 &lt;strong>“承认失败 -&amp;gt; 科学补仓 -&amp;gt; 平手离场”&lt;/strong> 这套组合拳，你就拥有了在市场中活下去的底气。记住，&lt;strong>活得久，才能赚得多。&lt;/strong>&lt;/p></description></item></channel></rss>

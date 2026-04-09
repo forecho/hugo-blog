@@ -1,4 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on forecho's Blog</title><link>https://blog.forecho.com/posts.html</link><description>Recent content in Posts on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 31 Mar 2026 23:10:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/posts/atom.xml" rel="self" type="application/rss+xml"/><item><title>为什么你看对了方向，还是赚不到钱</title><link>https://blog.forecho.com/why-you-still-cant-make-money-even-if-you-read-the-market-right.html</link><pubDate>Tue, 31 Mar 2026 23:10:00 +0800</pubDate><guid>https://blog.forecho.com/why-you-still-cant-make-money-even-if-you-read-the-market-right.html</guid><description>&lt;h2 id="系列导航">系列导航&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on forecho's Blog</title><link>https://blog.forecho.com/posts.html</link><description>Recent content in Posts on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 09 Apr 2026 10:00:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/posts/atom.xml" rel="self" type="application/rss+xml"/><item><title>介绍一下我自己做的图床 ImgAnt</title><link>https://blog.forecho.com/introducing-imgant-image-hosting.html</link><pubDate>Thu, 09 Apr 2026 10:00:00 +0800</pubDate><guid>https://blog.forecho.com/introducing-imgant-image-hosting.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>先上地址：&lt;/p>
+&lt;ul>
+&lt;li>网站：&lt;a href="https://imgant.com">imgant.com&lt;/a>&lt;/li>
+&lt;li>Mac 客户端下载：&lt;a href="https://imgant.com/download">imgant.com/download&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;a href="https://imgant.com">ImgAnt&lt;/a> 是我自己做的一个图床，已经断断续续折腾了一段时间，现在已经可以正常给我自己写博客和做笔记用了，顺便也开放给其他人用。这篇文章就把我做这个项目的初衷、目前支持的功能、以及一些我自己觉得好用的点，简单介绍一下。&lt;/p></description></item><item><title>为什么你看对了方向，还是赚不到钱</title><link>https://blog.forecho.com/why-you-still-cant-make-money-even-if-you-read-the-market-right.html</link><pubDate>Tue, 31 Mar 2026 23:10:00 +0800</pubDate><guid>https://blog.forecho.com/why-you-still-cant-make-money-even-if-you-read-the-market-right.html</guid><description>&lt;h2 id="系列导航">系列导航&lt;/h2>
 &lt;p>这一组文章建议按顺序阅读：&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://blog.forecho.com/how-to-read-the-open-first-30-minutes.html">开盘 30 分钟怎么读盘：跳空、第一根 K 线与当天主方向&lt;/a>&lt;/li>
@@ -159,12 +165,4 @@
 &lt;li>&lt;strong>新手&lt;/strong>：祈祷、死扛、甚至愤怒地加仓（Martingale），最后爆仓。&lt;/li>
 &lt;li>&lt;strong>高手&lt;/strong>：冷静判断结构变化，通过&lt;strong>科学的加仓（Scaling In）&lt;strong>和&lt;/strong>心理博弈&lt;/strong>，把一笔必亏的单子处理成平手甚至微利。&lt;/li>
 &lt;/ul>
-&lt;p>结合资深 Price Action 交易员的实战笔记，我们今天不谈“怎么大赚”，专门谈谈 &lt;strong>“怎么不亏大钱”&lt;/strong>。&lt;/p></description></item><item><title>Price Action 实战手册：用「三层周期」构建稳定盈利体系</title><link>https://blog.forecho.com/pa-multi-timeframe-strategy.html</link><pubDate>Thu, 08 Jan 2026 16:00:00 +0800</pubDate><guid>https://blog.forecho.com/pa-multi-timeframe-strategy.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>很多交易者在学习多周期分析（Multi-Timeframe Analysis, MTF）时，最痛苦的不是不懂理论，而是 &lt;strong>「周期打架」&lt;/strong>：&lt;/p>
-&lt;ul>
-&lt;li>1小时图看涨，15分钟图看跌，5分钟图又是横盘。&lt;/li>
-&lt;li>到底听谁的？&lt;/li>
-&lt;li>切来切去，最后在 1 分钟图里追涨杀跌，把大方向忘得一干二净。&lt;/li>
-&lt;/ul>
-&lt;p>结合 Price Action 实战体系，我们发现很多高手之所以能稳定盈利，是因为他们建立了一套&lt;strong>严格的层级秩序&lt;/strong>。他们不仅看 15m，也会用 1H 定大局，再用 2m/5m 开枪。&lt;/p>
-&lt;p>这不仅仅是“看大做小”那么简单，而是一套&lt;strong>三维立体&lt;/strong>的作战系统。今天这篇文章，我们就把这套系统拆解成可以落地的&lt;strong>实战手册&lt;/strong>。&lt;/p></description></item></channel></rss>
+&lt;p>结合资深 Price Action 交易员的实战笔记，我们今天不谈“怎么大赚”，专门谈谈 &lt;strong>“怎么不亏大钱”&lt;/strong>。&lt;/p></description></item></channel></rss>
