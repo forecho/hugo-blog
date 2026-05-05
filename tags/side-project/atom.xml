@@ -1,4 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Side project on forecho's Blog</title><link>https://blog.forecho.com/tags/side-project.html</link><description>Recent content in Side project on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 09 Apr 2026 10:00:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/tags/side-project/atom.xml" rel="self" type="application/rss+xml"/><item><title>介绍一下我自己做的图床 ImgAnt</title><link>https://blog.forecho.com/introducing-imgant-image-hosting.html</link><pubDate>Thu, 09 Apr 2026 10:00:00 +0800</pubDate><guid>https://blog.forecho.com/introducing-imgant-image-hosting.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Side project on forecho's Blog</title><link>https://blog.forecho.com/tags/side-project.html</link><description>Recent content in Side project on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 05 May 2026 10:00:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/tags/side-project/atom.xml" rel="self" type="application/rss+xml"/><item><title>介绍一下我做的 AI 中转站 4AICode</title><link>https://blog.forecho.com/introducing-4aicode-ai-proxy.html</link><pubDate>Tue, 05 May 2026 10:00:00 +0800</pubDate><guid>https://blog.forecho.com/introducing-4aicode-ai-proxy.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>先上地址：&lt;/p>
+&lt;ul>
+&lt;li>网站：&lt;a href="https://4aicode.com/">4aicode.com&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;a href="https://4aicode.com/">4AICode&lt;/a> 是我新做的一个 AI 中转站，主要面向 Vibe Coding 场景，目前支持 ChatGPT AI 模型和 gpt-image-2 图片生成模型。&lt;/p>
+&lt;p>它的目标很简单：让国内用户更容易、更低成本地用上国外的 AI 模型。&lt;/p></description></item><item><title>介绍一下我自己做的图床 ImgAnt</title><link>https://blog.forecho.com/introducing-imgant-image-hosting.html</link><pubDate>Thu, 09 Apr 2026 10:00:00 +0800</pubDate><guid>https://blog.forecho.com/introducing-imgant-image-hosting.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
 &lt;p>先上地址：&lt;/p>
 &lt;ul>
 &lt;li>网站：&lt;a href="https://imgant.com">imgant.com&lt;/a>&lt;/li>

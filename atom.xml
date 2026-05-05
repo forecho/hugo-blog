@@ -1,4 +1,40 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 09 Apr 2026 10:00:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>介绍一下我自己做的图床 ImgAnt</title><link>https://blog.forecho.com/introducing-imgant-image-hosting.html</link><pubDate>Thu, 09 Apr 2026 10:00:00 +0800</pubDate><guid>https://blog.forecho.com/introducing-imgant-image-hosting.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 05 May 2026 10:00:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>介绍一下我做的 AI 中转站 4AICode</title><link>https://blog.forecho.com/introducing-4aicode-ai-proxy.html</link><pubDate>Tue, 05 May 2026 10:00:00 +0800</pubDate><guid>https://blog.forecho.com/introducing-4aicode-ai-proxy.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>先上地址：&lt;/p>
+&lt;ul>
+&lt;li>网站：&lt;a href="https://4aicode.com/">4aicode.com&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;a href="https://4aicode.com/">4AICode&lt;/a> 是我新做的一个 AI 中转站，主要面向 Vibe Coding 场景，目前支持 ChatGPT AI 模型和 gpt-image-2 图片生成模型。&lt;/p>
+&lt;p>它的目标很简单：让国内用户更容易、更低成本地用上国外的 AI 模型。&lt;/p>
+&lt;h2 id="为什么做这个">为什么做这个&lt;/h2>
+&lt;p>这两年 AI 工具进步很快，真正用起来的人会明显感受到效率提升。国内用户想稳定使用国外模型，门槛一直偏高：账号、支付、网络、额度、API 配置，每一项都可能卡住。&lt;/p>
+&lt;p>4AICode 想解决的就是这个入口问题。用户只需要在一个地方完成充值和调用，剩下的模型接入、账单换算、接口稳定性，我在后台处理。&lt;/p>
+&lt;p>我自己现在大量使用 Codex 写代码，所以这个产品一开始就优先考虑 AI 编程的使用体验。配置好接口之后，Codex 调模型会更顺手，写代码、改文档、生成脚本都可以接到同一个入口。&lt;/p>
+&lt;h2 id="成本更低">成本更低&lt;/h2>
+&lt;p>另一个原因是价格。&lt;/p>
+&lt;p>4AICode 目前的模型价格大概是官网价格的 1 折，充值还会赠送额外金额。中转站的好处是按量使用，小需求也能跑起来，高频 Vibe Coding 的成本也能降下来。&lt;/p>
+&lt;p>对我来说，4AICode 的定位很明确：把 ChatGPT 这类模型和 AI 图片生成做成更容易消费的基础服务。&lt;/p>
+&lt;h2 id="目前支持什么">目前支持什么&lt;/h2>
+&lt;p>当前先接入两类模型：&lt;/p>
+&lt;ul>
+&lt;li>ChatGPT AI 模型&lt;/li>
+&lt;li>gpt-image-2 图片生成模型&lt;/li>
+&lt;/ul>
+&lt;p>文字模型主要适合这些场景：&lt;/p>
+&lt;ul>
+&lt;li>Vibe Coding&lt;/li>
+&lt;li>代码辅助&lt;/li>
+&lt;li>文档生成&lt;/li>
+&lt;li>写作润色&lt;/li>
+&lt;li>翻译总结&lt;/li>
+&lt;li>自动化脚本调用&lt;/li>
+&lt;/ul>
+&lt;h2 id="图片生成页面">图片生成页面&lt;/h2>
+&lt;p>为了让 gpt-image-2 更好用，我特意写了一个图片生成页面。&lt;/p>
+&lt;p>用户可以直接在页面里输入提示词生成图片，省掉自己写 API、调脚本、处理返回结果这些步骤。这个页面适合生成文章配图、产品图草稿、封面图和 Vibe Coding 过程中需要的临时素材。&lt;/p>
+&lt;p>后面我会根据真实使用情况继续加模型和功能。先把文字和图片两条线跑稳定，比一次性铺很多入口更重要。&lt;/p>
+&lt;h2 id="写在最后">写在最后&lt;/h2>
+&lt;p>4AICode 是我围绕 AI 工具链做的又一个 Side Project。ImgAnt 解决图片上传，4AICode 解决模型访问。两者背后的思路很像：把我自己日常会遇到的麻烦，做成一个其他人也能直接使用的服务。&lt;/p>
+&lt;p>需要更方便地把 ChatGPT AI 模型和 gpt-image-2 图片生成模型接入 Codex，可以去 &lt;a href="https://4aicode.com/">4aicode.com&lt;/a> 试试。&lt;/p></description></item><item><title>介绍一下我自己做的图床 ImgAnt</title><link>https://blog.forecho.com/introducing-imgant-image-hosting.html</link><pubDate>Thu, 09 Apr 2026 10:00:00 +0800</pubDate><guid>https://blog.forecho.com/introducing-imgant-image-hosting.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
 &lt;p>先上地址：&lt;/p>
 &lt;ul>
 &lt;li>网站：&lt;a href="https://imgant.com">imgant.com&lt;/a>&lt;/li>
@@ -3003,92 +3039,4 @@ imgant upload ./my-image.png --format markdown
 &lt;ul>
 &lt;li>&lt;a href="https://www.youtube.com/watch?v=Kn7LWAfK3co">本复盘视频来源&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.brookstradingcourse.com/">Al Brooks Trading Course&lt;/a> - 价格行为学源头&lt;/li>
-&lt;/ul></description></item><item><title>Price Action 进阶：被套了怎么办？高手的「救火」指南</title><link>https://blog.forecho.com/trading-psychology-and-position-management.html</link><pubDate>Thu, 08 Jan 2026 18:00:00 +0800</pubDate><guid>https://blog.forecho.com/trading-psychology-and-position-management.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>在交易中，我们看复盘图时总是觉得“这里做多、那里止盈”很完美。但在实盘中，最真实的情况往往是：&lt;strong>一进去就被套了。&lt;/strong>&lt;/p>
-&lt;p>这时候，新手和高手的区别就出来了：&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>新手&lt;/strong>：祈祷、死扛、甚至愤怒地加仓（Martingale），最后爆仓。&lt;/li>
-&lt;li>&lt;strong>高手&lt;/strong>：冷静判断结构变化，通过&lt;strong>科学的加仓（Scaling In）&lt;strong>和&lt;/strong>心理博弈&lt;/strong>，把一笔必亏的单子处理成平手甚至微利。&lt;/li>
-&lt;/ul>
-&lt;p>结合资深 Price Action 交易员的实战笔记，我们今天不谈“怎么大赚”，专门谈谈 &lt;strong>“怎么不亏大钱”&lt;/strong>。&lt;/p>
-&lt;h2 id="一核心认知80-的突破都会失败">一、核心认知：80% 的突破都会失败&lt;/h2>
-&lt;p>这是 Al Brooks 体系里最反直觉的一个数据：&lt;strong>在图表上看到的突破，80% 都会失败，最终演变成震荡区间（Trading Range, TR）。&lt;/strong>&lt;/p>
-&lt;p>当你意识到这一点，你的操作逻辑会完全改变：&lt;/p>
-&lt;ol>
-&lt;li>&lt;strong>不要追涨杀跌&lt;/strong>：看到大阳线突破，不要冲动追，大概率会回调。&lt;/li>
-&lt;li>&lt;strong>被套了别慌&lt;/strong>：如果你在突破点买入被套，只要大趋势没坏，市场大概率会演变成 TR，给你一个 &lt;strong>“回测前高”&lt;/strong> 的逃命机会。&lt;/li>
-&lt;/ol>
-&lt;h2 id="二实战技术如何科学地补仓救火">二、实战技术：如何科学地“补仓救火”？&lt;/h2>
-&lt;p>很多新手听到“补仓”就色变，认为是逆势死扛。但在 Price Action 中，&lt;strong>合理的加仓（Scaling In）&lt;/strong> 是专业交易员的必备技能。&lt;/p>
-&lt;p>&lt;strong>场景还原&lt;/strong>：
-你在下跌趋势中试图抄底（做 2nd Leg Down 的反转），入场后行情并没有反转，而是继续跌了一根大阴线。&lt;/p>
-&lt;p>&lt;strong>❌ 错误做法&lt;/strong>：&lt;/p>
-&lt;ul>
-&lt;li>立马在下一根 K 线加仓（单纯因为价格更低了）。&lt;/li>
-&lt;li>没有止损计划，无限加仓。&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>✅ 高手做法&lt;/strong>：&lt;/p>
-&lt;ol>
-&lt;li>&lt;strong>重新定性&lt;/strong>：承认自己入场早了（Premature）。&lt;/li>
-&lt;li>&lt;strong>等待结构&lt;/strong>：耐心等待市场走出一个新的&lt;strong>震荡区间（TR）底部&lt;/strong>，或者是&lt;strong>第二次反转信号（Second Signal）&lt;/strong>。&lt;/li>
-&lt;li>&lt;strong>加仓&lt;/strong>：在新的信号点加仓。&lt;/li>
-&lt;li>&lt;strong>目标降级&lt;/strong>：&lt;strong>这才是关键！&lt;/strong> 加仓后，你的目标不再是“大赚”，而是 &lt;strong>“回本走人（Breakeven）”&lt;/strong>。
-&lt;ul>
-&lt;li>一旦价格回到你的&lt;strong>平均成本线&lt;/strong>，或者第一笔仓位的入场点，&lt;strong>立刻全部离场&lt;/strong>。&lt;/li>
-&lt;li>&lt;strong>结果&lt;/strong>：第一笔亏损，第二笔盈利，整体打平。&lt;strong>保住了本金，就是胜利。&lt;/strong>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ol>
-&lt;blockquote>
-&lt;p>&lt;strong>心法&lt;/strong>：补仓是为了修正错误，不是为了扩大盈利。&lt;/p>
-&lt;/blockquote>
-&lt;h2 id="三心理博弈识别失望感-disappointment">三、心理博弈：识别“失望感 (Disappointment)”&lt;/h2>
-&lt;p>交易员的直觉其实很准。当你开仓后，如果行情没有按预期的走，你心里会产生一种 &lt;strong>“失望”&lt;/strong> 或者 &lt;strong>“恶心”&lt;/strong> 的感觉。&lt;/p>
-&lt;p>比如：&lt;/p>
-&lt;ul>
-&lt;li>你做突破，期待连续大阳线。&lt;/li>
-&lt;li>结果下一根 K 线直接是个十字星，甚至阴线。&lt;/li>
-&lt;li>你感到“失望”。&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>高手的处理方案&lt;/strong>：
-&lt;strong>一旦出现“失望感”，立刻降低预期。&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>原来的目标&lt;/strong>：2倍盈亏比（2MM）。&lt;/li>
-&lt;li>&lt;strong>现在的目标&lt;/strong>：1倍盈亏比，甚至微利就跑。&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>实战案例&lt;/strong>：&lt;/p>
-&lt;blockquote>
-&lt;p>“做空后，看到 K 线下来得太快（惊喜 K 线），想做第二段下跌。结果入场就反弹被套。这时候意识到市场可能进入宽幅震荡。于是利用加仓技巧，在震荡上沿回本离场。虽然没赚到钱，但避免了一次止损。”&lt;/p>
-&lt;/blockquote>
-&lt;p>不要觉得“没赚到钱”很丢人。&lt;strong>在垃圾时间里全身而退，是比在大行情里赚钱更重要的能力。&lt;/strong>&lt;/p>
-&lt;h2 id="四仓位管理的艺术">四、仓位管理的艺术&lt;/h2>
-&lt;p>最后，我们总结一套简单的仓位法则：&lt;/p>
-&lt;ol>
-&lt;li>
-&lt;p>&lt;strong>顺势交易（Strong Trend）&lt;/strong>：&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>胜率高&lt;/strong>。&lt;/li>
-&lt;li>&lt;strong>仓位&lt;/strong>：正常仓位。&lt;/li>
-&lt;li>&lt;strong>目标&lt;/strong>：可以贪婪一点，拿长线。&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;strong>震荡/逆势交易（Trading Range / Reversal）&lt;/strong>：&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>胜率低&lt;/strong>（只有 40%）。&lt;/li>
-&lt;li>&lt;strong>仓位&lt;/strong>：&lt;strong>减半（Half Size）&lt;/strong>。&lt;/li>
-&lt;li>&lt;strong>目标&lt;/strong>：&lt;strong>2倍盈亏比&lt;/strong>（必须够赔率），或者见到“失望信号”就跑。&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;strong>救火交易（Scaling In）&lt;/strong>：&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>前提&lt;/strong>：必须在大级别支撑/阻力位。&lt;/li>
-&lt;li>&lt;strong>仓位&lt;/strong>：加仓部分不超过初始仓位。&lt;/li>
-&lt;li>&lt;strong>目标&lt;/strong>：&lt;strong>平手离场&lt;/strong>。&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ol>
-&lt;h2 id="结语">结语&lt;/h2>
-&lt;p>交易不是一场追求 100% 胜率的游戏，而是一场&lt;strong>管理风险&lt;/strong>的游戏。&lt;/p>
-&lt;p>当你学会了 &lt;strong>“承认失败 -&amp;gt; 科学补仓 -&amp;gt; 平手离场”&lt;/strong> 这套组合拳，你就拥有了在市场中活下去的底气。记住，&lt;strong>活得久，才能赚得多。&lt;/strong>&lt;/p></description></item></channel></rss>
+&lt;/ul></description></item></channel></rss>
