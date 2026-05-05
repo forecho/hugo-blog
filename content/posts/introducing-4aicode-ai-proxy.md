@@ -14,6 +14,8 @@ toc: true
 
 [4AICode](https://4aicode.com/) 是我新做的一个 AI 中转站，主要面向 Vibe Coding 场景，目前支持 ChatGPT AI 模型和 gpt-image-2 图片生成模型。
 
+名字也很直白，4AICode 可以理解成 for AI code，意思就是为 AI 编程服务。
+
 它的目标很简单：让国内用户更容易、更低成本地用上国外的 AI 模型。
 
 <!--more-->
