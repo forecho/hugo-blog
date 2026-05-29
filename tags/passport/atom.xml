@@ -3,4 +3,4 @@
 &lt;p>这篇文章主要讲 OAuth2 的实现，以及 &lt;a href="https://laravel.com/docs/9.x/passport">Laravel Passport&lt;/a> 的使用。&lt;/p>
 &lt;h2 id="介绍-oauth2">介绍 OAuth2&lt;/h2>
 &lt;p>简单来讲 OAuth 2.0 就是一个行业的标准授权协议。目的是为了给第三方应用颁发一个有时效性的访问令牌，以便第三方应用能够访问被授权的资源，我们常见场景有第三方登录。&lt;/p>
-&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20220328fYuKxr.jpg" alt="">&lt;/p></description></item></channel></rss>
+&lt;p>&lt;img src="https://imgant.forecho.com/2026/05/29/20220328fYuKxr.jpg" alt="">&lt;/p></description></item></channel></rss>

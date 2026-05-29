@@ -4,7 +4,7 @@
 174 字</span>
 <span class="hidden xl:inline-block">|
 <i class="iconfont icon-clock-o"></i>
-1 分钟读完</span></p></div><div class="md:hidden dark:text-gray-100"><p class="text-base font-bold py-2 yg:pb-6 text-gray-700 dark:text-gray-300">文章目录</p><div class="sticky text-sm" style=top:6em id=menu-content><nav id=TableOfContents></nav></div></div><div class="post-content dark:text-gray-300"><p>先来一张效果图： <img src=https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424160945.png alt> view HTML页面代码如下：</p><pre><code>&lt;td align=&quot;center&quot; onclick=&quot;changeLike(&lt;?php echo $id ?&gt;,'&lt;?php echo $like_count; ?&gt;',this)&quot;&gt;
+1 分钟读完</span></p></div><div class="md:hidden dark:text-gray-100"><p class="text-base font-bold py-2 yg:pb-6 text-gray-700 dark:text-gray-300">文章目录</p><div class="sticky text-sm" style=top:6em id=menu-content><nav id=TableOfContents></nav></div></div><div class="post-content dark:text-gray-300"><p>先来一张效果图： <img src=https://imgant.forecho.com/2026/05/29/20190424160945.png alt> view HTML页面代码如下：</p><pre><code>&lt;td align=&quot;center&quot; onclick=&quot;changeLike(&lt;?php echo $id ?&gt;,'&lt;?php echo $like_count; ?&gt;',this)&quot;&gt;
     &lt;?php echo $value['like']; ?&gt;
 &lt;/td&gt;
 </code></pre><p>JavaScript代码如下：</p><pre><code>function changeLike (id, like, obj) {

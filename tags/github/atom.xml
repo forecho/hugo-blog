@@ -19,7 +19,7 @@
 &lt;li>账号的组织功能被标记（Several of your organizations have been flagged.）&lt;/li>
 &lt;/ul>
 &lt;p>目前这两个功能都恢复正常了。这篇文章我就来分享一下整个过程，以及如何解决这个问题，避免后人踩坑。&lt;/p></description></item><item><title>GitHub Action 和 Travis CI 对比</title><link>https://blog.forecho.com/github-action-vs-travis-ci.html</link><pubDate>Thu, 16 Jul 2020 10:08:00 +0800</pubDate><guid>https://blog.forecho.com/github-action-vs-travis-ci.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>&lt;img src="https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/ci.png" alt="">&lt;/p>
+&lt;p>&lt;img src="https://imgant.forecho.com/2026/05/29/ci.png" alt="">&lt;/p>
 &lt;p>&lt;a href="https://travis-ci.org/">Travis CI&lt;/a> 用了好几年了，主要用途就是实现我的静态博客自动发布，&lt;a href="https://github.com/features/actions">GitHub Action&lt;/a> 我是今年才开始用，今天我从自己的使用经验对比一下两个平台的使用感受。&lt;/p></description></item><item><title>GitHub 单独设置某个项目的配置信息</title><link>https://blog.forecho.com/github-use-token-push.html</link><pubDate>Mon, 15 Feb 2016 15:08:00 +0800</pubDate><guid>https://blog.forecho.com/github-use-token-push.html</guid><description>&lt;h2 id="场景">场景&lt;/h2>
 &lt;p>我们先这种情况的谈谈这个使用场景，你不一定用得到这个方法。&lt;/p>
 &lt;p>A 拿 B 电脑打算使用一段时间，A 用 git clone 了一份自己的代码，想用 B 电脑写一些代码。但是 B 平常也写代码，B 电脑上有一套自己的 git 环境.&lt;/p>
