@@ -5,7 +5,7 @@ tags: ["深度阅读"]
 draft: false
 toc: true
 ---
-![《陈志武金融投资课》](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20210507S6UOh6.jpg!m)
+![《陈志武金融投资课》](https://imgant.forecho.com/2026/05/29/20210507S6UOh6.jpg)
 
 ## 一段话说明『这本书主要讲什么？』
 

@@ -18,7 +18,7 @@ toc: true
 
 <!--more-->
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/202202281Kaj9g.png!m)
+![](https://imgant.forecho.com/2026/05/29/202202281Kaj9g.png)
 
 上图是富途证券期权的参考价格计算器界面，期权的价格通常由以下几个因素决定：
 
@@ -45,7 +45,7 @@ toc: true
 
 ## 实例
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20220228ByAvE9.png!m)
+![](https://imgant.forecho.com/2026/05/29/20220228ByAvE9.png)
 
 上图是一张 UPST 的 PUT，这是财报前几个小时的一张截图，它的隐含波动率已经达到 341% 了，历史波动率只有 114%，这说明不确定性增高，不管是 PUT 还是 CALL，随着隐含波动率的上升，价格都会推高。
 

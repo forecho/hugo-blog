@@ -11,7 +11,7 @@ toc: true
 今年年初的时候我写了篇[《使用 Kindle 阅读》](https://blog.forecho.com/use-the-kindle-reading.html) 文章，从2012年底开始到现在差不多快4年的 Kindle 使用经历，
 那么我来分享一下我是如何使用 Kindle 的。
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424161300.png)
+![](https://imgant.forecho.com/2026/05/29/20190424161300.png)
 
 <!--more-->
 

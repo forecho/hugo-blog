@@ -36,7 +36,7 @@ toc: true
 
 在这之前我看影评还经常去时光网，一度觉得豆瓣网给电影的评分过于低了。
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/202206277VMedl.png)
+![](https://imgant.forecho.com/2026/05/29/202206277VMedl.png)
 
 大一、大二我们学了 Photoshop、HTML+DIV+CSS，PHP，跟编程相关的基本知识都学了。当时刚学会做了一个登录注册功能时候，觉得很兴奋 🥰。记得我们大二期末作业就是找几个同学组队完成一个网站。我记得我做的是电商网站，最后好像因为小看了工作量，导致没做完。
 

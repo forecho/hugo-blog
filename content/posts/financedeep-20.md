@@ -29,11 +29,11 @@ toc: true
 
 登录土耳其电子签证的官网 https://www.evisa.gov.tr/zh/
 
-![土耳其电子签证的官网](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20210111wFfUuj.jpg!s)
+![土耳其电子签证的官网](https://imgant.forecho.com/2026/05/29/20210111wFfUuj.jpg)
 
 1. 点击「[申请](https://www.evisa.gov.tr/zh/apply/)」链接，第一项「请选择旅行证件所属国家/地区」，选择「中国」，然后是旅行证件选择「普通护照」，填写验证码。
 
-![到达日期](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20210111ffEonV.png)
+![到达日期](https://imgant.forecho.com/2026/05/29/20210111ffEonV.png)
 
 2. 接着选择到达土耳其的时间，即在该有效期内，任一日期入境土耳其的时间。如果是为了申请香港银行卡而办理电子签，「到达土耳其日期」尽可能选择距今最远时间。
 3. 先决条件全部打勾

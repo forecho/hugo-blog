@@ -18,7 +18,7 @@ toc: true
 
 ## 为什么利率如此重要？
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20220821MoR2Mh.png)
+![](https://imgant.forecho.com/2026/05/29/20220821MoR2Mh.png)
 
 ### 降息
 

@@ -16,29 +16,29 @@ toc: true
 
 ### 创建环境变量
 
-![创建环境变量](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424160357.png)
+![创建环境变量](https://imgant.forecho.com/2026/05/29/20190424160357.png)
 
 根据上面截图的地方，可以找到创建环境变量的设置。设置按钮旁边的『眼睛』按钮可以查看当前使用的环境变量的值。
 
 <!--more-->
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424160522.png)
+![](https://imgant.forecho.com/2026/05/29/20190424160522.png)
 
 先设置环境名称，再设置环境的 `Key` 和 `Value` ，如上图设置，如果你想调用 `http` 的值只要使用 `{{http}}` 就可以调用。 
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424160542.png)
+![](https://imgant.forecho.com/2026/05/29/20190424160542.png)
 
 一个典型的 RESTful 请求如上图所示。
 
 ### 获取请求的代码
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424160601.png)
+![](https://imgant.forecho.com/2026/05/29/20190424160601.png)
 
 POST 还可以非常方便的获取各种语言的请求代码，方便你在开发中使用。
 
 ### 查看 URL 请求的 `Request` 和 `Response`
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424160614.png)
+![](https://imgant.forecho.com/2026/05/29/20190424160614.png)
 
 在软件的左下角，找到终端的图标，就可以打开 Postman Console。
 
@@ -51,7 +51,7 @@ POST 还可以非常方便的获取各种语言的请求代码，方便你在开
 
 ### Pre-request Scripts
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424160627.png)
+![](https://imgant.forecho.com/2026/05/29/20190424160627.png)
 
 Postman 有一个 Pre-request Scripts 功能，可以在发生请求之前执行一段自定义脚本。这个功能在请求需要 Token 验证的 API，非常有用。比方说我们现在请求的接口需要 JWT 验证，传统的方式就是我们在其他地方算好 Token，粘贴过来就可以了。但是这种方式有很大的弊端，因为一般的 Token 都有实效时间的，所以 Token 实效了，下次你又得重复操作一遍。
 
@@ -94,12 +94,12 @@ postman.setGlobalVariable('jwt_token', removeIllegalCharacters(token));
 
 ```
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424160640.png)
+![](https://imgant.forecho.com/2026/05/29/20190424160640.png)
 
 - 最后在 Header 里面配置 Authorization 就可以直接用 `{{jwt_token}}` 了
 
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424160651.png)
+![](https://imgant.forecho.com/2026/05/29/20190424160651.png)
 
 上述方式是给单独的 API 的配置 Pre-request Scripts，Postman 还可以给集合配置 Pre-request Scripts，这样的话整个集合就可以都使用这个 `{{jwt_token}}` 了。但是值得**注意**的有：
 
@@ -118,7 +118,7 @@ postman.setGlobalVariable('jwt_token', removeIllegalCharacters(token));
 - `{{$timestamp}}`：当前时间戳
 - `{{$randomInt}}`：0 到 1000 之间的随机整数
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424160716.png)
+![](https://imgant.forecho.com/2026/05/29/20190424160716.png)
 
 更多使用方法，请查看[官方文档 Variables](https://learning.getpostman.com/docs/postman/environments_and_globals/variables/)。
 

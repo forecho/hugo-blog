@@ -12,7 +12,7 @@ toc: true
 
 ## 港股打新
 
-![港股打新](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20201211C29zj2.png)
+![港股打新](https://imgant.forecho.com/2026/05/29/20201211C29zj2.png)
 
 先看看最近我的港股打新记录，距离上次分享已经4个月了，这之后我又参与了14次打新，其中有3次是我中途撤销的，有1次是蚂蚁没上市的。也就是说10次打新中签了2次，我的个人中签率为20%。下面我挨个统计一下收支：
 
@@ -85,7 +85,7 @@ PS: 交易费需要2个工作日才能看到，我就先估计有50吧。
 
 而很多美国公司上市，中国的证券平台是没有资格参与 IPO 的，所以我们只能眼巴巴的羡慕别人了。再分享两个美股新股我操作的两个经验吧：
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20201211RGEeMx.jpg)
+![](https://imgant.forecho.com/2026/05/29/20201211RGEeMx.jpg)
 
 ### WORK
 
@@ -108,4 +108,4 @@ PS: 交易费需要2个工作日才能看到，我就先估计有50吧。
 
 另外我创建了一个「打新交流群」，有一起玩打新的朋友欢迎加群一起交流：
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20201222VJDx4e.jpg)
+![](https://imgant.forecho.com/2026/05/29/20201222VJDx4e.jpg)

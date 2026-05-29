@@ -6,7 +6,7 @@ draft: false
 toc: true
 ---
 
-![《不拘一格》](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20211023FmJ3os.jpg)
+![《不拘一格》](https://imgant.forecho.com/2026/05/29/20211023FmJ3os.jpg)
 
 ## 一段话说明『这本书主要讲什么？』
 
@@ -141,7 +141,7 @@ Netflix 是想打造员工之间互相循环反馈机制，他们摸索了两个
 
 总结本书内容，如下图，Netflix 主要分三步实现了他们现现在的企业文化：
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20211023H0DxIA.jpg)
+![](https://imgant.forecho.com/2026/05/29/20211023H0DxIA.jpg)
 
 「自由与责任」的核心理念就是充分给予自由，但是如果被滥用，必须受到严厉的惩罚。这种制度非常适合创意类型的公司，因为他们更多的是脑力劳动，而不是靠堆时间。
 

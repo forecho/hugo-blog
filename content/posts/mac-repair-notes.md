@@ -10,7 +10,7 @@ toc: true
 
 不知道是不是前一阵子在家干活（Coding）太猛了还是怎么着，有一天突然发现我的 Macbook Pro 盖子盖不严了，特别是刚使用完一阵子电脑还处于比较热的时候，如下图：
 
-![IMG_4057](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/IMG_4057.JPG!m)
+![IMG_4057](https://imgant.forecho.com/2026/05/29/IMG_4057.JPG)
 
 对于使用多年 Mac 电脑的我来说，一看就知道是电池鼓包了。但是以往都是用了好几年（应该有大于 3 年）才这样，没想到这次我电脑还没到 2 年就这样了。简单了查了一些资料之后我决定去找 Apple 售后。
 
@@ -39,7 +39,7 @@ toc: true
 
 如今的 MacBook 做工是整个电池和键盘还有触控板一体化，所以他们给我换电池意味着也给我换了键盘是触控板，算是占了个『便宜』。如果不保修的话要花接近 3000 元了。
 
-![31x5rb](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/31x5rb.png)
+![31x5rb](https://imgant.forecho.com/2026/05/29/31x5rb.png)
 
 换好的电池是保修 90 天，下次如果电池还有问题，他们说只收我电池费用，不收键盘和触控板费用，至少 1000 多。
 

@@ -21,7 +21,7 @@ toc: true
 
 确定了头像，此头像是原创头像，如有雷同，绝对是盗版我的。
 
-![头像](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424162441.png)
+![头像](https://imgant.forecho.com/2026/05/29/20190424162441.png)
 
 
 ## 扩大流量
@@ -32,7 +32,7 @@ toc: true
 - [简书](http://www.jianshu.com/u/wEcfaz)
 - 微信公众号
 
-![扫码关注我的公众号](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424162454.png)
+![扫码关注我的公众号](https://imgant.forecho.com/2026/05/29/20190424162454.png)
 
 其实我玩微信公众号是非常早的，但是后来因为时间精力有限，刻苦钻研技术去了，就放弃了。这里面的故事和感受我以后可以分享。
 知乎专栏，我也在很早一批就收到过内测，但是也没怎么用。简书刚开始我也是非常关注的。

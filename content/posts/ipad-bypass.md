@@ -12,7 +12,7 @@ toc: true
 
 出现这种情况，是因为他在 iPad 的「设置」里面登录了别人的 Apple ID（如果是在 App Store 登录就没事），别人就可以远程通过「查找」App 标记为「丢失」了，然后你的设备所有数据就会被抹除，并且无法使用。只会出现激活锁界面。
 
-![20201025I8trlT](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20201025I8trlT.png)
+![20201025I8trlT](https://imgant.forecho.com/2026/05/29/20201025I8trlT.png)
 
 ## 解决方案
 

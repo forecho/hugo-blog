@@ -24,7 +24,7 @@ toc: true
 
 ### 正股下跌（赚）
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/202105296kb4qG.jpg!m)
+![](https://imgant.forecho.com/2026/05/29/202105296kb4qG.jpg)
 
 上图是我 5 月 11 号卖出的一个特斯拉末日 Call 期权，行权价是 630，当时的正股价格应该是在 600 左右，我喜欢卖出行权价略高一点的 Call 期权，接下来股票的走势一路下跌，远没到
 行权价，我顺利拿到了期权的权利金，也就是上图的 899 美元。
@@ -61,7 +61,7 @@ toc: true
 
 ### 正股下跌（亏？）
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20210529K1ZA5Y.jpg!m)
+![](https://imgant.forecho.com/2026/05/29/20210529K1ZA5Y.jpg)
 
 上图是我 3 月 30 号卖的 AMD Put 期权，行权价是 80，我希望股票上涨，但是接下来股票一路下跌，我被迫行权，以 80 的价格买入 100 股 AMD 股票。
 
@@ -84,4 +84,4 @@ toc: true
 - Telegram 交流群：欢迎加入我的 Telegram 交流群，一起学习交流：<https://t.me/BaoFuTogether>
 - 开户福利：如果你还没有美股开户的话，推荐我正在使用的长桥证券，他们目前开户成功入金有送股票，开户链接：<https://link.3li3.com/qiao>
 
-![长桥证券开户](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/202302103dIO3V.png!s)
+![长桥证券开户](https://imgant.forecho.com/2026/05/29/202302103dIO3V.png)

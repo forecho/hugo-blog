@@ -22,7 +22,7 @@ toc: true
 
 **[Teahour](http://teahour.fm/)**
 
-![Imgur](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424162858.png)
+![Imgur](https://imgant.forecho.com/2026/05/29/20190424162858.png)
 
 推荐指数：⭐⭐⭐⭐⭐
 
@@ -32,7 +32,7 @@ toc: true
 
 **[Checked](http://checked.fm/)**
 
-![Imgur](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424162910.png)
+![Imgur](https://imgant.forecho.com/2026/05/29/20190424162910.png)
 
 推荐指数：⭐⭐⭐
 
@@ -42,7 +42,7 @@ toc: true
 
 **[代码时间](https://codetimecn.com/)**
 
-![Imgur](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424162920.png)
+![Imgur](https://imgant.forecho.com/2026/05/29/20190424162920.png)
 
 推荐指数：⭐⭐⭐⭐
 
@@ -51,7 +51,7 @@ toc: true
 
 **[迟早更新](http://www.weareones.com/2)**
 
-![Imgur](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424162928.png)
+![Imgur](https://imgant.forecho.com/2026/05/29/20190424162928.png)
 
 推荐指数：⭐⭐⭐⭐
 
@@ -63,7 +63,7 @@ toc: true
 
 **[冬吴同学会](http://www.ximalaya.com/83432108/album/8475135/)**
 
-![冬吴同学会](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424162942.png)
+![冬吴同学会](https://imgant.forecho.com/2026/05/29/20190424162942.png)
 
 推荐指数：⭐⭐⭐⭐⭐
 
@@ -74,7 +74,7 @@ toc: true
 
 **吴晓波频道**
 
-![吴晓波频道](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424162951.png)
+![吴晓波频道](https://imgant.forecho.com/2026/05/29/20190424162951.png)
 
 推荐指数：⭐⭐⭐⭐
 
@@ -83,7 +83,7 @@ toc: true
 
 **[一席](http://www.yixi.tv/)**
 
-![一席](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424163005.png)
+![一席](https://imgant.forecho.com/2026/05/29/20190424163005.png)
 
 推荐指数：⭐⭐⭐⭐
 
@@ -92,7 +92,7 @@ toc: true
 
 **[极客电台](https://geek.wasai.org/)**
 
-![极客电台](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424163014.png)
+![极客电台](https://imgant.forecho.com/2026/05/29/20190424163014.png)
 
 推荐指数：⭐⭐⭐
 

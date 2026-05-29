@@ -20,7 +20,7 @@ toc: true
 
 [Habitify](https://habitify.me/) 统计如下：
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20210209npmQS8.JPEG!m)
+![](https://imgant.forecho.com/2026/05/29/20210209npmQS8.JPEG)
 
 - 今年 1 月底到 3 月中旬，今年新冠疫情我在广西远程办公，健身也不方便，在家天天除了吃就是工作睡觉了，哈哈，小肚子都长出来了，回深圳之后立马捡起来健身，回归二天一次的健身环大冒险。
 - 10 月份的时候因为出去玩就打破计划了。
@@ -53,7 +53,7 @@ toc: true
 
 ### 读书
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20210209Foa8bb.JPEG!m)
+![](https://imgant.forecho.com/2026/05/29/20210209Foa8bb.JPEG)
 
 查看统计发现去年也是 95 天阅读或者学习了，最后总共阅读了 7 本书：
 

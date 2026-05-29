@@ -5,7 +5,7 @@ tags: ["深度阅读"]
 draft: false
 toc: true
 ---
-![《解密 Instagram》](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/202105319Ux3KN.png!m)
+![《解密 Instagram》](https://imgant.forecho.com/2026/05/29/202105319Ux3KN.png)
 
 ## 一段话说明『这本书主要讲什么？』
 

@@ -41,7 +41,7 @@ toc: true
 股票投资还是要学会怎么看宏观层次的，比方说这个[美国资产总量与 S&P 500 的关系](https://fred.stlouisfed.org/graph/?g=HfT)，最近炒得沸沸扬扬的[美国10年期国债收益率
 ](https://wallstreetcn.com/markets/codes/US10YR.OTC)，[美国失业率](https://cn.investing.com/economic-calendar/unemployment-rate-300) 各种指数等等
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20210309NRug6F.png)
+![](https://imgant.forecho.com/2026/05/29/20210309NRug6F.png)
 
 根据宏观做投资最有名的对冲基金就是桥水基金了，他们根据宏观经济的判断完美的躲过几次金融危机，甚至在金融危机的时候别人亏钱他们还赚钱。
 
@@ -55,7 +55,7 @@ toc: true
 
 行业之间差距非常大，行业选的好投资基本上就做对了一大半了，2020 年美股涨的最好的就是科技了：
 
-![2020年美股各行业收益](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/202103092yeRwm.png)
+![2020年美股各行业收益](https://imgant.forecho.com/2026/05/29/202103092yeRwm.png)
 
 那么如何选择行业呢？我认为主要看以下几点：
 

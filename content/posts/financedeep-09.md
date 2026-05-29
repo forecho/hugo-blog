@@ -12,7 +12,7 @@ toc: true
 
 PS：还没有在老虎证券开户小伙伴可以通过下面链接开户：<https://link.3li3.com/tiger>
 
-![老虎证券开户](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/itiger.png!s)
+![老虎证券开户](https://imgant.forecho.com/2026/05/29/itiger.png)
 
 <!--more-->
 
@@ -23,26 +23,26 @@ PS：还没有在老虎证券开户小伙伴可以通过下面链接开户：<ht
 先去老虎证券 App，按照下图步骤找到自己的收款信息。
 
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/IMG_4317.JPG)
+![](https://imgant.forecho.com/2026/05/29/IMG_4317.JPG)
 
 ### 购汇
 
 使用民生银行 App 进行如下操作购汇：
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/IMG_4294.JPG)
+![](https://imgant.forecho.com/2026/05/29/IMG_4294.JPG)
 
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/IMG_4304.JPG)
+![](https://imgant.forecho.com/2026/05/29/IMG_4304.JPG)
 
 ### 境外汇款
 
 回到民生银行 App 的首页，再按照如下步骤进行境外汇款操作：
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/IMG_4305.JPG)
+![](https://imgant.forecho.com/2026/05/29/IMG_4305.JPG)
 
 最后两步骤大家最后截图，因为后面要去老虎证券确认汇款的时候需要截图证明
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/IMG_4307.JPG)
+![](https://imgant.forecho.com/2026/05/29/IMG_4307.JPG)
 
 ### 确认汇款
 
@@ -60,7 +60,7 @@ PS：还没有在老虎证券开户小伙伴可以通过下面链接开户：<ht
 
 开户链接：<https://link.3li3.com/tiger>
 
-![老虎证券开户](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/itiger.png!s)
+![老虎证券开户](https://imgant.forecho.com/2026/05/29/itiger.png)
 
 ## 关于时间
 

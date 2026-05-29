@@ -41,7 +41,7 @@ toc: true
 - 器械少，但是基本够用，而去我周末可以去远一点的其他门店练。
 
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20220731gYhhgG.JPG)
+![](https://imgant.forecho.com/2026/05/29/20220731gYhhgG.JPG)
 
 作为年轻人的第一个健身房我强烈推荐乐刻健身房。当你确定自己能养成健身习惯之后，再可以去看看其他健身房。
 
@@ -84,6 +84,6 @@ toc: true
 
 ## 最后
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20220731tR5Jyz.jpg)
+![](https://imgant.forecho.com/2026/05/29/20220731tR5Jyz.jpg)
 
 健身主要是为了拥有一个强壮的体魄，让自己更加健康，更加自信。

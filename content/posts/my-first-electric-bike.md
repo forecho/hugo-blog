@@ -20,7 +20,7 @@ toc: true
 
 电池太小，跑的就不远，充电要频繁一点。刚开始打算买个下面这种电动自行车就行的，便宜，小巧，停车方便。但是电池容量不高，「驾驶」体验也不是很好，后面只适合坐小朋友，成人坐着比较难受。
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20220726ggev9v.png)
+![](https://imgant.forecho.com/2026/05/29/20220726ggev9v.png)
 
 <!--more-->
 
@@ -47,7 +47,7 @@ toc: true
 
 最后看了两家雅迪的店，选了一家总代理商店，3600 买了辆**雅迪 DM6**。
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20220726Ffkb31.jpg!m)
+![](https://imgant.forecho.com/2026/05/29/20220726Ffkb31.jpg)
 
 ### 电池
 
@@ -102,7 +102,7 @@ toc: true
 
 找充电桩，深圳这边我最常见的是小绿人充电桩了，我家楼下有好几个，不过充电的电池车也多，下班晚了也会遇到没地方充电的情况。他们的小程序做的好不错，支持微信支付分先充电后付钱，体验很好。
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20220726oLKAjL.jpg!m)
+![](https://imgant.forecho.com/2026/05/29/20220726oLKAjL.jpg)
 
 缺点就是你不能用的自带的变压器充电，他们自带的充电头是慢充，我的车充满电要整整一晚上。卖电动车的老板还说他们充不满电，我也不懂是不是真的。
 

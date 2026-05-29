@@ -8,7 +8,7 @@ toc: true
 
 ## 引言
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/202205294jFqtE.jpg)
+![](https://imgant.forecho.com/2026/05/29/202205294jFqtE.jpg)
 
 最近市场低迷，QQQ 早已经进入技术性熊市了，连 SPY 也进入了技术性熊市，这篇文章我们就来谈谈股票暴跌亏损了怎么办？
 
@@ -16,7 +16,7 @@ toc: true
 
 ### 设置止损
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20220529LqIHu7.jpg)
+![](https://imgant.forecho.com/2026/05/29/20220529LqIHu7.jpg)
 
 给每个股票设置一个止损线，如果股票的价格跌破止损线，就卖出股票。
 

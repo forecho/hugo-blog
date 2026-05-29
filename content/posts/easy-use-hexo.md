@@ -65,7 +65,7 @@ $ npm install -g hexo-cli
 
 1、去 Github 提供的 [Personal Access Token](https://github.com/settings/tokens) 创建一个 Token，然后复制 Token 值，记录下来，后面会用到。
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424161626.png)
+![](https://imgant.forecho.com/2026/05/29/20190424161626.png)
 
 2、在项目根目录下新建 `.travis.yml` 文件，代码如下：
 
@@ -124,7 +124,7 @@ git push -u origin master
 
 开启之后点击设置添加环境变量值，在 `Environment Variables` 处添加 `GH_TOKEN` 值为上面第一步生成的 token 值。
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424161645.png)
+![](https://imgant.forecho.com/2026/05/29/20190424161645.png)
 
 至此配置完成，以后你写文章就是要去 `source/_posts/` 目录下，参照已有文件规则手动新建一个文件，就可以开始写博客了，写完再次 `git push` 就可以实现自动部署了。
 
@@ -139,7 +139,7 @@ blog.3li3.com
 
 然后你需要在域名管理中心，添加一个 cname 解析，记录值写 `3li3.github.io`，3li3 代表 GitHub 组织名或者用户名，如下
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424161658.png)
+![](https://imgant.forecho.com/2026/05/29/20190424161658.png)
 
 ## 更换主题
 

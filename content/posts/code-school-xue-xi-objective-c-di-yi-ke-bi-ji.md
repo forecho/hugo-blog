@@ -6,7 +6,7 @@ draft: false
 toc: true
 ---
 
-![20220124aQCmYB](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20220124aQCmYB.jpg)
+![20220124aQCmYB](https://imgant.forecho.com/2026/05/29/20220124aQCmYB.jpg)
 
 学习地址是：<http://tryobjectivec.codeschool.com/> 感觉非常有趣的体验，并且还能学习一下英文，英文单词都是比较简单的，我基本上都能看懂。 下面记录一下第一节课的笔记： 
 

@@ -6,7 +6,7 @@ draft: false
 toc: true
 ---
 
-[![《陈志武金融通识课》](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/1zkQDk.png)](https://book.douban.com/subject/30218972/)
+[![《陈志武金融通识课》](https://imgant.forecho.com/2026/05/29/1zkQDk.png)](https://book.douban.com/subject/30218972/)
 
 ## 一段话说明『这本书主要讲什么？』
 

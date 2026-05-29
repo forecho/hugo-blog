@@ -33,7 +33,7 @@ toc: true
 - 优势：可以参与打新的港币比较多，而且开始打新时间比其它平台早。
 - 劣势：目前不支持大陆卡入金，只能境外卡入金。
 - 开户地址：<https://link.3li3.com/futu>
-![富途证券开户](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/futu5.png!s)
+![富途证券开户](https://imgant.forecho.com/2026/05/29/futu5.png)
 
 ### 雪盈证券
 
@@ -44,7 +44,7 @@ toc: true
 - 优势：融资年化低。
 - 劣势：打新能力不行，热门新股申购要排队，而且大概率会失败。
 - 开户地址：<https://link.3li3.com/xueying>
-![雪盈证券开户](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/snowballsecurities.png!s)
+![雪盈证券开户](https://imgant.forecho.com/2026/05/29/snowballsecurities.png)
 
 ### 老虎证券
 
@@ -56,7 +56,7 @@ toc: true
 - 优势：是为数不多支持美股打新的中国证券平台了，有些独家美股打新，这个很有优势。支持大陆卡（民生银行）入金。
 - 劣势：打新杠杆太低，别人都是 10 倍，老虎只有 2 倍，能打新的港股没有富途证券的多，而且额度难抢。
 - 开户地址：<https://link.3li3.com/tiger>
-![老虎证券开户](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/itiger.png!s)
+![老虎证券开户](https://imgant.forecho.com/2026/05/29/itiger.png)
 
 ### 长桥证券
 
@@ -67,7 +67,7 @@ toc: true
 - 优势：可以参与打新的港币比较多，相对其他平台比较新，所以经常搞活动。
 - 劣势：目前不支持大陆卡入金，只能境外卡入金。
 - 开户地址：<https://link.3li3.com/qiao>
-![长桥证券开户](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/longbridge.png!s)
+![长桥证券开户](https://imgant.forecho.com/2026/05/29/longbridge.png)
 
 
 总的来说，这几个平台都各有优势，那么如何选择呢？

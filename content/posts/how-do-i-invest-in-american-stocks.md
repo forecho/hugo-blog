@@ -55,7 +55,7 @@ toc: true
 - 点击[开户链接](https://link.3li3.com/futu)
 - 扫码开户
 
-![EJFeTo](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/EJFeTo.png)
+![EJFeTo](https://imgant.forecho.com/2026/05/29/EJFeTo.png)
 
 
 **重要的事情说三遍，首次入金的小伙伴，可以在推荐人写我的牛牛号： 2855236，我会有200块钱奖励，而且你也会有。**
@@ -64,7 +64,7 @@ toc: true
 
 具体在哪一步写牛牛号？就是在转完资金之后确认资金的那一步，也是最后一步，看下图：
 
-![Imgur](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424163403.png)
+![Imgur](https://imgant.forecho.com/2026/05/29/20190424163403.png)
 
 PS：最后吐槽一下，当天下午3点之后入金，需要等待下一个交易日处理了。😓
 

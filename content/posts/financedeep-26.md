@@ -18,14 +18,14 @@ toc: true
 
 赶在收盘前卖一个好价格，下面是这两个的卖出价格
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/202104237E7G4T.JPEG!m)
+![](https://imgant.forecho.com/2026/05/29/202104237E7G4T.JPEG)
 
 盈亏统计我也算好了，两个公式分别是：
 
 - 盈亏 = 卖出总金额-买入总金额-卖出手续费-买入手续费
 - 盈亏比例 = 盈亏/买入总金额*100
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20210423Ei4i4y.png)
+![](https://imgant.forecho.com/2026/05/29/20210423Ei4i4y.png)
 
 所以总的来说我亏了 331.2 = 358.1-26.9  😭😭
 

@@ -50,11 +50,11 @@ xdebug.client_host=127.0.0.1
 - Port: `8000`
 - Debugger: `Xdebug`
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20220429mY2VXn.png)
+![](https://imgant.forecho.com/2026/05/29/20220429mY2VXn.png)
 
 开关 xdebug 地方在 Phpstorm 顶部的菜单，如上图所示
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/202204290OS0gf.png)
+![](https://imgant.forecho.com/2026/05/29/202204290OS0gf.png)
 
 
 开启 xdebug 之后，在需要打断点的地方前面标记一下就可以了。

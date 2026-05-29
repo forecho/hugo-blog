@@ -20,7 +20,7 @@ toc: true
 
 ### 概况
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20221231t8bD5U.JPG)
+![](https://imgant.forecho.com/2026/05/29/20221231t8bD5U.JPG)
 
 今年基金亏惨了，总体收益 -13% 左右，去年是 +6%，去年的利润全没了还不说，还倒亏钱了。
 
@@ -35,7 +35,7 @@ toc: true
 
 而它们今年的表现参考如下图：
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20221231V5A93i.PNG!m)
+![](https://imgant.forecho.com/2026/05/29/20221231V5A93i.PNG)
 
 新能源实惨，医疗我半路割肉清仓了。白酒和新能源的仓位还在，今年刚开始是定投，后面钱不多就开始手动交易了。
 
@@ -61,7 +61,7 @@ toc: true
 
 ### 概况
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20230102Gqozn6.PNG!m)
+![](https://imgant.forecho.com/2026/05/29/20230102Gqozn6.PNG)
 
 今年美股投资是非常艰难的一年，标普 500 指数累计下跌 19%，为 2008 年以来的最大年度跌幅。道琼斯指数下跌 8.8%，纳斯达克综合指数下跌 33%，受科技股下跌拖累。
 
@@ -120,7 +120,7 @@ toc: true
 
 最近我有一个想法，我打算把内容同步到 [Telegram 频道](https://t.me/CaiRebirth)，这个频道对所有人开放，不需要付费，而如果你觉得我的内容对你有帮助，可以考虑加入我的知识星球，算是对我的支持与鼓励。
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/202301011rAMvL.png!m)
+![](https://imgant.forecho.com/2026/05/29/202301011rAMvL.png)
 
 ### 社群
 

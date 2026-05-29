@@ -53,11 +53,11 @@ toc: true
 
 左边是 KPW3，右边是 Kindle5：
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424161104.png)
+![](https://imgant.forecho.com/2026/05/29/20190424161104.png)
 
 KPW3 后背 LOGO 变成 amazon 了：
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424161115.png)
+![](https://imgant.forecho.com/2026/05/29/20190424161115.png)
 
 海淘最痛苦的是，买了东西要经过漫长的等待！我差不多等了20天，算是一种折磨。用了一段 KPW3 之后我来谈谈两个的区别：
 

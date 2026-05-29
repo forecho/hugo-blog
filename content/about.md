@@ -56,4 +56,4 @@ draft: false
 - [instagram](https://www.instagram.com/forecho/)
 - 微信公众号
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424163739.png)
+![](https://imgant.forecho.com/2026/05/29/20190424163739.png)

@@ -16,7 +16,7 @@ toc: true
 
 ## 基本介绍
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20220508y4O9Xu.jpg!m)
+![](https://imgant.forecho.com/2026/05/29/20220508y4O9Xu.jpg)
 
 - 用 `>` 表示高于，用 `<` 表示低于
 
@@ -42,7 +42,7 @@ toc: true
 
 ### 无影蜡烛
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20220508UYro6H.png!m)
+![](https://imgant.forecho.com/2026/05/29/20220508UYro6H.png)
 
 特点：
 
@@ -51,7 +51,7 @@ toc: true
 
 ### 十字星蜡烛
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20220508imgdvl.png!m)
+![](https://imgant.forecho.com/2026/05/29/20220508imgdvl.png)
 
 定义：
 
@@ -65,7 +65,7 @@ toc: true
 
 ### 锤子蜡烛
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20220508hE2ozA.png!m)
+![](https://imgant.forecho.com/2026/05/29/20220508hE2ozA.png)
 
 特点：
 

@@ -9,11 +9,11 @@ toc: true
 
 自从双十一换了 iPhone7 之后我终于是从 iPhone5 而且是16G的容量中解放出来了，当时我的心情是这样的：
 
-![Imgur](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424162515.png)
+![Imgur](https://imgant.forecho.com/2026/05/29/20190424162515.png)
 
 我现在的 iPhone7 安装了242个应用，没错，我是重度 App 使用者。
 
-![Imgur](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424162526.png)
+![Imgur](https://imgant.forecho.com/2026/05/29/20190424162526.png)
 
 从2012年底买了第一部 iPhone 之后，从此走上了果粉的不归路。从今年开始我决定每年写一篇『我的年度应用』来记录和分享我的使用心得。
 
@@ -27,13 +27,13 @@ toc: true
 
 **[Reeder](https://itunes.apple.com/cn/app/reeder-3/id697846300?mt=8&uo=4&ct=pc&at=1010lmKs)**
 
-![Reeder](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424162538.png)
+![Reeder](https://imgant.forecho.com/2026/05/29/20190424162538.png)
 
 30 块钱买的，虽然开发者更新频率少的可怜，但是依然非常值，RSS 利器。阅读体验非常好，功能非常强大。
 
 **[Tweetbot](https://itunes.apple.com/cn/app/tweetbot-4-for-twitter/id1018355599?mt=8&uo=4&ct=pc&at=1010lmKs)**
 
-![Tweetbot](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424162548.png)
+![Tweetbot](https://imgant.forecho.com/2026/05/29/20190424162548.png)
 
 买的时候是30块钱，用来刷 Twitter。体验非常好，是其他 App 开发者学习的榜样。
 
@@ -44,27 +44,27 @@ toc: true
 
 **[Gyroscope](https://itunes.apple.com/cn/app/health-tracking-by-gyroscope/id1104085053?mt=8&uo=4&ct=pc&at=1010lmKs)**
 
-![Gyroscope](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424162601.png)
+![Gyroscope](https://imgant.forecho.com/2026/05/29/20190424162601.png)
 
 颜值高、功能非常强大的 App，本身不产生数据，调用各种工具的数据，帮你做统计，本身有免费版。免费版可以帮你统计步数，睡眠时间，电脑各种软件使用时间。
 
 **[Moves](https://itunes.apple.com/cn/app/moves/id509204969?mt=8&uo=4&ct=pc&at=1010lmKs)**
 
-![Moves](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424162610.png)
+![Moves](https://imgant.forecho.com/2026/05/29/20190424162610.png)
 
 这款软件我是通过 Gyroscope 才知道的。一款记录你移动的 App，支持中文，评论说地图有偏移，个人感觉还好，非常好用。你还在为每次出门到达目的不知道花费多长时间而苦恼吗？
 反正我以前有这种烦恼，每次出门特意看了一下时间，但是到达目的地之后却忘记及时看时间了。自从用了这款软件之后，你的移动轨迹时间记录的一清二楚。
 
 **[RescueTime](https://www.rescuetime.com)**
 
-![RescueTime](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424162619.png)
+![RescueTime](https://imgant.forecho.com/2026/05/29/20190424162619.png)
 
 一款帮你自动记录电脑软件使用和网站访问时间的工具，免费版足够强大和好用。之前就有知道这个软件，但是没安装。
 自从通过 Gyroscope 才开始体验，非常好，唯一遗憾的是 iPhone 平台还没推出。
 
 **[微记账](https://itunes.apple.com/cn/app/wei-ji-zhang-zhi-neng-yu-yin/id1086339443?mt=8&uo=4&ct=pc&at=1010lmKs)**
 
-![微记账](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424162632.png)
+![微记账](https://imgant.forecho.com/2026/05/29/20190424162632.png)
 
 我记账的历史应该有3年多了，直到半年前才坚持持续记账，之前都是断断续续的。从最开始的『随手记』到后面的『挖财』，再到后来的『Money Pro』,我都觉得我挺能折腾的，
 这三款 App 可以说都是非常优秀的记账软件，但是我还偶尔还是没记账，原因是懒，每次记账都要点好几次才完成一次记账操作。
@@ -76,7 +76,7 @@ toc: true
 
 **[豆瓣](https://www.douban.com/people/ipzone/)**
 
-![豆瓣](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424162642.png)
+![豆瓣](https://imgant.forecho.com/2026/05/29/20190424162642.png)
 
 相信大家都知道这个网站吧，2011-02-26 我就加入了，但是真正开始用起来还是最近两年的事情，目前最常用的模块是读书和电影。
 最常用的功能是给电影和书打标记。如果坚持下来，每年你就知道你读了多少书，看了多少电影。
@@ -85,14 +85,14 @@ toc: true
 
 **[滴答清单](https://itunes.apple.com/cn/app/di-da-qing-dan-ren-wu-guan/id626144601?mt=8&uo=4&ct=pc&at=1010lmKs)**
 
-![滴答清单](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424162653.png)
+![滴答清单](https://imgant.forecho.com/2026/05/29/20190424162653.png)
 
 放空你的大脑，你需要一个日程管理工具，最近半年我才彻底区分清单和日程管理，不再纠结[奇妙清单](https://www.wunderlist.com/)。
 而且还发现了『滴答清单』这款非常好用的日程管理工具，同样支持语音和文字输入，然后智能分析，帮你一步操作。各种细节非常人性化。
 
 **[Flat Tomato](https://itunes.apple.com/cn/app/flat-tomato-time-management/id719462746?mt=8&uo=4&ct=pc&at=1010lmKs)**
 
-![Flat Tomato](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424162702.png)
+![Flat Tomato](https://imgant.forecho.com/2026/05/29/20190424162702.png)
 
 一款颜值高，并且好用的番茄工作法 App，自从有了它，让我工作效率大大提升。
 
@@ -115,7 +115,7 @@ toc: true
 
 **[Google 相册](https://itunes.apple.com/cn/app/google-xiang-ce-mian-fei-cun/id962194608?mt=8&uo=4&ct=pc&at=1010lmKs)**
 
-![Google 相册](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424162717.png)
+![Google 相册](https://imgant.forecho.com/2026/05/29/20190424162717.png)
 
 刚开始我把照片都同步到了百度云上去了，因为国内访问快。但是后来百度云各种账号被黑事件发生之后，我想应该找一下其他代替品了，然后我发现了 『Google 相册』，不用不知道，用了才知道差距。
 
@@ -125,7 +125,7 @@ toc: true
 
 **[奇妙清单](https://itunes.apple.com/cn/app/qi-miao-qing-dan-ren-wu-guan/id406644151?mt=8&uo=4&ct=pc&at=1010lmKs)**
 
-![wunderlist](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424162730.png)
+![wunderlist](https://imgant.forecho.com/2026/05/29/20190424162730.png)
 
 使用此 App 已经有3年多了，最终决定只用它来帮我记录思路和收集突然冒出的想法，人生嘛，总会有各种各样的清单等着我们去做。
 

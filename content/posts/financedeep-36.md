@@ -16,7 +16,7 @@ toc: true
 
 ### 购买做空 ETF
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/202203157jvoBy.JPEG!m)
+![](https://imgant.forecho.com/2026/05/29/202203157jvoBy.JPEG)
 
 目前我找到了这几个做空的 ETF，都是做空指数不是个股的，这很适合在熊市的时候买入，更激进的可以配合期权操作，买入这几个 ETF 的 CALL。
 
@@ -51,4 +51,4 @@ toc: true
 - Telegram 交流群：欢迎加入我的 Telegram 交流群，一起学习交流：<https://t.me/BaoFuTogether>
 - 开户福利：如果你还没有美股开户的话，推荐我正在使用的长桥证券，他们目前开户成功入金有送股票，开户链接：<https://link.3li3.com/qiao>
 
-![长桥证券开户](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/202302103dIO3V.png!s)
+![长桥证券开户](https://imgant.forecho.com/2026/05/29/202302103dIO3V.png)

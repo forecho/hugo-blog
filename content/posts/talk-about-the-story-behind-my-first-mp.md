@@ -11,7 +11,7 @@ toc: true
 
 好了，扯远了，关于知乎的话题我觉得我可以再单独写一篇文章分享了。微信公众号刚出来没多久我也就跑去尝鲜了。刚才看了一下后台，第一篇群发发自2013年01月28日，距今有4年多了。
 
-![Imgur](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424163131.png)
+![Imgur](https://imgant.forecho.com/2026/05/29/20190424163131.png)
 
 <!--more-->
 
@@ -23,17 +23,17 @@ toc: true
 
 上面有提到2013年01月28日群发的第一条消息，从历史消息来看的话，这个公众号基本上就在2014年底就没维护了。
 
-![Imgur](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424163144.png)
+![Imgur](https://imgant.forecho.com/2026/05/29/20190424163144.png)
 
 基本上就维护了1年，不算昨天发的那篇总共139篇文章吧。
 
-![Imgur](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424163157.png)
+![Imgur](https://imgant.forecho.com/2026/05/29/20190424163157.png)
 
 因为14年底的时候，我进了一家公司围着这微信做电商的公司，所有有幸接触到微信接口的开发，然后自己也尝试了业余时间做了一个程序，但是因为深度阅读是一个非认证的订阅号，能使用的接口非常有限，所以后来也就放弃维护程序了。
 
 说来惭愧，运营了1年公众号，粉丝最多的情况也不到2000人。现在1500都没有了。
 
-![Imgur](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424163208.png)
+![Imgur](https://imgant.forecho.com/2026/05/29/20190424163208.png)
 
 ## 放弃
 
@@ -56,7 +56,7 @@ toc: true
 
 说了这么多如果你还想关注我的个人公众号的话，欢迎扫码关注：
 
-![Imgur](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424163220.png)
+![Imgur](https://imgant.forecho.com/2026/05/29/20190424163220.png)
 
 与深度阅读公众号不一样的地方是，这个公众号的内容全部是我个人原创的文章，会分享一些读书心得，经验和一些总结，更新频率不会太大，但是每个月能保证至少两篇文章。
 

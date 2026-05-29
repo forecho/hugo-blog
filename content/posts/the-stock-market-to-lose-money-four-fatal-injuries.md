@@ -56,7 +56,7 @@ toc: true
 
 下图是在富途上如何开启 50 均线和 200 均线的步骤图：
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20220612j5YWGE.PNG)
+![](https://imgant.forecho.com/2026/05/29/20220612j5YWGE.PNG)
 
 ## 解决方案
 

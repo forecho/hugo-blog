@@ -32,7 +32,7 @@ toc: true
 
 Fork 代码之后，找到项目的「Settings」->「Secrets」，然后点击 `New repository secret` 添加 `JD_COOKIE` 环境变量
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20210624SwmqXY.png)
+![](https://imgant.forecho.com/2026/05/29/20210624SwmqXY.png)
 
 `JD_COOKIE` 的值是通过先登录你自己账号，获取 cookie 再过滤重组得到的。具体操作步骤请看：
 
@@ -47,7 +47,7 @@ Fork 代码之后，找到项目的「Settings」->「Secrets」，然后点击 
 
 通知具体方案请看文档 [《下方提供使用到的 Secrets 全集合》](https://github.com/forecho/scripts-JD/blob/master/githubAction.md#%E4%B8%8B%E6%96%B9%E6%8F%90%E4%BE%9B%E4%BD%BF%E7%94%A8%E5%88%B0%E7%9A%84-secrets%E5%85%A8%E9%9B%86%E5%90%88)。我用的 telegram 通知，感觉最方便了，效果如下：
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20210624i9nBbD.png)
+![](https://imgant.forecho.com/2026/05/29/20210624i9nBbD.png)
 
 这个根据你自己的情况按需配置就可以了。
 

@@ -37,11 +37,11 @@ toc: true
 
 目前正在进行第三批活动，使用优惠券之后的加入价格是 79/年，名额有限，先到先得，错过可以等下一波，但是不保证还能享受这个价格。
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20220417mMR65B.png!m)
+![](https://imgant.forecho.com/2026/05/29/20220417mMR65B.png)
 
 ## 最后
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20220416KK7O8z.png!m)
+![](https://imgant.forecho.com/2026/05/29/20220416KK7O8z.png)
 
 这不是我第一次创建知识星球了，949 天之前我就创办过一个，因为是免费加入的，没有太多责任，也没好好运营，没过几天就被遗忘了。
 

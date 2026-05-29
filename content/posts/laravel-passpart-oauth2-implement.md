@@ -16,13 +16,13 @@ toc: true
 
 简单来讲 OAuth 2.0 就是一个行业的标准授权协议。目的是为了给第三方应用颁发一个有时效性的访问令牌，以便第三方应用能够访问被授权的资源，我们常见场景有第三方登录。
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20220328fYuKxr.jpg)
+![](https://imgant.forecho.com/2026/05/29/20220328fYuKxr.jpg)
 
 <!--more-->
 
 ### 流程
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/202203282ECUEh.png)
+![](https://imgant.forecho.com/2026/05/29/202203282ECUEh.png)
 
 我们以 [miro](https://miro.com/) 网站为例，简单记录了一下使用流程：
 
@@ -47,7 +47,7 @@ toc: true
 
 ### 协议流程
 
-![OAuth2 Abstract Flow](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20220329XRMehI.jpeg)
+![OAuth2 Abstract Flow](https://imgant.forecho.com/2026/05/29/20220329XRMehI.jpeg)
 
 OAuth2 的主要授权流程是：
 

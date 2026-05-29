@@ -6,7 +6,7 @@ draft: false
 toc: true
 ---
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20220619ctYrL3.jpg)
+![](https://imgant.forecho.com/2026/05/29/20220619ctYrL3.jpg)
 
 ## 引言
 
@@ -42,7 +42,7 @@ PS：附 [复利计算器](http://dailycalculators.com/cn/node/10)
 
 这可谓是巴菲特最失败的一笔投资了，但是巴菲特在哪跌倒了就在哪站起来了。他没改名字也没破产，他把一个纺织厂硬生生地变成一个投资公司。股票从 7.5 变成了 4 万多一股了，是最贵的股票了。
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20220619z7G58k.png)
+![](https://imgant.forecho.com/2026/05/29/20220619z7G58k.png)
 
 ## 价值投资
 
@@ -74,7 +74,7 @@ PS：附 [复利计算器](http://dailycalculators.com/cn/node/10)
 
 最新 2022Q1 公布的 13F 数据显示，Apple 的股票仍是巴菲特的最大持仓，占比是 43%，其次是美国银行。[来源](https://whalewisdom.com/filer/berkshire-hathaway-inc)
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20220619XCJTt2.png)
+![](https://imgant.forecho.com/2026/05/29/20220619XCJTt2.png)
 
 PS: 附 [Berkshire Hathaway 最近 10 年持仓变化](https://valuesider.com/embed/chart/timeline/guru/warren-buffett-berkshire-hathaway/1067983?limit=10&title=1&include_others=0)
 
@@ -95,13 +95,13 @@ PS: 附 [Berkshire Hathaway 最近 10 年持仓变化](https://valuesider.com/em
 
 经济的发展是有周期的，有时候周期长 (几十年？)，有时候周期很短 (3-10 年左右)。公司的发展需要时间，只有达到一定的周期的公司才能实现红利。下图就是道琼斯指数的数据：
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/202206196YIe2t.png)
+![](https://imgant.forecho.com/2026/05/29/202206196YIe2t.png)
 
 红色区域是经济衰退的周期，绿色区域是经济发展的周期。
 
 当你耐心的等待和参与时间总会给你带来丰厚的收益。投资一年收益 200% 并没有什么了不起的，但是如果你能每年收益 20% 那才是可怕的，看看最近几年的 ARK。
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/202206194cm4gz.jpg)
+![](https://imgant.forecho.com/2026/05/29/202206194cm4gz.jpg)
 
 
 ## 最后

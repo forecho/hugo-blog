@@ -23,7 +23,7 @@ toc: true
 
 我们平常不想记账的一个原因可能就是嫌记账太麻烦了，要输入很多东西，所以我参考了之前我用的记账软件，设计了这个功能。简单的来说就是可以通过发送一句话实现记账功能，效果如下：
 
-![20200904A2e1h7](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20200904A2e1h7.png)
+![20200904A2e1h7](https://imgant.forecho.com/2026/05/29/20200904A2e1h7.png)
 
 
 ### 账号
@@ -58,7 +58,7 @@ toc: true
 
 1⃣️ 在[记录](http://www.cashwarden.com/#/record/index)页面直接输入关键词然后按下回车键就可以添加了。
 
-![20200904g5uVQh](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20200904g5uVQh.png)
+![20200904g5uVQh](https://imgant.forecho.com/2026/05/29/20200904g5uVQh.png)
 
 2⃣️ 给 Telegram Bot 发消息记账
 
@@ -95,17 +95,17 @@ toc: true
 
 - 先添加一笔记录，然后在记录列表找到「添加定时记账」按钮。
 
-![20200912RPOALI](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20200912RPOALI.png)
+![20200912RPOALI](https://imgant.forecho.com/2026/05/29/20200912RPOALI.png)
 
 - 目前支持的频率有：每天、每周、每月、工作日（周一至周五）、中国大陆的法定工作日。如果不够用欢迎反馈。
 
-![20200912GBYMDN](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20200912GBYMDN.png)
+![20200912GBYMDN](https://imgant.forecho.com/2026/05/29/20200912GBYMDN.png)
 
 - 每天记账统一是 UTC+8 时区 9 点执行（暂时简单粗暴）。
 
 - 如果想要 Telegram 定时记账成功的通知，之前**绑定过 Telegram 的用户**需要重新绑定一次，没绑定的去绑定就可以了，效果如下（标题不一样）：
 
-![20200912UWlhko](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20200912UWlhko.png)
+![20200912UWlhko](https://imgant.forecho.com/2026/05/29/20200912UWlhko.png)
 
 ## 诞生记
 

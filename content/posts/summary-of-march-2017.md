@@ -14,7 +14,7 @@ toc: true
 
 在2月28日的时候我写下[《我在学英语》](https://blog.forecho.com/i-am-learning-english.html) 这篇文章，而且有分享几个学英语的方法，那么一个月下来了，我的执行情况到底是怎么样的呢？我们先来先几组数据：
 
-![Imgur](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424163030.png)
+![Imgur](https://imgant.forecho.com/2026/05/29/20190424163030.png)
 
 上面就是我背单词的情况，那么就这个情况我来总结一下：
 
@@ -32,7 +32,7 @@ toc: true
 
 在[《2016年终总结》](https://blog.forecho.com/review-of-2016.htm)这篇文章最后关于展望这一节我有说过4月开始跑步，每周至少跑3次步。当初计划4月开始是考虑到深圳的天气，4月应该是比较暖和的，实际情况是我2月底中旬我就被兔子拉去迪卡侬买跑步的长袖和长裤了，所以2月低我就开始跑步了。下面是我三月份的打卡记录：
 
-![Imgur](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424163048.png)
+![Imgur](https://imgant.forecho.com/2026/05/29/20190424163048.png)
 
 总的来说做到了每周至少跑两次步，有时候是昨晚加班起不来，有时候早上天气下雨在家做 keep 一组课程，也有时候昨晚没睡好或者睡晚了真起不来，但是不管怎么说，从现在开始争取完成每周跑步三次。
 
@@ -52,7 +52,7 @@ toc: true
 - 每公里语音播报的时候，会暂停播客，播报结束之后，播客自动继续，体验非常好。之前使用悦跑圈的时候坑爹的是每次播报都是两个声音，而且播客声音很小，想听听不到。
 - **Gyroscope** 自我量化 App 关于跑步的数据使用的就是 Runkeeper 提供的 ，使用 Runkeeper 会单独有Running Card，如下图：
 
-![Imgur](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424163056.png)
+![Imgur](https://imgant.forecho.com/2026/05/29/20190424163056.png)
 
 
 Runkeeper 的免费版目前足够我用。
@@ -63,7 +63,7 @@ Runkeeper 的免费版目前足够我用。
 
 在[《2016年我的年度应用》](https://blog.forecho.com/2016-my-annual-app.html)这篇文章里面我有提到 **Day One** 这款写日记的 App，现在分享一下成果：
 
-![Imgur](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424163106.png)
+![Imgur](https://imgant.forecho.com/2026/05/29/20190424163106.png)
 
 没错我目前已经养成每天晚上写日记来记录自己一天的习惯了，今天发生了一点什么不一样的事情我都会记录下来，两三句话都行，至于2月15号那天为什么没记？因为那天确实不知道要写什么，那天过的非常平淡。
 

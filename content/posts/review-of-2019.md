@@ -26,7 +26,7 @@ toc: true
 
 今年很长一段时间习惯打卡我都是 [Habitify](https://habitify.me/) 和 [iBetter](https://itunes.apple.com/cn/app/ibetter-%E4%B9%A0%E6%83%AF%E5%85%BB%E6%88%90%E6%89%93%E5%8D%A1-%E4%BA%BA%E7%94%9F%E5%85%BB%E6%88%90%E8%AE%A1%E5%88%92/id1262378864?mt=8) 都记录，后来觉得还是太麻烦了，索性就只保留了功能跟强大 UI 更漂亮的 [Habitify](https://habitify.me/) 了，它现在还支持 Siri 打卡，非常方便，而因为去年数据丢失的事情，我现在都会定时手动备份数据。
 
-![BuhvKE](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/BuhvKE.jpg!m)
+![BuhvKE](https://imgant.forecho.com/2026/05/29/BuhvKE.jpg)
 
 9 月底的时候，Keep 搞活动，买年度会员很优惠，一冲动就买了。10 月底的时候买了任天堂的 Switch，11 月底的时候买了健身环大冒险。买了健身环大冒险之后刚开始还和 Keep 切换着用，后来索性就放弃使用 Keep 了，白瞎了会员。
 

@@ -29,7 +29,7 @@ $aotoload['libraries']=array('database');
 $this->uri->segment(3)
 ```
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424160745.png)
+![](https://imgant.forecho.com/2026/05/29/20190424160745.png)
 
 6. config.php 下的代码（266 行）(如果为 true 则开启：自动防止攻击。)
 

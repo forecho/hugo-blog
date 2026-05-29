@@ -39,12 +39,12 @@ toc: true
 
 期权有看涨和看跌，对应的分别有买家和卖家，他们的权利（可选操作）和义务（必须操作）为：
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20210320Yqw3Ka.png)
+![](https://imgant.forecho.com/2026/05/29/20210320Yqw3Ka.png)
 
 
 于是就有了这四个策略：
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20210320IcwgxC.png)
+![](https://imgant.forecho.com/2026/05/29/20210320IcwgxC.png)
 
 - 买方：买入 Call 或者 Put ，期权价格**上涨**，你就会获利。
 - 卖方：卖出 Call 或者 Put ，期权价格**下跌**，你就会获利。
@@ -91,11 +91,11 @@ toc: true
 - 价内：指比较划算的一边。行权价低于市价的看涨（Call）和行权价高于市价的看跌（Put）。
 - 价外：指比较贵的一边。行权价高于市价的看涨（Call）和行权价低于市价的看跌（Put）。
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20210320USdV8c.png!m)
+![](https://imgant.forecho.com/2026/05/29/20210320USdV8c.png)
 
 价内和价外会随着股价的变化，上下浮动，到日期行权价处于什么位置决定是否获利：
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20210322t3d6th.png)
+![](https://imgant.forecho.com/2026/05/29/20210322t3d6th.png)
 
 - 买家：希望期权到期的时候行权价在**价内**就能获得利润
 - 卖家：希望期权到期的时候行权价在**价外**就能获得利润
@@ -138,4 +138,4 @@ toc: true
 - Telegram 交流群：欢迎加入我的 Telegram 交流群，一起学习交流：<https://t.me/BaoFuTogether>
 - 开户福利：如果你还没有美股开户的话，推荐我正在使用的长桥证券，他们目前开户成功入金有送股票，开户链接：<https://link.3li3.com/qiao>
 
-![长桥证券开户](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/202302103dIO3V.png!s)
+![长桥证券开户](https://imgant.forecho.com/2026/05/29/202302103dIO3V.png)

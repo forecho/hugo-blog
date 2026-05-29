@@ -12,7 +12,7 @@ toc: true
 
 - 开户地址：<https://link.3li3.com/xueying>
 
-![雪盈证券开户](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/snowballsecurities.png!s)
+![雪盈证券开户](https://imgant.forecho.com/2026/05/29/snowballsecurities.png)
 
 ## 正文
 
@@ -22,7 +22,7 @@ toc: true
 
 - 报名链接：<https://www.wjx.cn/jq/103533604.aspx>
 
-![报名链接：](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20210114NSjeUY.png!s)
+![报名链接：](https://imgant.forecho.com/2026/05/29/20210114NSjeUY.png)
 
 - 办理时间：1 月 30 日
 - 办理地点：上海陆家嘴附近（信息审核无误后，1 月 27 日会统一通过短信告知）

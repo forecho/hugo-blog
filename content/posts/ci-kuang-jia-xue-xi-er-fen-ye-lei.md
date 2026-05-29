@@ -8,7 +8,7 @@ toc: true
 
 手册写的很简单，看了无从下手，不过后来看了一个国外的视频教程。立马就懂了，国内的不行。 先看一下效果图：
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424160806.png)
+![](https://imgant.forecho.com/2026/05/29/20190424160806.png)
 
 下面是控制器中的代码：
 

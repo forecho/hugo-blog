@@ -6,7 +6,7 @@ draft: false
 toc: true
 ---
 
-[![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20211020VXxM9t.png)](https://linear.app/)
+[![](https://imgant.forecho.com/2026/05/29/20211020VXxM9t.png)](https://linear.app/)
 
 ## 引言
 
@@ -52,7 +52,7 @@ PS：上家公司用的是 Jira 管理项目，当时就体验过，用过这个
 
 ## 开放生态
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20211020XuH2yo.png)
+![](https://imgant.forecho.com/2026/05/29/20211020XuH2yo.png)
 
 国内的话生态太差了，很多软件都不会打通，Linear 目前支持以上几个平台。
 

@@ -6,7 +6,7 @@ draft: false
 toc: true
 ---
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20220320e3MOa4.jpg)
+![](https://imgant.forecho.com/2026/05/29/20220320e3MOa4.jpg)
 
 ## 一段话说明『这本书主要讲什么？』
 

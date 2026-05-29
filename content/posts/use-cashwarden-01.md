@@ -38,7 +38,7 @@ toc: true
 
 ### 分类关键词
 
-![20201125w1AFYE](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20201125w1AFYE.png)
+![20201125w1AFYE](https://imgant.forecho.com/2026/05/29/20201125w1AFYE.png)
 
 为了账本内其他成员能方便的快速记账，我开发了分类和账户关键词功能，这样快速记账的时候，其他成员几乎不需要配置也可以很方便的使用快速记账功能了。
 
@@ -56,7 +56,7 @@ toc: true
 
 ### 账户关键词
 
-![20201125EGDhFJ](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20201125EGDhFJ.png)
+![20201125EGDhFJ](https://imgant.forecho.com/2026/05/29/20201125EGDhFJ.png)
 
 还是接着上面说，话说有一天招行信用卡支付有活动，于是你午饭选了招行信用卡支付，那么你怎么快速记账呢？
 
@@ -76,13 +76,13 @@ toc: true
 
 **一、通过规则来分配账本**
 
-![202011252gds6f](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/202011252gds6f.png!m)
+![202011252gds6f](https://imgant.forecho.com/2026/05/29/202011252gds6f.png)
 
 比方说我新建了一个「生意账本」我新增了一个这样的账本，这样我每次快速记账的时候，只要输入的描述带有「生意」就会记录到生意账本里面，但是需要注意的是，如果记录到生意账本，只会使用生意账本的分类关键词。
 
 **二、使用「*」特殊关键词**
 
-![20201125YmToLv](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20201125YmToLv.png!m)
+![20201125YmToLv](https://imgant.forecho.com/2026/05/29/20201125YmToLv.png)
 
 比方说我新建了一个旅游账本，准备出去玩一个星期，如何让快速记账全部方便快捷的记录到指定的账本里面呢？我开发了一个「*」关键词，一旦你配置并且开启了此功能，此刻你所记录的所有记录都会归为你配置的账本里面（记账描述的时候不需要特殊的关键词），结束旅行之后，你可以通过关闭此规则来恢复日常记账。
 

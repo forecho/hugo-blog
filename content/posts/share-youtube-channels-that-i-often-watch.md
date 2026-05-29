@@ -17,7 +17,7 @@ toc: true
 
 ## [超級歪 Super Y](https://www.youtube.com/c/superycinema)
 
-[![超級歪 Super Y](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424163513.png)](https://www.youtube.com/c/superycinema)
+[![超級歪 Super Y](https://imgant.forecho.com/2026/05/29/20190424163513.png)](https://www.youtube.com/c/superycinema)
 
 推荐指数：⭐⭐⭐⭐⭐  
 分类：书、电影
@@ -28,7 +28,7 @@ toc: true
 
 ## [冏星人](https://www.youtube.com/user/shintaroReview)
 
-[![冏星人](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424163552.png)](https://www.youtube.com/user/shintaroReview)
+[![冏星人](https://imgant.forecho.com/2026/05/29/20190424163552.png)](https://www.youtube.com/user/shintaroReview)
 
 推荐指数：⭐⭐⭐⭐⭐  
 分类：书
@@ -37,7 +37,7 @@ toc: true
 
 ## [觸電網](https://www.youtube.com/user/truemovie1)
 
-[![觸電網](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424163604.png)](https://www.youtube.com/user/truemovie1)
+[![觸電網](https://imgant.forecho.com/2026/05/29/20190424163604.png)](https://www.youtube.com/user/truemovie1)
 
 推荐指数：⭐⭐⭐⭐  
 分类：电影
@@ -47,7 +47,7 @@ toc: true
 
 ## [電影法蘭克](https://www.youtube.com/user/Frankyin1)
 
-[![電影法蘭克](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424163614.png)](https://www.youtube.com/user/Frankyin1)
+[![電影法蘭克](https://imgant.forecho.com/2026/05/29/20190424163614.png)](https://www.youtube.com/user/Frankyin1)
 
 推荐指数：⭐⭐⭐⭐  
 分类：电影、漫画

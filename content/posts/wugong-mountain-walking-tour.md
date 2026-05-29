@@ -19,7 +19,7 @@ toc: true
 
 ## 行程
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/武功山徒步.png)
+![](https://imgant.forecho.com/2026/05/29/%E6%AD%A6%E5%8A%9F%E5%B1%B1%E5%BE%92%E6%AD%A5.png)
 
 ### Day 1
 
@@ -37,7 +37,7 @@ toc: true
 
 虽然在火车站硬卧可以睡觉，但是睡眠质量肯定是不能保证了，像我这种高质量睡眠的人，也是平均一个小时醒一次。下车之后我们出站就有人拉客，拼车去武功山，50 一人，我后来感觉有点被坑，因为我看到有人说是 40 一人。
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/uavZq2.jpg)
+![](https://imgant.forecho.com/2026/05/29/uavZq2.jpg)
 
 出发之前一定要跟司机说清楚要到龙山村登山口，确实有司机会没给你送到登山口就把你丢下去了。开了一个小时的车，我们才到龙山村登山口，注意上山的路，别走错了入口，我们就因为没自己看路，差点儿走错路了，还好有人冲我们喊，告诉我们走错路了。
 
@@ -47,39 +47,39 @@ toc: true
 
 前面两个多小时我们都是在爬山，一路上有很多补给站，但是开门的就一家。爬山的一路上都是这样的：
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/hBfH4k.jpg)
+![](https://imgant.forecho.com/2026/05/29/hBfH4k.jpg)
 
 以及这样的：
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/R7Hj4Y.jpg)
+![](https://imgant.forecho.com/2026/05/29/R7Hj4Y.jpg)
 
 直到 3 个小时之后我们终于爬上山顶，之后的景色一直是非常漂亮的：
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/Cqdtrf.jpg)
+![](https://imgant.forecho.com/2026/05/29/Cqdtrf.jpg)
 
 金黄色的草和蓝色的天空，后面我们还看到有挑夫，山上的物资都是这些挑夫辛苦挑上去的：
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/AMr0Rf.jpg)
+![](https://imgant.forecho.com/2026/05/29/AMr0Rf.jpg)
 
 11 点半我们终于到了发云界：
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/DxKbYX.jpg)
+![](https://imgant.forecho.com/2026/05/29/DxKbYX.jpg)
 
 旁边有一个客栈开着门，我们去那边吃饭，点了一份鱼和一份青菜，两人一起花了 100 块钱。爬了几个小时，有点累了，吃起饭来特别香。吃完饭休息了一下，**13 点** 之后我们继续接着爬山了。
 
 下午的路要比上午的路难爬多了，但是风景也比上午的好看多了。之后的风景都是这样的：
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/wtfIQc.jpg)
+![](https://imgant.forecho.com/2026/05/29/wtfIQc.jpg)
 
 我们爬的很慢，累了就站着休息 2 分钟，直到 4 点半，过了好汉坡，终于到了今天晚上的休息地武发客栈。
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/51tUkv.jpg)
+![](https://imgant.forecho.com/2026/05/29/51tUkv.jpg)
 
 武发客栈每人120一晚，包晚饭洗澡早餐。能看到日落和日出，在武功山上环境算非常好的客栈了，这个价格值。这个客栈听说节假日都是爆满了，需要提前预约。最好带现金，山上信号不好。
 
 老板给我们安排好房间，我们放下行李，赶紧去洗热水澡，洗完跑出去看日落。17：20 日落已经开始了：
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/OT23af.jpg)
+![](https://imgant.forecho.com/2026/05/29/OT23af.jpg)
 
 如果要看日落，要注意时间了，因为日落时间很短，10 分钟左右就结束了。
 
@@ -94,13 +94,13 @@ toc: true
 
 昨晚上睡的很香，5 点钟我们早早的就醒了，然后就去准备看日出，我们算是客栈里面起来最早的吧，等到 6 点多才有日出。
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/Vd2ADy.jpg)
+![](https://imgant.forecho.com/2026/05/29/Vd2ADy.jpg)
 
 大伙儿早已经拿好装备迫不及待了。
 
 看完日出，我们赶紧去收拾东西，吃完早餐准备上路了，等待我们的又将是『辛苦』的一天。8 点我们上路了，接下来就是几个上下坡，爬的让人非常绝望，所以这个地方叫绝望坡。其实我觉得快到好汉坡之前的那几个破也非常让人绝望的：
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/KrVsN3.jpg)
+![](https://imgant.forecho.com/2026/05/29/KrVsN3.jpg)
 
 爬了两个半小时我们终于到了吊马桩，去武功山之前我们的行程计划是今天在金顶附近住宿一天，第二天早上再下山的。但是昨天在武功山我们已经看完了日落和日出，所以金顶的住宿对我们意义不大了，所以我们昨晚上临时决定改变行程。改签了火车票，今天先去金顶然后下山返程，然后这个决定把我们坑惨了，导致最终我们没赶上高铁。
 
@@ -108,7 +108,7 @@ toc: true
 - 错误二：没有坐缆车下山，下山的路，全部是下台阶，估计有几万个台阶了，下的我们膝盖都痛了，但是我们也坚持不坐缆车，无谓的坚持。
 - 错误三：错误的评估时间，我们达到索道1，犹豫要不要坐缆车的时候，问了工作人员下山还要多久，人家说1个小时，实际上我们走了接近2个小时才到（从金顶下来我们花费接近 4 个小时），兔子以为我们高铁的出发时间是18:40多，实际上是18:09分。我以为山角坐车去高铁站的时间是半个小时，没仔细看攻略，实际上是70分钟的车程。
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/xRG2Em.jpg)
+![](https://imgant.forecho.com/2026/05/29/xRG2Em.jpg)
 
 早上 8 点出发，13 点我们终于登上了金顶，然后下山花费了 4 个小时。我们到达山脚已经5点了，差不多已经没人理，因为景区16:30就下班了。我们被一位司机拉去坐车。他说太晚了，只能让我们包车，我们赶时间，最后也只能包车了，他是个7座商务车，包车要180，拼车要40一位。
 
@@ -139,7 +139,7 @@ toc: true
 - 有人说发云界的鸡很好吃，200 块钱一只，人多的话可以尝一下。如果是两个人的话就算了，吃不完。
 - 登山不像是平地徒步，虽然这次行程最多一天也就不到 3万的步数，但是 iPhone 的统计是最多一天是爬了 357 层楼，最高海拔是 1900 多。线路是连绵不断的下山和下山。
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/cxiMLr.jpg)
+![](https://imgant.forecho.com/2026/05/29/cxiMLr.jpg)
 
 ## 最后
 

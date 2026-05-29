@@ -6,7 +6,7 @@ draft: false
 toc: true
 ---
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20191009111312.png)
+![](https://imgant.forecho.com/2026/05/29/20191009111312.png)
 
 默认是一般模式
 

@@ -8,7 +8,7 @@ toc: true
 
 ## 引言
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/ci.png)
+![](https://imgant.forecho.com/2026/05/29/ci.png)
 
 [Travis CI](https://travis-ci.org/) 用了好几年了，主要用途就是实现我的静态博客自动发布，[GitHub Action](https://github.com/features/actions) 我是今年才开始用，今天我从自己的使用经验对比一下两个平台的使用感受。
 

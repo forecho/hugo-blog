@@ -31,7 +31,7 @@ toc: true
 - 邮箱地址：`Y2FpemhlbmdoYWlAZ21haWwuY29t` （BASE64 解码才可以看到）
 - 扫描下面二维码加我微信
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424162125.png)
+![](https://imgant.forecho.com/2026/05/29/20190424162125.png)
 
 
 ## 最后

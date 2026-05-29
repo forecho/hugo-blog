@@ -6,7 +6,7 @@ draft: false
 toc: true
 ---
 
-![《鱼翅与花椒》](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/MdOhyE6eqjQ3sWu.png!m)
+![《鱼翅与花椒》](https://imgant.forecho.com/2026/05/29/MdOhyE6eqjQ3sWu.png)
 
 ## 一段话说明『这本书主要讲什么？』
 

@@ -6,7 +6,7 @@ draft: false
 toc: true
 ---
 
-![C5TdgZ](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/C5TdgZ.jpg)
+![C5TdgZ](https://imgant.forecho.com/2026/05/29/C5TdgZ.jpg)
 
 ## 引言
 

@@ -17,7 +17,7 @@ tags: ["购物"]
 
 ### Sistema 盒
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/IMG_2142.jpg)
+![](https://imgant.forecho.com/2026/05/29/IMG_2142.jpg)
 
 重点推荐上图第一个（1400ML 的蒸盒）。
 

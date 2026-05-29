@@ -13,7 +13,7 @@ toc: true
 
 ## 申请过程
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20221202gchQDR.jpg!m)
+![](https://imgant.forecho.com/2026/05/29/20221202gchQDR.jpg)
 
 你可以通过扫描上图的二维码申请美团联名信用卡，申请过程非常简单，只需要填写一些基本信息就可以了。简单说一下福利：
 
@@ -21,7 +21,7 @@ toc: true
 
 <!--more-->
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20221202ey3l55.jpg!m)
+![](https://imgant.forecho.com/2026/05/29/20221202ey3l55.jpg)
 
 - 申请激活之后，有 4 选一的福利，我当时选的时候没注意看，选的是第一个，对于经常点外卖的朋友，选第三个好像更划算。瞬间觉得自己亏了。
 - 美团联名的是上海银行，需要线下激活，所以不是所有城市都支持的。我当时收到卡之后，没去营业厅激活，几天之后有人主动联系我了，约时间上门帮我激活，方便。
@@ -30,18 +30,18 @@ toc: true
 
 ### 京东到家满减
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20221202FSRqcv.jpg!m)
+![](https://imgant.forecho.com/2026/05/29/20221202FSRqcv.jpg)
 
 目前这个卡每周五在「京东到家」下单超过 120 会减 20。名额有限，每人每月 2 次，感觉优惠力度还不错 😌，今天早上已经薅到了羊毛。
 
 ### 其他福利
 
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/202212024qVYq5.PNG!m)
+![](https://imgant.forecho.com/2026/05/29/202212024qVYq5.PNG)
 
 - 每笔在美团上消费可以抽奖
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20221202drkk1C.PNG!m)
+![](https://imgant.forecho.com/2026/05/29/20221202drkk1C.PNG)
 
 - 每周三喜茶、奈雪的茶、乐乐茶微信满 50 减 20，信用卡上月达标次月享星巴克买一赠一！等等活动
 

@@ -24,9 +24,9 @@ toc: true
 
 她们是刚玩完回来的，准备回家的，我们就问了很多情况，留了联系方式，她们给推荐了一家大理的客栈，给了电话我们。
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20220124jj8XQ8.jpg)
+![](https://imgant.forecho.com/2026/05/29/20220124jj8XQ8.jpg)
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/202201245nvqxS.jpg)
+![](https://imgant.forecho.com/2026/05/29/202201245nvqxS.jpg)
 
 ---
 
@@ -38,9 +38,9 @@ toc: true
 
 去找餐馆的路上我们就已经逛了遍古城了，吃饭完天都黑了，于是开始找住宿的地方，想到了那个电话，然后找到了「菲儿小屋」，15/床位，便宜，但是环境一般般，十人间，男女分开住，房间不大，但是有热水有 WIFI，所以我们就住下了。太累了，洗洗就睡了。
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20220124ermSqt.jpg)
+![](https://imgant.forecho.com/2026/05/29/20220124ermSqt.jpg)
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20220124AapZ4l.jpg)
+![](https://imgant.forecho.com/2026/05/29/20220124AapZ4l.jpg)
 
 ---
 
@@ -56,9 +56,9 @@ toc: true
 
 吃完饭有个小伙伴要回去了，如果你打算当天回去的话，最好在这里就要返回了，如果你是租的电动车也要在这里返回了，要不然电动车的电不够了。吃完饭休息了几分钟继续上路了。
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20220124OblRRa.jpg)
+![](https://imgant.forecho.com/2026/05/29/20220124OblRRa.jpg)
 
-![20220124UGlbgQ](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20220124UGlbgQ.jpg)
+![20220124UGlbgQ](https://imgant.forecho.com/2026/05/29/20220124UGlbgQ.jpg)
 
 ---
 
@@ -74,9 +74,9 @@ toc: true
 
 在客栈我们又捡到了一位妹子，于是我们的队伍又多了个人。
 
-![20220124XkKEJn](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20220124XkKEJn.jpg)
+![20220124XkKEJn](https://imgant.forecho.com/2026/05/29/20220124XkKEJn.jpg)
 
-![20220124Zewvn6](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20220124Zewvn6.jpg)
+![20220124Zewvn6](https://imgant.forecho.com/2026/05/29/20220124Zewvn6.jpg)
 
 ---
 
@@ -90,9 +90,9 @@ toc: true
 
 坚持了差不多两个小时我们终于比较狼狈的到了大理古城，我们约定回去洗洗，8 点半出来吃个散伙饭吧，大家能结识也是缘分。吃饭完大家互留了联系方式，然后就散伙了，有的回家了，我们准备待在大理一天，后天去丽江。
 
-![20220124pM5eEE](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20220124pM5eEE.jpg)
+![20220124pM5eEE](https://imgant.forecho.com/2026/05/29/20220124pM5eEE.jpg)
 
-![20220124c7x7Yw](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20220124c7x7Yw.jpg)
+![20220124c7x7Yw](https://imgant.forecho.com/2026/05/29/20220124c7x7Yw.jpg)
 
 ---
 
@@ -104,9 +104,9 @@ toc: true
 
 进去转了一圈感觉买票进去真的是很亏，里面也没啥好看的，就那么点大。我们随便转了下就出来了。下午我们就逛古城，基本上把古城逛了遍，什么洋人街，人民路都逛了。我还吃了很多小吃，然后后来去博爱路的一然堂吃素，5 元自助餐。注意饭菜不要打多了，这个是不能剩的。之后天黑了该回家休息了。
 
-![202201243rP1LH](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/202201243rP1LH.jpg)
+![202201243rP1LH](https://imgant.forecho.com/2026/05/29/202201243rP1LH.jpg)
 
-![202201244u8C3p](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/202201244u8C3p.jpg)
+![202201244u8C3p](https://imgant.forecho.com/2026/05/29/202201244u8C3p.jpg)
 
 ---
 
@@ -122,9 +122,9 @@ toc: true
 
 后来在院子里面又碰到之前一起逃票去天龙八部的小伙伴了，原来大家都是德叔介绍过来的，晚上一起吃完饭，本来打算去酒吧的，但是嫌时间太晚，我们就去了 KTV，豪华大包间，880。晚上女汉子们喝多酒了发酒疯，又哭又闹的，把我们折腾的够呛。
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/202201249BKiBQ.jpg)
+![](https://imgant.forecho.com/2026/05/29/202201249BKiBQ.jpg)
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20220124oQFjsY.jpg)
+![](https://imgant.forecho.com/2026/05/29/20220124oQFjsY.jpg)
 
 ---
 
@@ -138,9 +138,9 @@ toc: true
 
 到了门口看门大爹不让进，在门口拍了几张照片，并且在门口找了几个小伙伴凑齐了 8 个人摆了龙门镖局的经典 POS，然后围着龙门镖局转了一圈就又走回去了。累趴了。
 
-![20220124Rebf23](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20220124Rebf23.jpg)
+![20220124Rebf23](https://imgant.forecho.com/2026/05/29/20220124Rebf23.jpg)
 
-![20220124zRQPQK](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20220124zRQPQK.jpg)
+![20220124zRQPQK](https://imgant.forecho.com/2026/05/29/20220124zRQPQK.jpg)
 
 ---
 
@@ -156,9 +156,9 @@ toc: true
 
 本来飞哥飞嫂要搞中秋活动的，但是回来的时候听说他们吵架了，取消活动了，于是我们就自己举办活动了，开始大家和酒聊天，后来玩「逢七过」的游戏，玩的好嗨啊，笑死了。一直到 2 点，两箱酒喝完了，大家就洗洗睡觉了。中秋就这么过了。
 
-![20220124Vf3OQD](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20220124Vf3OQD.jpg)
+![20220124Vf3OQD](https://imgant.forecho.com/2026/05/29/20220124Vf3OQD.jpg)
 
-![202201247hP5Og](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/202201247hP5Og.jpg)
+![202201247hP5Og](https://imgant.forecho.com/2026/05/29/202201247hP5Og.jpg)
 
 ---
 
@@ -176,9 +176,9 @@ toc: true
 
 赶在天黑之前我们终于上了公路，差不多走了一个小时，然后我们拦到了一辆车送我们到了大洛水，然后吃完饭，准备找住宿的了。有一个国际青旅 45/床位，但是我们去的时候已经客满了，平常这个青旅是 35/床位的，但是那时候是中秋，竟然涨了 10 块钱。好吧，晚上 9 点多了，我们继续找客栈，随便看了几家，有一家叫「女神客栈」有一个湖景房是一个很大的床和一个小床，我们砍价之后 200 拿下了，平摊下来是每人 50。好不容易住了个湖景房，但是第二天天气不好，没日出。
 
-![20220124Pa9Ith](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20220124Pa9Ith.jpg)
+![20220124Pa9Ith](https://imgant.forecho.com/2026/05/29/20220124Pa9Ith.jpg)
 
-![202201242Ltxdp](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/202201242Ltxdp.jpg)
+![202201242Ltxdp](https://imgant.forecho.com/2026/05/29/202201242Ltxdp.jpg)
 
 ---
 
@@ -190,9 +190,9 @@ toc: true
 
 在走婚桥那边吃饭和充电动车，走婚前那边的小吃还不错。下午的风景就没有上午的好看了。回来的时候也就 4、5 点钟，我就在青旅看了一下书，这个青旅的书很多，感觉氛围还可以。然后这个青旅还可以搭伙吃饭，25/人，考虑到这边消费比丽江还贵，又想体验一下搭伙吃饭，于是我们就买票了，吃饭的时候结识了两个小伙伴，一对情侣，我们吃饭完还一起打了一下乒乓球和桌球。她还告诉我她以前住的青旅特别有意思，大家晚上出来围着聊天玩游戏。而这个青旅就显得比较冷清，我挺羡慕她说的那个青旅的。
 
-![20220124Acv4Jp](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20220124Acv4Jp.jpg)
+![20220124Acv4Jp](https://imgant.forecho.com/2026/05/29/20220124Acv4Jp.jpg)
 
-![20220124JCrYu8](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20220124JCrYu8.jpg)
+![20220124JCrYu8](https://imgant.forecho.com/2026/05/29/20220124JCrYu8.jpg)
 
 ---
 
@@ -204,9 +204,9 @@ toc: true
 
 然后在客栈又结识了同屋的新小伙伴，我们晚上一起又去逛古城，去吃了烤乳猪。晚上我们去了木府，但是已经关门了，新的小伙伴去过，经他介绍才知道木府其实是很大的，可以称作小皇宫了，徐霞客题过词。后来他带我们去了丽江最好的两个酒吧，一个是班布，一个就是江湖，两个酒吧都挺不错的，里面不大，但是满座了，有真正的地下音乐。感觉氛围非常的好。不像酒吧一条街的那些酒吧，门口都在「拉客」，怎么看怎么想「红灯区」，我挺反感的。丽江满街都在放的「一瞬间」就是出自班布酒吧的小倩。
 
-![20220124LpSNXA](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20220124LpSNXA.jpg)
+![20220124LpSNXA](https://imgant.forecho.com/2026/05/29/20220124LpSNXA.jpg)
 
-![20220124eGjs9k](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20220124eGjs9k.jpg)
+![20220124eGjs9k](https://imgant.forecho.com/2026/05/29/20220124eGjs9k.jpg)
 
 ---
 
@@ -216,9 +216,9 @@ toc: true
 
 回家之前我去寄明信片了，本来打算几张寄明信片然后搭车回昆明的。但是要寄二十多张明信片是我始料未及的，光买明信片都花了我 50 多。寄完都中午了，好吧，没时间搭车回去了。然后就只能坐晚上的火车回去了。到了昆明之后快 6 点了，我们直接买了回深圳的票就赶回来了。又是 28 个小时，还好车上的人不多，晚上睡觉的时候我们都可以躺着睡。
 
-![20220124UgCwav](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20220124UgCwav.jpg)
+![20220124UgCwav](https://imgant.forecho.com/2026/05/29/20220124UgCwav.jpg)
 
-![20220124KWV8Dp](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20220124KWV8Dp.jpg)
+![20220124KWV8Dp](https://imgant.forecho.com/2026/05/29/20220124KWV8Dp.jpg)
 
 ---
 

@@ -6,7 +6,7 @@ draft: false
 toc: true
 ---
 
-![202007250q2PEp](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/2020%2007%20250q2PEp%20.jpg)
+![202007250q2PEp](https://imgant.forecho.com/2026/05/29/financedeep-12-img.jpg)
 
 ## 引言
 

@@ -6,7 +6,7 @@ draft: false
 toc: true
 ---
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20191105105249.jpg)
+![](https://imgant.forecho.com/2026/05/29/20191105105249.jpg)
 
 ## 升级到 7.2
 

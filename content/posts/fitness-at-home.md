@@ -6,7 +6,7 @@ draft: false
 toc: true
 ---
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/EWJChJ.jpg)
+![](https://imgant.forecho.com/2026/05/29/EWJChJ.jpg)
 
 ## 引言
 
@@ -18,11 +18,11 @@ toc: true
 
 ## 玩法
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/c10CUD.jpg)
+![](https://imgant.forecho.com/2026/05/29/c10CUD.jpg)
 
 这款游戏不同于以往的 Switch 游戏，它有器材拆才能玩，一个“Ring-Con"（特制的普拉提圈）和“腿部固定带”。
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/Dv17B7.jpg)
+![](https://imgant.forecho.com/2026/05/29/Dv17B7.jpg)
 
 简单说一下游戏的玩法，开始游戏之后按照提示，把手柄按照到器材上，然后把固定带绑定左边大腿上，然后双手拿着普拉提圈就可以开始玩了。当然最好配一个瑜伽垫更方便。这个游戏对场地要求不高，有地方对着电视做静态平板支撑就够了。
 
@@ -40,20 +40,20 @@ toc: true
 
 在简单说一下动作，健过身的朋友应该都知道，像深蹲这种动作做的越快是越没有效果的，这里我又要来称赞这个游戏了，每个游戏除了有教练指导外，大部分动作每组前期的动作都要求做的很慢，有一个“稳住”的状态，比方在深蹲的时候要保持蹲下来动作一定时间，因为只有这样才能得到更好的锻炼，因为有设备，你想偷懒都不行。打一个怪，同一个健身动作做完是有冷却时间的，即不能连续使用某个动作。
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/v6nDRd.jpg)
+![](https://imgant.forecho.com/2026/05/29/v6nDRd.jpg)
 
 每打完一个关卡都有提示你是否结束训练，结束训练之后就给你看今天运动数据了，然后就开始跟着教练做拉伸动作，拉伸的时候屏幕上方会有一些 Tipc 分享，最后结束之前还有一篇小知识。
 
 
 ### 轻松模式
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/GGA5y2.jpg)
+![](https://imgant.forecho.com/2026/05/29/GGA5y2.jpg)
 
 通过玩一些小游戏的方式锻炼某个部位，或者你今天特别想单独训练某个部位的时候，可以选这个。
 
 《健身环大冒险》可以创建多名用户的，你可以和家人玩小游戏，刷排行榜，也是非常有意思的。
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/PBxK0p.jpg)
+![](https://imgant.forecho.com/2026/05/29/PBxK0p.jpg)
 
 虽然这个游戏冒险模式不能多人一起玩，但是多人可以互相攀比着玩，进一步提高了玩游戏的积极性。
 

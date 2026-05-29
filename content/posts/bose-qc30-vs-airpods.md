@@ -8,7 +8,7 @@ toc: true
 
 ## 引言
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190703175829.png)
+![](https://imgant.forecho.com/2026/05/29/20190703175829.png)
 
 618 在[色魔张大妈](https://www.smzdm.com/)上看到之前一直项目的 Bose QC30 降噪耳机最低价了，虽然是在拼多多上，但还是心动了，成功说服了兔子之后就下单了。
 

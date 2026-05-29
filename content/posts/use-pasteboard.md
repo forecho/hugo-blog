@@ -16,7 +16,7 @@ toc: true
 
 ### [Ditto](https://ditto-cp.sourceforge.io/)
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20220918PtY13j.jpg)
+![](https://imgant.forecho.com/2026/05/29/20220918PtY13j.jpg)
 
 我接触到的第一个剪贴板工具就是 Ditto，它是一个开源的剪贴板工具，它的功能非常强大，界面很简洁。
 
@@ -26,7 +26,7 @@ toc: true
 
 ### [Clipy](https://github.com/Clipy/Clipy)
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20220918ZNM5E9.png)
+![](https://imgant.forecho.com/2026/05/29/20220918ZNM5E9.png)
 
 在 Mac 上可以与 Ditto 相比的剪贴板工具就是 Clipy 了，它的界面和功能都很类似，开源并且免费。最重要的是对于一个一直在用 Ditto 的人来说，Clipy 简直是无缝切换。
 
@@ -34,7 +34,7 @@ toc: true
 
 ### [Copy 'Em](https://apprywhere.com/ce-mac.html)
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20220918PaqMRw.png)
+![](https://imgant.forecho.com/2026/05/29/20220918PaqMRw.png)
 
 今天换了台 M1 芯片的 Mac，发现 Clipy 不能用了。于是去找替代品，今天试了一圈剪贴板，最后发现还是 Copy 'Em 目前为止最满意。
 

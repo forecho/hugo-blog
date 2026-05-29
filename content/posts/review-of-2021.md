@@ -28,7 +28,7 @@ toc: true
 
 ### 健身
 
-![20220206kQ4qZM](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20220206kQ4qZM.jpg)
+![20220206kQ4qZM](https://imgant.forecho.com/2026/05/29/20220206kQ4qZM.jpg)
 
 去年搬家之前还是坚持在用健身环大冒险健身（不知道的可以看这篇文章[《在家健身有 Switch 就够了》](https://blog.forecho.com/fitness-at-home.html)）,年后开始基本上每周都在用。后来因为工作、搬家等一系列事情暂停了。
 
@@ -43,7 +43,7 @@ toc: true
 - 支持购买月卡，虽然比办年卡的贵，但是我觉得还是能接受的（239/月）。一个月一付钱相比一年付一次要好很多，我之前犹豫办卡的原因就是担心自己办了年卡不去健身，浪费了钱，但是使用月卡健身这种方式就很适合我这种新手。
 - App 不错，很多东西都在 App 上直接操作，非常方便。
 
-![20220207rN5EcX](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20220207rN5EcX.jpeg)
+![20220207rN5EcX](https://imgant.forecho.com/2026/05/29/20220207rN5EcX.jpeg)
 
 一个月下来差不多去了 20 天，对目前的状态还是挺满意的，这一个月肌肉涨的还挺明显的。关于私教问题，目前我还没请私教，自己按照训记上的计划在做训练。动作的话平常有时间就多看看视频指导。
 
@@ -66,7 +66,7 @@ toc: true
 
 ### 读书
 
-![20220206bwrR5R](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20220206bwrR5R.png)
+![20220206bwrR5R](https://imgant.forecho.com/2026/05/29/20220206bwrR5R.png)
 
 今年就读完三本书，第四本《复盘网飞 : 从一个点子到商业传奇》已读完 90% 了，本打算春节读完的，结果事与愿违。
 

@@ -8,7 +8,7 @@ toc: true
 
 事情大概是这样的：我数据库时间字段用的是 int 类型，存储的是时间戳。并且我写文章的时候，时间是需要可以修改的。
 
-来一张最终效果图： ![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424160820.png)
+来一张最终效果图： ![](https://imgant.forecho.com/2026/05/29/20190424160820.png)
 
 首先我用了 Yii 自带的 Zii CJuiDatePicker 扩展，非常的强大的把 jQuery UI 的 [Datepicker](http://jqueryui.com/datepicker/) 继承进去了，使用非常的简单，手册上有。但是这个有个缺陷，没有小时分钟，只能配置日期。这个有点坑爹了。然后没办法，去找了一个 yii 的扩展。我选了 [ejuidatetimepicker](http://www.yiiframework.com/extension/ejuidatetimepicker/)，使用也很简单，基本就按照给的 Demo复制过去就可以了。
 

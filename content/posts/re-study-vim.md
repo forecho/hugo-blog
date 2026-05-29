@@ -99,7 +99,7 @@ toc: true
 
 更多可以参考下图，来源[《VIM 学习笔记 文本对象（Text Objects）》](http://yyq123.blogspot.com/2016/12/vim-text-objects.html)
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20191011095932.png)
+![](https://imgant.forecho.com/2026/05/29/20191011095932.png)
 
 ### 命令行模式
 

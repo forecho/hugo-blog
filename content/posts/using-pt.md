@@ -6,7 +6,7 @@ draft: false
 toc: true
 ---
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20211230LY9v4i.png)
+![](https://imgant.forecho.com/2026/05/29/20211230LY9v4i.png)
 
 ## 引言
 
@@ -50,7 +50,7 @@ PT 是一种改良自 BitTorrent 协议的 P2P 下载方式，即「Private Trac
 
 所以注册完账号之后先别急着瞎下载，先找免费的资源下载。找带有 Free 标签的资源，需要注意的是限免时间。
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20211230nc7ZTW.png)
+![](https://imgant.forecho.com/2026/05/29/20211230nc7ZTW.png)
 
 ### 如何提高分享率？
 
@@ -58,13 +58,13 @@ PT 是一种改良自 BitTorrent 协议的 P2P 下载方式，即「Private Trac
 
 成人区默认未开启，需要手动打开。在「控制台」->「实验室」就能找到相关设置。另外至少需要会看这几种数据。
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20211230ZI5kaX.png)
+![](https://imgant.forecho.com/2026/05/29/20211230ZI5kaX.png)
 
 ### 如何提高上传量
 
 先找活跃的种子下载，然后开启上传功能。我用的群晖的 Download Station 需要自己手动配置。我的配置如下：
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20211230yiAuXT.png)
+![](https://imgant.forecho.com/2026/05/29/20211230yiAuXT.png)
 
 资源可以一边下载一边上传，但是此时上传一般都很慢，当资源下载完了之后做种的话，上传就快很多，不是一个量级的提升。上传量提升了，分享率就自然也提升了。
 

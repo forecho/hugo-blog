@@ -22,7 +22,7 @@ Yii2 默认支持 RESTful 风格，有几个接口我可以直接使用默认的
 
 在线上环境发现每次创建标签，要请求三个接口，而且**开发者工具的 Console 都会有一个报错信息**，会影响功能使用。本地也是三个请求，但是没有报错信息。
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20200904N5f4NJ.jpg)
+![](https://imgant.forecho.com/2026/05/29/20200904N5f4NJ.jpg)
 
 - 第一个请求是 POST 创建标签的请求。
 - 第二个请求是 HTTP OPTIONS 请求，因为是前端请求后端，跨域了所以有这个。
@@ -37,11 +37,11 @@ Yii2 默认支持 RESTful 风格，有几个接口我可以直接使用默认的
 
 因为 Yii2 默认的 `CreateAction`  的最后返回在 Header 里面加入了 `Location` ，它的值就是详情的 URL 地址：
 
-![202009295KXziS](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/202009295KXziS.jpg)
+![202009295KXziS](https://imgant.forecho.com/2026/05/29/202009295KXziS.jpg)
 
 HTTP POST 返回的 Header：
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20200904zMS9Ar.jpg)
+![](https://imgant.forecho.com/2026/05/29/20200904zMS9Ar.jpg)
 
 ### 本地没报错，线上代码报错的原因
 

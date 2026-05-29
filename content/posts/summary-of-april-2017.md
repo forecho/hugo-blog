@@ -11,7 +11,7 @@ toc: true
 
 ## 学英语
 
-![Imgur](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424163256.png)
+![Imgur](https://imgant.forecho.com/2026/05/29/20190424163256.png)
 
 还是先说写英语的事情吧，总的来说这个月有点情况有点糟糕，我陷入了学英语是否非要背单词和不背单词的疑惑中了。所以可以说这个月成绩很糟糕。
 
@@ -25,9 +25,9 @@ toc: true
 
 ## 健身 && 跑步
 
-![Imgur](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424163314.png)
+![Imgur](https://imgant.forecho.com/2026/05/29/20190424163314.png)
 
-![Imgur](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424163322.png)
+![Imgur](https://imgant.forecho.com/2026/05/29/20190424163322.png)
 
 这次我把健身和跑步拿来一起总结了，因为早上健身和跑步我只能选一个。
 
@@ -39,7 +39,7 @@ toc: true
 
 ## 阅读
 
-![Imgur](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424163343.png)
+![Imgur](https://imgant.forecho.com/2026/05/29/20190424163343.png)
 
 因为这个月我对一本书有非常大的兴趣，所以一有时间我就去读。我时候在家没状态读书，我会带着一本书去坐地铁阅读，就在地铁上读书，然后再返回。这个是我发现目前最省事而且最方便让我进入阅读状态的方法了，当然一般是在周末的时候。
 

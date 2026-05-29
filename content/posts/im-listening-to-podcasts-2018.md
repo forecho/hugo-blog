@@ -12,7 +12,7 @@ toc: true
 
 ## 偏范科技类的播客
 
-![UX Coffee 设计咖](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424163628.png)
+![UX Coffee 设计咖](https://imgant.forecho.com/2026/05/29/20190424163628.png)
 
 **[UX Coffee 设计咖](http://www.uxcoffee.com/)**
 
@@ -29,7 +29,7 @@ toc: true
 - EICO 联合创始人 Rokey 张伟（以前就知道 WEICO，但是听了他们的节目才知道背后的故事，非常酷的一家公司）
 - ……
 
-![doko.com](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424163641.png)
+![doko.com](https://imgant.forecho.com/2026/05/29/20190424163641.png)
 
 **[让科技、艺术和你的灵感相遇](https://www.doko.com/)**
 
@@ -41,7 +41,7 @@ toc: true
 
 ## 偏商业类的播客
 
-![冬吴同学会](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424163653.png)
+![冬吴同学会](https://imgant.forecho.com/2026/05/29/20190424163653.png)
 
 **[冬吴同学会](http://www.ximalaya.com/shangye/8475135/)**
 
@@ -51,7 +51,7 @@ toc: true
 
 更新比较频繁，一个星期两期，每期一个话题，时间不长，基本上都是半个小时之内。最重要的内容还是很有干货。
 
-![疯投圈](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424163703.png)
+![疯投圈](https://imgant.forecho.com/2026/05/29/20190424163703.png)
 
 **[疯投圈](https://crazy.capital/)**
 

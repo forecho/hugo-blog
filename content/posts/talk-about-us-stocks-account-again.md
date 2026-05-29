@@ -16,7 +16,7 @@ toc: true
 
 官网地址：<https://link.3li3.com/futu>
 
-![富途证券开户](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/futu5.png!s)
+![富途证券开户](https://imgant.forecho.com/2026/05/29/futu5.png)
 
 <!--more-->
 
@@ -66,7 +66,7 @@ toc: true
 
 官网地址：<https://link.3li3.com/xueying>
 
-![雪盈证券开户](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/snowballsecurities.png!s)
+![雪盈证券开户](https://imgant.forecho.com/2026/05/29/snowballsecurities.png)
 
 雪盈证券是[雪球](https://xueqiu.com/)和[盈透证券](https://www.interactivebrokers.com/cn/home.php)合作推出的产品，主要有三个个优势吧：交易费便宜、融资利率低和比盈透证券更低的开户门槛。我是被交易费便宜、融资利率低吸引去开户的，我先说说自己使用心得吧：
 
@@ -100,7 +100,7 @@ toc: true
 
 **总的来说，雪盈证券交易费费低、融资利率低，富途证劵用户体验更好，如果你是一个小白用户，在雪盈与富途之前做选择的话，我当然是推荐富途了，雪盈证券更适合资深用户。**
 
-![富途证劵](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424161907.png)
+![富途证劵](https://imgant.forecho.com/2026/05/29/20190424161907.png)
 
 **重要的事情说三遍，首次入金的小伙伴，可以在推荐人写我的牛牛号： 2855236，我会有200块钱奖励，而且你也会有。**
 **重要的事情说三遍，首次入金的小伙伴，可以在推荐人写我的牛牛号： 2855236，我会有200块钱奖励，而且你也会有。**
@@ -108,7 +108,7 @@ toc: true
 
 具体在哪一步写牛牛号？就是在转完资金之后确认资金的那一步，也是最后一步，看下图：
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424161918.png)
+![](https://imgant.forecho.com/2026/05/29/20190424161918.png)
 
 等你熟悉一些规则之后我建议你也去开通雪盈账户，两个可以同时操作有时候会更方便。美股和港币都是可以卖空的，用好此功能，即使某个股票在跌你也能赚钱。比方说现在一个负面消息对A公司影响很大，如果你在富途证券上有一些这个公司的股票，你又不想卖，这个时候你可以去雪盈上卖一点空此功能股票，其实就是跟雪盈借了一点A公司的股票，然后等跌倒一个点，你再买回来，还给雪盈，赚一点小钱，当然此过程要给雪盈一点手续费。
 

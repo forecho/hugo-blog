@@ -22,7 +22,7 @@ toc: true
 
 看到这最后一点，默默地想选择招商银行香港一卡通（因为本人有一张招商银行储蓄卡），看了下面几个银行的开户条件后：
 
-![oOzday](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/oOzday.jpg)
+![oOzday](https://imgant.forecho.com/2026/05/29/oOzday.jpg)
 
 发现香港民生银行和招商银行香港一卡通支持银证功能，而且对于工银亚洲来说，本人没有工商银行卡，就没考虑了。
 
@@ -61,9 +61,9 @@ toc: true
     - 屿巴B2P路->城巴969路
     - 屿巴B2P路->西鐵綫->荃灣綫
 
-![rX2tS9](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/rX2tS9.jpg)
+![rX2tS9](https://imgant.forecho.com/2026/05/29/rX2tS9.jpg)
 
-![e52a7U](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/e52a7U.jpg)
+![e52a7U](https://imgant.forecho.com/2026/05/29/e52a7U.jpg)
 
 ### 招行香港分行营业时间：
 

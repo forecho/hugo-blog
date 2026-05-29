@@ -54,7 +54,7 @@ toc: true
 
 这其中最有名的就属「[浑水](https://baike.baidu.com/item/%E6%B5%91%E6%B0%B4%E5%85%AC%E5%8F%B8/8706885)」（Muddy Water）的美国公司，他们专业做空中概股。以下是他们最近这几年的做空案例：
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20220712IAJzHb.jpg)
+![](https://imgant.forecho.com/2026/05/29/20220712IAJzHb.jpg)
 
 当然他们也不是每次都正确，因为有时候数据他们也是连蒙带猜。出做空报告也是为了让大家一起去做空，只有股票跌了他们才会赚钱。
 

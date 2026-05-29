@@ -19,7 +19,7 @@ toc: true
 
 Phpstorm 依次点击菜单栏 `File -> Settings -> Editor -> Code Style -> PHP` 找到 `Set from` 选择 `Predefinded Style -> PSR1/PSR2`
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424163723.png)
+![](https://imgant.forecho.com/2026/05/29/20190424163723.png)
 
 
 只有当使用 `Ctrl + Alt + L` 才会按照上面代码风格自动格式化。
@@ -33,7 +33,7 @@ Phpstorm 依次点击菜单栏 `File -> Settings -> Editor -> Code Style -> PHP`
 - 然后点击 `Edit -> Macros -> Stop Macro Recording` 结束录制。会自动弹出一个窗口，自己设置个名称， 比方说 `Super Save`。
 - 然后点击 `File -> Settings -> Keymap` 修改快捷键，把之前保存快捷键修改为 `Alt + S` 或者其他快捷键或者取消。然后搜索 `Super Save` 添加快捷键为 `Ctrl + S` 就可以了。
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424162037.png)
+![](https://imgant.forecho.com/2026/05/29/20190424162037.png)
 
 ## [GrumPHP](https://github.com/phpro/grumphp) + [PHP CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer)
 

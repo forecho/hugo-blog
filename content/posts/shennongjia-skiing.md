@@ -7,7 +7,7 @@ toc: true
 ---
 
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424162101.png)
+![](https://imgant.forecho.com/2026/05/29/20190424162101.png)
 
 ## 引言
  
@@ -105,7 +105,7 @@ toc: true
 
 ### 滑雪
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424162112.png)
+![](https://imgant.forecho.com/2026/05/29/20190424162112.png)
 
 神农架滑雪场的雪是自然雪加人工降雪，但是不用担心雪的问题。有 4 个滑道，最高处是高级玩家滑雪道，我那天好像就看到一个人在上面玩过。下面从左到右依次是零级滑道、初级滑道和高级滑道。
 

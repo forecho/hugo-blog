@@ -8,7 +8,7 @@ toc: true
 
 ## 引言
 
-![20200901hqt6rA](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20200901hqt6rA.jpg)
+![20200901hqt6rA](https://imgant.forecho.com/2026/05/29/20200901hqt6rA.jpg)
 
 最近这一个月来已经参与了三次美股打新，今天这篇文章就来给大家分享一下我的「战果」。他们分别是：
 

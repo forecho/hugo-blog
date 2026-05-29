@@ -6,7 +6,7 @@ draft: false
 toc: true
 ---
 
-[![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20221002m7Slxr.png)](https://obsidian.md/)
+[![](https://imgant.forecho.com/2026/05/29/20221002m7Slxr.png)](https://obsidian.md/)
 
 ## 引言
 
@@ -41,14 +41,14 @@ PS：N 次尝试过 Logseq，最终还是放弃了，操作不太习惯，甚至
 
 笔记不同于博客文章，笔记可以很短，也可以很长，笔记的内容可以是一些问题的解决方法，也可以是一些思考的记录。但最重要的一点就是「原子化」，笔记的内容要尽量的小，这样方便我们快速查找。示例：
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/202210023d92PS.png)
+![](https://imgant.forecho.com/2026/05/29/202210023d92PS.png)
 
 
 ### 如何组织笔记
 
 最开始我的笔记是下图结构：
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/202210021qyQO4.png)
+![](https://imgant.forecho.com/2026/05/29/202210021qyQO4.png)
 
 笔记放根目录，新建一个文件夹专门给笔记汇总目录，但是后来越来越懒，而且这种手动给笔记分类的方式真的很傻而且麻烦。
 
@@ -56,7 +56,7 @@ PS：N 次尝试过 Logseq，最终还是放弃了，操作不太习惯，甚至
 
 最重要的是关系图谱支持标签，我们可以通过标签来查看笔记的关系。
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20221002FDr7Qe.png)
+![](https://imgant.forecho.com/2026/05/29/20221002FDr7Qe.png)
 
 ### 同步笔记
 

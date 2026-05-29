@@ -22,7 +22,7 @@ toc: true
 
 - 开户地址：<https://link.3li3.com/futu>
 
-![富途证券开户](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/futu5.png!s)
+![富途证券开户](https://imgant.forecho.com/2026/05/29/futu5.png)
 
 ## 大陆卡入金
 
@@ -38,7 +38,7 @@ toc: true
 - 劣势：打新能力不行，热门新股申购要排队，而且大概率会失败。入金2万港币门槛。
 - 开户地址：<https://link.3li3.com/xueying>
 
-![雪盈证券开户](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/snowballsecurities.png!s)
+![雪盈证券开户](https://imgant.forecho.com/2026/05/29/snowballsecurities.png)
 
 **入金详情**
 
@@ -54,7 +54,7 @@ toc: true
 - 优势：支持大陆卡入金，招商银行成功率高。
 - 开户地址：<https://link.3li3.com/eddid>
 
-![艾德证券开户](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/2020120913V7Ov.png!s)
+![艾德证券开户](https://imgant.forecho.com/2026/05/29/2020120913V7Ov.png)
 
 **入金详情**
 

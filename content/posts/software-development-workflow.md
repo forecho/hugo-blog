@@ -40,7 +40,7 @@ toc: true
 飞书、企业微信、钉钉都把「消息可以标记表情」功能抄过来了，不知道为什么他们不抄袭这个 Thread 消息讨论的功能？
 
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20211026LQWoJ2.png)
+![](https://imgant.forecho.com/2026/05/29/20211026LQWoJ2.png)
 
 
 ### [GitHub](https://github.com)
@@ -55,9 +55,9 @@ toc: true
 
 目前我发现 [Linear](https://linear.app/) 可以做到这基本的功能，虽然 Linear 功能还比较简陋，没有 Jira 的冲刺和给任务单分配 Points 等功能，但是这也基本够用。下面是 Linear 和 GitHub 的两张效果图：
 
-![Linear 任务单](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20211101kVkxJs.png)
+![Linear 任务单](https://imgant.forecho.com/2026/05/29/20211101kVkxJs.png)
 
-![Github PR](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/202111012LCJoC.png)
+![Github PR](https://imgant.forecho.com/2026/05/29/202111012LCJoC.png)
 
 据我所知，Tapd 和 teambition 是没有打通 GitHub 的，他们只提供一个非常简单的关联功能，就是写 commits 消息的时候附带他们的任务 ID，但是这会有一个问题，写 commits 的时候经常会忘记附带任务 ID，而按照 Git 分支名称做自动化要合理的多。
 

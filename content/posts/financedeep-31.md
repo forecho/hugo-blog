@@ -14,7 +14,7 @@ toc: true
 
 - 开户链接：<https://link.3li3.com/yxzq>
 
-![盈立智投开户](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20210723iBxsf0.jpg!s)
+![盈立智投开户](https://imgant.forecho.com/2026/05/29/20210723iBxsf0.jpg)
 
 <!--more-->
 
@@ -22,7 +22,7 @@ toc: true
 
 ### 协助办香港卡
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/202107230OmSMA.jpg!m)
+![](https://imgant.forecho.com/2026/05/29/202107230OmSMA.jpg)
 
 开户之后可以在「市场」Tab 的「办卡预约」里面预约办理香港卡，都是在大陆见证开户，不需要去香港，不过门槛也不算低。
 
@@ -36,7 +36,7 @@ toc: true
 
 如果你平常比较忙，如果看好某个可全权委托的策略（部分策略支持）之后会自动跟单操作。下图是一个免费的策略，事后看来当初的清仓港股是非常明智的。让人不佩服他们的策略，选股和择时，真的挺负责的。
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20210723Comot5.JPEG)
+![](https://imgant.forecho.com/2026/05/29/20210723Comot5.JPEG)
 
 
 ### 日内融
@@ -49,7 +49,7 @@ toc: true
 - 收市前 30 分钟之后不支持下单，并且系统自动撤掉未成交的委托单
 - 收市前 20 分钟系统自动平仓
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20210723nhuldh.jpg!m)
+![](https://imgant.forecho.com/2026/05/29/20210723nhuldh.jpg)
 
 日内融，下单界面如上图，强调几点：
 
@@ -89,7 +89,7 @@ toc: true
 
 - 开户链接：<https://link.3li3.com/yxzq>
 
-![盈立智投开户](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20210723iBxsf0.jpg!s)
+![盈立智投开户](https://imgant.forecho.com/2026/05/29/20210723iBxsf0.jpg)
 
 - 🎉  福利 1：活动期间新注册用户可获得 \*1 次大转盘抽奖机会
 - 🎉  福利 2：活动期间新开户用户赠送合计 600HKD 的融资打新手续费抵扣券（1\*100HKD，6\*50HKD，10\*20HKD）

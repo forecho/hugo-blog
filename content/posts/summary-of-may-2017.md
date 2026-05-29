@@ -17,8 +17,8 @@ toc: true
 
 ## 健身 && 跑步
 
-![健身](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424163414.png)
-![跑步](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424163422.png)
+![健身](https://imgant.forecho.com/2026/05/29/20190424163414.png)
+![跑步](https://imgant.forecho.com/2026/05/29/20190424163422.png)
 
 从打卡记录来看，本月把主要精力都放在了健身上了，跑步也是少的可怜。
 
@@ -28,7 +28,7 @@ toc: true
 
 ## 阅读
 
-![阅读情况](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424163431.png)
+![阅读情况](https://imgant.forecho.com/2026/05/29/20190424163431.png)
 
 阅读情况的话，目前已经读完一本比较薄的书了，第二本也快读完了。
 

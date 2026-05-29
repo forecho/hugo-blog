@@ -8,13 +8,13 @@ toc: true
 
 ## 引言
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/shut-up-and-take-my-money.jpg!m)
+![](https://imgant.forecho.com/2026/05/29/shut-up-and-take-my-money.jpg)
 
 前一段时间我分享了[一篇文章](https://blog.forecho.com/financedeep-09.html)介绍了老虎入金操作，上次已经说了入金老虎证券就是为了打新，没过几条正好赶上了一个美股打新，这篇文章就分享一下我第一次美股打新的经验。
 
 PS：还没有在老虎证券开户小伙伴可以通过下面链接开户：<https://link.3li3.com/tiger>
 
-![老虎证券开户](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/itiger.png!s)
+![老虎证券开户](https://imgant.forecho.com/2026/05/29/itiger.png)
 
 <!--more-->
 
@@ -22,7 +22,7 @@ PS：还没有在老虎证券开户小伙伴可以通过下面链接开户：<ht
 
 先给大家看看我的打新记录：
 
-![我的老虎打新记录](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20200716113059.jpg!m)
+![我的老虎打新记录](https://imgant.forecho.com/2026/05/29/20200716113059.jpg)
 
 ### 为什么参与 BLCT 的打新
 

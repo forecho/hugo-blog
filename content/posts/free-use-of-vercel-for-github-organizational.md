@@ -32,7 +32,7 @@ npm i -g vercel
 
 ### 创建 Velcel 项目
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20211018e1a6SM.png)
+![](https://imgant.forecho.com/2026/05/29/20211018e1a6SM.png)
 
 在网页上我们只能通过导入 GitHub 项目的方式创建 Velcel 项目，免费版不能在线使用 GitHub 组织的代码，所以我们要使用命令行创建。
 
@@ -76,7 +76,7 @@ jobs:
 
 ### 添加 GitHub Actions secrets
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20211018Xyc06u.png)
+![](https://imgant.forecho.com/2026/05/29/20211018Xyc06u.png)
 
 给 GitHub Actions 添加环境变量，在 GitHub 项目的设置里面找到相应的位置创建，我们只需要创建三个值：
 

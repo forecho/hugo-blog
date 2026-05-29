@@ -23,7 +23,7 @@ toc: true
 - 下载最新版 [calibre](https://calibre-ebook.com/download)
 - 安装 calibre 的『Chinese Text Conversion』插件，搜索「Chinese」即可：
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20221119sAQYl7.png!m)
+![](https://imgant.forecho.com/2026/05/29/20221119sAQYl7.png)
 
 ## 步骤
 
@@ -31,14 +31,14 @@ toc: true
 - 然后编辑对应的书籍
 - 然后在菜单栏找到『插件』然后点击我们刚安装的『Chinese Text Conversion』插件，设置参数，然后点确定就可以了。参考设置如下图（注意根据自己需求修改设置）：
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/k1QTP2.jpg!m)
+![](https://imgant.forecho.com/2026/05/29/k1QTP2.jpg)
 
 
 保存之后点「阅读」就可以看效果了。如果繁体转简体成功，但是排版还是竖版的话，需要继续编辑书，改动改一下代码。
 
 需要检查 css 文件，如果找到 `vertical-rl` 改为 `horizontal-tb` 即可。改完保存退出编辑模式，使用阅读预览效果。
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20221119iJhYls.png!m)
+![](https://imgant.forecho.com/2026/05/29/20221119iJhYls.png)
 
 ## 最后
 

@@ -24,7 +24,7 @@ toc: true
 
 今年的基金总体收益在 6% 左右，比去年差远了。
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20220103tkEVCO.JPG)
+![](https://imgant.forecho.com/2026/05/29/20220103tkEVCO.JPG)
 
 今年让我最赚钱的基金是新能源和锂电板块的基金了，主要是：
 
@@ -57,7 +57,7 @@ toc: true
 
 今年中概股表现非常差，作为中国人很难不投资中概股。所以我今年整个账户也亏钱了不少。
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20220103mTDLlc.jpg)
+![](https://imgant.forecho.com/2026/05/29/20220103mTDLlc.jpg)
 
 亏这么多钱主要是因为：
 

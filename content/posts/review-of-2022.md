@@ -26,7 +26,7 @@ toc: true
 
 ### 健身
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/202301015CBOwJ.jpg!m)
+![](https://imgant.forecho.com/2026/05/29/202301015CBOwJ.jpg)
 
 今年「训记」APP 终于有年终总结了，2022 年我一共健身了 169 天，体重从 62 公斤到 65 公斤，体重增加了 3 公斤，这个成绩还算及格。
 
@@ -36,7 +36,7 @@ toc: true
 
 ### 学英语
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20230102PKKc4y.png!m)
+![](https://imgant.forecho.com/2026/05/29/20230102PKKc4y.png)
 
 2017 年的时候我发布了一篇[《我在学英语》](https://blog.forecho.com/i-am-learning-english.html)，但是遗憾的是没能坚持多久。2022 年我算是做到了坚持每天学英语，感谢多邻国，是它让我坚持下来的。每天 10-20 分钟，看似非常少，但是坚持下来，效果还是很明显的。
 
@@ -109,7 +109,7 @@ toc: true
 
 强哥虽然不再维护 Yii 了，目前的主力团队是俄罗斯人，他们今年经历了战争，比我们更惨，他们现在更需要支持，虽然更新进度慢，但是能理解，期待 Yii3 早日发布。
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20230102MpjPt9.png) 
+![](https://imgant.forecho.com/2026/05/29/20230102MpjPt9.png) 
 
 2011 年就注册了 Twitter，2016 年放弃微博，转战 [Twitter](https://twitter.com/caizhenghai)，今年是我在 Twitter 上涨粉丝最多的一年（去年粉丝好像是 2k 多），感谢大家的厚爱。
 

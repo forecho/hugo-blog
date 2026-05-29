@@ -6,7 +6,7 @@ draft: false
 toc: true
 ---
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424161413.png)
+![](https://imgant.forecho.com/2026/05/29/20190424161413.png)
 
 ## 引言
 
@@ -100,31 +100,31 @@ toc: true
 
 在岛上的最后一天了，早上不到6点起床，去海边看日出，回来休息，然后吃个早饭随便逛一逛，休息一下准备坐车去码头准备坐车回北海。回了北海办理入住之后去吃饭，然后休息再租电瓶车去老街逛逛，顺便吃个饭然后回去洗澡睡觉，第二天坐火车回家。
 
-![鳄鱼山火山公园](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424161426.png)
+![鳄鱼山火山公园](https://imgant.forecho.com/2026/05/29/20190424161426.png)
 鳄鱼山火山公园
 
-![中午吃的椒盐虾？](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424161436.png)
+![中午吃的椒盐虾？](https://imgant.forecho.com/2026/05/29/20190424161436.png)
 中午吃的椒盐虾？
 
-![海边看日落图](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424161508.png)
+![海边看日落图](https://imgant.forecho.com/2026/05/29/20190424161508.png)
 海边看日落图
 
-![我的坐骑](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424161519.png)
+![我的坐骑](https://imgant.forecho.com/2026/05/29/20190424161519.png)
 我的坐骑
 
-![中石化原油码头](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424161529.png)
+![中石化原油码头](https://imgant.forecho.com/2026/05/29/20190424161529.png)
 中石化原油码头附近的海滩
 
-![海边看日出](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424161540.png)
+![海边看日出](https://imgant.forecho.com/2026/05/29/20190424161540.png)
 海边看日出图
 
-![岛上的香蕉](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424161550.png)
+![岛上的香蕉](https://imgant.forecho.com/2026/05/29/20190424161550.png)
 岛上的香蕉
 
-![北海的老街](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424161600.png)
+![北海的老街](https://imgant.forecho.com/2026/05/29/20190424161600.png)
 北海的老街
 
-![租的 GoPro4](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424161612.png)
+![租的 GoPro4](https://imgant.forecho.com/2026/05/29/20190424161612.png)
 租的 GoPro4(银狗)
 
 **注意事项**

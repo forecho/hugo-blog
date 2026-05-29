@@ -12,7 +12,7 @@ toc: true
 
 还没有开户的小朋友，欢迎扫码开户：
 
-![富途证券开户](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/futu5.png!s)
+![富途证券开户](https://imgant.forecho.com/2026/05/29/futu5.png)
 
 <!--more-->
 
@@ -20,7 +20,7 @@ toc: true
 
 先给大家看看我的打新记录：
 
-![我的富途打新记录](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/1594262528.png)
+![我的富途打新记录](https://imgant.forecho.com/2026/05/29/1594262528-487654a3.png)
 
 
 小米是年轻人的第一支股票，我的第一次港股打新也给了小米，一直看好小米，所以打新中签之后一直没卖，哪儿知道小米后来成为了「年轻人的第一支被套牢」的股票。中途我还加仓了，一直到后来跌到8块多，我看不下去就清仓了。直到今天小米终于快回到它的招股价了，真不容易。
@@ -29,11 +29,11 @@ toc: true
 
 虽然海吉亚没中签，但是康基让我吃到甜头，正好接下来有几个不错的港股打新可以参与，于是我挑选了几个比较好的（海普瑞、正荣服务、思摩尔国际、欧康维视生物-B）参与了，然后今天所以结果都公布了，我一个都每中，现在的心情是这样的：
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/UeXv7Q.png)
+![](https://imgant.forecho.com/2026/05/29/UeXv7Q.png)
 
 以及这样的：
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/OzpVWR9kaYt87uA.png)
+![](https://imgant.forecho.com/2026/05/29/OzpVWR9kaYt87uA.png)
 
 热门（好）股票打新参与人多，自然中签率就低了，但是不热门（好）的股票容易破发，就算赚到也没多少。
 
@@ -55,7 +55,7 @@ toc: true
 
 ### 康基
 
-![](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/1594265359.png)
+![](https://imgant.forecho.com/2026/05/29/1594265359.png)
 
 这个是康基的认购详情页，我用的是富途融资，融资计费时间从扣款的第二天到公布中签的前一天，比分说上图我的融资计算天数就是6=26-1-19，那么总费用就是：`73.56`
 

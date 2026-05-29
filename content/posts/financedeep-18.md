@@ -16,7 +16,7 @@ toc: true
 
 今天要介绍的就是**富利证券**（名字有点像富途证券，但是别搞错了！），他们现在搞活动「 2021 年港股现金打新全年 0 佣金」，开户地址是 <https://link.3li3.com/fuli>
 
-![富利证券](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20201231Q9w5Pm.png!s)
+![富利证券](https://imgant.forecho.com/2026/05/29/20201231Q9w5Pm.png)
 
 PS: 首次入金至少 1 万港币且一个月内不能出金
 

@@ -50,13 +50,13 @@ VirtualBox 有的版本启动系统的时候，报错，最后上网搜索，发
 
 看就是这货：
 
-![Imgur](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424161033.png)
+![Imgur](https://imgant.forecho.com/2026/05/29/20190424161033.png)
 
 中间不知道重启了多少次电脑，浪费了多少时间，项目进度都被耽误了，而且为这破事我还加班了。
 
 不知道是不是昨天公司停电导致的，但是我记得我有关电脑啊。
 
-![你他妈逗我吗](https://blog-1251237404.cos.ap-guangzhou.myqcloud.com/20190424161011.png)
+![你他妈逗我吗](https://imgant.forecho.com/2026/05/29/20190424161011.png)
 
 
 ----------------draft: false
