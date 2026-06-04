@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on forecho's Blog</title><link>https://blog.forecho.com/posts.html</link><description>Recent content in Posts on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 05 May 2026 10:00:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/posts/atom.xml" rel="self" type="application/rss+xml"/><item><title>介绍一下我做的 AI 中转站 4AICode</title><link>https://blog.forecho.com/introducing-4aicode-ai-proxy.html</link><pubDate>Tue, 05 May 2026 10:00:00 +0800</pubDate><guid>https://blog.forecho.com/introducing-4aicode-ai-proxy.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on forecho's Blog</title><link>https://blog.forecho.com/posts.html</link><description>Recent content in Posts on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 04 Jun 2026 14:52:05 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/posts/atom.xml" rel="self" type="application/rss+xml"/><item><title>大陆用户开美国期货账户，我会先选 AMP Futures</title><link>https://blog.forecho.com/open-us-futures-broker-from-china.html</link><pubDate>Thu, 04 Jun 2026 14:52:05 +0800</pubDate><guid>https://blog.forecho.com/open-us-futures-broker-from-china.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>最近在研究美国期货账户，主要看了两个券商：&lt;a href="https://www.ampfutures.com/">AMP Futures&lt;/a> 和 &lt;a href="https://optimusfutures.com/">Optimus Futures&lt;/a>。&lt;/p>
+&lt;p>我的判断很直接：&lt;strong>先开 AMP，Optimus 先放观察位&lt;/strong>。&lt;/p>
+&lt;p>AMP 的开户资料更多，中文圈用的人也更多，Mac 用户可以直接接 TradingView。Optimus 官方支持海外用户，也有多个 FCM 清算商可选，但是中文圈完整跑通开户、入金、交易、出金的人太少，我会把它当第二账户备选。&lt;/p></description></item><item><title>介绍一下我做的 AI 中转站 4AICode</title><link>https://blog.forecho.com/introducing-4aicode-ai-proxy.html</link><pubDate>Tue, 05 May 2026 10:00:00 +0800</pubDate><guid>https://blog.forecho.com/introducing-4aicode-ai-proxy.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
 &lt;p>先上地址：&lt;/p>
 &lt;ul>
 &lt;li>网站：&lt;a href="https://4aicode.com/">4aicode.com&lt;/a>&lt;/li>
@@ -157,12 +160,4 @@
 &lt;/li>
 &lt;li>&lt;strong>风险的核心不是波动&lt;/strong>：股价每天涨跌不是重点，重点是你投资的企业是否可能让你遭遇&lt;strong>永久性损失&lt;/strong>。&lt;/li>
 &lt;li>&lt;strong>把股票当成“收益率会变化的资产”&lt;/strong>：他用一个简单比喻解释市盈率（PE）——把 PE 反过来就是收益率的近似：&lt;code>E/P = 1/PE&lt;/code>。例如 PE=10，大致对应 10% 的“盈利收益率”，可以拿来和国债收益率对比。&lt;/li>
-&lt;/ol></description></item><item><title>Price Action 复盘 0106：盘前准备与 1R2R 止盈策略</title><link>https://blog.forecho.com/price-action-review-0106.html</link><pubDate>Sun, 11 Jan 2026 22:00:00 +0800</pubDate><guid>https://blog.forecho.com/price-action-review-0106.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>很多交易者在盘中容易迷失，往往是因为盘前准备做得不够充分，或者对大小周期的转换缺乏清晰的认知。本文基于 0106 的 ES（标普500期指）实盘复盘，总结了一套从盘前准备到实盘执行的完整流程。&lt;/p>
-&lt;p>核心观点是：&lt;strong>盘前准备决定了你对当天行情的“剧本”预设，而实盘中的 1R2R 止盈策略则是保护利润、穿越震荡的护身符。&lt;/strong>&lt;/p>
-&lt;h2 id="核心原则">核心原则&lt;/h2>
-&lt;ol>
-&lt;li>&lt;strong>准备即战斗&lt;/strong>：盘前 30-60 分钟的准备工作（含身体状态调整）比盘中盯着分时图更重要。&lt;/li>
-&lt;li>&lt;strong>大周期定方向，小周期找位置&lt;/strong>：周线/日线看趋势，15分钟/5分钟找入场点。盘中严禁盯着 1 小时图做决策。&lt;/li>
-&lt;li>&lt;strong>机械化执行&lt;/strong>：严格遵循 1R 减仓、2R 清仓或移动止损的规则，特别是对待“第一次反转”要降低预期。&lt;/li>
 &lt;/ol></description></item></channel></rss>
