@@ -1,6 +1,6 @@
 ---
 title: "大陆用户开美国期货账户，我会先选 AMP Futures"
-date: 2026-06-04T14:52:05+08:00
+date: 2026-06-07T00:36:07+08:00
 tags: ["深度理财", "期货", "开户"]
 draft: false
 toc: true
@@ -88,6 +88,14 @@ Thank you.
 - AMP 后台 `Pending Additional Documents` 截图。
 
 发件邮箱用 AMP 注册邮箱。重点是让客服明确说出缺哪项材料，或者这份地址证明哪里不符合要求。拿到明确回复后再补材料，效率最高。
+
+## AMP 问收入和财富来源怎么回
+
+后面 AMP 可能会继续追问就业状态、收入来源和财富来源。
+
+这里要如实回答，重点是口径一致。当前状态可以写 `unemployed / between jobs`、`employed` 或 `self-employed`；资金来源可以写 `personal savings from previous salary income`、`salary income` 或 `business income`。
+
+这里还有一个小插曲：我填表的时候把就业状态写成了退休，后面客服就追问相关信息。实际状态是待业，就直接写 `unemployed / between jobs`。就业状态和资金来源保持简单、真实、一致，重点是说明交易资金来自本人。
 
 ## Mac 用户怎么用 AMP
 
