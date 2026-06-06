@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 04 Jun 2026 14:52:05 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>大陆用户开美国期货账户，我会先选 AMP Futures</title><link>https://blog.forecho.com/open-us-futures-broker-from-china.html</link><pubDate>Thu, 04 Jun 2026 14:52:05 +0800</pubDate><guid>https://blog.forecho.com/open-us-futures-broker-from-china.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 07 Jun 2026 00:36:07 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>大陆用户开美国期货账户，我会先选 AMP Futures</title><link>https://blog.forecho.com/open-us-futures-broker-from-china.html</link><pubDate>Sun, 07 Jun 2026 00:36:07 +0800</pubDate><guid>https://blog.forecho.com/open-us-futures-broker-from-china.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
 &lt;p>最近在研究美国期货账户，主要看了两个券商：&lt;a href="https://www.ampfutures.com/">AMP Futures&lt;/a> 和 &lt;a href="https://optimusfutures.com/">Optimus Futures&lt;/a>。&lt;/p>
 &lt;p>我的判断很直接：&lt;strong>先开 AMP，Optimus 先放观察位&lt;/strong>。&lt;/p>
 &lt;p>AMP 的开户资料更多，中文圈用的人也更多，Mac 用户可以直接接 TradingView。Optimus 官方支持海外用户，也有多个 FCM 清算商可选，但是中文圈完整跑通开户、入金、交易、出金的人太少，我会把它当第二账户备选。&lt;/p>
@@ -73,6 +73,10 @@ Thank you.
 &lt;li>AMP 后台 &lt;code>Pending Additional Documents&lt;/code> 截图。&lt;/li>
 &lt;/ul>
 &lt;p>发件邮箱用 AMP 注册邮箱。重点是让客服明确说出缺哪项材料，或者这份地址证明哪里不符合要求。拿到明确回复后再补材料，效率最高。&lt;/p>
+&lt;h2 id="amp-问收入和财富来源怎么回">AMP 问收入和财富来源怎么回&lt;/h2>
+&lt;p>后面 AMP 可能会继续追问就业状态、收入来源和财富来源。&lt;/p>
+&lt;p>这里要如实回答，重点是口径一致。当前状态可以写 &lt;code>unemployed / between jobs&lt;/code>、&lt;code>employed&lt;/code> 或 &lt;code>self-employed&lt;/code>；资金来源可以写 &lt;code>personal savings from previous salary income&lt;/code>、&lt;code>salary income&lt;/code> 或 &lt;code>business income&lt;/code>。&lt;/p>
+&lt;p>这里还有一个小插曲：我填表的时候把就业状态写成了退休，后面客服就追问相关信息。实际状态是待业，就直接写 &lt;code>unemployed / between jobs&lt;/code>。就业状态和资金来源保持简单、真实、一致，重点是说明交易资金来自本人。&lt;/p>
 &lt;h2 id="mac-用户怎么用-amp">Mac 用户怎么用 AMP&lt;/h2>
 &lt;p>Mac 用户最简单的方式是：&lt;strong>AMP + CQG + TradingView&lt;/strong>。&lt;/p>
 &lt;p>大致路径是：&lt;/p>
