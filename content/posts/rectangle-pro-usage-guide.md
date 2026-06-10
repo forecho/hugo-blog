@@ -231,6 +231,17 @@ Rectangle Pro 是 Rectangle 的闭源增强版，官方文档里说它是 Rectan
 
 如果免费版 Rectangle 还在运行，先退出它。
 
+### 打字时窗口突然移动
+
+这种一般是快捷键设置太宽导致的。比如某个动作被录成单独的 `Y`、`H`、`I`，输入法打字时就会触发窗口移动。
+
+优先检查两个地方：
+
+1. `Settings` -> `General`，关闭 `Allow any keyboard shortcut (remove safeguards)`。
+2. `Settings` -> `Keyboard Shortcuts`，检查是否有单字母快捷键，把它改成 `control`、`option`、`command` 组合键。
+
+我的建议是所有窗口管理快捷键都至少带两个修饰键，比如 `control + option` 或 `control + command`。单字母快捷键很容易和中文输入法打架。
+
 ### 拖拽吸附没反应
 
 到 `Snap Areas` 里确认 `Snap windows by dragging` 是否开启。
@@ -272,6 +283,7 @@ Rectangle Pro 是 Rectangle 的闭源增强版，官方文档里说它是 Rectan
 - 权限：`Accessibility` 已经给 Rectangle Pro 打开。
 - 冲突：免费版 Rectangle 已经退出。
 - 快捷键：只保留 5-8 个高频动作。
+- 安全：关闭 `Allow any keyboard shortcut (remove safeguards)`。
 - 鼠标：`Window Throw` 可以稳定触发。
 - 自定义：已经创建 3 个常用窗口尺寸。
 - 布局：已经保存 1 个最常用工作区。
