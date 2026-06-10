@@ -244,6 +244,14 @@
 &lt;li>当前快捷键是否被系统或其他 App 占用。&lt;/li>
 &lt;/ol>
 &lt;p>如果免费版 Rectangle 还在运行，先退出它。&lt;/p>
+&lt;h3 id="打字时窗口突然移动">打字时窗口突然移动&lt;/h3>
+&lt;p>这种一般是快捷键设置太宽导致的。比如某个动作被录成单独的 &lt;code>Y&lt;/code>、&lt;code>H&lt;/code>、&lt;code>I&lt;/code>，输入法打字时就会触发窗口移动。&lt;/p>
+&lt;p>优先检查两个地方：&lt;/p>
+&lt;ol>
+&lt;li>&lt;code>Settings&lt;/code> -&amp;gt; &lt;code>General&lt;/code>，关闭 &lt;code>Allow any keyboard shortcut (remove safeguards)&lt;/code>。&lt;/li>
+&lt;li>&lt;code>Settings&lt;/code> -&amp;gt; &lt;code>Keyboard Shortcuts&lt;/code>，检查是否有单字母快捷键，把它改成 &lt;code>control&lt;/code>、&lt;code>option&lt;/code>、&lt;code>command&lt;/code> 组合键。&lt;/li>
+&lt;/ol>
+&lt;p>我的建议是所有窗口管理快捷键都至少带两个修饰键，比如 &lt;code>control + option&lt;/code> 或 &lt;code>control + command&lt;/code>。单字母快捷键很容易和中文输入法打架。&lt;/p>
 &lt;h3 id="拖拽吸附没反应">拖拽吸附没反应&lt;/h3>
 &lt;p>到 &lt;code>Snap Areas&lt;/code> 里确认 &lt;code>Snap windows by dragging&lt;/code> 是否开启。&lt;/p>
 &lt;p>如果拖窗口到屏幕边缘时没有出现半透明的 footprint，通常是权限或功能开关的问题。&lt;/p>
@@ -271,6 +279,7 @@
 &lt;li>权限：&lt;code>Accessibility&lt;/code> 已经给 Rectangle Pro 打开。&lt;/li>
 &lt;li>冲突：免费版 Rectangle 已经退出。&lt;/li>
 &lt;li>快捷键：只保留 5-8 个高频动作。&lt;/li>
+&lt;li>安全：关闭 &lt;code>Allow any keyboard shortcut (remove safeguards)&lt;/code>。&lt;/li>
 &lt;li>鼠标：&lt;code>Window Throw&lt;/code> 可以稳定触发。&lt;/li>
 &lt;li>自定义：已经创建 3 个常用窗口尺寸。&lt;/li>
 &lt;li>布局：已经保存 1 个最常用工作区。&lt;/li>
