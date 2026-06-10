@@ -4,19 +4,19 @@
 &lt;li>&lt;a href="https://blog.forecho.com/how-to-read-the-open-first-30-minutes.html">开盘 30 分钟怎么读盘：跳空、第一根 K 线与当天主方向&lt;/a>&lt;/li>
 &lt;li>&lt;strong>1Rev 与 1PB：开盘后最重要的两类机会（当前）&lt;/strong>&lt;/li>
 &lt;li>&lt;a href="https://blog.forecho.com/what-is-a2-price-action-setup.html">A2 是什么：最值得先练的价格行为 setup&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://blog.forecho.com/most-breakouts-fail-trading-range-playbook.html">大多数突破都会失败：区间行情里真正值得做的机会&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://blog.forecho.com/most-breakouts-fail-trading-range-playbook.html">大多数突破都会失败：区间行情里值得做的机会&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://blog.forecho.com/trend-day-hard-trend-soft-trend-playbook.html">趋势日怎么做：硬趋势、软趋势与 Spike and Channel&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://blog.forecho.com/why-you-still-cant-make-money-even-if-you-read-the-market-right.html">为什么你看对了方向，还是赚不到钱&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="引言">引言&lt;/h2>
-&lt;p>开盘以后，很多人最想抓的，就是第一波反转。&lt;/p>
-&lt;p>这个想法很自然。谁都知道，如果开盘后的第一次方向切换真的成立，后面很可能就是当天最好吃的一段。问题也恰恰出在这里：&lt;strong>大多数人看到的并不是第一次方向切换，只是原趋势里的普通回调。&lt;/strong>&lt;/p>
-&lt;p>所以 &lt;code>1Rev&lt;/code> 和 &lt;code>1PB&lt;/code> 这两个词，很多人知道，实战却总做歪。最常见的有两种：&lt;/p>
+&lt;p>开盘后最诱人的机会，通常是第一波方向切换。&lt;/p>
+&lt;p>如果抓对了，位置很好，止损也自然，后面可能就是当天最舒服的一段。但这个 setup 也很容易把人骗进去：你看到的那根反向 K 线，很多时候只是原趋势里的普通 pullback。&lt;/p>
+&lt;p>我现在看 &lt;code>1Rev&lt;/code> 和 &lt;code>1PB&lt;/code>，会先把它们放在同一条线上理解：&lt;/p>
 &lt;ul>
-&lt;li>第一根反向 K 线一出来，就急着当成 &lt;code>1Rev&lt;/code>；&lt;/li>
-&lt;li>明明更稳的是 &lt;code>1PB&lt;/code>，却嫌它慢，非要去抢最早那一下。&lt;/li>
+&lt;li>&lt;code>1Rev&lt;/code>：开盘后第一次有机会改变主导方向的反转；&lt;/li>
+&lt;li>&lt;code>1PB&lt;/code>：新方向初步成立后，第一次顺着新方向的回调。&lt;/li>
 &lt;/ul>
-&lt;p>我自己的理解很简单：这两个 setup 不能脱离开盘背景去看。离开 gap、开盘区间、第一波走势强弱，单独谈 &lt;code>1Rev&lt;/code> 和 &lt;code>1PB&lt;/code>，很容易变成图形猜谜。&lt;/p></description></item><item><title>A2、1PB、1Rev 实战手册：怎么入场，止损放哪，什么情况直接放弃</title><link>https://blog.forecho.com/a2-1pb-1rev-trading-playbook.html</link><pubDate>Tue, 31 Mar 2026 21:10:00 +0800</pubDate><guid>https://blog.forecho.com/a2-1pb-1rev-trading-playbook.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>&lt;code>1Rev&lt;/code> 更早，&lt;code>1PB&lt;/code> 更稳。这个取舍，比定义本身更重要。&lt;/p></description></item><item><title>A2、1PB、1Rev 实战手册：怎么入场，止损放哪，什么情况直接放弃</title><link>https://blog.forecho.com/a2-1pb-1rev-trading-playbook.html</link><pubDate>Tue, 31 Mar 2026 21:10:00 +0800</pubDate><guid>https://blog.forecho.com/a2-1pb-1rev-trading-playbook.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
 &lt;p>很多人学价格行为，最容易卡住的不是“看不懂形态”，而是看懂了也不会下手。&lt;/p>
 &lt;p>比如 A2 认出来了，但不知道是不是离均线太远；1Rev 看到了，又怕只是一个普通反抽；1PB 觉得像机会，结果进场以后第一下回撤就把自己洗出去。&lt;/p>
 &lt;p>这篇文章我不想泛泛讲概念，而是把和实战最相关的部分重新整理成一套更容易执行的规则：&lt;strong>A2、1PB、1Rev 到底是什么，什么位置可以做，怎么入场，止损止盈怎么处理，什么情况下宁愿放弃。&lt;/strong>&lt;/p>
