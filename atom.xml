@@ -1,4 +1,294 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 07 Jun 2026 00:36:07 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>大陆用户开美国期货账户，我会先选 AMP Futures</title><link>https://blog.forecho.com/open-us-futures-broker-from-china.html</link><pubDate>Sun, 07 Jun 2026 00:36:07 +0800</pubDate><guid>https://blog.forecho.com/open-us-futures-broker-from-china.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 10 Jun 2026 14:27:48 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>Rectangle Pro 使用教程：买了之后才搞懂</title><link>https://blog.forecho.com/rectangle-pro-usage-guide.html</link><pubDate>Wed, 10 Jun 2026 14:27:48 +0800</pubDate><guid>https://blog.forecho.com/rectangle-pro-usage-guide.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>之前稀里糊涂买了 &lt;a href="https://rectangleapp.com/pro/">Rectangle Pro&lt;/a>，买完之后才发现它界面全是英文，功能也比免费版多很多。放着吃灰有点浪费，所以我花了点时间把官方文档和常用功能摸了一遍。&lt;/p>
+&lt;p>先说结论：&lt;strong>免费版 Rectangle 已经够大多数人用，Rectangle Pro 的价值主要在 Window Throw、自定义窗口尺寸、工作区布局、Stash 和 Pin Mode。&lt;/strong>&lt;/p>
+&lt;p>这篇文章按英文菜单名来写，打开软件的时候可以直接对照着设置。&lt;/p>
+&lt;h2 id="rectangle-免费版和-pro-有什么区别">Rectangle 免费版和 Pro 有什么区别？&lt;/h2>
+&lt;p>&lt;a href="https://github.com/rxhanson/Rectangle">Rectangle&lt;/a> 免费版是一个开源的 Mac 窗口管理工具，核心功能就是把窗口快速移动到左半屏、右半屏、最大化、居中、三分之一屏幕等位置。你可以用快捷键，也可以把窗口拖到屏幕边缘来吸附。&lt;/p>
+&lt;p>Rectangle Pro 是 Rectangle 的闭源增强版，官方文档里说它是 Rectangle 的 superset，而且是单独下载的 App。我的理解是：免费版负责把窗口放到常见位置，Pro 版负责把窗口管理这件事做得更顺手、更细、更适合多屏工作。&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>功能&lt;/th>
+&lt;th>Rectangle 免费版&lt;/th>
+&lt;th>Rectangle Pro&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>收费方式&lt;/td>
+&lt;td>免费、开源&lt;/td>
+&lt;td>一次性买断，当前官网显示可试用 10 天&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>基础分屏&lt;/td>
+&lt;td>支持&lt;/td>
+&lt;td>支持，内置动作更多&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>拖拽吸附&lt;/td>
+&lt;td>支持屏幕边缘和角落&lt;/td>
+&lt;td>支持自定义 &lt;code>Snap Areas&lt;/code>、&lt;code>Snap Targets&lt;/code>、&lt;code>Snap Panel&lt;/code>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>快捷键&lt;/td>
+&lt;td>常用窗口动作&lt;/td>
+&lt;td>更多内置快捷键，还能配置重复按键行为&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>自定义尺寸&lt;/td>
+&lt;td>支持有限的额外快捷键&lt;/td>
+&lt;td>&lt;code>Custom Size &amp;amp; Position&lt;/code> 可以按百分比或像素配置&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>鼠标/触控板操作&lt;/td>
+&lt;td>基础拖拽吸附&lt;/td>
+&lt;td>&lt;code>Window Throw&lt;/code>、&lt;code>Quick Throw&lt;/code> 更适合少记快捷键&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>布局&lt;/td>
+&lt;td>手动摆放为主&lt;/td>
+&lt;td>&lt;code>Layouts&lt;/code> 可以按规则重新排布匹配到的窗口&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>临时隐藏窗口&lt;/td>
+&lt;td>手动最小化或切换&lt;/td>
+&lt;td>&lt;code>Stash&lt;/code> 可以把窗口藏到屏幕边缘&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>固定侧边窗口&lt;/td>
+&lt;td>需要手动调整&lt;/td>
+&lt;td>&lt;code>Pin Mode&lt;/code> 可以把一个 App 固定在侧边，其他窗口自动避让&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>同步配置&lt;/td>
+&lt;td>可导入导出配置&lt;/td>
+&lt;td>支持 iCloud 同步，也支持导入导出配置&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>许可证&lt;/td>
+&lt;td>免费使用&lt;/td>
+&lt;td>一个 license 可同时激活 3 台设备&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>我的建议很简单：&lt;strong>只用左右分屏和最大化，免费版就够了；已经买了 Pro，就优先用好 &lt;code>Window Throw&lt;/code>、&lt;code>Custom Size &amp;amp; Position&lt;/code> 和 &lt;code>Layouts&lt;/code>。&lt;/strong>&lt;/p>
+&lt;h2 id="安装和基础设置">安装和基础设置&lt;/h2>
+&lt;p>下载地址在官网：&lt;a href="https://rectangleapp.com/pro/">Rectangle Pro&lt;/a>。&lt;/p>
+&lt;p>安装后第一次启动，macOS 会要求给它辅助功能权限。路径一般是：&lt;/p>
+&lt;p>&lt;code>System Settings&lt;/code> -&amp;gt; &lt;code>Privacy &amp;amp; Security&lt;/code> -&amp;gt; &lt;code>Accessibility&lt;/code>&lt;/p>
+&lt;p>找到 &lt;code>Rectangle Pro&lt;/code>，打开开关。窗口管理软件需要这个权限来控制其他 App 的窗口位置，Apple 官方文档也把这类权限放在 Accessibility 里说明。&lt;/p>
+&lt;p>如果之前已经安装过免费版 Rectangle，我建议做三件事：&lt;/p>
+&lt;ol>
+&lt;li>退出免费版 Rectangle，避免两个窗口管理软件抢同一组快捷键。&lt;/li>
+&lt;li>在 Pro 里导入或重新设置自己熟悉的快捷键。&lt;/li>
+&lt;li>先只保留 5-8 个高频快捷键，用一周之后再加。&lt;/li>
+&lt;/ol>
+&lt;p>我自己会保留这些动作：&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>Left Half&lt;/code>：左半屏&lt;/li>
+&lt;li>&lt;code>Right Half&lt;/code>：右半屏&lt;/li>
+&lt;li>&lt;code>Maximize&lt;/code>：最大化&lt;/li>
+&lt;li>&lt;code>Center&lt;/code>：居中&lt;/li>
+&lt;li>&lt;code>Next Display&lt;/code> / &lt;code>Previous Display&lt;/code>：多屏之间移动窗口&lt;/li>
+&lt;li>&lt;code>Restore&lt;/code>：恢复窗口之前的大小&lt;/li>
+&lt;/ul>
+&lt;p>窗口管理工具的关键是肌肉记忆。快捷键太多，最后反而一个都记不住。&lt;/p>
+&lt;h2 id="最值得先学的功能">最值得先学的功能&lt;/h2>
+&lt;h3 id="window-throw">Window Throw&lt;/h3>
+&lt;p>&lt;code>Window Throw&lt;/code> 是 Rectangle Pro 最有代表性的功能。官方默认触发键是 &lt;code>control + command&lt;/code>。一般安装后已经可以用，确认路径是 &lt;code>Settings&lt;/code> -&amp;gt; &lt;code>Cursor Movement&lt;/code> -&amp;gt; &lt;code>Window Throw&lt;/code> -&amp;gt; &lt;code>Modifier Keys&lt;/code>。&lt;/p>
+&lt;p>这里默认是 &lt;code>control + command&lt;/code>。如果 &lt;code>Modifier Keys&lt;/code> 为空，&lt;code>Window Throw&lt;/code> 处于停用状态。你也可以把触发方式改成鼠标按钮或触控板手势。&lt;/p>
+&lt;p>使用方式：&lt;/p>
+&lt;ol>
+&lt;li>鼠标放到目标窗口上。&lt;/li>
+&lt;li>按住 &lt;code>control + command&lt;/code>。&lt;/li>
+&lt;li>移动鼠标，屏幕上会出现一个选择区域。&lt;/li>
+&lt;li>松开按键，窗口会移动到对应位置。&lt;/li>
+&lt;/ol>
+&lt;p>这个功能适合快捷键记得少的人。只要记一个触发方式，然后靠鼠标方向来选择窗口位置。&lt;/p>
+&lt;p>我建议先把它当成「万能窗口移动器」来用：&lt;/p>
+&lt;ul>
+&lt;li>往左：左半屏&lt;/li>
+&lt;li>往右：右半屏&lt;/li>
+&lt;li>往上：最大化&lt;/li>
+&lt;li>往下：居中或恢复&lt;/li>
+&lt;li>往左上/右上：对应角落&lt;/li>
+&lt;/ul>
+&lt;p>如果你有外接显示器，&lt;code>Window Throw&lt;/code> 还可以把窗口扔到另一块屏幕上。多屏办公的人会更明显感受到这个功能的价值。&lt;/p>
+&lt;h3 id="custom-size--position">Custom Size &amp;amp; Position&lt;/h3>
+&lt;p>&lt;code>Custom Size &amp;amp; Position&lt;/code> 用来创建自己的窗口尺寸和位置。官方文档说它可以按屏幕百分比配置，也可以按像素配置，还可以绑定快捷键、加入 &lt;code>Window Throw&lt;/code>、作为拖拽吸附目标。&lt;/p>
+&lt;p>这里最实用的做法是先创建几个自己真正会用的尺寸：&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>名称&lt;/th>
+&lt;th>用途&lt;/th>
+&lt;th>建议参数&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;code>Browser Large&lt;/code>&lt;/td>
+&lt;td>浏览器主窗口&lt;/td>
+&lt;td>宽度 70%，高度 100%，靠左&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;code>Chat Right&lt;/code>&lt;/td>
+&lt;td>微信、Telegram、AI 聊天&lt;/td>
+&lt;td>宽度 30%，高度 100%，靠右&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;code>Editor Center&lt;/code>&lt;/td>
+&lt;td>写作或代码窗口&lt;/td>
+&lt;td>宽度 80%，高度 90%，居中&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;code>Preview Small&lt;/code>&lt;/td>
+&lt;td>预览窗口&lt;/td>
+&lt;td>宽度 40%，高度 70%，靠右下&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>配置方式：&lt;/p>
+&lt;ol>
+&lt;li>打开 &lt;code>Settings&lt;/code>。&lt;/li>
+&lt;li>进入 &lt;code>Custom Size &amp;amp; Position&lt;/code>。&lt;/li>
+&lt;li>点击右上角 &lt;code>+&lt;/code>。&lt;/li>
+&lt;li>填 &lt;code>Name&lt;/code>。&lt;/li>
+&lt;li>设置 &lt;code>Position&lt;/code> 和 &lt;code>Size&lt;/code>。&lt;/li>
+&lt;li>需要快捷键就填 &lt;code>Keyboard Shortcut&lt;/code>。&lt;/li>
+&lt;li>点 &lt;code>View Footprint&lt;/code> 看一下实际位置。&lt;/li>
+&lt;/ol>
+&lt;p>这里有个小技巧：数值小于等于 &lt;code>1&lt;/code> 的时候，可以理解成屏幕比例，比如 &lt;code>0.7&lt;/code> 就是 70%；数值大于 &lt;code>1&lt;/code> 的时候，可以理解成像素。&lt;/p>
+&lt;h3 id="layouts">Layouts&lt;/h3>
+&lt;p>&lt;code>Layouts&lt;/code> 适合每天都打开固定工作区的人。比如：&lt;/p>
+&lt;ul>
+&lt;li>左边浏览器，右边编辑器&lt;/li>
+&lt;li>左边 Cursor，右边预览窗口&lt;/li>
+&lt;li>主屏写代码，副屏放终端和浏览器&lt;/li>
+&lt;li>主屏看行情，副屏放交易软件和笔记&lt;/li>
+&lt;/ul>
+&lt;p>我觉得这个功能最适合多屏用户。你可以把一组 App 的窗口位置保存起来，下次按匹配规则重新排好。&lt;/p>
+&lt;p>这里有个边界要搞清楚：&lt;code>Layouts&lt;/code> 的核心是排窗口。打开 &lt;code>Bring windows to front&lt;/code> 后，它会把匹配到的窗口提到前台；打开 &lt;code>Launch closed/minimized apps&lt;/code> 后，它会尝试启动关闭或最小化的 App。具体网页、文档、聊天会话能否回来，取决于 App 自己的窗口恢复能力。&lt;/p>
+&lt;p>配置方式：&lt;/p>
+&lt;ol>
+&lt;li>先手动把几个窗口摆到你想要的位置。&lt;/li>
+&lt;li>打开 &lt;code>Settings&lt;/code> -&amp;gt; &lt;code>Layouts&lt;/code>。&lt;/li>
+&lt;li>点击 &lt;code>+ Layout&lt;/code>。&lt;/li>
+&lt;li>选择当前显示器或所有显示器。&lt;/li>
+&lt;li>给这个布局起一个名字，比如 &lt;code>Writing&lt;/code>、&lt;code>Coding&lt;/code>、&lt;code>Trading&lt;/code>。&lt;/li>
+&lt;li>给它设置一个快捷键。&lt;/li>
+&lt;/ol>
+&lt;p>保存之后，窗口乱了直接执行这个 Layout。能匹配到的窗口会重新摆回去，比一个窗口一个窗口调整省事很多。&lt;/p>
+&lt;h3 id="stash">Stash&lt;/h3>
+&lt;p>&lt;code>Stash&lt;/code> 可以把窗口藏到屏幕边缘，鼠标碰到边缘时再滑出来。它适合那些你会反复看一眼，又希望主屏保持清爽的窗口。&lt;/p>
+&lt;p>适合放进 Stash 的窗口：&lt;/p>
+&lt;ul>
+&lt;li>微信&lt;/li>
+&lt;li>Telegram&lt;/li>
+&lt;li>音乐播放器&lt;/li>
+&lt;li>下载工具&lt;/li>
+&lt;li>AI 聊天窗口&lt;/li>
+&lt;/ul>
+&lt;p>我建议先给 &lt;code>Stash Right&lt;/code> 设置一个快捷键。把聊天软件往右边一藏，需要时鼠标碰一下右边缘就出来，处理完继续藏起来。&lt;/p>
+&lt;h3 id="pin-mode">Pin Mode&lt;/h3>
+&lt;p>&lt;code>Pin Mode&lt;/code> 可以把一个 App 固定在屏幕侧边，其他窗口动作会在剩余空间里重新计算。官方文档里提到它来自 Rectangle 的 Todo Mode。&lt;/p>
+&lt;p>这个功能适合把待办、聊天、笔记、行情软件固定在一侧。比如把备忘录固定在右侧 30%，其他窗口只占左侧 70%。&lt;/p>
+&lt;p>我的建议是：**Pin 一个窗口的时候，只 Pin 信息密度高、需要常看的 App。**聊天窗口、待办、行情、AI 对话都适合。网页和编辑器通常更适合做主窗口。&lt;/p>
+&lt;h2 id="我的推荐配置">我的推荐配置&lt;/h2>
+&lt;p>刚开始用 Rectangle Pro，我建议按这个顺序来：&lt;/p>
+&lt;h3 id="第一步先把免费版体验找回来">第一步：先把免费版体验找回来&lt;/h3>
+&lt;p>先配置这些基础动作：&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>Left Half&lt;/code>&lt;/li>
+&lt;li>&lt;code>Right Half&lt;/code>&lt;/li>
+&lt;li>&lt;code>Maximize&lt;/code>&lt;/li>
+&lt;li>&lt;code>Center&lt;/code>&lt;/li>
+&lt;li>&lt;code>Restore&lt;/code>&lt;/li>
+&lt;li>&lt;code>Next Display&lt;/code>&lt;/li>
+&lt;li>&lt;code>Previous Display&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;p>这一步的目标是让它先替代免费版 Rectangle。&lt;/p>
+&lt;h3 id="第二步开启-window-throw">第二步：开启 Window Throw&lt;/h3>
+&lt;p>默认 &lt;code>control + command&lt;/code> 已经可以用。你先用几天，看看手感。如果和其他软件冲突，再改成别的组合键。&lt;/p>
+&lt;p>我个人更喜欢把 &lt;code>Window Throw&lt;/code> 留给鼠标操作，把普通快捷键留给键盘操作。这样脑子里分类很清楚。&lt;/p>
+&lt;h3 id="第三步创建-3-个自定义尺寸">第三步：创建 3 个自定义尺寸&lt;/h3>
+&lt;p>先创建这 3 个：&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>Main 70 Left&lt;/code>：主窗口，占左侧 70%&lt;/li>
+&lt;li>&lt;code>Side 30 Right&lt;/code>：辅助窗口，占右侧 30%&lt;/li>
+&lt;li>&lt;code>Center 80&lt;/code>：居中窗口，占屏幕 80%&lt;/li>
+&lt;/ul>
+&lt;p>用一周之后，再决定是否增加更多尺寸。&lt;/p>
+&lt;h3 id="第四步保存-1-个-layout">第四步：保存 1 个 Layout&lt;/h3>
+&lt;p>先保存一个最常用的工作区。比如写文章：&lt;/p>
+&lt;ul>
+&lt;li>浏览器左侧 60%&lt;/li>
+&lt;li>编辑器右侧 40%&lt;/li>
+&lt;li>聊天软件 Stash 到右边&lt;/li>
+&lt;/ul>
+&lt;p>一开始先做 1 个 Layout。太多布局会变成新的维护成本。&lt;/p>
+&lt;p>这个 Layout 里建议打开两个行为：&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>Bring windows to front&lt;/code>：把匹配到的窗口提到前台。&lt;/li>
+&lt;li>&lt;code>Launch closed/minimized apps&lt;/code>：尝试启动关闭或最小化的 App。&lt;/li>
+&lt;/ul>
+&lt;p>这里的重点是「尝试启动 App + 重新排窗口」。具体窗口内容能否恢复，看每个 App 自己的恢复机制。&lt;/p>
+&lt;h3 id="第五步打开-icloud-同步或导出配置">第五步：打开 iCloud 同步或导出配置&lt;/h3>
+&lt;p>如果你有多台 Mac，可以在 &lt;code>General&lt;/code> 里打开 &lt;code>Sync configuration over iCloud&lt;/code>。如果只用一台 Mac，也建议定期 &lt;code>Export Config&lt;/code> 备份一下。&lt;/p>
+&lt;p>买断软件最怕换电脑之后重新配置一遍。窗口管理工具的配置，一旦形成肌肉记忆，丢了很烦。&lt;/p>
+&lt;h2 id="常见问题">常见问题&lt;/h2>
+&lt;h3 id="快捷键没反应">快捷键没反应&lt;/h3>
+&lt;p>优先检查两个地方：&lt;/p>
+&lt;ol>
+&lt;li>&lt;code>System Settings&lt;/code> -&amp;gt; &lt;code>Privacy &amp;amp; Security&lt;/code> -&amp;gt; &lt;code>Accessibility&lt;/code> 里是否开启 Rectangle Pro。&lt;/li>
+&lt;li>当前快捷键是否被系统或其他 App 占用。&lt;/li>
+&lt;/ol>
+&lt;p>如果免费版 Rectangle 还在运行，先退出它。&lt;/p>
+&lt;h3 id="拖拽吸附没反应">拖拽吸附没反应&lt;/h3>
+&lt;p>到 &lt;code>Snap Areas&lt;/code> 里确认 &lt;code>Snap windows by dragging&lt;/code> 是否开启。&lt;/p>
+&lt;p>如果拖窗口到屏幕边缘时没有出现半透明的 footprint，通常是权限或功能开关的问题。&lt;/p>
+&lt;h3 id="window-throw-没反应">Window Throw 没反应&lt;/h3>
+&lt;p>到 &lt;code>Settings&lt;/code> -&amp;gt; &lt;code>Cursor Movement&lt;/code> -&amp;gt; &lt;code>Window Throw&lt;/code> 里检查 &lt;code>Modifier Keys&lt;/code>。默认是 &lt;code>control + command&lt;/code>，这里有按键组合才会触发。&lt;/p>
+&lt;p>如果你习惯鼠标，可以在同一页把触发方式改成鼠标按钮；如果习惯触控板，也可以设置 trackpad gesture。&lt;/p>
+&lt;h3 id="不知道该记哪些快捷键">不知道该记哪些快捷键&lt;/h3>
+&lt;p>只记 5 个：&lt;/p>
+&lt;ul>
+&lt;li>左半屏&lt;/li>
+&lt;li>右半屏&lt;/li>
+&lt;li>最大化&lt;/li>
+&lt;li>居中&lt;/li>
+&lt;li>恢复&lt;/li>
+&lt;/ul>
+&lt;p>剩下的交给 &lt;code>Window Throw&lt;/code> 和 &lt;code>Layouts&lt;/code>。窗口管理软件的价值是省脑子，快捷键表可以放在后面慢慢补。&lt;/p>
+&lt;h3 id="许可证能用几台电脑">许可证能用几台电脑？&lt;/h3>
+&lt;p>官方 FAQ 写得很清楚：一个 license 可以同时激活 3 台设备。换电脑之前，可以在 &lt;code>General&lt;/code> 里先移除旧设备的激活；已经拿不到旧设备，也可以在新电脑上移除最旧的激活。&lt;/p>
+&lt;h3 id="价格值不值">价格值不值？&lt;/h3>
+&lt;p>我觉得看使用频率。&lt;/p>
+&lt;p>每天只偶尔左右分屏，免费版 Rectangle 已经很好。每天长时间在 Mac 上工作，经常多屏、写代码、写文章、看行情、开一堆窗口，Pro 的 &lt;code>Window Throw&lt;/code> 和 &lt;code>Layouts&lt;/code> 能省下不少重复操作。&lt;/p>
+&lt;p>已经买了就别纠结了，把上面几个功能配起来，至少把钱用回来。&lt;/p>
+&lt;h2 id="一页清单">一页清单&lt;/h2>
+&lt;ul>
+&lt;li>权限：&lt;code>Accessibility&lt;/code> 已经给 Rectangle Pro 打开。&lt;/li>
+&lt;li>冲突：免费版 Rectangle 已经退出。&lt;/li>
+&lt;li>快捷键：只保留 5-8 个高频动作。&lt;/li>
+&lt;li>鼠标：&lt;code>Window Throw&lt;/code> 可以稳定触发。&lt;/li>
+&lt;li>自定义：已经创建 3 个常用窗口尺寸。&lt;/li>
+&lt;li>布局：已经保存 1 个最常用工作区。&lt;/li>
+&lt;li>备份：打开 iCloud 同步或导出配置文件。&lt;/li>
+&lt;li>复盘：用一周后删掉低频快捷键，保留真正顺手的操作。&lt;/li>
+&lt;/ul>
+&lt;h2 id="总结">总结&lt;/h2>
+&lt;p>Rectangle Pro 最值得用的地方是减少重复摆窗口的时间。&lt;/p>
+&lt;p>免费版 Rectangle 适合基础分屏，Pro 版适合把窗口管理做成一套自己的工作流。先用 &lt;code>Window Throw&lt;/code> 解决临时移动窗口，再用 &lt;code>Custom Size &amp;amp; Position&lt;/code> 固定常用尺寸，最后用 &lt;code>Layouts&lt;/code> 保存工作区。&lt;/p>
+&lt;p>我的最终建议是：**先配置基础快捷键 + Window Throw + 3 个自定义尺寸 + 1 个 Layout。**这四件事做好，Rectangle Pro 就已经值回大半。&lt;/p>
+&lt;h2 id="参考链接">参考链接&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://rectangleapp.com/pro/">Rectangle Pro 官网&lt;/a>：下载、试用、主要功能介绍&lt;/li>
+&lt;li>&lt;a href="https://rectangleapp.com/pro/docs/">Rectangle Pro 官方文档&lt;/a>：功能说明和配置入口&lt;/li>
+&lt;li>&lt;a href="https://rectangleapp.com/pro/docs/llms.txt">Rectangle Pro 文档文本版&lt;/a>：官方文档的文本版&lt;/li>
+&lt;li>&lt;a href="https://github.com/rxhanson/Rectangle">Rectangle 免费版 GitHub 仓库&lt;/a>：免费版功能、安装方式和常见问题&lt;/li>
+&lt;li>&lt;a href="https://support.apple.com/guide/mac-help/allow-accessibility-apps-to-access-your-mac-mh43185/mac">Apple：Allow accessibility apps to access your Mac&lt;/a>：macOS 辅助功能权限说明&lt;/li>
+&lt;/ul></description></item><item><title>大陆用户开美国期货账户，我会先选 AMP Futures</title><link>https://blog.forecho.com/open-us-futures-broker-from-china.html</link><pubDate>Sun, 07 Jun 2026 00:36:07 +0800</pubDate><guid>https://blog.forecho.com/open-us-futures-broker-from-china.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
 &lt;p>最近在研究美国期货账户，主要看了两个券商：&lt;a href="https://www.ampfutures.com/">AMP Futures&lt;/a> 和 &lt;a href="https://optimusfutures.com/">Optimus Futures&lt;/a>。&lt;/p>
 &lt;p>我的判断很直接：&lt;strong>先开 AMP，Optimus 先放观察位&lt;/strong>。&lt;/p>
 &lt;p>AMP 的开户资料更多，中文圈用的人也更多，Mac 用户可以直接接 TradingView。Optimus 官方支持海外用户，也有多个 FCM 清算商可选，但是中文圈完整跑通开户、入金、交易、出金的人太少，我会把它当第二账户备选。&lt;/p>
@@ -2903,165 +3193,4 @@ imgant upload ./my-image.png --format markdown
 &lt;h2 id="参考资料">参考资料&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://traderlion.com/profile/j-law/11-lessons-from-j-law/">TraderLion: 11 Powerful Lessons from J Law&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>比尔·阿克曼投资第一课：一小时看懂商业与投资底层逻辑</title><link>https://blog.forecho.com/bill-ackman-finance-investing-basics.html</link><pubDate>Thu, 15 Jan 2026 10:00:00 +0800</pubDate><guid>https://blog.forecho.com/bill-ackman-finance-investing-basics.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>比尔·阿克曼有一堂很好的入门课，主题是“用不到一小时，把金融与投资的基本概念讲清楚”。他没有从公式开始，而是用一个非常具体的例子：&lt;strong>我们一起开一家柠檬水摊&lt;/strong>。&lt;/p>
-&lt;p>这堂课的价值在于：你会发现很多“金融名词”，其实都能翻译成三个问题——&lt;strong>钱从哪来&lt;/strong>、&lt;strong>钱去哪了&lt;/strong>、&lt;strong>这家公司到底值多少钱&lt;/strong>。我把视频里的关键信息按这个顺序整理成一篇可直接复用的笔记。&lt;/p>
-&lt;h2 id="核心原则">核心原则&lt;/h2>
-&lt;ol>
-&lt;li>&lt;strong>复利最吃“时间”&lt;/strong>：同样的收益率，差异往往来自开始得早不早。
-&lt;ul>
-&lt;li>他给的例子很直观：22 岁一次性存下 $10,000，之后不再追加，每年赚 10%，43 年后大约是 $600,000；如果等到 32 岁才开始，同样 10% 的年化，最后大约是 $232,000。&lt;/li>
-&lt;li>他也用更高收益率说明“指数增长”的威力：同样是 43 年，10% 和 15% 的结果会差一个数量级；如果你真能做到 20% 的长期复利，结果会非常夸张（他还引用了“复利很强大”的经典说法）。&lt;/li>
-&lt;li>但他马上补了一刀：如果你为了追求 20% 去冒险，结果每 12 年亏掉一半本金，那么长期结果会被严重摧毁。要点是：&lt;strong>别把复利毁在大回撤上&lt;/strong>。&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>风险的核心不是波动&lt;/strong>：股价每天涨跌不是重点，重点是你投资的企业是否可能让你遭遇&lt;strong>永久性损失&lt;/strong>。&lt;/li>
-&lt;li>&lt;strong>把股票当成“收益率会变化的资产”&lt;/strong>：他用一个简单比喻解释市盈率（PE）——把 PE 反过来就是收益率的近似：&lt;code>E/P = 1/PE&lt;/code>。例如 PE=10，大致对应 10% 的“盈利收益率”，可以拿来和国债收益率对比。&lt;/li>
-&lt;/ol>
-&lt;h2 id="商业模式拆解一个柠檬摊的生命周期">商业模式拆解：一个柠檬摊的生命周期&lt;/h2>
-&lt;p>他用“柠檬摊公司”其实是在演示：公司从成立、融资、运营、扩张到退出（分红/出售/上市）的完整链条。你只要抓住三件事就能看懂：&lt;strong>融资结构&lt;/strong>、&lt;strong>三张报表&lt;/strong>、&lt;strong>估值与退出&lt;/strong>。&lt;/p>
-&lt;h3 id="第一阶段启动与融资钱从哪来">第一阶段：启动与融资（钱从哪来）&lt;/h3>
-&lt;p>他先设定：要把摊子开起来，需要 $750，但自己“没有钱”。&lt;/p>
-&lt;ol>
-&lt;li>&lt;strong>先成立公司&lt;/strong>：注册一家公司的好处是，你可以发行股票，让外部投资者进来。&lt;/li>
-&lt;li>&lt;strong>股权融资&lt;/strong>：他设定公司一开始有 1,000 股，然后再新增发行 500 股，以 $1/股卖给投资者。
-&lt;ul>
-&lt;li>投资者出资 $500，持有 500 股。&lt;/li>
-&lt;li>公司总股本变成 1,500 股，因此投资者持股比例是 1/3。&lt;/li>
-&lt;li>这个设定隐含了一个“起始估值”：公司值 $1,500（其中 $500 是现金，另外 $1,000 被他称为“商誉”，来自创始人的想法/品牌/筹备等）。&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>债务融资&lt;/strong>：现金还不够，他再向朋友借 $250，年利率 10%。
-&lt;ul>
-&lt;li>他用这一步回答了一个常见问题：&lt;strong>为什么不继续卖股票，而要借钱？&lt;/strong> 因为借钱不会稀释股权；如果生意成功，股东保留更多的利润份额。&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ol>
-&lt;h3 id="第二阶段做生意记账运营">第二阶段：做生意记账（运营）&lt;/h3>
-&lt;p>摊子开起来之后，你需要三张表。它们分别回答三个问题：&lt;strong>现在有多少家底&lt;/strong>、&lt;strong>今年赚没赚钱&lt;/strong>、&lt;strong>钱到底有没有进账户&lt;/strong>。&lt;/p>
-&lt;ol>
-&lt;li>&lt;strong>资产负债表&lt;/strong>：回答“现在公司站在哪里”。
-&lt;ul>
-&lt;li>核心等式：&lt;code>资产 = 负债 + 股东权益&lt;/code>。&lt;/li>
-&lt;li>在他的例子里，启动后公司账上有 $750 现金、$1,000 商誉，负债是 $250 借款。&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>利润表&lt;/strong>：回答“这门生意有没有盈利”。
-&lt;ul>
-&lt;li>他用柠檬摊做了一套非常具体的假设：一年卖 800 杯、$1/杯，收入 $800；原材料成本（销货成本）$200；人工成本 $530；摊位 $300、按 5 年折旧（每年约 $60）；最后 EBIT（息税前利润）只有 $10，利润率约 1.3%。&lt;/li>
-&lt;li>然后再加上借款利息（每年 $25），生意会变得更吃紧（他在讲解中用“计入利息后变成亏损”来强调融资成本的影响）。&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>现金流量表&lt;/strong>：回答“现金有没有增加”。
-&lt;ul>
-&lt;li>他强调：利润并不等于现金。钱可能被用来买摊位、买库存、扩张；这些都会体现在现金流里。&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ol>
-&lt;h3 id="第三阶段增长估值与退出公司值多少钱">第三阶段：增长、估值与退出（公司值多少钱）&lt;/h3>
-&lt;p>到了第 5 年，摊位数量增长到 7 个，生意进入“规模化”的阶段。他给了几组关键数字来说明规模效应：&lt;/p>
-&lt;ul>
-&lt;li>价格策略：每年每杯涨价 5 美分（$0.05）。&lt;/li>
-&lt;li>销量策略：每个摊位每年多卖 5% 的杯数。&lt;/li>
-&lt;li>结果：到第 5 年收入接近 $8,000，利润率从 1.3% 提升到 28.6%（他用这组对比强调“规模”对盈利能力的意义）。&lt;/li>
-&lt;li>进一步的财务结果：他提到第 5 年在扣除利息后，税前收益在 $2,300 左右；按约 35% 税率缴税后，净利润约 $1,500，折算下来大约是 &lt;strong>$1/股&lt;/strong>（结合他设定的 1,500 股总股本）。&lt;/li>
-&lt;/ul>
-&lt;p>然后他把问题切回“现实”：创业者需要用钱（他用“买一辆 $4,000 的车”做例子）。这时你有几种选择：&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>分红&lt;/strong>：把现金分给股东。好处是你拿到钱；坏处是公司少了用于扩张的现金，增长会放缓。&lt;/li>
-&lt;li>&lt;strong>卖掉公司&lt;/strong>：一次性退出。坏处是你不再参与后面的增长。&lt;/li>
-&lt;li>&lt;strong>卖一部分股权&lt;/strong>：在私募市场找投资者买你的一部分股份。&lt;/li>
-&lt;li>&lt;strong>上市（IPO）&lt;/strong>：把一部分股权卖给公众，让股票可以在公开市场交易（流动性）。
-&lt;ul>
-&lt;li>他也提醒：IPO 并不是“凭空造钱”，本质是把你已经拥有的生意卖一部分给公众。&lt;/li>
-&lt;li>走 IPO 需要律师、投行（承销商），还要准备招股书，披露风险、历史财务信息，并接受监管机构的审阅。&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>那公司怎么估值？&lt;/strong> 他给了一个入门但够用的方法：看可比公司。&lt;/p>
-&lt;ul>
-&lt;li>公开市场里，公司估值可以近似理解为：&lt;code>市值 = 股价 × 流通股数（或总股本）&lt;/code>。&lt;/li>
-&lt;li>他假设类似公司在市场上交易于 20 倍利润（PE=20）。如果第 5 年每股赚 $1，那么合理股价大约是 $20/股。&lt;/li>
-&lt;li>他的例子里总股本是 1,500 股，因此公司估值约 $30,000。&lt;/li>
-&lt;li>如果你需要 $4,000，你可以卖出 200 股（200 × $20 = $4,000）来获得现金；同时你仍然可以保留控制权（他在课里也提到：上市后公司治理会更复杂，需要董事会等机制，灵活性会下降）。&lt;/li>
-&lt;/ul>
-&lt;h2 id="投资怎么落地他给的选股标准">投资怎么落地：他给的选股标准&lt;/h2>
-&lt;p>视频后半段，他把“柠檬摊模型”抽象成一组筛选标准。它们并不神秘，本质上是：&lt;strong>避开你搞不懂的&lt;/strong>，选择那些 &lt;strong>能长期赚钱、也不容易被竞争打成“商品化”&lt;/strong> 的生意。&lt;/p>
-&lt;h3 id="1买你能理解的生意">1）买你能理解的生意&lt;/h3>
-&lt;ul>
-&lt;li>&lt;strong>标准&lt;/strong>：这家公司怎么赚钱，你能不能讲清楚（而不是“听起来很高级”）。&lt;/li>
-&lt;li>&lt;strong>反例&lt;/strong>：他提到安然的教训——很多人以为它“业绩很好”，但多数人并不理解它到底怎么赚钱。&lt;/li>
-&lt;li>&lt;strong>延伸&lt;/strong>：他明确建议新手不要去投“柠檬摊式”的早期创业项目，而是优先考虑公开市场上的成熟公司（上市公司股票流动性更好，也更受监管约束）。&lt;/li>
-&lt;/ul>
-&lt;h3 id="2买有护城河的生意">2）买有护城河的生意&lt;/h3>
-&lt;ul>
-&lt;li>他举的方向包括：品牌忠诚、进入壁垒、产品差异化（不要是完全的“商品化”）。&lt;/li>
-&lt;li>直觉判断：如果竞争对手明天就能复制你的产品，用低 20% 的价格把你打趴下，那这门生意长期很难维持高利润。&lt;/li>
-&lt;li>他在课里用的典型例子包括：可口可乐和麦当劳——足够容易理解、历史够长、还能持续增长。&lt;/li>
-&lt;/ul>
-&lt;h3 id="3尽量买负债少的公司">3）尽量买负债少的公司&lt;/h3>
-&lt;ul>
-&lt;li>他反复强调：债务会放大脆弱性。顺风时没问题，逆风时可能直接破产，股东被“清零”。&lt;/li>
-&lt;li>你不用把债务看得很复杂：债务有优先级（高级/次级/夹层/可转换等），但结论只有一个——&lt;strong>债务先拿钱，股权拿剩下的&lt;/strong>。&lt;/li>
-&lt;/ul>
-&lt;h3 id="4偏好低资本密集的生意">4）偏好低资本密集的生意&lt;/h3>
-&lt;ul>
-&lt;li>他用“汽车制造”对比“可口可乐/运通”来解释资本密集度：
-&lt;ul>
-&lt;li>高资本密集：为了增长必须不断砸钱建厂、买设备，赚的钱很快又变成资本开支。&lt;/li>
-&lt;li>低资本密集：不需要投入同等规模的资本就能扩大收益（例如以“配方/网络/抽成/品牌授权”等方式参与价值分配）。&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>直觉判断：&lt;strong>同样增长 1 块钱利润，哪种生意需要更少的新增投入？&lt;/strong> 投入越少，越容易“自由现金流”更健康。&lt;/li>
-&lt;/ul>
-&lt;h3 id="5长期持有需要抗外部冲击">5）长期持有需要“抗外部冲击”&lt;/h3>
-&lt;ul>
-&lt;li>他提到一个“免疫力”标准：优质公司往往对利率、汇率、商品价格等外部因素不那么敏感，长期能穿越周期。&lt;/li>
-&lt;/ul>
-&lt;h2 id="一页清单把原则变成可执行">一页清单（把“原则”变成可执行）&lt;/h2>
-&lt;p>这部分我完全按他在课里反复强调的顺序来写：先把自己财务状态弄稳，再谈投资。&lt;/p>
-&lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> &lt;strong>先还高息债&lt;/strong>：如果你有信用卡循环债务，先把它清掉；他也提到学生贷款常见在 6%-7% 左右，提前还款等同于拿到一笔“确定性的”回报。&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> &lt;strong>留出安全垫&lt;/strong>：至少准备 6 个月、最好 12 个月的生活费现金，以防失业或意外。&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> &lt;strong>投入的钱要够“长”&lt;/strong>：只用 5-10 年内不需要动用的钱去投资股票市场。&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> &lt;strong>不加杠杆&lt;/strong>：不要借钱炒股，把自己置于“被迫卖出”的位置。&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> &lt;strong>理解生意&lt;/strong>：一句话讲清楚它怎么赚钱；如果讲不清楚，就别买。&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> &lt;strong>价格合理&lt;/strong>：用 &lt;code>E/P&lt;/code> 和国债收益率做一个“最低门槛”的对比。&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> &lt;strong>治理结构&lt;/strong>：他提醒“控股公司”对小股东可能更不友好——除非你非常信任控制股东的长期信誉与对少数股东的态度。&lt;/li>
-&lt;/ul>
-&lt;h2 id="常见错误与改法偏心理与纪律">常见错误与改法（偏心理与纪律）&lt;/h2>
-&lt;h3 id="错误追涨杀跌">错误：追涨杀跌&lt;/h3>
-&lt;ul>
-&lt;li>&lt;strong>现象&lt;/strong>：市场恐慌时你想卖，市场亢奋时你想追。&lt;/li>
-&lt;li>&lt;strong>改法&lt;/strong>：他把这件事讲得很直白：短期股市更像“投票机”，长期才会回到“称重机”。泡沫里你更容易高位接盘，崩盘里反而可能出现便宜货——前提是你没有被迫卖出的压力。&lt;/li>
-&lt;/ul>
-&lt;h3 id="错误想一夜暴富">错误：想一夜暴富&lt;/h3>
-&lt;ul>
-&lt;li>&lt;strong>现象&lt;/strong>：把目标设成“我要赚 100%”，于是去押注极高风险的资产或用杠杆。&lt;/li>
-&lt;li>&lt;strong>改法&lt;/strong>：他给的底线原则和巴菲特类似：第一条，别亏大钱；第二条，别忘了第一条。长期稳定复利，比“偶尔暴赚、偶尔腰斩”更可靠（他也用“每 12 年亏掉一半资金”的例子，说明波动对复利的破坏）。&lt;/li>
-&lt;/ul>
-&lt;h3 id="错误没准备现金缓冲导致最不该卖的时候被迫卖">错误：没准备现金缓冲，导致“最不该卖的时候被迫卖”&lt;/h3>
-&lt;ul>
-&lt;li>&lt;strong>现象&lt;/strong>：市场下跌时，你发现自己需要用钱（房租、学费、债务利息），只能在低位卖出。&lt;/li>
-&lt;li>&lt;strong>改法&lt;/strong>：回到他的顺序：先处理高息债，再留 6-12 个月安全垫，只用 5-10 年不用的钱去投资。这样你才有资格谈“长期持有”。&lt;/li>
-&lt;/ul>
-&lt;h3 id="错误买太多或买太少">错误：买太多或买太少&lt;/h3>
-&lt;ul>
-&lt;li>&lt;strong>现象&lt;/strong>：股票太多导致无法研究，或过度集中导致一次失误就伤筋动骨。&lt;/li>
-&lt;li>&lt;strong>改法&lt;/strong>：他给了一个“个人投资者可执行”的范围：大约 10-20 只股票是相对合理的集中度；如果你通过基金/管理人投资，也建议用 2-4 个不同的管理人做分散。&lt;/li>
-&lt;/ul>
-&lt;h3 id="错误把买基金当成不用做功课">错误：把“买基金”当成不用做功课&lt;/h3>
-&lt;ul>
-&lt;li>&lt;strong>现象&lt;/strong>：以为买了共同基金就万事大吉。&lt;/li>
-&lt;li>&lt;strong>改法&lt;/strong>：他给的筛选标准包括：策略能否在两分钟讲清楚、管理人是否诚信、是否坚持价值投资、至少 5 年（最好 10-20 年）一致的业绩与方法、是否把大部分自有资金和你投在一起、是否避免杠杆。&lt;/li>
-&lt;/ul>
-&lt;h2 id="总结">总结&lt;/h2>
-&lt;ol>
-&lt;li>&lt;strong>先把自己“站稳”&lt;/strong>：清掉高息债、留出现金缓冲，再把 5-10 年不用的钱放进股市。&lt;/li>
-&lt;li>&lt;strong>用柠檬摊思维看公司&lt;/strong>：钱从哪来（股权/债务）、钱去哪了（三张报表）、公司值多少（可比估值 + 流动性/治理成本）。&lt;/li>
-&lt;li>&lt;strong>长期回报来自少数关键因素&lt;/strong>：理解生意、价格合理、护城河、低负债、低资本密集，以及能穿越周期的韧性。&lt;/li>
-&lt;/ol>
-&lt;h2 id="参考链接">参考链接&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://www.youtube.com/watch?v=WEDIj9JBTC8">视频来源：Bill Ackman《Everything You Need to Know about Finance and Investing in Under an Hour》&lt;/a>&lt;/li>
 &lt;/ul></description></item></channel></rss>
