@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ATR Bar on forecho's Blog</title><link>https://blog.forecho.com/tags/atr-bar.html</link><description>Recent content in ATR Bar on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 07 May 2025 16:10:58 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/tags/atr-bar/atom.xml" rel="self" type="application/rss+xml"/><item><title>价格行为学 - Rose 的 ATR Bar 策略</title><link>https://blog.forecho.com/price-action-rose-atr-bar.html</link><pubDate>Wed, 07 May 2025 16:10:58 +0800</pubDate><guid>https://blog.forecho.com/price-action-rose-atr-bar.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>本文介绍 Rose 的 &lt;strong>ATR Bar&lt;/strong> 交易策略。&lt;/p>
+&lt;p>这套方法的核心是：找到一根对当天波动率和市场结构有决定性影响的大 K 线，只测量它的实体部分，再用 &lt;code>0.21 / 0.33 / 0.50 / 0.66 / 0.79 / 1.33 / 1.50 / 1.66&lt;/code> 这些位置做入场、加仓和止盈参考。&lt;/p>
+&lt;p>本文主要参考两个来源：&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://youtu.be/lxlY29T9SwU?si=qVIwrYuD6_ijTiEW&amp;amp;t=167">Price Action Rose - Trading Room Sample Wednesday 1200-1400 ET&lt;/a>&lt;/li>
+&lt;li>2026 年 6 月 12 日 ES 5 分钟图复盘素材&lt;/li>
+&lt;/ul>
+&lt;h2 id="什么是-atr-bar">什么是 ATR Bar&lt;/h2>
+&lt;p>ATR 的意思是 Average True Range，也就是平均真实波幅。Rose 说的 ATR Bar，可以理解为一根体积明显大于普通 K 线、足以改变市场波动节奏的大 K 线。&lt;/p>
+&lt;p>它通常有几个特征：&lt;/p>
+&lt;ul>
+&lt;li>实体很大，收盘位置强势，比如大阳线收在高位、大阴线收在低位。&lt;/li>
+&lt;li>收盘价突破前面多根 K 线的高点或低点，形成清晰的动能声明。&lt;/li>
+&lt;li>出现之后，后面经常会有第二段行情，至少会围绕它的关键比例位置产生反应。&lt;/li>
+&lt;li>它的实体会成为之后多空双方反复争夺的价格地图。&lt;/li>
+&lt;/ul>
+&lt;p>ATR Bar 的重点在“这根 K 线改变了后续交易的参照系”。它出现以后，交易者开始用它的实体去判断突破、回调、加仓、止盈和失效。&lt;/p></description></item></channel></rss>

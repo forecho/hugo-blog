@@ -39,16 +39,21 @@
 &lt;p>限价订单（Limit Order）是一种订单类型，允许交易者指定愿意购买或出售资产的特定价格或更好的价格。当市场价格达到交易者设定的限价或更有利的价格时，订单才会被执行。在某些市场条件，例如区间震荡或等待特定价格水平突破时，使用限价订单可以帮助交易者更精确地入场和管理风险。本篇文章将重点介绍如何结合喇叭形态使用限价订单进行交易。&lt;/p>
 &lt;h2 id="什么是-horn-pattern">什么是 Horn Pattern？&lt;/h2>
 &lt;p>&amp;ldquo;Horn Pattern&amp;rdquo;（喇叭形态）它是一种多头和空头可能被困住的价格行为模式，我们可以通过识别出这种模式，就可以找到潜在的获利机会。&lt;/p>
-&lt;p>它的图案有点像喇叭，所以叫喇叭形态。&lt;/p></description></item><item><title>价格行为学 - Rose 的 Gap Bar</title><link>https://blog.forecho.com/price-action-rose-gap-bar.html</link><pubDate>Wed, 07 May 2025 16:10:58 +0800</pubDate><guid>https://blog.forecho.com/price-action-rose-gap-bar.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>本篇文章主要是介绍 Rose 的 Gap Bar 交易策略。涉及到的来源：&lt;/p>
+&lt;p>它的图案有点像喇叭，所以叫喇叭形态。&lt;/p></description></item><item><title>价格行为学 - Rose 的 ATR Bar 策略</title><link>https://blog.forecho.com/price-action-rose-atr-bar.html</link><pubDate>Wed, 07 May 2025 16:10:58 +0800</pubDate><guid>https://blog.forecho.com/price-action-rose-atr-bar.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>本文介绍 Rose 的 &lt;strong>ATR Bar&lt;/strong> 交易策略。&lt;/p>
+&lt;p>这套方法的核心是：找到一根对当天波动率和市场结构有决定性影响的大 K 线，只测量它的实体部分，再用 &lt;code>0.21 / 0.33 / 0.50 / 0.66 / 0.79 / 1.33 / 1.50 / 1.66&lt;/code> 这些位置做入场、加仓和止盈参考。&lt;/p>
+&lt;p>本文主要参考两个来源：&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://youtu.be/lxlY29T9SwU?si=qVIwrYuD6_ijTiEW&amp;amp;t=167">Price Action Rose - Trading Room Sample Wednesday 1200-1400 ET&lt;/a>&lt;/li>
+&lt;li>2026 年 6 月 12 日 ES 5 分钟图复盘素材&lt;/li>
 &lt;/ul>
-&lt;h2 id="什么是-gap-bar">什么是 Gap Bar&lt;/h2>
-&lt;p>在 Rose 的交易系统中，“Gap Bar” (跳空 K 线) 是一个核心概念，但它的定义比字面意义上的“跳空”要宽泛。它可以指：&lt;/p>
-&lt;ol>
-&lt;li>&lt;strong>强趋势 K 线&lt;/strong>: 一根远离指数移动平均线 (EMA) 的强力阳线或阴线，显示出强劲的买方或卖方力量。这种 K 线表明趋势很可能会延续。Rose 提到：“一个像这样的跳空 K 线……会寻求延续。”&lt;/li>
-&lt;li>&lt;strong>连续的趋势 K 线&lt;/strong>: 几根连续的同向 K 线（例如，没有重叠的几根大阳线）可以被看作一个整体的“Gap Bar”，代表了一段强劲的趋势。&lt;/li>
-&lt;li>&lt;strong>隐含的供需区 (Implicit Gap)&lt;/strong>: 这是 Rose 的一个独特见解。一个“缺口”不一定需要是 K 线之间的可见空间。例如，当一根看涨 K 线的上影线部分与下一根看跌 K 线的实体部分重叠时，这个重叠区域就形成了一个隐含的“缺口”，也就是一个供应区或卖方区。同理，看跌 K 线的下影线和看涨 K 线的实体也可以形成一个需求区或买方区。Rose 将这些区域视为有大量限价单等待成交的关键位置。&lt;/li>
-&lt;/ol>
-&lt;p>总的来说，Gap Bar 是市场力量失衡的信号，它创造了高概率的交易机会。&lt;/p></description></item></channel></rss>
+&lt;h2 id="什么是-atr-bar">什么是 ATR Bar&lt;/h2>
+&lt;p>ATR 的意思是 Average True Range，也就是平均真实波幅。Rose 说的 ATR Bar，可以理解为一根体积明显大于普通 K 线、足以改变市场波动节奏的大 K 线。&lt;/p>
+&lt;p>它通常有几个特征：&lt;/p>
+&lt;ul>
+&lt;li>实体很大，收盘位置强势，比如大阳线收在高位、大阴线收在低位。&lt;/li>
+&lt;li>收盘价突破前面多根 K 线的高点或低点，形成清晰的动能声明。&lt;/li>
+&lt;li>出现之后，后面经常会有第二段行情，至少会围绕它的关键比例位置产生反应。&lt;/li>
+&lt;li>它的实体会成为之后多空双方反复争夺的价格地图。&lt;/li>
+&lt;/ul>
+&lt;p>ATR Bar 的重点在“这根 K 线改变了后续交易的参照系”。它出现以后，交易者开始用它的实体去判断突破、回调、加仓、止盈和失效。&lt;/p></description></item></channel></rss>
