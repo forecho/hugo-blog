@@ -1,4 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on forecho's Blog</title><link>https://blog.forecho.com/posts.html</link><description>Recent content in Posts on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 10 Jun 2026 14:27:48 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/posts/atom.xml" rel="self" type="application/rss+xml"/><item><title>Rectangle Pro 使用教程：买了之后才搞懂</title><link>https://blog.forecho.com/rectangle-pro-usage-guide.html</link><pubDate>Wed, 10 Jun 2026 14:27:48 +0800</pubDate><guid>https://blog.forecho.com/rectangle-pro-usage-guide.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on forecho's Blog</title><link>https://blog.forecho.com/posts.html</link><description>Recent content in Posts on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 15 Jun 2026 16:58:35 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/posts/atom.xml" rel="self" type="application/rss+xml"/><item><title>用安卓模拟器开通 giffgaff eSIM 的记录</title><link>https://blog.forecho.com/open-giffgaff-esim-with-android-emulator.html</link><pubDate>Mon, 15 Jun 2026 16:58:35 +0800</pubDate><guid>https://blog.forecho.com/open-giffgaff-esim-with-android-emulator.html</guid><description>&lt;p>&lt;img src="https://r2.imgant.com/2026/06/15/b58745b7.png" alt="">&lt;/p>
+&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>6 月 14 日晚上，看到几条推文和一个 YouTube 教程后，我跟着折腾了一圈，最后用电脑上的安卓模拟器申请到了英国 giffgaff eSIM。&lt;/p>
+&lt;p>我的主力机只有一台 iPhone 16 Pro Max，双实体卡槽。一个卡槽放老号，用来收短信和接电话；另一个卡槽放宽带送的流量卡，日常上网。第三方 eSIM 实体卡要插进 iPhone，就要占一个卡槽。&lt;/p>
+&lt;p>这次先把 giffgaff eSIM 申请下来，等 eSTK Plus+ 到货后再写入实体卡使用。Max 当时缺货，Plus+ 对我这个场景已经够用。&lt;/p></description></item><item><title>Rectangle Pro 使用教程：买了之后才搞懂</title><link>https://blog.forecho.com/rectangle-pro-usage-guide.html</link><pubDate>Wed, 10 Jun 2026 14:27:48 +0800</pubDate><guid>https://blog.forecho.com/rectangle-pro-usage-guide.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
 &lt;p>之前稀里糊涂买了 &lt;a href="https://rectangleapp.com/pro/">Rectangle Pro&lt;/a>，买完之后才发现它界面全是英文，功能也比免费版多很多。放着吃灰有点浪费，所以我花了点时间把官方文档和常用功能摸了一遍。&lt;/p>
 &lt;p>先说结论：&lt;strong>免费版 Rectangle 已经够大多数人用，Rectangle Pro 的价值主要在 Window Throw、自定义窗口尺寸、工作区布局、Stash 和 Pin Mode。&lt;/strong>&lt;/p>
 &lt;p>这篇文章按英文菜单名来写，打开软件的时候可以直接对照着设置。&lt;/p></description></item><item><title>大陆用户开美国期货账户，我会先选 AMP Futures</title><link>https://blog.forecho.com/open-us-futures-broker-from-china.html</link><pubDate>Sun, 07 Jun 2026 00:36:07 +0800</pubDate><guid>https://blog.forecho.com/open-us-futures-broker-from-china.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
@@ -137,14 +141,4 @@
 &lt;h2 id="引言">引言&lt;/h2>
 &lt;p>我是一个拥有 10 年开发经验的 Web 开发工程师，主要专注于后端开发。虽然我也曾两次尝试学习开发 App，但都因为门槛太高没能入门就放弃了。&lt;/p>
 &lt;p>这次借助 AI Vibe Coding 模式，我成功开发并上架了一款 App —— &lt;strong>&lt;a href="https://patimer.app/">PATimer&lt;/a>&lt;/strong>。这是一款倒计时提醒应用，目前已经发布了 Mac OS 版本。&lt;/p>
-&lt;p>在这篇文章中，即使你像我一样对 Xcode 充满恐惧，也能了解到如何利用 AI 克服这些障碍。&lt;/p></description></item><item><title>美国投资冠军 J Law 的 11 条交易心法</title><link>https://blog.forecho.com/11-lessons-from-j-law.html</link><pubDate>Tue, 20 Jan 2026 10:00:00 +0800</pubDate><guid>https://blog.forecho.com/11-lessons-from-j-law.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>J Law 是美国投资冠军（US Investing Champion），也是一位备受尊敬的交易员。但他并非一蹴而就，从 2009 年开始交易，最初也是依靠“消息”和“内幕”亏损了两年，直到他开始系统性地学习和构建自己的交易体系。&lt;/p>
-&lt;p>TraderLion 整理了 J Law 的 11 条核心经验，这不仅是关于“买什么”，更是关于“怎么像专业人士一样思考”。我参考之前整理 Bill Ackman 投资课的逻辑，将这 11 条经验重新梳理为三个维度：&lt;strong>心法与成长&lt;/strong>、&lt;strong>交易体系&lt;/strong>、&lt;strong>日常纪律&lt;/strong>，并附上可执行的行动清单。&lt;/p>
-&lt;h2 id="第一阶段心法与成长找到你的路">第一阶段：心法与成长（找到你的路）&lt;/h2>
-&lt;p>在这一阶段，J Law 强调的是“生存”和“自我认知”。&lt;/p>
-&lt;h3 id="1-交易是个性化的游戏">1. 交易是个性化的游戏&lt;/h3>
-&lt;p>新手常犯的错误是盲目模仿别人的策略。J Law 指出，&lt;strong>你必须找到一套符合你个性的交易系统&lt;/strong>。&lt;/p>
-&lt;ul>
-&lt;li>有些人能忍受大幅回撤以换取巨额收益，有些人则需要平稳的曲线。&lt;/li>
-&lt;li>他花了很长时间通过读书、上课，并分析了自己超过 1,000 笔交易后，才明白什么风格最适合自己。&lt;/li>
-&lt;/ul></description></item></channel></rss>
+&lt;p>在这篇文章中，即使你像我一样对 Xcode 充满恐惧，也能了解到如何利用 AI 克服这些障碍。&lt;/p></description></item></channel></rss>

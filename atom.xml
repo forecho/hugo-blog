@@ -1,4 +1,73 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 10 Jun 2026 14:27:48 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>Rectangle Pro 使用教程：买了之后才搞懂</title><link>https://blog.forecho.com/rectangle-pro-usage-guide.html</link><pubDate>Wed, 10 Jun 2026 14:27:48 +0800</pubDate><guid>https://blog.forecho.com/rectangle-pro-usage-guide.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 15 Jun 2026 16:58:35 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>用安卓模拟器开通 giffgaff eSIM 的记录</title><link>https://blog.forecho.com/open-giffgaff-esim-with-android-emulator.html</link><pubDate>Mon, 15 Jun 2026 16:58:35 +0800</pubDate><guid>https://blog.forecho.com/open-giffgaff-esim-with-android-emulator.html</guid><description>&lt;p>&lt;img src="https://r2.imgant.com/2026/06/15/b58745b7.png" alt="">&lt;/p>
+&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>6 月 14 日晚上，看到几条推文和一个 YouTube 教程后，我跟着折腾了一圈，最后用电脑上的安卓模拟器申请到了英国 giffgaff eSIM。&lt;/p>
+&lt;p>我的主力机只有一台 iPhone 16 Pro Max，双实体卡槽。一个卡槽放老号，用来收短信和接电话；另一个卡槽放宽带送的流量卡，日常上网。第三方 eSIM 实体卡要插进 iPhone，就要占一个卡槽。&lt;/p>
+&lt;p>这次先把 giffgaff eSIM 申请下来，等 eSTK Plus+ 到货后再写入实体卡使用。Max 当时缺货，Plus+ 对我这个场景已经够用。&lt;/p>
+&lt;h2 id="我的需求">我的需求&lt;/h2>
+&lt;p>我需要一个海外手机号，主要用来收验证码、注册海外服务，以及做账号备用。giffgaff 的优势是英国号码、支持 eSIM、维护成本低，中文圈也有不少实操记录。&lt;/p>
+&lt;p>giffgaff 官方 eSIM 流程主要走 App，App 会检查设备是否支持 eSIM。我这种只有国行 iPhone、还想写入第三方实体 eSIM 卡的用户，要先拿到 eSIM 激活信息，再写入 eSTK。&lt;/p>
+&lt;h2 id="我一开始想用旧安卓手机">我一开始想用旧安卓手机&lt;/h2>
+&lt;p>我手上有一台十多年前的安卓手机，最开始想通过云萝卜这类工具配合 HookEuicc 来搞定。&lt;/p>
+&lt;p>实际卡在了系统版本上。老安卓系统太旧，HookEuicc 一直安装失败，后面的 LSPosed、模块生效、giffgaff App 检测都走不下去。&lt;/p>
+&lt;p>这个坑比较典型。教程里写“准备一台安卓手机”，真正执行时还要看系统版本、Magisk、LSPosed、HookEuicc 这些环节。我的旧手机第一步就卡住了，换电脑安卓模拟器更省时间。&lt;/p>
+&lt;h2 id="最后跑通的是电脑安卓模拟器">最后跑通的是电脑安卓模拟器&lt;/h2>
+&lt;p>我参考的 YouTube 教程标题很直接：《无需手机，全电脑操作：英国 giffgaff 电话卡手把手申请教程》。视频里走的是电脑安卓模拟器路线，核心工具大致是：&lt;/p>
+&lt;ul>
+&lt;li>MuMu 模拟器&lt;/li>
+&lt;li>Magisk&lt;/li>
+&lt;li>LSPosed&lt;/li>
+&lt;li>HookEuicc / 相关 giffgaff 模块&lt;/li>
+&lt;li>giffgaff App&lt;/li>
+&lt;/ul>
+&lt;p>大致流程是：&lt;/p>
+&lt;ol>
+&lt;li>在电脑上安装安卓模拟器。&lt;/li>
+&lt;li>安装 Magisk，确认 root 环境正常。&lt;/li>
+&lt;li>安装 LSPosed，并启用 HookEuicc 相关模块。&lt;/li>
+&lt;li>安装 giffgaff App，登录账号。&lt;/li>
+&lt;li>在 App 里申请 eSIM。&lt;/li>
+&lt;li>保存拿到的 eSIM 激活信息。&lt;/li>
+&lt;/ol>
+&lt;p>我就是沿着这条路跑通的。相比旧安卓手机，模拟器环境可控，版本也更容易匹配教程。&lt;/p>
+&lt;p>一般会看到类似这种格式：&lt;/p>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-text" data-lang="text">LPA:1$SM-DP+地址$Activation Code
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>这里面的 &lt;code>SM-DP+地址&lt;/code> 和 &lt;code>Activation Code&lt;/code> 要保存好。后面写入 eSTK、9eSIM、XeSIM 这类实体 eSIM 卡时都要用到。&lt;/p>
+&lt;h2 id="为什么我最后选-estk-plus">为什么我最后选 eSTK Plus+&lt;/h2>
+&lt;p>我最开始在 9eSIM、XeSIM、eSTK 之间纠结。调研之后，我觉得 eSTK 性价比最高：&lt;/p>
+&lt;ul>
+&lt;li>价格合适。&lt;/li>
+&lt;li>容量够用，我主要放 giffgaff，再加少量旅行 eSIM。&lt;/li>
+&lt;li>iPhone 用户可用，STK 菜单和跨平台工具都能覆盖我的使用方式。&lt;/li>
+&lt;/ul>
+&lt;p>Max 的容量更大，更适合经常切换很多国家和运营商 eSIM 的人。可惜我下单时 Max 没货，所以直接买了 Plus+。&lt;/p>
+&lt;p>我的使用方案很简单：&lt;/p>
+&lt;ol>
+&lt;li>eSTK Plus+ 到货后，把 giffgaff eSIM 写进去。&lt;/li>
+&lt;li>iPhone 里继续保留老号，保证短信和电话稳定。&lt;/li>
+&lt;li>日常国内上网继续用宽带送的流量卡。&lt;/li>
+&lt;li>需要 giffgaff 或旅行 eSIM 时，把第二卡槽换成 eSTK。&lt;/li>
+&lt;/ol>
+&lt;p>这也是双实体卡 iPhone 的现实取舍。老号承载短信和电话，我会固定留在手机里；第二卡槽在流量卡和 eSTK 之间按场景切换。&lt;/p>
+&lt;h2 id="后续计划">后续计划&lt;/h2>
+&lt;ol>
+&lt;li>只有 iPhone 的用户，先把 eSIM 激活信息拿到手，再考虑写入实体 eSIM 卡。&lt;/li>
+&lt;li>老安卓手机容易卡在系统版本和模块兼容性上，电脑安卓模拟器更省时间。&lt;/li>
+&lt;li>电脑安卓模拟器更适合照着教程复现，环境可控，排错成本低。&lt;/li>
+&lt;li>eSTK Plus+ 对我这种轻度使用场景已经够用。&lt;/li>
+&lt;li>双卡槽 iPhone 的核心取舍是保留老号，第二卡槽在流量卡和 eSTK 之间切换。&lt;/li>
+&lt;/ol>
+&lt;p>下一步等 eSTK Plus+ 到货。真正写入、切换、收短信是否稳定，还要等实体卡到手之后再验证。&lt;/p>
+&lt;h2 id="参考资料">参考资料&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=0UnJjASaqE8">YouTube：无需手机，全电脑操作：英国 giffgaff 电话卡手把手申请教程&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Rectangle Pro 使用教程：买了之后才搞懂</title><link>https://blog.forecho.com/rectangle-pro-usage-guide.html</link><pubDate>Wed, 10 Jun 2026 14:27:48 +0800</pubDate><guid>https://blog.forecho.com/rectangle-pro-usage-guide.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
 &lt;p>之前稀里糊涂买了 &lt;a href="https://rectangleapp.com/pro/">Rectangle Pro&lt;/a>，买完之后才发现它界面全是英文，功能也比免费版多很多。放着吃灰有点浪费，所以我花了点时间把官方文档和常用功能摸了一遍。&lt;/p>
 &lt;p>先说结论：&lt;strong>免费版 Rectangle 已经够大多数人用，Rectangle Pro 的价值主要在 Window Throw、自定义窗口尺寸、工作区布局、Stash 和 Pin Mode。&lt;/strong>&lt;/p>
 &lt;p>这篇文章按英文菜单名来写，打开软件的时候可以直接对照着设置。&lt;/p>
@@ -2993,109 +3062,4 @@ imgant upload ./my-image.png --format markdown
 &lt;h3 id="5-时间成本">5. 时间成本&lt;/h3>
 &lt;p>开发这个 App，我觉得自己花的最多的时间其实是 &lt;strong>模拟和真机的体验与调试&lt;/strong>。AI 很快就能把功能写出来，但 UI 的细节调整、交互的流畅度，都需要在设备上反复体验和打磨。&lt;/p>
 &lt;h2 id="最后">最后&lt;/h2>
-&lt;p>有了 AI Vibe Coding，像我这样对 App 开发一窍不通的后端工程师，也能独立完成从开发到上架的全过程。如果你也有想法，不妨现在就开始动手吧。&lt;/p></description></item><item><title>美国投资冠军 J Law 的 11 条交易心法</title><link>https://blog.forecho.com/11-lessons-from-j-law.html</link><pubDate>Tue, 20 Jan 2026 10:00:00 +0800</pubDate><guid>https://blog.forecho.com/11-lessons-from-j-law.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>J Law 是美国投资冠军（US Investing Champion），也是一位备受尊敬的交易员。但他并非一蹴而就，从 2009 年开始交易，最初也是依靠“消息”和“内幕”亏损了两年，直到他开始系统性地学习和构建自己的交易体系。&lt;/p>
-&lt;p>TraderLion 整理了 J Law 的 11 条核心经验，这不仅是关于“买什么”，更是关于“怎么像专业人士一样思考”。我参考之前整理 Bill Ackman 投资课的逻辑，将这 11 条经验重新梳理为三个维度：&lt;strong>心法与成长&lt;/strong>、&lt;strong>交易体系&lt;/strong>、&lt;strong>日常纪律&lt;/strong>，并附上可执行的行动清单。&lt;/p>
-&lt;h2 id="第一阶段心法与成长找到你的路">第一阶段：心法与成长（找到你的路）&lt;/h2>
-&lt;p>在这一阶段，J Law 强调的是“生存”和“自我认知”。&lt;/p>
-&lt;h3 id="1-交易是个性化的游戏">1. 交易是个性化的游戏&lt;/h3>
-&lt;p>新手常犯的错误是盲目模仿别人的策略。J Law 指出，&lt;strong>你必须找到一套符合你个性的交易系统&lt;/strong>。&lt;/p>
-&lt;ul>
-&lt;li>有些人能忍受大幅回撤以换取巨额收益，有些人则需要平稳的曲线。&lt;/li>
-&lt;li>他花了很长时间通过读书、上课，并分析了自己超过 1,000 笔交易后，才明白什么风格最适合自己。&lt;/li>
-&lt;/ul>
-&lt;h3 id="2-承认学习曲线">2. 承认学习曲线&lt;/h3>
-&lt;p>交易很难，不要指望一夜暴富。&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>时间成本&lt;/strong>：你需要经历完整的市场周期（牛市、熊市、震荡市）才能真正成熟。&lt;/li>
-&lt;li>&lt;strong>资金管理&lt;/strong>：刚开始时，&lt;strong>只用你净资产的一小部分&lt;/strong>去交易。这笔钱要少到“亏光了也不影响生活”，但又要多到“让你会在意每一笔盈亏”。&lt;/li>
-&lt;/ul>
-&lt;h3 id="3-站在巨人的肩膀上">3. 站在巨人的肩膀上&lt;/h3>
-&lt;p>J Law 推荐了几位对他影响深远的大师，这也是构建交易世界观的基石：&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>Mark Douglas&lt;/strong>（《交易心理分析》）：解决心理障碍。&lt;/li>
-&lt;li>&lt;strong>William O’Neil&lt;/strong>（欧奈尔 CANSLIM）：成长股交易的鼻祖。&lt;/li>
-&lt;li>&lt;strong>Peter Lynch&lt;/strong>（彼得·林奇）：基本面与常识。&lt;/li>
-&lt;li>&lt;strong>Market Wizards&lt;/strong>（《金融怪杰》系列）：了解顶级交易员的共性。&lt;/li>
-&lt;/ul>
-&lt;h2 id="第二阶段交易体系攻防一体">第二阶段：交易体系（攻防一体）&lt;/h2>
-&lt;p>当心法建立后，你需要具体的方法论来处理市场。&lt;/p>
-&lt;h3 id="1-风格要随市场切换">1. 风格要随市场切换&lt;/h3>
-&lt;p>J Law 并不死守一种模式，他主要在两种风格间切换：&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>Swing Trading（波段交易）&lt;/strong>：持有几天。适用于市场不明朗或短期机会。&lt;/li>
-&lt;li>&lt;strong>Position Trading（趋势持仓）&lt;/strong>：持有几个月。当基本面强劲且趋势确立时，通过长期持仓赚取大波段。&lt;/li>
-&lt;li>&lt;strong>核心逻辑&lt;/strong>：根据市场环境（Bull vs Bear）和趋势强度来调整你的持仓时间。&lt;/li>
-&lt;/ul>
-&lt;h3 id="2-集中-vs-分散">2. 集中 vs 分散&lt;/h3>
-&lt;ul>
-&lt;li>&lt;strong>进攻时集中&lt;/strong>：为了获得超额收益（尤其是比赛中），你需要持有少数几只最强的领头羊（Leadership Stocks）。&lt;/li>
-&lt;li>&lt;strong>防守时分散&lt;/strong>：当市场通过性较差时，分散持仓以降低风险。&lt;/li>
-&lt;li>&lt;strong>权衡&lt;/strong>：集中能带来暴利，但也意味着高风险。对于普通交易者，需要在这个光谱中找到平衡点。&lt;/li>
-&lt;/ul>
-&lt;h3 id="3-进场与仓位管理">3. 进场与仓位管理&lt;/h3>
-&lt;p>J Law 有一个比较独特的进场习惯：&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>一步到位&lt;/strong>：他倾向于在买点出现时直接买满仓位，而不是分批建仓。这样可以保持较低的平均成本，避免后续加仓抬高成本后容易被震荡洗出。&lt;/li>
-&lt;li>&lt;strong>谨慎加仓&lt;/strong>：只有在趋势非常强劲且信念极强时，他才会后续加仓，而且加仓规模会逐渐减小。&lt;/li>
-&lt;/ul>
-&lt;h3 id="4-比赛-vs-个人交易">4. 比赛 vs 个人交易&lt;/h3>
-&lt;p>比赛需要极致的进攻，但日常交易需要长久的生存。&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>比赛模式&lt;/strong>：追求短期极高回报，意味着更频繁的交易、更高的杠杆和激进的风险偏好。&lt;/li>
-&lt;li>&lt;strong>个人模式&lt;/strong>：风险管理和本金保护是第一位的。&lt;/li>
-&lt;li>&lt;strong>启示&lt;/strong>：不要用比赛的心态做日常交易，除非你准备好了承受比赛级的波动。&lt;/li>
-&lt;/ul>
-&lt;h2 id="第三阶段日常与纪律把交易变成工作">第三阶段：日常与纪律（把交易变成工作）&lt;/h2>
-&lt;p>很多时候，拉开交易员差距的不是智商，而是这种枯燥的日常流程。&lt;/p>
-&lt;h3 id="1-周末是最重要的时间">1. 周末是最重要的时间&lt;/h3>
-&lt;p>真正赚钱的工作是在周末完成的，而不是开盘时间。&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>复盘与筛选&lt;/strong>：查看板块表现，资金流向哪里？&lt;/li>
-&lt;li>&lt;strong>制定计划&lt;/strong>：筛选出强势股，判断市场方向，并提前设好下周的&lt;strong>买入点、止损点和目标位&lt;/strong>。开盘后只是执行计划，而不是临时起意。&lt;/li>
-&lt;/ul>
-&lt;h3 id="2-看图的顺序">2. 看图的顺序&lt;/h3>
-&lt;p>当你打开一张 K 线图，应该看什么？J Law 的顺序是：&lt;/p>
-&lt;ol>
-&lt;li>&lt;strong>短期动能与成交量&lt;/strong>：有没有机构资金进场的痕迹（放量上涨）？&lt;/li>
-&lt;li>&lt;strong>趋势判断&lt;/strong>：现在是上涨、下跌还是横盘？&lt;/li>
-&lt;li>&lt;strong>关键点位&lt;/strong>：画出支撑和阻力位。&lt;/li>
-&lt;li>&lt;strong>均线系统&lt;/strong>：评估价格与关键均线的关系。&lt;/li>
-&lt;li>&lt;strong>价格行为&lt;/strong>：最后评估当前的具体形态是否符合入场标准。&lt;/li>
-&lt;/ol>
-&lt;h3 id="3-处理低谷期">3. 处理低谷期&lt;/h3>
-&lt;p>每个交易员都会遇到连败。J Law 的处理方式非常职业：&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>清仓重置&lt;/strong>：如果做得不好，就卖出所有仓位，让自己情感上“归零”。&lt;/li>
-&lt;li>&lt;strong>回溯检查&lt;/strong>：降低风险偏好，复盘最近的交易，重读规则。&lt;/li>
-&lt;li>&lt;strong>必要时休息&lt;/strong>：有时候不做交易就是最好的交易。&lt;/li>
-&lt;/ul>
-&lt;h3 id="4-交易日记">4. 交易日记&lt;/h3>
-&lt;p>不复盘就没有进步。日记里不仅要记录进出场价格，更要记录：&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>当时的理由&lt;/strong>：为什么买？&lt;/li>
-&lt;li>&lt;strong>当时的情绪&lt;/strong>：买入时害怕吗？贪婪吗？&lt;/li>
-&lt;li>&lt;strong>市场环境&lt;/strong>：当时大盘指数在做什么？&lt;/li>
-&lt;li>定期（月度/季度）回顾这些记录，你会发现自己重复犯错的模式。&lt;/li>
-&lt;/ul>
-&lt;h2 id="一页清单">一页清单&lt;/h2>
-&lt;p>结合 J Law 的经验，你可以立刻开始做以下几件事：&lt;/p>
-&lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> &lt;strong>建立周末流程&lt;/strong>：本周末开始，花 1-2 小时筛选下周观察池，设定好 Alerts。&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> &lt;strong>检查风险敞口&lt;/strong>：新手请确保交易账户资金占总资产比例极低（学习账户）。&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> &lt;strong>阅读经典&lt;/strong>：如果你还没读过《交易心理分析》或《笑傲股市》，加入书单。&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> &lt;strong>固定看图模式&lt;/strong>：不要随意看图，按照“动能 -&amp;gt; 趋势 -&amp;gt; 支撑阻力”的顺序标准化你的分析。&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> &lt;strong>诚实记录&lt;/strong>：开始记录每一笔交易的“情绪”和“理由”，而不仅仅是代码和价格。&lt;/li>
-&lt;/ul>
-&lt;h2 id="总结">总结&lt;/h2>
-&lt;p>J Law 的 11 条经验其实描述了一个交易员的进化路径：&lt;/p>
-&lt;ol>
-&lt;li>先保证&lt;strong>不爆仓&lt;/strong>（资金管理）；&lt;/li>
-&lt;li>通过&lt;strong>大量学习和试错&lt;/strong>找到适合自己的系统（自我发现）；&lt;/li>
-&lt;li>通过&lt;strong>严格的周末准备和复盘&lt;/strong>来执行系统（纪律）。&lt;/li>
-&lt;/ol>
-&lt;p>正如他所说，交易是一场马拉松，目标是活得足够久，经历完整的周期，最终让复利发挥作用。&lt;/p>
-&lt;h2 id="参考资料">参考资料&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://traderlion.com/profile/j-law/11-lessons-from-j-law/">TraderLion: 11 Powerful Lessons from J Law&lt;/a>&lt;/li>
-&lt;/ul></description></item></channel></rss>
+&lt;p>有了 AI Vibe Coding，像我这样对 App 开发一窍不通的后端工程师，也能独立完成从开发到上架的全过程。如果你也有想法，不妨现在就开始动手吧。&lt;/p></description></item></channel></rss>
