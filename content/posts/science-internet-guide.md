@@ -117,7 +117,7 @@ PS：我没有 Windows 电脑，所以我也没用过。
 
 ### Android 端
 
-这里推荐 [ClashForAndroid](https://github.com/Kr328/ClashForAndroid)，开源免费。
+这里推荐 [FlClash](https://github.com/chen08209/FlClash/releases)，开源免费，Android 用户在 Releases 里下载 APK 安装即可。
 
 PS：我没有 Android 手机，所以我也没用过。
 
