@@ -47,6 +47,7 @@
 &lt;li>iPhone 用户可用，STK 菜单和跨平台工具都能覆盖我的使用方式。&lt;/li>
 &lt;/ul>
 &lt;p>Max 的容量更大，更适合经常切换很多国家和运营商 eSIM 的人。可惜我下单时 Max 没货，所以直接买了 Plus+。&lt;/p>
+&lt;p>购买链接：&lt;a href="https://store.estk.me/products/1">eSTK Plus+&lt;/a>，优惠码 &lt;code>UP40YC8KOD&lt;/code> 可以打 9 折。&lt;/p>
 &lt;p>我的使用方案很简单：&lt;/p>
 &lt;ol>
 &lt;li>eSTK Plus+ 到货后，把 giffgaff eSIM 写进去。&lt;/li>
@@ -60,15 +61,23 @@
 &lt;p>流程大概是这样：&lt;/p>
 &lt;ol>
 &lt;li>eSTK 到货后，把卡插进 iPhone。&lt;/li>
-&lt;li>安装 ESTKme 管理工具，选择 eSTK 这张卡。&lt;/li>
-&lt;li>新增 eSIM profile，填入之前保存的 &lt;code>LPA:1$SM-DP+地址$Activation Code&lt;/code>，或导入二维码。&lt;/li>
-&lt;li>下载 profile 时保持 Wi-Fi 稳定，页面停留等待完成。&lt;/li>
-&lt;li>写入成功后，在 eSTK 里启用 giffgaff 这个 profile。&lt;/li>
+&lt;li>进 &lt;code>设置 &amp;gt; 蜂窝网络 &amp;gt; eSTK 这张卡 &amp;gt; SIM 卡应用程序&lt;/code>。&lt;/li>
+&lt;li>点 &lt;code>下载 Profile&lt;/code>。
+&lt;img src="https://r2.imgant.com/2026/06/17/be3736f3.png" alt="">&lt;/li>
+&lt;li>进去后会有两个选项，选第二个。第一个是系统默认。&lt;/li>
+&lt;li>输入完整的 &lt;code>LPA:1$SM-DP+地址$ActivationCode&lt;/code>。&lt;/li>
+&lt;li>等成功提示。返回后再进 &lt;code>SIM 卡应用程序&lt;/code>，可以看到下载进度。&lt;/li>
+&lt;li>进度没到 100% 就返回再进来看，直到显示 100%。&lt;/li>
+&lt;li>回到 &lt;code>管理 Profile&lt;/code>，启用 giffgaff，前面有 &lt;code>#&lt;/code> 表示已启动。&lt;/li>
 &lt;li>iPhone 里打开 giffgaff 这条线，蜂窝数据继续选国内流量卡。&lt;/li>
 &lt;/ol>
-&lt;p>这里最容易踩坑的是第 4 步。写号下载过程需要联网，操作时保持页面不动，等 30 秒以上，看到成功提示再退出。中途切后台、锁屏、拔卡、断网，都容易写入失败。&lt;/p>
+&lt;p>这里最容易踩坑的是下载过程。写号需要联网，操作时保持页面不动，等成功提示再退出。中途切后台、锁屏、拔卡、断网，都容易写入失败。&lt;/p>
+&lt;p>写入成功后，我给 &lt;code>+44 78020 02606&lt;/code> 发了一条 &lt;code>hi&lt;/code>，很快收到短信，说明 giffgaff 已经可以正常收短信。&lt;/p>
+&lt;p>&lt;img src="https://r2.imgant.com/2026/06/17/b4b89554.png" alt="image">&lt;/p>
 &lt;h2 id="注意事项">注意事项&lt;/h2>
 &lt;ul>
+&lt;li>eSTK 可以保存多个 eSIM profile，但同一时间只能启用一个。&lt;/li>
+&lt;li>写好 profile 后，eSTK 可以当实体 SIM 卡插到 Android 手机里用；切换 profile 需要 Android 支持 &lt;code>SIM 卡应用程序&lt;/code>。&lt;/li>
 &lt;li>关闭“允许切换蜂窝数据”，蜂窝数据继续走国内流量卡。&lt;/li>
 &lt;li>平时关闭 giffgaff 数据漫游，收短信和保号走普通短信。&lt;/li>
 &lt;li>iMessage / FaceTime 弹出短信激活收费提示时选取消。&lt;/li>
@@ -76,11 +85,59 @@
 &lt;li>没信号先开关飞行模式，等 15 秒；还没信号再重启手机。&lt;/li>
 &lt;li>继续没信号，进 &lt;code>设置 &amp;gt; 蜂窝网络 &amp;gt; 网络选择&lt;/code>，关掉自动，优先手动选中国移动。&lt;/li>
 &lt;li>收不到验证码时，先确认账户状态、eSTK profile、iPhone 线路和网络选择。&lt;/li>
-&lt;li>giffgaff 官方短信中心号码是 &lt;code>+44 78020 02606&lt;/code>。iPhone 一般无需手动配置，安卓或其他设备排查短信问题时可以用这个号码核对。&lt;/li>
+&lt;li>写入后可以给 &lt;code>+44 78020 02606&lt;/code> 发 &lt;code>hi&lt;/code> 做短信收发测试。&lt;/li>
 &lt;li>登录 giffgaff 官网或 App 用英国本地格式：&lt;code>07xxxxxxxxx&lt;/code>。注册其他服务选英国区号 &lt;code>+44&lt;/code> 后，输入 &lt;code>7xxxxxxxxx&lt;/code>。&lt;/li>
-&lt;li>关闭语音信箱可以拨 &lt;code>##002#&lt;/code>，避免拒接电话转语音信箱产生费用。&lt;/li>
 &lt;li>有些平台会拦截英国号码或海外号码，这类情况换时间、换网络环境、换服务测试。&lt;/li>
 &lt;/ul>
+&lt;h2 id="关闭语音信箱">关闭语音信箱&lt;/h2>
+&lt;p>我在中国漫游状态下直接拨 &lt;code>1626&lt;/code> 打不通，最后走 giffgaff 的海外语音信箱工单：&lt;/p>
+&lt;ol>
+&lt;li>打开 &lt;a href="https://support2.giffgaff.com/app/ask/International-and-Roaming/Accessing-voicemail-while-abroad/form/">Accessing voicemail while abroad&lt;/a>。&lt;/li>
+&lt;li>登录 giffgaff 账号。&lt;/li>
+&lt;li>提交关闭语音信箱的请求。&lt;/li>
+&lt;/ol>
+&lt;p>留言可以直接写：&lt;/p>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">7
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">8
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">9
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-text" data-lang="text">Hi giffgaff team,
+I am currently roaming in China and cannot call 1626 to turn off voicemail.
+Could you please disable voicemail for my giffgaff number?
+My giffgaff number: 07xxxxxxxxx
+Thank you.
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="查看手机号">查看手机号&lt;/h2>
+&lt;p>写入并驻网后，giffgaff 会发短信告诉你手机号，短信里通常是英国本地格式：&lt;/p>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-text" data-lang="text">07xxxxxxxxx
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>换成国际格式很简单：去掉开头的 &lt;code>0&lt;/code>，前面加 &lt;code>+44&lt;/code>：&lt;/p>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-text" data-lang="text">+44 7xxxxxxxxx
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>登录 giffgaff 官网和 App 用 &lt;code>07xxxxxxxxx&lt;/code>，注册其他服务选择英国 &lt;code>+44&lt;/code>，号码填 &lt;code>7xxxxxxxxx&lt;/code>。&lt;/p>
+&lt;p>另外登录 giffgaff 网页版，账号首页也能看到手机号。&lt;/p>
 &lt;h2 id="低成本保号">低成本保号&lt;/h2>
 &lt;p>giffgaff 保号按 180 天内产生一次余额变动来执行，比如发短信、打电话、使用移动数据，或者买话费/套餐。&lt;/p>
 &lt;p>核心就是：每 179 天给 &lt;code>+44 7973000186&lt;/code> 定时发一条短信，内容随意。中国漫游发短信当前是 0.30 英镑/条，约人民币 3 元，收短信免费。一年两条，成本约 0.60 英镑。&lt;/p>
@@ -91,17 +148,9 @@
 &lt;li>第一次运行时，确认发送线路是 giffgaff/eSTK。&lt;/li>
 &lt;li>发送成功后，快捷指令会重新计时，等 179 天后再次发送。&lt;/li>
 &lt;/ol>
-&lt;p>发完之后去 giffgaff App 或用量记录里确认有 0.30 英镑短信扣费记录。10 英镑话费大约能发 33 条短信，按 179 天一次算，理论上能保号 16 年左右。&lt;/p>
-&lt;p>充值用 Airtime credit，最低充值金额当前是 10 英镑。保号用短信扣话费，别买月套餐。&lt;/p>
+&lt;p>发完之后去 giffgaff App 或用量记录里确认有 0.30 英镑短信扣费记录。如果账户里有 10 英镑 Airtime credit，大约能发 33 条短信，按 179 天一次算，理论上能保号 16 年左右。&lt;/p>
+&lt;p>充值用 Airtime credit，最低充值金额当前是 10 英镑。保号用短信扣话费，别买月套餐。实体卡常见的充值赠送活动和 eSIM 购买流程分开看。&lt;/p>
 &lt;p>余额查询有三种方式：拨 &lt;code>*100#&lt;/code>、登录官网、打开 giffgaff App。保号成功后会有扣费和余额变化，看到余额变动就够了。发给国内号码容易被拦截，保号优先发给 &lt;code>+44 7973000186&lt;/code> 这种英国号码。&lt;/p>
-&lt;h2 id="后续计划">后续计划&lt;/h2>
-&lt;ol>
-&lt;li>eSTK Plus+ 到货后，先写入 giffgaff profile。&lt;/li>
-&lt;li>第一次启用只测试驻网和收短信，蜂窝数据继续留给国内流量卡。&lt;/li>
-&lt;li>保号快捷指令设成 179 天，发一条短信后检查扣费记录。&lt;/li>
-&lt;li>后续再记录 eSTK 写号、切换 profile、收短信稳定性的实测结果。&lt;/li>
-&lt;/ol>
-&lt;p>下一步等 eSTK Plus+ 到货。真正写入、切换、收短信是否稳定，还要等实体卡到手之后再验证。&lt;/p>
 &lt;h2 id="参考资料">参考资料&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://www.youtube.com/watch?v=0UnJjASaqE8">YouTube：无需手机，全电脑操作：英国 giffgaff 电话卡手把手申请教程&lt;/a>&lt;/li>
@@ -112,6 +161,7 @@
 &lt;li>&lt;a href="https://support.apple.com/en-us/119859">Apple：iMessage 和 FaceTime 激活短信说明&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://store.estk.me/downloads">eSTK：ESTKme 下载入口&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://x.com/nk912114/status/2010322740931387604">X：giffgaff 保号快捷指令&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.giffgaff.shop/qa/07-voicemail-switch/">giffgaff 非官方中文网：关闭 voicemail 语音信箱&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://github.com/ssnhd/giffgaff">GitHub：英国实体 SIM 卡 giffgaff 激活使用教程&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>Rectangle Pro 使用教程：买了之后才搞懂</title><link>https://blog.forecho.com/rectangle-pro-usage-guide.html</link><pubDate>Wed, 10 Jun 2026 14:27:48 +0800</pubDate><guid>https://blog.forecho.com/rectangle-pro-usage-guide.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
 &lt;p>之前稀里糊涂买了 &lt;a href="https://rectangleapp.com/pro/">Rectangle Pro&lt;/a>，买完之后才发现它界面全是英文，功能也比免费版多很多。放着吃灰有点浪费，所以我花了点时间把官方文档和常用功能摸了一遍。&lt;/p>
