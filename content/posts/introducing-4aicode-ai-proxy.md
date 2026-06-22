@@ -6,6 +6,8 @@ draft: false
 toc: true
 ---
 
+![4AICode：面向 Vibe Coding 的 AI 中转站](https://imgant.forecho.com/2026/06/22/b88d1589.png)
+
 ## 引言
 
 先上地址：
@@ -38,19 +40,9 @@ toc: true
 
 ## 目前支持什么
 
-当前先接入两类模型：
+![当前支持 ChatGPT 与 gpt-image-2 两类模型，文字模型适用六类场景](https://imgant.forecho.com/2026/06/22/ba467a81.png)
 
-- ChatGPT AI 模型
-- gpt-image-2 图片生成模型
-
-文字模型主要适合这些场景：
-
-- Vibe Coding
-- 代码辅助
-- 文档生成
-- 写作润色
-- 翻译总结
-- 自动化脚本调用
+当前先接入两类模型：ChatGPT 文字模型和 gpt-image-2 图片生成模型。文字模型主要用在 Vibe Coding 和日常的代码、文档、写作场景，完整清单见上图。
 
 ## 图片生成页面
 
