@@ -672,7 +672,8 @@ Thank you.
 &lt;li>&lt;a href="https://support.optimusfutures.com/can-i-open-an-account-if-i-live-outside-the-united-states">Optimus Futures：海外客户开户&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://support.optimusfutures.com/what-is-the-minimum-initial-deposit-required-to-open-an-account">Optimus Futures：最低入金&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://optimusfutures.com/Futures-Trading-Pricing.php">Optimus Futures：手续费&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>介绍一下我做的 AI 中转站 4AICode</title><link>https://blog.forecho.com/introducing-4aicode-ai-proxy.html</link><pubDate>Tue, 05 May 2026 10:00:00 +0800</pubDate><guid>https://blog.forecho.com/introducing-4aicode-ai-proxy.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;/ul></description></item><item><title>介绍一下我做的 AI 中转站 4AICode</title><link>https://blog.forecho.com/introducing-4aicode-ai-proxy.html</link><pubDate>Tue, 05 May 2026 10:00:00 +0800</pubDate><guid>https://blog.forecho.com/introducing-4aicode-ai-proxy.html</guid><description>&lt;p>&lt;img src="https://imgant.forecho.com/2026/06/22/b88d1589.png" alt="4AICode：面向 Vibe Coding 的 AI 中转站">&lt;/p>
+&lt;h2 id="引言">引言&lt;/h2>
 &lt;p>先上地址：&lt;/p>
 &lt;ul>
 &lt;li>网站：&lt;a href="https://4aicode.com/">4aicode.com&lt;/a>&lt;/li>
@@ -689,20 +690,8 @@ Thank you.
 &lt;p>4AICode 目前的模型价格大概是官网价格的 1 折，充值还会赠送额外金额。中转站的好处是按量使用，小需求也能跑起来，高频 Vibe Coding 的成本也能降下来。&lt;/p>
 &lt;p>对我来说，4AICode 的定位很明确：把 ChatGPT 这类模型和 AI 图片生成做成更容易消费的基础服务。&lt;/p>
 &lt;h2 id="目前支持什么">目前支持什么&lt;/h2>
-&lt;p>当前先接入两类模型：&lt;/p>
-&lt;ul>
-&lt;li>ChatGPT AI 模型&lt;/li>
-&lt;li>gpt-image-2 图片生成模型&lt;/li>
-&lt;/ul>
-&lt;p>文字模型主要适合这些场景：&lt;/p>
-&lt;ul>
-&lt;li>Vibe Coding&lt;/li>
-&lt;li>代码辅助&lt;/li>
-&lt;li>文档生成&lt;/li>
-&lt;li>写作润色&lt;/li>
-&lt;li>翻译总结&lt;/li>
-&lt;li>自动化脚本调用&lt;/li>
-&lt;/ul>
+&lt;p>&lt;img src="https://imgant.forecho.com/2026/06/22/ba467a81.png" alt="当前支持 ChatGPT 与 gpt-image-2 两类模型，文字模型适用六类场景">&lt;/p>
+&lt;p>当前先接入两类模型：ChatGPT 文字模型和 gpt-image-2 图片生成模型。文字模型主要用在 Vibe Coding 和日常的代码、文档、写作场景，完整清单见上图。&lt;/p>
 &lt;h2 id="图片生成页面">图片生成页面&lt;/h2>
 &lt;p>为了让 gpt-image-2 更好用，我特意写了一个图片生成页面。&lt;/p>
 &lt;p>用户可以直接在页面里输入提示词生成图片，省掉自己写 API、调脚本、处理返回结果这些步骤。这个页面适合生成文章配图、产品图草稿、封面图和 Vibe Coding 过程中需要的临时素材。&lt;/p>
