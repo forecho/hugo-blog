@@ -1,4 +1,75 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 15 Jun 2026 16:58:35 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>用安卓模拟器开通 giffgaff eSIM 的记录</title><link>https://blog.forecho.com/open-giffgaff-esim-with-android-emulator.html</link><pubDate>Mon, 15 Jun 2026 16:58:35 +0800</pubDate><guid>https://blog.forecho.com/open-giffgaff-esim-with-android-emulator.html</guid><description>&lt;p>&lt;img src="https://r2.imgant.com/2026/06/15/b58745b7.png" alt="">&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 22 Jun 2026 14:00:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>富途、老虎之后，大陆用户还能怎么买美股：我会试试 Bitget 美股代币</title><link>https://blog.forecho.com/buy-us-stocks-with-usdt-bitget-stock-tokens.html</link><pubDate>Mon, 22 Jun 2026 14:00:00 +0800</pubDate><guid>https://blog.forecho.com/buy-us-stocks-with-usdt-bitget-stock-tokens.html</guid><description>&lt;p>&lt;img src="https://imgant.forecho.com/2026/06/21/10cda0f5.png" alt="用 USDT 买美股：富途、老虎之后的新路 · Bitget 美股代币">&lt;/p>
+&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>&lt;img src="https://imgant.forecho.com/2026/06/21/987934b2.png" alt="富途、老虎之外，多了一条用 USDT 买美股的新路">&lt;/p>
+&lt;p>最近总有人问我同一个问题：富途、老虎之后，大陆身份还能怎么买美股？&lt;/p>
+&lt;p>传统券商这条路没断，但门槛肉眼可见地变高。要海外地址证明，要银行卡跨境入金，到账等一两个工作日，还要扛汇兑损耗。我自己开美国期货账户的时候，光一个「补地址证明」就卡了很久。&lt;/p>
+&lt;p>所以我开始看另一条路：用 USDT 直接买美股代币。先把话说在前面，Bitget 的美股 2.0 是我目前看过最完整的方案，但它&lt;strong>本质是 1:1 映射美股的 RWA 代币，不是让你在美国券商真实开户持股&lt;/strong>。这条边界搞不清楚，后面很容易用错。&lt;/p>
+&lt;blockquote>
+&lt;p>文中注册链接是我的专属渠道链接。美股相关产品价格波动大，这篇只是我的研究笔记，不构成投资建议。&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="你买到的到底是什么">你买到的到底是什么&lt;/h2>
+&lt;p>&lt;img src="https://imgant.forecho.com/2026/06/21/9998b04f.png" alt="你买的是 1:1 映射美股的代币，不是真实股权">&lt;/p>
+&lt;p>这点我想放最前面讲，因为太多人会想当然。&lt;/p>
+&lt;p>Bitget 美股代币，比如 &lt;code>rAAPL&lt;/code>、&lt;code>rTSLA&lt;/code>，价格、流动性、分红、拆股都按 1:1 映射传统美股。但你手里拿的是链上代币化的「受益权凭证」，不是底层股票的直接所有权。&lt;/p>
+&lt;p>把链路拆开看就清楚了。底层股票由 FINRA 注册、SIPC 成员的托管经纪商持有，最终在 DTCC 登记。这部分股票装在一个独立的破产隔离 SPV 里，唯一用途就是 1:1 持有底层股票，只有用户对它有第一顺位追索权。发行方是 Parsa Financial Services (Pty) Ltd，依南非《2002 金融咨询与中介服务法》第 8 条持牌。透明度上，有第三方美国持牌审计公司每天核对链上代币数量和实际持股数量，网站上能查到实时抵押比例。&lt;/p>
+&lt;p>说白了，涨跌、分红、拆股这些经济收益 1:1 给你，但法律意义上的股权和投票权不归你。这跟在富途买一股苹果，是两种东西。&lt;/p>
+&lt;h2 id="它解决了哪些痛点">它解决了哪些痛点&lt;/h2>
+&lt;p>&lt;img src="https://imgant.forecho.com/2026/06/21/9a93b62a.png" alt="手机号加身份证就能开户，USDT 直接出入金">&lt;/p>
+&lt;p>对照传统券商看一圈，真正打动我的是几点。&lt;/p>
+&lt;p>开户最直接。手机号或邮箱注册，加身份证认证，不需要海外地址证明，秒级通过，对大陆用户来说最大的麻烦直接没了。&lt;/p>
+&lt;p>出入金走 USDT / USDC，7×24 秒级到账，直连钱包，不碰传统银行卡，也就没有币种限制和汇兑损耗。门槛也低，最低 1 USDT 起投，支持碎股，想配一点英伟达不用先攒够一整股。&lt;/p>
+&lt;p>交易时间是 7×24，突破了美股的时段限制。不过这里得留个心眼：美股传统交易所休市、盘前盘后的时候，流动性本来就薄，大额单别硬冲。&lt;/p>
+&lt;p>最后是一个账户管多类资产，股票现货、美股合约、加密货币、ETF 放一起，美股代币还能当保证金用。&lt;/p>
+&lt;h2 id="三种玩法">三种玩法&lt;/h2>
+&lt;p>&lt;img src="https://imgant.forecho.com/2026/06/21/9b8ef1cc.png" alt="现货、合约、Pre-IPO，分清楚再下手">&lt;/p>
+&lt;p>Bitget 美股 2.0 不是一个产品，是认购、现货、合约、理财一整套。普通人主要碰前三个，玩法和风险差别很大，别混着用。&lt;/p>
+&lt;h3 id="现货代币想长期拿就用它">现货代币：想长期拿就用它&lt;/h3>
+&lt;p>这是给想长线拿、吃分红的人准备的。价格 1:1 映射，直连纳斯达克、纽交所的订单簿和流动性。股息以代币形式实时发到账，现金股息自动折成 USDT。T+0 结算，支持碎股，而且没有资金费率。标的也够多，首批 500+ 现货（覆盖美股约 95% 成交量），链上代币已经覆盖 260+ 热门标的，AAPL、TSLA、NVDA、META、QQQ、SPY 这些主流的都在。&lt;/p>
+&lt;p>一句话，&lt;strong>长线持仓我会优先用现货代币&lt;/strong>，没有资金费率损耗，还能拿股息。&lt;/p>
+&lt;h3 id="永续合约要做空加杠杆才用">永续合约：要做空、加杠杆才用&lt;/h3>
+&lt;p>100+ 只美股永续，最高 100x 杠杆，7×24 交易，报价来自 Pyth、dxFeed、Massive、Intrinio 等多家传统市场数据源。资金费率每 8 小时结算一次，单次上限 0.5%（基准 0%），多空双方互付。每个合约默认开 ADL（自动减仓），上线时注入 5 万 USDT 风险基金。&lt;/p>
+&lt;p>合约有两个坑得记住。一个是跳空：传统市场开盘高开或低开，可能直接穿仓爆仓，开盘前要盯紧标的价格、及时补保证金。另一个是资金费率：单边行情下费率会涨，长期扛单光手续费就磨掉一层。所以&lt;strong>想长期拿就别用合约，回现货&lt;/strong>。&lt;/p>
+&lt;h3 id="ipo-prime上市前打新">IPO Prime：上市前打新&lt;/h3>
+&lt;p>2026 年 4 月上线，想博 Pre-IPO 的可以看看。不分 VIP 等级，符合条件就能参与，免申购、管理、托管费，按投入比例分配（&lt;code>个人认购数量 = 认购总量 × (个人投入 ÷ 总投入)&lt;/code>），避免大资金垄断。历史项目里能看到 SpaceX、OpenAI 这种平时根本碰不到的标的。&lt;/p>
+&lt;p>但边界要钉死：认购的代币是发行方对你的债务凭证，用来反映公司业绩，不是真实股票，没有投票分红权。万一标的企业没在约定期限内完成 IPO 或被收购，按认购协议里的备用条款兑付。本金可能亏，只投能承受损失的钱。&lt;/p>
+&lt;h2 id="费率">费率&lt;/h2>
+&lt;p>&lt;img src="https://imgant.forecho.com/2026/06/21/9c966763.png" alt="现货一口价 0.05%，合约还要算资金费率">&lt;/p>
+&lt;p>别只盯着「一口价」三个字，拆开看更清楚。&lt;/p>
+&lt;p>现货代币优惠期内 Maker / Taker 不分 VIP，一口价 0.05%，优惠到 8 月 30 日。有些平台现货还要另收 0.01% 单边平台费，相比之下这个口径算干净。永续合约是 Maker 0.02% / Taker 0.06%，VIP 最低能到 0% / 0.02%，但要再叠加每 8 小时的资金费率，长期持仓得把这块算进成本。VIP 等级按近 30 天交易量或资产折算，越高费率越低，短线高频的人，这点差距比想象中大。&lt;/p>
+&lt;h2 id="上手三步">上手三步&lt;/h2>
+&lt;p>&lt;img src="https://imgant.forecho.com/2026/06/21/9d8f4798.png" alt="注册、充 USDT、进美股专区下单">&lt;/p>
+&lt;p>整个流程比传统券商简单太多。&lt;/p>
+&lt;p>第一步，注册和实名。用&lt;a href="https://partner.hdmune.cn/bg/QKMD9M">我的专属渠道链接&lt;/a>注册 Bitget，下载 App，手机号或邮箱注册，做 KYC（建议用护照），不需要海外地址证明。&lt;/p>
+&lt;p>第二步，充 USDT。法币买币或者链上转账都行，把 USDT 充进现货账户。链上充值记得选对网络，别充错链。&lt;/p>
+&lt;p>第三步，进美股专区下单。首页搜「美股」「股票」或者具体标的（Apple、Tesla、NVIDIA），选现货代币或合约，输数量、确认下单。持仓在资产页看，股息自动到账，随时能交易或提现。&lt;/p>
+&lt;h2 id="转仓加速计划老券商的仓位搬过来有补贴">转仓加速计划：老券商的仓位搬过来有补贴&lt;/h2>
+&lt;p>&lt;img src="https://imgant.forecho.com/2026/06/22/d1ec3018.png" alt="从富途、老虎等券商转仓到 Bitget，按市值阶梯补贴转仓费">&lt;/p>
+&lt;p>写这篇的时候正好赶上 Bitget 上线了一个限时活动，顺手记一下。如果你本来就在富途、老虎、moomoo、长桥、Webull、IBKR 这些券商有美股仓位，现在把它转到 Bitget 美股账户，能领一笔转仓费补贴。&lt;/p>
+&lt;p>报名时间是 6 月 22 日 19:00 到 7 月 31 日（UTC+8），得先做完 KYC 再报名。补贴按转入市值分档，转得越多封顶越高：2 万美元最高补 150 USDT，5 万美元 600，10 万美元 1,500，30 万美元 3,600，到 100 万美元封顶 10,000 USDT。&lt;/p>
+&lt;p>有几个细节别忽略。补贴是按你实际付的转仓费来补，不是直接送钱，档位只是上限；券商那边的账户名要和 Bitget 实名一致，对不上不认；转仓周期一般 5–7 个工作日，补贴以 USDT 现金券发放，每周一一发。转仓失败或卡在第三方延迟的不算数，同一笔费用也不能重复领。活动规则随时可能调整，报名前以&lt;a href="https://www.bitget.com/zh-CN/support/articles/12560603886156">官方公告&lt;/a>为准。&lt;/p>
+&lt;h2 id="几个容易踩的坑">几个容易踩的坑&lt;/h2>
+&lt;p>&lt;img src="https://imgant.forecho.com/2026/06/21/9e9c3e16.png" alt="把代币当真股、拿合约长期扛单都是常见坑">&lt;/p>
+&lt;p>说几个我自己会特别注意的地方。&lt;/p>
+&lt;p>最大的误区，是把 rToken 当成「我在美国真实持有这只股票」。它是受益权凭证，涨跌分红的钱你能拿到，但没有股东投票权，追索对象是 SPV 持有的底层股票。如果你的需求是真实股权，比如某些身份或税务安排，这条路不适合。&lt;/p>
+&lt;p>第二个，是图省心拿合约长期扛单。合约有资金费率，单边行情下越扛越亏，长期持有一律回现货。&lt;/p>
+&lt;p>第三个，是盘前盘后挂大额市价单。这些时段流动性薄，大额交易优先用限价单锁价，或者拆单、等常规交易时段，别用大额市价单去吃滑点。&lt;/p>
+&lt;p>还有税。股息默认被托管经纪商预扣 30%，各国一致。交易所得平台不代扣，按自己所在地情况自行申报，别拖到出问题才补。&lt;/p>
+&lt;h2 id="资金安全怎么看">资金安全怎么看&lt;/h2>
+&lt;p>&lt;img src="https://imgant.forecho.com/2026/06/21/9fb77ae5.png" alt="破产隔离 SPV、每日审计、用户保护基金">&lt;/p>
+&lt;p>我不会因为「100% 担保」四个字就放心，但 Bitget 这套结构相对清楚。它给的是 100% 资产兑付担保，设了 3 亿美元用户保护基金；另有 5,500 BTC（约 3.67 亿美元）的风险保护基金，按月披露储备证明，支持默克尔树验证；底层股票装在独立破产隔离 SPV 里，每天第三方审计。&lt;/p>
+&lt;p>有一条边界得提醒：SIPC 保护的是 SIPC 成员券商处的客户账户，它的直接客户是托管层，终端用户这一层是 Bitget 自己兜底，别把它等同于「我在美国券商受 SIPC 保护」。另外平台会限制受制裁、受监管地区的访问，下单前确认自己所在地在不在允许范围。&lt;/p>
+&lt;h2 id="我的结论">我的结论&lt;/h2>
+&lt;p>&lt;img src="https://imgant.forecho.com/2026/06/21/a0a9ad42.png" alt="先小额把全流程跑通，再谈策略">&lt;/p>
+&lt;p>路子是通的。富途、老虎之外，用 USDT 买美股代币确实是一条现实可行的新路，开户和出入金体验对大陆用户友好太多。但本质得认清，你买的是 1:1 映射的 RWA 代币，不是真实股权，没有投票权，股息预扣 30%，想明白再上车。&lt;/p>
+&lt;p>品种别用错：长线拿现货代币，做空或加杠杆才用合约，Pre-IPO 只投能承受损失的钱。真要开始，先小额把全流程跑通，注册、KYC、充一点 USDT、买一笔现货、试一次提现，走顺了再加仓。&lt;/p>
+&lt;p>想试的话，可以用&lt;a href="https://partner.hdmune.cn/bg/QKMD9M">我的专属渠道链接&lt;/a>注册。先把流程跑顺，再谈策略。&lt;/p>
+&lt;h2 id="参考链接">参考链接&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.bitget.com/">Bitget 官网&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.bitget.com/zh-CN/support/articles/12560603886156">美股转仓加速计划（官方公告）&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://partner.hdmune.cn/bg/QKMD9M">我的专属注册渠道&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.qq.com/doc/DT1BJQkppTU1ydnRF">富途、老虎之后，大陆投资者还能怎么投资美股？（腾讯文档）&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>用安卓模拟器开通 giffgaff eSIM 的记录</title><link>https://blog.forecho.com/open-giffgaff-esim-with-android-emulator.html</link><pubDate>Mon, 15 Jun 2026 16:58:35 +0800</pubDate><guid>https://blog.forecho.com/open-giffgaff-esim-with-android-emulator.html</guid><description>&lt;p>&lt;img src="https://r2.imgant.com/2026/06/15/b58745b7.png" alt="">&lt;/p>
 &lt;h2 id="引言">引言&lt;/h2>
 &lt;p>6 月 14 日晚上，看到几条推文和一个 YouTube 教程后，我跟着折腾了一圈，最后用电脑上的安卓模拟器申请到了英国 giffgaff eSIM。&lt;/p>
 &lt;p>我的主力机只有一台 iPhone 16 Pro Max，双实体卡槽。一个卡槽放老号，用来收短信和接电话；另一个卡槽放宽带送的流量卡，日常上网。第三方 eSIM 实体卡要插进 iPhone，就要占一个卡槽。&lt;/p>
@@ -3093,69 +3164,4 @@ imgant upload ./my-image.png --format markdown
 &lt;h2 id="总结">总结&lt;/h2>
 &lt;p>Tradovate 虽然上手初期会觉得功能繁多，但它的核心逻辑非常清晰：&lt;strong>基于 Web、高度可定制、云端同步&lt;/strong>。通过上述的“减法”设置，你可以获得一个非常专业且干扰极少的看盘环境。&lt;/p>
 &lt;p>对于参加 Topstep 考试的同学，熟练掌握这个平台的操作（特别是下单和止损设置，虽然本文主要讲看盘，但下单面板就在右侧，建议在模拟账户多尝试）是通关的基础。&lt;/p>
-&lt;p>祝大家交易顺利，早日拿到 Funded Account！&lt;/p></description></item><item><title>用 AI Vibe Coding 第一次开发 App 的经验</title><link>https://blog.forecho.com/my-first-app-with-ai-vibe-coding.html</link><pubDate>Thu, 22 Jan 2026 14:07:41 +0800</pubDate><guid>https://blog.forecho.com/my-first-app-with-ai-vibe-coding.html</guid><description>&lt;p>&lt;img src="https://i.imgant.com/v2/aqcxJtZ.png" alt="image">&lt;/p>
-&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>我是一个拥有 10 年开发经验的 Web 开发工程师，主要专注于后端开发。虽然我也曾两次尝试学习开发 App，但都因为门槛太高没能入门就放弃了。&lt;/p>
-&lt;p>这次借助 AI Vibe Coding 模式，我成功开发并上架了一款 App —— &lt;strong>&lt;a href="https://patimer.app/">PATimer&lt;/a>&lt;/strong>。这是一款倒计时提醒应用，目前已经发布了 Mac OS 版本。&lt;/p>
-&lt;p>在这篇文章中，即使你像我一样对 Xcode 充满恐惧，也能了解到如何利用 AI 克服这些障碍。&lt;/p>
-&lt;h2 id="开发工具的选择">开发工具的选择&lt;/h2>
-&lt;p>&lt;img src="https://i.imgant.com/v2/ZZXNyzM.png" alt="">&lt;/p>
-&lt;p>在开发过程中，我使用了多种 AI 工具，主要包括 Codex、Claude Code 以及 Google 的 Antigravity。&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>Claude Code&lt;/strong>：在实现具体功能时体验非常棒，开发效率极快，给人的感觉就像是真正的“结对编程”。强烈推荐安装 &lt;a href="https://github.com/obra/superpowers">superpowers&lt;/a>。
-&lt;ul>
-&lt;li>&lt;strong>举个例子&lt;/strong>：当我告诉它“我想做一个倒计时结束后的全屏提醒功能”时，它没有直接写代码，而是利用 superpowers 问我：“全屏提醒是否需要强制置顶？是否需要播放声音？如果用户在开会（勿扰模式）该如何处理？”这些细节我自己一开始完全没想到，确认完这些细节后它生成的代码几乎一次通过。&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>Codex&lt;/strong>：相比之下稍微慢一点，通常是一段操作之后，过几分钟才反馈说“活干完了”。不过它的优势是比较稳，不容易出错。&lt;/li>
-&lt;li>&lt;strong>Antigravity&lt;/strong>：我使用 &lt;strong>Gemini 3 Pro&lt;/strong> 模型来调整 UI 和 UX，效果是最好的。值得一提的是，Antigravity 里面也集成了 Claude Opus 4.5 模型，综合来看，Google 的这个工具性价比非常高。
-&lt;ul>
-&lt;li>&lt;strong>举个例子&lt;/strong>：在调整主界面的进度环时，我怎么调参数都觉得不够优雅。后来我直接把设计稿截图丢给 Antigravity，说“我要这种磨砂玻璃质感和渐变色”，它给出的 SwiftUI 代码完美复刻了视觉效果，连阴影的透明度都调教得非常到位。&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;h2 id="直面-xcode-的恐惧">直面 Xcode 的恐惧&lt;/h2>
-&lt;p>作为一个 Web 开发者，我必须坦白：&lt;strong>我非常讨厌，甚至惧怕和 Xcode 打交道&lt;/strong>。&lt;/p>
-&lt;p>它的功能实在太多、太复杂了。但是现在有了 AI，情况完全不同了。你只需要按照 AI 给出的步骤一步步操作即可。对于一些复杂的流程，我在询问完 AI 后，会特意让它总结生成一份 Markdown 文档，保存在项目的 &lt;code>docs&lt;/code> 文件夹中，以备后用。&lt;/p>
-&lt;h2 id="从-macos-到-ios">从 macOS 到 iOS&lt;/h2>
-&lt;p>我还把这个 App 扩展到了 iOS 平台，开发起来也非常快。&lt;/p>
-&lt;p>我认为&lt;strong>跨平台语言或者工具在 Vibe Coding 时代完全毫无意义了&lt;/strong>。以前我们为了节省开发成本使用 Flutter 或 React Native，但在 AI 能够快速生成原生代码的今天，直接使用 Swift/SwiftUI 开发原生应用，不仅体验最好，开发效率也被 AI 极大抹平了。&lt;/p>
-&lt;h2 id="上架与资料填写">上架与资料填写&lt;/h2>
-&lt;p>&lt;img src="https://i.imgant.com/v2/5QbBkAM.png" alt="">&lt;/p>
-&lt;p>开发 App 比较麻烦的另一个环节是上架，因为需要填写一大堆资料，这是我很头疼的事情。&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>资料生成&lt;/strong>：我使用了 OpenAI 的浏览器工具 &lt;strong>ChatGPT Atlas&lt;/strong>（如果你使用 Claude 的浏览器扩展也可以直接使用 Chrome 浏览器）。它可以帮你输出需要填写的资料，甚至有时候能直接帮你填上去，大大减轻了负担。&lt;/li>
-&lt;li>&lt;strong>截图上传&lt;/strong>：你可以选择手动截图，但我推荐使用 &lt;strong>Fastlane&lt;/strong>。虽然配置有点麻烦，但你可以让 AI 帮你写脚本，实现自动截图，一劳永逸。&lt;/li>
-&lt;li>&lt;strong>完全自动化的 AI 上架工具（后续补充重磅推荐）&lt;/strong>：开发当时我还没发现这个神器，吃了不少苦头。如果你想像我一样彻底摆脱难用的 App Store Connect 网页，务必试试 &lt;strong>&lt;a href="https://asccli.sh/">App Store Connect CLI (asccli.sh)&lt;/a>&lt;/strong>。它是一款专门为 AI Agent（比如 Claude Code、Cursor）设计的命令行工具，并内置了丰富的 Skills。有了它，你可以直接在终端里让 AI 帮你自动完成创建 App、填写多语言元数据、上传截图、管理证书、发布 TestFlight 等全套上架流程，完美契合 Vibe Coding，帮你省下大量时间。&lt;/li>
-&lt;li>&lt;strong>提审前自检（后续补充推荐）&lt;/strong>：这也是我在开发完才发现的实用工具 &lt;a href="https://github.com/truongduy2611/app-store-preflight-skills">app-store-preflight-skills&lt;/a>。在正式提交 App Store 审核之前，用这个工具进行一次自我审核（Preflight），可以提前发现很多潜在的违规或遗漏问题，避免因为低级错误被拒而浪费审核时间。&lt;/li>
-&lt;/ul>
-&lt;h2 id="避坑指南">避坑指南&lt;/h2>
-&lt;p>在这次开发过程中，我也踩了不少坑，总结下来希望大家能少走弯路：&lt;/p>
-&lt;h3 id="1-付费模式要提前规划">1. 付费模式要提前规划&lt;/h3>
-&lt;p>我的 App 第一个版本是付费下载版，审核通过后也有用户购买了。但在第二个版本中，我决定改成“免费下载 + 内购”的模式。&lt;/p>
-&lt;p>我想做一个功能：把之前已经付费购买的用户自动转换为已内购的高级版用户。我让 AI 帮我实现了这个逻辑，结果提审被拒，改了几次都失败了，浪费了好多天的时间。苹果审核人员说功能有问题，而我自己测试起来也非常麻烦，因为无法完美模拟之前的付费环境。&lt;/p>
-&lt;p>在几次提审失利后，我索性删掉了这个“自动迁移”的功能。反正当时只有一个付费用户，我打算到时候直接发一个兑换码给他作为补偿。&lt;/p>
-&lt;p>&lt;strong>教训&lt;/strong>：一开始就应该规划好是做 &lt;strong>付费版&lt;/strong> 还是 &lt;strong>内购版&lt;/strong>。后期改动不仅代码逻辑麻烦，审核也是个大坑。&lt;/p>
-&lt;h3 id="2-内购测试小技巧">2. 内购测试小技巧&lt;/h3>
-&lt;p>说到内购，很多新手（包括我）一开始不知道怎么在本地测试。其实 Xcode 提供了很方便的本地测试功能：&lt;/p>
-&lt;ol>
-&lt;li>在 Xcode 中新建一个 &lt;code>StoreKit Configuration File&lt;/code>。&lt;/li>
-&lt;li>点击顶部菜单栏的 &lt;code>Product&lt;/code> -&amp;gt; &lt;code>Scheme&lt;/code> -&amp;gt; &lt;code>Edit Scheme...&lt;/code>。&lt;/li>
-&lt;li>在 &lt;code>Run&lt;/code> -&amp;gt; &lt;code>Options&lt;/code> 中，找到 &lt;code>StoreKit Configuration&lt;/code> 选项，选择你刚才创建的文件。&lt;/li>
-&lt;/ol>
-&lt;p>这样你就可以在模拟器中完美模拟内购流程了。&lt;strong>切记&lt;/strong>：测试完准备打包上架时，记得把这个选项改回 &lt;code>None&lt;/code>，否则提交审核会出问题。&lt;/p>
-&lt;h3 id="3-本地通知-vs-远程推送">3. 本地通知 vs 远程推送&lt;/h3>
-&lt;p>我的 App 需要通知功能，但我需要的是 &lt;strong>本地通知&lt;/strong>（Local Notification），而不是 &lt;strong>远程推送&lt;/strong>（Remote Push）。这两个功能要求的权限不同，配置也完全不一样。&lt;/p>
-&lt;p>但 AI 默认以为我需要的是远程推送，不仅代码写错了，还导致我提交审核时上传失败报错。这个问题我很困惑，直到让 AI 查了很久日志才发现是配置错了。&lt;/p>
-&lt;p>关键是这个问题我犯了两次！就像我在 X 上看到 yetone 的帖子所说，我们确实需要一个“尸检报告”。&lt;strong>我们要把之前犯错以及修复的过程，让 AI 总结到一个专属的文件夹中，每次开始新任务前让 AI 先读一下，不要再次犯错，以免浪费 Token 和时间。&lt;/strong>&lt;/p>
-&lt;h3 id="4-其他小建议">4. 其他小建议&lt;/h3>
-&lt;ul>
-&lt;li>&lt;strong>版本号管理&lt;/strong>：可以使用 &lt;code>agvtool&lt;/code> 配合手动执行命令来管理 Build 版本号，非常方便。&lt;/li>
-&lt;li>&lt;strong>支付方式&lt;/strong>：Mac OS App 其实是非必须走 App Store 的。我也尝试过让 AI 实现接入 Stripe 支付，代码都写好了。但后来考虑到用户体验和信任度，走 App Store 虽然有抽成，但对用户来说最省事、最安全。&lt;/li>
-&lt;li>&lt;strong>税务优惠&lt;/strong>：个人开发者记得申请 Apple 的 &lt;strong>小型企业计划&lt;/strong>（Small Business Program），可以将税率从 30% 降到 15%。&lt;/li>
-&lt;li>&lt;strong>网页版开发&lt;/strong>：如果你需要开发网页版，推荐使用 &lt;strong>Gemini 3 Pro&lt;/strong> 开发视觉效果，页面使用 &lt;strong>GitHub Actions&lt;/strong> 部署到 &lt;strong>Cloudflare Pages&lt;/strong> 就好，1 分钱不用花，自己配置个域名就好。&lt;/li>
-&lt;/ul>
-&lt;h3 id="5-时间成本">5. 时间成本&lt;/h3>
-&lt;p>开发这个 App，我觉得自己花的最多的时间其实是 &lt;strong>模拟和真机的体验与调试&lt;/strong>。AI 很快就能把功能写出来，但 UI 的细节调整、交互的流畅度，都需要在设备上反复体验和打磨。&lt;/p>
-&lt;h2 id="最后">最后&lt;/h2>
-&lt;p>有了 AI Vibe Coding，像我这样对 App 开发一窍不通的后端工程师，也能独立完成从开发到上架的全过程。如果你也有想法，不妨现在就开始动手吧。&lt;/p></description></item></channel></rss>
+&lt;p>祝大家交易顺利，早日拿到 Funded Account！&lt;/p></description></item></channel></rss>
