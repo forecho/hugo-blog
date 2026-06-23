@@ -1,4 +1,71 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 22 Jun 2026 14:00:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>富途、老虎之后，大陆用户还能怎么买美股：我会试试 Bitget 美股代币</title><link>https://blog.forecho.com/buy-us-stocks-with-usdt-bitget-stock-tokens.html</link><pubDate>Mon, 22 Jun 2026 14:00:00 +0800</pubDate><guid>https://blog.forecho.com/buy-us-stocks-with-usdt-bitget-stock-tokens.html</guid><description>&lt;p>&lt;img src="https://imgant.forecho.com/2026/06/21/10cda0f5.png" alt="用 USDT 买美股：富途、老虎之后的新路 · Bitget 美股代币">&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 23 Jun 2026 10:00:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>看懂 z 说交易的「缺口」：那根线到底画在哪</title><link>https://blog.forecho.com/price-action-gap-zshuo-trading.html</link><pubDate>Tue, 23 Jun 2026 10:00:00 +0800</pubDate><guid>https://blog.forecho.com/price-action-gap-zshuo-trading.html</guid><description>&lt;p>&lt;img src="https://imgant.forecho.com/2026/06/23/79e06814.png" alt="看懂 z 说交易的「缺口」：那根线到底画在哪">&lt;/p>
+&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>最近在 B 站看 &lt;a href="https://space.bilibili.com/101513971">z 说交易&lt;/a> 的价格行为视频，他反复讲一个东西叫「缺口」。弹幕和评论里问得最多的也是这个：他画缺口的时候，找的那几根 K 线好像和我们理解的不太一样，那根线到底是怎么画出来的。&lt;/p>
+&lt;p>我一开始也没看懂，盯着屏幕找那块「空出来的价格」，怎么都对不上。后来把缺口一、二两期反复看了几遍，才反应过来一件事：他说的缺口，根本不是我们以为的那种跳空缺口。这一篇就把这件事讲清楚，看过视频没看懂的人能对上号，没看过的人也能直接看明白。&lt;/p>
+&lt;p>先说明，下面都是我对他视频的转述和理解，他本人也反复强调「都是个人理解，不一定对」。真要学，还是去看他的原片。&lt;/p>
+&lt;h2 id="先把最大的误会解开">先把最大的误会解开&lt;/h2>
+&lt;p>传统意义上的缺口，是两根 K 线之间空出来的一段价格真空。最常见的就是隔夜跳空：昨天收在某个价位，今天直接高开或低开，中间那段价格没有任何成交，图上留下一段空白。大多数人脑子里的「缺口」就是这个画面。&lt;/p>
+&lt;p>z 说讲的缺口不是这个。他借了「缺口」这个词，但指的是另一件事：&lt;strong>一批人在某个价位被套住了，急着回本，于是这个价位变成了支撑或阻力。&lt;/strong>&lt;/p>
+&lt;p>所以你不用再去找那块空白了。那根线不画在空白处，而是画在某一根具体 K 线的最高点或最低点上，是一条实实在在的水平线。把这一句想通，后面就都顺了。&lt;/p>
+&lt;h2 id="那根线到底画在哪根-k-线上">那根线，到底画在哪根 K 线上&lt;/h2>
+&lt;p>他主要讲的是「突破型缺口」，也是他自己用得最多、认为最有效的一种。判断它和画这条线其实是同一件事，分两个方向看，正好对称。&lt;/p>
+&lt;h3 id="下跌套住多头">下跌：套住多头&lt;/h3>
+&lt;ol>
+&lt;li>往左找一根像样的阳线，记住它的最低点。&lt;/li>
+&lt;li>后面出现一根阴线，用实体（注意是实体，不是上下影线）跌破这个最低点。&lt;/li>
+&lt;li>跌破之后还有跟随、价格继续往下走，就在这根阳线的最低点上拉一条水平线，这条线就是缺口。&lt;/li>
+&lt;/ol>
+&lt;p>道理也好懂：这根阳线说明当时有人在这里买入做多，结果被后面那根大阴线套住了。价格跌下去之后，他们一直惦记着回本，等价格哪天涨回这条线，就会在这里打平离场，卖压一出来，这里自然成了阻力。&lt;/p>
+&lt;p>&lt;img src="https://imgant.forecho.com/2026/06/23/7b534635.png" alt="突破型缺口（下跌）：阴线实体跌破锚点阳线最低点后，缺口线就画在那个最低点，价格回到这条线即回补">&lt;/p>
+&lt;h3 id="上涨套住空头">上涨：套住空头&lt;/h3>
+&lt;p>完全对称：往左找一根像样的阴线，记住它的最高点。后面一根阳线用实体突破这个高点、并且有跟随，就在这根阴线的最高点上画线。这次被套的是空头，价格涨上去把他们套住，等回落到这条线，他们打平回补，这里就成了支撑。&lt;/p>
+&lt;p>&lt;img src="https://imgant.forecho.com/2026/06/23/4ce5106e.png" alt="突破型缺口（上涨）：阳线实体突破锚点阴线最高点后，缺口线就画在那个最高点，价格回到这条线即回补">&lt;/p>
+&lt;p>所以归结成一句话：&lt;strong>线画在「被实体突破掉的那个波段高点或低点」上，方向决定你画高点还是低点。&lt;/strong>&lt;/p>
+&lt;h2 id="为什么偏偏挑那几种-k-线">为什么偏偏挑那几种 K 线&lt;/h2>
+&lt;p>视频里他特意讲了该挑哪几种 K 线当锚点。很多人卡就卡在这：凭什么是这几根。其实判断标准只有一条，哪根 K 线的形状能说明「有一大批人集中在某个价位进场」，就用哪根，线就画在他们扎堆的那个价位上。&lt;/p>
+&lt;p>他列了四种，背后都是同一句话：哪个价位堆着最多被套的人，线就画在哪。&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>光头阴线&lt;/strong>：几乎没有上影线的阴线。空头从一开盘就一路抛售，最高点（也就是开盘价）那里堆着最多的空头，线画在最高点。&lt;/li>
+&lt;li>&lt;strong>光脚阳线&lt;/strong>：正好反过来，几乎没有下影线的阳线。多头从开盘一路买，最低点（开盘价）扎着最多的多头，线画在最低点。&lt;/li>
+&lt;li>&lt;strong>长下影线的阳线、长上影线的阴线&lt;/strong>：其实就是裸 K 里说的 pin bar（带长针的那种 K 线）。长长的影线标出了价格冲过去又被反方向打回来的那个极值，那个高点或低点就是要画线的地方。&lt;/li>
+&lt;/ul>
+&lt;p>记不住这四种也没关系，抓住背后那条逻辑就够了：找一根能看出有人扎堆被套的 K 线，把线画在他们的成本价上。&lt;/p>
+&lt;p>&lt;img src="https://imgant.forecho.com/2026/06/23/7cd62dcf.png" alt="四种锚点 K 线：光头阴线和长上影线的阴线把线画在最高点，光脚阳线和长下影线的阳线把线画在最低点">&lt;/p>
+&lt;h2 id="两个容易被滑过去的限定词">两个容易被滑过去的限定词&lt;/h2>
+&lt;p>他讲得慢，但有两个词很关键，看视频很容易一带而过：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>实体突破&lt;/strong>：必须是 K 线的实体收过了那个高点或低点。光是影线插一下、然后又收回来，不算，那通常只是假突破。&lt;/li>
+&lt;li>&lt;strong>跟随&lt;/strong>：突破之后，后面得继续往这个方向走才算数，不能突破完马上缩回去。&lt;/li>
+&lt;/ul>
+&lt;p>「跟随」这点他解释得挺有意思：跟随是为了让被套的另一方真正意识到自己被套了。正常的假突破，突破完很快就跌（涨）回来，被套的人立刻有机会跑掉；可一旦套得久了，他们才会死心，从「还想赚钱」转成「只想打平」。&lt;/p>
+&lt;h2 id="画完之后这条线怎么用">画完之后，这条线怎么用&lt;/h2>
+&lt;h3 id="先把它当支撑阻力">先把它当支撑阻力&lt;/h3>
+&lt;p>画出来只是第一步，这条线真正值钱的地方，是它接下来会变成支撑或阻力。价格重新回到线上、被套的人在这里打平离场，他把这个动作叫「回补缺口」。&lt;/p>
+&lt;ul>
+&lt;li>被跌破的低点线：价格涨回来时是阻力。&lt;/li>
+&lt;li>被突破的高点线：价格跌回来时是支撑。&lt;/li>
+&lt;/ul>
+&lt;p>前面那个「跟随」越足、套得越久，这批人回到线上时越是只想打平，卖压或买压越干脆，这条线也就越靠得住。&lt;/p>
+&lt;h3 id="别单独用至少两个理由叠加">别单独用，至少两个理由叠加&lt;/h3>
+&lt;p>这里得先泼盆冷水：z 说自己几乎不会孤零零地拿一条缺口线就进场。他做单基本都要两个以上的理由叠加，缺口只是其中一个，再配上通道线、趋势线、某个形态，凑够理由才动手。他反复说，图上每一个像样的进场点，背后都不止一个支撑阻力。&lt;/p>
+&lt;h3 id="他最爱的组合二次回补缺口失败">他最爱的组合：二次回补缺口失败&lt;/h3>
+&lt;p>缺口造出来之后，价格两次想回到这条线，都差一点点没够到被套那批人的成本价，说明他们已经急到连打平的机会都抓不住了。这时候顺着缺口方向出现一根干净的信号 K，就是很好的进场点：既是顺势，又能顺手量一个目标（从没被回补的缺口往反方向投影翻倍，大致就是他常说的那个量度目标），盈亏比和胜率都不差。&lt;/p>
+&lt;h3 id="另一种少用的信号-k-缺口">另一种少用的：信号 K 缺口&lt;/h3>
+&lt;p>他还顺带提了另一种缺口，叫「信号 K 缺口」，用得很少。那根线画在信号 K 的高点或低点，也就是当时挂 stop 进场的触发价，逻辑是「当时在这里进场的人，价格回来还会再进一次」。知道有这么个东西就行，主力还是突破型缺口。&lt;/p>
+&lt;h2 id="缺口最大的用处帮你判断背景">缺口最大的用处：帮你判断「背景」&lt;/h2>
+&lt;p>如果你没看过他的视频，可能会问：费这么大劲画这一条线，到底图什么。他自己给的答案不是「多一个进场点」，而是「判断背景」。&lt;/p>
+&lt;p>背景，就是当前到底是趋势还是震荡，这是价格行为里最该先搞清楚的一件事。方向都没定，谈进场就没有意义。而缺口，是他判断背景的核心工具。&lt;/p>
+&lt;p>方法可以浓缩成三问：&lt;/p>
+&lt;ol>
+&lt;li>一方能不能不断造出新的缺口？&lt;/li>
+&lt;li>造出来的缺口能不能长时间敞开、不被马上回补？&lt;/li>
+&lt;li>被套的人回补得动，还是回补不动？&lt;/li>
+&lt;/ol>
+&lt;p>如果一方能持续制造缺口、还让它长期敞开，说明这一方很强，多半是趋势；反过来，缺口刚造出来就被回补、来回补来补去，往往说明趋势很弱，甚至已经在震荡区间里了。&lt;/p>
+&lt;p>所以这条线不只是个进场点，它还在持续告诉你：现在到底是谁占上风、该顺势还是该反转。背景判断对了，后面就顺了：趋势里别老惦记着抓反转，震荡里别去追突破。这也是为什么他每天在图上画一大堆缺口，画顺手了，扫一眼就能定方向。&lt;/p>
+&lt;h2 id="写在最后">写在最后&lt;/h2>
+&lt;p>把这件事说穿，其实就一句话：&lt;strong>z 说的缺口不是价格上的空白，是被套的人的成本线。&lt;/strong> 想通这一点，那根线为什么画在那、为什么挑那几根 K 线、画出来又拿它判断什么，基本就都通了。&lt;/p>
+&lt;p>他的主页在 &lt;a href="https://space.bilibili.com/101513971">B 站 @z 说交易&lt;/a>，缺口分了两期讲，想看原片可以去翻。我这篇只是把自己看懂的部分用更直白的话复述一遍，难免有理解偏差，一切以他的原片为准。&lt;/p></description></item><item><title>富途、老虎之后，大陆用户还能怎么买美股：我会试试 Bitget 美股代币</title><link>https://blog.forecho.com/buy-us-stocks-with-usdt-bitget-stock-tokens.html</link><pubDate>Mon, 22 Jun 2026 14:00:00 +0800</pubDate><guid>https://blog.forecho.com/buy-us-stocks-with-usdt-bitget-stock-tokens.html</guid><description>&lt;p>&lt;img src="https://imgant.forecho.com/2026/06/21/10cda0f5.png" alt="用 USDT 买美股：富途、老虎之后的新路 · Bitget 美股代币">&lt;/p>
 &lt;h2 id="引言">引言&lt;/h2>
 &lt;p>最近总有人问我同一个问题：富途、老虎之后，大陆身份还能怎么买美股？&lt;/p>
 &lt;p>传统券商这条路没断，但门槛肉眼可见地变高。要海外地址证明，要银行卡跨境入金，到账等一两个工作日，还要扛汇兑损耗。我自己开美国期货账户的时候，光一个「补地址证明」就卡了很久。&lt;/p>
@@ -2963,188 +3030,4 @@ imgant upload ./my-image.png --format markdown
 &lt;h2 id="总结">总结&lt;/h2>
 &lt;p>这就是交易员进阶的完整路线图。大部分人终其一生可能都无法达到第五阶段，但这完全没关系，因为到达第四阶段就已经能够带来一份持续的收入和令人羡慕的专业表现了。&lt;/p>
 &lt;p>如果你刚才承诺了要对自己“残酷地诚实”，不妨现在问问自己：&lt;strong>你当前到底处于哪一个阶段？&lt;/strong>&lt;/p>
-&lt;p>慢慢来，稳一点，进步从来不是线性的，但只要你不退出游戏，并且按部就班地从一个阶段往下一个阶段进阶，属于你破茧成蝶的日子就一定会到来。共勉。&lt;/p></description></item><item><title>Tradovate 平台使用指南：从入门到精通</title><link>https://blog.forecho.com/tradovate-guide.html</link><pubDate>Wed, 04 Feb 2026 20:55:00 +0800</pubDate><guid>https://blog.forecho.com/tradovate-guide.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>如果你正在参加 Topstep 考试，或者打算尝试海外期货交易，那么 Tradovate 是一个你绕不开的交易平台。Tradovate 不仅是 Topstep 的合作平台之一，本身也是一家支持直接入金交易的券商。&lt;/p>
-&lt;p>相比于其他老牌软件，Tradovate 的最大优势在于它是基于 Web 的云端平台，不需要繁琐的安装配置，打开浏览器就能用，而且界面相对现代。但对于第一次接触的同学来说，默认界面可能显得有些凌乱和复特别是英文环境让人望而生畏。&lt;/p>
-&lt;p>这篇文章将基于 Tradovate 的核心功能，整理一份详细的使用指南，带你快速上手这个平台。&lt;/p>
-&lt;h2 id="注册与模拟账户-14-天免费试用">注册与模拟账户 (14 天免费试用)&lt;/h2>
-&lt;p>&lt;img src="https://i.imgant.com/v2/3Ya0MYM.png" alt="">&lt;/p>
-&lt;p>对于新手来说，直接上手真金白银交易风险太大。Tradovate 提供 &lt;strong>14 天的免费模拟账户&lt;/strong>，非常适合用来熟悉平台操作和练习盘感。&lt;/p>
-&lt;ol>
-&lt;li>进入 Tradovate 官网。&lt;/li>
-&lt;li>点击首页绿色的 &lt;strong>&amp;ldquo;14-Day Free Trial&amp;rdquo;&lt;/strong> 按钮。&lt;/li>
-&lt;li>&lt;strong>切换语言&lt;/strong>：在注册页面的右上角，你可以选择语言。虽然翻译质量一般，但选择 &lt;strong>简体中文&lt;/strong> 还是能降低不少门槛（目前暂无简体中文，但繁体中文对大陆用户阅读障碍不大）。&lt;/li>
-&lt;li>按照流程填写邮箱等信息完成注册。&lt;/li>
-&lt;li>登录后，选择 &lt;strong>&amp;ldquo;模拟交易&amp;rdquo;&lt;/strong> 环境，而不是实盘环境。&lt;/li>
-&lt;/ol>
-&lt;blockquote>
-&lt;p>&lt;strong>注意&lt;/strong>：如果你之后通过 Topstep 等考试通关，或者自己入金交易，登录时会有不同的选项（如 &amp;ldquo;Live Trading&amp;rdquo;）。&lt;/p>
-&lt;/blockquote>
-&lt;h2 id="界面简化与清理">界面简化与清理&lt;/h2>
-&lt;p>&lt;img src="https://i.imgant.com/v2/BnRsTub.png" alt="">&lt;/p>
-&lt;p>当你第一次进入 Tradovate 的交易界面时，可能会被满屏的窗口吓到——DOM 面板、报价表、图表挤在一起，非常凌乱。&lt;/p>
-&lt;p>我们将进行“极简主义”改造，只保留最核心的图表功能。&lt;/p>
-&lt;h3 id="关闭多余模块">关闭多余模块&lt;/h3>
-&lt;p>把屏幕下方、左侧多余的窗口全部关闭（点击窗口右上角的 X），只保留右侧最大的 &lt;strong>图表&lt;/strong> 窗口。&lt;/p>
-&lt;h3 id="去除网格线">去除网格线&lt;/h3>
-&lt;p>&lt;img src="https://i.imgant.com/v2/st1L7Yi.png" alt="">&lt;/p>
-&lt;p>默认的图表背景带有网格，看起来容易让人分心。&lt;/p>
-&lt;ol>
-&lt;li>鼠标移到图标左上角或左侧工具栏，找到 &lt;strong>图表设置&lt;/strong>（一个正方形图标）。&lt;/li>
-&lt;li>找到 &lt;strong>方格&lt;/strong> 选项，将其取消勾选。
-&lt;ul>
-&lt;li>这样背景就变得干净清爽了。&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>选择 &lt;strong>价格级别&lt;/strong>，取消勾选，这样价格轴上就不会有那些密密麻麻的刻度线了。&lt;/li>
-&lt;/ol>
-&lt;h3 id="关闭持续自适应">关闭持续自适应&lt;/h3>
-&lt;p>&lt;img src="https://i.imgant.com/v2/4UK2WUa.png" alt="">&lt;/p>
-&lt;p>在图表设置中，找到 &lt;strong>持续自适应&lt;/strong> 选项并勾选关闭。这样可以避免图表在你手动缩放后自动恢复到默认大小，让你更自由地控制图表显示效果。&lt;/p>
-&lt;h3 id="移除不必要的指标">移除不必要的指标&lt;/h3>
-&lt;p>&lt;img src="https://i.imgant.com/v2/bMWDpJR.png" alt="">&lt;/p>
-&lt;p>默认图表上可能挂着均线（MA）或其他指标。&lt;/p>
-&lt;ol>
-&lt;li>找到 &lt;strong>配置图表元素&lt;/strong>（齿轮图标）。&lt;/li>
-&lt;li>在列表中你会看到当前加载的指标。&lt;/li>
-&lt;li>点击 &lt;strong>眼睛图标&lt;/strong> 可以暂时隐藏；点击 &lt;strong>垃圾桶图标&lt;/strong> 则彻底删除。建议新手先清空所有指标，从裸 K 开始看起。&lt;/li>
-&lt;/ol>
-&lt;h3 id="自定义-k-线颜色">自定义 K 线颜色&lt;/h3>
-&lt;p>&lt;img src="https://i.imgant.com/v2/ccvWaSm.png" alt="">&lt;/p>
-&lt;p>很多国内交易者习惯“红涨绿跌”，而国际通用习惯是“绿涨红跌”或者“白涨黑跌”。Tradovate 允许自定义：&lt;/p>
-&lt;ol>
-&lt;li>&lt;strong>双击&lt;/strong> 图表上的任意一根 K 线。&lt;/li>
-&lt;li>在弹出的颜色设置中，调整 &lt;strong>阳线&lt;/strong> 和 &lt;strong>阴线&lt;/strong> 的颜色。
-&lt;ul>
-&lt;li>&lt;em>推荐配色&lt;/em>：参考很多专业交易员的习惯，可以将阳线设为 &lt;strong>白色&lt;/strong>，阴线设为 &lt;strong>灰色&lt;/strong>，背景设为深色，这样长时间盯盘眼睛不累，且能更专注于价格形态而非颜色的红绿刺激。&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ol>
-&lt;h2 id="核心功能详解">核心功能详解&lt;/h2>
-&lt;h3 id="商品搜索与合约详情">商品搜索与合约详情&lt;/h3>
-&lt;p>&lt;img src="https://i.imgant.com/v2/cdtx7C5.png" alt="">&lt;/p>
-&lt;p>在图表左上角的搜索框（放大镜图标），输入代码（如 &lt;code>NQ&lt;/code> 代表那斯达克 100 期货）。
-点击搜索结果中的 &lt;strong>详情&lt;/strong> 图标，你可以看到非常关键的合约信息：&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>合约月份&lt;/strong>：期货是有期限的，比如 &lt;code>NQU3&lt;/code> (U 代表 9 月)，注意查看 &lt;strong>到期日&lt;/strong>。&lt;/li>
-&lt;li>&lt;strong>每点价值&lt;/strong>：比如 NQ 一个跳动点（Tick）是 0.25 点，价值 5 美元；一个大点（Point）是 20 美元。这对于计算盈亏和止损至关重要。&lt;/li>
-&lt;li>&lt;strong>近月&lt;/strong>：注意看 &amp;ldquo;近月&amp;rdquo; 是否为 &lt;code>是&lt;/code>。期货每季度需要换仓，如果交易量转移到下个季度合约，记得及时切换。&lt;/li>
-&lt;/ul>
-&lt;h3 id="打开-k-线信息">打开 k 线信息&lt;/h3>
-&lt;p>&lt;img src="https://i.imgant.com/v2/gaZXY9n.png" alt="">&lt;/p>
-&lt;p>点击图表右侧的数据箱图标就可以显示 K 线的详细信息，包括开盘价、最高价、最低价、收盘价和成交量等数据。这对于分析单根 K 线的走势非常有帮助。&lt;/p>
-&lt;p>唯一缺少 k 线的大小信息。&lt;/p>
-&lt;h3 id="bar-count-指标">Bar Count 指标&lt;/h3>
-&lt;p>&lt;img src="https://i.imgant.com/v2/4TMb3Fr.png" alt="">&lt;/p>
-&lt;p>&lt;img src="https://i.imgant.com/v2/lHRKaHU.png" alt="">&lt;/p>
-&lt;p>&lt;img src="https://i.imgant.com/v2/pVhMpiO.png" alt="">&lt;/p>
-&lt;p>在指标里面找到&lt;code>探索社区指标&lt;/code>，搜索 &lt;code>Bar Count&lt;/code>，显示的第一个点安装即可，然后再点击指标里面找到 &lt;code>Price Action&lt;/code> 然后需要勾选才能显示在图表上。&lt;/p>
-&lt;h3 id="关于-rth">关于 RTH&lt;/h3>
-&lt;p>默认情况下，Tradovate 显示的是 &lt;strong>全天交易时段 (ETH)&lt;/strong>，包含盘前和盘后数据。与其他平台不同，&lt;strong>Tradovate 并没有一个直接的 &amp;ldquo;RTH&amp;rdquo; 开关&lt;/strong>。&lt;/p>
-&lt;p>&lt;img src="https://i.imgant.com/v2/Sf6CPCC.png" alt="">&lt;/p>
-&lt;p>如果你想只看 &lt;strong>常规交易时段 (RTH)&lt;/strong>（即美股开盘时间，09:30 - 16:15 ET），需要手动设置：&lt;/p>
-&lt;ol>
-&lt;li>点击图表左上角的 &lt;strong>配置图表元素&lt;/strong> 按钮（⚙️ 齿轮图标，注意不是那个正方形的图表设置）。&lt;/li>
-&lt;li>在弹出的列表中，点击你当前的 &lt;strong>合约名称&lt;/strong>（例如 &lt;code>NQU3&lt;/code>）。&lt;/li>
-&lt;li>找到时间范围，选择 &lt;strong>自定义&lt;/strong>。&lt;/li>
-&lt;li>手动输入开盘和收盘时间（例如 09:30 到 16:15）。&lt;/li>
-&lt;/ol>
-&lt;blockquote>
-&lt;p>注意：这里的时间通常是基于你本地时区或 CT 时间，请根据实际情况换算。比方说冬令时在大陆就是是晚上 22:30 到次日凌晨 05:15。&lt;/p>
-&lt;/blockquote>
-&lt;h3 id="倒价提醒">倒价提醒&lt;/h3>
-&lt;p>&lt;img src="https://i.imgant.com/v2/iRQvr1J.png" alt="">&lt;/p>
-&lt;p>盯盘很累，善用价格提醒功能：&lt;/p>
-&lt;ol>
-&lt;li>点击顶部的 &lt;strong>铃铛图标&lt;/strong>。&lt;/li>
-&lt;li>设置条件：例如 &amp;ldquo;当 MES 价格 &amp;gt; 6948 时&amp;rdquo;。&lt;/li>
-&lt;li>点击创建。&lt;/li>
-&lt;li>当价格触及该位置时，系统会发出声音和弹窗提示。这都是云端执行的，即使你关闭浏览器也有效。&lt;/li>
-&lt;/ol>
-&lt;h3 id="让下单带有自动止损止盈">让下单带有自动止损止盈&lt;/h3>
-&lt;p>在交易期货时，&lt;strong>每一笔订单都必须带止损&lt;/strong>。手动挂止损很容易受情绪影响或手速太慢，Tradovate 的 &lt;strong>Bracket Settings&lt;/strong> 可以让你在下单的一瞬间自动挂上止损单 (Stop Loss) 和止盈单 (Take Profit)。&lt;/p>
-&lt;p>&lt;img src="https://i.imgant.com/v2/ns4h9XO.png" alt="">&lt;/p>
-&lt;ol>
-&lt;li>在右侧的下单面板 (Order Module)，点击顶部的 &lt;strong>齿轮图标&lt;/strong> 开关。&lt;/li>
-&lt;/ol>
-&lt;p>&lt;img src="https://i.imgant.com/v2/3o26XL7.png" alt="">&lt;/p>
-&lt;ol start="2">
-&lt;li>选择打开 ATMS，然后取个名字。&lt;/li>
-&lt;li>设置&lt;strong>获利&lt;/strong> 和 &lt;strong>止损&lt;/strong>：
-&lt;ul>
-&lt;li>这里通常单位是 &lt;strong>Ticks (跳动点)&lt;/strong>。例如 MES 每跳 0.25 点，设置 20 Ticks 就是 5 点（20 x 0.25 = 5）。&lt;/li>
-&lt;li>&lt;em>部分设置支持按金额 ($) 设置，请务必在模拟盘先测试确认。&lt;/em>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ol>
-&lt;p>设置完成后点击保存。之后当你再次点击 Buy 或 Sell 下单时，图表上会立刻出现三条线：你的持仓线、止损线和止盈线。你可以直接在图表上 &lt;strong>拖动&lt;/strong> 止损线或止盈线来快速调整价格，非常直观方便。&lt;/p>
-&lt;h3 id="一键清空挂单">一键清空挂单&lt;/h3>
-&lt;p>&lt;img src="https://cdn.imgant.com/2026/03/24/025344-636e80a1.png" alt="">&lt;/p>
-&lt;p>因为交易平台图表上的线有时候很多很乱，导致你睡觉之后可能会出现莫名其妙的成交。这通常是因为你之前挂了单但后来忘记了，从而产生了计划之外的交易。&lt;/p>
-&lt;p>所以要养成习惯，每次止盈或止损之后，以及睡觉之前，都要习惯性地点击一下这个按钮（清空挂单），以避免非预期的交易。&lt;/p>
-&lt;h3 id="分批建仓后修改止盈数量以及坑爹的-atm-修改报错">分批建仓后修改止盈数量（以及坑爹的 ATM 修改报错）&lt;/h3>
-&lt;p>如果你习惯于&lt;strong>分批加仓&lt;/strong>（例如先开1手，遇到回调再加仓1手），最后打算&lt;strong>合并在一起统一止盈/止损&lt;/strong>，在这步操作上你大概率会遇到 Tradovate 极其反人类的设定。&lt;/p>
-&lt;p>因为当你每次下单如果都开启着 ATM 策略，图表上就会多出一组对应的、互相独立的止盈止损线。当你试图点开某一条线，想把它的数量改成总仓位数（例如改到2手）以便统一止盈时，系统会无情地弹出一个红色错误提示：&lt;/p>
-&lt;blockquote>
-&lt;p>&lt;strong>&amp;ldquo;You cannot modify this order type. Please cancel the order and replace.&amp;quot;&lt;/strong>
-&lt;em>(“您无法修改此订单类型。请取消该订单并重新下单。”)&lt;/em>&lt;/p>
-&lt;/blockquote>
-&lt;p>&lt;strong>没错，受限于 Tradovate 底层的逻辑，所有通过 ATM 策略自动生成的联动挂单，是不允许直接在图表上右键“修改数量”的！&lt;/strong> （同理，如果你是全仓进，但是中途平一半仓位，原来的止盈止损单数量依然是全仓的数量，你无法直接去改）。&lt;/p>
-&lt;p>&lt;strong>正确的重新挂单步骤（如何给合并的仓位挂统一的 OCO）：&lt;/strong>&lt;/p>
-&lt;p>既然不能直接改数字，我们唯一的办法就是“推倒重来”，手动为合并后的总仓位挂一组新的 OCO 订单，具体操作如下：&lt;/p>
-&lt;p>&lt;img src="https://r2.imgant.com/2026/03/25/074227-b9653773.png" alt="">&lt;/p>
-&lt;ol>
-&lt;li>&lt;strong>取消原有的零散挂单&lt;/strong>：直接点击图表上那些 ATM 自动生成的止损、止盈单旁边的小 &lt;strong>&amp;ldquo;X&amp;rdquo;&lt;/strong>，把它们全部取消掉（注意：此操作只取消挂单，并不会平掉你的实际持仓，你的底仓仍旧是安全的）。&lt;/li>
-&lt;li>&lt;strong>确认总仓位数并填入面板&lt;/strong>：计算好你当前的总持仓量（例如一共 2 手），并在下单面板中将 &lt;strong>数量&lt;/strong> 调整为这个总数。&lt;/li>
-&lt;li>&lt;strong>在你的仓位列表中&lt;/strong>直接右键 -&amp;gt; 选择“交易” -&amp;gt; 弹出“下单面板” -&amp;gt; 点开“高级订单”&lt;/li>
-&lt;li>&lt;strong>分别挂出新止盈和止损&lt;/strong>：
-&lt;ul>
-&lt;li>确保此时下单面板上的数量正好是你目前想要平掉的总持仓数（如 2 手）。&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ol>
-&lt;blockquote>
-&lt;p>💡 这步骤还是太麻烦了，建议放弃这种合并止盈止损的操作，直接“分批建仓，分批止盈”，不要在乎那点手续费了。另外再次感叹 ProjectX 的下单体验真好。&lt;/p>
-&lt;/blockquote>
-&lt;h3 id="手动锁定账户">手动锁定账户&lt;/h3>
-&lt;p>&lt;img src="https://cdn.imgant.com/2026/03/24/025857-ac358bb7.png" alt="">&lt;/p>
-&lt;p>这是平台新出的手动锁定账户功能，主要目的是为了防止你“手贱”或者管不住自己，防止产生 FOMO（错失恐惧症）情绪，强迫让自己冷静下来。你可以设置锁定，在此之后当天将无法再进行任何交易。&lt;/p>
-&lt;blockquote>
-&lt;p>&lt;strong>⚠️ 注意&lt;/strong>：需要特别补充的是，与 ProjectX 等平台可以选择锁定指定账户不同，&lt;strong>Tradovate 的锁定功能会同时锁定你名下的所有账号&lt;/strong>。一旦开启锁定，你名下的所有号当天都将无法进行交易，请谨慎使用。&lt;/p>
-&lt;/blockquote>
-&lt;h2 id="常用快捷操作">常用快捷操作&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>缩放图表&lt;/strong>：最直观的方法是在图表上直接滚动 &lt;strong>鼠标滚轮&lt;/strong>。&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://i.imgant.com/v2/nwyYqiv.png" alt="">&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>缩放 K 线大小&lt;/strong>：鼠标放在图表右侧的价格轴上，滚动鼠标滚轮可以放大或缩小 K 线的高度。&lt;/li>
-&lt;li>&lt;strong>锁定工具栏&lt;/strong>：如果你希望左侧的绘图工具栏常驻，可以点击工具栏底部的 &lt;strong>锁头图标&lt;/strong>。&lt;/li>
-&lt;/ul>
-&lt;h2 id="6-备份与恢复布局-export--import">6. 备份与恢复布局 (Export &amp;amp; Import)&lt;/h2>
-&lt;p>虽然 Tradovate 是&lt;strong>完全云端同步&lt;/strong>的，但在以下几种场景下，&lt;strong>将布局导出为本地文件&lt;/strong>会非常有用：&lt;/p>
-&lt;ol>
-&lt;li>&lt;strong>建立“还原点”&lt;/strong>：如果不小心误删了关键画线或把布局拖乱了，可以一键恢复到“完美状态”。&lt;/li>
-&lt;li>&lt;strong>快速迁移新账户&lt;/strong>：当你通过了考试拿到 Funded Account，或者换了一家 Prop Firm（例如从 Topstep 换到 Apex），你需要登录一个新的 Tradovate 账号。通过导入之前的备份，你可以瞬间把新账号变成你熟悉的操作界面，无需重新配置。&lt;/li>
-&lt;li>&lt;strong>分享给他人&lt;/strong>：把你的布局文件发送给朋友或社区，他们导入后就能使用和你完全一样的看盘界面。&lt;/li>
-&lt;/ol>
-&lt;p>&lt;img src="https://i.imgant.com/v2/LVVrXOU.png" alt="">&lt;/p>
-&lt;h3 id="保存并导出布局">保存并导出布局&lt;/h3>
-&lt;ol>
-&lt;li>点击左上角的 &lt;strong>+ (Add Modules)&lt;/strong> 按钮。&lt;/li>
-&lt;li>找到 &lt;strong>Workspace Templates&lt;/strong>（工作区模版）。&lt;/li>
-&lt;li>在输入框中给当前布局起个名字，点击 &lt;strong>Save&lt;/strong>。&lt;/li>
-&lt;li>保存后，列表右侧会出现一个 &lt;strong>导出图标&lt;/strong>（Export），点击它即可将布局文件下载到电脑。&lt;/li>
-&lt;/ol>
-&lt;h3 id="导入布局">导入布局&lt;/h3>
-&lt;p>如果不小心把界面弄乱了，或者换了新环境，可以通过备份文件一键恢复：&lt;/p>
-&lt;ol>
-&lt;li>同样点击左上角的 &lt;strong>+ (Add Modules)&lt;/strong> 按钮。&lt;/li>
-&lt;li>在下方找到 &lt;strong>File Input&lt;/strong> 或 &lt;strong>Import&lt;/strong> 相关选项。&lt;/li>
-&lt;li>选择你之前下载的配置文件。&lt;/li>
-&lt;li>你的图表、指标、画线和窗口布局都会瞬间恢复原样。&lt;/li>
-&lt;/ol>
-&lt;h2 id="总结">总结&lt;/h2>
-&lt;p>Tradovate 虽然上手初期会觉得功能繁多，但它的核心逻辑非常清晰：&lt;strong>基于 Web、高度可定制、云端同步&lt;/strong>。通过上述的“减法”设置，你可以获得一个非常专业且干扰极少的看盘环境。&lt;/p>
-&lt;p>对于参加 Topstep 考试的同学，熟练掌握这个平台的操作（特别是下单和止损设置，虽然本文主要讲看盘，但下单面板就在右侧，建议在模拟账户多尝试）是通关的基础。&lt;/p>
-&lt;p>祝大家交易顺利，早日拿到 Funded Account！&lt;/p></description></item></channel></rss>
+&lt;p>慢慢来，稳一点，进步从来不是线性的，但只要你不退出游戏，并且按部就班地从一个阶段往下一个阶段进阶，属于你破茧成蝶的日子就一定会到来。共勉。&lt;/p></description></item></channel></rss>
