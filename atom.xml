@@ -1,4 +1,176 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 23 Jun 2026 10:00:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>看懂 z 说交易的「缺口」：那根线到底画在哪</title><link>https://blog.forecho.com/price-action-gap-zshuo-trading.html</link><pubDate>Tue, 23 Jun 2026 10:00:00 +0800</pubDate><guid>https://blog.forecho.com/price-action-gap-zshuo-trading.html</guid><description>&lt;p>&lt;img src="https://imgant.forecho.com/2026/06/23/f6b13208.png" alt="看懂 z 说交易的「缺口」：那根线到底画在哪">&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 25 Jun 2026 10:00:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>z 说讲的支撑阻力：有人被套，这条线才有效</title><link>https://blog.forecho.com/price-action-support-resistance-zshuo-trading.html</link><pubDate>Thu, 25 Jun 2026 10:00:00 +0800</pubDate><guid>https://blog.forecho.com/price-action-support-resistance-zshuo-trading.html</guid><description>&lt;p>&lt;img src="https://imgant.forecho.com/2026/06/30/d5754012.png" alt="z 说讲的支撑阻力：有人被套，这条线才有效">&lt;/p>
+&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>最近在 B 站把 &lt;a href="https://space.bilibili.com/101513971">z 说交易&lt;/a> 的视频又翻了一遍，他的第二期视频专门讲了一件他本人称之为「学价格行为的必经之路」的事 —— 怎么找有效的支撑阻力。&lt;/p>
+&lt;p>之前我写过他讲的&lt;a href="https://blog.forecho.com/price-action-gap-zshuo-trading.html">缺口&lt;/a>，后台有朋友留言：看完缺口，还是不知道一笔交易到底该在哪里下手。其实 z 说自己在那期视频里就说得很清楚 —— &lt;strong>缺口只是支撑阻力的一种，真正系统的进场是「支撑阻力 + 形态」&lt;/strong>。这一篇就把他视频里讲的支撑阻力体系整理一遍。&lt;/p>
+&lt;p>跟上次一样，下面都是我对他视频的转述和理解，他本人也反复强调「都是个人理解，不一定对」。真要学，还是去看他的原片。&lt;/p>
+&lt;h2 id="先讲最关键的那一句">先讲最关键的那一句&lt;/h2>
+&lt;p>z 说在视频里反复讲一句话，听起来朴素，但他整套支撑阻力体系全是从这里长出来的：&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;strong>图上任何一个像样的位置，都不是随机生成的，一定是因为有人在那里被套住了。&lt;/strong>&lt;/p>
+&lt;/blockquote>
+&lt;p>把这句话翻译成可操作的版本就是：&lt;/p>
+&lt;p>&lt;strong>支撑阻力之所以有效，根本逻辑只有一句话 —— 有一批人在这个价位被套住了，等着回到这里打平离场。&lt;/strong>&lt;/p>
+&lt;p>道理拆开看就两条：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>多头被套&lt;/strong> → 价格涨回来，他们挂卖单打平 → 卖压出来 → &lt;strong>形成阻力&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>空头被套&lt;/strong> → 价格跌回来，他们挂买单回补 → 买盘出来 → &lt;strong>形成支撑&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>一条线靠不靠得住，就看三件事：&lt;strong>有没有人被套、有多少人被套、套了多久还回不去&lt;/strong>。这三件越重，这条线越硬。&lt;/p>
+&lt;p>上一篇我讲过的&lt;a href="https://blog.forecho.com/price-action-gap-zshuo-trading.html">缺口&lt;/a>，其实就是这条原理最干净的应用 —— 把「被套者的成本线」精确到一根 K 线的最高点或最低点。这一篇接着把视野放大，把所有静态支撑阻力都用这条主线串起来。&lt;/p>
+&lt;h2 id="静态支撑阻力一张被套者的成本线地图">静态支撑阻力：一张「被套者的成本线地图」&lt;/h2>
+&lt;p>z 说把支撑阻力分成两类：&lt;strong>静态&lt;/strong>和&lt;strong>动态&lt;/strong>。&lt;/p>
+&lt;p>静态的特点是「能提前画出来」 —— 不管今天怎么走，这些位置是 K 线已经留下、不会再变的。新手先把静态吃透，实操就有一半底气。&lt;/p>
+&lt;p>下面这几种都是他视频里点到的静态支撑阻力。每一种我都用同一个问题答一遍：&lt;strong>这里到底谁被套？&lt;/strong>&lt;/p>
+&lt;h3 id="前高--前低">前高 / 前低&lt;/h3>
+&lt;p>最常见的支撑阻力，逻辑也最直白：&lt;strong>之前一波尝试突破前高（或跌破前低）、结果失败的那批人，被套住了&lt;/strong>。&lt;/p>
+&lt;ul>
+&lt;li>上次冲到前高、收不上去就回落的多头 → 在前高附近挂卖单解套&lt;/li>
+&lt;li>上次跌到前低、止跌反弹的空头 → 在前低附近挂买单回补&lt;/li>
+&lt;/ul>
+&lt;p>所以&lt;strong>价格再次接近前高时，这里天然有一层卖压；接近前低时，天然有一层买盘&lt;/strong>。&lt;/p>
+&lt;p>z 说自己常用的判定：&lt;strong>前高前低有没有被实体突破过、突破后跟随强不强&lt;/strong>，直接决定这条线还有没有效。&lt;/p>
+&lt;h3 id="前高--前低的收盘价">前高 / 前低的收盘价&lt;/h3>
+&lt;p>收盘价是个常被忽视、但 z 说特别强调的位置。&lt;/p>
+&lt;p>道理是这样：一根特别好的趋势 K 线收出来之后，&lt;strong>会有顺势方专门去买它的收盘价&lt;/strong>（认为趋势会延续）。如果下一根是根烂的跟随 K，这帮买在收盘价上的人立刻就被套住了。&lt;/p>
+&lt;ul>
+&lt;li>多头买的收盘价 → 跌下去之后，他们挂在这条线&lt;strong>打平离场&lt;/strong>&lt;/li>
+&lt;li>空头卖的收盘价 → 涨上来之后，他们挂在这条线&lt;strong>回补&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>所以单独画一条「前一根 K 线的收盘价线」，在很多时候比纯波段高低点还灵敏 —— 因为被套的人成本完全一致，反应来得整齐。&lt;/p>
+&lt;h3 id="昨日--上周高低点">昨日 / 上周高低点&lt;/h3>
+&lt;p>跨时段的支撑阻力。&lt;/p>
+&lt;p>它管用的原因是：不同周期的人各自在自己的高低点附近做了决策。&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>昨日高点&lt;/strong> = 昨天试图突破但没成功的人的成本线&lt;/li>
+&lt;li>&lt;strong>上周低点&lt;/strong> = 上周一批做空被反包的人的成本线&lt;/li>
+&lt;/ul>
+&lt;p>时间跨度越大，这条线积压的「被套者」越多，反应也越强。开盘前花一分钟把昨天 / 上周的关键位画出来，是 z 说每天的开盘准备动作。&lt;/p>
+&lt;h3 id="趋势线--通道线">趋势线 / 通道线&lt;/h3>
+&lt;p>跟前高前低本质一样，只是斜着画。&lt;/p>
+&lt;p>通道线 / 趋势线代表的是&lt;strong>一段趋势里「一直站在顺势方」的那一批人的共同成本曲线&lt;/strong>。每当价格回踩到这条线：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>顺势方&lt;/strong> 把这里当成「重新加仓的成本基准」&lt;/li>
+&lt;li>&lt;strong>逆势方&lt;/strong> 在这条线被打穿之前，一直觉得趋势会延续&lt;/li>
+&lt;/ul>
+&lt;p>所以&lt;strong>通道线被实体跌破 / 突破&lt;/strong> = 顺势方原来的逻辑破了、大量持仓被困。这也是为什么 MTR（主要趋势反转）往往就发生在通道线被破之后。&lt;/p>
+&lt;h3 id="50-回调">50% 回调&lt;/h3>
+&lt;p>50% 回调是 z 说讲得最有数学味的一段，我把它翻译成大白话。&lt;/p>
+&lt;p>假设一段上涨，从起涨点到最高点。回调到 50% 位置 → 进场做多 → 目标位是前高、止损位是趋势起点。这种打法的盈亏比天然是 &lt;strong>1:1&lt;/strong>（到前高赚 50%、跌回起点亏 50%）。z 说给的胜率估计是&lt;strong>大约 60%&lt;/strong>（顺势方稍微占优）。&lt;/p>
+&lt;p>算一下期望：&lt;/p>
+&lt;ul>
+&lt;li>期望 = 0.6 × 1 + 0.4 × (-1) = &lt;strong>+0.2&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>正期望。意味着只要长期按这套打，概率上就有数学优势。&lt;strong>这就是为什么 50% 回调是一条经典且耐用的支撑阻力。&lt;/strong>&lt;/p>
+&lt;p>回到主线 —— 50% 回调的「被套」逻辑也存在：从起涨点一路追高、被套在中段的人，正好集中在 50% 这一带。&lt;/p>
+&lt;h3 id="趋势起点--通道起点">趋势起点 / 通道起点&lt;/h3>
+&lt;p>最早一批进场的人的成本线。&lt;/p>
+&lt;p>这条线特别重要，因为：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>趋势起点附近&lt;/strong> = 整个趋势里最便宜的多头筹码、最早的空头成本&lt;/li>
+&lt;li>一旦价格反向走到这里，这一批人是「&lt;strong>我都还没赚到钱、这趋势就要废了&lt;/strong>」 —— 反应往往最激烈&lt;/li>
+&lt;/ul>
+&lt;p>z 说视频里说，如果一段下跌的趋势起点被实体突破、并伴随跟随，基本就是 MTR 的信号。&lt;/p>
+&lt;hr>
+&lt;p>把上面这一串看下来，一句话能收住：&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;strong>静态支撑阻力，本质都是一张「不同批次被套者的成本线地图」。&lt;/strong>&lt;/p>
+&lt;/blockquote>
+&lt;p>新手画图的时候，与其纠结「该画几条线」，不如换个角度问自己：&lt;strong>这张图上哪些地方，有人正等着回本？&lt;/strong>&lt;/p>
+&lt;h2 id="缺口他的头号支撑阻力">缺口：他的头号支撑阻力&lt;/h2>
+&lt;p>z 说在视频里反复强调：&lt;strong>缺口是我整个交易体系里最重要的支撑阻力位&lt;/strong>。&lt;/p>
+&lt;p>跟这篇的主线无缝衔接 —— 缺口的本质就是被套者的成本线，只不过被套的位置精确到一根 K 线的最高点或最低点。具体来说：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>被实体突破掉的那根 K 线的高点 / 低点&lt;/strong> → 那一批人完整地被套在那个价位&lt;/li>
+&lt;li>一根 K 线对应一个非常窄的价位区间 → 被套的人成本一致、反应整齐&lt;/li>
+&lt;li>跟随越强、敞开越久 → 被套的人越死心 → 这条线越靠得住&lt;/li>
+&lt;/ul>
+&lt;p>所以缺口能成为 z 说体系里的头号支撑阻力，不是因为它特别神秘，而是因为它把「谁被套、被套在哪」这件事画得最清楚。&lt;/p>
+&lt;p>画法、判定、用法、怎么拿它判断背景，上一篇我已经全部讲过了 —— &lt;a href="https://blog.forecho.com/price-action-gap-zshuo-trading.html">看懂 z 说交易的「缺口」：那根线到底画在哪&lt;/a> —— 这里就不重复。&lt;/p>
+&lt;h2 id="动态支撑阻力为什么没法提前画">动态支撑阻力：为什么没法提前画&lt;/h2>
+&lt;p>跟静态相反，&lt;strong>动态支撑阻力的特点是它会跟着价格走&lt;/strong>。&lt;/p>
+&lt;p>也就是说，你没办法在开盘前就把它画好，只能在盘中跟着 K 线一根一根更新。主要有两类。&lt;/p>
+&lt;h3 id="跟着价格走的均线vwapema-20">跟着价格走的均线：VWAP、EMA 20&lt;/h3>
+&lt;p>均线的本质是&lt;strong>最近 N 根 K 线的「集体平均成本」&lt;/strong>。所以 EMA 20 这种短期均线，大致代表了&lt;strong>最近 20 根 K 线里那批短线手的平均持仓成本&lt;/strong>。&lt;/p>
+&lt;p>价格回踩 EMA 20 → 这批短线手不愿意亏 → 在这附近重新加仓 / 守住止损。这就是均线为什么经常被价格「碰一下就弹」 —— &lt;strong>不是均线本身有魔力，是均线代表的那批人不想被套&lt;/strong>。&lt;/p>
+&lt;p>VWAP 同理，只是它代表的是&lt;strong>当日按成交量加权的平均成本&lt;/strong> —— 机构和大资金特别在意的一条线。&lt;/p>
+&lt;h3 id="测量目标位measured-movesabcd">测量目标位：measured moves（AB=CD）&lt;/h3>
+&lt;p>这一类更像是「市场惯性」，而不是被套逻辑。&lt;/p>
+&lt;p>意思是：&lt;strong>市场倾向于在同样长度的距离里反应一次&lt;/strong>。比如一段上涨走了 100 个点，回调一波之后再次启动，大概率还会再走 100 个点（这就是 AB=CD）。&lt;/p>
+&lt;p>z 说给这种测量目标位的胜率估计同样是&lt;strong>大约 60%&lt;/strong>，跟 50% 回调一样在数学上正期望。&lt;/p>
+&lt;p>这一类的有效性逻辑跟「被套」不太一样，但&lt;strong>实操里照样能当目标位用&lt;/strong> —— 大波段持仓拿不拿得住，很多时候就靠「我对测量目标的期待」撑着。&lt;/p>
+&lt;hr>
+&lt;blockquote>
+&lt;p>&lt;strong>静态线是「成本线」，动态线一半是「移动成本」、一半是「市场惯性」。&lt;/strong>&lt;/p>
+&lt;/blockquote>
+&lt;p>新手实操建议：&lt;strong>先把静态吃透，动态当辅助&lt;/strong>。开盘前能把昨日高低点、缺口、趋势线、通道线画清楚，进场已经有八成依据。&lt;/p>
+&lt;h2 id="真正的公式支撑阻力--叠加--形态">真正的公式：支撑阻力 × 叠加 + 形态&lt;/h2>
+&lt;p>讲完静态、动态、缺口，这一节是 z 说做单的「实操内核」。也是他视频里反复强调的一句：&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;strong>单一支撑阻力的胜率，远远不够支撑你做单。&lt;/strong>&lt;/p>
+&lt;/blockquote>
+&lt;p>为什么不够？因为每一条单独的线，说白了就是「一批人被套」，市场上随便来个大点的力量（消息、机构、外盘联动）就能把这批人推开。&lt;strong>只有当多条不同来源的支撑阻力在同一个价位上叠加，才说明这里「被套的人足够多、来源足够杂」，没那么容易一次性被回补掉。&lt;/strong>&lt;/p>
+&lt;p>z 说自己的做单门槛非常明确：&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;strong>叠加 + 形态 = 一笔像样的进场。&lt;/strong>&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;img src="https://imgant.forecho.com/2026/06/30/d94b1058.png" alt="叠加 + 形态：左边三条线在同一个价位叠加，右边信号 K 触发">&lt;/p>
+&lt;h3 id="叠加同一个价位上几条线一起冒头">叠加：同一个价位上，几条线一起冒头&lt;/h3>
+&lt;p>叠加分两层：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>同方向叠加&lt;/strong>：一个价位上同时有 2–3 条来源不同的支撑阻力。比如「缺口 + 通道线 + 50% 回调」三条线挤在同一个价位 —— 这种位置就是 z 说视频里反复指着说「非常合适做空 / 做多」的地方。&lt;/li>
+&lt;li>&lt;strong>跨级别叠加&lt;/strong>：大周期的前高 + 小周期里出现一个内包 K + 当日 VWAP 正好压过来。&lt;/li>
+&lt;/ul>
+&lt;p>叠加越多，意味着被套的人来自越多不同的批次、越难一次性回补。&lt;strong>这是「线条数量」直接变成「胜率」的根本原因。&lt;/strong>&lt;/p>
+&lt;h3 id="形态--信号-k扣动扳机">形态 / 信号 K：扣动扳机&lt;/h3>
+&lt;p>叠加位告诉你「在哪里」，但&lt;strong>什么时候进场，得靠形态或信号 K 触发&lt;/strong>。&lt;/p>
+&lt;p>z 说视频里点到的常用形态（只列名词，每个展开都是一整套）：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>基础组&lt;/strong>：三推、内包 K（inside bar）、外包 K（outside bar）、ii、ioi、十字星&lt;/li>
+&lt;li>&lt;strong>反转组&lt;/strong>：微型双底 / 双顶、MTR（主要趋势反转）、MRS、二次回补缺口失败&lt;/li>
+&lt;li>&lt;strong>延续组&lt;/strong>：牛旗 / 熊旗、三角形（收敛 / 扩张）突破&lt;/li>
+&lt;/ul>
+&lt;p>这些形态的共同作用都是「&lt;strong>市场已经准备好往这个方向走了，我现在按下扳机&lt;/strong>」 —— 它本身不是支撑阻力，它是触发器。&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;strong>支撑阻力告诉你「在哪里下手」，形态告诉你「什么时候按扳机」。两个分开，谁也别当对方用。&lt;/strong>&lt;/p>
+&lt;/blockquote>
+&lt;p>这句话想通，就理解了 z 说视频里那句「set up = 支撑阻力 + 形态」为什么是他整个交易体系的内核。&lt;/p>
+&lt;h2 id="两个实操原则">两个实操原则&lt;/h2>
+&lt;p>还有两个细节，z 说讲得云淡风轻，但对实操影响极大。&lt;/p>
+&lt;h3 id="等价格对线做出反应再进场">等价格对线做出反应，再进场&lt;/h3>
+&lt;p>最常见的错误，是把&lt;strong>画线&lt;/strong>当成&lt;strong>预测&lt;/strong>。&lt;/p>
+&lt;p>z 说反复说：画一条线，只是说「这里可能有事」；要不要进场，得看&lt;strong>价格真的碰到线的时候、反不反应&lt;/strong>。具体表现是：&lt;/p>
+&lt;ul>
+&lt;li>价格碰线后出现明确的信号 K（内包、pin bar、收回实体）&lt;/li>
+&lt;li>或者形成小级别的反转形态（双底、ii）&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>没有反应就不动手。&lt;/strong>&lt;/p>
+&lt;p>z 说原话翻译过来就是：&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;strong>画线是预测，反应才是证据。&lt;/strong>&lt;/p>
+&lt;/blockquote>
+&lt;p>这条原则最大的好处，是把「看好」和「做对」这两件事分开 —— 你可以看好这条线，但要等市场告诉你「是的，这里真有人在做事」才进场。&lt;/p>
+&lt;h3 id="用-stop-突破单进场少用限价单">用 stop 突破单进场，少用限价单&lt;/h3>
+&lt;p>这条偏数学。&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>限价单进场那一刻&lt;/strong>（挂在阻力位卖、挂在支撑位买）：你一定是&lt;strong>逆势方&lt;/strong>（你在赌别人会回来）&lt;/li>
+&lt;li>&lt;strong>stop 单触发那一刻&lt;/strong>（突破前高买、跌破前低卖）：你一定是&lt;strong>顺势方&lt;/strong>（市场已经在帮你了）&lt;/li>
+&lt;/ul>
+&lt;p>z 说的逻辑很直接：&lt;strong>在止损合理的前提下，顺势那一刻进场，胜率天然高一点点&lt;/strong>。&lt;/p>
+&lt;p>听起来微不足道，但 1–2% 的胜率优势，在长期复利下就是数学上的「必赢」。这也是为什么职业交易者很少用限价单。&lt;/p>
+&lt;p>当然这里有个陷阱 —— 假突破。所以 stop 单的进场也要配合叠加位 + 形态，不是看见突破就追。&lt;/p>
+&lt;h2 id="写在最后">写在最后&lt;/h2>
+&lt;p>把这一篇收住，就是上一篇的延续：&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;strong>支撑阻力的本质不是几何线，是「不同批次被套者的成本线地图」。&lt;/strong>&lt;/p>
+&lt;/blockquote>
+&lt;ul>
+&lt;li>&lt;strong>缺口&lt;/strong> 是这张地图上最干净的一种位置（被套精确到一根 K 线）&lt;/li>
+&lt;li>&lt;strong>静态清单&lt;/strong>（前高前低、收盘价、趋势线、通道线、50% 回调、趋势起点）是这张地图的基础设施&lt;/li>
+&lt;li>&lt;strong>动态&lt;/strong>（均线、VWAP、measured moves）是这张地图上「会动的图层」，当辅助&lt;/li>
+&lt;li>&lt;strong>叠加 + 形态&lt;/strong> 是这张地图的使用手册&lt;/li>
+&lt;/ul>
+&lt;p>z 说视频里他自己也说「算是杂谈」，前半段讲框架、后半段是用 5 月 11 日 GC 黄金的行情逐根 K 线复盘 —— 我这篇只把框架部分整理出来，实战复盘的部分文字稿读着挺乱，真想看的话直接去他视频里看图更直观。&lt;/p>
+&lt;p>他的主页在 &lt;a href="https://space.bilibili.com/101513971">B 站 @z 说交易&lt;/a>，我这篇只是把自己看懂的部分用更直白的话复述一遍，难免有理解偏差，一切以他的原片为准。&lt;/p></description></item><item><title>看懂 z 说交易的「缺口」：那根线到底画在哪</title><link>https://blog.forecho.com/price-action-gap-zshuo-trading.html</link><pubDate>Tue, 23 Jun 2026 10:00:00 +0800</pubDate><guid>https://blog.forecho.com/price-action-gap-zshuo-trading.html</guid><description>&lt;p>&lt;img src="https://imgant.forecho.com/2026/06/23/f6b13208.png" alt="看懂 z 说交易的「缺口」：那根线到底画在哪">&lt;/p>
 &lt;h2 id="引言">引言&lt;/h2>
 &lt;p>最近在 B 站看 &lt;a href="https://space.bilibili.com/101513971">z 说交易&lt;/a> 的价格行为视频，他反复讲一个东西叫「缺口」。弹幕和评论里问得最多的也是这个：他画缺口的时候，找的那几根 K 线好像和我们理解的不太一样，那根线到底是怎么画出来的。&lt;/p>
 &lt;p>我一开始也没看懂，盯着屏幕找那块「空出来的价格」，怎么都对不上。后来把缺口一、二两期反复看了几遍，才反应过来一件事：他说的缺口，根本不是我们以为的那种跳空缺口。这一篇就把这件事讲清楚，看过视频没看懂的人能对上号，没看过的人也能直接看明白。&lt;/p>
@@ -2959,76 +3131,4 @@ imgant upload ./my-image.png --format markdown
 &lt;h2 id="总结">总结&lt;/h2>
 &lt;p>这就是价值 450 万美金的 14 年经验总结：
 觉察你的情绪、建立枯燥但也坚若磐石的习惯、引入强制熔断机制、时刻根据数据调整策略，并把休息当作第一生产力。&lt;/p>
-&lt;p>通往大师之路不需要极高的智商，但需要极高的自我管理能力和残酷的诚实。如果你想缩短自己的摸索期，不妨从今晚开始，把这些规则一点一滴融入你的交易日常中。因为市场永远在那里，随时准备把钱从无法控制自己的人口袋里，转移到有着极度纪律的人手中。&lt;/p></description></item><item><title>交易员的 5 个阶段：你现在处于哪一层？</title><link>https://blog.forecho.com/five-levels-of-trader.html</link><pubDate>Fri, 20 Mar 2026 23:45:00 +0800</pubDate><guid>https://blog.forecho.com/five-levels-of-trader.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>在交易的世界里，大多数人往往会卡在某个瓶颈期，甚至很多人的交易生涯就在“第三阶段”无声无息地结束了，而他们自己可能都没意识到。&lt;/p>
-&lt;p>最近，S&amp;amp;B Capital 的一位资深交易员总结了交易员成长的 5 个必经阶段。想要突破瓶颈，你需要做的第一件事就是&lt;strong>对自己保持极其残酷的诚实&lt;/strong>。不要去想你“想”在哪个阶段，或者“应该”在哪个阶段，而是诚实地面对你现在的真实状态。&lt;/p>
-&lt;p>这篇文章，我将带大家梳理这 5 个阶段的特征。每个阶段都包含了心态、行为和盈亏模式三个维度。请记住，&lt;strong>你无法跳级&lt;/strong>，只能一步步打怪升级，因为每个阶段都在为你教授下一个阶段所需的关键技能。&lt;/p>
-&lt;h2 id="阶段一赌徒">阶段一：赌徒&lt;/h2>
-&lt;p>&lt;strong>心态&lt;/strong>：我有预感行情会往这边走。&lt;/p>
-&lt;p>&lt;strong>行为&lt;/strong>：你完全靠直觉交易，没有明确的白纸黑字的规则，也没有交易计划。看到行情动了就兴奋地冲进去；或者行情没动，期待它会动也冲进去。偶尔赢了觉得满面春风、自己是个天才，但大部分时间都在亏钱，却根本不知道为什么亏。&lt;/p>
-&lt;p>&lt;strong>盈亏模式&lt;/strong>：极其混乱，大起大落，毫无一致性可言（比如今天赚 3000，明天亏 4500）。&lt;/p>
-&lt;h3 id="如何晋级">如何晋级？&lt;/h3>
-&lt;p>给自己定下 3 个非常明确的标准，时间投资是&lt;strong>一个月&lt;/strong>：&lt;/p>
-&lt;ol>
-&lt;li>写下你的入场规则。&lt;/li>
-&lt;li>写下你的出场规则。&lt;/li>
-&lt;li>&lt;strong>在接下来的 30 天里严格执行它。&lt;/strong>&lt;/li>
-&lt;/ol>
-&lt;p>很多人之所以在这里卡了几年，是因为他们一旦看到一点点进步、赚了一点钱，就开始飘了，抛弃规则重新靠直觉下注。这就好比去健身房，练出了一点肌肉就开始暴饮暴食一样。如果你发现自己在这阶段，越早承认自己在“赌博”，就能越快迈向下一个阶段。&lt;/p>
-&lt;h2 id="阶段二系统寻觅者">阶段二：系统寻觅者&lt;/h2>
-&lt;p>&lt;strong>心态&lt;/strong>：我只需要找到那个“完美”的策略，我就能战胜市场了。&lt;/p>
-&lt;p>&lt;strong>行为&lt;/strong>：你变成了“策略观光客”。你疯狂看书、买课、回测，懂了支撑阻力、VWAP、懂了所有的指标。但是，一旦某个策略连续几次不奏效，你马上就认定它“失效”了，转头去寻找下一个“圣杯”。&lt;/p>
-&lt;p>&lt;strong>盈亏模式&lt;/strong>：相比第一阶段稍微可控了一些，亏损变小了，偶尔也有盈利的日子，但整体算下来依然是亏损或者在持平线附近反复摩擦。&lt;/p>
-&lt;p>在这个阶段，你学会了交易的“语言”，但其实还没掌握真正的“交易执行”。&lt;/p>
-&lt;h3 id="如何晋级-1">如何晋级？&lt;/h3>
-&lt;p>只挑选&lt;strong>一个&lt;/strong>策略，对，就一个！然后进行 &lt;strong>20 次专注的练习&lt;/strong>。在这 20 次交易期间，绝不碰其他策略。
-你要明白，策略本身往往不是问题所在，&lt;strong>你的执行力才是短板&lt;/strong>。这个阶段教给你的是纪律。只要你能专注走完这 20 次，你就能步入危险但离成功最近的第三阶段。&lt;/p>
-&lt;h2 id="阶段三盈亏平衡的挣扎者">阶段三：盈亏平衡的挣扎者&lt;/h2>
-&lt;p>这是最残忍、最危险的地带，也是大多数人耗费数年然后黯然退场的地方。&lt;/p>
-&lt;p>&lt;strong>心态&lt;/strong>：我明明什么都做对了，规则也守了，风险也控了，怎么还是赚不到钱？&lt;/p>
-&lt;p>&lt;strong>行为&lt;/strong>：你有策略，也基本遵循了规则，懂了风险管理，甚至会复盘。你有赚钱的几周，也有亏钱的几周。结果到了月底一算账：没赚没亏，或者小赚小亏，几乎是零利润。&lt;/p>
-&lt;p>&lt;strong>盈亏模式&lt;/strong>：非常平缓的直线向右延伸，偶尔上去一点，很快又掉下来。&lt;/p>
-&lt;p>为什么会这样？S&amp;amp;B 给出了一个典型的例子：一个叫 Jackie 的交易员，完全按照规则在执行，但最后依然赚不到钱。答案只有一句话：&lt;strong>你按照规则做了，但你没有坚持你的“标准”。&lt;/strong>
-规则告诉你何时进出，而标准告诉你“哪些机会才值得出手”。很多人看所有的机会都想抓住，把评分只有 C 级的劣质机会，下注了跟 B 级一样的仓位风险。&lt;strong>如果不设立标准，仓位管理就会变成反噬你的武器。&lt;/strong>&lt;/p>
-&lt;h3 id="如何晋级-2">如何晋级？&lt;/h3>
-&lt;p>你需要建立一个“质量过滤器”，永远把质量放在数量之前。在每次拔枪前，问自己三个问题：&lt;/p>
-&lt;ol>
-&lt;li>市场走势符合我的技术标准吗？&lt;/li>
-&lt;li>这笔交易的盈亏比是否至少是 3:1？&lt;/li>
-&lt;li>我是否真的清楚地看懂并感受到了这个机会？&lt;/li>
-&lt;/ol>
-&lt;p>最重要的是，&lt;strong>每次交易默认的风险仓位应该是 0&lt;/strong>。你要让市场通过行情来向你“赢取”你的仓位规模：&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>C 级机会&lt;/strong>：只给 5% 的日常止损额度（甚至给 0）。&lt;/li>
-&lt;li>&lt;strong>B 级机会&lt;/strong>：给 15% 的额度。&lt;/li>
-&lt;li>&lt;strong>A 级机会&lt;/strong>：给 30% 的额度。&lt;/li>
-&lt;li>&lt;strong>A+ 级绝佳机会&lt;/strong>：给 80% 的额度。&lt;/li>
-&lt;/ul>
-&lt;p>当你从追求数量变成专注质量（Jacky 用这套方法把月交易次数从 43 次降到了 11 次，却赚到了 4 万多美金），你的盈亏曲线就会开始突破。如果你正在这个阶段，别灰心，你并不是失败者，只是在为真正的高手之路打地基。&lt;/p>
-&lt;h2 id="阶段四稳定盈利者">阶段四：稳定盈利者&lt;/h2>
-&lt;p>这就是绝大多数交易员入行时梦寐以求的阶段。&lt;/p>
-&lt;p>&lt;strong>心态&lt;/strong>：我很清楚自己在做什么，我完全信任我的交易流程。&lt;/p>
-&lt;p>&lt;strong>行为&lt;/strong>：你像个狙击手，但更像是一个“能识别高价值目标的狙击手”。你对平庸的机会毫不犹豫地放手，当最优质的入场信号出现时，你能够做到毫无杂念、完美地执行。&lt;/p>
-&lt;p>&lt;strong>盈亏模式&lt;/strong>：稳定的每月利润流。虽然可能不会一次暴富，但非常可靠，这就是你的基本盘（比如每个月 5 千到 1.5 万美金的底薪）。&lt;/p>
-&lt;p>你不再为单笔交易的得失感到焦虑。在这个阶段，如果你想往上走，所有的挑战变成了——&lt;strong>如何扩大规模&lt;/strong>。&lt;/p>
-&lt;h3 id="如何晋级-3">如何晋级？&lt;/h3>
-&lt;p>第四阶段的修行时间通常只需要 &lt;strong>2 到 3 个月&lt;/strong>。你现在的核心任务是如何在放大仓位的同时，依然保持之前的极度自律。&lt;/p>
-&lt;p>请牢牢记住：&lt;strong>这才是你第一次真正赢得扩大“每日止损额度”（加仓位）的权利。&lt;/strong> 在达到阶段四之前，你根本就不该考虑增加账户风险，只需要老老实实地打磨策略和管住手。当你能驾驭放大的资金和风险，你就拿到了通往最高境界的门票。&lt;/p>
-&lt;h2 id="阶段五大师级交易员">阶段五：大师级交易员&lt;/h2>
-&lt;p>这是少数人能达到的修仙地步（7 位数甚至 8 位数盈利）。&lt;/p>
-&lt;p>&lt;strong>心态&lt;/strong>：交易其实很简单，执行就是一切。&lt;/p>
-&lt;p>&lt;strong>行为&lt;/strong>：他们的交易频率甚至比第四阶段的人还要低，极度耐心、极度挑剔且具有无情的纪律性。他们永远在等待属于他们的那记“完美好球”，一旦球出现，他们挥棒的力量极大。他们并非承担了不合理的风险，而是因为有了稳定的底盘支持，敢于在 A+ 的绝佳机会面前集中重仓。&lt;/p>
-&lt;p>&lt;strong>盈亏模式&lt;/strong>：指数级增长。绝大多数平淡的日子可能并不兴奋，真正的利润来自于市场爆发性集群出现的那个瞬间，他们用极少的出击拿下了绝大部分的利润。&lt;/p>
-&lt;h3 id="如何达到并维持终极境界">如何达到并维持终极境界？&lt;/h3>
-&lt;p>第五阶段已经是交易的最高峰，没有更高的“等级”需要跨越。但如果你立志从稳定盈利迈入甚至维持在“大师级别”，你需要将交易&lt;strong>当成一门极其严谨的生意&lt;/strong>，并做到以下五点特质：&lt;/p>
-&lt;ol>
-&lt;li>&lt;strong>誓死捍卫日常惯例&lt;/strong>：风雨无阻地坚持自己的复盘、盯盘和作息习惯，永远不打破这个循环。&lt;/li>
-&lt;li>&lt;strong>极度清晰的目标&lt;/strong>：非常清楚在等什么图形，不是我的菜坚决不碰。&lt;/li>
-&lt;li>&lt;strong>无缝切换仓位&lt;/strong>：对平庸的机会直接过滤，或者把仓位降到微不足道（只用不到 1% 的账户资金）。&lt;/li>
-&lt;li>&lt;strong>致命一击的魄力&lt;/strong>：当属于自己的 A+ 级机会来临时，敢于瞬间押上 70% ~ 80% 的风险配额，雷霆万钧。&lt;/li>
-&lt;li>&lt;strong>了如指掌的业务盘&lt;/strong>：对自己的各项交易数据、胜率、盈亏比和这门“业务”的每一个细节都了然于胸。&lt;/li>
-&lt;/ol>
-&lt;h2 id="总结">总结&lt;/h2>
-&lt;p>这就是交易员进阶的完整路线图。大部分人终其一生可能都无法达到第五阶段，但这完全没关系，因为到达第四阶段就已经能够带来一份持续的收入和令人羡慕的专业表现了。&lt;/p>
-&lt;p>如果你刚才承诺了要对自己“残酷地诚实”，不妨现在问问自己：&lt;strong>你当前到底处于哪一个阶段？&lt;/strong>&lt;/p>
-&lt;p>慢慢来，稳一点，进步从来不是线性的，但只要你不退出游戏，并且按部就班地从一个阶段往下一个阶段进阶，属于你破茧成蝶的日子就一定会到来。共勉。&lt;/p></description></item></channel></rss>
+&lt;p>通往大师之路不需要极高的智商，但需要极高的自我管理能力和残酷的诚实。如果你想缩短自己的摸索期，不妨从今晚开始，把这些规则一点一滴融入你的交易日常中。因为市场永远在那里，随时准备把钱从无法控制自己的人口袋里，转移到有着极度纪律的人手中。&lt;/p></description></item></channel></rss>

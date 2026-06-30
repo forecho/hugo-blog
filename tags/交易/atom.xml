@@ -1,4 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>交易 on forecho's Blog</title><link>https://blog.forecho.com/tags/%E4%BA%A4%E6%98%93.html</link><description>Recent content in 交易 on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 23 Jun 2026 10:00:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/tags/%E4%BA%A4%E6%98%93/atom.xml" rel="self" type="application/rss+xml"/><item><title>看懂 z 说交易的「缺口」：那根线到底画在哪</title><link>https://blog.forecho.com/price-action-gap-zshuo-trading.html</link><pubDate>Tue, 23 Jun 2026 10:00:00 +0800</pubDate><guid>https://blog.forecho.com/price-action-gap-zshuo-trading.html</guid><description>&lt;p>&lt;img src="https://imgant.forecho.com/2026/06/23/f6b13208.png" alt="看懂 z 说交易的「缺口」：那根线到底画在哪">&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>交易 on forecho's Blog</title><link>https://blog.forecho.com/tags/%E4%BA%A4%E6%98%93.html</link><description>Recent content in 交易 on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 25 Jun 2026 10:00:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/tags/%E4%BA%A4%E6%98%93/atom.xml" rel="self" type="application/rss+xml"/><item><title>z 说讲的支撑阻力：有人被套，这条线才有效</title><link>https://blog.forecho.com/price-action-support-resistance-zshuo-trading.html</link><pubDate>Thu, 25 Jun 2026 10:00:00 +0800</pubDate><guid>https://blog.forecho.com/price-action-support-resistance-zshuo-trading.html</guid><description>&lt;p>&lt;img src="https://imgant.forecho.com/2026/06/30/d5754012.png" alt="z 说讲的支撑阻力：有人被套，这条线才有效">&lt;/p>
+&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>最近在 B 站把 &lt;a href="https://space.bilibili.com/101513971">z 说交易&lt;/a> 的视频又翻了一遍，他的第二期视频专门讲了一件他本人称之为「学价格行为的必经之路」的事 —— 怎么找有效的支撑阻力。&lt;/p>
+&lt;p>之前我写过他讲的&lt;a href="https://blog.forecho.com/price-action-gap-zshuo-trading.html">缺口&lt;/a>，后台有朋友留言：看完缺口，还是不知道一笔交易到底该在哪里下手。其实 z 说自己在那期视频里就说得很清楚 —— &lt;strong>缺口只是支撑阻力的一种，真正系统的进场是「支撑阻力 + 形态」&lt;/strong>。这一篇就把他视频里讲的支撑阻力体系整理一遍。&lt;/p>
+&lt;p>跟上次一样，下面都是我对他视频的转述和理解，他本人也反复强调「都是个人理解，不一定对」。真要学，还是去看他的原片。&lt;/p></description></item><item><title>看懂 z 说交易的「缺口」：那根线到底画在哪</title><link>https://blog.forecho.com/price-action-gap-zshuo-trading.html</link><pubDate>Tue, 23 Jun 2026 10:00:00 +0800</pubDate><guid>https://blog.forecho.com/price-action-gap-zshuo-trading.html</guid><description>&lt;p>&lt;img src="https://imgant.forecho.com/2026/06/23/f6b13208.png" alt="看懂 z 说交易的「缺口」：那根线到底画在哪">&lt;/p>
 &lt;h2 id="引言">引言&lt;/h2>
 &lt;p>最近在 B 站看 &lt;a href="https://space.bilibili.com/101513971">z 说交易&lt;/a> 的价格行为视频，他反复讲一个东西叫「缺口」。弹幕和评论里问得最多的也是这个：他画缺口的时候，找的那几根 K 线好像和我们理解的不太一样，那根线到底是怎么画出来的。&lt;/p>
 &lt;p>我一开始也没看懂，盯着屏幕找那块「空出来的价格」，怎么都对不上。后来把缺口一、二两期反复看了几遍，才反应过来一件事：他说的缺口，根本不是我们以为的那种跳空缺口。这一篇就把这件事讲清楚，看过视频没看懂的人能对上号，没看过的人也能直接看明白。&lt;/p>
@@ -175,15 +179,4 @@
 &lt;li>&lt;strong>主动选择交易时段&lt;/strong>：避开极端波动的市场环境，选择自己能驾驭的行情，能显著改善交易表现。&lt;/li>
 &lt;/ol></description></item><item><title>ProjectX 交易平台使用指南</title><link>https://blog.forecho.com/projectx-trading-platform-guide.html</link><pubDate>Sat, 20 Sep 2025 10:00:00 +0800</pubDate><guid>https://blog.forecho.com/projectx-trading-platform-guide.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
 &lt;p>&lt;a href="https://www.projectx.com/">ProjectX&lt;/a> 是一套功能强大的网页期货交易平台，被包括 Topstep (其平台名为 TopstepX) 在内的多家自营交易公司所采用。这篇文章将详细介绍我个人在使用这套平台时的一些常用设置和功能，希望能帮助你更快地上手。&lt;/p>
-&lt;p>建议先看&lt;a href="https://blog.forecho.com/use-topstep.html">《使用 Topstep 交易期货》&lt;/a>这篇文章，了解一下 Topstep 的考试号和资金账户。&lt;/p></description></item><item><title>使用 Topstep 交易期货</title><link>https://blog.forecho.com/use-topstep.html</link><pubDate>Wed, 11 Jun 2025 18:00:00 +0800</pubDate><guid>https://blog.forecho.com/use-topstep.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>最近在练习价格行为学（简称 PA）交易法，自有资金有限，亏损了压力山大；后面就算技术到位，没有足够的本金，也很难获得可观的回报。这时候，自营交易平台（Prop Firm）就成了一个非常好的选择。&lt;/p>
-&lt;p>市面上有很多 Prop Firm，但很多平台的考试规则都非常复杂，让人望而却步。而 &lt;a href="https://www.topstep.com/">Topstep&lt;/a> 的特色就在于它简洁明了的规则，让交易者可以更专注于交易本身，而不是去研究各种条条框框。&lt;/p>
-&lt;p>这篇文章，我就来分享一下我是如何使用 Topstep，并详细介绍它的考试规则和一些通关技巧。&lt;/p>
-&lt;h2 id="topstep-是什么">Topstep 是什么？&lt;/h2>
-&lt;p>Topstep 是一家正规的美国期货自营交易公司，它为交易者提供资金，让有能力的交易者在没有个人资金风险的情况下参与市场交易并获取利润分成。&lt;/p>
-&lt;p>运作模式：&lt;/p>
-&lt;ol>
-&lt;li>&lt;strong>交易评估（Trading Combine®）&lt;/strong>: 通过模拟账户评估，证明持续盈利能力和风险管理能力&lt;/li>
-&lt;li>&lt;strong>获取资金账户（ExpressFunded Account™）&lt;/strong>: 通过评估后获得真实资金账户&lt;/li>
-&lt;li>&lt;strong>利润分成&lt;/strong>: 利润分成比例为 100% 至 90%&lt;/li>
-&lt;/ol></description></item></channel></rss>
+&lt;p>建议先看&lt;a href="https://blog.forecho.com/use-topstep.html">《使用 Topstep 交易期货》&lt;/a>这篇文章，了解一下 Topstep 的考试号和资金账户。&lt;/p></description></item></channel></rss>
