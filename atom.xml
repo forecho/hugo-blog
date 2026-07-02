@@ -1,4 +1,386 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 25 Jun 2026 10:00:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>z 说讲的支撑阻力：有人被套，这条线才有效</title><link>https://blog.forecho.com/price-action-support-resistance-zshuo-trading.html</link><pubDate>Thu, 25 Jun 2026 10:00:00 +0800</pubDate><guid>https://blog.forecho.com/price-action-support-resistance-zshuo-trading.html</guid><description>&lt;p>&lt;img src="https://imgant.forecho.com/2026/06/30/d5754012.png" alt="z 说讲的支撑阻力：有人被套，这条线才有效">&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 02 Jul 2026 18:29:43 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>用交易平台风控设置改掉逆市加仓这个坏习惯</title><link>https://blog.forecho.com/platform-risk-settings-stop-revenge-trading.html</link><pubDate>Thu, 02 Jul 2026 18:29:43 +0800</pubDate><guid>https://blog.forecho.com/platform-risk-settings-stop-revenge-trading.html</guid><description>&lt;p>&lt;img src="https://imgant.forecho.com/2026/07/02/9b263244.png" alt="戒掉逆市加仓：用平台风控挡住上头交易">&lt;/p>
+&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>最近打 PA（Price Action，价格行为交易）的自营考试号，本来差 300 刀就通过了，结果又爆仓了。&lt;/p>
+&lt;p>复盘下来，问题很清楚：做反了方向，逆市加仓，想打平，最后遇到突破行情，亏损越滚越大。这个问题表面上是技术判断错误，底层其实是交易纪律失效。&lt;/p>
+&lt;p>我现在越来越觉得，靠意志力改掉“上头加仓”这个毛病，成功率很低。更现实的办法是把交易平台里的风控功能全部用起来，提前给自己装几道护栏。&lt;/p>
+&lt;p>这篇文章重点聊一件事：&lt;strong>怎么用 TopstepX、TradeSea、Tradovate 这类交易平台的设置，帮助自己少上头、少逆市加仓、少把小亏做成爆仓。&lt;/strong>&lt;/p>
+&lt;h2 id="核心结论">核心结论&lt;/h2>
+&lt;p>先说我的结论：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>每笔交易必须自动带止损&lt;/strong>：下单成交后，止损单已经在市场里。&lt;/li>
+&lt;li>&lt;strong>亏损单禁止加仓&lt;/strong>：用最大合约数量或固定 1 手交易，把加仓空间压掉。&lt;/li>
+&lt;li>&lt;strong>每天亏到固定金额就停盘&lt;/strong>：用日亏损限制，触发后自动平仓并锁账户。&lt;/li>
+&lt;li>&lt;strong>每天赚到目标也停盘&lt;/strong>：快通过考试时，保护利润比继续交易更重要。&lt;/li>
+&lt;li>&lt;strong>每天限制交易次数&lt;/strong>：连亏之后的第三笔，通常已经开始变形。&lt;/li>
+&lt;li>&lt;strong>上头时手动锁盘&lt;/strong>：脑子里出现“加一笔就能回来”，立刻锁盘。&lt;/li>
+&lt;/ol>
+&lt;p>交易平台解决不了交易系统问题，但它能解决一个更具体的问题：当你情绪失控时，把继续犯错的通道关掉。&lt;/p>
+&lt;h2 id="先把英文术语翻译一下">先把英文术语翻译一下&lt;/h2>
+&lt;p>这些平台的设置基本都是英文，先把后面会反复出现的词解释清楚：&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>英文&lt;/th>
+&lt;th>中文意思&lt;/th>
+&lt;th>我怎么理解&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;code>Position Brackets&lt;/code>&lt;/td>
+&lt;td>持仓括号单&lt;/td>
+&lt;td>给整个持仓自动挂止损和止盈&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;code>Auto OCO Brackets&lt;/code>&lt;/td>
+&lt;td>自动二选一括号单&lt;/td>
+&lt;td>每笔订单自动带止损和止盈，一个成交后另一个自动取消&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;code>OCO&lt;/code>&lt;/td>
+&lt;td>二选一订单&lt;/td>
+&lt;td>止盈和止损互相绑定，成交一个，取消另一个&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;code>Position Risk Settings&lt;/code>&lt;/td>
+&lt;td>持仓风险设置&lt;/td>
+&lt;td>预设每笔交易最多亏多少钱、目标赚多少钱&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;code>Risk - in $&lt;/code>&lt;/td>
+&lt;td>风险金额，单位美元&lt;/td>
+&lt;td>每笔交易最多亏多少美元&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;code>Profit - in $&lt;/code>&lt;/td>
+&lt;td>盈利目标，单位美元&lt;/td>
+&lt;td>每笔交易计划赚多少美元&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;code>ATM Strategies&lt;/code>&lt;/td>
+&lt;td>自动交易管理策略&lt;/td>
+&lt;td>Tradovate 里的自动止损止盈模板&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;code>Stop Loss&lt;/code>&lt;/td>
+&lt;td>止损&lt;/td>
+&lt;td>亏到预设位置自动出场&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;code>Profit Target&lt;/code>&lt;/td>
+&lt;td>止盈目标&lt;/td>
+&lt;td>赚到预设位置自动出场&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;code>Stop Market&lt;/code>&lt;/td>
+&lt;td>止损市价单&lt;/td>
+&lt;td>触发止损价后用市价尽快成交&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;code>PDLL&lt;/code>&lt;/td>
+&lt;td>个人每日亏损上限&lt;/td>
+&lt;td>当天最多允许亏多少钱&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;code>PDPT&lt;/code>&lt;/td>
+&lt;td>个人每日盈利目标&lt;/td>
+&lt;td>当天赚到多少钱后停盘&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;code>Liquidate and Block&lt;/code>&lt;/td>
+&lt;td>平仓并锁定&lt;/td>
+&lt;td>先平掉持仓，再禁止继续交易&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;code>Contract Limits&lt;/code>&lt;/td>
+&lt;td>合约数量限制&lt;/td>
+&lt;td>限制某个品种最多能开几手&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;code>Trade Limits&lt;/code>&lt;/td>
+&lt;td>交易次数限制&lt;/td>
+&lt;td>限制每天或每周最多交易几笔&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;code>Lock-Out&lt;/code> / &lt;code>Manual Lockout&lt;/code>&lt;/td>
+&lt;td>手动锁盘&lt;/td>
+&lt;td>主动锁住账户一段时间，防止继续下单&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;code>session&lt;/code>&lt;/td>
+&lt;td>交易时段&lt;/td>
+&lt;td>一段连续交易时间，比如美盘时段&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;code>ticks&lt;/code>&lt;/td>
+&lt;td>最小跳动单位&lt;/td>
+&lt;td>期货价格最小变动单位&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;code>1R&lt;/code>&lt;/td>
+&lt;td>一倍初始风险&lt;/td>
+&lt;td>如果一笔最多亏 50 刀，1R 就是 50 刀&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>另外，文中会提到几个期货代码：&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>MES&lt;/code>：微型标普 500 期货，适合小仓练习。&lt;/li>
+&lt;li>&lt;code>MNQ&lt;/code>：微型纳指 100 期货，波动比 MES 更刺激。&lt;/li>
+&lt;li>&lt;code>ES&lt;/code>：标普 500 小型期货，单点价值更大。&lt;/li>
+&lt;li>&lt;code>NQ&lt;/code>：纳指 100 小型期货，波动和盈亏都更大。&lt;/li>
+&lt;/ul>
+&lt;h2 id="先定义要改掉的坏习惯">先定义要改掉的坏习惯&lt;/h2>
+&lt;p>我这次爆仓，真正要处理的坏习惯有 4 个：&lt;/p>
+&lt;h3 id="亏损单加仓">亏损单加仓&lt;/h3>
+&lt;p>做错方向后，心里想的是把均价拉近一点，价格稍微回调就能打平。这个动作一旦遇到突破行情，仓位会越来越重，止损会越来越难。&lt;/p>
+&lt;p>所以第一条规则应该非常硬：&lt;/p>
+&lt;blockquote>
+&lt;p>亏损单加仓 = 当天违规。&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="不愿止损">不愿止损&lt;/h3>
+&lt;p>下单时觉得自己会止损，真正亏损时就开始犹豫。尤其是价格行为交易里，很多时候你会觉得“这里可能是最后一波”“这里可能会反转”，最后就变成死扛。&lt;/p>
+&lt;p>解决办法是把止损提前放进系统里。下单前先定义风险，下单后自动挂止损。&lt;/p>
+&lt;h3 id="想回本">想回本&lt;/h3>
+&lt;p>想回本是最危险的信号。因为这时候交易目标已经从“执行系统”变成“修复情绪”。&lt;/p>
+&lt;p>我的规则是：脑子里出现“今天至少打回来一点”这句话，就停止交易。&lt;/p>
+&lt;h3 id="快通过时想一次打完">快通过时想一次打完&lt;/h3>
+&lt;p>差 300 刀通过考试，最容易犯错。因为这时候会觉得胜利就在眼前，仓位会不自觉变大，交易次数会不自觉变多。&lt;/p>
+&lt;p>更合理的做法是把最后 300 刀拆成 2-3 天，每天完成一小段，赚到目标就锁盘。&lt;/p>
+&lt;h2 id="五道平台护栏">五道平台护栏&lt;/h2>
+&lt;p>&lt;img src="https://imgant.forecho.com/2026/07/02/9caedd15.png" alt="五道风控护栏：自动止损、日亏损线、日盈利线、最大仓位、手动锁盘">&lt;/p>
+&lt;h3 id="第一层自动止损止盈">第一层：自动止损止盈&lt;/h3>
+&lt;p>这一层解决的是“不愿止损”。&lt;/p>
+&lt;p>&lt;strong>TopstepX&lt;/strong> 可以用 &lt;code>Position Brackets&lt;/code>（持仓括号单）或 &lt;code>Auto OCO Brackets&lt;/code>（自动二选一括号单）。&lt;code>Position Brackets&lt;/code> 是按整个持仓设置统一止损止盈，适合简单交易；&lt;code>Auto OCO Brackets&lt;/code> 是按单笔订单绑定止损止盈，适合分批建仓、分批止盈。对我现在这种状态，更适合先用 &lt;code>Position Brackets&lt;/code>。&lt;/p>
+&lt;p>&lt;strong>TradeSea&lt;/strong> 可以用 &lt;code>Position Risk Settings&lt;/code>（持仓风险设置）和 &lt;code>Position Brackets&lt;/code>（持仓括号单）。在设置里填好每笔 &lt;code>Risk - in $&lt;/code>（风险金额，单位美元）和 &lt;code>Profit - in $&lt;/code>（盈利目标，单位美元），打开自动应用。这样开仓后，平台会自动把每笔交易的风险和利润目标套上去。&lt;/p>
+&lt;p>&lt;strong>Tradovate&lt;/strong> 可以用 &lt;code>ATM Strategies&lt;/code>（自动交易管理策略）。提前设置好 &lt;code>Stop Loss&lt;/code>（止损）和 &lt;code>Profit Target&lt;/code>（止盈目标），之后下单时让 ATM 自动挂出止损止盈。Tradovate 这块要先在模拟盘测试清楚，确认每次下单后的止损和止盈都正确挂出。&lt;/p>
+&lt;p>我的设置建议：&lt;/p>
+&lt;ul>
+&lt;li>单笔风险：50 刀&lt;/li>
+&lt;li>单笔目标：75 刀&lt;/li>
+&lt;li>止损类型：优先用 &lt;code>Stop Market&lt;/code>（止损市价单）&lt;/li>
+&lt;li>下单后第一件事：确认图表上已经有止损线&lt;/li>
+&lt;/ul>
+&lt;h3 id="第二层当天最大亏损线">第二层：当天最大亏损线&lt;/h3>
+&lt;p>这一层解决的是“亏了之后想打回来”。&lt;/p>
+&lt;p>&lt;strong>TopstepX&lt;/strong> 有 &lt;code>Personal Daily Loss Limit&lt;/code>（个人每日亏损上限）。设置好 &lt;code>PDLL&lt;/code> 后，动作选择 &lt;code>Liquidate and Block&lt;/code>（平仓并锁定），触发后会平仓并锁到账户下一个交易日。&lt;/p>
+&lt;p>&lt;strong>TradeSea&lt;/strong> 也有 &lt;code>Personal Daily Loss Limit&lt;/code>（个人每日亏损上限）和 &lt;code>Personal Daily Action&lt;/code>（个人每日触发动作）。动作同样可以选 &lt;code>Liquidate and Block&lt;/code>（平仓并锁定），触发后平仓并锁当天。&lt;/p>
+&lt;p>&lt;strong>Tradovate&lt;/strong> 有 &lt;code>Daily Loss Limit&lt;/code>（每日亏损上限）。官方说明里提到，启用后账户达到亏损限制会自动平仓并锁定，通常到交易时段结束后解锁。&lt;/p>
+&lt;p>我的设置建议：&lt;/p>
+&lt;ul>
+&lt;li>50K 考试账户：&lt;code>PDLL&lt;/code> 设 150 刀&lt;/li>
+&lt;li>状态稳定后：最多放到 200-250 刀&lt;/li>
+&lt;li>动作：选择平仓并锁定&lt;/li>
+&lt;/ul>
+&lt;p>日亏损线的意义很直接：今天做错了，就把明天保留下来。&lt;/p>
+&lt;h3 id="第三层当天盈利目标">第三层：当天盈利目标&lt;/h3>
+&lt;p>这一层解决的是“快通过了还继续做”。&lt;/p>
+&lt;p>&lt;strong>TopstepX&lt;/strong> 和 &lt;strong>TradeSea&lt;/strong> 都有 &lt;code>Personal Daily Profit Target&lt;/code>（个人每日盈利目标）。达到当天盈利目标后，同样可以设置成平仓并锁账户。&lt;/p>
+&lt;p>这个功能很适合考试号。比如还差 300 刀通过，可以这样拆：&lt;/p>
+&lt;ul>
+&lt;li>第一天：赚 150 刀，触发锁盘&lt;/li>
+&lt;li>第二天：赚 150 刀，触发锁盘&lt;/li>
+&lt;li>盘中行情特别好：也按计划停&lt;/li>
+&lt;/ul>
+&lt;p>我的设置建议：&lt;/p>
+&lt;ul>
+&lt;li>普通阶段：&lt;code>PDPT&lt;/code> 设 150-200 刀&lt;/li>
+&lt;li>快通过阶段：&lt;code>PDPT&lt;/code> 设 150 刀&lt;/li>
+&lt;li>触发动作：平仓并锁定&lt;/li>
+&lt;/ul>
+&lt;p>接近通过时，交易目标应该从“多赚一点”切换成“把账户带到终点”。&lt;/p>
+&lt;h3 id="第四层最大合约数量">第四层：最大合约数量&lt;/h3>
+&lt;p>这一层解决的是“逆市加仓”。&lt;/p>
+&lt;p>&lt;strong>TopstepX&lt;/strong> 有 &lt;code>Contract Limits&lt;/code>（合约数量限制）。它可以按品种设置最大合约数量，如果你的持仓和挂单超过限制，系统会拒绝新订单。比如把 MES 设置为 1 手，就直接堵住亏损后继续加仓的通道。&lt;/p>
+&lt;p>&lt;strong>TradeSea&lt;/strong> 这层可以先用单笔风险金额和日亏损限制来控制。具体是否能按品种限制最大合约数量，要看你当前账户和平台版本里的可用设置。&lt;/p>
+&lt;p>&lt;strong>Tradovate&lt;/strong> 这层我会先把默认下单数量固定为 1，并配合自营交易公司自带的账户规则使用。交易软件里能设置默认数量，真正的硬限制通常取决于你接入的账户和风控规则。&lt;/p>
+&lt;p>我的设置建议：&lt;/p>
+&lt;ul>
+&lt;li>MES：1 手&lt;/li>
+&lt;li>MNQ：前 20 天先停用&lt;/li>
+&lt;li>NQ / ES：新手阶段直接不碰&lt;/li>
+&lt;li>合约数量调大前提：连续 20 个交易日亏损单零加仓&lt;/li>
+&lt;/ul>
+&lt;p>这条对我最重要。只要还有加仓空间，亏损时就容易幻想“再补一笔”。&lt;/p>
+&lt;h3 id="第五层手动锁盘和交易次数限制">第五层：手动锁盘和交易次数限制&lt;/h3>
+&lt;p>这一层解决的是“上头后连续犯错”。&lt;/p>
+&lt;p>&lt;strong>TopstepX&lt;/strong> 有 &lt;code>Lock-Out&lt;/code>（手动锁盘），也有 &lt;code>Trade Limits&lt;/code>（交易次数限制）。&lt;code>Lock-Out&lt;/code> 可以锁 15 分钟、30 分钟、1 小时、全天；&lt;code>Trade Limits&lt;/code> 可以限制每天或每周最多交易次数。&lt;/p>
+&lt;p>&lt;strong>TradeSea&lt;/strong> 有 &lt;code>Personal Lockouts&lt;/code>（个人锁盘），可以按交易时段或自定义小时数锁盘。官方文档里也明确提到，它适合亏损、情绪波动、违反规则后防止 revenge trading（复仇式交易）。&lt;/p>
+&lt;p>&lt;strong>Tradovate Prop&lt;/strong>（Tradovate 自营交易版本）有 &lt;code>Manual Lockout&lt;/code>（手动锁盘）。官方说明里说，触发后会平掉仓位、取消挂单，并拒绝后续订单；锁定时长可以选 15 分钟、30 分钟、1 小时、到交易时段结束或自定义时间。这个功能会应用到用户名下相关模拟账户，使用前要确认影响范围。&lt;/p>
+&lt;p>我的设置建议：&lt;/p>
+&lt;ul>
+&lt;li>每天最多 3 笔&lt;/li>
+&lt;li>连亏 2 笔，立刻锁 30 分钟&lt;/li>
+&lt;li>出现回本冲动，锁到当天结束&lt;/li>
+&lt;li>快通过考试时，达到盈利目标后锁到当天结束&lt;/li>
+&lt;/ul>
+&lt;p>手动锁盘这个动作一定要提前定义触发条件。等情绪已经上来，再让自己“理性决定”，成功率很低。&lt;/p>
+&lt;h2 id="三个平台怎么选">三个平台怎么选&lt;/h2>
+&lt;h3 id="topstepx风控功能最完整">TopstepX：风控功能最完整&lt;/h3>
+&lt;p>如果你用的是 Topstep 官方账户，TopstepX 是最方便的选择。它把自动止损止盈、日亏损、日盈利、合约限制、交易次数、锁盘都放在一个平台里。&lt;/p>
+&lt;p>我的优先设置顺序：&lt;/p>
+&lt;ol>
+&lt;li>打开 &lt;code>Position Brackets&lt;/code>（持仓括号单）&lt;/li>
+&lt;li>设置 &lt;code>PDLL = 150&lt;/code>（个人每日亏损上限 150 刀）&lt;/li>
+&lt;li>设置 &lt;code>PDPT = 150-200&lt;/code>（个人每日盈利目标 150-200 刀）&lt;/li>
+&lt;li>MES &lt;code>Contract Limit = 1&lt;/code>（MES 合约数量限制为 1 手）&lt;/li>
+&lt;li>&lt;code>Trade Limits = 3&lt;/code>（每天最多 3 笔）&lt;/li>
+&lt;li>设置 &lt;code>Lock-Out&lt;/code>（手动锁盘）快捷流程&lt;/li>
+&lt;/ol>
+&lt;p>TopstepX 最适合拿来做“防上头系统”。&lt;/p>
+&lt;h3 id="tradesea日内锁盘和单笔风险很好用">TradeSea：日内锁盘和单笔风险很好用&lt;/h3>
+&lt;p>TradeSea 的优点是设置很直观。&lt;code>Risk - in $&lt;/code>（风险金额）、&lt;code>Profit - in $&lt;/code>（盈利目标）、&lt;code>PDLL&lt;/code>（个人每日亏损上限）、&lt;code>PDPT&lt;/code>（个人每日盈利目标）、&lt;code>Personal Lockout&lt;/code>（个人锁盘）都很适合新手。&lt;/p>
+&lt;p>我的优先设置顺序：&lt;/p>
+&lt;ol>
+&lt;li>&lt;code>Risk - in $ = 50&lt;/code>（每笔最多亏 50 刀）&lt;/li>
+&lt;li>&lt;code>Profit - in $ = 75&lt;/code>（每笔目标赚 75 刀）&lt;/li>
+&lt;li>打开自动应用到新仓位&lt;/li>
+&lt;li>&lt;code>PDLL = 150&lt;/code>（个人每日亏损上限 150 刀）&lt;/li>
+&lt;li>&lt;code>PDPT = 150-200&lt;/code>（个人每日盈利目标 150-200 刀）&lt;/li>
+&lt;li>&lt;code>Personal Daily Action = Liquidate and Block&lt;/code>（触发后平仓并锁定）&lt;/li>
+&lt;li>上头时用 &lt;code>Personal Lockout&lt;/code>（个人锁盘）&lt;/li>
+&lt;/ol>
+&lt;p>TradeSea 的重点是把每笔交易和每天交易都锁进固定金额里。&lt;/p>
+&lt;h3 id="tradovate先用-atm-和锁盘功能">Tradovate：先用 ATM 和锁盘功能&lt;/h3>
+&lt;p>Tradovate 的核心是 &lt;code>ATM Strategies&lt;/code>（自动交易管理策略）、&lt;code>Daily Loss Limit&lt;/code>（每日亏损上限）和 &lt;code>Manual Lockout&lt;/code>（手动锁盘）。&lt;/p>
+&lt;p>我的优先设置顺序：&lt;/p>
+&lt;ol>
+&lt;li>设置 ATM（自动交易管理策略）：固定止损和止盈&lt;/li>
+&lt;li>默认下单数量固定为 1&lt;/li>
+&lt;li>设置 &lt;code>Daily Loss Limit&lt;/code>（每日亏损上限）&lt;/li>
+&lt;li>连亏后使用 &lt;code>Manual Lockout&lt;/code>（手动锁盘）&lt;/li>
+&lt;li>每次交易结束后清理挂单&lt;/li>
+&lt;/ol>
+&lt;p>Tradovate 适合已经习惯它图表和下单流程的人。它的关键是确保 ATM（自动交易管理策略）每次都正确生效，并且把默认数量固定住。&lt;/p>
+&lt;h2 id="我会怎么设置-50k-考试账户">我会怎么设置 50K 考试账户&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>目标&lt;/th>
+&lt;th>TopstepX&lt;/th>
+&lt;th>TradeSea&lt;/th>
+&lt;th>Tradovate&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>每笔自动止损&lt;/td>
+&lt;td>&lt;code>Position Brackets&lt;/code>（持仓括号单）&lt;/td>
+&lt;td>&lt;code>Position Risk Settings&lt;/code>（持仓风险设置）/ &lt;code>Position Brackets&lt;/code>（持仓括号单）&lt;/td>
+&lt;td>&lt;code>ATM Strategies&lt;/code>（自动交易管理策略）&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>单笔风险&lt;/td>
+&lt;td>50 刀&lt;/td>
+&lt;td>50 刀&lt;/td>
+&lt;td>通过 ATM 对应 ticks（最小跳动单位）计算&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>单笔目标&lt;/td>
+&lt;td>75 刀&lt;/td>
+&lt;td>75 刀&lt;/td>
+&lt;td>通过 ATM 对应 ticks（最小跳动单位）计算&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>日亏损线&lt;/td>
+&lt;td>&lt;code>PDLL = 150&lt;/code>（每日亏损上限 150 刀）&lt;/td>
+&lt;td>&lt;code>PDLL = 150&lt;/code>（每日亏损上限 150 刀）&lt;/td>
+&lt;td>&lt;code>Daily Loss Limit = 150&lt;/code>（每日亏损上限 150 刀）&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>日盈利线&lt;/td>
+&lt;td>&lt;code>PDPT = 150-200&lt;/code>（每日盈利目标 150-200 刀）&lt;/td>
+&lt;td>&lt;code>PDPT = 150-200&lt;/code>（每日盈利目标 150-200 刀）&lt;/td>
+&lt;td>手动目标 + &lt;code>Manual Lockout&lt;/code>（手动锁盘）&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>最大仓位&lt;/td>
+&lt;td>MES 1 手&lt;/td>
+&lt;td>固定小仓 + 风控限制&lt;/td>
+&lt;td>默认数量 1 手&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>交易次数&lt;/td>
+&lt;td>每天 3 笔&lt;/td>
+&lt;td>手动记录或平台可用限制&lt;/td>
+&lt;td>手动记录&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>上头处理&lt;/td>
+&lt;td>&lt;code>Lock-Out&lt;/code>（手动锁盘）&lt;/td>
+&lt;td>&lt;code>Personal Lockout&lt;/code>（个人锁盘）&lt;/td>
+&lt;td>&lt;code>Manual Lockout&lt;/code>（手动锁盘）&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>最适合我当前状态的参数：&lt;/p>
+&lt;ul>
+&lt;li>MES 只做 1 手&lt;/li>
+&lt;li>每笔最大亏损 50 刀&lt;/li>
+&lt;li>每天最多亏 150 刀&lt;/li>
+&lt;li>每天最多赚 150-200 刀后停&lt;/li>
+&lt;li>每天最多 3 笔&lt;/li>
+&lt;li>连亏 2 笔锁盘&lt;/li>
+&lt;li>想回本立刻锁盘&lt;/li>
+&lt;/ul>
+&lt;h2 id="我准备重点避开的几个坑">我准备重点避开的几个坑&lt;/h2>
+&lt;h3 id="亏损后逆市加仓">亏损后逆市加仓&lt;/h3>
+&lt;p>价格已经突破了，还在原方向继续补仓，想把均价拉近一点，最后仓位越来越重。&lt;/p>
+&lt;p>接下来我会这样约束自己：MES 固定 1 手，TopstepX 直接用 &lt;code>Contract Limits&lt;/code>（合约数量限制），其他平台用默认数量 1 手和日亏损线配合执行。连续 20 天做到亏损单零加仓后，再考虑放大。&lt;/p>
+&lt;h3 id="止损只停留在脑子里">止损只停留在脑子里&lt;/h3>
+&lt;p>下单时觉得自己会止损，行情一快起来，手动止损就变成了犹豫、等待、祈祷。&lt;/p>
+&lt;p>接下来我会这样约束自己：TopstepX 用 &lt;code>Position Brackets&lt;/code>（持仓括号单），TradeSea 用 &lt;code>Position Risk Settings&lt;/code>（持仓风险设置），Tradovate 用 &lt;code>ATM Strategies&lt;/code>（自动交易管理策略）。止损必须先进入市场。&lt;/p>
+&lt;h3 id="快过考试时想一次打完">快过考试时想一次打完&lt;/h3>
+&lt;p>差 300 刀通过，于是仓位变大，交易次数变多，心态从执行系统变成完成任务。&lt;/p>
+&lt;p>接下来我会这样约束自己：把最后 300 刀拆成 2 天。TopstepX 和 TradeSea 直接用 &lt;code>PDPT&lt;/code>（个人每日盈利目标）锁盘；Tradovate 达到当天目标后手动 &lt;code>Manual Lockout&lt;/code>（手动锁盘）。&lt;/p>
+&lt;h3 id="连亏后继续交易">连亏后继续交易&lt;/h3>
+&lt;p>前两笔亏了，第三笔开始已经带着情绪，后面每一笔都在追回前面的亏损。&lt;/p>
+&lt;p>接下来我会这样约束自己：每天最多 3 笔，连亏 2 笔后锁盘。TopstepX 用 &lt;code>Trade Limits&lt;/code>（交易次数限制），TradeSea 用 &lt;code>Personal Lockout&lt;/code>（个人锁盘），Tradovate 用 &lt;code>Manual Lockout&lt;/code>（手动锁盘）。&lt;/p>
+&lt;h3 id="上头时还给自己留选择">上头时还给自己留选择&lt;/h3>
+&lt;p>明明知道自己状态不对，还想着“再看一眼”“再等一下”“再做最后一笔”。&lt;/p>
+&lt;p>接下来我会这样约束自己：提前写好触发规则。出现回本冲动，直接锁盘 30 分钟起步；已经接近日亏损线，锁到当天结束。&lt;/p>
+&lt;h2 id="20-个交易日训练目标">20 个交易日训练目标&lt;/h2>
+&lt;p>接下来 20 个交易日，目标可以非常简单：&lt;/p>
+&lt;blockquote>
+&lt;p>亏损单零加仓。&lt;/p>
+&lt;/blockquote>
+&lt;p>先别急着追求通过考试，也别急着把那 300 刀赚回来。只要能连续 20 天做到亏损单零加仓，交易状态就会有明显变化。&lt;/p>
+&lt;p>这 20 天里，每天只看一个指标：&lt;/p>
+&lt;ul>
+&lt;li>今天有没有在亏损单上加仓？&lt;/li>
+&lt;/ul>
+&lt;p>有，这一天就算失败。&lt;/p>
+&lt;p>没有，就算账户亏钱，这一天也算训练成功。&lt;/p>
+&lt;p>真正要改的习惯，是亏损时的第一反应。以前第一反应是加仓、扛单、想打平；现在第一反应要变成减仓、止损、锁盘。&lt;/p>
+&lt;h2 id="最后要执行的规则">最后要执行的规则&lt;/h2>
+&lt;ol>
+&lt;li>每一笔订单自动带止损。&lt;/li>
+&lt;li>MES 固定 1 手。&lt;/li>
+&lt;li>每天最多 3 笔。&lt;/li>
+&lt;li>日亏损 150 刀停盘。&lt;/li>
+&lt;li>日盈利 150-200 刀停盘。&lt;/li>
+&lt;li>连亏 2 笔锁盘。&lt;/li>
+&lt;li>想回本立刻锁盘。&lt;/li>
+&lt;/ol>
+&lt;p>我现在最应该做的，就是把 MES 限制在 1 手，把每天最大亏损限制在 150 刀，把每天最多交易次数限制在 3 笔。&lt;/p>
+&lt;p>先把亏损单加仓这个动作戒掉，再谈稳定盈利。&lt;/p>
+&lt;h2 id="参考资料">参考资料&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://help.topstepx.com/settings/risk-settings/position-brackets">TopstepX：Position Brackets&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://help.topstepx.com/settings/risk-settings/auto-oco-brackets">TopstepX：Auto OCO Brackets&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://help.topstepx.com/settings/risk-settings/personal-daily-loss-limit">TopstepX：Personal Daily Loss Limit&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://help.topstepx.com/settings/risk-settings/personal-daily-profit-target">TopstepX：Personal Daily Profit Target&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://help.topstepx.com/settings/risk-settings/contract-limits">TopstepX：Contract Limits&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://help.topstepx.com/settings/risk-settings/trade-limits">TopstepX：Trade Limits&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://help.topstepx.com/settings/risk-settings/lock-out-customizations">TopstepX：Lock-Out Customizations&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://help.tradesea.ai/en/articles/13670130-daily-loss-profit-limits">TradeSea：Daily Loss &amp;amp; Profit Limits&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://help.tradesea.ai/en/articles/13670146-position-risk-settings">TradeSea：Position Risk Settings&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://help.tradesea.ai/en/articles/13670157-position-brackets">TradeSea：Position Brackets&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://help.tradesea.ai/en/articles/13670140-personal-lockouts">TradeSea：Personal Lockouts&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://support.tradovate.com/s/article/ATM-Strategies-Tradovate">Tradovate：ATM Strategies&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.tradovate.com/daily-loss-limit/">Tradovate：Daily Loss Limit&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://prop.tradovate.com/blogs/manual-lockout-tradovate-prop">Tradovate Prop：Manual Lockout&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>z 说讲的支撑阻力：有人被套，这条线才有效</title><link>https://blog.forecho.com/price-action-support-resistance-zshuo-trading.html</link><pubDate>Thu, 25 Jun 2026 10:00:00 +0800</pubDate><guid>https://blog.forecho.com/price-action-support-resistance-zshuo-trading.html</guid><description>&lt;p>&lt;img src="https://imgant.forecho.com/2026/06/30/d5754012.png" alt="z 说讲的支撑阻力：有人被套，这条线才有效">&lt;/p>
 &lt;h2 id="引言">引言&lt;/h2>
 &lt;p>最近在 B 站把 &lt;a href="https://space.bilibili.com/101513971">z 说交易&lt;/a> 的视频又翻了一遍，他的第二期视频专门讲了一件他本人称之为「学价格行为的必经之路」的事 —— 怎么找有效的支撑阻力。&lt;/p>
 &lt;p>之前我写过他讲的&lt;a href="https://blog.forecho.com/price-action-gap-zshuo-trading.html">缺口&lt;/a>，后台有朋友留言：看完缺口，还是不知道一笔交易到底该在哪里下手。其实 z 说自己在那期视频里就说得很清楚 —— &lt;strong>缺口只是支撑阻力的一种，真正系统的进场是「支撑阻力 + 形态」&lt;/strong>。这一篇就把他视频里讲的支撑阻力体系整理一遍。&lt;/p>
@@ -3070,65 +3452,4 @@ imgant upload ./my-image.png --format markdown
 &lt;p>最后说一下座位的问题。&lt;/p>
 &lt;p>以前开车时间不长，对座椅要求没那么高。这次去程时一度腰痛、肩膀痛。后来我表哥告诉我，可能是座椅没调好，他说坐姿调对了，开一天车都不会觉得累。&lt;/p>
 &lt;p>回程的时候我特意重新调整了座椅角度。果然，只要保证每两个小时休息一次，就算一个人开了一整天 16 个小时，也没有再腰痛过。&lt;/p>
-&lt;p>总结下来，第一次开电车长途回家，因为没有经验走了不少弯路。但只要规划好休息和充电，准备好零食、提神饮料和音乐，加上辅助驾驶，整体比开燃油车省心了许多。&lt;/p></description></item><item><title>创纪录出金 250 万美金！顶级交易员浓缩 14 年的 5 个交易心理学法则</title><link>https://blog.forecho.com/14-years-trading-psychology.html</link><pubDate>Sat, 21 Mar 2026 00:10:00 +0800</pubDate><guid>https://blog.forecho.com/14-years-trading-psychology.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>有一位交易了 14 年的前辈，他在交易生涯中总共赚取了 450 万美元的利润。更震撼的是，他今年仅单次出金就拿到了 &lt;strong>250 万美元&lt;/strong>，创下了自营交易公司（Prop Firm）历史上的最高出金记录。&lt;/p>
-&lt;p>今天，我们将他这 14 年的交易心理学精华，浓缩成这篇能让你快速读完的 &lt;strong>5 个核心法则&lt;/strong>。&lt;/p>
-&lt;p>很多新手总以为只要找到一个完美的“圣杯”策略就能暴富。但他坦言：&lt;strong>完美的策略不会让你变富&lt;/strong>。他甚至曾用那个后来帮他赚了几百万美元的策略亏过钱。为什么？因为当情绪接管大脑时，再好的策略也会崩溃。&lt;/p>
-&lt;p>最惨痛的亏损，往往不是因为糟糕的交易信号，而是因为“把好机会做烂了”——比如报复性交易、犹豫不决或者极度自负。&lt;/p>
-&lt;p>让我们直接进入正题，看看这 5 个拉开凡人与顶尖交易员差距的法则。&lt;/p>
-&lt;h2 id="法则一情绪觉察写情绪日记">法则一：情绪觉察（写情绪日记）&lt;/h2>
-&lt;p>大多数交易员没有意识到，交易实际上是在强迫你面对最真实的自己：你的自我价值感、你的耐心，以及你内心最深处的恐惧。&lt;/p>
-&lt;p>每次当你按下“买入”或“卖出”按钮时，你冒风险的不仅仅是金钱，还有你的&lt;strong>自尊心&lt;/strong>。我们的大脑其实分不清“身体上的生存威胁”和“财务上的损失威胁”。所以当你亏钱时，你的神经系统会像被猛兽追赶一样，分泌肾上腺素、关闭逻辑思考，让你进入“生存模式”。&lt;/p>
-&lt;p>这时候，你会因为刚错过一个绝佳机会而愤怒，转而去随便开一单勉强及格的随机交易，试图证明自己，最后陷入连亏。&lt;/p>
-&lt;h3 id="如何解决">如何解决？&lt;/h3>
-&lt;p>&lt;strong>坚持写情绪日记。&lt;/strong> 不仅仅是记录交易点位，而是要记录你在每笔交易&lt;strong>前、中、后&lt;/strong>的真实感受。
-例如：“我昨天亏钱了，今天交易前感到很焦虑”，或者“连赢三次后我感到极度兴奋，于是在第四单变得过度自信”。&lt;/p>
-&lt;p>当你把情绪具象化地写下来，你就能中和它。**在每次下单前问自己：“我现在感觉如何？”如果答案不是“平静且自信”，那就离开电脑，坚决别做交易。**你要做的不是控制情绪，而是管理情绪。&lt;/p>
-&lt;h2 id="法则二建立枯燥的系统而非依赖意志力">法则二：建立枯燥的系统，而非依赖意志力&lt;/h2>
-&lt;p>很多新手觉得成功的交易应该像电影里那样，满屏飞舞着代码、每天高频且激情地操作。
-但真相是：&lt;strong>成功的交易是极其重复且枯燥的。&lt;/strong>&lt;/p>
-&lt;p>想象一下，你在桌前干坐了 6 个小时，只下了一单，甚至一单都没下。不是因为市场没有波动，而是因为在那 6 个小时里，只有一次机会完美符合你的规则。而这时候，有些人在交流群里发了今天狂做 15 单的截图感叹自己多努力。但他不知道的是，你那耐心等待的一单，赚得比他 15 单加起来还要多。市场奖励的永远是&lt;strong>单调的重复&lt;/strong>，奖励那些每天出现、坚定执行计划、绝不偏离的人。&lt;/p>
-&lt;h3 id="如何解决-1">如何解决？&lt;/h3>
-&lt;p>&lt;strong>不要靠意志力，要靠系统。&lt;/strong> 纪律就是建立起一整套流程，让做正确决定变成一种自动化的本能。
-你需要一个一成不变的日常惯例。比如，每天开盘前只看三件事：市场结构、关键点位、新闻事件。你的惯例应该根深蒂固，以至于哪天不这么做，你会浑身难受。惯例的意义在于&lt;strong>消除决策疲劳&lt;/strong>，让你在下单前不用耗费精力去做 50 个微小的决定而导致开盘前就已经精神枯竭。&lt;/p>
-&lt;h2 id="法则三用熔断规则阻断报复性亏损">法则三：用“熔断规则”阻断报复性亏损&lt;/h2>
-&lt;p>哪怕你拥有完美的纪律，连亏期也会用你无法想象的方式来考验你。毁掉大多数交易员的，往往是这样一个剧本：&lt;/p>
-&lt;p>你度过了极好的一周，自信心膨胀，甚至开始盘算是不是该辞职全职炒股了。接着，你亏了一单。这很正常。但随后你连亏了两三单，虽然此时回撤可能只有百分之几，但你的理智已经被狗吃了。第二天你红着眼睛坐在屏幕前，脑子里只有一个目标：&lt;strong>把钱赢回来&lt;/strong>。&lt;/p>
-&lt;p>你增加了仓位（认为需要一次大赚才能回本），降低了入场标准，在没有机会的地方强行看出机会，最终陷入“死亡螺旋”。有些人两周就能亏掉过去半年的利润，不是因为策略失效，而是因为他们无法接受自己“错了”。当你陷入逆境不能自拔时，就像在波涛汹涌的海面冲浪，逆水行舟，越用力陷得越深。&lt;/p>
-&lt;h3 id="如何解决-2">如何解决？&lt;/h3>
-&lt;p>给自己设立绝对不可谈判的&lt;strong>熔断规则&lt;/strong>：&lt;/p>
-&lt;ol>
-&lt;li>&lt;strong>日亏两单，立刻停手。&lt;/strong> 不是“我再看一眼”，而是直接关掉电脑，转身离开。&lt;/li>
-&lt;li>&lt;strong>连亏三单，下周仓位减半。&lt;/strong> 这不是因为策略失效，而是因为你的情绪平衡已经被打破了，你需要用极小的风险来重建自信。&lt;/li>
-&lt;li>&lt;strong>盘中绝对不看盈亏数字。&lt;/strong> 当你盯着账户余额的跳动时，你交易的就不再是市场的走势，而是在交易你的焦虑。&lt;/li>
-&lt;/ol>
-&lt;p>永远记住：把你的结果和你的自我价值剥离开。&lt;strong>一个糟糕的星期并不会让你变成一个糟糕的人，它只是让你成为了一个刚好这周不太顺的交易员。&lt;/strong>&lt;/p>
-&lt;h2 id="法则四边缘优势就像保质期食品放下执念">法则四：边缘优势就像保质期食品，放下执念&lt;/h2>
-&lt;p>这是十年老兵和破产新手的最大区别：&lt;strong>策略都有保质期&lt;/strong>。&lt;/p>
-&lt;p>也许是因为波动率变了，也许是因为市场结构变了，那个曾经帮你赚了十几万的策略，可能某天突然失灵了。
-但很多人在头一两个月根本意识不到，或者不愿意承认。你告诉自己“只是遇到了正常的回撤阶段”。直到第三个月，胜率断崖式下跌，你还是没去调整。
-为什么？因为你把&lt;strong>个人身份认同&lt;/strong>和&lt;strong>交易策略&lt;/strong>绑定了。你觉得自己就是个“支撑阻力交易员”或者“SMC 交易员”，承认策略失效等于承认自己之前做错了，你的自尊心不允许。&lt;/p>
-&lt;h3 id="如何解决-3">如何解决？&lt;/h3>
-&lt;p>把交易策略看作是有保质期的消耗品。&lt;/p>
-&lt;ol>
-&lt;li>&lt;strong>追踪一切数据&lt;/strong>：胜率、盈亏比、不同行情的表现。&lt;/li>
-&lt;li>&lt;strong>每周复盘&lt;/strong>：不看账户余额，看纯粹的统计学统计图。如果你的某项关键数据连续两周比基准线偏离了 15% 以上，立刻警觉并调查原因。&lt;/li>
-&lt;li>&lt;strong>放下自尊，随时转向&lt;/strong>：当数据无情地告诉你边缘优势已经消失时，接受它，别去对抗行情。去测试新方法，去适应新环境。&lt;strong>适应，或者死亡，就这么简单。&lt;/strong>&lt;/li>
-&lt;/ol>
-&lt;h2 id="法则五把恢复当作一项专业技能">法则五：把“恢复”当作一项专业技能&lt;/h2>
-&lt;p>许多交易员认为努力就是每天死磕：没有休息日，不加运动，不社交，生活全被“看盘 - 复盘 - 交易”填满。这会导致“千刀万剐般”的慢性死亡。&lt;/p>
-&lt;p>交易是一项纯脑力劳动，你坐在椅子上动动鼠标，所以这种&lt;strong>疲劳是隐形的&lt;/strong>。你不会有关节酸痛或气喘吁吁，但你的决策质量已经在慢慢降级——你开始提前平仓因为你焦虑，或者任由亏损扩大因为你已经没有心力去管理风险。
-当你处于连亏时，你以为多花点时间盯盘就能解决问题，但在一个已经快空了的油箱上踩油门，只会加速引擎报废。&lt;/p>
-&lt;h3 id="如何解决-4">如何解决？&lt;/h3>
-&lt;p>把“休息和恢复”当成跟看盘一样重要的性能训练：&lt;/p>
-&lt;ol>
-&lt;li>&lt;strong>交易后散步&lt;/strong>：每次交易结束后，去走 20 到 40 分钟。不带手机，不听播客，给大脑一个按下重启键的机会。&lt;/li>
-&lt;li>&lt;strong>周末精神清空&lt;/strong>：写下三件事——这周学到了什么？对什么心存感激？需要改进什么错误？写完就把这周的包袱彻底扔掉，别带进下周。&lt;/li>
-&lt;li>&lt;strong>必须要有一个交易以外的爱好&lt;/strong>：不管是健身、做饭还是打球，你需要用其他活动去刺激大脑的不同区域。&lt;/li>
-&lt;li>&lt;strong>强制休假&lt;/strong>：每高强度交易 4 周，就强制自己休息 3 到 5 天，完全不看盘，不看技术群。就像安排看牙医一样把它加进日程表。&lt;/li>
-&lt;/ol>
-&lt;p>&lt;strong>顶尖水平不在于你有多拼命，而在于你恢复得有多好。&lt;/strong> 永远不要让自己处于 60% 的电量运转，要学会给自己充满 100% 的电。&lt;/p>
-&lt;h2 id="总结">总结&lt;/h2>
-&lt;p>这就是价值 450 万美金的 14 年经验总结：
-觉察你的情绪、建立枯燥但也坚若磐石的习惯、引入强制熔断机制、时刻根据数据调整策略，并把休息当作第一生产力。&lt;/p>
-&lt;p>通往大师之路不需要极高的智商，但需要极高的自我管理能力和残酷的诚实。如果你想缩短自己的摸索期，不妨从今晚开始，把这些规则一点一滴融入你的交易日常中。因为市场永远在那里，随时准备把钱从无法控制自己的人口袋里，转移到有着极度纪律的人手中。&lt;/p></description></item></channel></rss>
+&lt;p>总结下来，第一次开电车长途回家，因为没有经验走了不少弯路。但只要规划好休息和充电，准备好零食、提神饮料和音乐，加上辅助驾驶，整体比开燃油车省心了许多。&lt;/p></description></item></channel></rss>
