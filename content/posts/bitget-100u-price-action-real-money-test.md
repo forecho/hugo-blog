@@ -1,12 +1,12 @@
 ---
-title: "用 100U 在 Bitget 开实盘，给自己一年多的价格行为学习交一次答卷"
+title: "用 100U 开实盘：给价格行为学习交一次答卷"
 date: 2026-07-05T10:00:00+08:00
 tags: ["价格行为", "交易", "Bitget", "复盘"]
 draft: false
 toc: true
 ---
 
-![用 100U 开实盘，给一年多的价格行为学习交一次答卷](https://imgant.forecho.com/2026/07/06/f2082158.png)
+![用 100U 开实盘：给价格行为学习交一次答卷](https://imgant.forecho.com/2026/07/06/f2082158.png)
 
 ## 引言
 
