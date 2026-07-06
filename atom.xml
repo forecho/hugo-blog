@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 05 Jul 2026 10:00:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>用 100U 开实盘：给价格行为学习交一次答卷</title><link>https://blog.forecho.com/bitget-100u-price-action-real-money-test.html</link><pubDate>Sun, 05 Jul 2026 10:00:00 +0800</pubDate><guid>https://blog.forecho.com/bitget-100u-price-action-real-money-test.html</guid><description>&lt;p>&lt;img src="https://imgant.forecho.com/2026/07/06/f2082158.png" alt="用 100U 开实盘：给价格行为学习交一次答卷">&lt;/p>
 &lt;h2 id="引言">引言&lt;/h2>
-&lt;p>过去一年多，我在 Prop Firm（自营交易考试平台）上买账号买了差不多一千多美金。反复挑战、反复爆仓、反复重买，中间就考过一次，一次都没出金。&lt;/p>
+&lt;p>过去一年多，我一直在学&lt;strong>价格行为学（Price Action）&lt;/strong>，练手场主要是 Prop Firm（自营交易考试平台）。买账号买了差不多一千多美金，反复挑战、反复爆仓、反复重买，中间就考过一次，一次都没出金。&lt;/p>
 &lt;p>心里一直卡着一个问题：&lt;strong>到底是 Prop Firm 的规则问题，还是我自己有问题？&lt;/strong>&lt;/p>
-&lt;p>Prop Firm 我暂时还不打算停 —— 毕竟成本低、练技术划算。但我想开一个实盘账户，掏 100U 到 Bitget，用价格行为跑一段时间，看看这一年多学的东西到底能不能落到自己的钱上。&lt;/p>
+&lt;p>Prop Firm 我暂时还不打算停 —— 毕竟成本低、练技术划算。但我想再开一个实盘账户，掏 100U 到 Bitget，&lt;strong>用的还是同一套价格行为技术分析，只是换到币圈合约做短线&lt;/strong>，跑一段时间看看这一年多学的东西到底能不能落到自己的钱上。&lt;/p>
 &lt;h2 id="amp-拒了我反倒是件好事">AMP 拒了我，反倒是件好事&lt;/h2>
 &lt;p>其实一开始我不是打算走这条路的。&lt;/p>
 &lt;p>前段时间我在申请美国的 AMP 期货账户，想走一条「正经」的路。表格里「职业」那一栏我随手填了「退休」 —— 当时刚好没工作，脑子一抽觉得这个词最省事，其实更准确的说法是「待业」。后来 AMP 客服邮件核实资料，我按流程补正，最后还是被判 KYC 不通过。&lt;/p>
@@ -50,6 +50,7 @@
 &lt;li>&lt;strong>仓位&lt;/strong>：单笔 10% – 30%，不满仓、不 all in&lt;/li>
 &lt;/ul>
 &lt;p>写在这里只是让上下文完整，&lt;strong>不是推荐&lt;/strong>。杠杆合约风险极大，别看我几笔顺就照抄，规则和风控先自己搞清楚。想看每一笔怎么进怎么出的，去 &lt;a href="https://pahubcn.com/">PAHub&lt;/a>。&lt;/p>
+&lt;p>再多说一句：&lt;strong>做短线堪比体育竞技，其实非常难&lt;/strong>。对绝大多数普通投资者来说，中长线、买指数、定投指数才是更靠谱的路。只有真想成为交易员，才需要考虑用技术分析做短线 —— 先想清楚自己走哪条。&lt;/p>
 &lt;h2 id="博客写什么不写什么">博客写什么、不写什么&lt;/h2>
 &lt;p>先把边界钉清楚，免得后面走偏。&lt;/p>
 &lt;p>&lt;strong>会写的&lt;/strong>：&lt;/p>
