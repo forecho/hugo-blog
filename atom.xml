@@ -1,4 +1,86 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 02 Jul 2026 18:29:43 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>用交易平台风控设置改掉逆市加仓这个坏习惯</title><link>https://blog.forecho.com/platform-risk-settings-stop-revenge-trading.html</link><pubDate>Thu, 02 Jul 2026 18:29:43 +0800</pubDate><guid>https://blog.forecho.com/platform-risk-settings-stop-revenge-trading.html</guid><description>&lt;p>&lt;img src="https://imgant.forecho.com/2026/07/02/9b263244.png" alt="戒掉逆市加仓：用平台风控挡住上头交易">&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 05 Jul 2026 10:00:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>用 100U 在 Bitget 开实盘，给自己一年多的价格行为学习交一次答卷</title><link>https://blog.forecho.com/bitget-100u-price-action-real-money-test.html</link><pubDate>Sun, 05 Jul 2026 10:00:00 +0800</pubDate><guid>https://blog.forecho.com/bitget-100u-price-action-real-money-test.html</guid><description>&lt;p>&lt;img src="https://imgant.forecho.com/2026/07/06/f2082158.png" alt="用 100U 开实盘，给一年多的价格行为学习交一次答卷">&lt;/p>
+&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>过去一年多，我在 Prop Firm（自营交易考试平台）上买账号买了差不多一千多美金。反复挑战、反复爆仓、反复重买，中间就考过一次，一次都没出金。&lt;/p>
+&lt;p>心里一直卡着一个问题：&lt;strong>到底是 Prop Firm 的规则问题，还是我自己有问题？&lt;/strong>&lt;/p>
+&lt;p>Prop Firm 我暂时还不打算停 —— 毕竟成本低、练技术划算。但我想开一个实盘账户，掏 100U 到 Bitget，用价格行为跑一段时间，看看这一年多学的东西到底能不能落到自己的钱上。&lt;/p>
+&lt;h2 id="amp-拒了我反倒是件好事">AMP 拒了我，反倒是件好事&lt;/h2>
+&lt;p>其实一开始我不是打算走这条路的。&lt;/p>
+&lt;p>前段时间我在申请美国的 AMP 期货账户，想走一条「正经」的路。表格里「职业」那一栏我随手填了「退休」 —— 当时刚好没工作，脑子一抽觉得这个词最省事，其实更准确的说法是「待业」。后来 AMP 客服邮件核实资料，我按流程补正，最后还是被判 KYC 不通过。&lt;/p>
+&lt;p>被拒的那一刻我挺轻松的，因为 AMP 那条路我本来就走得不太情愿：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>出入金要走跨境银行卡&lt;/strong>，SWIFT 一等就是一两个工作日，而且还要被银行收一笔手续费&lt;/li>
+&lt;li>&lt;strong>换汇一次收 30 美元手续费&lt;/strong>：一旦想做日经这种非美元品种就得换汇，来回一趟光手续费就 60 美金&lt;/li>
+&lt;/ul>
+&lt;p>被拒反而替我把这条路直接关掉了。那既然美国券商走不通，我索性去看看币圈交易所。&lt;/p>
+&lt;h2 id="为什么最后选了-bitget">为什么最后选了 Bitget&lt;/h2>
+&lt;p>兜了一圈停在 Bitget，理由很直白：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>出入金简单&lt;/strong>：USDT 直接充提，7×24 到账秒级，不用碰跨境银行卡和汇兑损耗，我以前也炒过币，熟悉这个流程&lt;/li>
+&lt;li>&lt;strong>合约模式适合小本金&lt;/strong>：现货 100U 玩不出什么名堂，但合约 100U 已经足够&lt;/li>
+&lt;li>&lt;strong>一个账户能同时接触现货、合约、美股代币&lt;/strong>：省心，不用分心管三处&lt;/li>
+&lt;li>&lt;strong>门槛低到不用心疼&lt;/strong>：100U 亏光了就一顿饭钱，认输就完了，不会再让我为「回本」上一次头&lt;/li>
+&lt;/ul>
+&lt;p>之前我写过&lt;a href="https://blog.forecho.com/buy-us-stocks-with-usdt-bitget-stock-tokens.html">大陆用户怎么用 USDT 买 Bitget 美股代币&lt;/a>，那篇偏介绍。这一篇是我真的开户、真的下单之后的起点。&lt;/p>
+&lt;h2 id="为什么这次一定要用真钱">为什么这次一定要用「真钱」&lt;/h2>
+&lt;p>在 Prop Firm 上打了一年多，我越来越意识到一件事 —— &lt;strong>Prop Firm 的钱，不是我的钱。&lt;/strong>&lt;/p>
+&lt;p>具体表现是：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>单打错了&lt;/strong>，心疼的是几百刀账号费，不是仓位本身&lt;/li>
+&lt;li>&lt;strong>一亏钱&lt;/strong>就想「反正账号才这么点，加个仓赌一把」&lt;/li>
+&lt;li>&lt;strong>规则一严&lt;/strong>就想「换一个宽松的账号再来一次」&lt;/li>
+&lt;li>&lt;strong>明明该止损&lt;/strong>，非要多扛两根 K 线，因为「反正亏了大不了再买一个」&lt;/li>
+&lt;/ul>
+&lt;p>我反复问自己：&lt;strong>这些操作换到自己的实盘账户里，我还会这么做吗？&lt;/strong> 答案很清楚 —— 不会。真金白银的每一 U，跟考试账号里的每一 U，感觉根本不是一回事。&lt;/p>
+&lt;p>我并不是要否定 Prop Firm。几百刀就能有个规范化账户环境去测策略，这一层价值我不否认。但它有一个副作用几乎没法察觉：&lt;strong>你以为你在练交易，其实你在练怎么通过一场考试&lt;/strong>。这两件事看着像，其实完全不同。&lt;/p>
+&lt;p>所以 Prop Firm 我继续用，同时再加一个实盘账户来专门校准心态这条线。&lt;strong>两条并行，不是二选一。&lt;/strong>&lt;/p>
+&lt;h2 id="100u--400u数字先亮冷水先泼">100U → 400U：数字先亮，冷水先泼&lt;/h2>
+&lt;p>写这篇的时候，账户从 100U 起步，半个月过去，余额大概 400U。&lt;/p>
+&lt;p>数字得先亮出来，但立刻要泼自己一盆冷水：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>样本太小&lt;/strong>：几十笔交易撑不起任何统计意义&lt;/li>
+&lt;li>&lt;strong>周期太短&lt;/strong>：半个月说明不了任何事&lt;/li>
+&lt;li>&lt;strong>杠杆放大器&lt;/strong>：20 倍合约本来就能小本金滚出大数字，反过来一样能一夜清零&lt;/li>
+&lt;li>&lt;strong>运气占大头&lt;/strong>：这段时间的行情结构，刚好跟我熟悉的 setup 对得上&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>这不是战报，是起点。&lt;/strong> 往后曲线掉回去甚至掉到 100 以下，我也一样写出来。&lt;/p>
+&lt;p>顺便交代一下这段时间我具体在做什么：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>品种&lt;/strong>：KORU&lt;/li>
+&lt;li>&lt;strong>杠杆&lt;/strong>：一般 20 倍&lt;/li>
+&lt;li>&lt;strong>仓位&lt;/strong>：单笔 10% – 30%，不满仓、不 all in&lt;/li>
+&lt;/ul>
+&lt;p>写在这里只是让上下文完整，&lt;strong>不是推荐&lt;/strong>。杠杆合约风险极大，别看我几笔顺就照抄，规则和风控先自己搞清楚。想看每一笔怎么进怎么出的，去 &lt;a href="https://pahubcn.com/">PAHub&lt;/a>。&lt;/p>
+&lt;h2 id="博客写什么不写什么">博客写什么、不写什么&lt;/h2>
+&lt;p>先把边界钉清楚，免得后面走偏。&lt;/p>
+&lt;p>&lt;strong>会写的&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>阶段性的感悟和反思&lt;/li>
+&lt;li>某个 setup 反复吃亏 / 反复奏效之后的观察&lt;/li>
+&lt;li>心态、纪律、风控这一层的教训&lt;/li>
+&lt;li>用价格行为看待市场结构的思路变化&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>不会写的&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>每笔交易的细节复盘 —— 去 &lt;a href="https://pahubcn.com/">PAHub&lt;/a> 我的主页看，那是我自己开发的价格行为复盘平台，&lt;a href="https://blog.forecho.com/pahub-price-action-review-platform-guide.html">之前有一篇介绍&lt;/a>&lt;/li>
+&lt;li>荐股 / 荐币 / 推 setup 让你抄单&lt;/li>
+&lt;li>跟单 / 代管 / 收费信号&lt;/li>
+&lt;/ul>
+&lt;p>一句话：&lt;strong>博客写「想通了什么」，PAHub 写「每一笔怎么打的」。&lt;/strong>&lt;/p>
+&lt;h2 id="写在最后">写在最后&lt;/h2>
+&lt;p>一年多的价格行为学习，到底能不能落到实盘账户上？我现在没答案。Prop Firm 那些通过率、挂科率也答不了这个问题 —— 只有一个实盘账户跑够长时间的曲线，才能给出可信的答案。&lt;/p>
+&lt;p>这个系列不打算按频率更新，也不会为凑一篇硬写：&lt;strong>有感悟、有教训、有值得说的转折我就写&lt;/strong>；没什么可说的时候就沉住气继续做单。&lt;/p>
+&lt;p>想跟着做的话，用&lt;a href="https://partner.zysh.xyz/bg/QKMD9M">我的 Bitget 专属渠道链接&lt;/a>注册就行；开户、KYC、出入金有不懂的可以进&lt;a href="https://t.me/+Kj7IrxBZtOk3YTk1">开户交流 Telegram 群&lt;/a>问。&lt;/p>
+&lt;blockquote>
+&lt;p>文中链接是我的渠道链接。交易风险巨大，这篇只是我自己的操作笔记，不构成投资建议。&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="参考链接">参考链接&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://pahubcn.com/">PAHub 价格行为复盘平台&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://blog.forecho.com/pahub-price-action-review-platform-guide.html">PAHub：为价格行为交易者打造的在线复盘与学习社区&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://blog.forecho.com/buy-us-stocks-with-usdt-bitget-stock-tokens.html">富途、老虎之后，大陆用户还能怎么买美股：Bitget 美股代币&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://partner.zysh.xyz/bg/QKMD9M">我的 Bitget 专属注册渠道&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://t.me/+Kj7IrxBZtOk3YTk1">开户交流 Telegram 群&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>用交易平台风控设置改掉逆市加仓这个坏习惯</title><link>https://blog.forecho.com/platform-risk-settings-stop-revenge-trading.html</link><pubDate>Thu, 02 Jul 2026 18:29:43 +0800</pubDate><guid>https://blog.forecho.com/platform-risk-settings-stop-revenge-trading.html</guid><description>&lt;p>&lt;img src="https://imgant.forecho.com/2026/07/02/9b263244.png" alt="戒掉逆市加仓：用平台风控挡住上头交易">&lt;/p>
 &lt;h2 id="引言">引言&lt;/h2>
 &lt;p>最近打 PA（Price Action，价格行为交易）的自营考试号，本来差 300 刀就通过了，结果又爆仓了。&lt;/p>
 &lt;p>复盘下来，问题很清楚：做反了方向，逆市加仓，想打平，最后遇到突破行情，亏损越滚越大。这个问题表面上是技术判断错误，底层其实是交易纪律失效。&lt;/p>
@@ -3398,58 +3480,4 @@ imgant upload ./my-image.png --format markdown
 &lt;ul>
 &lt;li>&lt;a href="https://www.brookstradingcourse.com/">Al Brooks Trading Course&lt;/a>&lt;/li>
 &lt;li>素材来源：Al Brooks 在 futures.io 的分享《5 Thoughts on Psychology Part 1》&lt;/li>
-&lt;/ul></description></item><item><title>特斯拉第一次长途驾驶体验</title><link>https://blog.forecho.com/first-tesla-long-distance-driving.html</link><pubDate>Tue, 24 Mar 2026 11:48:00 +0800</pubDate><guid>https://blog.forecho.com/first-tesla-long-distance-driving.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>之前春节回家，是我第一次长途驾驶。&lt;/p>
-&lt;p>夫妻俩带着一个两岁多的宝宝，单程接近一千公里。因为是第一次开这么远的高速，出发之前我在家用高德地图做了不少准备工作。&lt;/p>
-&lt;p>经历了一趟去程和回程之后，趁着记忆犹新，写篇博客来复盘一下这次长途驾驶的体验和心得。&lt;/p>
-&lt;h2 id="行程规划与实际情况">行程规划与实际情况&lt;/h2>
-&lt;p>出发前我的计划是：接近一千公里的路程，还带着宝宝，打算分两天开完。我用高德地图看了沿途所有服务区，选了一个中间位置作为第一天的目的地。&lt;/p>
-&lt;p>但实际上，我们第一天开得非常慢。&lt;/p>
-&lt;p>一千公里如果不休息大约要开十个小时，但我们第一天只开了三个多小时。因为是第一次长途，整个人表现得特别悠闲，加上出发比较晚，到第一个服务区的时候就已经中午了，就在那慢悠悠地吃了午饭。&lt;/p>
-&lt;p>我们甚至把车上的行李全搬下来，在车上开了露营模式，铺好床想睡个午觉。但在那种喧闹的服务区环境里根本睡不着，折腾半天浪费了不少时间。&lt;/p>
-&lt;p>由于第一天空耗太多时间，没法按计划到达目的地，最后只能在美团上找了附近高速出口旁边的一家快捷酒店凑合了一晚。&lt;/p>
-&lt;h3 id="开车看手机的严重教训">开车看手机的严重教训&lt;/h3>
-&lt;p>那天晚上去找酒店的时候，还发生了一个险情。&lt;/p>
-&lt;p>到了酒店门口没看到停车位，我就给酒店工作人员打电话。就在这时候犯了一个非常严重的错误：一边开车一边操作手机。虽然车速很慢，但这真的是个坏习惯。&lt;/p>
-&lt;p>恰恰就是因为边开边看手机，车轮毂直接刮到了马路牙子上，好在没刮到其他的车。这件事给我敲响了警钟：以后要操作手机或看信息，一定要先把车停靠到路边安全地带再说，绝对不能边开车边操作。&lt;/p>
-&lt;p>第二天有了高速经验之后，才开始抓紧赶路。为了补回进度，我们不得不在晚上开车。&lt;/p>
-&lt;p>再说回程。从武汉回深圳，一千一百公里左右。非高峰期原本 11 个小时的车程，我一个人硬生生开了 16 个小时，其中大概有 4 个小时是在服务区休息的，基本上每开一两个小时就要休整一次。最后一个小时特别熬人，困又睡不着，于是喝了瓶红牛继续撑回家了。不过多亏了特斯拉的辅助驾驶，行程轻松了许多，没有它我根本不可能一天单人开到深圳。&lt;/p>
-&lt;h2 id="导航体验">导航体验&lt;/h2>
-&lt;p>&lt;img src="https://r2.imgant.com/2026/03/24/085306-ffcf83f0.png" alt="">&lt;/p>
-&lt;p>刚开始我同时开着车机导航和手机高德导航，后来发现两个导航声音太干扰了，就把手机导航关掉了，全程用车机导航。&lt;/p>
-&lt;p>特斯拉的车机导航体验总体还不错，会自动显示每个服务区的距离。想去服务区休息的话直接点右上角，把服务区加进停站就行了，很方便。&lt;/p>
-&lt;p>不过导航也有局限性：它只能基于&amp;quot;道路是否拥堵&amp;quot;和&amp;quot;距离&amp;quot;这两个维度来规划路线，不会考虑高速是双车道还是三车道。我们回来的时候走了一段双车道高速，体验很差。路上货车多，大货车超车要占用快车道，但车速又快不起来，经常要慢下来干等，有时候一辆货车要一次性超前面四辆货车，只能在后面干等着。直到快到目的地车道变宽了，才顺畅起来。&lt;/p>
-&lt;p>还要吐槽一下，特斯拉导航有时候交互真的很烂。有一次导航的时候，屏幕上就是不显示沿途服务区提示了。高速跑长途看不到服务区提示是非常让人抓狂的事。如果你也遇到&amp;quot;怎么点都不显示服务区&amp;quot;这种问题，可以参考小红书上的这篇笔记来排查：&lt;a href="http://xhslink.com/o/soepCMzF07">特斯拉不显示服务区怎么办&lt;/a>。&lt;/p>
-&lt;h3 id="走错路的小插曲">走错路的小插曲&lt;/h3>
-&lt;p>因为之前从没去过服务区，第一次开高速时频繁走错路。&lt;/p>
-&lt;p>有一次看到路边有拐口，看到服务区名字就直接拐进去了，结果那是高速出口，真正的服务区还在前面。没办法只能绕一圈再上去，实在没经验。&lt;/p>
-&lt;p>还有一次在春节期间上了一条高速，一上去就拐错了方向。那段时间高速上车少，服务区好像也没有工作人员。我想着去最近的服务区看能不能补救，没想到那个服务区通往对面的匝道栏杆是开着的，我就直接开过去掉头了——相当于在高速上掉头。现在想想也不知道这种行为算不算违法，估计是因为春节特殊时期没人管，平时肯定会有东西拦着的。&lt;/p>
-&lt;h2 id="辅助驾驶与夜间行车">辅助驾驶与夜间行车&lt;/h2>
-&lt;p>因为赶路，我们体验了一把晚上在高速上开车。&lt;/p>
-&lt;p>特斯拉晚上开车其实挺爽的。可能我们那段路本来车就少，晚上高速上不仅车少，大货车也基本消失了。&lt;/p>
-&lt;p>唯一的缺点是高速上没有路灯，前后一片漆黑。后视镜基本上废了，手动开车不太方便。但也恰恰是这种环境，非常适合开辅助驾驶。开起来很轻松，也不需要频繁变道。&lt;/p>
-&lt;p>往年特斯拉春节都会送付费版辅助驾驶，今年一直没送。新版本有几个新功能，其中一个是高速上能根据规划路线自动辅助变道，这个确实省心。现在的免费版需要自己盯着导航，换高速或变道都得手动切换，时刻留意防止走错，高速上走错路真的很麻烦。&lt;/p>
-&lt;h2 id="充电与续航告别里程焦虑">充电与续航：告别里程焦虑&lt;/h2>
-&lt;p>先说结论：长途开去开回，基本上没有电池焦虑。&lt;/p>
-&lt;p>我们这次出行的时段不是高峰期，这是一个原因。另外就是现在高速服务区的充电桩建设得很完善了，基本每个充电站都是服务区里的超充。我们去的第一个小城市，市中心特斯拉超充就有 7 个，使用率还挺高的；我老家农村那边，也有十几个第三方超充。&lt;/p>
-&lt;p>充电策略上，我后来发现高速服务区的第三方超充其实很难充到 90% 以上。刚开始还不知道，充到 90% 就断电了，试了几次都一样。后来才搞清楚，这些第三方充电站是故意不让你充满的——充到 90% 之后耗时会变长，对他们来说不划算，所以控制在 90% 就让你把位子让出来，提高翻台率。&lt;/p>
-&lt;p>价格方面，高速上的超充各家都不一样，可以直接在支付宝搜&amp;quot;充电&amp;quot;查实时价格。规律是：高速上的比高速下的贵；特斯拉官方的又比第三方的更贵。&lt;/p>
-&lt;p>开启路线规划时，系统会自动生成一份特斯拉充电路线规划。不过在高速上其实可以直接把它删掉，结合自己的实际电量和休息节奏，在沿途服务区灵活充电就好。我后来的策略是：每次到了服务区有位子就充，充个一二十分钟就能补充不少电量，配合每两小时休息一次的节奏，非常舒服。&lt;/p>
-&lt;p>所以现在南方开电车跑长途其实挺方便的（北方没去过，不好评价）。&lt;/p>
-&lt;h3 id="不要挑战剩余电量的极限">不要挑战剩余电量的极限&lt;/h3>
-&lt;p>这里必须用亲身经历分享一个反面教材。&lt;/p>
-&lt;p>我们是正常开车出行，而不是去测评极限续航。所以高速上有机会就顺手充点电，没必要等快用完了才去充。&lt;/p>
-&lt;p>我第一天就吃了这个亏。当时只想着&amp;quot;电量足够开到目的地就行&amp;quot;，完全没考虑到落地之后的情况。实际经验告诉我，到达目的地最好让车子保留 20% 以上的电量。我第一次没经验，导致第一天晚上抵达酒店时电量只剩几个百分点了；第二天早上开去找充电桩，路上电量甚至掉到了 2%。&lt;/p>
-&lt;p>如果还没开到充电桩就彻底没电抛锚了，叫拖车处理起来会非常麻烦，没必要为了少充一次电给自己找这么大的麻烦。&lt;/p>
-&lt;h2 id="小宝宝的挑战与服务区餐饮">小宝宝的挑战与服务区餐饮&lt;/h2>
-&lt;p>&lt;img src="https://r2.imgant.com/2026/03/24/085432-14034edc.png" alt="">&lt;/p>
-&lt;p>这次长途最大的不稳定因素就是两岁的宝宝。&lt;/p>
-&lt;p>之前很担心她在车上会闹，而且她以前在国内很不喜欢坐安全座椅，每次都不愿意坐。高速上为了安全，必须强制她坐。&lt;/p>
-&lt;p>为了应对这个，我们事先换了一个新的安全座椅——IMMI GO 儿童安全座椅，闲鱼上淘了一个二手的，500 块钱，用下来很满意。以前的安全座椅她是躺着的，这款新的可以让她跟大人一样坐立起来。另外提前买了很多她没玩过的新玩具，还准备了一些零食。在零食和新玩具的安抚下，这趟她的表现还算可以，虽然也闹腾，但总体顺利。&lt;/p>
-&lt;p>大人的精力管理方面，车上备了一些提神饮料。听觉上每两个小时切换一次，听一会儿播客，再听一会儿音乐，避免疲劳犯困。&lt;/p>
-&lt;p>关于服务区吃饭，可以自己带自热火锅或泡面，服务区通常都有免费热水。服务区本身的餐饮比较看运气：有些味道还不错，有自助餐按人头收费，一个人大约 40 元，吃着挺好；也有些很难吃，有一次在高速上点了一碗粉，根本没吃完。&lt;/p>
-&lt;h2 id="写在最后关于座椅与疲劳">写在最后：关于座椅与疲劳&lt;/h2>
-&lt;p>最后说一下座位的问题。&lt;/p>
-&lt;p>以前开车时间不长，对座椅要求没那么高。这次去程时一度腰痛、肩膀痛。后来我表哥告诉我，可能是座椅没调好，他说坐姿调对了，开一天车都不会觉得累。&lt;/p>
-&lt;p>回程的时候我特意重新调整了座椅角度。果然，只要保证每两个小时休息一次，就算一个人开了一整天 16 个小时，也没有再腰痛过。&lt;/p>
-&lt;p>总结下来，第一次开电车长途回家，因为没有经验走了不少弯路。但只要规划好休息和充电，准备好零食、提神饮料和音乐，加上辅助驾驶，整体比开燃油车省心了许多。&lt;/p></description></item></channel></rss>
+&lt;/ul></description></item></channel></rss>
