@@ -1,87 +1,79 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 05 Jul 2026 10:00:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>用 100U 开实盘：给价格行为学习交一次答卷</title><link>https://blog.forecho.com/bitget-100u-price-action-real-money-test.html</link><pubDate>Sun, 05 Jul 2026 10:00:00 +0800</pubDate><guid>https://blog.forecho.com/bitget-100u-price-action-real-money-test.html</guid><description>&lt;p>&lt;img src="https://imgant.forecho.com/2026/07/06/f2082158.png" alt="用 100U 开实盘：给价格行为学习交一次答卷">&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 15 Jul 2026 10:00:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>我拿 100U 开了个实盘账户，看看价格行为到底行不行</title><link>https://blog.forecho.com/bitget-100u-price-action-real-money-test.html</link><pubDate>Wed, 15 Jul 2026 10:00:00 +0800</pubDate><guid>https://blog.forecho.com/bitget-100u-price-action-real-money-test.html</guid><description>&lt;p>&lt;img src="https://imgant.forecho.com/2026/07/06/f2082158.png" alt="我拿 100U 开了个实盘账户，看看价格行为到底行不行">&lt;/p>
 &lt;h2 id="引言">引言&lt;/h2>
-&lt;p>过去一年多，我一直在学&lt;strong>价格行为学（Price Action）&lt;/strong>，练手场主要是 Prop Firm（自营交易考试平台）。买账号买了差不多一千多美金，反复挑战、反复爆仓、反复重买，中间就考过一次，一次都没出金。&lt;/p>
-&lt;p>心里一直卡着一个问题：&lt;strong>到底是 Prop Firm 的规则问题，还是我自己有问题？&lt;/strong>&lt;/p>
-&lt;p>Prop Firm 我暂时还不打算停 —— 毕竟成本低、练技术划算。但我想再开一个实盘账户，掏 100U 到 Bitget，&lt;strong>用的还是同一套价格行为技术分析，只是换到币圈合约做短线&lt;/strong>，跑一段时间看看这一年多学的东西到底能不能落到自己的钱上。&lt;/p>
-&lt;h2 id="amp-拒了我反倒是件好事">AMP 拒了我，反倒是件好事&lt;/h2>
+&lt;p>价格行为学我学了一年多，主要在 Prop Firm（自营交易考试平台）练。账号前后买了一千多美金，反复挑战、爆仓、重买，只考过一次，也没出过金。&lt;/p>
+&lt;p>我一直想知道，问题到底出在哪里：是 Prop Firm 的规则影响了我，还是我做单本身就有问题？&lt;/p>
+&lt;p>Prop Firm 我还会继续用，成本低，练技术很划算。但我也想开一个实盘账户，拿 100U 到 Bitget 做短线。技术分析还是那一套，换成自己的钱跑一段时间，看看这一年多到底学到了什么。&lt;/p>
+&lt;h2 id="amp-开户被拒之后我转去了-bitget">AMP 开户被拒之后，我转去了 Bitget&lt;/h2>
 &lt;p>其实一开始我不是打算走这条路的。&lt;/p>
 &lt;p>前段时间我在申请美国的 AMP 期货账户，想走一条「正经」的路。表格里「职业」那一栏我随手填了「退休」 —— 当时刚好没工作，脑子一抽觉得这个词最省事，其实更准确的说法是「待业」。后来 AMP 客服邮件核实资料，我按流程补正，最后还是被判 KYC 不通过。&lt;/p>
-&lt;p>被拒的那一刻我挺轻松的，因为 AMP 那条路我本来就走得不太情愿：&lt;/p>
+&lt;p>被拒的时候我反而挺轻松。AMP 这条路我本来就走得不太情愿：&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>出入金要走跨境银行卡&lt;/strong>，SWIFT 一等就是一两个工作日，而且还要被银行收一笔手续费&lt;/li>
 &lt;li>&lt;strong>换汇一次收 30 美元手续费&lt;/strong>：一旦想做日经这种非美元品种就得换汇，来回一趟光手续费就 60 美金&lt;/li>
 &lt;/ul>
-&lt;p>被拒反而替我把这条路直接关掉了。那既然美国券商走不通，我索性去看看币圈交易所。&lt;/p>
+&lt;p>AMP 这条路关掉以后，我索性去看看币圈交易所。&lt;/p>
 &lt;h2 id="为什么最后选了-bitget">为什么最后选了 Bitget&lt;/h2>
-&lt;p>兜了一圈停在 Bitget，理由很直白：&lt;/p>
+&lt;p>最后选了 Bitget，主要是这几件事：&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>出入金简单&lt;/strong>：USDT 直接充提，7×24 到账秒级，不用碰跨境银行卡和汇兑损耗，我以前也炒过币，熟悉这个流程&lt;/li>
-&lt;li>&lt;strong>合约模式适合小本金&lt;/strong>：现货 100U 玩不出什么名堂，但合约 100U 已经足够&lt;/li>
+&lt;li>&lt;strong>合约模式适合小本金&lt;/strong>：现货 100U 很难做，合约 100U 可以练短线&lt;/li>
 &lt;li>&lt;strong>一个账户能同时接触现货、合约、美股代币&lt;/strong>：省心，不用分心管三处&lt;/li>
 &lt;li>&lt;strong>门槛低到不用心疼&lt;/strong>：100U 亏光了就一顿饭钱，认输就完了，不会再让我为「回本」上一次头&lt;/li>
 &lt;/ul>
-&lt;p>之前我写过&lt;a href="https://blog.forecho.com/buy-us-stocks-with-usdt-bitget-stock-tokens.html">大陆用户怎么用 USDT 买 Bitget 美股代币&lt;/a>，那篇偏介绍。这一篇是我真的开户、真的下单之后的起点。&lt;/p>
-&lt;h2 id="为什么这次一定要用真钱">为什么这次一定要用「真钱」&lt;/h2>
-&lt;p>在 Prop Firm 上打了一年多，我越来越意识到一件事 —— &lt;strong>Prop Firm 的钱，不是我的钱。&lt;/strong>&lt;/p>
-&lt;p>具体表现是：&lt;/p>
+&lt;p>之前我写过&lt;a href="https://blog.forecho.com/buy-us-stocks-with-usdt-bitget-stock-tokens.html">大陆用户怎么用 USDT 买 Bitget 美股代币&lt;/a>，那篇主要讲流程。这次是真开户、真下单，顺便把实盘过程记下来。&lt;/p>
+&lt;h2 id="prop-firm-容易让我上头">Prop Firm 容易让我上头&lt;/h2>
+&lt;p>在 Prop Firm 上打了一年多，我发现自己很容易上头。这个问题到底是 Prop Firm 的机制带来的，还是我自己的问题，我现在也分不清。&lt;/p>
+&lt;p>但有几种情况我反复遇到：&lt;/p>
 &lt;ul>
-&lt;li>&lt;strong>单打错了&lt;/strong>，心疼的是几百刀账号费，不是仓位本身&lt;/li>
-&lt;li>&lt;strong>一亏钱&lt;/strong>就想「反正账号才这么点，加个仓赌一把」&lt;/li>
-&lt;li>&lt;strong>规则一严&lt;/strong>就想「换一个宽松的账号再来一次」&lt;/li>
-&lt;li>&lt;strong>明明该止损&lt;/strong>，非要多扛两根 K 线，因为「反正亏了大不了再买一个」&lt;/li>
+&lt;li>亏钱以后总想马上打回来，逆势加仓，最后爆号或者爆仓&lt;/li>
+&lt;li>考试走到某个阶段，特别是快考过的时候，操作开始变形，平时能等的 setup 也等不住了&lt;/li>
+&lt;li>明明该止损，还是想多扛两根 K 线，脑子里会冒出一句「大不了爆了再买一个」&lt;/li>
 &lt;/ul>
-&lt;p>我反复问自己：&lt;strong>这些操作换到自己的实盘账户里，我还会这么做吗？&lt;/strong> 答案很清楚 —— 不会。真金白银的每一 U，跟考试账号里的每一 U，感觉根本不是一回事。&lt;/p>
-&lt;p>我并不是要否定 Prop Firm。几百刀就能有个规范化账户环境去测策略，这一层价值我不否认。但它有一个副作用几乎没法察觉：&lt;strong>你以为你在练交易，其实你在练怎么通过一场考试&lt;/strong>。这两件事看着像，其实完全不同。&lt;/p>
-&lt;p>所以 Prop Firm 我继续用，同时再加一个实盘账户来专门校准心态这条线。&lt;strong>两条并行，不是二选一。&lt;/strong>&lt;/p>
-&lt;h2 id="100u--400u数字先亮冷水先泼">100U → 400U：数字先亮，冷水先泼&lt;/h2>
-&lt;p>&lt;img src="https://r2.imgant.com/2026/07/15/f5dbd40f.png" alt="image">&lt;/p>
+&lt;p>考试账号亏掉以后，损失主要是账号费。钱不是自己的，心里就容易给自己留一条退路。这个感觉放到实盘上，肯定不一样。&lt;/p>
+&lt;p>Prop Firm 几百刀就能给我一个规范化的账户环境去测策略，这个价值很实在。但考试本身也会影响操作。尤其是快考过的时候，我会开始想着怎么把这一步走过去，交易计划就容易被抛到后面。&lt;/p>
+&lt;p>所以我会继续用 Prop Firm 练技术，同时用这个实盘账户看看自己能不能把这些坏习惯改掉。&lt;/p>
+&lt;h2 id="半个月100u-做到-400u">半个月，100U 做到 400U&lt;/h2>
+&lt;p>&lt;img src="https://r2.imgant.com/2026/07/15/f5dbd40f.png" alt="实盘账户从 100U 到 400U 的余额截图">&lt;/p>
 &lt;p>写这篇的时候，账户从 100U 起步，半个月过去，余额大概 400U。&lt;/p>
-&lt;p>数字得先亮出来，但立刻要泼自己一盆冷水：&lt;/p>
+&lt;p>这个数字我先放出来，不过现在谈成绩还早：&lt;/p>
 &lt;ul>
-&lt;li>&lt;strong>样本太小&lt;/strong>：几十笔交易撑不起任何统计意义&lt;/li>
-&lt;li>&lt;strong>周期太短&lt;/strong>：半个月说明不了任何事&lt;/li>
-&lt;li>&lt;strong>杠杆放大器&lt;/strong>：20 倍合约本来就能小本金滚出大数字，反过来一样能一夜清零&lt;/li>
-&lt;li>&lt;strong>运气占大头&lt;/strong>：这段时间的行情结构，刚好跟我熟悉的 setup 对得上&lt;/li>
+&lt;li>几十笔交易撑不起任何统计意义&lt;/li>
+&lt;li>半个月说明不了任何事&lt;/li>
+&lt;li>20 倍合约能让小本金很快滚出大数字，也能很快清零&lt;/li>
+&lt;li>这段时间的行情结构，刚好和我熟悉的 setup 对得上&lt;/li>
 &lt;/ul>
-&lt;p>&lt;strong>这不是战报，是起点。&lt;/strong> 往后曲线掉回去甚至掉到 100 以下，我也一样写出来。&lt;/p>
+&lt;p>接下来曲线掉回去，甚至掉到 100U 以下，我也会一样记下来。&lt;/p>
 &lt;p>顺便交代一下这段时间我具体在做什么：&lt;/p>
 &lt;ul>
-&lt;li>&lt;strong>品种&lt;/strong>：KORU&lt;/li>
+&lt;li>&lt;strong>品种&lt;/strong>：KORU（Bitget 上的美股代币）&lt;/li>
 &lt;li>&lt;strong>杠杆&lt;/strong>：一般 20 倍&lt;/li>
 &lt;li>&lt;strong>仓位&lt;/strong>：单笔 10% – 30%，不满仓、不 all in&lt;/li>
 &lt;/ul>
-&lt;p>写在这里只是让上下文完整，&lt;strong>不是推荐&lt;/strong>。杠杆合约风险极大，别看我几笔顺就照抄，规则和风控先自己搞清楚。想看每一笔怎么进怎么出的，去 &lt;a href="https://pahubcn.com/">PAHub&lt;/a>。&lt;/p>
-&lt;p>再多说一句：&lt;strong>做短线堪比体育竞技，其实非常难&lt;/strong>。对绝大多数普通投资者来说，中长线、买指数、定投指数才是更靠谱的路。只有真想成为交易员，才需要考虑用技术分析做短线 —— 先想清楚自己走哪条。&lt;/p>
-&lt;h2 id="博客写什么不写什么">博客写什么、不写什么&lt;/h2>
-&lt;p>先把边界钉清楚，免得后面走偏。&lt;/p>
-&lt;p>&lt;strong>会写的&lt;/strong>：&lt;/p>
+&lt;p>这些数据只是交代一下我在做什么。杠杆合约风险很大，别因为几笔顺了就照着做，规则和风控得自己先搞清楚。每一笔怎么进、怎么出，我会放到 &lt;a href="https://pahubcn.com/">PAHub&lt;/a> 里。&lt;/p>
+&lt;p>我做的是杠杆短线，难度很高。大多数人更适合中长线、买指数、定投指数。真想做交易员，再考虑花时间练技术分析。&lt;/p>
+&lt;h2 id="这个系列会写什么">这个系列会写什么&lt;/h2>
+&lt;p>我暂时只想记下面几件事：&lt;/p>
 &lt;ul>
 &lt;li>阶段性的感悟和反思&lt;/li>
 &lt;li>某个 setup 反复吃亏 / 反复奏效之后的观察&lt;/li>
 &lt;li>心态、纪律、风控这一层的教训&lt;/li>
 &lt;li>用价格行为看待市场结构的思路变化&lt;/li>
 &lt;/ul>
-&lt;p>&lt;strong>不会写的&lt;/strong>：&lt;/p>
-&lt;ul>
-&lt;li>每笔交易的细节复盘 —— 去 &lt;a href="https://pahubcn.com/">PAHub&lt;/a> 我的主页看，那是我自己开发的价格行为复盘平台，&lt;a href="https://blog.forecho.com/pahub-price-action-review-platform-guide.html">之前有一篇介绍&lt;/a>&lt;/li>
-&lt;li>荐股 / 荐币 / 推 setup 让你抄单&lt;/li>
-&lt;li>跟单 / 代管 / 收费信号&lt;/li>
-&lt;/ul>
-&lt;p>一句话：&lt;strong>博客写「想通了什么」，PAHub 写「每一笔怎么打的」。&lt;/strong>&lt;/p>
+&lt;p>每笔交易的细节复盘会放到 &lt;a href="https://pahubcn.com/">PAHub&lt;/a> 我的主页。PAHub 是我自己开发的价格行为复盘平台，&lt;a href="https://blog.forecho.com/pahub-price-action-review-platform-guide.html">之前写过一篇介绍&lt;/a>。&lt;/p>
+&lt;p>博客主要写我做单时想通了什么，PAHub 记录每一笔怎么打的。文章也不会做荐股、荐币、跟单、代管和收费信号。&lt;/p>
 &lt;h2 id="写在最后">写在最后&lt;/h2>
-&lt;p>一年多的价格行为学习，到底能不能落到实盘账户上？我现在没答案。Prop Firm 那些通过率、挂科率也答不了这个问题 —— 只有一个实盘账户跑够长时间的曲线，才能给出可信的答案。&lt;/p>
-&lt;p>这个系列不打算按频率更新，也不会为凑一篇硬写：&lt;strong>有感悟、有教训、有值得说的转折我就写&lt;/strong>；没什么可说的时候就沉住气继续做单。&lt;/p>
-&lt;p>想跟着做的话，用&lt;a href="https://partner.zysh.xyz/bg/QKMD9M">我的 Bitget 专属渠道链接&lt;/a>注册就行；开户、KYC、出入金有不懂的可以进&lt;a href="https://t.me/+Kj7IrxBZtOk3YTk1">开户交流 Telegram 群&lt;/a>问。&lt;/p>
+&lt;p>一年多的价格行为学习，到底能不能落到实盘账户上？我现在还不知道。Prop Firm 的通过率、挂科率也回答不了这个问题。实盘账户要跑得够久，才能看出这套东西到底靠不靠谱。&lt;/p>
+&lt;p>这个系列不按频率更新。有感悟、有教训、有值得说的转折我就写，平时就继续做单。&lt;/p>
+&lt;p>接下来就继续做。账户涨了跌了，我都会记下来。等曲线走久一点，再回头看这 100U 验证的到底是价格行为，还是一段刚好顺手的行情。&lt;/p>
+&lt;p>开户、KYC、出入金，或者做单有问题，可以进&lt;a href="https://t.me/+Kj7IrxBZtOk3YTk1">交流 Telegram 群&lt;/a>问。&lt;/p>
 &lt;blockquote>
-&lt;p>文中链接是我的渠道链接。交易风险巨大，这篇只是我自己的操作笔记，不构成投资建议。&lt;/p>
+&lt;p>交易风险很大，这篇只是我自己的操作笔记，不构成投资建议。&lt;/p>
 &lt;/blockquote>
 &lt;h2 id="参考链接">参考链接&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://pahubcn.com/">PAHub 价格行为复盘平台&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://blog.forecho.com/pahub-price-action-review-platform-guide.html">PAHub：为价格行为交易者打造的在线复盘与学习社区&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://blog.forecho.com/buy-us-stocks-with-usdt-bitget-stock-tokens.html">富途、老虎之后，大陆用户还能怎么买美股：Bitget 美股代币&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://partner.zysh.xyz/bg/QKMD9M">我的 Bitget 专属注册渠道&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://t.me/+Kj7IrxBZtOk3YTk1">开户交流 Telegram 群&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>用交易平台风控设置改掉逆市加仓这个坏习惯</title><link>https://blog.forecho.com/platform-risk-settings-stop-revenge-trading.html</link><pubDate>Thu, 02 Jul 2026 18:29:43 +0800</pubDate><guid>https://blog.forecho.com/platform-risk-settings-stop-revenge-trading.html</guid><description>&lt;p>&lt;img src="https://imgant.forecho.com/2026/07/02/9b263244.png" alt="戒掉逆市加仓：用平台风控挡住上头交易">&lt;/p>
 &lt;h2 id="引言">引言&lt;/h2>
 &lt;p>最近打 PA（Price Action，价格行为交易）的自营考试号，本来差 300 刀就通过了，结果又爆仓了。&lt;/p>
