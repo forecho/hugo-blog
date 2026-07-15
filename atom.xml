@@ -1,4 +1,53 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 15 Jul 2026 10:00:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>我拿 100U 开了个实盘账户，看看价格行为到底行不行</title><link>https://blog.forecho.com/bitget-100u-price-action-real-money-test.html</link><pubDate>Wed, 15 Jul 2026 10:00:00 +0800</pubDate><guid>https://blog.forecho.com/bitget-100u-price-action-real-money-test.html</guid><description>&lt;p>&lt;img src="https://imgant.forecho.com/2026/07/06/f2082158.png" alt="我拿 100U 开了个实盘账户，看看价格行为到底行不行">&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 15 Jul 2026 11:00:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>从 400U 到 800U：小账户做短线时，我这周学到的几件事</title><link>https://blog.forecho.com/from-400u-to-800u-small-account-scalping-lessons.html</link><pubDate>Wed, 15 Jul 2026 11:00:00 +0800</pubDate><guid>https://blog.forecho.com/from-400u-to-800u-small-account-scalping-lessons.html</guid><description>&lt;p>&lt;img src="https://imgant.forecho.com/2026/07/15/f704c0cc.png" alt="从 400U 到 800U：小账户短线交易复盘封面">&lt;/p>
+&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>上一篇写完的时候，我的实盘账户从 100U 做到了 400U。当时我就说过，半个月的数字说明不了什么，还是得继续做。&lt;/p>
+&lt;p>又交易了一个多星期，现在账户到了 800U。这周大部分利润来自 KORU 的短线，通常一笔赚个 50U 左右。这个结果让我有点新的想法：小账户想慢慢做大，现阶段更适合做流动性好的品种和时间段，拿短线利润。&lt;/p>
+&lt;h2 id="没有按照系统做单账户一度亏了-300-多-u">没有按照系统做单，账户一度亏了 300 多 U&lt;/h2>
+&lt;p>刚开实盘的时候，我没有完全按价格行为学的方式去做，还是带着以前的习惯：跌了就想抄底。&lt;/p>
+&lt;p>这其实就是接飞刀。价格明明还在往下走，我却总觉得已经跌很多了，该反弹了吧。结果账户一度亏了 300 多 U。后面刚好反弹回来了，不然这个账户真的可能会爆仓。&lt;/p>
+&lt;p>现在回头看，这种逆势抄底是我很忌讳的操作。趋势没走完之前，别急着去猜底。小账户本来就带杠杆，和趋势对着做，很容易一两笔就把账户做没了。&lt;/p>
+&lt;h2 id="我现在尽量只做-5-分钟图">我现在尽量只做 5 分钟图&lt;/h2>
+&lt;p>我现在尽量只看 5 分钟级别的 K 线，开单以后把止盈和止损一起挂好。&lt;/p>
+&lt;p>小账户做交易，很容易想把一笔单拿得很远。做着做着就变成了猜大趋势，回撤一点又拿不住。5 分钟图的机会更明确，进场以后有利润就走，亏了也按止损走，对我现在的账户更合适。&lt;/p>
+&lt;p>小账户我觉得还是 Scalping 比较适合。&lt;/p>
+&lt;h2 id="不同的时间选不同的标的">不同的时间选不同的标的&lt;/h2>
+&lt;p>同一个 setup，放在流动性不同的时间段，做起来的感觉差很多。我们要选流动性最好的时间段去做。&lt;/p>
+&lt;p>如果做美股标的，我会选美股正常开盘的时间。开盘后前半个小时波动很乱，我一般会等一等，等市场先走出一点方向再开单。&lt;/p>
+&lt;p>北京时间白天对应美股夜盘和盘前的一部分时间。这个时候大部分美股标的成交不活跃，K 线看着能走，真开进去以后会发现价格很难受，止损和止盈也容易被打得很莫名其妙。&lt;/p>
+&lt;p>白天真想做交易，我最近会看 KORU。KORU 是三倍做多韩国指数的美股标的，韩国白天正在开盘，流动性会比很多美股标的好一些。这周账户的大部分利润，都是靠它的短线单一点点做出来的。&lt;/p>
+&lt;h2 id="ibm-这一单没挂止损直接爆仓">IBM 这一单，没挂止损直接爆仓&lt;/h2>
+&lt;p>&lt;img src="https://r2.imgant.com/2026/07/15/02b1aad9.jpeg" alt="image">&lt;/p>
+&lt;p>这周我犯了一个很低级的错误：做 IBM 的时候，挂单以后忘了设置止损。&lt;/p>
+&lt;p>这单是在另外一个合约账户里做的，里面只有 200U。昨天 IBM 提前公布了一些财报信息，市场预期很差，股价直接跌了 20% 多。我用的是 20 倍杠杆，那个账户直接爆仓。&lt;/p>
+&lt;p>我本来没想赌财报，这件事更像一次黑天鹅。但黑天鹅本来就不会提前通知你。止损的作用就是把这种情况的损失先锁住。还好这个账户只有 200U，亏损不算多；要是账户再大一点，这个错误就很难受了。&lt;/p>
+&lt;p>现在只要开单，我会先确认止盈止损有没有挂上，再去做别的事。止损单别只放在脑子里。&lt;/p>
+&lt;h2 id="睡前一单也让我看到了流动性的问题">睡前一单，也让我看到了流动性的问题&lt;/h2>
+&lt;p>&lt;img src="https://r2.imgant.com/2026/07/15/06a9c246.png" alt="image">&lt;/p>
+&lt;p>还有一单也挺烦的。昨天晚上睡觉前我开了单，止盈和止损都挂好了，然后去睡觉。&lt;/p>
+&lt;p>早上醒来发现单子被止损了。最气的是，它在美股收盘以后跌了一下，刚好把我的止损打掉，后面价格又上去了。&lt;/p>
+&lt;p>美股盘前盘后的流动性经常不够。币圈里的股票合约可以 24 小时交易，价格还是跟着对应的美股标的走。美股已经收盘，合约还在交易，流动性差的时候就容易出现这种情况。&lt;/p>
+&lt;p>以前做 ES 合约，我有时候会把止损放得很精准，一个 tick 都不想多给，刚好打到 MM 目标也很正常。股票合约很难这么做，特别是在流动性不足的时间段。止损可以留一点冗余空间，仓位也得跟着能承受这个空间。&lt;/p>
+&lt;h2 id="目前我对小账户的想法">目前我对小账户的想法&lt;/h2>
+&lt;p>对我这种小账户来说，暂时会继续按这个思路做：&lt;/p>
+&lt;ul>
+&lt;li>尽量只做 5 分钟图，做完一笔再看下一笔&lt;/li>
+&lt;li>优先选流动性好的时间和品种&lt;/li>
+&lt;li>开单以后马上挂好止盈和止损&lt;/li>
+&lt;li>流动性不足的时候少做，睡前单更谨慎&lt;/li>
+&lt;li>先拿小利润，别一上来就想靠一笔单把账户翻很多倍&lt;/li>
+&lt;/ul>
+&lt;h2 id="最后">最后&lt;/h2>
+&lt;p>&lt;img src="https://r2.imgant.com/2026/07/15/dfbcffdf.png" alt="image">&lt;/p>
+&lt;p>账户从 400U 到 800U，还远远谈不上稳定。这周的行情刚好适合我做短线，KORU 也给了不少机会，后面会不会还这么顺，我现在不知道。&lt;/p>
+&lt;p>接下来还是继续做，账户涨了跌了都记下来。等曲线再长一点，才知道这套节奏到底能不能做下去。&lt;/p>
+&lt;blockquote>
+&lt;p>交易风险很大，这篇只是我自己的操作笔记，不构成投资建议。&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="参考链接">参考链接&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://blog.forecho.com/bitget-100u-price-action-real-money-test.html">我拿 100U 开了个实盘账户，看看价格行为到底行不行&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://pahubcn.com/">PAHub 价格行为复盘平台&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>我拿 100U 开了个实盘账户，看看价格行为到底行不行</title><link>https://blog.forecho.com/bitget-100u-price-action-real-money-test.html</link><pubDate>Wed, 15 Jul 2026 10:00:00 +0800</pubDate><guid>https://blog.forecho.com/bitget-100u-price-action-real-money-test.html</guid><description>&lt;p>&lt;img src="https://imgant.forecho.com/2026/07/06/f2082158.png" alt="我拿 100U 开了个实盘账户，看看价格行为到底行不行">&lt;/p>
 &lt;h2 id="引言">引言&lt;/h2>
 &lt;p>价格行为学我学了一年多，主要在 Prop Firm（自营交易考试平台）练。账号前后买了一千多美金，反复挑战、爆仓、重买，只考过一次，也没出过金。&lt;/p>
 &lt;p>我一直想知道，问题到底出在哪里：是 Prop Firm 的规则影响了我，还是我做单本身就有问题？&lt;/p>
@@ -3222,256 +3271,4 @@ imgant upload ./my-image.png --format markdown
 &lt;ul>
 &lt;li>素材来源：&lt;a href="https://www.youtube.com/watch?v=rFBSm3OwH-4">Private Dinner With Top Traders Making $50M/Year (Raw &amp;amp; Unfiltered)&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.smbcap.com/">SMB Capital 官网&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>价格行为交易：交易心理的 5 个关键问题</title><link>https://blog.forecho.com/5-thoughts-on-trading-psychology.html</link><pubDate>Mon, 30 Mar 2026 10:00:00 +0800</pubDate><guid>https://blog.forecho.com/5-thoughts-on-trading-psychology.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>做交易久了我越来越认同一件事：大多数人亏钱，不是因为看不懂图，而是因为在关键时刻总做错同一类决定。&lt;/p>
-&lt;p>比如，看到一点反转迹象就急着抄底；亏损单拿着不走；刚有一点利润就赶紧跑；一旦连续几天做对了，又忍不住放大仓位。表面看是执行问题，底层其实都是心理问题。&lt;/p>
-&lt;p>Al Brooks 在一次关于交易心理的分享里，讲了 5 个非常实用的点。我把它们整理成一篇更适合落地执行的版本。重点不在“听懂”，而在于你能不能把它变成自己的交易规则。&lt;/p>
-&lt;h2 id="核心结论">核心结论&lt;/h2>
-&lt;p>先说结论，我认为这 5 点里最重要的是下面几条：&lt;/p>
-&lt;ol>
-&lt;li>&lt;strong>交易首先是数学问题，不是情绪问题。&lt;/strong> 你的交易必须有正期望。&lt;/li>
-&lt;li>&lt;strong>想稳定盈利，先把糟糕的交易删掉。&lt;/strong> 很多人不是没有好交易，而是坏交易太多。&lt;/li>
-&lt;li>&lt;strong>亏损单不能靠希望处理。&lt;/strong> 入场理由失效，就该离场。&lt;/li>
-&lt;li>&lt;strong>盈利单不能因为情绪而提前结束。&lt;/strong> 如果做的是波段，就按波段的逻辑管理。&lt;/li>
-&lt;li>&lt;strong>仓位必须小到你“不在乎”。&lt;/strong> 一旦开始在乎盈亏波动，动作就会变形。&lt;/li>
-&lt;/ol>
-&lt;p>这 5 点看起来都很常识，但真正难的地方在于：它们彼此是连着的。&lt;/p>
-&lt;p>做了糟糕的交易，容易被套；被套之后不肯止损；好不容易出来一点利润，又急着止盈；然后为了把前面的亏损赚回来，开始加大仓位。很多人的交易，就是在这个循环里不断重复。&lt;/p>
-&lt;h2 id="第一点你需要的是数学优势不是感觉不错">第一点：你需要的是数学优势，不是“感觉不错”&lt;/h2>
-&lt;p>Al Brooks 一开始就强调，交易必须有优势。这里的优势，不是神奇指标，也不是某个只涨不跌的形态，而是&lt;strong>数学上的优势&lt;/strong>。&lt;/p>
-&lt;p>用一个简单口径来表达就是：&lt;/p>
-&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
-&lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
-&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-text" data-lang="text">交易期望 = 胜率 × 平均盈利 - 亏损概率 × 平均亏损
-&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>只要这个值长期为正，系统就能赚钱。反过来，如果这个值为负，再努力执行也只是把亏损执行得更稳定。&lt;/p>
-&lt;p>这里有个关键点：&lt;strong>胜率不是唯一变量。&lt;/strong>&lt;/p>
-&lt;p>很多新手特别迷信高胜率，觉得 70% 胜率才安全。但 Brooks 的意思恰恰相反：对大多数普通交易者来说，最容易建立优势的方法，不是去追求极高胜率，而是去争取更合理的盈亏比。&lt;/p>
-&lt;p>他的建议很明确：&lt;/p>
-&lt;ul>
-&lt;li>只做“合理的交易”&lt;/li>
-&lt;li>入场后争取至少 &lt;code>2R&lt;/code> 的收益&lt;/li>
-&lt;li>即使胜率只有 40%，长期也可能是正期望&lt;/li>
-&lt;/ul>
-&lt;p>这里的 &lt;code>R&lt;/code> 可以统一定义为单笔初始风险。比如：&lt;/p>
-&lt;p>&lt;code>1R = 入场价到止损价之间的风险金额&lt;/code>&lt;/p>
-&lt;p>如果你每笔交易的目标至少是 &lt;code>2R&lt;/code>，那么一个很粗的口径是：&lt;/p>
-&lt;ul>
-&lt;li>40% 的交易拿到 &lt;code>2R&lt;/code>&lt;/li>
-&lt;li>60% 的交易小亏、小赚或者打平&lt;/li>
-&lt;/ul>
-&lt;p>只要执行足够稳定，账户就有机会往上走。&lt;/p>
-&lt;blockquote>
-&lt;p>我的理解是：普通交易者最现实的优势，不是“猜得特别准”，而是“亏得受控，赚的时候拿得够远”。&lt;/p>
-&lt;/blockquote>
-&lt;h3 id="为什么高胜率和高盈亏比通常不能同时拥有">为什么高胜率和高盈亏比通常不能同时拥有&lt;/h3>
-&lt;p>Brooks 在分享里反复讲一个交易里经常被忽视的事实：&lt;strong>你不可能同时拿到高胜率和很好的盈亏比。&lt;/strong>&lt;/p>
-&lt;p>原因不复杂。市场是双边交易，尤其在期货和股票里，你的对手经常是机构。你想拿高胜率，通常就要在“更确认”的位置入场；但越确认，止损往往越远，潜在回报空间反而越小，盈亏比就会变差。&lt;/p>
-&lt;p>反过来，如果你想要一个很好的盈亏比，往往就得更早进场，而更早进场意味着胜率通常没那么高。&lt;/p>
-&lt;p>所以交易不是找“完美 setup”，而是在下面三个变量里做平衡：&lt;/p>
-&lt;ul>
-&lt;li>概率&lt;/li>
-&lt;li>风险&lt;/li>
-&lt;li>回报&lt;/li>
-&lt;/ul>
-&lt;p>只盯着其中一个变量，基本都会出问题。&lt;/p>
-&lt;h2 id="第二点先别急着提高胜率先把糟糕的交易删掉">第二点：先别急着提高胜率，先把糟糕的交易删掉&lt;/h2>
-&lt;p>这是整场分享里我最认同的一点。&lt;/p>
-&lt;p>很多交易者复盘时会发现一个事实：自己其实做过不少好交易，但账户还是亏的。问题往往不是“完全不会做”，而是&lt;strong>糟糕的交易太多&lt;/strong>。&lt;/p>
-&lt;p>Brooks 的原话大意是：如果你已经交易了几个月，甚至一两年，还在亏钱，回头看记录，你很可能会发现自己做了不少不错的交易；真正拖垮账户的，是那些完全没必要做的交易。&lt;/p>
-&lt;p>这句话很重要，因为它把问题从“我是不是没有天赋”拉回到了“我有没有过滤垃圾交易”。&lt;/p>
-&lt;h3 id="什么叫糟糕的交易">什么叫糟糕的交易&lt;/h3>
-&lt;p>一个很典型的例子，是在紧密熊市通道里连续抄底。&lt;/p>
-&lt;p>新手会怎么想？&lt;/p>
-&lt;ul>
-&lt;li>这根阳线不错&lt;/li>
-&lt;li>止损可以放得很近&lt;/li>
-&lt;li>风险不大&lt;/li>
-&lt;li>万一这里就是大反转呢&lt;/li>
-&lt;/ul>
-&lt;p>听起来很有道理，但问题在于，这类交易通常只看到了“风险小”，没有同时看概率和回报。&lt;/p>
-&lt;p>在紧密熊市通道里，第一次向上反转往往走不远。也就是说：&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>风险确实可能不大&lt;/strong>&lt;/li>
-&lt;li>&lt;strong>但胜率很低&lt;/strong>&lt;/li>
-&lt;li>&lt;strong>而且回报空间也不大&lt;/strong>&lt;/li>
-&lt;/ul>
-&lt;p>这就是典型的负期望交易。&lt;/p>
-&lt;h3 id="案例为什么小止损不等于好交易">案例：为什么“小止损”不等于“好交易”&lt;/h3>
-&lt;p>把这个场景拆开看会更清楚。&lt;/p>
-&lt;h4 id="错误做法">错误做法&lt;/h4>
-&lt;p>在强势下跌过程中，只因为出现一根小阳线就尝试做多：&lt;/p>
-&lt;ul>
-&lt;li>止损很近&lt;/li>
-&lt;li>看上去亏不了多少&lt;/li>
-&lt;li>但你实际上是在赌熊市趋势立刻结束&lt;/li>
-&lt;/ul>
-&lt;p>问题在于，这个赌注通常既没有足够高的概率，也没有足够大的潜在回报。&lt;/p>
-&lt;h4 id="更合理的做法">更合理的做法&lt;/h4>
-&lt;p>经验更老的交易者通常会做两件事之一：&lt;/p>
-&lt;ol>
-&lt;li>在反弹里等更好的做空位置，顺着原趋势交易。&lt;/li>
-&lt;li>等真正的反转证据出现，比如：
-&lt;ul>
-&lt;li>向上突破熊市趋势线&lt;/li>
-&lt;li>第二次向上反转&lt;/li>
-&lt;li>更低的低点双底&lt;/li>
-&lt;li>楔形底后的强势反转&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ol>
-&lt;p>这时候再做多，虽然未必胜率极高，但至少有机会拿到 &lt;code>2R&lt;/code>、&lt;code>3R&lt;/code> 甚至更高的回报，交易才有意义。&lt;/p>
-&lt;blockquote>
-&lt;p>我的做法是：如果一笔交易只能告诉我“止损不远”，却说不清“为什么这里值得赌一个 2R 的波段”，我通常直接放弃。&lt;/p>
-&lt;/blockquote>
-&lt;h2 id="第三点亏损单拿太久是最伤账户的习惯">第三点：亏损单拿太久，是最伤账户的习惯&lt;/h2>
-&lt;p>新手最常见的问题之一，就是把亏损单拿成大亏单。&lt;/p>
-&lt;p>表面原因是“不想止损”，深一层的原因是：人会天然抗拒承认自己错了。Brooks 在分享里提到一个概念，叫&lt;strong>计划延续性偏误&lt;/strong>。意思很简单：当你已经有了一个计划，你会下意识忽略那些证明这个计划失效的证据。&lt;/p>
-&lt;p>这在交易里特别致命。&lt;/p>
-&lt;p>你本来是因为牛市延续而做多，结果市场：&lt;/p>
-&lt;ul>
-&lt;li>跌破牛市趋势线&lt;/li>
-&lt;li>出现大阴线&lt;/li>
-&lt;li>后面还跟出连续走弱的 K 线&lt;/li>
-&lt;/ul>
-&lt;p>这时候，客观上已经说明原先的多头逻辑被破坏了。但很多人会怎么做？&lt;/p>
-&lt;ul>
-&lt;li>撤掉止损&lt;/li>
-&lt;li>把止损再往下放&lt;/li>
-&lt;li>告诉自己“专业交易者也会拿宽止损”&lt;/li>
-&lt;li>希望市场反弹回来给自己解套&lt;/li>
-&lt;/ul>
-&lt;p>Brooks 对这件事说得很直接：&lt;strong>这不是专业，这是错误。&lt;/strong>&lt;/p>
-&lt;p>专业交易者确实可能加仓、可能用宽止损，但前提是那是一个经过设计的策略，不是因为害怕止损才死扛。&lt;/p>
-&lt;h3 id="入场理由消失就该离场">入场理由消失，就该离场&lt;/h3>
-&lt;p>这里最重要的不是“硬止损一定要被打掉”，而是你要学会识别：&lt;strong>为什么这笔交易已经不成立了。&lt;/strong>&lt;/p>
-&lt;p>比如做多之后，如果出现下面几种情况，我会把它当作离场信号：&lt;/p>
-&lt;ul>
-&lt;li>关键趋势线被强力跌破&lt;/li>
-&lt;li>出现明显的空头意外大阴线&lt;/li>
-&lt;li>后续 K 线继续验证空头接管&lt;/li>
-&lt;li>原本预期的趋势延续，变成了反向结构&lt;/li>
-&lt;/ul>
-&lt;p>这时候，继续拿着，不是纪律，是幻想。&lt;/p>
-&lt;h3 id="一个实用口径">一个实用口径&lt;/h3>
-&lt;p>如果你做的是价格行为交易，我觉得可以用这个很朴素的规则：&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>硬止损&lt;/strong>：防止灾难性亏损&lt;/li>
-&lt;li>&lt;strong>价格行为止损&lt;/strong>：一旦盘面已经证明你错了，就在硬止损前主动离场&lt;/li>
-&lt;/ul>
-&lt;p>这两者不是冲突关系。硬止损是底线，主动离场是进阶执行。&lt;/p>
-&lt;h2 id="第四点过早止盈本质上也是情绪化">第四点：过早止盈，本质上也是情绪化&lt;/h2>
-&lt;p>很多人以为交易心理问题只体现在“扛亏损”，其实&lt;strong>过早止盈&lt;/strong>同样是很重的心理问题。&lt;/p>
-&lt;p>尤其是在连续亏了几笔之后。&lt;/p>
-&lt;p>这时候，只要一笔单子稍微浮盈一点，脑子里马上会冒出一句话：终于有一笔赚钱了，先落袋为安再说。&lt;/p>
-&lt;p>这是人之常情，但对交易系统来说，经常是毁灭性的。&lt;/p>
-&lt;p>因为你的系统本来就需要靠少数几笔不错的交易，去覆盖一堆普通交易和失败交易。如果每次刚有一点利润就跑，最后会出现一种很典型的结构：&lt;/p>
-&lt;ul>
-&lt;li>亏损单拿得不够果断&lt;/li>
-&lt;li>盈利单又拿不远&lt;/li>
-&lt;li>结果盈亏比不断恶化&lt;/li>
-&lt;/ul>
-&lt;p>久而久之，即使方向感不差，账户也很难增长。&lt;/p>
-&lt;h3 id="波段交易就按波段去管理">波段交易，就按波段去管理&lt;/h3>
-&lt;p>Brooks 的意思非常明确：如果你做的是一笔合理的波段交易，就不要用短线的情绪去管理它。&lt;/p>
-&lt;p>比如一笔主要趋势反转交易：&lt;/p>
-&lt;ul>
-&lt;li>你已经有了明确的入场依据&lt;/li>
-&lt;li>初始风险也定义清楚了&lt;/li>
-&lt;li>目标本来就是 &lt;code>2R&lt;/code> 以上&lt;/li>
-&lt;/ul>
-&lt;p>这时候市场在前面几根 K 线里出现一点回撤，甚至让你感觉“旧趋势是不是又回来了”，其实很正常。很多好的波段，前 10 根 K 线里都会故意制造这种不舒服。&lt;/p>
-&lt;p>如果每次刚有点波动你就提前跑，最后就拿不到系统真正依赖的那部分利润。&lt;/p>
-&lt;h3 id="一个很有意思的做法沃尔玛策略">一个很有意思的做法：沃尔玛策略&lt;/h3>
-&lt;p>Brooks 在分享里给了一个很实用的办法，我觉得非常适合容易手痒的人。&lt;/p>
-&lt;p>他的做法大概是：&lt;/p>
-&lt;ul>
-&lt;li>入场&lt;/li>
-&lt;li>同时设好止损&lt;/li>
-&lt;li>再挂一个 &lt;code>2R&lt;/code> 或 &lt;code>3R&lt;/code> 的止盈单&lt;/li>
-&lt;li>然后离开电脑 30 分钟到 1 小时&lt;/li>
-&lt;/ul>
-&lt;p>他说你可以去散步、去健身房、去超市，所以他把这个叫做“沃尔玛策略”。&lt;/p>
-&lt;p>这个方法的核心不是技术，而是&lt;strong>隔离情绪干扰&lt;/strong>。&lt;/p>
-&lt;p>如果你总是在本该做波段的时候，盯着每一根 K 线把自己吓出来，那就别给自己这个机会。先把规则写进订单里，再让自己离开屏幕。&lt;/p>
-&lt;blockquote>
-&lt;p>对于总是过早止盈的人，我觉得最有效的改法，不是“提醒自己要拿住”，而是直接减少主观干预。&lt;/p>
-&lt;/blockquote>
-&lt;h2 id="第五点仓位一大脑子就开始坏掉">第五点：仓位一大，脑子就开始坏掉&lt;/h2>
-&lt;p>这是很多人都经历过的一关。&lt;/p>
-&lt;p>用小仓位时，明明做得还不错；一旦把仓位放大，马上开始变形：&lt;/p>
-&lt;ul>
-&lt;li>看利润跳动会紧张&lt;/li>
-&lt;li>止损变得更难按&lt;/li>
-&lt;li>止盈变得更急&lt;/li>
-&lt;li>计划外操作开始变多&lt;/li>
-&lt;/ul>
-&lt;p>Brooks 对这个现象的解释很直白：当你开始交易更大的仓位时，你关注的已经不是当前这笔交易的概率、风险和回报，而是钱本身。&lt;/p>
-&lt;p>一旦你开始盯着钱，动作就会退化成新手状态。&lt;/p>
-&lt;h3 id="用我不在乎的仓位交易">用“我不在乎”的仓位交易&lt;/h3>
-&lt;p>我觉得这是整场里最值得直接写进交易规则的一句话：&lt;/p>
-&lt;p>&lt;strong>你应该只用那种“我不在乎”的仓位去交易。&lt;/strong>&lt;/p>
-&lt;p>意思不是随便做，而是你的仓位必须小到：&lt;/p>
-&lt;ul>
-&lt;li>止损打掉，你不会情绪波动太大&lt;/li>
-&lt;li>浮盈回撤，你不会急着锁利润&lt;/li>
-&lt;li>连亏几笔，你也不会怀疑整套系统&lt;/li>
-&lt;/ul>
-&lt;p>如果现在的仓位做不到这一点，就说明仓位还是太大。&lt;/p>
-&lt;p>Brooks 还举了微型合约的例子。假设你现在做 1 手标准合约会紧张，那就退回去做微型合约。虽然短期看起来赚得慢，但你换来的是一件更重要的东西：&lt;strong>练习正确动作的机会。&lt;/strong>&lt;/p>
-&lt;p>这个阶段，目标不是暴利，而是：&lt;/p>
-&lt;ul>
-&lt;li>先稳定&lt;/li>
-&lt;li>再放大&lt;/li>
-&lt;li>放大后还能维持原来的执行质量&lt;/li>
-&lt;/ul>
-&lt;h3 id="放大仓位的边界条件">放大仓位的边界条件&lt;/h3>
-&lt;p>这里我更认同一种很保守的做法：&lt;/p>
-&lt;ul>
-&lt;li>连续几个月执行稳定&lt;/li>
-&lt;li>已经不再过度关注账户波动&lt;/li>
-&lt;li>当前仓位下能持续按规则止损、止盈&lt;/li>
-&lt;li>放大后如果明显影响执行，立刻退回原规模&lt;/li>
-&lt;/ul>
-&lt;p>不是所有阶段都适合放大仓位。&lt;/p>
-&lt;p>先活下来，先稳定赚钱，然后再考虑增长速度。这比一开始就盯着“我要做到多少手”现实得多。&lt;/p>
-&lt;h2 id="一页清单下单前我会怎么检查">一页清单：下单前我会怎么检查&lt;/h2>
-&lt;p>如果把上面 5 点压缩成一个交易前检查表，我会用下面这版：&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>依据&lt;/strong>：这笔交易有清晰的价格行为依据吗，还是只是我主观觉得该反转了？&lt;/li>
-&lt;li>&lt;strong>概率&lt;/strong>：当前结构下，这笔交易真的合理吗？还是只因为止损很近，我就强行入场？&lt;/li>
-&lt;li>&lt;strong>回报&lt;/strong>：目标位是否至少能支持 &lt;code>2R&lt;/code>？如果做不到，通常不值得做。&lt;/li>
-&lt;li>&lt;strong>风险&lt;/strong>：这笔交易打掉止损后，亏损金额是不是我完全能接受的？&lt;/li>
-&lt;li>&lt;strong>放弃&lt;/strong>：如果入场理由失效，我是否愿意立刻离场，而不是移动止损继续幻想？&lt;/li>
-&lt;li>&lt;strong>执行&lt;/strong>：这笔交易是该按短线管理，还是该按波段管理？口径有没有混乱？&lt;/li>
-&lt;li>&lt;strong>干预&lt;/strong>：如果我总是手动提前止盈，是否应该直接挂好止损和止盈后离开屏幕？&lt;/li>
-&lt;li>&lt;strong>仓位&lt;/strong>：现在的手数，是否仍然属于“我不在乎”的规模？&lt;/li>
-&lt;/ul>
-&lt;h2 id="常见错误与改法">常见错误与改法&lt;/h2>
-&lt;h3 id="错误只看到风险小没看到概率差回报也差">错误：只看到风险小，没看到概率差、回报也差&lt;/h3>
-&lt;p>&lt;strong>改法&lt;/strong>：每次入场前强制同时看三个变量：概率、风险、回报。只看“止损不远”不够，必须再问一句：这笔交易凭什么值得我去争取 &lt;code>2R&lt;/code>？&lt;/p>
-&lt;h3 id="错误把亏损单拿成大亏单">错误：把亏损单拿成大亏单&lt;/h3>
-&lt;p>&lt;strong>改法&lt;/strong>：把“入场理由失效即离场”写成明确规则。不要靠感觉判断要不要扛。趋势线被破坏、大阴线反向突破、后续 K 线继续验证，都可以成为主动离场信号。&lt;/p>
-&lt;h3 id="错误连续亏损后只想赶紧拿到一笔盈利">错误：连续亏损后，只想赶紧拿到一笔盈利&lt;/h3>
-&lt;p>&lt;strong>改法&lt;/strong>：把单笔交易从“我要赢回来”切回“这是不是一笔合理交易”。上一笔、上三笔、上十笔都不该影响当前这笔交易的管理。&lt;/p>
-&lt;h3 id="错误本该做波段却按短线心态处理">错误：本该做波段，却按短线心态处理&lt;/h3>
-&lt;p>&lt;strong>改法&lt;/strong>：入场前先定义持仓类型。短线就按短线出，波段就给波段足够空间。不要入场时想拿 &lt;code>2R&lt;/code>，持仓时却因为两根逆向 K 线就跑掉。&lt;/p>
-&lt;h3 id="错误仓位一大就变形还以为是技术问题">错误：仓位一大就变形，还以为是技术问题&lt;/h3>
-&lt;p>&lt;strong>改法&lt;/strong>：先缩小仓位，直到你不再盯着盈亏数字。只有在小仓位下能稳定执行，放大仓位才有意义。&lt;/p>
-&lt;h2 id="总结">总结&lt;/h2>
-&lt;ol>
-&lt;li>&lt;strong>交易心理的核心，不是“克服情绪”，而是先建立正期望。&lt;/strong> 没有数学优势，心态再好也没用。&lt;/li>
-&lt;li>&lt;strong>稳定盈利的第一步，不一定是做更多好交易，而是少做糟糕的交易。&lt;/strong>&lt;/li>
-&lt;li>&lt;strong>亏损单要按证据处理，盈利单要按计划处理。&lt;/strong> 一个靠客观离场，一个靠规则拿远。&lt;/li>
-&lt;li>&lt;strong>如果总是拿不住盈利，用更少的主观干预替代“提醒自己要有纪律”。&lt;/strong>&lt;/li>
-&lt;li>&lt;strong>仓位必须匹配你的心理承受能力。&lt;/strong> 做到“不在乎”，执行才会像你复盘时那样自然。&lt;/li>
-&lt;/ol>
-&lt;h2 id="参考链接">参考链接&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://www.brookstradingcourse.com/">Al Brooks Trading Course&lt;/a>&lt;/li>
-&lt;li>素材来源：Al Brooks 在 futures.io 的分享《5 Thoughts on Psychology Part 1》&lt;/li>
 &lt;/ul></description></item></channel></rss>

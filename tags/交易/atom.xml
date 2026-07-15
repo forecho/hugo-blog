@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>交易 on forecho's Blog</title><link>https://blog.forecho.com/tags/%E4%BA%A4%E6%98%93.html</link><description>Recent content in 交易 on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 15 Jul 2026 10:00:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/tags/%E4%BA%A4%E6%98%93/atom.xml" rel="self" type="application/rss+xml"/><item><title>我拿 100U 开了个实盘账户，看看价格行为到底行不行</title><link>https://blog.forecho.com/bitget-100u-price-action-real-money-test.html</link><pubDate>Wed, 15 Jul 2026 10:00:00 +0800</pubDate><guid>https://blog.forecho.com/bitget-100u-price-action-real-money-test.html</guid><description>&lt;p>&lt;img src="https://imgant.forecho.com/2026/07/06/f2082158.png" alt="我拿 100U 开了个实盘账户，看看价格行为到底行不行">&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>交易 on forecho's Blog</title><link>https://blog.forecho.com/tags/%E4%BA%A4%E6%98%93.html</link><description>Recent content in 交易 on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 15 Jul 2026 11:00:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/tags/%E4%BA%A4%E6%98%93/atom.xml" rel="self" type="application/rss+xml"/><item><title>从 400U 到 800U：小账户做短线时，我这周学到的几件事</title><link>https://blog.forecho.com/from-400u-to-800u-small-account-scalping-lessons.html</link><pubDate>Wed, 15 Jul 2026 11:00:00 +0800</pubDate><guid>https://blog.forecho.com/from-400u-to-800u-small-account-scalping-lessons.html</guid><description>&lt;p>&lt;img src="https://imgant.forecho.com/2026/07/15/f704c0cc.png" alt="从 400U 到 800U：小账户短线交易复盘封面">&lt;/p>
+&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>上一篇写完的时候，我的实盘账户从 100U 做到了 400U。当时我就说过，半个月的数字说明不了什么，还是得继续做。&lt;/p>
+&lt;p>又交易了一个多星期，现在账户到了 800U。这周大部分利润来自 KORU 的短线，通常一笔赚个 50U 左右。这个结果让我有点新的想法：小账户想慢慢做大，现阶段更适合做流动性好的品种和时间段，拿短线利润。&lt;/p></description></item><item><title>我拿 100U 开了个实盘账户，看看价格行为到底行不行</title><link>https://blog.forecho.com/bitget-100u-price-action-real-money-test.html</link><pubDate>Wed, 15 Jul 2026 10:00:00 +0800</pubDate><guid>https://blog.forecho.com/bitget-100u-price-action-real-money-test.html</guid><description>&lt;p>&lt;img src="https://imgant.forecho.com/2026/07/06/f2082158.png" alt="我拿 100U 开了个实盘账户，看看价格行为到底行不行">&lt;/p>
 &lt;h2 id="引言">引言&lt;/h2>
 &lt;p>价格行为学我学了一年多，主要在 Prop Firm（自营交易考试平台）练。账号前后买了一千多美金，反复挑战、爆仓、重买，只考过一次，也没出过金。&lt;/p>
 &lt;p>我一直想知道，问题到底出在哪里：是 Prop Firm 的规则影响了我，还是我做单本身就有问题？&lt;/p>
@@ -170,12 +173,4 @@
 &lt;li>&lt;strong>回调是高胜率机会&lt;/strong>：趋势中的回调 (Pullback) 是趋势将延续的信号，为顺势交易者提供了风险较低、胜率较高的入场区域。&lt;/li>
 &lt;li>&lt;strong>交易决策基于数学与概率&lt;/strong>：专业的交易依赖数学期望。例如，&lt;strong>50% 回调位&lt;/strong>之所以重要，并非神秘数字，而是因为它在数学上为顺势方提供了在公平盈亏比（1:1）下的概率优势。&lt;/li>
 &lt;li>&lt;strong>数K线是系统化的入场框架&lt;/strong>：它将复杂的形态，如双底/顶 (Double Bottom/Top)、楔形 (Wedge)，统一归纳为可计数的信号 (H1/H2, L1/L2)，帮助交易者克服入场焦虑，形成机械化、有逻辑依据的交易系统。&lt;/li>
-&lt;/ol></description></item><item><title>不止损，你迟早会亏光：新手交易者的第一道风控护栏</title><link>https://blog.forecho.com/stop-loss-is-the-most-important-thing-in-trading.html</link><pubDate>Sun, 30 Nov 2025 10:00:00 +0800</pubDate><guid>https://blog.forecho.com/stop-loss-is-the-most-important-thing-in-trading.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>在交易世界里，多数人把目光聚焦于如何赚取超额回报，却往往忽略了那个真正决定你能否长期存活的关键因素：&lt;strong>风险管理（Risk Management）&lt;/strong>。不止损，就如同开车没有刹车，无论车速多快，结局都已注定。本文将给出一套可直接落地的止损方法论：先讲核心原则，再给计算公式，最后用清单确保你能将纪律刻进每一次交易。&lt;/p>
-&lt;h2 id="核心原则为什么止损不可或缺">核心原则：为什么止损不可或缺？&lt;/h2>
-&lt;h3 id="1-风险优先利润在后">1. 风险优先，利润在后&lt;/h3>
-&lt;p>你的本金是有限资源。在学会稳定盈利前，首要任务是确保你能长久地留在市场里。止损就是截断亏损，保护本金，让你有足够的机会等到真正属于你的行情。&lt;/p>
-&lt;h3 id="2-承认错误而非失败">2. 承认错误，而非失败&lt;/h3>
-&lt;p>再完美的分析也无法保证 100% 的胜率。止损的本质是「认错」——承认当前这笔交易的判断是错误的，并立即采取行动，避免小错酿成大祸。这无关失败，只关乎纪律。&lt;/p>
-&lt;h3 id="3-杜绝系统性风险">3. 杜绝系统性风险&lt;/h3>
-&lt;p>不止损、扛单，尤其是在趋势行情中逆势加仓，是导致账户爆仓的头号杀手。一个专业的交易者，绝不会允许这类可能导致本金清零的系统性风险存在于自己的交易模式中。&lt;/p></description></item></channel></rss>
+&lt;/ol></description></item></channel></rss>
