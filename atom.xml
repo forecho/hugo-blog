@@ -1,4 +1,38 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 15 Jul 2026 11:00:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>从 400U 到 800U：小账户做短线时，我这周学到的几件事</title><link>https://blog.forecho.com/from-400u-to-800u-small-account-scalping-lessons.html</link><pubDate>Wed, 15 Jul 2026 11:00:00 +0800</pubDate><guid>https://blog.forecho.com/from-400u-to-800u-small-account-scalping-lessons.html</guid><description>&lt;p>&lt;img src="https://imgant.forecho.com/2026/07/15/f704c0cc.png" alt="从 400U 到 800U：小账户短线交易复盘封面">&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 24 Jul 2026 10:00:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>从 800U 到爆仓：过度交易和扛单，最后还是把账户做没了</title><link>https://blog.forecho.com/from-800u-to-liquidation-overtrading-countertrend.html</link><pubDate>Fri, 24 Jul 2026 10:00:00 +0800</pubDate><guid>https://blog.forecho.com/from-800u-to-liquidation-overtrading-countertrend.html</guid><description>&lt;p>&lt;img src="https://imgant.forecho.com/2026/07/24/d4773553.png" alt="从 800U 到爆仓：过度交易、逆势扛单和没有止损">&lt;/p>
+&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>上一篇写完的时候，账户从 400U 做到了 800U。没想到第三篇这么快就来了：这个账户爆仓了。&lt;/p>
+&lt;p>原因其实很简单，还是以前那两个问题：过度交易，亏了以后急着回本；逆势交易，方向做错了还一直扛单。最后碰上很强的趋势，账户还是扛不住了。&lt;/p>
+&lt;h2 id="亏了以后我又开始急着回本">亏了以后，我又开始急着回本&lt;/h2>
+&lt;p>一开始出现亏损的时候，我想的是赶紧做回来。结果交易次数越来越多，能等的 setup 也不愿意等了。&lt;/p>
+&lt;p>这种状态我在 Prop Firm 上遇到过很多次。亏一笔以后想用下一笔赚回来，下一笔又亏了，就继续找机会。做着做着，注意力已经从行情变成了账户余额。&lt;/p>
+&lt;p>实盘也没有让我自动改掉这个问题。钱是自己的，想回本的时候一样会上头。&lt;/p>
+&lt;h2 id="逆势扛单最后碰上了强趋势">逆势扛单，最后碰上了强趋势&lt;/h2>
+&lt;p>另一个问题就是逆势交易，也就是扛单。&lt;/p>
+&lt;p>订单成交以后，我当时没有设置止损。行情往反方向走的时候，我还是觉得价格会回来，结果趋势比我预想得强得多。小亏拖成大亏，最后直接爆仓。&lt;/p>
+&lt;p>现在回头看，这次爆仓没有什么复杂原因。方向错了，没有止损，还想着扛回来。只要趋势走得够远，爆仓只是时间问题。&lt;/p>
+&lt;h2 id="我用-ai-做了一个交易系统">我用 AI 做了一个交易系统&lt;/h2>
+&lt;p>我已经习惯了 Prop Firm 的操作系统，尤其是 TopstepX 里的风控功能。自己做实盘以后，没有这些限制，操作反而容易失控。&lt;/p>
+&lt;p>所以我用 AI Vibe Coding 做了一个&lt;a href="https://trade.pahubcn.com/">交易系统&lt;/a>，操作和风控逻辑基本照着 TopstepX 做。目前主要有这些功能：&lt;/p>
+&lt;ul>
+&lt;li>下单以后自动挂止盈和止损&lt;/li>
+&lt;li>主动锁号，锁定以后不能继续交易&lt;/li>
+&lt;li>亏损达到一定额度以后自动平仓&lt;/li>
+&lt;li>自动平仓以后继续锁号，防止马上又开仓想回本&lt;/li>
+&lt;/ul>
+&lt;p>配置好自己的 Bitget API Key 以后，就可以直接用它交易。资金始终留在自己的 Bitget 账户里，PATrade 只需要读取账户和合约交易权限，提币权限保持关闭，并且可以绑定服务器 IP 白名单。API Key、Secret Key 和 Passphrase 会分别使用 AES-256-GCM 加密，明文不会写入数据库、返回浏览器或记录到日志，具体可以看&lt;a href="https://trade.pahubcn.com/docs/security">安全与密钥管理文档&lt;/a>。&lt;/p>
+&lt;p>我现在越来越觉得，知道应该止损是一回事，能不能每次都执行是另一回事。既然我靠自己经常管不住，那就先让系统帮我执行。&lt;/p>
+&lt;h2 id="最后">最后&lt;/h2>
+&lt;p>接下来我会先暂停一段时间的 Bitget 实盘，继续打 Prop Firm 考试号。等过一阵子，状态和纪律稳定一点，再回来试 Bitget 实盘。&lt;/p>
+&lt;p>这个账户虽然爆仓了，系列还是会继续写。赚钱的时候记录，爆仓的时候也照样记录。至少这次我可以确认，问题还是出在过度交易、逆势扛单和没有止损上。&lt;/p>
+&lt;blockquote>
+&lt;p>交易风险很大，这篇只是我自己的操作笔记，不构成投资建议。&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="参考链接">参考链接&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://blog.forecho.com/from-400u-to-800u-small-account-scalping-lessons.html">从 400U 到 800U：小账户做短线时，我这周学到的几件事&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://trade.pahubcn.com/">PAHub Trade 交易系统&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://trade.pahubcn.com/docs/security">PATrade 安全与密钥管理&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>从 400U 到 800U：小账户做短线时，我这周学到的几件事</title><link>https://blog.forecho.com/from-400u-to-800u-small-account-scalping-lessons.html</link><pubDate>Wed, 15 Jul 2026 11:00:00 +0800</pubDate><guid>https://blog.forecho.com/from-400u-to-800u-small-account-scalping-lessons.html</guid><description>&lt;p>&lt;img src="https://imgant.forecho.com/2026/07/15/f704c0cc.png" alt="从 400U 到 800U：小账户短线交易复盘封面">&lt;/p>
 &lt;h2 id="引言">引言&lt;/h2>
 &lt;p>上一篇写完的时候，我的实盘账户从 100U 做到了 400U。当时我就说过，半个月的数字说明不了什么，还是得继续做。&lt;/p>
 &lt;p>又交易了一个多星期，现在账户到了 800U。这周大部分利润来自 KORU 的短线，通常一笔赚个 50U 左右。这个结果让我有点新的想法：小账户想慢慢做大，现阶段更适合做流动性好的品种和时间段，拿短线利润。&lt;/p>
@@ -3103,173 +3137,4 @@ imgant upload ./my-image.png --format markdown
 &lt;li>&lt;a href="https://blog.forecho.com/posts/three-core-traits-of-successful-traders/">成功交易者的三个核心特质：跳出胜率陷阱&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://blog.forecho.com/posts/stop-loss-is-the-most-important-thing-in-trading/">不止损，你迟早会亏光：新手交易者的第一道风控护栏&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://blog.forecho.com/posts/five-levels-of-trader/">交易员的 5 个阶段：你现在处于哪一层？&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>年赚 5000 万美元的交易团队，在一顿晚餐上说了什么？</title><link>https://blog.forecho.com/top-trading-team-dinner-lessons.html</link><pubDate>Mon, 30 Mar 2026 15:00:00 +0800</pubDate><guid>https://blog.forecho.com/top-trading-team-dinner-lessons.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>SMB Capital 的两位顶级交易员 Nano 和 Max——一个是七位数级别的 Pro，另一个是八位数级别的 Producer——坐在迈阿密 Wynwood 区一家高端日料餐厅 Uchi 里，边吃边回答交易社区提交的问题。&lt;/p>
-&lt;p>这不是一场精心包装的采访，而是一次私人晚餐上的真实对话。他们的团队年交易利润接近 &lt;strong>5000 万美元&lt;/strong>。但让我觉得最有价值的，不是这个数字本身，而是他们在回答社区问题时展现出的思维方式——非常朴素、非常坦诚，而且很多观点直接颠覆了新手的常见做法。&lt;/p>
-&lt;p>我把这场对话中的核心要点逐一提炼出来，结合自己的理解做了整理。内容比较多，建议收藏慢慢看。&lt;/p>
-&lt;h2 id="一交易分级a-机会一个月可能都不到一次">一、交易分级：A+ 机会一个月可能都不到一次&lt;/h2>
-&lt;p>社区有人问他们：你们一天做多少笔交易？一年有多少 B 级和 A+ 级的机会？&lt;/p>
-&lt;p>Nano 的回答很直接：&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>B 级交易&lt;/strong>：一周可能出现四到五次。&lt;/li>
-&lt;li>&lt;strong>A+ 交易&lt;/strong>：一个月能有一次就不错了。如果你觉得自己每个月能碰到好几次 A+，那说明你的标准太松了。&lt;/li>
-&lt;/ul>
-&lt;p>这个回答非常关键。很多人觉得&amp;quot;多做就能多赚&amp;quot;，但顶级交易员的逻辑完全相反：&lt;strong>真正赚大钱的机会极其稀少，稀少到你必须极度挑剔才能识别出来。&lt;/strong>&lt;/p>
-&lt;p>更重要的是他们对&amp;quot;A+&amp;ldquo;的定义标准——必须命中每一个细微的条件（nuance）。不是&amp;quot;差不多符合&amp;rdquo;，而是&amp;quot;全部符合&amp;quot;。Max 说他回忆了一下，2026 年 2 月往前看四五个月，真正称得上 A 级的交易，只有 1 月份的黄金白银，再往前可能要追溯到上一年的 10 月或 11 月。&lt;/p>
-&lt;blockquote>
-&lt;p>我的理解是：对于普通交易者来说，与其纠结&amp;quot;今天有没有机会&amp;quot;，不如先建立一个严格的分级标准。当你开始觉得&amp;quot;好机会太少&amp;quot;的时候，可能才说明你的标准是对的。&lt;/p>
-&lt;/blockquote>
-&lt;h2 id="二动态风险管理a-交易的仓位是-b-级的-5-倍">二、动态风险管理：A+ 交易的仓位是 B 级的 5 倍&lt;/h2>
-&lt;p>这是整场对话中最让我印象深刻的部分。&lt;/p>
-&lt;p>他们的风险管理不是&amp;quot;每笔交易风险 1%&amp;ldquo;这种一刀切的做法，而是&lt;strong>根据交易质量动态调整仓位大小&lt;/strong>。具体来说：&lt;/p>
-&lt;ul>
-&lt;li>A+ 交易的风险敞口，大约是 B 级交易的 &lt;strong>5 倍&lt;/strong>。&lt;/li>
-&lt;li>他们在低级别交易上可能只冒 2 到 3 万美元的风险。&lt;/li>
-&lt;li>但在 A+ 交易上，他们会把风险推到 50 万甚至 60 万美元。&lt;/li>
-&lt;/ul>
-&lt;p>Max 说了一句很重的话：&lt;/p>
-&lt;blockquote>
-&lt;p>&lt;strong>&amp;ldquo;如果你不在 A+ 交易上尽可能多地承担风险，那你就是在犯错。这本质上是一份以业绩为导向的工作。&amp;quot;&lt;/strong>&lt;/p>
-&lt;/blockquote>
-&lt;p>这也意味着一件事：如果你做了一笔 A+ 交易但判断错了，它会搞砸你整个月甚至整个季度。Nano 补充说，A+ 交易的胜率必须在 &lt;strong>90% 以上&lt;/strong>，否则不值得用那么大的仓位去打。&lt;/p>
-&lt;p>这里有一个很重要的底层逻辑：&lt;strong>他们之所以敢在 A+ 上下重注，是因为过去几年积累了足够多的数据和统计。&lt;/strong> 不是拍脑袋决定的，而是用历史交易数据验证过的——长期来看，在 A+ 上加大风险是正期望的。&lt;/p>
-&lt;h2 id="三保护心理资本少即是多">三、保护心理资本：少即是多&lt;/h2>
-&lt;p>有人问他们：你们怎么决定放弃日常的&amp;quot;轻松赚钱&amp;quot;交易，转而专注更大的机会？&lt;/p>
-&lt;p>Max 的回答揭示了一个很多人忽略的维度——&lt;strong>心理资本（Mental Capital）&lt;/strong>。&lt;/p>
-&lt;p>他的意思是：如果你每天都在试图捕捉每一个小机会、每一笔小型 Scalp，你的精力会被消耗殆尽。等到真正的大机会出现时，你可能已经没有足够的注意力和决断力去把握它了。&lt;/p>
-&lt;p>他们还提到一个很务实的观点：心理资本的使用要看当天的情况。&lt;/p>
-&lt;ul>
-&lt;li>如果当天市场活跃、你在管理几十万美元的大仓位，那花精力去挤一个 5K 到 15K 的小 Scalp 可能不值得。&lt;/li>
-&lt;li>但如果当天市场很慢，那同样的 4K 利润反而显得很有价值。&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>这不是对金钱的麻木，而是一种专业的资源分配评估&lt;/strong>——今天我的精力花在哪里回报最大？&lt;/p>
-&lt;blockquote>
-&lt;p>不过 Nano 也补充了一个有意思的细节：大机会和小 Scalp 并不互相排斥。比如在一笔七位数级别的 Beyond 交易进行中，Max 还是会顺手做一些小型股的 Scalp——因为他们训练过同时处理多个标的，有这个带宽。但对于大多数人来说，一天处理好一到两个核心机会就够了。&lt;/p>
-&lt;/blockquote>
-&lt;h2 id="四重复犯错怎么办用风险分级隔离错误的破坏力">四、重复犯错怎么办：用风险分级隔离错误的破坏力&lt;/h2>
-&lt;p>有人问：当你发现自己在重复犯同样的错误时，怎么办？&lt;/p>
-&lt;p>Nano 先说了一个很真实的体验：他知道自己什么时候在犯蠢。身体会有一种内在的信号——比如下午 3:55 放了一笔交易，然后 4:05 就打电话给 Max 说&amp;quot;我们不该做那笔&amp;rdquo;。甚至还没收盘就知道明天要亏了。&lt;/p>
-&lt;p>但他们的解决方式不是&amp;quot;下次不犯了&amp;quot;这种空话，而是&lt;strong>用风险分级来隔离错误的破坏力&lt;/strong>：&lt;/p>
-&lt;ul>
-&lt;li>那些&amp;quot;可能不该做&amp;quot;的低质量交易，因为仓位本身就很小，即使犯错也不会真正影响周度或月度业绩。&lt;/li>
-&lt;li>回顾去年，他们不会说&amp;quot;是那些蠢交易拉低了总成绩&amp;rdquo;——因为那些交易的体量太小了，影响不了大局。&lt;/li>
-&lt;/ul>
-&lt;p>关键在于&lt;strong>风险分离度在不断拉大&lt;/strong>。他们举了一个例子：低质量交易的风险一直维持在 2 到 3 万美元，但 A+ 交易的风险已经从 20 到 30 万增长到了 50 到 60 万。分离度越大，低质量交易的犯错成本就越微不足道。&lt;/p>
-&lt;p>Max 甚至提出了一个更激进的观点：&lt;/p>
-&lt;blockquote>
-&lt;p>&lt;strong>&amp;ldquo;犯错是可以接受的，只要你的错误没有出现在 B 级及以上的交易里。你可以在入门级交易上反复犯错，那没关系。&amp;quot;&lt;/strong>&lt;/p>
-&lt;/blockquote>
-&lt;p>这个观点乍一听很反常识，但仔细想想很有道理：&lt;strong>你不可能在不了解低质量交易的情况下定义什么是高质量交易。&lt;/strong> 你需要通过大量的&amp;quot;次级&amp;quot;交易来打磨判断标准。就像建模型一样——你不可能跳过失败直接建成一个好模型。&lt;/p>
-&lt;h2 id="五如何系统性增长风险单位">五、如何系统性增长风险单位&lt;/h2>
-&lt;p>Fabio 的问题很具体：他目前每笔交易冒 200 美元风险，当 10 笔交易净赚 3R（600 美元）后，把风险提到 250 美元。这样合理吗？&lt;/p>
-&lt;p>Nano 的核心原则是：&lt;strong>增长但不自毁。&lt;/strong>&lt;/p>
-&lt;p>他的描述很形象：在他们快速增长风险的那段时期，经常处于&amp;quot;距离归零只有四个每日止损&amp;quot;的状态。但结构上的设计保证了即使连亏，风险也会随之下调，不会让一段回撤毁掉整个交易生涯。&lt;/p>
-&lt;p>具体建议：&lt;/p>
-&lt;ol>
-&lt;li>&lt;strong>不要因为一笔大赢就大幅提高风险。&lt;/strong> 比如你风险是 1000 美元，赚了 3000 美元，别把风险直接提到 2500——两笔亏损就能把利润全吃回去。&lt;/li>
-&lt;li>&lt;strong>增长幅度要保证即使下一笔最大风险的交易亏损，你也能承受。&lt;/strong>&lt;/li>
-&lt;li>&lt;strong>一致性比速度重要。&lt;/strong> 在有足够多的稳定盈利数据之前，不要轻易放大仓位。&lt;/li>
-&lt;/ol>
-&lt;p>Max 补充了一个他们踩过的坑：&lt;/p>
-&lt;blockquote>
-&lt;p>&lt;strong>放大某个策略的仓位，不等于放大所有策略的仓位。&lt;/strong>&lt;/p>
-&lt;/blockquote>
-&lt;p>他们犯过的一个错误就是——作为交易员整体 Size Up 之后，结果在自己并不擅长的策略上也用了更大的仓位。这是一个很容易被忽略的陷阱。&lt;/p>
-&lt;h2 id="六金钱的心理重量风险增速不能超过心理适应速度">六、金钱的心理重量：风险增速不能超过心理适应速度&lt;/h2>
-&lt;p>这个话题紧接着上一个，但我觉得值得单独拿出来说，因为 Max 在这里说了一段非常真诚的话。&lt;/p>
-&lt;p>他的核心观点是：&lt;strong>交易是一份极度依赖人性的工作。&lt;/strong>&lt;/p>
-&lt;p>你从冒 1000 美元到冒 5000 美元，再到 10000、20000、50000……每一级跳跃，看到的那些数字都会对你的心理产生真实的冲击。你不能假装这种冲击不存在。&lt;/p>
-&lt;blockquote>
-&lt;p>&lt;strong>&amp;ldquo;你的风险增长速度，不能超过你的心理承受能力的增长速度。&amp;quot;&lt;/strong>&lt;/p>
-&lt;/blockquote>
-&lt;p>这不是一句鸡汤。具体来说，你需要在每个新的风险级别上，验证自己还能稳定执行：&lt;/p>
-&lt;ul>
-&lt;li>止损还能果断按吗？&lt;/li>
-&lt;li>浮盈回撤还能拿得住吗？&lt;/li>
-&lt;li>决策质量有没有因为看到更大的数字而下降？&lt;/li>
-&lt;/ul>
-&lt;p>如果答案是否定的，说明你涨得太快了，需要退回上一个级别。&lt;/p>
-&lt;h2 id="七自营公司-vs-个人账户把钱当积分">七、自营公司 vs 个人账户：把钱当积分&lt;/h2>
-&lt;p>这个话题是从上一个自然延伸出来的。&lt;/p>
-&lt;p>Nano 和 Max 都坦诚，他们之所以能更快地适应大仓位，有一个重要原因：&lt;strong>团队环境。&lt;/strong>&lt;/p>
-&lt;p>比如他们团队里的 Raph，当 Nano 因为亏了 2000 美元开始纠结时，Raph 会直接说：&amp;ldquo;你在说什么？这根本不重要。&amp;rdquo; 这种环境帮助他们更快地把金钱看作&lt;strong>游戏积分&lt;/strong>，而不是生活开支。&lt;/p>
-&lt;p>但他们也非常清楚：不是每个人都有这种条件。&lt;/p>
-&lt;p>Nano 提到他和 Max 刚开始时也是用个人账户交易的。那时候，账户里的每一块钱都会被自动换算成&amp;quot;还能撑几个月&amp;rdquo;。&lt;strong>当你的交易账户就是你的房租来源时，情绪管理几乎是不可能的。&lt;/strong>&lt;/p>
-&lt;p>这也是他们认为加入自营交易公司（Prop Firm）的核心好处之一：&lt;/p>
-&lt;ul>
-&lt;li>你的成长不受个人资金的限制。&lt;/li>
-&lt;li>你可以把钱当积分来对待，专注于&amp;quot;把游戏打好&amp;rdquo;。&lt;/li>
-&lt;li>你的目标从&amp;quot;这笔钱能买什么&amp;quot;变成&amp;quot;我能拿多少分&amp;quot;。&lt;/li>
-&lt;/ul>
-&lt;blockquote>
-&lt;p>我自己的体会是：即使你做不到完全&amp;quot;把钱当积分&amp;quot;，至少应该做到一件事——&lt;strong>永远不要用你输不起的钱来交易。&lt;/strong> 当你的交易账户和生存开支绑在一起时，你已经在起跑线上输了。&lt;/p>
-&lt;/blockquote>
-&lt;h2 id="八用-ai-工具验证你的优势">八、用 AI 工具验证你的优势&lt;/h2>
-&lt;p>Alex 问了一个很根本的问题：怎么判断自己是否真的有优势？&lt;/p>
-&lt;p>Nano 的第一反应是：&lt;strong>用 AI。&lt;/strong>&lt;/p>
-&lt;p>他的原话大意是：现在已经到了一个用 AI 做回测成本极低的时代。不管你用的是 TradingView 的 Pine Script 还是 Claude 这类 AI 工具，你都可以在不会写代码的情况下，快速验证一个策略到底有没有正期望。&lt;/p>
-&lt;p>这个时代不利用这些工具去验证你的策略，是一种浪费。&lt;/p>
-&lt;p>当然，他也提到，如果你不想走技术路线，只想做纯粹的交易员，那也有更实际的方法——就是通过手动记录和分级来追踪你的交易数据。但 AI 工具确实大幅降低了验证门槛。&lt;/p>
-&lt;h2 id="九市场会教你做人2021-赚七位数2022-同策略亏七位数">九、市场会教你做人：2021 赚七位数，2022 同策略亏七位数&lt;/h2>
-&lt;p>这是整场对话中最让人警醒的部分。&lt;/p>
-&lt;p>Nano 和 Max 都做了非常坦诚的分享：&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>2021 年&lt;/strong>，他们靠某个策略赚了七位数。&lt;/li>
-&lt;li>&lt;strong>2022 年&lt;/strong>，用&lt;strong>完全相同的策略&lt;/strong>，亏了七位数。&lt;/li>
-&lt;/ul>
-&lt;p>同一个策略，一年天堂，一年地狱。&lt;/p>
-&lt;p>他们不得不调整、收缩、重新打磨。好消息是，他们用 2022 年学到的教训，在后来遇到类似的慢市场时成功避免了重蹈覆辙——他们提前放慢了策略节奏，没有再经历同样规模的回撤。&lt;/p>
-&lt;p>Max 对此说了一句很重的话：&lt;/p>
-&lt;blockquote>
-&lt;p>&lt;strong>&amp;ldquo;觉得自己只需要一两个策略就够了？市场会非常出色地教你做人。&amp;quot;&lt;/strong>&lt;/p>
-&lt;/blockquote>
-&lt;p>他们自己目前的位置，用 Nano 的话说，是&amp;quot;刚刚开始进入精英水平的底层&amp;rdquo;。即使是年赚千万的交易员，也不敢说 5 年后只靠现在的 A+ 策略就够了。&lt;/p>
-&lt;h3 id="新手的陷阱">新手的陷阱&lt;/h3>
-&lt;p>Max 特别提醒了一个新手容易掉进去的坑：&lt;/p>
-&lt;p>如果你还在起步阶段，&lt;strong>你根本不知道你的 A+ 交易到底是什么。&lt;/strong> 你以为你知道，但没有经历过大量的 B 级、B+ 级和入门级交易的磨练，你不可能真正提炼出&amp;quot;什么才是我的最佳交易&amp;quot;。&lt;/p>
-&lt;p>这个过程没有捷径。就像建模型一样——你不可能跳过失败直接建成一个好模型。&lt;/p>
-&lt;h2 id="十连锁反应回撤的代价远比你想象的大">十、连锁反应：回撤的代价远比你想象的大&lt;/h2>
-&lt;p>这是他们在讨论风险增长时自然带出的一个话题，但我觉得非常值得单独说。&lt;/p>
-&lt;p>Nano 描述了一个真实的连锁效应：&lt;/p>
-&lt;ol>
-&lt;li>&lt;strong>2022 年&lt;/strong>他们经历了大回撤。&lt;/li>
-&lt;li>2023 年遇到了区域银行危机这种绝佳的交易机会，但因为&lt;strong>刚从回撤中恢复，仓位偏小&lt;/strong>，没能充分抓住。&lt;/li>
-&lt;li>仓位偏小意味着 2023 年的利润没有达到应有的水平。&lt;/li>
-&lt;li>2023 年利润偏低，又影响了 2024 年能用的风险额度。&lt;/li>
-&lt;li>连锁反应一路延续到 2025 年。&lt;/li>
-&lt;/ol>
-&lt;p>Nano 说了一个很形象的比喻：&lt;strong>这是一条抛物线，不是一条直线。&lt;/strong> 每一年的结果都在影响下一年的起点。&lt;/p>
-&lt;blockquote>
-&lt;p>这个观点对我的冲击很大。它意味着一次大的回撤，成本不仅仅是当时亏的那些钱，而是&lt;strong>你未来几年的机会成本&lt;/strong>。这也解释了为什么他们对风险管理如此严格——保护本金不仅是保护当下，更是保护未来所有可能的增长。&lt;/p>
-&lt;/blockquote>
-&lt;p>反过来想：如果 2022 年他们没有亏损而是持平，那 2023 年的区域银行机会、2024 年的市场、2025 年的增长——整条曲线都会往上移。&lt;strong>一切都是环环相扣的。&lt;/strong>&lt;/p>
-&lt;h2 id="值得记住的金句">值得记住的金句&lt;/h2>
-&lt;p>整理几句我觉得特别有冲击力的原话：&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>&amp;ldquo;如果你 A+ 交易做错了却没有搞砸你的月度业绩，说明你仓位不够大。&amp;quot;&lt;/strong>&lt;/li>
-&lt;li>&lt;strong>&amp;ldquo;这本质上是一份业绩导向的工作。如果你不在最好的机会上尽可能承担风险，那你就是在做错。&amp;quot;&lt;/strong>&lt;/li>
-&lt;li>&lt;strong>&amp;ldquo;我们不是对金钱麻木了，而是在专业地评估：今天我的精力和心理资本花在哪里回报最高？&amp;quot;&lt;/strong>&lt;/li>
-&lt;li>&lt;strong>&amp;ldquo;你不能在不了解低质量交易的情况下，定义什么是高质量交易。模型不可能跳过失败直接建成。&amp;quot;&lt;/strong>&lt;/li>
-&lt;li>&lt;strong>&amp;ldquo;交易的技能或许可以教会很多人，真正拉开差距的是——你能不能在巨大的心理压力下，依然做出正确的执行？&amp;quot;&lt;/strong>&lt;/li>
-&lt;li>&lt;strong>&amp;ldquo;连锁反应是真实的。2022 年的回撤导致 2023 年仓位偏小，导致 2024 年增长偏慢——一切都是环环相扣的。&amp;quot;&lt;/strong>&lt;/li>
-&lt;/ul>
-&lt;h2 id="总结">总结&lt;/h2>
-&lt;p>这顿晚餐对话给我最大的感受是：&lt;strong>顶级交易员和普通交易员的差距，不在于他们知道什么秘密策略，而在于他们如何分配注意力、如何管理风险层级、以及如何面对自己的心理极限。&lt;/strong>&lt;/p>
-&lt;p>十个要点回顾：&lt;/p>
-&lt;ol>
-&lt;li>&lt;strong>极度挑剔地分级交易机会。&lt;/strong> A+ 一个月可能都不到一次，但正是这种稀缺性赋予了它重注的资格。&lt;/li>
-&lt;li>&lt;strong>动态调整仓位。&lt;/strong> 不是每笔交易都冒同样的风险，而是在最好的机会上集中 5 倍甚至更多的火力。&lt;/li>
-&lt;li>&lt;strong>像管理资金一样管理精力。&lt;/strong> 每天问自己：今天我的心理资本花在哪里回报最大？&lt;/li>
-&lt;li>&lt;strong>用风险分级隔离犯错的成本。&lt;/strong> 低质量交易犯错没关系，关键是别在 B 级以上的交易里犯蠢。&lt;/li>
-&lt;li>&lt;strong>系统性增长风险。&lt;/strong> 一致性优先于速度，某个策略的仓位增长不等于所有策略的仓位增长。&lt;/li>
-&lt;li>&lt;strong>风险增速要配合心理适应速度。&lt;/strong> 数字可以很快放大，但人的心理适应需要时间。&lt;/li>
-&lt;li>&lt;strong>尽可能把钱当积分。&lt;/strong> 永远不要用输不起的钱交易。&lt;/li>
-&lt;li>&lt;strong>善用 AI 工具验证策略优势。&lt;/strong> 回测的门槛已经大幅降低了。&lt;/li>
-&lt;li>&lt;strong>永远保持谦逊。&lt;/strong> 去年让你赚大钱的策略，今年可能让你亏大钱。&lt;/li>
-&lt;li>&lt;strong>保护本金就是保护未来。&lt;/strong> 一次大回撤的真正代价，是你未来几年被压缩的增长曲线。&lt;/li>
-&lt;/ol>
-&lt;h2 id="参考链接">参考链接&lt;/h2>
-&lt;ul>
-&lt;li>素材来源：&lt;a href="https://www.youtube.com/watch?v=rFBSm3OwH-4">Private Dinner With Top Traders Making $50M/Year (Raw &amp;amp; Unfiltered)&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.smbcap.com/">SMB Capital 官网&lt;/a>&lt;/li>
 &lt;/ul></description></item></channel></rss>
