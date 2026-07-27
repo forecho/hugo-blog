@@ -20,6 +20,7 @@
 &lt;li>自动平仓以后继续锁号，防止马上又开仓想回本&lt;/li>
 &lt;/ul>
 &lt;p>配置好自己的 Bitget API Key 以后，就可以直接用它交易。资金始终留在自己的 Bitget 账户里，PATrade 只需要读取账户和合约交易权限，提币权限保持关闭，并且可以绑定服务器 IP 白名单。API Key、Secret Key 和 Passphrase 会分别使用 AES-256-GCM 加密，明文不会写入数据库、返回浏览器或记录到日志，具体可以看&lt;a href="https://trade.pahubcn.com/docs/security">安全与密钥管理文档&lt;/a>。&lt;/p>
+&lt;p>开户、KYC、出入金，或者做单有问题，可以进&lt;a href="https://t.me/+Kj7IrxBZtOk3YTk1">&lt;strong>交流 Telegram 群&lt;/strong>&lt;/a>问。&lt;/p>
 &lt;p>我现在越来越觉得，知道应该止损是一回事，能不能每次都执行是另一回事。既然我靠自己经常管不住，那就先让系统帮我执行。&lt;/p>
 &lt;h2 id="最后">最后&lt;/h2>
 &lt;p>接下来我会先暂停一段时间的 Bitget 实盘，继续打 Prop Firm 考试号。等过一阵子，状态和纪律稳定一点，再回来试 Bitget 实盘。&lt;/p>
