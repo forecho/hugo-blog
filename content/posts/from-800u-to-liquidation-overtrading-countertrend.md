@@ -45,6 +45,8 @@ toc: true
 
 配置好自己的 Bitget API Key 以后，就可以直接用它交易。资金始终留在自己的 Bitget 账户里，PATrade 只需要读取账户和合约交易权限，提币权限保持关闭，并且可以绑定服务器 IP 白名单。API Key、Secret Key 和 Passphrase 会分别使用 AES-256-GCM 加密，明文不会写入数据库、返回浏览器或记录到日志，具体可以看[安全与密钥管理文档](https://trade.pahubcn.com/docs/security)。
 
+开户、KYC、出入金，或者做单有问题，可以进[**交流 Telegram 群**](https://t.me/+Kj7IrxBZtOk3YTk1)问。
+
 我现在越来越觉得，知道应该止损是一回事，能不能每次都执行是另一回事。既然我靠自己经常管不住，那就先让系统帮我执行。
 
 ## 最后
