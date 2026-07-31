@@ -67,9 +67,9 @@ Shadowsocks 是一个开源的代理软件，可以让你科学上网。你需�
 
 近期觉得节点卡顿、视频一直转圈的，可以自己试试看。我这边实测下来：**速度快、延迟低，稳定性确实不错。** 朵朵云的价格会高一些，优势是 IP 更纯净，同时提供家宽线路，适合看重线路质量和稳定性的用户。
 
-![火烧云](https://r2.imgant.com/2026/07/30/a23a2ac8.png)
+[![火烧云](https://r2.imgant.com/2026/07/30/a23a2ac8.png)](https://front.cvucqh.com/register?code=Vye52kzA)
 
-- **火烧云**：IP 质量很好，用来访问 Claude 更放心，也能降低因 IP 质量导致的封号风险。它还提供家宽线路，流量不限量，有需要的朋友可以自己去看看。
+- [火烧云](https://front.cvucqh.com/register?code=Vye52kzA)：IP 质量很好，用来访问 Claude 更放心，也能降低因 IP 质量导致的封号风险。它还提供家宽线路，流量不限量，有需要的朋友可以自己去看看。
 
 [![](https://r2.imgant.com/2026/06/16/46a3e1b6.png)](https://xn--9kqz23b19z.com/#/register?code=W8cYeH9o)
 
