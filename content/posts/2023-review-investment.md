@@ -193,4 +193,4 @@ CLSK 我买了之后，股票横盘了很久，有一天突然突破了，我回
 
 我们有投资交流群，免费加入，大家抱团回本，一起赚钱：
 
-- Telegram 交流群：[韭菜回本群](https://t.me/BaoFuTogether) 欢迎加入。
+- Telegram 交流群：[韭菜回本群](https://t.me/+weOns5D8zWU5MzU9) 欢迎加入。

@@ -207,7 +207,7 @@ Tip: 虽然他们有限制登录的设备数量，但是还是允许 2 个设备
 
 ## 福利
 
-- Telegram 交流群：欢迎加入我的 Telegram 交流群，一起学习交流：<https://t.me/BaoFuTogether>
+- Telegram 交流群：欢迎加入我的 Telegram 交流群，一起学习交流：<https://t.me/+weOns5D8zWU5MzU9>
 - 开户福利：如果你还没有美股开户的话，推荐我正在使用的长桥证券，他们目前开户成功入金有送股票，开户链接：<https://link.3li3.com/qiao>
 
 ![长桥证券开户](https://imgant.forecho.com/2026/05/29/202302103dIO3V.png)

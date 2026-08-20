@@ -80,7 +80,7 @@ Telegram 有分组功能，加的群组、频道太多，消息根本看不过�
 
 这个是 Telegram 最新的功能了，你可以在 200 以上的群组里设置 Topic，这样就可以分开不同的话题交流了，非常方便。
 
-想体验就去 [韭菜回本群](https://t.me/BaoFuTogether)。
+想体验就去 [韭菜回本群](https://t.me/+weOns5D8zWU5MzU9)。
 
 ### 表情回应功能
 

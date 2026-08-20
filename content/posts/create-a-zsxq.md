@@ -48,4 +48,4 @@ toc: true
 既然这次大家都付费了，我肯定会认真对待的。另外我还有两个交流群，可以免费加入：
 
 - 微信交流群：如果想入群可以加我微信「ipzone」，申请请备注「加群」。
-- Telegram 交流群：[一起发大财](https://t.me/BaoFuTogether) ，需要自备梯子，欢迎加入。
+- Telegram 交流群：[一起发大财](https://t.me/+weOns5D8zWU5MzU9) ，需要自备梯子，欢迎加入。

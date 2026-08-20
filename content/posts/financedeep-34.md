@@ -165,4 +165,4 @@ MELI 是拉美电商，估值不算高，最后一次财报也很好，我买了
 
 如果想入群可以加我微信「ipzone」，申请请备注「加群」。
 
-另外我们还有一个 Telegram 交流群：[一起发大财](https://t.me/BaoFuTogether) 这个没什么门槛，欢迎加入。
+另外我们还有一个 Telegram 交流群：[一起发大财](https://t.me/+weOns5D8zWU5MzU9) 这个没什么门槛，欢迎加入。
