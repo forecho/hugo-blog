@@ -38,9 +38,16 @@
 &lt;p>执行力过关的人，通常能做到以下三点：&lt;/p>
 &lt;h3 id="1-严格不上头保证每日效率">1. 严格不上头（保证每日效率）&lt;/h3>
 &lt;p>亏损之后的不甘心、想立刻把钱翻本赢回来的报复心理，是人类的本能。但只要一上头，分析和计划全被抛到脑后，这时候你跟老虎机前的赌徒没有任何区别。&lt;/p>
-&lt;p>有个衡量执行纪律的实用指标叫&lt;strong>每日效率&lt;/strong>：
-$$\text{每日效率} = \frac{\text{符合系统规则的订单数}}{\text{总开单数}}$$&lt;/p>
-&lt;p>如果每天随手乱追的单子占了一大半，就算运气好做对了一两笔，长期下来也一定会把系统内赚的利润亏光。想靠交易养活自己，这个比例至少要稳定在 90% 以上。&lt;/p>
+&lt;p>有个衡量执行纪律的实用指标叫&lt;strong>每日效率&lt;/strong>：&lt;/p>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-text" data-lang="text">每日效率 = 符合系统规则的订单数 / 总开单数
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>如果每天随手乱追的单子占了一大半，就算运气好做对了一两笔，长期下来也一定会把系统内赚的利润亏光。想靠交易养活自己，这个比例至少要稳定在 90% 以上。&lt;/p>
 &lt;h3 id="2-敢于扣动扳机">2. 敢于扣动扳机&lt;/h3>
 &lt;p>连亏几笔之后，下一次看到完美的入场信号时，很多人会手软、害怕、犹豫，结果眼睁睁看着行情绝尘而去。&lt;/p>
 &lt;p>必须明白：每一笔交易在统计上都是独立事件。只要入场清单全部满足，哪怕前面刚连止损了 3 单，也要克服恐惧，果断开仓。对系统没有信心的交易员，永远抓不住大盈亏比的机会。&lt;/p>
