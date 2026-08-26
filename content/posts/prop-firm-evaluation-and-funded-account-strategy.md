@@ -1,6 +1,6 @@
 ---
 title: "玩了 1 年半 Prop Firm，我才搞懂考试号和出金号的玩法"
-date: 2026-08-27T10:00:00+08:00
+date: 2026-08-27T01:00:00+08:00
 tags: ["交易", "Prop Firm", "期货", "风险管理"]
 draft: false
 toc: true
