@@ -3,7 +3,7 @@
 &lt;p>前几天我看了一期专门讲期货自营交易底层逻辑和数学计算的视频，看完之后整个人愣住了。我才意识到，我这一年半完全在用做实盘和出金号的思路在打考试号。&lt;/p>
 &lt;p>我平时特别怕自己亏钱上头，所以在软件里设了 &lt;code>$350&lt;/code> 的每日亏损上限（PDLL），一旦触发平台就自动锁号，同时还严格限制了 MNQ 和 MES 的最大持仓张数。这套防守机制确实保护了我——我 8 月份做了 16 个交易日，总盈利 &lt;code>$1,516.58&lt;/code>，盈利日占比 &lt;code>62.5%&lt;/code>。但它同时也把考试过程拉得无比漫长：每天赚一点、亏一点就锁号，平均一天推进 &lt;code>$94.79&lt;/code>，要打满 &lt;code>$3,000&lt;/code> 的目标需要连续奋战 30 多个交易日。&lt;/p>
 &lt;p>时间拖得越长，遇到的极端行情和情绪波动就越多，某一天心态稍微松懈就会前功尽弃。难怪我一直考不过。&lt;/p>
-&lt;p>PF 根本不是传统意义上的长期复利账户，它是一套带有明确数学赔率、规则陷阱和阶段分工的博弈游戏。这篇文章把文稿里的核心数学模型、平台规则套路，以及「暴击」与「种田」的真正用法完整梳理一遍。&lt;/p></description></item><item><title>用交易平台风控设置改掉逆市加仓这个坏习惯</title><link>https://blog.forecho.com/platform-risk-settings-stop-revenge-trading.html</link><pubDate>Thu, 02 Jul 2026 18:29:43 +0800</pubDate><guid>https://blog.forecho.com/platform-risk-settings-stop-revenge-trading.html</guid><description>&lt;p>&lt;img src="https://imgant.forecho.com/2026/07/02/9b263244.png" alt="戒掉逆市加仓：用平台风控挡住上头交易">&lt;/p>
+&lt;p>PF 根本不是传统意义上的长期复利账户，它是一套带有明确数学赔率、规则陷阱和阶段分工的博弈游戏。这篇文章把视频里的核心数学模型、平台规则套路，以及「暴击」与「种田」的真正用法完整梳理一遍。&lt;/p></description></item><item><title>用交易平台风控设置改掉逆市加仓这个坏习惯</title><link>https://blog.forecho.com/platform-risk-settings-stop-revenge-trading.html</link><pubDate>Thu, 02 Jul 2026 18:29:43 +0800</pubDate><guid>https://blog.forecho.com/platform-risk-settings-stop-revenge-trading.html</guid><description>&lt;p>&lt;img src="https://imgant.forecho.com/2026/07/02/9b263244.png" alt="戒掉逆市加仓：用平台风控挡住上头交易">&lt;/p>
 &lt;h2 id="引言">引言&lt;/h2>
 &lt;p>最近打 PA（价格行为）的自营考试号，本来还差 300 刀就通关了，结果又爆仓了。&lt;/p>
 &lt;p>复盘下来原因特别老套：方向做反了，不甘心止损，开始逆市加仓想把均价拉回来打平，结果遇到单边突破，仓位越来越重，一波直接带走。&lt;/p>
