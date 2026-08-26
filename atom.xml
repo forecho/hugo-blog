@@ -16,7 +16,7 @@
 &lt;/ul>
 &lt;h3 id="盈亏平衡胜率与可选停时定理">盈亏平衡胜率与可选停时定理&lt;/h3>
 &lt;p>平台之间规则千差万别，怎么量化一个模式的真实难度？文稿里给出了一个基于几何布朗运动（随机游走）的核心公式。&lt;/p>
-&lt;p>在零漂移假设下（假设我们像抛硬币一样随机开多或开空，不提前离场，完全等价格触碰止盈或止损），数学上的**可选停时定理（Optional Stopping Theorem）**给出了触碰目标的理论概率：&lt;/p>
+&lt;p>在零漂移假设下（假设我们像抛硬币一样随机开多或开空，不提前离场，完全等价格触碰止盈或止损），数学上的&lt;strong>可选停时定理&lt;/strong>给出了触碰目标的理论概率：&lt;/p>
 &lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
 &lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
 &lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
