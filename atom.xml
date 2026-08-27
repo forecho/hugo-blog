@@ -2,8 +2,8 @@
 &lt;p>很多刚接触期货自营交易（Prop Firm / PF）的新手，经常在第一步就被各种英文术语、账户类型和平台登录给搞懵了。&lt;/p>
 &lt;p>自营交易简单来说，就是你花几十美元买一个考核账号，用平台提供的模拟资金在真实市场里交易。只要达成目标且不触碰最大回撤，就能通过考核并拿到出金分成。它最大的好处是用有限的报名费换取杠杆，避免一开始就拿几千上万刀的自有资金去实盘交学费。&lt;/p>
 &lt;p>市面上的 PF 平台很多，这篇文章专门针对完全没操作过的新手，以目前规则相对友好、没有月费的 &lt;strong>FundedNext&lt;/strong> 为例，把从选号、5 折优惠购买，到获取密码并绑定登录 Tradovate 的完整流程一步步走一遍。&lt;/p>
-&lt;h2 id="第一步选号与-5-折购买">第一步：选号与 5 折购买&lt;/h2>
-&lt;p>先打开 &lt;a href="https://fundednext.com/?fpr=PAHUB">FundedNext 官网&lt;/a> 进行注册。&lt;/p>
+&lt;h2 id="第一步选号与优惠购买">第一步：选号与优惠购买&lt;/h2>
+&lt;p>先打开 &lt;a href="https://fundednext.com/?fpr=PA">FundedNext 官网&lt;/a> 进行注册。&lt;/p>
 &lt;p>进入购买界面后，你会看到各种各样的规模和模式选项。&lt;/p>
 &lt;p>&lt;img src="https://r2.imgant.com/2026/08/27/5fac7398.png" alt="">&lt;/p>
 &lt;h3 id="账户类型怎么选根据自身阶段对号入座">账户类型怎么选？（根据自身阶段对号入座）&lt;/h3>
@@ -11,14 +11,14 @@
 &lt;h4 id="选项-a纯小白第一次体验选50k-futures-flex约-60-刀">选项 A：纯小白第一次体验，选「50k Futures Flex」（约 60 刀）&lt;/h4>
 &lt;p>如果你是&lt;strong>刚接触期货、甚至还没体验过期货的波动和杠杆&lt;/strong>的纯新手，强烈建议先选 &lt;strong>50k Futures Flex&lt;/strong>：&lt;/p>
 &lt;ul>
-&lt;li>&lt;strong>极低试错成本&lt;/strong>：使用优惠码 &lt;code>PAHUB&lt;/code> 享受 &lt;strong>5 折&lt;/strong>，原价 &lt;code>$119&lt;/code> 的账户打完折只要 &lt;strong>&lt;code>$59.5&lt;/code>（约 60 刀）&lt;/strong>，是全场门槛最低的入门选择。&lt;/li>
+&lt;li>&lt;strong>极低试错成本&lt;/strong>：使用优惠码 &lt;code>PA&lt;/code> 享受 &lt;strong>5 折&lt;/strong>，原价 &lt;code>$119&lt;/code> 的账户打完折只要 &lt;strong>&lt;code>$59.5&lt;/code>（约 60 刀）&lt;/strong>，是全场门槛最低的入门选择。&lt;/li>
 &lt;li>&lt;strong>无月费与日损陷阱&lt;/strong>：这个模式没有月费，也没有恶心的每日亏损限制（PDLL），提供 &lt;code>$1,500&lt;/code> 的真实最大回撤（EOD 日终回撤），打 &lt;code>$2,500&lt;/code> 的利润目标。&lt;/li>
 &lt;li>&lt;strong>定位&lt;/strong>：花一顿饭钱的成本，在真实市场波动中熟悉 Tradovate 操作、感受杠杆与仓位管理。就算第一把操作失误打炸了，心理负担也极小。&lt;/li>
 &lt;/ul>
 &lt;h4 id="选项-b有一点经验想快速拿到第一笔出金选25k-rapid-pro约-85-刀">选项 B：有一点经验、想快速拿到第一笔出金，选「25k Rapid Pro」（约 85 刀）&lt;/h4>
 &lt;p>如果你已经摸清了软件操作，有一套基础的交易思路，&lt;strong>目标是尽快拿到第一笔出金、在前期 PF 阶段快速积攒本金&lt;/strong>，那么 &lt;strong>25k Rapid Pro&lt;/strong> 是出金效率最高、对新手最友好的模式之一：&lt;/p>
 &lt;ul>
-&lt;li>&lt;strong>无限次 5.4 折&lt;/strong>：使用优惠码 &lt;code>PAHUB&lt;/code> 后，价格约为 &lt;strong>&lt;code>$84.99&lt;/code>（约 85 刀）&lt;/strong>。&lt;/li>
+&lt;li>&lt;strong>无限次 5.4 折&lt;/strong>：使用优惠码 &lt;code>PA&lt;/code> 后，价格约为 &lt;strong>&lt;code>$84.99&lt;/code>（约 85 刀）&lt;/strong>。&lt;/li>
 &lt;li>&lt;strong>考试极快（可 1 天通关）&lt;/strong>：考试阶段用 &lt;code>$1,000&lt;/code> 回撤打 &lt;code>$1,500&lt;/code> 目标。因为&lt;strong>没有日损、没有一致性限制&lt;/strong>，只要抓到一波趋势做一笔 1:1.5 盈亏比的高质量交易，最快 &lt;strong>1 天即可考过&lt;/strong>，第二天直接升级为出金号。&lt;/li>
 &lt;li>&lt;strong>出金无需熬盈利日&lt;/strong>：出金阶段&lt;strong>不需要硬混 5 个盈利日&lt;/strong>，只要累计赚到 &lt;code>$800&lt;/code> 就可以全额申请出金 &lt;code>$800&lt;/code>。平台要求 40% 的一致性，即单日盈利不超过 40%（单日最多计入 &lt;code>$320&lt;/code>），所以最稳的做法是&lt;strong>分 3 天完成（比如做 $300 + $300 + $200）&lt;/strong>。&lt;/li>
 &lt;li>&lt;strong>到手利润&lt;/strong>：扣除分成和出金手续费后，&lt;strong>实际到手约 $700 刀&lt;/strong>。最快 4 个交易日（1 天考试 + 3 天出金）就能完成一次出金闭环，净赚 600 多刀本金。&lt;/li>
@@ -26,6 +26,7 @@
 &lt;h3 id="支付方式避坑提醒">支付方式避坑提醒&lt;/h3>
 &lt;p>支付的时候&lt;strong>不要选银联&lt;/strong>，银联通道的手续费非常贵，很不划算。&lt;/p>
 &lt;p>推荐使用 &lt;strong>Visa 信用卡&lt;/strong> 或者 &lt;strong>加密货币（Crypto）&lt;/strong> 进行支付，汇率和手续费会好很多。按照页面提示完成付款即可。&lt;/p>
+&lt;p>此外，如果你在注册或购买过程中遇到任何官方问题，可以加入他们的 &lt;a href="https://t.me/+wXakjxC_-zUyZjdl">FundedNext 官方中文 Telegram 群组&lt;/a> 进行咨询和交流。&lt;/p>
 &lt;h2 id="第二步获取-tradovate-登录信息">第二步：获取 Tradovate 登录信息&lt;/h2>
 &lt;p>买完账户之后，平台会为你自动生成对应的交易账户凭证。&lt;/p>
 &lt;p>进入 FundedNext 个人后台，找到你的账户列表详情页：&lt;/p>
@@ -51,7 +52,7 @@
 &lt;h2 id="总结">总结&lt;/h2>
 &lt;p>梳理一下新手上手 PF 的完整路径：&lt;/p>
 &lt;ol>
-&lt;li>&lt;strong>选号&lt;/strong>：打开 &lt;a href="https://fundednext.com/?fpr=PAHUB">FundedNext&lt;/a>，使用优惠码 &lt;code>PAHUB&lt;/code>。纯小白想低成本体验期货波动首选 &lt;strong>50k Futures Flex&lt;/strong>（打 5 折约 60 刀）；有基础想快速出金积攒本金选 &lt;strong>25k Rapid Pro&lt;/strong>（打 5.4 折约 85 刀）；&lt;/li>
+&lt;li>&lt;strong>选号&lt;/strong>：打开 &lt;a href="https://fundednext.com/?fpr=PA">FundedNext&lt;/a>，使用优惠码 &lt;code>PA&lt;/code>。纯小白想低成本体验期货波动首选 &lt;strong>50k Futures Flex&lt;/strong>（打 5 折约 60 刀）；有基础想快速出金积攒本金选 &lt;strong>25k Rapid Pro&lt;/strong>（打 5.4 折约 85 刀）；&lt;/li>
 &lt;li>&lt;strong>拿凭证&lt;/strong>：在后台复制分配的 Tradovate 专用账号与密码；&lt;/li>
 &lt;li>&lt;strong>登录&lt;/strong>：前往 &lt;a href="https://trader.tradovate.com/">trader.tradovate.com&lt;/a>，填完基础信息后，&lt;strong>务必选择模拟交易 (Simulation)&lt;/strong> 登录；&lt;/li>
 &lt;li>&lt;strong>看盘与交易&lt;/strong>：参考 &lt;a href="https://blog.forecho.com/tradovate-guide.html">Tradovate 平台使用指南&lt;/a> 配置好止损与图表，开始你的第一笔交易。&lt;/li>
