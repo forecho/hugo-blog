@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on forecho's Blog</title><link>https://blog.forecho.com/posts.html</link><description>Recent content in Posts on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 27 Aug 2026 01:00:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/posts/atom.xml" rel="self" type="application/rss+xml"/><item><title>玩了 1 年半 Prop Firm，我才搞懂考试号和出金号的玩法</title><link>https://blog.forecho.com/prop-firm-evaluation-and-funded-account-strategy.html</link><pubDate>Thu, 27 Aug 2026 01:00:00 +0800</pubDate><guid>https://blog.forecho.com/prop-firm-evaluation-and-funded-account-strategy.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on forecho's Blog</title><link>https://blog.forecho.com/posts.html</link><description>Recent content in Posts on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 27 Aug 2026 01:30:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/posts/atom.xml" rel="self" type="application/rss+xml"/><item><title>新手如何上手自营交易（Prop Firm）：FundedNext 保姆级开户与配置指南</title><link>https://blog.forecho.com/fundednext-prop-firm-beginner-guide.html</link><pubDate>Thu, 27 Aug 2026 01:30:00 +0800</pubDate><guid>https://blog.forecho.com/fundednext-prop-firm-beginner-guide.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>很多刚接触期货自营交易（Prop Firm / PF）的新手，经常在第一步就被各种英文术语、账户类型和平台登录给搞懵了。&lt;/p>
+&lt;p>自营交易简单来说，就是你花几十美元买一个考核账号，用平台提供的模拟资金在真实市场里交易。只要达成目标且不触碰最大回撤，就能通过考核并拿到出金分成。它最大的好处是用有限的报名费换取杠杆，避免一开始就拿几千上万刀的自有资金去实盘交学费。&lt;/p>
+&lt;p>市面上的 PF 平台很多，这篇文章专门针对完全没操作过的新手，以目前规则相对友好、没有月费的 &lt;strong>FundedNext&lt;/strong> 为例，把从选号、5 折优惠购买，到获取密码并绑定登录 Tradovate 的完整流程一步步走一遍。&lt;/p></description></item><item><title>玩了 1 年半 Prop Firm，我才搞懂考试号和出金号的玩法</title><link>https://blog.forecho.com/prop-firm-evaluation-and-funded-account-strategy.html</link><pubDate>Thu, 27 Aug 2026 01:00:00 +0800</pubDate><guid>https://blog.forecho.com/prop-firm-evaluation-and-funded-account-strategy.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
 &lt;p>我玩 Prop Firm（期货自营交易）已经一年半了，前后买号花了不少钱，却一直没有顺利通过考试拿到出金。&lt;/p>
 &lt;p>前几天我看了一期专门讲期货自营交易底层逻辑和数学计算的视频，看完之后整个人愣住了。我才意识到，我这一年半完全在用做实盘和出金号的思路在打考试号。&lt;/p>
 &lt;p>我平时特别怕自己亏钱上头，所以在软件里设了 &lt;code>$350&lt;/code> 的每日亏损上限（PDLL），一旦触发平台就自动锁号，同时还严格限制了 MNQ 和 MES 的最大持仓张数。这套防守机制确实保护了我——我 8 月份做了 16 个交易日，总盈利 &lt;code>$1,516.58&lt;/code>，盈利日占比 &lt;code>62.5%&lt;/code>。但它同时也把考试过程拉得无比漫长：每天赚一点、亏一点就锁号，平均一天推进 &lt;code>$94.79&lt;/code>，要打满 &lt;code>$3,000&lt;/code> 的目标需要连续奋战 30 多个交易日。&lt;/p>
@@ -130,18 +133,4 @@
 &lt;li>&lt;code>1Rev&lt;/code>：开盘后第一次有机会改变主导方向的反转；&lt;/li>
 &lt;li>&lt;code>1PB&lt;/code>：新方向初步成立后，第一次顺着新方向的回调。&lt;/li>
 &lt;/ul>
-&lt;p>&lt;code>1Rev&lt;/code> 更早，&lt;code>1PB&lt;/code> 更稳。这个取舍，比定义本身更重要。&lt;/p></description></item><item><title>开盘 30 分钟怎么读盘：跳空、第一根 K 线与当天主方向</title><link>https://blog.forecho.com/how-to-read-the-open-first-30-minutes.html</link><pubDate>Tue, 31 Mar 2026 21:40:00 +0800</pubDate><guid>https://blog.forecho.com/how-to-read-the-open-first-30-minutes.html</guid><description>&lt;h2 id="系列导航">系列导航&lt;/h2>
-&lt;p>这一组文章建议按顺序阅读：&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>开盘 30 分钟怎么读盘：跳空、第一根 K 线与当天主方向（当前）&lt;/strong>&lt;/li>
-&lt;li>&lt;a href="https://blog.forecho.com/first-reversal-and-first-pullback.html">1Rev 与 1PB：开盘后最重要的两类机会&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://blog.forecho.com/what-is-a2-price-action-setup.html">A2 是什么：最值得先练的价格行为 setup&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://blog.forecho.com/most-breakouts-fail-trading-range-playbook.html">大多数突破都会失败：区间行情里值得做的机会&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://blog.forecho.com/trend-day-hard-trend-soft-trend-playbook.html">趋势日怎么做：硬趋势、软趋势与 Spike and Channel&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://blog.forecho.com/why-you-still-cant-make-money-even-if-you-read-the-market-right.html">为什么你看对了方向，还是赚不到钱&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>开盘前 30 分钟最容易把人带偏。&lt;/p>
-&lt;p>跳空一出来，脑子里马上开始站队；第一根 K 线稍微大一点，就觉得今天要单边；第一波拉回出现，又开始猜反转。交易节奏一乱，后面就算行情给机会，也很难做顺。&lt;/p>
-&lt;p>我现在看开盘，会先解决三个问题：跳空怎么被处理，前两根 K 线有没有给出方向，市场更像开盘趋势还是开盘区间。&lt;/p>
-&lt;p>这三个问题看清楚以后，后面才轮到 &lt;code>1Rev&lt;/code>、&lt;code>1PB&lt;/code>、&lt;code>A2&lt;/code> 这些 setup。&lt;/p></description></item></channel></rss>
+&lt;p>&lt;code>1Rev&lt;/code> 更早，&lt;code>1PB&lt;/code> 更稳。这个取舍，比定义本身更重要。&lt;/p></description></item></channel></rss>

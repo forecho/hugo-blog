@@ -1,4 +1,50 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 27 Aug 2026 01:00:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>玩了 1 年半 Prop Firm，我才搞懂考试号和出金号的玩法</title><link>https://blog.forecho.com/prop-firm-evaluation-and-funded-account-strategy.html</link><pubDate>Thu, 27 Aug 2026 01:00:00 +0800</pubDate><guid>https://blog.forecho.com/prop-firm-evaluation-and-funded-account-strategy.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 27 Aug 2026 01:30:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>新手如何上手自营交易（Prop Firm）：FundedNext 保姆级开户与配置指南</title><link>https://blog.forecho.com/fundednext-prop-firm-beginner-guide.html</link><pubDate>Thu, 27 Aug 2026 01:30:00 +0800</pubDate><guid>https://blog.forecho.com/fundednext-prop-firm-beginner-guide.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>很多刚接触期货自营交易（Prop Firm / PF）的新手，经常在第一步就被各种英文术语、账户类型和平台登录给搞懵了。&lt;/p>
+&lt;p>自营交易简单来说，就是你花几十美元买一个考核账号，用平台提供的模拟资金在真实市场里交易。只要达成目标且不触碰最大回撤，就能通过考核并拿到出金分成。它最大的好处是用有限的报名费换取杠杆，避免一开始就拿几千上万刀的自有资金去实盘交学费。&lt;/p>
+&lt;p>市面上的 PF 平台很多，这篇文章专门针对完全没操作过的新手，以目前规则相对友好、没有月费的 &lt;strong>FundedNext&lt;/strong> 为例，把从选号、5 折优惠购买，到获取密码并绑定登录 Tradovate 的完整流程一步步走一遍。&lt;/p>
+&lt;h2 id="第一步选号与-5-折购买">第一步：选号与 5 折购买&lt;/h2>
+&lt;p>先打开 &lt;a href="https://fundednext.com/?fpr=PAHUB">FundedNext 官网&lt;/a> 进行注册。&lt;/p>
+&lt;p>进入购买界面后，你会看到各种各样的规模和模式选项。&lt;/p>
+&lt;p>&lt;img src="https://r2.imgant.com/2026/08/27/5fac7398.png" alt="">&lt;/p>
+&lt;h3 id="账户类型推荐50k-futures-flex">账户类型推荐：50k Futures Flex&lt;/h3>
+&lt;p>如果你是第一次玩，不知道选哪个类型，&lt;strong>强烈推荐直接选 50k Futures Flex&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>为什么选 Flex&lt;/strong>：这个模式没有月费，通过后出金规则相对清晰，且没有恶心的每日亏损限制（PDLL）来卡你的盈亏比。&lt;/li>
+&lt;li>&lt;strong>名义规模 50k&lt;/strong>：提供 &lt;code>$1,500&lt;/code> 的真实最大回撤（EOD 日终回撤），打 &lt;code>$2,500&lt;/code> 的利润目标。&lt;/li>
+&lt;li>&lt;strong>5 折优惠码&lt;/strong>：结账时在 Discount Code / Promo Code 处输入优惠码 &lt;code>PAHUB&lt;/code>，可以享受 &lt;strong>5 折优惠&lt;/strong>。原价 &lt;code>$119&lt;/code> 的 50k 账户，打完折只需要 &lt;strong>&lt;code>$59.5&lt;/code>（约 60 刀）&lt;/strong>。&lt;/li>
+&lt;/ul>
+&lt;p>付款支持加密货币或信用卡，按照提示完成支付即可。&lt;/p>
+&lt;h2 id="第二步获取-tradovate-登录信息">第二步：获取 Tradovate 登录信息&lt;/h2>
+&lt;p>买完账户之后，平台会为你自动生成对应的交易账户凭证。&lt;/p>
+&lt;p>进入 FundedNext 个人后台，找到你的账户列表详情页：&lt;/p>
+&lt;p>&lt;img src="https://r2.imgant.com/2026/08/27/27c8468a.png" alt="">&lt;/p>
+&lt;p>在页面里可以看到分配给你的 &lt;strong>Login（账号）&lt;/strong> 和 &lt;strong>Password（密码）&lt;/strong>。注意：这里的账号密码是用来登录专门的期货交易软件 &lt;strong>Tradovate&lt;/strong> 的，而不是你登录 FundedNext 官网的账号密码。&lt;/p>
+&lt;h2 id="第三步登录-tradovate关键细节避坑">第三步：登录 Tradovate（关键细节避坑）&lt;/h2>
+&lt;p>拿到了账号密码后，打开网页端交易地址：&lt;a href="https://trader.tradovate.com/">https://trader.tradovate.com/&lt;/a>。&lt;/p>
+&lt;p>输入刚复制的账号和密码点击登录。&lt;/p>
+&lt;h3 id="1-完善个人资料">1. 完善个人资料&lt;/h3>
+&lt;p>第一次登录时，Tradovate 会弹出一些基础的协议签署和个人信息填写（如姓名、地址等），如实填写并勾选同意即可。&lt;/p>
+&lt;h3 id="2-切记选择模拟交易-simulation">2. 切记选择「模拟交易 (Simulation)」&lt;/h3>
+&lt;p>填完资料进入环境选择时，&lt;strong>一定要勾选「Simulation / 模拟交易」&lt;/strong>！&lt;/p>
+&lt;p>这是很多新手最容易卡住的地方：因为自营平台在通过考核前分配的都是模拟账户，如果你误点了 &amp;ldquo;Live Trading（实盘交易）&amp;quot;，系统会提示你没有实盘权限或直接报错进不去。切记选择模拟环境登录。&lt;/p>
+&lt;h2 id="第四步tradovate-界面配置与交易">第四步：Tradovate 界面配置与交易&lt;/h2>
+&lt;p>成功登录 Tradovate 之后，你就可以看到实时的期货行情并开始下单了。&lt;/p>
+&lt;p>默认的 Tradovate 界面非常凌乱，各种深度图、网格和英文面板挤在一起。为了让看盘和下单更顺手，建议做一些基础的界面清理和自动止损设置：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>去除网格与清理指标&lt;/strong>：关闭多余窗口，只留干净的裸 K 线图；&lt;/li>
+&lt;li>&lt;strong>配置自动止损止盈（ATM / Bracket Orders）&lt;/strong>：在下单面板开启 ATM 策略，确保每一笔开仓在成交瞬间自动带上止损线，杜绝扛单上头；&lt;/li>
+&lt;li>&lt;strong>微型合约代码&lt;/strong>：新手练习建议优先做微型纳指（&lt;code>MNQ&lt;/code>）或微型标普（&lt;code>MES&lt;/code>），波动可控，每点价值更小。&lt;/li>
+&lt;/ul>
+&lt;p>关于 Tradovate 的完整极简配置、K 线颜色设置、快捷止损以及避坑细节，可以参考我之前写的这篇详细指南：&lt;a href="https://blog.forecho.com/tradovate-guide.html">《Tradovate 平台使用指南：从入门到精通》&lt;/a>。&lt;/p>
+&lt;h2 id="总结">总结&lt;/h2>
+&lt;p>梳理一下新手上手 PF 的完整路径：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>选号&lt;/strong>：打开 &lt;a href="https://fundednext.com/?fpr=PAHUB">FundedNext&lt;/a>，选择 &lt;strong>50k Futures Flex&lt;/strong>，使用优惠码 &lt;code>PAHUB&lt;/code> 打 5 折（约 60 刀）；&lt;/li>
+&lt;li>&lt;strong>拿凭证&lt;/strong>：在后台复制分配的 Tradovate 专用账号与密码；&lt;/li>
+&lt;li>&lt;strong>登录&lt;/strong>：前往 &lt;a href="https://trader.tradovate.com/">trader.tradovate.com&lt;/a>，填完基础信息后，&lt;strong>务必选择模拟交易 (Simulation)&lt;/strong> 登录；&lt;/li>
+&lt;li>&lt;strong>看盘与交易&lt;/strong>：参考 &lt;a href="https://blog.forecho.com/tradovate-guide.html">Tradovate 平台使用指南&lt;/a> 配置好止损与图表，开始你的第一笔交易。&lt;/li>
+&lt;/ol>
+&lt;p>先用小成本的考试号熟悉规则和盘面节奏，做好每笔交易的风控，祝大家都能顺利通过考核并拿到出金！&lt;/p></description></item><item><title>玩了 1 年半 Prop Firm，我才搞懂考试号和出金号的玩法</title><link>https://blog.forecho.com/prop-firm-evaluation-and-funded-account-strategy.html</link><pubDate>Thu, 27 Aug 2026 01:00:00 +0800</pubDate><guid>https://blog.forecho.com/prop-firm-evaluation-and-funded-account-strategy.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
 &lt;p>我玩 Prop Firm（期货自营交易）已经一年半了，前后买号花了不少钱，却一直没有顺利通过考试拿到出金。&lt;/p>
 &lt;p>前几天我看了一期专门讲期货自营交易底层逻辑和数学计算的视频，看完之后整个人愣住了。我才意识到，我这一年半完全在用做实盘和出金号的思路在打考试号。&lt;/p>
 &lt;p>我平时特别怕自己亏钱上头，所以在软件里设了 &lt;code>$350&lt;/code> 的每日亏损上限（PDLL），一旦触发平台就自动锁号，同时还严格限制了 MNQ 和 MES 的最大持仓张数。这套防守机制确实保护了我——我 8 月份做了 16 个交易日，总盈利 &lt;code>$1,516.58&lt;/code>，盈利日占比 &lt;code>62.5%&lt;/code>。但它同时也把考试过程拉得无比漫长：每天赚一点、亏一点就锁号，平均一天推进 &lt;code>$94.79&lt;/code>，要打满 &lt;code>$3,000&lt;/code> 的目标需要连续奋战 30 多个交易日。&lt;/p>
@@ -2399,150 +2445,4 @@ imgant upload ./my-image.png --format markdown
 &lt;ul>
 &lt;li>&lt;a href="https://blog.forecho.com/how-to-read-the-open-first-30-minutes.html">开盘 30 分钟怎么读盘：跳空、第一根 K 线与当天主方向&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://blog.forecho.com/a2-1pb-1rev-trading-playbook.html">A2、1PB、1Rev 实战手册：怎么入场，止损放哪，什么情况直接放弃&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>开盘 30 分钟怎么读盘：跳空、第一根 K 线与当天主方向</title><link>https://blog.forecho.com/how-to-read-the-open-first-30-minutes.html</link><pubDate>Tue, 31 Mar 2026 21:40:00 +0800</pubDate><guid>https://blog.forecho.com/how-to-read-the-open-first-30-minutes.html</guid><description>&lt;h2 id="系列导航">系列导航&lt;/h2>
-&lt;p>这一组文章建议按顺序阅读：&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>开盘 30 分钟怎么读盘：跳空、第一根 K 线与当天主方向（当前）&lt;/strong>&lt;/li>
-&lt;li>&lt;a href="https://blog.forecho.com/first-reversal-and-first-pullback.html">1Rev 与 1PB：开盘后最重要的两类机会&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://blog.forecho.com/what-is-a2-price-action-setup.html">A2 是什么：最值得先练的价格行为 setup&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://blog.forecho.com/most-breakouts-fail-trading-range-playbook.html">大多数突破都会失败：区间行情里值得做的机会&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://blog.forecho.com/trend-day-hard-trend-soft-trend-playbook.html">趋势日怎么做：硬趋势、软趋势与 Spike and Channel&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://blog.forecho.com/why-you-still-cant-make-money-even-if-you-read-the-market-right.html">为什么你看对了方向，还是赚不到钱&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>开盘前 30 分钟最容易把人带偏。&lt;/p>
-&lt;p>跳空一出来，脑子里马上开始站队；第一根 K 线稍微大一点，就觉得今天要单边；第一波拉回出现，又开始猜反转。交易节奏一乱，后面就算行情给机会，也很难做顺。&lt;/p>
-&lt;p>我现在看开盘，会先解决三个问题：跳空怎么被处理，前两根 K 线有没有给出方向，市场更像开盘趋势还是开盘区间。&lt;/p>
-&lt;p>这三个问题看清楚以后，后面才轮到 &lt;code>1Rev&lt;/code>、&lt;code>1PB&lt;/code>、&lt;code>A2&lt;/code> 这些 setup。&lt;/p>
-&lt;h2 id="跳空先当背景看">跳空先当背景看&lt;/h2>
-&lt;p>跳空本身只告诉你一件事：今天的开盘价和昨天的收盘价有距离。&lt;/p>
-&lt;p>这个距离大不大，市场怎么处理它，才是读盘重点。高开以后继续往上推，和高开以后立刻回补，背后完全是两套节奏。&lt;/p>
-&lt;p>我会先分三类。&lt;/p>
-&lt;h3 id="小跳空">小跳空&lt;/h3>
-&lt;p>小跳空更像一个轻微的开盘偏向。&lt;/p>
-&lt;p>它可能很快回补，也可能先顺着跳空方向走一段。这个阶段我不会急着站队，先看前几根 K 线对缺口的反应。&lt;/p>
-&lt;ul>
-&lt;li>顺着跳空方向推得干脆：等第一次顺势回调。&lt;/li>
-&lt;li>回补缺口时明显受阻：留意反向延续。&lt;/li>
-&lt;li>上下反复穿：先按开盘区间处理。&lt;/li>
-&lt;/ul>
-&lt;h3 id="大跳空">大跳空&lt;/h3>
-&lt;p>大跳空信息量更重。&lt;/p>
-&lt;p>它可能带出趋势日，也可能直接变成一个更大的交易区间。大跳空之后，最该看的就是第一波有没有持续性。&lt;/p>
-&lt;p>我会重点看：&lt;/p>
-&lt;ul>
-&lt;li>第一根 K 线收盘靠近高点还是低点；&lt;/li>
-&lt;li>前两根 K 线方向是否一致；&lt;/li>
-&lt;li>市场在扩张缺口，还是急着回补缺口；&lt;/li>
-&lt;li>回补失败后，反向是否开始加速。&lt;/li>
-&lt;/ul>
-&lt;p>大跳空容易让人兴奋，也容易让人过早押全天单边。我的做法是先看市场愿意站在哪一边。&lt;/p>
-&lt;h3 id="几乎没跳空">几乎没跳空&lt;/h3>
-&lt;p>没什么跳空时，缺口背景的权重就要降下来。&lt;/p>
-&lt;p>这时候更像是昨天走势的延续，重点回到开盘区间、前高前低、前一天收盘价，以及前几根 K 线的质量。&lt;/p>
-&lt;h2 id="回补和扩张决定早盘打法">回补和扩张决定早盘打法&lt;/h2>
-&lt;p>开盘要判断的方向，通常就两个：&lt;/p>
-&lt;ul>
-&lt;li>缺口更像要被回补；&lt;/li>
-&lt;li>缺口更像要继续扩张。&lt;/li>
-&lt;/ul>
-&lt;p>回补预期更强时，我会多看反转类机会。比如第一波走势衰竭以后，是否出现 &lt;code>1Rev&lt;/code>；&lt;code>1Rev&lt;/code> 看起来勉强时，后面有没有更舒服的 &lt;code>1PB&lt;/code>。&lt;/p>
-&lt;p>扩张预期更强时，我会少猜反转，多等顺势回调。比如突破后第一组两腿回调，或者靠近均线、趋势线附近的 &lt;code>A2&lt;/code>。&lt;/p>
-&lt;p>很多人开盘反转做不好，问题经常出在前面这一步：缺口背景都没判断，就直接拿形态下单。&lt;/p>
-&lt;h2 id="第一根-k-线当成小区间">第一根 K 线当成小区间&lt;/h2>
-&lt;p>第一根 K 线很重要，但我现在很少只靠它给全天定性。&lt;/p>
-&lt;p>它更像当天第一个小区间，给你一个高点、一个低点。后面价格怎么突破这个小区间，突破以后有没有 follow-through，比第一根本身更重要。&lt;/p>
-&lt;p>第一根是强趋势棒，收盘靠近高点或低点，影线很少，这对早盘方向有参考价值。尤其配合大跳空时，市场有机会直接走出 opening trend。&lt;/p>
-&lt;p>第一根是 doji，或者上下影线很长，我会更谨慎。后面可能先做一边的失败突破，再从另一边走出去，也可能直接进入 barb wire open。&lt;/p>
-&lt;p>这类开盘，我宁愿慢一点。&lt;/p>
-&lt;h2 id="前两根-k-线更像答卷">前两根 K 线更像答卷&lt;/h2>
-&lt;p>如果只能保留一个开盘判断，我会保留前两根 K 线。&lt;/p>
-&lt;p>两根方向一致，都是趋势棒，重叠少，价格被明显推出开盘区域，这种开局更像 opening trend。&lt;/p>
-&lt;p>两根颜色相反，重叠明显，价格一直困在很小范围里，这种开局更像 opening range。接下来看到突破，我会天然多一层怀疑。&lt;/p>
-&lt;p>这个判断很实用。它能提醒你少做两类错：&lt;/p>
-&lt;ul>
-&lt;li>在 opening trend 里过早逆势；&lt;/li>
-&lt;li>在 opening range 里追每一次假突破。&lt;/li>
-&lt;/ul>
-&lt;h2 id="强突破等回踩弱突破防失败">强突破等回踩，弱突破防失败&lt;/h2>
-&lt;p>开盘阶段最容易亏的钱，通常是追弱突破。&lt;/p>
-&lt;p>强突破有几个特征：&lt;/p>
-&lt;ul>
-&lt;li>突破棒实体够大；&lt;/li>
-&lt;li>收盘靠近突破方向；&lt;/li>
-&lt;li>最好是第二次尝试突破；&lt;/li>
-&lt;li>对手方反扑很弱。&lt;/li>
-&lt;/ul>
-&lt;p>这种突破要尊重，但我也更愿意等回踩。追第一下的盈亏比经常不好。&lt;/p>
-&lt;p>弱突破就要换个脑子看：&lt;/p>
-&lt;ul>
-&lt;li>只探出去一点；&lt;/li>
-&lt;li>收盘没站稳；&lt;/li>
-&lt;li>影线很多；&lt;/li>
-&lt;li>后面马上被反打。&lt;/li>
-&lt;/ul>
-&lt;p>弱突破在区间里经常会变成失败突破。看到突破两个字就追，基本等于主动把自己送到边缘位置。&lt;/p>
-&lt;h2 id="什么时候看-1rev--1pb">什么时候看 1Rev / 1PB&lt;/h2>
-&lt;p>我会在这几种情况下关注 &lt;code>1Rev&lt;/code>：&lt;/p>
-&lt;ul>
-&lt;li>开盘先走出一段初始趋势；&lt;/li>
-&lt;li>缺口更像要回补；&lt;/li>
-&lt;li>第一波走势已经显出衰竭；&lt;/li>
-&lt;li>反转位置刚好在开盘区间边缘、前高前低、缺口附近；&lt;/li>
-&lt;li>信号棒质量还说得过去。&lt;/li>
-&lt;/ul>
-&lt;p>&lt;code>1Rev&lt;/code> 看起来早，但也更挑背景。只要背景不够清楚，我更愿意等 &lt;code>1PB&lt;/code>。&lt;/p>
-&lt;p>&lt;code>1PB&lt;/code> 的好处是市场已经多给了一点答案。方向切换初步成立，再等第一次顺着新方向的回调，执行起来通常更舒服。&lt;/p>
-&lt;h2 id="什么时候等顺势回调">什么时候等顺势回调&lt;/h2>
-&lt;p>跳空方向和第一波走势一致，前两根 K 线也明显在推动价格，突破强，回踩弱，这种情况下我会把主要精力放在顺势回调上。&lt;/p>
-&lt;p>可以等：&lt;/p>
-&lt;ul>
-&lt;li>第一回调；&lt;/li>
-&lt;li>第一组两腿回调；&lt;/li>
-&lt;li>靠近均线的 &lt;code>A2&lt;/code>；&lt;/li>
-&lt;li>突破后的回踩确认。&lt;/li>
-&lt;/ul>
-&lt;p>这种背景下，反向信号经常只是 pullback。过早猜反转，很容易被趋势慢慢磨掉。&lt;/p>
-&lt;h2 id="有些开盘适合空着手看">有些开盘适合空着手看&lt;/h2>
-&lt;p>有些开盘，我会直接降低交易欲望：&lt;/p>
-&lt;ul>
-&lt;li>前几根 K 线重叠很厉害；&lt;/li>
-&lt;li>上下两边连续假突破；&lt;/li>
-&lt;li>第一根 K 线高低点被来回穿；&lt;/li>
-&lt;li>波动太小，点差和滑点吃掉大半空间；&lt;/li>
-&lt;li>自己只是觉得“今天总该做一笔”。&lt;/li>
-&lt;/ul>
-&lt;p>最后一种最危险。它看起来像机会，其实是手痒。&lt;/p>
-&lt;p>开盘看不清，先不做。交易日很长，早盘没做不代表今天没机会。&lt;/p>
-&lt;h2 id="我的开盘检查表">我的开盘检查表&lt;/h2>
-&lt;ul>
-&lt;li>今天是大跳空、小跳空，还是几乎没跳空？&lt;/li>
-&lt;li>市场在回补缺口，还是扩张缺口？&lt;/li>
-&lt;li>第一根 K 线更像趋势棒，还是小区间？&lt;/li>
-&lt;li>前两根 K 线更像 opening trend，还是 opening range？&lt;/li>
-&lt;li>当前突破是强突破，还是弱突破？&lt;/li>
-&lt;li>强突破有没有回踩机会？&lt;/li>
-&lt;li>弱突破是否可能变成 fBO？&lt;/li>
-&lt;li>当前更该看 &lt;code>1Rev / 1PB&lt;/code>，还是等顺势回调？&lt;/li>
-&lt;li>背景不清楚时，我能不能先不做？&lt;/li>
-&lt;/ul>
-&lt;h2 id="我会避开的坑">我会避开的坑&lt;/h2>
-&lt;h3 id="一看到跳空就站队">一看到跳空就站队&lt;/h3>
-&lt;p>先看市场怎么处理缺口。回补、扩张、失败回补，这三个结果对后面打法影响很大。&lt;/p>
-&lt;h3 id="只看第一根-k-线">只看第一根 K 线&lt;/h3>
-&lt;p>第一根 K 线给出早盘小区间。前两根 K 线和后续突破质量，信息量更大。&lt;/p>
-&lt;h3 id="强突破也追第一下">强突破也追第一下&lt;/h3>
-&lt;p>强突破值得尊重，回踩位置更好。第一下追进去，风险常常被动放大。&lt;/p>
-&lt;h3 id="opening-range-里按趋势日做">opening range 里按趋势日做&lt;/h3>
-&lt;p>前几根 K 线已经明显重叠时，先按区间处理。区间中间少做，边缘再看。&lt;/p>
-&lt;h3 id="看不清还硬开仓">看不清还硬开仓&lt;/h3>
-&lt;p>开盘阶段最大的优势，有时候就是慢一点。先把背景看清楚，再谈 setup。&lt;/p>
-&lt;h2 id="最后">最后&lt;/h2>
-&lt;p>开盘 30 分钟的目标，是给当天建立背景判断。&lt;/p>
-&lt;p>跳空只是起点，前两根 K 线提供早盘节奏，突破质量决定后续打法。回补预期强，就多看反转和第一回调；扩张预期强，就等顺势延续。&lt;/p>
-&lt;p>我的建议是：开盘先花几分钟判断环境，再去找 &lt;code>1Rev&lt;/code>、&lt;code>1PB&lt;/code>、&lt;code>A2&lt;/code>。环境没看清，形态越多，越容易把自己绕进去。&lt;/p>
-&lt;h2 id="参考链接">参考链接&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://blog.forecho.com/a2-1pb-1rev-trading-playbook.html">A2、1PB、1Rev 实战手册：怎么入场，止损放哪，什么情况直接放弃&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://blog.forecho.com/trading-psychology-deep-analysis.html">交易心理学深度剖析&lt;/a>&lt;/li>
 &lt;/ul></description></item></channel></rss>
