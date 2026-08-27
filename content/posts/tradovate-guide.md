@@ -14,6 +14,8 @@ toc: true
 
 这篇文章将基于 Tradovate 的核心功能，整理一份详细的使用指南，带你快速上手这个平台。
 
+> 💡 **懒人省事方案**：如果你嫌一项项手动配置太麻烦，可以直接下载我配置好的布局模板文件：[Google Drive 模板下载链接](https://drive.google.com/file/d/1HJB7KS7IILDnLzDvVCQvFCm3-HoHdaHj/view?usp=sharing)。下载后在 Tradovate 里点击导入即可一键套用，具体导入/导出教程见文末的 [备份与恢复布局](#6-备份与恢复布局-export--import) 章节。
+
 <!--more-->
 
 ## 注册与模拟账户 (14 天免费试用)
