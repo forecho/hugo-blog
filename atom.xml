@@ -13,7 +13,9 @@
 &lt;li>&lt;strong>名义规模 50k&lt;/strong>：提供 &lt;code>$1,500&lt;/code> 的真实最大回撤（EOD 日终回撤），打 &lt;code>$2,500&lt;/code> 的利润目标。&lt;/li>
 &lt;li>&lt;strong>5 折优惠码&lt;/strong>：结账时在 Discount Code / Promo Code 处输入优惠码 &lt;code>PAHUB&lt;/code>，可以享受 &lt;strong>5 折优惠&lt;/strong>。原价 &lt;code>$119&lt;/code> 的 50k 账户，打完折只需要 &lt;strong>&lt;code>$59.5&lt;/code>（约 60 刀）&lt;/strong>。&lt;/li>
 &lt;/ul>
-&lt;p>付款支持加密货币或信用卡，按照提示完成支付即可。&lt;/p>
+&lt;h3 id="支付方式避坑提醒">支付方式避坑提醒&lt;/h3>
+&lt;p>支付的时候&lt;strong>不要选银联&lt;/strong>，银联通道的手续费非常贵，很不划算。&lt;/p>
+&lt;p>推荐使用 &lt;strong>Visa 信用卡&lt;/strong> 或者 &lt;strong>加密货币（Crypto）&lt;/strong> 进行支付，汇率和手续费会好很多。按照页面提示完成付款即可。&lt;/p>
 &lt;h2 id="第二步获取-tradovate-登录信息">第二步：获取 Tradovate 登录信息&lt;/h2>
 &lt;p>买完账户之后，平台会为你自动生成对应的交易账户凭证。&lt;/p>
 &lt;p>进入 FundedNext 个人后台，找到你的账户列表详情页：&lt;/p>
