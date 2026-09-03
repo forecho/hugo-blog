@@ -1,4 +1,109 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 27 Aug 2026 01:30:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>新手如何上手自营交易（Prop Firm）：FundedNext 保姆级开户与配置指南</title><link>https://blog.forecho.com/fundednext-prop-firm-beginner-guide.html</link><pubDate>Thu, 27 Aug 2026 01:30:00 +0800</pubDate><guid>https://blog.forecho.com/fundednext-prop-firm-beginner-guide.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 03 Sep 2026 10:00:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>Al Brooks 团队交易员 Rose 访谈复盘：震荡区间的本质、散户优势与 PF 考核法则</title><link>https://blog.forecho.com/al-brooks-team-trader-rose-interview-insights.html</link><pubDate>Thu, 03 Sep 2026 10:00:00 +0800</pubDate><guid>https://blog.forecho.com/al-brooks-team-trader-rose-interview-insights.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>前几天看到了一期专访视频，嘉宾是 Al Brooks（阿布）团队的全职交易员兼直播交易员 &lt;strong>Rose&lt;/strong>（她也是知名交易员 Tom Hougaard 极力推崇的搭档之一）。&lt;/p>
+&lt;p>整个访谈刨去前后的活动寒暄和洛杉矶闲聊，干货非常密集。Rose 从设计和艺术背景转行做交易，经历了亏损、重新学习、在 Al Brooks 团队全职交易 8 年，每天只盯标普 500（ES）5 分钟 K 线图。&lt;/p>
+&lt;p>她在访谈里分享了三个非常核心的交易认知：&lt;strong>为什么市场 80% 的时间是震荡区间（以及如何用限价单思维交易它）&lt;/strong>、&lt;strong>散户对比机构的真正军事实时优势&lt;/strong>，以及&lt;strong>作为过来人，她如何打通 Prop Firm（自营交易公司）考核并实现提现&lt;/strong>。&lt;/p>
+&lt;p>我把其中最有价值的交易逻辑和方法论系统整理了出来。&lt;/p>
+&lt;h2 id="1-k-线是语言你面对的是限价单市场还是止损单市场">1. K 线是语言：你面对的是限价单市场，还是止损单市场？&lt;/h2>
+&lt;p>很多人学价格行为（Price Action），死记硬背各种蜡烛图形态，但一进实盘就亏钱。Rose 提出了一个非常生动的比喻：&lt;strong>每一根 K 线都是有性格的人，它们组合在一起是在进行一场对话&lt;/strong>。&lt;/p>
+&lt;p>交易前首先要问自己两个问题：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>今天市场处于什么情绪？&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>当前是「止损单市场（Stop Order Market）」还是「限价单市场（Limit Order Market）」？&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;h3 id="止损单市场-vs-限价单市场">止损单市场 vs 限价单市场&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>止损单市场（趋势行情）&lt;/strong>：
+&lt;ul>
+&lt;li>特征：强趋势、大实体突破、突破后不轻易回调。&lt;/li>
+&lt;li>交易方式：顺势追突破、挂止损单（Stop Order）顺着动能入场。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>限价单市场（震荡/对冲行情）&lt;/strong>：
+&lt;ul>
+&lt;li>特征：市场缺乏单边动能，K 线重叠度高，影线长，来回拉锯。&lt;/li>
+&lt;li>交易方式：&lt;strong>必须切换为逆向思维，使用限价单（Limit Order）高抛低吸&lt;/strong>。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>很多亏损交易者的通病是：在限价单市场（震荡区间）里，看到一根大阳线实体强劲收在高位，产生强烈的 FOMO 追多冲动（以为是趋势突破），结果买在区间顶部被迎头痛击；看到大阴线砸盘又去追空，结果割在区间底部。&lt;/p>
+&lt;p>&lt;strong>在震荡区间里，强阳线往往是卖点，强阴线往往是买点&lt;/strong>。学会享受横盘行情，利用限价单反向做 2–5 点的短线剥头皮（Scalp），这就是极具确定性的利润来源。&lt;/p>
+&lt;h2 id="2-拥抱震荡区间不要叫它choppy它是机构的平衡战场">2. 拥抱震荡区间：不要叫它「Choppy」，它是机构的平衡战场&lt;/h2>
+&lt;p>很多人讨厌震荡行情，习惯称之为「恶心、混乱、没法做（Choppy/Sideways）」。Rose 从不使用这些词，而是用更科学的定义：&lt;strong>紧密交易区间（Tight Trading Range）与市场对冲&lt;/strong>。&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>市场 80% 的时间都在震荡&lt;/strong>：如果你只会做趋势，意味着你在 80% 的时间里都无所事事，或者在震荡中把趋势赚的钱全部亏回去。&lt;/li>
+&lt;li>&lt;strong>狭窄交易区间是机构的聚集地&lt;/strong>：
+&lt;ul>
+&lt;li>微小的平衡区间（Tight Range）是机构买卖双方订单激烈竞争、互相博弈的“公平价格区”；&lt;/li>
+&lt;li>机构在平衡区内悄悄吸筹或派发，一旦某个机构投入巨额资金打破平衡，就会瞬间引爆成单边突破。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>寻找关键线索&lt;/strong>：
+&lt;ul>
+&lt;li>在狭窄区间形成之前，前序背景是强势牛市还是熊市？&lt;/li>
+&lt;li>机构是在逢低加仓顺势多头，还是在高位派发准备反转？&lt;/li>
+&lt;li>等待区间边缘确认信号，跟随机构突破的方向入场。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="3-散户-vs-机构游击队与十八轮大卡车">3. 散户 vs 机构：游击队与十八轮大卡车&lt;/h2>
+&lt;p>在访谈中，Rose 用了一个非常形象的军事比喻来阐述散户的真正优势：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>机构就像 18 轮重型卡车（或英国正规军）&lt;/strong>：
+&lt;ul>
+&lt;li>资金体量极其庞大、行动极其迟缓；&lt;/li>
+&lt;li>他们无法瞬间建仓或平仓，否则会严重砸穿盘口（Slippage）；必须通过复杂算法把几百万、上千万美元的头寸拆成无数个小批次逐步进出，还要承担高昂的手续费。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>散户就像丛林里的灵活游击队&lt;/strong>：
+&lt;ul>
+&lt;li>规模小、掉头快、无滑点顾虑；&lt;/li>
+&lt;li>可以在 1 根 K 线内精准入场，在下一根 K 线迅速获利了结，冲洗、重复。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>散户不需要去预测未来几天的宏观走势，也不需要去硬抗大资金的波动。&lt;strong>看清大卡车的掉头方向，在它启动时搭一段顺风车，然后迅速跳车离场&lt;/strong>，这就是零售交易者的最大生存法则。&lt;/p>
+&lt;h2 id="4-prop-firm-考核的本质带几发子弹上战场">4. Prop Firm 考核的本质：带几发子弹上战场&lt;/h2>
+&lt;p>Rose 早期在做市商/自营交易公司（Prop Firm）也经历过反复爆仓。她直言不讳地指出很多人考不过 PF 的核心原因：&lt;/p>
+&lt;h3 id="为什么大部分人-pf-考核总失败">为什么大部分人 PF 考核总失败？&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>把考核当成了长期全天候交易&lt;/strong>：每天在电脑前坐几个小时反复开单，过度交易（Overtrading）；&lt;/li>
+&lt;li>&lt;strong>幻想一天刷完考题&lt;/strong>：急于求成，用重仓去赌单日通过，结果几天内就把账户打炸；&lt;/li>
+&lt;li>&lt;strong>忽视了严格风控规则&lt;/strong>：平台有严苛的回撤限制，随意开单就是在给平台送报名费。&lt;/li>
+&lt;/ul>
+&lt;h3 id="rose-的-pf-通关与提现心法">Rose 的 PF 通关与提现心法&lt;/h3>
+&lt;ol>
+&lt;li>&lt;strong>像进入战场一样珍惜子弹&lt;/strong>：
+&lt;blockquote>
+&lt;p>“你只有几发子弹可用。每天进去做 1–2 笔高质量交易，达成目标就平仓退出，明天再来。”&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>&lt;strong>主动将目标拆解到 10–15 天&lt;/strong>：
+&lt;ul>
+&lt;li>如果一个大账户需要考过，不要指望一两天暴击完成；&lt;/li>
+&lt;li>制定每天稳定赚取固定点数/金额（如每天 $1,500–$2,000）的计划，养成极其规律的纪律性；&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>考核阶段养成的习惯决定了出金表现&lt;/strong>：
+&lt;ul>
+&lt;li>在评估阶段如果靠赌博运气过关，进入出金阶段后 2–3 天内必然爆仓；&lt;/li>
+&lt;li>只有在考核期间建立起「做完即走、绝不过度交易」的肌肉记忆，在出金号阶段才能稳定提现。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>PF 的终极定位：提款给实盘供血&lt;/strong>：
+&lt;ul>
+&lt;li>永远不要把 PF 账户当成终身雇佣，平台随时可能收紧规则或限制；&lt;/li>
+&lt;li>&lt;strong>正确的路径是：利用 PF 提供的无风险杠杆资金，按纪律稳定提款，把提出来的现金存入自己的实盘账户，最终在自己的实盘账户里按自己的规则自由交易&lt;/strong>。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="总结">总结&lt;/h2>
+&lt;p>这场访谈没有炫耀什么神秘指标或暴富秘籍，全都是经过 8 年全职高强度实战沉淀下来的常识：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>看懂市场语言&lt;/strong>：分清当前是止损单市场（趋势）还是限价单市场（震荡），别在震荡区间追大阳线；&lt;/li>
+&lt;li>&lt;strong>吃透交易区间&lt;/strong>：市场 80% 时间在震荡，学会识别狭窄平衡区和机构建仓痕迹；&lt;/li>
+&lt;li>&lt;strong>利用散户优势&lt;/strong>：小仓位、快进快出，做灵活穿梭的游击队；&lt;/li>
+&lt;li>&lt;strong>打 PF 要克制&lt;/strong>：带几发子弹上战场，每天 1–2 笔高质量交易，拆解天数，把 PF 当成给个人实盘积累第一桶金的提款机。&lt;/li>
+&lt;/ol></description></item><item><title>新手如何上手自营交易（Prop Firm）：FundedNext 保姆级开户与配置指南</title><link>https://blog.forecho.com/fundednext-prop-firm-beginner-guide.html</link><pubDate>Thu, 27 Aug 2026 01:30:00 +0800</pubDate><guid>https://blog.forecho.com/fundednext-prop-firm-beginner-guide.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
 &lt;p>很多刚接触期货自营交易（Prop Firm / PF）的新手，经常在第一步就被各种英文术语、账户类型和平台登录给搞懵了。&lt;/p>
 &lt;p>自营交易简单来说，就是你花几十美元买一个考核账号，用平台提供的模拟资金在真实市场里交易。只要达成目标且不触碰最大回撤，就能通过考核并拿到出金分成。它最大的好处是用有限的报名费换取杠杆，避免一开始就拿几千上万刀的自有资金去实盘交学费。&lt;/p>
 &lt;p>市面上的 PF 平台很多，这篇文章专门针对完全没操作过的新手，以目前规则相对友好、没有月费的 &lt;strong>FundedNext&lt;/strong> 为例，把从选号、5 折优惠购买，到获取密码并绑定登录 Tradovate 的完整流程一步步走一遍。&lt;/p>
@@ -2311,174 +2416,6 @@ imgant upload ./my-image.png --format markdown
 &lt;h2 id="参考链接">参考链接&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://blog.forecho.com/first-reversal-and-first-pullback.html">1Rev 与 1PB：开盘后最重要的两类机会&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://blog.forecho.com/how-to-read-the-open-first-30-minutes.html">开盘 30 分钟怎么读盘：跳空、第一根 K 线与当天主方向&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://blog.forecho.com/a2-1pb-1rev-trading-playbook.html">A2、1PB、1Rev 实战手册：怎么入场，止损放哪，什么情况直接放弃&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>1Rev 与 1PB：开盘后最重要的两类机会</title><link>https://blog.forecho.com/first-reversal-and-first-pullback.html</link><pubDate>Tue, 31 Mar 2026 22:05:00 +0800</pubDate><guid>https://blog.forecho.com/first-reversal-and-first-pullback.html</guid><description>&lt;h2 id="系列导航">系列导航&lt;/h2>
-&lt;p>这一组文章建议按顺序阅读：&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://blog.forecho.com/how-to-read-the-open-first-30-minutes.html">开盘 30 分钟怎么读盘：跳空、第一根 K 线与当天主方向&lt;/a>&lt;/li>
-&lt;li>&lt;strong>1Rev 与 1PB：开盘后最重要的两类机会（当前）&lt;/strong>&lt;/li>
-&lt;li>&lt;a href="https://blog.forecho.com/what-is-a2-price-action-setup.html">A2 是什么：最值得先练的价格行为 setup&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://blog.forecho.com/most-breakouts-fail-trading-range-playbook.html">大多数突破都会失败：区间行情里值得做的机会&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://blog.forecho.com/trend-day-hard-trend-soft-trend-playbook.html">趋势日怎么做：硬趋势、软趋势与 Spike and Channel&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://blog.forecho.com/why-you-still-cant-make-money-even-if-you-read-the-market-right.html">为什么你看对了方向，还是赚不到钱&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>开盘后最诱人的机会，通常是第一波方向切换。&lt;/p>
-&lt;p>如果抓对了，位置很好，止损也自然，后面可能就是当天最舒服的一段。但这个 setup 也很容易把人骗进去：你看到的那根反向 K 线，很多时候只是原趋势里的普通 pullback。&lt;/p>
-&lt;p>我现在看 &lt;code>1Rev&lt;/code> 和 &lt;code>1PB&lt;/code>，会先把它们放在同一条线上理解：&lt;/p>
-&lt;ul>
-&lt;li>&lt;code>1Rev&lt;/code>：开盘后第一次有机会改变主导方向的反转；&lt;/li>
-&lt;li>&lt;code>1PB&lt;/code>：新方向初步成立后，第一次顺着新方向的回调。&lt;/li>
-&lt;/ul>
-&lt;p>&lt;code>1Rev&lt;/code> 更早，&lt;code>1PB&lt;/code> 更稳。这个取舍，比定义本身更重要。&lt;/p>
-&lt;h2 id="先看开盘背景">先看开盘背景&lt;/h2>
-&lt;p>&lt;code>1Rev / 1PB&lt;/code> 很容易被做成图形识别题。&lt;/p>
-&lt;p>看到一根反向 K 线，就想叫 &lt;code>1Rev&lt;/code>；看到一次回调，就想叫 &lt;code>1PB&lt;/code>。这样做很危险。&lt;/p>
-&lt;p>我会先问几个更基础的问题：&lt;/p>
-&lt;ul>
-&lt;li>开盘有没有先走出一段初始趋势？&lt;/li>
-&lt;li>今天的 gap 更像回补，还是扩张？&lt;/li>
-&lt;li>前两根 K 线更像 opening trend，还是 opening range？&lt;/li>
-&lt;li>当前价格在关键位置，还是在中间随便晃？&lt;/li>
-&lt;/ul>
-&lt;p>这些问题没回答清楚，后面的名字都容易喊错。&lt;/p>
-&lt;h2 id="什么才算-1rev">什么才算 1Rev&lt;/h2>
-&lt;p>&lt;code>1Rev&lt;/code> 的前提是：前面已经有一段值得被反的走势。&lt;/p>
-&lt;p>如果开盘后一直在小范围里乱穿，第一根 K 线高低点被来回突破，K 线重叠很严重，这种环境更像 opening range。这个阶段出现反向 bar，我会先当区间波动看。&lt;/p>
-&lt;p>能考虑 &lt;code>1Rev&lt;/code> 的背景，一般长这样：&lt;/p>
-&lt;ul>
-&lt;li>前几根 K 线明显朝一个方向推进；&lt;/li>
-&lt;li>开盘区间被打破，价格已经离开原来的区域；&lt;/li>
-&lt;li>gap 方向先走了一段，随后开始显出衰竭；&lt;/li>
-&lt;li>市场第一次给出像样的反向信号。&lt;/li>
-&lt;/ul>
-&lt;p>一句交易纪律可以这么写：先有初始趋势，再谈第一次反转。&lt;/p>
-&lt;h2 id="高质量-1rev-的样子">高质量 1Rev 的样子&lt;/h2>
-&lt;p>我会看三层。&lt;/p>
-&lt;h3 id="gap-背景">Gap 背景&lt;/h3>
-&lt;p>gap 更像要回补时，&lt;code>1Rev&lt;/code> 的质量会提高。&lt;/p>
-&lt;p>比如高开以后，开盘第一波上冲没有持续性，回补缺口的动作越来越明显，这时候第一波反转就值得认真看。&lt;/p>
-&lt;p>gap 还在强势扩张时，反向信号要更谨慎。很多看起来像 &lt;code>1Rev&lt;/code> 的东西，实际只是顺势行情里的 pullback。&lt;/p>
-&lt;h3 id="位置">位置&lt;/h3>
-&lt;p>反转必须发生在说得通的位置。&lt;/p>
-&lt;p>常见位置包括：&lt;/p>
-&lt;ul>
-&lt;li>开盘区间边界；&lt;/li>
-&lt;li>前一天高低点附近；&lt;/li>
-&lt;li>缺口回补相关位置；&lt;/li>
-&lt;li>第一波走势明显衰竭之后；&lt;/li>
-&lt;li>趋势线或均线附近的失败延续。&lt;/li>
-&lt;/ul>
-&lt;p>位置很差时，信号棒再漂亮，我也会降级处理。&lt;/p>
-&lt;h3 id="follow-through">Follow-through&lt;/h3>
-&lt;p>&lt;code>1Rev&lt;/code> 需要后续确认。&lt;/p>
-&lt;p>好的 &lt;code>1Rev&lt;/code> 后面要有跟进。比如反转后价格能继续离开原趋势方向，或者第一次回调守住结构。只有一根反向 bar，后面马上又被打回去，这种单子很容易做得很难受。&lt;/p>
-&lt;h2 id="1rev-怎么进">1Rev 怎么进&lt;/h2>
-&lt;p>入场规则保持简单：&lt;/p>
-&lt;ul>
-&lt;li>做多，突破多头信号棒高点；&lt;/li>
-&lt;li>做空，跌破空头信号棒低点。&lt;/li>
-&lt;/ul>
-&lt;p>规则简单，过滤要严格。&lt;/p>
-&lt;p>我会放弃这些 &lt;code>1Rev&lt;/code>：&lt;/p>
-&lt;ul>
-&lt;li>前面没有初始趋势；&lt;/li>
-&lt;li>位置在区间中间；&lt;/li>
-&lt;li>信号棒是 doji 或长影线；&lt;/li>
-&lt;li>前一段趋势还很强；&lt;/li>
-&lt;li>止损放到结构外以后，风险太大。&lt;/li>
-&lt;/ul>
-&lt;p>&lt;code>1Rev&lt;/code> 的优势是早，代价是确认少。背景不清楚时，等 &lt;code>1PB&lt;/code> 更适合。&lt;/p>
-&lt;h2 id="1pb-为什么更适合多数人">1PB 为什么更适合多数人&lt;/h2>
-&lt;p>&lt;code>1PB&lt;/code> 的逻辑更舒服。&lt;/p>
-&lt;p>市场先尝试换方向，再给第一次回调。你等这次回调结束，顺着新方向进。&lt;/p>
-&lt;p>这比抢 &lt;code>1Rev&lt;/code> 少了一层猜测。你不需要在最早的位置证明自己，只需要等市场先给一点答案。&lt;/p>
-&lt;p>做多时，&lt;code>1PB&lt;/code> 可以理解成新方向里的第一个像样 &lt;code>HL&lt;/code>；做空时，就是第一个像样 &lt;code>LH&lt;/code>。&lt;/p>
-&lt;p>我很喜欢这条纪律：&lt;/p>
-&lt;blockquote>
-&lt;p>多头反转之后，只买第一个 HL；空头反转之后，只做第一个 LH。&lt;/p>
-&lt;/blockquote>
-&lt;p>这条规则很朴素，但能挡掉很多早盘冲动。&lt;/p>
-&lt;h2 id="什么样的-1pb-更好">什么样的 1PB 更好&lt;/h2>
-&lt;h3 id="回调要有结构">回调要有结构&lt;/h3>
-&lt;p>浅得离谱的回调，经常很难放止损，也很容易被扫。&lt;/p>
-&lt;p>我更喜欢稍微深一点、结构更完整的 &lt;code>1PB&lt;/code>。这种回调通常止损更自然，后面拿 swing 也舒服一点。&lt;/p>
-&lt;h3 id="信号棒要能执行">信号棒要能执行&lt;/h3>
-&lt;p>&lt;code>1PB&lt;/code> 的背景好，也不能完全忽略信号棒。&lt;/p>
-&lt;p>我会避开这些信号：&lt;/p>
-&lt;ul>
-&lt;li>doji；&lt;/li>
-&lt;li>outside bar；&lt;/li>
-&lt;li>重叠太多；&lt;/li>
-&lt;li>收盘不强；&lt;/li>
-&lt;li>离关键位置太远。&lt;/li>
-&lt;/ul>
-&lt;p>结构是方向，信号棒是执行。两边都太勉强，就等下一次。&lt;/p>
-&lt;h3 id="不要把普通-pullback-叫-1pb">不要把普通 pullback 叫 1PB&lt;/h3>
-&lt;p>&lt;code>1PB&lt;/code> 前面要有新方向的初步成立。&lt;/p>
-&lt;p>如果原趋势很强，只是中途回了一下，那它大概率只是普通 pullback。把这种回调叫 &lt;code>1PB&lt;/code>，容易在趋势中间反着做。&lt;/p>
-&lt;h2 id="止损和出场">止损和出场&lt;/h2>
-&lt;p>止损还是放在结构外：&lt;/p>
-&lt;ul>
-&lt;li>做多，放在信号棒低点下方；&lt;/li>
-&lt;li>做空，放在信号棒高点上方。&lt;/li>
-&lt;/ul>
-&lt;p>开盘阶段波动大，&lt;code>1Rev / 1PB&lt;/code> 往往需要比普通小 setup 多一点空间。这个空间要来自结构，不要来自硬扛。&lt;/p>
-&lt;p>出场我会用三种方式：&lt;/p>
-&lt;ul>
-&lt;li>先拿一部分，比如 &lt;code>+2 points&lt;/code>；&lt;/li>
-&lt;li>剩余仓位移到保本；&lt;/li>
-&lt;li>背景强时保留 runner，给它走出波段的机会。&lt;/li>
-&lt;/ul>
-&lt;p>&lt;code>1Rev / 1PB&lt;/code> 做对时，常常不该只拿一点点。尤其是强背景下的 &lt;code>1PB&lt;/code>，它本来就有资格成为当天主要波段入场。&lt;/p>
-&lt;h2 id="什么时候做-1rev什么时候等-1pb">什么时候做 1Rev，什么时候等 1PB&lt;/h2>
-&lt;p>我会更愿意做 &lt;code>1Rev&lt;/code> 的情况：&lt;/p>
-&lt;ul>
-&lt;li>开盘背景很清楚；&lt;/li>
-&lt;li>gap 更像要回补；&lt;/li>
-&lt;li>初始趋势已经走了一段；&lt;/li>
-&lt;li>第一波开始衰竭；&lt;/li>
-&lt;li>反转位置漂亮；&lt;/li>
-&lt;li>我当天状态比较冷静。&lt;/li>
-&lt;/ul>
-&lt;p>我会更愿意等 &lt;code>1PB&lt;/code> 的情况：&lt;/p>
-&lt;ul>
-&lt;li>背景还没完全清楚；&lt;/li>
-&lt;li>&lt;code>1Rev&lt;/code> 信号棒一般；&lt;/li>
-&lt;li>初始趋势很强，反向信号容易只是 pullback；&lt;/li>
-&lt;li>我想降低交易难度；&lt;/li>
-&lt;li>我已经错过最早那一下。&lt;/li>
-&lt;/ul>
-&lt;p>对大多数交易者来说，&lt;code>1PB&lt;/code> 更容易稳定执行。早一点有早一点的优势，清楚一点有清楚一点的价值。&lt;/p>
-&lt;h2 id="下单前我会问">下单前我会问&lt;/h2>
-&lt;ul>
-&lt;li>开盘后有没有初始趋势？&lt;/li>
-&lt;li>当前反向动作是在关键位置发生的吗？&lt;/li>
-&lt;li>gap 背景支持回补，还是继续扩张？&lt;/li>
-&lt;li>这根信号棒能不能执行？&lt;/li>
-&lt;li>做 &lt;code>1Rev&lt;/code> 时，我是否在抢太早？&lt;/li>
-&lt;li>做 &lt;code>1PB&lt;/code> 时，这是否属于新方向后的第一次像样回调？&lt;/li>
-&lt;li>止损放在结构外以后，风险合不合理？&lt;/li>
-&lt;li>这笔单有没有资格留 runner？&lt;/li>
-&lt;/ul>
-&lt;h2 id="我会避开的坑">我会避开的坑&lt;/h2>
-&lt;h3 id="第一根反向-bar-就当-1rev">第一根反向 bar 就当 1Rev&lt;/h3>
-&lt;p>前面要先有一段方向推进。开盘区间里来回震，很多反向 bar 都只是区间波动。&lt;/p>
-&lt;h3 id="背景不清楚也抢-1rev">背景不清楚也抢 1Rev&lt;/h3>
-&lt;p>这种时候等 &lt;code>1PB&lt;/code>。让市场先证明一点，你再做第一次回调。&lt;/p>
-&lt;h3 id="1pb-太浅也硬做">1PB 太浅也硬做&lt;/h3>
-&lt;p>第一回调也要看质量。回得太浅、止损不好放、信号棒很弱时，放弃会更舒服。&lt;/p>
-&lt;h3 id="只看结构不看信号棒">只看结构，不看信号棒&lt;/h3>
-&lt;p>结构决定方向，信号棒决定执行。好结构配烂信号，做起来经常别扭。&lt;/p>
-&lt;h3 id="波段位置拿成小-scalp">波段位置拿成小 scalp&lt;/h3>
-&lt;p>高质量 &lt;code>1PB&lt;/code> 或强背景下的 &lt;code>1Rev&lt;/code>，至少留一部分仓位。先落袋一点，再给 runner 空间。&lt;/p>
-&lt;h2 id="最后">最后&lt;/h2>
-&lt;p>&lt;code>1Rev&lt;/code> 和 &lt;code>1PB&lt;/code> 解决的是开盘后方向切换的问题。&lt;/p>
-&lt;p>&lt;code>1Rev&lt;/code> 抢的是早，&lt;code>1PB&lt;/code> 买的是确认。刚开始练的时候，我更建议把重心放在 &lt;code>1PB&lt;/code> 上：少一点抢最早，多一点等清楚。&lt;/p>
-&lt;p>我的建议是：先用开盘背景过滤，再用位置和信号棒决定执行。背景不配合，再漂亮的名字也没用。&lt;/p>
-&lt;h2 id="参考链接">参考链接&lt;/h2>
-&lt;ul>
 &lt;li>&lt;a href="https://blog.forecho.com/how-to-read-the-open-first-30-minutes.html">开盘 30 分钟怎么读盘：跳空、第一根 K 线与当天主方向&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://blog.forecho.com/a2-1pb-1rev-trading-playbook.html">A2、1PB、1Rev 实战手册：怎么入场，止损放哪，什么情况直接放弃&lt;/a>&lt;/li>
 &lt;/ul></description></item></channel></rss>

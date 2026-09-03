@@ -1,4 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on forecho's Blog</title><link>https://blog.forecho.com/posts.html</link><description>Recent content in Posts on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 27 Aug 2026 01:30:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/posts/atom.xml" rel="self" type="application/rss+xml"/><item><title>新手如何上手自营交易（Prop Firm）：FundedNext 保姆级开户与配置指南</title><link>https://blog.forecho.com/fundednext-prop-firm-beginner-guide.html</link><pubDate>Thu, 27 Aug 2026 01:30:00 +0800</pubDate><guid>https://blog.forecho.com/fundednext-prop-firm-beginner-guide.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on forecho's Blog</title><link>https://blog.forecho.com/posts.html</link><description>Recent content in Posts on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 03 Sep 2026 10:00:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/posts/atom.xml" rel="self" type="application/rss+xml"/><item><title>Al Brooks 团队交易员 Rose 访谈复盘：震荡区间的本质、散户优势与 PF 考核法则</title><link>https://blog.forecho.com/al-brooks-team-trader-rose-interview-insights.html</link><pubDate>Thu, 03 Sep 2026 10:00:00 +0800</pubDate><guid>https://blog.forecho.com/al-brooks-team-trader-rose-interview-insights.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>前几天看到了一期专访视频，嘉宾是 Al Brooks（阿布）团队的全职交易员兼直播交易员 &lt;strong>Rose&lt;/strong>（她也是知名交易员 Tom Hougaard 极力推崇的搭档之一）。&lt;/p>
+&lt;p>整个访谈刨去前后的活动寒暄和洛杉矶闲聊，干货非常密集。Rose 从设计和艺术背景转行做交易，经历了亏损、重新学习、在 Al Brooks 团队全职交易 8 年，每天只盯标普 500（ES）5 分钟 K 线图。&lt;/p>
+&lt;p>她在访谈里分享了三个非常核心的交易认知：&lt;strong>为什么市场 80% 的时间是震荡区间（以及如何用限价单思维交易它）&lt;/strong>、&lt;strong>散户对比机构的真正军事实时优势&lt;/strong>，以及&lt;strong>作为过来人，她如何打通 Prop Firm（自营交易公司）考核并实现提现&lt;/strong>。&lt;/p>
+&lt;p>我把其中最有价值的交易逻辑和方法论系统整理了出来。&lt;/p></description></item><item><title>新手如何上手自营交易（Prop Firm）：FundedNext 保姆级开户与配置指南</title><link>https://blog.forecho.com/fundednext-prop-firm-beginner-guide.html</link><pubDate>Thu, 27 Aug 2026 01:30:00 +0800</pubDate><guid>https://blog.forecho.com/fundednext-prop-firm-beginner-guide.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
 &lt;p>很多刚接触期货自营交易（Prop Firm / PF）的新手，经常在第一步就被各种英文术语、账户类型和平台登录给搞懵了。&lt;/p>
 &lt;p>自营交易简单来说，就是你花几十美元买一个考核账号，用平台提供的模拟资金在真实市场里交易。只要达成目标且不触碰最大回撤，就能通过考核并拿到出金分成。它最大的好处是用有限的报名费换取杠杆，避免一开始就拿几千上万刀的自有资金去实盘交学费。&lt;/p>
 &lt;p>市面上的 PF 平台很多，这篇文章专门针对完全没操作过的新手，以目前规则相对友好、没有月费的 &lt;strong>FundedNext&lt;/strong> 为例，把从选号、5 折优惠购买，到获取密码并绑定登录 Tradovate 的完整流程一步步走一遍。&lt;/p></description></item><item><title>玩了 1 年半 Prop Firm，我才搞懂考试号和出金号的玩法</title><link>https://blog.forecho.com/prop-firm-evaluation-and-funded-account-strategy.html</link><pubDate>Thu, 27 Aug 2026 01:00:00 +0800</pubDate><guid>https://blog.forecho.com/prop-firm-evaluation-and-funded-account-strategy.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
@@ -115,22 +119,4 @@
 &lt;p>如果只能选一个价格行为 setup 反复练，我会选 &lt;code>A2&lt;/code>。&lt;/p>
 &lt;p>理由很简单：它够老实。趋势先走出来，价格回调两腿，回到均线或趋势线附近，然后重新顺着原方向恢复。你做的是顺势延续，交易难度比猜顶猜底低很多。&lt;/p>
 &lt;p>A2 最容易被做坏的地方也在这一点。很多人看到“两腿”就下单，离均线很远也硬做，趋势已经钝了还不愿意承认。&lt;/p>
-&lt;p>所以 A2 的重点从来都在位置：这一下是否还值得顺势。&lt;/p></description></item><item><title>1Rev 与 1PB：开盘后最重要的两类机会</title><link>https://blog.forecho.com/first-reversal-and-first-pullback.html</link><pubDate>Tue, 31 Mar 2026 22:05:00 +0800</pubDate><guid>https://blog.forecho.com/first-reversal-and-first-pullback.html</guid><description>&lt;h2 id="系列导航">系列导航&lt;/h2>
-&lt;p>这一组文章建议按顺序阅读：&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://blog.forecho.com/how-to-read-the-open-first-30-minutes.html">开盘 30 分钟怎么读盘：跳空、第一根 K 线与当天主方向&lt;/a>&lt;/li>
-&lt;li>&lt;strong>1Rev 与 1PB：开盘后最重要的两类机会（当前）&lt;/strong>&lt;/li>
-&lt;li>&lt;a href="https://blog.forecho.com/what-is-a2-price-action-setup.html">A2 是什么：最值得先练的价格行为 setup&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://blog.forecho.com/most-breakouts-fail-trading-range-playbook.html">大多数突破都会失败：区间行情里值得做的机会&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://blog.forecho.com/trend-day-hard-trend-soft-trend-playbook.html">趋势日怎么做：硬趋势、软趋势与 Spike and Channel&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://blog.forecho.com/why-you-still-cant-make-money-even-if-you-read-the-market-right.html">为什么你看对了方向，还是赚不到钱&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>开盘后最诱人的机会，通常是第一波方向切换。&lt;/p>
-&lt;p>如果抓对了，位置很好，止损也自然，后面可能就是当天最舒服的一段。但这个 setup 也很容易把人骗进去：你看到的那根反向 K 线，很多时候只是原趋势里的普通 pullback。&lt;/p>
-&lt;p>我现在看 &lt;code>1Rev&lt;/code> 和 &lt;code>1PB&lt;/code>，会先把它们放在同一条线上理解：&lt;/p>
-&lt;ul>
-&lt;li>&lt;code>1Rev&lt;/code>：开盘后第一次有机会改变主导方向的反转；&lt;/li>
-&lt;li>&lt;code>1PB&lt;/code>：新方向初步成立后，第一次顺着新方向的回调。&lt;/li>
-&lt;/ul>
-&lt;p>&lt;code>1Rev&lt;/code> 更早，&lt;code>1PB&lt;/code> 更稳。这个取舍，比定义本身更重要。&lt;/p></description></item></channel></rss>
+&lt;p>所以 A2 的重点从来都在位置：这一下是否还值得顺势。&lt;/p></description></item></channel></rss>
