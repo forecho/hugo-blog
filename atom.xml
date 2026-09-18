@@ -1,4 +1,158 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 03 Sep 2026 10:00:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>Al Brooks 团队交易员 Rose 访谈复盘：震荡区间的本质、散户优势与 PF 考核法则</title><link>https://blog.forecho.com/al-brooks-team-trader-rose-interview-insights.html</link><pubDate>Thu, 03 Sep 2026 10:00:00 +0800</pubDate><guid>https://blog.forecho.com/al-brooks-team-trader-rose-interview-insights.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 18 Sep 2026 16:00:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>Al Brooks：10 个最佳价格行为交易形态（全解析与中文图解）</title><link>https://blog.forecho.com/10-best-price-action-trading-patterns.html</link><pubDate>Fri, 18 Sep 2026 16:00:00 +0800</pubDate><guid>https://blog.forecho.com/10-best-price-action-trading-patterns.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>&lt;img src="https://r2.imgant.com/2026/09/18/1888ac5e.png" alt="不要祈求轻松的生活，祈求成为更坚强的人">&lt;/p>
+&lt;p>这 &lt;strong>10 个最佳价格行为交易形态（10 Best Price Action Trading Patterns）&lt;/strong> 是 Al Brooks 最青睐的形态。成功的交易员每天都在运用这些形态从市场中获利。在实际应用中要保持灵活，因为每个形态都有许多变体。只要你对所有可能性保持开放的心态，就会在每个交易日、任何市场以及各种时间周期上不断看到它们的身影。&lt;/p>
+&lt;p>那么，对于波段交易（Swing Trading）还是剥头皮（Scalping），哪种形态才是最好的？外汇市场适用哪种？对于日内交易者或大宗商品交易者又该选哪种？&lt;/p>
+&lt;p>答案是：&lt;strong>这并不重要&lt;/strong>。因为任何形态都有可能成为「最佳形态」，这完全取决于当前摆在你面前的图表走势。&lt;/p>
+&lt;p>不仅如此，图表上有时会同时出现多个形态。例如：价格可能在等长测算目标位（Measured Move）处对多头通道发生假突破，而这次突破最初可能源自一个三角形。有些交易员会称其为「最终旗形反转（Final Flag Reversal）」，另一些人可能会视其为「主要趋势反转（Major Trend Reversal, MTR）」，还有人则会把焦点放在「通道假突破」上。&lt;/p>
+&lt;p>核心关键在于：&lt;strong>深刻理解这些价格行为形态背后的市场力量&lt;/strong>，并在形态展现出来时，做好入场交易的准备。&lt;/p>
+&lt;hr>
+&lt;h2 id="1-主要趋势反转major-trend-reversals-mtr">1. 主要趋势反转（Major Trend Reversals, MTR）&lt;/h2>
+&lt;p>多头趋势是由一系列「更高的高点（HH）」和「更高的低点（HL）」构成的，而空头趋势则是由一系列「更低的高点（LH）」和「更低的低点（LL）」构成的。交易主要趋势反转形态，本质上是在尝试&lt;strong>于新趋势启动之初进场&lt;/strong>，期望后续能走出一段连续顺延的新趋势波段。&lt;/p>
+&lt;p>由于交易者在新趋势完全明朗之前就尝试进场，因此即便是形态极其漂亮的设置，其初期的胜率通常也只有 &lt;strong>40% 左右&lt;/strong>。这类交易者追求的是低风险（较窄的止损空间），但低风险几乎总是伴随着相对较低的胜率。在交易数学期望上，这种早期入场的交易者，与等待强突破走明朗后再入场的交易者，两者都是划算的。&lt;/p>
+&lt;p>主要趋势反转的核心要素包括：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>已有一段清晰的趋势&lt;/strong>；&lt;/li>
+&lt;li>&lt;strong>出现突破原有趋势通道线的回调（Pullback）&lt;/strong>；&lt;/li>
+&lt;li>&lt;strong>原趋势再度恢复并尝试突破&lt;/strong>；&lt;/li>
+&lt;li>&lt;strong>出现第 2 次深度回调，并逐渐演化为反向新趋势&lt;/strong>。&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="https://r2.imgant.com/2026/09/18/195a9c95.png" alt="窄幅空头通道：次级反转引发主要趋势反转">
+&lt;em>图 1：突破极窄空头通道的第 1 次反弹通常是次级反转（Minor Reversal）。但第 2 次反转就有 40% 的概率演变成主要趋势反转（如上图）。在收盘接近最高价的阳线上方买入（绿色框）。&lt;/em>&lt;/p>
+&lt;p>&lt;img src="https://r2.imgant.com/2026/09/18/19ff9156.png" alt="更高高点主要反转常导致更低高点主要反转">
+&lt;em>图 2：从多头旗形（此处为三角形）向上突破后的向下反转，通常形成更高高点主要趋势反转（HH MTR）。在收盘接近最低价的阴线下方做空。更高高点反转之后，往往紧接着出现更低高点主要趋势反转（LH MTR）。空头趋势中存在多次做空机会（红色框）。&lt;/em>&lt;/p>
+&lt;p>&lt;img src="https://r2.imgant.com/2026/09/18/1a907db1.png" alt="发散三角形底：更低低点主要趋势反转的一种变体">
+&lt;em>图 3：图表中间出现了一波强劲的向上反弹，但空头随后再次打出了一个新低。有时新低仅仅是强劲反弹之后的一波深幅回调。每一个发散三角形底（Expanding Triangle Bottom），本质上都是更低低点主要趋势反转（LL MTR）。&lt;/em>&lt;/p>
+&lt;hr>
+&lt;h2 id="2-最终旗形final-flags">2. 最终旗形（Final Flags）&lt;/h2>
+&lt;p>最终旗形的组成要素包括：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>处于明确趋势中&lt;/strong>；&lt;/li>
+&lt;li>&lt;strong>出现通常以水平横盘为主的回调&lt;/strong>（有时甚至短至仅有 1 根 K 线）；&lt;/li>
+&lt;li>&lt;strong>趋势通常已经逼近某个关键磁吸位&lt;/strong>（多头趋势中的阻力位，空头趋势中的支撑位）；&lt;/li>
+&lt;li>&lt;strong>往往伴随其他潜在反转信号&lt;/strong>（例如在多头趋势中，通道顶部附近抛压不断积聚）。&lt;/li>
+&lt;/ul>
+&lt;p>最终旗形是一种&lt;strong>最初表现为顺势延续形态、最终却演变为趋势反转&lt;/strong>的结构。交易者通常预期这次顺势延续会以失败告终，并随时准备反向交易。&lt;/p>
+&lt;p>与所有趋势反转一样，单次博弈波段（Swing）的概率通常只有大约 &lt;strong>40%&lt;/strong>。Al Brooks 的常规波段目标是「&lt;strong>10 根 K 线、2 条腿（10 Bars 2 Legs, TBTL）&lt;/strong>」，即预期反转行情至少持续 10 根 K 线且包含两波推动。波段交易还要求潜在盈亏比至少达到 2:1（即潜在回报至少是风险止损的 2 倍）。&lt;/p>
+&lt;p>在这类交易中，约 60% 的交易最终是微利或小亏相互抵消。想要更高胜率的交易者，通常会等待反转出现朝新方向的强势大阳/大阴线突破后再进场。在那个时刻，波段交易的胜率往往能升至 60% 以上，但此时防守止损点也变得更远。&lt;/p>
+&lt;p>这种风险承受的增加正是市场的权衡之道（Trade-off）。任何一笔交易，站在你对手盘的大资金机构必然也需要有利可图。如果你想要极高的胜率，就必须承受更宽的止损空间与相对更低的盈亏比。&lt;/p>
+&lt;p>&lt;img src="https://r2.imgant.com/2026/09/18/1b2c23ea.png" alt="最终空头旗形：更低低点主要趋势反转">
+&lt;em>图 4：空头趋势尾声出现的窄幅震荡区间（Tight Trading Range），往往会成为最终空头旗形（Final Bear Flag）。交易者会等待价格向下假突破后向上反转进场。&lt;/em>&lt;/p>
+&lt;p>&lt;img src="https://r2.imgant.com/2026/09/18/1baecd2e.png" alt="多头趋势尾声的三角形：最终多头旗形">
+&lt;em>图 5：三角形本质上是一种窄幅震荡区间。当它出现在多头趋势的晚期阶段时，通常会充当最终多头旗形（Final Bull Flag）。&lt;/em>&lt;/p>
+&lt;hr>
+&lt;h2 id="3-突破breakouts">3. 突破（Breakouts）&lt;/h2>
+&lt;p>突破什么？突破任何支撑或阻力位。这其实并不重要。&lt;/p>
+&lt;p>&lt;strong>图表上的每一根趋势 K 线（Trend Bar），本质上都是对某种结构的突破&lt;/strong>——即便它仅仅突破了前一根 K线 的高点或低点。随着看盘经验的积累，交易者自然能看清价格真正突破的是什么关键位置。&lt;/p>
+&lt;p>最常见的突破标的包括：&lt;strong>震荡区间、回调形态、前期高低点、趋势线、通道以及移动平均线（EMA）&lt;/strong>。有时候，交易者需要切换到更高的时间周期才能看清突破的形态。&lt;/p>
+&lt;p>在这 10 个最佳价格行为形态中，&lt;strong>突破形态是 Al Brooks 最喜欢的&lt;/strong>，因为追求高胜率的交易机会。&lt;/p>
+&lt;p>&lt;img src="https://r2.imgant.com/2026/09/18/1c46d2fa.png" alt="突破：趋势K线收在支撑或阻力位之外">
+&lt;em>图 6：突破本质上就是一根向上或向下的趋势 K 线。突破必然收在至少是次级支撑或阻力位之外。K 线的实体越大、所突破的支撑/阻力位越重要，趋势延续更长一段时间的可能性就越高。&lt;/em>&lt;/p>
+&lt;hr>
+&lt;h2 id="4-high-2-多头旗形与-low-2-空头旗形">4. High 2 多头旗形与 Low 2 空头旗形&lt;/h2>
+&lt;p>许多交易者觉得数 K 线（Bar Counting）令人困惑，因为他们总希望一切都如教科书般完美严谨。但他们不明白的是：&lt;strong>市场的目的本身就是制造困惑&lt;/strong>。&lt;/p>
+&lt;p>市场希望在多空双方都认为价格公允的水平上停留尽可能长的时间，从而促成流动性交易——这也是市场存在的根本意义。&lt;/p>
+&lt;p>这两类旗形的基本逻辑是：&lt;strong>市场往往会尝试反转趋势两次，从而走出两条腿（Two Legs）&lt;/strong>。如果这两次反转尝试都失败了，市场通常就会转向原有趋势的方向。既然原趋势正在恢复，逆势交易者就会意识到自己被套陷入麻烦，一旦第二次反弹/回踩尝试失败，他们就会迅速割肉离场。&lt;/p>
+&lt;p>不仅如此，逆势方短时间内也不敢再次尝试逆势接刀。这就创造出高胜率的顺势延续形态，行情往往启动迅速。交易者通常用此设置进行剥头皮短线交易，但在顺势动能充沛时，也可以留底仓博弈大波段。&lt;/p>
+&lt;p>这类形态往往具有嵌套性（Nested），在两条大腿内部常常各自孕育着更小级别的形态。无论你在大级别还是小级别的形态上进场，只要设置合理的波段防守止损即可。&lt;/p>
+&lt;p>&lt;img src="https://r2.imgant.com/2026/09/18/1d025129.png" alt="空头趋势或震荡区间中的 Low 1 与 Low 2 卖出设置">
+&lt;em>图 7：在空头趋势或震荡区间的空头腿中，单腿回调是 Low 1 做空设置；如果该信号触发后又向上走出一腿，就构成了 Low 2 空头旗形。Low 3 则对应三角形或倾斜楔形。任何双顶（DT）本质上都是 Low 2 空头旗形。&lt;/em>&lt;/p>
+&lt;p>&lt;img src="https://r2.imgant.com/2026/09/18/1d9d086f.png" alt="多头趋势或震荡区间中的 High 1 与 High 2 买入设置">
+&lt;em>图 8：在多头趋势或震荡区间的多头腿回调中，当某根 K 线的高点首次高于或等于前一根 K 线高点时，该回调即为 High 1 多头旗形；如果触发后再次下探探底，就构成了 High 2 多头旗形。三角形是水平的 High 3 旗形，而下倾的楔形旗形则是向下倾斜的三角形。任何小型双底（DB）都是 High 2 多头旗形。&lt;/em>&lt;/p>
+&lt;hr>
+&lt;h2 id="5-楔形三次向上或向下的推升wedges">5. 楔形：三次向上或向下的推升（Wedges）&lt;/h2>
+&lt;p>传统意义上的楔形是一个向上或向下倾斜的收敛三角形，交易者通常预期突破会朝倾斜方向的反向发展：即预期&lt;strong>下倾楔形向上突破&lt;/strong>，&lt;strong>上倾楔形向下突破&lt;/strong>。&lt;/p>
+&lt;ul>
+&lt;li>当楔形作为趋势中的回调出现时，它们是&lt;strong>顺势延续形态&lt;/strong>；&lt;/li>
+&lt;li>当楔形跨度较大且市场背景合适时，它们则是&lt;strong>反转形态&lt;/strong>；&lt;/li>
+&lt;li>当它们充当旗形时，本质上就是小级别的微型反转结构（例如多头趋势中的楔形回调，本身是一段微型空头腿，交易者预期该空头腿衰竭并向上反转）。&lt;/li>
+&lt;/ul>
+&lt;p>从最广义的角度看，&lt;strong>任何具有 3 次（有时 4 次或 5 次）向上或向下推升且带有倾斜角度的走势，都可以视为楔形&lt;/strong>。它不一定非要严格收敛，第三次推升也不一定非要超过第二次。&lt;/p>
+&lt;p>一旦行情走出了两次推升，交易者就可以将两点连线并向右延伸（画出趋势通道线）。当价格第三次接近该趋势线时，就可以重点观察是否出现反转。&lt;/p>
+&lt;p>形态越接近完美标准，其可靠性越高，因为会有更多量化算法和程序将其判定为有效信号。然而，交易者永远不要忽视背后的供求驱动力量，学会适应形态的各种变体，才能在实盘中捕捉到更多的交易机会。&lt;/p>
+&lt;p>&lt;img src="https://r2.imgant.com/2026/09/18/1e2a7b6b.png" alt="楔形顶：日内反转走势">
+&lt;em>图 9：楔形顶（Wedge Top）通常是一个收敛的多头通道。多数楔形顶包含 3 腿上涨推升，少数有第 4 腿甚至极罕见的第 5 腿。在收盘接近最低价的阴线下方做空，预期至少有 2 腿下跌。任何多头通道都应被视为空头旗形，因为向下跌破多头趋势线的概率高达 75%。&lt;/em>&lt;/p>
+&lt;p>&lt;img src="https://r2.imgant.com/2026/09/18/1ecda83c.png" alt="楔形底：外形不必教科书般完美">
+&lt;em>图 10：实盘中的楔形极少完美，多数完全不像教科书中的标准图形。如果一个空头通道出现了 3 腿下探推升，即便没有明显的楔形轮廓，也要将其视为楔形对待。市场反复尝试向下突破未果，必然会转向反向向上探索。&lt;/em>&lt;/p>
+&lt;p>&lt;img src="https://r2.imgant.com/2026/09/18/1f63f6a4.png" alt="抛物线楔形顶：无尽回调后演化为暴跌反转日">
+&lt;em>图 11：如果极窄多头通道中出现连续 3 次加速冲击推升，该通道即为抛物线楔形（Parabolic Wedge）。这属于买盘高潮（Buy Climax），极易演变成震荡区间甚至诱发全天暴跌反转。&lt;/em>&lt;/p>
+&lt;hr>
+&lt;h2 id="6-通道channels">6. 通道（Channels）&lt;/h2>
+&lt;p>&lt;strong>市场永远运行在通道之中&lt;/strong>。有时交易者需要切换到更大级别的时间周期才能看得分明。很多通道并不符合教科书或网络图解给出的标准定义。&lt;/p>
+&lt;p>然而，优秀的交易者深知通道的真实面貌，在选取画线点时非常灵活。一旦看到两个锚点，他们就会拉出一条线，观察价格再次触碰时是否反转。他们会不断擦掉被市场无视的无效线条，并持续绘制新的关键通道线。&lt;/p>
+&lt;p>&lt;img src="https://r2.imgant.com/2026/09/18/1fff0c9a.png" alt="市场始终运行在通道中：反转发生的概率远高于顺势突破">
+&lt;em>图 12：任何市场始终处于某种通道之中。由于在通道边缘发生反转的概率远高于直接突破，因此交易者更倾向于在通道边缘寻找反转入场机会。&lt;/em>&lt;/p>
+&lt;p>&lt;img src="https://r2.imgant.com/2026/09/18/20973775.png" alt="17 根 K 线连续空头微型通道：卖盘力竭高潮">
+&lt;em>图 13：微型通道（Micro Channel）是指一系列没有任何回调重叠的连续 K 线。这是极强趋势的表现，但一旦达到约 10 根以上，往往变得不可持续并转为消耗性高潮（Climax），通常会演变为震荡区间。&lt;/em>&lt;/p>
+&lt;p>&lt;img src="https://r2.imgant.com/2026/09/18/21460ca1.png" alt="向上突破楔形多头通道：标普指数历史月线牛市">
+&lt;em>图 14：标普现货指数在 1987 年崩盘到 1994 年底期间一直处于楔形多头通道中。向上成功突破多头通道的概率通常仅有 25%，但一旦成功，就演化出了波澜壮阔的超级大牛市。&lt;/em>&lt;/p>
+&lt;hr>
+&lt;h2 id="7-测算走势measured-moves">7. 测算走势（Measured Moves）&lt;/h2>
+&lt;p>市场总是倾向于把某段行情重复走两遍。其结果就是：&lt;strong>绝大多数顶部都是双顶的变体，绝大多数底部都是双底的变体&lt;/strong>；趋势走势通常至少会有第 2 条推动腿，且第 2 腿的幅度往往与第 1 腿存在等比映射关系。&lt;/p>
+&lt;p>大家最熟悉的是 &lt;strong>Leg 1 = Leg 2（第 1 腿 = 第 2 腿）&lt;/strong> 测算走势：行情在经过回调后，第 2 腿的延伸幅度与第 1 腿几乎完全相等。&lt;/p>
+&lt;p>此外，交易者还会计算震荡区间突破后的测算目标位：预期突破后的行进幅度，大约等于前期震荡区间垂直高度的 1:1 投影。计算机量化算法广泛使用各类测算走势来进行止盈离场或逆势反转建仓，其中许多测算依据日内跳空缺口或突破 K 线的垂直高度。&lt;/p>
+&lt;p>&lt;img src="https://r2.imgant.com/2026/09/18/21e5038e.png" alt="第 1 腿 = 第 2 腿：趋势恢复并跌至测算目标位">
+&lt;em>图 15：当趋势经历回调后恢复运行时，第 2 腿的下探幅度往往非常接近第 1 腿。这即是 Leg 1 = Leg 2 测算走势。空头通常会在该目标位附近大举获利平仓。&lt;/em>&lt;/p>
+&lt;p>&lt;img src="https://r2.imgant.com/2026/09/18/22793be7.png" alt="测量缺口：精准到达测算目标位">
+&lt;em>图 16：当突破发生后，趋势通常会依据前期区间的垂直高度走出等幅测算行情。交易者会做多上涨趋势并做多任何回踩，尤其是回测突破点后再次向上反转的结构。&lt;/em>&lt;/p>
+&lt;hr>
+&lt;h2 id="8-震荡区间反转trading-range-reversals">8. 震荡区间反转（Trading Range Reversals）&lt;/h2>
+&lt;p>在震荡区间彻底成型并被所有人看清之前，盘面上通常早已出现了双向对冲交易的蛛丝马迹，提醒敏锐的交易员今天大概率是震荡日。&lt;/p>
+&lt;p>在震荡日中，价格往往以强烈的动能狂飙至区间上轨，导致散户误以为这是一波凌厉的多头突破，盲目在微幅回踩时追多。同样地，散户在区间下轨看到一根巨大的阴线砸盘时，也会误以为趋势破位而慌忙追空。&lt;/p>
+&lt;p>实际发生的情况是：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>在区间顶部&lt;/strong>：价格被「真空吸筹（Vacuum）」抽吸至阻力位，多头大资金选择止盈了结而非继续追高，空头大军突然凭空杀出。多空双方都清楚，对阻力位的测试大概率以假突破告终。&lt;/li>
+&lt;li>&lt;strong>在区间底部&lt;/strong>：当价格接近支撑位时，空头短线投机客甚至会加大砸盘力度，期望击穿支撑再下探几个 tick；而多头则暂停买入，因为他们确信价格一定会打到支撑位甚至瞬间刺穿——既然几分钟后能在更低价买到，何必现在急着接盘？&lt;/li>
+&lt;/ul>
+&lt;p>这就造成了：&lt;strong>价格在被真空吸入支撑位时，往往在最底部拉出极具欺骗性的大阴线&lt;/strong>。然而紧接着出现的不是顺势暴跌，而是汹涌的买盘。空头集中获利平仓买入，多头主力大举进场开多。&lt;/p>
+&lt;p>&lt;img src="https://r2.imgant.com/2026/09/18/23080019.png" alt="震荡区间：在反转位置等待第 2 次信号进场">
+&lt;em>图 17：震荡区间内部的推升腿和下跌腿往往非常迅猛。此时等待第 2 次反转信号（Second Signal）再进场，盈利的确定性会大大提升。&lt;/em>&lt;/p>
+&lt;p>初学者在收盘之前往往根本意识不到市场正在走震荡区间。但 K 线很早就给出了信号：&lt;strong>频繁出现的明显长影线、频繁深度回调、前一日收于窄幅横盘中（市场具有惯性），以及极少出现连续 2–3 根大实体趋势 K 线&lt;/strong>。&lt;/p>
+&lt;p>新手会因为反复的反抽和反转感到困惑沮丧，而成熟交易员深知：&lt;strong>这种困惑感正是震荡区间最典型的特征&lt;/strong>。经验丰富的交易者会将每一次突破视为潜在的假突破反转机会，坚决执行「低吸、高抛、剥头皮（Buy Low, Sell High, Scalp）」策略。&lt;/p>
+&lt;hr>
+&lt;h2 id="9-开盘反转opening-reversals">9. 开盘反转（Opening Reversals）&lt;/h2>
+&lt;p>开盘反转形态的核心特征包括：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>开盘后往往迅速冲向某个强磁吸位（关键支撑位或阻力位）&lt;/strong>；&lt;/li>
+&lt;li>&lt;strong>在开盘前 60–90 分钟内完成反转，并走出持续数小时乃至全天的波段行情&lt;/strong>。&lt;/li>
+&lt;/ul>
+&lt;p>在日线级别上，绝大多数强阳线在实体下方通常都有一个小下影线，这往往就是由开盘反转所致（开盘急挫诱空后迅速拉起形成反转）。同理，日线大阴线上方的小上影线，也多半源自早盘冲高后的向下开盘反转。&lt;/p>
+&lt;p>&lt;img src="https://r2.imgant.com/2026/09/18/23aaf0d5.png" alt="开盘卖盘真空测试昨日低点：买入向上反转">
+&lt;em>图 18：早盘出现巨幅暴跌，这是针对昨日低点的卖盘真空测试（昨日低点通常是强支撑候选位）。随后行情企稳向上反转，全天走出持续上涨行情。&lt;/em>&lt;/p>
+&lt;p>&lt;img src="https://r2.imgant.com/2026/09/18/2468f872.png" alt="跳空高开：楔形多头旗形开盘反转">
+&lt;em>图 19：跳空高开后，价格回踩 20 EMA 均线。随后的向上反转是全天第 3 次上攻尝试，因此构成了回踩 EMA 的楔形多头旗形开盘反转买点。&lt;/em>&lt;/p>
+&lt;p>&lt;img src="https://r2.imgant.com/2026/09/18/25010a0a.png" alt="跳空低开：均线下方紧贴的双顶空头旗形">
+&lt;em>图 20：每当出现跳空低开时，交易者需警惕价格在 EMA 均线附近构筑双顶空头旗形。在向下的反转点做空，博弈形成日内最高点和全天单边空头走势。&lt;/em>&lt;/p>
+&lt;hr>
+&lt;h2 id="10-磁吸位支撑与阻力magnets">10. 磁吸位：支撑与阻力（Magnets）&lt;/h2>
+&lt;p>这 10 个最佳价格行为形态中的最后一个，比起具体的进场设置，它更像是一个贯穿交易的核心思维概念。&lt;/p>
+&lt;p>市场始终处于「探索测试」之中，试图寻找公允的交易区间。&lt;strong>市场通常必须走得过头（Go too far），才能确认自己是否已经涨够了或跌透了&lt;/strong>。&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>支撑位&lt;/strong>：是位于现价下方的某个价格水位，多头会在该位置开多，空头会在此获利买入平仓，从而涌现出买盘。&lt;/li>
+&lt;li>&lt;strong>阻力位&lt;/strong>：是位于现价上方的价格水位，多头会在此获利平多，空头会在此建仓开空，从而形成抛压。&lt;/li>
+&lt;/ul>
+&lt;p>常见的市场磁吸位包括：&lt;strong>震荡区间的顶部与底部、前期最高最低点、趋势线、通道轨线、等幅测算目标位以及移动平均线&lt;/strong>。如今计算机算法主导着盘面，所有的支撑与阻力位本质上都是算法可量化计算的点位。因此，一旦大量算法模型认定价格即将触达某个目标位，市场在逼近该点位时往往会出现加速冲刺效应（磁吸抽吸）。&lt;/p>
+&lt;p>&lt;img src="https://r2.imgant.com/2026/09/18/25ad0ebd.png" alt="磁吸位：突破测试与双底结构">
+&lt;em>图 21：当价格突破前期高点后，往往会发生回踩以测试突破位。多头会在回踩向上反转时坚决买入。&lt;/em>&lt;/p>
+&lt;p>&lt;img src="https://r2.imgant.com/2026/09/18/263f9659.png" alt="震荡区间日：开盘价全天充当磁铁，尤其在尾盘">
+&lt;em>图 22：在震荡区间日，价格全天往往围绕开盘价上下反复摆动。如果在收盘前最后 2 小时价格处于全天极值点（高点或低点）附近，应积极寻找回抽开盘价的反转机会。绝大多数震荡日最终都会收在开盘价附近。&lt;/em>&lt;/p>
+&lt;p>&lt;img src="https://r2.imgant.com/2026/09/18/26f06b48.png" alt="磁吸位：新手眼中的「随机暴跌反转」">
+&lt;em>图 23：初学者面对凌厉的上涨突然急转直下陷入崩盘暴跌时，往往会崩溃抱怨：「为什么这么好的多头趋势会突然崩掉？这不公平！庄家又在收割我的钱！」&lt;/em>&lt;/p>
+&lt;p>&lt;img src="https://r2.imgant.com/2026/09/18/2780f7e9.png" alt="磁吸位：成熟交易者眼中的阻力位买盘力竭高潮">
+&lt;em>图 24：成熟的交易者心如明镜，他们清楚地知道关键阻力位在何处，并在阻力位守株待兔等待做空反转信号。任何冲向强阻力位的猛烈拉升，都极有可能只是针对阻力位的一次「买盘真空测试」而已。&lt;/em>&lt;/p>
+&lt;hr>
+&lt;h2 id="总结">总结&lt;/h2>
+&lt;p>正如 Al Brooks 所言，这 10 个形态不是机械的生搬硬套，而是理解大资金博弈与多空力量流转的透镜。在日常交易中：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>先看市场大背景（Context）&lt;/strong>：识别当前是单边趋势（止损单市场）还是震荡区间（限价单市场）；&lt;/li>
+&lt;li>&lt;strong>留意磁吸位与测算走势&lt;/strong>：时刻清楚上下方最重要的引力点在哪里；&lt;/li>
+&lt;li>&lt;strong>管理好交易期望与风险&lt;/strong>：追求高胜率就接受宽止损与小盈亏比，追求大盈亏比就欣然接受较低的初期胜率并做好分批止损保护。&lt;/li>
+&lt;/ol>
+&lt;hr>
+&lt;h2 id="参考来源与延伸阅读">参考来源与延伸阅读&lt;/h2>
+&lt;ul>
+&lt;li>原文来源：&lt;a href="https://www.brookstradingcourse.com/price-action/10-best-price-action-trading-patterns/">10 best price action trading patterns - Brooks Trading Course&lt;/a>&lt;/li>
+&lt;li>作者：Al Brooks（专业价格行为学日内交易员，经典著作《Reading Price Charts Bar by Bar》及价格行为三部曲《Trends》、《Trading Ranges》、《Reversals》作者）&lt;/li>
+&lt;/ul></description></item><item><title>Al Brooks 团队交易员 Rose 访谈复盘：震荡区间的本质、散户优势与 PF 考核法则</title><link>https://blog.forecho.com/al-brooks-team-trader-rose-interview-insights.html</link><pubDate>Thu, 03 Sep 2026 10:00:00 +0800</pubDate><guid>https://blog.forecho.com/al-brooks-team-trader-rose-interview-insights.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
 &lt;p>前几天看到了一期专访视频，嘉宾是 Al Brooks（阿布）团队的全职交易员兼直播交易员 &lt;strong>Rose&lt;/strong>（她也是知名交易员 Tom Hougaard 极力推崇的搭档之一）。&lt;/p>
 &lt;p>整个访谈刨去前后的活动寒暄和洛杉矶闲聊，干货非常密集。Rose 从设计和艺术背景转行做交易，经历了亏损、重新学习、在 Al Brooks 团队全职交易 8 年，每天只盯标普 500（ES）5 分钟 K 线图。&lt;/p>
 &lt;p>她在访谈里分享了三个非常核心的交易认知：&lt;strong>为什么市场 80% 的时间是震荡区间（以及如何用限价单思维交易它）&lt;/strong>、&lt;strong>散户对比机构的真正军事实时优势&lt;/strong>，以及&lt;strong>作为过来人，她如何打通 Prop Firm（自营交易公司）考核并实现提现&lt;/strong>。&lt;/p>
@@ -2246,179 +2400,4 @@ imgant upload ./my-image.png --format markdown
 &lt;li>&lt;a href="https://blog.forecho.com/how-to-read-the-open-first-30-minutes.html">开盘 30 分钟怎么读盘：跳空、第一根 K 线与当天主方向&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://blog.forecho.com/first-reversal-and-first-pullback.html">1Rev 与 1PB：开盘后最重要的两类机会&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://blog.forecho.com/what-is-a2-price-action-setup.html">A2 是什么：最值得先练的价格行为 setup&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>A2 是什么：最值得先练的价格行为 setup</title><link>https://blog.forecho.com/what-is-a2-price-action-setup.html</link><pubDate>Tue, 31 Mar 2026 22:25:00 +0800</pubDate><guid>https://blog.forecho.com/what-is-a2-price-action-setup.html</guid><description>&lt;h2 id="系列导航">系列导航&lt;/h2>
-&lt;p>这一组文章建议按顺序阅读：&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://blog.forecho.com/how-to-read-the-open-first-30-minutes.html">开盘 30 分钟怎么读盘：跳空、第一根 K 线与当天主方向&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://blog.forecho.com/first-reversal-and-first-pullback.html">1Rev 与 1PB：开盘后最重要的两类机会&lt;/a>&lt;/li>
-&lt;li>&lt;strong>A2 是什么：最值得先练的价格行为 setup（当前）&lt;/strong>&lt;/li>
-&lt;li>&lt;a href="https://blog.forecho.com/most-breakouts-fail-trading-range-playbook.html">大多数突破都会失败：区间行情里值得做的机会&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://blog.forecho.com/trend-day-hard-trend-soft-trend-playbook.html">趋势日怎么做：硬趋势、软趋势与 Spike and Channel&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://blog.forecho.com/why-you-still-cant-make-money-even-if-you-read-the-market-right.html">为什么你看对了方向，还是赚不到钱&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>如果只能选一个价格行为 setup 反复练，我会选 &lt;code>A2&lt;/code>。&lt;/p>
-&lt;p>理由很简单：它够老实。趋势先走出来，价格回调两腿，回到均线或趋势线附近，然后重新顺着原方向恢复。你做的是顺势延续，交易难度比猜顶猜底低很多。&lt;/p>
-&lt;p>A2 最容易被做坏的地方也在这一点。很多人看到“两腿”就下单，离均线很远也硬做，趋势已经钝了还不愿意承认。&lt;/p>
-&lt;p>所以 A2 的重点从来都在位置：这一下是否还值得顺势。&lt;/p>
-&lt;h2 id="a2-的核心是位置">A2 的核心是位置&lt;/h2>
-&lt;p>很多人一听 A2，就盯着“两次回调”。&lt;/p>
-&lt;p>我会先盯三个问题：&lt;/p>
-&lt;ul>
-&lt;li>当前还有没有趋势；&lt;/li>
-&lt;li>回调有没有靠近均线或趋势线；&lt;/li>
-&lt;li>顺势恢复的位置还好不好。&lt;/li>
-&lt;/ul>
-&lt;p>两腿只是外形，位置才是价值。&lt;/p>
-&lt;p>一段趋势里，逆趋势方向尝试了两次都没改变大方向，随后市场重新恢复趋势，这才是 A2 的意义。区间里也会出现大量两腿结构，但那只是来回震荡，交易优势会差很多。&lt;/p>
-&lt;h2 id="a2-怎么定义">A2 怎么定义&lt;/h2>
-&lt;p>做多的 A2，大概是这样：&lt;/p>
-&lt;ol>
-&lt;li>市场先有一段上涨趋势；&lt;/li>
-&lt;li>出现第一腿下跌回调；&lt;/li>
-&lt;li>多头尝试恢复，但没有直接走远；&lt;/li>
-&lt;li>出现第二腿下跌回调；&lt;/li>
-&lt;li>第二腿结束后，价格重新向上突破。&lt;/li>
-&lt;/ol>
-&lt;p>做空反过来看。&lt;/p>
-&lt;p>你可以把 A2 理解成：趋势里的第二次回调结束，市场重新选择原方向。&lt;/p>
-&lt;p>这也是它适合新手先练的原因。它偏顺势、规则清楚、容易复盘，也比较容易做成波段单。&lt;/p>
-&lt;h2 id="为什么先练-a2">为什么先练 A2&lt;/h2>
-&lt;p>我觉得 A2 有三个优点。&lt;/p>
-&lt;h3 id="顺势">顺势&lt;/h3>
-&lt;p>A2 站在已有趋势这一边。&lt;/p>
-&lt;p>你不用证明自己能猜到转折，只需要等趋势回调结束，然后顺着原方向做。对建立一致性来说，这比天天抓反转现实得多。&lt;/p>
-&lt;h3 id="容易写规则">容易写规则&lt;/h3>
-&lt;p>A2 至少能写出一套检查项：&lt;/p>
-&lt;ul>
-&lt;li>是否有趋势；&lt;/li>
-&lt;li>是否两段回调；&lt;/li>
-&lt;li>是否回到均线附近；&lt;/li>
-&lt;li>信号棒是否干净；&lt;/li>
-&lt;li>止损是否能放在结构外；&lt;/li>
-&lt;li>前方空间是否够。&lt;/li>
-&lt;/ul>
-&lt;p>有规则，才方便复盘。没有规则，亏了也不知道到底错在哪里。&lt;/p>
-&lt;h3 id="有机会拿波段">有机会拿波段&lt;/h3>
-&lt;p>高质量 A2 经常是 swing setup。&lt;/p>
-&lt;p>做对以后，价格第一下正常回撤往往不会轻易打掉结构。你可以先拿一部分，再留 runner。能把盈亏比拉开的，通常就是这种单子。&lt;/p>
-&lt;h2 id="我会怎么筛-a2">我会怎么筛 A2&lt;/h2>
-&lt;h3 id="先确认趋势">先确认趋势&lt;/h3>
-&lt;p>趋势清楚，是第一层过滤。&lt;/p>
-&lt;p>如果现在是宽幅区间，图上会出现很多像 A2 的结构。它们看起来有两腿，实际只是区间里的正常摆动。&lt;/p>
-&lt;p>我会看：&lt;/p>
-&lt;ul>
-&lt;li>高点和低点是否顺着一个方向推进；&lt;/li>
-&lt;li>回调是否大多守住均线或趋势线；&lt;/li>
-&lt;li>反向信号是否缺少 follow-through；&lt;/li>
-&lt;li>市场是否还在不断给顺势方机会。&lt;/li>
-&lt;/ul>
-&lt;p>这几条都很勉强时，我不会急着给它贴 A2 标签。&lt;/p>
-&lt;h3 id="回调要靠近均线">回调要靠近均线&lt;/h3>
-&lt;p>这条我会当硬过滤。&lt;/p>
-&lt;p>A2 最舒服的位置，通常在均线附近。回调离均线太远，说明位置还没到，后面很容易多出第三推，或者演化成更复杂的回调。&lt;/p>
-&lt;p>我踩过很多坑：图形看着像两腿，实际离均线还很远，入场后又被多洗一腿。后来我干脆把“离均线太远”当成放弃标准。&lt;/p>
-&lt;h3 id="两腿要完整">两腿要完整&lt;/h3>
-&lt;p>两腿回调的意义，是逆趋势方向试了两次。&lt;/p>
-&lt;p>第一腿没成功，第二腿也没成功，原趋势还在，这时候顺势恢复才有价值。&lt;/p>
-&lt;p>如果回调很乱、单根大阴大阳直接打回来、结构看不清，我会降低质量评分。它也许能走，但执行体验通常不好。&lt;/p>
-&lt;h3 id="信号棒别太差">信号棒别太差&lt;/h3>
-&lt;p>我会喜欢这些信号棒：&lt;/p>
-&lt;ul>
-&lt;li>收盘靠近趋势方向；&lt;/li>
-&lt;li>影线不多；&lt;/li>
-&lt;li>大小适中；&lt;/li>
-&lt;li>重叠少；&lt;/li>
-&lt;li>入场后止损容易放。&lt;/li>
-&lt;/ul>
-&lt;p>我会谨慎这些信号棒：&lt;/p>
-&lt;ul>
-&lt;li>doji；&lt;/li>
-&lt;li>outside bar；&lt;/li>
-&lt;li>上下影线很长；&lt;/li>
-&lt;li>严重重叠；&lt;/li>
-&lt;li>信号棒太大，止损很难接受。&lt;/li>
-&lt;/ul>
-&lt;p>练习阶段，没必要总去挑战边缘信号。&lt;/p>
-&lt;h3 id="区间中部直接降级">区间中部直接降级&lt;/h3>
-&lt;p>趋势走久以后，经常会钝化成区间。图上仍然会出现两腿回调，但延续优势已经明显下降。&lt;/p>
-&lt;p>区间中部的 A2，我基本按低质量处理。想做，也要等它靠近区间边缘，或者等更清楚的失败突破。&lt;/p>
-&lt;h2 id="a2-怎么进">A2 怎么进&lt;/h2>
-&lt;p>入场规则很简单：&lt;/p>
-&lt;ul>
-&lt;li>做多，突破多头信号棒高点；&lt;/li>
-&lt;li>做空，跌破空头信号棒低点。&lt;/li>
-&lt;/ul>
-&lt;p>我不喜欢提前抢。&lt;/p>
-&lt;p>很多时候，K 线盘中看着像信号，收盘以后就变成 doji 或长影线。等它走完，再用 stop-entry 进，虽然少一点点价格优势，但能少很多烂单。&lt;/p>
-&lt;p>第一根信号棒不好看，就等下一根。高质量 A2 经常会给第二次机会。漏掉一点利润，比做进一根很差的 bar 便宜。&lt;/p>
-&lt;h2 id="止损怎么放">止损怎么放&lt;/h2>
-&lt;p>基础止损放在结构外：&lt;/p>
-&lt;ul>
-&lt;li>做多，放在信号棒低点下方；&lt;/li>
-&lt;li>做空，放在信号棒高点上方。&lt;/li>
-&lt;/ul>
-&lt;p>信号棒太大时，可以考虑固定点数或固定风险，但前提是 setup 本身质量够高。&lt;/p>
-&lt;p>如果一笔 A2 需要给很大的止损才勉强站得住，我会先怀疑这笔单。很多时候，问题出在位置差、回调没完成、趋势已经钝化。&lt;/p>
-&lt;h2 id="a2-怎么出">A2 怎么出&lt;/h2>
-&lt;p>A2 值得按 swing 思路管理。&lt;/p>
-&lt;p>我常用的处理方式：&lt;/p>
-&lt;ul>
-&lt;li>第一目标先拿一部分；&lt;/li>
-&lt;li>剩余仓位推到保本；&lt;/li>
-&lt;li>背景够强时保留 runner；&lt;/li>
-&lt;li>价格开始进入明显区间或出现趋势终结信号，再考虑退出。&lt;/li>
-&lt;/ul>
-&lt;p>这套方法的好处是心态更稳。先落袋一点，后面那部分仓位更容易按计划拿。&lt;/p>
-&lt;h3 id="什么样的-a2-值得留-runner">什么样的 A2 值得留 runner&lt;/h3>
-&lt;ul>
-&lt;li>趋势背景清楚；&lt;/li>
-&lt;li>回调靠近均线；&lt;/li>
-&lt;li>信号棒干净；&lt;/li>
-&lt;li>前方没有明显阻力；&lt;/li>
-&lt;li>入场后 follow-through 好；&lt;/li>
-&lt;li>第一次回撤没有破坏结构。&lt;/li>
-&lt;/ul>
-&lt;p>这种单子才值得给它更大预期。&lt;/p>
-&lt;p>如果环境已经发钝、位置一般、信号棒也差，就按短目标处理。将就单配大目标，最后通常会把自己做得很难受。&lt;/p>
-&lt;h2 id="a2-常见失败">A2 常见失败&lt;/h2>
-&lt;h3 id="区间里找-a2">区间里找 A2&lt;/h3>
-&lt;p>区间内部到处都有两腿。低位买、高位卖才是区间逻辑。中间位置硬找 A2，优势很差。&lt;/p>
-&lt;h3 id="离均线太远">离均线太远&lt;/h3>
-&lt;p>离均线太远，说明回调还没到舒服位置。继续等，通常比提前进更好。&lt;/p>
-&lt;h3 id="趋势已经钝化">趋势已经钝化&lt;/h3>
-&lt;p>双顶双底、楔形、趋势线被破坏、TTR 出现以后，市场已经在提醒你：原来的顺滑趋势正在变慢。&lt;/p>
-&lt;p>这个阶段继续机械找 A2，成功率会明显下降。&lt;/p>
-&lt;h3 id="信号棒很差">信号棒很差&lt;/h3>
-&lt;p>好的位置配差的信号棒，也会让执行变难。练习阶段，把差 bar 放掉，是很划算的选择。&lt;/p>
-&lt;h2 id="下单前我会问">下单前我会问&lt;/h2>
-&lt;ul>
-&lt;li>当前是趋势，还是区间？&lt;/li>
-&lt;li>回调有没有靠近均线或趋势线？&lt;/li>
-&lt;li>两段回调是否完整？&lt;/li>
-&lt;li>信号棒能不能执行？&lt;/li>
-&lt;li>止损放在结构外以后，风险合不合理？&lt;/li>
-&lt;li>这笔单有没有资格留 runner？&lt;/li>
-&lt;li>如果这笔失败，是环境问题、位置问题，还是执行问题？&lt;/li>
-&lt;/ul>
-&lt;h2 id="我会避开的坑">我会避开的坑&lt;/h2>
-&lt;h3 id="看到两腿就做">看到两腿就做&lt;/h3>
-&lt;p>先看趋势和位置，再看两腿。形状排在后面。&lt;/p>
-&lt;h3 id="离均线远也硬做">离均线远也硬做&lt;/h3>
-&lt;p>把均线距离当过滤器。远离均线的 A2，容易变成第三推。&lt;/p>
-&lt;h3 id="趋势钝了还按早盘趋势做">趋势钝了还按早盘趋势做&lt;/h3>
-&lt;p>出现双顶双底、楔形、TTR、趋势线破坏时，开始降低延续 setup 的权重。&lt;/p>
-&lt;h3 id="信号棒差也舍不得放">信号棒差也舍不得放&lt;/h3>
-&lt;p>等下一根。A2 这种 setup 不缺机会，缺的是好位置和好执行。&lt;/p>
-&lt;h3 id="该拿波段时拿成-scalp">该拿波段时拿成 scalp&lt;/h3>
-&lt;p>高质量 A2 至少留一部分仓位。没有 runner，盈亏比很难拉开。&lt;/p>
-&lt;h2 id="最后">最后&lt;/h2>
-&lt;p>A2 适合先练，因为它诚实：趋势在，位置好，回调完整，信号干净，就做；缺两项以上，就放。&lt;/p>
-&lt;p>它考验的是筛选能力：在一堆“长得像”的机会里，只留下适合交易的那几笔。&lt;/p>
-&lt;p>我的建议是：先练高质量 A2。宁愿少做，也要让每一笔都能写清楚理由。&lt;/p>
-&lt;h2 id="参考链接">参考链接&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://blog.forecho.com/first-reversal-and-first-pullback.html">1Rev 与 1PB：开盘后最重要的两类机会&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://blog.forecho.com/how-to-read-the-open-first-30-minutes.html">开盘 30 分钟怎么读盘：跳空、第一根 K 线与当天主方向&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://blog.forecho.com/a2-1pb-1rev-trading-playbook.html">A2、1PB、1Rev 实战手册：怎么入场，止损放哪，什么情况直接放弃&lt;/a>&lt;/li>
 &lt;/ul></description></item></channel></rss>
