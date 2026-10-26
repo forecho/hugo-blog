@@ -1,4 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ICT on forecho's Blog</title><link>https://blog.forecho.com/tags/ict.html</link><description>Recent content in ICT on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 24 Aug 2026 10:00:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/tags/ict/atom.xml" rel="self" type="application/rss+xml"/><item><title>交易员这行，到底在拼什么？</title><link>https://blog.forecho.com/what-traders-really-compete-on-beyond-technical-analysis.html</link><pubDate>Mon, 24 Aug 2026 10:00:00 +0800</pubDate><guid>https://blog.forecho.com/what-traders-really-compete-on-beyond-technical-analysis.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ICT on forecho's Blog</title><link>https://blog.forecho.com/tags/ict.html</link><description>Recent content in ICT on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 26 Oct 2026 17:00:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/tags/ict/atom.xml" rel="self" type="application/rss+xml"/><item><title>17 分钟搞懂 ICT 核心概念：流动性、FVG、Power of 3 与订单块（视频笔记与中文图解）</title><link>https://blog.forecho.com/learn-every-ict-concept.html</link><pubDate>Mon, 26 Oct 2026 17:00:00 +0800</pubDate><guid>https://blog.forecho.com/learn-every-ict-concept.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>这篇是我看 Pro Trading School 的视频 &lt;a href="https://www.youtube.com/watch?v=QQijkhheJ9g">Learn Every ICT Concept in 17 Minutes (Liquidity, FVG, Order Blocks &amp;amp; More)&lt;/a> 后整理的笔记。视频大约 17 分钟，发布于 2025 年 6 月，讲的是 ICT（Inner Circle Trader）/ SMC（Smart Money Concepts，聪明钱概念）里最常用的几个东西：&lt;/p>
+&lt;ul>
+&lt;li>流动性（Liquidity）：买方流动性、卖方流动性&lt;/li>
+&lt;li>流动性陷阱（Liquidity Trap）&lt;/li>
+&lt;li>公允价值缺口（Fair Value Gap，FVG）和 4 个筛选技巧&lt;/li>
+&lt;li>Power of 3（三段式：盘整 → 操纵 → 扩张）的多空两种版本和交易方法&lt;/li>
+&lt;li>订单块（Order Block，OB）、它和支撑阻力的区别，以及有效订单块的 3 条规则&lt;/li>
+&lt;/ul>
+&lt;p>内容和截图都来自原视频，我按章节翻译整理，个别地方加了一点自己的理解。版权归原作者 &lt;a href="https://www.youtube.com/@ProTradingSchool">Pro Trading School&lt;/a> 所有。&lt;/p></description></item><item><title>交易员这行，到底在拼什么？</title><link>https://blog.forecho.com/what-traders-really-compete-on-beyond-technical-analysis.html</link><pubDate>Mon, 24 Aug 2026 10:00:00 +0800</pubDate><guid>https://blog.forecho.com/what-traders-really-compete-on-beyond-technical-analysis.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
 &lt;p>最近在听一个付费课程，第一节课讲师没讲任何开单技巧，而是花了一整节课聊「交易员」这个职业本身。&lt;/p>
 &lt;p>很多人学交易，一上来就到处找指标、找各种高胜率形态，总觉得只要找到那本所谓的「圣经」或者「圣杯」就能赚钱。但现实是，技术分析在这行最多只占 40% 到 50%，剩下真正拉开差距的，全是技术之外的底层能力。&lt;/p>
 &lt;p>听完之后我觉得写得很有深度，顺便结合我自己的交易体会，把里面的核心逻辑整理记录一下。&lt;/p></description></item></channel></rss>

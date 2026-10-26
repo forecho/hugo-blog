@@ -1,4 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on forecho's Blog</title><link>https://blog.forecho.com/posts.html</link><description>Recent content in Posts on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 18 Sep 2026 16:00:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/posts/atom.xml" rel="self" type="application/rss+xml"/><item><title>Al Brooks：10 个最佳价格行为交易形态（全解析与中文图解）</title><link>https://blog.forecho.com/10-best-price-action-trading-patterns.html</link><pubDate>Fri, 18 Sep 2026 16:00:00 +0800</pubDate><guid>https://blog.forecho.com/10-best-price-action-trading-patterns.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on forecho's Blog</title><link>https://blog.forecho.com/posts.html</link><description>Recent content in Posts on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 26 Oct 2026 17:00:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/posts/atom.xml" rel="self" type="application/rss+xml"/><item><title>17 分钟搞懂 ICT 核心概念：流动性、FVG、Power of 3 与订单块（视频笔记与中文图解）</title><link>https://blog.forecho.com/learn-every-ict-concept.html</link><pubDate>Mon, 26 Oct 2026 17:00:00 +0800</pubDate><guid>https://blog.forecho.com/learn-every-ict-concept.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>这篇是我看 Pro Trading School 的视频 &lt;a href="https://www.youtube.com/watch?v=QQijkhheJ9g">Learn Every ICT Concept in 17 Minutes (Liquidity, FVG, Order Blocks &amp;amp; More)&lt;/a> 后整理的笔记。视频大约 17 分钟，发布于 2025 年 6 月，讲的是 ICT（Inner Circle Trader）/ SMC（Smart Money Concepts，聪明钱概念）里最常用的几个东西：&lt;/p>
+&lt;ul>
+&lt;li>流动性（Liquidity）：买方流动性、卖方流动性&lt;/li>
+&lt;li>流动性陷阱（Liquidity Trap）&lt;/li>
+&lt;li>公允价值缺口（Fair Value Gap，FVG）和 4 个筛选技巧&lt;/li>
+&lt;li>Power of 3（三段式：盘整 → 操纵 → 扩张）的多空两种版本和交易方法&lt;/li>
+&lt;li>订单块（Order Block，OB）、它和支撑阻力的区别，以及有效订单块的 3 条规则&lt;/li>
+&lt;/ul>
+&lt;p>内容和截图都来自原视频，我按章节翻译整理，个别地方加了一点自己的理解。版权归原作者 &lt;a href="https://www.youtube.com/@ProTradingSchool">Pro Trading School&lt;/a> 所有。&lt;/p></description></item><item><title>Al Brooks：10 个最佳价格行为交易形态（全解析与中文图解）</title><link>https://blog.forecho.com/10-best-price-action-trading-patterns.html</link><pubDate>Fri, 18 Sep 2026 16:00:00 +0800</pubDate><guid>https://blog.forecho.com/10-best-price-action-trading-patterns.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
 &lt;p>&lt;img src="https://r2.imgant.com/2026/09/18/b4479201.png" alt="不要祈求轻松的生活，祈求成为更坚强的人">&lt;/p>
 &lt;p>这 &lt;strong>10 个最佳价格行为交易形态（10 Best Price Action Trading Patterns）&lt;/strong> 是 Al Brooks 最青睐的形态。成功的交易员每天都在运用这些形态从市场中获利。在实际应用中要保持灵活，因为每个形态都有许多变体。只要你对所有可能性保持开放的心态，就会在每个交易日、任何市场以及各种时间周期上不断看到它们的身影。&lt;/p>
 &lt;p>那么，对于波段交易（Swing Trading）还是剥头皮（Scalping），哪种形态才是最好的？外汇市场适用哪种？对于日内交易者或大宗商品交易者又该选哪种？&lt;/p>
@@ -97,18 +106,4 @@
 &lt;p>趋势日最容易让人后悔。&lt;/p>
 &lt;p>你明明看出来方向了，但一直等不到理想回调；好不容易进场，又被一次正常回撤洗掉；或者开盘很强，你早早拿到利润，结果后面走了一整天。&lt;/p>
 &lt;p>问题通常出在趋势分类。&lt;/p>
-&lt;p>普通趋势、硬趋势、软趋势、Spike and Channel，节奏完全不同。你用同一套入场和持仓方式处理它们，结果就会很别扭。&lt;/p></description></item><item><title>大多数突破都会失败：区间行情里值得做的机会</title><link>https://blog.forecho.com/most-breakouts-fail-trading-range-playbook.html</link><pubDate>Tue, 31 Mar 2026 22:40:00 +0800</pubDate><guid>https://blog.forecho.com/most-breakouts-fail-trading-range-playbook.html</guid><description>&lt;h2 id="系列导航">系列导航&lt;/h2>
-&lt;p>这一组文章建议按顺序阅读：&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://blog.forecho.com/how-to-read-the-open-first-30-minutes.html">开盘 30 分钟怎么读盘：跳空、第一根 K 线与当天主方向&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://blog.forecho.com/first-reversal-and-first-pullback.html">1Rev 与 1PB：开盘后最重要的两类机会&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://blog.forecho.com/what-is-a2-price-action-setup.html">A2 是什么：最值得先练的价格行为 setup&lt;/a>&lt;/li>
-&lt;li>&lt;strong>大多数突破都会失败：区间行情里值得做的机会（当前）&lt;/strong>&lt;/li>
-&lt;li>&lt;a href="https://blog.forecho.com/trend-day-hard-trend-soft-trend-playbook.html">趋势日怎么做：硬趋势、软趋势与 Spike and Channel&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://blog.forecho.com/why-you-still-cant-make-money-even-if-you-read-the-market-right.html">为什么你看对了方向，还是赚不到钱&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>区间最会折腾人。&lt;/p>
-&lt;p>每一次向上突破都像趋势启动，每一次向下突破都像要崩。你追一下，被打回来；反手追一下，又被拉回去。做一天以后，亏钱的根源经常是一直用趋势日的方式交易区间。&lt;/p>
-&lt;p>我现在处理区间，先默认一件事：&lt;strong>多数突破都会失败。&lt;/strong>&lt;/p>
-&lt;p>这个默认值很有用。它会逼你先看突破质量，再决定追、等回踩，还是等失败突破。&lt;/p></description></item></channel></rss>
+&lt;p>普通趋势、硬趋势、软趋势、Spike and Channel，节奏完全不同。你用同一套入场和持仓方式处理它们，结果就会很别扭。&lt;/p></description></item></channel></rss>
