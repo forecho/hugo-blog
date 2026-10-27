@@ -52,7 +52,7 @@ draft: false
 ## 更多关于我
 
 - [telegram](https://t.me/forecho)
-- [twitter](https://twitter.com/caizhenghai)
+- [twitter](https://x.com/forecho)
 - [instagram](https://www.instagram.com/forecho/)
 - 微信公众号
 
