@@ -111,7 +111,7 @@ toc: true
 
 ![](https://imgant.forecho.com/2026/05/29/20230102MpjPt9.png) 
 
-2011 年就注册了 Twitter，2016 年放弃微博，转战 [Twitter](https://twitter.com/caizhenghai)，今年是我在 Twitter 上涨粉丝最多的一年（去年粉丝好像是 2k 多），感谢大家的厚爱。
+2011 年就注册了 Twitter，2016 年放弃微博，转战 [Twitter](https://x.com/forecho)，今年是我在 Twitter 上涨粉丝最多的一年（去年粉丝好像是 2k 多），感谢大家的厚爱。
 
 ## 展望 2023
 
