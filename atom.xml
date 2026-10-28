@@ -1,39 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 26 Oct 2026 17:00:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>ICT 核心概念笔记：流动性、FVG、Power of 3 与订单块</title><link>https://blog.forecho.com/learn-every-ict-concept.html</link><pubDate>Mon, 26 Oct 2026 17:00:00 +0800</pubDate><guid>https://blog.forecho.com/learn-every-ict-concept.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>这篇是我看 Pro Trading School 的视频 &lt;a href="https://www.youtube.com/watch?v=QQijkhheJ9g">Learn Every ICT Concept in 17 Minutes (Liquidity, FVG, Order Blocks &amp;amp; More)&lt;/a> 后整理的笔记。视频发布于 2025 年 6 月 7 日，全长约 17 分半，依次讲流动性、流动性陷阱、公允价值缺口（FVG）、Power of 3 和订单块（OB）。&lt;/p>
-&lt;p>这些概念放在一起，可以帮助我们按顺序看一张图：哪里可能集中着止损单，价格有没有扫过那里，随后是否出现结构突破，回调时又该关注哪一片区域。我按这个顺序整理正文，每张截图下面都写了中文读图说明，时间链接可以直接跳回原视频。&lt;/p>
-&lt;p>这里保留视频作者的策略规则，同时把我的补充说明单独标出。「聪明钱吸筹」「机构猎取止损」属于 ICT / SMC 对价格行为的解释；K 线能直接展示的是价格、区间和突破，具体参与者及其订单需要其他数据佐证。文中的规则用于理解这套方法，收益和胜率仍需独立回测。&lt;/p>
-&lt;p>截图取自原视频，版权归 &lt;a href="https://www.youtube.com/@ProTradingSchool">Pro Trading School&lt;/a> 所有。&lt;/p>
+&lt;p>这篇是我看 Pro Trading School 的视频 &lt;a href="https://www.youtube.com/watch?v=QQijkhheJ9g">Learn Every ICT Concept in 17 Minutes (Liquidity, FVG, Order Blocks &amp;amp; More)&lt;/a> 整理的笔记。视频全长 17 分半，把 ICT / SMC 体系里最核心的四个词：流动性（Liquidity）、公允价值缺口（FVG）、Power of 3（PO3）和订单块（Order Block），用一套非常连贯的读图逻辑串了起来。&lt;/p>
+&lt;p>很多讲 ICT 的内容容易搞得神乎其神，好像机构无所不能在图表后面算计每个人。抛开那些拟人化的叙事，从纯粹的价格行为来看，这套东西其实给了一套清晰的看盘顺序：先看哪里的止损单最密集（流动性），再看价格有没有假突破去扫这些单子（扫荡与诱导），随后有没有走出大实体的剧烈推进（失衡与结构突破），最后在价格首次回调时去哪里找入场位置（FVG 或订单块）。&lt;/p>
+&lt;p>我按视频讲解的顺序把概念、画法和作者给出的过滤条件梳理出来。文中的配图全部截自原视频，版权归原作者 &lt;a href="https://www.youtube.com/@ProTradingSchool">Pro Trading School&lt;/a> 所有。&lt;/p>
 &lt;h2 id="1-流动性与两种常见陷阱">1. 流动性与两种常见陷阱&lt;/h2>
-&lt;p>视频里的「流动性」主要指图表上&lt;strong>可能集中着待触发订单的位置&lt;/strong>，典型例子是前高上方、前低下方的止损单和突破入场单。&lt;/p>
-&lt;p>补充一个范围：市场通常所说的流动性，涉及订单能以多低的成本成交、成交对价格有多大影响。这里沿用 ICT 对「流动性区域」的说法，讨论的是潜在订单集中区。&lt;/p>
-&lt;h3 id="买方流动性前高上方的买入单">买方流动性：前高上方的买入单&lt;/h3>
-&lt;p>买方流动性（Buy-Side Liquidity，BSL）一般位于前高、日线或周线高点、等高点上方。这里可能同时集中两类 Buy Stop：空头为平仓设置的买入止损单，以及突破交易者为追涨设置的买入单。&lt;/p>
-&lt;p>&lt;img src="https://imgant.forecho.com/2026/10/27/9237350e.webp" alt="买方流动性：等高点上方同时集中着突破买单和空头止损买单">&lt;/p>
-&lt;p>&lt;em>蓝色带位于等高点上方。左侧 Buy Stops 对应突破买单，右侧 Stop Loss Orders 对应空头止损；两类订单触发后都产生买入需求。&lt;/em>&lt;/p>
-&lt;p>视频把「上破前高、触发买单、随后转跌」解释为买方流动性猎取（Buy-Side Liquidity Grab）。在图上，我们要确认的过程是：&lt;strong>越过高点之后，价格是否重新收回高点下方&lt;/strong>。&lt;/p>
-&lt;h3 id="卖方流动性前低下方的卖出单">卖方流动性：前低下方的卖出单&lt;/h3>
-&lt;p>卖方流动性（Sell-Side Liquidity，SSL）一般位于前低、日线或周线低点、等低点下方。多头的止损卖单与突破交易者的 Sell Stop，都可能集中在这些位置。&lt;/p>
-&lt;p>&lt;img src="https://imgant.forecho.com/2026/10/27/942e6b88.webp" alt="左侧买方流动性在前高上方，右侧卖方流动性在前低下方，价格扫过后反向运行">&lt;/p>
-&lt;p>&lt;em>左图向上扫过高点后转跌；右图先跌穿等低点下方的蓝色带，再向上拉回。右侧展示了卖方流动性扫荡的完整路径。&lt;/em>&lt;/p>
-&lt;p>「买方」「卖方」按订单触发后的方向命名。上方的空头止损会买入，下方的多头止损会卖出。记住这个对应关系，画流动性区域时就容易分清方向。&lt;/p>
-&lt;h3 id="区间上沿的买方陷阱">区间上沿的买方陷阱&lt;/h3>
-&lt;p>价格在区间里横盘，阻力位上方集中着空头止损和突破买单。价格刺破阻力，两类买单被触发，随后又跌回区间：原先做空的人先被止损，追突破做多的人随后面临反向走势。&lt;/p>
-&lt;p>&lt;img src="https://imgant.forecho.com/2026/10/27/94aaabd0.webp" alt="英镑兑日元区间案例：价格刺破黄色阻力线，随后跌回区间并继续下跌">&lt;/p>
-&lt;p>&lt;em>黄色水平线是区间上沿，白色箭头标出向上的流动性扫荡。右侧已经出现回到阻力下方并下跌的走势，红绿矩形是视频作者的仓位示意工具。&lt;/em>&lt;/p>
-&lt;h3 id="支撑下方的卖方陷阱">支撑下方的卖方陷阱&lt;/h3>
-&lt;p>镜像情形出现在支撑附近。有人做多等反弹，把止损放在支撑下方；另一些人在下方挂 Sell Stop 等待跌破。价格下破后迅速收回，多头止损被触发，追空者随即面临上涨。&lt;/p>
-&lt;p>&lt;img src="https://imgant.forecho.com/2026/10/27/94fca4b1.webp" alt="美元兑日元案例：价格跌破黄色支撑线后收回，随后向上运行">&lt;/p>
-&lt;p>&lt;em>先看支撑下方的扫荡位置，再看右侧重新站上支撑后的上涨，展示了卖方陷阱从下破到反向运行的过程。&lt;/em>&lt;/p>
-&lt;p>&lt;strong>扫过高低点之后的表现，是判断陷阱的关键。&lt;/strong> 价格也可能突破后继续沿原方向运行。把每一次越过前高、前低都当作反转，容易在趋势里反复逆势进场。&lt;/p>
-&lt;h2 id="2-fvg三根-k-线怎样留下失衡区">2. FVG：三根 K 线怎样留下失衡区&lt;/h2>
-&lt;p>公允价值缺口（Fair Value Gap，FVG）描述的是三根连续 K 线之间的一种区间关系。中间那根 K 线快速推动价格，第 1 根和第 3 根的影线区间留下了互相覆盖不到的部分。&lt;/p>
-&lt;h3 id="看涨和看跌的画法">看涨和看跌的画法&lt;/h3>
-&lt;p>按时间从左到右给三根 K 线编号。用 &lt;code>H1&lt;/code>、&lt;code>L1&lt;/code> 表示第 1 根的最高价、最低价，&lt;code>H3&lt;/code>、&lt;code>L3&lt;/code> 表示第 3 根的最高价、最低价：&lt;/p>
+&lt;p>在 ICT 的语境里，「流动性」（Liquidity）不是指宏观资金面或者买卖盘有多深，而是指&lt;strong>图表上挂单最集中的区域&lt;/strong>。这些挂单绝大部分是散户设置的止损单（Stop-Loss），以及突破交易者预挂的突破入场单。&lt;/p>
+&lt;p>大资金资金量大，没办法像散户那样随意市价进出，需要有足够多的对手盘才能完成建仓或出货。散户扎堆放止损的地方，正好能提供这种流动性。&lt;/p>
+&lt;h3 id="买方流动性bsl与卖方流动性ssl">买方流动性（BSL）与卖方流动性（SSL）&lt;/h3>
+&lt;p>流动性按触发后的订单属性分为两类：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>买方流动性（Buy-Side Liquidity, BSL）&lt;/strong>：位于价格上方，典型位置是前高、日线/周线高点或等高点（Equal Highs）。这里集中了两类买单（Buy Stop）：做空者的止损买单，以及追涨者的突破买单。价格冲破高点扫掉这些单子后迅速反转向下，就是买方流动性猎取（Buyside Liquidity Grab）。&lt;/li>
+&lt;li>&lt;strong>卖方流动性（Sell-Side Liquidity, SSL）&lt;/strong>：位于价格下方，典型位置是前低、日线/周线低点或等低点（Equal Lows）。这里集中了两类卖单（Sell Stop）：做多者的止损卖单，以及追跌者的突破卖单。价格砸穿低点触发这些卖单后迅速反转向上，就是卖方流动性猎取（Sellside Liquidity Grab）。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://imgant.forecho.com/2026/10/27/9237350e.webp" alt="买方流动性：等高点上方同时集中着突破买单和空头止损买单">
+&lt;em>蓝色带位于等高点上方。左侧 Buy Stops 对应突破买单，右侧 Stop Loss Orders 对应空头止损；两类订单触发后都会在市场上产生买入需求。&lt;/em>&lt;/p>
+&lt;p>&lt;img src="https://imgant.forecho.com/2026/10/27/942e6b88.webp" alt="左侧买方流动性在前高上方，右侧卖方流动性在前低下方，价格扫过后反向运行">
+&lt;em>左图向上扫过前高后转跌；右图先跌穿等低点下方的蓝色带，触发卖单后向上拉回。&lt;/em>&lt;/p>
+&lt;h3 id="实战中的两种流动性陷阱">实战中的两种流动性陷阱&lt;/h3>
+&lt;p>在实际行情里，流动性扫荡最常出现在区间震荡和支撑阻力附近，形成典型的多空双杀：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>区间上沿的买方陷阱（Buyside Trap）&lt;/strong>：价格在区间内震荡，散户看到阻力位做空，止损放在阻力线上方；同时突破交易者在阻力线上方挂买单做多。主力把价格向上推穿阻力，空头止损被扫，追多者被诱入，紧接着价格直接跌回区间内，两拨人同时被套。&lt;/li>
+&lt;li>&lt;strong>支撑下方的卖方陷阱（Sellside Trap）&lt;/strong>：在下跌或震荡中，散户在支撑位做多，止损放支撑下方；突破交易者在支撑下方挂卖单追空。价格砸破支撑触发所有卖单后立刻拉回区间上方，随后真正的大涨才正式展开。&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="https://imgant.forecho.com/2026/10/27/94aaabd0.webp" alt="英镑兑日元区间案例：价格刺破黄色阻力线，随后跌回区间并继续下跌">
+&lt;em>黄色水平线是区间上沿，白色箭头标出向上假突破。收回阻力下方后一路下行，右侧红绿工具是作者的做空仓位示意。&lt;/em>&lt;/p>
+&lt;p>&lt;img src="https://imgant.forecho.com/2026/10/27/94fca4b1.webp" alt="美元兑日元案例：价格跌破黄色支撑线后收回，随后向上运行">
+&lt;em>价格跌破黄色支撑线扫清下方卖方流动性，随后重新站上支撑位展开反弹。&lt;/em>&lt;/p>
+&lt;p>判断这到底是真突破还是陷阱，核心看&lt;strong>越过高低点之后价格能不能迅速收回&lt;/strong>。如果价格放量收在区间外并持续推进，那就是趋势延续；只有迅速收回区间，陷阱才成立。&lt;/p>
+&lt;h2 id="2-fvg三根-k-线留下的失衡区">2. FVG：三根 K 线留下的失衡区&lt;/h2>
+&lt;p>公允价值缺口（Fair Value Gap，简称 FVG）描述的是一种价格失衡（Price Imbalance）。当市场单边快速推进时，走得太急太猛，买卖撮合不充分，K 线之间留下了空白区间。这个未被充分换手的区域就像一块磁铁，后市往往会吸引价格回踩。&lt;/p>
+&lt;h3 id="看涨与看跌-fvg-的判定规则">看涨与看跌 FVG 的判定规则&lt;/h3>
+&lt;p>FVG 必须通过连续的 3 根 K 线来识别（记为第 1、2、3 根），中间那根必须是实体饱满的强势推动 K 线：&lt;/p>
 &lt;table>
 &lt;thead>
 &lt;tr>
 &lt;th>类型&lt;/th>
-&lt;th>判定条件&lt;/th>
+&lt;th>成立条件&lt;/th>
 &lt;th>FVG 下边界&lt;/th>
 &lt;th>FVG 上边界&lt;/th>
 &lt;/tr>
@@ -41,156 +42,133 @@
 &lt;tbody>
 &lt;tr>
 &lt;td>看涨 FVG&lt;/td>
-&lt;td>&lt;code>L3 &amp;gt; H1&lt;/code>&lt;/td>
-&lt;td>第 1 根最高价 &lt;code>H1&lt;/code>&lt;/td>
-&lt;td>第 3 根最低价 &lt;code>L3&lt;/code>&lt;/td>
+&lt;td>第 3 根最低价 &amp;gt; 第 1 根最高价（&lt;code>L3 &amp;gt; H1&lt;/code>）&lt;/td>
+&lt;td>第 1 根最高价（H1）&lt;/td>
+&lt;td>第 3 根最低价（L3）&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>看跌 FVG&lt;/td>
-&lt;td>&lt;code>H3 &amp;lt; L1&lt;/code>&lt;/td>
-&lt;td>第 3 根最高价 &lt;code>H3&lt;/code>&lt;/td>
-&lt;td>第 1 根最低价 &lt;code>L1&lt;/code>&lt;/td>
+&lt;td>第 3 根最高价 &amp;lt; 第 1 根最低价（&lt;code>H3 &amp;lt; L1&lt;/code>）&lt;/td>
+&lt;td>第 3 根最高价（H3）&lt;/td>
+&lt;td>第 1 根最低价（L1）&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;p>&lt;img src="https://imgant.forecho.com/2026/10/27/ae7d3cde.webp" alt="看涨和看跌 FVG 的三根 K 线结构，黄色线标出第 1 根与第 3 根影线之间的边界">&lt;/p>
-&lt;p>&lt;em>左右各有三根 K 线，均按各自从左到右编号。左图的下黄线经过第 1 根最高点，上黄线经过第 3 根最低点；右图的上黄线经过第 1 根最低点，下黄线经过第 3 根最高点。两条黄线之间就是对应的 FVG。&lt;/em>&lt;/p>
-&lt;p>视频选用「大实体的中间 K 线、两侧较小 K 线」来演示。我补充的判定公式把边界写得更明确：&lt;strong>画区域时看影线极值&lt;/strong>，中间 K 线的实体大小用于辅助判断推动力度。&lt;/p>
-&lt;p>这里的「缺口」描述第 1 根与第 3 根的区间关系，中间那根 K 线通常已经穿过这些价格。仅凭这个形态，能够确认的是价格结构；该区间的实际成交量、挂单数量需要相应数据判断。&lt;/p>
-&lt;h3 id="视频作者的-4-条筛选规则">视频作者的 4 条筛选规则&lt;/h3>
-&lt;p>&lt;strong>1. 优先观察首次回测。&lt;/strong> 作者称价格尚未返回的区域为 Unmitigated，返回触及后称为 Mitigated。他会跳过已经回测过的区域；回撤过深、收盘进入或穿过缺口时，也会放弃该 setup。视频用看涨案例讲解，换成看跌情形时，价格方向要对称处理。&lt;/p>
-&lt;p>这里要区分「首次触及」「部分回补」「完全回补」：一根影线碰到边缘，只能说明区域已被测试；完全回补意味着价格走遍了整个缺口。视频采用的是较严格的首次回测筛选法。「已被测试」与「结构被价格穿透」可以分别记录，避免复盘时混为一谈。&lt;/p>
-&lt;p>&lt;img src="https://r2.imgant.com/2026/10/27/b7106a82.png" alt="有效的 FVG ">&lt;/p>
-&lt;p>&lt;img src="https://r2.imgant.com/2026/10/27/c90223a2.png" alt="无效的 FVG">&lt;/p>
-&lt;p>&lt;strong>2. 多个 FVG 并存时，作者偏向更大的缺口。&lt;/strong> 他的理由是较大的缺口代表更强的价格失衡。视频给出了图表示例，胜率和回测样本需要另外验证；实际比较时也要结合周期、波动幅度和止损距离。&lt;/p>
-&lt;p>&lt;img src="https://r2.imgant.com/2026/10/27/e7435c28.png" alt="image">&lt;/p>
-&lt;p>&lt;strong>3. 检查附近的支撑阻力。&lt;/strong> 看涨 FVG 上方紧挨大阻力时，要考虑价格在触及目标之前遭到拒绝的空间；看跌情形则检查下方支撑。&lt;/p>
-&lt;p>&lt;img src="https://imgant.forecho.com/2026/10/27/037da25a.webp" alt="看涨 FVG 上方靠近主要阻力位，视频用虚线示意价格受阻后可能跌穿缺口">&lt;/p>
-&lt;p>&lt;em>上方黄色水平线是主要阻力，下方黄色矩形是 FVG。白色虚线表示作者设想的受阻回落路径，属于风险示意。&lt;/em>&lt;/p>
-&lt;p>&lt;strong>4. 关注结构突破之后留下的 FVG。&lt;/strong> 结构突破（Break of Structure，BOS）指价格突破选定的前高或前低。作者把「突破关键位置 → 留下 FVG → 首次回测」作为一组连续条件。&lt;/p>
-&lt;p>&lt;img src="https://imgant.forecho.com/2026/10/27/c627b076.webp" alt="价格突破前高后形成 FVG，随后返回黄色区域进行首次回测">&lt;/p>
-&lt;p>&lt;em>白线是被突破的结构位置，黄色窄矩形是突破时留下的 FVG；右侧已经出现返回该区域的走势。先找到被突破的前高，再对应缺口和回测位置。&lt;/em>&lt;/p>
-&lt;p>这四条属于作者的筛选偏好。我会把它们当作回测条件逐项记录，验证各自对结果的影响，再决定如何组合。&lt;/p>
-&lt;h2 id="3-power-of-3盘整扫荡和扩张">3. Power of 3：盘整、扫荡和扩张&lt;/h2>
-&lt;p>视频把 Power of 3 分成三段：&lt;strong>盘整（Consolidation）→ 操纵（Manipulation）→ 加速或扩张（Acceleration / Expansion）&lt;/strong>。看涨版本的第一段也叫吸筹（Accumulation），看跌版本则用派发（Distribution）描述。&lt;/p>
-&lt;h3 id="多空两种路径">多空两种路径&lt;/h3>
-&lt;p>看涨时，价格先在下跌后形成窄区间，再跌破区间下沿、触发下方订单，随后收回区间并向上扩张。看跌时，价格在上涨后横盘，先上破区间上沿再收回区间，完成操纵阶段，随后进入下跌阶段。&lt;/p>
-&lt;p>&lt;img src="https://imgant.forecho.com/2026/10/27/c662656b.webp" alt="看涨 Power of 3 的完整示意：横盘后跌破区间下沿，再向上扩张">&lt;/p>
-&lt;p>&lt;em>两条黄色虚线围出盘整区间，紫圈标出下方扫荡，绿色线画出后续向上的扩张阶段。这是一张结构示意图。&lt;/em>&lt;/p>
-&lt;p>我的理解是，Power of 3 把前面的流动性陷阱放进了更完整的上下文：盘整给出边界，假突破扫过边界外的订单，收回和扩张则提供后续观察条件。复盘时，盘整区间应该按当时已经形成的 K 线确定，避免看到结局以后再调整边界。&lt;/p>
-&lt;h3 id="视频怎样安排入场止损和目标">视频怎样安排入场、止损和目标&lt;/h3>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>条件&lt;/th>
-&lt;th>看跌版本&lt;/th>
-&lt;th>看涨版本&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>背景&lt;/td>
-&lt;td>上涨后出现高位盘整&lt;/td>
-&lt;td>下跌后出现低位盘整&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>扫荡&lt;/td>
-&lt;td>向上越过区间阻力&lt;/td>
-&lt;td>向下跌破区间支撑&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>入场确认&lt;/td>
-&lt;td>收盘重新回到区间内&lt;/td>
-&lt;td>视频要求下一根 K 线收盘回到区间内&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>入场时点&lt;/td>
-&lt;td>确认 K 线收盘时做空&lt;/td>
-&lt;td>确认 K 线收盘时做多&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>止损&lt;/td>
-&lt;td>突破 K 线高点上方&lt;/td>
-&lt;td>最近波段低点下方&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>目标&lt;/td>
-&lt;td>下一个主要支撑&lt;/td>
-&lt;td>下一个重要阻力&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;p>&lt;img src="https://imgant.forecho.com/2026/10/27/073658.749-c523d524-c74be4f6.webp" alt="看跌 Power of 3 图表案例：上破盘整区间后收回，随后向下扩张">&lt;/p>
-&lt;p>&lt;em>黄色框是盘整区间，右侧先向上扫荡，再跌回区间并向下扩张。仓位工具中，上方红色区域代表止损距离，下方绿色区域代表目标方向。&lt;/em>&lt;/p>
-&lt;p>&lt;img src="https://imgant.forecho.com/2026/10/27/c84f00cc.webp" alt="看涨 Power of 3 图表案例：跌破区间后收回，右侧价格随后向上运行">&lt;/p>
-&lt;p>&lt;em>黄色框下方的长影线是扫荡位置，之后价格重新收回区间并上涨。绿色区域标的是作者设定的目标空间，这一帧展示的上涨尚未到达目标线。&lt;/em>&lt;/p>
-&lt;p>「收回区间」是这套示例的入场条件，后续走势仍然存在不确定性。视频演示了止损和目标位置，仓位比例、滑点、手续费以及连续失败时如何处理，都需要在自己的交易计划里补齐。&lt;/p>
-&lt;h2 id="4-订单块标记强势推动前的起点">4. 订单块：标记强势推动前的起点&lt;/h2>
-&lt;p>订单块（Order Block，OB）是 ICT / SMC 用来标记强势推动起点区域的概念。视频用「机构曾在这里集中下单」解释它的意义；从 K 线能直接识别的是推动的起点、离开力度、失衡和结构变化。&lt;/p>
-&lt;p>看涨订单块对应强势上涨前的起点区域，看跌订单块对应强势下跌前的起点区域。作者观察价格首次返回这些区域时是否产生反应。&lt;/p>
-&lt;p>&lt;img src="https://imgant.forecho.com/2026/10/27/e89c830f.webp" alt="看涨与看跌订单块：黄色矩形分别标出向上推动和向下推动的起点区域">&lt;/p>
-&lt;p>&lt;em>左侧黄色区域是看涨订单块，右侧是看跌订单块。矩形给出价格范围，实际画哪一根 K 线还需要结合下面的确认条件。&lt;/em>&lt;/p>
-&lt;h3 id="和支撑阻力有什么区别">和支撑阻力有什么区别&lt;/h3>
-&lt;p>视频从形成方式、画法和回测次数三个角度区分两者。我把它整理成下面这张表，并保留作者规则的适用范围：&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>对比项&lt;/th>
-&lt;th>支撑 / 阻力&lt;/th>
-&lt;th>本视频的订单块方法&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>选区依据&lt;/td>
-&lt;td>前高前低、反复反应的位置等&lt;/td>
-&lt;td>强势推动前的起点，并结合失衡与结构突破&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>区域画法&lt;/td>
-&lt;td>可以画水平线，也可以画价格带&lt;/td>
-&lt;td>取选定 K 线的影线最高点到最低点&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>回测处理&lt;/td>
-&lt;td>结合每次反应持续评估&lt;/td>
-&lt;td>作者侧重首次回测，触碰后从候选区中移除&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;p>补充说明：支撑阻力本身也常用区域表示。区分这两套标记时，选区依据和确认规则更有参考价值；矩形画得宽一些，仍然需要对应明确的价格结构。&lt;/p>
-&lt;h3 id="有效订单块的-3-条筛选规则">有效订单块的 3 条筛选规则&lt;/h3>
-&lt;p>&lt;strong>规则 1：离开时出现失衡。&lt;/strong> 视频用两段强势上涨对比：只有留下干净缺口的那一段，才进入作者的订单块候选名单。画法是取失衡出现前的最后一根 K 线，从影线最高点到影线最低点画矩形。&lt;/p>
-&lt;p>&lt;img src="https://imgant.forecho.com/2026/10/27/e8f4ab22.webp" alt="两段强势上涨的对比：右侧出现影线之间的缺口，视频圈出了失衡前的候选订单块 K 线">&lt;/p>
-&lt;p>&lt;em>左侧 No Gap 表示影线区间仍有重叠；右侧 Gap 表示留下失衡，紫圈标的是作者用于画订单块的起点 K 线。订单块是起点区域，FVG 是后续三根 K 线形成的失衡区域，两者的边界分别确定。&lt;/em>&lt;/p>
-&lt;p>不同资料对订单块有不同的取法，例如选择推动前最后一根反向 K 线，或对实体、影线采用不同边界。本文保留视频的示例画法；复盘时应固定自己的取法，保持前后一致。&lt;/p>
-&lt;p>&lt;strong>规则 2：优先选择尚未回测的区域。&lt;/strong> 作者要求订单块处于 Unmitigated 状态。价格返回区域，即使只有影线触及，他也会把该区域视为已使用，停止寻找下一次入场。&lt;/p>
-&lt;p>&lt;img src="https://imgant.forecho.com/2026/10/27/cabbc7b9.webp" alt="订单块首次被回测的示意：右侧红色 K 线进入黄色区域，白色箭头标出 Retest">&lt;/p>
-&lt;p>&lt;em>右侧回落 K 线的影线已经触及黄色订单块，作者用红叉表示此区域按他的规则退出候选名单。这张图讲的是回测状态。&lt;/em>&lt;/p>
-&lt;p>我会把这条理解成&lt;strong>一套只做首次回测的筛选纪律&lt;/strong>。「已触碰」说明区域被测试过，「止损触发」和「价格穿透区域」则对应另外的结果，记录时要分别标注。视频把订单已经成交作为解释，这一点需要订单数据才能进一步核实。&lt;/p>
-&lt;p>&lt;strong>规则 3：通过 BOS 或 CHoCH 确认。&lt;/strong> 作者要求推动引发结构变化：沿上涨方向突破前高，沿下跌方向跌破前低；方向发生变化时，则观察性质转变（Change of Character，CHoCH）。&lt;/p>
-&lt;p>&lt;img src="https://r2.imgant.com/2026/10/27/e199fe72.png" alt="image">&lt;/p>
-&lt;p>BOS 通常用来描述沿当前结构方向的延续突破，CHoCH 描述对原结构的反向破坏。实盘里还需要固定参考哪个周期、哪一级高低点，以及用影线越过还是收盘突破作为确认。视频对此只做概念性演示。&lt;/p>
-&lt;p>看跌案例先出现强势下跌和失衡，上方区域成为候选订单块。作者随后观察下方支撑是否被跌破，用这一步确认结构变化。&lt;/p>
-&lt;p>&lt;img src="https://imgant.forecho.com/2026/10/27/e95b031b.webp" alt="看跌订单块案例：上方黄色矩形标记候选区域，价格向下突破黄色支撑线确认 BOS">&lt;/p>
-&lt;p>&lt;em>上方矩形是候选订单块，下方黄色水平线是前支撑；白色箭头标出跌破支撑的 BOS。这一帧展示的是突破确认阶段。&lt;/em>&lt;/p>
-&lt;h3 id="看涨案例订单块与前阻力重合">看涨案例：订单块与前阻力重合&lt;/h3>
-&lt;p>看涨案例先突破原阻力，再形成两处失衡，视频据此标出两个订单块。较高的订单块与之前的阻力位重合，作者把这种重合称为共振（Confluence），随后观察价格回到这里的反应。&lt;/p>
-&lt;p>&lt;img src="https://imgant.forecho.com/2026/10/27/ea2cdd89.webp" alt="看涨订单块与原阻力位重合，右侧圆圈标出回测位置，虚线箭头指向作者预期的上涨方向">&lt;/p>
-&lt;p>&lt;em>黄色水平线是原阻力，上方红框区域是与它重合的订单块，紫圈标出右侧回测。白色虚线箭头表示作者预期的后续上涨，读图时要把实际 K 线与这条推演路径分开。&lt;/em>&lt;/p>
-&lt;p>「前阻力可能转为支撑」与订单块选区重合，能为观察提供多一个条件。它对胜率究竟有多大帮助，仍要通过相同规则下的样本比较来判断。&lt;/p>
-&lt;h2 id="总结">总结&lt;/h2>
-&lt;p>看完这段视频，我觉得最有用的是把几个术语串成一条读图顺序：&lt;/p>
+&lt;p>画区域时看的是&lt;strong>第 1 根和第 3 根的影线极值&lt;/strong>。如果第 1 根和第 3 根的影线相互重叠，那么即使中间那根 K 线实体再大，也不存在有效的 FVG。&lt;/p>
+&lt;p>&lt;img src="https://imgant.forecho.com/2026/10/27/ae7d3cde.webp" alt="看涨和看跌 FVG 的三根 K 线结构，黄色线标出第 1 根与第 3 根影线之间的边界">
+&lt;em>左右两组三根 K 线。左侧看涨：下黄线为第 1 根最高点，上黄线为第 3 根最低点；右侧看跌：上黄线为第 1 根最低点，下黄线为第 3 根最高点。中间留白的区间就是 FVG。&lt;/em>&lt;/p>
+&lt;h3 id="视频作者的-4-条高胜率筛选技巧">视频作者的 4 条高胜率筛选技巧&lt;/h3>
+&lt;p>图表上的 FVG 非常多，如果见缺口就做，很容易被反复打脸。作者给出了 4 条过滤原则：&lt;/p>
+&lt;p>&lt;strong>1. 只做未回测过的缺口（Unmitigated Gaps）&lt;/strong>：新鲜的缺口有效性最高。价格从来没碰过的叫 Unmitigated，一旦价格回头碰触过（哪怕只是一根影线戳进去），就变成了 Mitigated，它的优势就大幅减弱，后续应该放弃。同时注意回踩力度：如果回踩过深，实体收在缺口内部或直接跌破缺口，这个形态就作废了。理想状态是价格触碰缺口后迅速受到支撑并反弹。&lt;/p>
+&lt;p>&lt;img src="https://r2.imgant.com/2026/10/27/b7106a82.png" alt="有效的 FVG ">
+&lt;em>价格首次回踩黄色 FVG 区域，受到明显支撑后拉起，属于合格的首次回测。&lt;/em>&lt;/p>
+&lt;p>&lt;img src="https://r2.imgant.com/2026/10/27/c90223a2.png" alt="无效的 FVG">
+&lt;em>价格直接穿透缺口并收在缺口下方，结构已被破坏，这种形态直接放弃。&lt;/em>&lt;/p>
+&lt;p>&lt;strong>2. 优先选择更大的缺口（Size matters）&lt;/strong>：较大的缺口代表买卖双方的力量失衡更剧烈，后续价格回踩这个区域并产生强烈反应的概率更高。当图上同时出现多个缺口时，优先考虑跨度更宽的那个。&lt;/p>
+&lt;p>&lt;img src="https://r2.imgant.com/2026/10/27/e7435c28.png" alt="多个 FVG 并存时优先关注尺寸更大的区域">
+&lt;em>上方小缺口与下方大缺口并存时，大缺口代表更激进的失衡，回踩反应更值得关注。&lt;/em>&lt;/p>
+&lt;p>&lt;strong>3. 避开靠近关键支撑阻力的缺口&lt;/strong>：比如一个看涨 FVG 正好形成在一条强阻力线的正下方，这往往是个危险信号。因为价格回抽后往上走两步就会直接撞上大阻力，很可能受阻暴跌，反过来把你的 FVG 砸穿。做交易前必须观察周围空间，远离近在咫尺的大障碍。&lt;/p>
+&lt;p>&lt;img src="https://imgant.forecho.com/2026/10/27/037da25a.webp" alt="看涨 FVG 上方靠近主要阻力位，视频用虚线示意价格受阻后可能跌穿缺口">
+&lt;em>上方黄色水平线是关键阻力，下方黄色区域是 FVG。空间不足时很容易遭遇阻力砸盘。&lt;/em>&lt;/p>
+&lt;p>&lt;strong>4. 优先关注伴随结构突破（BOS）的缺口&lt;/strong>：最可靠的 FVG 通常出现在突破关键结构点（前高或前低）的瞬间。当价格破位并同时留下一段干净的 FVG，这里就是资金再次进场的高概率区，首次回踩往往反应剧烈。&lt;/p>
+&lt;p>&lt;img src="https://imgant.forecho.com/2026/10/27/c627b076.webp" alt="价格突破前高后形成 FVG，随后返回黄色区域进行首次回测">
+&lt;em>白线是被突破的前高（BOS），紧随其后留下黄色 FVG，价格右侧首次回踩即产生多头反应。&lt;/em>&lt;/p>
+&lt;h2 id="3-power-of-3盘整操纵与扩张">3. Power of 3：盘整、操纵与扩张&lt;/h2>
+&lt;p>Power of 3（简称 PO3，在 ICT 体系中也对应 Accumulation-Manipulation-Distribution，即 AMD 模型）把行情展开的节奏拆成了三个经典阶段：&lt;/p>
 &lt;ol>
-&lt;li>从前高、前低和区间边界，找潜在的买方、卖方流动性。&lt;/li>
-&lt;li>观察价格扫过边界后是否收回，再看是否出现结构变化。&lt;/li>
-&lt;li>标出推动过程中形成的 FVG，以及推动前的订单块。&lt;/li>
-&lt;li>按既定规则观察首次回测，提前确定止损、目标和放弃条件。&lt;/li>
+&lt;li>&lt;strong>盘整（Consolidation / Accumulation / Distribution）&lt;/strong>：价格在一个较窄的区间内横盘整理。散户通常觉得行情沉闷，但主力正是在这个阶段悄悄建立头寸。&lt;/li>
+&lt;li>&lt;strong>操纵（Manipulation / Liquidity Sweep）&lt;/strong>：价格突然假突破走出区间（向上或向下），诱使散户追单，同时打掉反向持仓者的止损。这不是真正的趋势启动，而是主力为了吃饱流动性故意做出来的动作。&lt;/li>
+&lt;li>&lt;strong>扩张或加速（Acceleration / Expansion / Markup / Markdown）&lt;/strong>：流动性扫荡完成之后，价格迅速收回区间，并向着相反的方向开启一波快速、凌厉的单边走势。&lt;/li>
 &lt;/ol>
-&lt;p>Power of 3 把「盘整、扫荡、反向扩张」连成一个过程，FVG 和订单块则提供不同的区域画法。我会先固定周期、边界和确认方式做复盘，把首次触及、完全回补、结构失效分开记录，再评估这些筛选条件是否有用。&lt;/p>
-&lt;p>这段视频适合快速认识术语和读图顺序。形成可执行的交易方法，还需要加入仓位、交易成本和样本验证，并保留失败案例一起检查。&lt;/p>
+&lt;p>&lt;img src="https://imgant.forecho.com/2026/10/27/c662656b.webp" alt="看涨 Power of 3 的完整示意：横盘后跌破区间下沿，再向上扩张">
+&lt;em>黄色虚线框出横盘区间，紫圈标出向下跌破诱空的操纵阶段，随后绿色箭头展示真正的向上扩张阶段。&lt;/em>&lt;/p>
+&lt;h3 id="看涨与看跌的交易执行规则">看涨与看跌的交易执行规则&lt;/h3>
+&lt;p>识别出形态后，作者给出了具体的进场、止损与止盈规则：&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>交易要素&lt;/th>
+&lt;th>看跌版本（顶部派发）&lt;/th>
+&lt;th>看涨版本（底部吸筹）&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>行情背景&lt;/td>
+&lt;td>价格经过强劲上涨后进入高位窄幅震荡&lt;/td>
+&lt;td>价格经过大幅下跌后进入低位窄幅震荡&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>操纵动作&lt;/td>
+&lt;td>向上冲破阻力位（诱多扫空头止损）&lt;/td>
+&lt;td>向下跌破支撑位（诱空扫多头止损）&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>入场信号&lt;/strong>&lt;/td>
+&lt;td>&lt;strong>K 线重新跌回并收在区间内部的那一刻&lt;/strong>&lt;/td>
+&lt;td>&lt;strong>K 线重新拉回并收在区间内部的那一刻&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>止损设置&lt;/strong>&lt;/td>
+&lt;td>假突破那根 K 线的最高点上方&lt;/td>
+&lt;td>近期扫荡波段低点的下方&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>止盈目标&lt;/strong>&lt;/td>
+&lt;td>下一个主要支撑位&lt;/td>
+&lt;td>下一个重要阻力位&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>&lt;img src="https://imgant.forecho.com/2026/10/27/073658.749-c523d524-c74be4f6.webp" alt="看跌 Power of 3 图表案例：上破盘整区间后收回，随后向下扩张">
+&lt;em>黄色框为横盘区间，价格假突破上破后收回，进场做空，止损放刺穿高点上方，目标看向下方支撑。&lt;/em>&lt;/p>
+&lt;p>&lt;img src="https://imgant.forecho.com/2026/10/27/c84f00cc.webp" alt="看涨 Power of 3 图表案例：跌破区间后收回，右侧价格随后向上运行">
+&lt;em>黄色框底部出现长下影线下破诱空，收回区间后进场做多，止损放扫荡低点下方，目标看向上方阻力。&lt;/em>&lt;/p>
+&lt;p>Power of 3 的核心在于克制在假突破瞬间去追单的冲动，耐心地等待&lt;strong>价格重新收回区间&lt;/strong>这一步确认。&lt;/p>
+&lt;h2 id="4-订单块大资金强势推动的起点">4. 订单块：大资金强势推动的起点&lt;/h2>
+&lt;p>订单块（Order Block，简称 OB）是指大机构（银行、基金等）集中下单建仓或出货的价格区域。散户无法撼动市场，当图表上出现某根 K 线或某个位置之后价格突然爆发出极强的单向走势，往往就是机构资金进场留下的脚印。&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>看涨订单块（Bullish OB）&lt;/strong>：强势向上拉升之前的启动区域。&lt;/li>
+&lt;li>&lt;strong>看跌订单块（Bearish OB）&lt;/strong>：强势向下砸盘之前的启动区域。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://imgant.forecho.com/2026/10/27/e89c830f.webp" alt="看涨与看跌订单块：黄色矩形分别标出向上推动和向下推动的起点区域">
+&lt;em>左侧黄色区域是看涨订单块，右侧黄色区域是看跌订单块，两者都是强单边行情的始发站。&lt;/em>&lt;/p>
+&lt;h3 id="订单块与传统支撑阻力的三大区别">订单块与传统支撑/阻力的三大区别&lt;/h3>
+&lt;p>很多人分不清订单块和传统支撑阻力（S/R），视频专门从三个维度做了对比：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>形成逻辑不同&lt;/strong>：支撑阻力来自于价格在某个位置&lt;strong>反复反弹或受阻&lt;/strong>（Repeated Rejections）；订单块则来自大资金&lt;strong>激进爆发推进的起点&lt;/strong>（Impulsive Move）。&lt;/li>
+&lt;li>&lt;strong>形态厚度不同&lt;/strong>：支撑阻力通常是一根细水平线或窄带；订单块是一个相对较厚的实体区间（Thicker Zone），代表机构订单集中挂单的价格带。&lt;/li>
+&lt;li>&lt;strong>回测时效不同（一次性机会 vs 多次生效）&lt;/strong>：强支撑阻力往往能被多次测试（几周内弹个三四次很常见）；订单块通常是&lt;strong>一次性窗口（One-time Window）&lt;/strong>，价格首次回测（Retest）测试大玩家是否护盘，一旦发生反应，原先留在里面的挂单基本被消化完毕，后续不再具备同等优势。&lt;/li>
+&lt;/ol>
+&lt;h3 id="有效订单块的三条硬性筛选规则">有效订单块的三条硬性筛选规则&lt;/h3>
+&lt;p>不是随便一根阳线或阴线都能算订单块。作者强调了三条必不可少的成立条件：&lt;/p>
+&lt;p>&lt;strong>1. 离开时必须留下失衡（Imbalance / FVG）&lt;/strong>：价格必须脱离得非常迅速，在蜡烛图之间留下干净的缺口。如果离开时慢慢吞吞、影线相互交叠，那就不是有效订单块。&lt;strong>画法&lt;/strong>：取失衡发生前的最后一根 K 线，从影线最高点到最低点（Wick High to Wick Low）画矩形。&lt;/p>
+&lt;p>&lt;img src="https://imgant.forecho.com/2026/10/27/e8f4ab22.webp" alt="两段强势上涨的对比：右侧出现影线之间的缺口，视频圈出了失衡前的候选订单块 K 线">
+&lt;em>左侧无缺口（No Gap），影线重叠，不能算 OB；右侧留有干净缺口（Gap），紫圈标记的那根 K 线就是有效的订单块。&lt;/em>&lt;/p>
+&lt;p>&lt;strong>2. 必须是未回测过的（Unmitigated）&lt;/strong>：订单块是一次性工具。价格第一次回到这个区域（哪怕只是一根下影线碰到了上边缘），这个订单块就算已被测试（Mitigated），原有的订单已经成交，必须从观察名单中划掉，绝不在第二次回踩时再用它开仓。&lt;/p>
+&lt;p>&lt;img src="https://imgant.forecho.com/2026/10/27/cabbc7b9.webp" alt="订单块首次被回测的示意：右侧红色 K 线进入黄色区域，白色箭头标出 Retest">
+&lt;em>右侧回踩 K 线的影线碰触黄色订单块后，该区域的任务就已完成（红叉示意作废），不能反复使用。&lt;/em>&lt;/p>
+&lt;p>&lt;strong>3. 必须伴随结构破坏（BOS 或 CHoCH）确认&lt;/strong>：这是最关键的一环。价格离开之后，必须顺着趋势突破前高/跌破前低（结构突破 BOS），或者打掉反向结构点发生性质转变（CHoCH）。没有打碎结构的启动都是假动作。&lt;/p>
+&lt;p>&lt;img src="https://r2.imgant.com/2026/10/27/e199fe72.png" alt="跌破前低确认看跌订单块">
+&lt;em>价格快速下挫打破原有的上升结构，确认了上方订单块的有效性。&lt;/em>&lt;/p>
+&lt;p>&lt;img src="https://imgant.forecho.com/2026/10/27/e95b031b.webp" alt="看跌订单块案例：上方黄色矩形标记候选区域，价格向下突破黄色支撑线确认 BOS">
+&lt;em>上方黄色矩形是订单块，随后价格大阴线下跌并击穿黄色支撑线完成 BOS 确认，等待后续回测。&lt;/em>&lt;/p>
+&lt;h3 id="经典看涨案例订单块与原阻力位的共振">经典看涨案例：订单块与原阻力位的共振&lt;/h3>
+&lt;p>当订单块正好与之前被突破的关键水平位（如原阻力位转支撑位）处于同一价格区间时，就形成了非常强烈的&lt;strong>共振（Confluence）&lt;/strong>。&lt;/p>
+&lt;p>在看涨行情中，价格突破前期阻力并向上飞奔留下两处失衡。我们画出对应的订单块，其中一个订单块正好坐落在原先被突破的阻力线上（阻力转支撑）。当价格第一次回抽到这个重叠区域时，多方力量在此汇聚，回踩后立即展开了强劲的上涨走势。&lt;/p>
+&lt;p>&lt;img src="https://imgant.forecho.com/2026/10/27/ea2cdd89.webp" alt="看涨订单块与原阻力位重合，右侧圆圈标出回测位置，虚线箭头指向作者预期的上涨方向">
+&lt;em>黄色水平线是前期阻力，红框是启动上涨的看涨订单块。两者重叠形成共振，右侧紫色圆圈回踩确认后大幅走高。&lt;/em>&lt;/p>
+&lt;h2 id="总结">总结&lt;/h2>
+&lt;p>梳理完这个视频，我觉得它最大的价值不在于教了多少新名词，而是把零散的概念拼成了一套有先后顺序的交易检查清单：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>先找流动性（Liquidity）&lt;/strong>：打开图表不要急着找指标，先看盘面上哪里的前高前低最明显、哪里的等高/等低点上方下方堆着大量散户止损。&lt;/li>
+&lt;li>&lt;strong>观察操纵行为（PO3 / Sweep）&lt;/strong>：价格有没有出现冲破这些高低点后又迅速收回的假动作？如果有，说明有人在扫流动性，等待收回区间那一刻的信号。&lt;/li>
+&lt;li>&lt;strong>确认推进痕迹（FVG 与 OB）&lt;/strong>：假动作完成后，价格有没有走出大实体的脱离，并打穿结构（BOS）？如果有，标记出伴随失衡的 FVG 和推进起点的订单块（OB）。&lt;/li>
+&lt;li>&lt;strong>耐心等首次回测（Unmitigated Retest）&lt;/strong>：不要在半空中追单，等价格第一次回到未回测过的 FVG 或订单块区域。进场前看清周围空间，止损严格放在扫荡极值之外，去博取下一个关键流动性目标。&lt;/li>
+&lt;/ol>
+&lt;p>任何技术分析模型都不是胜率 100% 的圣杯。这套方法能帮你理顺“大资金在哪里猎取止损、推进留在哪、回调去哪等”，但在实盘中依然要固定好自己的参考时间周期、回测标准，并严格做好仓位管理。&lt;/p>
 &lt;blockquote>
-&lt;p>来源视频：&lt;a href="https://www.youtube.com/watch?v=QQijkhheJ9g">Learn Every ICT Concept in 17 Minutes (Liquidity, FVG, Order Blocks &amp;amp; More)&lt;/a>，Pro Trading School，2025 年 6 月 7 日。&lt;/p>
+&lt;p>视频来源：&lt;a href="https://www.youtube.com/watch?v=QQijkhheJ9g">Learn Every ICT Concept in 17 Minutes (Liquidity, FVG, Order Blocks &amp;amp; More)&lt;/a> - Pro Trading School&lt;/p>
 &lt;/blockquote></description></item><item><title>Al Brooks：10 个最佳价格行为交易形态（全解析与中文图解）</title><link>https://blog.forecho.com/10-best-price-action-trading-patterns.html</link><pubDate>Fri, 18 Sep 2026 16:00:00 +0800</pubDate><guid>https://blog.forecho.com/10-best-price-action-trading-patterns.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
 &lt;p>&lt;img src="https://r2.imgant.com/2026/09/18/b4479201.png" alt="不要祈求轻松的生活，祈求成为更坚强的人">&lt;/p>
 &lt;p>这 &lt;strong>10 个最佳价格行为交易形态（10 Best Price Action Trading Patterns）&lt;/strong> 是 Al Brooks 最青睐的形态。成功的交易员每天都在运用这些形态从市场中获利。在实际应用中要保持灵活，因为每个形态都有许多变体。只要你对所有可能性保持开放的心态，就会在每个交易日、任何市场以及各种时间周期上不断看到它们的身影。&lt;/p>
