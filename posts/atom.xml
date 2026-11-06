@@ -1,4 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on forecho's Blog</title><link>https://blog.forecho.com/posts.html</link><description>Recent content in Posts on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 26 Oct 2026 17:00:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/posts/atom.xml" rel="self" type="application/rss+xml"/><item><title>ICT 核心概念笔记：流动性、FVG、Power of 3 与订单块</title><link>https://blog.forecho.com/learn-every-ict-concept.html</link><pubDate>Mon, 26 Oct 2026 17:00:00 +0800</pubDate><guid>https://blog.forecho.com/learn-every-ict-concept.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on forecho's Blog</title><link>https://blog.forecho.com/posts.html</link><description>Recent content in Posts on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 06 Nov 2026 10:00:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/posts/atom.xml" rel="self" type="application/rss+xml"/><item><title>我做了个只收录精品软件的网站 SoftBests</title><link>https://blog.forecho.com/introducing-softbests.html</link><pubDate>Fri, 06 Nov 2026 10:00:00 +0800</pubDate><guid>https://blog.forecho.com/introducing-softbests.html</guid><description>&lt;p>&lt;img src="https://r2.imgant.com/2026/11/06/d71c5709.webp" alt="SoftBests 首页：搜索、十二个栏目和软件卡片">&lt;/p>
+&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>今年我没有续费用了几年的 Setapp。&lt;/p>
+&lt;p>最直接的原因是：我常用的那几款软件，在外面都能找到更好或更轻的替代品，继续为大而全的订阅付费，对我来说已经不划算了。&lt;/p>
+&lt;p>与此同时，我发现 Vibe Coding 兴起让做软件的门槛断崖式下跌。以前几个月才能做出来的工具，现在几天就能出一个可用版本。但软件变多并没有让「找工具」变容易——Product Hunt 每天刷新，AI 工具榜层出不穷，信息零碎且极易过期。绝大多数榜单只告诉你「有什么」，却很少讲清楚「它适合谁、不适合谁」。&lt;/p>
+&lt;p>所以我做了 &lt;strong>SoftBests&lt;/strong>，一个人工筛选、专注挖掘精品软件的目录网站。&lt;/p>
+&lt;p>👉 访问地址：&lt;a href="https://softbests.com/">softbests.com&lt;/a>&lt;/p></description></item><item><title>ICT 核心概念笔记：流动性、FVG、Power of 3 与订单块</title><link>https://blog.forecho.com/learn-every-ict-concept.html</link><pubDate>Mon, 26 Oct 2026 17:00:00 +0800</pubDate><guid>https://blog.forecho.com/learn-every-ict-concept.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
 &lt;p>这篇是我看 Pro Trading School 的视频 &lt;a href="https://www.youtube.com/watch?v=QQijkhheJ9g">Learn Every ICT Concept in 17 Minutes (Liquidity, FVG, Order Blocks &amp;amp; More)&lt;/a> 整理的笔记。视频全长 17 分半，把 ICT / SMC 体系里最核心的四个词：流动性（Liquidity）、公允价值缺口（FVG）、Power of 3（PO3）和订单块（Order Block），用一套非常连贯的读图逻辑串了起来。&lt;/p>
 &lt;p>很多讲 ICT 的内容容易搞得神乎其神，好像机构无所不能在图表后面算计每个人。抛开那些拟人化的叙事，从纯粹的价格行为来看，这套东西其实给了一套清晰的看盘顺序：先看哪里的止损单最密集（流动性），再看价格有没有假突破去扫这些单子（扫荡与诱导），随后有没有走出大实体的剧烈推进（失衡与结构突破），最后在价格首次回调时去哪里找入场位置（FVG 或订单块）。&lt;/p>
 &lt;p>我按视频讲解的顺序把概念、画法和作者给出的过滤条件梳理出来。文中的配图全部截自原视频，版权归原作者 &lt;a href="https://www.youtube.com/@ProTradingSchool">Pro Trading School&lt;/a> 所有。&lt;/p></description></item><item><title>Al Brooks：10 个最佳价格行为交易形态（全解析与中文图解）</title><link>https://blog.forecho.com/10-best-price-action-trading-patterns.html</link><pubDate>Fri, 18 Sep 2026 16:00:00 +0800</pubDate><guid>https://blog.forecho.com/10-best-price-action-trading-patterns.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
@@ -86,18 +92,4 @@
 &lt;p>交易里最难受的一类单子，是方向看对了，账户没赚钱。&lt;/p>
 &lt;p>价格后来确实按你的预期走，但你已经被洗出去了；刚有一点浮盈，你先跑了；入场位置还可以，止损放得太近；本来是波段 setup，最后被你做成了一个小 scalp。&lt;/p>
 &lt;p>这种亏损会让人怀疑自己只差一点运气。实际大多是执行问题。&lt;/p>
-&lt;p>方向判断只是交易的一部分。把判断变成结果，靠的是进场、止损、仓位、出场和持仓管理。&lt;/p></description></item><item><title>趋势日怎么做：硬趋势、软趋势与 Spike and Channel</title><link>https://blog.forecho.com/trend-day-hard-trend-soft-trend-playbook.html</link><pubDate>Tue, 31 Mar 2026 22:55:00 +0800</pubDate><guid>https://blog.forecho.com/trend-day-hard-trend-soft-trend-playbook.html</guid><description>&lt;h2 id="系列导航">系列导航&lt;/h2>
-&lt;p>这一组文章建议按顺序阅读：&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://blog.forecho.com/how-to-read-the-open-first-30-minutes.html">开盘 30 分钟怎么读盘：跳空、第一根 K 线与当天主方向&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://blog.forecho.com/first-reversal-and-first-pullback.html">1Rev 与 1PB：开盘后最重要的两类机会&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://blog.forecho.com/what-is-a2-price-action-setup.html">A2 是什么：最值得先练的价格行为 setup&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://blog.forecho.com/most-breakouts-fail-trading-range-playbook.html">大多数突破都会失败：区间行情里值得做的机会&lt;/a>&lt;/li>
-&lt;li>&lt;strong>趋势日怎么做：硬趋势、软趋势与 Spike and Channel（当前）&lt;/strong>&lt;/li>
-&lt;li>&lt;a href="https://blog.forecho.com/why-you-still-cant-make-money-even-if-you-read-the-market-right.html">为什么你看对了方向，还是赚不到钱&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>趋势日最容易让人后悔。&lt;/p>
-&lt;p>你明明看出来方向了，但一直等不到理想回调；好不容易进场，又被一次正常回撤洗掉；或者开盘很强，你早早拿到利润，结果后面走了一整天。&lt;/p>
-&lt;p>问题通常出在趋势分类。&lt;/p>
-&lt;p>普通趋势、硬趋势、软趋势、Spike and Channel，节奏完全不同。你用同一套入场和持仓方式处理它们，结果就会很别扭。&lt;/p></description></item></channel></rss>
+&lt;p>方向判断只是交易的一部分。把判断变成结果，靠的是进场、止损、仓位、出场和持仓管理。&lt;/p></description></item></channel></rss>

@@ -1,4 +1,36 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 26 Oct 2026 17:00:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>ICT 核心概念笔记：流动性、FVG、Power of 3 与订单块</title><link>https://blog.forecho.com/learn-every-ict-concept.html</link><pubDate>Mon, 26 Oct 2026 17:00:00 +0800</pubDate><guid>https://blog.forecho.com/learn-every-ict-concept.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 06 Nov 2026 10:00:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>我做了个只收录精品软件的网站 SoftBests</title><link>https://blog.forecho.com/introducing-softbests.html</link><pubDate>Fri, 06 Nov 2026 10:00:00 +0800</pubDate><guid>https://blog.forecho.com/introducing-softbests.html</guid><description>&lt;p>&lt;img src="https://r2.imgant.com/2026/11/06/d71c5709.webp" alt="SoftBests 首页：搜索、十二个栏目和软件卡片">&lt;/p>
+&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>今年我没有续费用了几年的 Setapp。&lt;/p>
+&lt;p>最直接的原因是：我常用的那几款软件，在外面都能找到更好或更轻的替代品，继续为大而全的订阅付费，对我来说已经不划算了。&lt;/p>
+&lt;p>与此同时，我发现 Vibe Coding 兴起让做软件的门槛断崖式下跌。以前几个月才能做出来的工具，现在几天就能出一个可用版本。但软件变多并没有让「找工具」变容易——Product Hunt 每天刷新，AI 工具榜层出不穷，信息零碎且极易过期。绝大多数榜单只告诉你「有什么」，却很少讲清楚「它适合谁、不适合谁」。&lt;/p>
+&lt;p>所以我做了 &lt;strong>SoftBests&lt;/strong>，一个人工筛选、专注挖掘精品软件的目录网站。&lt;/p>
+&lt;p>👉 访问地址：&lt;a href="https://softbests.com/">softbests.com&lt;/a>&lt;/p>
+&lt;h2 id="核心原则只收录精品">核心原则：只收录精品&lt;/h2>
+&lt;p>SoftBests 不追求数量堆砌，而是把每个工具放对位置。目前站内收录了 500+ 款工具，涵盖终端、编码 Agent、AI 编辑器、数据库、笔记等 12 个栏目。&lt;/p>
+&lt;p>我不做无脑收录，也不会卖赞助排名。我挑选「精品」的标准很简单：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>解决真实问题&lt;/strong>：不是硬造出来的需求，也不是给现有工具换层皮；&lt;/li>
+&lt;li>&lt;strong>状态健康&lt;/strong>：保持维护，定价合理对得起功能；&lt;/li>
+&lt;li>&lt;strong>边界清晰&lt;/strong>：能说清楚适合谁，也能坦白不适合谁。&lt;/li>
+&lt;/ul>
+&lt;p>除了 Raycast、VS Code 这类主流工具，我更希望能帮大家挖掘那些被低估（Underrated）的优质小工具。很多优秀产品功能极好，只是缺少合适的分发渠道。&lt;/p>
+&lt;p>&lt;img src="https://r2.imgant.com/2026/11/06/d7504c9c.webp" alt="终端应用栏目：按平台、定价和开源筛选，支持只看被低估">&lt;/p>
+&lt;p>在分类页面中，你可以直接按平台、定价模式、是否开源以及「仅看被低估」来精准筛选。进入软件详情后，除了基础信息，还会重点呈现它的核心价值与适用人群。&lt;/p>
+&lt;p>&lt;img src="https://r2.imgant.com/2026/11/06/d78a845f.webp" alt="Raycast 详情页：适合谁、为什么值得关注和替代关系">&lt;/p>
+&lt;h2 id="为什么替代品是重点">为什么「替代品」是重点&lt;/h2>
+&lt;p>退订 Setapp 之后，我买软件的心态变了：我更在乎自己是否已经有工具能覆盖该需求？有没有更轻、更便宜或开源的替代？&lt;/p>
+&lt;p>这也是 SoftBests 重点做&lt;strong>替代品页面&lt;/strong>的原因。&lt;/p>
+&lt;p>&lt;img src="https://r2.imgant.com/2026/11/06/d7bfcc0a.webp" alt="Raycast 替代品页面：先看几款推荐，再按适合谁、平台和定价对比">&lt;/p>
+&lt;p>以 Raycast 为例，页面收录了 35 款替代工具，横向对比平台支持、定价模式与各自适用的场景。&lt;/p>
+&lt;p>我不想做绝对强弱的「排行榜」，因为不同人的需求差异极大：有人只要开源免费，有人只用 Windows，有人讨厌订阅制。把客观维度摆出来，由你自己决定最适合的选择，比排出一个“第一名”管用得多。&lt;/p>
+&lt;h2 id="现状与参与">现状与参与&lt;/h2>
+&lt;p>网站刚上线不久，仍在持续迭代：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>提名与互动&lt;/strong>：支持 Google 登录后为软件打分、点赞，或&lt;a href="https://softbests.com/nominate">提名新软件&lt;/a>（提交后会进入人工审核队列）；&lt;/li>
+&lt;li>&lt;strong>多语言&lt;/strong>：目前支持简中、繁中和英文；&lt;/li>
+&lt;li>&lt;strong>后续重心&lt;/strong>：继续扩充收录深度，校准各品类之间的替代关系。&lt;/li>
+&lt;/ul>
+&lt;p>如果你平时找工具也曾遇到过「怎么现在才知道这个宝藏软件」或者「被各种水榜搞得眼花缭乱」的烦恼，欢迎去 &lt;a href="https://softbests.com/">softbests.com&lt;/a> 逛逛。遇到收录遗漏或判断偏差，随时欢迎提建议。&lt;/p></description></item><item><title>ICT 核心概念笔记：流动性、FVG、Power of 3 与订单块</title><link>https://blog.forecho.com/learn-every-ict-concept.html</link><pubDate>Mon, 26 Oct 2026 17:00:00 +0800</pubDate><guid>https://blog.forecho.com/learn-every-ict-concept.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
 &lt;p>这篇是我看 Pro Trading School 的视频 &lt;a href="https://www.youtube.com/watch?v=QQijkhheJ9g">Learn Every ICT Concept in 17 Minutes (Liquidity, FVG, Order Blocks &amp;amp; More)&lt;/a> 整理的笔记。视频全长 17 分半，把 ICT / SMC 体系里最核心的四个词：流动性（Liquidity）、公允价值缺口（FVG）、Power of 3（PO3）和订单块（Order Block），用一套非常连贯的读图逻辑串了起来。&lt;/p>
 &lt;p>很多讲 ICT 的内容容易搞得神乎其神，好像机构无所不能在图表后面算计每个人。抛开那些拟人化的叙事，从纯粹的价格行为来看，这套东西其实给了一套清晰的看盘顺序：先看哪里的止损单最密集（流动性），再看价格有没有假突破去扫这些单子（扫荡与诱导），随后有没有走出大实体的剧烈推进（失衡与结构突破），最后在价格首次回调时去哪里找入场位置（FVG 或订单块）。&lt;/p>
 &lt;p>我按视频讲解的顺序把概念、画法和作者给出的过滤条件梳理出来。文中的配图全部截自原视频，版权归原作者 &lt;a href="https://www.youtube.com/@ProTradingSchool">Pro Trading School&lt;/a> 所有。&lt;/p>
@@ -2241,172 +2273,4 @@ imgant upload ./my-image.png --format markdown
 &lt;li>&lt;a href="https://blog.forecho.com/first-reversal-and-first-pullback.html">1Rev 与 1PB：开盘后最重要的两类机会&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://blog.forecho.com/most-breakouts-fail-trading-range-playbook.html">大多数突破都会失败：区间行情里值得做的机会&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://blog.forecho.com/trend-day-hard-trend-soft-trend-playbook.html">趋势日怎么做：硬趋势、软趋势与 Spike and Channel&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>趋势日怎么做：硬趋势、软趋势与 Spike and Channel</title><link>https://blog.forecho.com/trend-day-hard-trend-soft-trend-playbook.html</link><pubDate>Tue, 31 Mar 2026 22:55:00 +0800</pubDate><guid>https://blog.forecho.com/trend-day-hard-trend-soft-trend-playbook.html</guid><description>&lt;h2 id="系列导航">系列导航&lt;/h2>
-&lt;p>这一组文章建议按顺序阅读：&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://blog.forecho.com/how-to-read-the-open-first-30-minutes.html">开盘 30 分钟怎么读盘：跳空、第一根 K 线与当天主方向&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://blog.forecho.com/first-reversal-and-first-pullback.html">1Rev 与 1PB：开盘后最重要的两类机会&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://blog.forecho.com/what-is-a2-price-action-setup.html">A2 是什么：最值得先练的价格行为 setup&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://blog.forecho.com/most-breakouts-fail-trading-range-playbook.html">大多数突破都会失败：区间行情里值得做的机会&lt;/a>&lt;/li>
-&lt;li>&lt;strong>趋势日怎么做：硬趋势、软趋势与 Spike and Channel（当前）&lt;/strong>&lt;/li>
-&lt;li>&lt;a href="https://blog.forecho.com/why-you-still-cant-make-money-even-if-you-read-the-market-right.html">为什么你看对了方向，还是赚不到钱&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>趋势日最容易让人后悔。&lt;/p>
-&lt;p>你明明看出来方向了，但一直等不到理想回调；好不容易进场，又被一次正常回撤洗掉；或者开盘很强，你早早拿到利润，结果后面走了一整天。&lt;/p>
-&lt;p>问题通常出在趋势分类。&lt;/p>
-&lt;p>普通趋势、硬趋势、软趋势、Spike and Channel，节奏完全不同。你用同一套入场和持仓方式处理它们，结果就会很别扭。&lt;/p>
-&lt;h2 id="先判断是哪种趋势">先判断是哪种趋势&lt;/h2>
-&lt;p>趋势日里，方向只是第一层。&lt;/p>
-&lt;p>更重要的是节奏：&lt;/p>
-&lt;ul>
-&lt;li>普通趋势：会给相对舒服的回调；&lt;/li>
-&lt;li>硬趋势：强到不给像样回调；&lt;/li>
-&lt;li>软趋势：一路慢推，回调很浅；&lt;/li>
-&lt;li>Spike and Channel：开头爆发，后面沿通道慢慢磨。&lt;/li>
-&lt;/ul>
-&lt;p>我现在做趋势日，会先问：今天到底是哪一种？&lt;/p>
-&lt;p>这个问题回答错了，后面 setup 再多也容易做歪。&lt;/p>
-&lt;h2 id="普通趋势日等第一组回调">普通趋势日：等第一组回调&lt;/h2>
-&lt;p>普通趋势日最适合按标准顺势思路做。&lt;/p>
-&lt;p>常见线索：&lt;/p>
-&lt;ul>
-&lt;li>大跳空后继续扩张；&lt;/li>
-&lt;li>回补缺口失败；&lt;/li>
-&lt;li>前三四根 K 线方向清楚；&lt;/li>
-&lt;li>开盘区间被有效突破；&lt;/li>
-&lt;li>回调不深，顺势恢复有 follow-through。&lt;/li>
-&lt;/ul>
-&lt;p>这种行情里，我更愿意等第一回调或第一组两腿回调。&lt;/p>
-&lt;p>第一下没追到没关系。很多时候，第一组回调才是执行最舒服的位置。&lt;code>1PB&lt;/code>、&lt;code>A2&lt;/code> 这类 setup，放在普通趋势日里最自然。&lt;/p>
-&lt;h2 id="硬趋势别一直等完美回调">硬趋势：别一直等完美回调&lt;/h2>
-&lt;p>硬趋势的特点是强、快、少回调。&lt;/p>
-&lt;p>常见样子：&lt;/p>
-&lt;ul>
-&lt;li>开盘就冲出昨天区间；&lt;/li>
-&lt;li>第一根 K 线很强；&lt;/li>
-&lt;li>后续连续收在趋势方向；&lt;/li>
-&lt;li>回调经常只是 doji、inside bar 或一两根小 K 线；&lt;/li>
-&lt;li>价格离均线越来越远。&lt;/li>
-&lt;/ul>
-&lt;p>硬趋势里最伤人的错误，是一直等标准回调。&lt;/p>
-&lt;p>你等回均线，市场不回；你等两腿，市场只给一根小 inside bar；你觉得涨太多了想抓反转，它继续挤空。&lt;/p>
-&lt;h3 id="硬趋势怎么做">硬趋势怎么做&lt;/h3>
-&lt;p>我会把重点放在顺势上车，少等漂亮形状。&lt;/p>
-&lt;p>可以考虑的入场：&lt;/p>
-&lt;ul>
-&lt;li>强趋势 bar 收盘后，顺势突破；&lt;/li>
-&lt;li>很浅的 pullback 结束后，继续顺势；&lt;/li>
-&lt;li>小 inside bar 后顺势突破；&lt;/li>
-&lt;li>跌不下去或涨不上去的反向尝试失败。&lt;/li>
-&lt;/ul>
-&lt;p>硬趋势里，止损和仓位要更小心。因为入场经常没有太深回调，位置看起来会高一点或低一点。追得太远时，盈亏比会变差。&lt;/p>
-&lt;p>我的处理原则：&lt;/p>
-&lt;ul>
-&lt;li>不逆势抓顶抓底；&lt;/li>
-&lt;li>接受浅回调；&lt;/li>
-&lt;li>入场 bar 太大时放弃；&lt;/li>
-&lt;li>已经上车以后，少被正常 pullback 吓出去。&lt;/li>
-&lt;/ul>
-&lt;h2 id="软趋势接受浅回调">软趋势：接受浅回调&lt;/h2>
-&lt;p>软趋势没有硬趋势那么猛，但方向很稳定。&lt;/p>
-&lt;p>它的特点是：&lt;/p>
-&lt;ul>
-&lt;li>一路推，但每一腿都不夸张；&lt;/li>
-&lt;li>回调经常很浅；&lt;/li>
-&lt;li>逆势单很难走远；&lt;/li>
-&lt;li>顺势信号有时并不漂亮；&lt;/li>
-&lt;li>趋势持续时间可能很长。&lt;/li>
-&lt;/ul>
-&lt;p>软趋势里最常见的错误，是嫌回调太浅。&lt;/p>
-&lt;p>你等更深一点，它不来；你看回调太浅没做，价格继续走；最后忍不住追在更差的位置。&lt;/p>
-&lt;h3 id="软趋势怎么做">软趋势怎么做&lt;/h3>
-&lt;p>软趋势要学会接受“够用”的回调。&lt;/p>
-&lt;p>可以看：&lt;/p>
-&lt;ul>
-&lt;li>浅回调后的顺势恢复；&lt;/li>
-&lt;li>失败的第一次反向尝试；&lt;/li>
-&lt;li>小型 &lt;code>L2 / fL2&lt;/code>；&lt;/li>
-&lt;li>顺势方向上的干净信号棒。&lt;/li>
-&lt;/ul>
-&lt;p>我会避开 doji 和严重重叠的 bar。软趋势已经够慢，再配很差的信号棒，持仓体验会很差。&lt;/p>
-&lt;p>软趋势考验耐心。它不给很漂亮的深回调，也不会像硬趋势那样快速奖励你。你要接受它慢慢走。&lt;/p>
-&lt;h2 id="spike-and-channel拿住比进场更难">Spike and Channel：拿住比进场更难&lt;/h2>
-&lt;p>Spike and Channel 很有特点：&lt;/p>
-&lt;ol>
-&lt;li>开头先来一段很强的 spike；&lt;/li>
-&lt;li>后面进入沿趋势方向推进的 channel；&lt;/li>
-&lt;li>回调通常不深；&lt;/li>
-&lt;li>大部分利润来自后面的 runner。&lt;/li>
-&lt;/ol>
-&lt;p>这种日子最容易出现两个错误：&lt;/p>
-&lt;ul>
-&lt;li>错过 spike 后，在很差的位置补追；&lt;/li>
-&lt;li>早早平仓，后面通道一整天慢慢走完。&lt;/li>
-&lt;/ul>
-&lt;h3 id="怎么识别">怎么识别&lt;/h3>
-&lt;p>我会看这几个线索：&lt;/p>
-&lt;ul>
-&lt;li>开头 spike 很强；&lt;/li>
-&lt;li>第一组回调只回 spike 的一部分；&lt;/li>
-&lt;li>回调结束后没有深度反转；&lt;/li>
-&lt;li>后面沿趋势方向形成通道；&lt;/li>
-&lt;li>逆势信号多，但 follow-through 差。&lt;/li>
-&lt;/ul>
-&lt;p>Spike and Channel 的难点在持仓。&lt;/p>
-&lt;p>如果你早期已经有好位置，后面更重要的是管理 runner。channel 阶段看起来没开头那么猛，但它经常会慢慢磨出很长距离。&lt;/p>
-&lt;h2 id="同样是-a2环境不同质量不同">同样是 A2，环境不同，质量不同&lt;/h2>
-&lt;p>A2 放在不同趋势里，不能一套模板全打。&lt;/p>
-&lt;h3 id="普通趋势日">普通趋势日&lt;/h3>
-&lt;p>第一组两腿回调通常很好用，结构也比较标准。适合新手练。&lt;/p>
-&lt;h3 id="硬趋势">硬趋势&lt;/h3>
-&lt;p>标准 A2 可能等不到。市场只给浅回调，你还死等深回调，就会一直踏空。&lt;/p>
-&lt;h3 id="软趋势">软趋势&lt;/h3>
-&lt;p>A2 可能很浅，甚至看起来不太“教科书”。这时候要看趋势是否稳定，反向尝试是否失败。&lt;/p>
-&lt;h3 id="spike-and-channel">Spike and Channel&lt;/h3>
-&lt;p>第一组回调最重要。后面重点从找 entry 转到拿 runner。&lt;/p>
-&lt;p>顺势 setup 的质量，永远要和趋势环境一起看。&lt;/p>
-&lt;h2 id="趋势什么时候开始失效">趋势什么时候开始失效&lt;/h2>
-&lt;p>趋势日也会结束。&lt;/p>
-&lt;p>我会留意这些信号：&lt;/p>
-&lt;ul>
-&lt;li>双顶 / 双底；&lt;/li>
-&lt;li>楔形反转；&lt;/li>
-&lt;li>趋势线被有效破坏；&lt;/li>
-&lt;li>进入 TTR；&lt;/li>
-&lt;li>原本顺畅的延续开始缺少 follow-through；&lt;/li>
-&lt;li>回调越来越深，顺势恢复越来越弱。&lt;/li>
-&lt;/ul>
-&lt;p>这些信号出现以后，我会降低顺势延续的预期。该按区间处理时，就换成区间脑子。&lt;/p>
-&lt;h2 id="下单前我会问">下单前我会问&lt;/h2>
-&lt;ul>
-&lt;li>今天更像普通趋势、硬趋势、软趋势，还是 Spike and Channel？&lt;/li>
-&lt;li>这个环境里应该等深回调，还是接受浅回调？&lt;/li>
-&lt;li>我是否在硬趋势里逆势抓顶抓底？&lt;/li>
-&lt;li>我是否在软趋势里等太深？&lt;/li>
-&lt;li>我是否在 SC 日里太早结束 runner？&lt;/li>
-&lt;li>当前趋势有没有终结信号？&lt;/li>
-&lt;li>这笔单适合短拿，还是适合留 runner？&lt;/li>
-&lt;/ul>
-&lt;h2 id="我会避开的坑">我会避开的坑&lt;/h2>
-&lt;h3 id="硬趋势里逆势抓顶抓底">硬趋势里逆势抓顶抓底&lt;/h3>
-&lt;p>硬趋势很少直接 V 型反转。更常见的是先转通道或区间。逆势太频繁，会被趋势慢慢磨掉。&lt;/p>
-&lt;h3 id="软趋势里等标准深回调">软趋势里等标准深回调&lt;/h3>
-&lt;p>软趋势的回调本来就浅。接受浅回调，才有机会跟上节奏。&lt;/p>
-&lt;h3 id="spike-and-channel-里只会找进场">Spike and Channel 里只会找进场&lt;/h3>
-&lt;p>SC 日的难点是拿 runner。确认环境后，少盯新 entry，多管好已有仓位。&lt;/p>
-&lt;h3 id="趋势转区间后还找延续">趋势转区间后还找延续&lt;/h3>
-&lt;p>出现 TTR、双顶双底、趋势线破坏时，开始切换环境。趋势思维迟迟不改，最容易把利润还回去。&lt;/p>
-&lt;h3 id="所有趋势日都按一种模板做">所有趋势日都按一种模板做&lt;/h3>
-&lt;p>先分类，再执行。硬趋势、软趋势、普通趋势、SC 日，对回调深度和持仓方式的要求都不同。&lt;/p>
-&lt;h2 id="最后">最后&lt;/h2>
-&lt;p>趋势日的核心是先分清节奏，再顺势。&lt;/p>
-&lt;p>硬趋势要少逆势，软趋势要接受浅回调，Spike and Channel 要拿得住。普通趋势日则更适合等第一组标准回调。&lt;/p>
-&lt;p>我的建议是：先给趋势分类，再选 setup。趋势类型看错，A2、1PB、BP 都可能做得很别扭。&lt;/p>
-&lt;h2 id="参考链接">参考链接&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://blog.forecho.com/how-to-read-the-open-first-30-minutes.html">开盘 30 分钟怎么读盘：跳空、第一根 K 线与当天主方向&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://blog.forecho.com/first-reversal-and-first-pullback.html">1Rev 与 1PB：开盘后最重要的两类机会&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://blog.forecho.com/what-is-a2-price-action-setup.html">A2 是什么：最值得先练的价格行为 setup&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://blog.forecho.com/most-breakouts-fail-trading-range-playbook.html">大多数突破都会失败：区间行情里值得做的机会&lt;/a>&lt;/li>
 &lt;/ul></description></item></channel></rss>
