@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on forecho's Blog</title><link>https://blog.forecho.com/posts.html</link><description>Recent content in Posts on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 06 Nov 2026 10:00:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/posts/atom.xml" rel="self" type="application/rss+xml"/><item><title>我做了个只收录精品软件的网站 SoftBests</title><link>https://blog.forecho.com/introducing-softbests.html</link><pubDate>Fri, 06 Nov 2026 10:00:00 +0800</pubDate><guid>https://blog.forecho.com/introducing-softbests.html</guid><description>&lt;p>&lt;img src="https://r2.imgant.com/2026/11/06/d71c5709.webp" alt="SoftBests 首页：搜索、十二个栏目和软件卡片">&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on forecho's Blog</title><link>https://blog.forecho.com/posts.html</link><description>Recent content in Posts on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 12 Nov 2026 16:00:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/posts/atom.xml" rel="self" type="application/rss+xml"/><item><title>我做了两款微信小游戏</title><link>https://blog.forecho.com/two-wechat-minigames.html</link><pubDate>Thu, 12 Nov 2026 16:00:00 +0800</pubDate><guid>https://blog.forecho.com/two-wechat-minigames.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>最近开始迷上了休闲游戏，也就动手做微信小游戏。&lt;/p>
+&lt;p>前几天把第一款做完送审，接着又做了第二款。两款都是单机、走广告变现，用的是个人主体。现在都已经上线了，欢迎大家去试玩，也帮我找找 bug。&lt;/p></description></item><item><title>我做了个只收录精品软件的网站 SoftBests</title><link>https://blog.forecho.com/introducing-softbests.html</link><pubDate>Fri, 06 Nov 2026 10:00:00 +0800</pubDate><guid>https://blog.forecho.com/introducing-softbests.html</guid><description>&lt;p>&lt;img src="https://r2.imgant.com/2026/11/06/d71c5709.webp" alt="SoftBests 首页：搜索、十二个栏目和软件卡片">&lt;/p>
 &lt;h2 id="引言">引言&lt;/h2>
 &lt;p>今年我没有续费用了几年的 Setapp。&lt;/p>
 &lt;p>最直接的原因是：我常用的那几款软件，在外面都能找到更好或更轻的替代品，继续为大而全的订阅付费，对我来说已经不划算了。&lt;/p>
@@ -78,18 +80,4 @@
 &lt;li>网站：&lt;a href="https://imgant.com">imgant.com&lt;/a>&lt;/li>
 &lt;li>Mac 客户端下载：&lt;a href="https://imgant.com/download">imgant.com/download&lt;/a>&lt;/li>
 &lt;/ul>
-&lt;p>&lt;a href="https://imgant.com">ImgAnt&lt;/a> 是我自己做的一个图床，已经断断续续折腾了一段时间，现在已经可以正常给我自己写博客和做笔记用了，顺便也开放给其他人用。这篇文章就把我做这个项目的初衷、目前支持的功能、以及一些我自己觉得好用的点，简单介绍一下。&lt;/p></description></item><item><title>为什么你看对了方向，还是赚不到钱</title><link>https://blog.forecho.com/why-you-still-cant-make-money-even-if-you-read-the-market-right.html</link><pubDate>Tue, 31 Mar 2026 23:10:00 +0800</pubDate><guid>https://blog.forecho.com/why-you-still-cant-make-money-even-if-you-read-the-market-right.html</guid><description>&lt;h2 id="系列导航">系列导航&lt;/h2>
-&lt;p>这一组文章建议按顺序阅读：&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://blog.forecho.com/how-to-read-the-open-first-30-minutes.html">开盘 30 分钟怎么读盘：跳空、第一根 K 线与当天主方向&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://blog.forecho.com/first-reversal-and-first-pullback.html">1Rev 与 1PB：开盘后最重要的两类机会&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://blog.forecho.com/what-is-a2-price-action-setup.html">A2 是什么：最值得先练的价格行为 setup&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://blog.forecho.com/most-breakouts-fail-trading-range-playbook.html">大多数突破都会失败：区间行情里值得做的机会&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://blog.forecho.com/trend-day-hard-trend-soft-trend-playbook.html">趋势日怎么做：硬趋势、软趋势与 Spike and Channel&lt;/a>&lt;/li>
-&lt;li>&lt;strong>为什么你看对了方向，还是赚不到钱（当前）&lt;/strong>&lt;/li>
-&lt;/ul>
-&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>交易里最难受的一类单子，是方向看对了，账户没赚钱。&lt;/p>
-&lt;p>价格后来确实按你的预期走，但你已经被洗出去了；刚有一点浮盈，你先跑了；入场位置还可以，止损放得太近；本来是波段 setup，最后被你做成了一个小 scalp。&lt;/p>
-&lt;p>这种亏损会让人怀疑自己只差一点运气。实际大多是执行问题。&lt;/p>
-&lt;p>方向判断只是交易的一部分。把判断变成结果，靠的是进场、止损、仓位、出场和持仓管理。&lt;/p></description></item></channel></rss>
+&lt;p>&lt;a href="https://imgant.com">ImgAnt&lt;/a> 是我自己做的一个图床，已经断断续续折腾了一段时间，现在已经可以正常给我自己写博客和做笔记用了，顺便也开放给其他人用。这篇文章就把我做这个项目的初衷、目前支持的功能、以及一些我自己觉得好用的点，简单介绍一下。&lt;/p></description></item></channel></rss>

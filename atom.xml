@@ -1,4 +1,29 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 06 Nov 2026 10:00:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>我做了个只收录精品软件的网站 SoftBests</title><link>https://blog.forecho.com/introducing-softbests.html</link><pubDate>Fri, 06 Nov 2026 10:00:00 +0800</pubDate><guid>https://blog.forecho.com/introducing-softbests.html</guid><description>&lt;p>&lt;img src="https://r2.imgant.com/2026/11/06/d71c5709.webp" alt="SoftBests 首页：搜索、十二个栏目和软件卡片">&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 12 Nov 2026 16:00:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>我做了两款微信小游戏</title><link>https://blog.forecho.com/two-wechat-minigames.html</link><pubDate>Thu, 12 Nov 2026 16:00:00 +0800</pubDate><guid>https://blog.forecho.com/two-wechat-minigames.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>最近开始迷上了休闲游戏，也就动手做微信小游戏。&lt;/p>
+&lt;p>前几天把第一款做完送审，接着又做了第二款。两款都是单机、走广告变现，用的是个人主体。现在都已经上线了，欢迎大家去试玩，也帮我找找 bug。&lt;/p>
+&lt;h2 id="怎么做的">怎么做的&lt;/h2>
+&lt;p>第一款《疯狂轮胎》花了 3 天。因为要自己画界面，后面我用 ChatGPT SOL 重构了部分页面的 UI，其余部分是 DeepSeek Flash 写的。做完自己也觉得有点粗糙，先上线再改。&lt;/p>
+&lt;p>第二款《像素对对碰》则完全由 DeepSeek Flash 开发，素材是我自己找的。基本上就花了一个晚上：睡前确定好方案，晚上开一个 Loop 命令，早上起来验收，完成度已经到 90% 了。这其中最难的，是确定素材和玩法。&lt;/p>
+&lt;p>开发用的是我订阅的 OpenCode Go 套餐里的模型。8 刀的套餐给了 100 刀 DeepSeek Flash 的额度，这两款主要就是用它写的。&lt;/p>
+&lt;h2 id="音乐和素材">音乐和素材&lt;/h2>
+&lt;p>音乐和素材，优先考虑在网上找开源或者付费的。毕竟如果是业余开发者，在网上找现成的素材或者音乐，更专业一点。自己用 AI 画 UI 的话，难度会偏高一点。&lt;/p>
+&lt;h2 id="单机小游戏怎么上架">单机小游戏怎么上架&lt;/h2>
+&lt;p>做之前我把单机微信小游戏的上架流程整理成了一张图。核心结论是：个人主体、无版号、走 IAA 广告变现的话，全程只需做一次微信认证，费用 30 元；审核通过就可以发布，不用等备案走完。&lt;/p>
+&lt;p>&lt;img src="https://r2.imgant.com/2026/11/12/c38e6121.jpg" alt="微信小游戏上架流程（单机）">&lt;/p>
+&lt;p>具体步骤是：&lt;/p>
+&lt;ol>
+&lt;li>注册账号，个人主体，服务类目选「游戏」&lt;/li>
+&lt;li>微信认证，费用 30 元&lt;/li>
+&lt;li>用开发者工具上传开发版本&lt;/li>
+&lt;li>提交审核，网络类型选「单机」，一般 1 到 2 天&lt;/li>
+&lt;li>审核通过即可发布上线&lt;/li>
+&lt;/ol>
+&lt;p>备案可以和版本审核并行，不阻塞发布。资质提交走免版号 IAA 通道，选「不同时申请支付」，大约 1 个工作日。无版号小游戏必须做「小游戏备案」，平台初审加主管部门审核，大约 10 个工作日，但备案审核中可以同步提审、发布。单机游戏不需要「小程序备案」，那是联网游戏的要求。&lt;/p>
+&lt;p>有人问小游戏要不要软著，单机这一种目前不需要。另外微信小游戏包体限制是 4MB，做的时候得盯着体积。&lt;/p>
+&lt;h2 id="来试玩">来试玩&lt;/h2>
+&lt;p>微信扫下面的二维码，可以直接打开这两款小游戏。两款都欢迎试玩，有问题直接跟我说。&lt;/p>
+&lt;p>&lt;img src="https://r2.imgant.com/2026/11/12/c3b31555.jpg" alt="《疯狂轮胎》微信小游戏二维码">&lt;/p>
+&lt;p>&lt;img src="https://r2.imgant.com/2026/11/12/fcb55a00.jpg" alt="《像素对对碰》微信小游戏二维码">&lt;/p></description></item><item><title>我做了个只收录精品软件的网站 SoftBests</title><link>https://blog.forecho.com/introducing-softbests.html</link><pubDate>Fri, 06 Nov 2026 10:00:00 +0800</pubDate><guid>https://blog.forecho.com/introducing-softbests.html</guid><description>&lt;p>&lt;img src="https://r2.imgant.com/2026/11/06/d71c5709.webp" alt="SoftBests 首页：搜索、十二个栏目和软件卡片">&lt;/p>
 &lt;h2 id="引言">引言&lt;/h2>
 &lt;p>今年我没有续费用了几年的 Setapp。&lt;/p>
 &lt;p>最直接的原因是：我常用的那几款软件，在外面都能找到更好或更轻的替代品，继续为大而全的订阅付费，对我来说已经不划算了。&lt;/p>
@@ -2111,166 +2136,4 @@ imgant upload ./my-image.png --format markdown
 &lt;/ul>
 &lt;p>对于写博客的人来说，这一步会比「打开网页 → 拖上去 → 复制」省很多次跳转。&lt;/p>
 &lt;h2 id="写在最后">写在最后&lt;/h2>
-&lt;p>这个项目目前还在持续迭代中，我自己在重度用，意味着遇到问题我会比任何用户都更早发现。如果你也有类似的困扰——想要一个不会突然跑路、支持自己域名、可以接 API / CLI / MCP 的图床，欢迎去 &lt;a href="https://imgant.com">imgant.com&lt;/a> 试试，有问题可以给我发邮件。&lt;/p></description></item><item><title>为什么你看对了方向，还是赚不到钱</title><link>https://blog.forecho.com/why-you-still-cant-make-money-even-if-you-read-the-market-right.html</link><pubDate>Tue, 31 Mar 2026 23:10:00 +0800</pubDate><guid>https://blog.forecho.com/why-you-still-cant-make-money-even-if-you-read-the-market-right.html</guid><description>&lt;h2 id="系列导航">系列导航&lt;/h2>
-&lt;p>这一组文章建议按顺序阅读：&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://blog.forecho.com/how-to-read-the-open-first-30-minutes.html">开盘 30 分钟怎么读盘：跳空、第一根 K 线与当天主方向&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://blog.forecho.com/first-reversal-and-first-pullback.html">1Rev 与 1PB：开盘后最重要的两类机会&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://blog.forecho.com/what-is-a2-price-action-setup.html">A2 是什么：最值得先练的价格行为 setup&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://blog.forecho.com/most-breakouts-fail-trading-range-playbook.html">大多数突破都会失败：区间行情里值得做的机会&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://blog.forecho.com/trend-day-hard-trend-soft-trend-playbook.html">趋势日怎么做：硬趋势、软趋势与 Spike and Channel&lt;/a>&lt;/li>
-&lt;li>&lt;strong>为什么你看对了方向，还是赚不到钱（当前）&lt;/strong>&lt;/li>
-&lt;/ul>
-&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>交易里最难受的一类单子，是方向看对了，账户没赚钱。&lt;/p>
-&lt;p>价格后来确实按你的预期走，但你已经被洗出去了；刚有一点浮盈，你先跑了；入场位置还可以，止损放得太近；本来是波段 setup，最后被你做成了一个小 scalp。&lt;/p>
-&lt;p>这种亏损会让人怀疑自己只差一点运气。实际大多是执行问题。&lt;/p>
-&lt;p>方向判断只是交易的一部分。把判断变成结果，靠的是进场、止损、仓位、出场和持仓管理。&lt;/p>
-&lt;h2 id="看盘和做盘是两件事">看盘和做盘是两件事&lt;/h2>
-&lt;p>看对方向，说明你读懂了一部分市场。&lt;/p>
-&lt;p>把这笔单做出来，还要过几关：&lt;/p>
-&lt;ul>
-&lt;li>入场位置是否合理；&lt;/li>
-&lt;li>止损是否放在结构失效点；&lt;/li>
-&lt;li>仓位是否让你拿得住；&lt;/li>
-&lt;li>第一次回撤是否在计划内；&lt;/li>
-&lt;li>这笔单适合短目标还是 swing；&lt;/li>
-&lt;li>什么时候部分止盈；&lt;/li>
-&lt;li>runner 给多少空间。&lt;/li>
-&lt;/ul>
-&lt;p>很多交易复盘写到最后，结论会落在执行：方向没大问题，处理环节出了问题。&lt;/p>
-&lt;h2 id="入场别靠感觉">入场别靠感觉&lt;/h2>
-&lt;p>标准价格行为入场很简单：&lt;/p>
-&lt;ul>
-&lt;li>做多，突破多头信号棒高点；&lt;/li>
-&lt;li>做空，跌破空头信号棒低点。&lt;/li>
-&lt;/ul>
-&lt;p>这条规则的好处，是逼你等信号棒走完。&lt;/p>
-&lt;p>盘中很多 K 线一开始看着很强，收盘以后变成 doji 或长影线。你提前进了，就会很被动：信号质量变差，止损也尴尬，后面每一次波动都会影响心态。&lt;/p>
-&lt;p>我现在更愿意慢一点。宁愿错过半根，也少做一堆盘中看起来很美的假信号。&lt;/p>
-&lt;h2 id="mid-bar-追单很伤">Mid-bar 追单很伤&lt;/h2>
-&lt;p>很多亏损来自一个很熟悉的动作：一开始没进，价格走了一点，怕错过，然后追进去。&lt;/p>
-&lt;p>追进去以后，问题马上出现：&lt;/p>
-&lt;ul>
-&lt;li>入场价变差；&lt;/li>
-&lt;li>止损空间被压缩；&lt;/li>
-&lt;li>盈亏比下降；&lt;/li>
-&lt;li>正常 pullback 也能把你打出去；&lt;/li>
-&lt;li>心态开始急。&lt;/li>
-&lt;/ul>
-&lt;p>这种单子做多了，会让人觉得市场总是差一点。其实是入场已经把自己放在很难受的位置上。&lt;/p>
-&lt;p>我的建议是：计划内没进，就等下一次。市场天天开门，单子没必要抢。&lt;/p>
-&lt;h2 id="止损要放在结构失效点">止损要放在结构失效点&lt;/h2>
-&lt;p>止损的作用，是回答一个问题：&lt;/p>
-&lt;blockquote>
-&lt;p>如果这笔 entry 是对的，价格还应不应该来到这个位置？&lt;/p>
-&lt;/blockquote>
-&lt;p>做多时，止损放在信号棒低点或结构低点下方。做空时，放在信号棒高点或结构高点上方。&lt;/p>
-&lt;p>这个位置有交易逻辑。它让市场证明这笔交易已经失效。&lt;/p>
-&lt;h3 id="最典型的-stop-error">最典型的 stop error&lt;/h3>
-&lt;p>方向对，止损错。&lt;/p>
-&lt;p>这类单子很常见：&lt;/p>
-&lt;ul>
-&lt;li>背景判断对；&lt;/li>
-&lt;li>setup 也还行；&lt;/li>
-&lt;li>止损为了省一点，放得太近；&lt;/li>
-&lt;li>第一脚正常回撤把你扫掉；&lt;/li>
-&lt;li>后面价格按原方向走。&lt;/li>
-&lt;/ul>
-&lt;p>这种亏损最容易上头，因为你会觉得自己明明看对了。&lt;/p>
-&lt;p>问题出在执行。交易需要给 setup 留出正常呼吸空间。&lt;/p>
-&lt;h3 id="止损太大怎么办">止损太大怎么办&lt;/h3>
-&lt;p>信号棒太大、太乱、重叠太多时，可以考虑固定点数或固定风险。&lt;/p>
-&lt;p>但这只是处理正常执行问题。它不能用来硬做质量很差的 setup。&lt;/p>
-&lt;p>如果一笔交易必须给很大的止损才成立，我会先问：这笔单真的值得做吗？&lt;/p>
-&lt;h2 id="推保本别太早">推保本别太早&lt;/h2>
-&lt;p>很多人一有浮盈就推保本，心里会踏实一点。&lt;/p>
-&lt;p>问题是，很多好单子本来就会先走一段，再来一次正常 pullback。你太早推保本，等于主动把自己放在最容易被扫的位置。&lt;/p>
-&lt;p>我更喜欢这两种推保本方式：&lt;/p>
-&lt;ul>
-&lt;li>价格已经离开入场一段距离；&lt;/li>
-&lt;li>先止盈一部分，再把剩余仓位推到保本。&lt;/li>
-&lt;/ul>
-&lt;p>这样做的核心，是让市场先证明这笔单有力量，再开始防守。&lt;/p>
-&lt;p>保本是工具，不能拿来安慰焦虑。&lt;/p>
-&lt;h2 id="部分止盈能帮你拿住单子">部分止盈能帮你拿住单子&lt;/h2>
-&lt;p>部分止盈很适合执行不稳定的人。&lt;/p>
-&lt;p>比如：&lt;/p>
-&lt;ul>
-&lt;li>第一目标拿掉一部分；&lt;/li>
-&lt;li>剩下仓位推到保本；&lt;/li>
-&lt;li>runner 继续拿。&lt;/li>
-&lt;/ul>
-&lt;p>这个动作可以改善风险回报，也能降低心理压力。已经落袋一部分以后，你更容易接受后面的正常回撤。&lt;/p>
-&lt;p>很多人拿不住单，常见原因是浮盈回吐太难受。部分止盈可以帮你跨过这一关。&lt;/p>
-&lt;h2 id="哪些单值得留-runner">哪些单值得留 runner&lt;/h2>
-&lt;p>适合留 runner 的 setup，一般有几个特征：&lt;/p>
-&lt;ul>
-&lt;li>背景清楚；&lt;/li>
-&lt;li>入场位置好；&lt;/li>
-&lt;li>止损结构自然；&lt;/li>
-&lt;li>走势有 follow-through；&lt;/li>
-&lt;li>前方空间够；&lt;/li>
-&lt;li>第一次 pullback 没破坏结构。&lt;/li>
-&lt;/ul>
-&lt;p>常见候选：&lt;/p>
-&lt;ul>
-&lt;li>&lt;code>1PB&lt;/code>&lt;/li>
-&lt;li>&lt;code>A2&lt;/code>&lt;/li>
-&lt;li>&lt;code>W1P&lt;/code>&lt;/li>
-&lt;li>强趋势日里的第一组回调&lt;/li>
-&lt;li>Spike and Channel 早期好位置&lt;/li>
-&lt;/ul>
-&lt;p>区间中部的勉强单、弱信号棒、重叠严重的 bar，我会少留 runner。该短拿的单硬拿大，很容易把利润还回去。&lt;/p>
-&lt;h2 id="fire-and-forget">Fire and forget&lt;/h2>
-&lt;p>&lt;code>Fire and forget&lt;/code> 对我很有帮助。&lt;/p>
-&lt;p>它的意思是：&lt;/p>
-&lt;ul>
-&lt;li>进场前定义 setup；&lt;/li>
-&lt;li>进场前定义止损；&lt;/li>
-&lt;li>进场前定义目标和管理方式；&lt;/li>
-&lt;li>进场后按计划执行；&lt;/li>
-&lt;li>少用每一根 K 线重新投票。&lt;/li>
-&lt;/ul>
-&lt;p>很多人进场前有计划，进场后每根 bar 都在改计划：&lt;/p>
-&lt;ul>
-&lt;li>这根好像不行，要不要出？&lt;/li>
-&lt;li>这根又拉回来，要不要加？&lt;/li>
-&lt;li>快到保本了，要不要先推？&lt;/li>
-&lt;li>感觉要反转，要不要反手？&lt;/li>
-&lt;/ul>
-&lt;p>这样做最大的问题，是你永远不知道自己的系统到底有没有优势。因为你每次都在临时改规则。&lt;/p>
-&lt;p>我现在更愿意让一笔计划内交易走完。止损、目标、部分止盈、保本规则，进场前就定。&lt;/p>
-&lt;h2 id="执行前我会检查">执行前我会检查&lt;/h2>
-&lt;ul>
-&lt;li>这笔单是否在计划内？&lt;/li>
-&lt;li>我是在等信号棒确认，还是在 mid-bar 追？&lt;/li>
-&lt;li>止损是否放在结构失效点？&lt;/li>
-&lt;li>仓位是否让我能承受正常回撤？&lt;/li>
-&lt;li>这笔单适合短目标，还是适合 swing？&lt;/li>
-&lt;li>我推保本是因为结构支持，还是因为焦虑？&lt;/li>
-&lt;li>我要不要先拿一部分，降低后面执行压力？&lt;/li>
-&lt;li>进场后我是否愿意按计划让市场验证？&lt;/li>
-&lt;/ul>
-&lt;h2 id="我会避开的坑">我会避开的坑&lt;/h2>
-&lt;h3 id="怕错过所以追进去">怕错过，所以追进去&lt;/h3>
-&lt;p>错过就错过。追在差位置，后面整笔交易都会被动。&lt;/p>
-&lt;h3 id="止损放得太近">止损放得太近&lt;/h3>
-&lt;p>止损要放在结构失效点。为了少亏一点把止损塞太近，会把正确方向做成错误结果。&lt;/p>
-&lt;h3 id="一有利润就全平">一有利润就全平&lt;/h3>
-&lt;p>适合 swing 的 setup，至少留一部分仓位。没有 runner，盈亏比很难打开。&lt;/p>
-&lt;h3 id="刚进场就推保本">刚进场就推保本&lt;/h3>
-&lt;p>等价格先走开，或者先部分止盈，再推保本。别让正常 pullback 把好单子扫掉。&lt;/p>
-&lt;h3 id="每根-bar-都重新判断">每根 bar 都重新判断&lt;/h3>
-&lt;p>进场前把规则定清楚，进场后按规则处理。过度干预会毁掉一致性。&lt;/p>
-&lt;h2 id="最后">最后&lt;/h2>
-&lt;p>方向看对，只是交易的第一关。&lt;/p>
-&lt;p>进场差、止损错、保本太早、出场太急，都会把正确判断做成错误结果。能稳定下来的交易者，通常能把普通的好机会按计划做完。&lt;/p>
-&lt;p>我的建议是：把执行规则写下来。怎么进，止损放哪，什么时候部分止盈，什么时候推保本，什么 setup 才留 runner。规则越清楚，盘中越少被情绪牵着走。&lt;/p>
-&lt;h2 id="参考链接">参考链接&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://blog.forecho.com/what-is-a2-price-action-setup.html">A2 是什么：最值得先练的价格行为 setup&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://blog.forecho.com/first-reversal-and-first-pullback.html">1Rev 与 1PB：开盘后最重要的两类机会&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://blog.forecho.com/most-breakouts-fail-trading-range-playbook.html">大多数突破都会失败：区间行情里值得做的机会&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://blog.forecho.com/trend-day-hard-trend-soft-trend-playbook.html">趋势日怎么做：硬趋势、软趋势与 Spike and Channel&lt;/a>&lt;/li>
-&lt;/ul></description></item></channel></rss>
+&lt;p>这个项目目前还在持续迭代中，我自己在重度用，意味着遇到问题我会比任何用户都更早发现。如果你也有类似的困扰——想要一个不会突然跑路、支持自己域名、可以接 API / CLI / MCP 的图床，欢迎去 &lt;a href="https://imgant.com">imgant.com&lt;/a> 试试，有问题可以给我发邮件。&lt;/p></description></item></channel></rss>
