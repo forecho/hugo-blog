@@ -1,4 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on forecho's Blog</title><link>https://blog.forecho.com/posts.html</link><description>Recent content in Posts on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 12 Nov 2026 16:00:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/posts/atom.xml" rel="self" type="application/rss+xml"/><item><title>我做了两款微信小游戏</title><link>https://blog.forecho.com/two-wechat-minigames.html</link><pubDate>Thu, 12 Nov 2026 16:00:00 +0800</pubDate><guid>https://blog.forecho.com/two-wechat-minigames.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on forecho's Blog</title><link>https://blog.forecho.com/posts.html</link><description>Recent content in Posts on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 18 Nov 2026 10:54:51 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/posts/atom.xml" rel="self" type="application/rss+xml"/><item><title>为了听懂英文 Trading Room，我开发了一款实时字幕翻译软件 Liveglot</title><link>https://blog.forecho.com/introducing-liveglot.html</link><pubDate>Wed, 18 Nov 2026 10:54:51 +0800</pubDate><guid>https://blog.forecho.com/introducing-liveglot.html</guid><description>&lt;p>&lt;img src="https://imgant.forecho.com/2026/11/18/025805.756-86a10ee9-53d659e5.png" alt="Liveglot 主界面：左侧实时双语字幕，右侧基于本场记录的 AI 聊天">&lt;/p>
+&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>学了一年多的价格行为学（Price Action），最近我终于付费进了 PA 的英文 Trading Room，想跟着看看老外实盘到底是怎么分析、怎么找入场和止损的。&lt;/p>
+&lt;p>钱是付了，进去以后才发现最大的问题不是看不懂 K 线，而是听不懂。讲师语速本来就快，里面又夹着一堆交易术语和盘口俚语，经常一句话没反应过来，后面两三句已经过去了。&lt;/p>
+&lt;p>我在网上找了一圈直播实时翻译软件，用下来都不太满意。干脆自己动手，做了一款专门看外语直播和网课的 Mac 工具：&lt;strong>Liveglot&lt;/strong>。&lt;/p>
+&lt;ul>
+&lt;li>官网地址：&lt;a href="https://liveglot.app/zh-hans/">liveglot.app/zh-hans&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>我做了两款微信小游戏</title><link>https://blog.forecho.com/two-wechat-minigames.html</link><pubDate>Thu, 12 Nov 2026 16:00:00 +0800</pubDate><guid>https://blog.forecho.com/two-wechat-minigames.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
 &lt;p>最近开始迷上了休闲游戏，也就动手做微信小游戏。&lt;/p>
 &lt;p>前几天把第一款做完送审，接着又做了第二款。两款都是单机、走广告变现，用的是个人主体。现在都已经上线了，欢迎大家去试玩，也帮我找找 bug。&lt;/p></description></item><item><title>我做了个只收录精品软件的网站 SoftBests</title><link>https://blog.forecho.com/introducing-softbests.html</link><pubDate>Fri, 06 Nov 2026 10:00:00 +0800</pubDate><guid>https://blog.forecho.com/introducing-softbests.html</guid><description>&lt;p>&lt;img src="https://r2.imgant.com/2026/11/06/d71c5709.webp" alt="SoftBests 首页：搜索、十二个栏目和软件卡片">&lt;/p>
 &lt;h2 id="引言">引言&lt;/h2>
@@ -74,10 +81,4 @@
 &lt;/ul>
 &lt;p>&lt;a href="https://4aicode.com/">4AICode&lt;/a> 是我新做的一个 AI 中转站，主要面向 Vibe Coding 场景，目前支持 ChatGPT AI 模型和 gpt-image-2 图片生成模型。&lt;/p>
 &lt;p>名字也很直白，4AICode 可以理解成 for AI code，意思就是为 AI 编程服务。&lt;/p>
-&lt;p>它的目标很简单：让国内用户更容易、更低成本地用上国外的 AI 模型。&lt;/p></description></item><item><title>介绍一下我自己做的图床 ImgAnt</title><link>https://blog.forecho.com/introducing-imgant-image-hosting.html</link><pubDate>Thu, 09 Apr 2026 10:00:00 +0800</pubDate><guid>https://blog.forecho.com/introducing-imgant-image-hosting.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>先上地址：&lt;/p>
-&lt;ul>
-&lt;li>网站：&lt;a href="https://imgant.com">imgant.com&lt;/a>&lt;/li>
-&lt;li>Mac 客户端下载：&lt;a href="https://imgant.com/download">imgant.com/download&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;p>&lt;a href="https://imgant.com">ImgAnt&lt;/a> 是我自己做的一个图床，已经断断续续折腾了一段时间，现在已经可以正常给我自己写博客和做笔记用了，顺便也开放给其他人用。这篇文章就把我做这个项目的初衷、目前支持的功能、以及一些我自己觉得好用的点，简单介绍一下。&lt;/p></description></item></channel></rss>
+&lt;p>它的目标很简单：让国内用户更容易、更低成本地用上国外的 AI 模型。&lt;/p></description></item></channel></rss>

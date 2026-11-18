@@ -1,4 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>价格行为学 on forecho's Blog</title><link>https://blog.forecho.com/tags/%E4%BB%B7%E6%A0%BC%E8%A1%8C%E4%B8%BA%E5%AD%A6.html</link><description>Recent content in 价格行为学 on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 31 Mar 2026 16:30:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/tags/%E4%BB%B7%E6%A0%BC%E8%A1%8C%E4%B8%BA%E5%AD%A6/atom.xml" rel="self" type="application/rss+xml"/><item><title>交易心理学深度剖析：真正决定盈亏的，不是技术而是你怎么面对亏损</title><link>https://blog.forecho.com/trading-psychology-deep-analysis.html</link><pubDate>Tue, 31 Mar 2026 16:30:00 +0800</pubDate><guid>https://blog.forecho.com/trading-psychology-deep-analysis.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>价格行为学 on forecho's Blog</title><link>https://blog.forecho.com/tags/%E4%BB%B7%E6%A0%BC%E8%A1%8C%E4%B8%BA%E5%AD%A6.html</link><description>Recent content in 价格行为学 on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 18 Nov 2026 10:54:51 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/tags/%E4%BB%B7%E6%A0%BC%E8%A1%8C%E4%B8%BA%E5%AD%A6/atom.xml" rel="self" type="application/rss+xml"/><item><title>为了听懂英文 Trading Room，我开发了一款实时字幕翻译软件 Liveglot</title><link>https://blog.forecho.com/introducing-liveglot.html</link><pubDate>Wed, 18 Nov 2026 10:54:51 +0800</pubDate><guid>https://blog.forecho.com/introducing-liveglot.html</guid><description>&lt;p>&lt;img src="https://imgant.forecho.com/2026/11/18/025805.756-86a10ee9-53d659e5.png" alt="Liveglot 主界面：左侧实时双语字幕，右侧基于本场记录的 AI 聊天">&lt;/p>
+&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>学了一年多的价格行为学（Price Action），最近我终于付费进了 PA 的英文 Trading Room，想跟着看看老外实盘到底是怎么分析、怎么找入场和止损的。&lt;/p>
+&lt;p>钱是付了，进去以后才发现最大的问题不是看不懂 K 线，而是听不懂。讲师语速本来就快，里面又夹着一堆交易术语和盘口俚语，经常一句话没反应过来，后面两三句已经过去了。&lt;/p>
+&lt;p>我在网上找了一圈直播实时翻译软件，用下来都不太满意。干脆自己动手，做了一款专门看外语直播和网课的 Mac 工具：&lt;strong>Liveglot&lt;/strong>。&lt;/p>
+&lt;ul>
+&lt;li>官网地址：&lt;a href="https://liveglot.app/zh-hans/">liveglot.app/zh-hans&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>交易心理学深度剖析：真正决定盈亏的，不是技术而是你怎么面对亏损</title><link>https://blog.forecho.com/trading-psychology-deep-analysis.html</link><pubDate>Tue, 31 Mar 2026 16:30:00 +0800</pubDate><guid>https://blog.forecho.com/trading-psychology-deep-analysis.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
 &lt;p>很多人一提到交易心理，第一反应是“控制情绪”。这句话没错，但太浅了。&lt;/p>
 &lt;p>我越来越确认一件事：&lt;strong>交易心理并不是在下单那一刻靠意志力压住情绪，而是在下单之前，就用规则、风险上限和执行流程，把情绪能破坏你的空间压缩到最小。&lt;/strong>&lt;/p>
 &lt;p>真正让交易员持续亏损的，往往不是不会看图，也不是完全没有方法，而是明明知道该怎么做，到了盘中却做不出来：该止损的时候犹豫，不该追的时候手痒，连亏两笔之后开始报复性交易，连续顺利几天之后又突然自信膨胀。&lt;/p>
@@ -116,21 +123,4 @@
 &lt;p>限价订单（Limit Order）是一种订单类型，允许交易者指定愿意购买或出售资产的特定价格或更好的价格。当市场价格达到交易者设定的限价或更有利的价格时，订单才会被执行。在某些市场条件，例如区间震荡或等待特定价格水平突破时，使用限价订单可以帮助交易者更精确地入场和管理风险。本篇文章将重点介绍如何结合喇叭形态使用限价订单进行交易。&lt;/p>
 &lt;h2 id="什么是-horn-pattern">什么是 Horn Pattern？&lt;/h2>
 &lt;p>&amp;ldquo;Horn Pattern&amp;rdquo;（喇叭形态）它是一种多头和空头可能被困住的价格行为模式，我们可以通过识别出这种模式，就可以找到潜在的获利机会。&lt;/p>
-&lt;p>它的图案有点像喇叭，所以叫喇叭形态。&lt;/p></description></item><item><title>价格行为学 - Rose 的 ATR Bar 策略</title><link>https://blog.forecho.com/price-action-rose-atr-bar.html</link><pubDate>Wed, 07 May 2025 16:10:58 +0800</pubDate><guid>https://blog.forecho.com/price-action-rose-atr-bar.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>本文介绍 Rose 的 &lt;strong>ATR Bar&lt;/strong> 交易策略。&lt;/p>
-&lt;p>这套方法的核心是：找到一根对当天波动率和市场结构有决定性影响的大 K 线，只测量它的实体部分，再用 &lt;code>0.21 / 0.33 / 0.50 / 0.66 / 0.79 / 1.33 / 1.50 / 1.66&lt;/code> 这些位置做入场、加仓和止盈参考。&lt;/p>
-&lt;p>本文主要参考两个来源：&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://youtu.be/lxlY29T9SwU?si=qVIwrYuD6_ijTiEW&amp;amp;t=167">Price Action Rose - Trading Room Sample Wednesday 1200-1400 ET&lt;/a>&lt;/li>
-&lt;li>2026 年 6 月 12 日 ES 5 分钟图复盘素材&lt;/li>
-&lt;/ul>
-&lt;h2 id="什么是-atr-bar">什么是 ATR Bar&lt;/h2>
-&lt;p>ATR 的意思是 Average True Range，也就是平均真实波幅。Rose 说的 ATR Bar，可以理解为一根体积明显大于普通 K 线、足以改变市场波动节奏的大 K 线。&lt;/p>
-&lt;p>它通常有几个特征：&lt;/p>
-&lt;ul>
-&lt;li>实体很大，收盘位置强势，比如大阳线收在高位、大阴线收在低位。&lt;/li>
-&lt;li>收盘价突破前面多根 K 线的高点或低点，形成清晰的动能声明。&lt;/li>
-&lt;li>出现之后，后面经常会有第二段行情，至少会围绕它的关键比例位置产生反应。&lt;/li>
-&lt;li>它的实体会成为之后多空双方反复争夺的价格地图。&lt;/li>
-&lt;/ul>
-&lt;p>ATR Bar 的重点在“这根 K 线改变了后续交易的参照系”。它出现以后，交易者开始用它的实体去判断突破、回调、加仓、止盈和失效。&lt;/p></description></item></channel></rss>
+&lt;p>它的图案有点像喇叭，所以叫喇叭形态。&lt;/p></description></item></channel></rss>
