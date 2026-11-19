@@ -1,4 +1,112 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 18 Nov 2026 10:54:51 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>为了听懂英文 Trading Room，我开发了一款实时字幕翻译软件 Liveglot</title><link>https://blog.forecho.com/introducing-liveglot.html</link><pubDate>Wed, 18 Nov 2026 10:54:51 +0800</pubDate><guid>https://blog.forecho.com/introducing-liveglot.html</guid><description>&lt;p>&lt;img src="https://imgant.forecho.com/2026/11/18/025805.756-86a10ee9-53d659e5.png" alt="Liveglot 主界面：左侧实时双语字幕，右侧基于本场记录的 AI 聊天">&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 19 Nov 2026 13:00:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>Price Action 进阶：如何用 H1/H2 与 L1/L2 的「失败」，提前看穿趋势与震荡切换</title><link>https://blog.forecho.com/price-action-h1-h2-l1-l2-failure.html</link><pubDate>Thu, 19 Nov 2026 13:00:00 +0800</pubDate><guid>https://blog.forecho.com/price-action-h1-h2-l1-l2-failure.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>&lt;img src="https://imgant.forecho.com/2026/11/19/b3722159.png" alt="Price Action 进阶：顺势信号开始「失败」">&lt;/p>
+&lt;p>在刚接触 Al Brooks 的价格行为学（Price Action）时，绝大多数交易者最先上手的入场工具就是&lt;strong>数K线（Bar Counting）&lt;/strong>——多头回调找 H1 / H2 挂单做多，空头反弹找 L1 / L2 挂单做空。&lt;/p>
+&lt;p>但实盘中经常遇到这种让人极其难受的场面：
+你在一个看似不错的上涨趋势里等来标准回调，果断在 H1 突破位挂 Buy Stop 买入。结果刚成交，下一根K线立刻收出一根大阴线把你按在山顶；你不信邪，等行情走出两腿回调出现 H2 再进一次，结果再次被反向砸穿止损。&lt;/p>
+&lt;p>这种亏损并不是数K线失效了，而是&lt;strong>市场环境已经悄悄切入了震荡区间（Trading Range）&lt;/strong>。&lt;/p>
+&lt;p>在价格行为学中，H1/H2 和 L1/L2 不仅是顺势加速的入场点，它们的**失败（Failure）**更是市场发出的最高级别预警——告诉你原有的单边惯性正在瓦解。&lt;/p>
+&lt;h2 id="核心逻辑用失败识别环境切换">核心逻辑：用失败识别环境切换&lt;/h2>
+&lt;p>想看懂信号为什么会失效，先要理解 Al Brooks 最核心的&lt;strong>市场惯性定律&lt;/strong>：&lt;/p>
+&lt;blockquote>
+&lt;p>“在趋势中，80% 的反转会失败；在震荡区间中，80% 的突破会失败。”&lt;/p>
+&lt;/blockquote>
+&lt;p>把这句话对应到盘面的 H1/H2 与 L1/L2 上，就是一套极度直观的“市场温度计”：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>趋势延续期&lt;/strong>：顺势回调信号（多头 H1/H2、空头 L1/L2）表现得非常流畅。价格突破信号K线后迅速脱离成本区，很少回头测试防守底线。&lt;/li>
+&lt;li>&lt;strong>趋势转震荡（Regime Change）&lt;/strong>：一旦顺势信号开始频繁出现“刚触发就被反向砸穿”，说明反向资金已经不再只是获利了结，而是开始大举逆势阻击，市场大概率已切入震荡区间。&lt;/li>
+&lt;li>&lt;strong>震荡转趋势&lt;/strong>：反过来，当震荡区间边界的突破不再失败，而是顺利走出跟进并推进第二腿时，说明震荡区间即将终结，新的趋势正在成型。&lt;/li>
+&lt;/ol>
+&lt;hr>
+&lt;h2 id="四组形态对比什么是真正的失败">四组形态对比：什么是真正的「失败」？&lt;/h2>
+&lt;p>在实战中，判定一个信号是否失败，核心看两点：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>价格是否反向打穿了防守线&lt;/strong>（信号K的极值点或两腿结构颈线）；&lt;/li>
+&lt;li>&lt;strong>是否把追突破的顺势交易者套在了极端位置（Trapped Traders）&lt;/strong>。&lt;/li>
+&lt;/ol>
+&lt;p>下面把多空四个核心信号的「成功 vs. 失败」逐一拆解。&lt;/p>
+&lt;h3 id="1-h1-成功-vs-h1-失败多头初次回调">1. H1 成功 vs. H1 失败（多头初次回调）&lt;/h3>
+&lt;p>&lt;img src="https://imgant.forecho.com/2026/11/19/b4465eb1.png" alt="1. H1 成功 vs. H1 失败（多头初次回调对比）">&lt;/p>
+&lt;p>H1（High 1）是指在上升趋势回调中，第一根高点突破前一根K线高点的信号K线。&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>H1 成功（顺势延续）&lt;/strong>：突破 H1 高点触发 Buy Stop 后，多头迅速推高，收出大实体阳线拉开安全垫，信号K低点（止损位）始终未被测试。&lt;/li>
+&lt;li>&lt;strong>H1 失败（诱多被套）&lt;/strong>：刚触发买入就遭遇缺乏跟进（Lack of Follow-through），紧接着被大阴线反向吞没，直接跌破 H1 信号K的最低点。高位追进的多头全部沦为“被套多头”。&lt;/li>
+&lt;/ul>
+&lt;h3 id="2-h2-成功-vs-h2-失败多头两腿回调">2. H2 成功 vs. H2 失败（多头两腿回调）&lt;/h3>
+&lt;p>&lt;img src="https://imgant.forecho.com/2026/11/19/b4d16b84.png" alt="2. H2 成功 vs. H2 失败（多头两腿回调对比）">&lt;/p>
+&lt;p>在健康趋势中，H1 失败往往很正常——市场通常需要走完两腿回调（ABC 结构）来清洗浮筹，这就形成了胜率更高的 H2（High 2，本质是双底牛旗）。&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>H2 成功（两腿洗盘结束）&lt;/strong>：价格完成两腿回调测试低点不破，强阳线突破 H2 信号高点，随后开启主升浪。&lt;/li>
+&lt;li>&lt;strong>H2 失败（趋势瓦解）&lt;/strong>：连最稳健的两腿结构（H2）在触发进场后都被大阴线砸穿结构低点，这是多头趋势终结的铁证。此时绝不能再盲目接飞刀。&lt;/li>
+&lt;/ul>
+&lt;h3 id="3-l1-成功-vs-l1-失败空头初次反弹">3. L1 成功 vs. L1 失败（空头初次反弹）&lt;/h3>
+&lt;p>&lt;img src="https://imgant.forecho.com/2026/11/19/b58e5ea2.png" alt="3. L1 成功 vs. L1 失败（空头初次反弹对比）">&lt;/p>
+&lt;p>空头逻辑与多头完全镜像。L1（Low 1）是下跌趋势反弹中，第一根低点跌破前一根K线低点的信号K线。&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>L1 成功（顺势下跌）&lt;/strong>：跌破 L1 低点触发 Sell Stop 后，空头迅速向下加速，反弹波段高点未被触及。&lt;/li>
+&lt;li>&lt;strong>L1 失败（诱空被套）&lt;/strong>：跌破 L1 低点后立刻遭遇强力托举，大阳线直接拉起并向上突破反弹防守高点，低位追空的交易者直接被套（Trapped Bears），容易引发轧空。&lt;/li>
+&lt;/ul>
+&lt;h3 id="4-l2-成功-vs-l2-失败空头两腿反弹">4. L2 成功 vs. L2 失败（空头两腿反弹）&lt;/h3>
+&lt;p>&lt;img src="https://imgant.forecho.com/2026/11/19/b642a6d0.png" alt="4. L2 成功 vs. L2 失败（空头两腿反弹对比）">&lt;/p>
+&lt;p>L2（Low 2）是下降趋势中经历两腿反弹（双顶熊旗）后的二次做空信号。&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>L2 成功（双顶续跌）&lt;/strong>：两腿反弹动能衰竭，跌破 L2 信号低点后顺利展开第二腿主跌浪。&lt;/li>
+&lt;li>&lt;strong>L2 失败（趋势终结）&lt;/strong>：L2 触发后完全跌不动，反而被强阳线反向突破整个双顶反弹的高点。这表明空头趋势已经转换为宽幅震荡甚至多头反转。&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="概率与胜率为什么不能死记数字">概率与胜率：为什么不能死记数字？&lt;/h2>
+&lt;p>价格行为学里没有脱离背景的固定胜率，但有三条决定长期期望值的规律：&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>对比维度&lt;/th>
+&lt;th>H1 / L1 表现&lt;/th>
+&lt;th>H2 / L2 表现&lt;/th>
+&lt;th>实战决策启示&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;strong>整体成功率&lt;/strong>&lt;/td>
+&lt;td>相对较低（容易遭遇二次测试或假突破）&lt;/td>
+&lt;td>普遍更高（反向动能经两腿释放，结构更扎实）&lt;/td>
+&lt;td>震荡或宽通道中，跳过 H1/L1，耐心等 H2/L2&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>强趋势环境&lt;/strong>&lt;/td>
+&lt;td>经常直接走顺，错过容易踏空整波单边&lt;/td>
+&lt;td>往往出现在深幅回调，确定性极高&lt;/td>
+&lt;td>强趋势中 H1/H2 均可顺势参与，反转信号大概率失败&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>震荡区间环境&lt;/strong>&lt;/td>
+&lt;td>假突破高发区，追突破极容易被套在极端点&lt;/td>
+&lt;td>即使突破，利润空间也容易受限于区间边界&lt;/td>
+&lt;td>停止用 Stop Order 追突破，改用 Limit Order 高抛低吸&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;blockquote>
+&lt;p>&lt;strong>关键认知&lt;/strong>：当行情走到**第三腿（3rd Leg / Wedge）**时，顺势延续的概率会显著下降，而逆势消退（Fade）的胜率开始占优。&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="实战应对当信号开始连续失败我做这三个动作">实战应对：当信号开始连续失败，我做这三个动作&lt;/h2>
+&lt;p>看懂了信号失败，落到执行上只需要这三个调整：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>用“连续两次失败”作为策略切换开关&lt;/strong>：
+如果盘面连续出现两次顺势信号失败（例如 H1 失败后 H2 也失败，或者空头信号接连被打穿新高），立刻停止在高低点挂 Stop Order 追突破，承认当下已经是震荡市。&lt;/li>
+&lt;li>&lt;strong>利用“被套盘”与 Spike Break 找限价单位置&lt;/strong>：
+当一个突破或 H1/L1 失败后，被套在极端位置的交易者会在价格回到成本区时急于保本离场（Breakeven Exit）。这些位置往往会成为价格回测的磁力点（Magnet），非常适合配合限价单（Limit Order）在区间边界博弈反向利润。&lt;/li>
+&lt;li>&lt;strong>突破单一旦走坏，坚决执行“早跑”纪律&lt;/strong>：
+顺势突破单进场后，正常预期是迅速脱离成本区。如果不仅没有跟进，反而出现反向强K线吞没，在信号防守线被彻底打穿之前就该果断离场，绝不心存侥幸去扛单。&lt;/li>
+&lt;/ol>
+&lt;hr>
+&lt;h2 id="总结">总结&lt;/h2>
+&lt;p>交易中最昂贵的错误，不是看错某一次方向，而是在市场已经悄悄换挡时，依然死守上一套剧本。&lt;/p>
+&lt;p>每次复盘或看盘时，除了看哪里可以买 H1/H2、哪里可以卖 L1/L2，更要紧盯**“谁在被套、哪个信号正在失败”**：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>顺势信号流畅推进&lt;/strong> $\rightarrow$ 市场处于趋势惯性中，大胆跟随，忽略逆势杂音；&lt;/li>
+&lt;li>&lt;strong>顺势信号开始连续失败&lt;/strong> $\rightarrow$ 市场正在切入震荡区间，收起追突破的手，把目光转向区间边界与被套盘的保本离场点。&lt;/li>
+&lt;/ul></description></item><item><title>为了听懂英文 Trading Room，我开发了一款实时字幕翻译软件 Liveglot</title><link>https://blog.forecho.com/introducing-liveglot.html</link><pubDate>Wed, 18 Nov 2026 10:54:51 +0800</pubDate><guid>https://blog.forecho.com/introducing-liveglot.html</guid><description>&lt;p>&lt;img src="https://imgant.forecho.com/2026/11/18/025805.756-86a10ee9-53d659e5.png" alt="Liveglot 主界面：左侧实时双语字幕，右侧基于本场记录的 AI 聊天">&lt;/p>
 &lt;h2 id="引言">引言&lt;/h2>
 &lt;p>学了一年多的价格行为学（Price Action），最近我终于付费进了 PA 的英文 Trading Room，想跟着看看老外实盘到底是怎么分析、怎么找入场和止损的。&lt;/p>
 &lt;p>钱是付了，进去以后才发现最大的问题不是看不懂 K 线，而是听不懂。讲师语速本来就快，里面又夹着一堆交易术语和盘口俚语，经常一句话没反应过来，后面两三句已经过去了。&lt;/p>
@@ -2020,30 +2128,4 @@ Thank you.
 &lt;li>&lt;a href="https://support.optimusfutures.com/can-i-open-an-account-if-i-live-outside-the-united-states">Optimus Futures：海外客户开户&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://support.optimusfutures.com/what-is-the-minimum-initial-deposit-required-to-open-an-account">Optimus Futures：最低入金&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://optimusfutures.com/Futures-Trading-Pricing.php">Optimus Futures：手续费&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>介绍一下我做的 AI 中转站 4AICode</title><link>https://blog.forecho.com/introducing-4aicode-ai-proxy.html</link><pubDate>Tue, 05 May 2026 10:00:00 +0800</pubDate><guid>https://blog.forecho.com/introducing-4aicode-ai-proxy.html</guid><description>&lt;p>&lt;img src="https://imgant.forecho.com/2026/06/22/b88d1589.png" alt="4AICode：面向 Vibe Coding 的 AI 中转站">&lt;/p>
-&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>先上地址：&lt;/p>
-&lt;ul>
-&lt;li>网站：&lt;a href="https://4aicode.com/">4aicode.com&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;p>&lt;a href="https://4aicode.com/">4AICode&lt;/a> 是我新做的一个 AI 中转站，主要面向 Vibe Coding 场景，目前支持 ChatGPT AI 模型和 gpt-image-2 图片生成模型。&lt;/p>
-&lt;p>名字也很直白，4AICode 可以理解成 for AI code，意思就是为 AI 编程服务。&lt;/p>
-&lt;p>它的目标很简单：让国内用户更容易、更低成本地用上国外的 AI 模型。&lt;/p>
-&lt;h2 id="为什么做这个">为什么做这个&lt;/h2>
-&lt;p>这两年 AI 工具进步很快，真正用起来的人会明显感受到效率提升。国内用户想稳定使用国外模型，门槛一直偏高：账号、支付、网络、额度、API 配置，每一项都可能卡住。&lt;/p>
-&lt;p>4AICode 想解决的就是这个入口问题。用户只需要在一个地方完成充值和调用，剩下的模型接入、账单换算、接口稳定性，我在后台处理。&lt;/p>
-&lt;p>我自己现在大量使用 Codex 写代码，所以这个产品一开始就优先考虑 AI 编程的使用体验。配置好接口之后，Codex 调模型会更顺手，写代码、改文档、生成脚本都可以接到同一个入口。&lt;/p>
-&lt;h2 id="成本更低">成本更低&lt;/h2>
-&lt;p>另一个原因是价格。&lt;/p>
-&lt;p>4AICode 目前的模型价格大概是官网价格的 1 折，充值还会赠送额外金额。中转站的好处是按量使用，小需求也能跑起来，高频 Vibe Coding 的成本也能降下来。&lt;/p>
-&lt;p>对我来说，4AICode 的定位很明确：把 ChatGPT 这类模型和 AI 图片生成做成更容易消费的基础服务。&lt;/p>
-&lt;h2 id="目前支持什么">目前支持什么&lt;/h2>
-&lt;p>&lt;img src="https://imgant.forecho.com/2026/06/22/ba467a81.png" alt="当前支持 ChatGPT 与 gpt-image-2 两类模型，文字模型适用六类场景">&lt;/p>
-&lt;p>当前先接入两类模型：ChatGPT 文字模型和 gpt-image-2 图片生成模型。文字模型主要用在 Vibe Coding 和日常的代码、文档、写作场景，完整清单见上图。&lt;/p>
-&lt;h2 id="图片生成页面">图片生成页面&lt;/h2>
-&lt;p>为了让 gpt-image-2 更好用，我特意写了一个图片生成页面。&lt;/p>
-&lt;p>用户可以直接在页面里输入提示词生成图片，省掉自己写 API、调脚本、处理返回结果这些步骤。这个页面适合生成文章配图、产品图草稿、封面图和 Vibe Coding 过程中需要的临时素材。&lt;/p>
-&lt;p>后面我会根据真实使用情况继续加模型和功能。先把文字和图片两条线跑稳定，比一次性铺很多入口更重要。&lt;/p>
-&lt;h2 id="写在最后">写在最后&lt;/h2>
-&lt;p>4AICode 是我围绕 AI 工具链做的又一个 Side Project。ImgAnt 解决图片上传，4AICode 解决模型访问。两者背后的思路很像：把我自己日常会遇到的麻烦，做成一个其他人也能直接使用的服务。&lt;/p>
-&lt;p>需要更方便地把 ChatGPT AI 模型和 gpt-image-2 图片生成模型接入 Codex，可以去 &lt;a href="https://4aicode.com/">4aicode.com&lt;/a> 试试。&lt;/p></description></item></channel></rss>
+&lt;/ul></description></item></channel></rss>

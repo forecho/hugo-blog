@@ -1,4 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on forecho's Blog</title><link>https://blog.forecho.com/posts.html</link><description>Recent content in Posts on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 18 Nov 2026 10:54:51 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/posts/atom.xml" rel="self" type="application/rss+xml"/><item><title>为了听懂英文 Trading Room，我开发了一款实时字幕翻译软件 Liveglot</title><link>https://blog.forecho.com/introducing-liveglot.html</link><pubDate>Wed, 18 Nov 2026 10:54:51 +0800</pubDate><guid>https://blog.forecho.com/introducing-liveglot.html</guid><description>&lt;p>&lt;img src="https://imgant.forecho.com/2026/11/18/025805.756-86a10ee9-53d659e5.png" alt="Liveglot 主界面：左侧实时双语字幕，右侧基于本场记录的 AI 聊天">&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on forecho's Blog</title><link>https://blog.forecho.com/posts.html</link><description>Recent content in Posts on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 19 Nov 2026 13:00:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/posts/atom.xml" rel="self" type="application/rss+xml"/><item><title>Price Action 进阶：如何用 H1/H2 与 L1/L2 的「失败」，提前看穿趋势与震荡切换</title><link>https://blog.forecho.com/price-action-h1-h2-l1-l2-failure.html</link><pubDate>Thu, 19 Nov 2026 13:00:00 +0800</pubDate><guid>https://blog.forecho.com/price-action-h1-h2-l1-l2-failure.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>&lt;img src="https://imgant.forecho.com/2026/11/19/b3722159.png" alt="Price Action 进阶：顺势信号开始「失败」">&lt;/p>
+&lt;p>在刚接触 Al Brooks 的价格行为学（Price Action）时，绝大多数交易者最先上手的入场工具就是&lt;strong>数K线（Bar Counting）&lt;/strong>——多头回调找 H1 / H2 挂单做多，空头反弹找 L1 / L2 挂单做空。&lt;/p>
+&lt;p>但实盘中经常遇到这种让人极其难受的场面：
+你在一个看似不错的上涨趋势里等来标准回调，果断在 H1 突破位挂 Buy Stop 买入。结果刚成交，下一根K线立刻收出一根大阴线把你按在山顶；你不信邪，等行情走出两腿回调出现 H2 再进一次，结果再次被反向砸穿止损。&lt;/p>
+&lt;p>这种亏损并不是数K线失效了，而是&lt;strong>市场环境已经悄悄切入了震荡区间（Trading Range）&lt;/strong>。&lt;/p>
+&lt;p>在价格行为学中，H1/H2 和 L1/L2 不仅是顺势加速的入场点，它们的**失败（Failure）**更是市场发出的最高级别预警——告诉你原有的单边惯性正在瓦解。&lt;/p></description></item><item><title>为了听懂英文 Trading Room，我开发了一款实时字幕翻译软件 Liveglot</title><link>https://blog.forecho.com/introducing-liveglot.html</link><pubDate>Wed, 18 Nov 2026 10:54:51 +0800</pubDate><guid>https://blog.forecho.com/introducing-liveglot.html</guid><description>&lt;p>&lt;img src="https://imgant.forecho.com/2026/11/18/025805.756-86a10ee9-53d659e5.png" alt="Liveglot 主界面：左侧实时双语字幕，右侧基于本场记录的 AI 聊天">&lt;/p>
 &lt;h2 id="引言">引言&lt;/h2>
 &lt;p>学了一年多的价格行为学（Price Action），最近我终于付费进了 PA 的英文 Trading Room，想跟着看看老外实盘到底是怎么分析、怎么找入场和止损的。&lt;/p>
 &lt;p>钱是付了，进去以后才发现最大的问题不是看不懂 K 线，而是听不懂。讲师语速本来就快，里面又夹着一堆交易术语和盘口俚语，经常一句话没反应过来，后面两三句已经过去了。&lt;/p>
@@ -73,12 +79,4 @@
 &lt;p>这篇文章按英文菜单名来写，打开软件的时候可以直接对照着设置。&lt;/p></description></item><item><title>大陆用户开美国期货账户，我会先选 AMP Futures</title><link>https://blog.forecho.com/open-us-futures-broker-from-china.html</link><pubDate>Sun, 07 Jun 2026 00:36:07 +0800</pubDate><guid>https://blog.forecho.com/open-us-futures-broker-from-china.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
 &lt;p>最近在研究美国期货账户，主要看了两个券商：&lt;a href="https://www.ampfutures.com/">AMP Futures&lt;/a> 和 &lt;a href="https://optimusfutures.com/">Optimus Futures&lt;/a>。&lt;/p>
 &lt;p>我的判断很直接：&lt;strong>先开 AMP，Optimus 先放观察位&lt;/strong>。&lt;/p>
-&lt;p>AMP 的开户资料更多，中文圈用的人也更多，Mac 用户可以直接接 TradingView。Optimus 官方支持海外用户，也有多个 FCM 清算商可选，但是中文圈完整跑通开户、入金、交易、出金的人太少，我会把它当第二账户备选。&lt;/p></description></item><item><title>介绍一下我做的 AI 中转站 4AICode</title><link>https://blog.forecho.com/introducing-4aicode-ai-proxy.html</link><pubDate>Tue, 05 May 2026 10:00:00 +0800</pubDate><guid>https://blog.forecho.com/introducing-4aicode-ai-proxy.html</guid><description>&lt;p>&lt;img src="https://imgant.forecho.com/2026/06/22/b88d1589.png" alt="4AICode：面向 Vibe Coding 的 AI 中转站">&lt;/p>
-&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>先上地址：&lt;/p>
-&lt;ul>
-&lt;li>网站：&lt;a href="https://4aicode.com/">4aicode.com&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;p>&lt;a href="https://4aicode.com/">4AICode&lt;/a> 是我新做的一个 AI 中转站，主要面向 Vibe Coding 场景，目前支持 ChatGPT AI 模型和 gpt-image-2 图片生成模型。&lt;/p>
-&lt;p>名字也很直白，4AICode 可以理解成 for AI code，意思就是为 AI 编程服务。&lt;/p>
-&lt;p>它的目标很简单：让国内用户更容易、更低成本地用上国外的 AI 模型。&lt;/p></description></item></channel></rss>
+&lt;p>AMP 的开户资料更多，中文圈用的人也更多，Mac 用户可以直接接 TradingView。Optimus 官方支持海外用户，也有多个 FCM 清算商可选，但是中文圈完整跑通开户、入金、交易、出金的人太少，我会把它当第二账户备选。&lt;/p></description></item></channel></rss>
