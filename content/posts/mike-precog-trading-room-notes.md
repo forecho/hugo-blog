@@ -6,6 +6,8 @@ draft: false
 toc: true
 ---
 
+![Mike Precog 交易室笔记：多周期逻辑、资金管理与学习方法](https://imgant.forecho.com/2026/11/23/0d7dccb2.png)
+
 ## 引言
 
 11 月 20 日在 Al Brooks 的美股实盘交易室（Brooks Price Action US Trading Room，01:08 - 02:20）里，听了 **Mike**（网名 **Precog**）的一场分享，记了一堆笔记，感触挺深的。
