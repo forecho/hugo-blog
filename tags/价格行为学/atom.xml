@@ -1,4 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>价格行为学 on forecho's Blog</title><link>https://blog.forecho.com/tags/%E4%BB%B7%E6%A0%BC%E8%A1%8C%E4%B8%BA%E5%AD%A6.html</link><description>Recent content in 价格行为学 on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 23 Nov 2026 11:46:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/tags/%E4%BB%B7%E6%A0%BC%E8%A1%8C%E4%B8%BA%E5%AD%A6/atom.xml" rel="self" type="application/rss+xml"/><item><title>Al Brooks 交易室笔记：Mike Precog 的多周期逻辑、资金管理与学习方法</title><link>https://blog.forecho.com/mike-precog-trading-room-notes.html</link><pubDate>Mon, 23 Nov 2026 11:46:00 +0800</pubDate><guid>https://blog.forecho.com/mike-precog-trading-room-notes.html</guid><description>&lt;p>&lt;img src="https://imgant.forecho.com/2026/11/23/0d7dccb2.png" alt="Mike Precog 交易室笔记：多周期逻辑、资金管理与学习方法">&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>价格行为学 on forecho's Blog</title><link>https://blog.forecho.com/tags/%E4%BB%B7%E6%A0%BC%E8%A1%8C%E4%B8%BA%E5%AD%A6.html</link><description>Recent content in 价格行为学 on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 23 Nov 2026 18:50:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/tags/%E4%BB%B7%E6%A0%BC%E8%A1%8C%E4%B8%BA%E5%AD%A6/atom.xml" rel="self" type="application/rss+xml"/><item><title>Al Brooks 问答笔记：练出稳定盈利到底要多久？</title><link>https://blog.forecho.com/al-brooks-how-long-to-become-profitable.html</link><pubDate>Mon, 23 Nov 2026 18:50:00 +0800</pubDate><guid>https://blog.forecho.com/al-brooks-how-long-to-become-profitable.html</guid><description>&lt;p>&lt;img src="https://imgant.forecho.com/2026/11/23/28bcf622.png" alt="Al Brooks 问答笔记：练出稳定盈利到底要多久？">&lt;/p>
+&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>学价格行为学久了，脑子里总会时不时冒出一个问题：&lt;strong>到底要学多久、复盘多久，才能做到稳定盈利？&lt;/strong>&lt;/p>
+&lt;p>最近翻了 Al Brooks 网站上两篇间隔一年的交易室问答（2015 年 2 月和 2016 年 3 月），学员问的几乎是同一个问题。两次回答加起来也就十来分钟，没什么鸡汤，他既摊开聊了自己当年亏了 10 年的弯路，也顺着一天的 ES 5 分钟实盘图讲了几条特别实在的常识。&lt;/p>
+&lt;p>我把这两篇合在一起整理成笔记，把原图也一并存了下来，方便日后心态浮躁或者手痒乱做的时候翻出来提醒自己。&lt;/p></description></item><item><title>Al Brooks 交易室笔记：Mike Precog 的多周期逻辑、资金管理与学习方法</title><link>https://blog.forecho.com/mike-precog-trading-room-notes.html</link><pubDate>Mon, 23 Nov 2026 11:46:00 +0800</pubDate><guid>https://blog.forecho.com/mike-precog-trading-room-notes.html</guid><description>&lt;p>&lt;img src="https://imgant.forecho.com/2026/11/23/0d7dccb2.png" alt="Mike Precog 交易室笔记：多周期逻辑、资金管理与学习方法">&lt;/p>
 &lt;h2 id="引言">引言&lt;/h2>
 &lt;p>11 月 20 日在 Al Brooks 的美股实盘交易室（Brooks Price Action US Trading Room，01:08 - 02:20）里，听了 &lt;strong>Mike&lt;/strong>（网名 &lt;strong>Precog&lt;/strong>）的一场分享，记了一堆笔记，感触挺深的。&lt;/p>
 &lt;p>先简单交代一下他的背景。Mike 是 Al Brooks 价格行为交易团队和社区的成员，之前在 Brooks Trading Course 网站上写过黄金（比如 GC-mini）等品种的价格行为分析，也一直在 Brooks 的线下工作坊负责行政、技术和主讲人支持工作。2026 年 11 月前后，他以特邀主讲人的身份第一次亮相 Al Brooks 实盘交易室。&lt;/p>
@@ -110,15 +114,4 @@
 &lt;/ul>
 &lt;p>可以继续阅读完整版：&lt;strong>&lt;a href="https://blog.forecho.com/mb-setup-scalping.html">《Rose 的 Mother Bar 交易法：从区间剥头皮到突破跟随的完整执行框架》&lt;/a>&lt;/strong>。&lt;/p>
 &lt;p>本文将深入探讨一种在价格行为分析中较为进阶的概念——“Mother Bar”（孕线）及其交易策略。该策略源自交易员 Rose，本文内容主要基于 &lt;a href="https://www.youtube.com/@PriceActionKim">PriceActionKim&lt;/a> 对其的讲解，核心是利用 Mother Bar 形成后的特定价格区域，通过限价单（Limit Order）进行高胜率的剥头皮（Scalp）交易。&lt;/p>
-&lt;p>这个概念对于初学者可能稍有难度，因为它不仅涉及到对市场结构的深刻理解，还需要交易者熟练运用限价单。然而，掌握它将极大地帮助你理解在某些关键价位市场发生反转和波动的内在逻辑。&lt;/p></description></item><item><title>价格行为学 - Rose 的 MTR (主趋势反转)</title><link>https://blog.forecho.com/price-action-rose-mtr.html</link><pubDate>Tue, 01 Jul 2025 16:10:58 +0800</pubDate><guid>https://blog.forecho.com/price-action-rose-mtr.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>本篇文章主要是介绍 Rose 的 MTR 交易策略。涉及到的来源：&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://www.youtube.com/watch?v=jpoS_xmX2Mg">EOD Review ES Futures - April 10, 2025 Thursday - PriceActionRose - Entry Methods with Risk Reward&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;p>本策略的核心在于识别那些被市场&amp;quot;欺骗&amp;quot;并套牢的交易者，然后利用他们平仓（止损）时产生的强大动能来获利。这通常发生在趋势的末期或者关键的支撑/阻力位。&lt;/p>
-&lt;h2 id="核心理念寻找被套的交易者">核心理念：寻找被套的交易者&lt;/h2>
-&lt;p>PriceActionRose 在她的复盘视频中反复强调一个观点：&lt;strong>理解谁被套牢了，以及他们将在哪里离场，是交易成功的关键。&lt;/strong>&lt;/p>
-&lt;blockquote>
-&lt;p>&amp;ldquo;if you cannot figure out is why market suddenly reversing here rather than closing bare bars and continue to sell. If you cannot tell who&amp;rsquo;s stuck and who&amp;rsquo;s getting out and where they&amp;rsquo;re getting out, okay, then you&amp;rsquo;re not the half the trader you think that you are.&amp;rdquo;&lt;/p>
-&lt;p>&amp;ldquo;如果你搞不清楚为什么市场会突然在这里反转，而不是继续收出阴线并持续下跌。如果你看不出谁被套了、他们在哪里离场，那你根本不了解交易的真谛。&amp;rdquo;&lt;/p>
-&lt;/blockquote></description></item></channel></rss>
+&lt;p>这个概念对于初学者可能稍有难度，因为它不仅涉及到对市场结构的深刻理解，还需要交易者熟练运用限价单。然而，掌握它将极大地帮助你理解在某些关键价位市场发生反转和波动的内在逻辑。&lt;/p></description></item></channel></rss>

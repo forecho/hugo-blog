@@ -1,4 +1,67 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 23 Nov 2026 11:46:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>Al Brooks 交易室笔记：Mike Precog 的多周期逻辑、资金管理与学习方法</title><link>https://blog.forecho.com/mike-precog-trading-room-notes.html</link><pubDate>Mon, 23 Nov 2026 11:46:00 +0800</pubDate><guid>https://blog.forecho.com/mike-precog-trading-room-notes.html</guid><description>&lt;p>&lt;img src="https://imgant.forecho.com/2026/11/23/0d7dccb2.png" alt="Mike Precog 交易室笔记：多周期逻辑、资金管理与学习方法">&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 23 Nov 2026 18:50:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>Al Brooks 问答笔记：练出稳定盈利到底要多久？</title><link>https://blog.forecho.com/al-brooks-how-long-to-become-profitable.html</link><pubDate>Mon, 23 Nov 2026 18:50:00 +0800</pubDate><guid>https://blog.forecho.com/al-brooks-how-long-to-become-profitable.html</guid><description>&lt;p>&lt;img src="https://imgant.forecho.com/2026/11/23/28bcf622.png" alt="Al Brooks 问答笔记：练出稳定盈利到底要多久？">&lt;/p>
+&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>学价格行为学久了，脑子里总会时不时冒出一个问题：&lt;strong>到底要学多久、复盘多久，才能做到稳定盈利？&lt;/strong>&lt;/p>
+&lt;p>最近翻了 Al Brooks 网站上两篇间隔一年的交易室问答（2015 年 2 月和 2016 年 3 月），学员问的几乎是同一个问题。两次回答加起来也就十来分钟，没什么鸡汤，他既摊开聊了自己当年亏了 10 年的弯路，也顺着一天的 ES 5 分钟实盘图讲了几条特别实在的常识。&lt;/p>
+&lt;p>我把这两篇合在一起整理成笔记，把原图也一并存了下来，方便日后心态浮躁或者手痒乱做的时候翻出来提醒自己。&lt;/p>
+&lt;h2 id="他自己为什么亏了-10-年太相信别人没看图表">他自己为什么亏了 10 年：太相信别人，没看图表&lt;/h2>
+&lt;p>这两次问答里，Al 都毫不避讳地说自己&lt;strong>亏了大概 10 年&lt;/strong>。回头看，他总结出来的根源其实挺扎心：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>默认「教人的人都诚实且懂行」&lt;/strong>：Al 原本是学医出身，医学院的训练让他习惯了「只要有人出来教，就默认对方是诚实且靠谱的」。但 80 年代他刚接触交易时，市面上讲交易、卖课的几乎全是骗子；他花了好几年才看清这点，又花了好几年才发现，哪怕是诚实的人，给出来的点子也往往不赚钱。&lt;/li>
+&lt;li>&lt;strong>「太聪明」，照单全收传统指标&lt;/strong>：他调侃自己亏钱不是不够聪明，反而是「太聪明」——读了无数书和杂志、天天听财经电视，认真去学各种指标背离、均线金叉死叉。可盯着盘面看久了，发现市场经常跟教科书反着来，比如随机指标（Stochastics）在顶部背离时，市场绝大多数时候还在继续往上走。&lt;/li>
+&lt;/ul>
+&lt;p>后来他干脆决定不再听任何人的，把图上所有指标甚至均线全删掉，只看裸 K 线找形态，前前后后做了大约 &lt;strong>10,000 小时的回测&lt;/strong>。&lt;/p>
+&lt;p>也是从这时候开始，他才慢慢建立起信心，敢去做那些「表面看起来反直觉、但逻辑上正确」的交易。比如 2015 年 2 月 11 日当天的 ES 5 分钟图：&lt;/p>
+&lt;p>&lt;img src="https://imgant.forecho.com/2026/11/23/0a098b98.png" alt="ES 5 分钟图：面对急跌大抛售时开始找买点（Looking to buy），Bar 54 强阳反转果断买入（Definitely buying）">&lt;/p>
+&lt;p>盘面在 Bar 39–46 走出一波凶狠的急跌抛售，一般人看着吓都吓死了，但 Al 标注说：看到这种急跌抛售（&lt;code>Looking to buy&lt;/code>），他反而开始准备找买点；等底部横盘稳住、&lt;strong>Bar 54 收出大阳线&lt;/strong>（&lt;code>Definitely buying&lt;/code>）后，直接果断买入。&lt;/p>
+&lt;h2 id="到底要学多久快慢几乎全看客观两个字">到底要学多久？快慢几乎全看「客观」两个字&lt;/h2>
+&lt;p>回到最现实的问题：普通人跟着学，到底要多久才能做到稳定盈利？&lt;/p>
+&lt;p>Al 给出的时间范围跨度不小：&lt;strong>有人 6 个月到 1 年就能做到&lt;/strong>，他也收到过很多 &lt;strong>1–2 年&lt;/strong>内做得很不错的学员来信；但对另一些人来说，可能还是需要&lt;strong>好几年&lt;/strong>。&lt;/p>
+&lt;p>在他看来，决定快慢的几乎&lt;strong>完全取决于个人性格&lt;/strong>：你到底有多愿意戒掉自己的坏毛病，变成一个彻底客观的人？&lt;/p>
+&lt;p>他用一连串「&lt;strong>我不在乎（I don&amp;rsquo;t care）&lt;/strong>」来形容什么叫客观：&lt;/p>
+&lt;ul>
+&lt;li>我不在乎我主观觉得它应该涨，也不在乎盘前新闻说今天会涨——&lt;strong>盘面在跌，我就得做空&lt;/strong>；&lt;/li>
+&lt;li>我不在乎它按理说不该涨——&lt;strong>盘面在涨，我就得做多&lt;/strong>；&lt;/li>
+&lt;li>处于震荡区间时，我不在乎它看着像要一直跌穿地板——&lt;strong>这就是震荡价格行为，它会涨回来&lt;/strong>；我也不在乎它正在涨——&lt;strong>这波反弹看着很弱，它会跌回去&lt;/strong>。&lt;/li>
+&lt;/ul>
+&lt;p>学会真正信任自己的客观判断需要时间，但这是盈利最关键的一步。Al 说，一旦跨过这道坎，交易其实会变得非常轻松——不需要每天纠结猜方向，只要照着逻辑做正确的动作、管好单子，长期下来自然会做好。&lt;/p>
+&lt;h2 id="实盘不用做-40-单抓两笔就够出去散步">实盘不用做 40 单，抓两笔就够「出去散步」&lt;/h2>
+&lt;p>看懂盘面细节之后，Al 说他平均每天在 5 分钟图上能看到 &lt;strong>40–50 个交易机会&lt;/strong>，连高盛的很多交易员都不一定看得懂他在底部拆解的那些空头细节。&lt;/p>
+&lt;p>但话锋一转，他立刻给普通交易者减了负：&lt;strong>你根本不需要全看懂，也不需要每天做 40 单，甚至连一半都不用做，只要别去做那些愚蠢的交易就行。&lt;/strong>&lt;/p>
+&lt;p>他拿当天两根最干脆的 K 线举了例子：&lt;/p>
+&lt;p>&lt;img src="https://imgant.forecho.com/2026/11/23/0ab1556a.png" alt="Bar 39：大阴线向下跌破窄幅震荡区间，做空并挂下方 4 点止盈">&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Bar 39（做空后去散步）&lt;/strong>：一根强空头大阴线向下突破上午的窄幅震荡区间。直接在这里做空，止损放上方，下方 &lt;strong>4 个点&lt;/strong> 挂限价单止盈，出去散步半小时回来就收钱。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://imgant.forecho.com/2026/11/23/0b0e275e.png" alt="Bar 54：底部横盘后的强阳线反转，买入并挂上方 4 点止盈">&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Bar 54（做多后去散步）&lt;/strong>：底部筑底后走出强阳线反包。在 Bar 54 收盘或高点买入，上方 &lt;strong>4 个点&lt;/strong> 挂限价单止盈，再出去散步半小时回来又赚 4 个点。&lt;/li>
+&lt;/ul>
+&lt;p>光这两笔一眼就能看明白的机会，一天就已经拿到 &lt;strong>8 个点&lt;/strong>。平时复盘，与其焦虑自己漏掉了多少小机会，不如先问问自己：有没有把最清楚的那一两笔拿住，有没有忍住不去做那些乱七八糟的单子。&lt;/p>
+&lt;h2 id="新手最致命的陷阱像灭蝇灯一样的窄幅震荡区间">新手最致命的陷阱：像「灭蝇灯」一样的窄幅震荡区间&lt;/h2>
+&lt;p>2015 年那篇问答最后，Al 专门圈出了当天两段&lt;strong>窄幅震荡区间（Tight Trading Range，上午 Bar 20–38 和下午 Bar 62–70）&lt;/strong>，给出了一个特别形象的警告：&lt;/p>
+&lt;p>&lt;img src="https://imgant.forecho.com/2026/11/23/0b57777b.png" alt="ES 5 分钟图：两段窄幅震荡区间（TTR）就像吸引新手的电击灭蝇灯">&lt;/p>
+&lt;p>他说，窄幅震荡对新手来说，就像&lt;strong>吸引苍蝇的紫外线灭蝇灯（fly-zapping lights）&lt;/strong>：&lt;/p>
+&lt;p>新手盯着大波动吓得不敢下单，好不容易看到 K 线变小、盘面安静下来，心里一松：「太好了，现在不吓人了，风险小了，终于安全了！」于是就在这种地方开始频繁&lt;strong>挂 Stop 单追突破，再配一个很窄的紧止损（Tight Stop）&lt;/strong>——结果被来回扫爆。&lt;/p>
+&lt;p>Al 点破了这里面的数学陷阱：&lt;strong>K 线小确实意味着单笔止损风险小，但同时胜率也同步暴跌&lt;/strong>。在窄幅震荡里用 Stop 单进场还配紧止损，几乎是必死的（deadly）。&lt;/p>
+&lt;p>面对这种盘面，只有三条路能选：&lt;/p>
+&lt;ol>
+&lt;li>如果非要在窄幅震荡里用 Stop 单进场，必须用&lt;strong>波段宽止损（Swing Stop）&lt;/strong>（甚至配合分批加仓做剥头皮）；&lt;/li>
+&lt;li>如果按正确的宽止损算下来，心理上觉得风险太难受，那就&lt;strong>把仓位大幅缩更小&lt;/strong>；&lt;/li>
+&lt;li>如果还是不舒服，&lt;strong>干脆不做，空仓等别的机会&lt;/strong>。&lt;/li>
+&lt;/ol>
+&lt;h2 id="最后">最后&lt;/h2>
+&lt;p>这两篇问答里还有一点挺打动我的：Al 聊起自己从小家境清贫（一家六口挤在一千平方英尺、只有一个卫生间还没淋浴的房子里），当年想上哈佛没考上，知道孤立无援、没人带路有多难；2016 年那篇他还提到自己一生最敬佩拳王阿里（Muhammad Ali），说自己钱早就够用了，现在写书、录课、带交易室，就是希望能帮别人少走他当年那 10 年弯路。&lt;/p>
+&lt;p>对我自己来说，这两篇合并看完，以后最需要反复提醒自己的就是三条：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>尽量客观&lt;/strong>：不跟自己的主观预期较劲，盘面在走什么就认什么；&lt;/li>
+&lt;li>&lt;strong>少做蠢单&lt;/strong>：不需要抓全天 40 个机会，抓准一两笔干净的就够了；&lt;/li>
+&lt;li>&lt;strong>远离「灭蝇灯」&lt;/strong>：别因为窄幅震荡里 K 线小、看着「安全」，就手痒在里面用紧止损挂 Stop 单追突破。&lt;/li>
+&lt;/ul>
+&lt;h2 id="参考来源">参考来源&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.brookstradingcourse.com/ask-al/how-long-before-consistently-profitable/">Ask Al: How long before profitable (2015-02-11)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.brookstradingcourse.com/ask-al/profitable-trading-skills/">Ask Al: Profitable trading skills — how long? (2016-03-30)&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Al Brooks 交易室笔记：Mike Precog 的多周期逻辑、资金管理与学习方法</title><link>https://blog.forecho.com/mike-precog-trading-room-notes.html</link><pubDate>Mon, 23 Nov 2026 11:46:00 +0800</pubDate><guid>https://blog.forecho.com/mike-precog-trading-room-notes.html</guid><description>&lt;p>&lt;img src="https://imgant.forecho.com/2026/11/23/0d7dccb2.png" alt="Mike Precog 交易室笔记：多周期逻辑、资金管理与学习方法">&lt;/p>
 &lt;h2 id="引言">引言&lt;/h2>
 &lt;p>11 月 20 日在 Al Brooks 的美股实盘交易室（Brooks Price Action US Trading Room，01:08 - 02:20）里，听了 &lt;strong>Mike&lt;/strong>（网名 &lt;strong>Precog&lt;/strong>）的一场分享，记了一堆笔记，感触挺深的。&lt;/p>
 &lt;p>先简单交代一下他的背景。Mike 是 Al Brooks 价格行为交易团队和社区的成员，之前在 Brooks Trading Course 网站上写过黄金（比如 GC-mini）等品种的价格行为分析，也一直在 Brooks 的线下工作坊负责行政、技术和主讲人支持工作。2026 年 11 月前后，他以特邀主讲人的身份第一次亮相 Al Brooks 实盘交易室。&lt;/p>
@@ -45,6 +108,7 @@
 &lt;p>关于要不要设每日盈利目标，Mike 给了一个挺辩证的说法，没有一刀切。&lt;/p>
 &lt;p>从原则上讲，交易应该顺着盘面机会走，而不是为了凑够脑子里的某个盈利数字强行开单。行情不好时硬凑目标，十有八九会把原本赚的甚至本金一起搭进去。&lt;/p>
 &lt;p>但落到实操上，还是要&lt;strong>了解自己&lt;/strong>。如果你很清楚自己盈利之后容易恋战（wear out my welcome）、忍不住多做几单把利润吐回去，或者当天本来还有其他事要分配精力，那么在达成目标后主动停手、在旁边「吃爆米花看戏」，反而是更健康的选择。&lt;/p>
+&lt;p>这话听得我特别扎心，因为前几天我刚踩过一模一样的坑。那天抓住了黄金的一段下跌趋势，10 分钟就达到了当天的盈利目标。平掉之后看着行情还在继续跌，觉得自己卖飞了，心里就想着「今天行情这么好，干脆多赚点钱」。结果这一恋战，原本的利润不仅全没了，还越亏越多；人一上头就开始过度交易，最后直接把账户干爆仓了。回头看，Mike 说的「了解自己」确实很实在——明知道自己达标后容易手痒，赚够就老实离场，比想着吃满整段行情重要得多。&lt;/p>
 &lt;h3 id="接纳管不了的事学会和踏空共处">接纳管不了的事，学会和「踏空」共处&lt;/h3>
 &lt;p>面对行情，Mike 提了一个情绪迁移的视角：像对待天气和海浪一样对待市场。你管不了今天刮什么风、起多大浪，只能管好自己怎么出海。先接受自己能掌控和不能掌控的边界，心态会松弛很多。&lt;/p>
 &lt;p>另外就是面对踏空的态度。错过了第一波大行情完全没关系，&lt;strong>学会与踏空和平共处非常关键&lt;/strong>。市场永远不缺下一班车，后面还有成千上万个更干净的机会，为了追一班已经开走的列车去硬上车，通常最容易亏钱。&lt;/p>
@@ -1747,303 +1811,4 @@ Thank you.
 &lt;li>&lt;a href="https://x.com/nk912114/status/2010322740931387604">X：giffgaff 保号快捷指令&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.giffgaff.shop/qa/07-voicemail-switch/">giffgaff 非官方中文网：关闭 voicemail 语音信箱&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://github.com/ssnhd/giffgaff">GitHub：英国实体 SIM 卡 giffgaff 激活使用教程&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Rectangle Pro 使用教程：买了之后才搞懂</title><link>https://blog.forecho.com/rectangle-pro-usage-guide.html</link><pubDate>Wed, 10 Jun 2026 14:27:48 +0800</pubDate><guid>https://blog.forecho.com/rectangle-pro-usage-guide.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>之前稀里糊涂买了 &lt;a href="https://rectangleapp.com/pro/">Rectangle Pro&lt;/a>，买完之后才发现它界面全是英文，功能也比免费版多很多。放着吃灰有点浪费，所以我花了点时间把官方文档和常用功能摸了一遍。&lt;/p>
-&lt;p>先说结论：&lt;strong>免费版 Rectangle 已经够大多数人用，Rectangle Pro 的价值主要在 Window Throw、自定义窗口尺寸、工作区布局、Stash 和 Pin Mode。&lt;/strong>&lt;/p>
-&lt;p>这篇文章按英文菜单名来写，打开软件的时候可以直接对照着设置。&lt;/p>
-&lt;h2 id="rectangle-免费版和-pro-有什么区别">Rectangle 免费版和 Pro 有什么区别？&lt;/h2>
-&lt;p>&lt;a href="https://github.com/rxhanson/Rectangle">Rectangle&lt;/a> 免费版是一个开源的 Mac 窗口管理工具，核心功能就是把窗口快速移动到左半屏、右半屏、最大化、居中、三分之一屏幕等位置。你可以用快捷键，也可以把窗口拖到屏幕边缘来吸附。&lt;/p>
-&lt;p>Rectangle Pro 是 Rectangle 的闭源增强版，官方文档里说它是 Rectangle 的 superset，而且是单独下载的 App。我的理解是：免费版负责把窗口放到常见位置，Pro 版负责把窗口管理这件事做得更顺手、更细、更适合多屏工作。&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>功能&lt;/th>
-&lt;th>Rectangle 免费版&lt;/th>
-&lt;th>Rectangle Pro&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>收费方式&lt;/td>
-&lt;td>免费、开源&lt;/td>
-&lt;td>一次性买断，当前官网显示可试用 10 天&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>基础分屏&lt;/td>
-&lt;td>支持&lt;/td>
-&lt;td>支持，内置动作更多&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>拖拽吸附&lt;/td>
-&lt;td>支持屏幕边缘和角落&lt;/td>
-&lt;td>支持自定义 &lt;code>Snap Areas&lt;/code>、&lt;code>Snap Targets&lt;/code>、&lt;code>Snap Panel&lt;/code>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>快捷键&lt;/td>
-&lt;td>常用窗口动作&lt;/td>
-&lt;td>更多内置快捷键，还能配置重复按键行为&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>自定义尺寸&lt;/td>
-&lt;td>支持有限的额外快捷键&lt;/td>
-&lt;td>&lt;code>Custom Size &amp;amp; Position&lt;/code> 可以按百分比或像素配置&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>鼠标/触控板操作&lt;/td>
-&lt;td>基础拖拽吸附&lt;/td>
-&lt;td>&lt;code>Window Throw&lt;/code>、&lt;code>Quick Throw&lt;/code> 更适合少记快捷键&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>布局&lt;/td>
-&lt;td>手动摆放为主&lt;/td>
-&lt;td>&lt;code>Layouts&lt;/code> 可以按规则重新排布匹配到的窗口&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>临时隐藏窗口&lt;/td>
-&lt;td>手动最小化或切换&lt;/td>
-&lt;td>&lt;code>Stash&lt;/code> 可以把窗口藏到屏幕边缘&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>固定侧边窗口&lt;/td>
-&lt;td>需要手动调整&lt;/td>
-&lt;td>&lt;code>Pin Mode&lt;/code> 可以把一个 App 固定在侧边，其他窗口自动避让&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>同步配置&lt;/td>
-&lt;td>可导入导出配置&lt;/td>
-&lt;td>支持 iCloud 同步，也支持导入导出配置&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>许可证&lt;/td>
-&lt;td>免费使用&lt;/td>
-&lt;td>一个 license 可同时激活 3 台设备&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;p>我的建议很简单：&lt;strong>只用左右分屏和最大化，免费版就够了；已经买了 Pro，就优先用好 &lt;code>Window Throw&lt;/code>、&lt;code>Custom Size &amp;amp; Position&lt;/code> 和 &lt;code>Layouts&lt;/code>。&lt;/strong>&lt;/p>
-&lt;h2 id="安装和基础设置">安装和基础设置&lt;/h2>
-&lt;p>下载地址在官网：&lt;a href="https://rectangleapp.com/pro/">Rectangle Pro&lt;/a>。&lt;/p>
-&lt;p>安装后第一次启动，macOS 会要求给它辅助功能权限。路径一般是：&lt;/p>
-&lt;p>&lt;code>System Settings&lt;/code> -&amp;gt; &lt;code>Privacy &amp;amp; Security&lt;/code> -&amp;gt; &lt;code>Accessibility&lt;/code>&lt;/p>
-&lt;p>找到 &lt;code>Rectangle Pro&lt;/code>，打开开关。窗口管理软件需要这个权限来控制其他 App 的窗口位置，Apple 官方文档也把这类权限放在 Accessibility 里说明。&lt;/p>
-&lt;p>如果之前已经安装过免费版 Rectangle，我建议做三件事：&lt;/p>
-&lt;ol>
-&lt;li>退出免费版 Rectangle，避免两个窗口管理软件抢同一组快捷键。&lt;/li>
-&lt;li>在 Pro 里导入或重新设置自己熟悉的快捷键。&lt;/li>
-&lt;li>先只保留 5-8 个高频快捷键，用一周之后再加。&lt;/li>
-&lt;/ol>
-&lt;p>我自己会保留这些动作：&lt;/p>
-&lt;ul>
-&lt;li>&lt;code>Left Half&lt;/code>：左半屏&lt;/li>
-&lt;li>&lt;code>Right Half&lt;/code>：右半屏&lt;/li>
-&lt;li>&lt;code>Maximize&lt;/code>：最大化&lt;/li>
-&lt;li>&lt;code>Center&lt;/code>：居中&lt;/li>
-&lt;li>&lt;code>Next Display&lt;/code> / &lt;code>Previous Display&lt;/code>：多屏之间移动窗口&lt;/li>
-&lt;li>&lt;code>Restore&lt;/code>：恢复窗口之前的大小&lt;/li>
-&lt;/ul>
-&lt;p>窗口管理工具的关键是肌肉记忆。快捷键太多，最后反而一个都记不住。&lt;/p>
-&lt;h2 id="最值得先学的功能">最值得先学的功能&lt;/h2>
-&lt;h3 id="window-throw">Window Throw&lt;/h3>
-&lt;p>&lt;code>Window Throw&lt;/code> 是 Rectangle Pro 最有代表性的功能。官方默认触发键是 &lt;code>control + command&lt;/code>。一般安装后已经可以用，确认路径是 &lt;code>Settings&lt;/code> -&amp;gt; &lt;code>Cursor Movement&lt;/code> -&amp;gt; &lt;code>Window Throw&lt;/code> -&amp;gt; &lt;code>Modifier Keys&lt;/code>。&lt;/p>
-&lt;p>这里默认是 &lt;code>control + command&lt;/code>。如果 &lt;code>Modifier Keys&lt;/code> 为空，&lt;code>Window Throw&lt;/code> 处于停用状态。你也可以把触发方式改成鼠标按钮或触控板手势。&lt;/p>
-&lt;p>使用方式：&lt;/p>
-&lt;ol>
-&lt;li>鼠标放到目标窗口上。&lt;/li>
-&lt;li>按住 &lt;code>control + command&lt;/code>。&lt;/li>
-&lt;li>移动鼠标，屏幕上会出现一个选择区域。&lt;/li>
-&lt;li>松开按键，窗口会移动到对应位置。&lt;/li>
-&lt;/ol>
-&lt;p>这个功能适合快捷键记得少的人。只要记一个触发方式，然后靠鼠标方向来选择窗口位置。&lt;/p>
-&lt;p>我建议先把它当成「万能窗口移动器」来用：&lt;/p>
-&lt;ul>
-&lt;li>往左：左半屏&lt;/li>
-&lt;li>往右：右半屏&lt;/li>
-&lt;li>往上：最大化&lt;/li>
-&lt;li>往下：居中或恢复&lt;/li>
-&lt;li>往左上/右上：对应角落&lt;/li>
-&lt;/ul>
-&lt;p>如果你有外接显示器，&lt;code>Window Throw&lt;/code> 还可以把窗口扔到另一块屏幕上。多屏办公的人会更明显感受到这个功能的价值。&lt;/p>
-&lt;h3 id="custom-size--position">Custom Size &amp;amp; Position&lt;/h3>
-&lt;p>&lt;code>Custom Size &amp;amp; Position&lt;/code> 用来创建自己的窗口尺寸和位置。官方文档说它可以按屏幕百分比配置，也可以按像素配置，还可以绑定快捷键、加入 &lt;code>Window Throw&lt;/code>、作为拖拽吸附目标。&lt;/p>
-&lt;p>这里最实用的做法是先创建几个自己真正会用的尺寸：&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>名称&lt;/th>
-&lt;th>用途&lt;/th>
-&lt;th>建议参数&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>&lt;code>Browser Large&lt;/code>&lt;/td>
-&lt;td>浏览器主窗口&lt;/td>
-&lt;td>宽度 70%，高度 100%，靠左&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;code>Chat Right&lt;/code>&lt;/td>
-&lt;td>微信、Telegram、AI 聊天&lt;/td>
-&lt;td>宽度 30%，高度 100%，靠右&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;code>Editor Center&lt;/code>&lt;/td>
-&lt;td>写作或代码窗口&lt;/td>
-&lt;td>宽度 80%，高度 90%，居中&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;code>Preview Small&lt;/code>&lt;/td>
-&lt;td>预览窗口&lt;/td>
-&lt;td>宽度 40%，高度 70%，靠右下&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;p>配置方式：&lt;/p>
-&lt;ol>
-&lt;li>打开 &lt;code>Settings&lt;/code>。&lt;/li>
-&lt;li>进入 &lt;code>Custom Size &amp;amp; Position&lt;/code>。&lt;/li>
-&lt;li>点击右上角 &lt;code>+&lt;/code>。&lt;/li>
-&lt;li>填 &lt;code>Name&lt;/code>。&lt;/li>
-&lt;li>设置 &lt;code>Position&lt;/code> 和 &lt;code>Size&lt;/code>。&lt;/li>
-&lt;li>需要快捷键就填 &lt;code>Keyboard Shortcut&lt;/code>。&lt;/li>
-&lt;li>点 &lt;code>View Footprint&lt;/code> 看一下实际位置。&lt;/li>
-&lt;/ol>
-&lt;p>这里有个小技巧：数值小于等于 &lt;code>1&lt;/code> 的时候，可以理解成屏幕比例，比如 &lt;code>0.7&lt;/code> 就是 70%；数值大于 &lt;code>1&lt;/code> 的时候，可以理解成像素。&lt;/p>
-&lt;h3 id="layouts">Layouts&lt;/h3>
-&lt;p>&lt;code>Layouts&lt;/code> 适合每天都打开固定工作区的人。比如：&lt;/p>
-&lt;ul>
-&lt;li>左边浏览器，右边编辑器&lt;/li>
-&lt;li>左边 Cursor，右边预览窗口&lt;/li>
-&lt;li>主屏写代码，副屏放终端和浏览器&lt;/li>
-&lt;li>主屏看行情，副屏放交易软件和笔记&lt;/li>
-&lt;/ul>
-&lt;p>我觉得这个功能最适合多屏用户。你可以把一组 App 的窗口位置保存起来，下次按匹配规则重新排好。&lt;/p>
-&lt;p>这里有个边界要搞清楚：&lt;code>Layouts&lt;/code> 的核心是排窗口。打开 &lt;code>Bring windows to front&lt;/code> 后，它会把匹配到的窗口提到前台；打开 &lt;code>Launch closed/minimized apps&lt;/code> 后，它会尝试启动关闭或最小化的 App。具体网页、文档、聊天会话能否回来，取决于 App 自己的窗口恢复能力。&lt;/p>
-&lt;p>配置方式：&lt;/p>
-&lt;ol>
-&lt;li>先手动把几个窗口摆到你想要的位置。&lt;/li>
-&lt;li>打开 &lt;code>Settings&lt;/code> -&amp;gt; &lt;code>Layouts&lt;/code>。&lt;/li>
-&lt;li>点击 &lt;code>+ Layout&lt;/code>。&lt;/li>
-&lt;li>选择当前显示器或所有显示器。&lt;/li>
-&lt;li>给这个布局起一个名字，比如 &lt;code>Writing&lt;/code>、&lt;code>Coding&lt;/code>、&lt;code>Trading&lt;/code>。&lt;/li>
-&lt;li>给它设置一个快捷键。&lt;/li>
-&lt;/ol>
-&lt;p>保存之后，窗口乱了直接执行这个 Layout。能匹配到的窗口会重新摆回去，比一个窗口一个窗口调整省事很多。&lt;/p>
-&lt;h3 id="stash">Stash&lt;/h3>
-&lt;p>&lt;code>Stash&lt;/code> 可以把窗口藏到屏幕边缘，鼠标碰到边缘时再滑出来。它适合那些你会反复看一眼，又希望主屏保持清爽的窗口。&lt;/p>
-&lt;p>适合放进 Stash 的窗口：&lt;/p>
-&lt;ul>
-&lt;li>微信&lt;/li>
-&lt;li>Telegram&lt;/li>
-&lt;li>音乐播放器&lt;/li>
-&lt;li>下载工具&lt;/li>
-&lt;li>AI 聊天窗口&lt;/li>
-&lt;/ul>
-&lt;p>我建议先给 &lt;code>Stash Right&lt;/code> 设置一个快捷键。把聊天软件往右边一藏，需要时鼠标碰一下右边缘就出来，处理完继续藏起来。&lt;/p>
-&lt;h3 id="pin-mode">Pin Mode&lt;/h3>
-&lt;p>&lt;code>Pin Mode&lt;/code> 可以把一个 App 固定在屏幕侧边，其他窗口动作会在剩余空间里重新计算。官方文档里提到它来自 Rectangle 的 Todo Mode。&lt;/p>
-&lt;p>这个功能适合把待办、聊天、笔记、行情软件固定在一侧。比如把备忘录固定在右侧 30%，其他窗口只占左侧 70%。&lt;/p>
-&lt;p>我的建议是：**Pin 一个窗口的时候，只 Pin 信息密度高、需要常看的 App。**聊天窗口、待办、行情、AI 对话都适合。网页和编辑器通常更适合做主窗口。&lt;/p>
-&lt;h2 id="我的推荐配置">我的推荐配置&lt;/h2>
-&lt;p>刚开始用 Rectangle Pro，我建议按这个顺序来：&lt;/p>
-&lt;h3 id="第一步先把免费版体验找回来">第一步：先把免费版体验找回来&lt;/h3>
-&lt;p>先配置这些基础动作：&lt;/p>
-&lt;ul>
-&lt;li>&lt;code>Left Half&lt;/code>&lt;/li>
-&lt;li>&lt;code>Right Half&lt;/code>&lt;/li>
-&lt;li>&lt;code>Maximize&lt;/code>&lt;/li>
-&lt;li>&lt;code>Center&lt;/code>&lt;/li>
-&lt;li>&lt;code>Restore&lt;/code>&lt;/li>
-&lt;li>&lt;code>Next Display&lt;/code>&lt;/li>
-&lt;li>&lt;code>Previous Display&lt;/code>&lt;/li>
-&lt;/ul>
-&lt;p>这一步的目标是让它先替代免费版 Rectangle。&lt;/p>
-&lt;h3 id="第二步开启-window-throw">第二步：开启 Window Throw&lt;/h3>
-&lt;p>默认 &lt;code>control + command&lt;/code> 已经可以用。你先用几天，看看手感。如果和其他软件冲突，再改成别的组合键。&lt;/p>
-&lt;p>我个人更喜欢把 &lt;code>Window Throw&lt;/code> 留给鼠标操作，把普通快捷键留给键盘操作。这样脑子里分类很清楚。&lt;/p>
-&lt;h3 id="第三步创建-3-个自定义尺寸">第三步：创建 3 个自定义尺寸&lt;/h3>
-&lt;p>先创建这 3 个：&lt;/p>
-&lt;ul>
-&lt;li>&lt;code>Main 70 Left&lt;/code>：主窗口，占左侧 70%&lt;/li>
-&lt;li>&lt;code>Side 30 Right&lt;/code>：辅助窗口，占右侧 30%&lt;/li>
-&lt;li>&lt;code>Center 80&lt;/code>：居中窗口，占屏幕 80%&lt;/li>
-&lt;/ul>
-&lt;p>用一周之后，再决定是否增加更多尺寸。&lt;/p>
-&lt;h3 id="第四步保存-1-个-layout">第四步：保存 1 个 Layout&lt;/h3>
-&lt;p>先保存一个最常用的工作区。比如写文章：&lt;/p>
-&lt;ul>
-&lt;li>浏览器左侧 60%&lt;/li>
-&lt;li>编辑器右侧 40%&lt;/li>
-&lt;li>聊天软件 Stash 到右边&lt;/li>
-&lt;/ul>
-&lt;p>一开始先做 1 个 Layout。太多布局会变成新的维护成本。&lt;/p>
-&lt;p>这个 Layout 里建议打开两个行为：&lt;/p>
-&lt;ul>
-&lt;li>&lt;code>Bring windows to front&lt;/code>：把匹配到的窗口提到前台。&lt;/li>
-&lt;li>&lt;code>Launch closed/minimized apps&lt;/code>：尝试启动关闭或最小化的 App。&lt;/li>
-&lt;/ul>
-&lt;p>这里的重点是「尝试启动 App + 重新排窗口」。具体窗口内容能否恢复，看每个 App 自己的恢复机制。&lt;/p>
-&lt;h3 id="第五步打开-icloud-同步或导出配置">第五步：打开 iCloud 同步或导出配置&lt;/h3>
-&lt;p>如果你有多台 Mac，可以在 &lt;code>General&lt;/code> 里打开 &lt;code>Sync configuration over iCloud&lt;/code>。如果只用一台 Mac，也建议定期 &lt;code>Export Config&lt;/code> 备份一下。&lt;/p>
-&lt;p>买断软件最怕换电脑之后重新配置一遍。窗口管理工具的配置，一旦形成肌肉记忆，丢了很烦。&lt;/p>
-&lt;h2 id="常见问题">常见问题&lt;/h2>
-&lt;h3 id="快捷键没反应">快捷键没反应&lt;/h3>
-&lt;p>优先检查两个地方：&lt;/p>
-&lt;ol>
-&lt;li>&lt;code>System Settings&lt;/code> -&amp;gt; &lt;code>Privacy &amp;amp; Security&lt;/code> -&amp;gt; &lt;code>Accessibility&lt;/code> 里是否开启 Rectangle Pro。&lt;/li>
-&lt;li>当前快捷键是否被系统或其他 App 占用。&lt;/li>
-&lt;/ol>
-&lt;p>如果免费版 Rectangle 还在运行，先退出它。&lt;/p>
-&lt;h3 id="打字时窗口突然移动">打字时窗口突然移动&lt;/h3>
-&lt;p>这种一般是快捷键设置太宽导致的。比如某个动作被录成单独的 &lt;code>Y&lt;/code>、&lt;code>H&lt;/code>、&lt;code>I&lt;/code>，输入法打字时就会触发窗口移动。&lt;/p>
-&lt;p>优先检查两个地方：&lt;/p>
-&lt;ol>
-&lt;li>&lt;code>Settings&lt;/code> -&amp;gt; &lt;code>General&lt;/code>，关闭 &lt;code>Allow any keyboard shortcut (remove safeguards)&lt;/code>。&lt;/li>
-&lt;li>&lt;code>Settings&lt;/code> -&amp;gt; &lt;code>Keyboard Shortcuts&lt;/code>，检查是否有单字母快捷键，把它改成 &lt;code>control&lt;/code>、&lt;code>option&lt;/code>、&lt;code>command&lt;/code> 组合键。&lt;/li>
-&lt;/ol>
-&lt;p>我的建议是所有窗口管理快捷键都至少带两个修饰键，比如 &lt;code>control + option&lt;/code> 或 &lt;code>control + command&lt;/code>。单字母快捷键很容易和中文输入法打架。&lt;/p>
-&lt;h3 id="拖拽吸附没反应">拖拽吸附没反应&lt;/h3>
-&lt;p>到 &lt;code>Snap Areas&lt;/code> 里确认 &lt;code>Snap windows by dragging&lt;/code> 是否开启。&lt;/p>
-&lt;p>如果拖窗口到屏幕边缘时没有出现半透明的 footprint，通常是权限或功能开关的问题。&lt;/p>
-&lt;h3 id="window-throw-没反应">Window Throw 没反应&lt;/h3>
-&lt;p>到 &lt;code>Settings&lt;/code> -&amp;gt; &lt;code>Cursor Movement&lt;/code> -&amp;gt; &lt;code>Window Throw&lt;/code> 里检查 &lt;code>Modifier Keys&lt;/code>。默认是 &lt;code>control + command&lt;/code>，这里有按键组合才会触发。&lt;/p>
-&lt;p>如果你习惯鼠标，可以在同一页把触发方式改成鼠标按钮；如果习惯触控板，也可以设置 trackpad gesture。&lt;/p>
-&lt;h3 id="不知道该记哪些快捷键">不知道该记哪些快捷键&lt;/h3>
-&lt;p>只记 5 个：&lt;/p>
-&lt;ul>
-&lt;li>左半屏&lt;/li>
-&lt;li>右半屏&lt;/li>
-&lt;li>最大化&lt;/li>
-&lt;li>居中&lt;/li>
-&lt;li>恢复&lt;/li>
-&lt;/ul>
-&lt;p>剩下的交给 &lt;code>Window Throw&lt;/code> 和 &lt;code>Layouts&lt;/code>。窗口管理软件的价值是省脑子，快捷键表可以放在后面慢慢补。&lt;/p>
-&lt;h3 id="许可证能用几台电脑">许可证能用几台电脑？&lt;/h3>
-&lt;p>官方 FAQ 写得很清楚：一个 license 可以同时激活 3 台设备。换电脑之前，可以在 &lt;code>General&lt;/code> 里先移除旧设备的激活；已经拿不到旧设备，也可以在新电脑上移除最旧的激活。&lt;/p>
-&lt;h3 id="价格值不值">价格值不值？&lt;/h3>
-&lt;p>我觉得看使用频率。&lt;/p>
-&lt;p>每天只偶尔左右分屏，免费版 Rectangle 已经很好。每天长时间在 Mac 上工作，经常多屏、写代码、写文章、看行情、开一堆窗口，Pro 的 &lt;code>Window Throw&lt;/code> 和 &lt;code>Layouts&lt;/code> 能省下不少重复操作。&lt;/p>
-&lt;p>已经买了就别纠结了，把上面几个功能配起来，至少把钱用回来。&lt;/p>
-&lt;h2 id="一页清单">一页清单&lt;/h2>
-&lt;ul>
-&lt;li>权限：&lt;code>Accessibility&lt;/code> 已经给 Rectangle Pro 打开。&lt;/li>
-&lt;li>冲突：免费版 Rectangle 已经退出。&lt;/li>
-&lt;li>快捷键：只保留 5-8 个高频动作。&lt;/li>
-&lt;li>安全：关闭 &lt;code>Allow any keyboard shortcut (remove safeguards)&lt;/code>。&lt;/li>
-&lt;li>鼠标：&lt;code>Window Throw&lt;/code> 可以稳定触发。&lt;/li>
-&lt;li>自定义：已经创建 3 个常用窗口尺寸。&lt;/li>
-&lt;li>布局：已经保存 1 个最常用工作区。&lt;/li>
-&lt;li>备份：打开 iCloud 同步或导出配置文件。&lt;/li>
-&lt;li>复盘：用一周后删掉低频快捷键，保留真正顺手的操作。&lt;/li>
-&lt;/ul>
-&lt;h2 id="总结">总结&lt;/h2>
-&lt;p>Rectangle Pro 最值得用的地方是减少重复摆窗口的时间。&lt;/p>
-&lt;p>免费版 Rectangle 适合基础分屏，Pro 版适合把窗口管理做成一套自己的工作流。先用 &lt;code>Window Throw&lt;/code> 解决临时移动窗口，再用 &lt;code>Custom Size &amp;amp; Position&lt;/code> 固定常用尺寸，最后用 &lt;code>Layouts&lt;/code> 保存工作区。&lt;/p>
-&lt;p>我的最终建议是：**先配置基础快捷键 + Window Throw + 3 个自定义尺寸 + 1 个 Layout。**这四件事做好，Rectangle Pro 就已经值回大半。&lt;/p>
-&lt;h2 id="参考链接">参考链接&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://rectangleapp.com/pro/">Rectangle Pro 官网&lt;/a>：下载、试用、主要功能介绍&lt;/li>
-&lt;li>&lt;a href="https://rectangleapp.com/pro/docs/">Rectangle Pro 官方文档&lt;/a>：功能说明和配置入口&lt;/li>
-&lt;li>&lt;a href="https://rectangleapp.com/pro/docs/llms.txt">Rectangle Pro 文档文本版&lt;/a>：官方文档的文本版&lt;/li>
-&lt;li>&lt;a href="https://github.com/rxhanson/Rectangle">Rectangle 免费版 GitHub 仓库&lt;/a>：免费版功能、安装方式和常见问题&lt;/li>
-&lt;li>&lt;a href="https://support.apple.com/guide/mac-help/allow-accessibility-apps-to-access-your-mac-mh43185/mac">Apple：Allow accessibility apps to access your Mac&lt;/a>：macOS 辅助功能权限说明&lt;/li>
 &lt;/ul></description></item></channel></rss>
