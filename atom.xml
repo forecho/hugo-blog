@@ -59,114 +59,115 @@
 &lt;h2 id="最后">最后&lt;/h2>
 &lt;p>整场听下来，Mike 没讲什么花里胡哨的秘籍，全是很实在的基本功：大周期压倒小周期、看懂强空头里影线和连阴线的含义、用「不在乎仓位」在高波动日保命，还有怎么把一门厚重的课程真正学进脑子里。&lt;/p>
 &lt;p>我自己最有触动的是两块。一块是「不在乎仓位」——波动拉大到一根 5 分钟 K 线走 20 点的时候，平时顺手的仓位其实早就超标了，仓位不降下来，所有技术分析都会变形。另一块是他学习课程的笨功夫，截幻灯片重写笔记、看完立刻找图、假装自己要当讲师去讲课，听着慢，但确实比漫无目的地刷视频靠谱得多。&lt;/p>
-&lt;p>后面听交易室和复盘的时候，我打算先把这几条慢慢落到自己的流程里，看看跑一段时间会有什么变化。&lt;/p></description></item><item><title>Price Action 进阶：如何用 H1/H2 与 L1/L2 的「失败」，提前看穿趋势与震荡切换</title><link>https://blog.forecho.com/price-action-h1-h2-l1-l2-failure.html</link><pubDate>Thu, 19 Nov 2026 13:00:00 +0800</pubDate><guid>https://blog.forecho.com/price-action-h1-h2-l1-l2-failure.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>&lt;img src="https://imgant.forecho.com/2026/11/19/b3722159.png" alt="Price Action 进阶：顺势信号开始「失败」">&lt;/p>
-&lt;p>在刚接触 Al Brooks 的价格行为学（Price Action）时，绝大多数交易者最先上手的入场工具就是&lt;strong>数K线（Bar Counting）&lt;/strong>——多头回调找 H1 / H2 挂单做多，空头反弹找 L1 / L2 挂单做空。&lt;/p>
-&lt;p>但实盘中经常遇到这种让人极其难受的场面：
-你在一个看似不错的上涨趋势里等来标准回调，果断在 H1 突破位挂 Buy Stop 买入。结果刚成交，下一根K线立刻收出一根大阴线把你按在山顶；你不信邪，等行情走出两腿回调出现 H2 再进一次，结果再次被反向砸穿止损。&lt;/p>
-&lt;p>这种亏损并不是数K线失效了，而是&lt;strong>市场环境已经悄悄切入了震荡区间（Trading Range）&lt;/strong>。&lt;/p>
-&lt;p>在价格行为学中，H1/H2 和 L1/L2 不仅是顺势加速的入场点，它们的**失败（Failure）**更是市场发出的最高级别预警——告诉你原有的单边惯性正在瓦解。&lt;/p>
+&lt;p>后面听交易室和复盘的时候，我打算先把这几条慢慢落到自己的流程里，看看跑一段时间会有什么变化。&lt;/p></description></item><item><title>Price Action 进阶：如何用 H1/H2 与 L1/L2 的「失败」，提前看穿趋势与震荡切换</title><link>https://blog.forecho.com/price-action-h1-h2-l1-l2-failure.html</link><pubDate>Thu, 19 Nov 2026 13:00:00 +0800</pubDate><guid>https://blog.forecho.com/price-action-h1-h2-l1-l2-failure.html</guid><description>&lt;p>&lt;img src="https://imgant.forecho.com/2026/11/23/87c45b16.png" alt="H1/H2 与 L1/L2 的「失败」：提前看穿趋势与震荡切换">&lt;/p>
+&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>刚开始学 Al Brooks 价格行为学（Price Action）时，大多数人最先上手的入场工具就是&lt;strong>数 K 线（Bar Counting）&lt;/strong>——多头回调找 H1 / H2 挂单做多，空头反弹找 L1 / L2 挂单做空。&lt;/p>
+&lt;p>但实盘里经常碰到让人很难受的场面：你在一段看似不错的上涨趋势里等来回调，在 H1 高点挂 Buy Stop 进场，结果刚成交，下一根 K 线立刻收出大阴线把你按在山顶；你不信邪，等行情走出两腿回调出现 H2 再进一次，结果又被反向砸穿止损。&lt;/p>
+&lt;p>这种连亏并不是数 K 线失效了，而是&lt;strong>市场环境已经悄悄切入了震荡区间（Trading Range）&lt;/strong>。&lt;/p>
+&lt;p>在价格行为学里，H1/H2 和 L1/L2 不只是顺势入场点，它们的**失败（Failure）**更是判断市场换挡最直接的信号——说明原有的单边惯性正在瓦解。&lt;/p>
 &lt;h2 id="核心逻辑用失败识别环境切换">核心逻辑：用失败识别环境切换&lt;/h2>
-&lt;p>想看懂信号为什么会失效，先要理解 Al Brooks 最核心的&lt;strong>市场惯性定律&lt;/strong>：&lt;/p>
+&lt;p>想看懂信号为什么会失效，先要记住 Al Brooks 最核心的&lt;strong>市场惯性定律&lt;/strong>：&lt;/p>
 &lt;blockquote>
-&lt;p>“在趋势中，80% 的反转会失败；在震荡区间中，80% 的突破会失败。”&lt;/p>
+&lt;p>在趋势中，80% 的反转会失败；在震荡区间中，80% 的突破会失败。&lt;/p>
 &lt;/blockquote>
-&lt;p>把这句话对应到盘面的 H1/H2 与 L1/L2 上，就是一套极度直观的“市场温度计”：&lt;/p>
+&lt;p>把这句话对应到盘面的 H1/H2 与 L1/L2 上，市场状态其实就分三种：&lt;/p>
 &lt;ol>
-&lt;li>&lt;strong>趋势延续期&lt;/strong>：顺势回调信号（多头 H1/H2、空头 L1/L2）表现得非常流畅。价格突破信号K线后迅速脱离成本区，很少回头测试防守底线。&lt;/li>
-&lt;li>&lt;strong>趋势转震荡（Regime Change）&lt;/strong>：一旦顺势信号开始频繁出现“刚触发就被反向砸穿”，说明反向资金已经不再只是获利了结，而是开始大举逆势阻击，市场大概率已切入震荡区间。&lt;/li>
-&lt;li>&lt;strong>震荡转趋势&lt;/strong>：反过来，当震荡区间边界的突破不再失败，而是顺利走出跟进并推进第二腿时，说明震荡区间即将终结，新的趋势正在成型。&lt;/li>
+&lt;li>&lt;strong>趋势延续期&lt;/strong>：顺势回调信号（多头 H1/H2、空头 L1/L2）走得很顺。价格突破信号 K 线后迅速脱离成本区，很少回头测试防守底线。&lt;/li>
+&lt;li>&lt;strong>趋势转震荡（Regime Change）&lt;/strong>：一旦顺势信号开始频繁出现「刚触发就被反向砸穿」，说明对手盘不再只是获利了结，而是开始在极值附近逆势阻击，市场大概率已经切入震荡区间。&lt;/li>
+&lt;li>&lt;strong>震荡转趋势&lt;/strong>：反过来，当震荡区间边界的突破不再失败，而是顺利走出跟进并推进第二腿时，说明震荡区间即将结束，新的趋势正在成型。&lt;/li>
 &lt;/ol>
-&lt;hr>
 &lt;h2 id="四组形态对比什么是真正的失败">四组形态对比：什么是真正的「失败」？&lt;/h2>
-&lt;p>在实战中，判定一个信号是否失败，核心看两点：&lt;/p>
+&lt;p>实战里判断一个信号算不算真失败，核心看两点：&lt;/p>
 &lt;ol>
-&lt;li>&lt;strong>价格是否反向打穿了防守线&lt;/strong>（信号K的极值点或两腿结构颈线）；&lt;/li>
-&lt;li>&lt;strong>是否把追突破的顺势交易者套在了极端位置（Trapped Traders）&lt;/strong>。&lt;/li>
+&lt;li>&lt;strong>防守线是否被打穿&lt;/strong>（信号 K 线的极值点，或两腿回调的结构低点/高点）；&lt;/li>
+&lt;li>&lt;strong>顺势追突破的人是否被套在了极端位置（Trapped Traders）&lt;/strong>。&lt;/li>
 &lt;/ol>
-&lt;p>下面把多空四个核心信号的「成功 vs. 失败」逐一拆解。&lt;/p>
+&lt;p>下面把多空四个核心信号的「成功 vs. 失败」逐一对照看一遍。&lt;/p>
 &lt;h3 id="1-h1-成功-vs-h1-失败多头初次回调">1. H1 成功 vs. H1 失败（多头初次回调）&lt;/h3>
-&lt;p>&lt;img src="https://imgant.forecho.com/2026/11/19/b4465eb1.png" alt="1. H1 成功 vs. H1 失败（多头初次回调对比）">&lt;/p>
-&lt;p>H1（High 1）是指在上升趋势回调中，第一根高点突破前一根K线高点的信号K线。&lt;/p>
+&lt;p>&lt;img src="https://imgant.forecho.com/2026/11/23/3364a6d0.png" alt="1. H1 成功 vs. H1 失败（多头初次回调对比）">&lt;/p>
+&lt;p>H1（High 1）是上升趋势回调中，第一次尝试恢复上涨、突破前一根 K 线高点的多头信号。&lt;/p>
 &lt;ul>
-&lt;li>&lt;strong>H1 成功（顺势延续）&lt;/strong>：突破 H1 高点触发 Buy Stop 后，多头迅速推高，收出大实体阳线拉开安全垫，信号K低点（止损位）始终未被测试。&lt;/li>
-&lt;li>&lt;strong>H1 失败（诱多被套）&lt;/strong>：刚触发买入就遭遇缺乏跟进（Lack of Follow-through），紧接着被大阴线反向吞没，直接跌破 H1 信号K的最低点。高位追进的多头全部沦为“被套多头”。&lt;/li>
+&lt;li>&lt;strong>H1 成功（顺势延续）&lt;/strong>：突破信号 K 高点触发 Buy Stop 后，多头迅速推高，紧跟大实体阳线拉开成本区，信号 K 低点防守线始终未被回测。&lt;/li>
+&lt;li>&lt;strong>H1 失败（诱多被套）&lt;/strong>：刚触发买入就缺乏跟进（Lack of Follow-through），紧接着被大阴线反向吞没并跌破信号 K 低点，高位追多的交易者直接被套。&lt;/li>
 &lt;/ul>
 &lt;h3 id="2-h2-成功-vs-h2-失败多头两腿回调">2. H2 成功 vs. H2 失败（多头两腿回调）&lt;/h3>
-&lt;p>&lt;img src="https://imgant.forecho.com/2026/11/19/b4d16b84.png" alt="2. H2 成功 vs. H2 失败（多头两腿回调对比）">&lt;/p>
-&lt;p>在健康趋势中，H1 失败往往很正常——市场通常需要走完两腿回调（ABC 结构）来清洗浮筹，这就形成了胜率更高的 H2（High 2，本质是双底牛旗）。&lt;/p>
+&lt;p>&lt;img src="https://imgant.forecho.com/2026/11/23/343b1629.png" alt="2. H2 成功 vs. H2 失败（多头两腿回调对比）">&lt;/p>
+&lt;p>健康趋势里，H1 失败其实很常见——市场经常需要走完两腿回调（ABC 结构）清洗浮筹，这就形成了胜率更高的 H2（High 2，常见形态就是双底牛旗）。&lt;/p>
 &lt;ul>
-&lt;li>&lt;strong>H2 成功（两腿洗盘结束）&lt;/strong>：价格完成两腿回调测试低点不破，强阳线突破 H2 信号高点，随后开启主升浪。&lt;/li>
-&lt;li>&lt;strong>H2 失败（趋势瓦解）&lt;/strong>：连最稳健的两腿结构（H2）在触发进场后都被大阴线砸穿结构低点，这是多头趋势终结的铁证。此时绝不能再盲目接飞刀。&lt;/li>
+&lt;li>&lt;strong>H2 成功（两腿洗盘结束）&lt;/strong>：价格完成两腿回调测试双底不破，强阳线突破 H2 信号高点，顺势开启下一段主升浪。&lt;/li>
+&lt;li>&lt;strong>H2 失败（趋势瓦解）&lt;/strong>：连最稳健的两腿回调结构在触发进场后都被大阴线砸穿双底低点，说明原有单边多头惯性基本失效，这时别再急着抄底接飞刀。&lt;/li>
 &lt;/ul>
 &lt;h3 id="3-l1-成功-vs-l1-失败空头初次反弹">3. L1 成功 vs. L1 失败（空头初次反弹）&lt;/h3>
-&lt;p>&lt;img src="https://imgant.forecho.com/2026/11/19/b58e5ea2.png" alt="3. L1 成功 vs. L1 失败（空头初次反弹对比）">&lt;/p>
-&lt;p>空头逻辑与多头完全镜像。L1（Low 1）是下跌趋势反弹中，第一根低点跌破前一根K线低点的信号K线。&lt;/p>
+&lt;p>&lt;img src="https://imgant.forecho.com/2026/11/23/34ddd401.png" alt="3. L1 成功 vs. L1 失败（空头初次反弹对比）">&lt;/p>
+&lt;p>空头逻辑与多头完全镜像。L1（Low 1）是下跌趋势反弹中，第一次尝试恢复下跌、跌破前一根 K 线低点的空头信号。&lt;/p>
 &lt;ul>
-&lt;li>&lt;strong>L1 成功（顺势下跌）&lt;/strong>：跌破 L1 低点触发 Sell Stop 后，空头迅速向下加速，反弹波段高点未被触及。&lt;/li>
-&lt;li>&lt;strong>L1 失败（诱空被套）&lt;/strong>：跌破 L1 低点后立刻遭遇强力托举，大阳线直接拉起并向上突破反弹防守高点，低位追空的交易者直接被套（Trapped Bears），容易引发轧空。&lt;/li>
+&lt;li>&lt;strong>L1 成功（顺势下跌）&lt;/strong>：跌破信号 K 低点触发 Sell Stop 后，空头迅速向下加速，反弹高点防守位未被触及。&lt;/li>
+&lt;li>&lt;strong>L1 失败（诱空被套）&lt;/strong>：跌破触发后立刻遭遇强买盘托举，大阳线直接拉起并反穿反弹高点，低位追空的交易者被套（Trapped Bears），很容易引发一轮轧空。&lt;/li>
 &lt;/ul>
 &lt;h3 id="4-l2-成功-vs-l2-失败空头两腿反弹">4. L2 成功 vs. L2 失败（空头两腿反弹）&lt;/h3>
-&lt;p>&lt;img src="https://imgant.forecho.com/2026/11/19/b642a6d0.png" alt="4. L2 成功 vs. L2 失败（空头两腿反弹对比）">&lt;/p>
-&lt;p>L2（Low 2）是下降趋势中经历两腿反弹（双顶熊旗）后的二次做空信号。&lt;/p>
+&lt;p>&lt;img src="https://imgant.forecho.com/2026/11/23/35583674.png" alt="4. L2 成功 vs. L2 失败（空头两腿反弹对比）">&lt;/p>
+&lt;p>L2（Low 2）是下降趋势里经历两腿反弹（双顶熊旗）后的二次做空信号。&lt;/p>
 &lt;ul>
-&lt;li>&lt;strong>L2 成功（双顶续跌）&lt;/strong>：两腿反弹动能衰竭，跌破 L2 信号低点后顺利展开第二腿主跌浪。&lt;/li>
-&lt;li>&lt;strong>L2 失败（趋势终结）&lt;/strong>：L2 触发后完全跌不动，反而被强阳线反向突破整个双顶反弹的高点。这表明空头趋势已经转换为宽幅震荡甚至多头反转。&lt;/li>
+&lt;li>&lt;strong>L2 成功（双顶续跌）&lt;/strong>：两腿反弹遇阻衰竭，跌破 L2 信号低点后顺畅展开第二腿主跌浪。&lt;/li>
+&lt;li>&lt;strong>L2 失败（趋势终结）&lt;/strong>：L2 触发后完全跌不动，反而被强阳线直接突破整个双顶反弹高点，说明空头趋势已经走坏，盘面正在转向宽幅震荡甚至反转。&lt;/li>
 &lt;/ul>
-&lt;hr>
-&lt;h2 id="概率与胜率为什么不能死记数字">概率与胜率：为什么不能死记数字？&lt;/h2>
-&lt;p>价格行为学里没有脱离背景的固定胜率，但有三条决定长期期望值的规律：&lt;/p>
+&lt;h2 id="实战怎么选h1l1h2l2-和-failed-h1l1-分别什么时候用">实战怎么选：H1/L1、H2/L2 和 Failed H1/L1 分别什么时候用？&lt;/h2>
+&lt;p>价格行为学里没有脱离背景的固定胜率。先判断当前盘面处在哪种环境，再决定用哪一招：&lt;/p>
 &lt;table>
 &lt;thead>
 &lt;tr>
-&lt;th>对比维度&lt;/th>
-&lt;th>H1 / L1 表现&lt;/th>
-&lt;th>H2 / L2 表现&lt;/th>
-&lt;th>实战决策启示&lt;/th>
+&lt;th>当前盘面背景&lt;/th>
+&lt;th>优先做什么&lt;/th>
+&lt;th>别做什么&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td>&lt;strong>整体成功率&lt;/strong>&lt;/td>
-&lt;td>相对较低（容易遭遇二次测试或假突破）&lt;/td>
-&lt;td>普遍更高（反向动能经两腿释放，结构更扎实）&lt;/td>
-&lt;td>震荡或宽通道中，跳过 H1/L1，耐心等 H2/L2&lt;/td>
+&lt;td>&lt;strong>强趋势初期 / 紧密通道&lt;/strong>（刚启动、几乎不回调）&lt;/td>
+&lt;td>直接顺势做 &lt;strong>H1 / L1&lt;/strong>（有 H2 也做）&lt;/td>
+&lt;td>别逆势做 Failed H1/L1&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;strong>强趋势环境&lt;/strong>&lt;/td>
-&lt;td>经常直接走顺，错过容易踏空整波单边&lt;/td>
-&lt;td>往往出现在深幅回调，确定性极高&lt;/td>
-&lt;td>强趋势中 H1/H2 均可顺势参与，反转信号大概率失败&lt;/td>
+&lt;td>&lt;strong>强趋势末端 / 高潮（Sell/Buy Climax）&lt;/strong>（连走多根巨幅加速 K 线）&lt;/td>
+&lt;td>警惕 &lt;strong>Failed L1 / H1&lt;/strong>（高潮竭尽信号，可减仓或等反转）&lt;/td>
+&lt;td>别在跌最狠/涨最猛的位置盲目追 L1/H1&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;strong>震荡区间环境&lt;/strong>&lt;/td>
-&lt;td>假突破高发区，追突破极容易被套在极端点&lt;/td>
-&lt;td>即使突破，利润空间也容易受限于区间边界&lt;/td>
-&lt;td>停止用 Stop Order 追突破，改用 Limit Order 高抛低吸&lt;/td>
+&lt;td>&lt;strong>普通趋势 / 宽通道&lt;/strong>（回调较深、有来有回）&lt;/td>
+&lt;td>跳过 H1/L1，专做顺势 &lt;strong>H2 / L2&lt;/strong>&lt;/td>
+&lt;td>别急着追 H1/L1，容易被第二腿扫止损&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>震荡区间边缘&lt;/strong>（上沿阻力 / 下沿支撑）&lt;/td>
+&lt;td>做 &lt;strong>Failed H1/L1&lt;/strong> 反手剥头皮，或等边缘 &lt;strong>H2 / L2&lt;/strong>&lt;/td>
+&lt;td>别用 Stop 单追边缘突破&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>震荡区间正中间&lt;/strong>&lt;/td>
+&lt;td>&lt;strong>空仓观望&lt;/strong>&lt;/td>
+&lt;td>全都不做&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;blockquote>
-&lt;p>&lt;strong>关键认知&lt;/strong>：当行情走到**第三腿（3rd Leg / Wedge）**时，顺势延续的概率会显著下降，而逆势消退（Fade）的胜率开始占优。&lt;/p>
-&lt;/blockquote>
-&lt;hr>
-&lt;h2 id="实战应对当信号开始连续失败我做这三个动作">实战应对：当信号开始连续失败，我做这三个动作&lt;/h2>
-&lt;p>看懂了信号失败，落到执行上只需要这三个调整：&lt;/p>
-&lt;ol>
-&lt;li>&lt;strong>用“连续两次失败”作为策略切换开关&lt;/strong>：
-如果盘面连续出现两次顺势信号失败（例如 H1 失败后 H2 也失败，或者空头信号接连被打穿新高），立刻停止在高低点挂 Stop Order 追突破，承认当下已经是震荡市。&lt;/li>
-&lt;li>&lt;strong>利用“被套盘”与 Spike Break 找限价单位置&lt;/strong>：
-当一个突破或 H1/L1 失败后，被套在极端位置的交易者会在价格回到成本区时急于保本离场（Breakeven Exit）。这些位置往往会成为价格回测的磁力点（Magnet），非常适合配合限价单（Limit Order）在区间边界博弈反向利润。&lt;/li>
-&lt;li>&lt;strong>突破单一旦走坏，坚决执行“早跑”纪律&lt;/strong>：
-顺势突破单进场后，正常预期是迅速脱离成本区。如果不仅没有跟进，反而出现反向强K线吞没，在信号防守线被彻底打穿之前就该果断离场，绝不心存侥幸去扛单。&lt;/li>
-&lt;/ol>
-&lt;hr>
-&lt;h2 id="总结">总结&lt;/h2>
-&lt;p>交易中最昂贵的错误，不是看错某一次方向，而是在市场已经悄悄换挡时，依然死守上一套剧本。&lt;/p>
-&lt;p>每次复盘或看盘时，除了看哪里可以买 H1/H2、哪里可以卖 L1/L2，更要紧盯**“谁在被套、哪个信号正在失败”**：&lt;/p>
+&lt;p>几个实盘里最容易踩坑的补充：&lt;/p>
 &lt;ul>
-&lt;li>&lt;strong>顺势信号流畅推进&lt;/strong> $\rightarrow$ 市场处于趋势惯性中，大胆跟随，忽略逆势杂音；&lt;/li>
-&lt;li>&lt;strong>顺势信号开始连续失败&lt;/strong> $\rightarrow$ 市场正在切入震荡区间，收起追突破的手，把目光转向区间边界与被套盘的保本离场点。&lt;/li>
+&lt;li>&lt;strong>常规行情主力是 H2 / L2&lt;/strong>：市场回调天然爱走两腿（ABC 结构），大多数时候跳过 H1/L1、等双底/双顶后的 H2/L2 胜率更稳（Al Brooks 课程里标准 H2/L2 在 1:1 盈亏比下常评估在 60% 左右）。但行情走到**第三腿（Wedge）**时，顺势延续概率会明显下降。&lt;/li>
+&lt;li>&lt;strong>别把「强趋势末端的高潮」当成「强趋势初期」&lt;/strong>：有时候盘面跌得很猛，但紧接着 L1 就直接失败了，背后往往是&lt;strong>抛售高潮（Sell Climax）&lt;/strong>——最后一波恐慌盘出清、空头集中获利了结，此时 L1 失败恰恰是动能见底、准备转入宽幅反弹或震荡的信号（买盘高潮后的 H1 失败同理）。&lt;/li>
+&lt;li>&lt;strong>真正高胜率的「做失败」是顺大势抓对手盘的 Failed H2/L2&lt;/strong>：比如大空头趋势里，多头反弹做出的 H2 被大阴线直接砸穿，信奉二次入场的多头集体被套，止损盘会直接成为顺势下跌的燃料。&lt;/li>
+&lt;/ul>
+&lt;h2 id="实战应对当信号开始连续失败我做这三个动作">实战应对：当信号开始连续失败，我做这三个动作&lt;/h2>
+&lt;p>看懂信号在失败之后，落到执行上主要做这三个调整：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>把「连续两次失败」当成策略切换开关&lt;/strong>：如果盘面连续出现两次顺势信号失败（比如 H1 失败后 H2 也失败，或者空头信号接连被打穿新高），立刻停止在高低点挂 Stop Order 追突破，先承认当下已经是震荡区间。&lt;/li>
+&lt;li>&lt;strong>顺着「被套盘」找限价单位置&lt;/strong>：突破或 H1/L1 失败后，被套在极端位置的交易者往往只想等价格回到成本区保本离场（Breakeven Exit）。这些位置会变成价格回测的磁力点（Magnet），适合配合限价单（Limit Order）在区间边界博弈反向利润。&lt;/li>
+&lt;li>&lt;strong>突破单走坏就早跑，不硬扛&lt;/strong>：顺势突破单进场后的正常预期，是迅速脱离成本区。如果不仅没有跟进，反而立刻收出反向强 K 线吞没，在防守线被彻底砸穿之前就该果断离场，别心存侥幸扛到止损。&lt;/li>
+&lt;/ol>
+&lt;h2 id="总结">总结&lt;/h2>
+&lt;p>交易里最贵的失误，往往不是看错某一次方向，而是在市场已经悄悄换挡时，依然死守上一套剧本。&lt;/p>
+&lt;p>以后复盘或看盘时，除了找哪里可以买 H1/H2、哪里可以卖 L1/L2，养成顺手多看一眼「谁在被套、信号还灵不灵」的习惯：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>顺势信号流畅推进&lt;/strong> → 市场还在趋势惯性里，大胆跟随，少理逆势杂音；&lt;/li>
+&lt;li>&lt;strong>顺势信号开始连续失败&lt;/strong> → 市场正在切入震荡区间，收起追突破的手，把目光转回区间边界和被套盘的保本离场点。&lt;/li>
 &lt;/ul></description></item><item><title>为了听懂英文 Trading Room，我开发了一款实时字幕翻译软件 Liveglot</title><link>https://blog.forecho.com/introducing-liveglot.html</link><pubDate>Wed, 18 Nov 2026 10:54:51 +0800</pubDate><guid>https://blog.forecho.com/introducing-liveglot.html</guid><description>&lt;p>&lt;img src="https://imgant.forecho.com/2026/11/18/025805.756-86a10ee9-53d659e5.png" alt="Liveglot 主界面：左侧实时双语字幕，右侧基于本场记录的 AI 聊天">&lt;/p>
 &lt;h2 id="引言">引言&lt;/h2>
 &lt;p>学了一年多的价格行为学（Price Action），最近我终于付费进了 PA 的英文 Trading Room，想跟着看看老外实盘到底是怎么分析、怎么找入场和止损的。&lt;/p>
