@@ -1,4 +1,65 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 19 Nov 2026 13:00:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>Price Action 进阶：如何用 H1/H2 与 L1/L2 的「失败」，提前看穿趋势与震荡切换</title><link>https://blog.forecho.com/price-action-h1-h2-l1-l2-failure.html</link><pubDate>Thu, 19 Nov 2026 13:00:00 +0800</pubDate><guid>https://blog.forecho.com/price-action-h1-h2-l1-l2-failure.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 23 Nov 2026 11:46:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>Al Brooks 交易室笔记：Mike Precog 的多周期逻辑、资金管理与学习方法</title><link>https://blog.forecho.com/mike-precog-trading-room-notes.html</link><pubDate>Mon, 23 Nov 2026 11:46:00 +0800</pubDate><guid>https://blog.forecho.com/mike-precog-trading-room-notes.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>11 月 20 日在 Al Brooks 的美股实盘交易室（Brooks Price Action US Trading Room，01:08 - 02:20）里，听了 &lt;strong>Mike&lt;/strong>（网名 &lt;strong>Precog&lt;/strong>）的一场分享，记了一堆笔记，感触挺深的。&lt;/p>
+&lt;p>先简单交代一下他的背景。Mike 是 Al Brooks 价格行为交易团队和社区的成员，之前在 Brooks Trading Course 网站上写过黄金（比如 GC-mini）等品种的价格行为分析，也一直在 Brooks 的线下工作坊负责行政、技术和主讲人支持工作。2026 年 11 月前后，他以特邀主讲人的身份第一次亮相 Al Brooks 实盘交易室。&lt;/p>
+&lt;p>当天盘面的背景挺极端：标普 500 迷你期货（ES）走出高波动的空头趋势日，VIX 处在 3 月以来的高位，市场正处于周线和日线级别的深度回调里。&lt;/p>
+&lt;p>我听完之后觉得最有启发的，倒不是哪一个具体的进场点，而是他在高波动盘面下对大周期的判断、仓位控制的原则，以及他自己是怎么啃透 Al Brooks 课程的。趁着印象还新，我把这份笔记按自己的理解整理出来，留着以后反复看。&lt;/p>
+&lt;h2 id="先看大周期再看眼前这根-k-线">先看大周期，再看眼前这根 K 线&lt;/h2>
+&lt;p>Mike 反复强调了一条原则：&lt;strong>大周期的能量会压倒小周期&lt;/strong>（Higher timeframes tend to overwhelm lower timeframes）。我们平时看大周期，习惯只画几条支撑阻力线、标一下缺口或者机构关注区，用来找盈亏目标；但在他看来，大周期更关键的作用在于它的趋势能量更具主导性，也更好预测。小周期里折腾半天，往往还是被大周期一波带走。&lt;/p>
+&lt;p>当天 ES 其实从上周三开始就已经走在大级别的下跌通道里了。Mike 还顺手用 AI 查了一组 ES 的历史统计数据当背景参考：&lt;/p>
+&lt;ul>
+&lt;li>过去 1 个月，ES 已经跌了约 &lt;strong>7.73%–8.71%&lt;/strong>（大概 600–680 点）；&lt;/li>
+&lt;li>过去 12 个月里，市场出现过两次超过 &lt;strong>10%&lt;/strong> 的回调，但全年算下来整体依然净涨了 &lt;strong>6.5%–8%&lt;/strong>。&lt;/li>
+&lt;/ul>
+&lt;p>拿这组数据一对照，结论就很清楚：既然历史上的回调经常会去测试 10% 甚至更深的位置，那么在已经跌了 8% 左右的时候，下方依然还有继续跌的空间，不能因为觉得「跌得够多了」就急着去抄底。&lt;/p>
+&lt;p>回到具体的 K 线行为上，他当天拆解了三个很容易踩坑的盘面细节：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>强空头里的长下影线，别急着当反转看&lt;/strong>：当天价格跌破隔夜低点（Globex Low）时，Bar 16–19 附近走出了长下影线。很多人看到长下影线就觉得多头进场护盘了，其实在强空头里，这往往只是空头在获利了结。等价格稍微反弹一点，空头接着卖，反复循环（Rinse and repeat）。&lt;/li>
+&lt;li>&lt;strong>连续 3 根空头 K 线是红旗警告&lt;/strong>：盘面一旦出现连续 3 根空头 K 线，尤其里面有 2 根实体很强的时候，Mike 管这叫「尖叫的红旗警告」（Screaming red flag）。碰到这种情况，别想着去做多，只剩两个选择：做空，或者空仓。&lt;/li>
+&lt;li>&lt;strong>扩张三角形（Expanding Triangles）尽量少碰&lt;/strong>：他认为这是最难交易的市场环境，本质上就是上下通杀、来回扫掉所有人的止损。把这种结构放到大周期图上看，通常就是外包线（Outside Bars）。看懂了是在洗盘，反而更容易管住手。&lt;/li>
+&lt;/ul>
+&lt;h2 id="实战里几个好用的看图细节">实战里几个好用的看图细节&lt;/h2>
+&lt;p>除了方向判断，Mike 在直播里还顺带讲了不少自己日常看盘和做剥头皮（Scalping）的习惯，都是很具体的动作。&lt;/p>
+&lt;h3 id="多维度做测量目标measured-moves">多维度做测量目标（Measured Moves）&lt;/h3>
+&lt;p>找目标位时，他不会只画一种测量方式，而是把实体到实体、上影线到下实体、连续 K 线组合这几种算法都量一遍，去找概率共振的区域。&lt;/p>
+&lt;p>在比例位上，他最看重 &lt;strong>50% 中点位&lt;/strong>，其次是 &lt;strong>33% 和 66%&lt;/strong>。另外，他特别在意&lt;strong>前一根 K 线的中点&lt;/strong>，把那个位置当成当下多空双方争夺最核心的阵地。&lt;/p>
+&lt;h3 id="盯着前一根-k-线的高低点做剥头皮">盯着前一根 K 线的高低点做剥头皮&lt;/h3>
+&lt;p>如果把参考系缩到最小，当天最重要的开盘、收盘参考其实就是前一根 K 线。Mike 分享了一个挺顺手的短线观察：如果当前 K 线尝试向上，但没能突破前一根 K 线的高点（比如当天的 Bar 22 没能突破 Bar 21），接下来大概率会转头跌破它的低点，这类小结构就可以用来做剥头皮。&lt;/p>
+&lt;h3 id="一定要开-k-线倒计时器timer">一定要开 K 线倒计时器（Timer）&lt;/h3>
+&lt;p>这条听着简单，但实盘里很容易忘。在 K 线还没收盘之前，千万别过早下结论。哪怕离收盘只剩 1 分多钟，一根看着很强的阳线也完全可能砸回来，最后留下一根长上影线。屏幕上挂一个倒计时器，提醒自己等收盘确认，能少做很多冲动单。&lt;/p>
+&lt;p>这点我非常认同，之前特意为此写了一个倒计时提醒 App —— &lt;a href="https://patimer.app/">PATimer&lt;/a>，就是为了在看盘时提醒自己盯住 K 线收盘，少在中途手痒抢跑。&lt;/p>
+&lt;h3 id="多周期与-tick-图表怎么配">多周期与 Tick 图表怎么配&lt;/h3>
+&lt;p>看盘界面上，Mike 的配置逻辑是「常规周期定大局，Tick 图看节奏」：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>常规看盘&lt;/strong>：主要交易 &lt;strong>5 分钟图（RTH，常规交易时段）&lt;/strong>，旁边常驻 &lt;strong>15 分钟图（ETH，含盘前盘后，专门盯隔夜走势）&lt;/strong> 和 &lt;strong>60 分钟图（RTH）&lt;/strong>；&lt;/li>
+&lt;li>&lt;strong>剥头皮辅助&lt;/strong>：配合 1 分钟、2 分钟图和 Tick 图。常规时段常用 &lt;strong>300 / 400 / 500 Tick&lt;/strong>；做极速剥头皮时，隔夜盘切到 &lt;strong>25 Tick&lt;/strong>，常规时段用 &lt;strong>50 Tick&lt;/strong>。&lt;/li>
+&lt;/ul>
+&lt;p>为什么要用 Tick 图？Mike 的解释很直接：调整 Tick 数量，可以让价格通道显得更干净、清楚。交易者需要「灵活的眼睛」（Malleable eyes），跟着当天的市场节奏，在最顺手的 2–3 种图表格式之间切换，没必要死守某一种周期不放。&lt;/p>
+&lt;h2 id="高波动日怎么活下来不在乎仓位和见好就收">高波动日怎么活下来：「不在乎仓位」和见好就收&lt;/h2>
+&lt;p>这部分是我当天听下来最有共鸣的一段。&lt;/p>
+&lt;h3 id="用不在乎仓位扛过高波动">用「不在乎仓位」扛过高波动&lt;/h3>
+&lt;p>高波动日最容易把小资金直接打废。Mike 现场算了一笔账：像当天这种行情，ES 单根 5 分钟 K 线的波幅就能达到 &lt;strong>19–20 点&lt;/strong>。哪怕你只做 1 手微型标普（MES），单根 K 线的止损风险也要 &lt;strong>100 美元&lt;/strong>——放在一个 2,000 美元的小账户里，一笔就占掉 &lt;strong>5%&lt;/strong>。&lt;/p>
+&lt;p>他给出的标准叫**「不在乎仓位」（I don&amp;rsquo;t care size）**：仓位必须小到哪怕触发全额止损，你的心率也毫无波澜，先保证今天不会被淘汰出局，明天还能继续上场。&lt;/p>
+&lt;p>交易里犯下的绝大多数大错，刨根问底都是&lt;strong>仓位过大（Improper sizing）&lt;/strong>。仓位一重，盯盘心态立刻变形，该止损的不敢止，该拿住的拿不住。无论账户资金做到多大，成熟交易员其实一直都在交易属于自己的「不在乎仓位」。&lt;/p>
+&lt;h3 id="每日盈利目标-vs-纯粹交易价格行为">每日盈利目标 vs. 纯粹交易价格行为&lt;/h3>
+&lt;p>关于要不要设每日盈利目标，Mike 给了一个挺辩证的说法，没有一刀切。&lt;/p>
+&lt;p>从原则上讲，交易应该顺着盘面机会走，而不是为了凑够脑子里的某个盈利数字强行开单。行情不好时硬凑目标，十有八九会把原本赚的甚至本金一起搭进去。&lt;/p>
+&lt;p>但落到实操上，还是要&lt;strong>了解自己&lt;/strong>。如果你很清楚自己盈利之后容易恋战（wear out my welcome）、忍不住多做几单把利润吐回去，或者当天本来还有其他事要分配精力，那么在达成目标后主动停手、在旁边「吃爆米花看戏」，反而是更健康的选择。&lt;/p>
+&lt;h3 id="接纳管不了的事学会和踏空共处">接纳管不了的事，学会和「踏空」共处&lt;/h3>
+&lt;p>面对行情，Mike 提了一个情绪迁移的视角：像对待天气和海浪一样对待市场。你管不了今天刮什么风、起多大浪，只能管好自己怎么出海。先接受自己能掌控和不能掌控的边界，心态会松弛很多。&lt;/p>
+&lt;p>另外就是面对踏空的态度。错过了第一波大行情完全没关系，&lt;strong>学会与踏空和平共处非常关键&lt;/strong>。市场永远不缺下一班车，后面还有成千上万个更干净的机会，为了追一班已经开走的列车去硬上车，通常最容易亏钱。&lt;/p>
+&lt;h2 id="他怎么学-al-brooks-课程几条能直接照搬的方法">他怎么学 Al Brooks 课程：几条能直接照搬的方法&lt;/h2>
+&lt;p>Al Brooks 的课程出了名的信息量大、枯燥、难啃。Mike 分享了自己一路学下来的五个习惯，每条都很接地气，没有玄学：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>模仿讲师的看盘界面&lt;/strong>：把交易室里每位讲师（Al、Brad、Rose 等）的屏幕截图保存下来，仔细研究他们的标签页设置和图表布局，对比彼此的异同，再挑适合自己的融进交易系统。&lt;/li>
+&lt;li>&lt;strong>即学即用，练成肌肉记忆&lt;/strong>：每看完一段教学视频，立刻打开图表去翻对应的形态。别把视频当播客听，只有马上到盘面上找出来，知识才能从被动听讲变成实盘里的肌肉记忆。&lt;/li>
+&lt;li>&lt;strong>像抄书一样重做幻灯片笔记&lt;/strong>：把 Al Brooks 课程里的每一张幻灯片都截图，再用自己的语言重写一遍笔记（用 Google Docs、Slides 这类免费工具就够了）。同时，讲师在直播里反复提到的课程章节，就是最值得回头反复精看的重点。&lt;/li>
+&lt;li>&lt;strong>「准讲师」思维黑客（Mind Hack）&lt;/strong>：核心概念要熟练到像脱口而出自己孩子的名字一样自然。为了逼自己做到这个程度，Mike 用的办法是&lt;strong>假装自己是一名正在受训的老师&lt;/strong>，而不是单纯的学员。带着「我以后要把这套东西讲给别人听」的责任感去学，被动听课立刻就会变成主动钻研。&lt;/li>
+&lt;li>&lt;strong>刻意打造「身边最重要的五个人」&lt;/strong>：Mike 借用了音乐圈的一句话——&lt;strong>永远不要做房间里最优秀的乐手&lt;/strong>，要和比自己强的人待在一起。现实里其实很难找到几个同样肯下苦功复盘的交易朋友，他的做法很务实：直接把交易室里的五位讲师（Al、Tim Stout、Tim Fairweather、Rose、Brad）当成自己「最亲密的五个人」，每天把绝大部分时间和注意力都投入到他们的直播和复盘里。&lt;/li>
+&lt;/ol>
+&lt;h2 id="最后">最后&lt;/h2>
+&lt;p>整场听下来，Mike 没讲什么花里胡哨的秘籍，全是很实在的基本功：大周期压倒小周期、看懂强空头里影线和连阴线的含义、用「不在乎仓位」在高波动日保命，还有怎么把一门厚重的课程真正学进脑子里。&lt;/p>
+&lt;p>我自己最有触动的是两块。一块是「不在乎仓位」——波动拉大到一根 5 分钟 K 线走 20 点的时候，平时顺手的仓位其实早就超标了，仓位不降下来，所有技术分析都会变形。另一块是他学习课程的笨功夫，截幻灯片重写笔记、看完立刻找图、假装自己要当讲师去讲课，听着慢，但确实比漫无目的地刷视频靠谱得多。&lt;/p>
+&lt;p>后面听交易室和复盘的时候，我打算先把这几条慢慢落到自己的流程里，看看跑一段时间会有什么变化。&lt;/p></description></item><item><title>Price Action 进阶：如何用 H1/H2 与 L1/L2 的「失败」，提前看穿趋势与震荡切换</title><link>https://blog.forecho.com/price-action-h1-h2-l1-l2-failure.html</link><pubDate>Thu, 19 Nov 2026 13:00:00 +0800</pubDate><guid>https://blog.forecho.com/price-action-h1-h2-l1-l2-failure.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
 &lt;p>&lt;img src="https://imgant.forecho.com/2026/11/19/b3722159.png" alt="Price Action 进阶：顺势信号开始「失败」">&lt;/p>
 &lt;p>在刚接触 Al Brooks 的价格行为学（Price Action）时，绝大多数交易者最先上手的入场工具就是&lt;strong>数K线（Bar Counting）&lt;/strong>——多头回调找 H1 / H2 挂单做多，空头反弹找 L1 / L2 挂单做空。&lt;/p>
 &lt;p>但实盘中经常遇到这种让人极其难受的场面：
@@ -1983,149 +2044,4 @@ Thank you.
 &lt;li>&lt;a href="https://rectangleapp.com/pro/docs/llms.txt">Rectangle Pro 文档文本版&lt;/a>：官方文档的文本版&lt;/li>
 &lt;li>&lt;a href="https://github.com/rxhanson/Rectangle">Rectangle 免费版 GitHub 仓库&lt;/a>：免费版功能、安装方式和常见问题&lt;/li>
 &lt;li>&lt;a href="https://support.apple.com/guide/mac-help/allow-accessibility-apps-to-access-your-mac-mh43185/mac">Apple：Allow accessibility apps to access your Mac&lt;/a>：macOS 辅助功能权限说明&lt;/li>
-&lt;/ul></description></item><item><title>大陆用户开美国期货账户，我会先选 AMP Futures</title><link>https://blog.forecho.com/open-us-futures-broker-from-china.html</link><pubDate>Sun, 07 Jun 2026 00:36:07 +0800</pubDate><guid>https://blog.forecho.com/open-us-futures-broker-from-china.html</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>最近在研究美国期货账户，主要看了两个券商：&lt;a href="https://www.ampfutures.com/">AMP Futures&lt;/a> 和 &lt;a href="https://optimusfutures.com/">Optimus Futures&lt;/a>。&lt;/p>
-&lt;p>我的判断很直接：&lt;strong>先开 AMP，Optimus 先放观察位&lt;/strong>。&lt;/p>
-&lt;p>AMP 的开户资料更多，中文圈用的人也更多，Mac 用户可以直接接 TradingView。Optimus 官方支持海外用户，也有多个 FCM 清算商可选，但是中文圈完整跑通开户、入金、交易、出金的人太少，我会把它当第二账户备选。&lt;/p>
-&lt;h2 id="开户前准备">开户前准备&lt;/h2>
-&lt;p>大陆用户开户，先把这几样材料准备好：&lt;/p>
-&lt;ul>
-&lt;li>护照：最省事的身份证明。&lt;/li>
-&lt;li>地址证明：AMP 可以先准备最近 90 天内的银行账单、水电煤账单、宽带账单。Optimus 这次邮件反馈要求提供银行账单以外的地址证明。&lt;/li>
-&lt;li>海外手机号：AMP 注册会发短信验证码。&lt;/li>
-&lt;li>海外银行账户：后面美元电汇会更稳。&lt;/li>
-&lt;/ul>
-&lt;p>AMP 官方写的地址证明口径比较细，账单上要有姓名、地址、日期。我的建议是申请表地址直接照着账单写，英文地址顺序、房号、楼层都保持一致。Optimus 这边要提前准备水电煤、宽带、有线电视账单，或者其他他们认可的政府/保险类文件。&lt;/p>
-&lt;h2 id="amp-注册的坑">AMP 注册的坑&lt;/h2>
-&lt;p>AMP 注册入口是 &lt;a href="https://www.ampclientportal.com/">AMP Client Portal&lt;/a>。&lt;/p>
-&lt;p>我注册的时候遇到的第一个坑就是手机号验证。大陆手机号收不到验证码，Google Voice 可以收到。&lt;/p>
-&lt;p>注册成功后，马上去账户安全里打开两步验证。这样后面登录主要走验证器，短信验证码的重要性会下降很多。&lt;/p>
-&lt;p>开户流程本身很常规：&lt;/p>
-&lt;ol>
-&lt;li>填个人资料。&lt;/li>
-&lt;li>填财务情况和交易经验。&lt;/li>
-&lt;li>上传护照和地址证明。&lt;/li>
-&lt;li>等审核。&lt;/li>
-&lt;li>入金。&lt;/li>
-&lt;li>选择平台、数据源和行情权限。&lt;/li>
-&lt;/ol>
-&lt;p>AMP 官方 FAQ 写的最低入金是 $100。这个金额只适合激活账户，真正交易要看保证金和回撤承受能力。比如 AMP 当前页面显示，MES 日内保证金 $40，MNQ 日内保证金 $100，ES 日内保证金 $400，NQ 日内保证金 $1,000。&lt;/p>
-&lt;p>我会从 MES 或 MNQ 这种微型合约开始，账户至少留出几倍保证金缓冲。期货亏钱速度很快，刚开始用最小合约熟悉下单、止损、行情和手续费。&lt;/p>
-&lt;h2 id="pending-additional-documents-怎么处理">Pending Additional Documents 怎么处理&lt;/h2>
-&lt;p>我现在遇到的状态是 &lt;code>Pending Additional Documents&lt;/code>。&lt;/p>
-&lt;p>我上传的是香港汇丰的月结单，里面已经是英文地址，理论上符合银行账单作为地址证明的口径。但是状态仍然卡在补件，这种情况先找客服问清楚后台备注，再决定补哪份材料。&lt;/p>
-&lt;p>有时差的情况下，我会优先发邮件。邮件可以把问题、附件、账户信息一次说清楚，也方便留记录。&lt;/p>
-&lt;p>AMP 官方客服邮箱是：&lt;code>support@ampfutures.com&lt;/code>。&lt;/p>
-&lt;p>邮件标题可以这样写：&lt;/p>
-&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
-&lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
-&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-text" data-lang="text">Application Pending Additional Documents - Proof of Address Uploaded
-&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>正文可以直接用：&lt;/p>
-&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
-&lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
-&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-text" data-lang="text">Hi AMP Support,
-My application status is currently “Pending Additional Documents”.
-I uploaded my HSBC Hong Kong bank statement as proof of address. The statement includes my full name, full English address, and was issued within the last 90 days.
-Could you please confirm exactly what additional document is required, or what issue you found with the uploaded proof of address?
-Application email: 你的注册邮箱
-Full name: 你的护照英文名
-Thank you.
-&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>附件我会一起带上：&lt;/p>
-&lt;ul>
-&lt;li>香港汇丰月结单 PDF。&lt;/li>
-&lt;li>护照照片页。&lt;/li>
-&lt;li>AMP 后台 &lt;code>Pending Additional Documents&lt;/code> 截图。&lt;/li>
-&lt;/ul>
-&lt;p>发件邮箱用 AMP 注册邮箱。重点是让客服明确说出缺哪项材料，或者这份地址证明哪里不符合要求。拿到明确回复后再补材料，效率最高。&lt;/p>
-&lt;h2 id="amp-问收入和财富来源怎么回">AMP 问收入和财富来源怎么回&lt;/h2>
-&lt;p>后面 AMP 可能会继续追问就业状态、收入来源和财富来源。&lt;/p>
-&lt;p>这里要如实回答，重点是口径一致。当前状态可以写 &lt;code>unemployed / between jobs&lt;/code>、&lt;code>employed&lt;/code> 或 &lt;code>self-employed&lt;/code>；资金来源可以写 &lt;code>personal savings from previous salary income&lt;/code>、&lt;code>salary income&lt;/code> 或 &lt;code>business income&lt;/code>。&lt;/p>
-&lt;p>这里还有一个小插曲：我填表的时候把就业状态写成了退休，后面客服就追问相关信息。实际状态是待业，就直接写 &lt;code>unemployed / between jobs&lt;/code>。就业状态和资金来源保持简单、真实、一致，重点是说明交易资金来自本人。&lt;/p>
-&lt;h2 id="mac-用户怎么用-amp">Mac 用户怎么用 AMP&lt;/h2>
-&lt;p>Mac 用户最简单的方式是：&lt;strong>AMP + CQG + TradingView&lt;/strong>。&lt;/p>
-&lt;p>大致路径是：&lt;/p>
-&lt;ol>
-&lt;li>AMP 开户审核通过。&lt;/li>
-&lt;li>在 AMP 后台选择 CQG 数据源。&lt;/li>
-&lt;li>开通 CME 行情权限。&lt;/li>
-&lt;li>拿到 CQG 登录信息。&lt;/li>
-&lt;li>打开 TradingView 的 Trading Panel。&lt;/li>
-&lt;li>选择 AMP。&lt;/li>
-&lt;li>用 CQG 账号登录。&lt;/li>
-&lt;li>在 TradingView 里确认行情和下单都走 AMP 连接。&lt;/li>
-&lt;/ol>
-&lt;p>TradingView 网页版和桌面版都可以用，Mac 上体验最省心。&lt;/p>
-&lt;p>Quantower 也支持 AMP，但是官方桌面端当前主要是 Windows。Mac 用户为了 Quantower 去折腾虚拟机意义不大，TradingView 先跑通最实际。&lt;/p>
-&lt;h2 id="tradingview-会员和实时行情">TradingView 会员和实时行情&lt;/h2>
-&lt;p>这里很容易搞混：&lt;strong>TradingView 会员解决图表功能和刷新频率，CME 实时行情要单独开通&lt;/strong>。&lt;/p>
-&lt;p>TradingView 官方说明里写得很清楚，交易所实时行情要单独订阅，或者通过券商账户验证。AMP 的说明也写到，TradingView 需要付费计划才能用 AMP/CQG 的实时数据，券商验证有效期一般是 7 天，到期后要重新验证。&lt;/p>
-&lt;p>所以你已经充值了 TradingView 会员，接下来还要看三件事：&lt;/p>
-&lt;ul>
-&lt;li>AMP 后台是否开通了 CME 实时行情。&lt;/li>
-&lt;li>TradingView 是否已经连接 AMP/CQG。&lt;/li>
-&lt;li>图表上看的 symbol 是否来自可交易的 AMP/CQG 数据源。&lt;/li>
-&lt;/ul>
-&lt;p>看 TradingView 自己的延迟行情时，会员也会看到延迟。连上 AMP/CQG，并且开了 CME 实时行情后，TradingView 图表和下单面板才会走实时数据。&lt;/p>
-&lt;p>还有一个细节：&lt;code>MES1!&lt;/code>、&lt;code>MNQ1!&lt;/code> 这种连续合约适合看图，真实下单要用具体月份合约，比如 &lt;code>MESM2026&lt;/code>、&lt;code>MESU2026&lt;/code> 这种。下单前看一眼 Trading Panel 里的报价来源，别用错 symbol。&lt;/p>
-&lt;h2 id="optimus-我为什么先观望">Optimus 我为什么先观望&lt;/h2>
-&lt;p>Optimus 是介绍经纪商，后面接 Ironbeam、ADMIS、StoneX、Phillip Capital、Wedbush 等 FCM。它的优势是客服和平台引导，官方也支持海外用户。&lt;/p>
-&lt;p>我担心的是中文圈案例太少。开户能通过是一回事，后面还有入金、行情、平台、出金、税表、客服沟通。期货账户这种东西，我更愿意选择公开经验多一点的路径。&lt;/p>
-&lt;p>我这次也遇到了一个具体问题：一开始用银行账单做地址证明，Optimus 邮件反馈要求提供银行账单以外的地址证明。他们列出来的材料包括水电费账单、燃气账单、有线电视账单、有效驾照、政府签发身份证、汽车保险单等。&lt;/p>
-&lt;p>&lt;img src="https://r2.imgant.com/2026/06/04/8c311f005c535366c58975db909dc33d.png" alt="">&lt;/p>
-&lt;p>我的情况比较尴尬：目前手上没有这类地址证明，所以 Optimus 开户暂时办不下去。这也是我会先选 AMP 的一个现实原因。&lt;/p>
-&lt;p>Optimus 当前 FAQ 写的最低入金是：微型期货 $500，迷你或标准合约 $2,000。手续费页面写的是微型合约 $0.25/side，标准合约 $0.75/side，非美国客户可能会有额外清算费。&lt;/p>
-&lt;p>这个账户可以放在第二阶段考虑：等 AMP 跑通后，再开 Optimus 对比平台、手续费和客服体验。&lt;/p>
-&lt;h2 id="费用怎么看">费用怎么看&lt;/h2>
-&lt;p>美国期货费用要拆开看：&lt;/p>
-&lt;p>&lt;code>单边成本 = 经纪商佣金 + 交易所费 + NFA 费 + 清算费 + 平台/路由费&lt;/code>&lt;/p>
-&lt;p>&lt;code>月度固定成本 = 行情数据费 + 数据源连接费 + 平台月费&lt;/code>&lt;/p>
-&lt;p>AMP 的 CME 四大交易所 Level 1 打包行情当前是 $15/月，单个 CME/CBOT/NYMEX/COMEX Level 1 是 $5/月。Level 1 对看图和普通下单够用，Level 2 主要给看盘口深度的人。&lt;/p>
-&lt;p>出金也要看。AMP 国际电汇出金 $30，Optimus 的费用跟你选择的 FCM 相关。&lt;/p>
-&lt;p>我会先把成本控制简单：&lt;/p>
-&lt;ul>
-&lt;li>只开自己交易的交易所行情。&lt;/li>
-&lt;li>先用 TradingView。&lt;/li>
-&lt;li>先交易微型合约。&lt;/li>
-&lt;li>先把入金和出金跑通。&lt;/li>
-&lt;/ul>
-&lt;h2 id="我的选择">我的选择&lt;/h2>
-&lt;p>第一阶段我会开 AMP。理由是资料多、门槛低、Mac 上接 TradingView 方便，Google Voice 可以解决注册验证码。&lt;/p>
-&lt;p>Optimus 放到第二阶段。等 AMP 的开户、入金、实时行情、下单、出金都跑通后，再决定是否多开一个 Optimus 账户。&lt;/p>
-&lt;p>真正开始交易前，先用微型合约把流程练熟。每次下单前先算最大亏损，账户能活下来，后面的策略才有意义。&lt;/p>
-&lt;h2 id="参考链接">参考链接&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://faq.ampfutures.com/hc/en-us/articles/10796123577239-How-do-I-apply-for-an-AMP-Futures-trading-account">AMP Futures：开户流程&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://faq.ampfutures.com/hc/en-us/articles/10797239636759-What-documents-are-required-for-account-verification">AMP Futures：开户材料&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://faq.ampfutures.com/hc/en-us/articles/33479414576279-Is-there-a-minimum-capital-requirement-to-open-an-account">AMP Futures：最低入金&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.ampfutures.com/trading-info/margins">AMP Futures：保证金&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.ampfutures.com/trading-info/exchange-data-fees">AMP Futures：行情数据费&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.ampfutures.com/contact-us">AMP Futures：客服联系方式&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://faq.ampfutures.com/hc/en-us/articles/35688297911831-TradingView-Delayed-Data">AMP Futures：TradingView 延迟行情说明&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.tradingview.com/support/solutions/43000479666-how-can-i-get-real-time-data-from-exchanges-that-i-have-already-purchased-with-my-broker/">TradingView：用券商账户验证实时行情&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.tradingview.com/support/solutions/43000739323-how-does-the-source-of-real-time-data-affect-the-trading-experience/">TradingView：实时行情来源对交易的影响&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.tradingview.com/cme/">TradingView：CME 期货行情说明&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://support.optimusfutures.com/can-i-open-an-account-if-i-live-outside-the-united-states">Optimus Futures：海外客户开户&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://support.optimusfutures.com/what-is-the-minimum-initial-deposit-required-to-open-an-account">Optimus Futures：最低入金&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://optimusfutures.com/Futures-Trading-Pricing.php">Optimus Futures：手续费&lt;/a>&lt;/li>
 &lt;/ul></description></item></channel></rss>
