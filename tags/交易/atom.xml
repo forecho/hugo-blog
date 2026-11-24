@@ -1,4 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>交易 on forecho's Blog</title><link>https://blog.forecho.com/tags/%E4%BA%A4%E6%98%93.html</link><description>Recent content in 交易 on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 23 Nov 2026 18:50:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/tags/%E4%BA%A4%E6%98%93/atom.xml" rel="self" type="application/rss+xml"/><item><title>Al Brooks 问答笔记：练出稳定盈利到底要多久？</title><link>https://blog.forecho.com/al-brooks-how-long-to-become-profitable.html</link><pubDate>Mon, 23 Nov 2026 18:50:00 +0800</pubDate><guid>https://blog.forecho.com/al-brooks-how-long-to-become-profitable.html</guid><description>&lt;p>&lt;img src="https://imgant.forecho.com/2026/11/23/28bcf622.png" alt="Al Brooks 问答笔记：练出稳定盈利到底要多久？">&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>交易 on forecho's Blog</title><link>https://blog.forecho.com/tags/%E4%BA%A4%E6%98%93.html</link><description>Recent content in 交易 on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 24 Nov 2026 17:30:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/tags/%E4%BA%A4%E6%98%93/atom.xml" rel="self" type="application/rss+xml"/><item><title>连赢 12 天后一把亏光：Al Brooks 交易室社区的一场真实复盘</title><link>https://blog.forecho.com/why-winning-streaks-lead-to-blowups.html</link><pubDate>Tue, 24 Nov 2026 17:30:00 +0800</pubDate><guid>https://blog.forecho.com/why-winning-streaks-lead-to-blowups.html</guid><description>&lt;p>&lt;img src="https://imgant.forecho.com/2026/11/24/81ce4c05.png" alt="连赢 12 天后一把亏光：突然加仓、逆势开盘与报复交易的复盘">&lt;/p>
+&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>学价格行为学（Price Action）的人，大概都踩过或者怕踩同一个坑：&lt;strong>连赢了一两周，顺手得不行，结果某一天突然大亏，紧接着上头想翻本，一把把前面赚的吐光，甚至直接爆仓。&lt;/strong>&lt;/p>
+&lt;p>今天在 Al Brooks 交易室的 Discord 群里，刚好撞见一场特别真实的现场复盘。一位群友连着 12 天没亏钱，结果直接从 4 手跳加到 10 手，开盘连损三单后又 15 手报复性反手，一天把两周利润全部打光。&lt;/p>
+&lt;p>难得的是，群里没有光顾着灌鸡汤安慰，交易室讲师 Brad Wolff、Rose，还有几位很有经验的老手，从&lt;strong>加仓心理学、开盘技术盲区、剔除烂单&lt;/strong>几个角度把这件事拆得很透。我把这场讨论和当天的 ES 5 分钟行情图整理下来，留着当一份随时可以对照自查的防爆仓备忘录。&lt;/p></description></item><item><title>Al Brooks 问答笔记：练出稳定盈利到底要多久？</title><link>https://blog.forecho.com/al-brooks-how-long-to-become-profitable.html</link><pubDate>Mon, 23 Nov 2026 18:50:00 +0800</pubDate><guid>https://blog.forecho.com/al-brooks-how-long-to-become-profitable.html</guid><description>&lt;p>&lt;img src="https://imgant.forecho.com/2026/11/23/28bcf622.png" alt="Al Brooks 问答笔记：练出稳定盈利到底要多久？">&lt;/p>
 &lt;h2 id="引言">引言&lt;/h2>
 &lt;p>学价格行为学久了，脑子里总会时不时冒出一个问题：&lt;strong>到底要学多久、复盘多久，才能做到稳定盈利？&lt;/strong>&lt;/p>
 &lt;p>最近翻了 Al Brooks 网站上两篇间隔一年的交易室问答（2015 年 2 月和 2016 年 3 月），学员问的几乎是同一个问题。两次回答加起来也就十来分钟，没什么鸡汤，他既摊开聊了自己当年亏了 10 年的弯路，也顺着一天的 ES 5 分钟实盘图讲了几条特别实在的常识。&lt;/p>
@@ -129,18 +133,4 @@
 &lt;li>&lt;code>1Rev&lt;/code>：开盘后第一次有机会改变主导方向的反转；&lt;/li>
 &lt;li>&lt;code>1PB&lt;/code>：新方向初步成立后，第一次顺着新方向的回调。&lt;/li>
 &lt;/ul>
-&lt;p>&lt;code>1Rev&lt;/code> 更早，&lt;code>1PB&lt;/code> 更稳。这个取舍，比定义本身更重要。&lt;/p></description></item><item><title>开盘 30 分钟怎么读盘：跳空、第一根 K 线与当天主方向</title><link>https://blog.forecho.com/how-to-read-the-open-first-30-minutes.html</link><pubDate>Tue, 31 Mar 2026 21:40:00 +0800</pubDate><guid>https://blog.forecho.com/how-to-read-the-open-first-30-minutes.html</guid><description>&lt;h2 id="系列导航">系列导航&lt;/h2>
-&lt;p>这一组文章建议按顺序阅读：&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>开盘 30 分钟怎么读盘：跳空、第一根 K 线与当天主方向（当前）&lt;/strong>&lt;/li>
-&lt;li>&lt;a href="https://blog.forecho.com/first-reversal-and-first-pullback.html">1Rev 与 1PB：开盘后最重要的两类机会&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://blog.forecho.com/what-is-a2-price-action-setup.html">A2 是什么：最值得先练的价格行为 setup&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://blog.forecho.com/most-breakouts-fail-trading-range-playbook.html">大多数突破都会失败：区间行情里值得做的机会&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://blog.forecho.com/trend-day-hard-trend-soft-trend-playbook.html">趋势日怎么做：硬趋势、软趋势与 Spike and Channel&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://blog.forecho.com/why-you-still-cant-make-money-even-if-you-read-the-market-right.html">为什么你看对了方向，还是赚不到钱&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>开盘前 30 分钟最容易把人带偏。&lt;/p>
-&lt;p>跳空一出来，脑子里马上开始站队；第一根 K 线稍微大一点，就觉得今天要单边；第一波拉回出现，又开始猜反转。交易节奏一乱，后面就算行情给机会，也很难做顺。&lt;/p>
-&lt;p>我现在看开盘，会先解决三个问题：跳空怎么被处理，前两根 K 线有没有给出方向，市场更像开盘趋势还是开盘区间。&lt;/p>
-&lt;p>这三个问题看清楚以后，后面才轮到 &lt;code>1Rev&lt;/code>、&lt;code>1PB&lt;/code>、&lt;code>A2&lt;/code> 这些 setup。&lt;/p></description></item></channel></rss>
+&lt;p>&lt;code>1Rev&lt;/code> 更早，&lt;code>1PB&lt;/code> 更稳。这个取舍，比定义本身更重要。&lt;/p></description></item></channel></rss>

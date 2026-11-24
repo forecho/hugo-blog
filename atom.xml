@@ -1,4 +1,70 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 23 Nov 2026 18:50:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>Al Brooks 问答笔记：练出稳定盈利到底要多久？</title><link>https://blog.forecho.com/al-brooks-how-long-to-become-profitable.html</link><pubDate>Mon, 23 Nov 2026 18:50:00 +0800</pubDate><guid>https://blog.forecho.com/al-brooks-how-long-to-become-profitable.html</guid><description>&lt;p>&lt;img src="https://imgant.forecho.com/2026/11/23/28bcf622.png" alt="Al Brooks 问答笔记：练出稳定盈利到底要多久？">&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forecho's Blog</title><link>https://blog.forecho.com/</link><description>Recent content on forecho's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 24 Nov 2026 17:30:00 +0800</lastBuildDate><atom:link href="https://blog.forecho.com/atom.xml" rel="self" type="application/rss+xml"/><item><title>连赢 12 天后一把亏光：Al Brooks 交易室社区的一场真实复盘</title><link>https://blog.forecho.com/why-winning-streaks-lead-to-blowups.html</link><pubDate>Tue, 24 Nov 2026 17:30:00 +0800</pubDate><guid>https://blog.forecho.com/why-winning-streaks-lead-to-blowups.html</guid><description>&lt;p>&lt;img src="https://imgant.forecho.com/2026/11/24/81ce4c05.png" alt="连赢 12 天后一把亏光：突然加仓、逆势开盘与报复交易的复盘">&lt;/p>
+&lt;h2 id="引言">引言&lt;/h2>
+&lt;p>学价格行为学（Price Action）的人，大概都踩过或者怕踩同一个坑：&lt;strong>连赢了一两周，顺手得不行，结果某一天突然大亏，紧接着上头想翻本，一把把前面赚的吐光，甚至直接爆仓。&lt;/strong>&lt;/p>
+&lt;p>今天在 Al Brooks 交易室的 Discord 群里，刚好撞见一场特别真实的现场复盘。一位群友连着 12 天没亏钱，结果直接从 4 手跳加到 10 手，开盘连损三单后又 15 手报复性反手，一天把两周利润全部打光。&lt;/p>
+&lt;p>难得的是，群里没有光顾着灌鸡汤安慰，交易室讲师 Brad Wolff、Rose，还有几位很有经验的老手，从&lt;strong>加仓心理学、开盘技术盲区、剔除烂单&lt;/strong>几个角度把这件事拆得很透。我把这场讨论和当天的 ES 5 分钟行情图整理下来，留着当一份随时可以对照自查的防爆仓备忘录。&lt;/p>
+&lt;h2 id="事故还原连赢-12-天为什么一天全吐回去">事故还原：连赢 12 天，为什么一天全吐回去&lt;/h2>
+&lt;p>发帖的群友网名叫 &lt;strong>TradingRage&lt;/strong>。过去两周他顺着大跌行情，&lt;strong>连续 12 个交易日没有亏过钱&lt;/strong>，赚了一大笔。&lt;/p>
+&lt;p>顺带提一下当时的市场背景——他事后冷静下来顺手统计了一组数据：从 2026 年 11 月 12 日到 11 月 20 日，标普 500 常规时段（RTH）&lt;strong>连续 7 个交易日收跌&lt;/strong>。自 2010 年 6 月以来的约 3,950 个交易日里，连跌 6 天以上总共只出现过 &lt;strong>13 次&lt;/strong>；而&lt;strong>连跌 7 天&lt;/strong>此前只出现过 &lt;strong>1 次&lt;/strong>（2018 年 12 月 21 日），这次刚好追平历史最长连跌纪录。&lt;/p>
+&lt;p>连赢 12 天之后，问题来了。他没有先出金落袋（「taking a paycheck」），反而产生了一种**「自己无敌了（feeling of invincibility）」**的错觉，**直接把仓位从 4 手猛加到了 10 手**。&lt;/p>
+&lt;p>当天美股常规时段（RTH）一开盘，灾难就按最经典的剧本上演了：&lt;/p>
+&lt;ul>
+&lt;li>开盘在 Bar 1、Bar 2、Bar 8 连续做空博 1:1 测量目标，结果全被扫在 Bar 1 上方半个测量位的止损上；&lt;/li>
+&lt;li>止损之后彻底上头，在 &lt;strong>Bar 14 纯报复性交易（pure revenge）重仓 15 手反手做多&lt;/strong>，紧接着又在 Bar 11 低点被打止损；&lt;/li>
+&lt;li>辛辛苦苦两周攒下的利润，一天归零。&lt;/li>
+&lt;/ul>
+&lt;h2 id="病根一加仓步子迈太大大脑直接死机了">病根一：加仓步子迈太大，大脑直接「死机」了&lt;/h2>
+&lt;p>群里先开口的是两位讲师，话都很短，但句句扎心：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Brad Wolff&lt;/strong>：加仓必须一点一点小步加。如果一次加仓能把你两周的利润一把吃光，说明加得太大了。&lt;/li>
+&lt;li>&lt;strong>Rose（BPA_PriceActionRose）&lt;/strong>：&lt;strong>高波动的时候应该降仓位，而不是加仓&lt;/strong>；绝不要报复性交易。群里另一位成员 Sharper2010 刚好现身说法——当天因为波动大，他主动把仓位砍了一半，结果赚的钱反而比平时还多。&lt;/li>
+&lt;/ul>
+&lt;p>全场点赞最高、连 Brad 都点名夸有道理的，是群友 &lt;strong>Jed&lt;/strong> 从大脑机制拆解的一段话：&lt;/p>
+&lt;p>&lt;strong>加仓不只是增加了资金风险，更是在放大你大脑感知到的威胁。&lt;/strong>&lt;/p>
+&lt;p>当潜在盈亏一旦超出你当前的心理承受阈值，身体会立刻触发强烈的应激反应，&lt;strong>直接削弱大脑前额叶皮层（Prefrontal Cortex）的功能&lt;/strong>——而前额叶正是负责理性判断、情绪调节和纪律执行的部位。&lt;/p>
+&lt;p>所以你会发现一件特别诡异的事：&lt;strong>同一个人、同样的技术、同样的策略，仅仅因为仓位超出了神经系统的耐受上限，就会瞬间变成另一个人。&lt;/strong> 有的人表现为恐惧和犹豫，有的人则直接表现为冲动、过度交易和疯狂想把亏的打回来。&lt;/p>
+&lt;p>换句话说，&lt;strong>加仓（Scaling）本身是一门独立技能&lt;/strong>，必须循序渐进。你不是在简单调大下单手数，而是在一点点训练自己的神经系统，让它能承受更大的筹码而不破坏执行力。&lt;/p>
+&lt;p>Jed 还给了一份挺实用的 &lt;strong>7 步事后修复清单&lt;/strong>：&lt;/p>
+&lt;ol>
+&lt;li>先意识到「加仓」本身是一门需要单独练的新技能；&lt;/li>
+&lt;li>原谅自己是普通人——情绪没平复之前，人是复盘不出真正教训的；&lt;/li>
+&lt;li>冷静下来之后，逐笔复盘每一单到底错在哪；&lt;/li>
+&lt;li>把这次教训写成具体的硬规则；&lt;/li>
+&lt;li>调整自己的交易策略；&lt;/li>
+&lt;li>重新制定循序渐进的加仓计划；&lt;/li>
+&lt;li>把自己挺过这次大亏、没有被击垮这件事，当成一次成长来庆祝。&lt;/li>
+&lt;/ol>
+&lt;h2 id="病根二开盘前没看盘前eth图一上来就逆大势">病根二：开盘前没看盘前（ETH）图，一上来就逆大势&lt;/h2>
+&lt;p>很多人亏完以后觉得「这纯属心态问题，技术上不知道学什么」。Rose 直接甩出一张当天含盘前时段的 ES 5 分钟行情图，一针见血点出了他开盘连空三单的技术盲区：&lt;/p>
+&lt;p>&lt;img src="https://imgant.forecho.com/2026/11/24/3593d809.png" alt="当天 ES 5 分钟行情图：左侧浅蓝区为盘前 ETH 急涨突破，右侧 RTH 开盘的 Bar 1/2 只是回调">&lt;/p>
+&lt;p>把盘前（ETH）和常规时段（RTH）连在一起看，盘面其实一目了然：&lt;/p>
+&lt;ul>
+&lt;li>左侧浅蓝阴影部分是&lt;strong>盘前 ETH（Globex）&lt;/strong>，蓝色箭头处刚刚走出一波极其凶猛的&lt;strong>多头急涨突破（Huge Spike）&lt;/strong>；&lt;/li>
+&lt;li>到了右侧白色区域的常规时段（RTH）一开盘，前两根阴线（RTH 的 Bar 1、Bar 2）放到 ETH 5 分钟图里看，根本不是什么见顶反转，只是&lt;strong>大涨后回踩 20 EMA 的标准多头回调&lt;/strong>；多头正好借着这波回调分批加仓，沿着蓝色多头通道继续往上推高；&lt;/li>
+&lt;li>TradingRage 只盯着 RTH 开盘看，加上前两周连空 12 天赚嗨了、脑子里还卡在空头惯性里，开盘第一秒就逆着「Always In Long」的大方向死磕做空，自然连挨耳光。&lt;/li>
+&lt;/ul>
+&lt;p>Rose 给的建议非常简单直接：&lt;strong>每天开盘前，务必先扫一眼 ETH 5 分钟图或 Globex 15 分钟图&lt;/strong>，看清盘前大方向；&lt;strong>别急着抢开盘第一单（TAKE YOUR TIME. DON&amp;rsquo;T RUSH YOUR FIRST TRADE.）&lt;/strong>。群友 patrick 也补了一句：每天前 6 根 K 线通常最棘手，大多数时候先坐在旁边看戏更划算。&lt;/p>
+&lt;h2 id="怎么戒掉烂单和报复性交易">怎么戒掉「烂单」和报复性交易&lt;/h2>
+&lt;p>讨论往后延伸，两位群友分享的实操方法也挺值得抄作业：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Unclearin 的「剔除烂单」实验&lt;/strong>：他复盘了自己过去几个月的模拟盘订单，把所有单子标成两类——按规则做的正常单，和烂单（仓位太大、报复单、实盘瞎试新想法）。把烂单算进去时，他爆了好几次仓；&lt;strong>只要把烂单从数据里剔除，账户本来就是稳定盈利的。&lt;/strong>
+&lt;ul>
+&lt;li>他现在正在做两件事：第一，狠心精简剧本，只保留少数几个自己真正懂的形态（结果看盘等待的时间长了很多）；第二，专门统计自己最容易失控的盘面特征——他惊讶地发现，&lt;strong>过度交易几乎高度集中在「扩张三角形（Expanding Triangle）」里&lt;/strong>。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>DannyB 的硬约束&lt;/strong>：为了戒掉报复交易，他强行限制自己&lt;strong>每天只做固定次数&lt;/strong>。因为不想浪费有限的子弹，进场自然就会变得挑剔很多。&lt;/li>
+&lt;/ul>
+&lt;h2 id="最后">最后&lt;/h2>
+&lt;p>这场讨论里，Jed 给 TradingRage 回了一句我特别喜欢的话：&lt;strong>你没有输掉赚到那笔钱的过程中学到的所有东西；你现在要学的，只是怎么不再犯同样的错。&lt;/strong> 顺手还贴了一张迈克尔·乔丹的海报，我顺便做成了中文版留在这里：&lt;/p>
+&lt;p>&lt;img src="https://imgant.forecho.com/2026/11/24/93f552ec.png" alt="迈克尔·乔丹名言海报（中文版）：我一次又一次地失败，而这正是我最终成功的原因">&lt;/p>
+&lt;p>说实话，看到 TradingRage 的经历我一点也笑不出来。这个错误我自己已经犯过好几次，坦白讲，上周都还在犯。我心里很清楚，如果改不掉连赢之后飘起来、仓位失控、亏完上头报复这个坏毛病，我永远都不可能真正做成功。&lt;/p>
+&lt;p>把这场复盘里的几条底线记在这里，贴在屏幕边上反复提醒自己：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>高波动降仓，加仓必须小步慢加&lt;/strong>，别让仓位超过自己神经系统的承受上限；&lt;/li>
+&lt;li>&lt;strong>连赢之后先出金/落袋&lt;/strong>，顺手的时候最容易觉得自己无敌；&lt;/li>
+&lt;li>&lt;strong>开盘前先看一眼盘前 ETH 图&lt;/strong>，前几根 K 线看不清就不急着抢第一单；&lt;/li>
+&lt;li>&lt;strong>复盘时把「烂单」单独拎出来算账&lt;/strong>，很多人其实不是不会赚钱，只是亏在了管不住手的那几笔上。&lt;/li>
+&lt;/ul></description></item><item><title>Al Brooks 问答笔记：练出稳定盈利到底要多久？</title><link>https://blog.forecho.com/al-brooks-how-long-to-become-profitable.html</link><pubDate>Mon, 23 Nov 2026 18:50:00 +0800</pubDate><guid>https://blog.forecho.com/al-brooks-how-long-to-become-profitable.html</guid><description>&lt;p>&lt;img src="https://imgant.forecho.com/2026/11/23/28bcf622.png" alt="Al Brooks 问答笔记：练出稳定盈利到底要多久？">&lt;/p>
 &lt;h2 id="引言">引言&lt;/h2>
 &lt;p>学价格行为学久了，脑子里总会时不时冒出一个问题：&lt;strong>到底要学多久、复盘多久，才能做到稳定盈利？&lt;/strong>&lt;/p>
 &lt;p>最近翻了 Al Brooks 网站上两篇间隔一年的交易室问答（2015 年 2 月和 2016 年 3 月），学员问的几乎是同一个问题。两次回答加起来也就十来分钟，没什么鸡汤，他既摊开聊了自己当年亏了 10 年的弯路，也顺着一天的 ES 5 分钟实盘图讲了几条特别实在的常识。&lt;/p>
@@ -1646,169 +1712,4 @@ MES 张数 = 计划单笔风险 ÷ (止损点数 × $5)
 &lt;li>&lt;a href="https://partner.zysh.xyz/bg/QKMD9M">我的专属注册渠道&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://t.me/+Kj7IrxBZtOk3YTk1">开户交流 Telegram 群&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://docs.qq.com/doc/DT1BJQkppTU1ydnRF">富途、老虎之后，大陆投资者还能怎么投资美股？（腾讯文档）&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>用安卓模拟器开通 giffgaff eSIM 的记录</title><link>https://blog.forecho.com/open-giffgaff-esim-with-android-emulator.html</link><pubDate>Mon, 15 Jun 2026 16:58:35 +0800</pubDate><guid>https://blog.forecho.com/open-giffgaff-esim-with-android-emulator.html</guid><description>&lt;p>&lt;img src="https://r2.imgant.com/2026/06/15/b58745b7.png" alt="">&lt;/p>
-&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>6 月 14 日晚上，看到几条推文和一个 YouTube 教程后，我跟着折腾了一圈，最后用电脑上的安卓模拟器申请到了英国 giffgaff eSIM。&lt;/p>
-&lt;p>我的主力机只有一台 iPhone 16 Pro Max，双实体卡槽。一个卡槽放老号，用来收短信和接电话；另一个卡槽放宽带送的流量卡，日常上网。第三方 eSIM 实体卡要插进 iPhone，就要占一个卡槽。&lt;/p>
-&lt;p>这次先把 giffgaff eSIM 申请下来，等 eSTK Plus+ 到货后再写入实体卡使用。Max 当时缺货，Plus+ 对我这个场景已经够用。&lt;/p>
-&lt;h2 id="我的需求">我的需求&lt;/h2>
-&lt;p>我需要一个海外手机号，主要用来收验证码、注册海外服务，以及做账号备用。giffgaff 的优势是英国号码、支持 eSIM、维护成本低，中文圈也有不少实操记录。&lt;/p>
-&lt;p>我这次已经在 giffgaff 下单并拿到了 eSIM 信息，后面的重点是把这个 eSIM profile 写进 eSTK，再把 eSTK 当实体卡插进 iPhone。&lt;/p>
-&lt;h2 id="我一开始想用旧安卓手机">我一开始想用旧安卓手机&lt;/h2>
-&lt;p>我手上有一台十多年前的安卓手机，最开始想通过云萝卜这类工具配合 HookEuicc 来搞定。&lt;/p>
-&lt;p>实际卡在了系统版本上。老安卓系统太旧，HookEuicc 一直安装失败，后面的 LSPosed、模块生效、giffgaff App 检测都走不下去。&lt;/p>
-&lt;p>这个坑比较典型。教程里写“准备一台安卓手机”，真正执行时还要看系统版本、Magisk、LSPosed、HookEuicc 这些环节。我的旧手机第一步就卡住了，换电脑安卓模拟器更省时间。&lt;/p>
-&lt;h2 id="最后跑通的是电脑安卓模拟器">最后跑通的是电脑安卓模拟器&lt;/h2>
-&lt;p>我参考的 YouTube 教程标题很直接：《无需手机，全电脑操作：英国 giffgaff 电话卡手把手申请教程》。视频里走的是电脑安卓模拟器路线，核心工具大致是：&lt;/p>
-&lt;ul>
-&lt;li>MuMu 模拟器&lt;/li>
-&lt;li>Magisk&lt;/li>
-&lt;li>LSPosed&lt;/li>
-&lt;li>HookEuicc / 相关 giffgaff 模块&lt;/li>
-&lt;li>giffgaff App&lt;/li>
-&lt;/ul>
-&lt;p>大致流程是：&lt;/p>
-&lt;ol>
-&lt;li>在电脑上安装安卓模拟器。&lt;/li>
-&lt;li>安装 Magisk，确认 root 环境正常。&lt;/li>
-&lt;li>安装 LSPosed，并启用 HookEuicc 相关模块。&lt;/li>
-&lt;li>安装 giffgaff App，登录账号。&lt;/li>
-&lt;li>在 App 里申请 eSIM。&lt;/li>
-&lt;li>保存拿到的 eSIM 激活信息。&lt;/li>
-&lt;/ol>
-&lt;p>我就是沿着这条路跑通的。相比旧安卓手机，模拟器环境可控，版本也更容易匹配教程。&lt;/p>
-&lt;p>一般会看到类似这种格式：&lt;/p>
-&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
-&lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
-&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-text" data-lang="text">LPA:1$SM-DP+地址$Activation Code
-&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>这里面的 &lt;code>SM-DP+地址&lt;/code> 和 &lt;code>Activation Code&lt;/code> 要保存好。后面写入 eSTK、9eSIM、XeSIM 这类实体 eSIM 卡时都要用到。&lt;/p>
-&lt;h2 id="为什么我最后选-estk-plus">为什么我最后选 eSTK Plus+&lt;/h2>
-&lt;p>我最开始在 9eSIM、XeSIM、eSTK 之间纠结。调研之后，我觉得 eSTK 性价比最高：&lt;/p>
-&lt;ul>
-&lt;li>价格合适。&lt;/li>
-&lt;li>容量够用，我主要放 giffgaff，再加少量旅行 eSIM。&lt;/li>
-&lt;li>iPhone 用户可用，STK 菜单和跨平台工具都能覆盖我的使用方式。&lt;/li>
-&lt;/ul>
-&lt;p>Max 的容量更大，更适合经常切换很多国家和运营商 eSIM 的人。可惜我下单时 Max 没货，所以直接买了 Plus+。&lt;/p>
-&lt;p>购买链接：&lt;a href="https://store.estk.me/products/1">eSTK Plus+&lt;/a>，优惠码 &lt;code>UP40YC8KOD&lt;/code> 可以打 9 折。&lt;/p>
-&lt;p>我的使用方案很简单：&lt;/p>
-&lt;ol>
-&lt;li>eSTK Plus+ 到货后，把 giffgaff eSIM 写进去。&lt;/li>
-&lt;li>iPhone 里继续保留老号，保证短信和电话稳定。&lt;/li>
-&lt;li>日常国内上网继续用宽带送的流量卡。&lt;/li>
-&lt;li>需要 giffgaff 或旅行 eSIM 时，把第二卡槽换成 eSTK。&lt;/li>
-&lt;/ol>
-&lt;p>这也是双实体卡 iPhone 的现实取舍。老号承载短信和电话，我会固定留在手机里；第二卡槽在流量卡和 eSTK 之间按场景切换。&lt;/p>
-&lt;h2 id="写号和启用">写号和启用&lt;/h2>
-&lt;p>我现在已经买了 giffgaff eSIM，也拿到了 profile。后面要做的是把它写进 eSTK，再在 iPhone 上启用。&lt;/p>
-&lt;p>流程大概是这样：&lt;/p>
-&lt;ol>
-&lt;li>eSTK 到货后，把卡插进 iPhone。&lt;/li>
-&lt;li>进 &lt;code>设置 &amp;gt; 蜂窝网络 &amp;gt; eSTK 这张卡 &amp;gt; SIM 卡应用程序&lt;/code>。&lt;/li>
-&lt;li>点 &lt;code>下载 Profile&lt;/code>。
-&lt;img src="https://r2.imgant.com/2026/06/17/be3736f3.png" alt="">&lt;/li>
-&lt;li>进去后会有两个选项，选第二个。第一个是系统默认。&lt;/li>
-&lt;li>输入完整的 &lt;code>LPA:1$SM-DP+地址$ActivationCode&lt;/code>。&lt;/li>
-&lt;li>等成功提示。返回后再进 &lt;code>SIM 卡应用程序&lt;/code>，可以看到下载进度。&lt;/li>
-&lt;li>进度没到 100% 就返回再进来看，直到显示 100%。&lt;/li>
-&lt;li>回到 &lt;code>管理 Profile&lt;/code>，启用 giffgaff，前面有 &lt;code>#&lt;/code> 表示已启动。&lt;/li>
-&lt;li>iPhone 里打开 giffgaff 这条线，蜂窝数据继续选国内流量卡。&lt;/li>
-&lt;/ol>
-&lt;p>这里最容易踩坑的是下载过程。写号需要联网，操作时保持页面不动，等成功提示再退出。中途切后台、锁屏、拔卡、断网，都容易写入失败。&lt;/p>
-&lt;p>写入成功后，我给 &lt;code>+44 78020 02606&lt;/code> 发了一条 &lt;code>hi&lt;/code>，很快收到短信，说明 giffgaff 已经可以正常收短信。&lt;/p>
-&lt;p>&lt;img src="https://r2.imgant.com/2026/06/17/b4b89554.png" alt="image">&lt;/p>
-&lt;h2 id="注意事项">注意事项&lt;/h2>
-&lt;ul>
-&lt;li>eSTK 可以保存多个 eSIM profile，但同一时间只能启用一个。&lt;/li>
-&lt;li>写好 profile 后，eSTK 可以当实体 SIM 卡插到 Android 手机里用；切换 profile 需要 Android 支持 &lt;code>SIM 卡应用程序&lt;/code>。&lt;/li>
-&lt;li>关闭“允许切换蜂窝数据”，蜂窝数据继续走国内流量卡。&lt;/li>
-&lt;li>平时关闭 giffgaff 数据漫游，收短信和保号走普通短信。&lt;/li>
-&lt;li>iMessage / FaceTime 弹出短信激活收费提示时选取消。&lt;/li>
-&lt;li>启用后等 1-15 分钟，看到 &lt;code>R&lt;/code> 漫游标识或信号条后再测试收短信。&lt;/li>
-&lt;li>没信号先开关飞行模式，等 15 秒；还没信号再重启手机。&lt;/li>
-&lt;li>继续没信号，进 &lt;code>设置 &amp;gt; 蜂窝网络 &amp;gt; 网络选择&lt;/code>，关掉自动，优先手动选中国移动。&lt;/li>
-&lt;li>收不到验证码时，先确认账户状态、eSTK profile、iPhone 线路和网络选择。&lt;/li>
-&lt;li>写入后可以给 &lt;code>+44 78020 02606&lt;/code> 发 &lt;code>hi&lt;/code> 做短信收发测试。&lt;/li>
-&lt;li>登录 giffgaff 官网或 App 用英国本地格式：&lt;code>07xxxxxxxxx&lt;/code>。注册其他服务选英国区号 &lt;code>+44&lt;/code> 后，输入 &lt;code>7xxxxxxxxx&lt;/code>。&lt;/li>
-&lt;li>有些平台会拦截英国号码或海外号码，这类情况换时间、换网络环境、换服务测试。&lt;/li>
-&lt;/ul>
-&lt;h2 id="关闭语音信箱">关闭语音信箱&lt;/h2>
-&lt;p>我在中国漫游状态下直接拨 &lt;code>1626&lt;/code> 打不通，最后走 giffgaff 的海外语音信箱工单：&lt;/p>
-&lt;ol>
-&lt;li>打开 &lt;a href="https://support2.giffgaff.com/app/ask/International-and-Roaming/Accessing-voicemail-while-abroad/form/">Accessing voicemail while abroad&lt;/a>。&lt;/li>
-&lt;li>登录 giffgaff 账号。&lt;/li>
-&lt;li>提交关闭语音信箱的请求。&lt;/li>
-&lt;/ol>
-&lt;p>留言可以直接写：&lt;/p>
-&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
-&lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
-&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">7
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">8
-&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">9
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-text" data-lang="text">Hi giffgaff team,
-I am currently roaming in China and cannot call 1626 to turn off voicemail.
-Could you please disable voicemail for my giffgaff number?
-My giffgaff number: 07xxxxxxxxx
-Thank you.
-&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h2 id="查看手机号">查看手机号&lt;/h2>
-&lt;p>写入并驻网后，giffgaff 会发短信告诉你手机号，短信里通常是英国本地格式：&lt;/p>
-&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
-&lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
-&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-text" data-lang="text">07xxxxxxxxx
-&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>换成国际格式很简单：去掉开头的 &lt;code>0&lt;/code>，前面加 &lt;code>+44&lt;/code>：&lt;/p>
-&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
-&lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
-&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">&lt;code class="language-text" data-lang="text">+44 7xxxxxxxxx
-&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>登录 giffgaff 官网和 App 用 &lt;code>07xxxxxxxxx&lt;/code>，注册其他服务选择英国 &lt;code>+44&lt;/code>，号码填 &lt;code>7xxxxxxxxx&lt;/code>。&lt;/p>
-&lt;p>另外登录 giffgaff 网页版，账号首页也能看到手机号。&lt;/p>
-&lt;h2 id="低成本保号">低成本保号&lt;/h2>
-&lt;p>giffgaff 保号按 180 天内产生一次余额变动来执行，比如发短信、打电话、使用移动数据，或者买话费/套餐。&lt;/p>
-&lt;p>核心就是：每 179 天给 &lt;code>+44 7973000186&lt;/code> 定时发一条短信，内容随意。中国漫游发短信当前是 0.30 英镑/条，约人民币 3 元，收短信免费。一年两条，成本约 0.60 英镑。&lt;/p>
-&lt;p>这里要看清楚余额类型。买 eSIM 时花的钱可能买的是 plan，保号短信扣的是 Airtime credit。发短信前先在 giffgaff App 或网页后台看 credit balance。&lt;/p>
-&lt;p>可以直接用这个快捷指令：&lt;/p>
-&lt;ol>
-&lt;li>打开这个 iCloud 链接：&lt;a href="https://www.icloud.com/shortcuts/b378d5581f474e19ac335d68671d0ed5">giffgaff 保号快捷指令&lt;/a>。&lt;/li>
-&lt;li>第一次运行时，确认发送线路是 giffgaff/eSTK。&lt;/li>
-&lt;li>发送成功后，快捷指令会重新计时，等 179 天后再次发送。&lt;/li>
-&lt;/ol>
-&lt;p>发完之后去 giffgaff App 或用量记录里确认有 0.30 英镑短信扣费记录。如果账户里有 10 英镑 Airtime credit，大约能发 33 条短信，按 179 天一次算，理论上能保号 16 年左右。&lt;/p>
-&lt;p>充值用 Airtime credit，最低充值金额当前是 10 英镑。保号用短信扣话费，别买月套餐。实体卡常见的充值赠送活动和 eSIM 购买流程分开看。&lt;/p>
-&lt;p>余额查询有三种方式：拨 &lt;code>*100#&lt;/code>、登录官网、打开 giffgaff App。保号成功后会有扣费和余额变化，看到余额变动就够了。发给国内号码容易被拦截，保号优先发给 &lt;code>+44 7973000186&lt;/code> 这种英国号码。&lt;/p>
-&lt;h2 id="参考资料">参考资料&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://www.youtube.com/watch?v=0UnJjASaqE8">YouTube：无需手机，全电脑操作：英国 giffgaff 电话卡手把手申请教程&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://help.giffgaff.com/en/articles/261570-switching-to-an-esim-with-giffgaff">giffgaff 官方：Switching to an eSIM with giffgaff&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://help.giffgaff.com/en/articles/242797-understanding-why-your-number-has-been-deactivated">giffgaff 官方：Understanding why your number has been deactivated&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.giffgaff.com/roaming-charges">giffgaff 官方：Roaming charges&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://help.giffgaff.com/en/articles/240847-everything-to-know-about-credit">giffgaff 官方：Everything to know about Credit&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://support.apple.com/en-us/119859">Apple：iMessage 和 FaceTime 激活短信说明&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://store.estk.me/downloads">eSTK：ESTKme 下载入口&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://x.com/nk912114/status/2010322740931387604">X：giffgaff 保号快捷指令&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.giffgaff.shop/qa/07-voicemail-switch/">giffgaff 非官方中文网：关闭 voicemail 语音信箱&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/ssnhd/giffgaff">GitHub：英国实体 SIM 卡 giffgaff 激活使用教程&lt;/a>&lt;/li>
 &lt;/ul></description></item></channel></rss>
