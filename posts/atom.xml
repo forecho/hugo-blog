@@ -16,7 +16,7 @@
 &lt;p>刚开始学 Al Brooks 价格行为学（Price Action）时，大多数人最先上手的入场工具就是&lt;strong>数 K 线（Bar Counting）&lt;/strong>——多头回调找 H1 / H2 挂单做多，空头反弹找 L1 / L2 挂单做空。&lt;/p>
 &lt;p>但实盘里经常碰到让人很难受的场面：你在一段看似不错的上涨趋势里等来回调，在 H1 高点挂 Buy Stop 进场，结果刚成交，下一根 K 线立刻收出大阴线把你按在山顶；你不信邪，等行情走出两腿回调出现 H2 再进一次，结果又被反向砸穿止损。&lt;/p>
 &lt;p>这种连亏并不是数 K 线失效了，而是&lt;strong>市场环境已经悄悄切入了震荡区间（Trading Range）&lt;/strong>。&lt;/p>
-&lt;p>在价格行为学里，H1/H2 和 L1/L2 不只是顺势入场点，它们的**失败（Failure）**更是判断市场换挡最直接的信号——说明原有的单边惯性正在瓦解。&lt;/p></description></item><item><title>为了听懂英文 Trading Room，我开发了一款实时字幕翻译软件 Liveglot</title><link>https://blog.forecho.com/introducing-liveglot.html</link><pubDate>Wed, 18 Nov 2026 10:54:51 +0800</pubDate><guid>https://blog.forecho.com/introducing-liveglot.html</guid><description>&lt;p>&lt;img src="https://imgant.forecho.com/2026/11/18/025805.756-86a10ee9-53d659e5.png" alt="Liveglot 主界面：左侧实时双语字幕，右侧基于本场记录的 AI 聊天">&lt;/p>
+&lt;p>在价格行为学里，H1/H2 和 L1/L2 不只是顺势入场点，它们的&lt;strong>失败&lt;/strong>（Failure）更是判断市场换挡最直接的信号——说明原有的单边惯性正在瓦解。&lt;/p></description></item><item><title>为了听懂英文 Trading Room，我开发了一款实时字幕翻译软件 Liveglot</title><link>https://blog.forecho.com/introducing-liveglot.html</link><pubDate>Wed, 18 Nov 2026 10:54:51 +0800</pubDate><guid>https://blog.forecho.com/introducing-liveglot.html</guid><description>&lt;p>&lt;img src="https://imgant.forecho.com/2026/11/18/025805.756-86a10ee9-53d659e5.png" alt="Liveglot 主界面：左侧实时双语字幕，右侧基于本场记录的 AI 聊天">&lt;/p>
 &lt;h2 id="引言">引言&lt;/h2>
 &lt;p>学了一年多的价格行为学（Price Action），最近我终于付费进了 PA 的英文 Trading Room，想跟着看看老外实盘到底是怎么分析、怎么找入场和止损的。&lt;/p>
 &lt;p>钱是付了，进去以后才发现最大的问题不是看不懂 K 线，而是听不懂。讲师语速本来就快，里面又夹着一堆交易术语和盘口俚语，经常一句话没反应过来，后面两三句已经过去了。&lt;/p>

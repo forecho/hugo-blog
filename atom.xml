@@ -6,8 +6,9 @@
 &lt;h2 id="事故还原连赢-12-天为什么一天全吐回去">事故还原：连赢 12 天，为什么一天全吐回去&lt;/h2>
 &lt;p>发帖的群友网名叫 &lt;strong>TradingRage&lt;/strong>。过去两周他顺着大跌行情，&lt;strong>连续 12 个交易日没有亏过钱&lt;/strong>，赚了一大笔。&lt;/p>
 &lt;p>顺带提一下当时的市场背景——他事后冷静下来顺手统计了一组数据：从 2026 年 11 月 12 日到 11 月 20 日，标普 500 常规时段（RTH）&lt;strong>连续 7 个交易日收跌&lt;/strong>。自 2010 年 6 月以来的约 3,950 个交易日里，连跌 6 天以上总共只出现过 &lt;strong>13 次&lt;/strong>；而&lt;strong>连跌 7 天&lt;/strong>此前只出现过 &lt;strong>1 次&lt;/strong>（2018 年 12 月 21 日），这次刚好追平历史最长连跌纪录。&lt;/p>
-&lt;p>连赢 12 天之后，问题来了。他没有先出金落袋（「taking a paycheck」），反而产生了一种**「自己无敌了（feeling of invincibility）」**的错觉，**直接把仓位从 4 手猛加到了 10 手**。&lt;/p>
+&lt;p>连赢 12 天之后，问题来了。他没有先出金落袋（「taking a paycheck」），反而产生了一种「&lt;strong>自己无敌了&lt;/strong>（feeling of invincibility）」的错觉，&lt;strong>直接把仓位从 4 手猛加到了 10 手&lt;/strong>。&lt;/p>
 &lt;p>当天美股常规时段（RTH）一开盘，灾难就按最经典的剧本上演了：&lt;/p>
+&lt;p>&lt;img src="https://imgant.forecho.com/2026/11/24/d795f1e0.png" alt="当天 ES 5 分钟 RTH 行情图：Bar 1、Bar 2、Bar 8 连空被扫，Bar 14 高位报复追多再被扫止损">&lt;/p>
 &lt;ul>
 &lt;li>开盘在 Bar 1、Bar 2、Bar 8 连续做空博 1:1 测量目标，结果全被扫在 Bar 1 上方半个测量位的止损上；&lt;/li>
 &lt;li>止损之后彻底上头，在 &lt;strong>Bar 14 纯报复性交易（pure revenge）重仓 15 手反手做多&lt;/strong>，紧接着又在 Bar 11 低点被打止损；&lt;/li>
@@ -168,7 +169,7 @@
 &lt;p>这部分是我当天听下来最有共鸣的一段。&lt;/p>
 &lt;h3 id="用不在乎仓位扛过高波动">用「不在乎仓位」扛过高波动&lt;/h3>
 &lt;p>高波动日最容易把小资金直接打废。Mike 现场算了一笔账：像当天这种行情，ES 单根 5 分钟 K 线的波幅就能达到 &lt;strong>19–20 点&lt;/strong>。哪怕你只做 1 手微型标普（MES），单根 K 线的止损风险也要 &lt;strong>100 美元&lt;/strong>——放在一个 2,000 美元的小账户里，一笔就占掉 &lt;strong>5%&lt;/strong>。&lt;/p>
-&lt;p>他给出的标准叫**「不在乎仓位」（I don&amp;rsquo;t care size）**：仓位必须小到哪怕触发全额止损，你的心率也毫无波澜，先保证今天不会被淘汰出局，明天还能继续上场。&lt;/p>
+&lt;p>他给出的标准叫「&lt;strong>不在乎仓位&lt;/strong>」（I don&amp;rsquo;t care size）：仓位必须小到哪怕触发全额止损，你的心率也毫无波澜，先保证今天不会被淘汰出局，明天还能继续上场。&lt;/p>
 &lt;p>交易里犯下的绝大多数大错，刨根问底都是&lt;strong>仓位过大（Improper sizing）&lt;/strong>。仓位一重，盯盘心态立刻变形，该止损的不敢止，该拿住的拿不住。无论账户资金做到多大，成熟交易员其实一直都在交易属于自己的「不在乎仓位」。&lt;/p>
 &lt;h3 id="每日盈利目标-vs-纯粹交易价格行为">每日盈利目标 vs. 纯粹交易价格行为&lt;/h3>
 &lt;p>关于要不要设每日盈利目标，Mike 给了一个挺辩证的说法，没有一刀切。&lt;/p>
@@ -195,7 +196,7 @@
 &lt;p>刚开始学 Al Brooks 价格行为学（Price Action）时，大多数人最先上手的入场工具就是&lt;strong>数 K 线（Bar Counting）&lt;/strong>——多头回调找 H1 / H2 挂单做多，空头反弹找 L1 / L2 挂单做空。&lt;/p>
 &lt;p>但实盘里经常碰到让人很难受的场面：你在一段看似不错的上涨趋势里等来回调，在 H1 高点挂 Buy Stop 进场，结果刚成交，下一根 K 线立刻收出大阴线把你按在山顶；你不信邪，等行情走出两腿回调出现 H2 再进一次，结果又被反向砸穿止损。&lt;/p>
 &lt;p>这种连亏并不是数 K 线失效了，而是&lt;strong>市场环境已经悄悄切入了震荡区间（Trading Range）&lt;/strong>。&lt;/p>
-&lt;p>在价格行为学里，H1/H2 和 L1/L2 不只是顺势入场点，它们的**失败（Failure）**更是判断市场换挡最直接的信号——说明原有的单边惯性正在瓦解。&lt;/p>
+&lt;p>在价格行为学里，H1/H2 和 L1/L2 不只是顺势入场点，它们的&lt;strong>失败&lt;/strong>（Failure）更是判断市场换挡最直接的信号——说明原有的单边惯性正在瓦解。&lt;/p>
 &lt;h2 id="核心逻辑用失败识别环境切换">核心逻辑：用失败识别环境切换&lt;/h2>
 &lt;p>想看懂信号为什么会失效，先要记住 Al Brooks 最核心的&lt;strong>市场惯性定律&lt;/strong>：&lt;/p>
 &lt;blockquote>
@@ -282,7 +283,7 @@
 &lt;/table>
 &lt;p>几个实盘里最容易踩坑的补充：&lt;/p>
 &lt;ul>
-&lt;li>&lt;strong>常规行情主力是 H2 / L2&lt;/strong>：市场回调天然爱走两腿（ABC 结构），大多数时候跳过 H1/L1、等双底/双顶后的 H2/L2 胜率更稳（Al Brooks 课程里标准 H2/L2 在 1:1 盈亏比下常评估在 60% 左右）。但行情走到**第三腿（Wedge）**时，顺势延续概率会明显下降。&lt;/li>
+&lt;li>&lt;strong>常规行情主力是 H2 / L2&lt;/strong>：市场回调天然爱走两腿（ABC 结构），大多数时候跳过 H1/L1、等双底/双顶后的 H2/L2 胜率更稳（Al Brooks 课程里标准 H2/L2 在 1:1 盈亏比下常评估在 60% 左右）。但行情走到&lt;strong>第三腿&lt;/strong>（Wedge）时，顺势延续概率会明显下降。&lt;/li>
 &lt;li>&lt;strong>别把「强趋势末端的高潮」当成「强趋势初期」&lt;/strong>：有时候盘面跌得很猛，但紧接着 L1 就直接失败了，背后往往是&lt;strong>抛售高潮（Sell Climax）&lt;/strong>——最后一波恐慌盘出清、空头集中获利了结，此时 L1 失败恰恰是动能见底、准备转入宽幅反弹或震荡的信号（买盘高潮后的 H1 失败同理）。&lt;/li>
 &lt;li>&lt;strong>真正高胜率的「做失败」是顺大势抓对手盘的 Failed H2/L2&lt;/strong>：比如大空头趋势里，多头反弹做出的 H2 被大阴线直接砸穿，信奉二次入场的多头集体被套，止损盘会直接成为顺势下跌的燃料。&lt;/li>
 &lt;/ul>
